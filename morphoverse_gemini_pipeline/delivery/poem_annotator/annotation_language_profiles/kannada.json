@@ -1,0 +1,65 @@
+{
+  "language": "Kannada",
+  "language_code": "kn",
+  "script": "Kannada",
+  "profile_version": "5K.1.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Kannada-script instantiation)",
+  "romanization_guidance": [
+    "Represent long vowels (aa, ii, uu, ee, oo) with a doubled-letter reader-friendly spelling when it aids recognizability, rather than a diacritic (macron) or a bare single letter that would misrepresent vowel length to an ordinary reader.",
+    "Represent retroflex and aspirated consonants with familiar digraphs rather than diacritics or subscript dots.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem, including across its inflected forms where the root term is what is being romanized."
+  ],
+  "linguistic_guidance": [
+    "Kannada vocabulary includes native Dravidian roots, Sanskrit-derived (tatsama/tadbhava) literary vocabulary, and pan-Indian loanwords; a word's origin alone does not indicate this poem's cultural specificity -- assess its actual role in this text.",
+    "Kannada is agglutinative and forms long compound words (sandhi/samasa); do not treat a compound word's individual morpheme meanings as separately annotatable unless the poem's own use of the compound supports that.",
+    "Kannada verse frequently uses honorific verb forms and address; when a translation collapses an honorific distinction, that is a genuine, text-grounded translation-loss candidate.",
+    "Kannada poetic word order is often inverted relative to English (verb-final, modifiers placed differently); do not treat ordinary Kannada syntax as evidence of a stylistic figure unless the poem's own phrasing does something beyond ordinary word order."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Kannada annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Kannada.",
+    "Do not infer Vachana literature, Carnatic music, a temple setting, Yakshagana performance tradition, Mysuru-specific imagery, generic Karnataka clothing, or a devotional tradition unless the poem's own words name or unambiguously depict that specific content -- these are real and significant Kannada cultural touchstones, but their presence must be text-supported, not assumed as a default backdrop for any Kannada poem.",
+    "Words for dawn, age, mother, earth, river, flower, music, and love are not automatically Kannada-specific cultural cues -- they are common poetic vocabulary; treat them as culturally specific only when the poem's own text gives them a specific, named, or clearly bounded cultural role.",
+    "Distinguish Kannada-specific cultural meaning from broader Dravidian-region or pan-Indian/Sanskritic vocabulary that merely happens to also appear in Kannada; a shared pan-Indian devotional term is not automatically a Kannada-specific cultural marker."
+  ],
+  "literary_context_cautions": [
+    "Kannada literary history spans multiple distinct traditions and periods (classical Halegannada, Vachana/Virashaiva devotional literature, Navodaya romanticism, Navya modernism, contemporary free verse) -- do not assume a poem belongs to a specific one without textual evidence, and do not force a single tradition onto a poem consistent with more than one.",
+    "If a poem includes direct devotional address to a specific named deity or linga (in the manner of Vachana poetry), this is a real, well-documented literary convention where such address is literal devotional speech rather than figurative language -- but this classification applies only when a named deity/linga is explicitly addressed in the text, not to every instance of intense or reverent address (a point flagged REVIEW_REQUIRED in the legacy audit; treat this rule conservatively pending native-reviewer confirmation)."
+  ],
+  "translation_cautions": [
+    "Watch for honorific verb-form distinctions collapsing into an undifferentiated English register.",
+    "Watch for compound-word (sandhi/samasa) meaning being either over-decomposed (each morpheme translated separately when the compound has a unified sense) or under-decomposed (a meaningfully composite term flattened to a single vague gloss).",
+    "Watch for inverted or verb-final Kannada word order producing an English translation that reorders emphasis in a way that changes which element the poem foregrounds -- note this as a documented loss when it does."
+  ],
+  "figurative_language_cautions": [
+    "Kannada devotional (Vachana-tradition) poetry can blur the line between literal address to a deity and figurative address to an abstract ideal; classify expression_type based on what the poem's own text evidences (an explicitly named divine addressee versus an unnamed or abstract one), not on the poem's general devotional tone alone."
+  ],
+  "visual_representation_cautions": [
+    "When a cultural or figurative element is genuinely visualizable, offer multiple acceptable_visual_variants rather than a single fixed scene, and do not default to temple, Yakshagana-costume, or generic 'South Indian village' imagery unless the text specifically supports it.",
+    "negative_confusions for a Kannada entity should name a plausible, specific incorrect substitution (e.g. confusing Karnataka-specific regional identity for a generic pan-South-Indian or pan-Indian one), not a generic stereotype."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'you are steeped in Vachana literature and Carnatic music' framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a Kannada poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a devotional-sounding address could plausibly be either literal (to a named deity/linga) or figurative (to an abstract ideal or beloved), and the text does not disambiguate, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact.",
+    "When a compound word's exact scope is ambiguous, prefer the reading supported by the surrounding stanza context and flag genuine ambiguity via the explicit-uncertainty mechanism rather than guessing."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume the speaker's religion, caste, region within Karnataka, or gender beyond what the text states.",
+    "Do not assume a specific historical period (e.g. Hoysala, Vijayanagara, colonial, contemporary) unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L01",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L02",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L04",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L08 (kannada.py's worked examples rejected wholesale)",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L11 (Vachana/linga-address rule included only in conditional, REVIEW_REQUIRED form)",
+    "stage_5k1_task_instructions#TASK_8"
+  ]
+}

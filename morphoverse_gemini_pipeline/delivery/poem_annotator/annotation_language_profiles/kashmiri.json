@@ -1,0 +1,64 @@
+{
+  "language": "Kashmiri",
+  "language_code": "ks",
+  "script": "as stored in the canonical MorphoVerse dataset for this poem (Perso-Arabic or Devanagari; verify per-record rather than assuming)",
+  "profile_version": "5K.1.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Kashmiri script-ambiguous instantiation)",
+  "romanization_guidance": [
+    "Kashmiri is written in both Perso-Arabic (Nastaliq-based) and Devanagari scripts depending on source and community; identify which script the specific poem's original_poem text actually uses before romanizing, rather than assuming one.",
+    "Kashmiri vowel representation is genuinely uncertain across both scripts for a non-specialist reader; when a term's vowel quality cannot be confidently determined from the written form alone, choose the most common reader-friendly rendering and flag the uncertainty via translation_note rather than presenting one romanization as definitively correct.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Kashmiri (Koshur) is a distinct Dardic language, not a dialect of Urdu, Hindi, or Persian, even though it may be written in a Perso-Arabic script and shares vocabulary with those languages -- do not conflate Kashmiri with Urdu/Hindi/Persian identity when identifying cultural or linguistic content.",
+    "Because Kashmiri is comparatively under-resourced in existing NLP/annotation tooling, prefer maximally specific, text-grounded loss_note and translation_note content over a generic gloss whenever a genuine loss is identified -- do not compensate for uncertainty by writing a vaguer note.",
+    "Vocabulary shared with Persian, Urdu, or Sanskrit registers is not automatically Kashmiri-specific -- assess each term's actual role in this poem's own text."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Kashmiri annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Kashmiri.",
+    "Do not infer Kashmiri Sufi tradition, Shaivite (Kashmir Shaivism) tradition, chinar trees, snow landscapes, pheran clothing, the samovar, shrine imagery, or conflict/political imagery unless the poem's own words name or unambiguously depict that specific content -- these are common outside shorthands for 'Kashmiri culture' (including in ways that risk politicizing or exoticizing the poem) and must not be assumed as a default backdrop.",
+    "Words for tavern, wine, garden, moon, longing, loneliness, and general spiritual vocabulary are not automatically Kashmiri-specific cultural cues -- this vocabulary is shared across Persianate and Sufi poetic traditions broadly; treat it as culturally specific only when the poem's own text gives it a specific, named, or clearly bounded Kashmiri role.",
+    "Distinguish Kashmiri-specific culture from the broader Persianate, Sanskritic, Sufi, and Shaivite traditions it shares vocabulary and imagery with -- shared vocabulary is not proof of Kashmiri-specific content, and Kashmiri-specific content should not be flattened into a generic 'Persianate/Sufi' label either."
+  ],
+  "literary_context_cautions": [
+    "Kashmiri literary history includes distinct major voices and traditions (Lal Ded's mystic vakhs, Sufi Rishi-order verse, Habba Khatoon-style romantic lyric, modern lyric poetry) -- do not assume a poem belongs to a specific one without textual evidence, and do not force a single tradition onto a poem consistent with more than one.",
+    "Do not assume every Kashmiri poem engages with political conflict or displacement; annotate only what the poem's own text supports."
+  ],
+  "translation_cautions": [
+    "Watch for script-transition ambiguity itself producing a translation/transliteration side-effect (a term rendered differently depending on which script the source used) -- document this explicitly rather than silently normalizing it.",
+    "Because of Kashmiri's under-resourced status, prefer a specific, well-evidenced loss_note over a shorter, vaguer one whenever a genuine translation loss is identified."
+  ],
+  "figurative_language_cautions": [
+    "Mystic/Sufi-register vocabulary (longing, wine, the beloved, union) may be genuinely ambiguous between secular-romantic and devotional-mystic readings; do not resolve this ambiguity by default assumption -- use the text's own evidence, and use the explicit-uncertainty mechanism when it is genuinely unresolvable."
+  ],
+  "visual_representation_cautions": [
+    "When a cultural or figurative element is genuinely visualizable, offer multiple acceptable_visual_variants rather than a single fixed scene, and do not default to chinar-tree, snow-landscape, or shrine imagery unless the text specifically supports it.",
+    "negative_confusions for a Kashmiri entity should name a plausible, specific incorrect substitution, not a generic stereotype, and should not default to politically-charged imagery absent direct textual evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'you are steeped in an ancient, endangered, irreplaceable tradition' framing when annotating -- this kind of framing pressures romanticized or overconfident cultural claims; annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- the pilot's own sanity-check use case demonstrates a Kashmiri poem can have zero cultural entities and that is a valid outcome, not an incomplete annotation."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term's script origin, vowel quality, or Sufi-versus-secular reading is genuinely uncertain, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting a specific interpretation as fact.",
+    "Preserve genuine polysemy in Kashmiri mystic vocabulary rather than collapsing it to a single English sense."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume the speaker's religion (Kashmiri poetry spans Hindu Pandit, Muslim, and secular voices) beyond what the text states.",
+    "Do not assume a specific historical or political period unless the text itself places the poem there.",
+    "Do not assume which script the underlying dataset record uses without checking the actual original_poem text.",
+    "Do not assume gender beyond what the text states."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L01",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L02",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L04",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L08 (kashmiri.py's worked examples rejected wholesale)",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L09 (script/language-identity caution promoted, reworded away from stereotyping frame)",
+    "stage_5k1_task_instructions#TASK_9"
+  ]
+}

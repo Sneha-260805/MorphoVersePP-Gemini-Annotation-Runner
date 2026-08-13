@@ -1,0 +1,61 @@
+{
+  "language": "Sindhi",
+  "language_code": "sd",
+  "script": "as stored in the canonical MorphoVerse dataset for this poem (Perso-Arabic; verify per-record rather than assuming)",
+  "profile_version": "5K.1.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Sindhi Perso-Arabic-script instantiation)",
+  "romanization_guidance": [
+    "Sindhi's Perso-Arabic-based script includes implosive consonants and vowel distinctions that ordinary ASCII cannot represent precisely; choose the most common reader-friendly rendering and flag genuine vowel/consonant ambiguity via translation_note rather than presenting one romanization as definitively precise.",
+    "Use a widely-recognized conventional spelling for well-known names/places (e.g. a widely known poet or place name) when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem.",
+    "Do not use scholarly Perso-Arabic transliteration conventions (e.g. ayin/hamza marks, macrons) -- ASCII letters, spaces, apostrophes, and hyphens only, per the shared romanization policy."
+  ],
+  "linguistic_guidance": [
+    "Sindhi vocabulary draws on Sufi-devotional, Persianate, Islamic, and Hindu-Sindhi registers; a term's origin in one of these traditions does not by itself indicate this poem's cultural specificity -- assess its actual role in this text.",
+    "Sindhi poetry has a strong oral/sung performance tradition (including the Sur/raga-associated forms); do not assume a specific performance context beyond what the text itself supports."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Sindhi annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Sindhi.",
+    "Do not infer Shah Abdul Latif Bhittai or his Sur poetry, Sufi shrine imagery, Ajrak (block-print textile), the Sindhi topi (cap), desert landscapes, Indus-river imagery, or specific folk instruments unless the poem's own words name or unambiguously depict that specific content -- these are common outside shorthands for 'Sindhi culture' and must not be assumed as a default backdrop.",
+    "Words for love, soul, remembrance, journey, desert, river, and longing are not automatically Sindhi-specific cultural cues -- this vocabulary is shared across Sufi and South Asian devotional poetic traditions broadly; treat it as culturally specific only when the poem's own text gives it a specific, named, or clearly bounded Sindhi role.",
+    "Do not conflate Sufi-devotional and Hindu-Sindhi devotional registers (e.g. Jhulelal/Darya Shah veneration) -- both are genuine, distinct Sindhi traditions; annotate strictly by which the poem's own text actually evidences, and preserve ambiguity rather than defaulting to one when the text does not clearly indicate which."
+  ],
+  "literary_context_cautions": [
+    "Sindhi literary tradition includes multiple distinct strands (classical Sur poetry, Sufi devotional verse, Hindu-Sindhi devotional verse, partition/displacement-era literature, contemporary verse) -- do not assume a poem belongs to a specific one without textual evidence.",
+    "Do not assume every Sindhi poem engages with partition or displacement; annotate only what the poem's own text supports."
+  ],
+  "translation_cautions": [
+    "Watch for a named devotional practice (e.g. a specific Sufi practice) being translated with a generic English equivalent (e.g. 'prayer' or 'meditation') that loses its specific identity -- note this as translation loss.",
+    "Watch for Sufi-devotional vocabulary being flattened to generic mysticism vocabulary in translation, losing the tradition-specific register."
+  ],
+  "figurative_language_cautions": [
+    "Sufi-register vocabulary (the beloved, wine, union, the journey) may be genuinely ambiguous between secular-romantic and devotional-mystic readings; resolve this only from the poem's own textual evidence, and use the explicit-uncertainty mechanism when it is genuinely unresolvable."
+  ],
+  "visual_representation_cautions": [
+    "When a cultural or figurative element is genuinely visualizable, offer multiple acceptable_visual_variants rather than a single fixed scene, and do not default to shrine, desert, or Ajrak-textile imagery unless the text specifically supports it.",
+    "negative_confusions for a Sindhi entity should name a plausible, specific incorrect substitution -- for example, distinguishing a specific named devotional practice from generic prayer/meditation imagery, or distinguishing Sufi figures from an unrelated-religion generic holy-man stereotype -- not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a performative 'immersed in Sur poetry and Sufi tradition' framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a Sindhi poem with zero or few text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a devotional term could plausibly belong to either the Sufi or Hindu-Sindhi register, or to either a secular-romantic or devotional-mystic reading, and the poem's own text does not disambiguate, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume the speaker's religion (Sufi Muslim, Hindu Sindhi, or secular) beyond what the text states.",
+    "Do not assume a specific historical period (e.g. pre-partition, partition-era, contemporary) unless the text itself places the poem there.",
+    "Do not assume gender beyond what the text states."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L01",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L02",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L04",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L08 (sindhi.py's worked examples rejected wholesale)",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L10 (Sufi/Hindu-Sindhi register-conflation caution promoted, reworded)",
+    "stage_5k1_task_instructions#TASK_10"
+  ]
+}

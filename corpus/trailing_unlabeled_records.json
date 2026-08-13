@@ -1,0 +1,45 @@
+{
+  "total_trailing_records": 4,
+  "records": [
+    {
+      "excel_row": 1573,
+      "title": "Chand Ka Munh",
+      "translated_title": "The Moon's Face",
+      "poet": "Suryakant Tripathi 'Nirala'",
+      "translator": "N/A",
+      "script_observation": "non-Latin script present",
+      "reason_excluded": "Outside canonical 1,570-record boundary and missing required Language field.",
+      "classification": "TRAILING_UNLABELED_EXTRA_RECORD"
+    },
+    {
+      "excel_row": 1574,
+      "title": "Nadiya",
+      "translated_title": "The River",
+      "poet": "Biharilal Chakbast",
+      "translator": "N/A",
+      "script_observation": "non-Latin script present",
+      "reason_excluded": "Outside canonical 1,570-record boundary and missing required Language field.",
+      "classification": "TRAILING_UNLABELED_EXTRA_RECORD"
+    },
+    {
+      "excel_row": 1575,
+      "title": "Sankalp",
+      "translated_title": "Resolution",
+      "poet": "Kumar Vishwas",
+      "translator": "N/A",
+      "script_observation": "non-Latin script present",
+      "reason_excluded": "Outside canonical 1,570-record boundary and missing required Language field.",
+      "classification": "TRAILING_UNLABELED_EXTRA_RECORD"
+    },
+    {
+      "excel_row": 1576,
+      "title": "Choti Si Baat",
+      "translated_title": "A Small Matter",
+      "poet": "Gulzar",
+      "translator": "N/A",
+      "script_observation": "non-Latin script present",
+      "reason_excluded": "Outside canonical 1,570-record boundary and missing required Language field.",
+      "classification": "TRAILING_UNLABELED_EXTRA_RECORD"
+    }
+  ]
+}

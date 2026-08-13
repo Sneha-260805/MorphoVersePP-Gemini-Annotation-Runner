@@ -1,0 +1,272 @@
+{
+  "languages": {
+    "Assamese": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 7,
+      "profile_file": null
+    },
+    "Bengali": {
+      "classification": "SUPPORTED_PILOT_VALIDATED",
+      "poem_count": 28,
+      "profile_file": "annotation_language_profiles/bengali.json"
+    },
+    "Bodo": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 9,
+      "profile_file": null
+    },
+    "Dogri": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 10,
+      "profile_file": null
+    },
+    "Gujarati": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 1,
+      "profile_file": null
+    },
+    "Hindi": {
+      "classification": "SUPPORTED_PILOT_VALIDATED",
+      "poem_count": 850,
+      "profile_file": "annotation_language_profiles/hindi.json"
+    },
+    "Kannada": {
+      "classification": "SUPPORTED_PILOT_VALIDATED",
+      "poem_count": 245,
+      "profile_file": "annotation_language_profiles/kannada.json"
+    },
+    "Kashmiri": {
+      "classification": "SUPPORTED_PILOT_VALIDATED",
+      "poem_count": 12,
+      "profile_file": "annotation_language_profiles/kashmiri.json"
+    },
+    "Konkani": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 11,
+      "profile_file": null
+    },
+    "Malayalam": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 10,
+      "profile_file": null
+    },
+    "Manipuri": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 5,
+      "profile_file": null
+    },
+    "Marathi": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 10,
+      "profile_file": null
+    },
+    "Odia": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 10,
+      "profile_file": null
+    },
+    "Punjabi": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 19,
+      "profile_file": null
+    },
+    "Rajasthani": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 7,
+      "profile_file": null
+    },
+    "Sanskrit": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 1,
+      "profile_file": null
+    },
+    "Santhali": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 6,
+      "profile_file": null
+    },
+    "Sindhi": {
+      "classification": "SUPPORTED_PILOT_VALIDATED",
+      "poem_count": 8,
+      "profile_file": "annotation_language_profiles/sindhi.json"
+    },
+    "Tamil": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 179,
+      "profile_file": null
+    },
+    "Telugu": {
+      "classification": "SUPPORTED_PILOT_VALIDATED",
+      "poem_count": 121,
+      "profile_file": "annotation_language_profiles/telugu.json"
+    },
+    "Urdu": {
+      "classification": "PROFILE_MISSING",
+      "poem_count": 21,
+      "profile_file": null
+    }
+  },
+  "supported_language_count": 6,
+  "blocked_language_count": 15,
+  "supported_poem_count": 1264,
+  "blocked_poem_count": 306,
+  "missing_language_profiles": [
+    {
+      "language": "Assamese",
+      "affected_poem_count": 7,
+      "example_poem_ids": [
+        "MV++_0001",
+        "MV++_0002",
+        "MV++_0003",
+        "MV++_0004",
+        "MV++_0005"
+      ]
+    },
+    {
+      "language": "Bodo",
+      "affected_poem_count": 9,
+      "example_poem_ids": [
+        "MV++_0036",
+        "MV++_0037",
+        "MV++_0038",
+        "MV++_0039",
+        "MV++_0040"
+      ]
+    },
+    {
+      "language": "Dogri",
+      "affected_poem_count": 10,
+      "example_poem_ids": [
+        "MV++_0045",
+        "MV++_0046",
+        "MV++_0047",
+        "MV++_0048",
+        "MV++_0049"
+      ]
+    },
+    {
+      "language": "Gujarati",
+      "affected_poem_count": 1,
+      "example_poem_ids": [
+        "MV++_0055"
+      ]
+    },
+    {
+      "language": "Konkani",
+      "affected_poem_count": 11,
+      "example_poem_ids": [
+        "MV++_1163",
+        "MV++_1164",
+        "MV++_1165",
+        "MV++_1166",
+        "MV++_1167"
+      ]
+    },
+    {
+      "language": "Malayalam",
+      "affected_poem_count": 10,
+      "example_poem_ids": [
+        "MV++_1174",
+        "MV++_1175",
+        "MV++_1176",
+        "MV++_1177",
+        "MV++_1178"
+      ]
+    },
+    {
+      "language": "Manipuri",
+      "affected_poem_count": 5,
+      "example_poem_ids": [
+        "MV++_1184",
+        "MV++_1185",
+        "MV++_1186",
+        "MV++_1187",
+        "MV++_1188"
+      ]
+    },
+    {
+      "language": "Marathi",
+      "affected_poem_count": 10,
+      "example_poem_ids": [
+        "MV++_1189",
+        "MV++_1190",
+        "MV++_1191",
+        "MV++_1192",
+        "MV++_1193"
+      ]
+    },
+    {
+      "language": "Odia",
+      "affected_poem_count": 10,
+      "example_poem_ids": [
+        "MV++_1199",
+        "MV++_1200",
+        "MV++_1201",
+        "MV++_1202",
+        "MV++_1203"
+      ]
+    },
+    {
+      "language": "Punjabi",
+      "affected_poem_count": 19,
+      "example_poem_ids": [
+        "MV++_1209",
+        "MV++_1210",
+        "MV++_1211",
+        "MV++_1212",
+        "MV++_1213"
+      ]
+    },
+    {
+      "language": "Rajasthani",
+      "affected_poem_count": 7,
+      "example_poem_ids": [
+        "MV++_1228",
+        "MV++_1229",
+        "MV++_1230",
+        "MV++_1231",
+        "MV++_1232"
+      ]
+    },
+    {
+      "language": "Sanskrit",
+      "affected_poem_count": 1,
+      "example_poem_ids": [
+        "MV++_1235"
+      ]
+    },
+    {
+      "language": "Santhali",
+      "affected_poem_count": 6,
+      "example_poem_ids": [
+        "MV++_1236",
+        "MV++_1237",
+        "MV++_1238",
+        "MV++_1239",
+        "MV++_1240"
+      ]
+    },
+    {
+      "language": "Tamil",
+      "affected_poem_count": 179,
+      "example_poem_ids": [
+        "MV++_1250",
+        "MV++_1251",
+        "MV++_1252",
+        "MV++_1253",
+        "MV++_1254"
+      ]
+    },
+    {
+      "language": "Urdu",
+      "affected_poem_count": 21,
+      "example_poem_ids": [
+        "MV++_1550",
+        "MV++_1551",
+        "MV++_1552",
+        "MV++_1553",
+        "MV++_1554"
+      ]
+    }
+  ]
+}

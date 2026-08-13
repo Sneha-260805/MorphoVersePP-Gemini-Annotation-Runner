@@ -1,0 +1,65 @@
+{
+  "language": "Hindi",
+  "language_code": "hi",
+  "script": "Devanagari",
+  "profile_version": "5K.1.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Devanagari-script instantiation)",
+  "romanization_guidance": [
+    "Represent the inherent schwa in familiar reader-friendly spelling: keep a final schwa that is actually pronounced (e.g. a word ending in a consonant that Hindi speakers voice with a light final vowel) but drop a schwa that is conventionally silent in modern spoken Hindi, matching how the word is commonly written in reader-friendly transliteration rather than a strict scholarly (IAST-style) scheme.",
+    "Use commonly recognized spellings for well-known names, places, and terms when an established conventional English spelling already exists, instead of a fresh phonetic rendering.",
+    "Represent aspirated and retroflex consonants with familiar digraphs (kh, gh, ch, jh, th, dh, ph, bh) rather than diacritics or subscript dots.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Hindi vocabulary spans Sanskrit-derived (tatsama), Persian/Arabic-derived (via Hindustani/Urdu register), and everyday colloquial registers; a word's etymological origin alone does not indicate this poem's cultural specificity -- assess the word's actual role in this specific text.",
+    "Hindi grammatical gender applies to nouns, adjectives, and verb agreement; when a translation collapses or alters this (e.g. rendering a grammatically feminine subject with a gender-neutral or masculine-default English construction), that is a genuine, text-grounded translation-loss candidate.",
+    "Hindi postpositions (ne, ko, se, mein, par, ki/ke/ka) carry case-like grammatical information that English prepositions do not map onto one-to-one; a shift in postposition-carried meaning across translation is a legitimate loss_note candidate, not something to paper over.",
+    "Repeated words or phrases used for rhythmic or emphatic effect are ordinary Hindi poetic technique, not automatically a distinct figurative expression on each occurrence.",
+    "Distinguish Hindi, Hindustani, and Urdu-register vocabulary carefully: a Persian/Urdu-derived word appearing in a Hindi-labeled poem is not evidence of mislabeling by itself, but do not silently reclassify the poem's language, and do not assume Islamic devotional content merely from Persian/Urdu-origin vocabulary any more than Hindu devotional content should be assumed from Sanskrit-origin vocabulary."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Hindi annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Hindi.",
+    "Do not infer Bhakti devotional tradition, Sufi tradition, Bollywood-style imagery, generic North Indian clothing, generic village imagery, generic Hindu religious imagery, or Mughal-era imagery unless the poem's own words name or unambiguously depict that specific content -- these are common outside shorthands for 'Hindi/Hindustani culture' and must not be assumed as a default backdrop.",
+    "Words for heart, garden, moon, cloth, story, tears, and love are not automatically Hindi-specific cultural cues -- they are common poetic vocabulary; treat them as culturally specific only when the poem's own text gives them a specific, named, or clearly bounded cultural role."
+  ],
+  "literary_context_cautions": [
+    "Hindi literary history spans multiple distinct registers and movements (Bhakti-era devotional verse, Chhayavad romanticism, Nayi Kavita modernism, contemporary free verse, film-lyric-influenced popular verse) -- do not assume a poem belongs to a specific one without textual evidence, and do not force a single tradition onto a poem consistent with more than one."
+  ],
+  "translation_cautions": [
+    "Watch specifically for lost grammatical gender marking (a feminine-marked subject rendered with a gender-neutral or incorrect-gender English construction).",
+    "Watch for postposition-carried case/relational meaning being flattened into a generic English preposition with a documented change in nuance.",
+    "Watch for repeated forms and polysemous words being translated inconsistently (the same Hindi word rendered two different ways across stanzas without a clear reason) or over-consistently (two genuinely different senses of a polysemous word forced into one English word).",
+    "Watch for ambiguous verbal forms (e.g. a verb form that could carry more than one aspectual or modal reading) being resolved silently to one English reading without noting the alternative."
+  ],
+  "figurative_language_cautions": [
+    "Hindi Bhakti and Chhayavad-influenced poetry often uses devotional-sounding vocabulary (e.g. terms for longing, union, the beloved) in a purely secular romantic sense or vice versa; do not assume the devotional reading is correct without textual support for a divine addressee, and do not assume the secular reading is correct without textual support against one."
+  ],
+  "visual_representation_cautions": [
+    "When a cultural or figurative element is genuinely visualizable, offer multiple acceptable_visual_variants rather than a single fixed scene, and do not default to temple, Bollywood-song, or generic-village imagery unless the text specifically supports it.",
+    "negative_confusions for a Hindi entity should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'you are steeped in Ramayana/Mahabharata/Bhakti tradition' framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a Hindi poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term could plausibly be either a Sanskrit-derived devotional/philosophical term or an ordinary colloquial Hindi word depending on context, and the text does not disambiguate, prefer the more conservative (non-cultural) reading and use the explicit-uncertainty mechanism rather than asserting the culturally loaded reading as fact.",
+    "When a verbal or postposition-based ambiguity cannot be safely resolved from the text alone, prefer the reading supported by the translation but note the alternative via the explicit-uncertainty mechanism rather than silently picking one."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it.",
+    "Do not assume Hindi implies Hindu religious content, or that Urdu/Persian-derived vocabulary implies Islamic religious content, without direct textual support."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L01",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L02",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L04",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L08 (hindi.py's worked examples rejected wholesale)",
+    "stage_5k1_task_instructions#TASK_7"
+  ]
+}

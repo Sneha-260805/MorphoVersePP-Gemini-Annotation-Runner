@@ -1,0 +1,45 @@
+{
+  "ready_for_full_corpus": false,
+  "total_poems": 1570,
+  "supported_poems": 1264,
+  "blocked_poems": 306,
+  "pilot_already_generated": 6,
+  "new_supported_generations": 1258,
+  "languages": 21,
+  "supported_languages": [
+    "Bengali",
+    "Hindi",
+    "Kannada",
+    "Kashmiri",
+    "Sindhi",
+    "Telugu"
+  ],
+  "blocked_languages": [
+    "Assamese",
+    "Bodo",
+    "Dogri",
+    "Gujarati",
+    "Konkani",
+    "Malayalam",
+    "Manipuri",
+    "Marathi",
+    "Odia",
+    "Punjabi",
+    "Rajasthani",
+    "Sanskrit",
+    "Santhali",
+    "Tamil",
+    "Urdu"
+  ],
+  "blocking_reasons": [
+    "15 language(s) have no approved v1.1 language addendum (306 poems affected): Assamese, Bodo, Dogri, Gujarati, Konkani, Malayalam, Manipuri, Marathi, Odia, Punjabi, Rajasthani, Sanskrit, Santhali, Tamil, Urdu. See BLOCKED_LANGUAGES.md."
+  ],
+  "consistency_check": {
+    "pilot_plus_new_plus_blocked": 1570,
+    "equals_total_poems": true
+  },
+  "notes": [
+    "Derived programmatically from corpus/corpus_inventory.json and corpus/language_profile_coverage.json, which are themselves derived from data/raw/Indian_poem_dataset.xlsx via scripts/build_corpus_from_excel.py — not hand-set.",
+    "supported_poems/blocked_poems include the 6 already-generated pilot poems (see corpus/corpus_inventory.csv's pilot_status column); those 6 are excluded from default assignments regardless of language support."
+  ]
+}

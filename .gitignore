@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+local_provider_runs/
+checkpoints/local/
+logs/
+tmp/
+
+service-account*.json
+*credentials*.json
+*.key
+*.pem
+
+# Working checkpoints and reports are teammate-local by default; the team
+# workflow only expects validated MODEL_CANDIDATE JSON files under
+# outputs/model_candidates/ to be committed (see TEAM_RUNBOOK.md). Checkpoint
+# ledgers and reports are NOT ignored blanket here because some stages of the
+# runbook ask teammates to commit a sanitized batch summary from reports/ —
+# ignore only the raw/local subtrees above, not outputs/ or reports/ wholesale.
+
+_copy_manifest_partial.json

@@ -1,0 +1,67 @@
+{
+  "language": "Telugu",
+  "language_code": "te",
+  "script": "Telugu",
+  "profile_version": "5K.1.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Telugu-script instantiation)",
+  "romanization_guidance": [
+    "Represent long vowels (aa, ii, uu, ee, oo) with a doubled-letter reader-friendly spelling when it aids recognizability, rather than a diacritic (macron) or a bare single letter that would misrepresent vowel length to an ordinary reader.",
+    "Represent aspirated and retroflex consonants with familiar digraphs rather than diacritics or subscript dots.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem, including across its inflected forms where the root term is what is being romanized."
+  ],
+  "linguistic_guidance": [
+    "Telugu vocabulary spans native Dravidian roots, heavy Sanskrit-derived (tatsama/tadbhava) literary vocabulary from the classical Prabandha tradition, and pan-Indian devotional loanwords; a word's origin alone does not indicate this poem's cultural specificity -- assess its actual role in this text.",
+    "Telugu is agglutinative with extensive compounding (sandhi/samasa); do not treat a compound word's individual morpheme meanings as separately annotatable unless the poem's own use of the compound supports that.",
+    "Telugu verse frequently uses honorific and formal address forms; when a translation collapses an honorific distinction, that is a genuine, text-grounded translation-loss candidate."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Telugu annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Telugu.",
+    "Do not infer Carnatic music, Kuchipudi dance, temple architecture, Bhakti devotional tradition, Andhra- or Telangana-specific clothing, a village/agricultural setting, or a specific named deity unless the poem's own words name or unambiguously depict that specific content -- these are real and significant Telugu cultural touchstones, but their presence must be text-supported, not assumed as a default backdrop for any Telugu poem.",
+    "Words for flowers, moonlight, veena, koel (cuckoo), love, devotion, rain, dream, and longing must not automatically be treated as Telugu-specific -- they are common poetic vocabulary shared across many Indian and non-Indian poetic traditions; treat them as culturally specific only when the poem's own text gives them a specific, named, or clearly bounded cultural role.",
+    "Distinguish Telugu-specific culture from the broader Dravidian-region culture, Sanskrit-derived literary vocabulary, pan-Indian devotional (Bhakti) vocabulary, and universal poetic imagery it shares surface vocabulary with -- shared vocabulary is not proof of Telugu-specific content."
+  ],
+  "literary_context_cautions": [
+    "Telugu literary history spans multiple distinct periods and traditions (classical Prabandha court poetry, Bhakti-era devotional verse, colonial-era reform literature, modern free verse, contemporary poetry) -- do not assume a poem belongs to a specific one without textual evidence, and do not force a single tradition onto a poem consistent with more than one."
+  ],
+  "translation_cautions": [
+    "Watch for honorific and formal-address distinctions collapsing into an undifferentiated English register.",
+    "Watch for compound-word (sandhi/samasa) meaning being either over-decomposed (each morpheme translated separately when the compound has a unified sense) or under-decomposed (a meaningfully composite term flattened to a single vague gloss).",
+    "Watch for a culturally loaded term being translated with a generic English equivalent that loses its specific register -- note this as translation loss rather than silently accepting the generic gloss as equivalent."
+  ],
+  "figurative_language_cautions": [
+    "Telugu classical poetry makes extensive, well-documented use of upama (simile) and rupaka (metaphor); before annotating a given image as figurative, confirm the poem's own text gives it a specific figurative role in this context rather than treating every nature or devotional-adjacent image as automatically metaphorical.",
+    "Culturally meaningful terms (e.g. an image drawn from Carnatic music or classical dance vocabulary) should be annotated as culturally specific only when their role in this poem's own context is defensible, not merely because the word itself has a cultural association in general usage."
+  ],
+  "visual_representation_cautions": [
+    "When a cultural or figurative element is genuinely visualizable, offer multiple acceptable_visual_variants rather than a single fixed scene, and do not default to temple, Kuchipudi-costume, or generic 'South Indian village' imagery unless the text specifically supports it.",
+    "Do not insert rituals, temples, jewelry, clothing, or deity imagery into a visual suggestion unless the poem's own text supports that specific content.",
+    "negative_confusions for a Telugu entity should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'you are steeped in the Prabandha tradition and Carnatic music's poetic heritage' framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a Telugu poem with zero text-supported cultural entities is a valid, expected outcome, not a sign of an incomplete annotation.",
+    "Do not rely on a hardcoded per-term suppression list (e.g. treating a specific season word as always non-cultural); instead apply the general universal-concept rule to every term this poem actually contains, so the same reasoning scales to poems the list was never written for."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term could plausibly be either a Sanskrit-derived devotional/classical term or an ordinary colloquial Telugu word depending on context, and the poem's own text does not disambiguate, prefer the more conservative (non-cultural) reading and use the explicit-uncertainty mechanism rather than asserting the culturally loaded reading as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume the speaker's religion, caste, region (Andhra vs. Telangana), or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban or agricultural setting unless the text specifies it.",
+    "Do not assume a specific named deity is present merely because the poem has a devotional tone."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L01",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L02",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L04",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L08 (telugu.py's worked examples, including the embedded MV++_1451/1452/1468 text, rejected wholesale)",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L15 (Telugu's legacy word-count caps rejected as a deprecated token-budget workaround, not genuine linguistic guidance)",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L16 (config.py's hardcoded Telugu NON_CULTURAL_ENTITY_TERMS denylist superseded by the general universal-concept rule, not carried forward as a per-term list)",
+    "stage_5k1_task_instructions#TASK_11"
+  ]
+}

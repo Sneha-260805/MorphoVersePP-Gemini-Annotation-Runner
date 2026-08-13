@@ -1,0 +1,28 @@
+# MorphoVerse++ Gemini Annotation Runner — runtime + test dependencies.
+#
+# Determined by tracing the actual imports of the 21-module runtime closure
+# copied into morphoverse_gemini_pipeline/delivery/poem_annotator/ (entry
+# points: gemini_pilot_execution_v1_1.py, vertex_canary_execution_v1_1.py,
+# gemini_backfill_executor_v1_1.py) plus their one transitive sibling
+# dependency, api.py. Neither of the other two big-name LLM vendor SDKs is
+# imported anywhere in this closure — verified by AST-based import scan in
+# tests/test_imports_and_dependencies.py.
+#
+# NOT included on purpose, even though they exist as *optional* imports
+# inside indic_bert_context.py (numpy, torch, transformers, sentence_transformers,
+# faiss): every one of those imports is wrapped in try/except at module load
+# time and the semantic-alignment path they support is off by default
+# (USE_SEMANTIC_ALIGNMENT=0). Install them yourself only if you intend to
+# turn that flag on; the annotation runner does not need them.
+
+# Vertex AI (Gemini) access — google-genai SDK, enterprise/Vertex mode, ADC auth.
+google-genai==2.14.0
+google-auth==2.56.2
+
+# models.py imports the sibling api.py (legacy proxy HTTP client) at module
+# level. That code path (call_model_text / fetch_gemini_annotation) is dead
+# in this Vertex-only runner, but the import must still resolve.
+requests==2.34.2
+
+# Test runner.
+pytest==9.1.1

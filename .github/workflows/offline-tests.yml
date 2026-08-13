@@ -1,0 +1,40 @@
+name: offline-tests
+
+# Zero Vertex/model calls. No cloud credential is configured or required —
+# every provider interaction in the test suite goes through a fake client
+# (see tests/conftest.py). GOOGLE_CLOUD_PROJECT/LOCATION/VERTEX_GEMINI_MODEL
+# are intentionally left unset; tests that need them patch config.py's
+# already-imported constants directly (see the gemini_env fixture).
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Collect tests only (no execution)
+        run: python -m pytest --collect-only -q
+
+      - name: Run offline test suite
+        run: python -m pytest -q -p no:cacheprovider
+
+      - name: Preflight (no provider calls)
+        run: python scripts/preflight.py
+
+      - name: Full-corpus dry run (zero provider calls)
+        run: |
+          python -m morphoverse_gemini_pipeline.delivery.poem_annotator.corpus_gemini_runner_v1_1 \
+            --language Hindi --dry-run

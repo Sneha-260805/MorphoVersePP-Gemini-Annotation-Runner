@@ -1,0 +1,42 @@
+{
+  "total_poem_count": 1570,
+  "total_language_count": 21,
+  "poems_per_language": {
+    "Assamese": 7,
+    "Bengali": 28,
+    "Bodo": 9,
+    "Dogri": 10,
+    "Gujarati": 1,
+    "Hindi": 850,
+    "Kannada": 245,
+    "Kashmiri": 12,
+    "Konkani": 11,
+    "Malayalam": 10,
+    "Manipuri": 5,
+    "Marathi": 10,
+    "Odia": 10,
+    "Punjabi": 19,
+    "Rajasthani": 7,
+    "Sanskrit": 1,
+    "Santhali": 6,
+    "Sindhi": 8,
+    "Tamil": 179,
+    "Telugu": 121,
+    "Urdu": 21
+  },
+  "missing_translations": [],
+  "duplicate_poem_ids": [],
+  "malformed_records": [],
+  "empty_poems": [],
+  "pilot_poem_ids": [
+    "MV++_0011",
+    "MV++_0073",
+    "MV++_1118",
+    "MV++_1153",
+    "MV++_1249",
+    "MV++_1443"
+  ],
+  "pilot_poem_ids_not_found_in_source": [],
+  "all_poem_ids_unique": true,
+  "source_root": "data/raw/Indian_poem_dataset.xlsx (authoritative workbook — recompute, do not hardcode)"
+}

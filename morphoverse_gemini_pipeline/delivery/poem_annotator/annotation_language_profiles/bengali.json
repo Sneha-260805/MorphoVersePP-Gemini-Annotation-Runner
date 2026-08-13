@@ -1,0 +1,63 @@
+{
+  "language": "Bengali",
+  "language_code": "bn",
+  "script": "Bengali",
+  "profile_version": "5K.1.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Bengali-script instantiation)",
+  "romanization_guidance": [
+    "Represent aspirated consonants (kh, gh, ch, jh, th, dh, ph, bh) with the familiar digraph spelling rather than a diacritic mark.",
+    "Represent common consonant clusters (e.g. ndra, ngsha, ttya) as they are conventionally read aloud, not as a mechanical letter-by-letter transliteration of each conjunct glyph.",
+    "Use a widely-recognized conventional spelling when one already exists in common English usage (e.g. a well-known personal name or place name), rather than inventing a new phonetic spelling that would look unfamiliar to a reader who already knows that name.",
+    "Do not use the Bengali-specific inherent-vowel deletion rules to produce an ASCII spelling that drops a syllable an ordinary reader would expect to see (write the term as it is actually pronounced in reading, not the bare consonant skeleton).",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem, even if the word appears in slightly different orthographic forms across stanzas."
+  ],
+  "linguistic_guidance": [
+    "Bengali poetic vocabulary spans a continuum from heavily Sanskrit-derived (tatsama) literary register to everyday colloquial Bengali; a Sanskrit-origin word appearing in a poem is not automatically a marker of religious or cultural content -- assess the word's actual role in this poem's text.",
+    "Bengali distinguishes intimate (tui/tumi) and formal (apni) address and carries honorific suffixes; when the translation collapses this distinction, that is a genuine, text-grounded translation-loss candidate, not something to guess the 'correct' English rendering for.",
+    "Repetition of a word or phrase for rhythmic or emotional emphasis is a common, ordinary feature of Bengali verse and is not itself evidence of a distinct figurative expression each time it recurs."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Bengali annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Bengali.",
+    "Do not infer Baul mysticism, Rabindra Sangeet, or Bhatiali musical tradition unless the poem's text itself names or clearly, specifically evokes that tradition -- these are real and important Bengali literary/musical traditions, but their presence must be text-supported, not assumed as a default backdrop for any Bengali poem.",
+    "Do not infer Durga imagery, the lotus, the diya (oil lamp), a red-bordered white saree, a generic 'Bengal landscape', or Bangamata/Bharat Mata personification unless the poem's own words name or unambiguously depict that specific image -- these are common visual shorthands for 'Bengali culture' in outside media, and defaulting to them without textual evidence is exactly the stereotyping risk this profile exists to prevent.",
+    "Words for mother, soil, river, song, rain, flowers, and roots are not automatically Bengali-specific cultural cues -- they are common poetic vocabulary across many languages and traditions; treat them as culturally specific only when the poem's own text gives them a specific, named, or clearly bounded cultural role (e.g. an explicitly named river, an explicitly named devotional practice)."
+  ],
+  "literary_context_cautions": [
+    "Bengali literary history includes multiple distinct registers and periods (classical/Sanskritic, Tagore-era literary Bengali, Nazrul's register, modern colloquial, Baul/folk) -- do not assume a poem belongs to a specific one of these without textual evidence, and do not force a single literary tradition onto a poem that could plausibly belong to more than one."
+  ],
+  "translation_cautions": [
+    "Watch specifically for lost intimacy/honorific distinctions (tui/tumi/apni) collapsing into a single undifferentiated English 'you'.",
+    "Watch for emotional particles and sentence-final markers that carry tone in Bengali (e.g. mild emphasis or address particles) being dropped silently in translation with no corresponding loss_note.",
+    "Watch for rhythmic repetition being flattened or, conversely, translated as if each repeated occurrence were a semantically distinct statement.",
+    "Watch for culturally loaded terms (e.g. a devotional or kinship term) being translated with a generic English equivalent that loses the term's specific register -- note this as translation loss rather than silently accepting the generic gloss as equivalent."
+  ],
+  "figurative_language_cautions": [
+    "Bengali verse frequently uses nature imagery (rivers, rain, light, seasons) figuratively; before annotating such an image as a metaphor, confirm the poem's own text gives it a specific figurative role in context rather than treating every nature word as automatically metaphorical."
+  ],
+  "visual_representation_cautions": [
+    "When a cultural or figurative element is genuinely visualizable, offer multiple acceptable_visual_variants rather than a single fixed scene, and do not default to Durga-Puja-adjacent or 'Bengal countryside' imagery unless the text specifically supports it.",
+    "negative_confusions for a Bengali entity should name a plausible, specific incorrect substitution (e.g. confusing a specific named devotional figure for a generic religious figure), not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'you are a great Bengali poet steeped in Tagore and Baul mysticism' framing when annotating -- annotate only what this specific poem's text supports, regardless of how rich the wider Bengali literary tradition is.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a Bengali poem with zero text-supported cultural entities is a valid, expected outcome, not a sign of an incomplete annotation."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term could plausibly be either a Sanskrit-derived literary/devotional term or an ordinary colloquial Bengali word depending on context, and the poem's own text does not disambiguate, prefer the more conservative (non-cultural) reading and use the explicit-uncertainty mechanism rather than asserting the culturally loaded reading as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume the speaker's religion, caste, region within Bengal, or gender beyond what the text states.",
+    "Do not assume a specific historical period (e.g. pre-partition, partition-era, contemporary) unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L01",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L02",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L04",
+    "pilot/reports/prompt_architecture_stage5k1/legacy_prompt_audit.json#L07 (bengali.py's BENGALI_EXAMPLES rejected wholesale; nothing from that array was reused here)",
+    "stage_5k1_task_instructions#TASK_6"
+  ]
+}
