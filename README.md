@@ -20,9 +20,11 @@ This repository does **not**:
 - build gold annotations (gold is human-only — see below);
 - perform human review or adjudication;
 - perform IndicBERT clustering or inter-model agreement;
-- regenerate the six existing pilot poems by default.
+- regenerate the six existing pilot poems by default;
+- generate Sanskrit — see "Current release limitation" below.
 
-Those are later pipeline stages, out of scope here.
+Those are later pipeline stages (or, for Sanskrit, a blocked one), out of
+scope here.
 
 ## Runtime lifecycle
 
@@ -30,6 +32,8 @@ Those are later pipeline stages, out of scope here.
 source-only poem record
         ↓
 language detection / language field
+        ↓
+execution_release_manifest.json authorization check (refuses Sanskrit)
         ↓
 matching reusable language addendum (annotation_language_profiles/*.json)
         ↓
@@ -80,20 +84,23 @@ separate stage of the project.
 - `data/source_corpus/<language>/<poem_id>.json` — source-only poem records
   (`poem_id`, `poem_title`, `language`, `original_poem`, `translated_poem`
   only — no prior annotation content).
-- `corpus/` — corpus inventory, language inventory, and language-profile
-  coverage reports.
-- `assignments/` — per-teammate assignment CSVs.
+- `corpus/` — corpus inventory, language inventory, language-profile
+  coverage, and `execution_release_manifest.json` (the sole authority on
+  which language/poem is authorized for team generation).
+- `assignments/` — per-teammate assignment CSVs (1,563 poems total, 521
+  each, across the 3 teammates).
 - `outputs/model_candidates/<language>/` — generated `MODEL_CANDIDATE` JSON,
   one file per poem.
 - `checkpoints/` — one JSON checkpoint per completed poem (resume support).
 - `reports/failures/` — sanitized failure records, classified by cause.
 - `scripts/` — `preflight.py`, `verify_environment.py`,
-  `create_assignments.py`.
+  `create_assignments.py`, `build_corpus_from_excel.py`.
 - `tests/` — offline test suite (fake Vertex client; zero network access).
 
 See `TEAMMATE_SETUP.md` to get started, `TEAM_RUNBOOK.md` for the day-to-day
-workflow, `ASSIGNMENT_GUIDE.md` for how the corpus is split, and
-`TROUBLESHOOTING.md` for common failure classes.
+workflow, `ASSIGNMENT_GUIDE.md` for how the corpus is split,
+`TROUBLESHOOTING.md` for common failure classes, and your own
+`TEAMMATE_<N>_INSTRUCTIONS.md` for exact commands.
 
 ## The corpus
 
@@ -104,18 +111,34 @@ in the development repo (in particular, the old `output_v3` legacy-annotation
 directory) is treated as authoritative corpus data.
 
 ```text
-Canonical poems:              1,570  (MV++_0001 .. MV++_1570)
-Languages:                    21
-Existing active language profiles: 6  (Bengali, Hindi, Kannada, Kashmiri, Sindhi, Telugu)
-Missing profiles:             15
-Pilot poems (already generated): 6  (excluded from default assignments)
+Canonical poems:                    1,570  (MV++_0001 .. MV++_1570)
+Languages:                          21
+Engineering-authorized languages:   20
+Already-generated pilots:           6   (excluded from default assignments)
+New team generation target:         1,563
+Blocked:                            1 poem — MV++_1235 / Sanskrit
 ```
 
-**This repository is technically ready to generate annotations for the six
-supported languages** (1,258 new poems, beyond the 6 already-generated
-pilots). **It is not ready to generate the full 1,570-poem corpus** — 15
-languages (306 poems) have no approved, reusable language addendum yet, and
-this runner never invents or substitutes one. See
-`FULL_CORPUS_READINESS.json`, `SUPPORTED_LANGUAGES.md`, and
-`BLOCKED_LANGUAGES.md` for the exact, programmatically-derived numbers, and
-`DATASET_PROVENANCE.md` for how the corpus was extracted from the workbook.
+## Current release limitation
+
+```text
+Supported for team generation:  20 languages / 1,569 corpus poems
+Already generated pilots:       6 poems
+New team generation target:     1,563 poems
+Blocked:                        MV++_1235 / Sanskrit
+
+Full corpus ready:              NO
+Supported corpus ready:         YES
+```
+
+Sanskrit's sole corpus poem (`MV++_1235`, the Bhagavad Gita) fails source
+grounding on a pre-sandhi lexical-substitution defect that a generic Stage
+5N.5 profile revision did not resolve. It is refused **programmatically** —
+not just documented — by every normal execution path
+(`--assignment`/`--resume`/`--language`/`--poem-id`), with no override flag
+in this release. See `SANSKRIT_BLOCK.md`.
+
+See `FULL_CORPUS_READINESS.json`, `SUPPORTED_LANGUAGES.md`,
+`BLOCKED_LANGUAGES.md`, and `corpus/execution_release_manifest.json` for the
+exact, programmatically-derived numbers, and `DATASET_PROVENANCE.md` for how
+the corpus was extracted from the workbook.

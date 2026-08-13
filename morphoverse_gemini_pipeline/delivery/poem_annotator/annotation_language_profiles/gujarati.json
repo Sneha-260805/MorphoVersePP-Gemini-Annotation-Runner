@@ -1,0 +1,56 @@
+{
+  "language": "Gujarati",
+  "language_code": "gu",
+  "script": "Devanagari, as stored in the canonical MorphoVerse dataset for this poem -- NOT native Gujarati script; the corpus's sole Gujarati record (as of the Stage 5N audit) is written in Devanagari transliteration, not the Gujarati script. Verify per-record rather than assuming, and re-run the corpus audit if additional Gujarati records are added.",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Gujarati-content-in-Devanagari-storage instantiation)",
+  "romanization_guidance": [
+    "Because the stored text is in Devanagari rather than native Gujarati script, apply the same reader-friendly Devanagari-based romanization convention used for Hindi/Marathi in this corpus, and note in translation_note if the underlying Gujarati pronunciation would differ from a literal Devanagari reading.",
+    "If a future corpus record uses actual Gujarati script (which has its own letterforms, e.g. no headline/shirorekha), verify the script independently before applying this same convention -- do not assume Devanagari-in-storage is universal for every Gujarati record.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Standard Gujarati has two vowel sounds (ऍ / ऑ-equivalent, informally 'e'/'o' as in English 'act'/'all') not distinguished the same way in Hindi; if the record's storage script is Devanagari, this distinction may not be visible in the written form, so do not over-claim precision in romanization.",
+    "Gujarati vocabulary spans Sanskrit-derived, Persian/Arabic-derived (via historical trade and Mughal-era contact), and everyday colloquial registers; a word's etymological origin alone does not indicate this poem's cultural specificity."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Gujarati annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Gujarati.",
+    "Do not infer Gujarati commerce/trading-community imagery, Garba/Navratri dance imagery, Krishna-devotional (Vaishnava) imagery, or generic Gujarati food/clothing imagery unless the poem's own words name or unambiguously depict that specific content -- these are common outside shorthands for 'Gujarati culture' and must not be assumed as a default backdrop."
+  ],
+  "literary_context_cautions": [
+    "Gujarati literary history spans medieval bhakti poets (e.g. Narsinh Mehta), colonial-era reformist writing, and a substantial modern/contemporary tradition -- do not assume a poem belongs to a specific one without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for grammatical gender marking (Gujarati has masculine/feminine/neuter) being lost in a gender-neutral or incorrect-gender English rendering.",
+    "Watch for postposition-carried case/relational meaning being flattened into a generic English preposition."
+  ],
+  "figurative_language_cautions": [
+    "Repeated words or phrases used for rhythmic or emphatic effect are ordinary poetic technique, not automatically a distinct figurative expression on each occurrence."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to Garba-dance, trading-community, or generic-Gujarat imagery for a Gujarati cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'Gujarati culture equals commerce and festival' framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "Because this corpus's Gujarati record is stored in a non-native script, prefer the conservative reading whenever pronunciation or vowel quality cannot be confidently determined from the written form alone.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume the stored Devanagari text is a scholarly-accurate rendering of Gujarati script pronunciation without verification.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Gujarati",
+    "stage_5n_task_instructions#GUJARATI"
+  ]
+}

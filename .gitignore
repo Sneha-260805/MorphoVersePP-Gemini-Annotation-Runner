@@ -5,6 +5,7 @@ __pycache__/
 .env
 
 local_provider_runs/
+pilot/provider_runs/
 checkpoints/local/
 logs/
 tmp/

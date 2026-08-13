@@ -1,0 +1,57 @@
+{
+  "language": "Tamil",
+  "language_code": "ta",
+  "script": "Tamil script, as confirmed by the canonical MorphoVerse dataset audit (~97% of non-space characters in the sampled records)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Tamil-script instantiation)",
+  "romanization_guidance": [
+    "Represent retroflex, alveolar, and dental consonant distinctions (which Tamil marks more finely than Hindi) with familiar reader-friendly digraphs rather than diacritics or subscript dots.",
+    "Tamil script does not distinguish voiced/voiceless or aspirated/unaspirated stops in writing the way the sound system may realize them in speech (e.g. a single letter can represent both a voiceless and voiced pronunciation depending on position); use the most common reader-friendly convention rather than presenting one pronunciation as definitively correct.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Tamil exhibits diglossia: a literary/classical register (centamil) distinct from spoken/colloquial Tamil (koduntamil); do not assume a poem is in one register without textual evidence, and do not assume literary-register vocabulary automatically signals classical-era or Sangam content.",
+    "Tamil is highly agglutinative, with case, postposition-equivalent, and verbal information fused onto word stems; a suffix's meaning collapsing into a simpler English construction is a legitimate, text-grounded translation-loss candidate.",
+    "Tamil vocabulary includes a native Dravidian core alongside Sanskrit-derived loanwords; a word's etymological origin alone does not indicate this poem's cultural specificity."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Tamil annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Tamil.",
+    "Do not infer Sangam-era classical-literature framing, temple imagery, Bharatanatyam-dance imagery, or Dravidian-political/identity framing unless the poem's own words name or unambiguously depict that specific content -- these are common outside shorthands for 'Tamil culture' and must not be assumed as a default backdrop."
+  ],
+  "literary_context_cautions": [
+    "Tamil literary history spans the classical Sangam corpus, medieval Bhakti (Shaiva/Vaishnava) devotional literature, and a substantial modern tradition (including Bharathiyar-era nationalist poetry and contemporary free verse) -- do not assume a poem belongs to a specific one without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for agglutinative case/postposition-equivalent meaning being flattened into a generic English preposition.",
+    "Watch for literary-register vocabulary being translated with an over-casual or over-formal English register that shifts the poem's tone."
+  ],
+  "figurative_language_cautions": [
+    "Tamil poetic convention (from the classical akam/puram tradition onward) uses landscape and nature imagery (thinai) as conventionalized emotional signifiers; treat this as ordinary poetic convention rather than automatically a culturally specific or figurative flag unless the text gives it a specific, bounded role."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to temple, Bharatanatyam, or Sangam-era imagery for a Tamil cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'this is ancient Dravidian classical literature' framing merely because the language is Tamil -- annotate only what this specific poem's text supports; most corpus poems are contemporary.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term's register (literary vs. colloquial) or figurative-vs-conventional status is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume classical/Sangam-era literary status, temple/religious content, or Dravidian-political framing without direct textual support.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Tamil",
+    "stage_5n_task_instructions#TAMIL"
+  ]
+}

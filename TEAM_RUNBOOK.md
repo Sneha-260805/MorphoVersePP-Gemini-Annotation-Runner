@@ -1,15 +1,19 @@
 # Team runbook
 
 The canonical corpus is 1,570 poems across 21 languages, extracted from
-`data/raw/Indian_poem_dataset.xlsx` (see `DATASET_PROVENANCE.md`). Only 6
-languages (1,258 non-pilot poems) are currently assignable — the rest are
-blocked pending profile approval. This is not a full-corpus release; treat
-every assignment as scoped to the currently-supported languages only.
+`data/raw/Indian_poem_dataset.xlsx` (see `DATASET_PROVENANCE.md`). 20 of the
+21 languages (1,563 new-generation poems, beyond the 6 already-generated
+pilots) are engineering-authorized and assignable. Sanskrit's single poem
+(`MV++_1235`) is blocked — programmatically refused, not just documented,
+see `SANSKRIT_BLOCK.md`. This is not a full-corpus release; treat every
+assignment as scoped to the 20 currently-authorized languages only.
 
 ## Workflow
 
 1. Clone the repo (see `TEAMMATE_SETUP.md`).
-2. Create your own branch: `git checkout -b <you>/annotate-<language>`.
+2. Create your own branch: `git checkout -b teammate-<N>/gemini-generation`
+   (e.g. `teammate-1/gemini-generation`) — one persistent branch per
+   teammate for the whole assignment, not one per poem.
 3. Authenticate locally (`gcloud auth application-default login`) — your own
    identity, never a shared credential.
 4. Run the offline test suite: `python -m pytest -q`. Do not proceed if
@@ -59,6 +63,15 @@ flag (and without `--dry-run`) refuses to start. `--concurrency` defaults to
 `1` and is capped; this runner will never silently launch a large,
 uncontrolled parallel batch. If you want more than one poem in flight at
 once, pass `--concurrency N` deliberately and start small.
+
+## Sanskrit
+
+Sanskrit (`MV++_1235`) is excluded from every assignment CSV and refused
+programmatically by the runner on `--assignment`, `--resume`, `--language
+Sanskrit`, and `--poem-id MV++_1235` — a dry run reports it as `BLOCKED`
+without crashing; a live run refuses it as a non-fatal per-poem result. This
+release has **no override flag**. See `SANSKRIT_BLOCK.md`; do not attempt to
+bypass this without the project supervisor's explicit sign-off.
 
 ## Pilot poems
 

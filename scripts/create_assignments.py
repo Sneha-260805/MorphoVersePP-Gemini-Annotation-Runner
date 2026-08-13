@@ -3,10 +3,17 @@
 
 Reads corpus/source_manifest.json (built once, offline, from the
 development repo's output_v3 — see corpus/README notes in
-corpus_inventory.json's "source_root" field). Excludes:
+corpus_inventory.json's "source_root" field) and
+corpus/execution_release_manifest.json (the sole authority on which
+languages/poems are authorized for team generation — see
+SANSKRIT_BLOCK.md). Excludes:
 
-  - poems in a PROFILE_MISSING language (see BLOCKED_LANGUAGES.md) — this
-    script never invents a profile or falls back to a generic one;
+  - poems in a language not marked AUTHORIZED_FOR_TEAM_GENERATION in
+    execution_release_manifest.json (currently: Sanskrit only) — a
+    language profile file being present on disk does NOT by itself imply
+    authorization, this script never infers that;
+  - any individual poem_id listed under execution_release_manifest.json's
+    blocked_poems, regardless of its language's status;
   - the six pilot poems (PILOT_ALREADY_GENERATED) — regenerating one of
     those is an explicit, separate action, never a default assignment;
   - (optionally, --exclude-completed) poems that already have a MODEL_CANDIDATE
@@ -23,15 +30,24 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SOURCE_MANIFEST = REPO_ROOT / "corpus" / "source_manifest.json"
+RELEASE_MANIFEST = REPO_ROOT / "corpus" / "execution_release_manifest.json"
 ASSIGNMENTS_DIR = REPO_ROOT / "assignments"
 OUTPUT_ROOT = REPO_ROOT / "outputs" / "model_candidates"
 
 
 def load_assignable_records(*, exclude_completed: bool) -> "list[dict]":
     manifest = json.loads(SOURCE_MANIFEST.read_text(encoding="utf-8"))
+    release = json.loads(RELEASE_MANIFEST.read_text(encoding="utf-8"))
+    authorized_langs = {
+        lang for lang, v in release["languages"].items()
+        if v["status"] == "AUTHORIZED_FOR_TEAM_GENERATION"
+    }
+    blocked_poem_ids = set(release.get("blocked_poems", {}).keys())
     records = []
     for r in manifest["records"]:
-        if r["profile_status"] != "SUPPORTED_PILOT_VALIDATED":
+        if r["language"] not in authorized_langs:
+            continue
+        if r["poem_id"] in blocked_poem_ids:
             continue
         if r["pilot_status"] == "PILOT_ALREADY_GENERATED":
             continue

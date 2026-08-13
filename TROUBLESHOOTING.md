@@ -14,20 +14,31 @@ the `morphoverse-pilot` project yet — ask the project supervisor.
 
 ## `LanguageProfileMissing`
 
-The poem's language has no approved profile in
+The poem's language has no addendum file at all in
 `morphoverse_gemini_pipeline/delivery/poem_annotator/annotation_language_profiles/`.
-306 of the corpus's 1,570 poems, across 15 languages, are currently in this
-state — see `BLOCKED_LANGUAGES.md`. This is intentional — do not add a
-profile yourself without team/native-speaker review; flag it instead.
+As of Stage 5M.2 all 21 languages have a profile file, so this should never
+fire in normal use — if it does, something removed or renamed a profile
+file; flag it instead of adding one yourself without team/native-speaker
+review. (This is a different, earlier gate than the one below.)
 
-## "Why does my dry run show 1,564 poems, not 1,570 or 1,258?"
+## `LanguageBlocked` / dry run shows `BLOCKED` for a poem
+
+The poem's language, or the poem_id itself, is not marked
+`AUTHORIZED_FOR_TEAM_GENERATION` in
+`corpus/execution_release_manifest.json`. As of Stage 5M.2 this is Sanskrit
+(`MV++_1235`) only — see `SANSKRIT_BLOCK.md`. This is a release-authorization
+gate, separate from (and checked before) `LanguageProfileMissing` — Sanskrit
+has a profile file on disk (version 5N.1) but is still refused. There is no
+override flag in this release; do not attempt to bypass it.
+
+## "Why does my dry run show 1,564 poems, not 1,570 or 1,563?"
 
 A bare `--dry-run` (no `--assignment`/`--language`/`--poem-id`) plans the
 **full corpus minus the 6 pilot poems** (1,570 − 6 = 1,564) — it
-deliberately includes blocked-language poems too, reporting them as
-`BLOCKED` rather than hiding them, so you can see exactly what's excluded
-and why. Your actual assignment CSV only ever contains the 6-language,
-non-pilot subset (1,258 poems total across the team) — see
+deliberately includes the Sanskrit poem too, reporting it as `BLOCKED`
+rather than hiding it, so you can see exactly what's excluded and why. Your
+actual assignment CSV only ever contains the 20-language, non-pilot,
+non-Sanskrit subset (1,563 poems total across the team) — see
 `ASSIGNMENT_GUIDE.md`.
 
 ## Corpus counts look wrong / don't match `DATASET_PROVENANCE.md`

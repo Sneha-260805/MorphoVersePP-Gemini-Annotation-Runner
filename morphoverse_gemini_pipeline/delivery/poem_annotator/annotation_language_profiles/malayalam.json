@@ -1,0 +1,57 @@
+{
+  "language": "Malayalam",
+  "language_code": "ml",
+  "script": "Malayalam script, as confirmed by the canonical MorphoVerse dataset audit (~99% of non-space characters in the sampled records)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Malayalam-script instantiation)",
+  "romanization_guidance": [
+    "Represent aspirated and retroflex consonants with familiar reader-friendly digraphs rather than diacritics or subscript dots.",
+    "Malayalam sandhi (euphonic combination) frequently merges word boundaries in writing; when romanizing, keep the merged form but note the underlying word boundary in translation_note if it affects meaning.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Malayalam is highly agglutinative with extensive compounding and sandhi; a compound word's internal structure collapsing into a single English word or phrase is a legitimate, text-grounded translation-loss candidate, not something to paper over.",
+    "Malayalam vocabulary spans Sanskrit-derived (tatsama), Dravidian-native, Arabic-derived (via coastal trade and the Mappila community), and colloquial registers; a word's etymological origin alone does not indicate this poem's cultural specificity.",
+    "Malayalam distinguishes formal/literary register from colloquial spoken register more sharply than some other languages in this corpus; do not assume a poem is in one register without textual evidence."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Malayalam annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Malayalam.",
+    "Do not infer Kerala backwater/houseboat scenery, temple imagery, Kathakali/Mohiniyattam performance imagery, or coconut-palm imagery unless the poem's own words name or unambiguously depict that specific content -- these are common outside shorthands for 'Kerala/Malayalam culture' and must not be assumed as a default backdrop."
+  ],
+  "literary_context_cautions": [
+    "Malayalam literary history spans the Bhakti-era Ezhuthachan tradition, the Mahakavya classical revival, and substantial modern/contemporary movements (romanticism, modernism, and beyond) -- do not assume a poem belongs to a specific one without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch specifically for compound-word/sandhi-merged meaning being flattened or split incorrectly in English.",
+    "Watch for grammatical gender/honorific marking being lost in a gender-neutral or informal-register English rendering."
+  ],
+  "figurative_language_cautions": [
+    "Repeated words or phrases used for rhythmic or emphatic effect are ordinary Malayalam poetic technique, not automatically a distinct figurative expression on each occurrence."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to backwater, temple, or Kathakali imagery for a Malayalam cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'God's Own Country' postcard-imagery framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a sandhi-merged term's underlying word boundary or sense is genuinely ambiguous, prefer the reading supported by the translation but note the alternative via the explicit-uncertainty mechanism.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume Kerala tourist/scenic imagery is present merely because the poem is in Malayalam.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Malayalam",
+    "stage_5n_task_instructions#MALAYALAM"
+  ]
+}

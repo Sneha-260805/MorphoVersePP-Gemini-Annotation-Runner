@@ -260,6 +260,65 @@ def _occurrences_per_line(span: str, lines: Sequence[IndexedLine]) -> list[tuple
     return result
 
 
+def _match_span_across_lines(span: str, lines: Sequence[IndexedLine], *, normalized: bool = False) -> "SpanMatch | None":
+    """Search for a SPAN THAT ITSELF CONTAINS AN EMBEDDED NEWLINE (a
+    legitimate multi-line line_ref's span) against every contiguous window
+    of `lines` whose length equals the span's own line count. Returns None
+    (never NOT_FOUND) when nothing here applies, so the caller can fall
+    through to its own NOT_FOUND handling.
+
+    Stage 5N.3 fix (Stage 5N.2 finding: MULTILINE_GROUNDING_VALIDATOR_GAP —
+    the single-line-only search above can structurally never match a span
+    with an embedded "\\n", regardless of correctness, because no single
+    IndexedLine.text ever contains a newline).
+
+    Each window is joined using every line's `.strip()`ed text, not its raw
+    (Stage 3.1, whitespace-preserving) text — this is not a new, invented
+    normalization: it is the SAME per-line stripping `dataset.split_stanzas`
+    already applies before a line is ever shown to the model (the model
+    never sees this module's raw trailing/leading whitespace, so a
+    multi-line span it constructs is naturally the join of STRIPPED lines).
+    Single-line matching above is completely unaffected — it still tests
+    each line's exact raw text, preserving Stage 3.1's guarantee — this
+    function only ever runs after that search has already found nothing.
+    No fuzzy matching, no case-folding, no diacritic stripping, no
+    transliteration, no sandhi-splitting: only the join-time whitespace
+    representation changes, consistent with Task 5's original rules 4-8 and
+    this module's already-supported Unicode/newline/whitespace-representation
+    normalizations.
+
+    Overlapping windows are all counted; more than one match anywhere in
+    `lines` is ambiguous, never silently resolved to the first (mirrors the
+    existing single-line behavior's own design principle 10)."""
+    span_line_count = span.count("\n") + 1
+    if span_line_count < 2 or len(lines) < span_line_count:
+        return None
+
+    matches: "list[tuple[IndexedLine, IndexedLine, int]]" = []
+    for start in range(0, len(lines) - span_line_count + 1):
+        window = lines[start:start + span_line_count]
+        window_text = "\n".join(ln.text.strip() for ln in window)
+        count = _count_overlapping_occurrences(window_text, span)
+        if count > 0:
+            matches.append((window[0], window[-1], count))
+
+    total = sum(c for _, _, c in matches)
+    if total == 1:
+        (first, last, _), = matches
+        ref = f"L{first.line_number}" if first.line_number == last.line_number else f"L{first.line_number}-L{last.line_number}"
+        return SpanMatch(
+            status=SPAN_MATCH_NFC_EQUIVALENT if normalized else SPAN_MATCH_EXACT,
+            line_refs=(ref,), occurrence_count=1, normalized=normalized,
+        )
+    if total > 1:
+        refs = tuple(
+            (f"L{f.line_number}" if f.line_number == l.line_number else f"L{f.line_number}-L{l.line_number}")
+            for f, l, _ in matches
+        )
+        return SpanMatch(status=SPAN_MATCH_AMBIGUOUS, line_refs=refs, occurrence_count=total, normalized=normalized)
+    return None
+
+
 def match_span_in_lines(span: str, lines: Sequence[IndexedLine]) -> SpanMatch:
     """Search `lines` for `span` using exact code-point substring matching
     first, then (only if exact matching finds nothing at all) Unicode NFC
@@ -267,7 +326,14 @@ def match_span_in_lines(span: str, lines: Sequence[IndexedLine]) -> SpanMatch:
     whitespace collapsing, no diacritic stripping, no transliteration —
     Task 5's rules 4-8. Every occurrence in every candidate line is counted;
     more than one total occurrence across the searched lines is `ambiguous`,
-    never silently resolved to the first one (design principle 10)."""
+    never silently resolved to the first one (design principle 10).
+
+    Stage 5N.3: when `span` itself contains an embedded newline (a
+    legitimate multi-line line_ref's span), and single-line matching (above)
+    and multi-line window matching (_match_span_across_lines) both find
+    nothing, NFC-equivalent single-line matching is tried exactly as before,
+    followed by an NFC-equivalent multi-line window search — the same
+    two-tier exact-then-NFC strategy, now extended to multi-line spans."""
     if not isinstance(span, str) or not span:
         return SpanMatch(status=SPAN_MATCH_INVALID_INPUT)
 
@@ -283,7 +349,13 @@ def match_span_in_lines(span: str, lines: Sequence[IndexedLine]) -> SpanMatch:
             occurrence_count=total_exact,
         )
 
-    # Exact matching found nothing anywhere in scope — try NFC-equivalent.
+    if "\n" in span:
+        window_match = _match_span_across_lines(span, lines)
+        if window_match is not None:
+            return window_match
+
+    # Exact matching (single-line + multi-line window) found nothing
+    # anywhere in scope — try NFC-equivalent.
     span_nfc = unicodedata.normalize("NFC", span)
     nfc_lines = [
         IndexedLine(ln.line_number, unicodedata.normalize("NFC", ln.text), ln.position, ln.stanza_index)
@@ -303,6 +375,12 @@ def match_span_in_lines(span: str, lines: Sequence[IndexedLine]) -> SpanMatch:
             line_refs=tuple(f"L{ln.line_number}" for ln, _ in nfc_matches),
             occurrence_count=total_nfc, normalized=True,
         )
+
+    if "\n" in span_nfc:
+        window_match_nfc = _match_span_across_lines(span_nfc, nfc_lines, normalized=True)
+        if window_match_nfc is not None:
+            return window_match_nfc
+
     return SpanMatch(status=SPAN_MATCH_NOT_FOUND)
 
 
@@ -365,6 +443,16 @@ class GroundingIssue:
     message: str                 # human-readable, scoped to this one field
     index: int | None = None       # item's position within its containing list
     severity: str = "review"        # "review" (transitional-mode default) | "error"
+    corrected_line_ref: "str | None" = None  # Stage 5N.3: set ONLY for code="line_ref_span_mismatch"
+    # when source_span_original occurs EXACTLY ONCE elsewhere in the whole
+    # poem (SPAN_MATCH_EXACT/SPAN_MATCH_NFC_EQUIVALENT with a single
+    # line_refs entry) — i.e. the correct line_ref is deterministically
+    # derivable with no semantic interpretation. None whenever the
+    # whole-poem match is itself ambiguous (more than one occurrence) or
+    # the declared line_ref is malformed, since no single correction could
+    # be derived without guessing. This is purely a repair-PLANNING signal
+    # (see vertex_canary_execution_v1_1.find_line_ref_repair_authorizations)
+    # — grounding.py itself never mutates anything.
 
 
 def _translation_status_hint(entity_or_expr: dict) -> str | None:
@@ -432,6 +520,15 @@ def _ground_spans(
             # consistency between line_ref and source_span_original).
             whole_poem_match = ground_original_span(source_span, None, original_index)
             if whole_poem_match.status in (SPAN_MATCH_EXACT, SPAN_MATCH_NFC_EQUIVALENT, SPAN_MATCH_AMBIGUOUS):
+                # Deterministic correction is only derivable when the
+                # whole-poem occurrence is itself unambiguous (exactly one
+                # match) — an ambiguous whole-poem match still names a
+                # mismatch, but picking one of several occurrences would be
+                # semantic interpretation, so corrected_line_ref stays None.
+                is_deterministic = (
+                    whole_poem_match.status in (SPAN_MATCH_EXACT, SPAN_MATCH_NFC_EQUIVALENT)
+                    and len(whole_poem_match.line_refs) == 1
+                )
                 issues.append(GroundingIssue(
                     object_type=object_type, field="line_ref", code="line_ref_span_mismatch",
                     message=(
@@ -439,6 +536,7 @@ def _ground_spans(
                         f"occurrence exists elsewhere in the poem (at {', '.join(whole_poem_match.line_refs)})."
                     ),
                     index=index, severity="error",
+                    corrected_line_ref=whole_poem_match.line_refs[0] if is_deterministic else None,
                 ))
             else:
                 issues.append(GroundingIssue(

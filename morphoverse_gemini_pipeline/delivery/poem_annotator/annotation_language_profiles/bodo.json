@@ -1,0 +1,58 @@
+{
+  "language": "Bodo",
+  "language_code": "brx",
+  "script": "Devanagari, as observed in the canonical MorphoVerse dataset (Bodo's official modern script; the language has also historically been written in Bengali-Assamese and Roman scripts)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Bodo-script instantiation)",
+  "romanization_guidance": [
+    "Verify the script actually used in this poem's original_poem text before romanizing -- Bodo has used Devanagari, Bengali-Assamese, and Roman scripts at different periods and in different contexts; do not assume Devanagari uniformly without checking the record.",
+    "Represent aspirated consonants and nasalization with familiar reader-friendly digraphs/marks rather than diacritics.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Bodo is a Sino-Tibetan (Boro-Garo / Tibeto-Burman) language, not an Indo-Aryan language -- do not apply Hindi/Marathi/Bengali-style gender, case-postposition, or classifier assumptions to Bodo without independent grounds.",
+    "Bodo is agglutinative and largely verb-final, with tense, aspect, mood, and evidentiality frequently marked by verbal suffixes rather than separate words; a suffix's meaning collapsing into a simpler English verb form is a legitimate, text-grounded translation-loss candidate.",
+    "A Sanskrit- or Assamese/Bengali-origin loanword appearing in a Bodo poem is not evidence of Bodo cultural or religious content by itself -- assess the word's actual role in this specific text."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Bodo annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Bodo.",
+    "Do not automatically infer tribal ritual, indigenous animist, or ethnic-costume content merely because the poem is Bodo -- the Bodo people are an indigenous community of Assam/Northeast India, but a poem's content must be evidenced by its own text, not assumed from the community's ethnographic profile.",
+    "Do not infer Bwisagu/Baisagu festival imagery, tea-garden imagery, or Brahmaputra-valley scenery unless the poem's own words name or unambiguously depict that specific content."
+  ],
+  "literary_context_cautions": [
+    "Standardized written Bodo literature is a comparatively recent tradition (20th century onward) -- do not assume a poem draws on an ancient or classical Bodo literary canon without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for verbal-suffix-carried tense/aspect/evidentiality information being flattened into a single generic English tense.",
+    "Watch for agglutinative compounding (multiple morphemes fused into one word) being under- or over-segmented in translation."
+  ],
+  "figurative_language_cautions": [
+    "Do not assume every reference to nature, forest, or river in a Bodo poem is a ritual or spiritual symbol -- assess whether the text itself supports a figurative or literal reading."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to invented indigenous costume, ritual dance, or nature-worship imagery for a Bodo cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'this poem must reflect indigenous/tribal ritual life' framing merely because the language is Bodo -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a Bodo verbal form's tense/aspect/evidentiality reading is genuinely ambiguous from the text alone, prefer the reading supported by the translation but note the alternative via the explicit-uncertainty mechanism.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume indigenous/tribal ritual, animist, or ethnic-costume context without direct textual support.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Bodo",
+    "stage_5n_task_instructions#BODO"
+  ]
+}

@@ -8,9 +8,10 @@ The corpus is the authoritative 1,570-poem workbook
 (`data/raw/Indian_poem_dataset.xlsx` — see `DATASET_PROVENANCE.md`), already
 exported to `data/source_corpus/`. You do not need Excel, openpyxl, or
 pandas to run anything below — the export is a one-time, offline step
-someone else already ran. Six languages (1,258 non-pilot poems) currently
-have an approved profile and are assignable; the rest are blocked until
-their profiles exist — see `SUPPORTED_LANGUAGES.md` / `BLOCKED_LANGUAGES.md`.
+someone else already ran. 20 of the 21 languages (1,563 new-generation
+poems, beyond the 6 already-generated pilots) are engineering-authorized and
+assignable; Sanskrit's single poem is blocked and refused programmatically
+— see `SUPPORTED_LANGUAGES.md` / `BLOCKED_LANGUAGES.md` / `SANSKRIT_BLOCK.md`.
 
 ## Windows (PowerShell)
 

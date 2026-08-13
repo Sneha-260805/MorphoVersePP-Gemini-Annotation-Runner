@@ -1,0 +1,61 @@
+{
+  "language": "Urdu",
+  "language_code": "ur",
+  "script": "Perso-Arabic (Nastaliq-convention text), as confirmed by the canonical MorphoVerse dataset audit (~100% of non-space characters in the sampled records, with correct Arabic-script punctuation -- Arabic comma ، and Arabic full stop ۔ -- rather than their Latin look-alikes)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Urdu Perso-Arabic-script instantiation)",
+  "romanization_guidance": [
+    "Represent aspirated, retroflex, and Perso-Arabic-origin consonants (e.g. distinguishing letters that map to the same or similar sounds, such as the various forms romanized 'z', 's', or 'h') with familiar reader-friendly digraphs rather than scholarly diacritics.",
+    "Urdu is written right-to-left in Perso-Arabic script and generally does not mark short vowels in ordinary text; when a word's vowel quality cannot be confidently determined from the written form alone, choose the most common reader-friendly rendering and flag genuine uncertainty via translation_note rather than presenting one romanization as definitively correct.",
+    "Use a widely-recognized conventional spelling for well-known names/places/poetic terms (e.g. ghazal, sher, maqta) when an established conventional English spelling already exists.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Urdu shares core grammar (including gender marking and postpositions) with Hindi at the spoken/colloquial level (the shared 'Hindustani' register), but differs in script and in high-register vocabulary, which draws heavily on Persian and Arabic rather than Sanskrit -- do not assume Hindi's Sanskritic-register cultural associations apply to Urdu's Perso-Arabic-register vocabulary, or vice versa.",
+    "Urdu grammatical gender applies to nouns, adjectives, and verb agreement, exactly as in Hindi; when a translation collapses or alters this, that is a genuine, text-grounded translation-loss candidate.",
+    "Urdu postpositions carry case-like grammatical information that English prepositions do not map onto one-to-one; a shift in postposition-carried meaning across translation is a legitimate loss_note candidate."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Urdu annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Urdu.",
+    "Do not equate Urdu with Islamic or Sufi religious meaning by default -- Urdu poetry spans mystical/Sufi, purely secular-romantic, socio-political (e.g. the Progressive Writers' Movement), and purely aesthetic traditions; the poem's own text, not the language, determines its religious or secular character.",
+    "Conventional ghazal-tradition vocabulary (e.g. saqi/cupbearer, mai or sharab/wine, buth/idol used for the beloved, the tavern) is a poetic convention that may be read as secular-romantic, mystical-metaphorical, or literal depending on the specific poem -- do not resolve this by default assumption in either direction."
+  ],
+  "literary_context_cautions": [
+    "Urdu literary tradition spans classical ghazal and masnavi forms, Sufi mystical verse, the socio-politically engaged Progressive Writers' Movement, and a substantial modern free-verse (nazm) tradition -- do not assume a poem belongs to a specific one without textual evidence, and do not force a single tradition onto a poem consistent with more than one.",
+    "The ghazal is a poetic FORM (a series of autonomous couplets sharing a rhyme and refrain scheme), not a genre or subject matter -- do not infer the poem's content or religious character merely from the fact that it is identified as, or resembles, a ghazal."
+  ],
+  "translation_cautions": [
+    "Watch specifically for lost grammatical gender marking (a feminine-marked subject rendered with a gender-neutral or incorrect-gender English construction).",
+    "Watch for postposition-carried case/relational meaning being flattened into a generic English preposition with a documented change in nuance.",
+    "Watch for Perso-Arabic-register vocabulary being glossed with an over-general or overly Sanskritic-register English equivalent that shifts the poem's register or connotation."
+  ],
+  "figurative_language_cautions": [
+    "Mystic/Sufi-register vocabulary (longing, wine, the beloved, union, the tavern) may be genuinely ambiguous between secular-romantic and devotional-mystic readings; do not resolve this ambiguity by default assumption -- use the text's own evidence, and use the explicit-uncertainty mechanism when it is genuinely unresolvable."
+  ],
+  "visual_representation_cautions": [
+    "When a cultural or figurative element is genuinely visualizable, offer multiple acceptable_visual_variants rather than a single fixed scene, and do not default to mosque, Sufi-shrine, or generic 'Islamic' imagery unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'Urdu equals Islamic devotional poetry' framing when annotating -- annotate only what this specific poem's text supports; secular and romantic readings are equally valid defaults absent textual evidence either way.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term's vowel quality, secular-versus-mystical reading, or ghazal-convention sense is genuinely uncertain, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting a specific interpretation as fact.",
+    "Preserve genuine polysemy in Urdu mystic/ghazal vocabulary rather than collapsing it to a single English sense.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume the speaker's religion is Islamic, or that the poem is Sufi-devotional, merely because it is in Urdu or uses ghazal-convention vocabulary, without direct textual support.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Urdu",
+    "stage_5n_task_instructions#URDU"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "language": "Manipuri",
+  "language_code": "mni",
+  "script": "Devanagari, as observed in the canonical MorphoVerse dataset (all sampled records) -- NOT Bengali script or Meitei Mayek, which are the language's other historically and currently used scripts. Verify per-record rather than assuming Devanagari universally.",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Manipuri/Meitei-script instantiation)",
+  "romanization_guidance": [
+    "Verify the script actually used in this poem's original_poem text before romanizing -- Manipuri (Meitei) has been written in Bengali script, and since a 20th/21st-century revival is also officially written in Meitei Mayek, in addition to the Devanagari observed in this corpus's sampled records.",
+    "Manipuri is a tonal language; tone is generally not recoverable from the written script alone, so do not claim a specific tonal reading in romanization -- represent the segmental (consonant/vowel) form only.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Manipuri (Meitei) is a Sino-Tibetan (Tibeto-Burman) language, not Indo-Aryan -- do not apply Hindi/Bengali-style gender or case-postposition assumptions to Manipuri without independent grounds.",
+    "Manipuri is agglutinative with extensive verbal suffixation encoding tense, aspect, and mood; a suffix's meaning collapsing into a simpler English verb form is a legitimate, text-grounded translation-loss candidate.",
+    "A Sanskrit-, Bengali-, or Assamese-origin loanword appearing in a Manipuri poem (common due to historical Vaishnavite influence) is not by itself evidence of Manipuri cultural or religious content -- assess the word's actual role in this specific text."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Manipuri annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Manipuri.",
+    "Do not automatically infer Meitei religious, ritual, or ceremonial-costume context (e.g. Lai Haraoba festival, Ras Leela dance, Sanamahi or Vaishnavite ritual imagery) merely because the poem is Manipuri -- annotate only what the poem's own text supports.",
+    "Manipur is home to multiple distinct communities beyond Meitei (e.g. Naga, Kuki-Zo groups with their own languages); do not generalize Manipuri (Meitei)-language content to 'Manipur culture' broadly."
+  ],
+  "literary_context_cautions": [
+    "Manipuri literary tradition includes older courtly/devotional verse (post-Vaishnavite-conversion era) and a substantial modern/contemporary tradition -- do not assume a poem belongs to a specific one without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for verbal-suffix-carried tense/aspect/evidentiality information being flattened into a single generic English tense.",
+    "Watch for tonal or agglutinative-morphology distinctions that are simply unrecoverable from the English translation -- note this as a genuine, unavoidable loss rather than forcing a specific reading."
+  ],
+  "figurative_language_cautions": [
+    "Do not assume every reference to dance, festival, or ritual vocabulary in a Manipuri poem indicates the specific Lai Haraoba or Ras Leela tradition -- assess whether the text itself names or depicts that specific content."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to Ras Leela costume, Lai Haraoba ritual, or generic Northeast-India ethnic imagery for a Manipuri cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'this poem must depict Manipuri classical dance/ritual life' framing merely because the language is Manipuri -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term's script origin, tonal reading, or ritual-versus-secular sense is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume Meitei religious/ritual/costume context, or generalize the poem's content to all of Manipur's diverse communities, without direct textual support.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Manipuri",
+    "stage_5n_task_instructions#MANIPURI"
+  ]
+}

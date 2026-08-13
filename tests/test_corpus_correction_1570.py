@@ -166,17 +166,21 @@ def test_language_profile_byte_identical(filename, expected_hash):
 def test_supported_and_blocked_counts_recomputed_from_workbook():
     cov = _coverage()
     inv = _inventory()
-    # recompute independently from the per-language inventory, rather than
-    # trusting language_profile_coverage.json's own arithmetic
-    validated = {"Bengali", "Hindi", "Kannada", "Kashmiri", "Sindhi", "Telugu"}
-    recomputed_supported = sum(c for lang, c in inv["poems_per_language"].items() if lang in validated)
-    recomputed_blocked = sum(c for lang, c in inv["poems_per_language"].items() if lang not in validated)
+    release = json.loads((REPO_ROOT / "corpus" / "execution_release_manifest.json").read_text(encoding="utf-8"))
+    # recompute independently from the release manifest + per-language
+    # inventory, rather than trusting language_profile_coverage.json's own
+    # arithmetic. Authorization (not profile-file presence — all 21 profile
+    # files exist on disk as of Stage 5M.2) is the only thing that decides
+    # "supported" here.
+    authorized = {lang for lang, v in release["languages"].items() if v["status"] == "AUTHORIZED_FOR_TEAM_GENERATION"}
+    recomputed_supported = sum(c for lang, c in inv["poems_per_language"].items() if lang in authorized)
+    recomputed_blocked = sum(c for lang, c in inv["poems_per_language"].items() if lang not in authorized)
     assert cov["supported_poem_count"] == recomputed_supported
     assert cov["blocked_poem_count"] == recomputed_blocked
     assert recomputed_supported + recomputed_blocked == 1570
-    # matches the task's independently-audited expectation
-    assert recomputed_supported == 1264
-    assert recomputed_blocked == 306
+    # Stage 5M.2: 20/21 languages authorized, Sanskrit's single poem blocked
+    assert recomputed_supported == 1569
+    assert recomputed_blocked == 1
 
 
 # 15. six pilots excluded from default generation
@@ -207,13 +211,15 @@ def test_assignment_files_have_no_duplicate_ids_across_files():
 
 # 17. blocked languages do not enter assignments
 def test_blocked_languages_excluded_from_assignments():
-    cov = _coverage()
-    blocked_langs = {lang for lang, v in cov["languages"].items() if v["classification"] == "PROFILE_MISSING"}
+    release = json.loads((REPO_ROOT / "corpus" / "execution_release_manifest.json").read_text(encoding="utf-8"))
+    blocked_langs = {lang for lang, v in release["languages"].items() if v["status"] != "AUTHORIZED_FOR_TEAM_GENERATION"}
+    assert blocked_langs == {"Sanskrit"}
     assignment_dir = REPO_ROOT / "assignments"
     for csv_path in [p for p in assignment_dir.glob("*.csv") if p.name != "example_assignment.csv"]:
         with open(csv_path, newline="", encoding="utf-8") as fh:
             for row in csv.DictReader(fh):
                 assert row["language"] not in blocked_langs
+                assert row["poem_id"] != "MV++_1235"
 
 
 # 18. dry-run makes zero provider calls (full corpus)
@@ -235,12 +241,16 @@ def test_runner_source_has_no_166_or_output_v3_assumption():
     assert "output_v3" not in src
 
 
-# 20. FULL_CORPUS_READY remains false while profiles are missing
+# 20. FULL_CORPUS_READY remains false while Sanskrit is blocked
 def test_full_corpus_readiness_is_false():
     readiness = json.loads((REPO_ROOT / "FULL_CORPUS_READINESS.json").read_text(encoding="utf-8"))
     assert readiness["ready_for_full_corpus"] is False
+    assert readiness["full_corpus_ready"] is False
+    assert readiness["supported_corpus_ready"] is True
     assert readiness["total_poems"] == 1570
     assert readiness["pilot_already_generated"] == 6
-    assert readiness["new_supported_generations"] == 1258
-    assert readiness["blocked_poems"] == 306
+    assert readiness["new_supported_generations"] == 1563
+    assert readiness["blocked_poems"] == 1
+    assert readiness["blocked_poem_ids"] == ["MV++_1235"]
+    assert readiness["engineering_valid_languages"] == 20
     assert readiness["consistency_check"]["equals_total_poems"] is True

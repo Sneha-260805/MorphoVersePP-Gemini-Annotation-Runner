@@ -17,7 +17,7 @@ import pytest
 
 from morphoverse_gemini_pipeline.delivery.poem_annotator import corpus_gemini_runner_v1_1 as runner
 from morphoverse_gemini_pipeline.delivery.poem_annotator import vertex_canary_execution_v1_1 as vce
-from tests.conftest import REPO_ROOT, PROFILE_DIR, any_non_pilot_supported_poem
+from tests.conftest import REPO_ROOT, PROFILE_DIR, any_non_pilot_supported_poem, load_release_manifest
 
 
 def _run_dirs(tmp_path):
@@ -36,7 +36,7 @@ def test_clean_run_passes_stop_gate_and_writes_model_candidate(tmp_path, clean_c
 
     result = runner.execute_poem_live(
         poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR,
-        client_factory=factory, assignee="teammate_1", **dirs,
+        client_factory=factory, assignee="teammate_1", release_manifest=load_release_manifest(), **dirs,
     )
 
     assert result.stop_gate_passed is True
@@ -68,7 +68,8 @@ def test_lifecycle_status_never_silver_gold_final_or_approved(tmp_path, clean_cl
     factory, _ = clean_client_factory
     dirs = _run_dirs(tmp_path)
     result = runner.execute_poem_live(
-        poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=factory, **dirs,
+        poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=factory,
+        release_manifest=load_release_manifest(), **dirs,
     )
     candidate = json.loads(open(result.candidate_path, encoding="utf-8").read())
     assert candidate["candidate_status"] not in runner.FORBIDDEN_LIFECYCLE_STATUSES
@@ -80,16 +81,18 @@ def test_second_run_refuses_to_overwrite_existing_candidate(tmp_path, clean_clie
     poem_id, language = any_non_pilot_supported_poem()
     factory, _ = clean_client_factory
     dirs = _run_dirs(tmp_path)
-    runner.execute_poem_live(poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=factory, **dirs)
+    rm = load_release_manifest()
+    runner.execute_poem_live(poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=factory, release_manifest=rm, **dirs)
     with pytest.raises(runner.CorpusRunnerError, match="refusing to overwrite"):
-        runner.execute_poem_live(poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=factory, **dirs)
+        runner.execute_poem_live(poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=factory, release_manifest=rm, **dirs)
 
 
 def test_broken_response_fails_the_stop_gate_and_writes_a_failure_record(tmp_path, broken_client_factory, gemini_env):
     poem_id, language = any_non_pilot_supported_poem()
     dirs = _run_dirs(tmp_path)
     result = runner.execute_poem_live(
-        poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=broken_client_factory, **dirs,
+        poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=broken_client_factory,
+        release_manifest=load_release_manifest(), **dirs,
     )
     assert result.stop_gate_passed is False
     assert result.candidate_path is None

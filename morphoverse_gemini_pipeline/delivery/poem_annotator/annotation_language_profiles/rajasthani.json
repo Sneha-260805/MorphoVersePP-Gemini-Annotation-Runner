@@ -1,0 +1,55 @@
+{
+  "language": "Rajasthani",
+  "language_code": "raj",
+  "script": "Devanagari, as confirmed by the canonical MorphoVerse dataset audit (~96% of non-space characters in the sampled records)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Rajasthani-script instantiation)",
+  "romanization_guidance": [
+    "Represent aspirated and retroflex consonants with familiar reader-friendly digraphs rather than diacritics.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "'Rajasthani' is not one monolithic language but a cover term for a group of related varieties (e.g. Marwari, Mewari, Dhundhari, Malvi, Mewati); do not assume a single uniform grammar or vocabulary applies to every Rajasthani record in this corpus -- treat each poem's own text as authoritative for its own variety.",
+    "Rajasthani vocabulary spans Sanskrit-derived, Persian/Arabic-derived (via historical Rajput-era court contact), and everyday colloquial registers; a word's etymological origin alone does not indicate this poem's cultural specificity."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Rajasthani annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Rajasthani.",
+    "Do not infer desert-landscape imagery, palace/fort imagery, turban/traditional-costume imagery, folk-dance (e.g. Ghoomar) imagery, or royal/Rajput-court imagery unless the poem's own words name or unambiguously depict that specific content -- these are common outside shorthands for 'Rajasthani culture' and must not be assumed as a default backdrop."
+  ],
+  "literary_context_cautions": [
+    "Rajasthani literary tradition includes older courtly/heroic (e.g. Charan bardic) verse, devotional poetry, and a substantial modern tradition -- do not assume a poem belongs to a specific one without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for dialect-specific (Marwari/Mewari/etc.) vocabulary being glossed with a single 'standard Hindi' equivalent that erases a genuine regional distinction the poem's text preserves.",
+    "Watch for postposition-carried case/relational meaning being flattened into a generic English preposition."
+  ],
+  "figurative_language_cautions": [
+    "Repeated words or phrases used for rhythmic or emphatic effect are ordinary poetic technique, not automatically a distinct figurative expression on each occurrence."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to desert, palace, turban, or folk-dance imagery for a Rajasthani cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'colorful desert kingdom' postcard-imagery framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term could plausibly belong to a specific Rajasthani variety versus standard Hindi and the text does not disambiguate, prefer the conservative reading.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume royal/Rajput-historical or desert-regional imagery is present merely because the poem is in Rajasthani.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Rajasthani",
+    "stage_5n_task_instructions#RAJASTHANI"
+  ]
+}

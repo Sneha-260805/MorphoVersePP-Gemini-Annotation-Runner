@@ -9,7 +9,7 @@ import json
 import pytest
 
 from morphoverse_gemini_pipeline.delivery.poem_annotator import corpus_gemini_runner_v1_1 as runner
-from tests.conftest import REPO_ROOT, any_non_pilot_supported_poem
+from tests.conftest import REPO_ROOT, any_non_pilot_supported_poem, load_release_manifest
 
 
 def test_dry_run_never_constructs_a_client(monkeypatch):
@@ -59,7 +59,8 @@ def test_checkpoint_and_failure_records_never_contain_a_token_shaped_value(tmp_p
     )
     from tests.conftest import PROFILE_DIR
     result = runner.execute_poem_live(
-        poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=factory, **dirs,
+        poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, client_factory=factory,
+        release_manifest=load_release_manifest(), **dirs,
     )
     written_text = []
     for p in tmp_path.rglob("*.json"):

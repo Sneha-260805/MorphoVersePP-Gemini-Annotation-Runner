@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "generated_from": "MorphoVerse-PlusPlus dev repo, branch feature/v1.1-foundation-from-second, HEAD 940ce9e (Stage 5N.5) — see docs/SCHEMA_V1_1_DECISIONS.md and pilot/reports/sanskrit_profile_revision_stage5n5/stage5n5_final_report.json.",
+  "engineering_valid_language_count": 20,
+  "blocked_language_count": 1,
+  "blocked_poem_count": 1,
+  "languages": {
+    "Assamese": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Bengali": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Bodo": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Dogri": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Gujarati": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Hindi": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Kannada": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Kashmiri": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Konkani": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Malayalam": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Manipuri": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Marathi": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Odia": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Punjabi": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Rajasthani": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Sanskrit": {
+      "status": "BLOCKED_ENGINEERING_REVIEW",
+      "reason": "Sole Sanskrit poem (MV++_1235) fails source grounding on a pre-sandhi lexical substitution defect; a generic Stage 5N.5 profile revision did not resolve it. See SANSKRIT_BLOCK.md. Not authorized for team generation.",
+      "profile_version": "5N.1"
+    },
+    "Santhali": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Sindhi": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Tamil": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Telugu": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    },
+    "Urdu": {
+      "status": "AUTHORIZED_FOR_TEAM_GENERATION",
+      "reason": "Engineering canary passed (Stage 5N.1 or 5N.3/5N.4 recovery)."
+    }
+  },
+  "blocked_poems": {
+    "MV++_1235": "BLOCKED_PROFILE_REVISION_INSUFFICIENT"
+  }
+}

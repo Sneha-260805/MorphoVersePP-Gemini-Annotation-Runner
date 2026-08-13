@@ -9,7 +9,9 @@ import json
 import pytest
 
 from morphoverse_gemini_pipeline.delivery.poem_annotator import corpus_gemini_runner_v1_1 as runner
-from tests.conftest import REPO_ROOT, PROFILE_DIR, any_non_pilot_supported_poem, any_blocked_language_poem
+from tests.conftest import (
+    REPO_ROOT, PROFILE_DIR, any_non_pilot_supported_poem, any_blocked_language_poem, load_release_manifest,
+)
 
 
 def test_source_loader_accepts_a_real_clean_record():
@@ -50,15 +52,47 @@ def test_pilot_poems_excluded_by_default():
     runner.require_not_pilot(next(iter(runner.PILOT_POEM_IDS)), allow_pilot_regeneration=True)
 
 
-def test_blocked_language_never_falls_back_to_generic_profile():
-    poem_id, language = any_blocked_language_poem()
+def test_missing_profile_never_falls_back_to_generic_profile():
+    """require_language_profile never invents or substitutes a generic
+    profile for a language with no addendum file on disk (independent of
+    release-manifest authorization, which is a separate, later gate)."""
     with pytest.raises(runner.LanguageProfileMissing):
-        runner.require_language_profile(language, PROFILE_DIR)
+        runner.require_language_profile("Klingon", PROFILE_DIR)
+
+
+def test_blocked_language_poem_is_sanskrit_mv_1235():
+    poem_id, language = any_blocked_language_poem()
+    assert (poem_id, language) == ("MV++_1235", "Sanskrit")
+
+
+def test_blocked_language_has_a_profile_file_but_is_still_refused():
+    """As of Stage 5M.2, Sanskrit's profile file (5N.1) IS present on disk —
+    profile presence alone must never be mistaken for authorization.
+    require_language_profile succeeds; require_release_authorized still
+    refuses, and that is the gate the runner actually consults."""
+    poem_id, language = any_blocked_language_poem()
+    runner.require_language_profile(language, PROFILE_DIR)  # does NOT raise — profile is present
+    with pytest.raises(runner.LanguageBlocked):
+        runner.require_release_authorized(poem_id, language, load_release_manifest())
+
+
+def test_release_manifest_none_blocks_every_language_fail_closed():
+    """If corpus/execution_release_manifest.json were ever missing, every
+    language must be refused — never fail open."""
+    with pytest.raises(runner.LanguageBlocked):
+        runner.require_release_authorized("MV++_0001", "Assamese", None)
+
+
+def test_authorized_language_passes_release_check():
+    poem_id, language = any_non_pilot_supported_poem()
+    runner.require_release_authorized(poem_id, language, load_release_manifest())  # must not raise
 
 
 def test_prompt_assembly_and_five_sections_plan(repo_root=REPO_ROOT):
     poem_id, language = any_non_pilot_supported_poem()
-    plan = runner.plan_poem_dry_run(poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR)
+    plan = runner.plan_poem_dry_run(
+        poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR, release_manifest=load_release_manifest(),
+    )
     sections = [s.section for s in plan.planned_sections]
     assert sections == list(runner.GENERATIVE_SECTIONS)  # 4 of the 5; consistency review needs real content
     assert len(runner.REQUIRED_SECTIONS) == 5

@@ -1,0 +1,58 @@
+{
+  "language": "Santhali",
+  "language_code": "sat",
+  "script": "Devanagari, as observed in the canonical MorphoVerse dataset (Santhali is also officially written in Ol Chiki, its own dedicated script, and has historically been written in Bengali, Odia, and Roman scripts by different communities; verify per-record rather than assuming Devanagari universally)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Santhali-script instantiation)",
+  "romanization_guidance": [
+    "Verify the script actually used in this poem's original_poem text before romanizing -- if a future record uses Ol Chiki (Unicode block U+1C50-U+1C7F) rather than Devanagari, apply Ol Chiki-appropriate handling rather than this Devanagari-instantiated convention.",
+    "Represent aspirated consonants and Santhali's checked/glottalized consonants (where distinguishable in the source script) with familiar reader-friendly digraphs/marks rather than diacritics.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Santhali is a Munda (Austroasiatic) language -- typologically distinct from both the Indo-Aryan and Dravidian languages that dominate this corpus -- do not apply Hindi/Bengali-style or Tamil/Malayalam-style grammatical assumptions to Santhali.",
+    "Santhali verbs carry extensive affixation encoding tense, aspect, mood, polarity, and pronominal (subject/object) reference all on the verb itself; this information collapsing into a simpler English verb form is a legitimate, text-grounded translation-loss candidate.",
+    "A Sanskrit-, Bengali-, Odia-, or Hindi-origin loanword appearing in a Santhali poem is not by itself evidence of Santhali cultural or religious content -- assess the word's actual role in this specific text."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Santhali annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Santhali.",
+    "Do not automatically infer tribal ritual, animist/nature-worship, or indigenous-costume content merely because the poem is Santhali -- the Santal people are one of the largest Adivasi (indigenous) communities of eastern India, but a poem's content must be evidenced by its own text, not assumed from the community's ethnographic profile.",
+    "Do not infer Sohrai/Baha festival imagery, Sarna (nature-worship) religious imagery, or generic tribal-costume imagery unless the poem's own words name or unambiguously depict that specific content."
+  ],
+  "literary_context_cautions": [
+    "Written Santhali literature (using any script) is a comparatively recent tradition compared with the older Indo-Aryan literary traditions in this corpus -- do not assume a poem draws on an ancient or classical canon without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for verb-affix-carried tense/aspect/mood/pronominal information being flattened into a single generic English construction.",
+    "Watch for compound/reduplicated forms being translated as a single English word, losing a rhythmic or emphatic effect."
+  ],
+  "figurative_language_cautions": [
+    "Do not assume every reference to forest, nature, or ritual vocabulary in a Santhali poem indicates a specific Sarna or animist ritual practice -- assess whether the text itself supports that reading."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to invented indigenous costume, ritual dance, or nature-worship imagery for a Santhali cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'this poem must reflect indigenous/tribal ritual life' framing merely because the language is Santhali -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term's script origin or ritual-versus-everyday sense is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume indigenous/tribal ritual, animist, or ethnic-costume context without direct textual support.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Santhali",
+    "stage_5n_task_instructions#SANTHALI"
+  ]
+}

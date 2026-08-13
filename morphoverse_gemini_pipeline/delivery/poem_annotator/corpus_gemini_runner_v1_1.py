@@ -87,6 +87,7 @@ DEFAULT_OUTPUT_ROOT = Path("outputs") / "model_candidates"
 DEFAULT_CHECKPOINT_DIR = Path("checkpoints")
 DEFAULT_REPORTS_DIR = Path("reports")
 DEFAULT_LOCAL_PROVIDER_RUN_DIR = Path("local_provider_runs")
+DEFAULT_RELEASE_MANIFEST_PATH = Path("corpus") / "execution_release_manifest.json"
 
 FAILURE_CLASSES = (
     "PROVIDER_FAILURE", "TRUNCATION", "SCHEMA_FAILURE", "COMPLETENESS_FAILURE",
@@ -104,6 +105,15 @@ class PilotPoemBlocked(CorpusRunnerError):
 
 
 class LanguageProfileMissing(CorpusRunnerError):
+    pass
+
+
+class LanguageBlocked(CorpusRunnerError):
+    """Raised whenever corpus/execution_release_manifest.json marks the
+    poem's language, or the poem_id itself, as not authorized for team
+    generation. There is no override flag for this in this release — see
+    SANSKRIT_BLOCK.md. If the manifest file is missing entirely, every
+    language is treated as blocked (fail closed, never fail open)."""
     pass
 
 
@@ -168,6 +178,34 @@ def require_language_profile(language: str, profile_dir: Path):
             "falls back to a generic one — see BLOCKED_LANGUAGES.md."
         )
     return profile
+
+
+def require_release_authorized(poem_id: str, language: str, release_manifest: "dict | None") -> None:
+    """Refuses execution for any language/poem the current
+    corpus/execution_release_manifest.json does not explicitly mark
+    AUTHORIZED_FOR_TEAM_GENERATION, and for any poem_id listed under
+    blocked_poems regardless of its language's status. Applies identically
+    on --assignment, --resume, --language, and --poem-id paths, since every
+    one of them funnels through plan_poem_dry_run / execute_poem_live."""
+    if release_manifest is None:
+        raise LanguageBlocked(
+            "corpus/execution_release_manifest.json not found — refusing to run any "
+            "language without an explicit release-authorization record on file."
+        )
+    lang_entry = release_manifest.get("languages", {}).get(language)
+    lang_status = lang_entry.get("status") if isinstance(lang_entry, dict) else None
+    if lang_status != "AUTHORIZED_FOR_TEAM_GENERATION":
+        raise LanguageBlocked(
+            f"{language!r} is not authorized for team generation "
+            f"(execution_release_manifest.json status={lang_status!r}). See SANSKRIT_BLOCK.md / "
+            "BLOCKED_LANGUAGES.md. There is no override flag for this in this release."
+        )
+    blocked_poem_status = release_manifest.get("blocked_poems", {}).get(poem_id)
+    if blocked_poem_status is not None:
+        raise LanguageBlocked(
+            f"{poem_id!r} is explicitly blocked (status={blocked_poem_status!r}) regardless of "
+            f"its language's authorization. See SANSKRIT_BLOCK.md."
+        )
 
 
 def require_not_pilot(poem_id: str, *, allow_pilot_regeneration: bool) -> None:
@@ -426,11 +464,13 @@ class DryRunPoemPlan:
 
 
 def plan_poem_dry_run(poem_id: str, language: str, *, repo_root: Path, profile_dir: Path,
-                       source_corpus_dir: Path = DEFAULT_SOURCE_CORPUS_DIR) -> DryRunPoemPlan:
+                       source_corpus_dir: Path = DEFAULT_SOURCE_CORPUS_DIR,
+                       release_manifest: "dict | None" = None) -> DryRunPoemPlan:
     """Builds the same 4 generative-section prompts a live run would build
     (the 5th, CONSISTENCY_REVIEW, needs a real assembled candidate as input
     and is therefore not plannable offline) and returns their hashes/sizes.
     Never constructs a provider client."""
+    require_release_authorized(poem_id, language, release_manifest)  # raises LanguageBlocked, no override
     require_language_profile(language, profile_dir)  # raises LanguageProfileMissing, never invents one
     source = load_source_poem(poem_id, language, repo_root=repo_root, source_corpus_dir=source_corpus_dir)
     stanzas = stanza_specs_for(source)
@@ -483,7 +523,9 @@ def execute_poem_live(poem_id: str, language: str, *, repo_root: Path, profile_d
                        reports_dir: Path, local_run_dir: Path, assignee: "str | None" = None,
                        source_corpus_dir: Path = DEFAULT_SOURCE_CORPUS_DIR,
                        sleep_fn: "Callable[[float], None] | None" = None,
-                       now_fn: Callable[[], datetime] = lambda: datetime.now(timezone.utc)) -> PoemExecutionResult:
+                       now_fn: Callable[[], datetime] = lambda: datetime.now(timezone.utc),
+                       release_manifest: "dict | None" = None) -> PoemExecutionResult:
+    require_release_authorized(poem_id, language, release_manifest)  # raises LanguageBlocked, no override
     profile = require_language_profile(language, profile_dir)
     source = load_source_poem(poem_id, language, repo_root=repo_root, source_corpus_dir=source_corpus_dir)
     stanzas = stanza_specs_for(source)
@@ -736,6 +778,11 @@ def main(argv: "list[str] | None" = None, *, client_factory: "Callable[[], Any] 
     if manifest_path.exists():
         source_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 
+    release_manifest = None
+    release_manifest_path = repo_root / DEFAULT_RELEASE_MANIFEST_PATH
+    if release_manifest_path.exists():
+        release_manifest = json.loads(release_manifest_path.read_text(encoding="utf-8"))
+
     try:
         targets = resolve_targets(
             repo_root=repo_root, assignment_csv=args.assignment, language=args.language,
@@ -756,7 +803,8 @@ def main(argv: "list[str] | None" = None, *, client_factory: "Callable[[], Any] 
     if args.dry_run:
         for t in targets:
             try:
-                plan = plan_poem_dry_run(t.poem_id, t.language, repo_root=repo_root, profile_dir=profile_dir)
+                plan = plan_poem_dry_run(t.poem_id, t.language, repo_root=repo_root, profile_dir=profile_dir,
+                                          release_manifest=release_manifest)
                 print(f"[DRY RUN] {plan.poem_id} ({plan.language}): {len(plan.planned_sections)} sections planned, "
                       f"{plan.stanza_count} stanzas, 0 provider calls.")
             except CorpusRunnerError as exc:
@@ -767,11 +815,25 @@ def main(argv: "list[str] | None" = None, *, client_factory: "Callable[[], Any] 
     results: "list[PoemExecutionResult]" = []
 
     def _run_one(t: AssignmentRow) -> PoemExecutionResult:
-        return execute_poem_live(
-            t.poem_id, t.language, repo_root=repo_root, profile_dir=profile_dir,
-            client_factory=factory, output_root=output_root, checkpoint_dir=checkpoint_dir,
-            reports_dir=reports_dir, local_run_dir=local_run_dir, assignee=t.assignee,
-        )
+        try:
+            return execute_poem_live(
+                t.poem_id, t.language, repo_root=repo_root, profile_dir=profile_dir,
+                client_factory=factory, output_root=output_root, checkpoint_dir=checkpoint_dir,
+                reports_dir=reports_dir, local_run_dir=local_run_dir, assignee=t.assignee,
+                release_manifest=release_manifest,
+            )
+        except LanguageBlocked as exc:
+            # A blocked poem must never terminate or corrupt an otherwise
+            # successful batch (e.g. a full-corpus run that includes
+            # Sanskrit) — report it as a non-fatal per-poem result, exactly
+            # like the dry-run path does, instead of propagating.
+            print(f"[BLOCKED] {t.poem_id} ({t.language}): {exc}")
+            return PoemExecutionResult(
+                poem_id=t.poem_id, language=t.language, stop_gate_passed=False,
+                candidate_status="BLOCKED_ENGINEERING_REVIEW", candidate_path=None, checkpoint_path=None,
+                unresolved_paths=(), repair_rounds_used=0,
+                failure={"classification": "BLOCKED_BY_RELEASE_MANIFEST", "message": str(exc)},
+            )
 
     if args.concurrency == 1:
         for t in targets:

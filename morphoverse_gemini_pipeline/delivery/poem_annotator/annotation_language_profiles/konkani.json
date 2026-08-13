@@ -1,0 +1,57 @@
+{
+  "language": "Konkani",
+  "language_code": "kok",
+  "script": "Devanagari, as observed in the canonical MorphoVerse dataset (Konkani is also written in Kannada script and in Roman script by different communities; verify per-record rather than assuming Devanagari universally)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Konkani-script instantiation)",
+  "romanization_guidance": [
+    "Verify the script actually used in this poem's original_poem text before romanizing -- Konkani has no single standard script across its speaker communities (Devanagari is official for Goa, Kannada script is used by the Karnataka Saraswat community, Roman script is used by many Goan Christian writers).",
+    "Represent aspirated and retroflex consonants with familiar reader-friendly digraphs rather than diacritics.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Konkani has significant dialectal variation across Goa, coastal Karnataka, and Kerala; do not assume one dialect's vocabulary or pronunciation applies uniformly to every Konkani record in this corpus.",
+    "A Sanskrit-, Portuguese-, or Kannada-origin loanword appearing in a Konkani poem is not evidence of a specific community's cultural content by itself -- assess the word's actual role in this specific text."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Konkani annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Konkani.",
+    "Do not assume a Goa/Catholic context by default -- Konkani is spoken by Hindu, Christian (Catholic), and Muslim (Nawayath) communities across Goa, coastal Karnataka, coastal Maharashtra, and Kerala; the poem's own text, not the language name, determines its religious/regional content.",
+    "Do not infer Portuguese-colonial imagery, church/feast imagery, or Goan-beach/coastal imagery unless the poem's own words name or unambiguously depict that specific content."
+  ],
+  "literary_context_cautions": [
+    "Konkani literary tradition includes distinct regional strands (Goan, Mangalorean/coastal-Karnataka, Christian, Hindu-Saraswat) -- do not assume a poem belongs to a specific one without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for dialect-specific vocabulary being glossed with a single 'standard' equivalent that erases a genuine regional distinction the poem's text preserves.",
+    "Watch for postposition-carried case/relational meaning being flattened into a generic English preposition."
+  ],
+  "figurative_language_cautions": [
+    "Repeated words or phrases used for rhythmic or emphatic effect are ordinary poetic technique, not automatically a distinct figurative expression on each occurrence."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to Goan-beach, church, or coastal-Catholic imagery for a Konkani cultural entity unless the text specifically supports it -- offer variants that account for the language's actual religious and regional diversity when the text is ambiguous.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'Konkani equals Goan Catholic' framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term's script, dialect, or community origin is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume a specific religious community (Hindu, Christian, or Muslim) merely because the poem is in Konkani.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Konkani",
+    "stage_5n_task_instructions#KONKANI"
+  ]
+}

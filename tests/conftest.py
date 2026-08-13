@@ -136,6 +136,19 @@ def profile_dir() -> Path:
     return PROFILE_DIR
 
 
+def load_release_manifest() -> dict:
+    """The sole authority on which language/poem is authorized for team
+    generation (corpus/execution_release_manifest.json) — a language
+    profile file being present on disk does NOT by itself imply
+    authorization. See SANSKRIT_BLOCK.md."""
+    return json.loads((REPO_ROOT / "corpus" / "execution_release_manifest.json").read_text(encoding="utf-8"))
+
+
+@pytest.fixture
+def release_manifest() -> dict:
+    return load_release_manifest()
+
+
 def any_non_pilot_supported_poem() -> "tuple[str, str]":
     """Returns (poem_id, language) for a real, non-pilot, profile-supported
     corpus poem, read from the real exported source corpus."""
@@ -146,9 +159,31 @@ def any_non_pilot_supported_poem() -> "tuple[str, str]":
     raise AssertionError("no non-pilot, profile-supported poem found in corpus/source_manifest.json")
 
 
-def any_blocked_language_poem() -> "tuple[str, str]":
+def any_newly_authorized_non_pilot_poem() -> "tuple[str, str]":
+    """Returns (poem_id, language) for a poem in one of the 14 languages
+    authorized for team generation in Stage 5M.2 but never pilot-validated
+    (i.e. not one of the original 6) — exercises the sync, not just the
+    pre-existing pilot-language path."""
+    release = load_release_manifest()
     manifest = json.loads((REPO_ROOT / "corpus" / "source_manifest.json").read_text(encoding="utf-8"))
     for r in manifest["records"]:
-        if r["profile_status"] != "SUPPORTED_PILOT_VALIDATED":
+        status = release["languages"].get(r["language"], {}).get("status")
+        if status == "AUTHORIZED_FOR_TEAM_GENERATION" and r["profile_status"] != "SUPPORTED_PILOT_VALIDATED":
             return r["poem_id"], r["language"]
-    raise AssertionError("no blocked-language poem found in corpus/source_manifest.json")
+    raise AssertionError("no newly-authorized non-pilot poem found in corpus/source_manifest.json")
+
+
+def any_blocked_language_poem() -> "tuple[str, str]":
+    """Returns (poem_id, language) for the sole poem whose language the
+    current execution_release_manifest.json does NOT mark
+    AUTHORIZED_FOR_TEAM_GENERATION (Sanskrit / MV++_1235, as of Stage 5M.2).
+    Deliberately reads the release manifest, not profile file presence —
+    all 21 languages have a profile file on disk, but that does not imply
+    authorization."""
+    release = load_release_manifest()
+    manifest = json.loads((REPO_ROOT / "corpus" / "source_manifest.json").read_text(encoding="utf-8"))
+    for r in manifest["records"]:
+        status = release["languages"].get(r["language"], {}).get("status")
+        if status != "AUTHORIZED_FOR_TEAM_GENERATION":
+            return r["poem_id"], r["language"]
+    raise AssertionError("no blocked-language poem found via corpus/execution_release_manifest.json")

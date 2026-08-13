@@ -1,0 +1,58 @@
+{
+  "language": "Marathi",
+  "language_code": "mr",
+  "script": "Devanagari, as confirmed by the canonical MorphoVerse dataset audit (~97% of non-space characters in the sampled records)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Marathi-script instantiation)",
+  "romanization_guidance": [
+    "Represent aspirated and retroflex consonants with familiar reader-friendly digraphs rather than diacritics.",
+    "Marathi's retroflex lateral consonant (ळ, romanized 'L' or 'la') is phonemically distinct from the plain 'l' and does not exist in standard Hindi -- preserve this distinction in romanization when the source text distinguishes it.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Marathi has three grammatical genders (masculine, feminine, neuter), unlike Hindi's two -- when a translation collapses or alters this, that is a genuine, text-grounded translation-loss candidate.",
+    "Marathi makes extensive use of compound and conjunct verb constructions (e.g. a noun/adjective plus a light verb) that do not map one-to-one onto a single English verb; a shift in this structure across translation is a legitimate loss_note candidate.",
+    "Marathi vocabulary spans Sanskrit-derived (tatsama), Perso-Arabic-derived (via Deccan-era historical contact), and colloquial registers; a word's etymological origin alone does not indicate this poem's cultural specificity."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Marathi annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Marathi.",
+    "Do not infer Bhakti devotional tradition (Sant Dnyaneshwar/Tukaram), Shivaji/Maratha-empire historical imagery, or generic Maharashtra festival imagery (e.g. Ganeshotsav) unless the poem's own words name or unambiguously depict that specific content.",
+    "Distinguish genuinely Marathi-specific cultural content from broader Sanskritic or pan-Indian cues that merely happen to appear in a Marathi-language poem -- shared Sanskritic vocabulary is not proof of Marathi-specific content."
+  ],
+  "literary_context_cautions": [
+    "Marathi literary history spans the medieval Bhakti/Varkari tradition, colonial-era reformist writing, and a substantial modern tradition including the Dalit/Ambedkarite poetry movement -- do not assume a poem belongs to a specific one without textual evidence, and take particular care not to default to a Bhakti reading merely because devotional-sounding vocabulary appears."
+  ],
+  "translation_cautions": [
+    "Watch for lost grammatical gender marking (a neuter- or feminine-marked subject rendered with a gender-neutral or incorrect-gender English construction).",
+    "Watch for compound/conjunct verb structure being flattened into a plain English verb, losing an aspectual or intensifying nuance."
+  ],
+  "figurative_language_cautions": [
+    "Marathi Bhakti-influenced poetry often uses devotional-sounding vocabulary in a purely secular sense or vice versa; do not assume the devotional reading is correct without textual support for a divine addressee."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to Bhakti-temple, Shivaji-era, or Ganeshotsav-festival imagery for a Marathi cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'you are steeped in Bhakti/Maratha-history tradition' framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term could plausibly be either a Sanskrit-derived devotional term or an ordinary colloquial Marathi word and the text does not disambiguate, prefer the more conservative (non-cultural) reading.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume Marathi implies Bhakti-devotional or Maratha-historical content without direct textual support.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Marathi",
+    "stage_5n_task_instructions#MARATHI"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "language": "Punjabi",
+  "language_code": "pa",
+  "script": "Gurmukhi, as confirmed by the canonical MorphoVerse dataset audit (~97% of non-space characters in the sampled records); Punjabi is also written in the Perso-Arabic Shahmukhi script, notably in Pakistan, but this corpus's records use Gurmukhi",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Gurmukhi-script instantiation)",
+  "romanization_guidance": [
+    "Represent aspirated and retroflex consonants with familiar reader-friendly digraphs rather than diacritics.",
+    "Punjabi is a tonal language (tone historically arose from the loss of certain consonant distinctions); tone is generally not fully recoverable from the Gurmukhi script alone, so do not claim a specific tonal reading in romanization -- represent the segmental form only.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Punjabi postpositions carry case-like grammatical information that English prepositions do not map onto one-to-one; a shift in postposition-carried meaning across translation is a legitimate loss_note candidate.",
+    "Punjabi vocabulary spans Sanskrit-derived, Persian/Arabic-derived, and everyday colloquial registers; a word's etymological origin alone does not indicate this poem's cultural or religious specificity."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Punjabi annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Punjabi.",
+    "The Gurmukhi script itself is historically associated with Sikh scripture, but Punjabi speakers and writers include Sikhs, Hindus, Muslims, and people of other or no religious affiliation -- do not infer Sikh religious content merely because the poem is written in Gurmukhi or is in Punjabi.",
+    "Do not infer Bhangra/Giddha dance imagery, generic rural-Punjab imagery, or Sikh gurdwara imagery unless the poem's own words name or unambiguously depict that specific content."
+  ],
+  "literary_context_cautions": [
+    "Punjabi literary history spans Sufi and Bhakti-era devotional verse (e.g. Baba Farid, Bulleh Shah), the qissa (narrative romance) tradition, and a substantial modern/progressive literary movement -- do not assume a poem belongs to a specific one without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for postposition-carried case/relational meaning being flattened into a generic English preposition.",
+    "Watch for tonal distinctions that are simply unrecoverable from the English translation -- note this as a genuine, unavoidable loss rather than forcing a specific reading."
+  ],
+  "figurative_language_cautions": [
+    "Sufi-influenced Punjabi poetry often uses devotional-sounding vocabulary (longing, the beloved, union) in either a secular-romantic or a mystical sense; do not assume either reading without textual support."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to Bhangra, gurdwara, or generic-rural-Punjab imagery for a Punjabi cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'Punjabi equals Sikh' framing when annotating -- annotate only what this specific poem's text supports; religious content requires its own direct textual evidence, distinct from linguistic identity.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term could plausibly be either a Sikh-religious term or an ordinary colloquial Punjabi word and the text does not disambiguate, prefer the more conservative (non-religious) reading and use the explicit-uncertainty mechanism.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume the speaker's religion (Sikh, Hindu, Muslim, or other) is Sikh by default merely because the poem is in Punjabi/Gurmukhi.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Punjabi",
+    "stage_5n_task_instructions#PUNJABI"
+  ]
+}

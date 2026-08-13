@@ -1,0 +1,58 @@
+{
+  "language": "Sanskrit",
+  "language_code": "sa",
+  "script": "Devanagari, as confirmed by the canonical MorphoVerse dataset audit (100% of non-space characters in the sampled record)",
+  "profile_version": "5N.1",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Sanskrit-script instantiation)",
+  "romanization_guidance": [
+    "Represent aspirated and retroflex consonants with familiar reader-friendly digraphs rather than IAST-style diacritics, consistent with this corpus's reader-friendly convention.",
+    "Sanskrit sandhi (obligatory euphonic combination at word boundaries) frequently merges adjacent words in writing; when romanizing, keep the merged form as written but note the underlying word boundary in translation_note if it materially affects meaning.",
+    "Use a widely-recognized conventional spelling for well-known names/terms when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Sanskrit is highly inflected (eight grammatical cases) and makes extensive use of compounding (samasa), where a single compound word can encode a relationship English requires a full phrase to express; a compound's internal structure collapsing into a shorter or looser English rendering is a legitimate, text-grounded translation-loss candidate.",
+    "Sandhi can obscure word boundaries and even change the apparent identity of a word; do not assume a surface reading is correct without considering whether sandhi has altered it.",
+    "Any field that grounds a verbatim span against the poem's own text (e.g. source_span_original) must reproduce the poem's actual written surface form exactly as it appears on the line, including any sandhi fusion at a word boundary. Grammatical analysis, lexical decomposition, lemma reconstruction (vigraha), sandhi splitting, or any other underlying/pre-sandhi form must never be substituted for the literal grounded span, even when that underlying form is more recognizable as a dictionary headword. If the poem's own written text is sandhi-fused at that point, the grounded span must preserve that fused written form as-is. Discussion of the underlying form, its decomposition, or its morphological analysis belongs only in explanatory free-text fields where Schema v1.1 permits it (e.g. translation_note, literal_meaning) -- never inside a verbatim-grounded span field. Exact grounding against the poem's own written text always takes precedence over normalized or lexically simplified analysis."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Sanskrit annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Sanskrit.",
+    "Do not automatically classify Sanskrit content as Hindu religious/devotional by default -- Sanskrit has an extensive secular literary tradition (kavya court poetry, nature poetry, erotic/Shringara poetry, scientific and grammatical treatises) as well as being used across Hindu, Buddhist, and Jain traditions; the poem's own text, not the language, determines its religious or secular character."
+  ],
+  "literary_context_cautions": [
+    "Sanskrit literary history spans Vedic hymns, classical kavya court poetry (e.g. Kalidasa), devotional (bhakti) literature across multiple religious traditions, and modern revivalist Sanskrit poetry -- do not assume a poem belongs to a specific era or tradition without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch specifically for compound-word (samasa) meaning being flattened, split incorrectly, or over-expanded in English.",
+    "Watch for sandhi-related word-boundary ambiguity producing a genuine alternate reading -- document this explicitly rather than silently picking one.",
+    "Watch for case-marking information (of which Sanskrit has eight, more than English's prepositional system distinguishes) being lost or flattened in translation."
+  ],
+  "figurative_language_cautions": [
+    "Classical Sanskrit poetics (alamkara-shastra) formally catalogs figures of speech; do not assume every ornate or compound-heavy phrase is automatically a metaphor -- assess whether the specific figure (upama/simile, rupaka/metaphor, or literal description) is textually supported."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to temple, deity, or generic 'ancient India' imagery for a Sanskrit cultural entity unless the text specifically supports it -- classical Sanskrit poetry includes purely secular nature and court imagery.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'Sanskrit equals sacred/religious' framing by default when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a sandhi-merged term's word boundary or sense is genuinely ambiguous, prefer the reading supported by the translation but note the alternative via the explicit-uncertainty mechanism.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume Hindu religious content, a specific historical era, or a specific literary genre (devotional versus secular kavya) without direct textual support.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Sanskrit",
+    "stage_5n_task_instructions#SANSKRIT"
+  ]
+}

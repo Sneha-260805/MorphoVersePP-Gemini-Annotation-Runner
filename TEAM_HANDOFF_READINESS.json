@@ -1,0 +1,25 @@
+{
+  "total_corpus": 1570,
+  "languages": 21,
+  "engineering_valid_languages": 20,
+  "blocked_languages": [
+    "Sanskrit"
+  ],
+  "blocked_poems": [
+    "MV++_1235"
+  ],
+  "pilot_already_generated": 6,
+  "new_team_generation_targets": 1563,
+  "teammate_count": 3,
+  "assignment_counts": {
+    "teammate_1": 521,
+    "teammate_2": 521,
+    "teammate_3": 521
+  },
+  "full_corpus_ready": false,
+  "supported_corpus_ready": true,
+  "claude_required": false,
+  "openai_required": false,
+  "vertex_required": true,
+  "provider_calls_this_stage": 0
+}

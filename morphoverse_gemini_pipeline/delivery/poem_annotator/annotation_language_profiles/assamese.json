@@ -1,0 +1,60 @@
+{
+  "language": "Assamese",
+  "language_code": "as",
+  "script": "Bengali-Assamese Unicode block, as observed in the canonical MorphoVerse dataset (95-96% of non-space characters in the audited sample)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Assamese-script instantiation)",
+  "romanization_guidance": [
+    "Assamese uses the Bengali-Assamese Unicode block but is not Bengali -- it has letters (e.g. ৰ / ৱ) and a distinctive fricative realization (often romanized 'x' or 'kh', as in Oxomiya/Asomiya for the language's own name) that Bengali does not use in the same way; do not apply Bengali romanization conventions by default.",
+    "Represent aspirated and the Assamese velar/glottal fricative sounds with familiar reader-friendly digraphs rather than diacritics.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem.",
+    "The Devanagari-block danda (।) may appear as punctuation in Assamese text sourced from this corpus -- this is a shared cross-script convention, not evidence the poem is actually written in Devanagari; verify against the bulk of the poem's characters before concluding otherwise."
+  ],
+  "linguistic_guidance": [
+    "Assamese, unlike Hindi, Marathi, or Bengali, has no grammatical gender on nouns or adjectives -- do not import a gender-marking translation-loss expectation from other Indo-Aryan-language profiles.",
+    "Assamese uses an extensive classifier system (e.g. -tu, -khon, -zon) attached to numerals and demonstratives; a classifier's loss in English is a legitimate, text-grounded translation nuance, not automatically a cultural cue.",
+    "Assamese vocabulary draws on Sanskrit (tatsama), local Tai-Ahom and Austroasiatic substrate words, and everyday colloquial registers; a word's etymological origin alone does not indicate this poem's cultural specificity."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Assamese annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Assamese.",
+    "Assamese culture is distinct from Bengali culture despite the shared script family -- do not describe an Assamese cultural element using Bengali-culture terminology, and do not treat Assamese simply as a regional variant of Bengali culture.",
+    "Do not infer Bihu festival imagery, tea-garden imagery, Brahmaputra-river imagery, or Sattriya/Sankardeva Vaishnavite devotional tradition unless the poem's own words name or unambiguously depict that specific content."
+  ],
+  "literary_context_cautions": [
+    "Assamese literary history includes the Sankardeva-era Vaishnavite bhakti movement, colonial-era romanticism, and a substantial modern/contemporary free-verse tradition -- do not assume a poem belongs to a specific one without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for lost classifier information (a numeral+classifier construction flattened to a bare English number).",
+    "Watch for the gender-neutral character of Assamese nouns/pronouns being resolved to a specific English gender without textual support.",
+    "Watch for compound/reduplicated forms (common in Assamese poetic diction) being translated as a single English word, losing the rhythmic-emphatic effect."
+  ],
+  "figurative_language_cautions": [
+    "Repeated words or reduplicated forms used for rhythmic or emphatic effect are ordinary Assamese poetic technique, not automatically a distinct figurative expression on each occurrence."
+  ],
+  "visual_representation_cautions": [
+    "When a cultural or figurative element is genuinely visualizable, offer multiple acceptable_visual_variants rather than a single fixed scene, and do not default to tea-garden, Bihu-dance, or riverine imagery unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'this is essentially Bengali culture' framing when annotating -- annotate only what this specific poem's text supports, in its own right as Assamese.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "Because the Assamese and Bengali scripts overlap heavily, a term that looks identical in both scripts should still be read in its Assamese linguistic context (pronunciation/meaning), not assumed to carry Bengali connotations.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume Assamese implies the same cultural referents as Bengali merely because the scripts are related.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Assamese",
+    "stage_5n_task_instructions#ASSAMESE"
+  ]
+}

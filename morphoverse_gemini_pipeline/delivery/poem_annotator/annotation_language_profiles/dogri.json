@@ -1,0 +1,56 @@
+{
+  "language": "Dogri",
+  "language_code": "doi",
+  "script": "Devanagari, as observed in the canonical MorphoVerse dataset (Dogri's standard modern script; historically also written in the Takri script)",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Dogri-script instantiation)",
+  "romanization_guidance": [
+    "Represent aspirated and retroflex consonants with familiar reader-friendly digraphs rather than diacritics, matching the same reader-friendly convention used for other Devanagari-script languages in this corpus.",
+    "Use a widely-recognized conventional spelling for well-known names/places when one already exists in common English usage.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Dogri is closely related to, but distinct from, Punjabi and Hindi/Pahari varieties; shared vocabulary with Punjabi or Hindi is not evidence the poem's cultural content belongs to Punjabi or Hindi culture.",
+    "Dogri is spoken primarily in the Jammu region; do not conflate its grammar or vocabulary with generic Hindi or Punjabi without textual grounds -- assess each poem on its own terms."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Dogri annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Dogri.",
+    "Distinguish Dogra/Jammu regional context from generic Punjabi Sikh culture and from generic Kashmiri culture, both of which border the Dogri-speaking region -- do not default to either without textual evidence.",
+    "Do not infer Dogra Rajput historical/courtly imagery, Jammu temple imagery, or Duggar folk-festival imagery unless the poem's own words name or unambiguously depict that specific content."
+  ],
+  "literary_context_cautions": [
+    "Dogri has both an older courtly/devotional literary tradition and a modern post-1950s literary revival (Dogri gained official recognition as a Scheduled Language in 2003) -- do not assume a poem belongs to a specific era or tradition without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for postposition-carried case/relational meaning being flattened into a generic English preposition, similar to the caution already documented for Hindi.",
+    "Watch for regionally specific vocabulary shared with Punjabi/Pahari varieties being glossed with an over-general Hindi equivalent that loses a Dogri-specific nuance."
+  ],
+  "figurative_language_cautions": [
+    "Repeated words or phrases used for rhythmic or emphatic effect are ordinary poetic technique in this region's literary tradition, not automatically a distinct figurative expression on each occurrence."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to Dogra-courtly, Jammu-temple, or generic Kashmiri/Punjabi imagery for a Dogri cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'this is basically Punjabi' or 'this is basically Kashmiri' framing when annotating -- annotate only what this specific poem's text supports, as Dogri in its own right.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term could plausibly belong to shared Dogri/Punjabi/Pahari vocabulary and the text does not disambiguate its cultural role, prefer the conservative (non-cultural) reading.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume Dogri content is interchangeable with Punjabi or Kashmiri content merely due to regional proximity.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Dogri",
+    "stage_5n_task_instructions#DOGRI"
+  ]
+}

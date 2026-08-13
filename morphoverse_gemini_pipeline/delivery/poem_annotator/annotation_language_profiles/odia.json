@@ -1,0 +1,57 @@
+{
+  "language": "Odia",
+  "language_code": "or",
+  "script": "As stored in the canonical MorphoVerse dataset for this poem -- predominantly Odia script (4 of 5 sampled records, 95-98%), but the Stage 5N audit found one sampled record stored entirely in Devanagari, not Odia script at all (see corpus_language_audit.json for the specific record). Verify per-record rather than assuming Odia script uniformly.",
+  "profile_version": "5N.0",
+  "romanization_scheme": "reader_friendly_ascii_v1 (Odia-script-ambiguous instantiation)",
+  "romanization_guidance": [
+    "Identify which script the specific poem's original_poem text actually uses (Odia or Devanagari) before romanizing -- do not assume Odia script uniformly; this corpus is independently confirmed to contain at least one Odia-labeled record stored entirely in Devanagari.",
+    "The Devanagari-block danda (।) and double-danda (॥) appear as ordinary punctuation in genuinely Odia-script text as well -- their presence alone is not evidence the poem is stored in Devanagari; check the bulk of the characters, not just the punctuation.",
+    "Represent aspirated and retroflex consonants with familiar reader-friendly digraphs rather than diacritics.",
+    "Keep every repeated occurrence of the same source term romanized identically within one poem."
+  ],
+  "linguistic_guidance": [
+    "Odia, like Assamese and Bengali, has no grammatical gender on nouns or adjectives -- do not import a gender-marking translation-loss expectation from Hindi/Marathi-style profiles.",
+    "Odia uses a classifier system for numerals similar to other eastern Indo-Aryan languages; a classifier's loss in English is a legitimate, text-grounded translation nuance.",
+    "Odia vocabulary spans Sanskrit-derived (tatsama) and colloquial registers; a word's etymological origin alone does not indicate this poem's cultural specificity."
+  ],
+  "cultural_boundary_rules": [
+    "A culturally specific Odia annotation requires a defensible link to a named tradition, practice, or symbol that the poem's own text actually evidences -- do not add one merely because the poem is in Odia.",
+    "Do not infer Jagannath-temple imagery, Odissi-dance imagery, or Puri-pilgrimage imagery unless the poem's own words name or unambiguously depict that specific content -- these are common outside shorthands for 'Odia culture' and must not be assumed as a default backdrop."
+  ],
+  "literary_context_cautions": [
+    "Odia literary history spans medieval devotional poetry (e.g. the Panchasakha tradition), colonial-era reformist writing, and a substantial modern tradition -- do not assume a poem belongs to a specific one without textual evidence."
+  ],
+  "translation_cautions": [
+    "Watch for lost classifier information (a numeral+classifier construction flattened to a bare English number).",
+    "Watch specifically for a script-storage anomaly (Devanagari-stored text for an Odia-labeled record) producing a downstream transliteration side-effect -- document this explicitly per record rather than silently normalizing it."
+  ],
+  "figurative_language_cautions": [
+    "Repeated words or phrases used for rhythmic or emphatic effect are ordinary Odia poetic technique, not automatically a distinct figurative expression on each occurrence."
+  ],
+  "visual_representation_cautions": [
+    "Do not default to Jagannath-temple, Odissi-dance, or Puri-pilgrimage imagery for an Odia cultural entity unless the text specifically supports it.",
+    "negative_confusions for an entity in this language should name a plausible, specific incorrect substitution, not a generic stereotype disconnected from the poem's own evidence."
+  ],
+  "stereotype_avoidance_rules": [
+    "Do not adopt a 'every Odia poem is devotional/Jagannath-centered' framing when annotating -- annotate only what this specific poem's text supports.",
+    "Do not apply a numeric quota (e.g. 'expect N cultural entities') to this poem -- a poem with zero text-supported cultural entities is a valid, expected outcome."
+  ],
+  "ambiguity_handling_rules": [
+    "When a term's script origin cannot be confidently determined (Odia vs Devanagari storage), prefer the more conservative reading and flag the uncertainty rather than presenting one romanization as definitively correct.",
+    "When a reading is genuinely uncertain from the text alone, prefer the more conservative reading and use the explicit-uncertainty mechanism rather than asserting one interpretation as fact."
+  ],
+  "approved_examples": [],
+  "prohibited_assumptions": [
+    "Do not assume every corpus record labeled Odia is actually stored in Odia script without checking the record.",
+    "Do not assume the speaker's religion, region, or gender beyond what the text states.",
+    "Do not assume a specific historical period unless the text itself places the poem there.",
+    "Do not assume rural versus urban setting unless the text specifies it."
+  ],
+  "native_review_required": true,
+  "profile_status": "DRAFT_REQUIRES_LANGUAGE_REVIEW",
+  "source_provenance": [
+    "pilot/reports/language_profiles_stage5n/corpus_language_audit.json#Odia",
+    "stage_5n_task_instructions#ODIA"
+  ]
+}

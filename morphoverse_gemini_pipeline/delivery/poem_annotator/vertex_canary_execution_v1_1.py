@@ -301,6 +301,13 @@ class ValidationPipelineResult:
     romanization_conflicts: "tuple[str, ...]"
     content_quality_flags: "tuple[str, ...]"
     normalized_annotation: "dict | None"
+    raw_annotation: "dict | None" = None  # Stage 5N.3: the pre-validation candidate
+    # dict as originally passed to run_validation_pipeline, ALWAYS populated
+    # (unlike normalized_annotation, which is None when schema_valid=False).
+    # Needed so derive_invalid_paths can independently re-scan a
+    # schema-invalid candidate for every objective cross-field contradiction
+    # instance, not just the first one models.validate_model_payload_v1_1's fail-fast validator
+    # happened to raise on (Stage 5N.2 Manipuri finding).
 
     @property
     def all_objective_checks_pass(self) -> bool:
@@ -352,6 +359,9 @@ class PathedGroundingIssue:
     field_path: str
     code: str
     message: str
+    corrected_line_ref: "str | None" = None  # Stage 5N.3: carried through from
+    # grounding.GroundingIssue.corrected_line_ref for code="line_ref_span_mismatch"
+    # only — see derive_invalid_paths / find_line_ref_repair_authorizations.
 
 
 def check_grounding(annotation: dict, original_poem: str, translated_poem: str) -> "list[PathedGroundingIssue]":
@@ -359,12 +369,12 @@ def check_grounding(annotation: dict, original_poem: str, translated_poem: str) 
     for i, entity in enumerate(annotation.get("cultural_entities", [])):
         for gi in validate_cultural_grounding_v1_1(entity, original_poem, translated_poem, mode=GROUNDING_MODE_TRANSITIONAL_CANDIDATE, index=i):
             if gi.severity == "error":
-                issues.append(PathedGroundingIssue(f"cultural_entities[{i}].{gi.field}", gi.code, gi.message))
+                issues.append(PathedGroundingIssue(f"cultural_entities[{i}].{gi.field}", gi.code, gi.message, gi.corrected_line_ref))
     for si, stanza in enumerate(annotation.get("stanzas", [])):
         for mi, expr in enumerate(stanza.get("metaphor_spans", []) or []):
             for gi in validate_figurative_grounding_v1_1(expr, original_poem, translated_poem, mode=GROUNDING_MODE_TRANSITIONAL_CANDIDATE, index=mi):
                 if gi.severity == "error":
-                    issues.append(PathedGroundingIssue(f"stanzas[{si}].metaphor_spans[{mi}].{gi.field}", gi.code, gi.message))
+                    issues.append(PathedGroundingIssue(f"stanzas[{si}].metaphor_spans[{mi}].{gi.field}", gi.code, gi.message, gi.corrected_line_ref))
     return issues
 
 
@@ -432,6 +442,7 @@ def run_validation_pipeline(annotation: dict, poem, original_poem: str, translat
         romanization_consistent=not romanization_conflicts, romanization_conflicts=tuple(romanization_conflicts),
         content_quality_flags=tuple(quality_flags),
         normalized_annotation=normalized,
+        raw_annotation=annotation,
     )
 
 
@@ -483,6 +494,78 @@ def _paths_from_raw_schema_errors(schema_errors: "tuple[str, ...]") -> "list[Inv
     return issues
 
 
+def find_all_loss_note_faithful_contradictions(annotation: "dict | None") -> "list[InvalidPathIssue]":
+    """Stage 5N.3 fix for the Stage 5N.2 Manipuri finding (REPAIR_BUDGET_EXHAUSTED):
+    independently scans EVERY stanza of `annotation` directly for the exact
+    same objective rule models.validate_model_payload_v1_1's fail-fast validator already enforces
+    (translation_quality == "faithful" with a non-empty loss_note) — this
+    does not change the rule (schema.py/models.py are untouched) and does
+    not weaken it; it only finds every instance of it in ONE pass instead of
+    relying on models.validate_model_payload_v1_1's SchemaValidationError,
+    which (by design, Stage 2.1) raises and stops at the FIRST stanza it
+    finds. A candidate with contradictions in stanzas 1, 2, and 3 now yields
+    all three pairs of paths from a single call, so ALL of them can be
+    included in ONE targeted-repair request rather than needing one
+    MAX_REPAIR_ROUNDS-consuming round per instance. Deterministically
+    ordered by stanza index (ascending), never a set/dict iteration order.
+    Read-only: never mutates `annotation`. Returns [] for a non-dict
+    `annotation` or a missing/non-list `stanzas`, never raises."""
+    issues: "list[InvalidPathIssue]" = []
+    if not isinstance(annotation, dict):
+        return issues
+    stanzas = annotation.get("stanzas")
+    if not isinstance(stanzas, list):
+        return issues
+    for i, stanza in enumerate(stanzas):
+        if not isinstance(stanza, dict):
+            continue
+        translation_quality = stanza.get("translation_quality")
+        loss_note = stanza.get("loss_note")
+        if translation_quality == "faithful" and loss_note:
+            message = f"stanzas[{i}].loss_note must be empty when translation_quality is faithful."
+            issues.append(InvalidPathIssue(field_path=f"stanzas[{i}].loss_note", validation_reason=message))
+            issues.append(InvalidPathIssue(
+                field_path=f"stanzas[{i}].translation_quality",
+                validation_reason=(
+                    f"Coupled with the loss_note contradiction above (same cross-field rule, "
+                    f"models.py): {message} An alternative resolution is to change "
+                    f"translation_quality away from 'faithful' instead of clearing loss_note, "
+                    f"if the source/translation evidence supports a real loss."
+                ),
+                allowed_values=ALLOWED_TRANSLATION_QUALITIES,
+            ))
+    return issues
+
+
+# ── Deterministic line_ref repair-path authorization (Stage 5N.3, Task 5) ───
+def find_line_ref_repair_authorizations(grounding_issues: "tuple[PathedGroundingIssue, ...]") -> "list[InvalidPathIssue]":
+    """Authorizes `line_ref` itself (never the already-correct span text) as
+    a repairable path when grounding found a code="line_ref_span_mismatch"
+    issue WITH a deterministically-derivable correction
+    (PathedGroundingIssue.corrected_line_ref is not None — see
+    grounding.py's GroundingIssue.corrected_line_ref: only set when
+    source_span_original occurs exactly once elsewhere in the whole poem,
+    i.e. no semantic interpretation is required to pick the right line).
+    A line_ref_span_mismatch WITHOUT a deterministic correction (ambiguous
+    whole-poem occurrence) is deliberately NOT authorized here — it still
+    surfaces as its own field_path via check_grounding/derive_invalid_paths,
+    but as a review item, not a mechanically-resolvable one. Never touches
+    source_span_original/source_span_translation paths; those were already
+    correct (that is the whole point of this repair path existing)."""
+    issues: "list[InvalidPathIssue]" = []
+    for gi in grounding_issues:
+        if gi.code == "line_ref_span_mismatch" and gi.corrected_line_ref is not None:
+            issues.append(InvalidPathIssue(
+                field_path=gi.field_path,
+                validation_reason=(
+                    f"{gi.message} The correct line_ref, deterministically re-derived from the "
+                    f"poem's own line index, is {gi.corrected_line_ref!r} — source_span_original's "
+                    f"text is already correct and must not be changed; only line_ref needs correction."
+                ),
+            ))
+    return issues
+
+
 def derive_invalid_paths(result: ValidationPipelineResult) -> "list[InvalidPathIssue]":
     """Builds the minimal list of invalid/incomplete JSON paths from the
     validation pipeline's objective findings (never from
@@ -494,17 +577,78 @@ def derive_invalid_paths(result: ValidationPipelineResult) -> "list[InvalidPathI
     case this function still recovers any KNOWN, exactly-parseable
     cross-field schema error into a repairable path, so a genuine model
     mistake like a stray loss_note on a 'faithful' stanza is repairable
-    rather than silently unrepairable."""
+    rather than silently unrepairable.
+
+    Stage 5N.3: also independently re-scans result.raw_annotation for EVERY
+    instance of the faithful/loss_note contradiction (not just the one
+    models.validate_model_payload_v1_1's fail-fast validator happened to raise on), and authorizes
+    line_ref itself (not source_span_original) as the repair path for any
+    deterministically-resolvable line_ref/span mismatch a grounding pass
+    already found. Both additions are additive: they can only ADD paths
+    that were previously undiscoverable in one pass, never remove or change
+    the meaning of an existing one; de-duplication below still applies."""
     issues: "list[InvalidPathIssue]" = list(_paths_from_raw_schema_errors(result.schema_errors))
+    issues.extend(find_all_loss_note_faithful_contradictions(result.raw_annotation))
     for v in result.completeness_violations:
         issues.append(InvalidPathIssue(field_path=v.field_path, validation_reason=v.message))
+    issues.extend(find_line_ref_repair_authorizations(result.grounding_issues))
     for gi in result.grounding_issues:
+        if gi.code == "line_ref_span_mismatch" and gi.corrected_line_ref is not None:
+            continue  # superseded by find_line_ref_repair_authorizations' more informative issue above
         issues.append(InvalidPathIssue(field_path=gi.field_path, validation_reason=gi.message))
-    # de-duplicate by field_path, keep first reason
+    # de-duplicate by field_path, keep first reason, preserve first-seen (deterministic) order
     seen: "dict[str, InvalidPathIssue]" = {}
     for issue in issues:
         seen.setdefault(issue.field_path, issue)
     return list(seen.values())
+
+
+# ── Repair batching by objective rule (Stage 5N.3, Task 7) ──────────────────
+_LOSS_NOTE_RULE = "cross_field_translation_quality_faithful_loss_note"
+_LINE_REF_MISMATCH_RULE = "deterministic_line_ref_span_mismatch"
+_GROUNDING_SPAN_RULE = "grounding_span_not_found_or_ambiguous"
+_COMPLETENESS_RULE = "completeness_violation"
+_OTHER_RULE = "other_schema_error"
+
+
+def categorize_invalid_path_rule(issue: InvalidPathIssue) -> str:
+    """Classifies one InvalidPathIssue by the OBJECTIVE rule that produced
+    it, purely from the issue's own already-known shape (field suffix +
+    validation_reason marker text) -- never by guessing intent. Used only
+    to decide what may safely be batched into the same targeted-repair
+    request (Task 7: 'Do not mix unrelated semantic issues into the
+    request'); does not change what gets validated or how."""
+    path, reason = issue.field_path, issue.validation_reason
+    if "must be empty when translation_quality is faithful" in reason:
+        return _LOSS_NOTE_RULE
+    if path.endswith(".line_ref") and "deterministically re-derived" in reason:
+        return _LINE_REF_MISMATCH_RULE
+    if "grounding" in path or "span" in reason.lower() or "not found" in reason.lower() or "ambiguous" in reason.lower():
+        return _GROUNDING_SPAN_RULE
+    if "completeness" in reason.lower() or "missing" in reason.lower():
+        return _COMPLETENESS_RULE
+    return _OTHER_RULE
+
+
+def plan_repair_batches(invalid_paths: "list[InvalidPathIssue]") -> "tuple[tuple[InvalidPathIssue, ...], ...]":
+    """Groups `invalid_paths` into batches by categorize_invalid_path_rule():
+    every path produced by the SAME objective rule (e.g. every
+    faithful/loss_note pair across however many stanzas) is grouped into
+    ONE batch -- safe to send together in a single targeted-repair request,
+    since they all share one rule, one set of authorized paths, and no
+    resolution of one can affect another's authorization (Task 7/8). Paths
+    from DIFFERENT rules are never merged into the same batch. Deterministic:
+    batches appear in first-seen rule order; paths within a batch keep their
+    original relative order."""
+    order: "list[str]" = []
+    grouped: "dict[str, list[InvalidPathIssue]]" = {}
+    for issue in invalid_paths:
+        rule = categorize_invalid_path_rule(issue)
+        if rule not in grouped:
+            grouped[rule] = []
+            order.append(rule)
+        grouped[rule].append(issue)
+    return tuple(tuple(grouped[rule]) for rule in order)
 
 
 def _get_at_path(annotation: dict, path: str) -> Any:

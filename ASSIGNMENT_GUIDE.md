@@ -1,13 +1,15 @@
 # Assignment guide
 
 The full canonical corpus is 1,570 poems (`corpus/corpus_inventory.json`).
-Of those, 1,264 are in a currently-supported language and 6 of those are
-already-generated pilots, leaving **1,258 poems currently assignable**
-across Bengali, Hindi, Kannada, Kashmiri, Sindhi, and Telugu. The remaining
-306 poems (15 languages) are not assignable yet — `create_assignments.py`
-excludes them automatically and will start including them the moment their
-language profile is approved and `FULL_CORPUS_READINESS.json` reflects it,
-with no other change required.
+Of those, 1,569 are in an engineering-authorized language
+(`corpus/execution_release_manifest.json`) and 6 of those are
+already-generated pilots, leaving **1,563 poems currently assignable**
+across the 20 authorized languages, split evenly across 3 teammates
+(521 each). The 1 remaining poem — `MV++_1235` / Sanskrit — is not
+assignable — `create_assignments.py` excludes it automatically (see
+`SANSKRIT_BLOCK.md`) and would start including it the moment the release
+manifest marks Sanskrit `AUTHORIZED_FOR_TEAM_GENERATION`, with no other
+change required.
 
 ## How the corpus is split
 
@@ -20,10 +22,13 @@ python scripts/create_assignments.py --teammates 3
 This reads `corpus/source_manifest.json` and writes one CSV per teammate
 under `assignments/`. The split:
 
-1. **Excludes any language without an approved profile.** See
-   `SUPPORTED_LANGUAGES.md` / `BLOCKED_LANGUAGES.md` /
-   `corpus/language_profile_coverage.json`. This script never invents a
-   profile or substitutes a generic one for a missing language.
+1. **Excludes any language not marked `AUTHORIZED_FOR_TEAM_GENERATION` in
+   `corpus/execution_release_manifest.json`** (currently: Sanskrit only),
+   and any individual poem_id listed under that manifest's `blocked_poems`
+   regardless of its language's status. See `SUPPORTED_LANGUAGES.md` /
+   `BLOCKED_LANGUAGES.md` / `SANSKRIT_BLOCK.md`. A language profile file
+   being present on disk does **not** by itself imply authorization — all
+   21 profile files exist, but the release manifest is the sole authority.
 2. **Excludes the six pilot poems** (already generated in the pilot stage —
    see `TEAM_RUNBOOK.md`).
 3. Optionally excludes poems that already have a `MODEL_CANDIDATE` output

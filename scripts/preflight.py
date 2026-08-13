@@ -46,40 +46,44 @@ def check_corpus() -> dict:
         print("Corpus inventory: MISSING (corpus/corpus_inventory.json not found)")
         return {}
     inv = json.loads(inv_path.read_text(encoding="utf-8"))
-    print(f"Corpus count: {inv['total_poem_count']}")
-    print(f"Language count: {inv['total_language_count']}")
+    print(f"Corpus records: {inv['total_poem_count']}")
+    print(f"Languages: {inv['total_language_count']}")
     print(f"Duplicate poem IDs: {len(inv['duplicate_poem_ids'])}")
     print(f"Malformed records: {len(inv['malformed_records'])}")
     return inv
 
 
-def check_profile_coverage() -> dict:
-    cov_path = REPO_ROOT / "corpus" / "language_profile_coverage.json"
-    if not cov_path.exists():
-        print("Profile coverage: MISSING")
+def check_release_status() -> dict:
+    readiness_path = REPO_ROOT / "FULL_CORPUS_READINESS.json"
+    if not readiness_path.exists():
+        print("Release readiness: MISSING (FULL_CORPUS_READINESS.json not found)")
         return {}
-    cov = json.loads(cov_path.read_text(encoding="utf-8"))
-    print(f"Supported poems: {cov['supported_poem_count']}")
-    print(f"Blocked poems: {cov['blocked_poem_count']}")
-    print(f"Supported languages: {cov['supported_language_count']}")
-    print(f"Blocked languages: {cov['blocked_language_count']}")
-    return cov
+    r = json.loads(readiness_path.read_text(encoding="utf-8"))
+    print(f"Engineering-authorized languages: {r['engineering_valid_languages']}")
+    print(f"Blocked languages: {len(r['blocked_languages'])} ({', '.join(r['blocked_languages'])})")
+    print(f"Blocked poems: {r['blocked_poems']} ({', '.join(r['blocked_poem_ids'])})")
+    print(f"Pilot already generated: {r['pilot_already_generated']}")
+    print(f"New team generation targets: {r['new_supported_generations']}")
+    print(f"Supported corpus ready: {r['supported_corpus_ready']}")
+    print(f"Full corpus ready: {r['full_corpus_ready']}")
+    return r
 
 
 def check_assignments() -> None:
     assignments_dir = REPO_ROOT / "assignments"
-    csvs = sorted(p for p in assignments_dir.glob("*.csv") if p.name != "example_assignment.csv")
-    print(f"Assignment files found: {len(csvs)}")
+    csvs = sorted(p for p in assignments_dir.glob("teammate_*.csv"))
     seen: Counter = Counter()
     total_rows = 0
-    for csv_path in csvs:
-        import csv as _csv
+    import csv as _csv
+    for i, csv_path in enumerate(csvs, start=1):
         with open(csv_path, newline="", encoding="utf-8") as fh:
-            for row in _csv.DictReader(fh):
-                pid = (row.get("poem_id") or "").strip()
-                if pid:
-                    seen[pid] += 1
-                    total_rows += 1
+            rows = list(_csv.DictReader(fh))
+        for row in rows:
+            pid = (row.get("poem_id") or "").strip()
+            if pid:
+                seen[pid] += 1
+        print(f"Assignment {i}: {len(rows)}")
+        total_rows += len(rows)
     duplicates = {pid: n for pid, n in seen.items() if n > 1}
     print(f"Assignment rows total: {total_rows}")
     print(f"Duplicate assignments across files: {len(duplicates)}")
@@ -110,7 +114,7 @@ def check_google_cloud_config() -> None:
     print(f"Google Cloud project: {summary['project']}")
     print(f"Google Cloud location: {summary['region']}")
     print(f"Vertex model: {summary['model']}")
-    print(f"Credential presence: {'available' if summary['credential_available'] else 'not available'}")
+    print(f"Google authentication available: {'YES' if summary['credential_available'] else 'NO'}")
 
 
 def main() -> int:
@@ -123,13 +127,15 @@ def main() -> int:
     print()
     check_corpus()
     print()
-    check_profile_coverage()
+    check_release_status()
     print()
     check_assignments()
     print()
     check_outputs()
     print()
     check_google_cloud_config()
+    print()
+    print("Provider calls during preflight: 0")
     print("=" * 60)
     return 0 if deps_ok else 1
 
