@@ -17,6 +17,10 @@ import pytest
 
 from morphoverse_gemini_pipeline.delivery.poem_annotator import corpus_gemini_runner_v1_1 as runner
 from morphoverse_gemini_pipeline.delivery.poem_annotator import vertex_canary_execution_v1_1 as vce
+from morphoverse_gemini_pipeline.delivery.poem_annotator.prompt_assembler_v1_1 import (
+    SECTION_POEM_AND_STANZA_OVERVIEW, SECTION_CULTURAL_ENTITIES,
+    SECTION_FIGURATIVE_EXPRESSIONS, SECTION_TRANSLATION_LOSS, SECTION_CONSISTENCY_REVIEW,
+)
 from tests.conftest import REPO_ROOT, PROFILE_DIR, any_non_pilot_supported_poem, load_release_manifest
 
 
@@ -251,6 +255,162 @@ def test_controlled_vocabulary_check_rejects_bad_translation_status():
 def test_romanization_consistency_check_runs_without_error():
     annotation = {"cultural_entities": [], "stanzas": []}
     assert vce.check_romanization_consistency(annotation) == []
+
+
+# ══════════════════════════════════════════════════════════════════════════
+# Stage 5M.4B: the corpus runner's final stop_gate_passed must never omit
+# controlled_vocab_valid -- it now reuses
+# ValidationPipelineResult.all_objective_checks_pass directly instead of
+# re-listing four of its five terms. These tests exercise that property at
+# the exact granularity of what changed (all five terms independently),
+# plus two full execute_poem_live runs proving the wiring end-to-end.
+# ══════════════════════════════════════════════════════════════════════════
+def _validation_result(**overrides) -> vce.ValidationPipelineResult:
+    """All-objective-checks-pass by default; override individual booleans
+    (and their accompanying error/issue tuples where relevant) per test."""
+    defaults = dict(
+        schema_valid=True, schema_errors=(),
+        candidate_complete=True, completeness_violations=(),
+        controlled_vocab_valid=True, controlled_vocab_errors=(),
+        grounding_valid=True, grounding_issues=(),
+        romanization_consistent=True, romanization_conflicts=(),
+        content_quality_flags=(),
+        normalized_annotation={"stanzas": [], "cultural_entities": []},
+        raw_annotation={"stanzas": [], "cultural_entities": []},
+    )
+    defaults.update(overrides)
+    return vce.ValidationPipelineResult(**defaults)
+
+
+def test_all_objective_checks_pass_true_when_every_check_is_true():
+    assert _validation_result().all_objective_checks_pass is True
+
+
+def test_all_objective_checks_pass_false_when_only_controlled_vocab_invalid():
+    result = _validation_result(controlled_vocab_valid=False, controlled_vocab_errors=("cultural_entities[0].translation_status='BOGUS' not in (...)",))
+    assert result.all_objective_checks_pass is False
+    # every other individual check is still independently True -- confirms
+    # this is controlled_vocab_valid specifically causing the failure, not
+    # some other flag accidentally flipped by the fixture.
+    assert result.schema_valid and result.candidate_complete and result.grounding_valid and result.romanization_consistent
+
+
+@pytest.mark.parametrize("flag", ["schema_valid", "candidate_complete", "grounding_valid", "controlled_vocab_valid", "romanization_consistent"])
+def test_all_objective_checks_pass_false_when_any_single_objective_check_fails(flag):
+    """Existing per-check gating behavior (grounding/completeness/romanization/
+    schema) is preserved unchanged by the Stage 5M.4B refactor -- every one
+    of the five terms still independently gates the property exactly as
+    before, controlled_vocab_valid included."""
+    result = _validation_result(**{flag: False})
+    assert result.all_objective_checks_pass is False
+
+
+def test_derive_invalid_paths_does_not_surface_controlled_vocab_violations():
+    """Locks in EXISTING (unchanged, not redesigned) behavior: a controlled-
+    vocabulary violation is not currently converted into a repairable
+    InvalidPathIssue by derive_invalid_paths -- Stage 5M.4B fixes only the
+    final stop-gate boolean, it does not add new repair-path authorization."""
+    result = _validation_result(controlled_vocab_valid=False, controlled_vocab_errors=("cultural_entities[0].translation_status='BOGUS' not in (...)",))
+    assert vce.derive_invalid_paths(result) == []
+
+
+# ── full execute_poem_live wiring, via ScriptedFakeClient ──────────────────
+def _line_span(text: str, index: int = 0) -> str:
+    """Extract the exact raw text of the poem's Nth non-blank line, matching
+    grounding.IndexedLine.text semantics (CRLF/CR normalized to LF only,
+    never stripped) -- guarantees an exact-match grounding-valid span
+    without depending on any specific poem's content."""
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    non_blank = [ln for ln in normalized.split("\n") if ln.strip() != ""]
+    return non_blank[index]
+
+
+def _entity_payload(*, translation_status: str, source_span_original: str) -> dict:
+    return {
+        "term": "TestTerm", "romanization": "", "category": "REGIONAL_SYMBOL",
+        "stanza_index": 1, "preserved": False, "translation_note": "",
+        "gloss": "a test gloss", "line_ref": "L1",
+        "source_span_original": source_span_original, "source_span_translation": None,
+        "visual_features": [], "visual_priority": None, "acceptable_visual_variants": [],
+        "negative_confusions": [], "translation_status": translation_status,
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+    }
+
+
+def _stop_gate_section_payloads(entity: dict):
+    return {
+        SECTION_POEM_AND_STANZA_OVERVIEW: lambda n: {
+            "recitation_style": "lament", "emotional_arc": "grief", "theme": None,
+            "stanzas": [{"index": i, "emotion": "grief", "tone": "lament", "translation_quality": "faithful", "loss_note": ""} for i in range(1, n + 1)],
+            "unresolved_items": [],
+        },
+        SECTION_CULTURAL_ENTITIES: {"cultural_entities": [entity], "unresolved_items": []},
+        SECTION_FIGURATIVE_EXPRESSIONS: lambda n: {"stanzas": [{"index": i, "metaphor_spans": []} for i in range(1, n + 1)], "unresolved_items": []},
+        SECTION_TRANSLATION_LOSS: lambda n: {"stanzas": [{"index": i, "translation_loss": []} for i in range(1, n + 1)], "unresolved_items": []},
+    }
+
+
+def test_out_of_vocab_translation_status_fails_stop_gate_with_no_repair_attempt(tmp_path, scripted_client_factory, gemini_env):
+    poem_id, language = any_non_pilot_supported_poem()
+    source = runner.load_source_poem(poem_id, language, repo_root=REPO_ROOT)
+    entity = _entity_payload(translation_status="TOTALLY_NOT_A_REAL_VALUE", source_span_original=_line_span(source["original_poem"]))
+    factory, client = scripted_client_factory(
+        section_payloads=_stop_gate_section_payloads(entity),
+        repair_responses=(),
+        consistency_payload={"consistency_findings": [], "unresolved_items": []},
+    )
+    dirs = _run_dirs(tmp_path)
+
+    result = runner.execute_poem_live(
+        poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR,
+        client_factory=factory, assignee="teammate_1", release_manifest=load_release_manifest(), **dirs,
+    )
+
+    # the objectively-invalid vocabulary value must fail the stop gate --
+    # this is the exact defect Stage 5M.4B fixes (previously stop_gate_passed
+    # could read True here despite controlled_vocab_valid=False).
+    assert result.stop_gate_passed is False
+    assert client.calls.count("TARGETED_REPAIR") == 0  # no repair path is authorized for this rule (unchanged)
+
+    candidate = json.loads(open(result.candidate_path, encoding="utf-8").read())
+    assert candidate["stop_gate_passed"] is False
+    # known, unchanged limitation (not invented by this fix): a pure
+    # controlled-vocab failure produces no InvalidPathIssue, so
+    # unresolved_paths/human_review_items stay empty even though the poem
+    # correctly fails the stop gate -- the failure is still recorded via
+    # reports/failures/<poem_id>.json's classification below.
+    assert candidate["unresolved_paths"] == []
+
+    failure = json.loads((dirs["reports_dir"] / "failures" / f"{poem_id}.json").read_text(encoding="utf-8"))
+    assert failure["classification"] == "SCHEMA_FAILURE"
+
+
+def test_in_vocab_candidate_with_consistency_findings_still_passes_stop_gate(tmp_path, scripted_client_factory, gemini_env):
+    """Proves (a) a valid-controlled-vocabulary candidate is unaffected by
+    the fix, and (b) advisory consistency_review_findings are never
+    promoted into an objective stop-gate failure."""
+    poem_id, language = any_non_pilot_supported_poem()
+    source = runner.load_source_poem(poem_id, language, repo_root=REPO_ROOT)
+    entity = _entity_payload(translation_status="PRESERVED", source_span_original=_line_span(source["original_poem"]))
+    advisory_finding = [{"field_path": "cultural_entities[0].preserved", "issue": "advisory-only opinion", "severity": "low"}]
+    factory, client = scripted_client_factory(
+        section_payloads=_stop_gate_section_payloads(entity),
+        repair_responses=(),
+        consistency_payload=lambda contents: {"consistency_findings": advisory_finding, "unresolved_items": []},
+    )
+    dirs = _run_dirs(tmp_path)
+
+    result = runner.execute_poem_live(
+        poem_id, language, repo_root=REPO_ROOT, profile_dir=PROFILE_DIR,
+        client_factory=factory, assignee="teammate_1", release_manifest=load_release_manifest(), **dirs,
+    )
+
+    assert result.stop_gate_passed is True
+    assert client.calls.count("TARGETED_REPAIR") == 0
+
+    candidate = json.loads(open(result.candidate_path, encoding="utf-8").read())
+    assert candidate["stop_gate_passed"] is True
+    assert candidate["consistency_review_findings"] == advisory_finding
 
 
 # ── resume / retry-failed-only / skip-existing-valid filters ───────────────

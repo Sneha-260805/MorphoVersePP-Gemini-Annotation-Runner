@@ -607,10 +607,20 @@ def execute_poem_live(poem_id: str, language: str, *, repo_root: Path, profile_d
     section_records.append(consistency_record)
     consistency_findings = (consistency_parsed or {}).get("consistency_findings", []) if consistency_record.outcome == "success" else []
 
-    stop_gate_passed = (
-        validation.schema_valid and validation.candidate_complete and validation.grounding_valid
-        and validation.romanization_consistent and not unresolved_paths
-    )
+    # Stage 5M.4B: reuse ValidationPipelineResult.all_objective_checks_pass
+    # (the single existing definition of "objective" schema/completeness/
+    # grounding/controlled_vocab/romanization checks -- vertex_canary_execution_v1_1.py)
+    # instead of re-listing four of its five terms here and silently
+    # omitting controlled_vocab_valid, as the previous formula did. This is
+    # the same set of checks that already gates the repair loop above
+    # (`while not validation.all_objective_checks_pass ...`) -- the final
+    # stop gate and the repair loop's continuation condition can now never
+    # drift apart again. unresolved_paths remains a separate, additional
+    # condition: all_objective_checks_pass reflects the LATEST validation
+    # pass only, so a path repair left only partially resolved (still
+    # present in unresolved_paths) must still fail the gate even if the
+    # other five checks all happen to read True on that latest pass.
+    stop_gate_passed = validation.all_objective_checks_pass and not unresolved_paths
 
     if not stop_gate_passed:
         classification = (
