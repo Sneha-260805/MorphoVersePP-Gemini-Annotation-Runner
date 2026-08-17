@@ -703,10 +703,36 @@ def _set_at_path(annotation: dict, path: str, value: Any) -> None:
 
 def apply_repair_response(annotation: dict, response: dict, requested_paths: "list[str]") -> "tuple[dict, list[str]]":
     """Applies ONLY the requested paths' resolved values back into a deep
-    copy of `annotation`; a path present in `response['unresolved_items']`
-    (or simply absent/null in the response) is left untouched and returned
-    as still-unresolved. Never touches any field not in `requested_paths`
-    (Task: 'preserve already valid fields')."""
+    copy of `annotation`. Never touches any field not in `requested_paths`
+    (Task: 'preserve already valid fields').
+
+    Stage 5M.4A fix: an explicit JSON `null` for a requested path is a
+    legitimate, distinct resolved answer -- not the same thing as "no
+    answer provided". Several v1.1 fields (e.g. source_span_translation)
+    are formally nullable, and the targeted-repair response schema
+    (vertex_response_schema_v1_1.build_vertex_repair_response_schema)
+    explicitly allows `null` as a real value for every requested path, not
+    only as an unresolved-item fallback. So the four cases are handled
+    independently:
+
+    - path in response['unresolved_items']: still unresolved, existing
+      value untouched (unresolved_items always wins, even over an explicit
+      null returned for the same path in the top-level response -- an
+      explicit null AND an unresolved_items entry for the same path is a
+      self-contradictory response; unresolved_items is treated as the more
+      conservative, authoritative signal).
+    - path absent from the top-level response at all: still unresolved,
+      existing value untouched (malformed/incomplete repair response).
+    - path present in the top-level response as `null`, and not also in
+      unresolved_items: an explicit resolved-null answer -- applied via
+      _set_at_path, NOT still-unresolved.
+    - path present in the top-level response as a non-null value, and not
+      also in unresolved_items: applied via _set_at_path, NOT
+      still-unresolved (unchanged from prior behavior).
+
+    `unresolved_items[].candidate_value` is advisory context only and is
+    NEVER applied as a repair value -- only the top-level response[path]
+    value (or its explicit absence) determines what gets written."""
     updated = copy.deepcopy(annotation)
     unresolved_paths = {item.get("field_path") for item in (response.get("unresolved_items") or [])}
     still_unresolved: "list[str]" = []
@@ -714,7 +740,7 @@ def apply_repair_response(annotation: dict, response: dict, requested_paths: "li
         if path in unresolved_paths:
             still_unresolved.append(path)
             continue
-        if path not in response or response[path] is None:
+        if path not in response:
             still_unresolved.append(path)
             continue
         _set_at_path(updated, path, response[path])

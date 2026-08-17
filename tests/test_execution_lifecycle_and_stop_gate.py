@@ -127,6 +127,107 @@ def test_apply_repair_response_leaves_unresolved_paths_unresolved():
     assert updated["cultural_entities"][0]["romanization"] is None
 
 
+# ── Stage 5M.4A: explicit-null repair resolution is distinct from "no
+# answer" (root cause: MV++_0318/0522/1469 shipped stale grounding-invalid
+# spans because a model's correct, explicit `null` resolution was silently
+# treated as still-unresolved, identically to a missing/absent answer) ─────
+def test_explicit_null_with_no_unresolved_items_is_applied():
+    annotation = {"cultural_entities": [{"term": "x", "source_span_translation": "old invalid span"}]}
+    response = {"cultural_entities[0].source_span_translation": None, "unresolved_items": []}
+    updated, still_unresolved = vce.apply_repair_response(
+        annotation, response, ["cultural_entities[0].source_span_translation"],
+    )
+    assert updated["cultural_entities"][0]["source_span_translation"] is None
+    assert still_unresolved == []
+
+
+def test_explicit_non_null_value_is_applied():
+    annotation = {"cultural_entities": [{"term": "x", "source_span_translation": "old invalid span"}]}
+    response = {"cultural_entities[0].source_span_translation": "new valid span", "unresolved_items": []}
+    updated, still_unresolved = vce.apply_repair_response(
+        annotation, response, ["cultural_entities[0].source_span_translation"],
+    )
+    assert updated["cultural_entities"][0]["source_span_translation"] == "new valid span"
+    assert still_unresolved == []
+
+
+def test_path_in_unresolved_items_leaves_existing_value_untouched():
+    annotation = {"cultural_entities": [{"term": "x", "source_span_translation": "old invalid span"}]}
+    response = {
+        "unresolved_items": [{"field_path": "cultural_entities[0].source_span_translation", "reason": "ambiguous", "candidate_value": None}],
+    }
+    updated, still_unresolved = vce.apply_repair_response(
+        annotation, response, ["cultural_entities[0].source_span_translation"],
+    )
+    assert updated["cultural_entities"][0]["source_span_translation"] == "old invalid span"
+    assert still_unresolved == ["cultural_entities[0].source_span_translation"]
+
+
+def test_unresolved_items_candidate_value_is_never_applied():
+    annotation = {"cultural_entities": [{"term": "x", "source_span_translation": "old invalid span"}]}
+    response = {
+        "unresolved_items": [{
+            "field_path": "cultural_entities[0].source_span_translation",
+            "reason": "not confident",
+            "candidate_value": "a plausible but unconfirmed span",
+        }],
+    }
+    updated, still_unresolved = vce.apply_repair_response(
+        annotation, response, ["cultural_entities[0].source_span_translation"],
+    )
+    assert updated["cultural_entities"][0]["source_span_translation"] == "old invalid span"
+    assert updated["cultural_entities"][0]["source_span_translation"] != "a plausible but unconfirmed span"
+    assert still_unresolved == ["cultural_entities[0].source_span_translation"]
+
+
+def test_requested_path_absent_from_response_leaves_existing_value_untouched():
+    annotation = {"cultural_entities": [{"term": "x", "source_span_translation": "old invalid span"}]}
+    response = {"unresolved_items": []}  # path not mentioned anywhere at all
+    updated, still_unresolved = vce.apply_repair_response(
+        annotation, response, ["cultural_entities[0].source_span_translation"],
+    )
+    assert updated["cultural_entities"][0]["source_span_translation"] == "old invalid span"
+    assert still_unresolved == ["cultural_entities[0].source_span_translation"]
+
+
+def test_explicit_null_and_unresolved_items_for_same_path_unresolved_items_wins():
+    annotation = {"cultural_entities": [{"term": "x", "source_span_translation": "old invalid span"}]}
+    response = {
+        "cultural_entities[0].source_span_translation": None,
+        "unresolved_items": [{"field_path": "cultural_entities[0].source_span_translation", "reason": "contradictory response", "candidate_value": None}],
+    }
+    updated, still_unresolved = vce.apply_repair_response(
+        annotation, response, ["cultural_entities[0].source_span_translation"],
+    )
+    assert updated["cultural_entities"][0]["source_span_translation"] == "old invalid span"
+    assert still_unresolved == ["cultural_entities[0].source_span_translation"]
+
+
+def test_multiple_paths_null_value_and_unresolved_are_handled_independently():
+    annotation = {
+        "cultural_entities": [
+            {"term": "a", "source_span_translation": "old null-bound span"},
+            {"term": "b", "source_span_translation": "old value-bound span"},
+            {"term": "c", "source_span_translation": "old unresolved-bound span"},
+        ],
+    }
+    response = {
+        "cultural_entities[0].source_span_translation": None,
+        "cultural_entities[1].source_span_translation": "new valid span",
+        "unresolved_items": [{"field_path": "cultural_entities[2].source_span_translation", "reason": "ambiguous", "candidate_value": "not used"}],
+    }
+    requested = [
+        "cultural_entities[0].source_span_translation",
+        "cultural_entities[1].source_span_translation",
+        "cultural_entities[2].source_span_translation",
+    ]
+    updated, still_unresolved = vce.apply_repair_response(annotation, response, requested)
+    assert updated["cultural_entities"][0]["source_span_translation"] is None
+    assert updated["cultural_entities"][1]["source_span_translation"] == "new valid span"
+    assert updated["cultural_entities"][2]["source_span_translation"] == "old unresolved-bound span"
+    assert still_unresolved == ["cultural_entities[2].source_span_translation"]
+
+
 # ── grounding / romanization / completeness / cross-field, direct checks ───
 def test_grounding_rejects_a_non_verbatim_span():
     annotation = {
