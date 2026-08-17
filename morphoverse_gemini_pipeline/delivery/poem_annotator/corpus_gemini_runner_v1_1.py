@@ -561,14 +561,6 @@ def execute_poem_live(poem_id: str, language: str, *, repo_root: Path, profile_d
         parsed_by_section[SECTION_FIGURATIVE_EXPRESSIONS], parsed_by_section[SECTION_TRANSLATION_LOSS], stanza_count,
     )
 
-    consistency_record, consistency_parsed = run_section_call(
-        client=client, poem_id=poem_id, section=SECTION_CONSISTENCY_REVIEW, source=source, stanzas=stanzas,
-        profile_dir=profile_dir, model=gemini_config.model, local_run_dir=local_run_dir, attempt_number=1,
-        existing_candidate=candidate, sleep_fn=sleep_fn,
-    )
-    section_records.append(consistency_record)
-    consistency_findings = (consistency_parsed or {}).get("consistency_findings", []) if consistency_record.outcome == "success" else []
-
     preprocessed = preprocess_poem({k: v for k, v in source.items() if not k.startswith("_")})
     validation = vce.run_validation_pipeline(candidate, preprocessed, source["original_poem"], source["translated_poem"])
 
@@ -588,6 +580,32 @@ def execute_poem_live(poem_id: str, language: str, *, repo_root: Path, profile_d
         validation = vce.run_validation_pipeline(candidate, preprocessed, source["original_poem"], source["translated_poem"])
 
     unresolved_paths = tuple(p.field_path for p in vce.derive_invalid_paths(validation))
+
+    # Stage 5M.3: CONSISTENCY_REVIEW runs exactly once, against this FINAL
+    # post-repair `candidate` -- never before the repair loop above, and
+    # never a second time after. Running it pre-repair (the original 5M.1/
+    # 5M.2 order) let a targeted repair silently invalidate an
+    # already-returned consistency finding, e.g. the live MV++_0001 smoke
+    # candidate shipping a "translation_quality is 'faithful' but loss_note
+    # is non-empty" finding after repair had already cleared loss_note.
+    # consistency_review_findings are advisory/review metadata only --
+    # run_validation_pipeline/derive_invalid_paths above never read them,
+    # and this call is made unconditionally (whether or not the stop gate
+    # below ends up passing) because `candidate` is always a structurally
+    # usable dict by this point (a section that fails structurally returns
+    # early above, before candidate assembly, so this line is never reached
+    # with a None/malformed candidate). A provider failure on this call is
+    # tolerated exactly as before: the failed attempt is still recorded in
+    # section_records/provenance for audit, consistency_findings falls back
+    # to [], and the poem is NOT failed on account of it -- consistency
+    # review is advisory and must never gate the stop gate.
+    consistency_record, consistency_parsed = run_section_call(
+        client=client, poem_id=poem_id, section=SECTION_CONSISTENCY_REVIEW, source=source, stanzas=stanzas,
+        profile_dir=profile_dir, model=gemini_config.model, local_run_dir=local_run_dir, attempt_number=1,
+        existing_candidate=candidate, sleep_fn=sleep_fn,
+    )
+    section_records.append(consistency_record)
+    consistency_findings = (consistency_parsed or {}).get("consistency_findings", []) if consistency_record.outcome == "success" else []
 
     stop_gate_passed = (
         validation.schema_valid and validation.candidate_complete and validation.grounding_valid

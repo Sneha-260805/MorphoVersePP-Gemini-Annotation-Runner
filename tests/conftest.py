@@ -92,6 +92,78 @@ class BrokenFakeClient:
         self.models = self._Models()
 
 
+class ScriptedFakeClient:
+    """A fully scripted fake client for tests that need explicit control
+    over per-section payloads, targeted-repair responses, and call order
+    (Stage 5M.3 consistency-review-after-repair regression tests). Records
+    every request's section label, in call order, in `.calls`.
+
+    `section_payloads` maps the four GENERATIVE_SECTIONS section names to
+    either a static dict or a `callable(stanza_count) -> dict` (stanza count
+    is parsed from the real "STANZA_COUNT: n" prompt marker, so tests never
+    need to hardcode a real poem's stanza count).
+
+    `repair_responses` is an ordered list of repair-response dicts (or
+    `callable(prompt_contents) -> dict`), one per expected TARGETED_REPAIR
+    call — the targeted-repair prompt carries no "SECTION TASK:" marker, so
+    it is detected as the fallback case when `_detect_section` returns "".
+
+    `consistency_payload` is a static dict, a callable(prompt_contents) ->
+    dict, or the string "FAIL" to make the CONSISTENCY_REVIEW call raise a
+    non-retryable exception (simulating a provider failure on that call
+    specifically, while every other call still succeeds)."""
+
+    class _Models:
+        def __init__(self, outer):
+            self._outer = outer
+
+        def generate_content(self, **request):
+            outer = self._outer
+            contents = request["contents"]
+            outer.raw_calls.append(request)
+            section = _detect_section(contents)
+            if not section:
+                label = "TARGETED_REPAIR"
+                outer.calls.append(label)
+                idx = outer.repair_call_index
+                outer.repair_call_index += 1
+                builder = outer.repair_responses[idx]
+                payload = builder(contents) if callable(builder) else builder
+                return _fake_response(payload)
+            outer.calls.append(section)
+            from morphoverse_gemini_pipeline.delivery.poem_annotator.prompt_assembler_v1_1 import SECTION_CONSISTENCY_REVIEW
+            if section == SECTION_CONSISTENCY_REVIEW:
+                outer.consistency_request_contents.append(contents)
+                if outer.consistency_payload == "FAIL":
+                    raise RuntimeError("simulated non-retryable CONSISTENCY_REVIEW provider failure")
+                payload = outer.consistency_payload(contents) if callable(outer.consistency_payload) else outer.consistency_payload
+                return _fake_response(payload)
+            n = _stanza_count_from(contents)
+            builder = outer.section_payloads[section]
+            payload = builder(n) if callable(builder) else builder
+            return _fake_response(payload)
+
+    def __init__(self, *, section_payloads, repair_responses=(), consistency_payload=None):
+        self.calls: "list[str]" = []
+        self.raw_calls: "list[dict]" = []
+        self.section_payloads = section_payloads
+        self.repair_responses = list(repair_responses)
+        self.repair_call_index = 0
+        self.consistency_payload = consistency_payload if consistency_payload is not None else {"consistency_findings": [], "unresolved_items": []}
+        self.consistency_request_contents: "list[str]" = []
+        self.models = self._Models(self)
+
+
+@pytest.fixture
+def scripted_client_factory():
+    """Returns a builder: call it with ScriptedFakeClient's kwargs to get
+    back (factory, client) — matching clean_client_factory's shape."""
+    def _make(**kwargs):
+        client = ScriptedFakeClient(**kwargs)
+        return (lambda: client), client
+    return _make
+
+
 class ExplodingClientFactory:
     """A client_factory that fails the test if it is ever called — used to
     assert that --dry-run makes zero provider calls (never even constructs
