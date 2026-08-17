@@ -139,24 +139,34 @@ def test_case_differing_multiline_span_does_not_match():
     assert match.status == g.SPAN_MATCH_NOT_FOUND
 
 
-# ── MV++_1339 offline regression (read-only fixture; not hardcoded logic) ──
+# ── MV++_1339 offline regression (sanitized fixture; not hardcoded logic) ──
 def test_mv_1339_source_and_translation_spans_now_ground_successfully():
-    """Uses the EXISTING generated candidate purely as a regression fixture
-    -- the production grounding rule added above is fully generic (no
-    poem ID, language, or phrase is referenced in grounding.py); this test
-    only verifies that generic rule against real, already-generated data.
-    Read-only: never writes to the candidate/source files."""
+    """Historical regression evidence for the real defect Stage 5M.4C
+    reproduced. `data/source_corpus/Tamil/MV++_1339.json` is committed
+    source-corpus data (tracked in git, present in every clone) and is read
+    directly, read-only. The two exact span/line_ref values below are the
+    real values Gemini returned for this poem's stanzas[0].metaphor_spans[0]
+    (verbatim raw substrings of the source/translation text, ending before
+    each final line's own trailing whitespace) -- reproduced here as a
+    small sanitized literal rather than by reading the full
+    MODEL_CANDIDATE/provenance file under outputs/model_candidates/, which
+    is a gitignored runtime artifact absent from a clean clone (Stage
+    5M.4H). The production grounding rule itself (grounding.py) references
+    no poem ID, language, or phrase -- only these two literal values are
+    poem-specific, and only as a regression fixture, never as production
+    logic."""
     source_path = REPO_ROOT / "data" / "source_corpus" / "Tamil" / "MV++_1339.json"
-    candidate_path = REPO_ROOT / "outputs" / "model_candidates" / "Tamil" / "MV++_1339_vertex_model_candidate.json"
     source = json.loads(source_path.read_text(encoding="utf-8"))
-    candidate = json.loads(candidate_path.read_text(encoding="utf-8"))
+
+    source_span_original = "புதிய காதல்,  \nஉன் பாதையில் மலர்கிறது,"
+    source_span_translation = "New love,  \nBlooms on your path,"
+    line_ref = "L1-L2"
 
     orig_index = g.build_line_index(source["original_poem"])
     trans_index = g.build_line_index(source["translated_poem"])
-    mspan = candidate["annotation"]["stanzas"][0]["metaphor_spans"][0]
 
-    match_original = g.ground_original_span(mspan["source_span_original"], mspan["line_ref"], orig_index)
-    match_translation = g.ground_translation_span(mspan["source_span_translation"], trans_index)
+    match_original = g.ground_original_span(source_span_original, line_ref, orig_index)
+    match_translation = g.ground_translation_span(source_span_translation, trans_index)
 
     assert match_original.status == g.SPAN_MATCH_EXACT
     assert match_original.line_refs == ("L1-L2",)

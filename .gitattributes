@@ -1,0 +1,14 @@
+# Stage 5M.4H — deterministic checkout bytes for the annotation language
+# profiles. tests/test_corpus_correction_1570.py's
+# test_language_profile_byte_identical asserts an exact SHA-256 over
+# path.read_bytes() for six of these files, to guarantee the profiles
+# themselves never silently change. Without this file, a checkout's exact
+# bytes depend on the local core.autocrlf setting: a fresh Windows clone
+# with core.autocrlf=true converts these LF-committed files to CRLF on
+# checkout, changing their SHA-256 and failing that test even though the
+# profile content itself never changed. Forcing LF here makes the checkout
+# byte-identical on every platform regardless of the developer's own
+# autocrlf configuration, which is what a byte-identical content test
+# actually needs. Scoped to this one directory only -- no other file in
+# the repository is renormalized.
+morphoverse_gemini_pipeline/delivery/poem_annotator/annotation_language_profiles/*.json text eol=lf

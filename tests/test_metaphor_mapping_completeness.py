@@ -14,13 +14,16 @@ types where the repair model correctly declined via unresolved_items
 rather than invent a structured relation.
 
 This file exercises the corrected rule purely through the public
-completeness_validator_v1_1 API, plus a read-only regression check against
-the two named real candidates (used only as evidence, never as
-poem-specific production logic). No provider/network call anywhere.
+completeness_validator_v1_1 API, using synthetic fixtures that reproduce
+the exact structural condition the two real diagnostic candidates
+(MV++_0252, MV++_1502) exhibited -- a non-"metaphor" expression_type with
+vehicle+tenor populated and metaphor_mapping=null -- without depending on
+any generated production output. outputs/model_candidates/ is a runtime
+artifact, intentionally absent from a clean clone (Stage 5M.4H), so no
+test in this file may read from it. No provider/network call anywhere.
 """
 from __future__ import annotations
 
-import json
 from pathlib import Path
 
 from morphoverse_gemini_pipeline.delivery.poem_annotator import completeness_validator_v1_1 as cv
@@ -113,21 +116,44 @@ def test_wordplay_still_exempt_from_visualization_difficulty():
     assert not any(v.field_path.endswith(".visualization_difficulty") for v in violations)
 
 
-# ── 7/8. MV++_0252 and MV++_1502 offline revalidation regression ──────────
-def _load_candidate(language: str, poem_id: str) -> dict:
-    path = REPO_ROOT / "outputs" / "model_candidates" / language / f"{poem_id}_vertex_model_candidate.json"
-    return json.loads(path.read_text(encoding="utf-8"))
+# ── 7/8. Full-candidate-level regression, at the exact structural shape
+# MV++_0252 (expression_type="metonymy") and MV++_1502 (expression_type=
+# "other") exhibited -- vehicle+tenor populated, metaphor_mapping=null.
+# Synthetic content only (never real poem text), exercised through
+# check_candidate_completeness (the actual candidate-level entry point,
+# not just the lower-level per-expression function already covered by
+# tests 1-6 above) so the fix is proven at the same integration level a
+# real candidate is checked at. ──────────────────────────────────────────
+def _synthetic_annotation(expression_type: str) -> dict:
+    return {
+        "recitation_style": "reflective", "emotional_arc": "longing to peace",
+        "theme": "a synthetic test poem", "cultural_entities": [],
+        "stanzas": [{
+            "index": 1, "emotion": "longing", "tone": "tenderness",
+            "translation_quality": "faithful", "loss_note": "", "translation_loss": [],
+            "metaphor_spans": [{
+                "source_term": "x", "abstract_meaning": "a synthetic figurative meaning",
+                "source_span_original": "x", "source_span_translation": None,
+                "expression_type": expression_type, "literal_meaning": "a literal reading",
+                "vehicle": "a concrete image standing in for the whole",
+                "tenor": "the underlying referent being expressed",
+                "metaphor_mapping": None, "line_ref": "L1",
+                "literalization_risk": None, "visualization_strategy": None,
+                "acceptable_visual_variants": [], "visualization_difficulty": "LOW",
+            }],
+        }],
+    }
 
 
-def test_mv_0252_no_longer_fails_completeness_solely_on_metaphor_mapping():
-    candidate = _load_candidate("Hindi", "MV++_0252")
-    violations = cv.check_candidate_completeness(candidate["annotation"])
+def test_metonymy_expression_no_longer_fails_completeness_solely_on_metaphor_mapping():
+    # MV++_0252's exact structural shape: expression_type="metonymy".
+    violations = cv.check_candidate_completeness(_synthetic_annotation("metonymy"))
     assert not any(v.field_path.endswith(".metaphor_mapping") for v in violations)
 
 
-def test_mv_1502_no_longer_fails_completeness_solely_on_metaphor_mapping():
-    candidate = _load_candidate("Telugu", "MV++_1502")
-    violations = cv.check_candidate_completeness(candidate["annotation"])
+def test_other_expression_no_longer_fails_completeness_solely_on_metaphor_mapping():
+    # MV++_1502's exact structural shape: expression_type="other".
+    violations = cv.check_candidate_completeness(_synthetic_annotation("other"))
     assert not any(v.field_path.endswith(".metaphor_mapping") for v in violations)
 
 
