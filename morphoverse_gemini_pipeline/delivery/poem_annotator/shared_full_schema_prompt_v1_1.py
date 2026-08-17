@@ -48,8 +48,22 @@ from .schema import (
 # language/poem/section receives; the assembler treats a version mismatch as
 # a hard failure rather than silently using whichever text happens to be
 # importable (see prompt_assembler_v1_1.PromptAssemblyError).
+#
+# Stage 5M.4F: COMPLETENESS_CONTRACT_VERSION alone bumps 5K.2.0 -> 5K.2.1
+# (patch-level correction within the existing 5K.2 completeness contract
+# lineage, not a new contract). This corrects completeness_validator_v1_1.py
+# ::check_figurative_expression_completeness, which required
+# metaphor_mapping whenever vehicle+tenor were populated -- a rule this
+# file's own text never stated (metaphor_mapping's field definition below
+# already says "included only when both concepts are clearly evidenced,
+# never invented for every expression") and that models.py's
+# validate_metaphor_mapping_v1_1 explicitly contradicts ("not every
+# expression type needs one"). No prompt TEXT below changed and no poem was
+# regenerated under a different prompt -- only the offline completeness
+# interpretation of already-generated candidates changed, so
+# SHARED_PROMPT_CONTRACT_VERSION is deliberately left unchanged.
 SHARED_PROMPT_CONTRACT_VERSION = "5K.2.0"
-COMPLETENESS_CONTRACT_VERSION = "5K.2.0"
+COMPLETENESS_CONTRACT_VERSION = "5K.2.1"
 
 # ── Draft/proposed controlled vocabularies (Task 2.D) ────────────────────────
 # schema.py/models.py do NOT currently enforce a fixed enum for these three

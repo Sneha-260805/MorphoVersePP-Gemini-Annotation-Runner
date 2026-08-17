@@ -98,17 +98,32 @@ def check_figurative_expression_completeness(expr: dict, stanza_index: int, inde
     violations: "list[CompletenessViolation]" = []
     path = f"stanzas[{stanza_index}].metaphor_spans[{index}]"
 
+    # Stage 5M.4F: metaphor_mapping is NOT required merely because vehicle
+    # and tenor are both populated -- that unconditional pairing was the
+    # completeness rule's own overreach relative to models.py's own
+    # contract (validate_metaphor_mapping_v1_1: "metaphor_mapping is
+    # optional/nullable at the containing figurative expression (not every
+    # expression type needs one)") and shared_full_schema_prompt_v1_1.py's
+    # field definition ("included only when both concepts are clearly
+    # evidenced, never invented for every expression"). A structured
+    # vehicle_concept/tenor_concept/transferred_attributes elaboration is a
+    # STRONGER, separately-evidenced claim than the legacy free-text
+    # vehicle/tenor fields, and forcing it whenever those are non-blank
+    # required the model to either invent unsupported structure or be
+    # marked incomplete for correctly declining to (Stage 5M.4E audit:
+    # two real, non-"metaphor" expression_type candidates where the repair
+    # model explicitly declined via unresolved_items rather than invent
+    # one -- exactly the behavior UNCERTAINTY_HANDLING_TEXT asks for; this
+    # rule is corpus-generic and applies identically regardless of poem,
+    # language, or expression_type). metaphor_mapping's own INTERNAL
+    # shape, when present, is still fully validated -- by models.py's
+    # validate_metaphor_mapping_v1_1, never duplicated here.
     vehicle_blank = _is_blank(expr.get("vehicle"))
     tenor_blank = _is_blank(expr.get("tenor"))
     if vehicle_blank:
         violations.append(CompletenessViolation(f"{path}.vehicle", "vehicle_tenor_mapping_for_metaphors", "vehicle is null/empty."))
     if tenor_blank:
         violations.append(CompletenessViolation(f"{path}.tenor", "vehicle_tenor_mapping_for_metaphors", "tenor is null/empty."))
-    if not vehicle_blank and not tenor_blank and expr.get("metaphor_mapping") is None:
-        violations.append(CompletenessViolation(
-            f"{path}.metaphor_mapping", "vehicle_tenor_mapping_for_metaphors",
-            "metaphor_mapping is null even though both vehicle and tenor are populated.",
-        ))
 
     expr_type = expr.get("expression_type")
     if expr_type not in _NON_VISUAL_EXPRESSION_TYPES and expr.get("visualization_difficulty") is None:
