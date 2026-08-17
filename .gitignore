@@ -10,6 +10,11 @@ checkpoints/local/
 logs/
 tmp/
 
+# Local annotation production artifacts
+checkpoints/
+outputs/model_candidates/
+reports/failures/
+
 service-account*.json
 *credentials*.json
 *.key
