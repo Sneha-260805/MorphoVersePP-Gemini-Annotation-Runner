@@ -265,7 +265,8 @@ def _match_span_across_lines(span: str, lines: Sequence[IndexedLine], *, normali
     legitimate multi-line line_ref's span) against every contiguous window
     of `lines` whose length equals the span's own line count. Returns None
     (never NOT_FOUND) when nothing here applies, so the caller can fall
-    through to its own NOT_FOUND handling.
+    through to its own NOT_FOUND handling (and, since Stage 5M.4D, to the
+    additive raw-substring fallback below before finally giving up).
 
     Stage 5N.3 fix (Stage 5N.2 finding: MULTILINE_GROUNDING_VALIDATOR_GAP —
     the single-line-only search above can structurally never match a span
@@ -273,18 +274,33 @@ def _match_span_across_lines(span: str, lines: Sequence[IndexedLine], *, normali
     IndexedLine.text ever contains a newline).
 
     Each window is joined using every line's `.strip()`ed text, not its raw
-    (Stage 3.1, whitespace-preserving) text — this is not a new, invented
-    normalization: it is the SAME per-line stripping `dataset.split_stanzas`
-    already applies before a line is ever shown to the model (the model
-    never sees this module's raw trailing/leading whitespace, so a
-    multi-line span it constructs is naturally the join of STRIPPED lines).
-    Single-line matching above is completely unaffected — it still tests
-    each line's exact raw text, preserving Stage 3.1's guarantee — this
-    function only ever runs after that search has already found nothing.
-    No fuzzy matching, no case-folding, no diacritic stripping, no
-    transliteration, no sandhi-splitting: only the join-time whitespace
-    representation changes, consistent with Task 5's original rules 4-8 and
-    this module's already-supported Unicode/newline/whitespace-representation
+    (Stage 3.1, whitespace-preserving) text. This mirrors the per-line
+    stripping `dataset.split_stanzas` applies before building the STANZA
+    MAP prompt block. Stage 5M.4C's audit found this is only PART of the
+    picture, though: the model is also shown a second, different-whitespace
+    representation of the same lines in the very same prompt — the
+    ORIGINAL POEM block (`prompt_assembler_v1_1.render_line_indexed_original`)
+    renders each line's raw, UNSTRIPPED `IndexedLine.text`, and
+    source_span_original's own field definition instructs the model to
+    ground against THAT block, not the stripped STANZA MAP. So the
+    stripped-line join here is retained as a COMPATIBILITY PATH for
+    whichever multi-line spans a model happens to construct in the
+    stripped representation — Stage 5M.4C measured 179 of 232 currently-
+    accepted multi-line spans in the teammate_1 corpus depend on exactly
+    this path — not because it is "the only representation the model
+    sees" (it demonstrably is not). A separate, additive raw-substring
+    fallback (`_match_raw_multiline_substring`, Stage 5M.4D) now also
+    runs when this one finds nothing, so a span reflecting the raw
+    ORIGINAL POEM representation instead — including one that starts or
+    ends partway through a line — can also be recognized, without
+    weakening or replacing this path. Single-line matching above is
+    completely unaffected — it still tests each line's exact raw text,
+    preserving Stage 3.1's guarantee — this function only ever runs after
+    that search has already found nothing. No fuzzy matching, no
+    case-folding, no diacritic stripping, no transliteration, no
+    sandhi-splitting: only the join-time whitespace representation
+    changes, consistent with Task 5's original rules 4-8 and this
+    module's already-supported Unicode/newline/whitespace-representation
     normalizations.
 
     Overlapping windows are all counted; more than one match anywhere in
@@ -319,6 +335,133 @@ def _match_span_across_lines(span: str, lines: Sequence[IndexedLine], *, normali
     return None
 
 
+def _find_overlapping_occurrence_starts(text: str, span: str) -> "list[int]":
+    """Same overlapping-match semantics as `_count_overlapping_occurrences`
+    (advances by exactly one character per match, never past the whole
+    matched substring, so repeated/overlapping occurrences are never
+    undercounted) but returns each match's start offset instead of only a
+    count. Needed to map a raw multi-line substring match back to the
+    line(s) it spans (see `_map_raw_offset_to_lines`)."""
+    if not span:
+        return []
+    starts: "list[int]" = []
+    start = 0
+    while True:
+        idx = text.find(span, start)
+        if idx == -1:
+            break
+        starts.append(idx)
+        start = idx + 1
+    return starts
+
+
+def _map_raw_offset_to_lines(
+    lines: Sequence[IndexedLine], start: int, end: int,
+) -> "tuple[IndexedLine, IndexedLine] | None":
+    """Maps a `[start, end)` character range within the RAW, "\\n"-joined
+    text of `lines` (i.e. exactly `"\\n".join(ln.text for ln in lines)`)
+    back to the first and last `IndexedLine` whose own raw text the
+    range's first and last character respectively fall within. Pure,
+    generic offset arithmetic — never inspects span content, never
+    poem/language-specific.
+
+    Returns None if either endpoint cannot be resolved to a line's own
+    text (e.g. a range that starts or ends exactly ON a "\\n" joiner
+    character rather than within some line's text) — a deliberately
+    conservative choice: an occurrence this function cannot cleanly
+    attribute a line range to is treated as unresolved rather than
+    guessed at, consistent with this module's existing refusal to ever
+    silently resolve an ambiguous case (see `match_span_in_lines`'s
+    design principle 10)."""
+    ranges: "list[tuple[IndexedLine, int, int]]" = []
+    cursor = 0
+    for ln in lines:
+        text_start = cursor
+        text_end = cursor + len(ln.text)
+        ranges.append((ln, text_start, text_end))
+        cursor = text_end + 1  # skip the "\n" joiner between this line and the next
+
+    def _line_at(pos: int) -> "IndexedLine | None":
+        for ln, text_start, text_end in ranges:
+            if text_start <= pos < text_end:
+                return ln
+        return None
+
+    first = _line_at(start)
+    last = _line_at(end - 1)
+    if first is None or last is None:
+        return None
+    return (first, last)
+
+
+def _match_raw_multiline_substring(
+    span: str, lines: Sequence[IndexedLine], *, normalized: bool = False,
+) -> "SpanMatch | None":
+    """Stage 5M.4D — additive fallback for a legitimate multi-line span
+    that is an EXACT literal substring of the RAW, "\\n"-joined text of the
+    searched scope (i.e. `"\\n".join(ln.text for ln in lines)`, with every
+    line's own raw leading/trailing whitespace preserved exactly as
+    `IndexedLine.text` already stores it) but does NOT align to whole-line
+    boundaries — e.g. it begins partway through its first line and/or ends
+    partway through its last line. `_match_span_across_lines` can never
+    represent this shape: it only ever tests whether N *complete*
+    (optionally stripped) lines joined by "\\n" equal the span. Stage
+    5M.4C's audit reproduced exactly this case in MV++_1339: the model's
+    span was a genuine raw substring of the source text, ending before the
+    final line's own trailing whitespace, which the whole-line window
+    matcher structurally could not accept.
+
+    ADDITIVE ONLY, never a replacement: `match_span_in_lines` only calls
+    this after `_match_span_across_lines` has already found nothing for
+    the same `lines`/`span` — the Stage 5N.3 stripped-line path always
+    gets the first attempt, so every multi-line span it already accepts
+    keeps matching exactly as before (Stage 5M.4C measured 179 of 232
+    currently-accepted teammate_1 multi-line spans depend on that path,
+    and this function is never even reached for any of them).
+
+    Still an EXACT match only: no whitespace collapsing, no trimming of
+    the span itself, no fuzzy/edit-distance/token matching, no case
+    folding, no diacritic or punctuation normalization, no
+    transliteration. A literal substring search of raw text, restricted to
+    exactly the same `lines` scope the caller already resolved (e.g. a
+    declared line_ref's range) — a raw match outside `lines` is simply not
+    part of the searched text at all, so existing line_ref scoping is
+    preserved for free, with no new scoping logic needed.
+
+    Overlapping occurrences are all counted, never silently resolved to
+    the first; more than one occurrence anywhere in `lines` is ambiguous,
+    exactly like every other search in this module. Returns None (never
+    NOT_FOUND) when nothing applies, so the caller can fall through to its
+    own NOT_FOUND handling."""
+    if "\n" not in span:
+        return None
+    raw_text = "\n".join(ln.text for ln in lines)
+    starts = _find_overlapping_occurrence_starts(raw_text, span)
+    if not starts:
+        return None
+
+    resolved: "list[tuple[IndexedLine, IndexedLine]]" = []
+    for start in starts:
+        mapped = _map_raw_offset_to_lines(lines, start, start + len(span))
+        if mapped is not None:
+            resolved.append(mapped)
+    if not resolved:
+        return None
+
+    if len(resolved) == 1:
+        first, last = resolved[0]
+        ref = f"L{first.line_number}" if first.line_number == last.line_number else f"L{first.line_number}-L{last.line_number}"
+        return SpanMatch(
+            status=SPAN_MATCH_NFC_EQUIVALENT if normalized else SPAN_MATCH_EXACT,
+            line_refs=(ref,), occurrence_count=1, normalized=normalized,
+        )
+    refs = tuple(
+        (f"L{f.line_number}" if f.line_number == l.line_number else f"L{f.line_number}-L{l.line_number}")
+        for f, l in resolved
+    )
+    return SpanMatch(status=SPAN_MATCH_AMBIGUOUS, line_refs=refs, occurrence_count=len(resolved), normalized=normalized)
+
+
 def match_span_in_lines(span: str, lines: Sequence[IndexedLine]) -> SpanMatch:
     """Search `lines` for `span` using exact code-point substring matching
     first, then (only if exact matching finds nothing at all) Unicode NFC
@@ -330,10 +473,23 @@ def match_span_in_lines(span: str, lines: Sequence[IndexedLine]) -> SpanMatch:
 
     Stage 5N.3: when `span` itself contains an embedded newline (a
     legitimate multi-line line_ref's span), and single-line matching (above)
-    and multi-line window matching (_match_span_across_lines) both find
-    nothing, NFC-equivalent single-line matching is tried exactly as before,
-    followed by an NFC-equivalent multi-line window search — the same
-    two-tier exact-then-NFC strategy, now extended to multi-line spans."""
+    finds nothing, the Stage 5N.3 stripped-line multi-line window search
+    (`_match_span_across_lines`) is tried next.
+
+    Stage 5M.4D: if THAT also finds nothing, an additive raw-substring
+    multi-line fallback (`_match_raw_multiline_substring`) is tried before
+    giving up on the exact tier — it recognizes a multi-line span that is
+    an exact literal substring of the raw (unstripped) scope text even
+    when it starts or ends partway through a line, a shape the whole-line
+    window search can never represent. This never replaces or reorders the
+    Stage 5N.3 path; it only runs after that path has already returned
+    nothing for the same `span`/`lines`.
+
+    The full exact tier (single-line, then stripped-multi-line, then
+    raw-multi-line) is exhausted before ANY NFC fallback is attempted —
+    then the same three-strategy sequence repeats under NFC-equivalent
+    normalization, preserving the existing two-tier exact-then-NFC
+    precedence, now extended to both multi-line strategies."""
     if not isinstance(span, str) or not span:
         return SpanMatch(status=SPAN_MATCH_INVALID_INPUT)
 
@@ -353,9 +509,12 @@ def match_span_in_lines(span: str, lines: Sequence[IndexedLine]) -> SpanMatch:
         window_match = _match_span_across_lines(span, lines)
         if window_match is not None:
             return window_match
+        raw_multiline_match = _match_raw_multiline_substring(span, lines)
+        if raw_multiline_match is not None:
+            return raw_multiline_match
 
-    # Exact matching (single-line + multi-line window) found nothing
-    # anywhere in scope — try NFC-equivalent.
+    # Exact matching (single-line + both multi-line strategies) found
+    # nothing anywhere in scope — try NFC-equivalent.
     span_nfc = unicodedata.normalize("NFC", span)
     nfc_lines = [
         IndexedLine(ln.line_number, unicodedata.normalize("NFC", ln.text), ln.position, ln.stanza_index)
@@ -380,6 +539,9 @@ def match_span_in_lines(span: str, lines: Sequence[IndexedLine]) -> SpanMatch:
         window_match_nfc = _match_span_across_lines(span_nfc, nfc_lines, normalized=True)
         if window_match_nfc is not None:
             return window_match_nfc
+        raw_multiline_match_nfc = _match_raw_multiline_substring(span_nfc, nfc_lines, normalized=True)
+        if raw_multiline_match_nfc is not None:
+            return raw_multiline_match_nfc
 
     return SpanMatch(status=SPAN_MATCH_NOT_FOUND)
 
