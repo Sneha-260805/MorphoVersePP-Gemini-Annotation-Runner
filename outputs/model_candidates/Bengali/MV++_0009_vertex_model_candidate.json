@@ -1,0 +1,447 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A dark, rain-swept night scene typical of the Bengal monsoon"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Pertaining to the month of Shrabon (Sravana), the peak monsoon month in the Bengali calendar, deeply associated in literature with heavy rains, darkness, and romantic longing.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic winter storm",
+          "A tropical hurricane"
+        ],
+        "preserved": true,
+        "romanization": "shraboni",
+        "source_span_original": "শ্রাবণী",
+        "source_span_translation": "rainy",
+        "stanza_index": 1,
+        "term": "শ্রাবণী",
+        "translation_note": "Translated as 'rainy night' which captures the seasonal weather but loses the specific cultural resonance of Shrabon, the second month of the Bengali monsoon season associated with romantic longing and classical poetry.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Dark monsoon clouds",
+          "Heavy rain falling at night"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A traditional North Indian rudra veena or South Indian Saraswati veena"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "On the veena, a classical Indian plucked stringed instrument associated with high art, learning, and the goddess Saraswati.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A European medieval lute",
+          "A modern acoustic guitar"
+        ],
+        "preserved": false,
+        "romanization": "binay",
+        "source_span_original": "বীণায়",
+        "source_span_translation": "lute",
+        "stanza_index": 1,
+        "term": "বীণায়",
+        "translation_note": "Translated as 'lute', which is a generic Western stringed instrument, losing the specific cultural identity of the veena.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "A classical veena with two large gourd resonators and a fretted neck"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A serene autumn landscape of Bengal with kash flowers"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The autumn season (Sharad) in Bengal, characterized by white kash grass, clear blue skies, and major religious festivals.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "Deciduous trees losing orange and red leaves in a Western-style autumn"
+        ],
+        "preserved": true,
+        "romanization": "sharod",
+        "source_span_original": "শারদ",
+        "source_span_translation": "autumns",
+        "stanza_index": 2,
+        "term": "শারদ",
+        "translation_note": "Translated as 'autumns', which captures the season but loses the specific cultural and festive associations of the Bengali autumn (Sharad), which is the season of the major Durga Puja festival and clear blue skies.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Clear blue skies with white clouds",
+          "Fields of white kash grass (Saccharum spontaneum)"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A quiet, dark river ghat in Bengal under a night sky"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A compound of 'nisha' (night) and 'tirtha' (sacred pilgrimage site or river ghat), suggesting a night-pilgrimage site, often metaphorically associated with cremation grounds (shmashana) or places of intense spiritual/existential trial.",
+        "line_ref": "L9",
+        "negative_confusions": [
+          "A generic sandy beach on fire",
+          "A modern industrial harbor"
+        ],
+        "preserved": false,
+        "romanization": "nishatirtho",
+        "source_span_original": "নিশাতীর্থে",
+        "source_span_translation": "burning shores",
+        "stanza_index": 2,
+        "term": "নিশাতীর্থে",
+        "translation_note": "Translated as 'burning shores', which interprets the 'burning' aspect but completely loses the 'tirtha' (sacred pilgrimage site) element of the compound word.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "A dark, quiet riverbank or ghat at night",
+          "Faint embers or a distant ritual fire"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "weariness and longing to peace and liberation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sweet, melodic song of a common bird (shalik/myna) described as if it were played on a classical stringed instrument.",
+            "acceptable_visual_variants": [
+              "A close-up of a singing shalik bird with soft light radiating from its throat.",
+              "An abstract composition showing a classical veena dissolving into a flock of birds in flight."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "on the lute of a shalik bird",
+            "literalization_risk": "An illustrator might draw a literal bird holding and playing a physical wooden lute, which looks cartoonish and ruins the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "birdsong",
+              "transferred_attributes": [
+                "melodic quality",
+                "artistic structure",
+                "sweetness"
+              ],
+              "vehicle_concept": "musical instrument (veena)"
+            },
+            "source_span_original": "শালিকের বীণায়",
+            "source_span_translation": "the oriole's lute",
+            "source_term": "শালিকের বীণায়",
+            "tenor": "the natural melodic song of the bird",
+            "vehicle": "a lute (veena) played by a bird",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a shalik bird perched on a branch with its beak open in song, with subtle, abstract glowing musical lines or ripples in the air around it to suggest the rich instrumental quality of its song."
+          },
+          {
+            "abstract_meaning": "The vast, protective, or overwhelming expanse of empty space in a desolate landscape.",
+            "acceptable_visual_variants": [
+              "A lone figure standing on a vast, empty plain under a massive, dark sky.",
+              "A misty, desolate horizon where the earth meets a blank sky, creating a sense of a protective yet isolating barrier."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "the shield of emptiness / the slope of emptiness",
+            "literalization_risk": "Depicting a literal physical shield made of nothingness or a literal steep slope with 'emptiness' written on it would look bizarre and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "existential emptiness or vast space",
+              "transferred_attributes": [
+                "expanse",
+                "barrier",
+                "protective or isolating quality"
+              ],
+              "vehicle_concept": "a physical shield or protective slope"
+            },
+            "source_span_original": "শূন্যতার ঢাল",
+            "source_span_translation": "emptiness of a divided landscape",
+            "source_term": "শূন্যতার ঢাল",
+            "tenor": "the vast, protective, or overwhelming quality of empty space",
+            "vehicle": "a shield or slope (dhal)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, barren, and wide-open landscape stretching to the horizon under a dark sky, emphasizing the sheer scale and isolation of the space."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and seasonal resonance of 'Sraboni' (associated with the heavy monsoon month of Shravan in Bengal, carrying deep literary associations of longing and romance) is flattened to the generic 'rainy'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The bird 'Shalik' (common myna) is translated as 'oriole', which changes the regional fauna and its associated domestic, everyday poetic texture in Bengali literature.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'nishatirtho' as 'burning shores' loses the specific sacred/pilgrimage connotation of 'tirtha' combined with night.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The painful, exhausting, or spiritually trying places and experiences the speaker has traversed during dark times.",
+            "acceptable_visual_variants": [
+              "A dark, smoky path with faint glowing embers on the ground.",
+              "A solitary figure walking through a misty, charred forest at night."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "burnt night-pilgrimage sites",
+            "literalization_risk": "Showing literal burning temples or religious shrines at night might look like a scene of communal violence or physical arson, which misrepresents the internal, existential journey of the speaker.",
+            "metaphor_mapping": {
+              "tenor_concept": "exhausting and painful life journeys",
+              "transferred_attributes": [
+                "sanctity",
+                "suffering",
+                "destruction",
+                "exhaustion"
+              ],
+              "vehicle_concept": "burnt sacred pilgrimage sites in the dark"
+            },
+            "source_span_original": "দগ্ধ নিশাতীর্থে",
+            "source_span_translation": "burning shores",
+            "source_term": "দগ্ধ নিশাতীর্থে",
+            "tenor": "painful and exhausting life experiences or places of suffering",
+            "vehicle": "burnt pilgrimage sites at night",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a dark, desolate path with smoldering embers on the ground or charred trees under a night sky, suggesting a journey through a ruined, painful landscape without showing specific religious structures."
+          },
+          {
+            "abstract_meaning": "The speaker's surrounding emotional state, life circumstances, or perception of reality shifting.",
+            "acceptable_visual_variants": [
+              "A stylized, wavy pattern of deep blue and silver surrounding the scene.",
+              "A distant, calm sea under a changing sky to represent a shift in perspective."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "sea / ocean",
+            "literalization_risk": "Showing a literal ocean shifting or changing colors might look like a fantasy movie scene rather than an internal emotional transformation.",
+            "metaphor_mapping": {
+              "tenor_concept": "one's entire emotional environment",
+              "transferred_attributes": [
+                "vastness",
+                "fluidity",
+                "capacity to change completely"
+              ],
+              "vehicle_concept": "a vast, shifting body of water"
+            },
+            "source_span_original": "সমুদ্র",
+            "source_span_translation": "sea",
+            "source_term": "সমুদ্র",
+            "tenor": "the speaker's vast emotional surroundings or life circumstances",
+            "vehicle": "the ocean",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, fluid background with swirling deep blue and dark tones that seem to shift around a central figure, suggesting a change in the environment."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The term 'Sharad' specifically refers to the autumn season (Sharad ritu), which carries deep cultural, festive, and aesthetic associations in Bengal, simplified to generic 'autumns'.",
+            "where": "L6"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The compound 'nishatirtho' (night-pilgrimage/shrine) is translated as 'burning shores', losing the sacred, spiritual, or ritualistic journey connotation of 'tirtha'.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A sudden, intense, and potentially self-destructive burst of passion, beauty, or fleeting thoughts.",
+            "acceptable_visual_variants": [
+              "A swarm of tiny, glowing golden fireflies in a dark forest.",
+              "Abstract streaks of warm light swirling against a deep blue background."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L14",
+            "literal_meaning": "the flight of fire insects / fire moths",
+            "literalization_risk": "Showing insects burning in a fire might look cruel or overly dramatic, losing the delicate beauty of the poetic image.",
+            "metaphor_mapping": {
+              "tenor_concept": "fleeting, intense moments of beauty or desire",
+              "transferred_attributes": [
+                "brightness",
+                "transience",
+                "danger",
+                "movement"
+              ],
+              "vehicle_concept": "insects drawn to fire or glowing in the dark"
+            },
+            "source_span_original": "অগ্নি পতঙ্গ উড়াল",
+            "source_span_translation": "fluttering of fireflies",
+            "source_term": "অগ্নি পতঙ্গ উড়াল",
+            "tenor": "fleeting, intense, or self-destructive passion and beauty",
+            "vehicle": "moths flying into fire, or fireflies",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict delicate, glowing golden sparks or fireflies swirling in the dark air around a quiet scene, capturing the magic and transience."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The phrase 'agni patanga' literally means 'fire insects' or 'fire moths' (often symbolizing self-destructive attraction to a flame), which is translated as 'fireflies', changing the metaphoric implication of fatal attraction to gentle illumination.",
+            "where": "L14"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The compound 'rup-chokh' (beauty-eyes or eyes full of form/grace) is translated as 'lovely gaze', losing the physical-aesthetic compound structure of the original Bengali.",
+            "where": "L15"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 5,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The uncertain, difficult, or mysterious journey of life and memory that leads toward ultimate peace or liberation.",
+            "acceptable_visual_variants": [
+              "A winding path under a starry night sky.",
+              "A silhouette of a path disappearing into soft, dark blue shadows."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L22",
+            "literal_meaning": "dark path / road",
+            "literalization_risk": "A simple black screen or a scary, dangerous alleyway would misrepresent this as a horror scene rather than a contemplative, spiritual journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "an uncertain or difficult phase of life/memory",
+              "transferred_attributes": [
+                "obscurity",
+                "difficulty",
+                "mystery",
+                "potential for discovery"
+              ],
+              "vehicle_concept": "a path without light"
+            },
+            "source_span_original": "অন্ধকার পথে",
+            "source_span_translation": "dark path",
+            "source_term": "অন্ধকার পথে",
+            "tenor": "an uncertain, difficult, or mysterious life journey",
+            "vehicle": "a physically dark road",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a quiet, winding path through a dark, misty forest or landscape, with a soft, faint light visible in the far distance to suggest hope and liberation."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The word 'suchana' means 'beginning', 'commencement', or 'indication', which is translated as 'dawn', introducing a specific visual/temporal metaphor not present in the literal Bengali text.",
+            "where": "L23"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "A weary traveler's journey through dark, restless nights and changing landscapes, finding a moment of serene connection and the promise of ultimate liberation."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Bengali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "শ্রাবণী নিশার গভীর নীরবতা,\nশালিকের বীণায়, একটি শুদ্ধ গানের সুরে।\nএত দীর্ঘ দিনের ক্লান্তি, এত রাতে,\nবিরুদ্ধ প্রান্তর, বিস্তৃত শূন্যতার ঢাল।\n \nবহু রাত আমার বিশ্রামহীন,\nবহু শারদ অতিক্রান্ত।\nসেই রাতে, অচেতন চরণ,\nবহু পথে পায়ে মাড়িয়ে যাওয়ার পরে,\nবহু দগ্ধ নিশাতীর্থে ফিরে আসার পরে,\nসেই রাতে, মায়াবী চেনা,\nবদলে যায় সব কিছু,\nপাল্টে যায় চারদিকের সমুদ্র।\n\nসন্ধ্যার পূর্ণিমা স্নিগ্ধতা,\nঅথবা অগ্নি পতঙ্গ উড়াল।\nবিরক্তির মাঝে, এমন এক রূপ-চোখ,\nতুমি নিঃশব্দে,\nগহন গহনে, সামনে।\n \nআমি আবার ফিরে আসবো,\nএই বিচিত্র দেশে।\nযেখানে প্রেম, আশা, সুগন্ধ।\n\nমাঝে মাঝে ফিরে আসবো,\nসেই অন্ধকার পথে,\nযেখানে মুক্তির সূচনা।",
+  "poem_id": "MV++_0009",
+  "poem_title": "Banalata Sen",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a5483695f68d41a357cb627feaefcbb3a94ee909c967cb939a0f7ea104484210",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bengali/MV++_0009.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the deep silence of the rainy night,\nIn the melody of the oriole's lute,\nThe weariness of so many days,\nIn the vast emptiness of a divided landscape.\n\nMany nights I have spent restless,\nMany autumns have passed.\nThat night, in an unconscious step,\nAfter treading many paths,\nAfter returning from many burning shores,\nThat night, a familiar spell,\nEverything changes,\nThe sea around me shifts.\n\nThe evening full moon's serenity,\nOr the fluttering of fireflies.\nIn the midst of annoyance, such a lovely gaze,\nYou, in silence,\nIn the depth of the void, stand before me.\n\nI will return again,\nTo this diverse land.\nWhere love, hope, fragrance abound.\n\nFrom time to time, I will return,\nAlong that dark path,\nWhere the dawn of liberation begins.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:37:37.338970+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e58b1d59e4e64560dabf496c463d27fa6eadf9bd96ec7ea9a3c5b08b30f648da",
+        "response_hash": "0b85ade5f4fd5a133303c1074b9cdc896b5584926793604dfdfb5e60bbffc74d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3ac4cfb317a32904c0da2032b66e6f616ba7d699bf7997fff43500e86ae36b5b",
+        "response_hash": "e8f4714aebef8419485f38a6798ab662dc5e2c4490142ef46c57f13d640a0e35",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7ee9d98bc75adcd6cce44b6bb440244003fa9e535b447bd48a0856dd95a7f995",
+        "response_hash": "dc30be87108eb7157af125404d6cfa1bbba6f55a3e302d84ec1acd7a7fc91bbe",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6b5f13ffbcbccf6dcb889882b05cdfc3b344a4f2ca244dce7527e6f95a2ad732",
+        "response_hash": "f10809db827144da6e8bc2846dd2101de44d8807c2833ce16aa31146576eb660",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a8dedd9bc119c17c7da5cfb5bdf18b3b7b4010e0c69a4efc51e7aee42059e4ba",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2d7a847102fff6c0b718eefebc8d2a58c1dff68bf0b1ebb4d08b32f7dc0bda14",
+    "translation_sha256": "c671d0c69f8efd4bcd51b2bcd678fd395f340d97f0e8d30d282b50a548e12942"
+  }
+}

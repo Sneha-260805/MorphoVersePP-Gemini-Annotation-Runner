@@ -1,0 +1,312 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A philosophical and spiritual concept in Indian traditions referring to the powerful illusion or deceptive nature of the material world, which masks spiritual reality. Here, it is used to describe the illusory nature of desire (chahat).",
+        "line_ref": "L2",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "maya",
+        "source_span_original": "माया",
+        "source_span_translation": "illusion",
+        "stanza_index": 1,
+        "term": "माया",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "longing and reflection on the dual nature of desire, moving from illusion to the bittersweet reality of joy and pain",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Desire is an elusive, deceptive, or illusory force that lacks permanent reality.",
+            "acceptable_visual_variants": [
+              "A figure looking at a beautiful reflection in water that ripples and distorts when touched",
+              "A person reaching for a glowing, translucent butterfly that fades into empty air"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Desire is a magical illusion / cosmic delusion",
+            "literalization_risk": "Depicting a literal magical projection or a cosmic deity's veil of illusion would miss the psychological focus on human longing.",
+            "metaphor_mapping": {
+              "tenor_concept": "human desire",
+              "transferred_attributes": [
+                "deceptiveness",
+                "lack of permanent substance",
+                "alluring but empty nature"
+              ],
+              "vehicle_concept": "cosmic illusion or magic"
+            },
+            "source_span_original": "चाहत तो एक माया है",
+            "source_span_translation": "Desire is but an illusion",
+            "source_term": "चाहत तो एक माया है",
+            "tenor": "desire (chahat)",
+            "vehicle": "maya (illusion/magic)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person reaching out to grasp a beautiful, shimmering mirage or a glowing silhouette that dissolves into mist as they touch it."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The philosophical and cultural resonance of 'maya' (illusion/cosmic play) is flattened into the generic English word 'illusion'.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic repetition of 'adhuri adhuri' (incomplete, incomplete) is translated literally but loses its specific poetic cadence and emphasis in Hindi.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The emotional journey, experiences, and choices one makes while pursuing their desires.",
+            "acceptable_visual_variants": [
+              "A solitary traveler walking along a winding dirt path that disappears into a soft, glowing horizon",
+              "A path split into two directions, one side bright and sunny, the other dark and rainy"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "On the pathways/roads of desire",
+            "literalization_risk": "Showing a literal highway or paved street with traffic signs would look too modern and mundane, losing the poetic, emotional quality of the journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "the psychological journey of longing",
+              "transferred_attributes": [
+                "directionality",
+                "obstacles",
+                "movement forward",
+                "unpredictable turns"
+              ],
+              "vehicle_concept": "physical pathways or roads"
+            },
+            "source_span_original": "चाहत की राहों में",
+            "source_span_translation": "On the paths of desire",
+            "source_term": "चाहत की राहों में",
+            "tenor": "the process or journey of desiring",
+            "vehicle": "roads/paths",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding, misty path stretching into an atmospheric landscape, with symbolic elements of joy and sorrow along the borders."
+          },
+          {
+            "abstract_meaning": "Dreams and hopes are beautifully arranged, nurtured, or held within the state of desiring.",
+            "acceptable_visual_variants": [
+              "A chest or box of light opening to reveal glowing, symbolic shapes floating upward",
+              "A tapestry of soft light weaving together images of hopeful scenes around a person"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "In this desire are decorated/adorned",
+            "literalization_risk": "Showing literal ornaments, jewelry, or party decorations hung up would look overly literal and festive, missing the internal, mental nature of dreams.",
+            "metaphor_mapping": {
+              "tenor_concept": "the presence of dreams within human longing",
+              "transferred_attributes": [
+                "beauty",
+                "deliberate arrangement",
+                "preciousness"
+              ],
+              "vehicle_concept": "decorating or adorning a physical space or object"
+            },
+            "source_span_original": "इस चाहत में सजे हैं",
+            "source_span_translation": "In this desire, there are adorned",
+            "source_term": "इस चाहत में सजे हैं",
+            "tenor": "dreams and visions existing within desire",
+            "vehicle": "decorations/ornaments",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show glowing, dream-like bubbles or floating stars gently suspended around a central figure, representing thoughts and hopes beautifully arranged in the mind."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The subtle distinction between 'sapne' (Sanskrit-derived dreams) and 'khwaab' (Persian-derived dreams/visions) is flattened into 'dreams' and 'visions', losing the linguistic texture of Hindustani vocabulary blending.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Desire is a vibrant, life-giving, and transformative phase of emotion that brings color and vitality to life.",
+            "acceptable_visual_variants": [
+              "A garden suddenly bursting into colorful blooms around a figure who is looking up in hope",
+              "Swirling watercolor washes of bright pinks, greens, and yellows enveloping a silhouette"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "Desire is a spring season",
+            "literalization_risk": "A simple landscape photo of spring might fail to connect the season back to the internal human emotion of desire.",
+            "metaphor_mapping": {
+              "tenor_concept": "the emotional state of desire",
+              "transferred_attributes": [
+                "vibrancy",
+                "growth",
+                "bringing color and joy",
+                "temporary beauty"
+              ],
+              "vehicle_concept": "the season of spring with blooming flowers and colors"
+            },
+            "source_span_original": "चाहत तो एक बहार है",
+            "source_span_translation": "Desire is a spring",
+            "source_term": "चाहत तो एक बहार है",
+            "tenor": "desire (chahat)",
+            "vehicle": "spring season (bahar)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a burst of vibrant, colorful wind or swirling petals emanating from a person, transforming a dull landscape into a blooming garden."
+          },
+          {
+            "abstract_meaning": "Desire brings both moments of beautiful fulfillment and joy, as well as painful experiences of hurt and disappointment.",
+            "acceptable_visual_variants": [
+              "A split-screen or dual-natured image where one half shows blooming petals falling gently, and the other half shows sharp, tangled briars",
+              "A person holding a stem where a beautiful blossom is opening, while the stem below is covered in prominent, sharp thorns"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L12-L13",
+            "literal_meaning": "Sometimes these flowers bloom, sometimes these thorns prick.",
+            "literalization_risk": "Showing a literal hand bleeding from a rose thorn might look too much like a gardening accident rather than an emotional metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "the dual emotional outcomes of longing (happiness and pain)",
+              "transferred_attributes": [
+                "beauty and pleasure vs. sharpness and pain",
+                "coexistence of positive and negative aspects in one source"
+              ],
+              "vehicle_concept": "the dual nature of a rose bush (beautiful flowers and painful thorns)"
+            },
+            "source_span_original": "कभी ये फूल खिलते हैं,\nकभी ये कांटे चुभते हैं।",
+            "source_span_translation": "Sometimes these flowers bloom,\nSometimes these thorns prick.",
+            "source_term": "कभी ये फूल खिलते हैं, \nकभी ये कांटे चुभते हैं।",
+            "tenor": "joys and pains of desire",
+            "vehicle": "blooming flowers and sharp thorns",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a single branch that has both a beautifully opened, glowing flower on one side and sharp, dark thorns on the other, perhaps with a hand gently hovering near both."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The cultural and seasonal resonance of 'bahaar' (spring/bloom) is rendered as 'spring', which loses its specific poetic association with Urdu/Hindi romantic and ghazal traditions.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The bittersweet, illusory, and transformative nature of human desire"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PRESERVED' while the 'source_span_translation' is 'illusion'. Translating 'maya' as 'illusion' is a translation shift/loss (as noted in the stanza's translation_loss), meaning 'preserved' should logically be false or 'translation_status' should be 'ALTERED' or 'PARTIALLY_PRESERVED' rather than fully 'PRESERVED'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चाहत  \nचाहत तो एक माया है,  \nएक अधूरी अधूरी आस है।  \nजिसकी चाह में बसी है,  \nहर दिल की एक खास है।  \n\nचाहत की राहों में,  \nकभी हंसते हैं, कभी रोते हैं।  \nइस चाहत में सजे हैं,  \nअसंख्य सपने, असंख्य ख्वाब हैं।  \n\nचाहत तो एक बहार है,  \nजिसमें रंग भरते हैं।  \nकभी ये फूल खिलते हैं,  \nकभी ये कांटे चुभते हैं।",
+  "poem_id": "MV++_0281",
+  "poem_title": "Chahat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b4942365ced8fc7941081b0e8020a9ccde49e374b568a608a55b7a25515e30ab",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0281.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Desire  \nDesire is but an illusion,  \nAn incomplete, incomplete hope.  \nIn which resides,  \nA special wish of every heart.  \n\nOn the paths of desire,  \nWe sometimes laugh, sometimes weep.  \nIn this desire, there are adorned,  \nCountless dreams, countless visions.  \n\nDesire is a spring,  \nIn which colors are filled.  \nSometimes these flowers bloom,  \nSometimes these thorns prick.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:07:58.647711+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "314e32a9bd1d8f2e591d559d6bd0e3f37e24d4757a4fbda9bd9128d483971193",
+        "response_hash": "0fda4f9477b908bb7643aee97a9678d515e6f1eca620ca454ce73c7733c0b0dd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1803767d02bdc6fb450b776b9dd11083e2f1619c7b2b6759d22a29f8821e49f9",
+        "response_hash": "5dafdb0dba8604f1d6315bb94cd5b77e4a258d07f7f521cb245e3bb524e0b05a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6ecb05385dbed8927cf2191a93931ac2027884ce2aa0913ec373aa22f80f0406",
+        "response_hash": "6c46a1c0a9c1b3259b5b888186dec8628f6328d805482740f3e1627d324d2384",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "adc99c2aa5a9ad5adeb7172f440bcfbd562c3b35080486b57afc4c06c013e74d",
+        "response_hash": "2991df1d851d4d460a22d3b55ff5d9f383788193d25b06eee2f323a58f94b329",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3b570ed8388da4cadc8268e3d59b8963b3c0473ab9d82bd0aaa49948ce604f74",
+        "response_hash": "bf43fee5761c28e6cf42503acb16ca20130d6400bcfbbe21c1fde62e1d86a44c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6c980f263dcf77ae75ff90f40557787dcccd6f18a5025593e1f11434557f824f",
+        "response_hash": "05355ae25dbef6764d527c774a66a87530741b8800df025736d586e5ae9d11ae",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e8b2e4fa1bd591956e3d72712879ff0962e7d605ad48a6a7f0c76230070841e7",
+    "translation_sha256": "867e88901e353aa4d32ae8258af3e0df66cbd663843876dad23cda040f54b907"
+  }
+}

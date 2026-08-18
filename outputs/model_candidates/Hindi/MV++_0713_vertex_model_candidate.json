@@ -1,0 +1,176 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A major raga in Hindustani classical music traditionally performed during the early morning hours, associated with peace, devotion, and a meditative mood.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": false,
+        "romanization": "Bhairavi",
+        "source_span_original": "भैरवी",
+        "source_span_translation": null,
+        "stanza_index": 1,
+        "term": "भैरवी",
+        "translation_note": "The translation replaces the specific raga name 'Bhairavi' with the generic phrase 'melody of dawn'.",
+        "translation_status": "LOST",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The slow, improvisational, and rhythm-free introductory section of a raga performance in Indian classical music, used to outline the raga's melodic structure.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": false,
+        "romanization": "aalap",
+        "source_span_original": "आलाप",
+        "source_span_translation": null,
+        "stanza_index": 1,
+        "term": "आलाप",
+        "translation_note": "The translation omits the specific musical concept of 'aalap' (improvisational introduction), rendering it broadly as 'melody'.",
+        "translation_status": "LOST",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "peaceful contemplation of a morning melody",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation generalizes the specific classical raga 'Bhairavi' and its introductory vocal movement 'alaap' into 'melody of dawn', losing the precise musical and cultural context of the Hindustani classical tradition.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The musical performance of the morning raga Bhairavi is equated with the essence of the morning itself, suggesting that the music and the dawn are one and the same in their awakening quality.",
+            "acceptable_visual_variants": [
+              "A serene dawn landscape with soft pink and orange light reflecting on a quiet river, evoking the mood of Bhairavi.",
+              "A close-up of a classical musician singing at dawn, with the soft morning light illuminating the scene."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The vocal introduction of the raga Bhairavi was the musical note of the morning",
+            "literalization_risk": "An illustrator might depict a literal musical note floating in the sky next to a sunrise, which looks cartoonish and misses the spiritual, auditory depth of the raga.",
+            "metaphor_mapping": {
+              "tenor_concept": "raga performance",
+              "transferred_attributes": [
+                "awakening",
+                "purity",
+                "association with dawn"
+              ],
+              "vehicle_concept": "morning melody"
+            },
+            "source_span_original": "भैरवी का आलाप, सुबह का सुर था",
+            "source_span_translation": "The melody of dawn, a note of the morning",
+            "source_term": "भैरवी का आलाप, सुबह का सुर था",
+            "tenor": "the vocal introduction of the raga Bhairavi (भैरवी का आलाप)",
+            "vehicle": "the musical note/melody of the morning (सुबह का सुर)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, early morning landscape at dawn with soft, warm light breaking over the horizon, perhaps with a subtle silhouette of a classical singer or instrument (like a tanpura) to evoke the musical performance without literalizing floating notes."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific musical term 'Bhairavi' (a solemn morning raga in Indian classical music) is generalized to 'melody of dawn', losing its cultural specificity and classical music context.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The technical term 'aalap' (the slow, improvisational introductory section of a raga) is omitted, losing the specific structure of classical performance.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The expansive and serene nature of morning music resonating with the sky"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "भैरवी का आलाप, सुबह का सुर था,\nखुले आसमान में गूंजता स्वर था।",
+  "poem_id": "MV++_0713",
+  "poem_title": "Bhairavi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "392dc72a20c35a0058876d306f6f4eef2b2e0d3fd61692b335d76b8b138356f5",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0713.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The melody of dawn, a note of the morning,\nResonated in the open sky, softly adorning.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:59:07.023855+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a0200370ea2c1804a1aaabe703a1d782040b0eb637164a7bef448d09e46d79c6",
+        "response_hash": "f53ae01d32e8cc821723d9388d1ff0ea879ec25b66cc7eacef3856b23f3a7d6e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "62f46825766f8429117cc33d8e605eeb521446b996d5f7cdbd907d370835faba",
+        "response_hash": "a5842cb2f1e32169790332ed0a50797c7106b58b970a9dcd3d00c1e16fab84b0",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "56366ba22ea399e0a1080e714857d4f5fc793ac80e3783bcb9cb66e038506ad9",
+        "response_hash": "af0f025714cf8795eab7a010492470cede9f20ef4a207353a4559d96cb59ca49",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "03d4ce816c9522815268ba62993d27f266a50beafe80404fad5bfff53e53058f",
+        "response_hash": "cf1c733ce0dde8731c5be4bcd4bc9b0404d9f287bfdc92c12cc25c32fed2c4ac",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "079961820ed522f708c8bd7d766574b019a47127c8b3334ffc3e343b36345fbc",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c63686742f31ef772b333cd6c6d39535d941eb013ac084c3b03d9f4290e2c253",
+    "translation_sha256": "7275878066c797612b55e56ad3af6f42607c5e2ddd8596d01853c46b87bfcf5d"
+  }
+}

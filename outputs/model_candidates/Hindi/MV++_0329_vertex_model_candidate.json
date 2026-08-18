@@ -1,0 +1,249 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "hopeful contemplation to joyful togetherness",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A safe, natural, and harmonious environment or habitat where the river can flow freely and exist in its true state.",
+            "acceptable_visual_variants": [
+              "A clean river winding through a peaceful valley under a clear sky",
+              "A riverbank with vibrant flora and fauna, framing the water as a living home"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical house belonging to a river",
+            "literalization_risk": "Depicting a literal brick-and-mortar house built inside or around a river, which would look absurd and miss the ecological/poetic sense of a natural habitat.",
+            "metaphor_mapping": {
+              "tenor_concept": "river habitat",
+              "transferred_attributes": [
+                "safety",
+                "belonging",
+                "shelter",
+                "rightful place"
+              ],
+              "vehicle_concept": "home"
+            },
+            "source_span_original": "नदी का घर",
+            "source_span_translation": "The River's Home",
+            "source_term": "नदी का घर",
+            "tenor": "the natural habitat, course, or ecological space of a river",
+            "vehicle": "a physical house or home",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful, pristine river flowing naturally through its banks, surrounded by lush greenery, suggesting a welcoming natural sanctuary."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The internal rhyme and rhythmic flow of 'ho' (L2) and 'to' (L3) are lost in the English conditional structure.",
+            "where": "L2-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The compound phrase 'roop rang' (L5) carries a unified aesthetic connotation of visual appearance and character, which is split into 'colors and form' in English.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The natural, rhythmic sound of flowing river waves is compared to a musical melody.",
+            "acceptable_visual_variants": [
+              "Rhythmic, gentle waves sparkling under sunlight",
+              "Soft, flowing water ripples with abstract light trails suggesting sound waves"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6-L7",
+            "literal_meaning": "The physical rhythm of water waves containing an actual musical melody.",
+            "literalization_risk": "Depicting musical instruments or musical notes floating physically on top of water waves.",
+            "metaphor_mapping": {
+              "tenor_concept": "sound of waves",
+              "transferred_attributes": [
+                "rhythm",
+                "harmony",
+                "soothing quality",
+                "melody"
+              ],
+              "vehicle_concept": "music"
+            },
+            "source_span_original": "लहरों की लय में,\nसंगीत की धुन हो।",
+            "source_span_translation": "In the rhythm of the waves,\nThere is a tune of music.",
+            "source_term": "लहरों की लय में,\nसंगीत की धुन हो।",
+            "tenor": "the natural sound and movement of river waves",
+            "vehicle": "musical tune and rhythm",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize gentle, rhythmic ripples on the water surface catching the light, perhaps with abstract, soft light patterns that suggest vibration or harmony."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The alliterative rhythm of 'laharon ki lay' (L6) and the phonetic resonance of 'dhun ho' (L7) and 'rang ho' (L9) are lost in translation.",
+            "where": "L6-L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "The translation adds 'Like sheets of joy' which is not explicitly in the original text, and translates 'pyare' (dear/beloved) as modifying the home ('home so dear') rather than addressing the companion.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Living together in harmony with nature and the river's peaceful environment.",
+            "acceptable_visual_variants": [
+              "People resting on the riverbank under the shade of a tree",
+              "A family walking along the edge of a clean, flowing river"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "Inside a physical house.",
+            "literalization_risk": "Showing people living inside a literal building constructed in the middle of a river.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural environment",
+              "transferred_attributes": [
+                "shelter",
+                "coexistence",
+                "warmth",
+                "peace"
+              ],
+              "vehicle_concept": "home"
+            },
+            "source_span_original": "इस घर में",
+            "source_span_translation": "In this home so dear.",
+            "source_term": "इस घर में",
+            "tenor": "the natural environment of the river",
+            "vehicle": "a physical house",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show people sitting peacefully or walking together along the natural, clean riverbank, interacting harmoniously with the landscape."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces 'Like sheets of joy' which is not in the original text; the original literally says 'sheets of dreams' (sapnon ki chaadarein).",
+            "where": "L11"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The affectionate address 'pyaare' (L13) is translated as an adjective modifying home ('home so dear') rather than as a direct, warm address to a companion or reader.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding peace, beauty, and shared life in the natural sanctuary of a river's home"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing lost rhyme, rhythm, and compound nuances. This is a minor inconsistency with the 'faithful' rating, though often acceptable if the loss is minor.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing lost alliterative rhythm and phonetic resonance.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[2].metaphor_spans",
+      "issue": "The metaphor_spans list for Stanza 3 does not include an entry for 'सपनों की चादरें' (sapnon ki chaadarein / sheets of dreams) from L11, which is a prominent figurative expression (metaphor/symbolism) in this stanza, especially given that the translation loss notes highlight its mistranslation as 'sheets of joy'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "नदी का घर  \nनदी का घर हो,  \nतो सब ठीक है।  \nआओ, सजीव करें,  \nइसका रूप रंग।  \n\nलहरों की लय में,  \nसंगीत की धुन हो।  \nहर कोने में खुशियाँ,  \nहर दिशा में रंग हो।  \n\nकिनारे पर बिछी हैं,  \nसपनों की चादरें।  \nआओ, इस घर में,  \nमिलकर जी लें प्यारे।",
+  "poem_id": "MV++_0329",
+  "poem_title": "Nadi Ka Ghar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b23c4154ff8a72bfdd1509656d6968229ba8910f7f1c5441130c91ba815d61a2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0329.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The River's Home  \nIf there is a home for the river,  \nThen everything is fine.  \nCome, let us enliven,  \nIts colors and form.  \n\nIn the rhythm of the waves,  \nThere is a tune of music.  \nHappiness in every corner,  \nColors in every direction.  \n\nDreams are spread on the banks,  \nLike sheets of joy.  \nCome, let us live together,  \nIn this home so dear.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:13:17.333739+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "285d39a524b3f5b756fc4d999562463478b22ea59ed6ed3060e097be12d060a8",
+        "response_hash": "d7a547acb60f009861a3e0aec5881808d3a53ac3f4ca6fc0a1cb08e9f11a357f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be795df4ea885afb81c330a59244d8d1f9141884e9fe2a0c341763416c14e5aa",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ef10abdd65492b767a574f411c2ccc1db4a3b0a1e2ffd73f396c6ee090272cad",
+        "response_hash": "5310b26b76511a07de69cae0615bd8068d734f641a6f0af9e570700fbe11b620",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2b97b7da780d50d94d4aa59e94b46d97632bac82aaec807f13e94e4fda875cdf",
+        "response_hash": "0f6100c8724c2f6cd2f2c567b632fc716abe6163bc14372dec0b2d3dc74060e6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da8d5dc8cb834f61240c7fd4b6653a8b7f2d0bda780ba15d142ee2f263f9d0f0",
+        "response_hash": "2809b9a5c581cb768d1524070fb40b5f849c1c51ab6fa93ab42d55a404f5f362",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "51fbe593f6b47fddfbe5f8042a60bc3bbf0564add24b70ed81f2da575aa3d101",
+    "translation_sha256": "d7a9d98c933e6d10b673278c2453b38034521ec50c97c1333128598a8b77f9f4"
+  }
+}

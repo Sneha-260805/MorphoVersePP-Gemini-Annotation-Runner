@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet realization of deep, unspoken connection and mutual recognition.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An unspoken, intuitive understanding or emotional connection between two people that does not require spoken words.",
+            "acceptable_visual_variants": [
+              "Two figures standing close, looking deeply into each other's eyes with soft, understanding expressions.",
+              "A close-up on the eyes of two individuals reflecting each other, conveying a shared silent moment."
+            ],
+            "expression_type": "other",
+            "line_ref": "L3",
+            "literal_meaning": "a mute or silent dialogue",
+            "literalization_risk": "Depicting speech bubbles with no text or crossed-out words would look like a breakdown in communication rather than a deep, intuitive connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "intuitive emotional connection",
+              "transferred_attributes": [
+                "exchange of meaning",
+                "mutual understanding",
+                "direct connection"
+              ],
+              "vehicle_concept": "verbal communication"
+            },
+            "source_span_original": "मूक संवाद",
+            "source_span_translation": "silent conversation",
+            "source_term": "मूक संवाद",
+            "tenor": "unspoken emotional understanding",
+            "vehicle": "a conversation or dialogue",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the intense, mutual gaze and expressive facial features of two people facing each other, emphasizing their connection through proximity and posture rather than speech."
+          },
+          {
+            "abstract_meaning": "The emotional connection and unspoken communication occurred directly between their inner selves or feelings, rather than through physical or intellectual means.",
+            "acceptable_visual_variants": [
+              "A soft, warm light connecting the chests of two closely standing figures.",
+              "Two figures in profile, with a subtle, shared color palette or aura that links them visually at the chest level."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "was between the physical hearts",
+            "literalization_risk": "Drawing literal anatomical hearts with lines or messages passing between them would look clinical or cartoonish, completely losing the romantic and emotional depth of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional resonance between two people",
+              "transferred_attributes": [
+                "internal origin",
+                "deep intimacy",
+                "direct path"
+              ],
+              "vehicle_concept": "physical organs exchanging something"
+            },
+            "source_span_original": "दिलों के बीच था",
+            "source_span_translation": "passed between our hearts",
+            "source_term": "दिलों के बीच था",
+            "tenor": "the emotional core and deep feelings of the two individuals",
+            "vehicle": "the physical heart as a container or transmitter of messages",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the warm, subtle glow of light emanating from the chests of two figures facing each other, symbolizing their emotional resonance and connection."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'aaye the hum' (literally 'we had come') as 'We stood' changes the active motion of coming face-to-face into a static posture of standing.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'doosre ke chehron ko' (literally 'the faces of the other') as 'the faces of each other' slightly alters the grammatical structure where 'doosre' is singular, which carries a poetic nuance of looking at 'the other' as a singular mirror or entity.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound depth of silent, heart-to-heart communication between two people."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries and a detailed loss_note is expected or translation_quality should be 'partial' to reflect the documented losses.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Urdu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आमने-सामने आए थे हम,  \nदूसरे के चेहरों को पहचानते हुए।  \nएक मूक संवाद था,  \nजो दिलों के बीच था।",
+  "poem_id": "MV++_1564",
+  "poem_title": "Aamne-Saamne",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2f29724cfb0ce1630efca7f2f43957e2511f0da9cda1b95a27596a534d319a7c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Urdu/MV++_1564.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "We stood face to face,  \nRecognizing the faces of each other.  \nThere was a silent conversation,  \nThat passed between our hearts.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:48:42.065976+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8e0eede077210b4804b3ba15af4e39a5be1b27e534d1dfc28fdd91ff29dd2a0",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "58f4c12e8a16bf0226cd0c31ee3ce9976e237d14b09a0a957d2a56326ce43526",
+        "response_hash": "3661822b1da189e70d8637c5a90bf0a8b4fb5c145351aae1efc946605b64a822",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d4ca92c0bfb5c51ff6ef3e841371e4156167d709dfec528bf2149db46f47b0a8",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "37e7a0b03303c7472324b62b761fd85195c1191fc0104e8f1103145306049e9a",
+        "response_hash": "903bcf1236243f704f27f534b527a7e0e12e5cf40b180b137b8ae5c4a16e5a6b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6cdab48415bcd4d49334bbe847bdfc20b10f2df1f33e3b93b774deeca2c142cb",
+        "response_hash": "e6f28b0deee1697ab095d6af08c3f56e8e9bc5cffa5c43d7d717986efbef31fe",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "204ab46d8a7768eafece96023db2b97e97f580ec5b5e691a3162ac44237ebfff",
+        "response_hash": "536623a9a350faabc5148a3072b0dca4f6ad1d7316b9b8076109a344dc236fff",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f7857a162ca048d3290724bd580e43c5ad9fc0d8d276a67c366a8ba8b539d281",
+    "translation_sha256": "15bd665794b1cefb2a5ab11d1f321bb4e239bdb7e448bcdba3dbb6a4b9f54173"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and quiet hope",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A pure, serene, or surreal emotional atmosphere or state of mind in which the speaker's hope exists.",
+            "acceptable_visual_variants": [
+              "A figure standing peacefully under a soft, glowing silver-white mist or light rain.",
+              "A surreal landscape where rain falls as shimmering white light beams."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "In the white rain",
+            "literalization_risk": "An illustrator might draw literal white paint-like drops falling from a cloud, which looks like a weather anomaly rather than a serene emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "pure emotional state",
+              "transferred_attributes": [
+                "purity",
+                "serenity",
+                "cleansing quality"
+              ],
+              "vehicle_concept": "white rain"
+            },
+            "source_span_original": "வெள்ளை மழையில்",
+            "source_span_translation": "In the white rain",
+            "source_term": "வெள்ளை மழையில்",
+            "tenor": "a pure, serene emotional state or backdrop of hope",
+            "vehicle": "white rain",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, misty, luminous rainfall where the light catches the water droplets, making them appear to glow white or silver, creating a peaceful and dreamlike atmosphere."
+          },
+          {
+            "abstract_meaning": "Gaining a cherished, remembered, or loved place in the beloved's thoughts and emotions.",
+            "acceptable_visual_variants": [
+              "A symbolic representation of a glowing light settling gently within a silhouette of a person.",
+              "A warm, intimate gesture between two people that conveys mutual belonging without anatomical literalism."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L3",
+            "literal_meaning": "Finding/receiving a physical space inside your chest/heart",
+            "literalization_risk": "A literal rendering of a physical space inside a human heart organ would look grotesque or anatomically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional acceptance and love",
+              "transferred_attributes": [
+                "occupying space",
+                "belonging",
+                "closeness"
+              ],
+              "vehicle_concept": "physical space inside a heart"
+            },
+            "source_span_original": "உன் நெஞ்சில் இடம் பெறும்",
+            "source_span_translation": "Finding a place in your heart",
+            "source_term": "உன் நெஞ்சில் இடம் பெறும்",
+            "tenor": "being loved, accepted, or remembered by someone",
+            "vehicle": "a physical space or room inside a chest/heart",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the emotional warmth of the connection, perhaps showing two figures in a gentle, close embrace or a soft light emanating from one person toward another to symbolize emotional resonance."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the syntactic structure and word order of the Tamil original. The Tamil text places the dream ('கனவு') at the very end of the stanza as the climax of the sentence, preceded by the relative participle 'காத்திருக்கும்' (that I await). The English translation rearranges this to 'Is the dream I await, / Finding a place in your heart!', which alters the original poetic flow and the suspenseful build-up to the word 'dream'.",
+            "where": "L3-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'இருக்கும் என்பது' (irukkum enbathu) literally means 'that which is/exists' or 'to say that it exists', which carries a philosophical nuance of existence or presence. The translation 'What remains' introduces a sense of leftover or survival that is not quite the same as the simple, profound assertion of existence in 'இருக்கும்'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring hope of finding a place in a loved one's heart, envisioned as a dream waiting amidst a pure, white rain."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains two detailed translation_loss entries describing syntactic shifts and semantic nuances lost in translation. A quality rating of 'partial' would be more consistent with these documented losses.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "இருக்கும் என்பது,  \nவெள்ளை மழையில்,  \nஉன் நெஞ்சில் இடம் பெறும்,  \nநான் காத்திருக்கும் கனவு!",
+  "poem_id": "MV++_1314",
+  "poem_title": "Irukkum Enbathu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "bb2960d5b568ca4d40f69802bd422d167c4b048e518e6b8d8dcc32cd3f1e694d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1314.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What remains,  \nIn the white rain,  \nIs the dream I await,  \nFinding a place in your heart!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:20:32.219976+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dbe93a353df2a0e70ee9a56cc7bda31322d253e7b04be07ee03d023ddaa32ea4",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c97ef25bfd0984dced935e118d92655e91f872101a5d1e815b4256961e9e98c0",
+        "response_hash": "d302dbbcb7f24880820e531f90b84ab02be104afbae282e1a43fb8bd6aef507e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0400203137ded5e851b5b25d126bca379576ae6b93ea95fc4d82493b7553b5ac",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b106f977333d7dfe80f10826ad1dd6c3101bdfc1eff09c3cd8c4509054d90ce5",
+        "response_hash": "78115a17851c2f49f9bc00f10daa1276c318611be73e5dab83d3538834b32d42",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f62683aa180ce6d1193fa651aea03ee8164862bdfc34390d5c61492606183cd2",
+        "response_hash": "300fb71e0d921ce5698bf68aaddcff03e3f42f1b7668373bdc5120d3e0d08963",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b88a2d8de445d551f37b000e9d765b9e100a79547a1132b09edda733a265e4ae",
+        "response_hash": "f56566378d2b0bed7c86294a76275cd732c30493117b7e1776230f46d09be53b",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "07b65bb9e313dcd4f88d15323281a942680fe444945b89e2f76db6956d49e07a",
+    "translation_sha256": "43f7f33c3f006793801c1d172d382018aa11834f674901a4326626101a30bef7"
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An unadorned, rustic terracotta clay lamp",
+          "A simple brass or metal oil lamp"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional clay oil lamp (diya or deep) used in South Asia, symbolizing light, hope, and love. In this context, it represents the flame of love burning in every heart.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "An industrial electric light bulb",
+          "A modern wax candle",
+          "An ornate Western-style lantern"
+        ],
+        "preserved": true,
+        "romanization": "deep",
+        "source_span_original": "दीप",
+        "source_span_translation": "lamp",
+        "stanza_index": 1,
+        "term": "दीप",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A small, traditional clay oil lamp (diya)",
+          "A warm, glowing flame",
+          "A cotton wick resting in oil or ghee"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A steady, joyful celebration of the homeland's natural beauty, freedom, and love.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The fields yield rich, valuable, and golden-colored crops.",
+            "acceptable_visual_variants": [
+              "A close-up of ripe wheat ears glowing in the sunlight",
+              "A wide shot of golden mustard fields stretching to the horizon"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "gold grows (from the ground like a plant)",
+            "literalization_risk": "Showing actual gold bars or coins sprouting out of the dirt like plants, which looks like a fantasy or fairy tale rather than agricultural abundance.",
+            "metaphor_mapping": {
+              "tenor_concept": "valuable crops ripening",
+              "transferred_attributes": [
+                "yellow color",
+                "high value",
+                "preciousness"
+              ],
+              "vehicle_concept": "gold growing"
+            },
+            "source_span_original": "सोना उगता है",
+            "source_span_translation": "yield golden crops",
+            "source_term": "सोना उगता है",
+            "tenor": "abundant, valuable yellow crops like wheat or mustard",
+            "vehicle": "gold growing from the soil",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict vast, sunlit agricultural fields filled with ripe, golden-yellow crops (such as wheat or mustard) swaying in the breeze."
+          },
+          {
+            "abstract_meaning": "Peace spreads continuously and serenely down from the mountains like a flowing river.",
+            "acceptable_visual_variants": [
+              "A gentle stream flowing through mountain valleys",
+              "Mist softly rolling down peaceful mountain slopes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "peace flows (like water)",
+            "literalization_risk": "Attempting to draw a literal substance labeled 'peace' flowing down a mountain, which is impossible to depict directly without looking absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "spreading peace",
+              "transferred_attributes": [
+                "continuous movement",
+                "calming effect",
+                "downward path from peaks"
+              ],
+              "vehicle_concept": "flowing water"
+            },
+            "source_span_original": "शांति बहती है",
+            "source_span_translation": "Peace flows down",
+            "source_term": "शांति बहती है",
+            "tenor": "the pervasive, calming presence of peace",
+            "vehicle": "flowing water or a river",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene mountain landscape with a clear, calm river or stream winding its way down from the peaks under a tranquil sky."
+          },
+          {
+            "abstract_meaning": "The atmosphere is filled with the pervasive, uplifting feeling of freedom.",
+            "acceptable_visual_variants": [
+              "Wildflowers swaying in a strong, clean breeze",
+              "A bird soaring freely in a wide, open sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "there is a fragrance of freedom",
+            "literalization_risk": "Showing literal scent clouds or perfume bottles labeled 'freedom', which ruins the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "freedom",
+              "transferred_attributes": [
+                "pervasiveness",
+                "invisible presence",
+                "uplifting quality"
+              ],
+              "vehicle_concept": "fragrance"
+            },
+            "source_span_original": "आज़ादी की ख़ुशबू है",
+            "source_span_translation": "fragrance of freedom fills the air",
+            "source_term": "आज़ादी की ख़ुशबू है",
+            "tenor": "the intangible feeling of living in liberty",
+            "vehicle": "a pleasant scent or fragrance in the air",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict open, breezy spaces with elements that suggest fresh air and movement, such as wind blowing through trees or a person standing with open arms on a hill."
+          },
+          {
+            "abstract_meaning": "Love is nurtured and kept alive in the hearts of the people.",
+            "acceptable_visual_variants": [
+              "A simple clay diya burning steadily in a warm, dark setting",
+              "A stylized silhouette of a person with a soft, warm glow radiating from the chest area"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "a lamp of love burns",
+            "literalization_risk": "Showing a literal anatomical heart with a burning candle or lamp inside it, which looks grotesque or medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "active love in the heart",
+              "transferred_attributes": [
+                "warmth",
+                "light",
+                "constant burning",
+                "dispelling darkness"
+              ],
+              "vehicle_concept": "burning lamp"
+            },
+            "source_span_original": "प्रेम का दीप जलता है",
+            "source_span_translation": "lamp of love burns",
+            "source_term": "प्रेम का दीप जलता है",
+            "tenor": "the warmth and light of love in human hearts",
+            "vehicle": "a burning clay lamp (diya)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing traditional clay lamp (diya) held gently in cupped hands, casting a soft, warm light on a person's face to suggest inner warmth."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'सोना उगता है' (literally 'gold grows/sprouts') as 'yield golden crops', which literalizes and explains the metaphor, losing the poetic simplicity of gold directly growing from the soil.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'अपना देश' as 'Our Country' shifts the possessive pronoun from 'अपना' (one's own / our own, which carries a deep sense of personal belonging and collective intimacy in Hindi) to a more standard 'Our'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "A patriotic tribute to the peace, prosperity, and loving spirit of one's homeland."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अपना देश,  \nजहाँ खेतों में सोना उगता है,  \nपर्वतों से शांति बहती है,  \nजहाँ हवा में आज़ादी की ख़ुशबू है,  \nऔर हर दिल में प्रेम का दीप जलता है।",
+  "poem_id": "MV++_0614",
+  "poem_title": "Apna Desh",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "8edee4dd6bccd62af76ca414353ee740284201513d25d754378fa46d2a7501d3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0614.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Our Country,  \nWhere fields yield golden crops,  \nPeace flows down from the mountains,  \nWhere the fragrance of freedom fills the air,  \nAnd a lamp of love burns in every heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:46:24.466482+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c2806e11ec225948a23f98f837cf0279b5a4bfd5368fc361b3da24275c866e9e",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8eb05b0dfb1f8dd7188b3fe53c0d953bebbad55408ce43834a74068328315ab",
+        "response_hash": "13ad3c1c38144b836b0ffb345c16afb2a3570bd06632f31478abbe29fb3809e5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c05e71319760f458aac8af370073b763cec28eac7eae8a29e361d3db02a22398",
+        "response_hash": "b211721004026e805f385bf9d48cd061f6919eed3a7d62e583439d20b5da953f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "72f549be64b4c40ed3ff081c34c2c26ffb747b12a1e01bd98fe90bb3d6dbd7c0",
+        "response_hash": "2cc3fa243ff3c51462f2166657c832657414d54f314619fdab43adb5d62298f9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "17631f25cdb104530b44f6423ab1bfb574c31db206c06e3932aa557fb449a903",
+        "response_hash": "fe32fd3bd9f975f38454ebe872b13fcba1a541be1d89363edb4cdb4e84c04485",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "128757e12622b91dbea5d05fbdfda972b069fc6a83744534bb6aead8d9ab0cab",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "407495709ca5f73c71e15e661b1dd08e7cebbe11b1a151af5d6df493f2268841",
+    "translation_sha256": "b7578f1c419e07bfca7dd55379a85349a4fb06d8e78f69912b29bfb5282b88d8"
+  }
+}

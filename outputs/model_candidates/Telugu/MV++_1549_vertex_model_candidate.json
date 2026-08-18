@@ -1,0 +1,159 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address meaning 'O person of good intellect' or 'O wise one', serving as the standard moral refrain (makutam) of the Sumati Satakam.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "The translation preserves the vocative address 'Sumathi' directly. In classical Telugu Sumati Satakam poetry, 'Sumathi' (meaning 'one with good intellect') is the standard makutam (refrain/address) used to impart moral wisdom.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "resilience and self-reliance over subservience",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation completely misinterprets the core meaning of the classical Sumati Shatakam poem. It translates 'jeethambu' (salary/wage) as 'price of rice', 'midimelapu doranu golchi midukuta kanten' (rather than worrying while serving an arrogant lord who does not pay) as 'Among the elders who give wisely', and misses the central contrast between humiliating service and independent farming.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Living an independent, self-reliant life of honest labor rather than serving an unappreciative, stingy master.",
+            "acceptable_visual_variants": [
+              "A close-up of hands holding the wooden plow handle in a sunlit field",
+              "A wide shot of a farmer with two oxen under a vast open sky, symbolizing freedom"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "To survive by plowing a wet agricultural field",
+            "literalization_risk": "An illustrator might depict a literal farmer plowing a field, which misses the broader philosophical advice about self-respect and independence over subservience.",
+            "metaphor_mapping": {
+              "tenor_concept": "self-reliant livelihood",
+              "transferred_attributes": [
+                "independence",
+                "honesty",
+                "hard work",
+                "freedom from subservience"
+              ],
+              "vehicle_concept": "agricultural labor"
+            },
+            "source_span_original": "మడి దున్నుక బ్రతుకవచ్చు",
+            "source_span_translation": "plowing diligently in this world",
+            "source_term": "మడి దున్నుక బ్రతుకవచ్చు",
+            "tenor": "Earning an independent, self-respecting livelihood through hard manual labor",
+            "vehicle": "Plowing a field with swift oxen",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a person actively and proudly guiding a pair of strong oxen pulling a plow through a fertile field, looking determined and free."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the meaning of the first two lines. The original Telugu text describes the misery of serving a stingy, arrogant lord who does not pay the requested wages ('adigina jeetham biyyani midimelapu doranu golchi midukuta kanten'), whereas the translation introduces an unrelated concept about 'the asking price of rice' stirring a lord's heart.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation misses the specific imagery of yoking swift/strong oxen ('vadigala yeddula gattuka') to plow the field, translating it instead as 'among the elders who give wisely' and 'plowing diligently'.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "It is better to live independently by plowing one's own land with swift oxen than to suffer serving an arrogant lord who does not pay a proper wage."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "అడిగిన జీతం బియ్యని  \nమిడిమేలపు దొరనుcగొల్చి మిడుకుట కంటెన్.  \nవడిగల యెద్దులcగట్టుక  \nమడి దున్నుక బ్రతుకవచ్చు మహిలో సుమతీ.",
+  "poem_id": "MV++_1549",
+  "poem_title": "Adigina jeetham",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "455ebbfcec24b18cd2e5cb0ef7474e1d93b031ef638bc58652bd334961935b88",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1549.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The asking price of rice,  \nCan stir even the well-to-do lord's heart.  \nAmong the elders who give wisely,  \nOne can thrive by plowing diligently in this world, Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:47:04.710396+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "041890c1216cc90cb46276444b3c01b2471548c2e2e8d85a7742a9afecaa0324",
+        "response_hash": "002d7cce9dac9b4488b1012ed1a275fbfca7a659682b88bdb8d01ff205e9ef40",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "92fe161acbdb37bc79704214a59d10fa31566014a635274b22682991002ff8df",
+        "response_hash": "be61610620ab5225cfaf3a1d0b72e3a1c851e9b534cfeeaf4196a4f548968baf",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "68779379a2114f868b3dd97f5d276a3708c2673732718867ce500b77c1a646f4",
+        "response_hash": "952932f22bf1affd8b1152e919fc6af31f6f8917ec87c7d91310f6e88edf6bae",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ab7c00ccca3791f5078e14ea7a5b79d47c742f1a4b3a5bd934ab766d76f6880",
+        "response_hash": "81fc521c4fbaad4b7191e10ac06cf2e44e8aa233134749eb57ad52844583b509",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7911d620665f0cd15dc56616f7eac1da2133eb6a601d2c9206748613307446a9",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7bf0e63b7031a132b856c08cd1bee1807e7c93b81a0735cf58a6667cc12a05ea",
+    "translation_sha256": "09e068ec354033fd16b9839dd388692b9632c4a1472815593176d236305b8b3a"
+  }
+}

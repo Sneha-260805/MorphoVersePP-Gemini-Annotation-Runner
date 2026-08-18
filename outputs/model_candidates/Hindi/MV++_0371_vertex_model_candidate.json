@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "solitude to quiet fading",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The moonlight illuminates the path alongside the traveler, creating a sense of companionship in the dark.",
+            "acceptable_visual_variants": [
+              "A winding dirt path under a clear starry sky with a bright moon casting a silver glow along the road",
+              "A lone traveler walking on a path with the moon visible through trees, casting light that seems to follow them"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "The moonlight walks along as a companion",
+            "literalization_risk": "Depicting a literal human-like figure made of light walking on two legs next to a traveler would look cartoonish and miss the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "moonlight illuminating the path",
+              "transferred_attributes": [
+                "presence",
+                "companionship",
+                "movement along the path"
+              ],
+              "vehicle_concept": "companion walking alongside"
+            },
+            "source_span_original": "चांदनी संग चलती है",
+            "source_span_translation": "moonlight walks along",
+            "source_term": "चांदनी संग चलती है",
+            "tenor": "The moonlight shining down on the path",
+            "vehicle": "A walking companion",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary path at night with bright, soft moonlight casting long shadows and illuminating the ground alongside the traveler's path."
+          },
+          {
+            "abstract_meaning": "The deep, heavy presence of silence that feels almost tangible and dark, like shadows.",
+            "acceptable_visual_variants": [
+              "Deep blue and black shadows stretching across an empty path",
+              "A dark, quiet landscape where the contrast between light and shadow emphasizes the stillness"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The shadows cast by silence",
+            "literalization_risk": "Trying to draw literal shadows cast by an invisible concept like 'silence' is impossible and could lead to confusing, abstract shapes.",
+            "metaphor_mapping": {
+              "tenor_concept": "silence",
+              "transferred_attributes": [
+                "darkness",
+                "quietness",
+                "omnipresence",
+                "obscurity"
+              ],
+              "vehicle_concept": "shadows"
+            },
+            "source_span_original": "खामोशी की परछाइयां",
+            "source_span_translation": "shadows of silence",
+            "source_term": "खामोशी की परछाइयां",
+            "tenor": "Silence",
+            "vehicle": "Shadows",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use deep, long, dark shadows cast by trees or rocks in the moonlight to visually represent the heavy, quiet atmosphere of the night."
+          },
+          {
+            "abstract_meaning": "One becomes completely absorbed in the quietness of the night, losing awareness of oneself or feeling a deep sense of stillness.",
+            "acceptable_visual_variants": [
+              "A person standing still, looking up at the sky, appearing calm and integrated into the quiet night scene",
+              "A soft-focus view of a path fading into the misty night, evoking a sense of quiet dissolution"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L6",
+            "literal_meaning": "Heartbeats get lost / disappear",
+            "literalization_risk": "Showing a literal heart floating away or disappearing from a chest would look like a medical or horror illustration.",
+            "metaphor_mapping": {
+              "tenor_concept": "becoming quiet and still",
+              "transferred_attributes": [
+                "disappearance",
+                "quietness",
+                "fading"
+              ],
+              "vehicle_concept": "getting lost"
+            },
+            "source_span_original": "धड़कनें गुम हो जाती हैं",
+            "source_span_translation": "Heartbeats fade away",
+            "source_term": "धड़कनें गुम हो जाती हैं",
+            "tenor": "Loss of self-awareness or deep stillness",
+            "vehicle": "Lost objects",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the serene, motionless posture of a traveler standing still on the path, blending into the quiet night landscape to evoke a sense of fading into the surroundings."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'sarasraahat' as 'whisper' loses the specific onomatopoeic quality of the Hindi word, which evokes a dry, rustling sound of wind through leaves rather than a vocalized whisper.",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'gum ho jaati hain' as 'fade away' loses the literal sense of getting lost or becoming missing ('gum'), which subtly personifies the heartbeats as travelers losing their way on the dark journey.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The quiet, introspective journey of a solitary soul through the night, where the self dissolves into the silence of nature."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रात का सफर\nएक तन्हा रास्ता\nजहां चांदनी संग चलती है।\nखामोशी की परछाइयां\nऔर हवा की सरसराहट में\nधड़कनें गुम हो जाती हैं।",
+  "poem_id": "MV++_0371",
+  "poem_title": "Raat Ka Safar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a74aa57e6861ceee21e0f2b9e28126958c82eeaa159e987de452ef34f8531156",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0371.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Journey of the night\nA solitary path\nWhere moonlight walks along.\nIn the shadows of silence\nAnd the whisper of the breeze,\nHeartbeats fade away.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:17:45.692587+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "307005a2389dac67e18a0e4ffefd9af083050f115f1813426fce6a70de52e8cf",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f1775b10512e4e6c7c77520754f3d4325389baef1b8caac1a961ad9b1a6ae39e",
+        "response_hash": "6cf43c061554be1984e4204fcc840684b1b6f510090fab6cea38baac2b211a97",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "88ac63b4fa725fc3f33cae86e353813a43f3ccdd13b48fc0fe0bc8409dc64d87",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "58c717bd475e605907d3440895ed1964282f50fbeedbe6c98f69f5cbfaa6f1c7",
+        "response_hash": "287981d8300cad5467f3e7a3c67c1375ff9d13c802e90c7e4262d2ac3e2d247b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "71d651d997b06bd53e001d68a95eb70d6ccdc7ae8e1c79e32a7238a28329ea92",
+        "response_hash": "ce1c0a73237e999311afa12795ed5dc4289378c8cc1627a5ae47e5ec01ea76ed",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c802704e578f7cfa5e200d25458f051264b454e58939b04009d3c73ad96cf59",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c7a5706037f2adaabe6880b7797bd562e0599be6eaa903598f05055df4f7a9f0",
+    "translation_sha256": "ce044c510fe8cf95f1e70acd7972fddba4541dbd93645c2ba42d16626202a404"
+  }
+}

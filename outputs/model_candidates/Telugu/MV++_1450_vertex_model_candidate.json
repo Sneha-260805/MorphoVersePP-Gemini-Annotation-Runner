@@ -1,0 +1,554 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A farmer standing in a dry, cracked agricultural field looking up at the sky",
+          "A portrait of a rural Indian farmer with a traditional head wrap (talapaga)"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A compound of 'raitu' (farmer) and 'anna' (elder brother), used in Telugu culture as an affectionate, respectful, and socially significant term of address for a farmer, elevating them to a familial status within the community.",
+        "line_ref": "L10",
+        "negative_confusions": [
+          "A modern mechanized farmer with heavy industrial tractors",
+          "A generic Western farmer in overalls and a straw hat"
+        ],
+        "preserved": true,
+        "romanization": "raitanna",
+        "source_span_original": "రైతన్న",
+        "source_span_translation": "farmer",
+        "stanza_index": 10,
+        "term": "రైతన్న",
+        "translation_note": "The translation simplifies the culturally affectionate compound 'raitanna' (farmer-brother) to 'the farmer'.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A typical South Indian farmer in simple rural attire (such as a dhoti or lungi and a shoulder cloth/kanduva)",
+          "weathered face showing hard labor"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "From the tireless, hopeful labor of the farmer to the tragic despair of drought and betrayal, ending in a bitter lament over his death.",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic flow and parallel structure of 'pagalanaka reyanaka' (neither day nor night) is simplified to 'Day or night'",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The farmer works tirelessly, sweating profusely as if pouring down rain.",
+            "acceptable_visual_variants": [
+              "A close-up of a farmer's face glistening with heavy sweat",
+              "A farmer bending over dry soil with sweat droplets falling onto the earth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "causing showers of labor/sweat to rain down",
+            "literalization_risk": "Showing actual rain clouds or water droplets falling from the sky instead of sweat beads on a working farmer.",
+            "metaphor_mapping": {
+              "tenor_concept": "sweat from physical labor",
+              "transferred_attributes": [
+                "abundance",
+                "pouring down continuously",
+                "cooling the earth"
+              ],
+              "vehicle_concept": "rain showers"
+            },
+            "source_span_original": "శ్రమజల్లులు కురిపించి",
+            "source_span_translation": "He pours out showers of sweat",
+            "source_term": "శ్రమజల్లులు కురిపించి",
+            "tenor": "sweat from hard labor",
+            "vehicle": "showers of rain",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a farmer working under a hot sun with visible, heavy beads of sweat dripping from his brow and body like falling droplets."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal Telugu compound 'shrama-jallulu' (showers of hard work/labor) is translated as 'showers of sweat', shifting the focus from the abstract concept of labor to the physical manifestation of sweat",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Exerting extreme physical effort and exhausting one's bodily strength through hard labor.",
+            "acceptable_visual_variants": [
+              "Close-up of rough, dirt-stained hands holding a spade",
+              "A farmer wiping sweat, showing strained arm muscles"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "melting the muscles of the hands",
+            "literalization_risk": "Showing hands literally dissolving or melting like wax, which would look grotesque and surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "physical exhaustion of muscles",
+              "transferred_attributes": [
+                "dissolving",
+                "loss of mass",
+                "extreme heat or effort"
+              ],
+              "vehicle_concept": "melting solid substance"
+            },
+            "source_span_original": "కరముల కండలు కరిగించి",
+            "source_span_translation": "With calloused hands melting away",
+            "source_term": "కరముల కండలు కరిగించి",
+            "tenor": "physical exhaustion and muscle strain from hard work",
+            "vehicle": "melting solid matter",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict highly muscular, worn, and calloused hands gripping farming tools tightly, showing strain and exhaustion."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The vivid Telugu imagery of 'karamula kandalu kariginchi' (melting the muscles of the hands) is rendered as 'With calloused hands melting away', which loses the specific physical intensity of melting one's muscles through hard labor",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Cultivating and nurturing one's life and livelihood through hard work.",
+            "acceptable_visual_variants": [
+              "A farmer looking proudly at a green field of young crops",
+              "Hands gently holding a green sprout in fertile soil"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "growing the crop of life",
+            "literalization_risk": "Showing a literal crop made of human figures or abstract life symbols growing out of the ground.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life and livelihood",
+              "transferred_attributes": [
+                "growth",
+                "nurturing",
+                "harvesting",
+                "dependence on labor"
+              ],
+              "vehicle_concept": "agricultural crop"
+            },
+            "source_span_original": "బతుకు పంటను పండిస్తే",
+            "source_span_translation": "He nurtures the crops of life",
+            "source_term": "బతుకు పంటను పండిస్తే",
+            "tenor": "sustaining and building a livelihood",
+            "vehicle": "growing crops",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a lush green field of crops being carefully tended to by a farmer, symbolizing his life's work."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The conditional suffix '-te' in 'pandiste' (if/when nurtured) sets up a crucial conditional relationship with the subsequent stanzas that is flattened in the English translation",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 5,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The complete destruction of the farmer's hopes and dreams, leaving them lifeless.",
+            "acceptable_visual_variants": [
+              "A slumped figure of a farmer looking down at cracked earth",
+              "A shadow cast over a dry, empty field"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "making their hopes lifeless",
+            "literalization_risk": "Depicting abstract 'hopes' as literal dead bodies or ghosts.",
+            "metaphor_mapping": {
+              "tenor_concept": "loss of hope",
+              "transferred_attributes": [
+                "lifelessness",
+                "inactivity",
+                "irreversibility"
+              ],
+              "vehicle_concept": "loss of life"
+            },
+            "source_span_original": "వారి ఆశలను నీర్జివం చేసి",
+            "source_span_translation": "When his hopes dry up",
+            "source_term": "వారి ఆశలను నీర్జివం చేసి",
+            "tenor": "hopes being completely shattered and lost",
+            "vehicle": "a living being dying",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a farmer sitting in despair with his head in his hands next to a withered crop, conveying hopelessness."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Sanskrit-derived term 'nirjiivam' (lifeless/spiritless) is translated as 'dry up', losing the direct contrast between life ('batuku') and lifelessness",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 6,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The devastating and destructive impact of drought on the farmer's life.",
+            "acceptable_visual_variants": [
+              "Cracked clay soil with a single dead plant",
+              "A dry, empty water well under a harsh sun"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "when the drought demon bites",
+            "literalization_risk": "Showing a literal mythological monster biting a farmer, which shifts the genre to fantasy.",
+            "metaphor_mapping": {
+              "tenor_concept": "drought",
+              "transferred_attributes": [
+                "cruelty",
+                "destruction",
+                "painful bite",
+                "devastation"
+              ],
+              "vehicle_concept": "a biting demon"
+            },
+            "source_span_original": "కరువు రక్కసి కాటేస్తుంటే",
+            "source_span_translation": "And the drought demon devours",
+            "source_term": "కరువు రక్కసి కాటేస్తుంటే",
+            "tenor": "the destructive force of drought",
+            "vehicle": "a biting demon or monster",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a parched, cracked earth landscape under a blazing sun, with withered, dead crops."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The personification of drought as a female demon ('rakkasi') that bites/stings ('kaatesunte') is translated as 'drought demon devours', losing the specific venomous bite connotation of 'kaatu'",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 7,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The farmer's inner emotional world and heart being completely broken by grief.",
+            "acceptable_visual_variants": [
+              "A close-up of a weeping farmer's face",
+              "A silhouette of a slumped figure against a dark, cracked background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "the world of the heart is shattered",
+            "literalization_risk": "Showing a literal heart organ breaking into glass-like pieces or a planet exploding.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional state of the heart",
+              "transferred_attributes": [
+                "broken into pieces",
+                "ruined",
+                "irreparable"
+              ],
+              "vehicle_concept": "a shattered world"
+            },
+            "source_span_original": "హృదయలోకం చిద్రమైనది",
+            "source_span_translation": "His heart becomes shattered",
+            "source_term": "హృదయలోకం చిద్రమైనది",
+            "tenor": "extreme emotional heartbreak and despair",
+            "vehicle": "a shattered physical world or object",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the intense, sorrowful facial expression of the farmer, with tears or a hollow gaze."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The compound 'hridaya-lokam' (the world of the heart) is simplified to 'His heart', losing the expansive, cosmic scale of the internal world being shattered ('chidramainadi')",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 8,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The farmer succumbing to death or absolute despair, embracing nothingness.",
+            "acceptable_visual_variants": [
+              "A distant shot of a single figure lying in a barren field",
+              "A silhouette fading into a dark, empty background"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "life embraced the void/emptiness",
+            "literalization_risk": "Showing a physical soul hugging a black hole or empty space.",
+            "metaphor_mapping": {
+              "tenor_concept": "dying or losing consciousness",
+              "transferred_attributes": [
+                "closeness",
+                "surrender",
+                "emptiness"
+              ],
+              "vehicle_concept": "embracing a physical void"
+            },
+            "source_span_original": "ప్రాణం శూన్యాన్ని కౌగిలించుకున్నది",
+            "source_span_translation": "Embracing the emptiness of life",
+            "source_term": "ప్రాణం శూన్యాన్ని కౌగిలించుకున్నది",
+            "tenor": "dying or losing all sense of existence",
+            "vehicle": "two entities embracing",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a lonely, motionless figure lying on the dry ground under a vast, empty sky."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Telugu 'praanam' (life-force/breath) is translated as 'life', and 'shuunyaanni' (emptiness/the void) is rendered as 'emptiness of life', which adds an extra word not in the original and dilutes the starkness of embracing the void",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 9,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The intense auditory imagery of 'aakali keekalu' (screams/cries of hunger) is simplified to 'hunger', losing the desperate sound of the nation's cries",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 10,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The tragic death or suicide of the farmer, disappearing from the earth.",
+            "acceptable_visual_variants": [
+              "A farmer's shadow fading into the bright sky",
+              "An empty field with a path leading toward a bright horizon"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "that farmer is evaporating into the sky",
+            "literalization_risk": "Showing a farmer literally turning into steam or water vapor and rising like a cloud.",
+            "metaphor_mapping": {
+              "tenor_concept": "death/passing away of a person",
+              "transferred_attributes": [
+                "disappearing",
+                "rising upward",
+                "becoming invisible",
+                "loss"
+              ],
+              "vehicle_concept": "water evaporating into the air"
+            },
+            "source_span_original": "ఆ రైతన్న ఆకాశంలోకి ఆవిరైపోతున్నా",
+            "source_span_translation": "The farmer evaporates into the sky",
+            "source_term": "ఆ రైతన్న ఆకాశంలోకి ఆవిరైపోతున్నా",
+            "tenor": "the death or disappearance of the farmer",
+            "vehicle": "evaporation of water",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a faint, translucent silhouette of a farmer rising or blending into a dramatic sky above a barren field."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The affectionate and respectful term 'raitanna' (farmer-brother) is translated as the generic 'farmer', losing the familial, cultural solidarity embedded in the Telugu suffix '-anna'",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "anger",
+        "index": 11,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The compound 'kashtajiivi' (one whose life is defined by hard labor) is translated as 'his', losing the explicit recognition of the farmer as a hard worker",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "anger",
+        "index": 12,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The ultimate betrayal by exploiters or middlemen that ruined the farmer.",
+            "acceptable_visual_variants": [
+              "A wealthy merchant turning away from a pleading farmer",
+              "A dark shadow holding a contract or money bag behind a farmer's back"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L12",
+            "literal_meaning": "the backstabbing by these deceivers",
+            "literalization_risk": "Showing a literal knife being plunged into a farmer's back by a shady figure.",
+            "metaphor_mapping": {
+              "tenor_concept": "treachery/deceit",
+              "transferred_attributes": [
+                "unexpected attack",
+                "harm from behind",
+                "lethal betrayal"
+              ],
+              "vehicle_concept": "stabbing in the back"
+            },
+            "source_span_original": "ఈ దగకోరుల వెన్నుపోటే కదా",
+            "source_span_translation": "Is the treachery of those who betrayed him",
+            "source_term": "ఈ దగకోరుల వెన్నుపోటే కదా",
+            "tenor": "betrayal and exploitation",
+            "vehicle": "stabbing someone in the back",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a wealthy or deceitful-looking figure in the background turning their back on a poor farmer, or a shadow looming over him."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The powerful compound 'vennupote' (stab in the back / betrayal) is translated as 'treachery of those who betrayed him', which loses the sharp, physical metaphor of backstabbing",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The tragic plight of the farmer who feeds the nation but is driven to death by natural drought and human betrayal."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "పగలనక రేయనక\n\nశ్రమజల్లులు కురిపించి\n\nకరముల కండలు కరిగించి\n\nబతుకు పంటను పండిస్తే..!!\n\nవారి ఆశలను నీర్జివం చేసి\n\nకరువు రక్కసి కాటేస్తుంటే\n\nహృదయలోకం చిద్రమైనది\n\nప్రాణం శూన్యాన్ని కౌగిలించుకున్నది..!!\n\nదేశ ప్రజల ఆకలి కేకలను తీర్చి\n\nఆ రైతన్న ఆకాశంలోకి ఆవిరైపోతున్నా\n\nఆ కష్టజీవి గుండెపోటుకు కారణం\n\nఈ దగకోరుల వెన్నుపోటే కదా..!!",
+  "poem_id": "MV++_1450",
+  "poem_title": "Raitu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5178c6d7f33e1a0dd4c6438207aae5b342206b229975c53aff1af3bf79274c5a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1450.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Day or night,\nHe pours out showers of sweat,\nWith calloused hands melting away,\nHe nurtures the crops of life...!!\n\nWhen his hopes dry up\nAnd the drought demon devours,\nHis heart becomes shattered,\nEmbracing the emptiness of life...!!\n\nFeeding the hunger of the nation,\nThe farmer evaporates into the sky,\nBut the cause of his heart's collapse\nIs the treachery of those who betrayed him...!!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:35:18.309167+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b63b271ae14ea67715928e89e711c424ac630e61679a8191db82bd89ac04cfed",
+        "response_hash": "26dee2a9222dc9bc74a5e12859db0a834073d625ba02299cf3f8b92f969717fb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "de8dba93045e6fcd2ebc1173229ef37a1f6cd100a4afb0449050da28620c40d3",
+        "response_hash": "7a1d7bc552846dfdcc2fb477bd3df39ea5a359698525d2d6cdfde52a83242ca5",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bb7fe512184ce9a2ec187f2de0de94a72fc2ae4ed930d76f30fa674041db7d9d",
+        "response_hash": "7c599c37fb09187fa483a36a830947e5182744bba260b4d9f9c22181d2e59071",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0db3b8d7ced24ebaeb1af4f379179a83f82838aa77e90b5ea0089c45d8a12b97",
+        "response_hash": "82c6e1c4afb9751f5a4da94a74e7486c15282de2c2f25616994ef039f3c614f3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "290fa7a8828703902e55d7898c46aeadb67d1a9ab84b18122344153c43c364ee",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4553b69537ef9ea5e5961d9d69fb734b98a24874dfe7b471e98ac52aa941796f",
+    "translation_sha256": "4dbd1d09e8663292d11275b0c87a84d758f98ea33744c40cf4b4db852aacf3f1"
+  }
+}

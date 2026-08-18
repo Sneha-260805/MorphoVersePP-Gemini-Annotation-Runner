@@ -1,0 +1,175 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A block of raw sandalwood next to an old scroll",
+          "A small bowl of ground sandalwood paste"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Sandalwood, highly valued in South Asian and specifically Kerala cultural, religious, and daily life for its cooling properties, fragrance, and use in sacred pastes. Here, its scent evokes deep memory.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Incense sticks of a different color or style",
+          "A generic pine or cedar tree"
+        ],
+        "preserved": true,
+        "romanization": "chandhanam",
+        "source_span_original": "ചന്ദനം",
+        "source_span_translation": "Sandalwood",
+        "stanza_index": 1,
+        "term": "ചന്ദനം",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A piece of pale, smooth sandalwood timber",
+          "Sandalwood paste or powder",
+          "A faint wisp of fragrant smoke rising from smoldering wood"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "quiet longing triggered by sensory memory",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation rearranges the lines for English flow, which slightly alters the original syntactic build-up where the smoldering action ('pukenju varunnu') is the final, lingering verb.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The lingering memory of the past slowly and persistently resurfaces in the speaker's mind, like smoldering incense or wood.",
+            "acceptable_visual_variants": [
+              "A person looking at an old scroll with subtle, stylized smoke patterns weaving through the air around them",
+              "A close-up of a scroll with faint, glowing embers or smoke rising, transitioning into abstract memory shapes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5-L6",
+            "literal_meaning": "It comes smoldering/smoking in my memories.",
+            "literalization_risk": "Showing actual smoke or fire physically emerging from a human brain or head, which looks like a medical condition or a cartoonish explosion.",
+            "metaphor_mapping": {
+              "tenor_concept": "resurfacing memories",
+              "transferred_attributes": [
+                "slow rising",
+                "lingering presence",
+                "evocative nature"
+              ],
+              "vehicle_concept": "smoldering incense smoke"
+            },
+            "source_span_original": "അതെന്റെ ഓർമ്മകളിൽ\nപുകഞ്ഞു വരുന്നു.",
+            "source_span_translation": "It rises,\nSmoldering through my memories.",
+            "source_term": "അതെന്റെ ഓർമ്മകളിൽ പുകഞ്ഞു വരുന്നു.",
+            "tenor": "the slow, persistent resurfacing of memories in the mind",
+            "vehicle": "smoldering/smoking incense or sandalwood",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a reflective pose next to an old, open scroll, with faint, elegant wisps of smoke or mist rising and blending into soft, dreamlike background scenes of the past."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation rearranges the syntax of the original Malayalam lines, shifting the order of 'lingering scent' (L3-L4) and 'old scroll' (L2) to create a different poetic flow in English.",
+            "where": "L2-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Malayalam verb phrase 'പുകഞ്ഞു വരുന്നു' (pukanju varunnu) literally means 'comes smoldering' or 'rises as smoke', which carries a slow, continuous aspect that is slightly flattened by splitting it into 'It rises, / Smoldering' in English.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The persistent, smoldering nature of memory evoked by scent"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Malayalam",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ചന്ദനം  \nപഴയ ചുരുളിൽ  \nഅവശേഷിച്ച  \nവാസന,  \nഅതെന്റെ ഓർമ്മകളിൽ  \nപുകഞ്ഞു വരുന്നു.",
+  "poem_id": "MV++_1177",
+  "poem_title": "Chandhanam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "69337146d46192feb3dd2e69962383206b65d54a2caab6ab8ed7886594c268b5",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Malayalam/MV++_1177.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Sandalwood,  \nThe lingering scent  \nIn an old scroll,  \nIt rises,  \nSmoldering through my memories.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:05:51.137039+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ab8af79043f85d503f360b7940bcf88aecc390c97572575787d755bd9d2eeb69",
+        "response_hash": "5c11626b31017b8c8f9da4b5f2db879857c85c1eb598ac33d3d7037db694ef53"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "751202a35f0469d06698435087112fa4ba99845d6d0ac75c189b9d0095298359",
+        "response_hash": "84dffd7e91e6206ab68dc055496fe9a10e64206e53390dc6a6ea177268b716bf",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3484554280bf54b277f5e21ab337c66404f304a03364faac0a12ac975d5f1cbd",
+        "response_hash": "ed2e88736349bc98f4120ec0cdacbfeae861fc737b30f37b2cf39e9ed3ddea68",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "86b23e843e718e5b87904769a146c91ebd0c925cf6816b465566dbf2a0088594",
+        "response_hash": "9577ff613b96be1456c08665ec0899ba530825a0d6f39037436e014eea2b1720",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c224bbeacfdecd79a1d6ac48ebb400a5804c3a3d7f56f78e376989092cd0b05",
+        "response_hash": "60271aa7fcda2114ef0bfc22a362003b6ee6231b7dec585b8fd115f0c4b4357e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ac077673cc083de37e0aedc52665cfa9c344be6d696390177c26591f6fc62908",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2c473d47fd8ed9c212cb82bc0e8e955404e16ea6aa8ab16ab10becf6addf23fe",
+    "translation_sha256": "da6ed3bbc8e1485cace37b13517d71b5bcc21efd6df9e4012ab03bc49ad582e1"
+  }
+}

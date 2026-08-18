@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to quiet pride",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation alters the perspective of who is seeing whom in line 2: the original Odia 'ମୋତେ ଦେଖିଲା ଆମ ଦେଶ' (My land saw me) is translated as 'I saw my land', reversing the subject and object.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vast, sovereign, and all-encompassing domain of the ocean.",
+            "acceptable_visual_variants": [
+              "A wide-angle view of a powerful, endless ocean under a dramatic sky",
+              "A deep underwater view showing the vastness and scale of the sea"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the empire of the ocean",
+            "literalization_risk": "An illustrator might draw a literal medieval kingdom with castles and crowns underwater, which misrepresents the natural majesty of the sea.",
+            "metaphor_mapping": {
+              "tenor_concept": "ocean",
+              "transferred_attributes": [
+                "vastness",
+                "sovereignty",
+                "dominion"
+              ],
+              "vehicle_concept": "empire"
+            },
+            "source_span_original": "ସମୁଦ୍ର ସାମ୍ରାଜ୍ୟରେ",
+            "source_span_translation": "In the empire of the ocean",
+            "source_term": "ସମୁଦ୍ର ସାମ୍ରାଜ୍ୟରେ",
+            "tenor": "The vast expanse of the ocean",
+            "vehicle": "An empire or sovereign kingdom",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, majestic ocean landscape where the waves and scale evoke a sense of grand, sovereign territory without literal human structures."
+          },
+          {
+            "abstract_meaning": "Holding something high with pride, dignity, or prominence.",
+            "acceptable_visual_variants": [
+              "A towering wave cresting high",
+              "A high, prominent coastal cliff overlooking the sea"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "High upon the head / crown of the head",
+            "literalization_risk": "Drawing a literal human head emerging from the water carrying a piece of land would look surreal and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "elevated natural feature",
+              "transferred_attributes": [
+                "height",
+                "pride",
+                "prominence"
+              ],
+              "vehicle_concept": "human head"
+            },
+            "source_span_original": "ଉଚ୍ଚା ଶିରୋଭାଗରେ",
+            "source_span_translation": "High upon the head",
+            "source_term": "ଉଚ୍ଚା ଶିରୋଭାଗରେ",
+            "tenor": "The elevated, proud posture of the land or ocean waves",
+            "vehicle": "A human head holding something high",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the crest of a high wave or a towering coastal cliff representing the elevated 'head' of the landscape."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation reverses the subject and object of the verb. The original Odia 'ମୋତେ ଦେଖିଲା ଆମ ଦେଶ' (mote dekhila ama desa) literally means 'Our country/land saw me', but the English translation renders it as 'I saw my land', completely flipping the direction of the gaze and the agency of the country.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ଶିରୋଭାଗରେ' (sirobhagare) as 'upon the head' loses the elevated, formal, and slightly abstract register of the Odia term, which refers to the crest, summit, or topmost part rather than just a physical head.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The vast ocean carrying the smallness of one's homeland high upon its crest with dignity."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Odia",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ସମୁଦ୍ର  \nମୋତେ ଦେଖିଲା ଆମ ଦେଶ  \nସମୁଦ୍ର ସାମ୍ରାଜ୍ୟରେ।  \nତା’ର କ୍ଷୁଦ୍ରତା ନେଇ କିଛି  \nଉଚ୍ଚା ଶିରୋଭାଗରେ।",
+  "poem_id": "MV++_1204",
+  "poem_title": "Samudra",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a6d5d645a6427bc40b3388412a7f9845163d5d7b40dba8b21167c4a50c2c6101",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Odia/MV++_1204.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Ocean  \nI saw my land,  \nIn the empire of the ocean.  \nTaking its smallness,  \nHigh upon the head.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:08:30.367285+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0fa657fceac6cdd1d2c400dce88748b5a0a29e3398a8bc0597549038d44c1ab7",
+        "response_hash": "dd6bb20bfe21b3847361a032e21d8597c4f90e35818ab16031ae0ef90364a36e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba24cd4644cc6167aeb1758bf800361f8ccd146b418855d02cac9d541aaa97ea",
+        "response_hash": "b096a2749e816bad6f990ad7f4d4e16ef1b484e60160cefe1b7f800629915d58",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8368c2a20d73315a6b5a251505361933428da34500bb8671b033d39185730b8b",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bc6bb726e3508e7426b0995daca3625f0719f055a1652c930d4a0b983f5ea8bd",
+        "response_hash": "75d20830442a2dd642c104adc84bd8356513d67ba0624c1dc198d45dd4e0b186",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e3199fd64fc9c8a89cad9db6d354937b53a04fe8036e1895fc186b8930449667",
+        "response_hash": "460d4af453310f9dcfb6c4da403262d8edf5f95e182ef4558c32a939088bb038",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da3102095c8a739ed74df0466762d9c5af8a153ce4402752b44217d0ba9f4274",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "92e3af9b7c0bcc0e198eb7287322d6b4047b3e952788da18af118c1ff3461017",
+    "translation_sha256": "0d8474cb116e69f6dc80588926936e36ae0f59b43ed49646a415f6e720fb9ab9"
+  }
+}

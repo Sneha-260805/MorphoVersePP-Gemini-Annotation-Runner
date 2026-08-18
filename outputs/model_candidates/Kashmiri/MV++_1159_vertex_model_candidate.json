@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady state of joy and celebration of eternal happiness, mirrored in the blooming of flowers.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The radiant, illuminating nature of true joy and happiness.",
+            "acceptable_visual_variants": [
+              "A warm golden glow radiating from a figure",
+              "A bright, sunlit garden scene where the light itself feels joyful and warm"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Bright/shining happiness",
+            "literalization_risk": "An illustrator might literally draw a glowing, physical light bulb or sun inside a person's chest, which misses the emotional and spiritual quality of the joy.",
+            "metaphor_mapping": {
+              "tenor_concept": "happiness",
+              "transferred_attributes": [
+                "brightness",
+                "radiance",
+                "illumination"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "سُکھ روشَن",
+            "source_span_translation": "Bright happiness",
+            "source_term": "سُکھ روشَن",
+            "tenor": "Happiness or joy",
+            "vehicle": "Light or brightness",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person surrounded by a warm, soft, golden aura or ambient light that naturally illuminates their face and immediate surroundings, suggesting inner joy."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific phonetic resonance, internal rhyme, and rhythmic cadence of the Kashmiri words (such as 'Sukh Roshan' and 'vasa pandha banis') are lost in the English translation, which prioritizes semantic meaning over musicality.",
+            "where": "L1-L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'azal' as 'eternal' simplifies a term with deep Persianate and Sufi philosophical connotations of pre-eternity or timelessness.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The eternal nature of true happiness and its reflection in the blossoming of the natural world."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list with two entries. Under the completeness contract, translation_loss should be empty when translation_quality is faithful, or translation_quality should be adjusted to reflect the loss.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kashmiri",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "سُکھ روشَن  \nکھو چھو کٕھنٕ اَزَل،  \nکُن سُکھ بٲندے چھٕ  \nوٚسٕ پٲٛنٛدھٕ بٕنیٚس۔  \nسُکھ روشَن، سُکھ روشَن،  \nپُھلٕ گونٕن تِیٚنٕ گٕوٚرٕ۔",
+  "poem_id": "MV++_1159",
+  "poem_title": "Sukh Roshan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "99b5940b5ac22597f0ebb4f73f9a2e08cd22f0455a1599ec2cd82e96f19f54d7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kashmiri/MV++_1159.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Bright happiness,  \nIt is eternal,  \nWhat joy it brings,  \nAs blossoms burst forth.  \nBright happiness, bright happiness,  \nFlowers bloom in their glory.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:04:25.853504+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "913985c641f9d1c54a110bc8aa58313617892056b9af923994d854fab3b9a5dd",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a6a4ce91d172f59d2f340a1c3b2f68d73dd4bb830a38a69f3b2d36940b2f9434",
+        "response_hash": "64eecb3a3a3a2d6abfe14665647199cbe5d6f64bd3e16b5a07328e61fd435fe4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "432c6d7414e7bc3113889ef9c40af63d8851c7434d4e27c5ce87733d47eb3157",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d19a7f77797d4ae7d7ee3c693f1ad35c44a57f38b79b26666a2aa86b1e3f79cd",
+        "response_hash": "b6368c76197eddc970de0986ea66177f7b5127252dd2ceebb58d35aec240316c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "40817a1446e8050858aedbc8542dad01fbd9f866b2195bb1371029f947a22246",
+        "response_hash": "3f33c11ffd6f67b99240f565ae2255dfe3ddd4832f2a295873d550d5c6dec343",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b14dd17ba5f83744136b2048228e42fb635c721b1caef3bbbc08b730853ea5c1",
+        "response_hash": "04a0e9fd3e224bb0469d704964efc17d777c174bb56df5397f3081dfb84481a0",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f96d09fafc6fe2d8eb00eb2b00f92db4454d1c279c22e4ddfe90cfd42cb42829",
+    "translation_sha256": "7114646cf54531aff33e9bd99639cb82845e2e4233c2970469cdfedd54b480dd"
+  }
+}

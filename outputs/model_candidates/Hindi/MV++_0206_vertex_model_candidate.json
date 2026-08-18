@@ -1,0 +1,221 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "Anxiety and confusion in the face of an aimless, swirling existence, settling into a state of helpless, repetitive disorientation.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "fear",
+        "index": 1,
+        "loss_note": "The translation renders 'ghabraya hai' (which is grammatically masculine/singular in agreement with 'har dhaar' treated as masculine here, though 'dhaar' is traditionally feminine) as 'is alarmed', which captures the anxiety but loses the subtle personification of the water's flow.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of existential confusion, crisis, or a psychological trap that pulls a person into endless cycles of worry.",
+            "acceptable_visual_variants": [
+              "An abstract dark spiral pulling a tiny human figure inward",
+              "A swirling vortex of water with shadowy, distorted faces or shapes within the currents"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L2",
+            "literal_meaning": "A physical vortex or whirlpool in flowing water.",
+            "literalization_risk": "An illustrator might draw a literal water vortex, missing the psychological and existential weight of the speaker's internal struggle.",
+            "metaphor_mapping": {
+              "tenor_concept": "existential crisis",
+              "transferred_attributes": [
+                "pulling downward",
+                "inescapable circular motion",
+                "chaos"
+              ],
+              "vehicle_concept": "whirlpool"
+            },
+            "source_span_original": "भंवर",
+            "source_span_translation": "whirlpool",
+            "source_term": "भंवर",
+            "tenor": "An inescapable mental or life crisis",
+            "vehicle": "A whirlpool in a river",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, abstract spiral or vortex that blends water-like currents with dark, chaotic lines surrounding a solitary, overwhelmed silhouette."
+          },
+          {
+            "abstract_meaning": "The various paths, thoughts, or aspects of a person's life are filled with anxiety and fear as they approach their end.",
+            "acceptable_visual_variants": [
+              "Water currents breaking into sharp, erratic, lightning-like patterns",
+              "A single stream splitting into multiple chaotic, vibrating paths"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Every physical current of water is feeling afraid or anxious.",
+            "literalization_risk": "Depicting literal water streams with cartoonish scared faces would look childish and ruin the poem's serious, reflective tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "human thoughts/facets of life",
+              "transferred_attributes": [
+                "trembling",
+                "losing direction",
+                "experiencing fear"
+              ],
+              "vehicle_concept": "water currents"
+            },
+            "source_span_original": "हर धार घबराया है",
+            "source_span_translation": "Every stream is alarmed",
+            "source_term": "हर धार घबराया है",
+            "tenor": "Human thoughts or life paths experiencing anxiety",
+            "vehicle": "Water currents feeling fear",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the currents of the vortex splitting into jagged, trembling, or chaotic lines that lose their smooth flow, suggesting panic and instability."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'धार' (dhaar, which is grammatically feminine) with 'stream' but loses the personified gender agreement in 'घबराया है' (ghabraya hai, which is grammatically masculine). This mismatch in Hindi suggests either a conceptual shift or a poetic license where the stream (feminine noun) takes a masculine verb form to emphasize a generalized anxious state, which is flattened into a standard English passive/adjectival description ('is alarmed').",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The repetitive, rhythmic quality of 'जाते-जाते' (jaate-jaate), which conveys the gradual, continuous process of going or reaching the end, is simplified to 'By the journey's end', losing the aspectual flow of the Hindi reduplicative verb structure.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation adds 'Underneath the open sky' to complete the rhyme scheme, which is not present in the original Hindi text. The original ends with 'chakkar khaata rehta hai' (keeps spinning/circling), emphasizing the endless, repetitive motion without any reference to the sky.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A complete lack of support, safety, or a visible way out of a difficult life situation.",
+            "acceptable_visual_variants": [
+              "A figure lost in a dark, boundless watery void with no land in sight",
+              "A swirling vortex surrounded by thick, impenetrable fog that hides any potential shore"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "There is no physical riverbank or shore nearby to escape the water.",
+            "literalization_risk": "Showing a simple open sea might look peaceful, failing to convey the terrifying feeling of being trapped without help.",
+            "metaphor_mapping": {
+              "tenor_concept": "helplessness and lack of support",
+              "transferred_attributes": [
+                "absence of safety",
+                "endless struggle",
+                "isolation"
+              ],
+              "vehicle_concept": "shoreless water"
+            },
+            "source_span_original": "न कोई किनारा पास",
+            "source_span_translation": "No shore close by",
+            "source_term": "न कोई किनारा पास",
+            "tenor": "A state of helplessness with no support or escape in sight",
+            "vehicle": "An endless body of water with no visible shore",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, dark, misty expanse of water where the horizon is completely blurred, emphasizing isolation and the absence of any solid ground."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation adds 'Underneath the open sky' to complete the rhyme scheme, which has no textual basis in the original Hindi stanza. The original line 'चक्कर खाता रहता है' simply means 'keeps spinning/circling' without any mention of the sky.",
+            "where": "L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The idiomatic Hindi phrase 'चक्कर खाना' (chakkar khaana, literally 'to eat circles', meaning to spin, feel dizzy, or wander aimlessly) is translated literally as 'circling', which loses the physical sensation of dizziness and disorientation carried by the Hindi idiom.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The disorienting and inescapable nature of life's existential whirlpools, where one is caught in endless cycles without direction or anchor."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बेवजह बहते पानी में,  \nकैसा यह भंवर पड़ा है,  \nअंत तक जाते-जाते,  \nहर धार घबराया है।  \n\nगहराई का अंदाज़ा नहीं,  \nन कोई किनारा पास,  \nबस एक मोड़ से दूसरे तक,  \nचक्कर खाता रहता है।",
+  "poem_id": "MV++_0206",
+  "poem_title": "Bhanwar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5764552183640a0a0f33949a400158aef437d316d5cd059b9956e2c4c9501f4a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0206.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the aimless flowing waters,  \nWhat whirlpool has formed,  \nBy the journey’s end,  \nEvery stream is alarmed.  \n\nThe depth is unfathomable,  \nNo shore close by,  \nJust circling from turn to turn,  \nUnderneath the open sky.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:59:29.749837+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e4697db93d6f6da25e08d3dae9b10519cdca4de5fc87fe9104f4f67a4b5f93c",
+        "response_hash": "88350d84da5b83a8f979767d784e330a611c3335ead12cdd99d5839e695bf37c"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ccc1691fc3713c9392e3dcef9243dda88aae576971577273d084a8aa9fe9202a",
+        "response_hash": "ffd7bed2c5ed61ff8f666eb7acf494227bf423c07df69400ca95a1bed175f3ec",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1c3ca078885d5a5521087d7ab394a8627ae394d5a0db08b93004650cb7fbd6be",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4a859a1df4d353da20266faab63e6a103ac00ed1449cf5cb8a1bd56c19a0cfd2",
+        "response_hash": "6d0bf0f26a41f7cb76a5d4b6f047d9e2dcc6381eda9e7363467b82bb33d196a6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "538a11afab3594a704e7eec41bc973a4f2a9a545cabdb2fd81073fc706838435",
+        "response_hash": "0acdadca8738832d8b54e1054a3563500804f753c6db8d2863b0a4d016542797",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8079fdc9844f21c64b6434f8b18fc7cd46aef2ba359d14305680778e5bb66f2a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6f8e2731b5687c35fcc7c1a5b08eb3aa226b3b80c60995dc0a76301e29ece3c8",
+    "translation_sha256": "793b3fc28153601500306f1f7c9cc97299abd2b85228171a7921f612d8402d87"
+  }
+}

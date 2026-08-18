@@ -1,0 +1,231 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and hope maintained through struggle",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation introduces rhyming phrases ('in their tale', 'in every dance') that are not present in the original Hindi text, altering the direct, philosophical tone of the original lines.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A method, approach, or life path that leads to success.",
+            "acceptable_visual_variants": [
+              "A winding path leading towards a sunrise.",
+              "A person standing at a crossroads looking towards a bright light."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A physical road, path, or way.",
+            "literalization_risk": "Depicting a literal dirt road or highway would miss the abstract concept of finding a way or method to achieve dreams.",
+            "metaphor_mapping": {
+              "tenor_concept": "method or life direction",
+              "transferred_attributes": [
+                "leads to a destination",
+                "requires movement",
+                "can be chosen"
+              ],
+              "vehicle_concept": "physical path"
+            },
+            "source_span_original": "राह",
+            "source_span_translation": null,
+            "source_term": "राह",
+            "tenor": "A method, approach, or life direction.",
+            "vehicle": "A physical path or road.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a symbolic path or a fork in a road leading towards a bright, glowing horizon representing dreams."
+          },
+          {
+            "abstract_meaning": "Dreams are realized or take concrete shape.",
+            "acceptable_visual_variants": [
+              "A sketch of a building morphing into a real, solid structure.",
+              "A translucent figure of a runner crossing a finish line becoming solid and colorful."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Dreams take on a physical body or form.",
+            "literalization_risk": "Showing literal dream bubbles turning into solid physical objects might look cartoonish or confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "realization of goals",
+              "transferred_attributes": [
+                "becoming visible",
+                "taking solid shape",
+                "becoming tangible"
+              ],
+              "vehicle_concept": "physical embodiment"
+            },
+            "source_span_original": "सपने साकार होते हैं",
+            "source_span_translation": "Dreams are realized",
+            "source_term": "सपने साकार होते हैं",
+            "tenor": "The realization or fulfillment of abstract desires and goals.",
+            "vehicle": "A physical body or form (sakaar).",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person's imagined goal (like a finished project or a successful endeavor) fading from a translucent thought bubble into a solid, real-world scene."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces a rhyming structure ('fail/tale', 'chance/dance') and the metaphor of 'dance' which are absent in the original Hindi text. The original Hindi emphasizes 'prayaas' (effort/attempt) in defeat, which is translated loosely as 'a chance'. Additionally, 'kisi na kisi raah se' (through some path or another) is completely omitted and replaced with 'in every dance'.",
+            "where": "L3-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of line 7 ('Sometimes, we must heed the call') completely departs from the literal meaning of the Hindi text ('कई बार गिरना पड़ता है', meaning 'often one has to fall') to force a rhyme with 'fall'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Experiencing setbacks, obstacles, or failures in life.",
+            "acceptable_visual_variants": [
+              "A climber slipping slightly on a mountain path but holding onto the rope.",
+              "A person walking through a path scattered with small obstacles, looking determined."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L6",
+            "literal_meaning": "To eat stumbles or to physically stub one's toes repeatedly.",
+            "literalization_risk": "Showing someone literally eating stones or stubbing their toe repeatedly would look comical and fail to convey the emotional weight of life's struggles.",
+            "metaphor_mapping": {
+              "tenor_concept": "experiencing setbacks",
+              "transferred_attributes": [
+                "causing pain",
+                "disrupting forward progress",
+                "requiring recovery"
+              ],
+              "vehicle_concept": "physical stumbling"
+            },
+            "source_span_original": "ठोकरें खानी पड़ती हैं",
+            "source_span_translation": "stumble",
+            "source_term": "ठोकरें खानी पड़ती हैं",
+            "tenor": "Experiencing life's setbacks and failures.",
+            "vehicle": "Physically stubbing one's foot against stones.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person walking up a steep, rocky hill, momentarily losing balance on a loose stone but regaining composure."
+          },
+          {
+            "abstract_meaning": "Experiencing failure or losing one's footing in life's journey.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person rising up from a fallen position.",
+              "A runner who has slipped on a track but is looking towards the finish line."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "To physically fall down to the ground.",
+            "literalization_risk": "A literal depiction of a person falling flat on their face might look like an accident rather than a metaphor for life's struggles.",
+            "metaphor_mapping": {
+              "tenor_concept": "failure",
+              "transferred_attributes": [
+                "downward movement",
+                "loss of control",
+                "impact and pain"
+              ],
+              "vehicle_concept": "physical falling"
+            },
+            "source_span_original": "गिरना पड़ता है",
+            "source_span_translation": "fall",
+            "source_term": "गिरना पड़ता है",
+            "tenor": "Experiencing failure or defeat.",
+            "vehicle": "Physical falling due to gravity.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a person on one knee on a path, looking down but preparing to push themselves back up."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the phrase 'heed the call' to create a rhyme with 'fall', which has no semantic equivalent in the original Hindi text ('kai baar girna padta hai' simply means 'one has to fall many times'). The final line 'Failure is a word that passes by' is a loose, poetic adaptation of the straightforward original 'haar nahi hoti' (defeat does not happen).",
+            "where": "L7-L9"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Those who keep trying and striving never truly fail, as every setback is merely a step toward realizing their dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कोशिश करने वालों की हार नहीं होती,  \nनहीं होती हार,  \nसिर्फ हार में प्रयास होता है।  \nकिसी न किसी राह से,  \nसपने साकार होते हैं।  \n\nकई बार ठोकरें खानी पड़ती हैं,  \nकई बार गिरना पड़ता है।  \nलेकिन फिर भी कोशिश,  \nकरने वालों की हार नहीं होती।",
+  "poem_id": "MV++_0839",
+  "poem_title": "Koshish Karne Walon Ki Kabhi Haar Nahi Hoti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "328d01238016aaa3fed33065efb9ae3bf8170a0893540feb19b5c291ecff5a6a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0839.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Those who try never fail,  \nFailure is never in their tale,  \nIn defeat, there’s always a chance,  \nDreams are realized in every dance.  \n\nOften, one must stumble and fall,  \nSometimes, we must heed the call.  \nBut still, for those who dare to try,  \nFailure is a word that passes by.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:18:54.811850+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "131e21fbacaa6db7ebad562c8ee902dce0802c81145eecf39b8b61640b729e11",
+        "response_hash": "319ff4868deb547479b75632192f4aa5d4ceb8bfe1f70870c55cb5219182aba3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e1c60af8a1cf7afded93c0414715a9b43eb35c3acfc73bdf79e893bc0b64462e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "59d2d315201afde66b0ed7e1af5f56cf85c54ca02df4f64d381f05fa40d60731",
+        "response_hash": "5e00e982a2f34a756703bf82ed0667f49cef141f5c78b4641979eab138a3bda9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6ef10552c463031772d395d5e848810c2660d874c8cf675fd4b7b7b0e19e667c",
+        "response_hash": "b76fa527a9cae4cdc86458cb8f94ae13910ee05107aab22dec5b6399e02f5c77",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5fc8141a1280dba172cac07766e5a013ef41f023f463bda4da32e0d217de8af4",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1cf09f3158937bee8ac15559d9e93b4ebc2a92ad2a4612d951fc0eaa6942cf45",
+    "translation_sha256": "7e15faf2cbc083899c3d4c2571bd2af9fbe97a54f5b43ae7dd4c8ae7f198c1ad"
+  }
+}

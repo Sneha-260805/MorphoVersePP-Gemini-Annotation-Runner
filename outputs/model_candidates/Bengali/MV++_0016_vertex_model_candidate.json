@@ -1,0 +1,340 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A blazing ritual fire or bonfire",
+          "A personified deity figure surrounded by a halo of flames"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The sacred fire deity in Hindu tradition, representing purification, transformation, and a divine witness. In this poem, it is invoked both as a spiritual force and a symbol of revolutionary liberation.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic destructive house fire or wildfire",
+          "A modern industrial furnace"
+        ],
+        "preserved": true,
+        "romanization": "Agni",
+        "source_span_original": "অগ্নি",
+        "source_span_translation": "Fire",
+        "stanza_index": 1,
+        "term": "অগ্নি",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A sacred, bright orange-red flame or fire",
+          "A personified deity with flames radiating from his body, often depicted with two heads or riding a ram in traditional iconography"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A symbolic map or flag representing Bengal",
+          "A landscape depicting rural Bengal's characteristic rivers and lush greenery"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Of Bengal; referring to the culturally and historically distinct region of Bengal, evoking its collective consciousness, geography, and historical struggles for freedom.",
+        "line_ref": "L8",
+        "negative_confusions": [
+          "A generic, dry desert landscape",
+          "A modern Western city skyline"
+        ],
+        "preserved": true,
+        "romanization": "Banglar",
+        "source_span_original": "বাংলার",
+        "source_span_translation": "Bengal’s",
+        "stanza_index": 2,
+        "term": "বাংলার",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "The geographical outline of undivided Bengal",
+          "Traditional green landscapes of Bengal with rivers and coconut trees"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and hope to resilient devotion and liberation",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Holding onto hope with great persistence and desperation.",
+            "acceptable_visual_variants": [
+              "A person sitting in a contemplative posture with hands clasped tightly together",
+              "A figure huddled in a dark room looking towards a small sliver of light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "I sit physically grasping or hugging hope",
+            "literalization_risk": "An illustrator might depict a person physically hugging a literal word or a ghostly figure labeled 'hope', which looks comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental persistence",
+              "transferred_attributes": [
+                "tightness",
+                "desperation",
+                "unwillingness to let go"
+              ],
+              "vehicle_concept": "physical grasping"
+            },
+            "source_span_original": "আশা আঁকড়ে বসে আছি",
+            "source_span_translation": "I sit clinging to hope",
+            "source_term": "আশা আঁকড়ে বসে আছি",
+            "tenor": "holding onto hope or expectation",
+            "vehicle": "clinging or physically grasping an object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person sitting in a dark or sparse space, holding their hands tightly to their chest as if protecting an invisible, precious object."
+          },
+          {
+            "abstract_meaning": "The addressed entity (fire/spirit) is the source of new beginnings, guidance, and life-giving energy.",
+            "acceptable_visual_variants": [
+              "A bright golden sunrise over a horizon",
+              "A figure bathed in the warm, golden light of a morning sun"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "You are the physical sun that rises in the morning",
+            "literalization_risk": "Depicting a literal sun with a human face or a person standing inside a sun can look cartoonish or like a mythological deity.",
+            "metaphor_mapping": {
+              "tenor_concept": "guiding presence",
+              "transferred_attributes": [
+                "warmth",
+                "light",
+                "new beginning",
+                "dispelling darkness"
+              ],
+              "vehicle_concept": "morning sun"
+            },
+            "source_span_original": "তুমি থাকো আমার প্রভাতের সূর্য",
+            "source_span_translation": "You remain the sun of my dawn",
+            "source_term": "তুমি থাকো আমার প্রভাতের সূর্য",
+            "tenor": "the guiding, life-giving presence of the addressed entity",
+            "vehicle": "the morning sun",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a warm, bright sunrise casting long shadows, with the light illuminating a path or a figure standing in contemplation."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'অগ্নি বারণ' (Agni Baran) as 'Invocation of Fire'. In Bengali, 'বারণ' (baran) can mean resistance, prohibition, or warding off, which contrasts with 'বরণ' (boron), meaning welcome or invocation. This creates a semantic ambiguity and potential translation shift between resisting/warding off fire and welcoming/invoking it.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation collapses the intimate/familiar pronoun 'তুমি' (tumi) into the standard English 'you', losing the specific register of personal closeness and devotion addressed to the personified fire.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Being fully enveloped, protected, or consumed by the fire.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person rising amidst bright, stylized golden flames",
+              "A warm, intense orange and red light enveloping a peaceful figure"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "In the lap of fire",
+            "literalization_risk": "Depicting a literal fire with a lap or arms holding a person would look like a fantasy monster or a dangerous hazard.",
+            "metaphor_mapping": {
+              "tenor_concept": "center of fire",
+              "transferred_attributes": [
+                "warmth",
+                "closeness",
+                "nurturing or consuming hold"
+              ],
+              "vehicle_concept": "mother's lap"
+            },
+            "source_span_original": "অগ্নির কোলে",
+            "source_span_translation": "In the embrace of fire",
+            "source_term": "অগ্নির কোলে",
+            "tenor": "the protective or transformative center of the fire",
+            "vehicle": "a mother's lap or embrace",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a figure standing or rising gracefully from within a bright, warm glow of flames without showing physical harm or pain."
+          },
+          {
+            "abstract_meaning": "The fleeting or light-hearted feelings of joy dispersing or spreading across the sky.",
+            "acceptable_visual_variants": [
+              "Wispy white clouds drifting across a bright sky",
+              "A vast open sky with light clouds catching the morning light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The physical clouds made of my joy will fly away",
+            "literalization_risk": "Showing literal clouds with happy faces on them floating away looks childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "dispersal of joy",
+              "transferred_attributes": [
+                "lightness",
+                "movement",
+                "spreading across a wide space"
+              ],
+              "vehicle_concept": "clouds floating"
+            },
+            "source_span_original": "আমার আনন্দের উড়ে যাবে মেঘ",
+            "source_span_translation": "The clouds of my joy will float away",
+            "source_term": "আমার আনন্দের উড়ে যাবে মেঘ",
+            "tenor": "the movement or dispersal of joyful feelings",
+            "vehicle": "clouds floating away in the sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict light, wispy, bright clouds moving across a clear blue sky, illuminated by sunlight to evoke a sense of lightness and freedom."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'তুমি আমি উঠবো' (you and I will rise) is simplified to 'I will rise', completely omitting the inclusive 'তুমি' (you) and thus losing the shared, collective experience of rising together in the fire's embrace.",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'আমার আনন্দের উড়ে যাবে মেঘ' as 'The clouds of my joy will float away' reverses the Bengali syntax where 'উড়ে যাবে' (will fly away) applies to the clouds, potentially obscuring whether the joy itself is dispersing or if the clouds blocking the joy are clearing.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's inner emotions and heartbeat are perfectly aligned and resonant with the rhythm or spirit of the fire.",
+            "acceptable_visual_variants": [
+              "A figure standing in a state of deep listening or emotional resonance",
+              "Abstract golden ripples flowing around a peaceful figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "My physical heart plays music like an instrument to your tune",
+            "literalization_risk": "Showing a literal heart shaped like a lute or violin being played would look bizarre and anatomically disturbing.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional resonance",
+              "transferred_attributes": [
+                "harmony",
+                "rhythm",
+                "responsiveness to a player"
+              ],
+              "vehicle_concept": "musical instrument"
+            },
+            "source_span_original": "আমার হৃদয় তোমার সুরে বাজে",
+            "source_span_translation": "My heart beats to your melody",
+            "source_term": "আমার হৃদয় তোমার সুরে বাজে",
+            "tenor": "emotional resonance and alignment of the heart",
+            "vehicle": "a musical instrument playing a melody",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person with a hand over their chest, looking deeply moved, with abstract, flowing lines or ripples of light emanating from them to suggest sound waves or resonance."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'আমার হৃদয় তোমার সুরে বাজে' as 'My heart beats to your melody' translates 'বাজে' (plays/rings/resounds) as 'beats', which loses the musical instrument metaphor of the heart being played like an instrument to the fire's tune.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transformative, eternal power of fire as a companion, guide, and spirit of liberation."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Bengali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "অগ্নি বারণ, অগ্নি বারণ,\nআশা আঁকড়ে বসে আছি।\nতুমি থাকো আমার প্রভাতের সূর্য,\nতুমি থাকো আমার সঙ্গী, আমার মুক্তির গতি।\n\nঅগ্নির কোলে তুমি আমি উঠবো,\nআমার আনন্দের উড়ে যাবে মেঘ।\nঅগ্নি, তুমি চিরন্তন, তুমি অবিনাশী,\nতুমি বাংলার স্বাধীনতার চেতনা।\n\nঅগ্নি, অগ্নি, তোমার গন্ধে ভাসি,\nআমার হৃদয় তোমার সুরে বাজে।\nতুমি বাঁধছো আজ, তুমি ছাড়ছো কাল,\nঅগ্নি, তুমি চল, আমি তোমার সাথী।",
+  "poem_id": "MV++_0016",
+  "poem_title": "Agni Baran",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "472ec23eec34c0d912bf1fdf3067864c321b940d2844459482c71f9b891b3988",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bengali/MV++_0016.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Invocation of Fire, Invocation of Fire,\nI sit clinging to hope.\nYou remain the sun of my dawn,\nYou are my companion, my path to freedom.\n\nIn the embrace of fire, I will rise,\nThe clouds of my joy will float away.\nFire, you are eternal, you are indestructible,\nYou are the spirit of Bengal’s liberation.\n\nFire, oh fire, I float in your fragrance,\nMy heart beats to your melody.\nYou bind today, you release tomorrow,\nFire, you move, I am your companion.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:38:17.694819+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8890921f3acc2ba4932dd18c6065c83e59ef639029d1464e6c8df9f76b52ebfa",
+        "response_hash": "50288a95bf3d7557578b3a7133c68e47dd9270e93fd7aff3f60bc77cbe35bf13",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca05d55b164b6c9efae0a87eb79ff6f257efd84626c38212d7a296aa1f207642",
+        "response_hash": "7ae73c37a033f12b119c69b519b2472cccf90440fa3bba559c87bd049d10994a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6c347884ee713c0908b470f88048e24cb7c406c71dc79f6e5eb4b0e990cdcb9",
+        "response_hash": "a44b36df508f4e6293cc0268c2aa15cadd839ac698c4aff8c55902634f22d322",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2d5ccfb28c2a962fc6c3d6f0916a974642630c4cd807425095cc63808db75717",
+        "response_hash": "87cadd5b6c7254e79946fbaf647d183c34ea2112f8b9b13ba7309e3d24bf3b11",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "657e8204f2d60543615d32aeb2c25a3a0139da6078a651211ed40b9a47efd8a0",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5808b00b992504e585321672efac18460cccc3740c53834d8bc2d05e824cae80",
+    "translation_sha256": "f93cf638efe35b289cde73ec8be729a939c5efbe401b778b3ee8c6c69c505dd9"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A vocative address meaning 'O wise one' or 'O person of good intellect', serving as the characteristic makutam (signature refrain) of the classical Telugu Sumathi Satakam moral verses.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 4,
+        "term": "సుమతీ",
+        "translation_note": "The translation preserves the vocative address 'Sumathi' at the end of the stanza, which is the signature makutam (refrain) of the classical Sumathi Satakam poems.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "didactic reflection on self-respect and futile actions",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation completely alters the meaning of the original line. 'Maanadhanudu' refers to a person whose wealth is self-respect, and 'aatmadhruti chedi' means losing self-control or mental fortitude. The translation renders this as 'The shelter of the unworthy, Is like the shelter of a flawed person,' which misses the core subject of the self-respecting person.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A person who holds self-respect and honor as their greatest wealth.",
+            "acceptable_visual_variants": [
+              "A person standing tall with a serene, dignified expression",
+              "A simple portrait focusing on a calm, respectful gaze"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "One whose wealth is honor",
+            "literalization_risk": "An illustrator might depict a person holding physical gold or coins, which completely misses the abstract concept of personal dignity and honor.",
+            "metaphor_mapping": {
+              "tenor_concept": "honor",
+              "transferred_attributes": [
+                "preciousness",
+                "preservation",
+                "defining asset"
+              ],
+              "vehicle_concept": "wealth"
+            },
+            "source_span_original": "మానధను",
+            "source_span_translation": null,
+            "source_term": "మానధను",
+            "tenor": "honor/self-respect (maana)",
+            "vehicle": "wealth (dhana)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing with quiet, dignified posture and a calm, self-assured expression, avoiding physical riches."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the meaning of the first line. The original Telugu refers to a self-respecting person (maanadhanudu) losing their mental fortitude (aatmadhruti chedi), which is translated incorrectly as 'The shelter of the unworthy' and 'a flawed person'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The original line 'Heenundaguvaani naashrayinchuta yellan' refers to seeking shelter or support from a base/unworthy person. The translation collapses this and fails to map it accurately, instead offering a generic, repetitive phrase about shelter.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation fails to capture the specific meaning of seeking shelter or depending on (aasrayinchuta) a base/unworthy person (heenundaguvaani).",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The original line 'Maanendu jalamu lopala' refers to a tiny measure of water (a 'maanedu' is a traditional small dry/liquid measure). The translation renders this as 'Inside the water of a lake, You cannot discern the depth,' which completely changes a tiny cup of water into a deep lake.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'maanendu' (a small traditional dry measure of volume, here used figuratively for a tiny amount of water) generically as 'water of a lake', completely losing the scale of the original metaphor.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "The original line 'Eenugu meyidaachinattu lerugumu Sumathi' contains the central, famous simile of trying to hide an elephant's body ('eenugu meyi daachinattu') in that tiny measure of water, addressed to 'Sumathi' (the wise one). The translation completely omits the elephant metaphor, replacing it with a generic line about discerning depth.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An impossible, futile attempt to hide something massive or obvious in an extremely small, inadequate space or under inadequate protection.",
+            "acceptable_visual_variants": [
+              "A large elephant standing beside a small traditional measuring cup overflowing with water",
+              "A symbolic silhouette of an elephant contrasted with a tiny water droplet or small bowl"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3-L4",
+            "literal_meaning": "Like trying to hide the body of an elephant inside a small measure (maanedu) of water",
+            "literalization_risk": "A literal drawing of an elephant squeezed into a tiny cup of water might look like a comical cartoon or surrealist joke, detracting from the serious moral lesson of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "seeking shelter/dignity from an unworthy person",
+              "transferred_attributes": [
+                "futility",
+                "conspicuousness",
+                "impossibility of concealment"
+              ],
+              "vehicle_concept": "hiding an elephant in a tiny cup of water"
+            },
+            "source_span_original": "మానెండు జలము లోపల\nనేనుగు మెయిదాచినట్టు",
+            "source_span_translation": null,
+            "source_term": "మానెండు జలము లోపల నేనుగు మెయిదాచినట్టు",
+            "tenor": "A noble person trying to find secure shelter or preserve their dignity by relying on a base, unworthy person",
+            "vehicle": "An elephant trying to hide its body in a tiny cup/measure of water",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a stylized, symbolic representation of a massive elephant standing next to or partially behind a tiny, clearly inadequate vessel of water, emphasizing the scale contrast."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely omits the central, vivid simile of an elephant (enugu) trying to hide its body (meyi daachinattu) in a tiny measure of water, replacing it with a generic statement about discerning depth.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "The futility of a self-respecting person seeking shelter or support from an unworthy, base person, compared to trying to hide an elephant in a tiny measure of water."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "మానధను డాత్మధృతి చెడి\n\nహీనుండగువాని నాశ్రయించుట యెల్లన్\n\nమానెండు జలము లోపల\n\nనేనుగు మెయిదాచినట్టు లెరుగుము సుమతీ",
+  "poem_id": "MV++_1510",
+  "poem_title": "Maanadanu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1b5f67b2f083bc1bd425bff84a75c56f9c1352fff4f3ab039b64131fd3250d6f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1510.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The shelter of the unworthy,  \nIs like the shelter of a flawed person,  \nInside the water of a lake,  \nYou cannot discern the depth, oh Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:43:01.509283+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ac09ca801a44b419887e79657c12ae5d20ba22a3c7fadb093201c0ac9161d651",
+        "response_hash": "30732d9759b0479f285d02bbf7031fbbbee72a2182ab0f739cf6dbd18fd5b315",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "331d903349f05a2e9abb3562723740b41a931f79279bb7e2b9d0d9f1d7b2a98d",
+        "response_hash": "fb80a3c18569871bf511e10b8d1efaad0f9ebd08b2960b014562f70a10a15776",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "936b0361987f2b92b3c729b4d7b8c169c369ed95d8dfa092dd6f6b30e19d7717",
+        "response_hash": "f612cee0f29d4e870151aaff6acbded2da139bc62b1ee5e91990fbbdc193c9ff",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cef25066f856cc5bca00de62bfd3b8bc3fdbc1f6afad96aca237964586941844",
+        "response_hash": "a6eeea70b4c97a2901457af8c5be261a56ba2536a114d9d34fbf81092a4f4461",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b28be4302933db04761ca48d128102b87d989cde1250fbb1103eec45e2db28f8",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "419b3cf06d4b63e20037352bd0f4d0abec73beda22d4efa822cc7f3aa94fc2c1",
+    "translation_sha256": "7e4f796d2dea6e6fe66ed04861acbd10d3e1d9d3db8b5e405bf812d985208c21"
+  }
+}

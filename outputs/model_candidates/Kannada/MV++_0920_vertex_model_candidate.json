@@ -1,0 +1,278 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A stylized, classical Indian artistic depiction of a swan (Hamsa) in flight",
+          "A realistic white swan soaring over deep blue waters"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The 'Hamsa' (swan) in Indian philosophy and Kannada devotional literature represents the individual soul (jivatman), spiritual purity, and the power of discrimination (viveka) to separate the eternal from the transient.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A generic European mute swan in a park pond",
+          "A goose or duck instead of a sacred Hamsa"
+        ],
+        "preserved": true,
+        "romanization": "hamsanante",
+        "source_span_original": "ಹಂಸನಂತೆ",
+        "source_span_translation": "Like a swan",
+        "stanza_index": 1,
+        "term": "ಹಂಸನಂತೆ",
+        "translation_note": "The translation renders the root 'hamsa' as 'swan' which captures the literal bird but loses the deep Indian philosophical and yogic associations of the Hamsa as a symbol of the soul, discrimination, and breath.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A graceful white swan soaring high above an endless ocean",
+          "The swan is depicted with pure white plumage, representing spiritual purity"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "peaceful contemplation to tender wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'haaradu' (not flying/soaring) as 'soaring high', which alters the literal tension between stillness and flight in the original Kannada text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The soul or mind soaring freely and gracefully through existence",
+            "acceptable_visual_variants": [
+              "A graceful white swan soaring above a vast, calm ocean under a starry sky",
+              "A semi-abstract, glowing bird-like figure rising from deep blue waters toward light"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "soaring like a swan",
+            "literalization_risk": "Depicting a literal white swan flying over water might obscure the deeper spiritual or mental journey of the self.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual or mental freedom",
+              "transferred_attributes": [
+                "grace",
+                "elevation",
+                "freedom from earthly bounds"
+              ],
+              "vehicle_concept": "swan flight"
+            },
+            "source_span_original": "ಹಂಸನಂತೆ ಹಾರದು",
+            "source_span_translation": "Like a swan, soaring high",
+            "source_term": "ಹಂಸನಂತೆ ಹಾರದು",
+            "tenor": "the human soul or mind navigating existence",
+            "vehicle": "a swan soaring high",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a luminous, stylized swan-like form soaring upwards into an expansive, starry sky or endless horizon, blending into a human silhouette."
+          },
+          {
+            "abstract_meaning": "The continuous, gentle passage of time",
+            "acceptable_visual_variants": [
+              "A river of starlight winding through a dark landscape",
+              "A gentle stream of water blending into a cosmic background with faint celestial markers"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "the flow of time",
+            "literalization_risk": "Showing a literal clock floating in a river can look comical or surreal in a way that disrupts the poem's serene tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "passage of time",
+              "transferred_attributes": [
+                "continuity",
+                "gentle movement",
+                "directionality"
+              ],
+              "vehicle_concept": "flowing water"
+            },
+            "source_span_original": "ಕಾಲನ ಹರಿವಲ್ಲೆ",
+            "source_span_translation": "Time flows gently",
+            "source_term": "ಕಾಲನ ಹರಿವಲ್ಲೆ",
+            "tenor": "the passage of time",
+            "vehicle": "a flowing river or stream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Represent time's flow through abstract ripples of light or a shimmering, translucent river winding through a dark, vast space."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The Kannada negative/non-finite verb form 'haaradu' (not flying/without flying) is translated as 'soaring high', which reverses the literal sense of stillness or non-flight in the original text.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The emphatic clitic '-alle' in 'harivalle' (indeed in the flow / in the very flow) is flattened to a simple descriptive phrase 'flows gently', losing the original's emphasis on the flow of time itself.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation of 'manassalli' (in the mind/heart) as 'heart's embrace' adds a physical metaphor not explicitly present in the Kannada locative noun.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An abundant, flowing source of sweet emotions, memories, or spiritual purity within the self",
+            "acceptable_visual_variants": [
+              "A river carrying floating blossoms and glowing petals",
+              "A stream of soft, pastel-colored mist winding gracefully through space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "river of fragrance",
+            "literalization_risk": "Fragrance is invisible; trying to draw literal scent molecules or perfume bottles would ruin the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner emotional or spiritual abundance",
+              "transferred_attributes": [
+                "fluidity",
+                "sweetness",
+                "pervasiveness",
+                "purity"
+              ],
+              "vehicle_concept": "river of fragrance"
+            },
+            "source_span_original": "ಪರಿಮಳದ ನದಿಯ",
+            "source_span_translation": "river of fragrance",
+            "source_term": "ಪರಿಮಳದ ನದಿಯ",
+            "tenor": "the sweet, flowing nature of the inner mind or heart",
+            "vehicle": "a river made of scent or perfume",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize a river composed of swirling, colorful mist, flower petals, or soft light flowing gently through a serene landscape."
+          },
+          {
+            "abstract_meaning": "The subject is identified as the very essence of aspiration, hope, and boundless potential",
+            "acceptable_visual_variants": [
+              "A shimmering silhouette of a person soaring into a cosmic sky",
+              "A figure made of light and stardust rising gracefully above clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "you are a flying dream",
+            "literalization_risk": "A literal depiction of a sleeping person with a dream bubble containing a flying figure would be too literal and lose the poetic elevation.",
+            "metaphor_mapping": {
+              "tenor_concept": "the essence of the beloved or soul",
+              "transferred_attributes": [
+                "ethereality",
+                "aspiration",
+                "beauty",
+                "freedom"
+              ],
+              "vehicle_concept": "a dream flying"
+            },
+            "source_span_original": "ನೀನು ಹಾರುವ ಕನಸು",
+            "source_span_translation": "You are a dream in flight",
+            "source_term": "ನೀನು ಹಾರುವ ಕನಸು",
+            "tenor": "the beloved or the human soul",
+            "vehicle": "a dream in flight",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a translucent, glowing human figure soaring upwards, dissolving into stars or light, representing the dreamlike quality of the soul."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal Kannada term 'manassalli' (in the mind/heart) is translated as 'heart's embrace', adding a physical/romantic metaphor ('embrace') not present in the original noun.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The literal phrase 'neenu haaruva kanasu' (you are a flying dream / the dream of you flying) is rendered as 'You are a dream in flight', which slightly alters the active participle relationship of the Kannada verb 'haaruva' (flying).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The timeless, soaring nature of the soul and its dreams within the vastness of existence"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಅನಂತ ಸಾಗರದಲ್ಲಿ,  \nಹಂಸನಂತೆ ಹಾರದು,  \nಭ್ರಮಣದಲ್ಲಿ ನಿಂತ,  \nಕಾಲನ ಹರಿವಲ್ಲೆ!  \n\nಪರಿಮಳದ ನದಿಯ,  \nನಿನ್ನ ಮನಸ್ಸಲ್ಲಿ,  \nಸ್ಪಂದನಗಳು ಜೀವಿಸುವ,  \nನೀನು ಹಾರುವ ಕನಸು!",
+  "poem_id": "MV++_0920",
+  "poem_title": "Mukhya Hamsa",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e2b4cb28a0cc17aa9f68abf8ec831e58261b66bda17f8c9f0dde079e7c23fbfa",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0920.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the endless ocean,  \nLike a swan, soaring high,  \nIn the wandering stillness,  \nTime flows gently!\n\nIn the river of fragrance,  \nIn your heart's embrace,  \nResonances that live,  \nYou are a dream in flight!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:31:43.658602+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a96edc0ab42504594714fc5e33c731f0eb30a2d74a5aff476a2b12ee55116544",
+        "response_hash": "9b76e8074fefcd5e7519ccd58fc30b95431f9adc18ec025c4908302dc78ce5a7"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d3c348b140dbb4d0fccbbeb6f3f484d3473dd898c5bc1cbd945c6725f87c280b",
+        "response_hash": "8d46111d868cb01184c25b2e4f3c490b637c50b64f8098d84ce825c9b5f7bfc5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2b8af369955cdd23fcea517b522fc75c11f65ebc884c841a019bd7636ce9c3e0",
+        "response_hash": "c44ac42f67a1346fc4944e86d47f3574b8cd354f64f2cf9d0cad978dc9db2cbe",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e45ff1b760c62d6a289f0ec9c3c788b33a9c9ae1b84fca70b8ae3fa7342a61ad",
+        "response_hash": "1d58b7b0e6c348309e5da1c2c2267cdccd3c016cfeb490d38e0fa6cad53e52f0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bb379dd2c97d7c646251b853ef76550b454f35eb7d0110b74d5cf1a0299a0956",
+        "response_hash": "0449e9e14b341f08ef9f10828c96f4eca811fd075cd62546eb1aa38e8fdac8f9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0ba47e030ca29ae481912da5853fbb3da1218f4cd0e36223bc7a8918e4345778",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "91ab46f62d8e324aa37b5b95e7ed769acb4dd9f459405abcd3837ff0cf4610e6",
+    "translation_sha256": "65d412548d1d43f66864c65b4ce13d2f5dc00e5f043f0d55bf8732bcc3f441a3"
+  }
+}

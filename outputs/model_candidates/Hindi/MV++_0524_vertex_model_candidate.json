@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A transition from weary stagnation and emotional volatility to a quiet, empathetic recognition of restlessness.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the subtle plural-to-singular shift in the simile ('They sit... Like a weary traveler') and the specific emotional weight of 'khwaab' (dreams/aspirations) and 'bechainiyon' (restlessness/anxieties) are slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The roads themselves, or the entities occupying them, are described as sitting down in a state of exhaustion and stillness, mirroring human fatigue.",
+            "acceptable_visual_variants": [
+              "A road curving down and ending abruptly at a resting spot",
+              "A faint, ghostly outline of a traveler sitting on a physical road"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1-L2",
+            "literal_meaning": "Sitting down on the road like a tired traveler.",
+            "literalization_risk": "An illustrator might literally draw a human traveler sitting on a dirt road, missing the abstract personification of the roads/paths themselves.",
+            "metaphor_mapping": {
+              "tenor_concept": "stationary roads/paths",
+              "transferred_attributes": [
+                "fatigue",
+                "stillness",
+                "sitting down to rest"
+              ],
+              "vehicle_concept": "weary traveler"
+            },
+            "source_span_original": "बैठ जाते हैं रास्ते पर,\nजैसे कोई थका हुआ यात्री,",
+            "source_span_translation": "They sit on the roads,\nLike a weary traveler,",
+            "source_term": "बैठ जाते हैं रास्ते पर,\nजैसे कोई थका हुआ यात्री,",
+            "tenor": "The roads (or the stationary entities/paths) remaining fixed and exhausted in one place.",
+            "vehicle": "A weary traveler sitting down to rest on a journey.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dusty, winding road that seems to slump or settle heavily into the landscape, perhaps blending into the shape of a resting figure without being a literal human."
+          },
+          {
+            "abstract_meaning": "The wind is personified as an empathetic entity that halts its movement out of understanding and shared restlessness with those on the road.",
+            "acceptable_visual_variants": [
+              "Limp leaves on a tree branch next to a dusty road",
+              "Swirling dust particles suddenly settling flat on the ground"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7-L8",
+            "literal_meaning": "The wind stops blowing because it understands their anxiety.",
+            "literalization_risk": "Drawing a literal face or human figure in the wind/clouds whispering to people on the road, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "the wind/breeze",
+              "transferred_attributes": [
+                "understanding",
+                "stopping to comfort",
+                "feeling restlessness"
+              ],
+              "vehicle_concept": "empathetic companion"
+            },
+            "source_span_original": "हवा भी कभी रुक जाती है,\nउनकी बेचैनियों को समझकर।",
+            "source_span_translation": "Even the wind sometimes stops,\nUnderstanding their restlessness.",
+            "source_term": "हवा भी कभी रुक जाती है,\nउनकी बेचैनियों को समझकर।",
+            "tenor": "The physical settling or stopping of the breeze in a quiet moment.",
+            "vehicle": "An empathetic person who pauses to listen or show solidarity with someone's distress.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a sudden stillness in nature, such as leaves or dust suspended mid-air or hanging completely limp, conveying a heavy, quiet pause."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the subtle shift in register and cultural texture between the Sanskrit-derived vocabulary ('yatri', 'sthan') and the Persian-derived vocabulary ('khwab') which enriches the emotional landscape of the Hindi original.",
+            "where": "L2-L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'raaste par' (singular 'on the path/road') as plural 'on the roads', which slightly alters the singular, focused imagery of sitting on a specific path.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet, stagnant existence of those who are lost and stuck in one place with unfinished dreams, observed with empathy by nature itself."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बैठ जाते हैं रास्ते पर,  \nजैसे कोई थका हुआ यात्री,  \nकभी हंसते हैं, कभी गुस्से में,  \nपर रहते हैं एक ही स्थान पर।  \nउनके पास कोई रास्ता नहीं,  \nबस कुछ अधूरे ख्वाब हैं।  \nहवा भी कभी रुक जाती है,  \nउनकी बेचैनियों को समझकर।",
+  "poem_id": "MV++_0524",
+  "poem_title": "Baith Jaate Hain Raaste Par",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4f3028bcf6f785c77f76bb708dd8d66dbe6da3b00614dfd5b48ac78b86fcc916",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0524.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "They sit on the roads,  \nLike a weary traveler,  \nSometimes they laugh, sometimes in anger,  \nBut they stay in one place.  \nThey have no path,  \nOnly some unfinished dreams.  \nEven the wind sometimes stops,  \nUnderstanding their restlessness.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:34:25.960253+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e3858d6b4ef518aa9f6a856fc3de8ba68b3ec0630d8278d1a60aca59f1f8b08c",
+        "response_hash": "9fc930c9ad0ccdc40a4c1d1aa10495dfe418a3422e72ff110246eb26ad8217ae"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8c72e4dc1426df5f7902d73b12f9681618ccfd6f8060643147859144e50bac1e",
+        "response_hash": "5c8c14ab4bb5511221949a21b065fe1800b415e23bdc514755c9e0bce82a838c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "11df5e16352de676ebd67c933da6f5380dfd1544584f6e547bfaefd8916589b5",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e7f81b10e565edfeed8dfc14cf55b572522ce9a8396c62a31265a18b81ced18",
+        "response_hash": "ef101f6fff45c664204d3824108dff932039841ab282258cd8bcf6bc5c273368",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4be9d86b952a9b30e9ffdf07f6477052853c9f95a3621091feff20685f9708cc",
+        "response_hash": "49977ce51cacde01aa88ae7930e5f8eacfd8f6152034c47ef586c33ce7804a4b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1dec9397f6e215f3db5a952d597b9e41c0b6edb7ca7991972c935b81f6c52054",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ec875aa72a972e3fcd7967c7930154a689409b7fe02a79626c8a5be088626159",
+    "translation_sha256": "5f65a4c7648af631e878bab973c6cadf7c0af48115412db4a8f5096d60aea6f4"
+  }
+}

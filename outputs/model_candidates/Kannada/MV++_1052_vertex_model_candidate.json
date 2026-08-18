@@ -1,0 +1,222 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet longing and wonder to deep peace and presence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The silent expressions and quiet moods of the beloved carry a deep, mysterious, and evocative history that is not immediately spoken.",
+            "acceptable_visual_variants": [
+              "A person looking thoughtfully into the distance with a soft, warm light highlighting their facial expressions.",
+              "A stylized portrait where faint, elegant lines resembling written text trace the contours of the face."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "As if it were a forgotten story.",
+            "literalization_risk": "An illustrator might literally draw an old, dusty, closed book or a scroll, which misses the intimate focus on the beloved's face and expressions.",
+            "metaphor_mapping": {
+              "tenor_concept": "unspoken facial expressions and silence",
+              "transferred_attributes": [
+                "depth",
+                "mystery",
+                "evocative history",
+                "unspoken narrative"
+              ],
+              "vehicle_concept": "forgotten story"
+            },
+            "source_span_original": "जैसे कोई भूली हुई कहानी हो।",
+            "source_span_translation": "Like a forgotten tale.",
+            "source_term": "जैसे कोई भूली हुई कहानी हो।",
+            "tenor": "the beloved's facial expressions and silences",
+            "vehicle": "a forgotten story or tale",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of a person's face with a subtle, contemplative expression, with faint, ghostly, or translucent script/pages of a book gently layered or dissolving in the background to suggest a story."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The intimate and respectful nuance of the pronoun 'tum' (तुम्हें, तुम्हारे, तुम्हारी) is lost in the English translation 'you', which lacks grammatical markers for levels of familiarity or respect.",
+            "where": "L1-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker experiences a profound sense of stillness and complete absorption in the moment when the beloved speaks, making time feel irrelevant.",
+            "acceptable_visual_variants": [
+              "A clock with its hands blurred or fading into a soft, warm light.",
+              "Two people sitting close together in a sharp, clear focus while the rest of the world is in a soft, static motion-blur."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L10",
+            "literal_meaning": "As if time itself comes to a halt",
+            "literalization_risk": "An illustrator might draw a broken clock, a frozen pocket watch, or a literal hourglass with stuck sand, which can feel overly mechanical and cliché.",
+            "metaphor_mapping": {
+              "tenor_concept": "subjective emotional stillness",
+              "transferred_attributes": [
+                "motionlessness",
+                "suspension of change",
+                "absolute focus"
+              ],
+              "vehicle_concept": "time stopping"
+            },
+            "source_span_original": "जैसे समय खुद थम जाता है",
+            "source_span_translation": "As if time itself stops",
+            "source_term": "जैसे समय खुद थम जाता है",
+            "tenor": "the subjective experience of stillness and intense focus in the beloved's presence",
+            "vehicle": "time as a moving entity that can actively halt or freeze",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a scene where everything in the background (like falling leaves, rain droplets, or dust motes in a sunbeam) is suspended mid-air around the two figures, creating a magical, frozen atmosphere."
+          },
+          {
+            "abstract_meaning": "The beloved's words are incredibly creative, inspiring, and filled with fresh meaning, bringing new feelings or ideas to life.",
+            "acceptable_visual_variants": [
+              "A stream of warm, golden light flowing from the speaker, with tiny, abstract geometric shapes or floral patterns crystallizing within it.",
+              "A soft, vibrant aura expanding around the speaker as they talk, symbolizing fresh energy."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "As if with every word something new is given birth to.",
+            "literalization_risk": "An illustrator might draw literal babies, sprouts, or physical objects popping out of a person's mouth, which would look bizarre or comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "impact of spoken words",
+              "transferred_attributes": [
+                "freshness",
+                "creation of life",
+                "novelty",
+                "vitality"
+              ],
+              "vehicle_concept": "birth/creation"
+            },
+            "source_span_original": "जैसे हर शब्द के साथ कुछ नया जन्म लेता है।",
+            "source_span_translation": "As if with each word something new is born.",
+            "source_term": "जैसे हर शब्द के साथ कुछ नया जन्म लेता है।",
+            "tenor": "the creative and transformative impact of the beloved's spoken words",
+            "vehicle": "the physical birth or creation of a new living entity",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize delicate, glowing particles, tiny flowers, or soft light-waves gently emanating from the speaker's lips and blooming into the air."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The intimate pronoun 'tum' (तुम, तुम्हारे) and its corresponding verb forms (बोलते हो) are translated as the neutral 'you', losing the specific level of relational closeness and warmth conveyed in the original Hindi.",
+            "where": "L9-L17"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound, silent connection and timelessness experienced when observing and being with a loved one."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a structured translation_loss entry detailing the loss of the intimate pronoun 'tum' (तुम्हें, तुम्हारे, तुम्हारी) and its grammatical nuances. When translation loss is present, translation_quality should typically be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a structured translation_loss entry detailing the loss of the intimate pronoun 'tum' (तुम, तुम्हारे) and its corresponding verb forms (बोलते हो). When translation loss is present, translation_quality should typically be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "metadata.language",
+      "issue": "The poem's language is specified as 'Kannada' in the metadata, but the original poem text ('तुम्हें देखती हूँ...') and the translation loss notes explicitly refer to Hindi vocabulary, grammar, and script (e.g., 'tum', 'तुम्हें', 'तुम्हारे', 'तुम्हारी', 'बोलते हो'). This is a severe language mismatch.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हें देखती हूँ,  \nतुम्हारे चेहरे पर हर भाव,  \nहर खामोशी,  \nजैसे कोई भूली हुई कहानी हो।  \nतुम्हारी आँखों में कुछ ऐसा है  \nजो मुझे कभी समझ नहीं आया,  \nकुछ अनकहा,  \nकुछ जो सिर्फ तुम्हारे भीतर छिपा है।  \n\nजब तुम बोलते हो तो लगता है  \nजैसे समय खुद थम जाता है,  \nतुम्हारी आवाज़ मेरे कानों में गूंजती है,  \nजैसे हर शब्द के साथ कुछ नया जन्म लेता है।  \nतुम्हारे पास बैठना,  \nतुम्हारे साथ होना,  \nहर पल जैसे रुक जाता है,  \nऔर मैं बस तुम्हें देखती हूँ,  \nबिना किसी शब्द के।",
+  "poem_id": "MV++_1052",
+  "poem_title": "Tumhe Dekhti Hoon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "983f28204d10b37ac24b846810f773b462ed0021fe30f7a3577fa6ff4a9bb04a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1052.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I watch you,  \nEvery expression on your face,  \nEvery silence,  \nLike a forgotten tale.  \nThere is something in your eyes  \nThat I never understood,  \nSomething unsaid,  \nSomething that only you hide within.\n\nWhen you speak, it feels  \nAs if time itself stops,  \nYour voice echoes in my ears,  \nAs if with each word something new is born.  \nSitting with you,  \nBeing with you,  \nEach moment seems to pause,  \nAnd I just watch you,  \nWithout a word.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:51:53.438198+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "19ca7ce85a8459aad1db001c526240d5938723194ceb481cf9ce04c06c72288c",
+        "response_hash": "47b153ba4c3e5f88f37b02330fc50105f7137a842ca7bdc7b4787984230647f9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9996e2ebbbf63880732a66c091f3c663f96669a4da302cddd133f991b37b8c9d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "697eb0a88aca5ddd44c3b79cfc329464926d33c68e2d08944c41fd0cb56bbff0",
+        "response_hash": "983a4711040b7f3907ebca30f2d729a19ab81004784cce4db30d4a15ff847888",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "39ef0910ed7fd06e175f4ddb538e3e0bbfb59fa9e0498fae5aae9bf463479ecb",
+        "response_hash": "f24de39cd2c3f7ed34aa22036bbf0e2c2a6faed69b86311eba30d494e78da3e0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6fbc0eed7bbfc57e798bd6466e6bf114a4cfed1052ec4dec8f2eb26dbdd6cfcc",
+        "response_hash": "ec8ea37e52d03762e9bc968c1feb693d1f798d3a06caef13fc7d329debba7662",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "719934b381985e64a315367ca0f439139e26528d4b6d8a209ee1126ab7f030c2",
+    "translation_sha256": "51493cf5f2f09b309491b4ee13da109f94c0b31e8a580441df61700a54800912"
+  }
+}

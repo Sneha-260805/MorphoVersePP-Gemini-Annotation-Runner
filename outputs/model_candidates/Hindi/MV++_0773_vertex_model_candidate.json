@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A state of perpetual, unresolved longing and aimlessness.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An aimless, helpless individual swept along by external forces, searching for direction or purpose in life.",
+            "acceptable_visual_variants": [
+              "A single stone caught in a dust storm or gale over a barren landscape with faint paths below",
+              "A close-up of a stone floating in a turbulent sky with no ground visible, conveying absolute rootlessness"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L2",
+            "literal_meaning": "A stone flying through the air seeking paths.",
+            "literalization_risk": "An illustrator might draw a literal rock with cartoon eyes and legs looking at a map, which ruins the poetic, melancholic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "helpless person swept by circumstances",
+              "transferred_attributes": [
+                "lack of control",
+                "searching for direction",
+                "inability to stop"
+              ],
+              "vehicle_concept": "flying stone swept by wind"
+            },
+            "source_span_original": "हवाओं में उड़ता पत्थर,  \nराहों की तलाश करता है।",
+            "source_span_translation": "The stone flying in the wind,  \nSeeks its path.",
+            "source_term": "हवाओं में उड़ता पत्थर,  \nराहों की तलाश करता है।",
+            "tenor": "A helpless person swept by life's circumstances seeking direction",
+            "vehicle": "A stone flying in the wind seeking a path",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a rough, heavy stone suspended mid-air amidst swirling, visible wind currents over an empty, branching path, emphasizing a sense of drift and lack of control."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the rhythmic and phonetic resonance of the internal rhyme and parallel structure of 'miltee hai' and 'chalta hai' in the final two lines, which creates a balanced, melancholic cadence in Hindi.",
+            "where": "L3-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender of 'patthar' (stone) is masculine in Hindi, which governs the masculine verb forms 'karta hai', 'miltee hai' (referring to jagah but associated with the stone's experience), and 'chalta hai'. The English translation collapses this gendered agency into the gender-neutral pronoun 'it'.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The existential search for direction and belonging in a state of forced, unstable movement."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a detailed loss_note should ideally accompany any non-empty translation_loss array. However, the loss_note is empty while translation_loss contains two entries. This is a minor structural inconsistency.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "हवाओं में उड़ता पत्थर,  \nराहों की तलाश करता है।  \nना उसे रुकने की जगह मिलती है,  \nना मंजिल का पता चलता है।",
+  "poem_id": "MV++_0773",
+  "poem_title": "Hawaon Mein Udta Patthar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4fc6af489e80ecd11b26954a3b99d0e9d927059e7dea278fd5802d3bc371b306",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0773.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The stone flying in the wind,  \nSeeks its path.  \nIt finds neither a place to stop,  \nNor does it find the destination.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:10:30.013707+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1909c8bd6423e1a5b2f7d768d21016624e5ac6c10e4139ce55ab80fe1a36af0e",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1de85aa518c19a25f5b3095334f4e6ec2ebddc7accf6c3622ebf630789bfe95b",
+        "response_hash": "fa49623380080fb1358fc6e64f14aa36917581e03dbd19ad32679ff87cf6ff9b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4f9efa360722e2fd79634a05d3d537b63cd09d977a8cb60db44a486a1b6f76f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc9f4cf0f2e049c2c088ec1fa90011914eb241ba9dcec31a6eef70ad4cf04ca0",
+        "response_hash": "e8eb5cbe5f06e81a3c34eb17a7e7041e0c151d48d296197308f30fec0568ea8e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e53346f30e491ef772306d92355e4765993dc49db538f896d3825b7e8153715",
+        "response_hash": "3efc5796aeb5dc86cccb776e04e99f7f27cb88ec11c5b59450bbb9550f50877a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7830f33df3f7e144385d6ef723052875f623a8e400089d7973bb706f3c327129",
+        "response_hash": "39ef8daed2156ba038771b49b96c19fdf393d29d461a661adfd69abbc3c53d4c",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b2d340a9add6345609f15a87c4943e1636327ace4058157b5de8838197b10e26",
+    "translation_sha256": "313590f06cecb4eaa7a8132539186349ca2fc0f93fff4ab8ad1660025dda534d"
+  }
+}

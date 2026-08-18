@@ -1,0 +1,193 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet joy and gratitude",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'peidhidum' (showering/raining) as 'dwelling', losing the vivid sensory metaphor of friendship raining down inside the heart.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The feeling of love or friendship pouring into and filling the speaker's heart like rain.",
+            "acceptable_visual_variants": [
+              "A stylized heart shape being filled with warm, vibrant colors like a vessel catching rain",
+              "A person standing with closed eyes as soft, luminous particles settle into their chest"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Raining inside the heart",
+            "literalization_risk": "Showing literal rain clouds and water droplets inside a physical human chest cavity, which looks medically bizarre or like a fantasy horror scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotions filling the heart",
+              "transferred_attributes": [
+                "pouring",
+                "filling",
+                "refreshing"
+              ],
+              "vehicle_concept": "rain falling inside a space"
+            },
+            "source_span_original": "நெஞ்சுக்குள் பெய்திடும்",
+            "source_span_translation": "Dwelling in the heart",
+            "source_term": "நெஞ்சுக்குள் பெய்திடும்",
+            "tenor": "The emotional experience of love and friendship filling the heart",
+            "vehicle": "Rain falling inside a physical space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, warm light or soft, colorful mist gently descending and filling the chest area of a person, suggesting a gentle pouring in of warmth."
+          },
+          {
+            "abstract_meaning": "The distinct, beautiful quality or character of friendship.",
+            "acceptable_visual_variants": [
+              "A soft, warm glow connecting two hands or figures",
+              "A gentle wash of bright, cheerful colors in the background of a scene showing companionship"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The color of friendship",
+            "literalization_risk": "Depicting friendship as a literal paint bucket or solid color block, which loses the emotional depth of the relationship.",
+            "metaphor_mapping": {
+              "tenor_concept": "quality of friendship",
+              "transferred_attributes": [
+                "vibrancy",
+                "distinctiveness",
+                "beauty"
+              ],
+              "vehicle_concept": "color"
+            },
+            "source_span_original": "நன்பின் நிறம்",
+            "source_span_translation": "The color of your friendship",
+            "source_term": "நன்பின் நிறம்",
+            "tenor": "The abstract quality, warmth, or essence of a friendship",
+            "vehicle": "A physical color or hue",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use a warm, harmonious color palette (like soft gold or pastel hues) surrounding two figures to visually represent the 'color' of their bond."
+          },
+          {
+            "abstract_meaning": "Life becomes joyful, pleasant, and full of happiness.",
+            "acceptable_visual_variants": [
+              "A person looking up at a bright, clear sky with a joyful expression",
+              "Flowers blooming rapidly in warm sunlight to show a vibrant, happy existence"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Life is laughing/smiling",
+            "literalization_risk": "Drawing a literal face on an abstract concept or on the environment, which can look cartoonish or childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "a happy life",
+              "transferred_attributes": [
+                "joyfulness",
+                "brightness",
+                "expression of happiness"
+              ],
+              "vehicle_concept": "a smiling person"
+            },
+            "source_span_original": "சிரிக்குது வாழ்வு",
+            "source_span_translation": "Life smiles brightly",
+            "source_term": "சிரிக்குது வாழ்வு",
+            "tenor": "The abstract concept of one's life or existence becoming happy and prosperous",
+            "vehicle": "A smiling human being",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a bright, sunlit, and blooming environment surrounding a happy person, conveying the joyful 'smile' of life through nature and light."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'Dwelling in the heart' completely loses the vivid rain imagery of the Tamil verb 'peidhidum' (which means 'showering' or 'pouring down like rain'), flattening a dynamic sensory metaphor into a static state of dwelling.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'nenjukkul' (inside the heart/chest) loses the specific locative case suffix '-kul' (inside/within) which is fused onto the noun 'nenju' (heart/mind), softening the physical depth of the original Tamil expression.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of love and friendship within the soul"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "நெஞ்சுக்குள் பெய்திடும்,  \nஉன் நன்பின் நிறம்,  \nஎன் உள்ளத்தின் காதலால்,  \nசிரிக்குது வாழ்வு!",
+  "poem_id": "MV++_1374",
+  "poem_title": "Nenjukkul Peidhidum",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "28ba2ccf5511ff5ca9b15007784411c707e28c3f596f1bff5dc9cfe50e50fb91",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1374.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Dwelling in the heart,  \nThe color of your friendship,  \nWith the love in my soul,  \nLife smiles brightly!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:27:02.266936+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "803ef64df74723215a11ca78328a6362877e6dda004e904caca97fb6d49a4411",
+        "response_hash": "97a2cad837c8a69d1386f8b0ad4971b3c946bef347939fd56faf1ca115a7b47c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "13053f9b62f5c362b422e3e034ce7c5d31cdbe81d62d5df311098566e47eceb6",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8c5a4c67c3b489d9dbeea9b7c17e49f9068a1fc5469da68bc3d61aa13a7dd845",
+        "response_hash": "72cc674833c77a570384edf994b6bb135d8667dc1e6f6f0f8bf9e8d21790021d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f3deb6b98921a0b6dffdc12debe487931ae9de17d3d024206523dd3a21997caa",
+        "response_hash": "d5bec4047e053ceefcaa8373a8f1be9d1093e6d1577b13ef5563ac611278b8c8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "256cf07a60ff2ee1375b5362c96ba0fdd15ab088cf908c6a064b6ff99f83e4fe",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8630f821d62d2577a895746500b0ca37138a2134a6d9994d110720d9288bd960",
+    "translation_sha256": "a7e9805687ce13240a0ab32493f968b9f3cbde005d317df8a74b6333e94e9f8c"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to complete devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but the agglutinative depth of the Tamil verb form 'vaazhum' (living/will live) and the subtle resonance of 'ullam' (heart/mind/soul) are slightly simplified in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The inner self or heart is receptive to and yearns for love.",
+            "acceptable_visual_variants": [
+              "A person standing with closed eyes, head slightly tilted as if listening to a gentle breeze, with soft light around them."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The physical heart/mind listens to love",
+            "literalization_risk": "Showing a literal anatomical heart with ears listening to a personified figure of love would look bizarre and miss the emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "receptive heart",
+              "transferred_attributes": [
+                "attentiveness",
+                "responsiveness",
+                "receptivity"
+              ],
+              "vehicle_concept": "listening person"
+            },
+            "source_span_original": "உள்ளம் கேட்கும் காதல்",
+            "source_span_translation": "The heart listens to love",
+            "source_term": "உள்ளம் கேட்கும் காதல்",
+            "tenor": "The emotional self experiencing and responding to love",
+            "vehicle": "A person listening or paying attention",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a reflective, peaceful posture with a soft, warm glow emanating from their chest area to symbolize the heart's receptivity."
+          },
+          {
+            "abstract_meaning": "Dreams are gathered or swept up in abundance, just as rain sweeps over or covers the landscape.",
+            "acceptable_visual_variants": [
+              "A person standing in a soft rain with their arms open, where the rain looks like sparkling light."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "Capturing dreams like rain",
+            "literalization_risk": "Showing literal hands catching falling raindrops that contain tiny sleeping figures or dream bubbles could look overly literal and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "love capturing dreams",
+              "transferred_attributes": [
+                "abundance",
+                "overwhelming presence",
+                "sweeping coverage"
+              ],
+              "vehicle_concept": "rain falling and covering the earth"
+            },
+            "source_span_original": "கனவுகளை மழை போலக் கவரும்",
+            "source_span_translation": "Capturing dreams like the rain",
+            "source_term": "கனவுகளை மழை போலக் கவரும்",
+            "tenor": "The overwhelming and abundant way love captures or gathers one's dreams",
+            "vehicle": "Rain falling and covering or sweeping over everything",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a gentle, shimmering downpour of rain where the droplets catch the light like stars, blending into a dreamy, soft-focus background."
+          },
+          {
+            "abstract_meaning": "The speaker's existence or state of being in love is as gentle, pervasive, and sweet as a pleasant breeze.",
+            "acceptable_visual_variants": [
+              "A peaceful landscape with wildflowers gently bending in an unseen wind under a clear sky."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "Like the sweetness of the wind",
+            "literalization_risk": "Wind is invisible; trying to draw 'sweetness' literally might lead to drawing sugar crystals in the air, which is incorrect.",
+            "metaphor_mapping": {
+              "tenor_concept": "pervasive feeling of love",
+              "transferred_attributes": [
+                "gentleness",
+                "pervasiveness",
+                "comfort"
+              ],
+              "vehicle_concept": "sweet breeze"
+            },
+            "source_span_original": "காற்றின் இனிமை போல்",
+            "source_span_translation": "Like the sweetness of the breeze",
+            "source_term": "காற்றின் இனிமை போல்",
+            "tenor": "The gentle, comforting, and pervasive nature of living entirely in the beloved",
+            "vehicle": "A sweet, gentle breeze",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict the physical effects of a gentle breeze, such as softly swaying grass, leaves, or hair, bathed in warm, golden sunlight to convey 'sweetness'."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil verb 'ketkum' (கேட்கும்) carries a double meaning of both 'listening/hearing' and 'asking/seeking/yearning'. The English translation 'listens' captures only the auditory aspect, losing the deep sense of yearning or demanding that 'ketkum' conveys in this romantic context.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative locative case marker '-il' in 'unnil' (உன்னில், meaning 'in you') combined with the adverbial 'muluthum' (முழுதும், meaning 'entirely/completely') creates a seamless, fused sense of total containment and merging. The English translation 'entirely in you' splits this into separate lexical items, flattening the grammatical intimacy of the Tamil phrasing.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The total immersion of the self in love, which captures dreams and flows like natural elements."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "உள்ளம் கேட்கும் காதல்,  \nகனவுகளை மழை போலக் கவரும்,  \nகாற்றின் இனிமை போல்,  \nஉன்னில் நான் முழுதும் வாழும்!",
+  "poem_id": "MV++_1287",
+  "poem_title": "Ullam Ketkume",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9871c0d92ce75ff26fd4a46ebd8afde259f7f37a945d8ab77a48f32088b02d0f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1287.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The heart listens to love,  \nCapturing dreams like the rain,  \nLike the sweetness of the breeze,  \nI live entirely in you!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:17:42.950686+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "760aa37c3318a8af42f6dde271e082659af9adf7b1b70fd98758dd176f0c3cd9",
+        "response_hash": "404c07bcf219ad4238147963b53b04c3c25ec8cd949a203968e3dc5bc32e8e0c"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "56d0cad3a9362bce24f226da76d64038d14b4ed93fa10754092f470dcd82bdd0",
+        "response_hash": "da4dd46560b9e9b48da4b02d677d613486e89b5f32daf6ab9c06760dab70283c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "58baa3c3508d08139a39df2ae42264b5d77e4c5e191508687582394156f71d45",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0854fabeb472e8066481215690c13c06e903493c2895371b02f143ba0dee1d38",
+        "response_hash": "0b1219d7cda0b049d084a111b34eeb7abc16d70e02c6265b9f1282ff508e5803",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2c5adc24f24eab55f5355369157b41192f1d15bb830ac75d7ad8e87f404d22fb",
+        "response_hash": "1304970498d0c7e3ee432c70fabeec4f0464fed042f27ae78bd13fc0c0828694",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aaf625b853a57ad1da4a1262a7c0d25e65efe6812435869c350b0c96ff311960",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9c9eccbd9ffa4ff81dc34822b3c5fb1be61aec47ff0fbd309fca4ca3bfaff123",
+    "translation_sha256": "eb931ce6de195a838bb53ae186392d3354e796628caab50f6024dd6e1031cb01"
+  }
+}

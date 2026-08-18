@@ -1,0 +1,253 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contemplation of self-identity to resilient determination",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The progression of human life over time, filled with experiences and choices.",
+            "acceptable_visual_variants": [
+              "A winding path through changing seasons",
+              "A single figure looking out over a vast, open landscape with multiple branching trails"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "In this physical journey of life",
+            "literalization_risk": "Depicting a literal traveler walking down a dusty road with a suitcase, which misses the internal, existential nature of self-discovery.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "movement forward",
+                "encountering obstacles",
+                "having a destination"
+              ],
+              "vehicle_concept": "journey"
+            },
+            "source_span_original": "ज़िंदगी के इस सफर में",
+            "source_span_translation": "In this journey of life",
+            "source_term": "ज़िंदगी के इस सफर में",
+            "tenor": "the course of human life and experiences",
+            "vehicle": "a physical journey or travel",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding path or road fading into a soft, atmospheric background, symbolizing the passage of time and life's choices without overly literal travel gear."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The colloquial and idiomatic weight of the phrase 'bari baat' (literally 'big matter/thing') is flattened into 'important matter' and 'significant', losing the conversational rhythm and the dual meaning of 'a big deal' versus 'a difficult/noble achievement'.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Following someone else's choices, lifestyle, or expectations instead of making one's own.",
+            "acceptable_visual_variants": [
+              "A figure walking inside a giant, pre-existing footprint",
+              "A person walking along a narrow, fenced-in track while looking toward open fields"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Walking physically on a path made or used by someone else",
+            "literalization_risk": "Showing a person literally stepping into physical footprints on a dirt road, which looks like tracking or hiking rather than social conformity.",
+            "metaphor_mapping": {
+              "tenor_concept": "conforming to life choices",
+              "transferred_attributes": [
+                "following footsteps",
+                "lack of original direction"
+              ],
+              "vehicle_concept": "walking on a path"
+            },
+            "source_span_original": "किसी की राह पर चलना",
+            "source_span_translation": "Walking on someone else's path",
+            "source_term": "किसी की राह पर चलना",
+            "tenor": "conforming to another person's life choices or expectations",
+            "vehicle": "walking on a physical path",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a figure walking along a rigid, pre-carved track or groove in the ground, contrasting with open, untamed terrain nearby."
+          },
+          {
+            "abstract_meaning": "Living under the influence, dominance, or overwhelming identity of other people.",
+            "acceptable_visual_variants": [
+              "A person whose own shadow is replaced or swallowed up by a larger shadow cast from behind",
+              "A figure standing in a dim, shaded area cast by towering, faceless statues representing society"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Standing inside the physical shadow cast by other people",
+            "literalization_risk": "Depicting literal dark silhouettes on the ground, which might look like a simple sunny day rather than a psychological loss of identity.",
+            "metaphor_mapping": {
+              "tenor_concept": "dominance or influence",
+              "transferred_attributes": [
+                "blocking light",
+                "obscuring visibility",
+                "lack of independent form"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "दूसरों की परछाई में",
+            "source_span_translation": "In the shadow of others",
+            "source_term": "दूसरों की परछाई में",
+            "tenor": "the overwhelming influence or dominance of others that obscures one's own identity",
+            "vehicle": "a physical shadow cast by a larger body",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a small, faint figure standing inside the giant, looming silhouette of a larger, indistinct figure, symbolizing being overshadowed."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'bari baat hai' as 'is an important matter' in the context of losing one's identity ('khud ki pehchan khona') misses the ironic or cautionary tone of the Hindi original, where 'bari baat' implies a grave or consequential thing rather than just a positive 'important' achievement.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Experiencing failure, disappointment, or a sudden return to reality after having high hopes.",
+            "acceptable_visual_variants": [
+              "A figure floating downwards as glowing dream bubbles pop around them",
+              "A person stepping off a staircase made of clouds back onto ordinary earth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10-L11",
+            "literal_meaning": "Physically falling down from a high altitude associated with dreams",
+            "literalization_risk": "Showing a person falling off a cliff or out of the sky, which looks like a physical accident or violence rather than emotional disappointment.",
+            "metaphor_mapping": {
+              "tenor_concept": "experiencing failure",
+              "transferred_attributes": [
+                "sudden descent",
+                "loss of stability",
+                "impact of hitting the ground"
+              ],
+              "vehicle_concept": "falling from a height"
+            },
+            "source_span_original": "सपनों की ऊँचाई से,\nगिरना",
+            "source_span_translation": "From the heights of dreams,\nFalling",
+            "source_term": "सपनों की ऊँचाई से, / गिरना",
+            "tenor": "experiencing failure or disillusionment after high aspirations",
+            "vehicle": "falling from a physical height",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a figure descending through clouds filled with glowing, abstract dream-like imagery (stars, bubbles) toward a solid, dark ground."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The poetic resonance of 'sakar karna' (literally 'to give form/shape to', from 'sa-akar') is translated as the more abstract 'realizing', losing the visual metaphor of shaping or materializing dreams.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The journey of self-discovery, maintaining individual identity amidst societal expectations, and the necessity of failure in achieving dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बड़ी बात  \nयह बात तो बड़ी है,  \nकिसी ने कहा, किसी ने सुना।  \nज़िंदगी के इस सफर में,  \nखुद को पहचानना बड़ी बात है।  \n\nकिसी की राह पर चलना,  \nयह भी कोई आसान नहीं।  \nदूसरों की परछाई में,  \nखुद की पहचान खोना बड़ी बात है।  \n\nसपनों की ऊँचाई से,  \nगिरना भी जरूरी है।  \nयह बात तो बड़ी है,  \nसपनों को साकार करना बड़ी बात है।",
+  "poem_id": "MV++_0332",
+  "poem_title": "Bari Baat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7b7cf2d83fea6019031b7d51bc6df264abbbea499e02547eba612235f7af1a15",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0332.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Important Matter  \nThis matter is significant,  \nSomeone said, someone heard.  \nIn this journey of life,  \nRecognizing oneself is an important matter.  \n\nWalking on someone else's path,  \nIs not easy at all.  \nIn the shadow of others,  \nLosing one's own identity is an important matter.  \n\nFrom the heights of dreams,  \nFalling is also necessary.  \nThis matter is significant,  \nRealizing dreams is an important matter.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:13:36.922916+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "04729134b46f2968ea435b5e86d5717ac1b91da5cc526238cbec75f4c1cd72af",
+        "response_hash": "0fda4f9477b908bb7643aee97a9678d515e6f1eca620ca454ce73c7733c0b0dd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bb6a3dcf1ce325692e13d305b3dcb9d78cf58a0b47632b5a9ae7d0a207881252",
+        "response_hash": "3b8bd65a87b61a23e55c254039c53a390b2fea728ff35e581d552ea3a6cd0a7e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "61b07be1f6e7f865e939f5b296735c8980b41926b8a1ca492801161b3b5bd5f0",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c33a0e2596ff720f804873ff82dcfadb9f2f3dfd0b30451e9814d17c1d1b26af",
+        "response_hash": "71a546f125e1fe56be36df8af8444ee0cc57b25cd7e1bc0a82a0a93ff8f9b0f7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d399d690e54db8ecf5a7087e392a604b699be5c460523798d4918c0c08eee9a5",
+        "response_hash": "ef2340f7e5eb4ee9fbf20fc7f65b64c9b00b08f1e31a34c14e2f244312c24e38",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "abbf395db0d41b761ac804c81a4aca07288e6dbe23875ba1dc0dc42f149dc63a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1539ee31a6d796fd51315336cec6a8e26014d3e20c0e38ecb603ab8d60c939b8",
+    "translation_sha256": "5e9f187479b54d24a48f0d78b3c54aeb3aa39296dd6fed12b3d4e266611949a3"
+  }
+}

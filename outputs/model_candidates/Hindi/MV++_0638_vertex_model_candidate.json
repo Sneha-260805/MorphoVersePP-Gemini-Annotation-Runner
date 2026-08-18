@@ -1,0 +1,187 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A call to action moving from awakening to a firm commitment to challenge obstacles and realize dreams.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "People who are inactive, unaware, or passive in their lives.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person standing up and looking towards a rising sun",
+              "A crowd of people looking up and stepping forward from a dark background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "those who are asleep",
+            "literalization_risk": "Depicting people literally asleep in beds would miss the call to action and social awakening.",
+            "metaphor_mapping": {
+              "tenor_concept": "inactivity and lack of awareness",
+              "transferred_attributes": [
+                "unconsciousness",
+                "passivity",
+                "unawareness of surroundings"
+              ],
+              "vehicle_concept": "sleep"
+            },
+            "source_span_original": "सोने वालों",
+            "source_span_translation": "sleepers",
+            "source_term": "सोने वालों",
+            "tenor": "inactive or unaware people",
+            "vehicle": "sleeping people",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show people transitioning from a state of rest or shadow into active movement or light, symbolizing awakening."
+          },
+          {
+            "abstract_meaning": "People who create, nurture, and plan their future aspirations and hopes.",
+            "acceptable_visual_variants": [
+              "A person sketching or mapping out glowing lines of light in the air",
+              "A figure looking at a starry sky where constellations form symbolic shapes of hope"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "those who weave dreams",
+            "literalization_risk": "Showing people literally weaving threads on a loom would look like a textile craft rather than planning a future.",
+            "metaphor_mapping": {
+              "tenor_concept": "formulating hopes and plans",
+              "transferred_attributes": [
+                "intertwining elements",
+                "creative effort",
+                "producing a finished design"
+              ],
+              "vehicle_concept": "weaving fabric"
+            },
+            "source_span_original": "सपने बुनने वालों",
+            "source_span_translation": "dreamers",
+            "source_term": "सपने बुनने वालों",
+            "tenor": "creating and nurturing hopes or aspirations",
+            "vehicle": "weaving threads into a fabric",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person looking thoughtfully at a glowing, interconnected web of stars or light patterns, suggesting the creation of ideas."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'सपने बुनने वालों' as 'dreamers' loses the vivid, active metaphor of 'weaving' dreams ('बुनने' from 'बुनना' meaning to weave).",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'सच कर दिखाना है' as 'must be realized' loses the active, visual sense of 'showing' or 'proving' dreams to be true ('दिखाना' meaning to show/demonstrate).",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The arrival of the moment of resolve, urging people to awaken, shape their destiny, and actively overcome worldly struggles to fulfill their dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided. When translation_quality is 'faithful', translation_loss should typically be empty, or translation_quality should be adjusted to reflect the loss.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided. When translation_quality is 'faithful', translation_loss should typically be empty, or translation_quality should be adjusted to reflect the loss.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "संकल्प का समय आया है,\nउठो जागो अब सोने वालों!\nसपने बुनने वालों की क़िस्मत,\nअब है बनने वाली।\n\nदुनिया की सारी कठिनाईयों को,\nअब चुनौती देना है।\nसपनों को सच कर दिखाना है,\nअब यही करना है।",
+  "poem_id": "MV++_0638",
+  "poem_title": "Sankalp Ka Samay",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "96fce8d3a126d4b7fb62e6bc02178c028c5006abe858cc6ec12ae94246e50a1c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0638.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Time of Resolve  \nThe time of resolve has arrived,  \nRise, awaken, O sleepers!  \nThe destiny of dreamers,  \nIs now on the verge of being made.\n\nNow is the time to challenge,  \nAll the struggles of the world.  \nDreams must be realized,  \nThis is what must be done.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:49:27.895014+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7ac62e9d4777953a0e210e2adec5c638ad264d20e060e888e3969039b54e2723",
+        "response_hash": "296fb05b0725aa3bda05e55644c1621022142703b4191f7bfe13a3ee2d2a864a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b55a3bbe6583138aabb4cd54f7dfc531a6fa1d6868dbe369a9703e4bea81331",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "42ff686dc0afe2a3ab5fe570c44af8848300f7f9fb5111c2692af0838d72c1bd",
+        "response_hash": "609a90216585b4eb6e5e52f8839cc1697c6e89b10e3971aae42c61930f45a78b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8c7b0135f0ac2a362bf5d3f207b9f467c3a187ab5498483a3d18f9cd573ea1ae",
+        "response_hash": "664cb12bc3c3512d7e6f7d949f07b90464fed88105861ab92e213ff9e32879ff",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ac2ea9f14eec4be4b24549bc392e4db0fe80f818ac69201debde382abad6c961",
+        "response_hash": "ea3263804a57f68f7015739c6362c24324c5ec6aefe4786aeffed0653d654c11",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ac3b027d8ee4a732534d66945a971848b5b36987a0a63eb7d845058594d1b669",
+    "translation_sha256": "90a2323391a7868ba9cfe983d2cb7e4933d3bfae5e501284706be0d80e4cf67a"
+  }
+}

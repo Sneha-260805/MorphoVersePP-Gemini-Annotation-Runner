@@ -1,0 +1,207 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Depicted symbolically through a flute or peacock feather",
+          "Depicted as a youthful figure in traditional attire"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A Tamil name for Krishna, a major deity in Hinduism associated with love, music, and playfulness. The suffix '-in' is a genitive case marker meaning 'of Krishna'.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "An older bearded ascetic or generic kingly figure"
+        ],
+        "preserved": true,
+        "romanization": "Kannanin",
+        "source_span_original": "கண்ணனின்",
+        "source_span_translation": "Krishna",
+        "stanza_index": 1,
+        "term": "கண்ணனின்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A youthful deity often depicted with blue skin",
+          "Often associated with a flute and peacock feathers"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "devotional joy and wonder",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the agglutinative flow of the Tamil words (e.g., 'nenjin mayilin' meaning 'of the heart, of the peacock') is simplified into standard English prepositional phrases.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Love is experienced as a beautiful, harmonious melody or music.",
+            "acceptable_visual_variants": [
+              "A person listening with a serene expression as soft light waves ripple around them",
+              "An abstract blend of warm colors flowing like musical staves"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Music called love",
+            "literalization_risk": "Depicting literal musical notes floating around a heart might look cliché or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "harmony",
+                "beauty",
+                "emotional resonance",
+                "rhythm"
+              ],
+              "vehicle_concept": "music"
+            },
+            "source_span_original": "காதல் எனும் இசை",
+            "source_span_translation": "music of love",
+            "source_term": "காதல் எனும் இசை",
+            "tenor": "love",
+            "vehicle": "music",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a subtle, flowing abstract pattern of light or waves that suggests a melodic rhythm surrounding the scene."
+          },
+          {
+            "abstract_meaning": "The heart's joyful, excited, and playful state of love is compared to a dancing peacock.",
+            "acceptable_visual_variants": [
+              "A stylized peacock dancing in the background behind a joyful person",
+              "A glowing, artistic outline of a peacock over the chest area of a figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "The play of the peacock of the heart will float",
+            "literalization_risk": "Showing a literal bird trapped inside a human chest cavity would look grotesque or anatomically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful heart",
+              "transferred_attributes": [
+                "vibrancy",
+                "playfulness",
+                "graceful movement",
+                "unfolding joy"
+              ],
+              "vehicle_concept": "dancing peacock"
+            },
+            "source_span_original": "நெஞ்சின் மயிலின்\nவிளையாட்டும் மிதக்கும்",
+            "source_span_translation": "The playful dance of the\nPeacock in the heart, swaying",
+            "source_term": "நெஞ்சின் மயிலின்\nவிளையாட்டும் மிதக்கும்",
+            "tenor": "the joyful, fluttering heart in love",
+            "vehicle": "a dancing peacock",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person with a translucent or glowing chest area where the vibrant, colorful silhouette of a peacock spreading its feathers is visible, or show a peacock dancing in a lush landscape superimposed over the person's joyful expression."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil word 'satham' (சத்தம்) literally means sound or noise, which is translated as 'call' to fit the context of Krishna, losing the literal simplicity of the sound itself.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative genitive case markers in 'நெஞ்சின்' (nenjin - of the heart) and 'மயிலின்' (mayilin - of the peacock) are flattened into standard English prepositions ('in the heart', 'of the peacock'), losing the rhythmic flow of the original Tamil noun endings.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The verb 'மிதக்கும்' (mithakkum) literally means 'will float', which is translated as 'swaying' to match the dance of the peacock, altering the original imagery of floating or drifting.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The divine call of Krishna evoking love and joyful movement in the heart"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கண்ணனின் சத்தம் என்ன,  \nகாதல் எனும் இசை,  \nநெஞ்சின் மயிலின்  \nவிளையாட்டும் மிதக்கும்!",
+  "poem_id": "MV++_1284",
+  "poem_title": "Kannanin Satham",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "716500a46915f1393a93ae57ba0c9aea834278b1e3173310a316fe6f4a70f332",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1284.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What is the call of Krishna?  \nIt is the music of love,  \nThe playful dance of the  \nPeacock in the heart, swaying!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:17:22.838885+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fc4806f5c2373cd9ea127b36921a8e94f407994f137e950e0c783ea1f0c649f2",
+        "response_hash": "88efec92b766cbde9af3dd2a79b6498940bcadc880249fe47481570f5c330891"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7526b970dcfe8863ba7688f3bc159cf58ac6884e0b2ffd938bd8af188960c3dc",
+        "response_hash": "dd96df1bf0bc4877830fae6bfdba93296975e6c883363127d832dfc1c584aad9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7d261198de43d0a75b837b6782f44a4d9a4cb841a1d201e30bb83a96556e9220",
+        "response_hash": "d00462f8590945a9bd949577810f7d2323db9789554789c627583b72fdba57a1",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "676577b75be416526f920bc079d1d255b418ebff36c95d54c504c9bfef5bb373",
+        "response_hash": "789f12945e7920c69016e8f158d248c17e5f9c8776a6c31e803188e5280d3b10",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "727ad2b5b22341f3f55b09465fac32f210563f773353b120af5704e26b6d60bc",
+        "response_hash": "0442bcc6f916a9299b20d55829e76b0ea7da267e4e4767345779ce29f0740543",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b58b6f3dbd5932322ef5fcc17e950a2882ec92a20eadbbef811cbf8ae80e9c20",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "47e5e600e5e35b02147c1dd769985b810f87e00760efdd06737ee29fd9592650",
+    "translation_sha256": "e7ee22f4dfb0fa29be07f582b75e38a94c287f60857672d6a46eb7aa4766ff0e"
+  }
+}

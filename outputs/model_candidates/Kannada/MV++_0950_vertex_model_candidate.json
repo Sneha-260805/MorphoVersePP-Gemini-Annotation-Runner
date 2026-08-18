@@ -1,0 +1,175 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional indigenous cow (like a Hallikar or Malnad Gidda breed) in a rustic courtyard",
+          "A close-up of a hand gently resting on a cow's back to convey warmth"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The cow, representing a deeply rooted symbol of domestic warmth, maternal comfort, and rural life in Kannada and broader Indian cultural contexts. Here, its physical warmth ('hadavu') is used as a metaphor for comforting memories.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A modern Western Holstein-Friesian dairy cow",
+          "A highly decorated temple cow dressed for a festival, which would over-formalize this intimate, quiet domestic moment"
+        ],
+        "preserved": true,
+        "romanization": "hasuvina",
+        "source_span_original": "ಹಸುವಿನ",
+        "source_span_translation": "cow",
+        "stanza_index": 1,
+        "term": "ಹಸುವಿನ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A gentle domestic cow, typical of rural South India",
+          "Soft, warm texture of the cow's coat"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "quiet contemplation of memory and simple comfort",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning, but the colloquial, effortless quality of 'haage summane' (just like that, casually) and the specific sensory texture of 'hadavu' (perfect consistency, state, or warmth) are slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The comforting, gentle, and nurturing warmth of memory and life's simple pleasures.",
+            "acceptable_visual_variants": [
+              "A person sitting peacefully in a warm, sunlit room looking at an old keepsake",
+              "A soft, abstract golden light enveloping a reflective figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The warmth or gentle state of a cow",
+            "literalization_risk": "An illustrator might literally draw a cow, which would distract from the abstract, quiet mood of nostalgic remembrance.",
+            "metaphor_mapping": {
+              "tenor_concept": "the comforting feeling of quiet memories",
+              "transferred_attributes": [
+                "warmth",
+                "comfort",
+                "gentleness",
+                "nurturing presence"
+              ],
+              "vehicle_concept": "the physical warmth of a cow"
+            },
+            "source_span_original": "ಹಸುವಿನ ಹದವು",
+            "source_span_translation": "The warmth of a cow",
+            "source_term": "ಹಸುವಿನ ಹದವು",
+            "tenor": "The gentle, comforting joy of quiet remembrance in life",
+            "vehicle": "The physical, comforting warmth of a cow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm golden glow surrounding a person in a quiet, reflective posture, suggesting comfort and warmth without literally drawing an animal."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial, casual, and intimate tone of the Kannada phrase 'ಹಾಗೆ ಸುಮ್ನೆ' (haage summane) is partially flattened to the more literal 'Just like that' in English, losing its conversational warmth.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic and phonetic resonance of the alliterative pairing of 'ಹಸುವಿನ ಹದವು' (hasuvina hadavu) is lost in the English translation 'The warmth of a cow'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The gentle, enduring warmth of simple memories and life's quiet comforts"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಹಾಗೆ ಸುಮ್ನೆ ನೆನೆಸಿ,  \nಬಾಳದಲಿ ಹಿತವೆನು,  \nಹಸುವಿನ ಹದವು,  \nಮುಗಿಯದ ನೆನಪು!",
+  "poem_id": "MV++_0950",
+  "poem_title": "Haage Summane",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "22062b51afb746044689ea22f4fb16270b41fb3de787fcbc11ce70f41bed76cf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0950.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Just like that, remembering,  \nIs there joy in life,  \nThe warmth of a cow,  \nAn endless memory!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:35:17.376724+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ffbc1478bcebec6ab0bc80890060f6aee04b5d5ca5cdb288086f0ff00f2a333f",
+        "response_hash": "a41e7763018e82c3a3a52a9e4594813f165191297f22cd51be96130101dd6e70"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e79d8bfbd89bbe62c20e2339c915953fc3d8deef81cb503844b84f957d2deaa",
+        "response_hash": "9e685cd885041abd54302585973e2cb5952ed74747cd00801134ddc36ee7b775",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8067428cacb2bfc2fd4d2c1610f38bed894525a5c9889a3a6c775f6df57bdb6a",
+        "response_hash": "d44958836f4cab5890c81886c64664df7c8c48e9f8b56bf8df821955c2c3268d",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e9004d0443163ba542ba1867e45e3b8939b3c298398a463e482557a6f75dc79",
+        "response_hash": "3974a6e1e31e33d65f97a307d55c9720f57016345c32cb3f25c7357d9223039c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a5378836576928df17e1899c5d739f94359a50d66cec0c4ff60c1e0cc355aff7",
+        "response_hash": "4880ad3c6b23b34ccf8c80d751d5338d6ec760441f8c2089ecfb0cd95f1eb765",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "05af8562f167b98e60ab76918361c0cccfc4bcefb6ef7883925e89fbc75f89ca",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f321b28082b73c190cd49e9efa6a4a5094b7af14d62d6343c2e423b0adae4140",
+    "translation_sha256": "e889ec1354ff34b7d5f373fb8e18711194d03c1174d2c228ffe57cc0f2459bf6"
+  }
+}

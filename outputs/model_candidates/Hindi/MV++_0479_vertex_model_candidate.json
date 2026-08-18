@@ -1,0 +1,309 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "existential longing and uncertainty to a deep fear of losing identity and dreams",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The continuous, unstoppable passage of time that carries human lives along with it.",
+            "acceptable_visual_variants": [
+              "A person drifting in a vast, swirling cosmic river of stars and light",
+              "A silhouette walking through a blurred, flowing stream of clock faces and shadows"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The stream or current of time",
+            "literalization_risk": "Showing a literal clock or hourglass floating down a physical river, which looks comical and misses the existential drift.",
+            "metaphor_mapping": {
+              "tenor_concept": "passage of time",
+              "transferred_attributes": [
+                "continuous movement",
+                "carrying objects along",
+                "unstoppability"
+              ],
+              "vehicle_concept": "flowing water"
+            },
+            "source_span_original": "काल की धारा",
+            "source_span_translation": "flow of time",
+            "source_term": "काल की धारा",
+            "tenor": "The passage of time",
+            "vehicle": "A flowing river or water current",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, semi-transparent river of light or abstract currents sweeping a human silhouette along."
+          },
+          {
+            "abstract_meaning": "The small, fragile, yet persistent presence of hope in a person's mind.",
+            "acceptable_visual_variants": [
+              "A tiny candle flame glowing in a dark, vast space",
+              "A warm golden light emanating from within a person's chest"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The flame of hopes",
+            "literalization_risk": "Depicting literal fire burning a person's skin, which suggests physical torture rather than emotional intensity.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope",
+              "transferred_attributes": [
+                "warmth",
+                "light in darkness",
+                "fragility",
+                "burning sensation"
+              ],
+              "vehicle_concept": "fire flame"
+            },
+            "source_span_original": "उम्मीदों की लौ",
+            "source_span_translation": "flame of hope",
+            "source_term": "उम्मीदों की लौ",
+            "tenor": "Hope",
+            "vehicle": "A burning candle or lamp flame",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a warm, glowing light source or small flame reflecting in a person's eyes or held gently in cupped hands."
+          },
+          {
+            "abstract_meaning": "The comforting yet potentially stagnant or dimming state of being in despair.",
+            "acceptable_visual_variants": [
+              "A figure partially obscured by deep, blue-toned shadows",
+              "An abstract dark silhouette stretching over a pensive person"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The shade or shadow of despair",
+            "literalization_risk": "Showing a literal umbrella or tree casting a shadow, which lacks the emotional weight of depression.",
+            "metaphor_mapping": {
+              "tenor_concept": "despair",
+              "transferred_attributes": [
+                "darkness",
+                "coolness",
+                "diminishing of light",
+                "covering"
+              ],
+              "vehicle_concept": "shade/shadow"
+            },
+            "source_span_original": "निराशा की छांव",
+            "source_span_translation": "shadow of despair",
+            "source_term": "निराशा की छांव",
+            "tenor": "Despair",
+            "vehicle": "A cool, dark shade or shadow",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use cool, dark, enveloping shadows creeping over a figure who is sitting or looking down."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic parallel structure of the continuous participles ending in 'hue' (bahate hue, chalate hue, jalate hue, dhalate hue) is lost in the English translation, which uses a mix of present participles and gerunds without the same internal rhyme and cadence.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intense internal conflict and psychological struggle within a person's mind.",
+            "acceptable_visual_variants": [
+              "A person with hands to their head, surrounded by chaotic, clashing abstract brushstrokes",
+              "Two opposing abstract forces of light and dark colliding in a stormy sky"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L6",
+            "literal_meaning": "As if it is some war of the mind",
+            "literalization_risk": "Showing literal soldiers with swords fighting inside a giant brain, which is cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental conflict",
+              "transferred_attributes": [
+                "violence",
+                "opposing forces",
+                "exhaustion",
+                "struggle for victory"
+              ],
+              "vehicle_concept": "warfare"
+            },
+            "source_span_original": "जैसे मन का कोई जंग हो",
+            "source_span_translation": "As if it’s a battle within",
+            "source_term": "जैसे मन का कोई जंग हो",
+            "tenor": "Internal mental conflict and turmoil",
+            "vehicle": "A physical battle or war",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a single figure split or mirrored in contrasting colors (e.g., warm vs. cool tones) or struggling against their own shadow."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Urdu-derived word 'kashmakash' carries a deep sense of internal struggle, dilemma, or tug-of-war that is only partially captured by the more generic English word 'turmoil'.",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The word 'jang' (battle/war) is grammatically feminine in Hindi ('koi jang ho'), which adds a subtle poetic texture that is lost in the gender-neutral English translation 'a battle within'.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "fear",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The overwhelming momentum of life's events and time carrying the individual.",
+            "acceptable_visual_variants": [
+              "A person floating passively in a deep blue, starry cosmic current",
+              "A silhouette standing amidst a fast-moving blur of city lights and crowds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "In this flow/current",
+            "literalization_risk": "Showing a person literally drowning in a river, which looks like a physical rescue scenario.",
+            "metaphor_mapping": {
+              "tenor_concept": "life's momentum",
+              "transferred_attributes": [
+                "sweeping force",
+                "directionality",
+                "danger of drowning/losing oneself"
+              ],
+              "vehicle_concept": "water current"
+            },
+            "source_span_original": "इस बहाव में",
+            "source_span_translation": "in this stream",
+            "source_term": "इस बहाव में",
+            "tenor": "The momentum of life and time",
+            "vehicle": "A water current or stream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a figure suspended in a swirling, abstract vortex of lines, clock hands, or autumn leaves."
+          },
+          {
+            "abstract_meaning": "The complex, confusing, and unresolved problems of daily life.",
+            "acceptable_visual_variants": [
+              "A maze-like pattern of lines surrounding a thoughtful figure",
+              "A single thread unravelling from a person's silhouette into a chaotic web"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "In this unravelling and weaving (tangle) of life",
+            "literalization_risk": "Showing a person literally tied up in yarn or ropes, which looks like physical captivity.",
+            "metaphor_mapping": {
+              "tenor_concept": "life's complexities",
+              "transferred_attributes": [
+                "entanglement",
+                "difficulty in resolving",
+                "unravelling structure"
+              ],
+              "vehicle_concept": "tangled threads"
+            },
+            "source_span_original": "जीवन की इस उधेड़बुन में",
+            "source_span_translation": "In this tangle of life",
+            "source_term": "जीवन की इस उधेड़बुन में",
+            "tenor": "The confusing complexities of life",
+            "vehicle": "A tangled, unravelling ball of thread or knitwear",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person surrounded by or trying to untangle a complex, abstract web of glowing lines or threads."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The colloquial Hindi word 'udhedbun' literally refers to the act of unravelling and weaving again (like threads or knitting), which metaphorically represents mental unraveling, perplexity, or deep contemplation. The English translation 'tangle' captures the state of confusion but loses the active, repetitive process of weaving/unweaving implied by the original term.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The internal struggle of navigating time and life's uncertainties without losing one's core identity and aspirations."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "काल की धारा में बहते हुए,  \nकभी रुकते, कभी चलते हुए,  \nकभी उम्मीदों की लौ में जलते हुए,  \nकभी निराशा की छांव में ढलते हुए।  \n\nये कशमकश हर घड़ी, हर दिन,  \nजैसे मन का कोई जंग हो,  \nहर एक कदम एक नया सवाल,  \nजवाब में बसा एक और हलचल।  \n\nसोचता हूँ, इस बहाव में कहीं  \nमैं खुद को खो न दूँ,  \nजीवन की इस उधेड़बुन में  \nकहीं सपनों को खो न दूँ।",
+  "poem_id": "MV++_0479",
+  "poem_title": "Kaal Aur Kashmakash",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2c1ab2cc7b886a946cc858f2ba3384ad7b78a7cdc3f128175cd7f01f05b78386",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0479.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Drifting in the flow of time,  \nSometimes stopping, sometimes moving,  \nBurning in the flame of hope,  \nFading in the shadow of despair.\n\nThis turmoil, every moment, every day,  \nAs if it’s a battle within,  \nEach step a new question,  \nAnd with each answer, a new stir.\n\nI wonder, in this stream,  \nWill I lose myself somewhere,  \nIn this tangle of life,  \nWill I lose my dreams somewhere.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:29:05.872023+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "caba5f3d7d7d5dd574691a69d5a44c2bf977e8c3255bd6038d7827835119b53d",
+        "response_hash": "c5096568ac29f91a326bc99c56c208f6ee8d9ef2abc196c747e10a84f205fd56",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e2d0e2ae69e532fbecd23b6b8faaac150b16c87d3479ffd2c71d92c6dbb11e7e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2087e3a2ef1525bb0f223e9ae2e16e4f9dce1fbcaa968708da4c688e419b5cf5",
+        "response_hash": "1b19c16987f63fb5d1f769ee6954d422a6de8b13b91f44e0b84f2ac81150a261",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea2288b1a7465de92d97cff7769d0b7e556d8ae5f8812d54d3bef8bf2f7ca4fb",
+        "response_hash": "11b96e18bc8decad04b165bd3719088770f823d63e766843715f20707f5a3723",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c95186bbe80d485b7a12ed6db4dd29af366b49935e387fab5fe2464d24554b8",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "89a2a6e2ade990bc6425f509b429a33d8353b49e0996c3058b2c9b5f26cc24c6",
+    "translation_sha256": "3201414dabcf662e963df0eac3c52de20a7ec4dd9da2137ffa7f634e1319810a"
+  }
+}

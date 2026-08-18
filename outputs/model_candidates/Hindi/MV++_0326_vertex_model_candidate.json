@@ -1,0 +1,184 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet observation of a withered tree's endurance, shifting to a deeper sense of isolation and silence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The tree's silent, unchanging state serves as a testament or narrative of its past and endurance over time.",
+            "acceptable_visual_variants": [
+              "A close-up of the textured, cracked bark of the dry trunk",
+              "A wide shot of the bare tree standing alone in an empty field under shifting seasonal light"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "speaks or narrates its story",
+            "literalization_risk": "Depicting the tree with a literal human mouth or speech bubble would look cartoonish and ruin the somber, reflective tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "withered tree",
+              "transferred_attributes": [
+                "communicating a history or state of being to observers"
+              ],
+              "vehicle_concept": "storyteller"
+            },
+            "source_span_original": "उसकी कहानी कहता है",
+            "source_span_translation": "It tells its tale",
+            "source_term": "उसकी कहानी कहता है",
+            "tenor": "The physical appearance of the withered tree conveying its history",
+            "vehicle": "A human storyteller narrating a tale",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the stark, bare branches of the withered tree standing prominently against a changing sky, emphasizing its silent, expressive presence."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial grammatical construction 'सूरज ने चमका' (using the ergative postposition 'ne' with an intransitive verb, which is a common regional or colloquial variation in Hindi) is flattened into standard English past tense 'the sun shone'.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The silent, empty reach of the branches evokes the profound isolation and emptiness of a person who has no life stories, memories, or connections left to share.",
+            "acceptable_visual_variants": [
+              "The shadow of the bare branches cast long and empty across a cobblestone lane",
+              "A misty, desolate street scene where the branches fade into the fog without any signs of life"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L12-L13",
+            "literal_meaning": "like a person who does not possess any story",
+            "literalization_risk": "Showing a literal person sitting next to the tree looking sad might over-simplify the abstract comparison and distract from the tree itself.",
+            "metaphor_mapping": {
+              "tenor_concept": "bare branches in desolate lanes",
+              "transferred_attributes": [
+                "emptiness",
+                "silence",
+                "lack of life or engagement with the surroundings"
+              ],
+              "vehicle_concept": "a person with no stories"
+            },
+            "source_span_original": "जैसे किसी के पास,\nकोई कहानी नहीं है",
+            "source_span_translation": "Like someone who has,\nNo story to tell",
+            "source_term": "जैसे किसी के पास, कोई कहानी नहीं है",
+            "tenor": "The bare, empty branches of the tree spreading into desolate streets",
+            "vehicle": "A lonely, silent person with no stories or experiences to share",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the stark, dark branches of the tree stretching out over a completely empty, quiet street or alleyway, capturing the mood of desolation."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The silent endurance of a withered tree as a symbol of unchanging isolation amidst the passage of time and seasons"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].translation_loss",
+      "issue": "Stanza 2 has translation_quality set to 'faithful' and loss_note set to an empty string, but contains a non-empty translation_loss array detailing a grammatical loss in line L7. This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सूखा हुआ पेड़  \nसूखा हुआ पेड़,  \nबिना पत्तों के खड़ा है।  \nहर मौसम में,  \nउसकी कहानी कहता है।  \n\nकितनी बार बारिश आई,  \nकितनी बार सूरज ने चमका,  \nपर वो फिर भी,  \nअपना रंग नहीं बदलता।  \n\nउसकी शाखाएँ,  \nसुनसान गलियों में फैली हैं,  \nजैसे किसी के पास,  \nकोई कहानी नहीं है।",
+  "poem_id": "MV++_0326",
+  "poem_title": "Sookha Hua Ped",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3662f87edcbff404c522899a56005eb4f7b8f0c6bf09ca1bb4b6dd882450b3de",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0326.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Withered Tree  \nThe withered tree,  \nStands bare of leaves.  \nIn every season,  \nIt tells its tale.  \n\nHow many times the rain came,  \nHow many times the sun shone,  \nYet it still,  \nDoes not change its hue.  \n\nIts branches,  \nSpread in desolate lanes,  \nLike someone who has,  \nNo story to tell.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:12:58.133193+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "efced76684e7ea213b525edd6e355432c34ae9816bae3f8fe4df6750e3613463",
+        "response_hash": "dc57cc06d35922d6b34c4a557c2d8aa8eb347b1cc9cadc72eb4898b5c9a8c91f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6937bbaaa4e96b9da07769f8a687c5192a89e4be60c37e0cb2ce01a89523479e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a9370eb2e9f98a41b4c597684bd0b0fca06cfefc4b88a58d2a630272b9d02362",
+        "response_hash": "594d0cdd5d51f26aa3b81d98618246bcfe214da5dd2a8dc26370312b8f37917a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d334c239d5292181222c8dd409e1086551326f56725b3f0441092da474dcc2cd",
+        "response_hash": "8f5bc7a5f997b93d9feab6c9c389ea371046c333cc81fdf70d020cd5e63e10bc",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7e3728db20ded886e6433e445d53a4b7bb399b2a7ec46267a2e8b5403a531e9c",
+        "response_hash": "c8089b3232e2f3c9bfcb42ba3e29f85e96fc48842396705d545b594b8e6aecd5",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d01d832e81bcf55a5f6708127a0c73a1bc9f387e4e8f58f89fb46f2932dc50f7",
+    "translation_sha256": "968f18fe4a80776678b56a4cc4fdcde7538cd3c920ed351d292f0f72b1ef6096"
+  }
+}

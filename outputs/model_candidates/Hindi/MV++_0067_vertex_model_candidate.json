@@ -1,0 +1,213 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "The flag flying proudly on a flagpole against a clear blue sky.",
+          "The flag held aloft by people celebrating national freedom."
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Indian national flag, literally meaning 'three-colored' or 'tricolor', representing the nation's struggle and freedom.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A generic three-colored flag without the specific saffron, white, and green horizontal bands or lacking the central Ashoka Chakra wheel.",
+          "The French or Italian tricolor flags."
+        ],
+        "preserved": true,
+        "romanization": "tirange",
+        "source_span_original": "तिरंगे",
+        "source_span_translation": "tricolor",
+        "stanza_index": 1,
+        "term": "तिरंगे",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A horizontal tricolor flag with saffron at the top, white in the middle, and green at the bottom.",
+          "A navy blue wheel (Ashoka Chakra) with 24 spokes in the center of the white band."
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A single-stanza declaration of pride, resilience, and national identity, moving from the fierce pride of a lion to the collective memory of freedom.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The tricolor flag possesses a majestic, fearless, and dignified pride, comparable to that of a lion.",
+            "acceptable_visual_variants": [
+              "A close-up of the Indian tricolor flag fluttering powerfully against a bright sky",
+              "A stylized flag where the ripples in the fabric evoke the powerful, flowing mane of a lion"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "Proud like a lion",
+            "literalization_risk": "An illustrator might literally draw a physical lion standing next to or holding the flag, which distracts from the symbolic pride of the flag itself.",
+            "metaphor_mapping": {
+              "tenor_concept": "national flag",
+              "transferred_attributes": [
+                "pride",
+                "majesty",
+                "fearlessness",
+                "dignity"
+              ],
+              "vehicle_concept": "lion"
+            },
+            "source_span_original": "सिंह की भांति गर्वित",
+            "source_span_translation": "Proud like a lion",
+            "source_term": "सिंह की भांति गर्वित",
+            "tenor": "the tricolor flag (Tiranga)",
+            "vehicle": "a lion",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the flag flying high and majestic in the wind, capturing a sense of dignity and strength without literally drawing a lion, or subtly incorporate the silhouette of a roaring or proud lion in the background clouds or wind patterns."
+          },
+          {
+            "abstract_meaning": "The history, struggles, and sacrifices made for India's independence are symbolically preserved and represented within the colors and structure of the tricolor flag.",
+            "acceptable_visual_variants": [
+              "The tricolor flag waving, with faint, elegant silhouettes of historical freedom marches visible within its folds",
+              "The flag flying high with a glowing aura that suggests a rich, living history preserved within it"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3-L4",
+            "literal_meaning": "The story of our freedom lives/resides inside the tricolor.",
+            "literalization_risk": "An illustrator might try to draw literal pages of a storybook or text physically stuffed inside the fabric of the flag, which would look bizarre and ruin the symbolic gravity.",
+            "metaphor_mapping": {
+              "tenor_concept": "national symbol",
+              "transferred_attributes": [
+                "housing",
+                "preserving",
+                "containing"
+              ],
+              "vehicle_concept": "dwelling place"
+            },
+            "source_span_original": "तिरंगे में बसी है,\nहमारी आज़ादी की कहानी।",
+            "source_span_translation": "In the tricolor resides,\nThe story of our freedom.",
+            "source_term": "तिरंगे में बसी है, हमारी आज़ादी की कहानी।",
+            "tenor": "the symbolic representation of historical struggles within the national flag",
+            "vehicle": "a home or vessel where a story can physically reside or live",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict the three bands of the tricolor flag (saffron, white, green) with subtle, artistic, semi-transparent historical scenes of struggle and freedom fighters layered within the colors."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural resonance of 'Tiranga' (literally 'three-colored'), which is the deeply patriotic, emotionally charged proper name for the Indian National Flag, is translated as the literal, lowercase noun 'tricolor', losing its unique national and historical specificity.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic flow, internal rhyme, and poetic meter of the Hindi couplet (specifically the end rhyme between 'nishani' in L2 and 'kahani' in L4) are lost in the literal English translation.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The tricolor flag as a living symbol of the struggle and story of national freedom."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing medium and low severity losses. Usually, a 'faithful' translation should have an empty or minimal loss list, or the quality should be adjusted to 'partial' if significant cultural/poetic elements are lost. However, since the losses are minor/stylistic, this is a minor consistency warning.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[0].metaphor_spans[1].source_span_original",
+      "issue": "The source_span_original contains a newline character ('\\n'), whereas the original poem lines L3 and L4 are separate. While it matches the text, ensure the span matches the exact formatting of the source poem without introducing unexpected whitespace if strict character matching is enforced.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सिंह की भांति गर्वित,  \nसंग्राम की यह निशानी,  \nतिरंगे में बसी है,  \nहमारी आज़ादी की कहानी।",
+  "poem_id": "MV++_0067",
+  "poem_title": "Tiranga",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6ec2ca0316a26900f716590632605d34d3e56ab242c9fdc52719e7ca4ab22ad4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0067.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Proud like a lion,  \nThis symbol of the struggle,  \nIn the tricolor resides,  \nThe story of our freedom.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:43:17.304763+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4004e6d3e5b58a824ee8dd7fb688a93784b747b7369330c5f4aa264b78bac4c0",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2386b58e412af0792d24d078c33b06f2132f2b98b165797167cbc465fa8f698a",
+        "response_hash": "29a94e7550f39be9a270977a811fefda7e7e432626ff8989418fdb408a950cb3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7703e812f1588c89660929a01383ba02d1434783269817395386a8cd19318c79",
+        "response_hash": "3c71c88ae46840522853db353e2926fc0f3c7fcd5689e48cda42b44ebc8df440",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c8b0089a09c0ecf6a491d03994f2028e81fcd5c73c6f7550fbfe481c0c456653",
+        "response_hash": "4f211a01caed05d8fe0f0c0b79de2880f769fe01c82d36982a3ce24d41880488",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8e0c6311d2431295ef8c30f0de1fb66263df0d76ad4be2a0b760968e32b5e1d3",
+        "response_hash": "707e86a4300a26662356d707694ca2fabda422b5f47e29c8e222adbff7256fd5",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bb92d703b77c54e93e6a9ea4446ee45bf0046849c5091733bfb50d2a4e1bfd8f",
+        "response_hash": "6b1ab846dc3ad04ed6a86bdbe51345cdfccbeb692f51c3ebc469f98d574d46d6",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "65e14e37f69b631812ba3ee98a2ca970d4b314c7c4e6ede9e023aa9f414f5473",
+    "translation_sha256": "ecb5e9b317ce75fbdbcb7cee5fc3468bfbb676f3bcd89ab127bff0afd1c8ac8b"
+  }
+}

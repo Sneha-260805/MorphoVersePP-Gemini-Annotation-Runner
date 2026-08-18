@@ -1,0 +1,273 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet observation to deep connection with nature",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The wind's movement and presence across different places and times are conceptualized as a narrative or story.",
+            "acceptable_visual_variants": [
+              "Wind currents carrying autumn leaves across a field",
+              "Wind blowing through a grassy meadow, creating visible waves in the grass"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The story/tale of the winds",
+            "literalization_risk": "Showing a literal book or a person reading a storybook about wind, which misses the natural, invisible flow of the wind itself.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural movement of wind",
+              "transferred_attributes": [
+                "having a narrative",
+                "leaving a legacy",
+                "communicating a journey"
+              ],
+              "vehicle_concept": "storytelling"
+            },
+            "source_span_original": "हवाओं की कहानी",
+            "source_span_translation": "tale of the winds",
+            "source_term": "हवाओं की कहानी",
+            "tenor": "the physical movement and presence of the wind",
+            "vehicle": "a story or tale told by a narrator",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict swirling, gentle wind currents sweeping across a landscape, carrying fallen leaves or petals to suggest a journey or narrative path."
+          },
+          {
+            "abstract_meaning": "The wind leaves a lasting impression or physical effect on the places it passes through.",
+            "acceptable_visual_variants": [
+              "Ripples on the surface of a lake or pond",
+              "Bent blades of grass in a field showing the direction of the wind"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L4",
+            "literal_meaning": "leaves its footprint/stamp",
+            "literalization_risk": "Depicting literal human footprints or ink stamps on the ground, which would look bizarre and unrelated to wind.",
+            "metaphor_mapping": {
+              "tenor_concept": "environmental impact of wind",
+              "transferred_attributes": [
+                "leaving a trace",
+                "marking a presence",
+                "making an impression"
+              ],
+              "vehicle_concept": "physical footprint"
+            },
+            "source_span_original": "अपनी छाप छोड़ जाती है",
+            "source_span_translation": "Leaving a mark",
+            "source_term": "अपनी छाप छोड़ जाती है",
+            "tenor": "the physical effects or sensations left behind by the wind",
+            "vehicle": "a physical footprint or stamp left on a surface",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the physical evidence of wind's passage, such as ripples in sand, bent grass, or scattered leaves."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the descriptive phrase 'soft and slow' to rhyme with 'go', which is not present in the original Hindi text. The original simply states that the wind leaves its mark ('अपनी छाप छोड़ जाती है').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'हवा ही दे जाती है' (only the wind gives/brings the feeling of every season) as 'Is something the wind has begun' to force a rhyme with 'sun'. This alters the meaning from the wind being the medium of experiencing seasons to the wind initiating them.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The soft, gentle sound of the wind blowing past a person's ears is described as whispering or humming.",
+            "acceptable_visual_variants": [
+              "A person standing on a hill with hair gently rustling in the breeze",
+              "Wind chimes gently swaying near an open window with soft wind lines"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L9",
+            "literal_meaning": "humming/singing in the ears",
+            "literalization_risk": "Showing a tiny human figure or fairy literally singing into a giant ear, which is overly literal and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "soft sound of wind",
+              "transferred_attributes": [
+                "gentle tone",
+                "melodic quality",
+                "intimate communication"
+              ],
+              "vehicle_concept": "humming a song"
+            },
+            "source_span_original": "कानों में गुनगुनाती",
+            "source_span_translation": "hums in your ear",
+            "source_term": "कानों में गुनगुनाती",
+            "tenor": "the soft rustling sound of the wind",
+            "vehicle": "a person humming or whispering a tune",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a close-up of a person with their eyes closed in peace, hair gently blowing, with soft, swirling lines near their ear to represent the sound."
+          },
+          {
+            "abstract_meaning": "The wind touches or affects everyone, evoking feelings and memories, like a visitor knocking on the door of one's heart.",
+            "acceptable_visual_variants": [
+              "A person placing a hand over their chest as a gentle breeze blows past them",
+              "A window blowing open slightly to let in a cool breeze"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "is the knock on every heart",
+            "literalization_risk": "Showing a hand literally knocking on a physical heart organ, which is grotesque and inaccurate.",
+            "metaphor_mapping": {
+              "tenor_concept": "evoking emotional awareness",
+              "transferred_attributes": [
+                "seeking entry",
+                "making presence felt",
+                "awakening feelings"
+              ],
+              "vehicle_concept": "knocking on a door"
+            },
+            "source_span_original": "हर दिल की दस्तक है",
+            "source_span_translation": "Knocking on every heart",
+            "source_term": "हर दिल की दस्तक है",
+            "tenor": "the emotional or physical sensation of the wind felt by people",
+            "vehicle": "knocking on a door to announce one's arrival",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person indoors looking out of a window as the curtains gently billow inward, capturing the moment they feel the wind's presence."
+          },
+          {
+            "abstract_meaning": "The wind expresses itself through its own movements and sounds, telling its own story.",
+            "acceptable_visual_variants": [
+              "A forest of trees swaying in unison under a windy sky",
+              "A sailboat moving across water propelled by strong winds"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L12",
+            "literal_meaning": "is in the wind's own words/voice",
+            "literalization_risk": "Showing a cloud or wind with a human face and mouth speaking words, which is a childish caricature.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural sounds of wind",
+              "transferred_attributes": [
+                "self-expression",
+                "direct communication",
+                "authenticity"
+              ],
+              "vehicle_concept": "speaking in one's own voice"
+            },
+            "source_span_original": "हवा की अपनी जुबानी है",
+            "source_span_translation": "The wind speaks its truth",
+            "source_term": "हवा की अपनी जुबानी है",
+            "tenor": "the natural sounds and expressions of the wind",
+            "vehicle": "a person speaking or narrating in their own voice",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a vast, open landscape where the wind is visibly interacting with multiple elements simultaneously (rustling trees, moving clouds, swaying grass) to show its collective 'voice'."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'as it must' to rhyme with 'gust', which is absent in the original. Additionally, 'हवा की अपनी जुबानी है' (the wind's own narration/voice) is translated as 'The wind speaks its truth', shifting the focus from the wind telling its own story to speaking 'truth'.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The omnipresent, gentle, and transformative nature of the wind as it connects all human experiences and seasons."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "हवाओं की कहानी है,  \nबहती चली जाती है।  \nहर जगह से गुजर कर,  \nअपनी छाप छोड़ जाती है।  \n\nकभी सर्द रातों में,  \nकभी गरम दुपहरी में,  \nहर मौसम का एहसास,  \nहवा ही दे जाती है।  \n\nकभी कानों में गुनगुनाती,  \nकभी झोंका बन कर आती,  \nहर दिल की दस्तक है,  \nहवा की अपनी जुबानी है।",
+  "poem_id": "MV++_0317",
+  "poem_title": "Hawaon Ki Kahani",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "191ee343b7e1f94a9236ada648a60b9da64957dc0efba7226c742d2514ab7d68",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0317.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "It’s the tale of the winds,  \nFlowing endlessly as they go.  \nPassing through every place,  \nLeaving a mark, soft and slow.  \n\nIn the chilly nights,  \nOr under the hot noon sun,  \nThe feeling of every season,  \nIs something the wind has begun.  \n\nSometimes it hums in your ear,  \nSometimes it rushes like a gust,  \nKnocking on every heart,  \nThe wind speaks its truth, as it must.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:12:01.482643+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b48c3d63d5c205f383cb117b34966b355306234eb1313c49b0742d241a58dda",
+        "response_hash": "cf8f2525edb448b94c40ad6205085f27096d3d12062a61d9e219ab3ea2c766b6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eeeab8f82c24d1c2af97662cd72e04d4b0bcc3dfa1121fe9cb9a505565142ae4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2603e1f321591a68f391a4d0b6df3120a5f67a079412eb34bbd64cffccec53fa",
+        "response_hash": "37b04ffe68474b2238f6f896d23a55b5ab7efaaf22cae6d3bcc79e69345678dc",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba806a70e2a801f1de44323776c2a6a9850015c3fe5f2b966bb4814188ff3b5c",
+        "response_hash": "b1e1c337dde07f8a44eeb27f550fc8d5b08340350faba001f358ebbd40f68037",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f67381508da108d41b0435393dd30649cfb0f2ae6cd1be56a065247e9ae6a2ff",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "af1c38ab6c09484057934ca2413a3b5544643828258dad8cc017ed920ad5b4fc",
+    "translation_sha256": "c8702c7fb958c2a715e1afa11377b68b3e5fa5c4e82e2235cbf361d36ac25af3"
+  }
+}

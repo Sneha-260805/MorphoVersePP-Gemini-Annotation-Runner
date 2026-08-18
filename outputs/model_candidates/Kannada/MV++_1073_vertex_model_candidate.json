@@ -1,0 +1,284 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "Moves from deep grief and disillusionment with the material world to intense anger and defiant rejection of it.",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but the rhythmic cadence and the specific Urdu-derived vocabulary (takh-ton, taajon) lose their poetic weight in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The societal customs and traditions are driven entirely by greed and material wealth.",
+            "acceptable_visual_variants": [
+              "A scale weighing a heart against gold coins, with the gold heavily outweighing the heart",
+              "A faceless crowd in formal traditional attire reaching greedily for falling coins"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "customs that are physically hungry for wealth",
+            "literalization_risk": "Depicting literal personified customs or rituals eating gold or money like food, which looks comical and misses the critique of systemic greed.",
+            "metaphor_mapping": {
+              "tenor_concept": "greed and material obsession in societal traditions",
+              "transferred_attributes": [
+                "insatiable desire",
+                "craving for sustenance"
+              ],
+              "vehicle_concept": "hunger and consumption"
+            },
+            "source_span_original": "दौलत के भूखे रिवाज़ों",
+            "source_span_translation": "customs hungry for wealth",
+            "source_term": "दौलत के भूखे रिवाज़ों",
+            "tenor": "societal customs and traditions",
+            "vehicle": "hungry living beings",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a cold, rigid societal ceremony or transaction where wealth (coins, paper) is prioritized over human connection, showing the emptiness of the ritual."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic, repetitive structure of 'ye... ye... ye...' (this... this... this...) which builds a cumulative, rhythmic condemnation of worldly structures is flattened into standard English demonstrative phrases.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The specific Urdu-derived vocabulary ('takhton', 'taajon') carries a historical weight of imperial power and sovereignty that 'thrones' and 'crowns' only partially conveys in English.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "The compound Urdu term 'aalam-e-badhawasi' is translated as 'realm of insanity', which captures the meaning but loses the specific poetic resonance of existential disorientation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deep spiritual and emotional longing, deprivation, and lack of fulfillment felt by people in this world.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person with a cracked, dry earth texture visible inside their chest area",
+              "A person looking longingly at a distant, unreachable light in a dark space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "a soul that is physically thirsty for water",
+            "literalization_risk": "Depicting a ghostly soul figure drinking water from a glass, which literalizes the physical act of drinking and misses the spiritual despair.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual and emotional emptiness",
+              "transferred_attributes": [
+                "intense longing",
+                "pain of deprivation",
+                "need for vital nourishment"
+              ],
+              "vehicle_concept": "physical dehydration and thirst"
+            },
+            "source_span_original": "रूह प्यासी",
+            "source_span_translation": "soul thirsty",
+            "source_term": "रूह प्यासी",
+            "tenor": "spiritual and emotional deprivation",
+            "vehicle": "physical thirst",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person sitting in a desolate, dry landscape, looking up with a yearning expression, symbolizing inner emptiness and longing for meaning."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Persian-derived compound 'aalam-e-badhawasi' (state/realm of extreme distress, bewilderment, or loss of senses) is translated as 'realm of insanity', which loses the nuanced sense of overwhelming sensory and emotional disorientation.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "grief",
+        "index": 3,
+        "loss_note": "The stark contrast of 'jeevan se hai maut sasti' is rendered faithfully, though the rhythmic punch of the original rhyme scheme is lost.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Human life and existence are treated as fragile, insignificant, and easily manipulated or discarded by powerful forces.",
+            "acceptable_visual_variants": [
+              "A delicate wind-up figure left abandoned and broken on a cold, hard pavement",
+              "A giant hand hovering over a small, fragile human figure as if it were a chess piece"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "human existence is a physical toy or plaything",
+            "literalization_risk": "Showing a literal plastic doll or toy block, which might look childish and fail to convey the tragic loss of human dignity and agency.",
+            "metaphor_mapping": {
+              "tenor_concept": "vulnerability and insignificance of human life in society",
+              "transferred_attributes": [
+                "lack of agency",
+                "fragility",
+                "being played with and discarded"
+              ],
+              "vehicle_concept": "a plaything manipulated by others"
+            },
+            "source_span_original": "खिलौना है इंसां की हस्ती",
+            "source_span_translation": "human existence is but a toy",
+            "source_term": "खिलौना है इंसां की हस्ती",
+            "tenor": "human existence and life",
+            "vehicle": "a toy",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a small, fragile wooden puppet or marionette with limp strings, overshadowed by large, imposing shadows of societal structures."
+          },
+          {
+            "abstract_meaning": "A society that values dead traditions, material objects, or the deceased more than living human beings.",
+            "acceptable_visual_variants": [
+              "A crowd of people offering wealth and flowers to an empty, ornate throne while turning their backs on a beggar",
+              "A dark, sterile city of stone monuments where no green plants or living things grow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "a town where people literally worship dead bodies",
+            "literalization_risk": "Depicting literal zombies or people bowing down to physical corpses, which turns a social critique into a horror scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "valuing dead customs and material structures over living humanity",
+              "transferred_attributes": [
+                "obsession with the lifeless",
+                "neglect of the living",
+                "morbid devotion"
+              ],
+              "vehicle_concept": "worshipping dead physical bodies"
+            },
+            "source_span_original": "मुर्दा-परस्तों की बस्ती",
+            "source_span_translation": "settlement of corpse-worshippers",
+            "source_term": "मुर्दा-परस्तों की बस्ती",
+            "tenor": "a society obsessed with dead traditions and material wealth over living people",
+            "vehicle": "corpse-worshippers",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict people bowing down to cold, empty stone monuments or golden statues while ignoring a living, suffering person right next to them."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The internal rhyme and phonetic play between 'hasti', 'basti', and 'sasti' which drives the musicality and biting irony of the stanza is completely lost in translation.",
+            "where": "L9-L11"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'murda-parast' (worshippers of the dead/corpses) carries a deep cultural and philosophical critique of a society that values dead traditions or people only after they die, which 'corpse-worshippers' renders very literally and somewhat awkwardly.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "anger",
+        "index": 4,
+        "loss_note": "The intense, repetitive imperative 'jala do, jala do ise phoonk daalo' is translated accurately, though the visceral phonetic impact of the Hindi/Urdu words for burning is softened in English.",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The intense, visceral urgency of the Urdu verbs 'jala do' (burn it) and 'phoonk daalo' (blow it up / reduce it to ashes) is simplified to 'burn it, burn it, set it aflame', losing the distinct shades of destructive action.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The utter worthlessness of worldly power, wealth, and societal structures in a world devoid of humanity and compassion."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "/",
+      "issue": "The poem's language is identified as Kannada in the metadata, but the original poem text, translation, and linguistic notes are entirely in Hindi/Urdu (written in Devanagari script). This is a fundamental language mismatch.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ये महलों, ये तख़्तों, ये ताजों की दुनिया,  \nये इंसां के दुश्मन समाजों की दुनिया,  \nये दौलत के भूखे रिवाज़ों की दुनिया,  \nये दुनिया अगर मिल भी जाए तो क्या है।  \n\nहर इक जिस्म घायल, हर इक रूह प्यासी,  \nनिगाहों में उलझन, दिलों में उदासी,  \nये दुनिया है या आलम-ए-बदहवासी,  \nये दुनिया अगर मिल भी जाए तो क्या है।  \n\nयहाँ इक खिलौना है इंसां की हस्ती,  \nये बस्ती है मुर्दा-परस्तों की बस्ती,  \nयहाँ पर तो जीवन से है मौत सस्ती,  \nये दुनिया अगर मिल भी जाए तो क्या है।  \n\nजला दो, जला दो इसे फूंक डालो,  \nये दुनिया मेरे सामने से हटा लो,  \nये दुनिया अगर मिल भी जाए तो क्या है,  \nये दुनिया अगर मिल भी जाए तो क्या है।",
+  "poem_id": "MV++_1073",
+  "poem_title": "Ye Duniya Agar Mil Bhi Jaye To Kya Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "dc2140013ac4947d3b6977684d97eaa09497eaf8c4d239adc7ef587fa56d0ced",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1073.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This world of palaces, thrones, and crowns,  \nThis world of societies that are enemies of humankind,  \nThis world of customs hungry for wealth,  \nWhat good is this world, even if we get it?  \n\nEvery body wounded, every soul thirsty,  \nEyes filled with confusion, hearts full of sorrow,  \nIs this world or a realm of insanity?  \nWhat good is this world, even if we get it?  \n\nHere, human existence is but a toy,  \nThis is a settlement of corpse-worshippers,  \nHere, death is cheaper than life itself,  \nWhat good is this world, even if we get it?  \n\nBurn it, burn it, set it aflame,  \nTake this world away from my sight,  \nWhat good is this world, even if we get it?  \nWhat good is this world, even if we get it?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:54:40.539520+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2dfe57eadac02c2eeef86ce8c47e92b14a68b4f436673abe372c9edcc39755d2",
+        "response_hash": "13fb271d113b7c30f8b2e539a73591f57e60f8171882336d63a4fdaec47b41a1"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3107009d3ce19c84ac0ddc3970422de5b85555352649aec9cfc81eea7f3f1f36",
+        "response_hash": "8ce95960c5b5bac9b9e257efea93dbf144686c4f5ffdbd829ad97bd6b7739164",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7d10d2f1859bc1e720657ef48eb5960eccefb61e52756812cff2f57f5ac76be",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1444e74cd3b7006da85510a91a2aec5e43f34cc202d891b106aa11aba66809aa",
+        "response_hash": "f0c511738b24710e44f32a8efcc7fb429d5492e5c9d84868160eb7a78f89151f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9d0a636ce88907216099b94732c68dddfd5093a8d91c252089ed4dc79a461828",
+        "response_hash": "51d4f7c09e4e8b33f136c946da523b57bb8468384a4f26e6bbc391cc6d0a062e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "684af56a1f59326003a7d8f4f3f8517c8cccc1d327bffb4a27e09470ad946a13",
+        "response_hash": "3fec941f7f93b4b635d7b9e42edff4ecbca704aca3654605c031971b4a7336e5",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "76450f367da5080bd6a946a050a15bdf500a1cdcae0ec82ff056ded79938a5c7",
+    "translation_sha256": "144758e9e46b7be7e66b2a28d4becb5f8b2fa0846d595dcf0005144406807d2a"
+  }
+}

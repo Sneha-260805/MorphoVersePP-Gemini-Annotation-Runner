@@ -1,0 +1,158 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A gentle observation of nature transitioning into a hopeful wish for life to flourish like flowers.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "May life be filled with joy, beauty, and flourishing moments, just like a garden blooming with flowers.",
+            "acceptable_visual_variants": [
+              "A person walking through a lush garden in full bloom",
+              "A subtle overlay of blooming petals surrounding a joyful human silhouette"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Let there be flowers in life",
+            "literalization_risk": "An illustrator might literally draw flowers growing out of a person's body or physical life path, which misses the abstract blessing of happiness and prosperity.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful and flourishing life",
+              "transferred_attributes": [
+                "beauty",
+                "vibrancy",
+                "freshness",
+                "abundance"
+              ],
+              "vehicle_concept": "flowers blooming"
+            },
+            "source_span_original": "ಬಾಳಲಿ ಹೂವುಗಳು",
+            "source_span_translation": "Let life be filled with flowers",
+            "source_term": "ಬಾಳಲಿ ಹೂವುಗಳು",
+            "tenor": "joy, beauty, and flourishing in human life",
+            "vehicle": "flowers blooming in a garden",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vibrant, blooming natural landscape surrounding a peaceful human figure, or soft floral motifs subtly framing a scene of daily life to suggest flourishing."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific Kannada term 'ಬ್ರಹ್ಮರ' (Brahmara) is translated as 'bumblebee', which loses the classical, poetic, and Sanskritic resonance of the word 'bhramara' (large black bee/wasp) often used in classical Indian literature.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'ಗೋಚಿ' (gochi) is translated as 'blooming', which simplifies its specific regional or colloquial nuance in Kannada.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'You wander open' for 'ನೀವು ತೆರೆದಾಡಿ' (niivu teredaadi) loses the subtle grammatical nuance of the plural/honorific second-person pronoun 'ನೀವು' (niivu) and the compound verb structure of 'ತೆರೆದಾಡಿ' (teredaadi - opening and moving/wandering).",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The harmonious relationship between nature's elements and the wish for a life filled with beauty and openness."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing multiple medium-severity losses. This is internally inconsistent; a 'faithful' rating should correspond to an empty or minimal translation_loss list, or the quality should be marked as 'partial' to reflect these losses.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಬ್ರಹ್ಮರ ಹಾರುವಾಗ,  \nಗೋಚಿ ಹೂಗಳಿಗೆ,  \nನೀವು ತೆರೆದಾಡಿ,  \nಬಾಳಲಿ ಹೂವುಗಳು!",
+  "poem_id": "MV++_0932",
+  "poem_title": "Brahmara",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "13e9d32c768ceeffaa84ce29bc244a8a1fd539ca2fcace25100c5afe1cb99447",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0932.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "When the bumblebee flies,  \nTo the blooming flowers,  \nYou wander open,  \nLet life be filled with flowers!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:32:48.707285+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8ae476e7e82c15c6c5da1bffc50de4ae6cc7b5d5afbd387c88c5b6cfd20977c6",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "05d3bca05de6159afd37aee425b264351e5920acd57009b8bcfcc3f835d922c2",
+        "response_hash": "fcd1cd81d59d7d30db873e5e6bf9af18228b74cadb197f0118c5a8e814fe6463",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bd329227ab6ee239636125dfc62772165d12b89e815631a5c14a637e19d953e0",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fc38fa6e35a5520201ff655f989c34db1bc9d54a2d43888306e6f3ea9c64e383",
+        "response_hash": "8d66138820f1ed5f4fea6627b3fa5331c0a5bc037101d718e2850f26d00e21b7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba382bba028ece62b919012a14fece00676842878dc72cf6019321de4e352922",
+        "response_hash": "ec2e304a1706fedcab3554b09e855971653db9ce04cf7d0cd1c7624a6fc0557b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f92dbe063861cb2ef736d360ded67a19c9073a63b3c3487e15cfcf3ae8459a04",
+        "response_hash": "45526ea9ee59d740fecfbcefb578fbf6f3f1847534b98b73206ac91ef6e1d026",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e6497c646fbb67f7d7a3b9b130d0881a84cde47505f8bf26d5fa3cacc3e8e53f",
+    "translation_sha256": "632097c3f149d34bc6d6ac7a03b196837b40f11fb9557296fba618df7cf27a88"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peaceful acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'sardi-garmi' (literally winter-summer, representing the cycle of seasons/hardships) abstractly as 'seasons is unbound', losing the specific dualistic contrast of cold and heat present in the Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The flower is given human-like agency, possessing desires and dreams of its own.",
+            "acceptable_visual_variants": [
+              "A single wild flower in a vast field reaching towards the morning sun",
+              "A close-up of a bud slowly opening its petals in the breeze"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "A flower has a desire, this is its dream",
+            "literalization_risk": "Showing a cartoon flower with a human face, thought bubbles, or sleeping in a bed dreaming would look childish and miss the poetic elegance.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural botanical processes of a flower",
+              "transferred_attributes": [
+                "desire",
+                "dreaming",
+                "intentionality"
+              ],
+              "vehicle_concept": "human consciousness and aspiration"
+            },
+            "source_span_original": "एक फूल की चाह है, यही ख़्वाब है",
+            "source_span_translation": "A flower’s desire, this is its dream",
+            "source_term": "एक फूल की चाह है, यही ख़्वाब है",
+            "tenor": "A flower's natural growth, blooming, and spreading of fragrance",
+            "vehicle": "A human being who desires and dreams",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful, vibrant flower blooming naturally in a field, perhaps slightly leaning towards the sky or breeze to suggest aspiration."
+          },
+          {
+            "abstract_meaning": "To spread beauty, color, and joy across the world, transforming the environment.",
+            "acceptable_visual_variants": [
+              "A field of colorful wildflowers under a sky filled with matching pastel sunset hues",
+              "Pollen or petals drifting in the wind, catching the light and making the air look colorful"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "To fill the sky with colors (as if painting it)",
+            "literalization_risk": "Showing a giant hand or brush physically painting the blue sky with paint cans would look absurdly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "beautifying the environment through natural blooming",
+              "transferred_attributes": [
+                "vibrancy",
+                "transformation of space",
+                "aesthetic pleasure"
+              ],
+              "vehicle_concept": "painting a canvas with physical colors"
+            },
+            "source_span_original": "आकाश में रंग भरें",
+            "source_span_translation": "paint the sky in gleam",
+            "source_term": "आकाश में रंग भरें",
+            "tenor": "The visual impact of vibrant flowers blooming and filling the landscape",
+            "vehicle": "An artist painting a canvas with colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a landscape where the vibrant colors of blooming flowers seem to blend into or reflect beautifully in the sky during sunrise or sunset."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation generalizes the specific Hindi phrase 'sardi-garmi' (literally winter-summer, representing the dualities or extremes of weather/life) into the generic 'seasons'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation renders 'choti' (peak/summit) as 'petal' to fit the floral imagery, which alters the scale of the original metaphor where even a mountain peak overflows with joy. Additionally, 'finding its coy' is introduced for rhyme, which does not exist in the original text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The progression of life from beginning to end, filled with experiences and purposes.",
+            "acceptable_visual_variants": [
+              "A winding path disappearing into a beautiful misty forest",
+              "A stream flowing through different terrains from a mountain to a valley"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The physical journey of life",
+            "literalization_risk": "Showing a person walking down a literal dirt road with a suitcase would reduce the philosophical concept of life to a simple commute.",
+            "metaphor_mapping": {
+              "tenor_concept": "living through time and experiences",
+              "transferred_attributes": [
+                "movement forward",
+                "having a destination or purpose",
+                "encountering landscapes/seasons"
+              ],
+              "vehicle_concept": "traveling along a path or road"
+            },
+            "source_span_original": "जीवन की यात्रा",
+            "source_span_translation": "life’s endless quest",
+            "source_term": "जीवन की यात्रा",
+            "tenor": "The passage of time and experiences in a person's or living being's existence",
+            "vehicle": "A physical journey or travel",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a winding path through a changing natural landscape that transitions from spring to winter, symbolizing the passage of time and life."
+          },
+          {
+            "abstract_meaning": "The silent, expressive essence of inner desires and beauty that flowers communicate.",
+            "acceptable_visual_variants": [
+              "A close-up of a flower's center with dew drops reflecting light like stars",
+              "A soft-focus shot of a flower gently swaying, radiating a warm, gentle glow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "The spoken or written language of a dream",
+            "literalization_risk": "Showing letters, words, or speech bubbles coming out of a flower would look comical and literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "aesthetic and emotional expression of nature",
+              "transferred_attributes": [
+                "expressiveness",
+                "meaningfulness",
+                "ability to touch the heart"
+              ],
+              "vehicle_concept": "linguistic communication"
+            },
+            "source_span_original": "ख्वाब की भाषा",
+            "source_span_translation": "language of dreams",
+            "source_term": "ख्वाब की भाषा",
+            "tenor": "The silent, aesthetic expression of beauty and hope by a blooming flower",
+            "vehicle": "Human spoken or written language",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the exquisite, detailed beauty of the flower's inner core, perhaps glistening with dew, conveying a deep sense of silent expression."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'choti' (mountain peak/summit) as 'tiny petal' to fit the floral imagery, completely altering the scale and literal meaning of the original line where even a mountain peak is swept away with joy.",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the word 'coy' to rhyme with 'joy', which is not present in the original Hindi text ('jaise phool khil jaaye' simply means 'like a flower blooming').",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet, universal desire of nature to find joy, transcend time, and express its inner dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक फूल की चाह है, यही ख़्वाब है,\nहवाओं में बहके, आकाश में रंग भरें।\nवो पल जिनमें सिर्फ़ खुशबू हो,\nगुम हो जाए समय, बस वो रहे साया सर्दी-गर्मी का।\n\nदिल से इच्छा है, हर एक चोटी भी बह जाए खुशियों से,\nहर सर्दी का मौसम जाए जैसे फूल खिल जाए।\nजीवन की यात्रा का यही उद्देश्य है।\nहर एक फूल के भीतर अपने ख्वाब की भाषा हो।",
+  "poem_id": "MV++_0635",
+  "poem_title": "Ek Phool Ki Chaah",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b6594e72961dc821b65222c4429084e2ee4e71fbac61388396a9338cd43688f0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0635.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Desire of a Flower  \nA flower’s desire, this is its dream,  \nTo float in the breeze, and paint the sky in gleam.  \nMoments when only fragrance is all around,  \nTime vanishing, as the shadow of seasons is unbound.\n\nThe heart’s wish is that every tiny petal blooms with joy,  \nEach winter passing, like a flower finding its coy.  \nThis is the purpose of life’s endless quest,  \nTo have the language of dreams in every flower’s breast.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:49:03.856974+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0aadee9823e97fec0b632565ac57227c1ee3186103a6296aaac1328c0f69d0a9",
+        "response_hash": "b9ea0b59a280ab02905e4031e24fd1d03b27bc043e4a8ae25723d0d544d51b6a"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8e0015fa7314ac9983352e25061c7cee94f0b102e1bfa4d1342f0391f0c027b6",
+        "response_hash": "5a592dfd4086ff42789f5d66c14589e01a3c3f12ce8121cec354a391f81c5032",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "04f8a314d1d8229b2889687e6bfabd81cb0d625a0ef127f86485cc4235e8bb6c",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0833f48b43036da80558098440917791877fc308cdfc85dd30db627343937c57",
+        "response_hash": "5cc8f6a1f1f529bc3f134f77a20b32271ac45d9806b5617c89909973f82f40bb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f736a15da57b8b9824747a34a078c164c6dfff627a6be633c0e3572ad5981543",
+        "response_hash": "fdd14c4d8764ddaaf19b603288f56396f0be304270a7e6fba2b1df5f8db4a8c9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "429081bb2a3b87a6803eac2615bfb4b9d57876446da5c532f9240efd30b149d3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ef126de6aee7779210b350f65b2d399bfbd644f074cc3cb7e78aa89ebafd0c69",
+    "translation_sha256": "bf705ec1793a3258c913733790bb165caa58a21344ced2d5f2dac6032957bff9"
+  }
+}

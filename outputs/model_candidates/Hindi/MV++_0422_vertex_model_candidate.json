@@ -1,0 +1,141 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation introduces rhyming verbs ('flows', 'grows') to maintain a poetic structure in English, which alters the literal simplicity of the Hindi verbs 'aati hai' (comes/emanates).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The letters evoke a strong, refreshing sense of vitality, warmth, and lived experience.",
+            "acceptable_visual_variants": [
+              "A close-up of hands holding an open letter with soft, warm sunlight streaming across the page.",
+              "A person gently holding a letter to their chest with a peaceful, smiling expression."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The physical scent of life comes out.",
+            "literalization_risk": "Depicting literal perfume bottles or physical scent clouds rising from paper might look like a chemical or cosmetic advertisement rather than an emotional connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional vitality",
+              "transferred_attributes": [
+                "evocative",
+                "refreshing",
+                "invisible yet deeply felt"
+              ],
+              "vehicle_concept": "olfactory scent"
+            },
+            "source_span_original": "जिंदगी की खुशबू आती है।",
+            "source_span_translation": "The fragrance of life flows.",
+            "source_term": "जिंदगी की खुशबू आती है।",
+            "tenor": "vitality and emotional warmth of life",
+            "vehicle": "fragrance / scent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person holding a handwritten letter close, with a warm, nostalgic expression, perhaps surrounded by soft, warm lighting or subtle natural elements like a gentle breeze to suggest the evocative atmosphere."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation changes the verb 'aati hai' (comes/arrives) to 'flows' in L2 and 'grows' in L4 to create an English rhyme scheme (flows/grows), losing the simple, repetitive structure of the original Hindi verb 'aati hai' which anchors both couplets.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The comforting presence of a loved one felt through their written letters, which bring life and stories to the reader."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हारे ख़तों से,  \nजिंदगी की खुशबू आती है।  \nहर शब्द में छिपी,  \nएक नई कहानी आती है।",
+  "poem_id": "MV++_0422",
+  "poem_title": "Tumhare Khaton Se",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ee99b6ed16e8784c6b142fb52fea4b3837505e0196568c35666fe4b8c2ddb181",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0422.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "From your letters,  \nThe fragrance of life flows.  \nIn every word, there’s hidden,  \nA new story that grows.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:22:57.641270+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d22a886b42bd2190c9a6764678231b90cc21346177984726f8a169224ec5b2f9",
+        "response_hash": "eab68d2db57a05d0354b5949c8fb67ad38d5c5a9abc024c82da2d406b4bd0165"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a5fa3c8be586cf109ce8412cc0527a8a02b222e01cd1f3d572ea3ba77561aa64",
+        "response_hash": "58b3076ddefbaf5bbd6d929b4e6ead480c15bd5332f819ffbf2c9c9c9fcbb848",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bb58b02f9272a3bf2707ad8f5301fd816d44d173c0533e65263e116871e68bec",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4a67c17774849863444faf9ace9179f8e36c7454fdc0bfb8be6cd1cc5f1ada5",
+        "response_hash": "c9d3193435e3613eca208065a10dfde4266032ea0f04cb7ae3a0a2b560edf32e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e852239ccb6212cfe716355acb90b7fbfaf754483902182e5ba6cbf74e490d17",
+        "response_hash": "7ce28b471c9d429ad0a450d7e4dcf2489281623d4ef58bf675fe5ae9807f962d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "286bd9e109884561e31102bf8268333adf7c5321de52ed63fc3d93eacee99171",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "862a60d2250fe640ae03d08defe1298773c0bc4212339eca7da3e0fe0edd4310",
+    "translation_sha256": "aeb23beaa85bcc667601e2139e26d79447304777a739ea749c24f797ec963daa"
+  }
+}

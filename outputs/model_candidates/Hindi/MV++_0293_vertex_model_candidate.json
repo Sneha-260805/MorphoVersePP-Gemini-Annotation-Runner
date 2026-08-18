@@ -1,0 +1,254 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and grief over a lost presence, shifting to a quiet, searching uncertainty",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the spelling 'कहा' (kaha) in the original is a common colloquial or dialectal variant of 'कहाँ' (kahan - where), which adds a soft, spoken quality that is slightly flattened in standard English.",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation resolves the gender-neutral pronoun 'वो' (wo) to 'he' ('Where has he gone', 'Who once sat'), losing the gender ambiguity of the original Hindi text which could refer to a male, female, or non-binary person.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial phonetic spelling 'कहा' (kaha) is used in the original text instead of the standard spelling 'कहाँ' (kahan) for 'where', which carries a subtle informal, spoken, or regional tone that is flattened into standard English.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation is highly faithful, though the poetic flow of the Hindi relative clauses ('जो मेरे सपनों में...', 'जिसकी आँखों में...') is rendered into standard English relative clauses, losing a touch of the rhythmic symmetry.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The person brought immense hope, beauty, and brightness to the speaker's inner thoughts and dreams.",
+            "acceptable_visual_variants": [
+              "A person sleeping with a soft, starry constellation glowing gently above their head",
+              "A dreamlike landscape where a distant figure is illuminated by starlight"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L7",
+            "literal_meaning": "shone like stars",
+            "literalization_risk": "Depicting literal stars physically embedded inside a sleeping person's head or brain would look bizarre and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "inspiring presence in dreams",
+              "transferred_attributes": [
+                "brightness",
+                "beauty",
+                "guidance",
+                "wonder"
+              ],
+              "vehicle_concept": "stars shining"
+            },
+            "source_span_original": "जैसे तारे चमकता था",
+            "source_span_translation": "Who shone like stars in my dreams",
+            "source_term": "जैसे तारे चमकता था",
+            "tenor": "the beloved person's presence and impact on the speaker's dreams",
+            "vehicle": "stars shining in the night sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing silhouette of a person surrounded by a gentle, starry night sky or a dreamlike, sparkling aura."
+          },
+          {
+            "abstract_meaning": "The person's eyes were deep, expressive, and full of life, emotion, or tears, allowing the speaker to see themselves clearly reflected.",
+            "acceptable_visual_variants": [
+              "A close-up of a deep, shimmering eye reflecting a face like still water",
+              "A stylized portrait where the gaze of the eyes transitions smoothly into a flowing stream of light or water"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "there was a river inside the eyes",
+            "literalization_risk": "Drawing literal water currents or a miniature river flowing out of physical eyeballs would look grotesque or like a medical anomaly.",
+            "metaphor_mapping": {
+              "tenor_concept": "expressive and deep eyes",
+              "transferred_attributes": [
+                "depth",
+                "flow",
+                "reflectiveness",
+                "clarity"
+              ],
+              "vehicle_concept": "a flowing river"
+            },
+            "source_span_original": "आंखों में एक नदी थी",
+            "source_span_translation": "In whose eyes was a river",
+            "source_term": "आंखों में एक नदी थी",
+            "tenor": "the depth, clarity, and emotional capacity of the person's eyes",
+            "vehicle": "a flowing river",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the reflective quality of the eyes, showing a close-up of a wide, clear eye with a gentle water-like shimmer or a miniature reflection of the speaker's face in the pupil."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation resolves the gender-neutral pronoun 'वो' (wo) to 'Who' and 'whose' but continues the gendered framing established in the first stanza, losing the original's gender-neutrality.",
+            "where": "L6-L8"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial spelling 'कहा' (kaha) instead of standard 'कहाँ' (kahan) is used again, losing the informal/spoken register in translation.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "grief",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's hopes, memories, or the beloved person who felt like a dream are temporarily lost or inaccessible.",
+            "acceptable_visual_variants": [
+              "A figure looking through a misty window or veil trying to find something",
+              "A soft, glowing orb tucked away in a dark, dusty corner of a room"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L12-L13",
+            "literal_meaning": "a dream is physically hiding in a location",
+            "literalization_risk": "Showing a literal cloud-like dream bubble crouching behind a physical wall or tree would look childish and miss the emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "an elusive dream or memory",
+              "transferred_attributes": [
+                "being out of sight",
+                "requiring search",
+                "temporary absence"
+              ],
+              "vehicle_concept": "a hidden object or person"
+            },
+            "source_span_original": "सपना\nकहीं छुपा हुआ है",
+            "source_span_translation": "dream\nHidden somewhere",
+            "source_term": "सपना\nकहीं छुपा हुआ है",
+            "tenor": "the elusive nature of lost hope or memories",
+            "vehicle": "a hiding person or object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a faint, glowing, semi-transparent image of a memory or figure partially obscured by mist, shadows, or a veil."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation resolves the gender-neutral pronoun 'वो' (wo) to 'he' ('Has he been lost?'), removing the gender ambiguity of the original Hindi.",
+            "where": "L11"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial spelling 'कहा' (kaha) instead of standard 'कहाँ' (kahan) is used again, losing the informal/spoken register in translation.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The painful absence of a beloved companion and the lingering hope that they survive within one's hidden dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation quality is marked as 'faithful', but the stanza contains a non-empty list of translation losses (translation_loss) and notes a colloquial spelling loss, which is inconsistent with a completely faithful rating. It should be marked as 'partial' to align with stanzas 1 and 2.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[2].metaphor_spans[0].source_span_original",
+      "issue": "The source_span_original contains a newline character ('सपना\\nकहीं छुपा हुआ है') which does not match the exact verbatim substring of the original poem lines L12 and L13 ('सपना' and 'कहीं छुपा हुआ है' are on separate lines, but the newline character should be verified against the exact original text formatting).",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कहा गया?  \nकहा गया वो जो एक दिन  \nमेरे पास बैठा था?  \nजिसकी हंसी में हर सुबह  \nबच्चों की शरारत थी।  \n\nकहा गया वो जो मेरे सपनों में  \nजैसे तारे चमकता था?  \nजिसकी आंखों में एक नदी थी  \nजिसमें मैंने अपना चेहरा देखा।  \n\nकहा गया?  \nक्या खो गया वो?  \nया फिर मेरा सपना  \nकहीं छुपा हुआ है?",
+  "poem_id": "MV++_0293",
+  "poem_title": "Kaha Gaya?",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "84422fb836b33aae6fcd2bbe1067eb49636515e057088bf2713b77fe155a958c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0293.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Where Has He Gone?\nWhere has he gone,  \nWho once sat beside me?  \nWhose laughter every morning  \nHeld the mischief of children.  \n\nWhere has he gone,  \nWho shone like stars in my dreams?  \nIn whose eyes was a river  \nIn which I saw my reflection.  \n\nWhere has he gone?  \nHas he been lost?  \nOr is my dream  \nHidden somewhere?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:09:18.376429+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e5fada9db6372ce7a1b2ad2ed7dedc121f7a98531084bbdd23e791ba98a797d",
+        "response_hash": "4d4450c1e83c3eca16758e36cb05f5f7ebfd3f9e700a5c9536d8e3a758ba1ea0"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d1cd869f879bfcdd307b0faaa2ebaa4006d0ec4fbe9511a39edaaec9b7b38d71",
+        "response_hash": "f32218de25df0a1d1a5fb91b21a2ac041c301127268530deb8df3a54e519ee60",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "42c1c4a7ce01fac78ab7d3db84ce58658fee19b82789bb67159a1673c1959902",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "684c03d13a7c383664dc1a388ff9ea4be4a777914498fd50b2bfcca3a3b2f5d7",
+        "response_hash": "c581ce70649b45925b148ca430c098fec63185a723f3da50b1097b1546d2e32c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2014970556e9a7b57d39457e540525f8798d06d9f6b9eaab2abfb3323817f478",
+        "response_hash": "768534fda32f0c54435870250b7b7edb7bf7baf1cfc608bca25c06c22840697e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c29c6cbd3195287f60155c3a177e075007c4496833b5182ad0bf68fa44d406a2",
+        "response_hash": "3a3d234ae2b31ffaf046a17a9dcdaec37bcbec7d4e1fd9b35c5af52ceeac452c",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4c8b1b9893243773dafa67b4328815f948f600a031d9739fd55420eef6abdcff",
+    "translation_sha256": "2c03ecd538aaf8baa1fe922f4dbd8ac667243deb5da24d839978eeda625a3d6a"
+  }
+}

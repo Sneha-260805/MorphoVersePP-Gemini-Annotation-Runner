@@ -1,0 +1,252 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet wonder to deep inner peace and self-discovery",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the subtle poetic nuance of 'unkanhi si' (a sort of unspoken/untold) is slightly flattened to 'unspoken'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sea shores hold a deep, unspoken history, mystery, or emotional resonance that is felt by those who visit them.",
+            "acceptable_visual_variants": [
+              "A misty beach with gentle waves under a soft sky",
+              "A solitary set of footprints fading near the water's edge under a twilight sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3-L4",
+            "literal_meaning": "An unspoken story physically lives or resides on every shore.",
+            "literalization_risk": "Showing a literal book, scroll, or humanoid 'story' character sitting on a beach, which would look comical and miss the atmospheric mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "the evocative atmosphere of a place",
+              "transferred_attributes": [
+                "residing",
+                "holding unspoken secrets",
+                "having a narrative presence"
+              ],
+              "vehicle_concept": "a resident story"
+            },
+            "source_span_original": "एक अनकही सी कहानी,\nहर एक तट पर बसी है।",
+            "source_span_translation": "An unspoken story,\nLives on every shore.",
+            "source_term": "एक अनकही सी कहानी, \nहर एक तट पर बसी है।",
+            "tenor": "The mysterious, evocative, and historical atmosphere of the sea shores",
+            "vehicle": "A story living or residing on a physical shore",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, empty, atmospheric sea shore at dusk or dawn with soft waves, suggesting a deep, quiet history or presence without drawing literal characters."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the soft, approximate nuance of the Hindi particle 'see' (सी) in 'ankahi see' (अनकही सी), which suggests 'something like unspoken' or 'seemingly unspoken' rather than a definitive 'unspoken'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation captures the meaning well, but loses the explicit masculine gender marker in the verb 'khota hoon' (I lose myself, masculine), which specifies the speaker's gender in the original Hindi.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To become deeply absorbed, peaceful, or lose self-consciousness in the beauty of the moment.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking at a vast ocean horizon",
+              "A close-up of a person with a serene expression, slightly out of focus compared to the sea background"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L8",
+            "literal_meaning": "I become physically lost or missing.",
+            "literalization_risk": "Depicting a person looking at a map or wandering lost in a forest or maze, which implies distress rather than peaceful absorption.",
+            "metaphor_mapping": {
+              "tenor_concept": "deep mental absorption",
+              "transferred_attributes": [
+                "loss of self-awareness",
+                "disappearance of external worries"
+              ],
+              "vehicle_concept": "getting lost"
+            },
+            "source_span_original": "खो जाता हूँ मैं",
+            "source_span_translation": "I lose myself",
+            "source_term": "खो जाता हूँ मैं",
+            "tenor": "Being deeply absorbed or experiencing a state of meditative peace",
+            "vehicle": "Being physically lost or unable to find one's way",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing peacefully on the shore with eyes closed or looking out at the vast horizon, blending softly into the background colors to show integration with the scene."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation collapses the explicit masculine gender marking of the speaker in 'khata hoon main' (खो जाता हूँ मैं), rendering it as a gender-neutral 'I lose myself'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation is faithful, though the rhythmic flow of the Hindi phrasing 'tham si jaati hai' (seems to come to a standstill) is simplified to 'seems to stop'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The wind becomes extremely still, quiet, or calm, creating a sense of absolute peace.",
+            "acceptable_visual_variants": [
+              "Perfect stillness in beachside grass or palm leaves",
+              "A glassy, mirror-like sea surface reflecting a still sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L10",
+            "literal_meaning": "The wind physically pauses or stops its movement as if taking a break.",
+            "literalization_risk": "Showing a personified wind character freezing in place, which would look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "stillness of the air",
+              "transferred_attributes": [
+                "motionlessness",
+                "quietness"
+              ],
+              "vehicle_concept": "stopping or pausing"
+            },
+            "source_span_original": "हवा भी थम सी जाती है",
+            "source_span_translation": "even the wind seems to stop",
+            "source_term": "हवा भी थम सी जाती है",
+            "tenor": "The complete stillness and calm of the air at the shore",
+            "vehicle": "A person or moving entity coming to a sudden halt",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict completely still elements that would normally move in the wind, such as hanging leaves, grass, or water surfaces that are perfectly glassy and undisturbed."
+          },
+          {
+            "abstract_meaning": "The seashore is a place that inspires deep reflection, hopes, and imaginative dreams in people.",
+            "acceptable_visual_variants": [
+              "A starry night sky reflecting over a calm sea",
+              "A soft, golden hour glow over the ocean horizon creating a reflective, dreamlike mood"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L11",
+            "literal_meaning": "Countless dreams physically live or dwell in that location as residents.",
+            "literalization_risk": "Showing literal floating dream bubbles with cartoonish images inside them hovering over the beach, which ruins the mature, reflective tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "hopes and dreams inspired by a location",
+              "transferred_attributes": [
+                "dwelling",
+                "belonging to a place",
+                "presence"
+              ],
+              "vehicle_concept": "residents dwelling in a place"
+            },
+            "source_span_original": "वहां बसते हैं अनगिनत ख्वाब",
+            "source_span_translation": "Countless dreams reside",
+            "source_term": "वहां बसते हैं अनगिनत ख्वाब",
+            "tenor": "The seashore being a source of inspiration and reflection for human hopes",
+            "vehicle": "Dreams living as residents in a physical place",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, starry night sky over the ocean, or soft, ethereal light reflecting on the water to evoke a dreamlike, contemplative atmosphere."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the approximate, softening quality of the particle 'see' (सी) in 'tham see jaati hai' (थम सी जाती है), which means 'seems to come to a standstill' or 'almost stops' rather than a flat 'stops'.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sea as a space of quiet reflection, where losing oneself in nature leads to finding one's true self."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "समंदर के किनारे,  \nलहरों की आवाज़ में,  \nएक अनकही सी कहानी,  \nहर एक तट पर बसी है।  \n\nरेत पर जब कदम रखते हैं,  \nगहरी साँसों में समंदर की गंध,  \nमन में एक अजीब सा सुकून  \nऔर पल में खो जाता हूँ मैं।  \n\nसमंदर के किनारे,  \nजहां हवा भी थम सी जाती है,  \nवहां बसते हैं अनगिनत ख्वाब,  \nजहां हम अपने आप को पाते हैं।",
+  "poem_id": "MV++_0503",
+  "poem_title": "Samandar Ke Kinare",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6050566ce369519926726abf21cbb8ef655a8197783a0054c67919359f914a92",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0503.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "By the seashore,  \nIn the sound of the waves,  \nAn unspoken story,  \nLives on every shore.\n\nWhen steps touch the sand,  \nThe deep scent of the sea in the breath,  \nA strange kind of peace in the mind  \nAnd I lose myself in the moment.\n\nBy the seashore,  \nWhere even the wind seems to stop,  \nCountless dreams reside,  \nWhere we find ourselves.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:32:01.790686+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "84a5a765d16d0a171791e49aa6784ca5a4b233ca58039f965e732d2dd864ba70",
+        "response_hash": "5e86ed8bb3d6b0cfd757d0bc60d31e74ce2e761bb390e771c05bd6f4243cfa48"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "66a934af7b6d846c7d9cf07ce213bcd57b4f7abd23e22e284ecd986d41e8382e",
+        "response_hash": "96d67551b5122299480920998c953861bfc3e05f1e1ba6a3272e235082b96c9d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "01378a18c1f939b266afbf7d0e8e9a37d6e0ed8b9b40ea6a763841ae908f1ae6",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d259f069107c14813b2dc9fd1193de4fcb8c12920ecf784f4809a062594d644b",
+        "response_hash": "ff99b0d3d24302ba7e7f700dd9fb45a92d75d0ec1048f0790e94d7818240d861",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dcf26b5391710e09a4906d9ab7e3234197c97b5774b5162a74d9821d3372d015",
+        "response_hash": "e759a2e33ae0f70d2c0ceab92d7c6063b278a23b81dbc72c0c558a410a993d26",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c626e4081c561605989442143fa36043c4b6f59b519ed2d6798775c2420973f7",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "48d8f879362ab292ed4c3500ef5fb87fc0a4c57ddbd454832e3b2b0b1c8577c2",
+    "translation_sha256": "0a0c28804dc409feaa38f3adbbe92c2abe5086f5fafdd17b8448de996088ffd0"
+  }
+}

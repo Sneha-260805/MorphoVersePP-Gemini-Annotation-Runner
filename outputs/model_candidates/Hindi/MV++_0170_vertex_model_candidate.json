@@ -1,0 +1,192 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to quiet certainty and hope",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but loses the specific feminine grammatical marking of the speaker in 'milungi' (will meet, feminine) which establishes the speaker's gender identity in the original Hindi.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker will return in a completely different physical manifestation, identity, or state of being after death or separation.",
+            "acceptable_visual_variants": [
+              "A human figure dissolving into vibrant, colorful dust that reshapes into a new form.",
+              "A silhouette reflecting different colors and shapes in a series of ripples on water."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2-L3",
+            "literal_meaning": "In a physically different color and physical shape or appearance.",
+            "literalization_risk": "Showing a literal creature or object physically morphing into a different color and shape, which misses the poetic, spiritual, or emotional sense of reincarnation and eternal connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "reincarnation or spiritual return of the self",
+              "transferred_attributes": [
+                "difference in appearance",
+                "continuity of underlying identity"
+              ],
+              "vehicle_concept": "physical transformation of color and shape"
+            },
+            "source_span_original": "एक नए रंग में,\nएक नए रूप में",
+            "source_span_translation": "In a new color,\nIn a new form",
+            "source_term": "एक नए रंग में,\nएक नए रूप में",
+            "tenor": "The speaker's soul, essence, or memory returning in a different life, form, or medium.",
+            "vehicle": "A physical object or entity changing its color and shape.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a subtle, ethereal transition where a human silhouette or essence blends into a new natural element, such as a blooming flower or a shifting cloud, suggesting a change of form."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender marking of the speaker as female (indicated by the feminine verb ending 'milungi' in Hindi) is lost in the gender-neutral English 'I will meet'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender agreement of the adjectives 'naye' (masculine oblique) modifying 'rang' and 'roop' is lost in the gender-neutral English 'new'.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "Similar to the first stanza, the feminine verb ending in 'milungi' is lost in the gender-neutral English translation 'I will meet'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker will be remembered, expressed, or encountered through new narratives, memories, or artistic mediums.",
+            "acceptable_visual_variants": [
+              "An open book with pages turning into birds that fly towards a person.",
+              "Abstract soundwaves or ripples of light emanating from a natural source towards a contemplative observer."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6-L7",
+            "literal_meaning": "Inside a newly written literary tale and spoken through a different physical vocal sound.",
+            "literalization_risk": "Depicting a literal book being opened or a person speaking into a microphone, which reduces the profound spiritual return to mundane activities.",
+            "metaphor_mapping": {
+              "tenor_concept": "the legacy or spiritual presence of a loved one",
+              "transferred_attributes": [
+                "new medium of expression",
+                "recognition of the same underlying essence"
+              ],
+              "vehicle_concept": "a new narrative and acoustic sound"
+            },
+            "source_span_original": "एक नई कहानी में,\nएक नई आवाज़ में",
+            "source_span_translation": "In a new story,\nIn a new voice",
+            "source_term": "एक नई कहानी में,\nएक नई आवाज़ में",
+            "tenor": "The continuation of the speaker's presence and communication through memory, art, or a new life.",
+            "vehicle": "A newly told narrative and a different acoustic voice.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict abstract waves of light or wind carrying faint, glowing scripts or musical notes towards a listening figure, symbolizing a message or presence returning through a new medium."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender marking of the speaker as female ('milungi') is lost in the gender-neutral English 'I will meet'.",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender agreement of the feminine adjective 'nayi' modifying the feminine nouns 'kahani' and 'aawaaz' is lost in the gender-neutral English 'new'.",
+            "where": "L6-L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The eternal promise of reunion across different lifetimes, forms, and narratives."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं तुम्हें फिर मिलूंगी,  \nएक नए रंग में,  \nएक नए रूप में,  \nतब तुम मुझे पहचानोगे।  \n\nमैं तुम्हें फिर मिलूंगी,  \nएक नई कहानी में,  \nएक नई आवाज़ में,  \nतब तुम मुझसे बातें करोगे।",
+  "poem_id": "MV++_0170",
+  "poem_title": "Main Tumhe Phir Milungi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "adaac9173d412cdc4d1419b54af287273d0d049ad6862ccfa0776b3f5e057016",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0170.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I will meet you again,  \nIn a new color,  \nIn a new form,  \nThen you will recognize me.\n\nI will meet you again,  \nIn a new story,  \nIn a new voice,  \nThen you will talk to me.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:54:46.180373+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "26196794e634fd3733a9b72837ab8f06b2837cc9e49b338666e792e70f22d79f",
+        "response_hash": "9b446d8613245126ebb6dab28b9f3e0356bcfe53e9ec72e79a5271fd998f6e19"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df83537763accd8efb82318a4c6b8ad1c28f06f332e09cba32fc0d3e57a598f5",
+        "response_hash": "280f200f490e24549083638c09f7f9bca8e372e04545f7a2021547dd52edc0b2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c739689416caf02de5a48bc71bf273e6fd5671135918a429dc6120f25784b792",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "de715104c90845a62b5017138d2b2a76be536e82bd0b7fc82f23f93c1262ea55",
+        "response_hash": "2ee12cfe99dff4abe5baf786efb2cdc056a6a36c256c7274b688ac704821b9cf",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e2f0bf15247fa714b0f21bfee503282f802b41955199be4403a7924fc1b04bb",
+        "response_hash": "de22537e8ba452084638353a30eed267777b5ffa9a7d08fd8aabdd72ca185d13",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "89cf92a37c339413e5125cf70b71f098250e7c8c2d4807c516db5c5731d9ab0b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ddbee2310c7912e7c9e9b597e2944c4507d189706017cf4dac5b353214968783",
+    "translation_sha256": "d51e66aa3ff3c9445428197468b8c92a0cc146167c5e3eeadd0ed1fe03682555"
+  }
+}

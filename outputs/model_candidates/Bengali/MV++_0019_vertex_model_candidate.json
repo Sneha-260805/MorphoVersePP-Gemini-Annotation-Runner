@@ -1,0 +1,167 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A gentle transition from inquiry to quiet joy and peace, mirroring a smile breaking through like sun after rain.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'mukhore' as 'on my face' is highly literal and grammatically awkward; in Bengali, 'mukhore' is a poetic, locative-inflected form of 'mukhor' (vibrant/vocal/expressive) or a play on 'mukhe' (on the face), which loses its natural poetic resonance and fluid meaning in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A smile has appeared or formed on the face.",
+            "acceptable_visual_variants": [
+              "A close-up of a person smiling warmly with soft, warm light illuminating their face.",
+              "A stylized illustration where the lines of the smile gently mimic the soft curve of a opening petal in a non-literal, artistic way."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A smile has bloomed (like a flower).",
+            "literalization_risk": "Showing a literal flower growing out of a person's mouth or lips, which would look surreal or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "smile appearing",
+              "transferred_attributes": [
+                "opening up",
+                "bringing beauty",
+                "sudden appearance"
+              ],
+              "vehicle_concept": "flower blooming"
+            },
+            "source_span_original": "হাসি ফুটেছে",
+            "source_span_translation": "smile has bloomed",
+            "source_term": "হাসি ফুটেছে",
+            "tenor": "A smile appearing on a face",
+            "vehicle": "A flower blooming",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person's face transitioning into a warm, bright smile, perhaps with soft lighting that suggests the freshness of a bloom without drawing literal petals."
+          },
+          {
+            "abstract_meaning": "The sudden appearance of a smile brings warmth and relief after a period of sadness or gloom, just as the sun brings light after a rainstorm.",
+            "acceptable_visual_variants": [
+              "A split or transitioning scene showing rain-wet ground reflecting a newly emerged bright sun alongside a happy face.",
+              "A warm golden light washing over a face that was previously in shadow."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Like the sun rising after the rain",
+            "literalization_risk": "Showing a literal sun in the sky and rain clouds, which completely detaches the visual from the human emotion of the smile.",
+            "metaphor_mapping": {
+              "tenor_concept": "smile clearing sadness",
+              "transferred_attributes": [
+                "brightness",
+                "relief",
+                "warmth",
+                "dispelling darkness"
+              ],
+              "vehicle_concept": "sun clearing rain clouds"
+            },
+            "source_span_original": "বৃষ্টির পর সূর্য ওঠার মতো",
+            "source_span_translation": "Like the sun rising after the rain",
+            "source_term": "বৃষ্টির পর সূর্য ওঠার মতো",
+            "tenor": "A smile appearing on a face after sadness or gloom",
+            "vehicle": "The sun rising and clearing the sky after a rainstorm",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Juxtapose a smiling face with a background transition from soft, damp shadows to warm, golden sunlight breaking through."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'mukhore' literally as 'on my face' (or treats it as a locative of face), which obscures the poetic personification or address to a personified entity or state of being vocal/expressive ('mukhara' meaning talkative, resonant, or expressive).",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation shifts from 'your face/mouth' (tomar mukhe) in the Bengali source to 'your lips' in English, losing the literal repetition of 'mukhe' (face/mouth) which mirrors 'mukhore' in the surrounding lines.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet joy of seeing a smile return, compared to the sun emerging after rainfall."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Bengali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "আজ মুখরে\nআজ মুখরে কেমন আছো?\nআজ তো তোমার মুখে হাসি ফুটেছে।\nবৃষ্টির পর সূর্য ওঠার মতো,\nআকাশের নিচে তোমার মুখে হাসি,\nআজ মুখরে কেমন আছো?",
+  "poem_id": "MV++_0019",
+  "poem_title": "Aaj Mukhore",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5ffbb6269d0d7754d8a60eee9c46e6dadf5c34172d105583e192e81766842eb2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bengali/MV++_0019.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Today on My Face\nHow are you today on my face?\nToday, a smile has bloomed on your lips.\nLike the sun rising after the rain,\nUnder the sky, your smile,\nHow are you today on my face?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:38:32.448976+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ce73f51b336d02d897fdd42e95c0d9902730fc8104482a105acbcb8e4eb26d1",
+        "response_hash": "922b08c65494084e4c38be36f3cc07cff41a74af97aa8a9ba3f6c78a2b0e6133",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6695c98a534d813e0d2fd1ecd5cc559f14daa4ff55d59b13da786fb70df7d264",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d11b6df9fa8af83c1f05bf99ef37352f36895cbd917049a39bebe55c278c624e",
+        "response_hash": "917177cd237d38ef7afc5f35156826c1eee23665821d726b3cf393f4735b01a6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a16ce33b09e406cb33dabe86b6e445c2948d2b4ff0553d5cd2d1e02eb3c52454",
+        "response_hash": "96c8f1680d72bd46a90a0b134e82a63efd821d37d2f3fbb24672bb6346879dcc",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e5b4a32b1c0c05aee3f9fe27a33511d30097933015825a26c6b333988a43f219",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "877a007ab5b7b80efee85d003395ad6d0ce3739adae7a9ae207ffb9f12d5dd3c",
+    "translation_sha256": "1248be72aad505566c38b494112fd898e02c0f846afc00be37f4e56d6a740f67"
+  }
+}

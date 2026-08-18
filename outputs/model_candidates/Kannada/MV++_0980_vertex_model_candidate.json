@@ -1,0 +1,219 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A solemn vow, determination, or ritualized intention made before embarking on a task or spiritual endeavor.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sankalpa",
+        "source_span_original": "ಸಂಕಲ್ಪ",
+        "source_span_translation": "Resolution",
+        "stanza_index": 1,
+        "term": "ಸಂಕಲ್ಪ",
+        "translation_note": "Translated as 'Resolution', which captures the literal meaning of intent or resolve, but loses the ritualistic and solemn vow-making context of the Sanskrit-derived Kannada term.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A steady assertion of inner strength and resolve in the face of emerging difficulties.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Addressing resolution as an active, powerful entity with its own strength and agency.",
+            "acceptable_visual_variants": [
+              "A single figure stepping forward onto a new path with a focused expression",
+              "A glowing light emanating from a person's chest as they face a challenging path"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "Resolution, your strength",
+            "literalization_risk": "Depicting a literal human figure named 'Resolution' rather than representing the internal mental state of determination.",
+            "metaphor_mapping": {
+              "tenor_concept": "resolution",
+              "transferred_attributes": [
+                "strength",
+                "agency",
+                "capacity to act"
+              ],
+              "vehicle_concept": "personified agent"
+            },
+            "source_span_original": "ಸಂಕಲ್ಪ, ನಿನ್ನ ಶಕ್ತಿ",
+            "source_span_translation": "Resolution, your strength",
+            "source_term": "ಸಂಕಲ್ಪ, ನಿನ್ನ ಶಕ್ತಿ",
+            "tenor": "The abstract concept of resolution or determination",
+            "vehicle": "A personified entity possessing personal strength and agency",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a determined person taking a bold step forward, with a glowing or powerful aura representing the inner strength of their resolve."
+          },
+          {
+            "abstract_meaning": "The journey of life or a new undertaking characterized by taking fresh, progressive actions.",
+            "acceptable_visual_variants": [
+              "A winding path leading towards a sunrise",
+              "An open road with symbolic steps or markers of progress"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A path of new steps",
+            "literalization_risk": "Showing a literal dirt path with physical footprints, which misses the abstract sense of starting a new phase of life or project.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey or new endeavor",
+              "transferred_attributes": [
+                "direction",
+                "progression",
+                "novelty"
+              ],
+              "vehicle_concept": "physical path with footprints"
+            },
+            "source_span_original": "ಹೊಸ ಹೊಸ ಹೆಜ್ಜೆಗಳ ಪಥ",
+            "source_span_translation": "A path of new steps",
+            "source_term": "ಹೊಸ ಹೊಸ ಹೆಜ್ಜೆಗಳ ಪಥ",
+            "tenor": "A new course of action or life journey",
+            "vehicle": "A physical pathway marked by fresh footprints",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a path stretching into a bright horizon, with faint, glowing footprints leading forward to symbolize progress."
+          },
+          {
+            "abstract_meaning": "Difficulties or challenges becoming public, visible, or fully manifest.",
+            "acceptable_visual_variants": [
+              "Shadows stretching across a path ahead of a traveler",
+              "Obstacles appearing clearly in a beam of light"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L3",
+            "literal_meaning": "Difficulties coming out to the street",
+            "literalization_risk": "Showing literal monsters or personified troubles walking down a city street, which looks comical rather than serious.",
+            "metaphor_mapping": {
+              "tenor_concept": "becoming visible or public",
+              "transferred_attributes": [
+                "exposure",
+                "confrontation",
+                "visibility"
+              ],
+              "vehicle_concept": "coming out to the street"
+            },
+            "source_span_original": "ಬೀದಿಗೆ ಬರುವ ಸಂಕಷ್ಟ",
+            "source_span_translation": "The difficulties coming to light",
+            "source_term": "ಬೀದಿಗೆ ಬರುವ ಸಂಕಷ್ಟ",
+            "tenor": "Problems becoming visible, exposed, or actively confronting someone",
+            "vehicle": "An entity coming out into the public street",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict symbolic obstacles or shadows emerging from darkness into a lit area, representing challenges coming to light."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಬೀದಿಗೆ ಬರುವ' (coming to the street) as 'coming to light' flattens the vivid, physical Kannada idiom of public exposure or vulnerability into a generic English abstract phrase.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic emphasis and doubling of 'ಹೊಸ ಹೊಸ' (new, new) which intensifies the sense of freshness and repetitive action is reduced to a single 'new' in English.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The power of resolution and willpower to overcome obstacles on a new path."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಸಂಕಲ್ಪ, ನಿನ್ನ ಶಕ್ತಿ,  \nಹೊಸ ಹೊಸ ಹೆಜ್ಜೆಗಳ ಪಥ,  \nಬೀದಿಗೆ ಬರುವ ಸಂಕಷ್ಟ,  \nಆಗಲೇ ಗೆಲ್ಲುವ ಇಚ್ಛೆ.",
+  "poem_id": "MV++_0980",
+  "poem_title": "Sankalpa",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ac052a1f0f6e727cc4c7991fb27214bb3094f49d66bc3d9b5c9f7465dc1731fd",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0980.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Resolution, your strength,  \nA path of new steps,  \nThe difficulties coming to light,  \nA will to win at once.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:39:15.822591+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b6f12e09db7d57b0f36f6f97a66dd8abe2bf30b194d8e1003fe9d6e5f5796c7f",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a76255cab4b14f6ce6ac35a7b5f5f646511cd177a7cbfb63bdfd1acd2551dfc2",
+        "response_hash": "aea620a2018b0cc44bd336f4e5b51ee5b86dbc89dff552857a3b88cfb514cfbf",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6fa71eeaae6c495ac21d0f99af9f5cad5f622a2e822aaa36a256dd30988b0bbb",
+        "response_hash": "e612933f978beb475c07bfd75f7482051650b0b98c79a6da1bbbfe7b7d65d719",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a3342750cfb2d4feb68909a1851f3bd65375d8627a2c2573f2e2ae1adc300da1",
+        "response_hash": "102a867ffe2a8590d52e84a22dac49d2381feda44c0d10fc1f77cfbd28ffecfc",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b466ab8d1d7cb07dac6c717d24a77bc936c182621ba38ad3df64f034209cbd03",
+        "response_hash": "fafc0d26ae301e6582257e40ac3c39d15e4ef0b49d7512385b9d1012c265da33",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6733c05e4c0169b7b66355dea2ef44f663de893fad631ee9ab24bb8459922cfa",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6fccc0c786bff01136d799255c57a3eb49d43e649bc76010515bcaedad540a80",
+    "translation_sha256": "69b7cac861bf94cf26bcd60a165507733ae9ac02a69ecaa53d7a3875af005a5a"
+  }
+}

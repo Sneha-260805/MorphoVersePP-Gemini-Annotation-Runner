@@ -1,0 +1,200 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "devotion and wonder",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the agglutinative depth of Tamil case endings (such as the locative in 'anbil' and 'vithiyil') is simplified into standard English prepositions.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The inner joy, hope, or spiritual clarity residing within a person's emotional core.",
+            "acceptable_visual_variants": [
+              "A warm golden glow radiating from a person's chest",
+              "A small, gentle flame or spark of light held near the chest"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical light emanating from the anatomical heart",
+            "literalization_risk": "Showing a glowing physical heart organ inside a chest cavity, which looks medical or surreal rather than emotional.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner joy",
+              "transferred_attributes": [
+                "brightness",
+                "guidance",
+                "warmth"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "இதயத்தின் ஒளி",
+            "source_span_translation": "The light of the heart",
+            "source_term": "இதயத்தின் ஒளி",
+            "tenor": "inner joy, hope, or spiritual clarity",
+            "vehicle": "light / illumination",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, soft golden glow radiating from a person's chest area, illuminating their peaceful expression."
+          },
+          {
+            "abstract_meaning": "Being completely overwhelmed, surrounded, or deeply immersed in a state of love.",
+            "acceptable_visual_variants": [
+              "A person standing under a gentle downpour of golden light",
+              "A person surrounded by swirling, warm-colored mist or waves of light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Submerging or drowning physically in a liquid called love",
+            "literalization_risk": "Depicting a person literally drowning or submerged underwater, which suggests suffocation or danger rather than affection.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional intensity",
+              "transferred_attributes": [
+                "surrounding completely",
+                "penetrating deeply",
+                "saturation"
+              ],
+              "vehicle_concept": "liquid immersion"
+            },
+            "source_span_original": "அன்பில் மூழ்கி",
+            "source_span_translation": "Drenched in your love",
+            "source_term": "அன்பில் மூழ்கி",
+            "tenor": "being deeply overwhelmed or filled with love",
+            "vehicle": "immersion / drowning in liquid",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person standing under a gentle, warm downpour of golden light or soft rain, looking joyful and receptive."
+          },
+          {
+            "abstract_meaning": "Shining brilliantly, expansively, and limitlessly, filling one's entire life with brightness.",
+            "acceptable_visual_variants": [
+              "A vast night sky filled with brilliant, sparkling stars",
+              "A bright, radiant daytime sky reflecting on a calm landscape"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Sparkling or flashing in the exact physical manner of the sky",
+            "literalization_risk": "Depicting a literal sky flashing with lightning, which could look stormy or threatening.",
+            "metaphor_mapping": {
+              "tenor_concept": "limitless joy",
+              "transferred_attributes": [
+                "expansiveness",
+                "brilliance",
+                "all-encompassing nature"
+              ],
+              "vehicle_concept": "the vast sky"
+            },
+            "source_span_original": "வானமாக மின்னுகிறது",
+            "source_span_translation": "Shines like the sky",
+            "source_term": "வானமாக மின்னுகிறது",
+            "tenor": "the expansive and brilliant manifestation of inner joy in one's life",
+            "vehicle": "the vast, shining sky",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a vast, clear night sky filled with brilliant, sparkling stars, or a bright, radiant daytime sky reflecting on a calm landscape."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil suffix '-il' in 'அன்பில்' (anbil) and 'விதியில்' (vithiyil) functions as a locative case marker ('in' / 'within'). In L2, 'அன்பில் மூழ்கி' literally means 'drowning/submerging in love', which the English translates as 'Drenched in your love'. While 'drenched' captures the wetness/immersion metaphor, it loses the specific sense of deep submersion or drowning ('மூழ்கி') inherent in the Tamil verb. Additionally, the rhythmic flow of the parallel locative endings (-il) across L2 and L3 is flattened in the English prepositional translation.",
+            "where": "L2-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil adverbial suffix '-aaga' in 'வானமாக' (vaanamaaga) literally means 'as the sky' or 'becoming the sky'. The English translation uses 'like the sky', which shifts the grammatical construction from an identity/transformative adverbial state ('shines as the sky') to a standard comparative simile ('like the sky').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of love illuminating one's destiny"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "இதயத்தின் ஒளி,  \nஉன் அன்பில் மூழ்கி,  \nஎன் வாழ்வின் விதியில்,  \nவானமாக மின்னுகிறது!",
+  "poem_id": "MV++_1368",
+  "poem_title": "Ithayathin Oli",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f4f7d769737c91ef0523d3791c45d57901b1504fa60ef12e3cbea8276e53094d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1368.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The light of the heart,  \nDrenched in your love,  \nIn the fate of my life,  \nShines like the sky!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:26:27.131626+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "75c56ca681c15236245ccc69178fdebda0a6fa5d77e1e0bd6e612897f810742a",
+        "response_hash": "b7e5ceff9d006024a3cf712f9312fad7095f0edd6630529989f25ec8767b2a60"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8bb16decbb1907456eb601cd07dcf5e2363d43ed42bb1bdfbfe51a8b0440898e",
+        "response_hash": "01371b7e4d4f00bc9ec6d17e12f67e1e455e3a4d0d49fd693e5cd26964a8dc19",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "43868f60ec6c5fb588e9b973fd62eb61e77e43934c3ce54f990fa571180aeb68",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a82c4a4556e9f1e809b301423f1775a917fc417ddad79a6eedea1efa2e586a36",
+        "response_hash": "f1b47a72cc7ada8d1154ac374b18f9bfe8c7d9ace2caa1503a1e519cb38658d6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "072f89b23494872b8ced552fffbbd8c1df1309ee49ed8868fa5e7a73aa0fff0c",
+        "response_hash": "2b66ba39f313e7b417811247f4f7dddf46043faf2eb6214cd82ed1ed6adb0ad7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "988f39b158b2fc089dd6ecdae9b8b97a7dbcc8739dbd644e4fd8ac6e36d8c456",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "391340eb8806509c186c648342d6397e4fef815cd2a21489564d45d803f4b2f4",
+    "translation_sha256": "b664d0867da6f45407a18a74a19f6a4348cf0947c2b96dd5a3e81b8b12955484"
+  }
+}

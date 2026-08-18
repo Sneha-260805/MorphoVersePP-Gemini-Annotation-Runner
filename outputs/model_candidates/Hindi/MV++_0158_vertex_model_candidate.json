@@ -1,0 +1,226 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The raindrop falls with a sense of purpose, seeking to realize unfulfilled hopes or dreams on earth.",
+            "acceptable_visual_variants": [
+              "A close-up of a single raindrop suspended mid-air against a soft-focus background",
+              "A raindrop about to touch a leaf, reflecting a starry sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "As if in search of dreams.",
+            "literalization_risk": "Showing a literal raindrop holding a magnifying glass or map looking for physical 'dreams' would look cartoonish and miss the poetic mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "raindrop",
+              "transferred_attributes": [
+                "seeking",
+                "having dreams",
+                "purposeful movement"
+              ],
+              "vehicle_concept": "human seeker"
+            },
+            "source_span_original": "जैसे सपनों की खोज में।",
+            "source_span_translation": "In search of dreams untold.",
+            "source_term": "जैसे सपनों की खोज में।",
+            "tenor": "A falling raindrop",
+            "vehicle": "A traveler or seeker searching for dreams",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a single, clear raindrop falling gracefully through the air towards the earth, reflecting soft light to suggest inner hope."
+          },
+          {
+            "abstract_meaning": "The scattered water droplets on the ground look like scattered, glowing moonlight.",
+            "acceptable_visual_variants": [
+              "Dewdrops on grass glowing under a night sky",
+              "Wet earth shimmering with reflected light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Moonlight scattered on the earth",
+            "literalization_risk": "Depicting actual beams of moonlight physically shattered like glass on the soil would be confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "fallen raindrops",
+              "transferred_attributes": [
+                "brightness",
+                "glowing appearance",
+                "scattered pattern"
+              ],
+              "vehicle_concept": "scattered moonlight"
+            },
+            "source_span_original": "धरती पर बिखरी चाँदनी,",
+            "source_span_translation": "Scattered on the earth,\nMoonlight's joy, bright and bold.",
+            "source_term": "धरती पर बिखरी चाँदनी,",
+            "tenor": "Fallen raindrops on the ground",
+            "vehicle": "Scattered moonlight",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show glistening, reflective water droplets scattered across dark soil or leaves, catching and reflecting the night light."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the word 'untold' in L2, which does not exist in the original Hindi line (जैसे सपनों की खोज में - 'as if in search of dreams'). The concept of 'unspoken' (अनकहे) actually belongs to L5 in the second stanza, causing a structural and semantic shift.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of L4 ('Moonlight's joy, bright and bold') completely alters the original meaning 'आसमान से बिछड़ी खुशी में' ('in the joy of being separated from the sky' or 'in the joy of parting from the sky'), losing the poignant paradox of finding joy in separation.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The fallen water droplets create numerous reflections, bringing a beautiful abundance of new perspectives and images.",
+            "acceptable_visual_variants": [
+              "A macro shot of water droplets acting as tiny lenses reflecting the surrounding world",
+              "A shimmering wet surface reflecting a vast sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Brought a spring season of new reflections/images.",
+            "literalization_risk": "Showing literal flowers blooming inside water droplets or a sudden spring season erupting from a single drop would be too literal and visually jarring.",
+            "metaphor_mapping": {
+              "tenor_concept": "multitude of reflections",
+              "transferred_attributes": [
+                "abundance",
+                "beauty",
+                "renewal",
+                "freshness"
+              ],
+              "vehicle_concept": "spring season of abundance"
+            },
+            "source_span_original": "ले आई नये अक्सों का बहार।",
+            "source_span_translation": "Brought new reflections, nourished.",
+            "source_term": "ले आई नये अक्सों का बहार।",
+            "tenor": "An abundance of new reflections in the water droplets",
+            "vehicle": "A spring season (bahaar) of blooming flowers",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict multiple tiny reflections of the sky, stars, or surrounding nature mirrored clearly inside scattered water droplets on the ground."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'in the air' to L5, which is not present in the original Hindi text ('सपने थे जो अनकहे' - 'dreams that were unspoken').",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of L8 ('Brought new reflections, nourished') introduces the word 'nourished' to force a rhyme with 'cherished', losing the poetic Urdu-derived imagery of 'बहार' (spring/bloom) in 'नये अक्सों का बहार' ('a spring of new reflections/images').",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Finding hope, beauty, and new beginnings in the act of falling or letting go"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing medium and high severity losses (such as completely altering the meaning of L4). This is internally inconsistent; the quality should be 'partial' or 'lost' if significant semantic shifts occurred.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing low and medium severity losses (such as introducing 'nourished' for rhyme and losing the imagery of 'bahaar'). This is internally inconsistent; the quality should be 'partial' if there is documented loss.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आसमान से गिरी एक बूँद,  \nजैसे सपनों की खोज में।  \nधरती पर बिखरी चाँदनी,  \nआसमान से बिछड़ी खुशी में।  \n\nसपने थे जो अनकहे,  \nवो लम्हे हुए यादगार।  \nगिरकर भी वो बूँद,  \nले आई नये अक्सों का बहार।",
+  "poem_id": "MV++_0158",
+  "poem_title": "Aasman Se Gira",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "66738e2e86abaa9b7326ebaf2626156703996c969c15d88eb96b63f02f0d8c48",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0158.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A drop fell from the sky,  \nIn search of dreams untold.  \nScattered on the earth,  \nMoonlight's joy, bright and bold.\n\nUnspoken dreams in the air,  \nThose moments become cherished.  \nEven in falling, that drop,  \nBrought new reflections, nourished.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:53:12.397674+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea52058087901ffe9b12ccca7934f97b526715c116822d52e29b6647591cac99",
+        "response_hash": "823294dd8b4c076fb94aec5d552a0e4da933083438757f6bcea640c913034630",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5ecb060280c697f39fd3ac74144bd6b4e3914ce1ef497ed23956b41d69eba7d4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d9c2c429a43a13499c146c56a9b130fe8c55adf749ba6047e2bc232ccd282896",
+        "response_hash": "c9dba5bf0c4d8cbfa413fca7418bd2608e583318dec135ffe8de1d55f6b81046",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2da607dd0de61b6a9f82860400fb504d20fa448680138a721dc55f67845e573c",
+        "response_hash": "ee761a615122701dfd96c8eb0d5d5146390163387e2bd385dca32c02aa1ada24",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e07a060c3dc3641aeecccff93af0da664162d4450a7430682a39f3a6d1703aca",
+        "response_hash": "42459a3032d81d1928e63a584b4133eb7829bb88c472f305dc3b9e6065059764",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8b4b3a5365a41ae7a9187be1f23b49e5d184c41cf0f7c7f9dbb2ebb9d300d846",
+    "translation_sha256": "db589efedced4f2d0171576deb8022193b193b7bcdd5c288ad3879e3d788ac3f"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady declaration of deep, expansive love for the beloved.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation rearranges the syntax and introduces phrases like 'With love so vast, I hold you close' which are not literal matches for the original Konkani lines, though they capture the overall romantic sentiment.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Loving someone with immense, boundless depth and scale, reaching the absolute limit of what is possible.",
+            "acceptable_visual_variants": [
+              "A vast, open sky filled with stars stretching over a quiet landscape",
+              "A figure standing on a high peak looking out into an endless horizon of clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "reaching the sky / touching the heavens",
+            "literalization_risk": "An illustrator might literally depict a person physically climbing or stretching to touch a blue sky, which misses the emotional and romantic scale of the declaration.",
+            "metaphor_mapping": {
+              "tenor_concept": "experiencing or expressing boundless love",
+              "transferred_attributes": [
+                "immensity",
+                "limitless height",
+                "grandeur"
+              ],
+              "vehicle_concept": "reaching the physical sky"
+            },
+            "source_span_original": "आसमान गाठून",
+            "source_span_translation": "I reach the skies",
+            "source_term": "आसमान गाठून",
+            "tenor": "the immense scale and depth of the speaker's love",
+            "vehicle": "reaching the physical sky or the highest point of the atmosphere",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a couple or a solitary figure looking up at a vast, starry night sky or a sweeping, endless horizon, emphasizing the scale of the sky relative to the human figure to evoke the vastness of the emotion."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces 'With love so vast, I hold you close' which is not present in the original text. The original literally says 'I love you' (मी प्रेम करतो) after reaching the sky of the entire world. Additionally, 'Konnan' (कोनन) is translated as 'beloved' but carries a more specific intimate or personal connotation that is slightly flattened.",
+            "where": "L1-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The boundless, cosmic scale of romantic devotion."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Konkani",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "माझ्या कोनन  \nतुला,  \nसंपूर्ण जगाचं  \nआसमान गाठून  \nमी प्रेम करतो.",
+  "poem_id": "MV++_1165",
+  "poem_title": "Mhojea Konnan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a321d63a65280914abc0b7b7d6da2fe9afcc43b5ac17f0b550420c312e0110f6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Konkani/MV++_1165.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "To my beloved,  \nI reach the skies,  \nOf the entire world,  \nWith love so vast,  \nI hold you close.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:04:52.689248+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2011cbb757e5db4783dd60e80c87cced81c60b9c7e8e0e68d69e6550d46aa41e",
+        "response_hash": "44ea498b04442a9e680025e1513a3266ab4ffad28bae0e84d8b6f9bcdfcf7757",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e790dda773937399aefee77098d08fe840418af7cb83df91d1d11d753c62d765",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4df36a0eb3ca241eadb0555fb8fcf5fd3025c0b1d6f6c5a5699f916f1278a1fa",
+        "response_hash": "b5138c0e7b01915a70fb43a29f164441b65b5efcc34249294b8bfe3cf6e11bf8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "72106825ff07310df1953bd312b3f11ba401648c3a46569aa71706c242c6cfb3",
+        "response_hash": "3b6db547cc0985000e3828eeba48bf86d8054777ff3113ddcd86652450457616",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "30daf270a37f35d3acd52973d01f91506feb72c901ad61378e9d0d6398bdcc62",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d876972550cc1c92e50ad9f5f079af3d74a365b6eff04d19a3d3f0ccf345e841",
+    "translation_sha256": "2a1763e38feb69b40e3558284528c6e4a84e353a186313b5c3965839df877c6b"
+  }
+}

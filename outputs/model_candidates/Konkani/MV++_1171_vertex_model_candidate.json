@@ -1,0 +1,147 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation adds 'restless soul' which is not present in the original Konkani text, and rearranges the lines to interpret the emotional depth rather than translating literally.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved is the speaker's ultimate desire, hope, and source of deep personal meaning.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking up at a starry night sky where the stars softly outline a comforting presence.",
+              "Two figures sitting together in a soft, glowing, dreamlike nocturnal landscape."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "You are literally a sequence of thoughts, images, and sensations occurring in my mind during sleep.",
+            "literalization_risk": "Depicting a literal sleeping person with a thought bubble containing the beloved's face, which makes it look like a literal sleep state rather than a poetic expression of devotion.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved person",
+              "transferred_attributes": [
+                "idealized beauty",
+                "deep personal desire",
+                "presence in the night",
+                "source of comfort and aspiration"
+              ],
+              "vehicle_concept": "dream"
+            },
+            "source_span_original": "तूच माझं स्वप्न",
+            "source_span_translation": "You are my dream",
+            "source_term": "तूच माझं स्वप्न",
+            "tenor": "the beloved person",
+            "vehicle": "a dream (an idealized vision experienced during sleep)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, atmospheric night scene where a central figure is surrounded by soft, ethereal light or stardust, suggesting a dreamlike presence without literal sleep."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The opening line 'तूका जाऊं आस' (Tuka zaum aas), which expresses a deep wish, hope, or desire ('May you be' or 'Let there be a hope for you'), is completely omitted in the English translation, which jumps straight to 'You are my dream'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The English translation adds the phrase 'To my restless soul' at the end, which has no direct textual equivalent in the original Konkani stanza.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The comforting presence of a beloved who brings peace to the soul in the quiet of the night."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Konkani",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तूका जाऊं आस  \nतूच माझं स्वप्न,  \nसंपूर्ण रात्रीत  \nतू माझ्या सोबत,  \nशांतता आणतेस.",
+  "poem_id": "MV++_1171",
+  "poem_title": "Tuka Zaum Aas",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2de80a2b354fbf0aebd0e999d7e6e60cc97ede037750ea6e57f2dda048c3d68b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Konkani/MV++_1171.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "You are my dream,  \nIn the depths of night,  \nWith you beside me,  \nYou bring peace,  \nTo my restless soul.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:05:19.603583+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "771413eb1d29bb43bc4d99656cb7c32c14275ccca3a859da90100b98f5827a45",
+        "response_hash": "bd98aff2161cb71c3ffa9eab07200f40497e16f2fd1558eb516e45f022ff4bcb"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e267682c3bccfc0310e69684d8bbbc994c9bc325e92d9c6c962aff9da3b7c41a",
+        "response_hash": "50d3334339fd0ada499b499b76ecabc5293ff2ae4b474d74d078e5d1ee646cf1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "455e4040f1f331c0f72ff75c2aaf06c85816e0408db1b51b4b2d81a9a62d5bf3",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c604c6dd6cc1b735b801bdad3645734b899d5d12f9747523bf684bf056e26e05",
+        "response_hash": "9a544756598715dd896e0b90eda7ed5e0b2a63c3d21a9469aec64049bd4b801e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e7a47937270d9f04f68d3cbba710e6cae1c2ec556101d12ff3a546be3fbe4cad",
+        "response_hash": "a23af5f4720edc269013c190b018c94a7f906d5d421353782b044c7103f9c412",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d2101b88113483d62e671d78bdabadc35f0775ae7095bcfab99caf88050a1b51",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "15a5d7e07eaaf1b67f1dc83de5da8443d96d522d571f853e8e4d0810cfed79ac",
+    "translation_sha256": "43c8d3467c35706d472fa321ddce09ec9d2e1b0e9e354f543859276fd84fa480"
+  }
+}

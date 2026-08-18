@@ -1,0 +1,260 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple unglazed terracotta cup (kulhad)",
+          "A slightly wider clay bowl or vessel used for drinking"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional clay cup, commonly known as a kulhad in South Asia, used to drink tea, water, or other liquids, deeply associated with the earthy, rustic life of the region.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern glazed ceramic mug",
+          "A highly polished porcelain teacup",
+          "A metallic cup or goblet"
+        ],
+        "preserved": true,
+        "romanization": "mitti ka pyaala",
+        "source_span_original": "मिट्टी का प्याला",
+        "source_span_translation": "cup of soil",
+        "stanza_index": 1,
+        "term": "मिट्टी का प्याला",
+        "translation_note": "The translation renders 'मिट्टी का प्याला' (clay cup) as 'cup of soil', which partially shifts the cultural nuance of a traditional clay vessel (kulhad) to the raw material itself.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A small, unglazed, reddish-brown or terracotta-colored clay cup",
+          "Rough, textured surface showing natural clay imperfections",
+          "Handmade, rustic appearance without handles"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "wonder to deep peace and love",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'नभ का विस्तार दिया' as 'embraced the vastness of the sky' slightly alters the active causative sense of 'दिया' (gave/bestowed), which suggests the speaker actively offered or opened up that vastness.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Experiencing the deep, nourishing, and grounding essence of life and nature.",
+            "acceptable_visual_variants": [
+              "A person drinking from a rustic clay cup (kulhad) with a serene expression, surrounded by lush green nature.",
+              "A close-up of hands cradling a simple earthen cup filled with clear, glowing water reflecting the sky."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "drank the juice/sap of the earth",
+            "literalization_risk": "An illustrator might literally depict someone drinking mud, dirt, or brown liquid from a cup, which looks unappealing and misses the spiritual/emotional nourishment.",
+            "metaphor_mapping": {
+              "tenor_concept": "experiencing the nourishing essence of life",
+              "transferred_attributes": [
+                "nourishment",
+                "intake",
+                "vitality",
+                "sweetness"
+              ],
+              "vehicle_concept": "drinking a sweet liquid or sap"
+            },
+            "source_span_original": "धरती का रस पिया",
+            "source_span_translation": "drank the essence of the earth",
+            "source_term": "धरती का रस पिया",
+            "tenor": "experiencing the nourishing essence of earthly existence",
+            "vehicle": "drinking a liquid juice or sap",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person holding a simple clay cup close to their lips, with a soft, warm glow emanating from the cup, symbolizing the vital energy of the earth."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'नभ का विस्तार दिया' as 'And embraced the vastness of the sky' alters the active verb 'दिया' (gave/bestowed) to 'embraced', shifting the agency and the literal action of offering or granting vastness.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The tactile and cultural resonance of 'मिट्टी का प्याला' (clay cup/earthen cup, often associated with a simple, organic, and traditional vessel like a kulhad) is partially flattened to 'cup of soil', which sounds more like a cup filled with loose dirt rather than a vessel made of baked earth.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'सिमटी धरा' as 'the earth resides' loses the specific physical nuance of 'simti' which means shrunk, gathered, or condensed into a small space.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Feeling a deep, intimate connection with existence and the living world.",
+            "acceptable_visual_variants": [
+              "A hand gently resting on the damp, rich soil of the earth.",
+              "A person standing with eyes closed, feeling a gentle breeze or warm sunlight on their face."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "took the physical touch of life",
+            "literalization_risk": "An illustrator might try to draw a personified figure named 'Life' physically touching the speaker, which would look bizarre and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual or emotional connection",
+              "transferred_attributes": [
+                "intimacy",
+                "closeness",
+                "tangibility",
+                "reality"
+              ],
+              "vehicle_concept": "physical touch"
+            },
+            "source_span_original": "जीवन का स्पर्श लिया",
+            "source_span_translation": "felt the touch of life",
+            "source_term": "जीवन का स्पर्श लिया",
+            "tenor": "experiencing a deep emotional or spiritual connection with existence",
+            "vehicle": "physical touch or contact",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the speaker gently touching a natural element, like a green leaf, wet soil, or a budding flower, with a look of deep mindfulness."
+          },
+          {
+            "abstract_meaning": "An expansive, all-encompassing state of love and emotional fulfillment.",
+            "acceptable_visual_variants": [
+              "A warm, golden light radiating from a simple clay cup, illuminating a peaceful landscape.",
+              "A person cradling a small clay cup, with tiny, glowing particles of light floating upward like stars into the night sky."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "a physical world/universe made of love",
+            "literalization_risk": "An illustrator might draw a literal planet shaped like a heart, which is a cliché and misses the profound, quiet tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "an immense state of love",
+              "transferred_attributes": [
+                "vastness",
+                "completeness",
+                "habitation",
+                "abundance"
+              ],
+              "vehicle_concept": "a physical planet or universe"
+            },
+            "source_span_original": "प्रेम का संसार",
+            "source_span_translation": "world of love",
+            "source_term": "प्रेम का संसार",
+            "tenor": "an expansive, all-encompassing state of love and emotional fulfillment",
+            "vehicle": "a physical world or universe",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, radiant light expanding outward from the small clay cup, enveloping the surroundings in a soft, welcoming glow."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'और प्रेम का संसार दिया' as 'And it gave a world of love' leaves the subject of 'दिया' (gave) ambiguous, whereas the Hindi verb form maintains a poetic continuity of agency with the speaker's actions throughout the poem.",
+            "where": "L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific nuance of 'सिमटी' (shrunk, condensed, or gathered closely) in 'सिमटी धरा' is translated as 'the earth resides', losing the vivid imagery of the vast earth being condensed or gathered into a tiny cup.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding the vastness of the universe and the depth of love within the simplest, most humble vessel of earth."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मिट्टी का प्याला भरकर,  \nमैंने धरती का रस पिया।  \nसागर की गहराई छोड़ी,  \nनभ का विस्तार दिया।  \n\nमुझमें समाहित सारी धरा,  \nमैंने जीवन का स्पर्श लिया।  \nएक प्याले में सिमटी धरा,  \nऔर प्रेम का संसार दिया।",
+  "poem_id": "MV++_0809",
+  "poem_title": "Mitti Ka Pyaala",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a88d91821c8fbf42c85144812697d3fd61adc330b5289605822dc464f6bb2e52",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0809.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Filling a cup of soil,  \nI drank the essence of the earth.  \nI left the depths of the ocean,  \nAnd embraced the vastness of the sky.  \n\nWithin me, the entire earth rests,  \nI felt the touch of life.  \nIn one small cup, the earth resides,  \nAnd it gave a world of love.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:14:41.726149+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "40af593c0308744f423947c944b49077ca6afe46fe182b039275c1a9f012e044",
+        "response_hash": "97291f06e71f1465b75be5477aeaf45372e23c6b037b965c7e1b524b7f26919c"
+      },
+      {
+        "attempt": 2,
+        "outcome": "success",
+        "prompt_hash": "b0209dad065d4799a7c4a21c95e891e0397beea4c008adee187253a8a3fbdb25",
+        "response_hash": "3229bcf4da674c8b71ebbd090b9730e0c43393190909ced040177acb7789f47c"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "62268dd7fadb08452d482ed8447aafe8e7beb99d57cf964e863c28ddaca3a1b1",
+        "response_hash": "ece6c1d0c832d4997165d7b021de5c24d9d418b2e33ad6e1a3396b11a393b642",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1e0c7c4e5d844ccee6aab002476c065421abbf7d03f92635bbf369bfb7b95be7",
+        "response_hash": "d46935e4d63ed546e124c3da4afcf403734c8c3d91de3b64380099191c3e609a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79bbbf1094a3c28a53d37e39c018b95e5c0e24cdb9e5f727c3c4380a33378e5c",
+        "response_hash": "7f0f9de4c92d3f13b6d7f3b719ebd2971259498eb648d9a51723069afcf99de2",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e96143c8fef386ce965ea15e9ff40dc97f2499884b54c5f26222678962bba13b",
+        "response_hash": "9813ce39b0ebd3c95e31897c56e44b8b57c34208202ef81d39387a3309523c72",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b27ad48419f4bc207631dbbaedb5872dc4819a7d0f8d3edb7ef0e23a748f496f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7f9373f32f9bce967eafdb3a0bd1c18a8057e67d7f407b89f8bd3d38cbd9d8ef",
+    "translation_sha256": "402ca7d13c8584a17fd289f86426b2adac9d05d5e691cf05d5b9e90c4cb44c39"
+  }
+}

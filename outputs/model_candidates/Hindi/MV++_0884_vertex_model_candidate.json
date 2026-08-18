@@ -1,0 +1,296 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A Hindustani/Urdu-derived term widely used in Hindi poetry to denote fate, destiny, or fortune, carrying cultural connotations of pre-ordained life paths.",
+        "line_ref": "L6",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "naseeb",
+        "source_span_original": "नसीब",
+        "source_span_translation": "what’s fated",
+        "stanza_index": 2,
+        "term": "नसीब",
+        "translation_note": "Translated as 'what's fated', capturing the core concept of destiny or fate.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "grief and longing to resilience and acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "What is done is done, and we should let go of past events rather than dwelling on them.",
+            "acceptable_visual_variants": [
+              "A person gently opening their hands to let autumn leaves or dust blow away in the wind.",
+              "A path stretching forward into bright light, with the background behind the traveler fading into soft mist."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "That which passed, that matter passed.",
+            "literalization_risk": "Showing a physical object literally floating away or passing by a person, which misses the psychological act of letting go of memories.",
+            "metaphor_mapping": {
+              "tenor_concept": "letting go of past emotional burdens",
+              "transferred_attributes": [
+                "irreversibility",
+                "unimportance of what has moved away"
+              ],
+              "vehicle_concept": "passing of physical objects or time"
+            },
+            "source_span_original": "जो बीत गई सो बात गई",
+            "source_span_translation": "What is past, is past",
+            "source_term": "जो बीत गई सो बात गई",
+            "tenor": "Letting go of past grievances, sorrows, or events that cannot be changed.",
+            "vehicle": "A physical event or matter passing by or flowing away.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking forward along a path, leaving faded, blurry footprints or shadows behind them in the distance."
+          },
+          {
+            "abstract_meaning": "To repeatedly dwell on, calculate, or obsess over past events or grievances.",
+            "acceptable_visual_variants": [
+              "A hand turning away from an abacus or a ledger book left open and untouched.",
+              "A person closing a book of old records or tallies and looking away."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "To count or calculate numerically.",
+            "literalization_risk": "Showing someone literally counting coins, stones, or tally marks on a wall, which suggests financial calculation or imprisonment rather than mental rumination.",
+            "metaphor_mapping": {
+              "tenor_concept": "obsessive mental recollection of pain",
+              "transferred_attributes": [
+                "repetition",
+                "quantification of grievances",
+                "keeping score"
+              ],
+              "vehicle_concept": "numerical counting or tallying"
+            },
+            "source_span_original": "गिनते हैं",
+            "source_span_translation": "count that again",
+            "source_term": "गिनते हैं",
+            "tenor": "Mentally revisiting and obsessing over past painful memories.",
+            "vehicle": "Counting physical items or keeping a tally.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking at a chaotic, unquantifiable cloud of abstract shapes or shadows, resisting the urge to sort or count them."
+          },
+          {
+            "abstract_meaning": "To revive or make painful memories feel raw and active again.",
+            "acceptable_visual_variants": [
+              "A hand touching a cracked, dry surface that suddenly glows with hot, sharp light along the cracks.",
+              "A faded memory sketch suddenly gaining sharp, harsh outlines."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "To make fresh (like food, flowers, or a physical wound).",
+            "literalization_risk": "Showing someone watering a plant or washing a physical wound, which carries positive or purely medical connotations rather than emotional self-harm.",
+            "metaphor_mapping": {
+              "tenor_concept": "reviving emotional trauma",
+              "transferred_attributes": [
+                "rawness",
+                "intensity",
+                "lack of healing"
+              ],
+              "vehicle_concept": "refreshing a physical state or wound"
+            },
+            "source_span_original": "ताजा करते",
+            "source_span_translation": "made fresh",
+            "source_term": "ताजा करते",
+            "tenor": "Re-awakening emotional pain so that it hurts as intensely as when it first happened.",
+            "vehicle": "Refreshing or renewing a physical object or wound to keep it from healing or decaying.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a heart or abstract emotional core glowing with a sharp, sudden red or orange light amidst a cool, dark background, symbolizing the sudden reignition of pain."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The idiomatic and rhythmic quality of the refrain 'जो बीत गई सो बात गई' (Jo beet gayi so baat gayi), which relies on internal rhyme and a proverbial cadence, is flattened into a literal English statement.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'गिनते हैं' as 'count' misses the idiomatic Hindi sense of 'ginnā' in this context, which means to dwell on, obsessively recount, or keep score of past grievances.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The true essence, definition, or purpose of living.",
+            "acceptable_visual_variants": [
+              "A figure walking forward into a sunrise, symbolizing the active embrace of the future.",
+              "A hand releasing a bird into the open sky, representing the liberating essence of life."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L5",
+            "literal_meaning": "The name of life / living.",
+            "literalization_risk": "Showing someone writing the word 'Life' on a tag or label, which is overly literal and lacks emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "the core essence of an experience",
+              "transferred_attributes": [
+                "identity",
+                "definition",
+                "essential quality"
+              ],
+              "vehicle_concept": "a name or label"
+            },
+            "source_span_original": "जीने का नाम",
+            "source_span_translation": "The name of living",
+            "source_term": "जीने का नाम",
+            "tenor": "The defining characteristic or essential practice of a meaningful life.",
+            "vehicle": "A name or label assigned to an identity.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict an active, forward-moving gesture, such as a person taking a step forward into a vibrant, open landscape, leaving a dark forest behind."
+          },
+          {
+            "abstract_meaning": "What is done is done, and we should let go of past events rather than dwelling on them.",
+            "acceptable_visual_variants": [
+              "A person gently opening their hands to let autumn leaves or dust blow away in the wind.",
+              "A path stretching forward into bright light, with the background behind the traveler fading into soft mist."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L7",
+            "literal_meaning": "That which passed, that matter passed.",
+            "literalization_risk": "Showing a physical object literally floating away or passing by a person, which misses the psychological act of letting go of memories.",
+            "metaphor_mapping": {
+              "tenor_concept": "letting go of past emotional burdens",
+              "transferred_attributes": [
+                "irreversibility",
+                "unimportance of what has moved away"
+              ],
+              "vehicle_concept": "passing of physical objects or time"
+            },
+            "source_span_original": "जो बीत गई सो बात गई",
+            "source_span_translation": "What is past, is past",
+            "source_term": "जो बीत गई सो बात गई",
+            "tenor": "Letting go of past grievances, sorrows, or events that cannot be changed.",
+            "vehicle": "A physical event or matter passing by or flowing away.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking forward along a path, leaving faded, blurry footprints or shadows behind them in the distance."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'भूल जाना नसीब है' as 'Is to forget what’s fated' alters the meaning. In Hindi, 'naseeb' refers to destiny or fortune; the original line suggests that being able to forget is a matter of good fortune or a gift of destiny, rather than forgetting destiny itself.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The colloquial, encouraging tone of 'जीने का है' (one must live / is about living) is rendered as 'what's awaited', which introduces a passive expectation not present in the active, forward-looking Hindi phrasing.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Letting go of past sorrows and moving forward with life"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing medium-severity losses. This is internally inconsistent.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing high and medium-severity losses. This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जो बीत गई सो बात गई,\nउसी को फिर न गिनते हैं।\nहर दर्द को ताजा करते,\nहर ग़म को फिर से जीते हैं।\n\nजीने का नाम है यारों,\nभूल जाना नसीब है।\nजो बीत गई सो बात गई,\nआगे बढ़कर जीने का है।",
+  "poem_id": "MV++_0884",
+  "poem_title": "Jo Beet Gayi So Baat Gayi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b913dc01787e858f08fe9774ef3e463a2afe7199f04122cc5781a5c0970d6b51",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0884.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What is past, is past,\nWe do not count that again.\nEach pain is made fresh,\nEvery sorrow we live again.\n\nThe name of living, dear friends,\nIs to forget what’s fated.\nWhat is past, is past,\nMoving on is what’s awaited.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:26:14.584137+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b3aff7bcefb8be1844cdc0d2c015966b8aaca76a3a003b306dfd756faab24b0",
+        "response_hash": "b2eebb2118cdcb5f570ed4f27e595d285b231656a82252195ab5c0a9c9aeb89d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "53a871f23e09d5cc9f5e6bb9363fb19ca2d87066c92ad41df8c1b0385cef9f92",
+        "response_hash": "baadafba8c0082ab287dbe80f2ed245bf3babbc8722659436d0ef0e31c9c39da",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b396662c3fd4a8a53ced39e96d22ec6c0935b6bc79b7f518ad50b2c8faa055f4",
+        "response_hash": "ad418b48b1574454df4784c5fa0c05b5ae67972cf39d62c23a7540cfa6daa6f8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8c61fbeaa475738061f09d9be4c4da6b754c7942ada2b999e6a091832b0cbf0f",
+        "response_hash": "b74403de6161d4605a06dd3b2c5ff1e19acb5421fb797edc3a01ea3a38176f44",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "28bc73d58ff1dd6f9a0218a89d44e27ac6c398a60e28c39e06f6fa9bb815244d",
+        "response_hash": "cb5c7a9d9e054808f120d410bef94c7a9430deac7ad8129b1d33b75542e2246c",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d4c8411d6801363fabacc64384b46f3656a9c93982abfd0081c53537620d9729",
+    "translation_sha256": "b09f1e36fcc7a0ca06aa1f597e99d150bbb5b1a7cd56134bc5770c1838d8163e"
+  }
+}

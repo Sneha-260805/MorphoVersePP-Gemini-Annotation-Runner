@@ -1,0 +1,250 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A boat made of white lined notebook paper",
+          "A boat made of printed newspaper"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A paper boat, which is a deeply nostalgic and culturally resonant symbol of childhood monsoon play in South Asia, immortalized in regional literature and music.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern plastic toy boat",
+          "A large wooden sailboat or ship"
+        ],
+        "preserved": true,
+        "romanization": "kagaz ki kashti",
+        "source_span_original": "कागज की कश्ती",
+        "source_span_translation": "A paper boat",
+        "stanza_index": 1,
+        "term": "कागज की कश्ती",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A simple, hand-folded origami-style paper boat made from notebook paper or newspaper",
+          "Floating on a small puddle or stream of rainwater on a street"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "nostalgic longing to peaceful joy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation adds 'again' to complete the rhyme scheme, which is not explicitly present in the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The fragile, fleeting, and simple joys of childhood memories.",
+            "acceptable_visual_variants": [
+              "A close-up of a single paper boat in a puddle",
+              "Children's hands placing a paper boat into flowing rainwater"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A toy boat folded out of paper",
+            "literalization_risk": "An illustrator might draw a literal giant paper boat carrying people, rather than capturing the nostalgic, small-scale toy aspect of childhood play.",
+            "metaphor_mapping": {
+              "tenor_concept": "childhood memories",
+              "transferred_attributes": [
+                "fragile",
+                "simple",
+                "fleeting",
+                "joyful"
+              ],
+              "vehicle_concept": "paper boat"
+            },
+            "source_span_original": "कागज की कश्ती",
+            "source_span_translation": "A paper boat",
+            "source_term": "कागज की कश्ती",
+            "tenor": "Childhood innocence, fragility, and nostalgic memories",
+            "vehicle": "A paper boat floating in rain water",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a small, hand-folded paper boat floating in a puddle or stream of rainwater on a street."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'again' to create a rhyme with 'rain', which is not present in the original Hindi text.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic, alliterative flow of the Hindi words 'kashti' and 'bahati' is lost in the English translation.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation renders 'नदियों का पार' as 'Across the streams' to fit the rhyme scheme, slightly altering the literal sense of crossing or reaching the other side of rivers.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The boundless imagination and hopeful outlook of childhood.",
+            "acceptable_visual_variants": [
+              "A soft, dreamlike overlay of stars and playful shapes around children",
+              "A child looking up at a starry, imaginative sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "A physical world or planet made of dreams",
+            "literalization_risk": "A literal rendering might show a surreal, floating planet made of sleeping faces or clouds, which is too abstract and misses the grounded childhood context.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams and imagination",
+              "transferred_attributes": [
+                "vastness",
+                "all-encompassing",
+                "creative"
+              ],
+              "vehicle_concept": "world/universe"
+            },
+            "source_span_original": "सपनों का संसार",
+            "source_span_translation": "A world of dreams",
+            "source_term": "सपनों का संसार",
+            "tenor": "The vast, imaginative thoughts and hopes of children",
+            "vehicle": "A world or universe",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a whimsical, imaginative background blending with the children's play, perhaps showing soft, glowing elements or playful sketches in the sky."
+          },
+          {
+            "abstract_meaning": "The feeling of absolute joy, love, and warmth in every small moment of childhood play in the rain.",
+            "acceptable_visual_variants": [
+              "Raindrops glistening with warm, golden light reflections",
+              "Children laughing with upturned faces catching raindrops"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Love physically contained inside water droplets",
+            "literalization_risk": "Drawing literal heart shapes inside falling water drops can look cartoonish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "love and joy",
+              "transferred_attributes": [
+                "ubiquity",
+                "refreshing nature",
+                "purity"
+              ],
+              "vehicle_concept": "raindrops"
+            },
+            "source_span_original": "हर बूँद में प्यार",
+            "source_span_translation": "In every drop, love gleams",
+            "source_term": "हर बूँद में प्यार",
+            "tenor": "Abundant love and happiness felt during the rain",
+            "vehicle": "Raindrops",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict falling rain catching warm, golden light, creating a joyful, glowing atmosphere around the playing children."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'nadiyon ka paar' (literally 'the other side of the rivers' or 'crossing the rivers') as 'Across the streams' to fit the rhyme scheme, slightly altering the scale from rivers to streams.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the verb 'gleams' to rhyme with 'streams', whereas the original Hindi simply states 'har boond mein pyaar' (literally 'love in every drop').",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The innocent joy and dreams of childhood symbolized by a paper boat in the rain"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कागज की कश्ती,  \nबारिश में बहती,  \nबचपन की यादों में,  \nखुशियों की बातें।  \n\nसपनों का संसार,  \nनदियों का पार,  \nसाथ मेरे दोस्त,  \nहर बूँद में प्यार।",
+  "poem_id": "MV++_0086",
+  "poem_title": "Kagaz Ki Kashti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3c0bccb09ffd7813e8a81f33353a5f4815b199ab8db64a29978adf5e90ddc954",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0086.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A paper boat,  \nDrifting in the rain,  \nIn the memories of childhood,  \nTalking of joys again.  \n\nA world of dreams,  \nAcross the streams,  \nWith my friends beside,  \nIn every drop, love gleams.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:45:07.069552+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aeb186d804083d99391e9eb2e94a59815fe6ddb790342f1c3b08fef46b1d8d52",
+        "response_hash": "8d7161f787d96a09566c4612f5e9e5880571f1680a94d284d9d17cbe317d1dc6"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b78e8f134fd7111f61f33687ac9ecb0f575f3371fa13da1196934618052559b",
+        "response_hash": "2ffadde1cffd1d03815fb3512394d48f419ca5223dbb2a68fa3e594e4b491c53",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "100a45ad1ddba3435f1d3c949ec79503db3f30350fc39796fa2557eb8f3694b6",
+        "response_hash": "5330fb7e5203ed27260c6545722aebb6743a7aeeb801409805a78583f2e9fe0c",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9dd9f7761fd3cdfcd4142517aa90613db3b3efb26f8d32552d812b34b72687e5",
+        "response_hash": "3501c822f7e3e37f31fbcf6d0acfc0c679327848c2098ba13a626dea653a3be1",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b7dcbea348e0a3a409c6f98a69aeffe8e0ae78cac768346e93caeaefb420f28e",
+        "response_hash": "8d71e4b108ffe25c8beddc2c5e4ae2ae55f002e547fab8974d1a2a8af8f8e552",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "638c8086a1b08599227fa374e9df4ccc7359c08c6ca467d41bbdfd09a7bf81d4",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "88298e96e6fb300810a604c112fe3b7a439591b1fe73f2cdee61493d06c1617f",
+    "translation_sha256": "bf306ad1bd25bc93b6d382e009031762f238890feb5556a62b6232e768f8d122"
+  }
+}

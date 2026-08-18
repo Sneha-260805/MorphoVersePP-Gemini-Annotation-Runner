@@ -1,0 +1,200 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "solitude and quiet self-realization to a state of inner peace and self-sufficiency",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic, repetitive cadence of 'suno suno' and the internal rhyme of 'bunti ye baatein' are flattened into standard English prose.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The enchanting, transformative, or captivating atmosphere of the season.",
+            "acceptable_visual_variants": [
+              "A person standing in a soft, misty breeze with warm sunlight filtering through trees",
+              "A quiet landscape transitioning from afternoon to twilight with glowing ambient light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The literal sorcery or spell of the weather/season",
+            "literalization_risk": "Showing literal wizardry, magic wands, or fantasy spells which would distort the realistic emotional atmosphere of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "seasonal atmosphere",
+              "transferred_attributes": [
+                "enchantment",
+                "transformative power",
+                "captivation"
+              ],
+              "vehicle_concept": "magic"
+            },
+            "source_span_original": "मौसम का जादू",
+            "source_span_translation": "magic of the season",
+            "source_term": "मौसम का जादू",
+            "tenor": "the captivating atmosphere of the season",
+            "vehicle": "magic/sorcery",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a subtle, atmospheric shift in weather or light (e.g., golden hour light, falling leaves, or mist) to evoke a magical feeling without literal fantasy elements."
+          },
+          {
+            "abstract_meaning": "The profound, absorbing, or transformative quality of being alone.",
+            "acceptable_visual_variants": [
+              "A single silhouette looking out of a window into a quiet night sky",
+              "A person sitting peacefully in an empty, spacious room filled with soft shadows"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The literal sorcery or spell of loneliness/solitude",
+            "literalization_risk": "Depicting literal spellcasting or supernatural glowing effects around a lonely person, which misrepresents the internal, psychological state.",
+            "metaphor_mapping": {
+              "tenor_concept": "solitude",
+              "transferred_attributes": [
+                "captivation",
+                "transformative power",
+                "deep absorption"
+              ],
+              "vehicle_concept": "magic"
+            },
+            "source_span_original": "तन्हाई का जादू",
+            "source_span_translation": "magic of solitude",
+            "source_term": "तन्हाई का जादू",
+            "tenor": "the absorbing and introspective quality of solitude",
+            "vehicle": "magic/sorcery",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on a single figure in a vast, quiet, and peaceful space, using soft lighting to emphasize a reflective, comfortable state of being alone."
+          },
+          {
+            "abstract_meaning": "The process of thoughts or words gradually forming and connecting in one's mind during quiet contemplation.",
+            "acceptable_visual_variants": [
+              "A person sitting in deep thought with soft, swirling dust motes or light patterns in the air around them",
+              "A close-up of a reflective face with eyes closed, suggesting active inner monologue"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Words literally weaving or knitting together like threads",
+            "literalization_risk": "Showing literal threads, yarn, or a loom physically weaving letters or words together, which is too literal and whimsical.",
+            "metaphor_mapping": {
+              "tenor_concept": "forming thoughts",
+              "transferred_attributes": [
+                "intertwining",
+                "gradual creation",
+                "structuring"
+              ],
+              "vehicle_concept": "weaving threads"
+            },
+            "source_span_original": "बुनती ये बातें",
+            "source_span_translation": "words weave",
+            "source_term": "बुनती ये बातें",
+            "tenor": "the gradual formation and connection of thoughts or self-talk",
+            "vehicle": "weaving/knitting",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent the concept of internal dialogue through a thoughtful facial expression or a reflective pose, perhaps with abstract, flowing lines of light or wind around the figure to suggest flowing thoughts."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'उससे बड़ा कोई मुझसे नहीं' as 'No one is greater than me' loses the complex grammatical play of 'मुझसे' (than me / from me) and 'उससे' (than that / from that), which sets up a comparative relationship between the self and the silence/magic rather than a simple superlative statement.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'खुद से ही बुनती ये बातें' as 'These words weave with myself' loses the active, self-generative aspect of the feminine plural verb agreement in 'बुनती' (weaving) which personifies 'बातें' (words/conversations) as actively weaving themselves.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding strength and self-sufficiency within the quiet magic of solitude and silence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सुनो सुनो, ये मौसम का जादू है,  \nखामोशी में छिपा है जो,  \nउससे बड़ा कोई मुझसे नहीं।  \nसुनो सुनो, ये तन्हाई का जादू है,  \nखुद से ही बुनती ये बातें,  \nमुझसे बड़ा कोई मुझसे नहीं।",
+  "poem_id": "MV++_0806",
+  "poem_title": "Suno Suno",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0ac2eee24804e432af7a92bdc5b3152efe177f65e74c9d19eb38f76d2c3754e1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0806.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Listen, listen, it’s the magic of the season,  \nWhat hides in silence,  \nNo one is greater than me.  \nListen, listen, it’s the magic of solitude,  \nThese words weave with myself,  \nNo one is greater than me.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:14:20.331395+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "46217f4cf30383c604d5ac3e3ce08a4688d5ebc926e436604a1b32a4fdf47f8e",
+        "response_hash": "3795fcc09b3773d41b4a9bbf716270658b3bea19e5cdc8d68ba107bc656cf4f3"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7969f3c8ad7ce21dbc5400989497f81b7917018fca6aea375996ec7c4715bd4",
+        "response_hash": "7a0e3585d67fb9654c5f603d80fa8091bf114bb2a7e6ffa026ef42aa4c15a1a6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e5f5a703ca51c484ee37e723a04b0ac564055632b5595ccb964dadae84bca094",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ee0b9d654f4b94d8800d238d311017f62a364c757930a72c9a8ae00a0b664f6",
+        "response_hash": "85485cb2310d8d2a88343a1b4ad931f5f464370b9e6a564c8adb3b9386e34ad9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d90777e6f1ef6c24e327daa11a91868e542577c3d28c3343180edaa1f52c4644",
+        "response_hash": "92d8fde673355e3bd6fb9332d0a4a0e53e4df3774e70e36afb8932853e1e3937",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5560e00afca2556d396ae37609ce01aa94e4792331d290368f20c2754bcce6bc",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "00e916fb50e1c7042f964b6189414ee6760615514abeb04981e91650f06c0db9",
+    "translation_sha256": "318748418415ac50733ac95144d73be8e22a09a2f08d62bcc5ecd2f5e8a55c48"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to deep inner peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the rhythmic, song-like quality of the repeated phrase 'tora man darpan' and the colloquial warmth of 'jiyara'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The human mind reflects one's true inner self, thoughts, and moral state, just as a mirror reflects physical appearance.",
+            "acceptable_visual_variants": [
+              "A person looking at a clean, traditional hand mirror that reflects a glowing light instead of a literal face",
+              "A silhouette of a head filled with a calm, reflective lake under a starry sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Your mind is a mirror",
+            "literalization_risk": "An illustrator might literally draw a physical mirror floating inside or replacing a human head, which looks surreal or comical rather than deeply reflective.",
+            "metaphor_mapping": {
+              "tenor_concept": "human mind",
+              "transferred_attributes": [
+                "reflecting truth",
+                "showing flaws and beauty",
+                "revealing the unseen inner state"
+              ],
+              "vehicle_concept": "mirror"
+            },
+            "source_span_original": "तोर मन दर्पण",
+            "source_span_translation": "Your mind is the mirror",
+            "source_term": "तोर मन दर्पण",
+            "tenor": "human mind",
+            "vehicle": "mirror",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking thoughtfully into a clear, calm pool of water or a soft, glowing reflective surface that shows a serene reflection of their face or a starry sky, symbolizing self-reflection."
+          },
+          {
+            "abstract_meaning": "The gentle, silent, and beautiful way nature communicates or expresses itself.",
+            "acceptable_visual_variants": [
+              "A close-up of dew-kissed flowers opening up to the morning sun",
+              "A person leaning down to smell a flower, capturing a moment of silent communion"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "In the speech/words of flowers",
+            "literalization_risk": "Drawing flowers with literal human mouths speaking words would look cartoonish and ruin the poetic, serene atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural beauty of flowers",
+              "transferred_attributes": [
+                "expressiveness",
+                "ability to convey meaning and emotion"
+              ],
+              "vehicle_concept": "human speech"
+            },
+            "source_span_original": "फूलों की बातों में",
+            "source_span_translation": "In the words of flowers",
+            "source_term": "फूलों की बातों में",
+            "tenor": "the silent beauty and presence of flowers",
+            "vehicle": "human speech",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a gentle breeze blowing through a field of blooming flowers, with petals softly drifting as if whispering to one another."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The colloquial, regional flavor of the pronoun 'तोर' (tora) is flattened into the standard English possessive 'your', losing its specific dialectal warmth and poetic register.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The intimate, colloquial term 'जियरा' (jiyara) for heart/soul is translated as the standard 'heart', losing its regional poetic texture and emotional resonance.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation accurately conveys the philosophical paradox of light and darkness, though the structural alignment in the provided stanza map is slightly shifted.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The human mind reflects one's true inner self, thoughts, and moral state, just as a mirror reflects physical appearance.",
+            "acceptable_visual_variants": [
+              "A person looking at a clean, traditional hand mirror that reflects a glowing light instead of a literal face",
+              "A silhouette of a head filled with a calm, reflective lake under a starry sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "Your mind is a mirror",
+            "literalization_risk": "An illustrator might literally draw a physical mirror floating inside or replacing a human head, which looks surreal or comical rather than deeply reflective.",
+            "metaphor_mapping": {
+              "tenor_concept": "human mind",
+              "transferred_attributes": [
+                "reflecting truth",
+                "showing flaws and beauty",
+                "revealing the unseen inner state"
+              ],
+              "vehicle_concept": "mirror"
+            },
+            "source_span_original": "तोर मन दर्पण",
+            "source_span_translation": "Your mind is the mirror",
+            "source_term": "तोर मन दर्पण",
+            "tenor": "human mind",
+            "vehicle": "mirror",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking thoughtfully into a clear, calm pool of water or a soft, glowing reflective surface that shows a serene reflection of their face or a starry sky, symbolizing self-reflection."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic repetition and regional dialect of 'तोर मन दर्पण' (tora man darpan) is rendered in standard English, losing the musicality and specific cultural register of the original phrasing.",
+            "where": "L12-L13"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The human mind as a reflective mirror of nature, light, and darkness"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].metaphor_spans[0].source_span_translation",
+      "issue": "The source_span_translation 'Your mind is the mirror' does not exist in Stanza 2 of the provided STANZA MAP. The translation for Stanza 2 contains 'Your mind is the mirror' as its first line, but the mapping of the translation text is severely shifted between Stanza 1 and Stanza 2 in the STANZA MAP, causing a mismatch in translation alignment.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तोर मन दर्पण\nतोर मन दर्पण,\nजियरा में तेरा\nचाँदनी रात में झिलमिल।\nतोर मन दर्पण,\nफूलों की बातों में,\nगुलाब की खुशबू में,\nतोर मन दर्पण,\nतोर मन दर्पण।\n\nजो छुपा है अंधेरों में,\nवो छुपा है रोशनी में।\nतोर मन दर्पण,\nतोर मन दर्पण।",
+  "poem_id": "MV++_0140",
+  "poem_title": "Tora Man Darpan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "290025f34aec80fa9e8a788645c165b5128cbd1ac9d7c0d9218e69ff42967864",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0140.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Your Mind is the Mirror\n\nYour mind is the mirror,\nIn your heart,\nIt sparkles like the moonlit night.\nYour mind is the mirror,\nIn the words of flowers,\nIn the fragrance of roses,\nYour mind is the mirror,\nYour mind is the mirror.\n\nWhat hides in the darkness,\nIs concealed in the light.\nYour mind is the mirror,\nYour mind is the mirror.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:50:56.415051+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "615eaf5ec20327da8409a858f9d4f4c76dfa8b4353b3e36284027840d0810d80",
+        "response_hash": "8c7f5bc226b3ea8ffe70a78eefa2726b0ff02fee22e0e347080ee754bceded62"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "497b5bb98bb59ce12421a4fb00fbf7a4c63e587d82a9b2f26574b576668c6423",
+        "response_hash": "a3016a8f5c60ad8fd3f79a6baf71cd5bed4d1e573ffaa404d81dc99bb198b17c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2ed7f8c52c610deff04117cbf1b5ddfbe045255d2677d810b0386dedfcf74663",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "95fa9acdce62fa57d233048e1f539367f23c661539b51ba7aa8585cc6453f0e9",
+        "response_hash": "a0b6d4d21eb5e0735df38fba818b80c4c750ed904d3e6859dc194d0882b0c9df",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9f3c3c21a9344d6feb2c89ee81223dfc8b63a1930d3171cc9bc4a7739155d66e",
+        "response_hash": "6db69f5eb401182752e76339e0d2d17e5d754944d37855f8104b5dd5ea2b22d4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3be25d23d4c0e070a737058ddc8f5c2a09f676e3f5696accdb72062edd739a4b",
+        "response_hash": "eb069f4892fcab84f143fc031fc2085090c8dff180b0e36bb216d11a28f335d3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "23e32d70dcfdef86f96c0c68bd65dabcee9c7aadd691b7677e2d9b58a617ff63",
+    "translation_sha256": "3664b2b1d12b94589b93d49d2575f54aaaba23b764c7616dda5f8e6013128088"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and acceptance of life's lessons",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the core meaning well, though the nuance of 'nashibachi ghadi' (the turn/unfolding of fate) is simplified to just 'fate' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's life and lived experiences serve as their primary source of education and wisdom.",
+            "acceptable_visual_variants": [
+              "A person observing a bustling street or working in a field, with a faint, translucent outline of a university gate in the background.",
+              "An open book whose pages turn into a winding road or path of life."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "My university / higher education institution",
+            "literalization_risk": "Showing a literal modern university campus with classrooms and blackboards, which would completely miss the metaphorical focus on raw, unstructured life experiences.",
+            "metaphor_mapping": {
+              "tenor_concept": "life experience",
+              "transferred_attributes": [
+                "teaching lessons",
+                "providing education",
+                "having lecturers"
+              ],
+              "vehicle_concept": "university"
+            },
+            "source_span_original": "माझं विद्यापीठ",
+            "source_span_translation": "My university",
+            "source_term": "माझं विद्यापीठ",
+            "tenor": "The speaker's life and lived experiences",
+            "vehicle": "A university (an institution of formal higher learning)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a symbolic blend of a person walking through a rugged, real-world path or street, with subtle academic elements like floating pages or a faint architectural archway blending into the natural environment."
+          },
+          {
+            "abstract_meaning": "The unpredictable turns of fate and destiny act as the instructor that delivers life's lessons.",
+            "acceptable_visual_variants": [
+              "An abstract, cloaked figure gesturing toward a winding road, symbolizing destiny guiding a traveler.",
+              "A symbolic representation of a shifting wheel of fortune or folding fabric in the sky, casting light down like a spotlight on a stage."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "The fold/turn of fate is the female lecturer",
+            "literalization_risk": "Depicting a literal female professor standing at a wooden podium in a lecture hall, which obscures the abstract concept of destiny shaping one's life.",
+            "metaphor_mapping": {
+              "tenor_concept": "fate",
+              "transferred_attributes": [
+                "delivering lessons",
+                "speaking to students",
+                "guiding learning"
+              ],
+              "vehicle_concept": "lecturer"
+            },
+            "source_span_original": "व्याख्यात्री असते नशिबाची घडी",
+            "source_span_translation": "fate is the lecturer",
+            "source_term": "व्याख्यात्री असते नशिबाची घडी",
+            "tenor": "The unfolding of fate or destiny",
+            "vehicle": "A female university lecturer or speaker",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a stylized, shadowy or ethereal figure representing fate, perhaps holding an hourglass or weaving a thread, standing in a teaching posture over a path."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'नशिबाची घडी' (nashibachi ghadi) as 'fate' loses the specific nuance of 'ghadi', which literally refers to a fold, turn, or state of affairs, suggesting the unfolding or shifting nature of destiny rather than just abstract fate.",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The feminine grammatical gender of the lecturer ('व्याख्यात्री', vyakhyatri) is lost in the gender-neutral English word 'lecturer'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Life itself is the ultimate university, where experience teaches us and fate dictates the lessons."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Marathi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "माझं विद्यापीठ  \nजिथं जगणं शिकवतात,  \nकुठलाही विषय नसतो इथं  \nफक्त अनुभवांची शिकवण,  \nआणि व्याख्यात्री असते नशिबाची घडी.",
+  "poem_id": "MV++_1192",
+  "poem_title": "Mazhe Vidyapeeth",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "8b7dcff1b4c3c6cef25a04be759f8077bcdf53704894dbf47915b77e088d4462",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Marathi/MV++_1192.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My university,  \nWhere they teach you how to live,  \nThere are no subjects here,  \nOnly lessons of experience,  \nAnd fate is the lecturer.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:07:19.750577+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "81c5f07bcbd398eab736d401d40702ef307a139e3da94aa7d8a80992e43bd380",
+        "response_hash": "9b39cb5bff738c8ea7b5ee22460b7637e824a0aa5d4527000f3865c86e9bd6c3"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4ab2bae44015daf722320c73fad28ea988f007045b79483de3e0a8dacb46c27",
+        "response_hash": "63b30b2e04cac38844fc329ac00c6e12f25184297f7ce5b6dec4891039a9cf8a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be48bb69c53e37d7b21f6236b7b037ab587515b08639b7eff3e528b49b7a75b9",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "54f4f723c875d9c35e3d3f432370ce43f47d60a2722841700200c73ae85e0aee",
+        "response_hash": "e6cfe721750813f5fe49b3ec090f58dbdbfeea1927864cd20cb964933dfab72e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bc47b873eaa56dec0670ebdf2b4f1d062e9f33a5301d1820136773dff0800523",
+        "response_hash": "0853a32d46602929b83da266df0d8bbcad7ebf914daf9cf9607cdd4dfe56eca3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fc7b58533e660431f3ebf06b2a69ee4384ff41400ae984782a6a1e053fc80356",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "39c48cd2c0d130f4822dd8fd40048597c1bf8e4cd425f93efbaa28db3cd577bb",
+    "translation_sha256": "2f830439bd3cab12449194f0cd94c6a245d578ad53dc8688692563b76a666cd7"
+  }
+}

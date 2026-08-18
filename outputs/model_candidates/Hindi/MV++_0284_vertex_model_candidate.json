@@ -1,0 +1,243 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple, solemn walk of a person or group under a hot sun",
+          "A symbolic representation of a final journey with barricades in the background"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Literally 'final journey', a culturally specific Hindi term commonly used to refer to a funeral procession or a person's final journey after death. In this context, it carries both the literal sense of a physical final journey under duress and the cultural weight of a funeral procession.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A festive or celebratory parade",
+          "A generic tourist journey"
+        ],
+        "preserved": true,
+        "romanization": "antim yatra",
+        "source_span_original": "अंतिम यात्रा",
+        "source_span_translation": "final journey",
+        "stanza_index": 1,
+        "term": "अंतिम यात्रा",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A solemn procession",
+          "A body being carried or moving slowly",
+          "A path under a harsh sun"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "grief and physical exhaustion to quiet acceptance and resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The final stage of life, approaching death or the end of a journey.",
+            "acceptable_visual_variants": [
+              "A lone silhouette walking toward a soft, fading horizon line.",
+              "A path that gradually dissolves into mist or light."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The last physical trip or funeral procession.",
+            "literalization_risk": "An illustrator might literally depict a funeral procession or a physical traveler walking down a road, which misses the internal, existential transition of the speaker.",
+            "metaphor_mapping": {
+              "tenor_concept": "approaching death",
+              "transferred_attributes": [
+                "finality",
+                "movement toward a destination",
+                "inevitability"
+              ],
+              "vehicle_concept": "physical journey"
+            },
+            "source_span_original": "अंतिम यात्रा",
+            "source_span_translation": "final journey",
+            "source_term": "अंतिम यात्रा",
+            "tenor": "The transition to death or the end of life",
+            "vehicle": "A physical journey or final trip",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure walking toward a horizon where the path fades into light or mist, avoiding overly literal funeral imagery."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'घेराबंदी' (gherabandi) as 'barricades' loses the active, surrounding sense of encirclement or siege inherent in the Hindi term, which implies being trapped or cordoned off rather than just encountering physical obstacles.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The phrase 'सिमटती हुई दूरी' (simatti hui doori) carries a nuanced sense of distance shrinking, folding, or wrapping itself up, which is flattened into the more literal 'shrinking distance' in English.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The repetitive, circular nature of memories that keep returning to the mind.",
+            "acceptable_visual_variants": [
+              "Swirling, circular ripples of light surrounding a central figure.",
+              "A circular halo of soft, translucent, overlapping scenes from the past."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "A physical wheel or circular object made of memories.",
+            "literalization_risk": "Depicting a literal physical wheel with pictures or memories pasted on it could look cartoonish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "recurring memories",
+              "transferred_attributes": [
+                "circularity",
+                "repetition",
+                "ability to trap or hold back"
+              ],
+              "vehicle_concept": "wheel or cycle"
+            },
+            "source_span_original": "यादों का चक्र",
+            "source_span_translation": "cycle of memories",
+            "source_term": "यादों का चक्र",
+            "tenor": "The recurring and persistent nature of memories",
+            "vehicle": "A wheel or circular cycle",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a figure surrounded by swirling, circular patterns of light or faint, overlapping translucent images of past events."
+          },
+          {
+            "abstract_meaning": "The course, experiences, and inevitable progression of human life.",
+            "acceptable_visual_variants": [
+              "A winding path extending into a vast, open landscape under a changing sky.",
+              "A single track leading forward through contrasting terrains of light and shadow."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "A physical road or path that belongs to life.",
+            "literalization_risk": "An illustrator might draw a literal highway or dirt road with a signpost saying 'Life', which is cliché and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "course of life",
+              "transferred_attributes": [
+                "direction",
+                "inevitable forward movement",
+                "obstacles and milestones"
+              ],
+              "vehicle_concept": "road or path"
+            },
+            "source_span_original": "जीवन का यही मार्ग है",
+            "source_span_translation": "This is the path of life",
+            "source_term": "जीवन का यही मार्ग है",
+            "tenor": "The course and progression of human existence",
+            "vehicle": "A physical road or path",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a long, winding path stretching forward into an open, unknown landscape, symbolizing the journey of existence."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'उसकी आवाज़ें' (uski aawazein) as 'Their voices' shifts the singular possessive pronoun 'उसकी' (which could refer to a singular 'whoever' or a singular collective entity left behind) to a plural 'Their', altering the grammatical number and personal focus.",
+            "where": "L8"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'सुनाई देती हैं' (sunai deti hain) as 'echo' changes a passive sensory experience ('are heard' or 'make themselves heard') into an active acoustic phenomenon ('echo').",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The inevitable final journey of life amidst physical decay and lingering memories"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सभी रास्ते अब बंद हैं,  \nअंतिम यात्रा का समय है,  \nगर्मी की धूप में,  \nबंदूकें और घेराबंदी,  \nमेरा शरीर अब भारी है,  \nहर कदम में सिमटती हुई दूरी।  \n\nजो भी पीछे रह गया,  \nउसकी आवाज़ें सुनाई देती हैं,  \nकभी-कभी यादों का चक्र,  \nमुझे रोक लेता है,  \nलेकिन आगे बढ़ना है,  \nजीवन का यही मार्ग है।",
+  "poem_id": "MV++_0284",
+  "poem_title": "Antim Yatra",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "27de7c86c6174bbcd4f74437b970508e21abbd34dd5d29c75e8c412f007d276f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0284.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Final Journey  \nAll paths are now closed,  \nIt is the time for the final journey,  \nIn the heat of the sun,  \nGuns and barricades,  \nMy body is now heavy,  \nEvery step is a shrinking distance.  \n\nWhoever was left behind,  \nTheir voices echo,  \nSometimes the cycle of memories,  \nStops me,  \nBut I must move forward,  \nThis is the path of life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:08:14.572593+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "08066482b9e313d99dafd52e3e26998d8354b9746f2a0a284034613de20aa080",
+        "response_hash": "f5d3f130cc8d70ff3f6d4ab8f3a6899703c2efb86421d6e4e7b8805e1c28ff12",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bc0584bf452812b542a1d06ee3f16cef77181e91d1070e0ced71a842f0a9eabf",
+        "response_hash": "ac247865905b9e1af25c5794eda0b1a4ac4fb4d30384a3991296f78c8978436d",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "00fd6893a9d358e79e000aa6bcdf5ad26ec53df280099a0352b573b296c774e1",
+        "response_hash": "ad1b6fc59e273cebbc7e2ff57ca1a7633802ad5d2cbc80702e9fa52ec0691fba",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b0d1c666fcb7a22e0b5b20d3d2ed29a17bd29acd5d33bffe45d51c860a1eee9e",
+        "response_hash": "499e5918043cdec97986d7318a2bf76c7ebe693a0c23e4d1c95613c4869339dc",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b5d204eedbb65bb7ccfbe4c69ebd546dff6b3861137256b7192cbf096eeac52a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "53288e462198fef016be7843ab0c7c66312f2f9aead05c351e3c6c3dd61cdc79",
+    "translation_sha256": "28c952a03b7260010725b3b603a38b5f9cadee133db54f5f6c04b54b2ff45954"
+  }
+}

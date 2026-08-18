@@ -1,0 +1,218 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet, solitary presence on a mountain shifts into a deeper, expansive connection with the earth and the cosmos, ending in a state of peaceful omnipresence.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the grammatical structure of L3-L4. The Hindi 'mujhe jo paana chahta hai / vo dhoondhe mujhe' uses a relative-correlative structure ('jo... vo...') with a subjunctive/imperative nuance ('let them search for me' or 'should search for me'), which is flattened into a simple future declarative 'Those who seek me / Will find me' in English. Additionally, 'paana' (to obtain/reach/find) is translated as 'seek', collapsing the distinction between seeking and actually obtaining.",
+            "where": "L3-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender of the speaker is explicitly marked as masculine in Hindi by the verb form 'khada hoon' (standing) in L1. The English translation 'I stand' is gender-neutral, losing this specific gender marker.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Sincere, honest, and spiritually uncorrupted intentions or state of being.",
+            "acceptable_visual_variants": [
+              "A person standing on a mountain path looking upward with a peaceful, open expression.",
+              "A silhouette of a person in a quiet, reflective posture against a vast landscape."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L6",
+            "literal_meaning": "A physically clean or filtered mind/heart.",
+            "literalization_risk": "An illustrator might depict a physically glowing, transparent, or washed anatomical heart or brain, which misses the spiritual and emotional sincerity of the seeker.",
+            "metaphor_mapping": {
+              "tenor_concept": "moral and spiritual sincerity",
+              "transferred_attributes": [
+                "absence of dirt or contamination",
+                "clarity",
+                "wholesomeness"
+              ],
+              "vehicle_concept": "physical purity or cleanliness"
+            },
+            "source_span_original": "शुद्ध मन",
+            "source_span_translation": "pure heart",
+            "source_term": "शुद्ध मन",
+            "tenor": "Sincere, honest, and uncorrupted spiritual or emotional intentions.",
+            "vehicle": "A physically clean, unpolluted, or filtered object (pure/clean).",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a calm, meditative, or deeply focused posture of seeking, with a serene facial expression suggesting inner peace and sincerity, rather than any physical representation of an organ."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'shuddh man' as 'pure heart' in L6 shifts the literal concept of 'mind/intellect/spirit' (man) to the Western emotional seat of the 'heart', altering the psychological and philosophical nuance of the search.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's entire existence and life force are simplified to and identified with the vast, open sky and their own heartbeat, representing absolute freedom and minimalist existence.",
+            "acceptable_visual_variants": [
+              "A wide-angle shot of a silhouette on a mountain peak under a massive starry or bright blue sky.",
+              "A close-up of a person looking up at the vast sky with a peaceful expression, emphasizing the scale of nature versus the individual."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "Possessing nothing in the physical world except the literal atmosphere above and the physical beating of one's heart.",
+            "literalization_risk": "An illustrator might literally depict a person holding a piece of the sky or a glowing physical heart in their hands, which looks surreal or cartoonish and misses the profound sense of minimalist, expansive existence.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual freedom and basic life force",
+              "transferred_attributes": [
+                "immensity",
+                "essentiality",
+                "lack of material boundaries"
+              ],
+              "vehicle_concept": "the sky and a heartbeat as possessions"
+            },
+            "source_span_original": "बस एक आसमान है, मेरी धड़कन है",
+            "source_span_translation": "Just a sky, my heartbeat",
+            "source_term": "बस एक आसमान है, मेरी धड़कन है",
+            "tenor": "The speaker's state of absolute spiritual freedom, simplicity, and vital existence detached from material wealth.",
+            "vehicle": "The vast sky and a single heartbeat as one's sole possessions.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure standing on a high peak under an immense, clear, and unobstructed open sky, with their hand gently resting on their chest to subtly suggest the heartbeat."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The relative pronoun 'jo' in L11 refers back to 'meri dhadkan' (my heartbeat) or 'ek aasman' (a sky), which are grammatically feminine and masculine respectively. The English translation uses 'it' in 'it is everywhere', which resolves the poetic ambiguity of whether the heartbeat, the sky, or the speaker's state is what is 'everywhere' into a single neutral pronoun.",
+            "where": "L11-L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transcendent connection between the solitary self, nature, and the universal spirit."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_loss",
+      "issue": "The translation_loss array contains items detailing translation loss, but translation_quality is marked as 'faithful' and loss_note is empty. This is inconsistent; if translation loss is present, translation_quality should reflect this or loss_note should summarize it.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_loss",
+      "issue": "The translation_loss array contains items detailing translation loss, but translation_quality is marked as 'faithful' and loss_note is empty.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[2].translation_loss",
+      "issue": "The translation_loss array contains items detailing translation loss, but translation_quality is marked as 'faithful' and loss_note is empty.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1]",
+      "issue": "The stanza map shows that Stanza 2 of the original poem corresponds to the translation lines 'I stand on the mountain, / With the wind, among the clouds, / Those who seek me / Will find me.' which actually translate Stanza 1 of the original poem. This indicates a misalignment in the stanza mapping or translation alignment.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पहाड़ पर मैं खड़ा हूँ\nहवा के साथ, बादलों के बीच\nमुझे जो पाना चाहता है\nवो ढूँढे मुझे\n\nधरती के रहस्य\nजो भी शुद्ध मन से खोजे\nवो मुझ तक पहुँचता है\nहमेशा\n\nमेरे पास कुछ नहीं है\nबस एक आसमान है, मेरी धड़कन है\nजो दुनिया से दूर है\nऔर फिर भी हर कहीं है।",
+  "poem_id": "MV++_0896",
+  "poem_title": "Pahad Par Main",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b0c05048e112e73f32b726431ae1f212be4c54eacf73df965b594ee218904081",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0896.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "On the Mountain, I Stand\n\nI stand on the mountain,\nWith the wind, among the clouds,\nThose who seek me\nWill find me.\n\nThe secrets of the earth,\nWhoever searches with a pure heart,\nWill reach me\nAlways.\n\nI have nothing,\nJust a sky, my heartbeat,\nFar from the world\nAnd yet, it is everywhere.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:27:22.018429+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a5429299f07265cba3489230d2b51191f5da0157841277adc140d5c69899b7cc",
+        "response_hash": "48667d0e2a45663fc66ac4b148abd80a0cfc1f62e097b682d5f1c1f0fa5934c1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7d93a78d0003934a4281c64ded3fd15d454094efce4645954e3f521ebb7bba4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "991ed78a53c9302bf2dcf564a619aa9d97afc71ac384132cbf22779c26835e89",
+        "response_hash": "484b0018baf12e6d71370967b34abdafd2939772969e2e12e24479c4d9b8157d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bfa485f08813f2e148804dc73b3e5c02c92e1204e6057c193012d49e4b141287",
+        "response_hash": "e278aa0e47102f161f7a9e02db22cde333714730b1100f8e215a2815746d3470",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "252554be5185e6e6d73025c83c7741a0228bf5ad6b3e9fb5a45a2b81a9c9910f",
+        "response_hash": "4df506b66797c8857ddab4a2fa9e198afefff3360d0ad4a00105b224b572c025",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e03e2817acb9e2d14732d8c39127e08c02d9ae03d82ae08f73b7687872d348a4",
+    "translation_sha256": "ecf4d965ebd449191967a5299a3073b81b54ab01e7ca386f85c92daba4b89b63"
+  }
+}

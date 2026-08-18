@@ -1,0 +1,232 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A formal blessing or benediction bestowed by an elder, parent, or deity, carrying spiritual and moral weight in South Asian social and familial structures.",
+        "line_ref": "L8",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "aashirvaad",
+        "source_span_original": "आशीर्वाद",
+        "source_span_translation": "blessings",
+        "stanza_index": 2,
+        "term": "आशीर्वाद",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "devotion and quiet resilience shifting to a deep, growing loneliness",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mother's entire world, focus, and source of joy was centered completely on her child whom she held in her lap.",
+            "acceptable_visual_variants": [
+              "A mother sitting on the floor holding a sleeping child close to her chest",
+              "A mother looking down lovingly at a child resting in her lap in a simple home setting"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The entire physical universe was physically resting inside her lap.",
+            "literalization_risk": "An illustrator might literally draw a miniature planet Earth or a cosmic map resting on a woman's lap, which would look surreal or sci-fi rather than expressing maternal devotion.",
+            "metaphor_mapping": {
+              "tenor_concept": "the absolute emotional value of a child to a mother",
+              "transferred_attributes": [
+                "all-encompassing scale",
+                "completeness",
+                "preciousness"
+              ],
+              "vehicle_concept": "the physical universe resting in a lap"
+            },
+            "source_span_original": "उसकी गोदी में सारा जहाँ था",
+            "source_span_translation": "In her lap was the whole world",
+            "source_term": "उसकी गोदी में सारा जहाँ था",
+            "tenor": "The immense value, love, and complete focus the mother places on her child",
+            "vehicle": "The entire universe (the whole world) resting in a lap",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a mother tenderly cradling her infant or young child in her lap, with a warm, soft glow surrounding them to suggest that this intimate space is her entire world."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'अकेली माँ' (akeli maa) as 'lonely mother' shifts the primary nuance of 'akeli' from 'single/sole' (independent, raising a child alone) to an emotional state of loneliness, which alters the structural context of the poem.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The cultural and physical warmth of 'गोदी' (godi - lap) as a safe, nurturing space of maternal protection is flattened into the literal English 'lap'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The honorific plural pronoun 'उनका' (unka) used respectfully for the single mother and her child is lost in the English translation, which defaults to standard singular pronouns ('her child', 'her blessings').",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A growing sense of loneliness, emotional exhaustion, or unfulfilled longing that intensified over time.",
+            "acceptable_visual_variants": [
+              "The mother sitting alone at a table with an empty chair opposite her, looking sad",
+              "A close-up of the mother's face with a weary, distant gaze that conveys deep sorrow and isolation"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "A physical void or vacuum that expanded in size every day inside her eyes.",
+            "literalization_risk": "An illustrator might draw literal black holes or hollow physical craters inside the woman's eyes, which would look grotesque or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "deepening emotional loneliness and sorrow",
+              "transferred_attributes": [
+                "growth in size",
+                "absence of substance",
+                "darkness or hollow nature"
+              ],
+              "vehicle_concept": "an expanding physical void"
+            },
+            "source_span_original": "एक खालीपन था, जो हर रोज़ बढ़ता गया",
+            "source_span_translation": "There was an emptiness that grew with each passing day",
+            "source_term": "एक खालीपन था, जो हर रोज़ बढ़ता गया",
+            "tenor": "An intensifying feeling of loneliness and emotional exhaustion",
+            "vehicle": "An expanding physical void or empty space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the mother sitting alone in a dimly lit room, looking out of a window with a hollow, distant, and melancholic expression in her eyes, surrounded by empty space."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The spelling discrepancy in the original text 'बच्चो' (bachcho - oblique plural without bindu) is normalized in translation, and the shift from singular 'बच्चा' (child) in Stanza 2 to plural 'बच्चो' (children) in Stanza 3 is rendered without noting the grammatical inconsistency in the source.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The silent, selfless sacrifices of a mother and the lingering emptiness that accompanies her solitary journey."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains multiple translation_loss entries describing significant semantic and cultural shifts ('akeli' and 'godi'). This is internally inconsistent; a quality of 'partial' would better reflect these losses.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a translation_loss entry describing the loss of honorific plural pronouns ('unka'). This is internally inconsistent; a quality of 'partial' would better reflect this loss.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a translation_loss entry describing a grammatical shift from singular to plural. This is internally inconsistent; a quality of 'partial' would better reflect this loss.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अकेली माँ ने किया सच्चा प्यार,\nबिना किसी दिखावे, बिना किसी ग़म के।\nउसकी गोदी में सारा जहाँ था,\nउसकी आँखों में सिर्फ़ एक सपना था।\n\nवह अकेली चलती, क़दमों से हर बाधा को पार करती,\nमगर अपनी आँखों में आंसू को छिपा देती।\nमाँ के दिल में बस एक ही सवाल था,\nक्या उनका बच्चा उनका आशीर्वाद समझेगा?\n\nबिना थके, बिना रुके उसने हर दर्द सहा,\nअपने बच्चो के लिए अपना जीवन न्योछावर किया।\nपरंतु अकेली माँ की आँखों में कहीं,\nएक खालीपन था, जो हर रोज़ बढ़ता गया।",
+  "poem_id": "MV++_0602",
+  "poem_title": "Akeli Maa",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "211eaab9bec1ba7c0235ac522f830aaddfda579fbd27cef9cf38c1f70e597678",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0602.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The lonely mother gave true love,  \nWithout any pretense, without any sorrow.  \nIn her lap was the whole world,  \nIn her eyes was but a single dream.\n\nShe walked alone, overcoming every obstacle,  \nBut hid the tears in her eyes.  \nIn the heart of the mother was only one question,  \nWould her child ever understand her blessings?\n\nWithout rest, without stopping, she endured all pain,  \nSacrificed her life for her children.  \nYet, in the eyes of the lonely mother,  \nThere was an emptiness that grew with each passing day.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:44:40.575271+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa19666e9b1fce5e7355c123e7eca9a3da72af5c1e013a7aba7619677ea32e06",
+        "response_hash": "92a146e5b193bc171e743b48e439005b98d66c2709a56fedfed545c8f9044834",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a921a8fefa00726cf2b023228ab1e809d8e44792741d1bc22f6148487eb2493e",
+        "response_hash": "0981cb93bfdd58f3f30ce36fa030b12655cf1a3d7e0155bc94b34d88924b218c",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db1e5933c26527226cc8f842647edbad3d5e7c95afc6a3e42777a745fee7dbbf",
+        "response_hash": "ffbaae22d058245d491be8f88125f5c7395cd2e3f22a3271e171d33551832e4d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ffaddfe47f6a7da17208b8f0c343804e6cae987bd68c78708543a2b8f5a7a4d6",
+        "response_hash": "9691da74976d1dd5cbf35bac739e9dd296334b004df29755654527fb0ee6a15a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f544a369a22be4c1ab9536e5c8ee0d62a4c3b0eaf3b4ba92e1c902affc778b8e",
+        "response_hash": "fe96e56f03819b78e7f09c3b18a86ac37c5b7036deea3fceb3820b883aed2969",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "31325b1f9732d3eff364aace94f59ef02a0a81e514aeaca96ffc5b6e3b303558",
+    "translation_sha256": "a30d5503ad412b7bd46ef0ce173b9b659c309e681bffbc5ad2a1c854a77c6909"
+  }
+}

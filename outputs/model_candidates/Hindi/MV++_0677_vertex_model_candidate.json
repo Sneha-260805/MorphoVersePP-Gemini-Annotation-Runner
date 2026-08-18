@@ -1,0 +1,293 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional desert caravan with camels and travelers",
+          "A symbolic group of diverse people walking together along a scenic path"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A caravan or group of travelers journeying together, historically associated with trade and travel across South Asia, Central Asia, and the Middle East, carrying strong poetic connotations of shared destiny and collective movement.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A modern military convoy",
+          "A chaotic, unorganized crowd running in panic"
+        ],
+        "preserved": true,
+        "romanization": "kafila",
+        "source_span_original": "काफिला",
+        "source_span_translation": "caravan",
+        "stanza_index": 2,
+        "term": "काफिला",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A group of travelers moving together",
+          "A winding path or desert road",
+          "A sense of collective motion"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A reflective appreciation of life's journey over its destination, moving from wonder at the changing path to a resilient call to keep moving, and concluding in peaceful acceptance.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The process of living and experiencing life is more valuable and fulfilling than merely achieving final goals.",
+            "acceptable_visual_variants": [
+              "A person walking on a winding mountain path surrounded by changing seasonal colors",
+              "A traveler looking out at a winding road that disappears into a soft, glowing mist"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical journey on a road is more beloved than the physical destination at the end.",
+            "literalization_risk": "An illustrator might draw a literal road with a signpost, missing the deeper philosophical reflection on life's experiences.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life and achievements",
+              "transferred_attributes": [
+                "movement",
+                "unpredictability",
+                "discovery",
+                "finality"
+              ],
+              "vehicle_concept": "physical travel"
+            },
+            "source_span_original": "मंजिल से ज्यादा सफर प्यारा है",
+            "source_span_translation": "The journey is dearer than the destination",
+            "source_term": "मंजिल से ज्यादा सफर प्यारा है",
+            "tenor": "The process of living life versus achieving specific goals",
+            "vehicle": "A physical journey and destination",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a traveler walking along a winding, vibrant path that stretches into a beautiful horizon, focusing on the rich details of the path rather than a fixed endpoint."
+          },
+          {
+            "abstract_meaning": "Hopes, aspirations, and dreams naturally arise, develop, and beautify one's outlook as one progresses through life.",
+            "acceptable_visual_variants": [
+              "Floating glowing lanterns rising from the path into the night sky",
+              "Soft, luminous spheres containing miniature scenes of happy milestones along a path"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Dreams are physically decorated or arranged like ornaments.",
+            "literalization_risk": "Showing literal sleeping dreams physically hanging like ornaments on a tree or road might look surreal or nonsensical.",
+            "metaphor_mapping": {
+              "tenor_concept": "the arising of hopes in the mind",
+              "transferred_attributes": [
+                "beauty",
+                "deliberate arrangement",
+                "aesthetic pleasure"
+              ],
+              "vehicle_concept": "decorating a physical space"
+            },
+            "source_span_original": "ख्वाब सजते हैं",
+            "source_span_translation": "dreams adorn the way",
+            "source_term": "ख्वाब सजते हैं",
+            "tenor": "The emergence and nurturing of hopes and aspirations during life's journey",
+            "vehicle": "Ornaments or decorations being arranged",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict soft, glowing, semi-transparent bubbles or floating lanterns containing faint, warm scenes of hope rising along the path of a traveler."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The internal rhyme and rhythmic flow of the Hindi words 'sajte hain' and 'ishara hai' are lost in the English translation.",
+            "where": "L3-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The specific poetic nuance of 'sajte hain' (literally 'are adorned' or 'decorate themselves') is translated as 'adorn the way', which slightly shifts the agency of the dreams.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The continuous flow, progress, and collective momentum of life and experiences should never come to a complete standstill.",
+            "acceptable_visual_variants": [
+              "A group of walking figures silhouetted against a rising sun",
+              "A continuous stream of footprints leading forward on a dusty path"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L6",
+            "literal_meaning": "A physical group of travelers or merchants with camels/carts stopping their movement.",
+            "literalization_risk": "An illustrator might draw a literal desert caravan with camels, which overly historicizes or localizes a universal philosophical poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "the continuous flow of human life",
+              "transferred_attributes": [
+                "movement",
+                "companionship",
+                "progress",
+                "persistence"
+              ],
+              "vehicle_concept": "a moving caravan"
+            },
+            "source_span_original": "थम न जाए काफिला",
+            "source_span_translation": "Never let the caravan halt",
+            "source_term": "थम न जाए काफिला",
+            "tenor": "The continuous progress and momentum of one's life journey",
+            "vehicle": "A traveling caravan",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, continuous line of diverse travelers moving forward together along a path, rendered in silhouette or soft focus to emphasize movement over historical detail."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Urdu-derived poetic term 'fasana' (which carries connotations of a romance, tale, or legend) is simplified to 'story, a life of their own' in English, losing its classical literary flavor.",
+            "where": "L8"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The subjunctive/imperative mood of 'niklo to yun' (urging a specific manner of setting out) is flattened into a standard imperative 'Set out on this journey'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The active process of striving and experiencing life is what provides emotional strength, comfort, and meaning to the heart.",
+            "acceptable_visual_variants": [
+              "A traveler walking with a peaceful, content expression, a soft warm light surrounding them",
+              "A hand gently cupping a glowing, steady flame along a windy path"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "The physical heart is leaning on a physical support or crutch.",
+            "literalization_risk": "Drawing a literal heart leaning on a wooden crutch or cane would look bizarre and anatomically grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional comfort and purpose",
+              "transferred_attributes": [
+                "stability",
+                "prevention of falling",
+                "comfort"
+              ],
+              "vehicle_concept": "a physical prop or support"
+            },
+            "source_span_original": "दिल का सहारा है",
+            "source_span_translation": "the heart finds its tone",
+            "source_term": "दिल का सहारा है",
+            "tenor": "Emotional comfort, sustenance, and meaning found in active living",
+            "vehicle": "A physical support or prop",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a warm, glowing light emanating from within a traveler's chest as they walk, symbolizing inner strength and comfort derived from the journey."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'dil ka sahara' (the heart's support/anchor) as 'the heart finds its tone' alters the metaphor from one of emotional sustenance and survival to one of musical or emotional alignment.",
+            "where": "L10"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhetorical question 'sukoon kahan' (where is peace/solace?) is translated directly, but loses the specific cultural and philosophical weight of 'sukoon' (deep, tranquil peace).",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The journey of life, with its changing scenery and diverse companions, is inherently more valuable and comforting than reaching a final destination."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मंजिल से ज्यादा सफर प्यारा है,\nराहों में रंग बदलता नज़ारा है।\nकदम-कदम पर कुछ ख्वाब सजते हैं,\nहर मोड़ पे एक हसीन इशारा है।\n\nनिकलो तो यूं सफर पर,\nकि थम न जाए काफिला।\nराहों में मिलेंगे कई हमसफ़र,\nहर एक का अपना एक फसाना है।\n\nमंजिल पर पहुंच के सुकून कहाँ,\nसफर में ही दिल का सहारा है।",
+  "poem_id": "MV++_0677",
+  "poem_title": "Manzil Se Jyada Safar Pyara Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "97021765522d014e24181cad6453c50bb5efae8fc8cea51db6d4642843ed5dd9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0677.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The journey is dearer than the destination,\nOn the path, the scenery keeps changing hues.\nWith each step, some dreams adorn the way,\nAt every turn, there's a beautiful cue.\n\nSet out on this journey,\nNever let the caravan halt.\nAlong the way, you'll meet many companions,\nEach with a story, a life of their own.\n\nWhere’s the solace in reaching the destination?\nIn the journey itself, the heart finds its tone.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:54:39.664212+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa49c667e1c1c59d5d53c78a5a506443f1b1a7c0ee1ccbe966d92af78e56466f",
+        "response_hash": "a4dd62513666eb0c3f49c8e169088302f4dd0448d90357fa936e926fd97d40eb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b88ad28b4d6f38ae81d53805cb7e8bd6992fc331ebfe8b228b6a46ebab8bade",
+        "response_hash": "eb7b744716c20d27a89bc8a96ec19dbd074ddd18edb4af51ba045e93e385891e",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ae77b1bd9285142bbbf4db54f391defb37895e123df91fc0d36f4ae7bbadf927",
+        "response_hash": "3e13fe98eca4d0b35f26a8c8b1b7b573e213031a6ee7ad51404862acefeb3b28",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e1d6968b221bfa898b231f7040d8e23d9259051caf78f4bb69b805c86d71a0a6",
+        "response_hash": "7843ba31550ae3e165f0e84bc17be4f5fadc56c838c230c9d42debd168d69dbe",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f64381e6cedb6c596aca8efb7fff17a241bf5eb0c6500d63d4a16704033b00d6",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "95e99f6e00d55a843d54c369e4a2841dfd8715812fd727b7a7f31af09bf0fa80",
+    "translation_sha256": "16d1bb064abc81eb46d3dc5a588f2164d7cd08ec00a8a16c9cb778c1e03fcc68"
+  }
+}

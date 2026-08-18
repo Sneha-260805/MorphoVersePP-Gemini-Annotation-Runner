@@ -1,0 +1,231 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A term of endearment meaning beloved, friend, or companion, frequently used in Punjabi Sufi and devotional poetry to address either a human beloved or the Divine.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "sajjana",
+        "source_span_original": "ਸੱਜਣਾ",
+        "source_span_translation": "my beloved",
+        "stanza_index": 1,
+        "term": "ਸੱਜਣਾ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The feminine form of sajjana, meaning beloved or dear companion, used in Punjabi poetry to address a female beloved or personified entity.",
+        "line_ref": "L8",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "sajjani",
+        "source_span_original": "ਸੱਜਣੀ",
+        "source_span_translation": "beloved",
+        "stanza_index": 2,
+        "term": "ਸੱਜਣੀ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "Anxious longing and urgency over fading time and dreams, shifting to a poignant realization of loss.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'ਧੁੰਧਲੀ' (dhundli) as 'fading' captures the temporal sense well, though its literal meaning is 'misty' or 'hazy', which carries a stronger visual quality of morning fog.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The hopes, warmth, or idealized expectations associated with a bright future or the presence of the beloved.",
+            "acceptable_visual_variants": [
+              "A person looking out at a misty horizon where a faint golden glow is beginning to break through the clouds",
+              "A warm, glowing sunburst partially obscured by soft morning fog"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "The dreams of the sun",
+            "literalization_risk": "Depicting a literal sun with human eyes closed in sleep, dreaming, which would look cartoonish and miss the poetic longing.",
+            "metaphor_mapping": {
+              "tenor_concept": "Human aspirations for a bright future",
+              "transferred_attributes": [
+                "agency",
+                "desire for light",
+                "hopefulness"
+              ],
+              "vehicle_concept": "A celestial body dreaming"
+            },
+            "source_span_original": "ਸੂਰਜ ਦੇ ਸਪਨੇ",
+            "source_span_translation": "dreams of the sun",
+            "source_term": "ਸੂਰਜ ਦੇ ਸਪਨੇ",
+            "tenor": "The speaker's hopes and aspirations for warmth, clarity, and joy",
+            "vehicle": "The sun having dreams",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm golden light breaking through a hazy, misty morning landscape, suggesting the dawn of hope."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'ਧੁੰਧਲੀ' (dhundli) as 'fading', which loses the literal meaning of 'misty', 'hazy', or 'foggy', flattening the visual texture of a misty morning.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'ਸੱਜਣਾ' (sajjna) is translated as 'my beloved', which loses the specific cultural warmth, poetic register, and colloquial intimacy of the Punjabi term of endearment.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'ਸੱਜਣੀ' (sajjni) as 'beloved' is accurate, but the shift from the masculine 'ਸੱਜਣਾ' (sajjna) in stanza 1 to the feminine 'ਸੱਜਣੀ' (sajjni) in stanza 2, which adds a layer of gendered dialogue or shifting address, is flattened in the English translation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The gradual shattering or disintegration of hopes and aspirations over time.",
+            "acceptable_visual_variants": [
+              "A soft-focus scene of autumn leaves scattering in the wind",
+              "A reflection in water that is being disrupted and broken by ripples"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Dreams becoming broken pieces",
+            "literalization_risk": "Showing literal dream bubbles or clouds physically cracking like glass, which can look overly literal or surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "The loss or disintegration of mental hopes",
+              "transferred_attributes": [
+                "fragility",
+                "shattering",
+                "irreversibility"
+              ],
+              "vehicle_concept": "A fragile physical object breaking into pieces"
+            },
+            "source_span_original": "ਸਪਨੇ ਖੰਡ ਖੰਡ ਹੁੰਦੇ ਜਾਂਦੇ",
+            "source_span_translation": "Dreams turn into fragments",
+            "source_term": "ਸਪਨੇ ਖੰਡ ਖੰਡ ਹੁੰਦੇ ਜਾਂਦੇ",
+            "tenor": "Hopes and aspirations dissolving or failing over time",
+            "vehicle": "A solid object shattering into fragments",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict abstract, fading shapes or dissolving light patterns in a misty atmosphere to convey the loss of form and hope."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'ਖੰਡ ਖੰਡ' (khand khand) as 'fragments' loses the rhythmic, repetitive emphasis of the original Punjabi reduplication which conveys gradual, complete shattering.",
+            "where": "L7"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'ਸੱਜਣੀ' (sajjni) as 'beloved' in 'The morning light is beloved', which obscures that 'sajjni' is a gendered (feminine) term of endearment addressing the beloved directly, rather than an adjective describing the light.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The fleeting nature of time, dreams, and opportunities, framed as a fading morning that requires urgent action before it is lost forever."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Punjabi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ਛੇਤੀ ਕਰ ਇਹ ਸਵੇਰ ਧੁੰਧਲੀ\nਛੇਤੀ ਕਰ ਇਹ ਸਵੇਰ ਧੁੰਧਲੀ,\nਕਦੇ ਨਾ ਆਉਂਦੀ ਇਸ ਦਾ ਸੋਹਣਾ ਸੂਰਜ।\nਸੂਰਜ ਦੇ ਸਪਨੇ ਵਿੱਚ ਸੱਜਣਾ,\nਛੇਤੀ ਕਰ ਇਹ ਸਵੇਰ ਧੁੰਧਲੀ।\n\nਸਮਾਂ ਬਹੁਤ ਤੇਜ਼ੀ ਨਾਲ ਗੁਜ਼ਰਦਾ,\nਸਪਨੇ ਖੰਡ ਖੰਡ ਹੁੰਦੇ ਜਾਂਦੇ,\nਸਵੇਰੇ ਦੀ ਰੌਸ਼ਨੀ ਸੱਜਣੀ,\nਛੇਤੀ ਕਰ ਇਹ ਸਵੇਰ ਧੁੰਧਲੀ।",
+  "poem_id": "MV++_1222",
+  "poem_title": "Chheti Kar Yeh Subha Dhundli",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7ebd0b5d4a369914c8b6dacc4bba4ccb4daa0a0d42801a8884dbf0b4dc58fda8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Punjabi/MV++_1222.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Hurry Up, This Morning is Fading  \nHurry up, this morning is fading,  \nThe beautiful sun never comes again.  \nIn the dreams of the sun, my beloved,  \nHurry up, this morning is fading.\n\nTime passes by too quickly,  \nDreams turn into fragments,  \nThe morning light is beloved,  \nHurry up, this morning is fading.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:10:21.868346+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "234e29b07a3ab6ec0f50f8a47145efda52d7aecd11ac1208475c7fa8a8f0fd68",
+        "response_hash": "c518668d30e65a031149ce61d73c9917fb7251e9c9d98773cabd959a3bd35aab"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "39b69dbf8918465d92256e22401e9ce2fa233ccd039a86a04b76da84d2b29365",
+        "response_hash": "90cfe5d7a01b49822742ed3dc49f634df46e8b62ed14520a84e32dd496b9426b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b1d1189138f03fa7b1f2309408209c758f52ae585ef453f1c38334d320b490b",
+        "response_hash": "4961de5a05bcc8d3b3afe0d9be98a01b2c17712967d48ca96e9c5a88154a49b1",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8ca86b389bee8a87deb28071341c5bad5ebacdc8c741c998b8c5244ba27df039",
+        "response_hash": "3cff6f8d84bbc5165af092983f2a3de7707097246298ef221b3e708c39821957",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4cfb76242c91951ce385153f9492d99ddf6485aa582d9073a8e4c1872c5a8f6",
+        "response_hash": "95bb74317dd8b9c6595cf0857aa9015e96a1331aaade06b343ad30f6d1b267a2",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "75ce30f3c1137478864991bf853d7e459289f2c631f0a50fd77ce3e7e40412ce",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2b02fc2048c47bc68bf2be24ed2e6506288185e0d8c1faa8a7b2be162f72ca54",
+    "translation_sha256": "d0d50dbb16e628816792f3da25584b982b444b35e61590350a02a6faad9e1468"
+  }
+}

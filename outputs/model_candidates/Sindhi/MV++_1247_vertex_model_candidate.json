@@ -1,0 +1,276 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional Sindhi male figure in historical attire",
+          "A symbolic representation of a beloved traveler"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Rano, the legendary lover of Moomal from the famous Sindhi folk romance 'Moomal Rano', celebrated in Shah Abdul Latif Bhittai's Shah Jo Risalo. He represents the beloved who is sought with intense longing.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A generic modern romantic partner",
+          "An unrelated mythological deity"
+        ],
+        "preserved": true,
+        "romanization": "Rano",
+        "source_span_original": "راڻو",
+        "source_span_translation": "Rano",
+        "stanza_index": 1,
+        "term": "راڻو",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A noble Sindhi lover or prince from folklore",
+          "Often associated with riding a camel through the desert to reach his beloved"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A weeping woman looking out into the desert night",
+          "A figure counting her sorrows or bangles in solitude"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Moomal, the heroine of the Sindhi folk romance 'Moomal Rano', who waits in her palace (Kak Mahal) in deep sorrow and repentance for her estranged lover Rano.",
+        "line_ref": "L7",
+        "negative_confusions": [
+          "A generic modern woman",
+          "A bride in a celebratory wedding scene"
+        ],
+        "preserved": true,
+        "romanization": "Moomal",
+        "source_span_original": "مومل",
+        "source_span_translation": "Moomal",
+        "stanza_index": 1,
+        "term": "مومل",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A traditional Sindhi woman in a state of longing or sorrow",
+          "Adorned with traditional jewelry like bangles, waiting in a palace setting"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Sufi dervishes or wandering mendicants",
+          "Yogis in meditative or traveling postures"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Jogis or ascetics; in Sindhi Sufi poetry (particularly Shah Abdul Latif Bhittai's Sur Ramkali), they represent spiritual seekers, renouncers, or devotees who undergo intense suffering and discipline to attain union with the Divine.",
+        "line_ref": "L9",
+        "negative_confusions": [
+          "Wealthy priests",
+          "Generic modern tourists or travelers"
+        ],
+        "preserved": true,
+        "romanization": "jogiyun",
+        "source_span_original": "جوڳين",
+        "source_span_translation": "ascetics",
+        "stanza_index": 2,
+        "term": "جوڳين",
+        "translation_note": "Translated as 'ascetics' in English, which captures the spiritual seeker aspect but loses the specific cultural resonance of the yogis/jogis in Sindhi Sufi poetry.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Ascetics or spiritual seekers with simple, austere clothing",
+          "Often depicted with ashes, simple robes, or carrying a staff/bowl"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and sorrow to spiritual devotion and hope",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the emotional core of Moomal's longing, though the specific rhythmic repetition and phonetic resonance of the Sindhi words for counting sorrows are simplified.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To feel an intense, overwhelming longing or emotional collapse for the beloved.",
+            "acceptable_visual_variants": [
+              "A sleeping figure clutching their chest in longing",
+              "A dreamlike silhouette of a figure reaching out toward a distant light"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L6",
+            "literal_meaning": "To die in a dream",
+            "literalization_risk": "Showing a literal corpse or a person dying in their sleep, which would misrepresent the emotional intensity as physical death.",
+            "metaphor_mapping": {
+              "tenor_concept": "extreme emotional devotion",
+              "transferred_attributes": [
+                "loss of self",
+                "total surrender",
+                "intensity of experience"
+              ],
+              "vehicle_concept": "physical death"
+            },
+            "source_span_original": "سُپڻي موئن",
+            "source_span_translation": "In dreams, I die for him",
+            "source_term": "سُپڻي موئن",
+            "tenor": "Overwhelming emotional longing and devotion",
+            "vehicle": "Death in a dream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person asleep with a deeply emotional, yearning expression, perhaps with a soft, glowing dream-like aura around them."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific cultural and literary resonance of the legendary lovers Moomal and Rano (from the classical Sindhi Sur Moomal Rano) is flattened to generic romantic yearning in English.",
+            "where": "L4-L7"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The internal rhyme and rhythmic repetition of 'ڏيئي ڳڻين ڏيئي ڳڻين' (deyi ganeen deyi ganeen) is lost in the English translation.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation renders the spiritual transition well, though the specific cultural weight of 'jogis' (ascetics) and 'asan' (spiritual seats/postures) is generalized to broader devotional terms.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Experiencing intense spiritual or emotional suffering and purification.",
+            "acceptable_visual_variants": [
+              "A figure in deep meditation with a glowing heart center",
+              "A silhouette walking through a shimmering, heat-distorted landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "The soul burns and burns",
+            "literalization_risk": "Depicting a literal soul or person on fire, which looks like physical torture or a horror scene rather than spiritual devotion.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual purification and pain",
+              "transferred_attributes": [
+                "intense heat",
+                "destruction of ego",
+                "painful transformation"
+              ],
+              "vehicle_concept": "combustion and heat"
+            },
+            "source_span_original": "جيءُ سڙي سڙي",
+            "source_span_translation": "soul burns as they walk",
+            "source_term": "جيءُ سڙي سڙي",
+            "tenor": "Spiritual suffering and longing",
+            "vehicle": "Burning fire",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a meditative figure surrounded by a warm, intense golden or amber glow, suggesting internal heat and spiritual intensity without literal flames."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The term 'جوڳين' (Jogis/ascetics) carries deep Sufi-devotional and cultural connotations of spiritual seekers that are simplified to 'ascetics who tread this path'.",
+            "where": "L9-L10"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The specific spiritual and physical resonance of 'آسڻ' (asan/spiritual seat or posture) is translated as 'hopes', losing the physical-devotional grounding of the original term.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The painful yearning of Moomal for Rano, framed through the spiritual journey and burning devotion of ascetics."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Sindhi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "محبوب آيو جيءَ ۾،  \nساهه گهڙي ٿر ٿرن،  \nپڻين پارين جي،  \nلائي راڻو ڪن،  \nآسا مور مٿي سندر،  \nسُپڻي موئن،  \nمومل مور ٿيا،  \nڏيئي ڳڻين ڏيئي ڳڻين.\n\nريءَ ريءَ جوڳين،  \nجوڳين جيءُ سڙي سڙي،  \nپتڻ راڻا کڻي ڳرين،  \nجوڳين سڄڻ سندر ٿيا،  \nآسڻ ڳڻين آسڻ ڳڻين.",
+  "poem_id": "MV++_1247",
+  "poem_title": "Moomal Rano",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c6c68ec429069d459eb8d431b6fb7e895faa23c72cf54d5cfae61799e7af7abe",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Sindhi/MV++_1247.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The beloved came into my soul,  \nBreath trembles in every moment,  \nI clutch the bangles on my wrists,  \nHolding Rano in my heart.  \nYearning above all, the mind in splendor,  \nIn dreams, I die for him,  \nMoomal waits, counting her sorrows,  \nCounting and counting her sorrows.\n\nFor the ascetics who tread this path,  \nTheir soul burns as they walk,  \nRano, take the ferry across,  \nThe ascetics have become one with their beloved,  \nCounting their hopes, counting their hopes.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:13:18.106265+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79784a15b318f6c60cd094423f312699cbb7273e5aa24c8398a3f922c5af192f",
+        "response_hash": "a2e48da7479be35c8e48b51e90420df651237cb12f81201b0258a27c90078b33"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "171fcd26152e2d55aecd3ebe79c65c419464b241ba0c1a8717dccbddbff0b3c2",
+        "response_hash": "7f34eba31b6a82f4195724bf3fbb75acba8aed887f4e5bc895a7a3d4f87e191e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa850daad3234853b07cc3bad936cb02de06e3bc6c42b525416a538610bf9eab",
+        "response_hash": "4631d191db73be801a5c246431d78925b8fdc51c50529343553dbb4ea8c378db",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3d1862c103dc22d6781f913022092f2b3b48f8249577782ad88f26bf374d2f2b",
+        "response_hash": "34a838d03e629b2d94c228a3551bc4938f1ba657ec57771ac5511e5c169f4a5a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b4912d860cb7a1b638d16d185ec21ea7c65dbf400dd6a6914fae3472dba46c98",
+        "response_hash": "8d67c35a4cafc512ce33fd13bc05383dabdfeb32b37bba84bf1889c319e8363c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1b5ff4042c95de0fefce0b260a4443faa30a8d4726a04683cbe3ae881d85eb6e",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "41ec9abdbf815e04775e33e9bbe500ec9e35f7eb76a315d988fbd1a8bd737aea",
+    "translation_sha256": "022c046f51813a5e9e534f41e8c552cc62092046640abe43ede8635b58bfd333"
+  }
+}

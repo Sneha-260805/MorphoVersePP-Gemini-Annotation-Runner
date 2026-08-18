@@ -1,0 +1,217 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet longing to gentle joy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'sada' as 'eternally' captures the spirit but misses the dual resonance of 'sada' as 'always' and 'sound/voice' in Hindi poetic contexts.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The flower is personified as having human-like desires, wishes, and emotional yearnings.",
+            "acceptable_visual_variants": [
+              "A single dew-kissed rose or wildflower opening its petals in the early morning sun.",
+              "A soft-focus close-up of a flower surrounded by a gentle, glowing mist representing its fragrance."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "A flower has a desire/wish",
+            "literalization_risk": "Showing a literal flower with a cartoonish thought bubble or human face expressing a wish, which ruins the delicate poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural state or symbolic yearning of a flower",
+              "transferred_attributes": [
+                "having wishes",
+                "feeling longing",
+                "seeking fulfillment"
+              ],
+              "vehicle_concept": "human desire"
+            },
+            "source_span_original": "एक फूल की चाह है",
+            "source_span_translation": "It is the desire of a flower",
+            "source_term": "एक फूल की चाह है",
+            "tenor": "A flower's natural inclination or symbolic yearning",
+            "vehicle": "A human being with desires and wishes",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful, delicate flower blooming in soft morning light, capturing its natural elegance to evoke its symbolic 'desire' without cartoonish elements."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'सदा' (sada) as 'Eternally' misses the poetic wordplay and phonetic resonance with 'चाह' (chah) and 'बसा' (basa) in the preceding lines, and slightly shifts the common Hindustani meaning of 'sada' (always/call) depending on the interpretive reading of the Devanagari script.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic reduplication of 'कण-कण' (kan-kan) which emphasizes absolute, pervasive presence in every single speck or particle is flattened into the singular 'every particle' in English, losing its rhythmic and intensifying poetic quality.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'saaj' as 'arrangements' loses the musical instrument connotation of the Hindi word 'saaj' which implies tuning or preparing an instrument for joy.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The joy, vibrancy, and diverse emotional experiences of life.",
+            "acceptable_visual_variants": [
+              "A scene filled with warm, golden sunlight illuminating a blooming garden.",
+              "A joyful human interaction depicted with warm, saturated, and harmonious colors."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "The colorfulness of life",
+            "literalization_risk": "Depicting literal paint splatters or rainbow-colored objects floating around a person, which looks messy and misses the emotional depth of joy.",
+            "metaphor_mapping": {
+              "tenor_concept": "joy and vitality of life",
+              "transferred_attributes": [
+                "brightness",
+                "variety",
+                "warmth",
+                "visual appeal"
+              ],
+              "vehicle_concept": "vibrant colors"
+            },
+            "source_span_original": "जीवन की रंगीनी",
+            "source_span_translation": "colors of life",
+            "source_term": "जीवन की रंगीनी",
+            "tenor": "Joy, happiness, and lively experiences in human life",
+            "vehicle": "Bright, vibrant colors",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use a warm, vibrant color palette in the scene (such as golden sunlight, rich floral hues, and smiling faces) to visually convey life's richness."
+          },
+          {
+            "abstract_meaning": "To be deeply cherished, vital, and central to everyone's emotional existence.",
+            "acceptable_visual_variants": [
+              "A soft, warm light radiating outward from a central point, touching several people who look happy.",
+              "A group of diverse people sharing a unified moment of laughter or peace."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "To be the physical throbbing/heartbeat of every heart",
+            "literalization_risk": "Drawing literal anatomical hearts beating or pulsing, which is clinical and completely unpoetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "vital emotional connection and shared joy",
+              "transferred_attributes": [
+                "essentiality",
+                "rhythm",
+                "life-giving force"
+              ],
+              "vehicle_concept": "physical heartbeat"
+            },
+            "source_span_original": "हर दिल की धड़कन हो",
+            "source_span_translation": "To be the heartbeat of every heart",
+            "source_term": "हर दिल की धड़कन हो",
+            "tenor": "Being the core source of joy, love, or vital emotional connection for everyone",
+            "vehicle": "A physical heartbeat",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on a shared moment of deep emotional connection, such as a collective smile or a warm, radiating light connecting people, to symbolize a shared pulse of joy."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'साज' (saaj) as 'arrangements' loses the musical and decorative dual-meaning of the Hindi/Urdu word 'saaj' (which refers to musical instruments, preparation, or adornment), flattening the rich sensory metaphor of preparing/decorating a musical or festive gathering.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The simple, universal desire of a flower to bring joy and life to others"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक फूल की चाह है,  \nसुरभि में बसा,  \nकण-कण में छुपा,  \nहर मन की सदा,  \nजो खिलता है सुबह के समय,  \nचाँदनी रातों में बिखरता है।\n\nउसकी चाहत है एक मुस्कान,  \nजो जीवन की रंगीनी लाए,  \nहर दिल की धड़कन हो,  \nखुशियों की साज सजाए।",
+  "poem_id": "MV++_0374",
+  "poem_title": "Ek Phool Ki Chah",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5d8636a6da67ed0e57eb81ed27f25a00a3d742d683c973a1a2a520308ea21d6c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0374.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "It is the desire of a flower,  \nNestled in fragrance,  \nHidden in every particle,  \nEternally in every heart,  \nThat blooms in the morning light,  \nScattering in moonlit nights.\n\nIts desire is a smile,  \nTo bring the colors of life,  \nTo be the heartbeat of every heart,  \nAdorning the arrangements of joy.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:18:05.366409+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9d99c69ef59e1b51702ebe827a1ac2eb189f2a02d1b7b5304da590555c8a088f",
+        "response_hash": "c11644ea0ae32e9481ff077fb5828fabc032175ff34ada6b4b74a011e0e00bf8"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6d5ad64a389585777ca427182af0c62faf1d4d02cbdbfe81cafc1a3c1cb44ce3",
+        "response_hash": "762825d48317eaf3e4748228c65005c73deb4e7758d9eba22c3ee1543f2ea7b5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c502af005aa9274a134f91d7514a92c4e85520bd4ec7479aedcd749ab8330303",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "599c0cb0f9fded1bf2db3a2b41eedaf912fa5fd1e39d5abd723894176b6626cc",
+        "response_hash": "41d1a4c527fed607762559cf26a3ca1d44a8e9cd63c19c8f934f444aa6375acd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e43a5255cf5fd1458363f0673968de6d1fd47c5a301cb69eecb613bd223d1a09",
+        "response_hash": "14863c9b79d833380b031d59a7ef0fc47cdca1535bc18625428114ab722cb87b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d43911e53f377f77d814748f0bc029ea8ef08640b6c2ac105c1b0fbbc5d55016",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2d96e917fd7814d27c9cd0035f077176b3c1f69c5a73454a7a535dc094f5e696",
+    "translation_sha256": "d946705ad829afa6affb33859dd8b00067241075e9dc7f01a460c15603e12a3b"
+  }
+}

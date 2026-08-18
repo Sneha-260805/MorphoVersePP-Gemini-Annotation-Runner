@@ -1,0 +1,178 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A symbolic representation of Krishna's presence, such as a peacock feather or a flute placed near a traditional Indian doorway.",
+          "A classical depiction of Krishna standing at the entrance of a home or temple."
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A Tamil name for Krishna, a major deity in Hinduism, often associated with love, devotion, and divine play. Here, the speaker refers to his doorway or threshold.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Depicting a generic, non-Indian deity or a modern secular doorway without any cultural or spiritual markers.",
+          "Confusing Kannan with other deities who do not share his specific iconography like the flute or peacock feather."
+        ],
+        "preserved": true,
+        "romanization": "Kannanin",
+        "source_span_original": "கண்ணனின்",
+        "source_span_translation": "Krishna",
+        "stanza_index": 1,
+        "term": "கண்ணனின்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A traditional representation of Krishna, often depicted with blue skin, holding a flute, or wearing a peacock feather, standing near a doorway or threshold."
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing to devotion",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning, but the agglutinative poetic rhythm and the specific emotional resonance of 'Kannan' (Krishna) are slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An open, welcoming state of heart or mind filled with love, acting as a threshold for connection.",
+            "acceptable_visual_variants": [
+              "An open wooden doorway framed by soft, warm light",
+              "A simple, unadorned open archway leading to a bright, peaceful space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The doorway of love / The entrance of love",
+            "literalization_risk": "Depicting a literal wooden door frame with the word 'love' written on it, which misses the emotional and spiritual welcoming quality.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "providing entry",
+                "welcoming",
+                "acting as a threshold"
+              ],
+              "vehicle_concept": "doorway"
+            },
+            "source_span_original": "அன்பின் வாசல்",
+            "source_span_translation": "entrance of love",
+            "source_term": "அன்பின் வாசல்",
+            "tenor": "The emotional state of love (அன்பு) that welcomes or connects",
+            "vehicle": "A physical doorway or entrance (வாசல்)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, warm, open threshold or doorway radiating soft light, framing a welcoming space without rigid physical boundaries."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural resonance and intimate name of Krishna as 'Kannan' (கண்ணன்) is translated to the more generic 'Krishna', losing the distinct Tamil devotional flavor.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The wordplay and rhythmic repetition between 'Kannanin' (கண்ணனின்) and 'kangal' (கண்கள்) in lines 1 and 2, which links the deity's name phonetically to the eyes of the seeker, is lost in translation.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative genitive case marker '-in' in 'Kannanin' (கண்ணனின்) and 'anbin' (அன்பின்) is flattened into English prepositions ('of'), losing the tight grammatical cohesion of the original Tamil lines.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A devotee's longing and song of love at the threshold of Krishna"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கண்ணனின் வாசலில்,  \nகண்கள் தேடி வரும்,  \nஅன்பின் வாசல் கொண்டு,  \nநான் உனக்கு பாடும்!",
+  "poem_id": "MV++_1293",
+  "poem_title": "Kannanin Vaasal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c72552ad37b710a4879fd69547914e3d47419f3f6f2b169774b1dc406e95edd9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1293.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "At the doorway of Krishna,  \nEyes searching for you,  \nWith the entrance of love,  \nI will sing to you!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:18:21.660251+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "27420c2f31debacc092b65f2b07e683a0b7b47c0248da0a202fbfd1729bd6866",
+        "response_hash": "dbcd89916d1e59cd93dec37df9f7aadb8c794c2fa2df695fedc5f2440497e0dd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df97203887eda30f84a43d6118b28d0c6a5f24a76623810ee6f9f58597d686bf",
+        "response_hash": "7446c3fecb69e4c4e51c14ed9ac3c79049a76b6df38b5e0cd6d42db18f94271e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "98c46988d71d9092a17cbb282b5d846b7d26cf2a464d5e7c5bf17b190ffc5e51",
+        "response_hash": "957aded31951f47ea50eaa331b2681d104cfb821a0b030c6d9f7d29766d8963b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e2dc273e3134c9c3b1f7732e058322364017eb81d0ed8c3aa2975f4471eb1d6",
+        "response_hash": "51a2bbcba312530a1b233d8df1354f1a9a9e5e22e581c9d6ceb54b9c4a6f3c9f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "340412b7472dae03bdd602948ca9fcd95f5cbb27468e24ec3476cf560ae4214b",
+        "response_hash": "6dee440d1918ab54836a047727eee75727038c7f534e2356c94e96b03b729df0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d6746fdd94eb675d31ed92973cab1ed992fd6d8e8ec17a4e5d2d4d6263f5ee9f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "503e84b4accbda761a97271d21e8daa9bd893dae6086dd4c73064c0b9f651d1e",
+    "translation_sha256": "cf6bcdae66d04abcdc96c8305879f0e0beee54a9f892109414a6f1c9b4db984c"
+  }
+}

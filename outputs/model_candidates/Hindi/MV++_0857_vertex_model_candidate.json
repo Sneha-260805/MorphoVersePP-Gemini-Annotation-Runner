@@ -1,0 +1,219 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A classic wooden shehnai with a polished brass bell.",
+          "A shehnai resting on a decorative silk cloth alongside wedding or festive motifs."
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional South Asian double-reed oboe-like wind instrument, deeply associated with weddings, celebrations, and auspicious beginnings. In this poetic context, it symbolizes the celebratory and joyous music of dreams.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A Western flute or recorder.",
+          "A modern brass trumpet or saxophone."
+        ],
+        "preserved": false,
+        "romanization": "shehnai",
+        "source_span_original": "शहनाई",
+        "source_span_translation": null,
+        "stanza_index": 1,
+        "term": "शहनाई",
+        "translation_note": "The translation replaces the specific South Asian wind instrument 'shehnai' with the generic concept of 'melody'.",
+        "translation_status": "LOST",
+        "visual_features": [
+          "A long, conical wooden instrument with a brass or metal bell at the end.",
+          "Multiple finger holes along the body.",
+          "Often decorated with red or gold tassels or threads during festive occasions."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A complex oscillation between intense desire to live and a dramatic readiness to die, resolving into a deep appreciation of fleeting moments.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'shehnai' as 'melody' loses the specific cultural association of the shehnai instrument with celebration, weddings, and auspicious beginnings.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The joyful, celebratory, and musical feeling of having hopeful dreams and desires.",
+            "acceptable_visual_variants": [
+              "A stylized, glowing silhouette of a shehnai blending into a starry night sky.",
+              "A person surrounded by warm, festive light that evokes the atmosphere of a celebration."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The shehnai (oboe-like wind instrument) of dreams",
+            "literalization_risk": "An illustrator might literally draw a musical instrument floating out of a sleeping person's head, which misses the abstract feeling of celebratory hope.",
+            "metaphor_mapping": {
+              "tenor_concept": "the joyful feeling of dreaming",
+              "transferred_attributes": [
+                "joyfulness",
+                "celebration",
+                "sweetness",
+                "auspiciousness"
+              ],
+              "vehicle_concept": "celebratory music of a shehnai"
+            },
+            "source_span_original": "ख्वाबों की शहनाई",
+            "source_span_translation": "melody of dreams",
+            "source_term": "ख्वाबों की शहनाई",
+            "tenor": "dreams and hopeful aspirations",
+            "vehicle": "shehnai (a traditional wind instrument associated with weddings and celebrations)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking up with a joyful expression, surrounded by soft, swirling golden musical notes or abstract light patterns that suggest a celebratory melody."
+          },
+          {
+            "abstract_meaning": "The speaker's inner emotional state is thriving, full of life, and happy once again.",
+            "acceptable_visual_variants": [
+              "A lush, green garden blooming in warm sunlight.",
+              "A vibrant, bustling abstract wash of warm colors surrounding a peaceful figure."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The world of the heart is populated/prosperous",
+            "literalization_risk": "An illustrator might draw a literal heart shape with a tiny city built inside it, which looks cartoonish and misses the emotional depth of feeling alive.",
+            "metaphor_mapping": {
+              "tenor_concept": "the emotional state of the heart",
+              "transferred_attributes": [
+                "liveliness",
+                "prosperity",
+                "happiness",
+                "abundance of life"
+              ],
+              "vehicle_concept": "a flourishing, lively city or landscape"
+            },
+            "source_span_original": "दिल की दुनिया आबाद है",
+            "source_span_translation": "world of my heart is flourishing",
+            "source_term": "दिल की दुनिया आबाद है",
+            "tenor": "the speaker's emotional state and inner life",
+            "vehicle": "a thriving, populated, and prosperous city or world",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, vibrant, and colorful landscape blooming with flowers or a warm, glowing light emanating from a person's chest to represent a thriving inner world."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and celebratory associations of the 'shehnai' (शहनाई), a traditional South Asian wind instrument played at weddings and auspicious occasions, are flattened into the generic English word 'melody'.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Urdu-derived poetic resonance of 'tamanna' (desire/longing), 'irada' (intent/resolve), and 'aabaad' (prosperous/flourishing/populated) is lost in the standard English translation, which uses more clinical or generic terms like 'want', 'intent', and 'flourishing'.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The rhythmic and grammatical parallelism of 'jinhe jeena hai, jinme jeena hai' is slightly flattened in English, though the semantic meaning is preserved.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic parallel structure and internal rhyme of 'jinhein jeena hai, jinmein jeena hai' (which to live, in which to live) is grammatically accurate in translation but loses its lyrical, song-like cadence and poetic flow.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The intense, contradictory fullness of human emotion where the desire to live fully and the willingness to die coexist."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आज फिर जीने की तमन्ना है,  \nआज फिर मरने का इरादा है।  \nआज फिर ख्वाबों की शहनाई है,  \nआज फिर दिल की दुनिया आबाद है।  \n\nकितनी बातें हैं, कितने लम्हे हैं,  \nजिन्हें जीना है, जिनमें जीना है।  \nआज फिर जीने की तमन्ना है,  \nआज फिर मरने का इरादा है।",
+  "poem_id": "MV++_0857",
+  "poem_title": "Aaj Phir Jeene Ki Tamanna Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e8838174f235041603e962e0e1a737f8c828c47bbf764e1123150e82dab087c5",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0857.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Today again I want to live,  \nToday again I have the intent to die.  \nToday again there’s the melody of dreams,  \nToday again the world of my heart is flourishing.  \n\nThere are so many things, so many moments,  \nWhich I want to live, in which I want to live.  \nToday again I want to live,  \nToday again I have the intent to die.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:21:52.928631+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fb77a847888ae9140170ead6abe918ce055b89e3d92cc47596af05d8677c7938",
+        "response_hash": "9094ee6c1c4164687c8350911a8af7b38bc8b99eb31ff664c50ca4b3656c62d4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1cea74799309b887562200a45e671bc2b036fcc11a0932617ef6b52e310ca846",
+        "response_hash": "97d03fecc9d8b73e7dda022ed26da0160146e2ed673a480d37be17e1089cf7f7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e2c181dc7e38995a0c05283d2e7fb93b6254f609aa9e47071af4cd4c546ccd5b",
+        "response_hash": "0cbd7c65b3b7b6a7afe01274900ff8b2f43619c8950c458b251c34297b30f25f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a3e2680110134c28436a91558ef2845b03fde78d2808bea49c3e35e0bfef9fd5",
+        "response_hash": "0fee69f6f4bed2267ebf90a19ea9cfca8cc449fe3c20c327bcdd75a0a7e136c1",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9a0601d1efa59cb120745c836bc105501598739f5e10cf9a839fa8d38e7eba44",
+        "response_hash": "40a5647fe6f837bd21c7884a55604b953df9051e648e9c9ff987b0c6e5ccc330",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "51638f0c1f55eeab46d1956843187569a8e526d5310e602ef7d010d916a85dde",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1924691eb7845ff88c1a39eed08d79425db4eb67776089084665193b45b96d14",
+    "translation_sha256": "69fbf39250df908fa5150b3408e2c99c230d0f2faf47419f0ba1c561d2629faf"
+  }
+}

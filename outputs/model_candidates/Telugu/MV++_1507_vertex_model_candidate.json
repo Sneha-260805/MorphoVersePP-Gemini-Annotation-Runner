@@ -1,0 +1,233 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address meaning 'one with good intellect' or 'wise person', serving as the signature makutam (refrain) of the classical Telugu Sumati Shatakam moral verses.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 4,
+        "term": "సుమతీ",
+        "translation_note": "The translation preserves the vocative address 'Sumathi' directly. In classical Telugu literature, this is the signature makutam (refrain/address) of the Sumati Shatakam, meaning 'one with good intellect' or 'wise person'.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "steady didactic guidance and moral caution",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation completely alters the literal meaning of the original Telugu line (which advises against plowing a flooded field) into a generic emotional statement about a calm heart.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Do not try to cultivate or work a field that is flooded; metaphorically, do not try to reason with or provoke someone whose mind/heart is overwhelmed with emotion or anger. Note: The English translation renders this abstractly as 'Do not provoke the calm heart'.",
+            "acceptable_visual_variants": [
+              "A traditional wooden plough stuck in deep, flooded mud under heavy rain.",
+              "A stylized human figure with water currents swirling inside their chest/mind, resisting any external touch."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "Do not plough a flooded field",
+            "literalization_risk": "An illustrator might draw a farmer struggling to plough a muddy, waterlogged field, which completely misses the psychological advice about not provoking an unstable mind.",
+            "metaphor_mapping": {
+              "tenor_concept": "acting upon an unstable or overwhelmed mind",
+              "transferred_attributes": [
+                "futility",
+                "counterproductiveness",
+                "ruining the soil/effort"
+              ],
+              "vehicle_concept": "ploughing a flooded field"
+            },
+            "source_span_original": "వఱదైన చేను దున్నకు",
+            "source_span_translation": "Do not provoke the calm heart",
+            "source_term": "వఱదైన చేను దున్నకు",
+            "tenor": "trying to manage or reason with an overwhelmed or highly emotional mind",
+            "vehicle": "ploughing a flooded field",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a split scene or a symbolic representation showing a flooded, unworkable field on one side, and a chaotic, stormy human silhouette on the other, representing the unmanageable state of mind."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the literal meaning of the original Telugu line. The original line 'వఱదైన చేను దున్నకు' literally means 'Do not plow a flooded field', but the translation renders it as 'Do not provoke the calm heart'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation collapses the specific advice of not visiting relatives during times of famine/scarcity into a generic warning about causing distress.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation alters the meaning of the original line. The original 'కఱవైనను బంధుజనులకడ కేగకుమీ' means 'Even in times of famine/scarcity, do not go to relatives (begging for help)', whereas the translation renders it as 'Do not cause distress to the dear ones'.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation of this stanza is highly compressed and omits direct line-by-line equivalents, losing the specific nuance of 'marmamu' (vulnerable secrets/inner workings).",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation generalizes 'పరులకు మర్మము సెప్పకు' (Do not reveal secrets/vulnerabilities to strangers/others) to 'Do not reveal secrets to outsiders', which is a relatively close but slightly flattened rendering.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "The translation completely alters the original meaning (which warns against giving leadership/command to a coward) into a warning about deceit for the innocent.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Do not give leadership or military command to a coward; metaphorically, do not entrust critical responsibilities to someone who lacks the courage or capacity to handle them.",
+            "acceptable_visual_variants": [
+              "A grand sword or commander's staff slipping from a trembling, hesitant hand.",
+              "A fearful figure in oversized armor looking overwhelmed by a leadership position."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L4",
+            "literal_meaning": "Do not give the post of army commander to a coward",
+            "literalization_risk": "An illustrator might draw a literal ancient soldier cowering behind a shield while holding a commander's baton, which misses the broader moral advice about leadership and capability.",
+            "metaphor_mapping": {
+              "tenor_concept": "entrusting vital leadership to the incapable",
+              "transferred_attributes": [
+                "inevitable failure",
+                "ruin of the collective enterprise",
+                "misplaced trust"
+              ],
+              "vehicle_concept": "military command given to a coward"
+            },
+            "source_span_original": "పిఱికికి దళవాయితనము బెట్టకు",
+            "source_span_translation": null,
+            "source_term": "పిఱికికి దళవాయితనము బెట్టకు",
+            "tenor": "giving critical responsibilities or leadership roles to incompetent or fearful people",
+            "vehicle": "appointing a coward as an army general",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a symbolic crown or commander's helmet being placed on a trembling, shadowy figure who is shrinking away from it."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely changes the meaning of the original line. The original 'పిఱికికి దళవాయితనము బెట్టకు' means 'Do not give leadership/commandership of an army to a coward', but the translation renders it as 'For the innocent, be wary of deceit'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "Practical wisdom and moral boundaries for self-preservation and social conduct"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "వఱదైన చేను దున్నకు\n\nకఱవైనను బంధుజనులకడ కేగకుమీ,\n\nపరులకు మర్మము సెప్పకు,\n\nపిఱికికి దళవాయితనము బెట్టకు సుమతీ.",
+  "poem_id": "MV++_1507",
+  "poem_title": "Manasu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "18d6e30e67f5b90a14d8e9d95a6dd5e73118dc6651d9270ce7e93c3a69e5cf93",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1507.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Do not provoke the calm heart,  \nDo not cause distress to the dear ones,  \nDo not reveal secrets to outsiders,  \nFor the innocent, be wary of deceit, oh Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:42:40.579454+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "baa5e66224b6dd7cd61cd5d5b7e8539d447b2b00145aa442a4b61760f5048616",
+        "response_hash": "f79ef9278f748cd1797e4f535669e35e9052a2f12f16cd204e76790dead24feb"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f834731e619271d7eebee700a204cbcaffd6fc77246d5ea7ef31e69d96354b66",
+        "response_hash": "8fa7849366cb213c4afb02abdde1e60eec15e23db39abfd9ca5ab33fd551408d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "66ffaf8c69028e67c31da153160bd4c45c85ba1d175f6764d9e96496b188d045",
+        "response_hash": "f6fade3f30a40907d9d35f7718710d7817ff2a30daab86f4e1c5c903fddd15c7",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d39f458a14341674e4c2500fb1c7d9b09e3bba4e426e9060380a3d59b3557ba1",
+        "response_hash": "0a4d255b407cccb5dd45891184893a601aa8f66ace28c6959254d0f12d5413af",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fb1876e96523bbdae73c0b545d164a78cc4922c6782d0c51beca1da6460bcca3",
+        "response_hash": "6333ac6e41665f9290924180261ea226b41a00743c1d1864d27decd559c7594e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a9f6d7c14665ae15146f1e89cf09bfbfa12e63727f9c3fd4158c6c342c8e82f8",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a342f38677e518ea2f6f4f79cc54765fd06884d3a7a82d2f76382c2dcb72866d",
+    "translation_sha256": "0dab4039156cce4b4fda4ffc64f3c5a64b1d5cb1096693e62ef3dc07f99b8d43"
+  }
+}

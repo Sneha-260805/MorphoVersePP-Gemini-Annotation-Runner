@@ -1,0 +1,267 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to resilience and hope",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation adds rhyming words like 'crave' and 'save' to maintain a poetic structure, which slightly alters the literal phrasing of the original Hindi lines (e.g., 'forgetting every pain' becomes 'forget every pain we save').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Overcoming life's current difficulties or transitioning to a better phase of life.",
+            "acceptable_visual_variants": [
+              "A simple wooden boat on a calm river moving towards a bright dawn",
+              "A stylized silhouette of people in a boat looking towards a glowing far bank"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "To the other side of a physical river",
+            "literalization_risk": "An illustrator might depict a literal geographical river crossing, missing the symbolic journey of life and emotional transition.",
+            "metaphor_mapping": {
+              "tenor_concept": "overcoming life's struggles",
+              "transferred_attributes": [
+                "moving from one side to another",
+                "leaving behind the current state",
+                "reaching a new destination"
+              ],
+              "vehicle_concept": "crossing a river"
+            },
+            "source_span_original": "नदी के पार",
+            "source_span_translation": "cross the river",
+            "source_term": "नदी के पार",
+            "tenor": "overcoming life's struggles or transitioning to a better state",
+            "vehicle": "crossing a river",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a boat crossing a misty river towards a bright, glowing horizon, emphasizing the transition from shadow to light."
+          },
+          {
+            "abstract_meaning": "Moving towards a hopeful, fresh beginning or a better future.",
+            "acceptable_visual_variants": [
+              "A golden sunrise over a calm body of water",
+              "Warm light illuminating a path or riverbank ahead"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Towards a new morning",
+            "literalization_risk": "A literal depiction of a sunrise might look like a generic landscape painting without conveying the emotional hope of a fresh start.",
+            "metaphor_mapping": {
+              "tenor_concept": "hopeful beginning",
+              "transferred_attributes": [
+                "light overcoming darkness",
+                "fresh start",
+                "warmth and clarity"
+              ],
+              "vehicle_concept": "dawn"
+            },
+            "source_span_original": "नए सवेरे की ओर",
+            "source_span_translation": "Towards a new dawn’s light",
+            "source_term": "नए सवेरे की ओर",
+            "tenor": "a hopeful new beginning or future",
+            "vehicle": "a new morning/dawn",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a soft, warm golden light breaking through dark clouds or mist over the horizon."
+          },
+          {
+            "abstract_meaning": "A state or place where happiness is permanently present and secure.",
+            "acceptable_visual_variants": [
+              "A cozy, warm-lit cottage nestled in a green landscape",
+              "A soft, protective canopy of light on the shore"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The dwelling/nest of happiness",
+            "literalization_risk": "Depicting a literal house or nest with abstract 'happiness' inside is difficult and can look cartoonish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "lasting happiness",
+              "transferred_attributes": [
+                "safety",
+                "permanence",
+                "comfort",
+                "belonging"
+              ],
+              "vehicle_concept": "shelter/nest"
+            },
+            "source_span_original": "ख़ुशियों का बसेरा",
+            "source_span_translation": "happiness finds shelter",
+            "source_term": "ख़ुशियों का बसेरा",
+            "tenor": "a state of lasting happiness and peace",
+            "vehicle": "a shelter or nest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a warm, inviting, glowing shelter or cozy cottage on the far riverbank, symbolizing safety and joy."
+          },
+          {
+            "abstract_meaning": "An abundance of hopes, dreams, and positive possibilities.",
+            "acceptable_visual_variants": [
+              "Sparkling light particles falling like gentle rain over a landscape",
+              "A soft shower of glowing stars or light beams from the sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "An abundant shower of dreams",
+            "literalization_risk": "Showing literal objects representing dreams falling like rain could look chaotic, confusing, or surreal in an unintended way.",
+            "metaphor_mapping": {
+              "tenor_concept": "abundance of dreams",
+              "transferred_attributes": [
+                "falling from above",
+                "refreshing",
+                "abundant",
+                "nourishing"
+              ],
+              "vehicle_concept": "rain shower"
+            },
+            "source_span_original": "सपनों की भरपूर बौछार",
+            "source_span_translation": "dreams pour down bright",
+            "source_term": "सपनों की भरपूर बौछार",
+            "tenor": "an abundance of hopes and aspirations",
+            "vehicle": "a heavy shower of rain",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict sparkling, shimmering droplets of light or stars gently falling from the sky like a soft, magical rain."
+          },
+          {
+            "abstract_meaning": "Taking control of our collective journey or life path together.",
+            "acceptable_visual_variants": [
+              "Two or more figures holding oars in a simple boat, moving in unison",
+              "Hands together on a single rudder or oar, guiding a vessel"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Let us row/steer this boat",
+            "literalization_risk": "A literal drawing of people rowing a boat might look like a simple sporting or recreational activity rather than a cooperative life journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "guiding a life journey",
+              "transferred_attributes": [
+                "effort",
+                "direction",
+                "control",
+                "cooperation"
+              ],
+              "vehicle_concept": "steering a boat"
+            },
+            "source_span_original": "इस कश्ती को चलाएँ हम",
+            "source_span_translation": "Let’s steer this boat together",
+            "source_term": "इस कश्ती को चलाएँ हम",
+            "tenor": "guiding one's life path or collective journey",
+            "vehicle": "steering a boat",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show multiple figures working in harmony to guide a small boat through water, looking forward with determination."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'light' to rhyme with 'bright', which is not present in the original Hindi 'नए सवेरे की ओर' (towards a new morning/dawn).",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'bright' to complete a rhyme scheme, which is not in the original Hindi 'भरपूर बौछार' (abundant shower/sprinkle).",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'we crave' to rhyme with 'save', introducing a sense of intense desire not explicitly present in the Hindi 'मंज़िल को पायें' (reach the destination).",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'we save' to rhyme with 'crave', which alters the meaning of the original Hindi 'हर दर्द को भूल जाएँ' (forget every pain).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A collective journey across a river toward a hopeful, pain-free future and shared destinations."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चलो नदी के पार,  \nनए सवेरे की ओर।  \nजहाँ ख़ुशियों का बसेरा,  \nऔर सपनों की भरपूर बौछार।  \nइस कश्ती को चलाएँ हम,  \nमिलकर हर एक मंज़िल को पायें।  \nचलो नदी के पार,  \nहर दर्द को भूल जाएँ।",
+  "poem_id": "MV++_0440",
+  "poem_title": "Chalo Nadi Ke Paar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3f009396885ad5b84fc1a1bbe2f7b69e6174b10790f5833862bd7d65a864575a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0440.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Let's cross the river,  \nTowards a new dawn’s light.  \nWhere happiness finds shelter,  \nAnd dreams pour down bright.  \nLet’s steer this boat together,  \nReaching every destination we crave.  \nLet's cross the river,  \nAnd forget every pain we save.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:24:41.065766+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "18e423cf607450dab9defee49a6a6daad7a536382c99e5e121db5ffca6964555",
+        "response_hash": "4cda0b93cf0a484d762332499f30f583035bf7e8beb1648c700f4184a1364a89"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c0c61e571137034570ce8ee03aa51aeef84b00fa827dd849013406a1b5ecf3f",
+        "response_hash": "c958e23139e46bb2423f7452aae8268d9349843fe592485a3c9c08a0090c77e3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ac764868751c787fee96ec5065cc55857243eefb71d015c8b8f2a6704cdd3f9e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "baeb864d8532fa45db7fd73b8677dc4e2a98efa65762750135cd1b0dab0f5680",
+        "response_hash": "07cbd918604b301a16356d21215e6c68550d14249921ab54f32704677e779f3d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9dc2605b7b90d098ec9d77f6d9e68b1b7707e6fe76890447f5894ad17fa1b507",
+        "response_hash": "fed6587b4acaec61a0da4fc9092dcb0f3ce76a6fd0495096f7c9eb4df154cbf9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "889797668271bc27c8de0559697d89fbb2f07d8dfea7c0a4aa4196d72dc9d82c",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "767c6428175bb8d6d2487e03e27be05e7c9a36ece57112023c2079d4c4262a8e",
+    "translation_sha256": "93ddee53c8c540528d54d1fb2356d5740e3c0e7f1dd6d1113189105a3fe95402"
+  }
+}

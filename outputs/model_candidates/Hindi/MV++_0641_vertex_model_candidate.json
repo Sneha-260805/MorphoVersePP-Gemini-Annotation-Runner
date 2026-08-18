@@ -1,0 +1,288 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A standard shot glass or small tumbler containing amber-colored liquid."
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A colloquial South Asian measure of alcohol, typically spirits, widely used in social drinking contexts. Derived from English but deeply integrated into regional drinking culture.",
+        "line_ref": "L12",
+        "negative_confusions": [
+          "A large western pint glass or a fancy cocktail glass with garnishes."
+        ],
+        "preserved": true,
+        "romanization": "peg",
+        "source_span_original": "पेग",
+        "source_span_translation": "drink",
+        "stanza_index": 3,
+        "term": "पेग",
+        "translation_note": "The translation renders the colloquial Hindi/Urdu drinking term 'पेग' (peg) as 'drink', which generalizes the specific measure and cultural association of a 'peg' in South Asian drinking culture.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "A small glass containing a measured portion of liquor, often whiskey or rum, typical of South Asian social settings."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "intoxicated longing to quiet reflection and hope",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The rhythmic, repetitive, and overwhelming flow of intoxication or emotional states, mimicking the motion of waves.",
+            "acceptable_visual_variants": [
+              "A series of bottles arranged in a gentle, wave-like undulating curve",
+              "A hazy, rippling visual overlay on a tavern or room scene"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Wave by wave / ripple by ripple",
+            "literalization_risk": "An illustrator might draw literal ocean waves crashing against bottles, which obscures the internal, psychological state of intoxication.",
+            "metaphor_mapping": {
+              "tenor_concept": "surges of intoxication",
+              "transferred_attributes": [
+                "repetitive motion",
+                "overwhelming flow",
+                "rhythmic arrival"
+              ],
+              "vehicle_concept": "water waves"
+            },
+            "source_span_original": "लहर लहर",
+            "source_span_translation": "Wave by wave",
+            "source_term": "लहर लहर",
+            "tenor": "The repetitive, surging sensation of drinking and intoxication",
+            "vehicle": "Ocean waves or ripples of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, undulating, wavy distortion or ripple effect in the air surrounding the bottles to suggest a subjective, wave-like perception of reality."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The rhythmic, repetitive, and overwhelming flow of intoxication or emotional states, mimicking the motion of waves.",
+            "acceptable_visual_variants": [
+              "A series of bottles arranged in a gentle, wave-like undulating curve",
+              "A hazy, rippling visual overlay on a tavern or room scene"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Wave by wave / ripple by ripple",
+            "literalization_risk": "An illustrator might draw literal ocean waves crashing against bottles, which obscures the internal, psychological state of intoxication.",
+            "metaphor_mapping": {
+              "tenor_concept": "surges of intoxication",
+              "transferred_attributes": [
+                "repetitive motion",
+                "overwhelming flow",
+                "rhythmic arrival"
+              ],
+              "vehicle_concept": "water waves"
+            },
+            "source_span_original": "लहर लहर",
+            "source_span_translation": "Wave by wave",
+            "source_term": "लहर लहर",
+            "tenor": "The repetitive, surging sensation of drinking and intoxication",
+            "vehicle": "Ocean waves or ripples of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, undulating, wavy distortion or ripple effect in the air surrounding the bottles to suggest a subjective, wave-like perception of reality."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'कश खींचते हुए' as 'drawing a deep pull' loses the specific colloquial association with taking a drag or puff of a cigarette/smoke, which adds a distinct sensory layer of smoking alongside drinking in the original Hindi text.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'अब तक' (until now / so far) is omitted in the English rendering 'was now everywhere', losing the temporal continuity of the taste persisting up to that specific moment.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The rhythmic, repetitive, and overwhelming flow of intoxication or emotional states, mimicking the motion of waves.",
+            "acceptable_visual_variants": [
+              "A series of bottles arranged in a gentle, wave-like undulating curve",
+              "A hazy, rippling visual overlay on a tavern or room scene"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "Wave by wave / ripple by ripple",
+            "literalization_risk": "An illustrator might draw literal ocean waves crashing against bottles, which obscures the internal, psychological state of intoxication.",
+            "metaphor_mapping": {
+              "tenor_concept": "surges of intoxication",
+              "transferred_attributes": [
+                "repetitive motion",
+                "overwhelming flow",
+                "rhythmic arrival"
+              ],
+              "vehicle_concept": "water waves"
+            },
+            "source_span_original": "लहर लहर",
+            "source_span_translation": "wave, wave after wave",
+            "source_term": "लहर लहर",
+            "tenor": "The repetitive, surging sensation of drinking and intoxication",
+            "vehicle": "Ocean waves or ripples of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, undulating, wavy distortion or ripple effect in the air surrounding the bottles to suggest a subjective, wave-like perception of reality."
+          },
+          {
+            "abstract_meaning": "Each serving of alcohol brought a renewed sense of optimism, escape, or expectation.",
+            "acceptable_visual_variants": [
+              "A hand holding a glass that catches a warm, hopeful ray of light",
+              "A soft, glowing aura surrounding a freshly poured drink"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L12",
+            "literal_meaning": "There was a new hope in every peg of alcohol",
+            "literalization_risk": "Showing a literal glowing object or word 'hope' inside a glass of alcohol could look cartoonish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and expectation",
+              "transferred_attributes": [
+                "containing something desirable",
+                "offering temporary relief or renewal"
+              ],
+              "vehicle_concept": "a glass of alcohol"
+            },
+            "source_span_original": "हर पेग में एक नई उम्मीद थी",
+            "source_span_translation": "Every drink held a new hope",
+            "source_term": "हर पेग में एक नई उम्मीद थी",
+            "tenor": "A source of hope or emotional renewal",
+            "vehicle": "A peg/drink of alcohol",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glass of wine or alcohol reflecting a warm, bright, or golden light amidst an otherwise dim or cool-toned setting, symbolizing the internal hope it represents."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'पेग' (peg) as 'drink' loses the culturally specific Indian English and colloquial Hindi term 'peg', which refers to a standard measure of spirits (usually 30ml or 60ml) commonly used in drinking contexts in India.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The search for connection and hope through shared intoxication and memory"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but translation_loss contains items. Under the schema rules, translation_loss should be empty when translation_quality is faithful, or translation_quality should be updated to 'partial' to reflect the documented losses.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but translation_loss contains items. Under the schema rules, translation_loss should be empty when translation_quality is faithful, or translation_quality should be updated to 'partial' to reflect the documented losses.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "लहर लहर बोतल बोतल\n\nलहर लहर बोतल बोतल\nहमने पिया, तूने पिया।\nकभी-कभी कश खींचते हुए,\nएक और बोतल के बाद\nउधर से धीरे-धीरे एक कदम चला।\nवो औरत का हाथ, शराब का प्याला,\nहमने जो चखा था, अब तक हर ओर था।\n\nहवा में बेतरतीबी से छलकते हुए,\nवो थोड़ी देर में ठंडा हो गया,\nशायद वो लहर लहर\nहर पेग में एक नई उम्मीद थी।",
+  "poem_id": "MV++_0641",
+  "poem_title": "Lahar Lahar Botal Botal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "91e1726dee5849b6c995bcf708f00ad805754d25b9b1450a5c06ff7c9f7d25a6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0641.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Wave by Wave, Bottle by Bottle\n\nWave by wave, bottle by bottle,  \nWe drank, you drank.  \nSometimes, drawing a deep pull,  \nAfter one more bottle,  \nA step moved slowly over there.  \nHer hand, the glass of wine,  \nWhat we had tasted, was now everywhere.\n\nSpilling haphazardly in the air,  \nIt cooled down after a while,  \nPerhaps the wave, wave after wave,  \nEvery drink held a new hope.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:49:51.609012+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3ec1774039f3f6487fe4bec2d9c6bd74f82e2d684fae7449f51631a66a45ecb4",
+        "response_hash": "a755f0ceb3473c61dbcb211bed84c887ae1f5d51920eb3090022a65320172bff"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ed184fc3eb2f8816e13d01858e11c7130f3957a318c195a47450bbf39738f80f",
+        "response_hash": "2b44e6bcd08b933666ba8cf1ce7f7f2eacd3c89850c76c229d7d35c52d4630bf",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6455f9a18fcb29bc93ad1b6b0938d6358d7044a8ff5fe5a2e5ab7bb23d2d3c39",
+        "response_hash": "ff664a9ec51ca0a263bf610df1de3cb9e2d8f6ecd0d1c91852a99ddb3fb9f727",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a44522506610a3d830bb26d519a14948a743e467a26597d9edf72d3d0344d377",
+        "response_hash": "ca467375057fda147b73966fe7f2d5393a1cf6dbfc15ce10de2153facbac6b29",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "38372c276b91b9d7c4ede283a9bbc06ceeda323a983627cd37c176edd24114a3",
+        "response_hash": "9922c366fdcfb0fde276865372cd779626c3bd6c92acb5f19125e101210c0568",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "59c1fce8e5dfa9e09624e1a7af6c05fe5f1967b9da5373455569ec8d83575145",
+        "response_hash": "527278d8de2b62468afdca89d0553491d6fb5b4d22ccaae9d857a3b4b8f11ac3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5d270689036be0b5c5398fa566ad59d4647632b3057e65a22b0bc8e6084ff93e",
+    "translation_sha256": "b91e63e5290d89dd1ce94f5721961bb4618ffdbdf317ff4092724f983dfc17de"
+  }
+}

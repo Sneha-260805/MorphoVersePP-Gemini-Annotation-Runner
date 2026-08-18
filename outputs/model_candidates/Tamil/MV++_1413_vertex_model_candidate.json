@@ -1,0 +1,207 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An abstract glowing space representing a sanctuary of affection",
+          "A subtle, non-sectarian threshold or doorway filled with warm light"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The presence or sanctuary of a deity, commonly used in Tamil to describe the sacred space of a temple or a divine presence. Here, it is used metaphorically for the presence of love/affection.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A highly detailed, sectarian Hindu temple altar with specific idols",
+          "A modern secular office or living room setting"
+        ],
+        "preserved": true,
+        "romanization": "sannidhiyil",
+        "source_span_original": "சன்னிதியில்",
+        "source_span_translation": "presence",
+        "stanza_index": 1,
+        "term": "சன்னிதியில்",
+        "translation_note": "Translated as 'presence', which captures the general meaning but loses the specific sacred/temple sanctuary connotation of 'sannidhi'.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A sacred space or sanctuary",
+          "Soft, warm light suggesting a divine or revered presence"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "quiet devotion and tenderness",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'உலக்கம்' (ulakkam) as 'heartbeat' captures the general sense of movement/pulsation, but loses the specific rhythmic, churning, or pounding nuance of the Tamil root. Additionally, the sacred/reverent connotation of 'சன்னிதி' (sannidhi - presence/sanctum) is flattened to the more generic 'presence' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The unspoken, deep emotional communication of love is fully expressed and understood through a lover's eyes.",
+            "acceptable_visual_variants": [
+              "A close-up of two people looking deeply into each other's eyes in a soft-focus setting",
+              "A single pair of expressive eyes reflecting a warm, gentle glow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1-L2",
+            "literal_meaning": "The spoken words of love are physically held or enclosed inside your eyeballs.",
+            "literalization_risk": "An illustrator might literally draw text or speech bubbles trapped inside a pair of giant eyeballs, which would look surreal or medical rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "silent emotional communication through eyes",
+              "transferred_attributes": [
+                "enclosure",
+                "completeness of expression",
+                "lack of external sound"
+              ],
+              "vehicle_concept": "physical containment of spoken words"
+            },
+            "source_span_original": "காதலின் மொழிகள்,\nஉன் கண்களில் அடங்கும்",
+            "source_span_translation": "Words of love,\nAre contained in your eyes",
+            "source_term": "காதலின் மொழிகள்,\nஉன் கண்களில் அடங்கும்",
+            "tenor": "The silent, expressive power of a lover's gaze to convey deep affection without speech",
+            "vehicle": "Words being physically contained or enclosed inside a small physical space (eyes)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of a person's expressive, warm eyes reflecting a soft light or a subtle silhouette of a loved one, capturing a deep, silent gaze."
+          },
+          {
+            "abstract_meaning": "The speaker's heartbeat and vital life force are revived and find true meaning in the presence of the beloved's affection.",
+            "acceptable_visual_variants": [
+              "A stylized, glowing heart symbol surrounded by soft, warm light beams",
+              "A peaceful silhouette of a person with a gentle, warm light emanating from their chest"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3-L4",
+            "literal_meaning": "The physical beating motion of the heart comes to life as an independent living entity inside a physical temple or presence of love.",
+            "literalization_risk": "An illustrator might draw a literal anatomical heart waking up, opening its eyes, or standing inside a temple shrine, which would look bizarre or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional rejuvenation and feeling alive through love",
+              "transferred_attributes": [
+                "vitality",
+                "sacredness",
+                "awakening"
+              ],
+              "vehicle_concept": "resurrection or coming to life in a sacred space"
+            },
+            "source_span_original": "என் இதயத்தின் உலக்கம்,\nஅன்பின் சன்னிதியில் உயிர்த்திடும்!",
+            "source_span_translation": "The heartbeat of my heart,\nLives in the presence of affection!",
+            "source_term": "என் இதயத்தின் உலக்கம்,\nஅன்பின் சன்னிதியில் உயிர்த்திடும்!",
+            "tenor": "The emotional revival and vitality the speaker feels when experiencing the beloved's love",
+            "vehicle": "A physical heartbeat coming to life or being resurrected inside a sacred presence/sanctum",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a warm, glowing light radiating from a person's chest area, or a soft, peaceful silhouette of a person surrounded by a warm, protective aura of light."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'உலக்கம்' (ulakkam) as 'heartbeat' simplifies a complex Tamil term that carries connotations of movement, agitation, or the internal stirring/throbbing of the soul, losing its deeper poetic resonance.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'சன்னிதி' (sannidhi) has strong sacred or devotional connotations (often referring to the presence of a deity or a sanctum), which is flattened into the generic English 'presence' in the translation.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The silent, life-giving language of love shared between two souls"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, which contradicts the 'translation_status' of 'PARTIALLY_PRESERVED' and the 'translation_note' stating that the specific sacred connotation is lost. It should be false.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "காதலின் மொழிகள்,  \nஉன் கண்களில் அடங்கும்,  \nஎன் இதயத்தின் உலக்கம்,  \nஅன்பின் சன்னிதியில் உயிர்த்திடும்!",
+  "poem_id": "MV++_1413",
+  "poem_title": "Kaadhalin Mozhigal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0655bb1b0ca431cd0c66b6c64107b8a6ad6519c2a4249d92932a28ae528f9485",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1413.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Words of love,  \nAre contained in your eyes,  \nThe heartbeat of my heart,  \nLives in the presence of affection!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:31:02.183093+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3a823a73d0edb8674d41d2f00ba375e00b66a1dcb13cc60ca44e66fcb2ad3a6b",
+        "response_hash": "3abd8e3ed8b5068338baecfacdd304d4a181e2be9fed30ae38872bb17aaeb8c6"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a998fa7ccf3d56d8f315eb72423e735642641dcc461554f733e6376a41257a90",
+        "response_hash": "9b6cd56cf2f230f1dfb186d98ee18cdb65a3f1f96b429d09d0972c13e9bd1bf0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "752ed86bca84a186bd43c67c1185c8eaed7755912d92bf117290322a2e0100f6",
+        "response_hash": "5e05c3c5154393b10d0b78e4302310f6e040d9ebcf5e2fdd64aa693cfacec818",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "93b6c1d2f81c3988bf33017d37ce6f9db4d3a92f31d446203762a9ce6233ffca",
+        "response_hash": "4755517256a2d98ee67906cc4b415a2d881c7a6268a3f777cfe6855925863829",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bcc71a40e91088a72bd057b98b8957f0c2cc4ae687b98ea6c99726e24ddc1813",
+        "response_hash": "4a6f4b7e713e0f353c20c9e9c10d42a6fa4b14516cf3f6611fd6ac8126f961f1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "976752ad01f6d81b8a90791b285cb3606fffaa939e24eacaf99b778ab2402176",
+        "response_hash": "a0ced12fbe3b0da7ddc8ea1a5333c524d27e5660d7243ab4eb89fa18f373475d",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0dcf50b3ed24a2e60a9f5fa3423901864170edb3af9e3158385e7462d9280b95",
+    "translation_sha256": "eaa334868014a3ff6c4bf9eb69ad364a5ea18b65103b9bf946ebdf2e394e6452"
+  }
+}

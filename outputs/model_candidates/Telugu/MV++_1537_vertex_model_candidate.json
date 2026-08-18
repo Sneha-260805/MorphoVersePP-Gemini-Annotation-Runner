@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address meaning 'O person of good intellect/wisdom', characteristic of the classical Telugu Sumati Satakam moral poems. It functions as a structural and moral signpost in the verse.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "reflective realization of a harsh truth",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation completely reverses the meaning of the first two lines. The original Telugu states that when lotuses leave their water (their natural home), the sun's rays (their natural friend, 'kamalaptu') scorch/wither them ('kamalina'). The translation incorrectly says they are 'drenched in water' and 'bloom' when the sun reaches them, missing the core analogy that leaving one's place turns friends into foes.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "When people leave their natural place of strength or support, even their closest friends and allies will turn against them and become their enemies, just as the sun (the natural friend of the lotus) burns and withers the lotus once it is removed from its protective water.",
+            "acceptable_visual_variants": [
+              "A side-by-side comparison of a thriving pond lotus and a dried, withered lotus on parched ground.",
+              "A single conceptual scene of a lotus flower fading as it is pulled away from its water source toward a burning sun."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1-L4",
+            "literal_meaning": "Just as lotuses leaving water are withered by the heat of their friend the sun, when people leave their own proper places, their own friends surely become their enemies.",
+            "literalization_risk": "An illustrator might depict a literal sun burning a lotus flower on dry land, which misses the human social lesson about power, displacement, and betrayal by allies.",
+            "metaphor_mapping": {
+              "tenor_concept": "vulnerable person losing status and being harmed by former friends",
+              "transferred_attributes": [
+                "loss of protective environment makes one vulnerable",
+                "former source of life/friendship becomes a destructive force"
+              ],
+              "vehicle_concept": "lotus losing water and being scorched by the sun"
+            },
+            "source_span_original": "కమలములు నీరు బాసినc\nగమలాప్తు రశ్మిసోకి కమలిన భంగిన్\nదమతమ నెలవులు దప్పినc\nదమ మిత్రులే శత్రులౌట తధ్యము",
+            "source_span_translation": "Lotuses drenched in water,\nAs the rays of the sun reach them, they bloom,\nFriendship can wilt in time,\nFor friends can easily become foes, how true",
+            "source_term": "కమలములు నీరు బాసినc\nగమలాప్తు రశ్మిసోకి కమలిన భంగిన్\nదమతమ నెలవులు దప్పినc\nదమ మిత్రులే శత్రులౌట తధ్యము",
+            "tenor": "A person who has lost their position, home, or natural source of power being harmed or turned upon by their own former friends and allies.",
+            "vehicle": "A lotus flower removed from its protective water being scorched and withered by the sun (which is normally its friend and life-giver).",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Create a split or sequential visual showing a healthy lotus in water under a gentle sun, contrasted with a withered lotus on dry, cracked earth under a harsh sun, with subtle symbolic elements representing a person losing their home or status."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely reverses the meaning of the original simile. The Telugu text states that when lotuses leave their water ('neeru baasina'), the sun's rays (which usually nourish them) burn/wither them ('kamalina bhangin'). The translation incorrectly renders this as 'Lotuses drenched in water... they bloom', missing the core philosophical point about losing one's proper place/element.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The wordplay on 'kamalamulu' (lotuses), 'kamalaapthudu' (friend of the lotus, i.e., the sun), and 'kamalina' (withered/scorched) is entirely lost in translation.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'dama dama nelavulu dappina' (when one loses one's own proper place/station) is mistranslated as 'Friendship can wilt in time', which completely misses the structural parallel between the lotus leaving water and a person leaving their proper place.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The loss of one's natural support system or position turns even natural allies into destructive forces."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].emotion",
+      "issue": "The stanza emotion is set to 'peace', which is highly inconsistent with the stanza's tone ('declaration'), the emotional arc ('reflective realization of a harsh truth'), and the thematic content describing betrayal, loss of status, and friends turning into enemies ('శత్రులౌట' / foes).",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[0].category",
+      "issue": "The term 'సుమతీ' (Sumathi) is categorized as 'DEVOTIONAL_CONCEPT', but the gloss correctly identifies it as a moral/didactic vocative address ('O person of good intellect/wisdom') from a secular/moral satakam (Sumati Satakam) rather than a devotional or religious concept. 'SOCIAL_CUSTOM' or 'REGIONAL_SYMBOL' would be more consistent, or the category is mismatched with the definition of devotional concepts.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "కమలములు నీరు బాసినc  \nగమలాప్తు రశ్మిసోకి కమలిన భంగిన్  \nదమతమ నెలవులు దప్పినc  \nదమ మిత్రులే శత్రులౌట తధ్యము సుమతీ.",
+  "poem_id": "MV++_1537",
+  "poem_title": "Kamalamula",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e80d587218a9ef97e0ebec61492b7bfa569d0d1a35342515d1a724074a25f3ff",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1537.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Lotuses drenched in water,  \nAs the rays of the sun reach them, they bloom,  \nFriendship can wilt in time,  \nFor friends can easily become foes, how true, Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:45:48.563862+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa7cd1120f27d39726f0d57206eb9e89f493a7a66797da9b0746057be28738c6",
+        "response_hash": "ad57f1807154882eb26ec141cf2115365c39c942a18ce95fa0567ce6d555e967",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "316cf44ee2f269e76046c3520fb108006d017aafba57b0db0c4e4ab18e7a41c9",
+        "response_hash": "0c81ffcb442ed88456a3f8a4f876c51ddbfe23fcf3bc3db67d407ac9b9c45357",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bb2fe77bc113e0ecca94e1acd136382d652e362a18eebd162f31c3363d00a4c3",
+        "response_hash": "c467335dc1cb94a519e472adf0a6c397c321e07a1952188de793c0c2164e32b6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ca1ba39837813fb41cd596406039c6fa61bfd357cf3910591a1accfb27622c9",
+        "response_hash": "e8ba4fee2848bde5c4a00382c808552d164b6cf3ebe00e0b8c279d2877cb0017",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3eb23dc7567e48e1c5e62a7df02f2d7474c2514c375d6bbdd4f509fccce363c0",
+        "response_hash": "fb5424002c6c4552e455d4596b03c9ce702028b4218776eeb505bf3d5248310e",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5c5618454586fc5d4b2e428016ec18b706872343ee080456d0dc8036367ead05",
+    "translation_sha256": "a7c4938054e711ad24db9df4894cadf9fd1f50615224866e68c5ef89b8d04b72"
+  }
+}

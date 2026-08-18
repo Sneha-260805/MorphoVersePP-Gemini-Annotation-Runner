@@ -1,0 +1,256 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple, rustic terracotta clay lamp with a cotton wick",
+          "An ornate, traditional brass hand-held lamp"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional oil lamp, often used in South Asian and Hindu rituals to symbolize knowledge, purity, and divine presence. In this poetic context, it is used metaphorically as the lamp of love.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern electric lantern or flashlight",
+          "A Western-style wax candle",
+          "An industrial street lamp"
+        ],
+        "preserved": true,
+        "romanization": "deepa",
+        "source_span_original": "ದೀಪ",
+        "source_span_translation": "lamp",
+        "stanza_index": 1,
+        "term": "ದೀಪ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A small clay or brass oil lamp (diya/deepa)",
+          "A warm, glowing flame",
+          "Held gently or carried carefully"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "gentle encouragement and peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The guiding, warm, and illuminating nature of love.",
+            "acceptable_visual_variants": [
+              "A person holding a small clay diya with a steady flame in cupped hands",
+              "A glowing light emanating from within a person's hands as if holding an invisible lamp"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical oil lamp made of love",
+            "literalization_risk": "An illustrator might draw a literal lamp made out of a heart shape or literal letters spelling love, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "illumination",
+                "warmth",
+                "guidance in darkness",
+                "need to be carried/sustained"
+              ],
+              "vehicle_concept": "lamp"
+            },
+            "source_span_original": "ಪ್ರೀತಿಯ ದೀಪ",
+            "source_span_translation": "lamp of love",
+            "source_term": "ಪ್ರೀತಿಯ ದೀಪ",
+            "tenor": "Love (preeti)",
+            "vehicle": "A burning oil lamp (deepa)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a person gently carrying a traditional clay oil lamp (deepa) with a warm, glowing flame that casts a soft light around them."
+          },
+          {
+            "abstract_meaning": "The inner goodness, clarity, or love emanating from a person's soul.",
+            "acceptable_visual_variants": [
+              "A soft golden aura surrounding the chest area of a peaceful figure",
+              "A warm light illuminating a person's face from below, suggesting an inner source"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Physical light radiating from the muscular organ of the heart",
+            "literalization_risk": "An illustrator might draw a literal anatomical heart glowing like a lightbulb, which is visually jarring and medically literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner goodness/love",
+              "transferred_attributes": [
+                "radiance",
+                "dispelling of darkness",
+                "visibility",
+                "purity"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "ಹೃದಯದ ಬೆಳಕು",
+            "source_span_translation": "light of your heart",
+            "source_term": "ಹೃದಯದ ಬೆಳಕು",
+            "tenor": "The goodness, love, or consciousness of the heart",
+            "vehicle": "Radiant light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm glow radiating from a person's chest area, or a gentle light illuminating their face from an internal source."
+          },
+          {
+            "abstract_meaning": "The journey or life path guided by love.",
+            "acceptable_visual_variants": [
+              "A gentle dirt path winding through a lush green meadow under a warm sky",
+              "A path illuminated by soft lanterns hanging from trees"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A physical road constructed out of love",
+            "literalization_risk": "An illustrator might draw a road paved with hearts, which is a cliché and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey/relationship",
+              "transferred_attributes": [
+                "direction",
+                "progression",
+                "destination",
+                "obstacles or smoothness"
+              ],
+              "vehicle_concept": "path"
+            },
+            "source_span_original": "ಪ್ರೀತಿಯ ಈ ದಾರಿ",
+            "source_span_translation": "path of love",
+            "source_term": "ಪ್ರೀತಿಯ ಈ ದಾರಿ",
+            "tenor": "The course of a loving relationship or a life lived with love",
+            "vehicle": "A physical path or road",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding, inviting path through a beautiful, serene landscape, suggesting a journey."
+          },
+          {
+            "abstract_meaning": "A hope or dream that never fades, remaining fresh and alive forever.",
+            "acceptable_visual_variants": [
+              "A majestic, leafy green tree standing strong under a starry sky",
+              "A vibrant, lush forest path bathed in soft, ethereal light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A dream that is physically green and leafy throughout all seasons",
+            "literalization_risk": "An illustrator might draw literal green leaves growing out of a sleeping person's head or dream bubble, which is bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "enduring dream",
+              "transferred_attributes": [
+                "perennial freshness",
+                "resistance to decay",
+                "constant vitality",
+                "vibrant color"
+              ],
+              "vehicle_concept": "evergreen plant"
+            },
+            "source_span_original": "ಚಿರಹರಿತ ಕನಸು",
+            "source_span_translation": "evergreen dream",
+            "source_term": "ಚಿರಹರಿತ ಕನಸು",
+            "tenor": "An enduring, unfading hope or dream",
+            "vehicle": "Evergreen foliage/forest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lush, vibrant green landscape or a thriving perennial tree in the background of a dreamlike, soft-focus scene."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The imperative verb 'hottoyyu' (carry/carry away) carries a sense of active, physical bearing of a flame that is slightly flattened in the English 'carry'. Additionally, the rhythmic flow and internal rhyme of 'preetiya deepa' and 'preetiya ee daari' are partially lost in translation.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Love as a guiding light and an enduring path"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಪ್ರೀತಿಯ ದೀಪ ಹೊತ್ತೊಯ್ಯು,  \nನಿನ್ನ ಹೃದಯದ ಬೆಳಕು,  \nಪ್ರೀತಿಯ ಈ ದಾರಿ,  \nಅದು ಚಿರಹರಿತ ಕನಸು.",
+  "poem_id": "MV++_1022",
+  "poem_title": "Prema Deepa",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "103712d1085bd884dae433d49ff8ef613c24a71e70c6d36f87f802eac523b615",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1022.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Carry the lamp of love,  \nThe light of your heart,  \nThis path of love,  \nAn evergreen dream.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:47:44.445176+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba2976ba0f56109db6e065c349443e9826e1361c9233f0bef0f3b6657c8ee306",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fb2f1b374e86334b3c0897c8374add54fa283c9d1b2a298b4200ff553082db3b",
+        "response_hash": "b2a91f0d781269a8a9c8180f24c94af8470de5304d4c4f0359d27a4e74525661",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "39220b4dd44b8a60b0830cec9b10b04a93a6d155a769261c736be0bfbdb0f09e",
+        "response_hash": "6c7f87a6ae142b72f4c4ee427c5cbe0fca2cb1dca3b11ac9dc13aa065e7f6e82",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "097d67f4c12b093433f46ced6db2a954607f90aee43177e22fdffa0e4c3c7b6f",
+        "response_hash": "462aae5fd94c215c937f3010c7d792467ab0842dc41fb4a625edaf2db3fbe5b8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d5cd3bf7c48e8c945174e1642844c39c51823e63d964d7171e798bee903d925",
+        "response_hash": "0a12457239fe1e7a018783f02923ee3f50876507953e3775c57732163a2e6e2d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ad0408293734bfb3ebddf107b2cf9f195ae821401f831c4dff58cdc86db8ca99",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4173aab9420aa8731e1eda6805fedf617828c1697b2a2d3e03dda1f897195789",
+    "translation_sha256": "c0344501b2dfc780ffd9b71336dffbeba901382add4a74779825eff379ae0317"
+  }
+}

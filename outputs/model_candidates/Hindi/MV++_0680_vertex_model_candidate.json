@@ -1,0 +1,221 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A single freshly cooked roti",
+          "A small stack of rotis on a simple plate or cloth"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional unleavened flatbread that is a staple food in South Asia, representing basic sustenance and survival.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A loaf of sliced Western-style white bread",
+          "A fancy, thick naan bread cooked in a tandoor"
+        ],
+        "preserved": true,
+        "romanization": "roti",
+        "source_span_original": "रोटी",
+        "source_span_translation": "bread",
+        "stanza_index": 1,
+        "term": "रोटी",
+        "translation_note": "Translated as 'bread', which captures the basic meaning but loses the specific cultural form of the flatbread.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Round, flat, unleavened wheat bread",
+          "Slightly charred spots from being cooked on a tawa or open flame"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "stark realization of basic survival needs over abstract freedom, moving from a philosophical declaration to a visceral description of hunger",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Without basic sustenance, political freedom is meaningless and cannot survive.",
+            "acceptable_visual_variants": [
+              "An empty plate sitting next to a small, limp flag.",
+              "A person looking at a broken chain while holding an empty bowl."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Without bread, the concept of freedom is physically hungry",
+            "literalization_risk": "Depicting a literal personified figure named 'Freedom' begging for bread might look like a cartoonish caricature rather than a serious political statement.",
+            "metaphor_mapping": {
+              "tenor_concept": "political freedom without sustenance",
+              "transferred_attributes": [
+                "weakness",
+                "inability to function",
+                "desperation"
+              ],
+              "vehicle_concept": "physical hunger"
+            },
+            "source_span_original": "रोटी के बिन आजादी भूखी है",
+            "source_span_translation": "Without bread, freedom is hungry",
+            "source_term": "रोटी के बिन आजादी भूखी है",
+            "tenor": "The concept of political freedom which is useless without basic sustenance",
+            "vehicle": "A hungry person who needs food to survive",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stark, empty plate or a bare table next to a symbolic representation of freedom (like an open cage or broken chains) to show the contrast between abstract liberty and physical deprivation."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'roti' as 'bread' loses the specific cultural and physical resonance of the flatbread staple in South Asia, which carries deep associations with basic survival, daily labor, and sustenance. Additionally, the rhythmic repetition of 'roti' and 'aazaadi' creates a stark, balanced musicality that is flattened in English.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Experiencing intense, desperate hunger.",
+            "acceptable_visual_variants": [
+              "A person sitting in a dim room clutching their midsection in discomfort.",
+              "A close-up of hands tightly pressed against an empty stomach."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L5",
+            "literal_meaning": "there is a physical fire burning inside the stomach",
+            "literalization_risk": "Drawing literal flames inside a human stomach would look like a fantasy or medical anomaly rather than a metaphor for poverty and hunger.",
+            "metaphor_mapping": {
+              "tenor_concept": "hunger",
+              "transferred_attributes": [
+                "burning sensation",
+                "consuming nature",
+                "urgency"
+              ],
+              "vehicle_concept": "fire"
+            },
+            "source_span_original": "पेट में आग हो",
+            "source_span_translation": "there's fire in the belly",
+            "source_term": "पेट में आग हो",
+            "tenor": "The painful, consuming sensation of extreme hunger",
+            "vehicle": "A burning fire",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the physical posture of hunger, such as a person clutching their stomach in a barren setting, or use warm, harsh lighting (reds and oranges) to evoke the heat and discomfort of hunger without drawing literal flames."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'mutthee mein' as 'in hand' loses the literal and physical imagery of a clenched fist ('mutthee'), which carries strong connotations of struggle, labor, and active possession, reducing it to a passive state of having.",
+            "where": "L7"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'begaanee' as 'foreign' loses the emotional depth of the Urdu-derived term, which implies being alienated, estranged, or treated as an outsider/stranger, rather than merely originating from another country.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The primacy of basic physical survival (bread) over abstract political liberty (freedom)"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list detailing significant cultural and musical losses. This is internally inconsistent; if there is notable translation loss, translation_quality should reflect this or the loss_note/translation_loss should be aligned.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there are two non-empty translation_loss entries detailing significant semantic and physical imagery losses ('mutthee mein' and 'begaanee'). This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रोटी से बढ़कर कुछ भी नहीं  \nआजादी भी नहीं,  \nरोटी के बिन आजादी भूखी है,  \nभूखी आजादी बस नाम की है।  \n\nजब पेट में आग हो,  \nतो सब कुछ अधूरा लगता है,  \nमुट्ठी में रोटी न हो तो  \nस्वतंत्रता भी बेगानी लगती है।",
+  "poem_id": "MV++_0680",
+  "poem_title": "Roti Aur Swatantrata",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "15760bb80605619cd75f7263db5749e843fdfaf49a55b802f594c1af1d302c63",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0680.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Nothing is greater than bread,  \nNot even freedom,  \nWithout bread, freedom is hungry,  \nHungry freedom is just a name.  \n\nWhen there's fire in the belly,  \nEverything seems incomplete,  \nWhen there’s no bread in hand,  \nEven freedom feels foreign.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:54:57.618337+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ff958703781c7c807b5e51e7decd1fc1320a8966085b7604223bd22d4525e63c",
+        "response_hash": "cc984b312d82a781b12443bdad1176ca33e807a1dbb5679a5193a8c867e5e993",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "976c3d6742cf3a31a3a20d61bc00e0f4b1c886c6c860e723d40c318552deb2c1",
+        "response_hash": "164565d95ad970af5fb3e52ecc795cc0faf8c9b9b75e68120fec7a97a350b5c4",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2cb8159e196255255b0033cf5d38ad494297a166fa4b7c124cbb1f9571e07593",
+        "response_hash": "49840073f1faa0fba395e45aa61274ed521b62dcda1e4fcb5272126b30dab179",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "25358e90330337775e61a98439b8272ed71e41e4707162f82b8fb0dd89c2d50b",
+        "response_hash": "a2702828eddd5f000a93163be920fe0c2afbbbe904caedc198d44b2286928478",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "54a6406c5223fd964f1974eaae413963e985fc340913305a105888d728d8e267",
+        "response_hash": "d6d005fa6756ae8c61604d76e88fa9c7f8112c13c696858083120a2073073421",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3085559912e51cd8592f204467b8b6920ccbb13a3178968181a05cc2384ada37",
+    "translation_sha256": "39ad91aba42f17132d78070cf0abfbc2a728b1df60de94e7ba64d1f109070af3"
+  }
+}

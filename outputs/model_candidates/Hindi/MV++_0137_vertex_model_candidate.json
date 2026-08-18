@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "The flag flying high on a flagpole against a clear blue sky",
+          "The flag being held or waved during a patriotic celebration"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Indian national flag, literally meaning 'three-colored' or 'tricolor'.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic three-colored flag without the specific saffron, white, and green bands or the central wheel",
+          "The flag of another country that happens to have three colors"
+        ],
+        "preserved": true,
+        "romanization": "Tiranga",
+        "source_span_original": "तिरंगा",
+        "source_span_translation": "tricolor",
+        "stanza_index": 1,
+        "term": "तिरंगा",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A horizontal rectangular tricolor flag with saffron at the top, white in the middle, and green at the bottom.",
+          "A navy blue wheel (Ashoka Chakra) with 24 spokes in the center of the white band."
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A single, sustained burst of patriotic pride and celebration.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The desire for the nation's pride, sovereignty, and honor to remain elevated and undefeated in the world.",
+            "acceptable_visual_variants": [
+              "A close-up of the tricolor flag waving dynamically against a clear blue sky",
+              "A wide shot of the flag flying atop a prominent national monument or mast under a bright sun"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L2",
+            "literal_meaning": "May our flag physically fly at a high altitude",
+            "literalization_risk": "An illustrator might depict only a physical piece of cloth on a tall pole without capturing the abstract sense of national pride and collective aspiration.",
+            "metaphor_mapping": {
+              "tenor_concept": "national pride and sovereignty",
+              "transferred_attributes": [
+                "elevation",
+                "visibility",
+                "unbroken status"
+              ],
+              "vehicle_concept": "physical height of a flag"
+            },
+            "source_span_original": "झंडा ऊँचा रहे हमारा",
+            "source_span_translation": "May our flag fly high forever",
+            "source_term": "झंडा ऊँचा रहे हमारा",
+            "tenor": "National pride, sovereignty, and honor",
+            "vehicle": "A physically high-flying flag",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a vibrant tricolor flag fluttering proudly and high in the sky against a bright, hopeful dawn, possibly with a crowd of diverse people looking up at it with respect."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'forever' which is not explicitly present in the original Hindi text, altering the rhythmic and semantic focus of the second line.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The specific grammatical structure and internal rhyme of 'pyara' (beloved) and 'hamara' (ours) are lost in the English rendering.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Patriotic pride and devotion to the national flag as a symbol of victory."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items detailing semantic additions and lost grammatical/rhyme structures. This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "विजयी विश्व तिरंगा प्यारा,  \nझंडा ऊँचा रहे हमारा।",
+  "poem_id": "MV++_0137",
+  "poem_title": "Vijayi Vishwa Tiranga Pyara",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d7bccc9be1c5a34eafba84808ca1ec899a7ec5f56fafe1af68145c5d490f5e50",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0137.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Our triumphant tricolor beloved,  \nMay our flag fly high forever.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:50:27.688738+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6b08368c3afce3216cbec3cb4626b71cc1505684d49a973fe8ccd6f4a256f354",
+        "response_hash": "3788e7537209a2098453597fccd3d108b2eaa07d73a6078bb471354391b44d90",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9d61e214b9c262bd9920adc943253d316964079f86e87ac11af1f15c4f659aad",
+        "response_hash": "2c06bfbbe82b5d932aa2399ce185a328c522119e08206921c50c0d6a31f318a6",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b5c2338155c6d728342b2bba92d7c6bb0c9e3c8d9473c2c65f528ec79bbbcd21",
+        "response_hash": "829351473352d7835963df74d4336b068531e6f864c050030ef7d324abf90e79",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e15a5a3394cbff1b4cd8447688421e0b23ac597b40bae0089a5767350f94d334",
+        "response_hash": "7290896876bb6557d8ffdaeb2e55867501cb7240897a215e5d336e204e6166c6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9024beaeaf2b13af38e4cfd0f267e012e40ae89b29567f1c4803971382bba621",
+        "response_hash": "6c028b5f1cfce16ed7235d85ce5b336b9383f5938e80358885d539c1ed4fd417",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a43682ed73522e6ac83fd452b64f5e578a47232fe8b42e214c5d10c6dd274276",
+    "translation_sha256": "e91b275f6e0dc5658c6c52b03a3f17adc07e8333098dae25d5bc687ce4781233"
+  }
+}

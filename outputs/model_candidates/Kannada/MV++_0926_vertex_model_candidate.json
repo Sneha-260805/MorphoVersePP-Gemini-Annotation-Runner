@@ -1,0 +1,185 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "hopeful and peaceful realization of dreams",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of conscious awareness or human minds that are joyful, receptive, and positive.",
+            "acceptable_visual_variants": [
+              "A close-up of a person's peaceful, smiling face with closed eyes, radiating a warm light.",
+              "An abstract silhouette of a human head filled with soft, bright, warm colors and a subtle upward curve suggesting a smile."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "To the smiling consciousnesses",
+            "literalization_risk": "Depicting a literal disembodied brain or abstract mind-bubble with a physical human mouth smiling, which would look bizarre and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "human consciousness",
+              "transferred_attributes": [
+                "joyfulness",
+                "expressiveness",
+                "warmth"
+              ],
+              "vehicle_concept": "smiling human"
+            },
+            "source_span_original": "ನಗುವ ಪ್ರಜ್ಞೆಗಳಿಗೆ",
+            "source_span_translation": "To the smiling awareness",
+            "source_term": "ನಗುವ ಪ್ರಜ್ಞೆಗಳಿಗೆ",
+            "tenor": "Human consciousness or awareness",
+            "vehicle": "A smiling person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, joyful person with a gentle smile, surrounded by a soft, glowing aura that suggests deep inner awareness and mental clarity."
+          },
+          {
+            "abstract_meaning": "Happiness, hope, guidance, and spiritual or emotional fulfillment in life.",
+            "acceptable_visual_variants": [
+              "A gentle dawn light breaking over a horizon.",
+              "A warm, golden glow emanating from within or surrounding a person."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "Physical light / illumination",
+            "literalization_risk": "Depicting a literal lightbulb or a flashlight beam, which strips away the poetic warmth and spiritual depth of the blessing.",
+            "metaphor_mapping": {
+              "tenor_concept": "happiness and hope",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "dispelling of darkness",
+                "guidance"
+              ],
+              "vehicle_concept": "physical illumination"
+            },
+            "source_span_original": "ಬೆಳಕು",
+            "source_span_translation": "light",
+            "source_term": "ಬೆಳಕು",
+            "tenor": "Happiness and hope in life",
+            "vehicle": "Light",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Incorporate a soft, warm, ambient golden glow or sunbeams filtering through a space, illuminating the scene naturally."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic and phonetic pairing of 'kanasugala' (dreams) and 'nanasu' (reality/realization) in L1-L2, which creates a tight sonic and conceptual link between dreams and their fulfillment, is lost in the English translation.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The dative plural honorific/collective suffix '-galige' in 'prajnegalige' (to the awarenesses/consciousnesses) is translated as a singular abstract noun 'awareness', losing the poetic personification of multiple conscious minds or states of awareness.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The instrumental/locative nuance of 'sukhadi' (with/in happiness or ease) is simplified to 'light in life', omitting the explicit quality of peaceful joy ('sukha') that qualifies the light.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The blessing of light and realization of dreams in conscious, smiling awareness"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains three detailed translation_loss entries. When significant poetic, phonetic, and grammatical nuances are lost, translation_quality should be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಕಣ್ಣಲ್ಲಿ ಕನಸುಗಳ,  \nಅಲ್ಲಿ ನನಸು ಕಾಣುವ,  \nನಗುವ ಪ್ರಜ್ಞೆಗಳಿಗೆ,  \nಬಾಳಲಿ ಸುಖದಿ ಬೆಳಕು!",
+  "poem_id": "MV++_0926",
+  "poem_title": "Kanna Sikkalu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b432266071674c34a181a03f26fe5ec7cd56f75a251d4e75f8f9a48bdb08f9dc",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0926.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the eyes, dreams,  \nWhere visions are realized,  \nTo the smiling awareness,  \nLet there be light in life!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:32:16.365059+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0a819c8a1903addaf51cbec9088769e97f8cdf8e9aa98ada2467d1122611254b",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ff5b02d2e7d6d56d49ce225775ae08e12a984cdd2857825d0260ec99ada197c4",
+        "response_hash": "09845be05d4e2db398d4ab13d1e03da0e2eed9e19ad400836ff73fd70ce07f6f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ccf6776bc72be1983e4d9f4be5cbc7824394fa047e763c38af21958aa268b03",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be2a2f549e47df64de9d49095c75d4021917eca65d0467c23bc4f33226a3b8ad",
+        "response_hash": "ff6bb5ac941c40995a987538bd557c2ce3ce586501cfdc70fb74e7143ce0a29e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "908bdb61b629eb2dbdb5e177a41efa67a2928931c8a29b9381921c3db8614eda",
+        "response_hash": "f483d176926378ffa9d3d2f836ab7b23f0cf01ac19e51ff4945de6b96b4dae03",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6dc36b8976cebfcf3389d4a3ed0235f2c83b268b893433c48e6c6b7458817ac1",
+        "response_hash": "edab420670eb18327ff6040fa7b51b215faa9bad3b06660f6a96d53cd02dd480",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "258fc210bf499e6a86b926fe3844eb4333871e08ed62bd079837130396473b70",
+    "translation_sha256": "5aa740b3f8945540ed1e45b0444cab645b3d8f41575e74e70774aca4360035af"
+  }
+}

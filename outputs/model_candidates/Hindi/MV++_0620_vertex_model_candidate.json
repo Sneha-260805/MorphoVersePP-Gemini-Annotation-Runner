@@ -1,0 +1,300 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "The complete Taj Mahal monument",
+          "A stylized architectural outline of the Taj Mahal dome and minarets"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The iconic 17th-century white marble mausoleum in Agra, India, built by Mughal Emperor Shah Jahan for his wife Mumtaz Mahal, serving here as a symbol of monumental love and architectural grandeur.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic palace",
+          "A modern office building",
+          "An ancient Hindu temple"
+        ],
+        "preserved": true,
+        "romanization": "Taj Mahal",
+        "source_span_original": "ताज महल",
+        "source_span_translation": "Taj Mahal",
+        "stanza_index": 1,
+        "term": "ताज महल",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "White marble dome",
+          "Symmetrical minarets",
+          "Reflecting pool",
+          "Mughal architectural details"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A silhouette of a royal woman looking out a window",
+          "A portrait of a Mughal queen in traditional miniature painting style"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Mumtaz Mahal, the Mughal Empress for whom the Taj Mahal was built as a tomb, representing the beloved waiting in vain in this satirical modern context.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "A modern Indian woman in a sari",
+          "A generic Western princess"
+        ],
+        "preserved": true,
+        "romanization": "Mumtaz",
+        "source_span_original": "मुमताज़",
+        "source_span_translation": "Mumtaz",
+        "stanza_index": 2,
+        "term": "मुमताज़",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A woman in historical Mughal royal attire",
+          "Veil or traditional head covering",
+          "An expression of waiting or longing"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "skeptical contemplation to tragic irony",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the specific cultural weight of 'tender' and 'shaan' (grandeur/pride) in the context of Indian bureaucracy is slightly flattened.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The bureaucratic process of files being transferred, reviewed, and delayed across different administrative desks.",
+            "acceptable_visual_variants": [
+              "A long row of dusty desks with files piled high and hands stamping them.",
+              "A single file folder being handed over a counter in a dimly lit office."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Files walking or moving on their own feet",
+            "literalization_risk": "Showing paper files with literal legs walking down a hallway, which would look like a cartoon fantasy rather than a satire of bureaucracy.",
+            "metaphor_mapping": {
+              "tenor_concept": "bureaucratic processing of paperwork",
+              "transferred_attributes": [
+                "slow movement",
+                "passing from one hand to another"
+              ],
+              "vehicle_concept": "independent physical movement"
+            },
+            "source_span_original": "फ़ाइलें चलतीं",
+            "source_span_translation": "Files would shuffle",
+            "source_term": "फ़ाइलें चलतीं",
+            "tenor": "The slow, manual movement of paperwork through bureaucratic channels",
+            "vehicle": "Walking or moving independently",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stack of paper files being passed slowly from one hand to another across a series of cluttered office desks."
+          },
+          {
+            "abstract_meaning": "Getting caught in the endless, repetitive loops of bureaucratic procedures and administrative delays.",
+            "acceptable_visual_variants": [
+              "A circular desk with endless stacks of paper where a person is directed from one clerk to another in a loop.",
+              "A maze made of office partitions and filing cabinets."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L4",
+            "literal_meaning": "Physically walking in circles around a ministry building",
+            "literalization_risk": "Showing a person physically running in circles around a government building, which misses the administrative nature of the delay.",
+            "metaphor_mapping": {
+              "tenor_concept": "repetitive administrative delays",
+              "transferred_attributes": [
+                "lack of progress",
+                "returning to the starting point",
+                "exhaustion"
+              ],
+              "vehicle_concept": "circular physical motion"
+            },
+            "source_span_original": "मंत्रालय के चक्कर",
+            "source_span_translation": "loops of ministry calls",
+            "source_term": "मंत्रालय के चक्कर",
+            "tenor": "The frustrating, repetitive cycle of administrative delays and red tape",
+            "vehicle": "Walking in physical circles or loops",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a maze-like corridor of a government office with signs pointing in circles, or a person holding papers looking lost in a circular hallway."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'शान' (shaan) as 'regal thrill' alters the original meaning of grandeur, dignity, or splendor to fit a rhyming scheme.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific bureaucratic idiom 'मंत्रालय के चक्कर' (mantralay ke chakkar - making endless rounds of the ministry) is generalized to 'loops of ministry calls'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'aakaar' as 'style' loses the literal meaning of 'shape' or 'form', which emphasizes the physical incompleteness of the monument.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Being completely absorbed in a hopeful but unfulfilled dream or expectation.",
+            "acceptable_visual_variants": [
+              "Mumtaz holding a blueprint or drawing of the Taj Mahal while looking thoughtfully into the distance.",
+              "A split screen showing Mumtaz waiting on one side and a dusty, empty construction site on the other."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L6",
+            "literal_meaning": "Being physically lost inside a dreamscape",
+            "literalization_risk": "Showing a woman wandering through a surreal, cloud-like dream landscape, which detaches the scene from her historical/bureaucratic waiting context.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental absorption in hope or longing",
+              "transferred_attributes": [
+                "detachment from current reality",
+                "longing"
+              ],
+              "vehicle_concept": "physical disorientation or wandering"
+            },
+            "source_span_original": "ख़्वाब में खोई रहती",
+            "source_span_translation": "Lost in a dream",
+            "source_term": "ख़्वाब में खोई रहती",
+            "tenor": "A state of deep mental preoccupation and unfulfilled longing",
+            "vehicle": "A physical state of being lost in an unfamiliar space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict Mumtaz sitting wistfully by a window, looking out at an empty plot of land where the Taj Mahal should be, with a faint, translucent outline of the monument in the sky."
+          },
+          {
+            "abstract_meaning": "The romantic and artistic vision of the Taj Mahal being completely buried and forgotten under bureaucratic paperwork.",
+            "acceptable_visual_variants": [
+              "A desk piled high with files, where a single red rose or a love letter is visibly crushed and buried beneath them.",
+              "A bureaucrat stamping a file with 'REJECTED' directly over a beautiful architectural drawing of the monument."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The emotion of love physically getting lost inside paper documents",
+            "literalization_risk": "Showing a literal heart shape buried under a pile of files, which looks overly simplistic and childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "the suppression of emotion and art by bureaucracy",
+              "transferred_attributes": [
+                "invisibility",
+                "neglect",
+                "suffocation"
+              ],
+              "vehicle_concept": "physical burial under paperwork"
+            },
+            "source_span_original": "सरकारी दस्तावेज़ों में खो जाता प्यार",
+            "source_span_translation": "Love would vanish in government piles",
+            "source_term": "सरकारी दस्तावेज़ों में खो जाता प्यार",
+            "tenor": "The erasure of romantic and artistic intent by cold bureaucratic processes",
+            "vehicle": "An object getting lost or buried under a pile of papers",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a beautiful, glowing miniature model of the Taj Mahal or a romantic sketch being covered and buried by heavy, dusty government files and folders."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'in style' to the final line to force a rhyme with 'piles', which is not present in the original Hindi text ('ताज का आकार' - the shape/form of the Taj).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A satirical reflection on how modern bureaucracy and red tape would stifle the creation of historical monuments and the grand expressions of love they represent."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अगर आज भी ताज महल का टेंडर होता,  \nतो क्या वो उसी शान से बन पाता?  \nफ़ाइलें चलतीं दफ़्तरों में,  \nफँसता काम मंत्रालय के चक्कर में।  \n\nशायद मुमताज़ इंतज़ार में बैठी रहती,  \nएक महल के ख़्वाब में खोई रहती।  \nसरकारी दस्तावेज़ों में खो जाता प्यार,  \nकभी पूरा न होता ताज का आकार।",
+  "poem_id": "MV++_0620",
+  "poem_title": "Taj Mahal Ka Tender",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "576c347eb583f9d9dd181d406096d6b3983ff8fc9bc5b21e4723fbc6fdfecdc9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0620.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "If today there were a tender for the Taj Mahal,  \nWould it be built with the same regal thrill?  \nFiles would shuffle through office halls,  \nStuck in loops of ministry calls.\n\nPerhaps Mumtaz would still be waiting,  \nLost in a dream, anticipating.  \nLove would vanish in government piles,  \nAnd the Taj would never complete in style.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:47:04.463903+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2b3150723b89d7b06442c95950d8bf977adf7d71f5dc36451dda42ffe0fef7e2",
+        "response_hash": "8c06ee1d6dde496aab5f580532007505a503544e781248b5e0130454120294fd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "02553f908dcaf80279fe39004ee0b139f8487f27e9d71ca2d1635ae96448b0c7",
+        "response_hash": "7892afdd7e3dddca674b8af9c6076ea1ff4279a3db4ea3386977142ad7c81c09",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be00dfb57cc0394ee2d13ccfe71ef8869f48e76c982a45b9a20af67740d9e965",
+        "response_hash": "f4be2922dcb32f1c28a238b0f17d26a742cae201288eaa672524fb448d2bbff7",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c7202ac56c4054a59b6bc9628371151f0a8bf01feb284d93a5d1201bb604c909",
+        "response_hash": "f66f64cc88623435c57103cdc6c2d4f1e2683b2534d6d410392c452b330eaec7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c13ab2cf377ae2119bddced41d34800f2e77d6e37d0da14fedad57837cea38f7",
+        "response_hash": "1c8a3d63004e4dc1559ec201350613b9955cdd852ceb0aaa5409ee4f973695e2",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "47d65c1ae5c0fed4448c4a7a03075553edd9288a3e9db0366e9d4aa99d0a2437",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c3be6cc48e795663a736a4abf3d56d34472c55078ea8d78eb7665107dd55d3c2",
+    "translation_sha256": "3e85534637ed8076a9a413de14f70de3f4a67e4b9ec41288953f734c8729c95b"
+  }
+}

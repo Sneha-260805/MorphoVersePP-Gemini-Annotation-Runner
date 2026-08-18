@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "steadfast commitment to truth and direct observation",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An eyewitness account or firsthand report of an event.",
+            "acceptable_visual_variants": [
+              "A narrator gesturing toward a scene they are describing to an audience",
+              "A reporter or witness observing an event firsthand and documenting it"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L1",
+            "literal_meaning": "A state/condition seen by the eyes",
+            "literalization_risk": "An illustrator might literally depict eyeballs detached and looking at a scene, or focus too heavily on physical eyes rather than the act of witnessing or reporting.",
+            "metaphor_mapping": {
+              "tenor_concept": "firsthand truth and authenticity",
+              "transferred_attributes": [
+                "directness",
+                "undeniability",
+                "lack of hearsay"
+              ],
+              "vehicle_concept": "physical sight"
+            },
+            "source_span_original": "आंखों देखा हाल",
+            "source_span_translation": "what I saw with my own eyes",
+            "source_term": "आंखों देखा हाल",
+            "tenor": "A firsthand, authentic, and truthful account of an occurrence",
+            "vehicle": "An event directly witnessed by one's own physical eyes",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a person speaking or writing while observing a real-world event unfolding directly in front of them, emphasizing the direct line of sight."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The idiomatic Hindi phrase 'Aankhon Dekha Haal' (आंखों देखा हाल) carries a specific cultural association with live reporting, eyewitness testimony, or a firsthand account of an event, which is slightly flattened into the literal English translation 'what I saw with my own eyes'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic and rhyming structure of the Hindi couplet (sunata hoon / batata hoon) is lost in the English translation, which prioritizes semantic accuracy over poetic meter and rhyme.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The commitment to speaking only from direct personal experience and eyewitness truth."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a detailed loss_note should accompany non-faithful translations or the quality should be adjusted if the loss is significant. However, under the schema, translation_loss can be empty when faithful; having translation_loss items with 'faithful' quality is a minor inconsistency.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आंखों देखा हाल सुनाता हूँ,  \nजो देखा वह ही बताता हूँ।",
+  "poem_id": "MV++_0875",
+  "poem_title": "Aankhon Dekha Haal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a20c373ad08d4455c16d84d2538a81816dd7868f90f395211cae91b8ee31b5e2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0875.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I narrate what I saw with my own eyes,  \nI tell only what I witnessed.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:25:00.745762+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cfce1b8e42eea0482b6e92e70e213868f60d2f93405a2f1c81c367ea130babf3",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "47813396fc9faa6af403087bb468fcff6fc49a00c754198bd01960aa7bf161a4",
+        "response_hash": "e1de4f02d494e340c0865355f0e448bce3296838060231cd3ae8c8bd4d816869",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2d0f5e911ad9f55337838aca3a9ee29a6f5c5bf765aa21b6c7977a1c08780cd8",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "319ca97046e3b95475542da452cdba7ee0823a24e9f2b5c049b80ef6d0ec9e98",
+        "response_hash": "98e2d8558624fd52b2db9db5933231bdfcae186d377a9cf2898bd5ff4de9077f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4f86d06841fbe8ba275f1bf3b069801895f07474ddda4ae8f9be9aab1095469",
+        "response_hash": "9b2ae4b1dd0bfc1f0ac3e7373908cdb16bde2afd438ea0ed9f06c08d0d79701d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "053d230bea2dbc531e62c95581824030608e07d87bd1b761514e9ad8e6af573c",
+        "response_hash": "d4d7d2bb06b4a96be994b58525fbc0bad1955f88f37202ba67e8ece5eb49996f",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a16a30b78fc6bd08650eb0eee5e93ff1a337a8674fd13d783ead9c2b56ee7213",
+    "translation_sha256": "2c87bf5a4a3240e77965d409d137cbcb5859629d88fb56576a7c7ab7a0a37538"
+  }
+}

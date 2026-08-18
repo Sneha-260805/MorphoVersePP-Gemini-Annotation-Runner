@@ -1,0 +1,158 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address meaning 'O person of good intellect' or 'O wise one', characteristic of the classical Telugu Sumati Satakam moral poems. It functions as a structural and cultural marker of didactic verse.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A steady, didactic warning advising against keeping company with untrustworthy or sluggish people, framed as a universal moral truth.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation completely misinterprets the classical Telugu moral verse (Sumati Shatakam). The original poem uses the metaphor of water mixing with milk (which looks like milk but dilutes its taste/value) to warn against friendship with a wicked/sluggish person (talasudu). The translation invents a child's gaze and a flower in a garden, entirely missing the didactic warning about bad company.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deceptive nature of associating with a wicked or lazy person, which initially appears harmless or indistinguishable from good company but ultimately ruins it. Note: The provided English translation significantly alters the classical meaning of the Telugu verse (which warns against friendship with a dullard/wicked person using the analogy of water diluting milk).",
+            "acceptable_visual_variants": [
+              "A traditional clay pot of milk being diluted with water poured from a simple vessel",
+              "A conceptual visual showing a pure white stream of milk merging with a clear stream of water, losing its density"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "Water mixed with milk",
+            "literalization_risk": "An illustrator might literally depict water being poured into milk, which completely misses the moral warning about toxic friendships.",
+            "metaphor_mapping": {
+              "tenor_concept": "bad company ruining a good person",
+              "transferred_attributes": [
+                "indistinguishable appearance",
+                "loss of original quality or taste"
+              ],
+              "vehicle_concept": "water diluting milk"
+            },
+            "source_span_original": "పాలను గలసిన జలమును",
+            "source_span_translation": "The water that carries milk",
+            "source_term": "పాలను గలసిన జలమును",
+            "tenor": "Friendship or association with a wicked or lazy person (taalasudu) which ruins one's character",
+            "vehicle": "Water mixed with milk, which looks like milk but dilutes its taste and quality",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split scene or a symbolic representation showing a pure white liquid (milk) being diluted and losing its richness as clear water is mixed in, alongside a subtle representation of a good person being influenced by a bad companion."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the meaning of the original Telugu moral poem (Sumati Satakam). The original poem uses the metaphor of water mixing with milk (which looks like milk but dilutes/ruins its taste) to warn against friendship with a lazy or wicked person ('talasundu'). The translation misinterprets 'pala' (milk) and 'bala' (child/milk-like) to invent an unrelated image of a child's gaze and a flower in a garden, entirely losing the original moral instruction.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "The danger of bad association, where a seemingly harmless element ruins the quality of the good, just as water dilutes milk."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].metaphor_spans[0].expression_type",
+      "issue": "The expression is classified as a 'simile' but the text and description describe a metaphor/analogy ('Water mixed with milk... is like...'), and the original Telugu text uses 'vidhambunane' (in the manner of) in L2, but the span annotated is only L1 'పాలను గలసిన జలమును' (water mixed with milk) which contains no explicit comparative marker, making 'metaphor' or 'analogy' a more consistent classification for this specific span.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "పాలను గలసిన జలమును  \nబాలవిధంబుననె యుండు బరికింపంగా,  \nబాలచవిc జెరుచు, గావున  \nతాలసుcడగువానిపొందు వలదుర సుమతీ.",
+  "poem_id": "MV++_1519",
+  "poem_title": "Palanu galasina",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f4382ea39b92822bd8ffb44fb373ecaaeeaf2866a86dce3f1afdc6db87de52fb",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1519.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The water that carries milk,  \nIs it not pure in its essence, like a child’s form?  \nWhen the child’s gaze is gentle,  \nIt blossoms like a flower in the garden, Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:44:01.055576+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "519cc5267db266c40325396cdcda18f49b7d196006d951cf29ddaba98058533f",
+        "response_hash": "58b8dd36656d5dda36c21724e8f971cf48a114cd04fc0e1cb190a7497d5ec56b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "50b7b357f61f5f14cf49bc47993a746c5e5600a850a40a9e946f875493135bb7",
+        "response_hash": "f6bba03c47b9dd21f77c94ba38f5bdfc41512366c085b5497ab7a3a9c33cecfb",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c43f91ac369fb48e0e01ffb74e42122cb95eaa4670b6fa0408883282d1c5887a",
+        "response_hash": "5bbf382ded661a64f99f294ca8c4dbcd67f30bf75464bb340d0d57e2097035e7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e22a53bf52480433fbe677d7a6fa4f424c6c92328df351c0d0b7709926784cd8",
+        "response_hash": "1d872578b11099234085c966c2cc4d7b2a342d663f9725c3b0ac0439c13e59a8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ad3289fa4ea2e3439434467f1b6e8359c3906157f08253d588f1728c153068e8",
+        "response_hash": "3a89dfbdbfab1743e01c10c6d4f1dd4f96a29ccc38357cb2b0d486a20f630af1",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "df2c1d6499bdf4d6b66a18abf585b47a6952566ee1abf21b698a6e50aae1bb0b",
+    "translation_sha256": "87735436983fcaaa956171d86230ed40c66cbd084eb1ed9a2c7fda6beff0c3ca"
+  }
+}

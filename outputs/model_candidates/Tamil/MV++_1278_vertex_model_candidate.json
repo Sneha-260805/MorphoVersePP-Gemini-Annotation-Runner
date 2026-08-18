@@ -1,0 +1,178 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "tender longing to passionate devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the core imagery well, though the agglutinative nuances of Tamil case endings (such as the dative and locative markers in 'poovukkup' and 'kanavukkul') are simplified into standard English prepositions.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The earth supports, nurtures, and holds the beloved (addressed as a flower) with care.",
+            "acceptable_visual_variants": [
+              "A single flower blooming in a vast, peaceful landscape under soft sunlight",
+              "A close-up of a seedling emerging from fertile soil, framed by soft natural elements"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The earth held/contained you",
+            "literalization_risk": "Showing a giant personified Earth figure with literal human arms holding a flower, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "the earth supporting a growing flower/person",
+              "transferred_attributes": [
+                "care",
+                "holding gently",
+                "nurturing"
+              ],
+              "vehicle_concept": "cradling/holding by a guardian"
+            },
+            "source_span_original": "பூமி உன்னைக் கொண்டது",
+            "source_span_translation": "The earth cradles you",
+            "source_term": "பூமி உன்னைக் கொண்டது",
+            "tenor": "The physical earth supporting and nurturing a delicate life or beloved person",
+            "vehicle": "A nurturing mother or guardian cradling a child",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a delicate flower rooted firmly in rich, warm soil, with the surrounding earth gently sloping up around its base like cupped hands."
+          },
+          {
+            "abstract_meaning": "The beloved or the dream becoming fully realized, mature, and beautiful within the speaker's vision and thoughts.",
+            "acceptable_visual_variants": [
+              "A double exposure effect showing a person's peaceful face and a blooming flower",
+              "A soft-focus dreamscape where a glowing flower emerges from a misty background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "If you ripen/mature within the dream of the eye",
+            "literalization_risk": "Depicting a literal eye with a tiny fruit ripening inside the eyeball, which is surreal and grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "realization of a cherished dream or love in one's mind",
+              "transferred_attributes": [
+                "sweetness",
+                "maturity",
+                "becoming beautiful and complete"
+              ],
+              "vehicle_concept": "ripening/blossoming of a plant"
+            },
+            "source_span_original": "கண்ணின் கனவுக்குள் நீ கனிந்தால்",
+            "source_span_translation": "If you blossom within the dreams of my eyes",
+            "source_term": "கண்ணின் கனவுக்குள் நீ கனிந்தால்",
+            "tenor": "A beloved person or hope becoming real and beautiful in the speaker's inner vision",
+            "vehicle": "A fruit ripening or a flower blossoming",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person looking thoughtfully into the distance, with a soft, dreamlike overlay of a beautiful flower opening its petals in warm light."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'கொண்டது' (kondathu) as 'cradles' shifts the literal meaning of 'having' or 'holding' into a more maternal, active nurturing image. Additionally, the agglutinative dative case marker in 'பூவுக்குப்' (poovukkup - for a flower) is simplified into an appositive 'a single flower' in English.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil verb 'கனிந்தால்' (kanindhaal) literally means 'if you ripen' or 'if you mature' (often used for fruit), which carries a sensory connotation of sweetness and softening. The translation 'blossom' shifts this to a floral metaphor, losing the specific nuance of ripening.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The emphatic clitic '-ஏ' in 'வாழவே!' (vaazhave!) intensifies the vow of living, which the translation attempts to capture with 'shall live forever', adding a temporal element ('forever') not explicitly present in the original verb form.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound connection between the speaker and a beloved, symbolized as a delicate flower nurtured by the earth and kept alive in dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ஒரு பூவுக்குப் பூமி உன்னைக் கொண்டது  \nஇளமைக்குத் தன்னிலே நிற்க வேண்டும்  \nகண்ணின் கனவுக்குள் நீ கனிந்தால்  \nபூவே, உன் பேரினில் நான் வாழவே!",
+  "poem_id": "MV++_1278",
+  "poem_title": "Oru Poovukkum",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d4340fc9214587279ef788de7db37712ebb5822f1dc7c883ce9d71c4a7f1f0ba",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1278.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The earth cradles you, a single flower,  \nIn youth, you must bloom and stand tall.  \nIf you blossom within the dreams of my eyes,  \nO flower, in your name, I shall live forever!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:16:47.186461+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eb8bc46bb52f031c868c2e7943b51ec22f8d20a8456980eb4211071e0faf0f20",
+        "response_hash": "2b2445256d88b538b716ea94442ce274391907c6d070795db4a2780b7fde6ec1"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b3f0a5ccabfa85096bb9a849b8b0a331142bf75652cec9fc1f9928c2f7ec6d5e",
+        "response_hash": "b705bac7cb2d1e8039b04d0a7b17cfa4892a3d3720f3d97b13642fbc791ddbee",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d2954f8f42176a55012b491a8e5d99ec3eece73e60337f8bfd2d66f5cffcd036",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8fdb3611ee48a2e7d59ab0599c12d200359af491e0b1147bf1e3554b31ccb54e",
+        "response_hash": "c1f4829d2fd8365563b9cac123ca466eb5e38b32a558c8e7c956688d95f47331",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d9901f6fb04f9a5bb710afd0f492d9bf5a3b50c81b9405914ae2dbef99ddcde0",
+        "response_hash": "027bc11ef92c2b2ca6e8496e8785dff842a5bc1751b2c986014448e8b7c3c29c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c27cab694b17aa5e43dd743b4d46295887bdf289eab8672658fc82cabc82ae51",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2778a34c87b22a5195f66f6007cf4b9d7d60c824bb67369e673d6dfe97298868",
+    "translation_sha256": "7dd3b1d787bd71ca7402b67df012ecff5b563a0e020d3ffc38769f1542b50e6a"
+  }
+}

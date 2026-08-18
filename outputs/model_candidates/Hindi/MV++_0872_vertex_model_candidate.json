@@ -1,0 +1,310 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Plural of raga, the melodic frameworks used in Indian classical music, each associated with specific emotions, times of day, or seasons.",
+        "line_ref": "L3",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "ragon",
+        "source_span_original": "रागों",
+        "source_span_translation": "rhythms",
+        "stanza_index": 1,
+        "term": "रागों",
+        "translation_note": "The translation generalizes the classical melodic frameworks (ragas) as 'rhythms', losing the specific melodic and emotional structure of Indian classical music.",
+        "translation_status": "ALTERED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A musical note or pitch in Indian classical music, representing harmony, melody, and vocal/instrumental tuning.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "sur",
+        "source_span_original": "सुर",
+        "source_span_translation": "tune",
+        "stanza_index": 1,
+        "term": "सुर",
+        "translation_note": "Translated as 'tune', which captures the general sense of melody but loses the specific cultural concept of 'sur' as a fundamental musical note or perfect pitch in Indian music.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "reflective hope to resilient determination",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'madhumay ragon' as 'sweet rhythms' loses the specific musicality of 'raga' (melodic frameworks in Indian classical music), flattening it to a generic rhythm.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Adapting to the natural flow of life, time, or circumstances rather than resisting them.",
+            "acceptable_visual_variants": [
+              "A figure walking gracefully alongside a shimmering, abstract stream of light",
+              "A person with arms outstretched, blending into a swirling pattern of wind and leaves"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "I flow along with the water current",
+            "literalization_risk": "An illustrator might literally depict a person floating in a physical river, which misses the abstract sense of living in harmony with time.",
+            "metaphor_mapping": {
+              "tenor_concept": "the flow of life and time",
+              "transferred_attributes": [
+                "direction",
+                "effortless movement",
+                "inevitability"
+              ],
+              "vehicle_concept": "water stream"
+            },
+            "source_span_original": "धारा के संग बहता हूँ",
+            "source_span_translation": "Flowing along with the stream",
+            "source_term": "धारा के संग बहता हूँ",
+            "tenor": "adapting to the natural progression of life and time",
+            "vehicle": "flowing along with a water stream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, flowing path of light or wind surrounding a walking or moving figure to suggest alignment with a cosmic or temporal flow."
+          },
+          {
+            "abstract_meaning": "The sweet, harmonious, and joyful experiences or phases of human life.",
+            "acceptable_visual_variants": [
+              "A person surrounded by warm, glowing, abstract waves of light resembling soundwaves",
+              "A figure looking up at a sky filled with soft, harmonious patterns of color"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the honey-sweet musical melodies of life",
+            "literalization_risk": "Depicting literal musical instruments or honey jars would look bizarre and fail to convey the emotional harmony of life.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful life experiences",
+              "transferred_attributes": [
+                "harmony",
+                "sweetness",
+                "emotional resonance"
+              ],
+              "vehicle_concept": "sweet musical melodies"
+            },
+            "source_span_original": "जीवन के मधुमय रागों में",
+            "source_span_translation": "In the sweet rhythms of life",
+            "source_term": "जीवन के मधुमय रागों में",
+            "tenor": "the harmonious and beautiful experiences of living",
+            "vehicle": "sweet musical melodies (ragas)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Use abstract visual elements like floating, warm-colored musical notes or flowing golden waves surrounding a peaceful figure."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मधुमय रागों' (madhumay ragon) as 'sweet rhythms' loses the specific musicality of 'raga' (melodic framework in Indian classical music), flattening it to a generic rhythm.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The compound Sanskritized term 'navotthan' (new awakening/resurgence) is simplified to 'new beginnings', losing its intense connotation of rising up or elevation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intense, transformative energy and passion associated with a new awakening or societal rebirth.",
+            "acceptable_visual_variants": [
+              "A figure silhouetted against a bright, rising golden sunburst",
+              "A person holding a small, glowing spark that casts a warm light upward"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "In the flame of new rise/awakening",
+            "literalization_risk": "Showing a person literally standing inside a destructive fire would convey pain or danger rather than positive transformation and rebirth.",
+            "metaphor_mapping": {
+              "tenor_concept": "transformative energy of rebirth",
+              "transferred_attributes": [
+                "heat",
+                "light",
+                "transformative power",
+                "intensity"
+              ],
+              "vehicle_concept": "burning flame"
+            },
+            "source_span_original": "नवोत्थान की ज्वाला में",
+            "source_span_translation": "In the flame of new beginnings",
+            "source_term": "नवोत्थान की ज्वाला में",
+            "tenor": "the intense energy and passion of a new beginning",
+            "vehicle": "a burning flame",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, non-destructive golden or orange glow emanating from within a figure or rising from the ground like a gentle dawn."
+          },
+          {
+            "abstract_meaning": "Enduring a highly challenging, rigorous, or painful path of struggle to achieve a noble goal.",
+            "acceptable_visual_variants": [
+              "A person walking forward on a cracked, dry earth path with warm light glowing from the cracks",
+              "A determined figure stepping forward through a dark, misty landscape toward a bright horizon"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L6",
+            "literal_meaning": "I walk on a path made of fire",
+            "literalization_risk": "A literal depiction of a person walking on burning coals or flames suggests physical torture or a stunt, losing the poetic sense of moral and spiritual struggle.",
+            "metaphor_mapping": {
+              "tenor_concept": "arduous life struggle",
+              "transferred_attributes": [
+                "pain",
+                "extreme difficulty",
+                "requirement of courage",
+                "purification"
+              ],
+              "vehicle_concept": "path of fire"
+            },
+            "source_span_original": "अग्निपथ पर चलता हूँ",
+            "source_span_translation": "I walk on the path of fire",
+            "source_term": "अग्निपथ पर चलता हूँ",
+            "tenor": "a difficult and challenging journey of life or struggle",
+            "vehicle": "a path of fire",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a determined traveler walking up a steep, rugged, dark mountain path illuminated by a distant, warm light."
+          },
+          {
+            "abstract_meaning": "Bringing about a new era of hope, awareness, and positive change.",
+            "acceptable_visual_variants": [
+              "A person opening a window to let bright, golden morning light flood into a dark room",
+              "A figure raising their hands as the first rays of dawn break over the horizon"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "I wake up a new morning",
+            "literalization_risk": "Showing someone literally shaking a sleeping personified 'morning' character would look comical and childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "bringing hope and new beginnings to people",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "bringing light",
+                "starting fresh"
+              ],
+              "vehicle_concept": "awakening the morning"
+            },
+            "source_span_original": "नई सुबह जगाता हूँ",
+            "source_span_translation": "Awakening a new dawn",
+            "source_term": "नई सुबह जगाता हूँ",
+            "tenor": "initiating a fresh era of hope and progress",
+            "vehicle": "awakening a sleeping morning",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a figure standing on a hilltop, parting dark clouds to reveal a bright, rising sun that illuminates a valley below."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'नवोत्थान' (navotthan) as 'new beginnings' simplifies a compound Sanskritized Hindi word that literally means 'new awakening' or 'renaissance/resurgence', losing its grand, revolutionary tone.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The continuous pursuit of renewal, creative expression, and resilience in the face of life's challenges."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'ALTERED' and the 'translation_note' states that the translation loses the specific meaning by generalizing it. These values are contradictory; 'preserved' should be false if the translation altered and flattened the term.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "गीत नया गाता हूँ,  \nधारा के संग बहता हूँ,  \nजीवन के मधुमय रागों में,  \nनया सुर खोजता हूँ।\n\nनवोत्थान की ज्वाला में,  \nअग्निपथ पर चलता हूँ,  \nमैं नव गीत का गायक हूँ,  \nनई सुबह जगाता हूँ।",
+  "poem_id": "MV++_0872",
+  "poem_title": "Geet Naya Gata Hoon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e7a58b644669ad5773bed7f5e4364eb67fb6f6ce834c5d2f84512c147b088bbf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0872.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I sing a new song,  \nFlowing along with the stream,  \nIn the sweet rhythms of life,  \nI search for a new tune.\n\nIn the flame of new beginnings,  \nI walk on the path of fire,  \nI am the singer of a new song,  \nAwakening a new dawn.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:24:46.381403+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "76c1daf7eb797c5054f56d0a403fa2db7ed0c64aefc7b3c5f717752c8142727a",
+        "response_hash": "1bb17767188e56694dd5854c0196748b461df75498006a35cfbd3dcc3771f20a"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ec5b73aa6fd2bc4bdbe3cfca23d8ef158adf82edc72bb6a7b39fa8bfe4b0e39",
+        "response_hash": "623f2b795753a3d738226618092cb74519068d1111615ecf1b984d5bce01a166",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1e340032c5b292b1f3f9b7c6149ae3a5ed39e86b1179faad4de9f8a49ddc53c3",
+        "response_hash": "43320ebe802f1236ee9f2225d70c3c467d35b27ee93cc3f2968cba4e35e663f4",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7beb8ea3dcfdd7af7e36933a2ba3d613f0fd6e5d7a5c4cf7ff9308f56c00165",
+        "response_hash": "0f6ac508b764a11e460ce7af1959abc5081ba3d648905222fe06b1efa87ff12b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "970986289a44f9e66e6f56cee415f77590f2eeed53aaea2a7552373f00c9745b",
+        "response_hash": "1421ad2544407e80cc4cecf92bc0bc11846bb72df3ae6f3dd040cfa95f52c33f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "62988a74d76b763a0967363d52ad2f020a4b610277b4760265256cea768f0bec",
+        "response_hash": "f1df8a59917c75c2a92b8abbe9c550dbc23859d334fd55f1392cf001624e5c52",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "fa0443dd75bf1f21427a1b9dafa990ced758d126970f953b811534236ac4ee80",
+    "translation_sha256": "34dd7868675a9326d56943f9de07a1b904a5c9e7aec48c42af2a7ca889247ef0"
+  }
+}

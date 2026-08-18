@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A youth in a traditional veshti",
+          "A youth in simple contemporary clothing"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Literally 'Tamil son' or 'Tamil youth', representing a cultural and linguistic identity deeply tied to the Tamil language and heritage.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Anachronistic ancient Sangam warrior attire unless specified",
+          "Stereotypical Bollywood-style North Indian clothing"
+        ],
+        "preserved": true,
+        "romanization": "Tamil magan",
+        "source_span_original": "தமிழ் மகன்",
+        "source_span_translation": "Tamil youth",
+        "stanza_index": 1,
+        "term": "தமிழ் மகன்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A young man of South Indian/Tamil heritage",
+          "Simple traditional or modern attire"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A transition from sorrow and maternal grief to inner strength and emotional resilience.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the classical poetic suffix 'ularmaal' (உளர்மால்) which conveys a sense of continuous, majestic existence and emotional sway.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An immense, continuous flow of deep sorrow and weeping experienced by a mother.",
+            "acceptable_visual_variants": [
+              "A close-up of a mother's weeping eyes with tears reflecting light like a stream",
+              "A stylized, abstract background of flowing blue and grey lines behind a sorrowful mother"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A river made of tears",
+            "literalization_risk": "An illustrator might literally draw a physical river of blue water flowing out of a giant eye, which looks surreal or comical rather than tragic.",
+            "metaphor_mapping": {
+              "tenor_concept": "grief and tears",
+              "transferred_attributes": [
+                "continuous flow",
+                "vast volume",
+                "depth"
+              ],
+              "vehicle_concept": "river"
+            },
+            "source_span_original": "கண்ணீர் நதி",
+            "source_span_translation": "river of a mother’s tears",
+            "source_term": "கண்ணீர் நதி",
+            "tenor": "An immense volume of tears and grief",
+            "vehicle": "A flowing river",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a mother's face in deep sorrow with tears glistening on her cheeks, subtly blending into a soft, flowing watery background pattern without a literal riverbed."
+          },
+          {
+            "abstract_meaning": "To deeply influence, captivate, or hold sway over someone's thoughts and emotions.",
+            "acceptable_visual_variants": [
+              "A silhouette of a head filled with calm, orderly patterns of light",
+              "A hand gently cradling a glowing light near the chest/head area"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Ruling or governing the mind like a monarch",
+            "literalization_risk": "Drawing a tiny king sitting inside a brain or crown on a head would look cartoonish and miss the emotional depth of love or influence.",
+            "metaphor_mapping": {
+              "tenor_concept": "influence over the mind",
+              "transferred_attributes": [
+                "control",
+                "authority",
+                "sovereignty"
+              ],
+              "vehicle_concept": "monarch ruling a kingdom"
+            },
+            "source_span_original": "மனத்தை ஆளும்",
+            "source_span_translation": "rules the mind",
+            "source_term": "மனத்தை ஆளும்",
+            "tenor": "The powerful emotional influence or sway over someone's thoughts",
+            "vehicle": "A ruler or monarch governing a territory",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a serene, focused expression on a person's face with soft light radiating from the head to symbolize mental peace and governance."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The classical poetic suffix '-mal' (உளர்மால்) which adds a distinct literary register, emphasis, and emotional weight is flattened into a simple present-tense verb 'sways' in English.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The specific distinction between 'manam' (மனத்தை - mind/intellect) and 'ullam' (உள்ளத்தில் - inner heart/soul) is partially obscured by translating them as 'mind' and 'heart' without capturing their deep philosophical resonance in Tamil.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring strength and emotional power of a youth born of maternal tears and inner resilience."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "அழகிய தமிழ் மகன்\nஅன்னையின் கண்ணீர் நதி\nமனத்தை ஆளும் ஆற்றல்\nஉள்ளத்தில் கொண்டே உளர்மால்.",
+  "poem_id": "MV++_1257",
+  "poem_title": "Azhagiya Tamil Magan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9b5145c7262244851b31937419c0d4d7948121583dfc1c5d974cd09ebd93c3e0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1257.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The beautiful Tamil youth\nThe river of a mother’s tears\nThe strength that rules the mind\nResiding in the heart, it sways.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:14:13.656081+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "907ec6a140ca7ccc7f1aa4ee56d3119850c8fc1bb4a199e0c9e0040a6d23ae27",
+        "response_hash": "45abf92f5c828ace6ecf1e080cb4c87e0fbbeffd668f2231e69c4d07a4d952bd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a8e5603c580316b7afb404042a20d858c4de20b33122b9935a1dd9223d2d31b6",
+        "response_hash": "bd2f78f7292fe835cffb4835e61e25755e7a4370f8f389cb7e63d1ce42918f62",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c9978c7d960e4f11c36eb9be817dea37d0b802b86d414adf9bb0c3825aaf4471",
+        "response_hash": "1d01d4561d99de37b3792a067bb6cfae0751f69d647831525bdf0b93b3f3ffb7",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "07e9392e6a950c12d3d7cb1bc5223a1edf857d5e7736b57ce9cfecf2b27e37e2",
+        "response_hash": "2f7f0dc428c3bf69dd09050fab096ab61d777452976d80b838a1361cefe1142c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4a2889a982347f6c02d1edb11ce2ec021d314d502b280ab017b45fd0e11e707d",
+        "response_hash": "8a1878bc4d9f6562d2eb842c8ec588bef733fb1c390032af52882e0df54a0086",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ec16afd4ffd9bfc8359f7f1023199125514bcb3d13d5e39a30071e07c1211620",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "fb8802f067c898812e9ed5f0de90bb5c9a3b8d1f5bd29678ca6651488c5f7d03",
+    "translation_sha256": "b41194ed78a05ff140848eef874fba6b380328748e5c748283dabafeef66e736"
+  }
+}

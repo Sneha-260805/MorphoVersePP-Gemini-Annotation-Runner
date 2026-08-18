@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A gentle progression of wonder and quiet joy, moving from abstract golden dreams to the delicate, concrete image of a butterfly's heartbeat and joyful steps.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Precious, beautiful, and cherished hopes or aspirations for the future.",
+            "acceptable_visual_variants": [
+              "A child looking up at a warm, golden-hued sky filled with soft, glowing light.",
+              "An abstract representation of soft, shimmering golden particles swirling gently around a peaceful face."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Dreams made of physical gold metal",
+            "literalization_risk": "Depicting literal sleeping dreams filled with physical gold bars or coins, which misses the abstract sense of precious, pure hopes.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams and aspirations",
+              "transferred_attributes": [
+                "preciousness",
+                "brightness",
+                "high value",
+                "beauty"
+              ],
+              "vehicle_concept": "gold metal"
+            },
+            "source_span_original": "ಚಿನ್ನದ ಕನಸು",
+            "source_span_translation": "Golden dreams",
+            "source_term": "ಚಿನ್ನದ ಕನಸು",
+            "tenor": "dreams (aspirations, hopes, or beautiful thoughts)",
+            "vehicle": "gold (precious, shining, highly valued metal)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing, warm-toned scene of a child or person looking upward with a hopeful expression, surrounded by soft, shimmering golden light or floating, luminous bubbles."
+          },
+          {
+            "abstract_meaning": "Joyful, lighthearted, and happy movement or progress in life.",
+            "acceptable_visual_variants": [
+              "A child skipping happily along a path, leaving light, glowing footprints.",
+              "A close-up of small feet in mid-air during a joyful jump, surrounded by a bright, cheerful atmosphere."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Footsteps that are physically laughing",
+            "literalization_risk": "Depicting literal feet or footprints with open, laughing mouths on them, which would look bizarre and grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "physical footsteps or movement",
+              "transferred_attributes": [
+                "joyfulness",
+                "lightheartedness",
+                "happiness"
+              ],
+              "vehicle_concept": "human laughter"
+            },
+            "source_span_original": "ನಗುವ ಹೆಜ್ಜೆಗಳಲ್ಲಿ",
+            "source_span_translation": "In the steps of laughter",
+            "source_term": "ನಗುವ ಹೆಜ್ಜೆಗಳಲ್ಲಿ",
+            "tenor": "steps (physical walking or progress)",
+            "vehicle": "laughter (a human vocal expression of joy)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the light, playful footsteps of a child running or skipping, perhaps leaving soft, bright ripples or glowing prints on the ground to convey joy."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಪಾಲುಕೆ' (paaluke) as 'butterfly' simplifies a highly specific, delicate regional or dialectal term for a butterfly or pupa, losing its unique phonetic softness and local linguistic texture.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The locative plural inflection in 'ಹೆಜ್ಜೆಗಳಲ್ಲಿ' (hejje-gal-alli - in the steps) carries a rhythmic, echoing cadence in Kannada that is flattened into the simpler English prepositional phrase 'In the steps'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The delicate, luminous, and fleeting beauty of life and joy, captured through gentle natural and imaginative imagery."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing specific losses in L3 and L4. When translation loss is documented, translation_quality should typically be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಚಿನ್ನದ ಕನಸು,  \nಮುಗಿಯದ ಬೆಳಕು,  \nಪಾಲುಕೆಯ ಸ್ಪಂದನ,  \nನಗುವ ಹೆಜ್ಜೆಗಳಲ್ಲಿ..",
+  "poem_id": "MV++_0983",
+  "poem_title": "Chinnara Masta",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c7518424f2ec1a2a0ff696729f6e5678f78ebe7fd7ebe5ab307ee96ce4d196eb",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0983.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Golden dreams,  \nAn endless light,  \nThe heartbeat of a butterfly,  \nIn the steps of laughter.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:39:32.469293+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ca6ddd1e83019f180d3a768e58fcdb5f7ee7e4bb1809d78fe683424387e431c",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "31eed1e72800d8ed881b5b4f6755a6285ebeea49dbbc20af3f79b99f7dd7971c",
+        "response_hash": "703a1c0ffebebb6775f59c53b7dc62a077e741770d46bee4172e03a5eab05af7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "48db1df3008465738574de90ae070179ab545a83269e8225fdd8c734067af278",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "75ea54a8a63f9ea45f17ec1cff0559034043c39a9da82d928b4b38e1dbd7269b",
+        "response_hash": "b74498e01203196fee97ba21ac3fa9ac19bf2e13732ad7f96294a34422915232",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3ecdab1e3f4024e24dc8c2f18cfdbfd43a78306297fb27ce7ed0f57e330c2b6a",
+        "response_hash": "bc8a816313514fd6d801b573528a43191de8e20e9e5391a43afaa3fcdf24f0b9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9d0117b8d615f44a4f932461394b36ca7e5d537bea8d3b95408844461899817f",
+        "response_hash": "c7b9094eba82b6558821cd404a62abed3d9ce8267f291cd1c91e6330db65b25a",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "df8f602b204a0f06ae8f61dc2ad0fc6445b091204aee9ffaa91646602bfd28b0",
+    "translation_sha256": "64d4f00e19dc68a97f8129ab294e020ff33b6dbddf2a98e1e7a55b473b642420"
+  }
+}

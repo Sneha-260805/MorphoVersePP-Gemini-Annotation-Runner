@@ -1,0 +1,278 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple unglazed terracotta clay diya with oil and a burning cotton wick",
+          "A slightly more ornate brass or metal lamp of traditional Indian design"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional Indian oil lamp, typically made of clay (diya), used in rituals, festivals, and daily household worship as a symbol of hope, light, and auspiciousness.",
+        "line_ref": "L12",
+        "negative_confusions": [
+          "An industrial metal lantern",
+          "A modern glass-enclosed hurricane lamp",
+          "A wax candle in a Western-style holder"
+        ],
+        "preserved": true,
+        "romanization": "deep",
+        "source_span_original": "दीप",
+        "source_span_translation": "lamp",
+        "stanza_index": 3,
+        "term": "दीप",
+        "translation_note": "Translated as 'lamp', which captures the literal meaning but loses the specific cultural resonance of a traditional clay diya.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A small, traditional clay oil lamp (diya)",
+          "A tiny, flickering cotton wick flame",
+          "A warm, golden glow illuminating the immediate dark surroundings"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and uncertainty to quiet hope and resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Seeking hope, clarity, or truth in a difficult period of life.",
+            "acceptable_visual_variants": [
+              "A person walking through a dark forest toward a distant dawn",
+              "A silhouette looking out of a dark room toward a bright window"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "Searching for physical light or illumination",
+            "literalization_risk": "An illustrator might draw a person literally holding a flashlight or searching for a physical lamp, missing the internal emotional journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and clarity",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "providing direction",
+                "bringing comfort"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "उजाले की तलाश में",
+            "source_span_translation": "In search of light",
+            "source_term": "उजाले की तलाश में",
+            "tenor": "hope, clarity, or truth",
+            "vehicle": "light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lone figure walking through a dark, shadowy forest or path, looking toward a soft, distant glow on the horizon."
+          },
+          {
+            "abstract_meaning": "Navigating through deep difficulties, confusion, or sadness.",
+            "acceptable_visual_variants": [
+              "Deep forest shadows enveloping a path",
+              "Abstract dark shapes surrounding a walking figure"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L2",
+            "literal_meaning": "Walking through thick physical shadows or shade",
+            "literalization_risk": "An illustrator might focus too literally on tree shadows, making it look like a pleasant sunny day in a park rather than an oppressive emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "difficulties and confusion",
+              "transferred_attributes": [
+                "obscuring vision",
+                "creating coldness",
+                "making progress difficult"
+              ],
+              "vehicle_concept": "dense shadows"
+            },
+            "source_span_original": "घनी छाया के बीच",
+            "source_span_translation": "through dense shadows",
+            "source_term": "घनी छाया के बीच",
+            "tenor": "difficulties, confusion, or sadness",
+            "vehicle": "dense shadows",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use deep, heavy, abstract shadows that seem to press in on the path of the traveler."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses 'glimmer of light' for 'roshni ki ek kiran', which literally means 'a ray of light'. This slightly alters the visual image from a sharp, direct beam (ray) to a faint, unsteady glow (glimmer).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The fallen leaves physically preserve the passage of time and memories of what has passed.",
+            "acceptable_visual_variants": [
+              "Dry, brown, highly textured autumn leaves scattered on the ground",
+              "A close-up of a single decaying leaf showing intricate skeletal veins"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "Leaves carefully storing or keeping safe the physical imprints of time",
+            "literalization_risk": "An illustrator might try to draw literal clocks, calendars, or written words on the leaves, which would look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "decaying fallen leaves",
+              "transferred_attributes": [
+                "preserving history",
+                "holding memories",
+                "bearing physical marks of the past"
+              ],
+              "vehicle_concept": "archivist or caretaker"
+            },
+            "source_span_original": "सहेज कर रखे हैं समय के निशान",
+            "source_span_translation": "Preserving marks of time",
+            "source_term": "सहेज कर रखे हैं समय के निशान",
+            "tenor": "fallen leaves showing signs of decay and age",
+            "vehicle": "leaves acting as caretakers or archives",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show detailed, dry, textured fallen leaves underfoot with visible veins and signs of decay, suggesting age and passage of time naturally."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'beete waqt ki' (of the past time) as 'memories of the past', introducing the explicit concept of 'memories' (yaadein) which is only implied, not literally present, in the original Hindi text.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A small but persistent feeling of hope remains alive within the speaker's heart despite the surrounding gloom.",
+            "acceptable_visual_variants": [
+              "A small traditional clay diya glowing in cupped hands",
+              "A tiny, warm point of light glowing from within the chest of a silhouette"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "A physical clay lamp of hope is burning",
+            "literalization_risk": "An illustrator might draw a literal floating lamp in the air or a physical lamp sitting on the ground without connecting it to the speaker's internal state.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope",
+              "transferred_attributes": [
+                "providing warmth",
+                "dispelling darkness",
+                "requiring care to keep alive",
+                "flickering but persistent"
+              ],
+              "vehicle_concept": "burning lamp"
+            },
+            "source_span_original": "उम्मीद का एक दीप जलता है",
+            "source_span_translation": "A lamp of hope flickers",
+            "source_term": "उम्मीद का एक दीप जलता है",
+            "tenor": "hope",
+            "vehicle": "a burning lamp (deep)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a small, warm, glowing traditional clay lamp (diya) held gently in cupped hands, casting a warm light on the traveler's face amidst the surrounding darkness."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'jalta hai' (burns/shines) as 'flickers', which introduces an element of instability or weakness to the lamp of hope that is not present in the steadier Hindi verb 'jalna'.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The persistent search for hope and light amidst the shadows of time and memory"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "उजाले की तलाश में,  \nमैं चलता हूँ घनी छाया के बीच,  \nजहां दूर तक केवल अंधेरा है,  \nऔर कहीं-कहीं झलकती है रोशनी की एक किरण।\n\nकदमों के नीचे बिछे हैं पत्ते,  \nजो सहेज कर रखे हैं समय के निशान,  \nऔर हर कदम के साथ  \nउनकी आवाज़ गूंजती है बीते वक्त की।\n\nजैसे-जैसे आगे बढ़ता हूँ,  \nउजाले का आकर्षण मुझे खींचता है,  \nऔर घनी छाया के बीच,  \nउम्मीद का एक दीप जलता है।",
+  "poem_id": "MV++_0488",
+  "poem_title": "Ujale Ki Talash Mein",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "df866fbe623ab960d41a0015ae6d52fba4ea218bf39862e92c048560daf02664",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0488.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In search of light,  \nI walk through dense shadows,  \nWhere only darkness stretches far,  \nAnd here and there a glimmer of light appears.\n\nLeaves lie beneath my feet,  \nPreserving marks of time,  \nAnd with every step,  \nTheir sound echoes memories of the past.\n\nAs I move forward,  \nThe allure of light pulls me,  \nAnd amidst the dense shadows,  \nA lamp of hope flickers.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:30:23.510097+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f3d5f4201960dc9f58a57928bb4c6438c1ee942d367179da850a8df4fec22305",
+        "response_hash": "720dadcee2bcab8f7bab9339ea39c40d983e6350d5aee57ce67cf8953699ace7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "577c63c34c507359d0d24f1b5894390a57e19b6fa781814f4a668b2b2b496c0b",
+        "response_hash": "5ccd396b790886a4f5c862b51824c73cb03967fa750be470ed3af8a2b9e1e639",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6c023bcabb47089557270ca9b19048a854ebd2f70a1f7918ee850a99947104a0",
+        "response_hash": "9113afea54005cafe88f1892434ada07d48a1279bf899f2f9af00d25b82021be",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e12b9a5e8a0b222b2f88d99e743c8858b3fec49d4cf5eedccded8ad96ef2ccdd",
+        "response_hash": "6f321905e0f3f5151bfbf5cf89844ccbade9ce5d5aa8924dfa353f75368063eb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da0f14a6464199889ed84d2e3db61d3a2dcec83a9eb80c4ed1758a2c47986610",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "39b3d0257b9bb5dd6cdf06429b0326ce26d045aa86222e788d01a678d6ef6d53",
+    "translation_sha256": "4706af7093bd8ebfa7425cc709980a3deb795c2dd078e6c004144f0505778bfd"
+  }
+}

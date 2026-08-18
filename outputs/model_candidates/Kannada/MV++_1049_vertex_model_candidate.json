@@ -1,0 +1,252 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet observation of a stone inscription leading to deep respect and honor for the resilience of ordinary people",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The destructive effects and wear-and-tear caused by the passage of time.",
+            "acceptable_visual_variants": [
+              "A close-up of a stone inscription with weathered, partially eroded characters.",
+              "An ancient stone monument standing under a changing sky showing sun, rain, and wind."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The physical beating or striking by time",
+            "literalization_risk": "Depicting a personified figure of 'Time' physically hitting a stone slab, which would look like a fantasy cartoon rather than a weathered historical monument.",
+            "metaphor_mapping": {
+              "tenor_concept": "temporal decay",
+              "transferred_attributes": [
+                "forcefulness",
+                "infliction of damage",
+                "inevitability"
+              ],
+              "vehicle_concept": "physical assault"
+            },
+            "source_span_original": "वक़्त की मार",
+            "source_span_translation": "ravages time may heap",
+            "source_term": "वक़्त की मार",
+            "tenor": "The erosion, weathering, and decay caused by the passage of time",
+            "vehicle": "A physical blow or beating delivered by an entity",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a stone slab with visible cracks, moss, and erosion from wind and rain to represent the passage of time naturally."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces a rhyming scheme (deep/heap, pride/reside) which alters the rhythm and tone of the original free-flowing verse. It also translates 'निशान' (mark/sign) as 'reside' to fit the rhyme, losing the physical imagery of a mark left behind.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Not recorded or acknowledged in official historical records.",
+            "acceptable_visual_variants": [
+              "A simple stone slab standing in a quiet, overgrown field, away from grand palaces.",
+              "A hand touching the rough, unpolished surface of the stone inscription."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L7",
+            "literal_meaning": "Not registered or written down in history",
+            "literalization_risk": "Showing a literal giant book with blank pages, which distracts from the focus on the stone inscription itself.",
+            "metaphor_mapping": {
+              "tenor_concept": "collective memory and recognition",
+              "transferred_attributes": [
+                "permanence",
+                "official validation"
+              ],
+              "vehicle_concept": "written registry"
+            },
+            "source_span_original": "इतिहास में दर्ज नहीं",
+            "source_span_translation": "Unwritten in history’s grand old book",
+            "source_term": "इतिहास में दर्ज नहीं",
+            "tenor": "The lack of recognition or remembrance of common people's struggles by society",
+            "vehicle": "An official register or book of history",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Focus on the contrast between the grand, official monuments of kings and the simple, weathered stone of the common people."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'carved in pain' and 'if you but look' to satisfy the AABB rhyme scheme, introducing semantic elements not present in the original text.",
+            "where": "L5-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Completely absorbed, dedicated, and focused on the act of creation and labor.",
+            "acceptable_visual_variants": [
+              "A worker's hands covered in stone dust, carefully carving a line.",
+              "The silhouette of a craftsman focused intently on his work under soft light."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "Drowned or submerged in the melody of construction",
+            "literalization_risk": "Depicting a worker literally drowning in water or surrounded by musical notes while carving stone, which would be confusing and surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "intense mental focus and dedication",
+              "transferred_attributes": [
+                "envelopment",
+                "loss of external awareness",
+                "rhythm"
+              ],
+              "vehicle_concept": "submersion in liquid or music"
+            },
+            "source_span_original": "निर्माण की धुन में डूबा हुआ था",
+            "source_span_translation": "Immersed in creation’s rhythmic arc",
+            "source_term": "निर्माण की धुन में डूबा हुआ था",
+            "tenor": "Total concentration, passion, and dedication of the laborers in their work",
+            "vehicle": "Being submerged in water / listening to an absorbing melody",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of a worker's hands holding a chisel and hammer, focused intently on carving a stone with fine detail."
+          },
+          {
+            "abstract_meaning": "The stone inscription serves as enduring evidence or proof of the lives of ordinary people.",
+            "acceptable_visual_variants": [
+              "A low-angle shot of the stone slab standing firm against the elements.",
+              "A modern hand gently tracing the ancient carved lines on the stone."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L11",
+            "literal_meaning": "The stone inscription gives testimony in court",
+            "literalization_risk": "Depicting a stone slab with a face speaking in a courtroom, which would look comical and ruin the solemn tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "historical evidence",
+              "transferred_attributes": [
+                "truthfulness",
+                "providing proof",
+                "enduring presence"
+              ],
+              "vehicle_concept": "legal witness"
+            },
+            "source_span_original": "शिलालेख गवाही देता है",
+            "source_span_translation": "inscription bears witness",
+            "source_term": "शिलालेख गवाही देता है",
+            "tenor": "The physical survival of the stone carvings proving that these people existed and worked",
+            "vehicle": "A witness testifying in a court of law",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show the stone inscription clearly in the frame, with its carved lines catching the light, standing as a silent but powerful monument."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation adds 'gain' at the end of L12 to rhyme with 'plain' in L11, which alters the meaning of 'अनसुनी कहानी' (unheard story) by framing it specifically around 'gain' rather than their general untold lives and struggles.",
+            "where": "L11-L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The true legacy of history lies not in the grand monuments of kings, but in the enduring, unrecorded struggles and creative labor of ordinary people."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "metadata.language",
+      "issue": "The poem's metadata states the language is Kannada, but the original poem text is written in Hindi (Devanagari script) using Hindi vocabulary (e.g., 'यह पत्थर पर उकेरा गया शिलालेख है', 'वक़्त की मार', 'साधारण लोगों'). This is a severe language mismatch.",
+      "severity": "critical"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "यह पत्थर पर उकेरा गया शिलालेख है,  \nजो वक़्त की मार झेलता आया है,  \nकिसी राजा के गौरव की गाथा नहीं,  \nयह साधारण लोगों के सपनों का निशान है।  \n\nइसकी लकीरों में उनकी मेहनत की कहानी है,  \nउनके संघर्ष का स्मारक,  \nजो किसी इतिहास में दर्ज नहीं,  \nपर इन पत्थरों पर अमर है।  \n\nहर लकीर एक हाथ की छाप है,  \nजो निर्माण की धुन में डूबा हुआ था,  \nयह शिलालेख गवाही देता है,  \nसाधारण जन की अनसुनी कहानी का।",
+  "poem_id": "MV++_1049",
+  "poem_title": "Shilalekh",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d1259a4c33d2d8bf91d0434b39bd2d92856db107f9a5532a2f374e9995ddfe76",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1049.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This is a stone inscription carved deep,  \nEnduring the ravages time may heap.  \nNot a tale of a king’s lofty pride,  \nBut of common dreams that here reside.\n\nIts lines tell stories of toil and strain,  \nA memorial to struggle, carved in pain,  \nUnwritten in history’s grand old book,  \nYet eternal on stones, if you but look.\n\nEach line bears a hand’s silent mark,  \nImmersed in creation’s rhythmic arc.  \nThis inscription bears witness, true and plain,  \nTo the unheard tales of common man’s gain.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:51:16.079650+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fac42138a5d1bd125330873e773f5885d668cf6eb656238889f503da7c77e178",
+        "response_hash": "9f1cb3bd26a1d0ee28a8049cda5ad604649aa513dba51efada27a33cc4c9b1b1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b9569884ce6c2f13b3cc9461975ec791552bd0a071a24cbdd1762b4b0f179045",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e04ff5defa0e3d2dc0693f9e8884f0a893d807174a1447deec2f02191b1a164d",
+        "response_hash": "b596942d0cdb755027275fa5d24ab04309c6a91d1c8c93e5616f3d6501d0858d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1f9ba345bde13801b46890baed46ac2a9bef987759f0a304b2f7a20b271974ca",
+        "response_hash": "64a6c0d314f78e3213319ea50a1d5031f08ff664c5924b05334a09eaa1e5869e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ff1a68e17a3ce3abb352de3f3ec5e4a20745c020ffb43b6b1baba36aa45033b",
+        "response_hash": "ec0c2bc2cecb2e2e37614e8c1dd550fae7421ebeadfc2cd32f2f56e9892bc9bb",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "094f82415477c173da06be3c2889aff293174bcceb49c0bcdb73117a47345e50",
+    "translation_sha256": "c98f5bdb9b3d4cb371fd2f398416fa0500e0229339bc69aff7901cea1d9c68ca"
+  }
+}

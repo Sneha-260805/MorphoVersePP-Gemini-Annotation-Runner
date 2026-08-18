@@ -1,0 +1,203 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The innocence, hope, and clarity associated with childhood that guides a person throughout their life.",
+            "acceptable_visual_variants": [
+              "A warm golden light illuminating a path, with the faint, translucent silhouette of a child walking ahead.",
+              "A glowing lantern resting on a path, casting light that reveals steps forward, symbolizing early life's guidance."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The physical light of a young girl or childhood",
+            "literalization_risk": "Showing a literal glowing child or a child holding a physical lamp, which misses the abstract sense of childhood innocence acting as an inner guiding light.",
+            "metaphor_mapping": {
+              "tenor_concept": "childhood innocence",
+              "transferred_attributes": [
+                "illumination",
+                "guidance",
+                "warmth",
+                "clarity"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "ಬಾಲೆಯ ಬೆಳಕು",
+            "source_span_translation": "Light of childhood",
+            "source_term": "ಬಾಲೆಯ ಬೆಳಕು",
+            "tenor": "Childhood (baale) or the innocence of childhood",
+            "vehicle": "Light (belaku)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm, radiant glow emanating from a silhouette or faint form of a playing child, casting a long guiding path forward."
+          },
+          {
+            "abstract_meaning": "A complex, interconnected, and captivating web of dreams and aspirations.",
+            "acceptable_visual_variants": [
+              "An intricate, glowing constellation-like network of light threads in a night sky.",
+              "A delicate, dew-covered web reflecting colorful, dreamlike light in a soft-focus background."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A physical net or web made of dreams",
+            "literalization_risk": "Depicting a literal spiderweb or fishing net, which might evoke entrapment or dustiness rather than the delicate, beautiful complexity of childhood aspirations.",
+            "metaphor_mapping": {
+              "tenor_concept": "interconnected dreams",
+              "transferred_attributes": [
+                "intricacy",
+                "interconnectedness",
+                "delicacy",
+                "captivating structure"
+              ],
+              "vehicle_concept": "spiderweb or net"
+            },
+            "source_span_original": "ಸ್ವಪ್ನಗಳ ಜಾಲ",
+            "source_span_translation": "A web of dreams",
+            "source_term": "ಸ್ವಪ್ನಗಳ ಜಾಲ",
+            "tenor": "Dreams/Aspirations (swapnagalu)",
+            "vehicle": "Web/Net (jaala)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render a delicate, shimmering, glowing network of silver or golden threads suspended in the air, with tiny dreamlike imagery or stars caught within the intersections."
+          },
+          {
+            "abstract_meaning": "Providing direction, purpose, and guidance through the journey of life.",
+            "acceptable_visual_variants": [
+              "A winding forest path dappled with sunlight filtering through trees.",
+              "A single clear trail of light cutting through a dark, open landscape towards a bright horizon."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Showing a physical road or path to life",
+            "literalization_risk": "Depicting a literal highway or street sign, which strips the poetic and existential quality of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey",
+              "transferred_attributes": [
+                "directionality",
+                "progression",
+                "obstacles and steps",
+                "destination"
+              ],
+              "vehicle_concept": "physical pathway"
+            },
+            "source_span_original": "ಬಾಳಿಗೆ ದಾರಿ ತೋರಿಸುವ",
+            "source_span_translation": "Guiding the path of life",
+            "source_term": "ಬಾಳಿಗೆ ದಾರಿ ತೋರಿಸುವ",
+            "tenor": "The course of one's life and future decisions (baalu)",
+            "vehicle": "A physical path or road (daari)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a winding, luminous path stretching out into a soft, misty horizon, illuminated by the gentle light from the first line."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada word 'ಬಾಲೆ' (baale) specifically refers to a young girl or maiden, which is translated more generally as 'childhood' in the English version, losing the gender-specific nuance of a young girl's light.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical connection of the relative participle 'ತೋರಿಸುವ' (toorisuva - which shows/guides) directly qualifying the light/dreams is flattened into a generic participle phrase 'Guiding the path' in English, losing the specific syntactic flow of Kannada.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The guiding light of childhood dreams and innocence in life"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಬಾಲೆಯ ಬೆಳಕು,  \nಸ್ವಪ್ನಗಳ ಜಾಲ,  \nಸಿಹಿಯ ಕನಸು,  \nಬಾಳಿಗೆ ದಾರಿ ತೋರಿಸುವ.",
+  "poem_id": "MV++_1004",
+  "poem_title": "Baaleya Belaku",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "8708f918bb1c253585e20863a4876891c8a4c42ea2a01e8a313c79a3bf6dae81",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1004.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Light of childhood,  \nA web of dreams,  \nA sweet fantasy,  \nGuiding the path of life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:43:27.542499+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1d0a8064231c5c5d4fcc8cac941e08fbb2d8529ef433343821a1a0fefbd1a1e6",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d97f21adc43bb797ac628245239b73ae4694730d5d783eb566fa7af0a3e0ab67",
+        "response_hash": "6d4b923c0faf316f254f7a98d722794588e3ad291bdd8f098750994937f49bf8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "05b956106725e2f2b159b1fe5b9e6b36b4346fdc25acd36d38d111ceed7f428e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c07ceb601d9404a89bb9dcabbae7193c99047f6f597b698cd49ee1bbac4f4247",
+        "response_hash": "0b4e763db642d06f9b223b5e9816fb989e54cb4cab8171bbdc1372ed0687ec61",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0768ebd630e5cef51700144633634a14057460d3b35d0f3a73e8e70e70ffb067",
+        "response_hash": "759e43617b1c1fa3c043cb06a77e9ee649e73036872dc5ce77417074d2ee171c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d4caa3bcb88d8089e020c399e693ae2b3840de8550729a9008d77daa3fc4ee0d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0fc902eec35b56f079d7560266239870396cd5104a825ddf9cb68f8e97274b8d",
+    "translation_sha256": "8553878cad43b1cc6e59e23788ed06100d4bb90df99f8e112e699c75171946dd"
+  }
+}

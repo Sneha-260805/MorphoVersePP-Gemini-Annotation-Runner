@@ -1,0 +1,299 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A vocative address meaning 'O person of good intellect' or 'O wise one', serving as the traditional makuta (signature refrain) of the Sumati Shatakam, a classical collection of moral/ethical poems in Telugu.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": false,
+        "romanization": "Sumati",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": null,
+        "stanza_index": 4,
+        "term": "సుమతీ",
+        "translation_note": "The translation completely omits the vocative address 'Sumati' (meaning 'one with good intellect/mind'), which is the signature makuta (refrain) of the famous Sumati Shatakam moral poems in Telugu literature. This is a significant cultural and literary loss.",
+        "translation_status": "LOST",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A steady, reflective assertion of moral truth, moving from the danger of anger to the peace of self-control and wisdom.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Anger is a self-destructive force that harms the person who harbors it, acting as their own worst adversary.",
+            "acceptable_visual_variants": [
+              "A shadow cast by a person that takes on a monstrous, aggressive posture while the person looks distressed.",
+              "A split-screen or double-exposure showing a person consumed by internal fire or red smoke that mimics a hostile figure."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "One's own anger is one's own enemy",
+            "literalization_risk": "Showing a physical combatant or external soldier fighting the person, which misses the internal psychological nature of anger.",
+            "metaphor_mapping": {
+              "tenor_concept": "anger",
+              "transferred_attributes": [
+                "hostility",
+                "intent to harm",
+                "destructive presence"
+              ],
+              "vehicle_concept": "enemy"
+            },
+            "source_span_original": "తన కోపమే తన శత్రువు",
+            "source_span_translation": "One’s own anger is their enemy",
+            "source_term": "తన కోపమే తన శత్రువు",
+            "tenor": "one's own anger (తన కోపము)",
+            "vehicle": "an enemy (శత్రువు)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking into a mirror or pool, where their reflection's face is distorted with rage and appears threateningly hostile to them."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Inner peace and calmness act as a protective shield or armor against life's conflicts and emotional distress.",
+            "acceptable_visual_variants": [
+              "A person standing calmly in a storm, wrapped in a protective, translucent cloak of cool blue light.",
+              "A peaceful figure whose calm posture naturally creates a quiet, undisturbed space around them in a crowded scene."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "One's own calmness is one's own protection/shield",
+            "literalization_risk": "Depicting a physical metal shield or military guard, which obscures the mental and emotional quality of peace.",
+            "metaphor_mapping": {
+              "tenor_concept": "calmness",
+              "transferred_attributes": [
+                "defense",
+                "safety",
+                "warding off harm"
+              ],
+              "vehicle_concept": "shield/armor"
+            },
+            "source_span_original": "తన శాంతమె తనకు రక్ష",
+            "source_span_translation": "Calmness serves as protection",
+            "source_term": "తన శాంతమె తనకు రక్ష",
+            "tenor": "one's own calmness (తన శాంతము)",
+            "vehicle": "protection/shield (రక్ష)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene figure sitting in meditation, surrounded by a soft, glowing aura or bubble of light that deflects chaotic external elements."
+          },
+          {
+            "abstract_meaning": "Kindness connects people and supports them, acting like a reliable family member or close relative.",
+            "acceptable_visual_variants": [
+              "An abstract representation of two hands clasped warmly, surrounded by symbols of growth or warmth.",
+              "A person being comforted in a time of need by a gentle, supportive presence."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "kindness becomes a relative/kinsman",
+            "literalization_risk": "Depicting a literal family reunion or specific relative, which fails to convey the abstract virtue of kindness.",
+            "metaphor_mapping": {
+              "tenor_concept": "kindness",
+              "transferred_attributes": [
+                "support",
+                "closeness",
+                "familial bond",
+                "reliability"
+              ],
+              "vehicle_concept": "relative/kinsman"
+            },
+            "source_span_original": "దయ చుట్టంబౌc",
+            "source_span_translation": "kindness as friend",
+            "source_term": "దయ చుట్టంబౌc",
+            "tenor": "kindness (దయ)",
+            "vehicle": "a relative/kinsman (చుట్టము)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person offering a helping hand to a stranger, with a warm, supportive shadow or guiding figure representing the bond of kindness."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The specific cultural nuance of 'chuttambu' (relative/kin) is translated as 'friend', losing the familial obligation and closeness implied by Telugu kinship terms.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "True happiness and contentment within oneself is equivalent to the ultimate joy and peace of heaven.",
+            "acceptable_visual_variants": [
+              "A person floating lightly above the ground in a bright, sunlit landscape, expressing weightless joy.",
+              "A warm, radiant light emanating from a person's chest, illuminating their immediate surroundings with beauty."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "One's own happiness is heaven",
+            "literalization_risk": "Depicting mythological clouds, celestial deities, or a literal religious paradise, which misses the internal state of joy.",
+            "metaphor_mapping": {
+              "tenor_concept": "happiness",
+              "transferred_attributes": [
+                "supreme joy",
+                "peace",
+                "blissful state"
+              ],
+              "vehicle_concept": "heaven"
+            },
+            "source_span_original": "తన సంతోషమె స్వర్గము",
+            "source_span_translation": "One’s happiness is like heaven",
+            "source_term": "తన సంతోషమె స్వర్గము",
+            "tenor": "one's own happiness (తన సంతోషము)",
+            "vehicle": "heaven (స్వర్గము)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person with an expression of pure, serene joy, surrounded by light, blooming flowers, and soaring birds to symbolize an elevated state of mind."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "The translation omits the direct address to 'Sumati' (the wise/good-minded one), which is a defining structural feature of this classical Telugu moral verse genre.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Deep sorrow, grief, and misery create an internal state of torment equivalent to hell.",
+            "acceptable_visual_variants": [
+              "A person standing in a barren, cracked landscape under a dark, stormy sky, looking downcast.",
+              "A silhouette of a person filled with dark, turbulent waves or smoke, symbolizing internal chaos and pain."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "one's own sorrow is hell",
+            "literalization_risk": "Depicting literal underworld flames, demons, or physical torture, which distracts from the psychological reality of grief.",
+            "metaphor_mapping": {
+              "tenor_concept": "sorrow",
+              "transferred_attributes": [
+                "torment",
+                "suffering",
+                "darkness",
+                "confinement"
+              ],
+              "vehicle_concept": "hell"
+            },
+            "source_span_original": "తనదుఖఃమె నరక",
+            "source_span_translation": "sorrow, like the torment of hell",
+            "source_term": "తనదుఖఃమె నరక",
+            "tenor": "one's own sorrow (తన దుఃఖము)",
+            "vehicle": "hell (నరకము)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure curled up in a dark, cold, thorny space, with heavy shadows pressing down on them to represent the suffocating weight of sorrow."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The direct address to 'Sumati' (one with good intellect/mind), which is the signature makutam (refrain) of this classic moral poem, is omitted in the translation.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "True heaven and hell, as well as one's allies and enemies, are not external realms or entities but are created entirely by one's own internal emotional states and moral choices."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "తన కోపమే తన శత్రువు\n\nతన శాంతమె తనకు రక్ష, దయ చుట్టంబౌc\n\nతన సంతోషమె స్వర్గము\n\nతనదుఖఃమె నరక మండ్రు, తథ్యము సుమతీ.",
+  "poem_id": "MV++_1501",
+  "poem_title": "Tana kopamee",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e4ae35847737bc899a0fd458346b50ec3adb754a98137e0cfc92f680d88d1766",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1501.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "One’s own anger is their enemy,\nCalmness serves as protection, kindness as friend.\nOne’s happiness is like heaven,\nAnd sorrow, like the torment of hell—this is the truth.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:41:53.879636+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "883069eafb6678a5c14ee75446e1e04be8b244366f6b99e5b54c087d118aa096",
+        "response_hash": "1d4f10b2e7f0059b55be9730c1dcf919b7cb1368f22f6a66c1c362388f3f975b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e32b8e35ab547fe91e51487ade49c35b3506ff8911518eb6f94d7c5a4a3b0b0e",
+        "response_hash": "59469f65e5a8b77b1a4271d545ea3b06d0bff0654a03d249fef20583e811dc4a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "94a164058d2f9187b5eaffe53d189ec8cd279e72565e7c16f3f0aba4da520caf",
+        "response_hash": "bdc4cdc80e3d30832e889587aeb002899785f11e895ee1953b77661f23409f49",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e7382f530181e857f3f339bcf3eafc6ed3fc4930b11f54af25904698d88bffbf",
+        "response_hash": "c033482015063b2f08e936b39aea7cf3ae41b2629eb97f0842466a881ece0c1c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7d4cd8f26628cc61f886d5408507e4bb9c4a9ab06dbe702326f22e1bd6d0b329",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "fca6850e4703fec65c970b98268eb9238d4dde8bc95802991a99bb8033037bce",
+    "translation_sha256": "b18e0655b57b42ba4506715af3d4b08a1ec573010542ce06a871150ab3245b6d"
+  }
+}

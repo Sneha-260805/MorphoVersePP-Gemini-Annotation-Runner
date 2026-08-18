@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A gentle contemplation of love, memory, and friendship, remaining in a state of peaceful appreciation.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Love is conceptualized as a blooming flower that holds life and freshness.",
+            "acceptable_visual_variants": [
+              "A single fresh green flower blooming on a stem",
+              "A close-up of a green flower with dew drops on its petals"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "In the flower of love",
+            "literalization_risk": "Depicting a literal flower made of hearts or romantic symbols might look cartoonish or cliché.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "beauty",
+                "freshness",
+                "fragrance",
+                "delicacy"
+              ],
+              "vehicle_concept": "flower"
+            },
+            "source_span_original": "ಪ್ರೀತಿಯ ಹೂವಲಿ",
+            "source_span_translation": "flower of love",
+            "source_term": "ಪ್ರೀತಿಯ ಹೂವಲಿ",
+            "tenor": "love",
+            "vehicle": "a flower",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vibrant, fresh green flower blooming naturally, emphasizing its organic beauty and vitality."
+          },
+          {
+            "abstract_meaning": "The beauty and memory of friendship are compared to an endless, everlasting fragrance.",
+            "acceptable_visual_variants": [
+              "Soft, shimmering light particles gently drifting from a blooming flower",
+              "A gentle breeze carrying tiny petals or pollen in a warm, inviting atmosphere"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Like an endless fragrance",
+            "literalization_risk": "Fragrance is invisible; trying to draw it literally as colored wind or smoke can look like pollution or gas.",
+            "metaphor_mapping": {
+              "tenor_concept": "friendship's beauty",
+              "transferred_attributes": [
+                "permanence",
+                "pleasantness",
+                "pervasiveness"
+              ],
+              "vehicle_concept": "endless fragrance"
+            },
+            "source_span_original": "ಮುಗಿಯದ ಸುಗಂಧವಂತೆ",
+            "source_span_translation": "Like an endless fragrance",
+            "source_term": "ಮುಗಿಯದ ಸುಗಂಧವಂತೆ",
+            "tenor": "the beauty of friendship",
+            "vehicle": "an endless fragrance",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Suggest fragrance indirectly through the gentle movement of petals, or a soft, warm glow radiating from the flower."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The locative case marker '-ali' in 'hoovali' (in the flower) and 'cheluvalli' (in the beauty) carries a rhythmic, resonant internal rhyme and grammatical symmetry in Kannada that is flattened into standard English prepositions.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The clitic '-ante' (meaning 'like' or 'it is said to be') in 'sugandhavante' is translated as a simple simile ('Like an endless fragrance'), which loses the subtle, hearsay-like or evocative quality of the Kannada suffix.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring, fragrant nature of love and friendship that persists as a memory in life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries. When translation_loss is documented, translation_quality should typically be 'partial' to reflect the loss of grammatical symmetry and suffix nuances.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಪ್ರೀತಿಯ ಹೂವಲಿ ಹಸಿರು,  \nಬಾಳದಲಿ ನೆನಪಾಗಿ,  \nಸ್ನೇಹದ ಚೆಲುವಲ್ಲಿ,  \nಮುಗಿಯದ ಸುಗಂಧವಂತೆ.",
+  "poem_id": "MV++_0956",
+  "poem_title": "Preetiya Hoovu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7698204d3dfd88c8db059374b3f343b4c2ca1ae101c0389cee60ec5e733bf2d1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0956.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Green in the flower of love,  \nA memory in life,  \nIn the beauty of friendship,  \nLike an endless fragrance.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:36:20.887651+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cd7699f8b28fd97017753fb91451be671af10a26ef31a0d0d98183e3ccda093c",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f567f58c3541668ee289e68db5c471d9c1b368cc623a2bc60cc6dc7942346280",
+        "response_hash": "461d9d20fe45281c3305a4d84d9892696169acd6655f5ee7b3785c584cea2925",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3eab080f832ead83c35fe588101b1b9c7ac6ef5ef784de6a72a85a4d1eebb3dc",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c1f6f3efc7de3f3a69c121c3dea1a4590da8af7003060cf5f48916b5231a979b",
+        "response_hash": "13ee595094aed438747784835d58c7ad4a7247c7954acc42da7d7ec4ed2707bc",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "16d9dd58be57646714fd9bb09c69155dfe83ddabd3f8dae292f0a33f26907193",
+        "response_hash": "a96a93f909343b6c2721d2cec57df0c435b4a1a6fdf4fd660d64c78e1c3c015d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d590025e121b8814bf18e88e14d85451f8f77bb23de3b2c9696741e31bebe8a4",
+        "response_hash": "a2df367ecf1b0712ed533b9cc4ec4039f7add040082ac8c6d33a37a9a88f9d94",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b4d5c369170e57389d6eba054ac5a49d739aff0ba35f9057cbddcbc7e1c92d90",
+    "translation_sha256": "cb678b65415e0f03ed22f4dc4ed217fc38c13bd8763cd0d2ec24b0ca21d0dddf"
+  }
+}

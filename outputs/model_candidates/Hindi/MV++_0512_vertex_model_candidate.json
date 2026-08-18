@@ -1,0 +1,309 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "carefree joy to resilient determination",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but loses the rhythmic, song-like cadence of the original Hindi imperatives (chal, ja) which reinforce the musical theme.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A person journeying through the challenges and phases of life.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person walking on a dusty path under a vast sky",
+              "A stylized figure walking through changing abstract landscapes representing different phases of life"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A traveler or passenger on a physical journey.",
+            "literalization_risk": "Depicting a literal backpacker or tourist on a highway, which misses the existential and philosophical nature of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "living through life",
+              "transferred_attributes": [
+                "movement forward",
+                "facing unknown paths",
+                "temporary nature of the journey"
+              ],
+              "vehicle_concept": "physical travel"
+            },
+            "source_span_original": "मुसाफ़िर",
+            "source_span_translation": "traveler",
+            "source_term": "मुसाफ़िर",
+            "tenor": "A person living through the journey of life",
+            "vehicle": "A traveler on a road",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure walking along a winding path that stretches toward a vast horizon, blending realistic path elements with symbolic transitions of day and night."
+          },
+          {
+            "abstract_meaning": "To dismiss, ignore, or easily overcome worries and anxieties.",
+            "acceptable_visual_variants": [
+              "Wisps of dark smoke dissolving into butterflies or light particles in the air",
+              "A figure exhaling a breath that turns into light mist and vanishes into the sky"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L3",
+            "literal_meaning": "Blowing away every worry like a puff of smoke.",
+            "literalization_risk": "An illustrator might depict someone smoking a cigarette or pipe, which introduces unintended connotations of tobacco use not implied by the poetic idiom.",
+            "metaphor_mapping": {
+              "tenor_concept": "worries disappearing",
+              "transferred_attributes": [
+                "fading away",
+                "becoming weightless",
+                "vanishing completely"
+              ],
+              "vehicle_concept": "smoke dispersing"
+            },
+            "source_span_original": "हर फ़िक्र को धुएँ में उड़ाता चल",
+            "source_span_translation": "Let every worry vanish like smoke",
+            "source_term": "हर फ़िक्र को धुएँ में उड़ाता चल",
+            "tenor": "The act of letting go of worries and mental burdens",
+            "vehicle": "Smoke dispersing and vanishing into the air",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person walking with a light posture, while dark, heavy clouds or wisps of grey smoke near their head dissolve into clear, bright air as they move forward."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The active, continuous aspect of the compound verb construction 'udata chal' (literally 'go on blowing/flying away') is flattened into a passive English subjunctive 'Let every worry vanish'. Additionally, the specific cultural nuance of 'masti' (a state of carefree, ecstatic joy or intoxication) is simplified to 'joy'.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'dheeraj rakhe' as 'stay strong' slightly shifts the nuance from patient endurance (dheeraj) to general strength.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life is full of difficulties, obstacles, and painful experiences.",
+            "acceptable_visual_variants": [
+              "A path covered in sharp, jagged stones and dry brambles",
+              "A stylized path where the ground itself has sharp, thorn-like cracks and ridges"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Sharp thorns are spread out across the road of life.",
+            "literalization_risk": "Showing literal rose thorns or brambles on a modern paved road, which looks comical or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "obstacles in life",
+              "transferred_attributes": [
+                "causing physical pain",
+                "slowing down progress",
+                "requiring careful navigation"
+              ],
+              "vehicle_concept": "thorns on a path"
+            },
+            "source_span_original": "जीवन की राह में कांटे बिछे हैं",
+            "source_span_translation": "Thorns are scattered along life’s path",
+            "source_term": "जीवन की राह में कांटे बिछे हैं",
+            "tenor": "Difficulties and painful obstacles encountered in life",
+            "vehicle": "Thorns scattered on a walking path",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a path that transitions from smooth ground to a rough, bramble-covered terrain with sharp, stylized briars, while the traveler continues to step forward carefully."
+          },
+          {
+            "abstract_meaning": "Even if the period of adversity, sorrow, or ignorance is intense and overwhelming.",
+            "acceptable_visual_variants": [
+              "A traveler walking through a dark, misty forest under a moonless sky",
+              "An abstract dark blue and black background pressing down on a single illuminated path"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L7",
+            "literal_meaning": "Even if the night is pitch black and deep.",
+            "literalization_risk": "Depicting a simple nocturnal landscape with stars, which looks peaceful rather than representing a challenging period of adversity.",
+            "metaphor_mapping": {
+              "tenor_concept": "severity of hardship",
+              "transferred_attributes": [
+                "lack of visibility",
+                "fear",
+                "isolation",
+                "temporary duration before dawn"
+              ],
+              "vehicle_concept": "darkness of night"
+            },
+            "source_span_original": "रात चाहे गहरी हो",
+            "source_span_translation": "Though the night may be deep",
+            "source_term": "रात चाहे गहरी हो",
+            "tenor": "A period of severe hardship, depression, or difficulty",
+            "vehicle": "A deep, dark night",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dense, heavy darkness enveloping the path, with deep shadows that feel oppressive, contrasted with a small, determined light source carried by or guiding the traveler."
+          },
+          {
+            "abstract_meaning": "Actively seeking hope, solutions, or positive perspectives during times of despair and hardship.",
+            "acceptable_visual_variants": [
+              "A small hand-held traditional oil lamp (diya or lantern) casting a warm glow",
+              "A single bright star shining through a rift in dark storm clouds"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L8",
+            "literal_meaning": "Searching for a physical light source in pitch darkness.",
+            "literalization_risk": "Depicting a literal flashlight, lightbulb, or modern lamp, which breaks the timeless, poetic tone of the traveler's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope in adversity",
+              "transferred_attributes": [
+                "providing direction",
+                "dispelling fear",
+                "revealing the path ahead"
+              ],
+              "vehicle_concept": "light in darkness"
+            },
+            "source_span_original": "हर अँधेरे में इक रोशनी खोजता चल",
+            "source_span_translation": "In every darkness, find a light to follow",
+            "source_term": "हर अँधेरे में इक रोशनी खोजता चल",
+            "tenor": "Hope, guidance, or a positive outlook during difficult times",
+            "vehicle": "A light source in the dark",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a warm, glowing spark, a lantern, or a distant star casting a soft light onto the path directly in front of the traveler, cutting through the surrounding gloom."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific virtue of 'dheeraj' (patience, fortitude, or self-possession) is translated as 'stay strong', which shifts the focus from calm endurance to active strength. Additionally, 'khojta chal' (keep searching/seeking) is rendered as 'find a light to follow', changing an active search into a passive discovery.",
+            "where": "L6-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The rhythmic repetition of the refrain is preserved in meaning, though the natural flow of the Hindi grammatical structure is slightly flattened.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A person journeying through the challenges and phases of life.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person walking on a dusty path under a vast sky",
+              "A stylized figure walking through changing abstract landscapes representing different phases of life"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "A traveler or passenger on a physical journey.",
+            "literalization_risk": "Depicting a literal backpacker or tourist on a highway, which misses the existential and philosophical nature of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "living through life",
+              "transferred_attributes": [
+                "movement forward",
+                "facing unknown paths",
+                "temporary nature of the journey"
+              ],
+              "vehicle_concept": "physical travel"
+            },
+            "source_span_original": "मुसाफ़िर",
+            "source_span_translation": "traveler",
+            "source_term": "मुसाफ़िर",
+            "tenor": "A person living through the journey of life",
+            "vehicle": "A traveler on a road",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure walking along a winding path that stretches toward a vast horizon, blending realistic path elements with symbolic transitions of day and night."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial Hindi adverbial phrase 'yun hi' (just like this, effortlessly, or in this very manner) is omitted in the English translation 'keep moving on', losing the rhythmic ease and attitude of the original phrasing.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Life is a journey to be navigated with song, patience, and courage despite inevitable hardships."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "गीत गाता चल,  \nओ मुसाफ़िर, गीत गाता चल।  \nहर फ़िक्र को धुएँ में उड़ाता चल,  \nमुस्कुराता जा, मस्ती में खोता जा।\n\nजीवन की राह में कांटे बिछे हैं,  \nपैरों में चुभेंगे, धीरज रखे।  \nरात चाहे गहरी हो, तू चलता चल,  \nहर अँधेरे में इक रोशनी खोजता चल।\n\nगीत गाता चल,  \nओ मुसाफ़िर, गीत गाता चल।  \nचाहे जितनी मुश्किलें सामने हों,  \nहौसला बनाए रख, यूँ ही बढ़ता चल।",
+  "poem_id": "MV++_0512",
+  "poem_title": "Geet Gaata Chal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0456ab4c1dbff78c6a62742baa700eb0ecc22cf65c30cec378d1cba737f3a2cc",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0512.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Keep singing along,  \nOh traveler, keep singing your song.  \nLet every worry vanish like smoke,  \nSmile as you go, losing yourself in the joy.\n\nThorns are scattered along life’s path,  \nThey’ll prick your feet, but stay strong.  \nThough the night may be deep, keep walking,  \nIn every darkness, find a light to follow.\n\nKeep singing along,  \nOh traveler, keep singing your song.  \nNo matter how many challenges arise,  \nHold on to courage, keep moving on.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:33:05.543168+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "55ecf5dcc162a9c6ec732413d9b2ceec89632077cc58d253c1280f141bffc45e",
+        "response_hash": "559a04fc70593b7b60ed5ef26de5e1588f39c078b9a2b301a3ba11064e3b8fac"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9a657b6cac1e3414552259b5bfc029f50a41480031033e8954657151d65d495a",
+        "response_hash": "cb316de168002bf060cf78947249626e126cfc9705925807a6fc053b563bfd9c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3422588f6d454e6468bf5a7c6eff524ee4997d8498c9ba4f3ce6e86196960653",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "18ac496b6e26fc12712c32e689949b7a51990447ef44fa86d8abc245bcaf62be",
+        "response_hash": "8de3013d6c0d769179209713bbd69964da9791aaeee32b64832498febef85a6b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "461d471e0536ff9b1a2e18757008201dfc1c5bd799ca11aec46592f90ee32775",
+        "response_hash": "dd8f166c9dd2a21315f56adad338f717283213720f438764f466b2a6ef1107c3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7dea2116e9bb8aa7b84bb5a1cc9458c216e24bb3020ee716a6714505b944d583",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1ebe3b2eddad7f680997d1384cdbc09da78d1996f3fa9f28b7c2ef18fdbd6915",
+    "translation_sha256": "b29beb92064cf77a75b1a302eeac41e8a74c69ef3f621e131f43c19aeddef149"
+  }
+}

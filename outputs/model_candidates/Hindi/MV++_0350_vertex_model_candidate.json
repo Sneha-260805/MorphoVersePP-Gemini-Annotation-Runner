@@ -1,0 +1,442 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Depicted in a classical warrior stance",
+          "Depicted in a modern symbolic representation of strength"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A central female protagonist of the Hindu epic Mahabharata, representing resilience and agency in the face of injustice. In this context, she is addressed as a symbol of self-reliance.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A submissive or weeping figure waiting for rescue",
+          "A generic modern warrior unrelated to the epic context"
+        ],
+        "preserved": true,
+        "romanization": "Draupadi",
+        "source_span_original": "द्रौपदी",
+        "source_span_translation": "Draupadi",
+        "stanza_index": 1,
+        "term": "द्रौपदी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A strong, dignified South Asian woman",
+          "Classical or ancient Indian attire (sari)",
+          "Holding or reaching for a weapon (shastra)"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A faint, fading, or absent divine silhouette",
+          "A symbolic representation of divine absence"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "An epithet of Lord Krishna, a major deity in Hinduism, who famously rescued Draupadi during her disrobing in the Mahabharata.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A physical warrior present on the battlefield"
+        ],
+        "preserved": true,
+        "romanization": "Govind",
+        "source_span_original": "गोविन्द",
+        "source_span_translation": "Govind",
+        "stanza_index": 1,
+        "term": "गोविन्द",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A divine figure associated with Krishna",
+          "Often depicted with blue skin or traditional crown, though here noted as absent"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A symbolic representation of unraveling fabric",
+          "A dramatic, stylized depiction of the assembly hall scene"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The public disrobing and humiliation of Draupadi in the assembly hall of the Kauravas, a pivotal event in the Mahabharata.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A simple modern changing room scene",
+          "A generic assault scene lacking the symbolic endless fabric"
+        ],
+        "preserved": true,
+        "romanization": "cheerharan",
+        "source_span_original": "चीरहरण",
+        "source_span_translation": "disrobing",
+        "stanza_index": 1,
+        "term": "चीरहरण",
+        "translation_note": "Translated as 'disrobing', which captures the literal action but loses the specific mythological weight of the Mahabharata event.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A long, continuous stream of fabric (sari) being pulled",
+          "An assembly hall setting or symbolic representation of public humiliation"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "An empty space where a savior would stand",
+          "A distant, unreached divine form"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A major Hindu deity, avatar of Vishnu, who acts as Draupadi's protector in the epic Mahabharata.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A generic human warrior"
+        ],
+        "preserved": true,
+        "romanization": "Krishna",
+        "source_span_original": "कृष्ण",
+        "source_span_translation": "Krishna",
+        "stanza_index": 1,
+        "term": "कृष्ण",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A divine figure, traditionally blue-skinned, associated with a flute or peacock feather, though noted here as absent"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A symbolic path of light",
+          "An abstract representation of moral balance"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The cosmic order, righteousness, moral duty, and justice in Hindu philosophy.",
+        "line_ref": "L7",
+        "negative_confusions": [
+          "A purely legalistic courtroom setting"
+        ],
+        "preserved": true,
+        "romanization": "dharma",
+        "source_span_original": "धर्म",
+        "source_span_translation": "dharma",
+        "stanza_index": 2,
+        "term": "धर्म",
+        "translation_note": "Translated as 'dharma', preserving the Sanskrit loanword in English.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A scales of justice",
+          "A path or wheel (Dharmachakra) representing cosmic order"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "From the realization of abandonment and vulnerability to the fierce reclamation of self-reliance and agency.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A modern woman facing injustice, oppression, or assault, drawing a parallel to the mythological figure from the Mahabharata.",
+            "acceptable_visual_variants": [
+              "A modern woman in contemporary attire looking determinedly ahead",
+              "A split-screen or layered image showing a classical Indian woman holding a weapon alongside a modern woman doing the same"
+            ],
+            "expression_type": "allusion",
+            "line_ref": "L1",
+            "literal_meaning": "Draupadi, the mythological princess and wife of the Pandavas in the epic Mahabharata.",
+            "literalization_risk": "Depicting the literal historical/mythological character Draupadi in ancient attire might obscure the poem's urgent message to modern women.",
+            "metaphor_mapping": {
+              "tenor_concept": "Modern oppressed woman",
+              "transferred_attributes": [
+                "vulnerability to public humiliation",
+                "need to defend oneself when external saviors fail"
+              ],
+              "vehicle_concept": "Draupadi"
+            },
+            "source_span_original": "द्रौपदी",
+            "source_span_translation": "Draupadi",
+            "source_term": "द्रौपदी",
+            "tenor": "Any contemporary woman facing systemic injustice, vulnerability, or assault.",
+            "vehicle": "The mythological figure Draupadi, who was publicly humiliated and disrobed.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a modern woman standing strong, perhaps with a subtle shadow or symbolic silhouette of the classical warrior princess behind her."
+          },
+          {
+            "abstract_meaning": "An external savior, divine intervention, or societal protector who will come to rescue a victim.",
+            "acceptable_visual_variants": [
+              "An empty chariot or path under a dramatic sky",
+              "A woman looking towards a vacant horizon, realizing she is on her own"
+            ],
+            "expression_type": "allusion",
+            "line_ref": "L2",
+            "literal_meaning": "Govind, an epithet of Lord Krishna who miraculously protected Draupadi during her disrobing.",
+            "literalization_risk": "Showing a literal Hindu deity failing to appear or being absent could turn a poem about self-reliance into a theological statement.",
+            "metaphor_mapping": {
+              "tenor_concept": "External help or societal protection",
+              "transferred_attributes": [
+                "miraculous rescue",
+                "relieving the victim of the need to fight back"
+              ],
+              "vehicle_concept": "Govind (divine savior)"
+            },
+            "source_span_original": "गोविन्द",
+            "source_span_translation": "Govind",
+            "source_term": "गोविन्द",
+            "tenor": "An external savior, protector, or legal/societal system that steps in to rescue the oppressed.",
+            "vehicle": "The deity Govind (Krishna) arriving to perform a miracle.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict an empty, open sky or an empty path where a savior would be expected to arrive, emphasizing solitude."
+          },
+          {
+            "abstract_meaning": "An act of public humiliation, assault, violation of dignity, or systemic oppression.",
+            "acceptable_visual_variants": [
+              "A long piece of fabric or sari unraveling into the wind",
+              "A woman standing amidst swirling, torn fabrics that she actively pushes away"
+            ],
+            "expression_type": "allusion",
+            "line_ref": "L3",
+            "literal_meaning": "The literal stripping of Draupadi's sari in the royal assembly of Hastinapur.",
+            "literalization_risk": "A literal depiction of a woman being stripped of her clothes is highly sensitive, potentially triggering, and might distract from the metaphorical violation of rights.",
+            "metaphor_mapping": {
+              "tenor_concept": "violation of dignity and rights",
+              "transferred_attributes": [
+                "public humiliation",
+                "helplessness under assault",
+                "violation of personal boundaries"
+              ],
+              "vehicle_concept": "cheerharan (forcible disrobing)"
+            },
+            "source_span_original": "चीरहरण",
+            "source_span_translation": "disrobing",
+            "source_term": "चीरहरण",
+            "tenor": "Any modern act of assault, public humiliation, or stripping away of a woman's dignity and rights.",
+            "vehicle": "The mythological disrobing (cheerharan) of Draupadi.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Use symbolic representations of unraveling threads, tearing fabric, or shadows of reaching hands to convey violation without graphic literalism."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific mythological weight of 'cheerharan' (the public disrobing of Draupadi in the Mahabharata assembly) is translated as a generic 'disrobing', losing the immediate cultural and epic resonance of the original event.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The shift from the specific divine names 'Govind' and 'Krishna' to their English transliterations loses the immediate cultural recognition of these names as epithets of the same deity who historically rescued Draupadi.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The absolute isolation, devastation, and lack of human support a victim faces when fighting against injustice.",
+            "acceptable_visual_variants": [
+              "A woman standing alone in a barren, wind-swept desert",
+              "A figure amidst crumbling stone ruins under a gray sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5-L6",
+            "literal_meaning": "Debris, dust, and particles of earth acting as literal friends or companions.",
+            "literalization_risk": "Depicting literal dust particles shaking hands or acting like human friends would look absurd or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "isolation and bleak reality",
+              "transferred_attributes": [
+                "presence in times of abandonment",
+                "harshness",
+                "lack of comfort"
+              ],
+              "vehicle_concept": "dust and ruins as companions"
+            },
+            "source_span_original": "ये ध्वंस, धूल, ये रज कण,\nबस केवल तुम्हारे ही साथी होंगे।",
+            "source_span_translation": "This ruin, this dust, this handful of soil,\nWill be your only companions.",
+            "source_term": "ये ध्वंस, धूल, ये रज कण, / बस केवल तुम्हारे ही साथी होंगे।",
+            "tenor": "The harsh reality of isolation and the absence of human allies during a difficult struggle.",
+            "vehicle": "Ruin, dust, and soil as companions.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a solitary figure standing in a desolate, dusty landscape or ruined battlefield, emphasizing her isolation."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'raj kan' (particles of dust/sand) as 'handful of soil' alters the literal imagery of tiny, dry, scattered particles of dust to a cohesive handful of earth.",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'dharma' as part of 'dignity of justice and dharma' collapses the complex, multi-layered ethical, cosmic, and social duty implied by 'dharma' into a simpler English concept.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Finding inner strength, guidance, and hope within oneself during a dark, difficult struggle.",
+            "acceptable_visual_variants": [
+              "A woman holding a small oil lamp (diya) that cuts through deep shadows",
+              "A silhouette of a woman with a warm, glowing aura emanating from her heart center"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9-L10",
+            "literal_meaning": "A battle taking place in physical darkness where the warrior physically turns into a glowing light source.",
+            "literalization_risk": "Showing a woman literally glowing like a lightbulb or a lamp might look like a fantasy/superhero trope rather than a deep emotional metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner strength and guidance",
+              "transferred_attributes": [
+                "dispelling fear",
+                "showing the way",
+                "providing hope"
+              ],
+              "vehicle_concept": "a light in the dark"
+            },
+            "source_span_original": "इस संग्राम के अंधकार में,\nतुम्हीं अपनी ज्योति बनोगी।",
+            "source_span_translation": "In the darkness of this battle,\nYou shall become your own light.",
+            "source_term": "इस संग्राम के अंधकार में, / तुम्हीं अपनी ज्योति बनोगी।",
+            "tenor": "Self-reliance, inner wisdom, and hope guiding one through a grim struggle.",
+            "vehicle": "A glowing light or flame illuminating a dark battlefield.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a woman holding a small, steady flame in her hands, or show her face illuminated by a warm light source that originates from her own hands or chest."
+          },
+          {
+            "abstract_meaning": "The life choices, moral decisions, and actions one takes to determine their own destiny.",
+            "acceptable_visual_variants": [
+              "A woman standing at a fork in a rugged mountain path",
+              "A figure stepping forward onto untrodden ground, leaving footprints behind"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "A physical road, trail, or pathway.",
+            "literalization_risk": "Showing a literal dirt road or paved highway might make the scene look like a simple travel scene rather than a profound life decision.",
+            "metaphor_mapping": {
+              "tenor_concept": "a course of action or destiny",
+              "transferred_attributes": [
+                "direction",
+                "destination",
+                "need to make a choice at a crossroads"
+              ],
+              "vehicle_concept": "a physical path"
+            },
+            "source_span_original": "पथ",
+            "source_span_translation": "path",
+            "source_term": "पथ",
+            "tenor": "A course of action, destiny, or moral choice.",
+            "vehicle": "A physical path or road to walk on.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a woman standing at a symbolic crossroads or looking out over a vast landscape where she must forge her own trail."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The feminine verb endings 'banogi' and 'chunogi' explicitly mark the subject's gender in Hindi, reinforcing that Draupadi herself must act. This grammatical gender marking is lost in the gender-neutral English verbs 'become' and 'choose'.",
+            "where": "L10-L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The necessity of self-defense and inner strength when external saviors and traditional moral structures fail."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सुनो द्रौपदी शस्त्र उठा लो,  \nअब गोविन्द ना आएंगे।  \nतुम्हारे इस चीरहरण पर,  \nकोई कृष्ण नहीं आएंगे।  \n\nये ध्वंस, धूल, ये रज कण,  \nबस केवल तुम्हारे ही साथी होंगे।  \nन्याय और धर्म की मर्यादा को,  \nतुम्हें स्वयं ही साकार करना होगा।  \n\nइस संग्राम के अंधकार में,  \nतुम्हीं अपनी ज्योति बनोगी।  \nअब शक्ति तुम्हारे ही हाथों में है,  \nतुम्हीं अपना पथ चुनोगी।",
+  "poem_id": "MV++_0350",
+  "poem_title": "Suno Draupadi Shastra Utha Lo",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c91ed419176fa49d472c5b0bbc2210f5271d1d1780190b041c3dc497dcafdf6f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0350.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Listen, Draupadi, take up arms,  \nFor Govind will not come.  \nIn this disrobing of yours,  \nNo Krishna will arrive.  \n\nThis ruin, this dust, this handful of soil,  \nWill be your only companions.  \nThe dignity of justice and dharma,  \nYou alone must embody.  \n\nIn the darkness of this battle,  \nYou shall become your own light.  \nThe power now rests in your hands,  \nYou alone will choose your path.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:15:41.474088+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ab7a59a3823a1e75c1222568deeed577a177ee00f981e038bcaada93747f16b",
+        "response_hash": "5a8057ed50e8944c9261bc9bf0c98b54a5890c72a1eb032ea9a18cc6946edfc8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "275109b92d6d5c3c8bdbc59adcf0b5434520a613971d5192eae7397f0dfd6d19",
+        "response_hash": "a2b908533ff0379847f46cc84b82df22d0db0c94f2cf175af800938e2f0edf1b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "70a629817ad04ac6be52d17151017a32acec4c81ee7d249ed5adb79e5b60f215",
+        "response_hash": "a4e909c970953fed511d1c7aa11b03b549d63715bdcd4a27be4d1f987653e32f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d099f9be6f053031fc1bcba45830460cb7d1e1aa5f91abdff2e6020ee5eb512",
+        "response_hash": "a9f50637b2c51052b5549bd8294e181bdee7ed4d6277a8695b950af4a73bfa85",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b3ec9ba97343ef283f9efa23af3de6bd7c8f86db4fa9675f65b21c2259b593f4",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5b0f78e006bdb57abfe579e21937e0db2b913ccf3f3bcb805a97cee5177eebaf",
+    "translation_sha256": "38c3db42f813a9dee5ff3c7b2f3f2de1077382e47f3ff562b03e1162c22199a3"
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contemplation of time's absolute power to acceptance of human helplessness in its flow",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of L2 ('tied to its strands') introduces a fiber/rope metaphor not present in the original 'bandhi' (captive/prisoner), and L4 ('sometimes we sway') alters the emotional contrast of 'rulaata hai' (makes us cry) to fit a rhyme scheme.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Time has absolute control and power over everything.",
+            "acceptable_visual_variants": [
+              "An hourglass with sand shifting to reshape a landscape",
+              "A clock face whose hands cast shadows that alter the seasons of the earth below"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "In the physical hands of Time",
+            "literalization_risk": "Depicting a giant literal humanoid figure with hands holding objects might look like a fantasy monster rather than representing the abstract concept of temporal control.",
+            "metaphor_mapping": {
+              "tenor_concept": "control and agency of time",
+              "transferred_attributes": [
+                "holding",
+                "controlling",
+                "possessing"
+              ],
+              "vehicle_concept": "human hands"
+            },
+            "source_span_original": "समय के हाथों में",
+            "source_span_translation": "within time's hands",
+            "source_term": "समय के हाथों में",
+            "tenor": "The abstract power and control of time",
+            "vehicle": "A person with hands holding or controlling things",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a symbolic representation of time, such as an hourglass or clock face, subtly blending into or shaping the environment, rather than a literal giant with physical hands."
+          },
+          {
+            "abstract_meaning": "Every person is bound, constrained, or captive to the passage of time.",
+            "acceptable_visual_variants": [
+              "Silhouettes of people walking inside a giant clockwork mechanism",
+              "People casting long shadows that are shaped like clock hands pulling them forward"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Is its prisoner / is bound by it",
+            "literalization_risk": "Showing people literally tied up in ropes or locked in prison cells would look like a crime scene or physical captivity rather than existential submission to time.",
+            "metaphor_mapping": {
+              "tenor_concept": "human subordination to time",
+              "transferred_attributes": [
+                "lack of freedom",
+                "forced compliance",
+                "confinement"
+              ],
+              "vehicle_concept": "captivity/imprisonment"
+            },
+            "source_span_original": "इसका बंधी है",
+            "source_span_translation": "tied to its strands",
+            "source_term": "इसका बंधी है",
+            "tenor": "Human helplessness and constraint under the passage of time",
+            "vehicle": "A prisoner bound by ropes or chains",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show people walking along a path defined by clock gears or shadows, suggesting their movements are governed by the mechanism of time without using literal chains."
+          },
+          {
+            "abstract_meaning": "Time progresses continuously.",
+            "acceptable_visual_variants": [
+              "A landscape transitioning from sunrise to sunset in a single continuous sweep",
+              "A shadow of a sundial gnomon sweeping across the ground"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "It walks",
+            "literalization_risk": "Showing a clock with legs walking down a street would look comical and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "temporal progression",
+              "transferred_attributes": [
+                "continuous forward movement",
+                "steady pace"
+              ],
+              "vehicle_concept": "walking"
+            },
+            "source_span_original": "वो चलता है",
+            "source_span_translation": "As it moves",
+            "source_term": "वो चलता है",
+            "tenor": "The continuous passage and progression of time",
+            "vehicle": "A walking person",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Represent the forward movement of time through the transition of day to night or the shifting of shadows across a landscape."
+          },
+          {
+            "abstract_meaning": "Time brings both joyful and sorrowful experiences to human lives.",
+            "acceptable_visual_variants": [
+              "A split canvas showing a bright, blooming spring garden on one side and a barren, snowy winter garden on the other",
+              "A theatrical mask of comedy and tragedy integrated into a clock face"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Sometimes makes [us] laugh, sometimes makes [us] cry.",
+            "literalization_risk": "Showing a personified figure tickling or making someone cry would look like physical bullying or comedy rather than the emotional spectrum of life.",
+            "metaphor_mapping": {
+              "tenor_concept": "the dual nature of life events over time",
+              "transferred_attributes": [
+                "causing joy",
+                "causing sorrow"
+              ],
+              "vehicle_concept": "an emotional instigator"
+            },
+            "source_span_original": "कभी हंसाता है, कभी रुलाता है।",
+            "source_span_translation": "Sometimes it makes us laugh, sometimes we sway.",
+            "source_term": "कभी हंसाता है, कभी रुलाता है।",
+            "tenor": "The unpredictable ups and downs of life over time",
+            "vehicle": "An active agent or companion who evokes emotions in others",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict split scenes showing the same setting or characters in moments of celebration (e.g., a birth or festival) and moments of quiet reflection or grief (e.g., autumn or an empty chair)."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the rhyme word 'strands' which is not present in the original Hindi text, altering the metaphor of being a captive or bound ('bandhi') to being tied to strands.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'rulaata hai' (makes us cry) as 'we sway' to force a rhyme with 'way', completely losing the emotional contrast between laughing ('hansaata') and crying ('rulaata').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of L8 adds 'weak or strong' to complete a rhyme, which is not present in the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Time will continuously and irreversibly pass.",
+            "acceptable_visual_variants": [
+              "A river of shimmering light carrying clock numbers downstream",
+              "An hourglass where the falling sand turns into a flowing stream at the bottom"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Will keep flowing",
+            "literalization_risk": "Showing water flowing without context might just look like a normal river, losing the connection to time.",
+            "metaphor_mapping": {
+              "tenor_concept": "passage of time",
+              "transferred_attributes": [
+                "continuous movement",
+                "unstoppability",
+                "one-way direction"
+              ],
+              "vehicle_concept": "flowing water"
+            },
+            "source_span_original": "बहता जायेगा",
+            "source_span_translation": "keep flowing by",
+            "source_term": "बहता जायेगा",
+            "tenor": "The continuous, unstoppable passage of time",
+            "vehicle": "A flowing liquid or river",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a river where the water is composed of clock parts, numbers, or shifting light, flowing past stationary objects."
+          },
+          {
+            "abstract_meaning": "The continuous, unidirectional progression of time that carries everything along with it.",
+            "acceptable_visual_variants": [
+              "People drifting gently on leaves down a river made of starlight and clock faces",
+              "Silhouettes of people carried along by a wind of autumn leaves marked with Roman numerals"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The stream/current of time",
+            "literalization_risk": "Showing people drowning or struggling in a literal body of water would look like a natural disaster rescue scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "temporal momentum",
+              "transferred_attributes": [
+                "carrying objects along",
+                "unidirectional force",
+                "continuous flow"
+              ],
+              "vehicle_concept": "river current"
+            },
+            "source_span_original": "समय की धारा",
+            "source_span_translation": "stream of time",
+            "source_term": "समय की धारा",
+            "tenor": "The unstoppable momentum of temporal progression",
+            "vehicle": "A river current",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict human figures floating peacefully or drifting within a cosmic, glowing river of stars or clock gears, emphasizing drifting rather than drowning."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'give it a try' and 'weak or strong' to satisfy the English rhyme scheme, which are not present in the original Hindi text.",
+            "where": "L5-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The inescapable, changing, and fluid nature of time which binds all human existence"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "समय के हाथों में क्या नहीं है,\nहर शख्स यहाँ इसका बंधी है।\nवो चलता है तो सब कुछ बदलता है,\nकभी हंसाता है, कभी रुलाता है।\n\nरोक सको तो रोक लो इसको,\nपर ये बहता जायेगा।\nसमय की धारा में हम सब,\nबस बहते ही जायेंगे।",
+  "poem_id": "MV++_0224",
+  "poem_title": "Samay",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a78d8adc9fda160f0e51752f383821b1275a8e010de2c4309093f32cbfcd5b24",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0224.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What is not within time's hands?\nEvery person here is tied to its strands.\nAs it moves, everything changes in its way,\nSometimes it makes us laugh, sometimes we sway.\n\nStop it if you can, give it a try,\nBut it will keep flowing by.\nIn the stream of time, we all drift along,\nFlowing ever onward, weak or strong.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:01:43.489812+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "67cd8fbef2fdd0c346fd897abf2542866d2cd305e3f7ca14a74f67ed0d260130",
+        "response_hash": "fba38c985c845e5624f8c4dd271669df9593a24fe5a10ccf0d768adc37611b0c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b8ed6c0131ba883ec267bbe90a2e40f774da5339ae9c850bd1f90aef2d28ec37",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "05ad9ab44b1d5ecf73c8f6688b177681002ec0239d573cc53ff1195b62b02983",
+        "response_hash": "6d57732fd25a7d804817226211f5d6d4e0e4930c2a8bd9fe7ff39f82facc9264",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5f91b131f4631242ff2ca6d6cff2370e60308e7ab29f47347481a9eba2133e87",
+        "response_hash": "a812a9c1e94e3b45b4b097663d05524a5e30621c445da8ff5aeb8fcba55c5069",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6d4b4449a29e2938f2615749271703a8ddee5d941cd42cc5533120f7c3cd3f4d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "09ce7bdf59df64dd10e132b76e1a90b1fbb30b4b0d479173cf7ceecf36fbc02e",
+    "translation_sha256": "f0b9127e623ddee65ba97588c1778b487ca3d69a11367cd628bda953d39979c4"
+  }
+}

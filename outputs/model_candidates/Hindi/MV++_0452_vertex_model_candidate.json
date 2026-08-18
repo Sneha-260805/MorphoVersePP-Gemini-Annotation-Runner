@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "acceptance of mortality and the cyclical nature of existence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'baraf mein pighalkar' (melting in ice/snow) as 'Melted in the fall' to create a rhyme with 'call', which shifts the literal imagery of cold/ice to an autumn or downward metaphor.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The ultimate, transient, and humble state to which all material things and human lives eventually return.",
+            "acceptable_visual_variants": [
+              "A close-up of hands letting fine, dry earth or ash slip through the fingers.",
+              "A desolate path fading into a misty, dust-filled horizon."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "Greyish-brown ash and dust",
+            "literalization_risk": "An illustrator might draw a literal pile of dirt or a dusty room, missing the philosophical weight of mortality and impermanence.",
+            "metaphor_mapping": {
+              "tenor_concept": "transience and mortality",
+              "transferred_attributes": [
+                "powdery texture",
+                "remnant of destruction",
+                "ubiquity",
+                "lack of value"
+              ],
+              "vehicle_concept": "ash and dust"
+            },
+            "source_span_original": "भूरी-भूरी खाक धूल",
+            "source_span_translation": "Ashes and dust",
+            "source_term": "भूरी-भूरी खाक धूल",
+            "tenor": "The transient nature of life and material existence",
+            "vehicle": "Ash and dust",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, quiet landscape where objects or figures gently dissolve into fine, swirling grey-brown dust under a soft light."
+          },
+          {
+            "abstract_meaning": "The progression of human life experienced as a journey with various trials and phases.",
+            "acceptable_visual_variants": [
+              "A solitary figure walking along a ridge that transitions from warm, sunlit earth to cold, snowy ground.",
+              "A symbolic path made of light winding through a changing abstract background."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The journey of life",
+            "literalization_risk": "Showing a literal traveler with a suitcase on a paved road might look like a mundane vacation or commute rather than the existential passage of time.",
+            "metaphor_mapping": {
+              "tenor_concept": "living through time",
+              "transferred_attributes": [
+                "movement forward",
+                "facing obstacles",
+                "having a destination or end"
+              ],
+              "vehicle_concept": "traveling a path"
+            },
+            "source_span_original": "जिंदगी का सफर",
+            "source_span_translation": "journey of life’s call",
+            "source_term": "जिंदगी का सफर",
+            "tenor": "The passage of time and experiences in a person's life",
+            "vehicle": "A journey or travel",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a winding, endless path traversing contrasting landscapes of harsh sun and cold snow, symbolizing life's changing phases."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific color descriptor 'bhoori-bhoori' (brownish/greyish) is omitted, flattening the visual texture of the dust to generic 'Ashes and dust'.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The literal contrast of 'barf' (ice/snow) is translated as 'the fall' to force an English rhyme with 'call', completely losing the elemental imagery of freezing/melting in snow.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The repetition of the rhythmic, reduplicated adjective 'bhoori-bhoori' which establishes the poem's meditative cadence is lost in the translation.",
+            "where": "L1-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The impermanence and ultimate reduction of all life to dust, contrasted with its enduring essence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "भूरी-भूरी खाक धूल,  \nयहाँ हर चीज़ की सूरत है।  \nधूप में तपकर,  \nबर्फ में पिघलकर,  \nजिंदगी का सफर यही है।  \nसब कुछ मिटता है,  \nफिर भी सब कुछ रहता है,  \nभूरी-भूरी खाक धूल,  \nयहाँ हर चीज़ की सूरत है।",
+  "poem_id": "MV++_0452",
+  "poem_title": "Bhoori Bhoori Khak Dhool",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6bfdeb8348be291ff70a404f82f6af0f57a72e309bf4b2b26431045c9dda320c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0452.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Ashes and dust,  \nHere lies the face of all.  \nBaked in the sun,  \nMelted in the fall,  \nThis is the journey of life’s call.  \nEverything fades away,  \nYet everything stays,  \nAshes and dust,  \nHere lies the face of all.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:25:52.948862+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5eda0180eb258c87ef4e882ee1e012964739e12ba5c656dd8997877a82dd088c",
+        "response_hash": "cd4a79b39f2d98218f9d1a3b30aaacfe45a310892c1d7e6e5f319e74b4140ef5"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "03fcf547f085dcab6f47a795867963fe1c672d8d2655de13847c5867d09804bd",
+        "response_hash": "9bfd34e6159d5350ec40ab7328e56c91fa7526aec4cd61017cf576b3c80fc330",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f476ba38053510ee7d63108896e9bb859ac7655929196e33be4aec7a84e2c56d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2393ed3c1bae0e65328372c0a633fc4760df5e59f6f2606aa996f4ce12f848ff",
+        "response_hash": "f69dddf0b23cfc9ba4b5e67cb4258da4a3e086ce5644e2b0c9c3cf865e28a2f7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e878088846d47dd1f3d9e89d3f134baa5158a280d876df5b9a0fe8265fa95032",
+        "response_hash": "8235c68ab969e00be3f27fe9185782d6f83f4cf3b2d6cf81840b47257af7ab5e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fbf84a85324e2bb0b2457a94d56aab3999a371bb2032beed16e129c15964ffa1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5ea0bb90c6464320751f179fe409dee9f7392e9bb3cf63bf5bbe257e6e59a5d7",
+    "translation_sha256": "b77c00523c47167f55b8b860615fb57cb990d53b0df507003778db4f773f4414"
+  }
+}

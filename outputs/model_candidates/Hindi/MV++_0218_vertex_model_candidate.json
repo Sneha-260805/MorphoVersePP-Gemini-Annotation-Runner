@@ -1,0 +1,299 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A transition from contemplative questioning of mundane existence to a deeper, wonder-filled awareness of life's hidden depths and mysteries.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The alternating phases of joy and sorrow, or success and failure, that occur naturally in human life.",
+            "acceptable_visual_variants": [
+              "A path winding through a forest where sunlight filters through leaves, creating a patchwork of bright and dark spots.",
+              "An abstract composition showing a human silhouette transitioning from a bright, warm golden zone into a cool, dark blue shadow zone."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The game of sunlight and shade",
+            "literalization_risk": "An illustrator might literally depict children playing a game in patches of sunlight and shade, missing the existential reflection on life's dualities.",
+            "metaphor_mapping": {
+              "tenor_concept": "alternating emotional or existential states",
+              "transferred_attributes": [
+                "inevitable alternation",
+                "lack of permanence",
+                "playful or natural cycle"
+              ],
+              "vehicle_concept": "shifting light and shadow"
+            },
+            "source_span_original": "धूप छाँव के खेल",
+            "source_span_translation": "games of sun and shadow",
+            "source_term": "धूप छाँव के खेल",
+            "tenor": "The predictable, alternating dualities of life (joy and sorrow, ups and downs)",
+            "vehicle": "A game of shifting sunlight and shadow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a landscape or path partially illuminated by bright sunlight and partially covered by dark cloud shadows, with a solitary figure walking through both zones to represent navigating life's phases."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic and phonetic resonance of the Hindi phrase 'dhoop chhaon' (literally 'sunlight and shade'), which carries a deeply idiomatic cultural sense of life's alternating ups and downs, is flattened into the literal 'sun and shadow'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vast, profound, and often hidden depths of human consciousness, emotion, or existential mystery.",
+            "acceptable_visual_variants": [
+              "A deep blue, vast expanse of water with light fading as it goes deeper.",
+              "A stylized, minimalist ocean horizon where the water merges with a dark, deep sky."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L6",
+            "literal_meaning": "A deep sea or ocean",
+            "literalization_risk": "A literal depiction of a standard marine ocean with fish might look like a nature documentary scene rather than a representation of existential depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "unfathomable depth of life's experiences",
+              "transferred_attributes": [
+                "vastness",
+                "hidden depths",
+                "mystery",
+                "immensity"
+              ],
+              "vehicle_concept": "deep ocean"
+            },
+            "source_span_original": "गहरा सागर",
+            "source_span_translation": "deep ocean",
+            "source_term": "गहरा सागर",
+            "tenor": "The profound, unexplored depths of life and human experience",
+            "vehicle": "A deep ocean",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a vast, dark, and calm body of water stretching to the horizon under a starry sky, emphasizing its immense depth and quiet mystery."
+          },
+          {
+            "abstract_meaning": "The unexpected, dangerous, or chaotic crises and emotional whirlpools that one can get pulled into during life.",
+            "acceptable_visual_variants": [
+              "A spiral pattern in dark water with foam highlighting the circular motion.",
+              "An abstract representation of swirling currents pulling downward into darkness."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "An unknown whirlpool or vortex in water",
+            "literalization_risk": "A literal rendering might look like a generic water hazard or a drain, losing the sense of existential threat and unpredictability.",
+            "metaphor_mapping": {
+              "tenor_concept": "unforeseen life crises or emotional turmoil",
+              "transferred_attributes": [
+                "pulling force",
+                "danger",
+                "unpredictability",
+                "disorientation"
+              ],
+              "vehicle_concept": "whirlpool"
+            },
+            "source_span_original": "अनजाना भँवर",
+            "source_span_translation": "unknown whirlpool",
+            "source_term": "अनजाना भँवर",
+            "tenor": "Unforeseen dangers, chaotic struggles, or psychological traps in life",
+            "vehicle": "An unknown whirlpool",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a swirling vortex in dark water, viewed from a slightly elevated angle to emphasize its pulling force and mysterious, dark center."
+          },
+          {
+            "abstract_meaning": "The fading of hope, the approach of old age, or the quiet, melancholy periods of decline in life.",
+            "acceptable_visual_variants": [
+              "A landscape fading into deep twilight with a single dim light source.",
+              "A silhouette of a tree against a dark purple and deep blue sky just after sunset."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "A dusk that is sinking or drowning",
+            "literalization_risk": "An illustrator might depict a sun literally drowning in water like a physical ball, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "declining or fading phase of life",
+              "transferred_attributes": [
+                "fading light",
+                "quietness",
+                "inevitable transition to darkness",
+                "melancholy"
+              ],
+              "vehicle_concept": "sinking dusk"
+            },
+            "source_span_original": "डूबती साँझ",
+            "source_span_translation": "sinking dusk",
+            "source_term": "डूबती साँझ",
+            "tenor": "The fading, quiet, or declining phases of life and consciousness",
+            "vehicle": "A sinking dusk",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a sunset over a quiet horizon where the last deep orange and purple light is being swallowed by dark night clouds."
+          },
+          {
+            "abstract_meaning": "The coexistence of external movement or expression with deep, silent internal contemplation or unexpressed grief.",
+            "acceptable_visual_variants": [
+              "A long-exposure photograph style illustration of water where the waves look like smooth, misty ribbons.",
+              "A calm, dark shoreline where gentle ripples touch the sand without creating foam or spray."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "Waves that move in silence",
+            "literalization_risk": "Waves are naturally noisy; depicting them visually cannot convey 'silence' without careful artistic choices, risking a generic beach scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "quiet but persistent internal emotions",
+              "transferred_attributes": [
+                "continuous motion",
+                "absence of sound",
+                "depth",
+                "undercurrents"
+              ],
+              "vehicle_concept": "silent waves"
+            },
+            "source_span_original": "चुप्पी के साथ लहरें",
+            "source_span_translation": "waves with silence",
+            "source_term": "चुप्पी के साथ लहरें",
+            "tenor": "The quiet, unexpressed, yet continuous movements of emotion or thought within a person",
+            "vehicle": "Silent waves",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict smooth, rolling waves on a dark, glassy sea under a calm sky, using a cool color palette (blues and grays) to evoke a serene, soundless atmosphere."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'chuppi ke saath' as 'with silence' loses the delicate poetic texture of 'chuppi' (which denotes a heavy, active, or deliberate quietness/hush rather than just the abstract state of silence).",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mundane, repetitive daily routine of waking and sleeping that lacks deeper purpose or spiritual fulfillment.",
+            "acceptable_visual_variants": [
+              "A figure walking on a circular track that transitions from morning light to evening shadow.",
+              "An abstract representation of a pendulum swinging between a bright morning horizon and a dark evening horizon."
+            ],
+            "expression_type": "metonymy",
+            "line_ref": "L11",
+            "literal_meaning": "Morning and evening",
+            "literalization_risk": "Depicting a simple clock or a split sun/moon graphic might look like a generic icon rather than a representation of monotonous routine.",
+            "metaphor_mapping": {
+              "tenor_concept": "monotonous daily routine",
+              "transferred_attributes": [
+                "repetition",
+                "predictability",
+                "passage of time without deeper meaning"
+              ],
+              "vehicle_concept": "morning and evening"
+            },
+            "source_span_original": "सुबह और शाम",
+            "source_span_translation": "morning and evening",
+            "source_term": "सुबह और शाम",
+            "tenor": "The mundane, repetitive passage of time and routine existence",
+            "vehicle": "The daily cycle of morning and evening",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split scene showing a repetitive daily action (like walking to work) under a morning sky on one side and an evening sky on the other, emphasizing the loop."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Life contains profound, hidden dimensions and mysteries that transcend the mundane routines of survival, time, and dualities."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कुछ और भी है इस जीवन में,\nसिर्फ जीने मरने के सिवा,\nसिर्फ धूप छाँव के खेल के सिवा,\nकुछ और भी है इस जीवन में।\n\nयह जीवन, कुछ और भी है।\nकहीं एक गहरा सागर है,\nकहीं एक अनजाना भँवर है,\nकहीं एक डूबती साँझ है,\nकहीं एक चुप्पी के साथ लहरें हैं।\n\nकुछ और भी है इस जीवन में,\nसिर्फ सुबह और शाम के सिवा।",
+  "poem_id": "MV++_0218",
+  "poem_title": "Kuchh Aur",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c3cbe0f3e4859e2c8fec4a12a1fe6c84987c19edbbbb26511f9d0c9809c4f1f4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0218.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "There is something else in this life,\nBeyond just living and dying,\nBeyond the games of sun and shadow,\nThere is something more in this life.\n\nThis life, there is something else.\nSomewhere, there is a deep ocean,\nSomewhere, an unknown whirlpool,\nSomewhere, a sinking dusk,\nSomewhere, waves with silence.\n\nThere is something else in this life,\nBeyond just morning and evening.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:01:02.108241+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8f181519f05c86e94ed18cdb1d962f08b4420f2a4e99462ec421ffce81620249",
+        "response_hash": "ca07c4e03ba824a84ed52494a83774ede0dff8de11305ddf3e7d5468510e6173",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "769df940d22e60a758b127278c681a5df4b47278841f87e52a3a1c2a05089f92",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "24d21a53b122967a0396070c246be3c570262302f11e1a99bacb47985ad81546",
+        "response_hash": "6b6d62c292e33a2bbac7d4ddbb7a8a28a613a8cb3f2ac711c3eaedb18b42bf66",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7600d1c74d5713f062d9c58ec7566875799c19a6efd2105a604115aa051c130a",
+        "response_hash": "417e5ba79a3ee7bc626371d40abecc3b0b7fc3df9fa3d529d247fffe68da3d98",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c4c4dcb820f8772352b5cafc92b61d2e31d1e0b8a3d679ef68ba4d83a48fa8cd",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e086b1f6aa5ff40ecdab3d36b4b195293a70a6262d6dc6cc876b0e5d9ecba4e2",
+    "translation_sha256": "8f61d14511315457d7df71c9eec06b6a21b78336eeca9a51397cf47654e1bf07"
+  }
+}

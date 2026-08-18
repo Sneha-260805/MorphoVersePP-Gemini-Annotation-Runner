@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "reflective questioning to resilient unity",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The nurturing, life-giving force of human aspirations and hopes that helps build a nation.",
+            "acceptable_visual_variants": [
+              "A glowing stream of water irrigating a field under a dawn sky",
+              "Hands cupping glowing, sparkling water that is poured onto dry earth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The water belonging to dreams / liquid of dreams",
+            "literalization_risk": "Showing literal water flowing out of a sleeping person's head or literal clouds of dreams raining down water, which looks surreal or comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "nourishing",
+                "essential for growth",
+                "life-giving"
+              ],
+              "vehicle_concept": "water"
+            },
+            "source_span_original": "सपनों का पानी",
+            "source_span_translation": "The water of dreams",
+            "source_term": "सपनों का पानी",
+            "tenor": "dreams (aspirations/hopes)",
+            "vehicle": "water (nourishing liquid)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a shimmering, translucent stream of water nourishing parched soil, with subtle glowing elements representing hope or human aspirations."
+          },
+          {
+            "abstract_meaning": "Precious, refined, and valuable lives shaped through hard work and struggle.",
+            "acceptable_visual_variants": [
+              "People working the earth with a warm golden light reflecting off their faces and hands",
+              "A blacksmith refining metal with the sparks casting a warm golden glow on the surrounding community"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L6",
+            "literal_meaning": "Lives that are like gold",
+            "literalization_risk": "Depicting people literally made of solid gold metal, which looks like statues or robotic figures rather than living human beings.",
+            "metaphor_mapping": {
+              "tenor_concept": "human lives",
+              "transferred_attributes": [
+                "preciousness",
+                "purity",
+                "refined through heat/struggle"
+              ],
+              "vehicle_concept": "gold"
+            },
+            "source_span_original": "सोने जैसी जिंदगियाँ",
+            "source_span_translation": "Lives like gold",
+            "source_term": "सोने जैसी जिंदगियाँ",
+            "tenor": "human lives shaped by struggle",
+            "vehicle": "gold (precious, refined metal)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict hardworking people (such as farmers or builders working with soil) surrounded by a warm, golden, radiant aura or light that highlights their dignity."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मिट्टी में मिलकर' (mitthi mein milkar) as 'made from the earth' loses the literal and metaphorical nuance of 'blending/dissolving into the soil', which evokes sacrifice, hard physical labor, and deep integration with the land.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'सपनों का पानी मिलता है' (sapnon ka paani milta hai) as 'The water of dreams is found' loses the active, nurturing sense of 'milta hai' (which can mean to receive, to blend, or to be watered/nourished by), flattening the poetic image of dreams acting as life-giving water.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The creation of a nation through collective struggle, shared dreams, and a unifying inner voice."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a detailed loss_note is expected or the quality should be marked as 'partial' to reflect the documented losses in L5 and L6.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "देश कैसे बनता है?  \nकितनी कठिनाइयाँ सहनी होती हैं,  \nकितने संघर्षों से गुजरना पड़ता है,  \nतब जाकर कहीं एक देश बनता है।  \nसपनों का पानी मिलता है,  \nमिट्टी में मिलकर सोने जैसी जिंदगियाँ बनती हैं,  \nसुनिए, वही है वह आवाज़ जो हर दिल में गूंजती है,  \nजो हर देश को एक बनाती है।",
+  "poem_id": "MV++_0500",
+  "poem_title": "Desh Kaise Banta Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7b1e78164f08c54e392e8efcf978a4f55f4e5f1841bae34e8f386268d2f04c0e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0500.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "How is a country made?  \nHow many hardships must be borne,  \nHow many struggles must be faced,  \nOnly then does a country come into being.  \nThe water of dreams is found,  \nLives like gold are made from the earth,  \nListen, it is the voice that echoes in every heart,  \nThe one that unites every country.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:31:38.056231+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a8c1029fa80547790867d9b65bde345c8c79a31df7df84267b2cc6cda4f08ba9",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "125d68edf4c59e833d5ab6901d0af1700f62a2ffc235bdf04ae9d108c8f02d57",
+        "response_hash": "5d4060b16eec8a9a5bcb292f5ac177b1f9b58353588c4dd3ea998bb0bfce87cb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "931055e6ed98721e03f7c3c01174d074544f59d6dc425ac8095bc53098758c87",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "831d4e690a23fc6a4a4f7e796445604174ff0ea54815c47eb2ce9f8a73ed46ea",
+        "response_hash": "cb650f1bd95eef9ad2ac07ec8a57b774e701f26541954f39446999c7d9d9d9db",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "18e2342b4bfce2f01b5dd01451797cd86f89884e0b1f8be0433198c93bddb75c",
+        "response_hash": "22acc3517c7902ef872a4ebc327ec101b9a21f560f9166408903a8a21335369e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7cb263086a4a09f8da8057435aa4ed91da9887a25d28359bfeec898d2301fa99",
+        "response_hash": "e4bf8accbad48d83ab02ea1972da137d651b0ee617dc618e9d27730c27dd68ec",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "60f4a4676b7d35980acdc5b9c106c76446eda586eae15d522ef5fbf3798099d8",
+    "translation_sha256": "4d9b7b23bbcb2e97b1a45a213a8f8452f041776cdf8181e95bdc6cc4e5fc12d1"
+  }
+}

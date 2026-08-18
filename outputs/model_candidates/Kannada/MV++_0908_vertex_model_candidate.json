@@ -1,0 +1,197 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Lover of sound or music, a classical epithet of Shiva used in Kannada devotional poetry (Vachana literature) to address the divine as one who delights in sacred sound.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Nadapriya",
+        "source_span_original": "ನಾದಪ್ರಿಯ",
+        "source_span_translation": "O lover of sound",
+        "stanza_index": 1,
+        "term": "ನಾದಪ್ರಿಯ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A symbolic representation of the confluence of two rivers with a sacred shrine or linga",
+          "An abstract divine presence overlooking flowing waters"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Lord of the Meeting Rivers, the specific signature name (ankita nama) used by the 12th-century Kannada social reformer and saint Basavanna to address Shiva, referring to the holy confluence of rivers at Kudalasangama.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A generic multi-armed deity disconnected from the river confluence imagery",
+          "A generic North Indian temple setting"
+        ],
+        "preserved": true,
+        "romanization": "Kudalasangama Deva",
+        "source_span_original": "ಕೂಡಲಸಂಗಮ ದೇವಾ",
+        "source_span_translation": "O Lord of the Meeting Rivers",
+        "stanza_index": 1,
+        "term": "ಕೂಡಲಸಂಗಮ ದೇವಾ",
+        "translation_note": "Translated literally as 'Lord of the Meeting Rivers', which is the standard English translation of this specific signature (ankita nama) of the 12th-century saint Basavanna.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A representation of Shiva as a deity associated with a river confluence",
+          "A sacred linga at the confluence of rivers"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A movement from existential questioning of self-worth and movement without the divine to a deep, surrendered declaration of faith.",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation loses the specific rhythmic cadence and the deep historical resonance of the Vachana style, particularly the compound 'Kudalasangama Deva' which carries profound regional and spiritual weight.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A person who is completely insignificant, out of place, or lacks a natural, harmonious purpose in the vast divine presence.",
+            "acceptable_visual_variants": [
+              "A soft cloud reflected on a vast, calm blue lake",
+              "A misty cloud hovering just above a deep blue sea"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "one who is not a cloud in the blue water",
+            "literalization_risk": "An illustrator might draw a literal cloud floating inside a body of water, which looks like a surreal physical anomaly rather than a poetic expression of belonging.",
+            "metaphor_mapping": {
+              "tenor_concept": "a soul in the divine presence",
+              "transferred_attributes": [
+                "belonging",
+                "natural presence",
+                "harmonious existence"
+              ],
+              "vehicle_concept": "a cloud in blue water"
+            },
+            "source_span_original": "ನೀಲಿ ನೀರಲಿ ಮೊಡವಲ್ಲದವನು",
+            "source_span_translation": "no cloud in the blue water",
+            "source_term": "ನೀಲಿ ನೀರಲಿ ಮೊಡವಲ್ಲದವನು",
+            "tenor": "a human being's existence or soul in relation to the divine",
+            "vehicle": "a cloud in blue water (or a cloud reflected in/interacting with a blue body of water)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, white cloud reflected beautifully on the calm surface of deep blue water, blending the sky and water elements to show harmonious integration."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ನಿನ್ನ ಉಪ್ಪರಿ' (ninna uppari) as 'without you' misses the literal meaning of 'uppari' (which refers to an upper story, terrace, or high place), flattening a spatial/architectural metaphor of elevation into a simple prepositional phrase.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The compound 'ನೀರದನಿವನು' (neeradanivanu) is translated as 'he who is not in you', which misses the literal water-related imagery ('neeru' meaning water) and the complex wordplay on presence, absence, and fluid identity.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ಕೂಡಲಸಂಗಮ ದೇವಾ' (Kudalasangama Deva) as 'O Lord of the Meeting Rivers' captures the literal meaning but loses the profound historical, literary, and spiritual resonance of this specific signature phrase (ankita nama) associated with the 12th-century Kannada social reformer and poet Basavanna.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The absolute dependence of the individual soul on the divine, expressed through the traditional Vachana framework of surrender to Kudalasangama Deva."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ನಾದಪ್ರಿಯ, ನಿನ್ನ ಉಪ್ಪರಿ ನನ್ನ ಚಲನೆಯೇನು?  \nನಿನ್ನಲ್ಲದ ನೀರಿದನಿವನು ಏನು?  \nನೀಲಿ ನೀರಲಿ ಮೊಡವಲ್ಲದವನು ಏನು?  \nನಮ್ಮ ನಂಬಿದರೆ ಎಷ್ಟು?  \nನಮ್ಮ ನಂಬದೆ ಬಾಳಿದರೆ ಎಷ್ಟು?  \nಕೂಡಲಸಂಗಮ ದೇವಾ, ನಿನ್ನ ಉಪ್ಪರಿ ನನ್ನ ನಂಬಿಕೆಯೇನು?",
+  "poem_id": "MV++_0908",
+  "poem_title": "Nadapriya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ff85cccff2a1c64a20b7dfec2a7478e61815dba31594f248e07a952736f5b076",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0908.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "O lover of sound, what is my movement without you?  \nWhat is he who is not in you?  \nWhat is he, who is no cloud in the blue water?  \nHow much if I trust in you?  \nHow much if I live without trust in you?  \nO Lord of the Meeting Rivers, what is my faith without you?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:29:29.741908+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d808408d63ab72dc2bde43db1f0621bbbb7f44e914c688f77917810886fb98a9",
+        "response_hash": "179ca700541df2d896342c60417add9c204587c703fe4c3472a4d71b2710f6f3"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ac039887ee281a4530e3fbbe073c6a68f84f98337ab4a5d298fd9af14667b42d",
+        "response_hash": "bff8ce860d8297822fdd31e34f0cb3dc37f45a3b526ddf2cbd8aeef7409a4757",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4567d652b8914a3c06d202499c2b27d14e45f1c7d8fe1a29e23b0d0ca0ce0527",
+        "response_hash": "bbcbecfe1bd6dde2ce1a15e331ab638abed6aff89ef06843b382ea094a3102f3",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0ee27e8f44e4a05ab30ae50c2ca11ba7b81a962032eaad99c45abbed3ce7a2ff",
+        "response_hash": "a0cd07ae86425c76eb80af310d92cd411af92fb27bba25830cebba5d63bbed90",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e47d0fa6f6b78afc92eb606acd78622f010c771c08a9d307af51919bb6acd7ff",
+        "response_hash": "ff46eaf47d40724cf817a6e048b4bf891b773479ce04cb746257302b9a06a0e0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "82a36d9b1e346093ad207cfabab83cf45f0c10a94970c58ed4fab04a0ea732d3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ee22a87c851cc3a5fe0e4e5e33db171980629629d1ff5ef0bd3ab79715f6d55a",
+    "translation_sha256": "c886be5032f419ac694bbb0f2654385fe2f7841057a9b1299d4995a7a7155a59"
+  }
+}

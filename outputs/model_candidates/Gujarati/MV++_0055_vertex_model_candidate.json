@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady state of joy, enthusiasm, and appreciation for the diverse colors and experiences of life.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic flow and internal rhyme of the Gujarati text (such as 'sang' and 'rang', 'umang' and 'rang') are naturally lost in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The diverse experiences, emotions, and phases of human existence.",
+            "acceptable_visual_variants": [
+              "A collage of small scenes showing different life milestones in varied lighting and tones",
+              "A single path winding through changing seasonal landscapes with distinct color shifts"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Every single color of life",
+            "literalization_risk": "Depicting literal paint splatters or rainbow stripes on a person, which misses the emotional depth of life's phases.",
+            "metaphor_mapping": {
+              "tenor_concept": "life experiences",
+              "transferred_attributes": [
+                "diversity",
+                "vibrancy",
+                "variety"
+              ],
+              "vehicle_concept": "colors"
+            },
+            "source_span_original": "जीवन ना हर एक रंग",
+            "source_span_translation": "Every color of life",
+            "source_term": "जीवन ना हर एक रंग",
+            "tenor": "the diverse experiences and emotions of life",
+            "vehicle": "colors (chromatic hues)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a single person transitioning through or surrounded by scenes of different emotional states and activities (e.g., joy, quiet contemplation, active work) rendered in distinct, evocative color palettes."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Sanskritized term 'pranad' (प्राणाद), which literally means 'giver of life' or 'life-force', is translated simply as 'life' (My Life), losing its deeper spiritual and vitalistic nuance.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and rhyming structure of the Gujarati original (such as the end rhyme of 'che' and 'umang' / 'rang') is lost in the literal English translation.",
+            "where": "L2-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Embracing the fullness of life with hope, dreams, and inner enthusiasm."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Gujarati",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मारा प्राणाद\nमारा प्राणाद, सदा संग छे,\nजीवन ना हर एक रंग छे।\nआँखो मा सपना, दिल मा उमंग,\nजीवन ना हर एक रंग छे।",
+  "poem_id": "MV++_0055",
+  "poem_title": "Mara Pranad",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d37eaea62d0d8364387a5fbcc03b0a105288b21e4b885a1cbc6efd1665cc8941",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Gujarati/MV++_0055.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My Life\nMy life, always with me,\nEvery color of life.\nIn my eyes, dreams, in my heart, enthusiasm,\nEvery color of life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:41:57.556274+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d34c64befed05456150b59a3af8d1318a80cb4a59d0e1b9357a9fa9b19f2034a",
+        "response_hash": "4c0c4e3849d0590d2cea189c932c4157ccb29defc184e45fdcffbf5d80e7d401"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0a7821a0d95ef8f751cdacac65ce0f97cadd3ad53f69174c88856488236b06cc",
+        "response_hash": "37b13c4701845967e9c8f8e4fb894d09891a933647e79394bbbba2cc9723a52f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "43eecb8c95611d443bfff80cd93aae726f5763afdcc96e8986d7366a95d0b00e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d892c2daffdb1536148fa246f2f21162fc42ea65c0b487f966cb3a6b9f852f63",
+        "response_hash": "5380b479ed12efd652da80a2febcb5170b3ef694d49472d2e5dc56e38fb7fa93",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0db4f726c82f44987d86d03af68ad188874f19cb9268412cc89905b8ba4e3f15",
+        "response_hash": "716f10f74610838efd26bad955ea0f2082bbbef3157923bc80f31708d40142c9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6e1485ba8fe5f8bd033a47eaa0eb92f1f8aae22709bc2b9cbab47b448aa1fd60",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3121a94d032e3e993179deb892599b6774904f0ac19bd36a1db4ad2991073348",
+    "translation_sha256": "0ebd59f24c4df0af7d2b27255eed535dace1a4b968bfbb807b0b761bb101bae2"
+  }
+}

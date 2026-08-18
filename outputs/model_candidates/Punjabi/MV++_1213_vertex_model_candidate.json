@@ -1,0 +1,324 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "defiance and self-reliance maintained consistently throughout",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ਵਿਦਿਆ' (vidya) as 'knowledge' flattens its specific cultural connotation of formal, structured education or academic learning, and 'ਸਬਕ' (sabak) specifically refers to a lesson or lecture, which carries a more authoritative, instructional tone than the general English 'teach me knowledge'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The imperative 'ਤੂੰ ਚੁੱਪ ਰਿਹਾ ਕਰ' carries a habitual or continuous aspect ('keep remaining silent' or 'stay quiet as a rule') which is simplified to the simple imperative 'Just remain silent' in English.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Guidance, instruction, or moral direction imposed by another person.",
+            "acceptable_visual_variants": [
+              "A figure walking away from a structured, paved road into an open, uncarved field.",
+              "A compass with fading or spinning needles, indicating self-direction."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The physical direction or path for walking.",
+            "literalization_risk": "Showing a literal road sign or a person pointing down a physical dirt path, which misses the abstract rejection of intellectual/moral authority.",
+            "metaphor_mapping": {
+              "tenor_concept": "intellectual or life direction",
+              "transferred_attributes": [
+                "guidance",
+                "pathway",
+                "destination"
+              ],
+              "vehicle_concept": "physical walking direction"
+            },
+            "source_span_original": "ਤੁਰਨ ਦੀ ਦਿਸ਼ਾ",
+            "source_span_translation": "the way to walk",
+            "source_term": "ਤੁਰਨ ਦੀ ਦਿਸ਼ਾ",
+            "tenor": "Life choices, moral guidance, or intellectual direction.",
+            "vehicle": "A physical path or direction for walking.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split path or open horizon with a figure standing independently, ignoring a pointing hand or signpost."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The continuous aspect of the imperative 'ਤੂੰ ਚੁੱਪ ਰਿਹਾ ਕਰ' is simplified to a simple command 'Just remain silent'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's self-determined life choices, beliefs, and personal journey.",
+            "acceptable_visual_variants": [
+              "A single set of footprints winding through sand or snow.",
+              "A person walking through a dense forest, parting branches to make their own way."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Physical roads or pathways belonging to oneself.",
+            "literalization_risk": "Depicting literal paved roads or highways, which reduces the personal, existential journey to physical travel.",
+            "metaphor_mapping": {
+              "tenor_concept": "life choices and destiny",
+              "transferred_attributes": [
+                "direction",
+                "destination",
+                "journey"
+              ],
+              "vehicle_concept": "physical roads"
+            },
+            "source_span_original": "ਆਪਣੇ ਰਾਹਾਂ ਨੂੰ",
+            "source_span_translation": "my own paths",
+            "source_term": "ਆਪਣੇ ਰਾਹਾਂ ਨੂੰ",
+            "tenor": "Personal life choices, destiny, and intellectual journeys.",
+            "vehicle": "Physical roads or pathways.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show faint, organic trails or footprints being newly made in a natural landscape by a single traveler."
+          },
+          {
+            "abstract_meaning": "The speaker's self-expression, poetry, or spoken truths will lead them to their ultimate goals or destiny.",
+            "acceptable_visual_variants": [
+              "A figure speaking on a hilltop, with the horizon ahead glowing where their voice travels.",
+              "An open book or scroll from which a path of light emerges, leading to a distant city."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "Spoken words physically searching for and finding geographic destinations.",
+            "literalization_risk": "Depicting literal words or letters floating in the air like physical entities with eyes, looking at a map.",
+            "metaphor_mapping": {
+              "tenor_concept": "spoken words achieving life goals",
+              "transferred_attributes": [
+                "agency",
+                "seeking",
+                "finding"
+              ],
+              "vehicle_concept": "an explorer searching for a destination"
+            },
+            "source_span_original": "ਮੇਰੇ ਬੋਲੇ ਖੋਜ ਲੈਣਗੇ ਮੇਰਾ ਮੰਜ਼ਿਲਾਂ ਨੂੰ",
+            "source_span_translation": "My words will discover my destinations",
+            "source_term": "ਮੇਰੇ ਬੋਲੇ ਖੋਜ ਲੈਣਗੇ ਮੇਰਾ ਮੰਜ਼ਿਲਾਂ ਨੂੰ",
+            "tenor": "The power of the speaker's voice and self-expression to achieve their life goals.",
+            "vehicle": "An active searcher or explorer finding a physical destination.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person speaking, with the sound waves or light from their voice illuminating a distant, beautiful horizon or peak."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender agreement and plural markers in 'ਆਪਣੇ ਰਾਹਾਂ ਨੂੰ' (to my own paths) and 'ਮੇਰਾ ਮੰਜ਼ਿਲਾਂ ਨੂੰ' (to my destinations) are lost in the English prepositional structure. Additionally, 'ਬੋਲ' (words/utterances) is translated as 'words', losing the oral, spoken resonance of 'ਬੋਲੇ' (my spoken utterances/voices).",
+            "where": "L5-L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific nuances of 'ਵਿਦਿਆ' (formal education/learning) and 'ਸਬਕ' (lessons) are lost in the translation 'teach me knowledge', and the habitual imperative aspect of 'ਰਿਹਾ ਕਰ' is simplified.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 5,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Ignorance, despair, or the negative, restrictive worldview imposed by the authority figure.",
+            "acceptable_visual_variants": [
+              "A dark, thick fog rolling in over a path.",
+              "A silhouette of a figure standing in a deep, dark valley looking up."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L9",
+            "literal_meaning": "The physical absence of light.",
+            "literalization_risk": "Depicting a simple night scene or a dark room, which misses the psychological and intellectual weight of imposed ignorance.",
+            "metaphor_mapping": {
+              "tenor_concept": "ignorance or restriction",
+              "transferred_attributes": [
+                "obscurity",
+                "fear",
+                "lack of vision"
+              ],
+              "vehicle_concept": "physical darkness"
+            },
+            "source_span_original": "ਅੰਧੇਰਾ",
+            "source_span_translation": "darkness",
+            "source_term": "ਅੰਧੇਰਾ",
+            "tenor": "Ignorance, restriction, or a bleak outlook on life.",
+            "vehicle": "Physical darkness.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a heavy, oppressive shadow cast by a looming figure or structure over a landscape."
+          },
+          {
+            "abstract_meaning": "Intellectual freedom, self-realization, truth, and hope.",
+            "acceptable_visual_variants": [
+              "A brilliant sunrise breaking over a mountain ridge.",
+              "A small, intense flame held in the palm of a hand, casting a wide circle of warmth."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L10",
+            "literal_meaning": "Physical electromagnetic radiation visible to the human eye.",
+            "literalization_risk": "Depicting a literal lightbulb or a simple flashlight, which trivializes the profound spiritual and intellectual awakening.",
+            "metaphor_mapping": {
+              "tenor_concept": "truth and freedom",
+              "transferred_attributes": [
+                "clarity",
+                "warmth",
+                "visibility"
+              ],
+              "vehicle_concept": "physical light"
+            },
+            "source_span_original": "ਰੋਸ਼ਨੀ",
+            "source_span_translation": "light",
+            "source_term": "ਰੋਸ਼ਨੀ",
+            "tenor": "Intellectual freedom, truth, and self-realization.",
+            "vehicle": "Physical light or illumination.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a warm, radiant glow emanating from within the speaker or breaking through a heavy canopy of clouds."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The contrastive emphasis of the pronoun 'ਤੂੰ' (you) and 'ਮੈਂ' (I) is grammatically less stark in English than in the original Punjabi phrasing which places them in direct opposition at the start of successive clauses.",
+            "where": "L9-L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 6,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The formal/instructional nuance of 'ਵਿਦਿਆ ਦੇ ਸਬਕ' and the habitual imperative 'ਰਿਹਾ ਕਰ' are simplified to 'teach me knowledge' and 'remain silent'.",
+            "where": "L11-L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The assertion of personal autonomy and self-discovery against unwanted external guidance or patronizing instruction"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Punjabi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ਮੈਨੂੰ ਵਿਦਿਆ ਦੇ ਸਬਕ ਨਾ ਦੇ\nਤੂੰ ਚੁੱਪ ਰਿਹਾ ਕਰ\n\nਮੈਨੂੰ ਤੁਰਨ ਦੀ ਦਿਸ਼ਾ ਨਾ ਦੇ\nਤੂੰ ਚੁੱਪ ਰਿਹਾ ਕਰ\n\nਮੈਂ ਖੁਦ ਲੱਭ ਲਵਾਂਗਾ ਆਪਣੇ ਰਾਹਾਂ ਨੂੰ\nਮੇਰੇ ਬੋਲੇ ਖੋਜ ਲੈਣਗੇ ਮੇਰਾ ਮੰਜ਼ਿਲਾਂ ਨੂੰ\n\nਮੈਨੂੰ ਵਿਦਿਆ ਦੇ ਸਬਕ ਨਾ ਦੇ\nਤੂੰ ਚੁੱਪ ਰਿਹਾ ਕਰ\n\nਤੂੰ ਦੱਸਦਾ ਹੈਂ ਕੀ ਹੈ ਅੰਧੇਰਾ\nਪਰ ਮੈਂ ਜਾਣਦਾ ਹਾਂ ਰੋਸ਼ਨੀ ਦੀ ਕੀਮਤ ਕੀ ਹੈ\n\nਮੈਨੂੰ ਵਿਦਿਆ ਦੇ ਸਬਕ ਨਾ ਦੇ\nਤੂੰ ਚੁੱਪ ਰਿਹਾ ਕਰ",
+  "poem_id": "MV++_1213",
+  "poem_title": "Mainu Vidya De Sabak Na De",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "97e898b9433307abb6df3406bbb11b53270c624b39c6bb10686a1721f8911b10",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Punjabi/MV++_1213.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Do not teach me knowledge\nJust remain silent\n\nDo not show me the way to walk\nJust remain silent\n\nI will find my own paths\nMy words will discover my destinations\n\nDo not teach me knowledge\nJust remain silent\n\nYou tell me what darkness is\nBut I already know the value of light\n\nDo not teach me knowledge\nJust remain silent",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:09:23.620978+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4e3e81c2af0502008fc90d2e6d99f0e211d8bae08ed5f3299b59144eb7c9ff23",
+        "response_hash": "181b10d8a6e6dfd6dd1e6adcea256294c8baa2e5f7ce862155892f726af0b587",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1aa6969dacdadb7c53249854bba7ec7f2047070f32d4221d5b87a3bbc84d349f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d3d2f51fda18c03bb23bbbaeb426c7cd7a8ef1471e43c1d5219865b6eb17c60",
+        "response_hash": "ccdaab4cc456c408ecd177525244dec68c6543c932af01e7f0bcff465bd6c742",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "64ea8850ff7b86b454584b48d891bd7700f8b86f9d8463d4939f521e48b8d3ad",
+        "response_hash": "caba15a1ac1207cc3f9c178f77c7ea1cc625ca82243fcbf560e2e4a1b1345486",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "edd4a1d6a9cfe7c62c12bbc1292b544f5340316d7783ca19838ac86a12019e8f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6f512877190ddc303ff3640508ce04b19dee43eee573c62de35656600b1f5702",
+    "translation_sha256": "7431f23ed8e1a870c00af65165257537651b021b4f4e9d7e62ace9009635d9c0"
+  }
+}

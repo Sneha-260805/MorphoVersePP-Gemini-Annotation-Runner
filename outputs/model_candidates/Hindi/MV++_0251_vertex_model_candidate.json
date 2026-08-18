@@ -1,0 +1,318 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and hope in the face of sorrow, moving into a joyful celebration of life through song",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Transforming a period of deep sadness and despair into a hopeful, bright new beginning.",
+            "acceptable_visual_variants": [
+              "A person walking from a dark, shadowed path into a bright, sunlit clearing.",
+              "A dark sky with stars on one side of the frame transitioning into a bright morning sky on the other."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Turning the evening of sorrow into morning",
+            "literalization_risk": "An illustrator might literally depict a clock or a physical sun rising over a sad person, which misses the internal emotional transformation.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional transformation (sorrow to hope)",
+              "transferred_attributes": [
+                "transition from darkness to light",
+                "inevitable arrival of warmth and clarity"
+              ],
+              "vehicle_concept": "diurnal cycle (evening to morning)"
+            },
+            "source_span_original": "ग़म की शाम को सुबह बना के",
+            "source_span_translation": "Turn the evening of sorrow into morning",
+            "source_term": "ग़म की शाम को सुबह बना के",
+            "tenor": "sorrow turning into hope and joy",
+            "vehicle": "evening turning into morning",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a transition of light, where a dark, shadowy background gradually blends into a warm, golden sunrise surrounding a singing figure."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the phrase 'as you sway' to create a rhyme with 'way', which is not present in the original Hindi text.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation renders 'smoke' (धुएँ) as 'mist of air' to soften the imagery, losing the literal colloquial nuance of blowing worries away like smoke.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Dismissing or letting go of worries easily, treating them as transient and weightless.",
+            "acceptable_visual_variants": [
+              "Wisps of cloud or mist dispersing in the wind around a relaxed traveler.",
+              "Faint, translucent grey swirls fading into a bright blue background."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L3",
+            "literal_meaning": "Blowing away every worry in smoke",
+            "literalization_risk": "Depicting actual cigarette or fire smoke might suggest smoking or pollution, which is not the intended poetic meaning.",
+            "metaphor_mapping": {
+              "tenor_concept": "worries disappearing",
+              "transferred_attributes": [
+                "weightlessness",
+                "transience",
+                "fading away into nothingness"
+              ],
+              "vehicle_concept": "smoke dispersing"
+            },
+            "source_span_original": "हर फिक्र को धुएँ में उड़ाता चला गया",
+            "source_span_translation": "Let every worry dissolve into the mist of air",
+            "source_term": "हर फिक्र को धुएँ में उड़ाता चला गया",
+            "tenor": "worries being dismissed or forgotten",
+            "vehicle": "smoke dissolving in the air",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show faint, stylized wisps of mist or vapor rising from a figure and dissolving into a clear sky, symbolizing worries vanishing."
+          },
+          {
+            "abstract_meaning": "Expressing and beautifying one's thoughts through the medium of music and poetry.",
+            "acceptable_visual_variants": [
+              "A person singing with colorful, flowing ribbons of light and musical symbols swirling around them.",
+              "A diary or scroll where written words transform into beautiful flowers or musical notes."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Adorning every thought in songs",
+            "literalization_risk": "Showing physical ornaments or jewelry hanging on abstract thoughts would look bizarre and confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "composing/singing thoughts",
+              "transferred_attributes": [
+                "beautification",
+                "artistic structure",
+                "presentation"
+              ],
+              "vehicle_concept": "decorating/adorning"
+            },
+            "source_span_original": "हर सोच को गीतों में सजाता चला गया",
+            "source_span_translation": "Each thought adorned in songs beyond compare",
+            "source_term": "हर सोच को गीतों में सजाता चला गया",
+            "tenor": "expressing thoughts beautifully through music",
+            "vehicle": "decorating or adorning an object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Represent thoughts as glowing musical notes or lyrical scripts floating around a singing person, appearing decorative and harmonious."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'धुएँ में उड़ाता चला गया' (blew away in smoke) as 'dissolve into the mist of air', softening the colloquial idiom of blowing worries away like smoke. It also adds 'beyond compare' to rhyme with 'air', which is absent in the original text.",
+            "where": "L3-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The shift from the active, first-person/third-person narrative aspect of 'चला गया' (went on doing) to the passive/imperative 'Let every worry...' and 'Each thought adorned...' changes the grammatical stance and tone of the original lines.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "celebration",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Accepting and embracing all phases of life (joys and sorrows alike) through creative expression.",
+            "acceptable_visual_variants": [
+              "A circular motif showing elements of spring, summer, autumn, and winter surrounding a central musical instrument.",
+              "A path where the traveler walks through changing seasonal landscapes under a single sky."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Settling/housing every season in one's songs",
+            "literalization_risk": "Showing four distinct weather patterns crammed inside a physical musical instrument or sheet music could look cluttered and literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "accepting life's changes through song",
+              "transferred_attributes": [
+                "hospitality",
+                "integration",
+                "containment"
+              ],
+              "vehicle_concept": "making a home for seasons"
+            },
+            "source_span_original": "हर मौसम को अपने गीतों में बसाता चला गया",
+            "source_span_translation": "Embraced every season in tunes that fly",
+            "source_term": "हर मौसम को अपने गीतों में बसाता चला गया",
+            "tenor": "incorporating life's changing phases into music",
+            "vehicle": "housing or settling a guest/entity",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a background that subtly transitions through seasonal elements (autumn leaves, spring flowers, summer sun, winter mist) while a central figure sings peacefully."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'बसाता चला गया' (kept settling/dwelling/infusing) as 'Embraced... in tunes that fly', which alters the domestic/spatial metaphor of 'बसाना' (to inhabit or settle) and adds 'that fly' for rhyme.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Making one's life joyful, vibrant, and full of diverse, positive experiences.",
+            "acceptable_visual_variants": [
+              "A trail of warm, bright colors (yellows, oranges, pinks) left behind in the footsteps of a walking, singing person.",
+              "A black-and-white landscape blooming into vivid colors around the central character."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L7",
+            "literal_meaning": "Making one's life colorful",
+            "literalization_risk": "Showing someone literally throwing buckets of paint over themselves or their surroundings might look messy or like a festival (Holi), which is too specific.",
+            "metaphor_mapping": {
+              "tenor_concept": "enriching life with joy",
+              "transferred_attributes": [
+                "vibrancy",
+                "variety",
+                "beauty",
+                "brightness"
+              ],
+              "vehicle_concept": "coloring/painting"
+            },
+            "source_span_original": "अपने जीवन को रंगीन बनाता चला गया",
+            "source_span_translation": "Colored my life as I moved on with cheer",
+            "source_term": "अपने जीवन को रंगीन बनाता चला गया",
+            "tenor": "bringing joy and vitality to life",
+            "vehicle": "adding color/paint",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use a vibrant, warm color palette for the character and their immediate path, contrasting with a duller, monochrome background that brightens as they walk."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'with cheer' and 'without fear' to satisfy the rhyme scheme, which are not in the original Hindi text.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Finding joy, resilience, and color in life by transforming worries and sorrows into song"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided. Under the schema rules, translation_quality should be 'partial' if there is a documented loss, or the loss_note/translation_loss should be empty if it is truly faithful.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided. Under the schema rules, translation_quality should be 'partial' if there is a documented loss, or the loss_note/translation_loss should be empty if it is truly faithful.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[3].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided. Under the schema rules, translation_quality should be 'partial' if there is a documented loss, or the loss_note/translation_loss should be empty if it is truly faithful.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "गीत गाता चल, ओ साथी गीत गाता चल।  \nग़म की शाम को सुबह बना के गीत गाता चल।  \n\nहर फिक्र को धुएँ में उड़ाता चला गया,  \nहर सोच को गीतों में सजाता चला गया।  \n\nसूरज को ढलते देखा और चाँद को निकलते देखा,  \nहर मौसम को अपने गीतों में बसाता चला गया।  \n\nअपने जीवन को रंगीन बनाता चला गया,  \nगीत गाता चल, ओ साथी गीत गाता चल।",
+  "poem_id": "MV++_0251",
+  "poem_title": "Geet Gaata Chal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4bb647d0ec10a2d6dfed5d02477c475b1d1deca1e19155f7e8869ea3ec06cc08",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0251.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Sing along the way, oh friend, sing along the way.  \nTurn the evening of sorrow into morning as you sway.  \n\nLet every worry dissolve into the mist of air,  \nEach thought adorned in songs beyond compare.  \n\nSaw the sun set, and the moon rise high,  \nEmbraced every season in tunes that fly.  \n\nColored my life as I moved on with cheer,  \nSing along the way, oh friend, sing without fear.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:04:32.609023+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "449cd08ceb80f6c288fb72bfcde71b25b9a82ddb235e537b082708bf4f7d6461",
+        "response_hash": "d29a8ff2df7e42a604ccf7a63f4e466c8a27a5a6894c9b9ea6882bf540fc868b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e3bf3d6d27507f3162509f6ef090f665b2c479c84eaa87917e5725fbe84422eb",
+        "response_hash": "650bc618d4b95bb64dcd827df69339e576d0a55cf118d21ea6cfc83dd1e6260f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2ddd7491a4566dad369a0a1e3f06bc63f54b20f2e887ab42b3560723126b49f3",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b9c9651df000e8ee660b53f0ef6b69e3b85e15461e4a074aad4861d485b1a280",
+        "response_hash": "521ed6386c23556a2bac830cf1cf0e7aebf5757b83be65bbb0db5210fa2e9cad",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "030948a27fb512ccacef303221245a8c9cd3af2cac934f66f5d21c68c8f62b36",
+        "response_hash": "feea845870287b55b08f40a4d999da6695653bf1d6a5cdc873fbe9bc1f5814e8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da31119296b9f1ed155c15ab3d69534c893e6db93fe94a3ed797368cf7cb98ab",
+        "response_hash": "c857c33ad7079ec5f1af9362c422a8bad3ca4da81ddb1070cd9a03acab794bfc",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ebdf467e9ee737730088d04ac86db54bd9d50421d82cd774a418caccf7938563",
+    "translation_sha256": "d651502804f8a8f5743b945ab2df27250db6a0ec36d38b4bfa4636c05781851e"
+  }
+}

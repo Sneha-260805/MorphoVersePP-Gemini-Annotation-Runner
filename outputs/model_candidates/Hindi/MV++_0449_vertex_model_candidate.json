@@ -1,0 +1,151 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady, quiet longing and grief that remains unchanged from the beginning to the end of the year of separation.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces a rhyme scheme ('ways/stays', 'unbroken/spoken') not present in the original free verse, and alters the final lines from a repetition of 'Since we parted' (तुमसे बिछड़े) to 'Since we last spoken' to force the rhyme.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The persistent, inescapable nature of the beloved's memories which constantly occupy the speaker's mind.",
+            "acceptable_visual_variants": [
+              "A person walking through a crowd with a faint, glowing outline of another person closely following or embracing them like a shadow.",
+              "A person looking at their hands or reflection where faint, ghostly images of past memories are overlaid on their body."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5-L6",
+            "literal_meaning": "Every moment of your memories is physically stuck/glued to me.",
+            "literalization_risk": "Showing literal pieces of paper, sticky notes, or a physical substance labeled 'memories' physically glued to a person's skin, which looks comical or bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental persistence of memory",
+              "transferred_attributes": [
+                "inseparability",
+                "constant contact",
+                "difficulty of removal"
+              ],
+              "vehicle_concept": "physical clinging"
+            },
+            "source_span_original": "तुम्हारी यादों का,\nहर क्षण मुझसे चिपका है।",
+            "source_span_translation": "The memories of you,\nCling to me, unbroken.",
+            "source_term": "तुम्हारी यादों का,\nहर क्षण मुझसे चिपका है।",
+            "tenor": "The persistent mental presence of memories of the beloved.",
+            "vehicle": "A physical object or substance that sticks or clings tightly to a person's body.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure sitting in a room, surrounded by a soft, hazy aura or faint, translucent overlapping silhouettes/shadows of past shared moments that closely envelop them."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces the word 'stays' to create a rhyme scheme, which is not present in the original Hindi text.",
+            "where": "L3-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'unbroken' to rhyme with 'spoken', which is not in the original text.",
+            "where": "L5-L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation changes 'Since we parted' (tumse bichhde) to 'Since we last spoken' in the final lines to force a rhyme, altering the literal meaning of physical separation to verbal communication.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The persistent, inescapable presence of a beloved's memory in every breath and moment after a year of separation."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक बरस हुआ,  \nतुमसे बिछड़े।  \nहर पल में तुम,  \nहर सांस में तुम।  \nतुम्हारी यादों का,  \nहर क्षण मुझसे चिपका है।  \nएक बरस हुआ,  \nतुमसे बिछड़े।",
+  "poem_id": "MV++_0449",
+  "poem_title": "Ek Baras Hua",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "aaa257654e2d3d77ec420c3fab30ba1843761eaff5a464fdfd93c94544fe103c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0449.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A year has passed,  \nSince we parted ways.  \nIn every moment,  \nIn every breath, it stays.  \nThe memories of you,  \nCling to me, unbroken.  \nA year has passed,  \nSince we last spoken.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:25:34.987685+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7ffa3a63856c1d894e109055b15d54936ff775bfa65ab29090b750eda0d1311b",
+        "response_hash": "b4813d5a67863a31c26c85622b1893a6a41c84f24f262c723994db59fdf747d4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "07055baaa49e09035e3b997ae3a1e943da795b91fdb18d925e1b737a68df574f",
+        "response_hash": "b8de7ae44fdd0baac90235b30ee20865379d7b31a0efdc8f9a08aa55dc34d7a3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6fc92801f6efa6fad23c68277aaa1c6e1ea81dee950e0e5aee581903ce4743e7",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b23a8c3ca86351ee1e109a6c80a764c48b5947658929b532ccc61d4ca7f8182d",
+        "response_hash": "774464c30f56d6c02d667c4b031c63e0701420976cd9267487b6132ca10b6cb6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e501dfd03e4ca0242208e03bc841ced00eb903f18b42b0f47e1fbac1d49a0a55",
+        "response_hash": "b6027c428a4f9040d80852fdf96c846c4e352c8e1484179e849024f85fbd1c54",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc51a15118d1a1f9560cc4c9eb8a726cc9d7532df9a6a6df4e10bfca33acbc49",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "010d22cc00d7cebeda47b1e66ce8826cef74adbe455fc6ff9f2a01bff51938e4",
+    "translation_sha256": "87d9bc6f32640dbe51c8691ba5f3973fb3a54316e48fc6289ac8d5d66872b69a"
+  }
+}

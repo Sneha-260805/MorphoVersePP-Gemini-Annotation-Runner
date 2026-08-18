@@ -1,0 +1,226 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A musician in traditional Indian attire playing the shehnai",
+          "A close-up of the wooden instrument with its brass bell"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional South Asian double-reed woodwind instrument, commonly played at weddings, festivals, and celebratory events to evoke auspiciousness.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A modern Western trumpet",
+          "A simple bamboo flute or bansuri"
+        ],
+        "preserved": true,
+        "romanization": "shehnai",
+        "source_span_original": "शहनाई",
+        "source_span_translation": "shehnai",
+        "stanza_index": 1,
+        "term": "शहनाई",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A wooden, conical-bore oboe-like instrument",
+          "Flared metal bell at the bottom end",
+          "Multiple finger holes along the body"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "celebration to reflective resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'मधुशाला' (Madhushala) as 'tavern', which loses the rich literary and philosophical associations of the Persian-influenced Madhushala genre in Hindi poetry (symbolizing a spiritual or existential gathering place rather than just a physical drinking establishment).",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'न किसी की कमी है' as 'no one's in dismay' alters the literal meaning of 'no one is missed' or 'there is no lack of anyone', shifting the focus from communal completeness to individual emotional state.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of sadness, lack of fulfillment, or silent suffering despite outward smiles.",
+            "acceptable_visual_variants": [
+              "A close-up of a face with a slight, sad smile and downcast eyes",
+              "A person holding an empty wine cup to their closed, unsmiling mouth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "lips that are physically empty or devoid of moisture/substance",
+            "literalization_risk": "An illustrator might draw physically hollow, transparent, or unnaturally blank lips, which looks like a medical anomaly rather than emotional sadness.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional unfulfillment or sadness",
+              "transferred_attributes": [
+                "lack of substance",
+                "silence",
+                "deprivation"
+              ],
+              "vehicle_concept": "emptiness of the mouth/lips"
+            },
+            "source_span_original": "खाली होंठ",
+            "source_span_translation": "empty lips",
+            "source_term": "खाली होंठ",
+            "tenor": "unfulfilled desires or hidden sorrow",
+            "vehicle": "empty lips",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person with a forced, faint smile that does not reach their eyes, emphasizing a subtle expression of melancholy."
+          },
+          {
+            "abstract_meaning": "The joy, pleasures, and beautiful experiences of living.",
+            "acceptable_visual_variants": [
+              "A warm golden glow illuminating a group of friends laughing together",
+              "A flowing stream of golden liquid reflecting warm light, symbolizing flowing joy"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "the sugary taste of life",
+            "literalization_risk": "An illustrator might depict literal sugar, honey, or candy floating around a person, which trivializes the existential joy of living.",
+            "metaphor_mapping": {
+              "tenor_concept": "happiness and pleasure",
+              "transferred_attributes": [
+                "pleasantness",
+                "desirability",
+                "satisfaction"
+              ],
+              "vehicle_concept": "sweet taste"
+            },
+            "source_span_original": "जीवन की मिठास",
+            "source_span_translation": "sweetness of life",
+            "source_term": "जीवन की मिठास",
+            "tenor": "joy and pleasant experiences of life",
+            "vehicle": "sweetness (taste)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict people laughing, sharing drinks, and enjoying warm companionship in a brightly lit tavern setting to convey the warmth and joy of life."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'क्यों हम मुस्कुराएंगे?' (why will we smile?) as 'we still manage to shine' completely alters the rhetorical question about the purpose or irony of smiling with empty lips, replacing it with an assertion of resilience ('manage to shine').",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मौज मस्ती में बहे, जीवन की मिठास भी' as 'Where sweetness of life in merriment calls' loses the active verb 'बहे' (flows/swept away), which suggests that the sweetness of life flows or is carried away in the revelry.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Finding collective joy and resilience within the tavern despite life's underlying struggles and transience"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items. Under the schema rules, translation_loss should only be populated or have significant entries when translation_quality is not fully faithful, or the loss_note should reflect these discrepancies. Having a 'faithful' rating while listing multiple medium/low severity losses is internally inconsistent.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a high-severity translation loss ('क्यों हम मुस्कुराएंगे?' translated as 'we still manage to shine') and a medium-severity loss. This is internally inconsistent.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मधुशाला में एक पुराना सा गीत है,  \nपीने वालों की टोली, हंसने और गाने का जश्न है।  \nबंदूक की आवाज़ें, और बजी शहनाई,  \nयहाँ कोई न तन्हा, न किसी की कमी है।  \n\nकब तक दारु का जाम हम उठाएंगे,  \nफिर भी खाली होंठ, क्यों हम मुस्कुराएंगे?  \nमधुशाला में यही है, यही है सच्चाई,  \nमौज मस्ती में बहे, जीवन की मिठास भी।",
+  "poem_id": "MV++_0104",
+  "poem_title": "Madhushala",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d34cfe2f00918488bbff13f7cc0e1bb4dd2a201841db0d16d4c9bcf2d67d9126",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0104.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the tavern, an old song flows,  \nA gathering of drinkers, laughter, and joy that glows.  \nThe sound of gunfire, and the shehnai plays,  \nHere no one’s alone, no one’s in dismay.  \n\nHow long shall we raise the cup of wine?  \nYet with empty lips, we still manage to shine.  \nThis is the truth found within the tavern’s walls,  \nWhere sweetness of life in merriment calls.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:46:58.934448+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b430f0a455111ef441762902c1f23fe22156f3ddbc148570e3309b3daa0bfa50",
+        "response_hash": "7c9f47b5a147aefbaf413bc09099dcf0bdcaf691f3bccf303bd0775134af852e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c1151f3af3b97561846787b10d2bcdc72d8c64dd0050961315463b0551da8791",
+        "response_hash": "0dbedd619e8748b8a3458b5d8d9beb0e1ce1a39065b686c931d8c6648c73422f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6a599fbd750aa12e2f3e79306bdc0580be7b00fce96a1e730a0ae5892f90bb16",
+        "response_hash": "9d90bedcdf0e0a84f7cf80fddf73c020932f2888b20c8e71b07f32b1eedd87d8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bf05160562a592eb4edc2afaa36534c83f4bf74df78786cffecbca446672ec72",
+        "response_hash": "bbfbe34c17af3f58bdf4f47d4e675c6e8eaae04506b39d970d3417f3b0b4ef49",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f8a9fea35a81d18158d5710779b37ba76b1c6ac8d2c591427b445a37ea117cc",
+        "response_hash": "1617212601d17c46b2a1fc2166675519c9fd55bc0ed4f2970003227303bcc308",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "70413c06f3ba95334f26422655142894f9c58ef443c871ee341e0426689c4d47",
+    "translation_sha256": "03897b6ab9022ba57f268300fa3cd5444ed3bf3cf4681417b30a0245bdfdab44"
+  }
+}

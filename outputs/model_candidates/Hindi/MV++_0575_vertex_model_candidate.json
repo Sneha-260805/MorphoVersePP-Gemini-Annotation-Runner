@@ -1,0 +1,238 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A Persian-derived term for God, widely used in Urdu and Hindustani-register Hindi poetry to refer to the Divine.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Khuda",
+        "source_span_original": "खुदा",
+        "source_span_translation": "God",
+        "stanza_index": 1,
+        "term": "खुदा",
+        "translation_note": "The translation renders 'Khuda' as 'God', which preserves the monotheistic divine reference but loses the specific Persian/Urdu-derived cultural register common in Hindustani poetry.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "grief and isolation to a sense of shared human connection through pain",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The individual choices, life directions, and personal journeys of the speaker.",
+            "acceptable_visual_variants": [
+              "A single path winding through a quiet landscape under a soft sky",
+              "A stylized silhouette of a person walking along a glowing line representing a life path"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "physical roads or pathways",
+            "literalization_risk": "An illustrator might draw literal dirt roads or paved streets, which misses the internal, existential focus of the speaker's personal life journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journeys",
+              "transferred_attributes": [
+                "direction",
+                "individuality",
+                "movement forward"
+              ],
+              "vehicle_concept": "physical paths"
+            },
+            "source_span_original": "राहें",
+            "source_span_translation": "paths",
+            "source_term": "राहें",
+            "tenor": "individual life journeys and personal choices",
+            "vehicle": "physical paths or roads",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure walking along a faint, winding trail that fades into the distance, emphasizing personal solitude and direction."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'khuda ke paas' (near/to God) as 'God's doors', introducing a spatial metaphor of 'doors' (darvaaze) not present in the original Hindi text.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker is emotionally alive, feeling, and conscious of their own existence.",
+            "acceptable_visual_variants": [
+              "A soft, warm light radiating subtly from a person's chest area",
+              "A close-up of a person's peaceful face as they breathe in deeply"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L6",
+            "literal_meaning": "the heart is physically alive / beating",
+            "literalization_risk": "An illustrator might draw an anatomically correct heart or a glowing cartoon heart, which looks overly medical or cliché and misses the emotional state of self-preservation.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional consciousness",
+              "transferred_attributes": [
+                "vitality",
+                "responsiveness",
+                "life"
+              ],
+              "vehicle_concept": "a living heart"
+            },
+            "source_span_original": "दिल है जिंदा",
+            "source_span_translation": "heart beats",
+            "source_term": "दिल है जिंदा",
+            "tenor": "emotional awareness and personal vitality",
+            "vehicle": "a living, beating physical heart",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person with a hand placed gently over their chest, looking inward with a quiet, reflective expression."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'dil hai zinda' (the heart is alive) as 'my heart beats', shifting the focus from the state of being alive/having a living heart to the physical action of beating.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'sada' (voice/call) as 'echoes', which changes the active, calling nature of pain to a passive, reflecting sound.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The portion of suffering, fate, or life experiences allocated to an individual.",
+            "acceptable_visual_variants": [
+              "A person holding a single cup filled with dark liquid, looking at it with resignation",
+              "A figure carrying a heavy cloak wrapped tightly around their shoulders"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "a physical portion or share of a divided object (like food or land)",
+            "literalization_risk": "An illustrator might draw a literal scale or a divided plate, which trivializes the emotional weight of personal suffering.",
+            "metaphor_mapping": {
+              "tenor_concept": "allotted personal suffering",
+              "transferred_attributes": [
+                "limitation",
+                "ownership",
+                "burden"
+              ],
+              "vehicle_concept": "a physical share of goods"
+            },
+            "source_span_original": "हिस्से का",
+            "source_span_translation": "share",
+            "source_term": "हिस्से का",
+            "tenor": "one's personal allotment of life's pain and burdens",
+            "vehicle": "a physical portion or slice of something",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person carrying a single, heavy but beautifully textured bundle or stone, representing their personal share of life's weight."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The paradox of personal suffering as both an isolating force and the ultimate bridge to universal human empathy."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "किसी और का ग़म क्या लेना,  \nअपने आँसू, अपनी राहें।  \nजो दर्द सबका हो जाता,  \nकभी खुदा के पास नहीं जाता।\n\nकिसी और का ग़म क्या महसूस करें,  \nजब तक अपना दिल है जिंदा।  \nमगर दर्द की सदा में,  \nहर इंसान की आहें हैं बसीं।\n\nकिसी और का ग़म क्या लेना,  \nजब अपने हिस्से का काफी है।  \nपर अपने जख्मों से ही,  \nहम सबको जोड़ते चले जाते हैं।",
+  "poem_id": "MV++_0575",
+  "poem_title": "Kisi Aur Ka Gham",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "91539bcdd283f4616d374e428b53d874cede1bdc462cd33112f851cc0a18c0d0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0575.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Why take on another’s sorrow,  \nWith my own tears, my own paths.  \nA pain that belongs to all,  \nNever reaches God’s doors.\n\nWhy feel another’s sorrow,  \nAs long as my heart beats.  \nYet in the echoes of pain,  \nLie the sighs of every soul.\n\nWhy take on another’s sorrow,  \nWhen my share is enough.  \nBut through my own wounds,  \nI keep connecting us all.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:40:23.498255+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eba67b368b848d26b486fd4258e54a7e50a74930027cd144ce421ccf80fea968",
+        "response_hash": "169f0645307e00fde28f2b8b7b0749fa9e7bb6662dd1303ff41bb77c4f178b0a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f9ad246426c2024c22ae795478750d0cc30cc5e62339d7852c2974b9e2991bad",
+        "response_hash": "0d21d66270116102065488f868267e5d2d5149b1e34be13e4d5a0cdb500cd128",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c8e64f9b553e05b7593e441ca945f546eaeb26acc9ef1e58660cffaf81f50b1b",
+        "response_hash": "fabc3c14ffd47dcc4394da9c756f82846564c58a54f76dde57515880ce950074",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "62cb24c5c63cd404607aa6f38e591fbab2a4d3bc6d9d72b860b957a6ddb5961e",
+        "response_hash": "35d79494082b098edefc7a0b6d75b69494831a7cf4f258a47a83c30835dc3b71",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "33784207142bc0d886f1342cee93bae841b37cc7c86592968e17dade495b8b59",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bdea87337e1fcae201578e3b75787c4cdc73c9dc83c53f5761c290cc84937963",
+    "translation_sha256": "a9c64c7081e03ea7d52e003928f4efe8352dc2c076d85e27f3724506e9aab951"
+  }
+}

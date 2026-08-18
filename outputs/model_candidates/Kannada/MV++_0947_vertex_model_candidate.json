@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and quiet appreciation of the inner mind",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker addresses their own mind as an independent entity capable of dialogue and self-reflection.",
+            "acceptable_visual_variants": [
+              "A person sitting in quiet contemplation with a soft light emanating from their chest or head",
+              "A stylized silhouette reflecting another translucent silhouette within itself"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "O mind, how are you / what are you",
+            "literalization_risk": "Depicting a literal separate person standing next to the speaker would lose the internal, psychological nature of the address.",
+            "metaphor_mapping": {
+              "tenor_concept": "mind",
+              "transferred_attributes": [
+                "agency",
+                "conversational capacity",
+                "independent existence"
+              ],
+              "vehicle_concept": "person"
+            },
+            "source_span_original": "ಮನಸೆ ನೀನು ಹೇಗೆ",
+            "source_span_translation": "O mind, what are you",
+            "source_term": "ಮನಸೆ ನೀನು ಹೇಗೆ",
+            "tenor": "The speaker's own internal mind or consciousness",
+            "vehicle": "A person or companion being addressed directly",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a reflective human figure looking inward, perhaps with a soft, glowing silhouette or mirror-like double representing the mind."
+          },
+          {
+            "abstract_meaning": "The mind is described as containing an inner light, representing hope, wisdom, or consciousness.",
+            "acceptable_visual_variants": [
+              "A gentle, warm aura surrounding a silhouette",
+              "A soft beam of light shining from within a closed-eyed figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "light inside you",
+            "literalization_risk": "Showing a literal lightbulb or physical flame inside a brain or chest cavity could look comical or medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "consciousness",
+              "transferred_attributes": [
+                "illumination",
+                "clarity",
+                "warmth",
+                "guidance"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "ನಿನ್ನ ಒಳಗೆ ಬೆಳಕು",
+            "source_span_translation": "A light within",
+            "source_term": "ನಿನ್ನ ಒಳಗೆ ಬೆಳಕು",
+            "tenor": "Wisdom, consciousness, or hope within the mind",
+            "vehicle": "A physical light source or glow",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use a soft, abstract golden or white glow radiating from within a contemplative figure's chest or head area."
+          },
+          {
+            "abstract_meaning": "The mind is characterized as the ultimate source or essence of all aspirations and imagination.",
+            "acceptable_visual_variants": [
+              "Overlapping ethereal landscapes fading into a central silhouette",
+              "A sequence of nested, glowing rings or ripples expanding outward"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "dream of dreams",
+            "literalization_risk": "A literal depiction of nested dream bubbles might look cluttered and fail to convey the abstract depth of the mind's creative power.",
+            "metaphor_mapping": {
+              "tenor_concept": "creative mind",
+              "transferred_attributes": [
+                "depth",
+                "infinite layers",
+                "unreal beauty"
+              ],
+              "vehicle_concept": "nested dreams"
+            },
+            "source_span_original": "ಕನಸುಗಳ ಕನಸು",
+            "source_span_translation": "A dream of dreams",
+            "source_term": "ಕನಸುಗಳ ಕನಸು",
+            "tenor": "The ultimate essence of imagination, hope, and human aspiration",
+            "vehicle": "A dream nested within or generating other dreams",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict surreal, overlapping, semi-transparent layers of dreamlike imagery (like stars, clouds, or floating keys) blending into one another."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The intimate, direct address of 'Manase' (vocative form of mind) and the colloquial questioning tone of 'heege' (how/what are you like) are flattened into a more formal English phrasing.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The locative case ending in 'baaladi' (in life) carries a rhythmic, internal resonance with 'manase' and 'hitave' that is lost in the standard English prepositional phrase 'in life'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The mysterious, luminous, and comforting nature of the human mind"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಮನಸೆ ನೀನು ಹೇಗೆ,  \nನಿನ್ನ ಒಳಗೆ ಬೆಳಕು,  \nಕನಸುಗಳ ಕನಸು,  \nಬಾಳದಿ ಹಿತವೆ!",
+  "poem_id": "MV++_0947",
+  "poem_title": "Manase",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "81ba6e3c61b24b60045de8d49705d302a35e23319cda083c8bf19db74415f64e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0947.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "O mind, what are you,  \nA light within,  \nA dream of dreams,  \nA joy in life!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:34:44.743791+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bde29cf59bb6f1ddbd349f7ec694245737954c707d8682353ce73c7f399e727c",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79613a800e2f0c349d70f1f413d898e88e7b68acf1504f75a4dd2fbe710291f0",
+        "response_hash": "9283b5022429d6ded02ea49ba9fe3be0c8ae0678070933ea58fa27475f02eaf0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e451c2fd4441517243a9eb143c8a81980ab929a877dc9d25edabcc2bfc5334d1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d7192f85d15088e5c7924940c23764c89ebee9ae24d5a97486d0c39bb669129",
+        "response_hash": "093c377349c7c3cbc3f5dc78e187487c9b71317b03fa3b1690abf763b34429f9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "89db8aae2c82e1e27ca318f9e62f0b655ff9297a1f3c753c8fcfd24ffeaf8aba",
+        "response_hash": "4e565bae52465c041f173de0c1493c393f8126275e15a7352f9f0795f1666494",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d35415a29624fb2f59902fa33b43f63d9723e4a9cd0647f643e0db4924df36a3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4e0665ceb320ec8b629312a0f58b7deb4b621021d2a56cfe524a0c1dc1b6d80d",
+    "translation_sha256": "a6772fa67cab6900265e75f9da195cfae0950b69ce801b359ec16ddcef575b23"
+  }
+}

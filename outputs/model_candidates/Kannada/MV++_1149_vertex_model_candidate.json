@@ -1,0 +1,170 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A Sanskrit-derived concept of immortality, eternal life, or one who lives forever (Chiranjeevi), used here to ground the speaker's shelter in an eternal, deathless state.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "chiranjeevi",
+        "source_span_original": "ಚಿರಂಜೀವಿ",
+        "source_span_translation": "eternity",
+        "stanza_index": 1,
+        "term": "ಚಿರಂಜೀವಿ",
+        "translation_note": "Translated as 'eternity' in the context of 'chiranjeeviyalliruva' (existing in eternity/immortality).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "longing to quiet resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the core imagery but simplifies the complex compound structures and the specific nuances of 'nele' (shelter/abode/grounding) and 'chiranjeevi' (eternity/immortality).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's sense of isolation and vulnerability in seeking their own place or identity.",
+            "acceptable_visual_variants": [
+              "A lone human figure looking out over a misty horizon",
+              "A small silhouette of a person walking along a vast, empty path"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L5",
+            "literal_meaning": "Like a solitary bird",
+            "literalization_risk": "An illustrator might draw a literal bird flying alone, which misses the human speaker's internal emotional state of isolation.",
+            "metaphor_mapping": {
+              "tenor_concept": "isolated human seeker",
+              "transferred_attributes": [
+                "loneliness",
+                "vulnerability",
+                "searching for a place to rest"
+              ],
+              "vehicle_concept": "solitary bird"
+            },
+            "source_span_original": "ಒಂಟಿಯ ಹಕ್ಕಿಯಂತೆ",
+            "source_span_translation": "Like a lonely bird",
+            "source_term": "ಒಂಟಿಯ ಹಕ್ಕಿಯಂತೆ",
+            "tenor": "The speaker's self-perception and manner of seeking a resting place",
+            "vehicle": "A solitary bird",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary human figure standing in a vast, open landscape under a wide sky, suggesting the isolation of a lone bird without literally drawing an animal."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಕೆನ್ನೆಗೆ' (kennege, meaning 'to the cheek') as 'like the dawn' loses the specific physical/sensory imagery of the cheek in the original Kannada text.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಮೂಡಲಾವುಗಿಂತ' (mudalavuginta, referring to the eastern cloud/dawn) as 'Beyond the haze' alters the specific directional and celestial imagery of the eastern sky/dawn.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಹಂಗಾಮಿ ನೆಲೆ' (hangami nele, meaning 'temporary shelter/abode') is simplified to 'resting place', losing the explicit contrast between temporary ('hangami') and eternal ('chiranjeevi') states.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The search for an eternal, independent shelter of the self away from transient, endless external expectations."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಎಲ್ಲೋ ಬಂದೇ ಬರುವುದು ನನ್ನದು\nಕೆನ್ನೆಗೆ ತೋರುವಂತೆ ಹೊಳೆಯುವುದೇ ಇಲ್ಲ\nಮೂಡಲಾವುಗಿಂತ ಮತ್ತೊಂದು ನಿನ್ನಗೇ\nಚಿರಂಜೀವಿಯಲ್ಲಿರುವ ನೆಲೆ ನನ್ನದು\nಒಂಟಿಯ ಹಕ್ಕಿಯಂತೆ ಬಾರದು\nನಿನ್ನ ಕೊನೆಯಿಲ್ಲದ ಆಶಯಗಳ ನಡುವೆ\nನಿನ್ನ ಹುಡುಕುವ ಹಂಗಾಮಿ ನೆಲೆ ಇಲ್ಲ.",
+  "poem_id": "MV++_1149",
+  "poem_title": "Nele",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5b5717a26c76a765d54175caf9da56000110a96293fab247267d0e22f1fc9847",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1149.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Somewhere my own will come,\nBut it doesn’t shine like the dawn.\nBeyond the haze, there’s another,\nMy shelter that exists in eternity.\nLike a lonely bird, I must not\nSeek my resting place amid\nYour endless aspirations.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:03:25.912030+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6da532ab1cc0c0e917f0c8a485d5be29c2c33a6edc8812b2667ec9cb7bee9f41",
+        "response_hash": "9c5b3a314dd0a443f9ab1ebb35b2c2c91a7729d2c1d71012b5305ec9162e746e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9a9a7ce004936a24008b97181d73a51f1613f1fb67a0300fc8fa1dd8b624361e",
+        "response_hash": "3146017d7eed0895aa6cf6752b7d746279f04054de07efd497519e0ce10c49d9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eb0b78c670e0b4d62a73c667da8c292c863975ef47af362829cb44bb0e4a495d",
+        "response_hash": "c2681c8c9f4e4685433d816e82d353d367e864e793704c6cc31204df53839ba1",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e1a02f6fab0de2bc0c38c6fa04f6bb205d3b6fd16174956f3de0b1e5c256360",
+        "response_hash": "ef19755bd4106808c4b5e5f4ba1208497c6737f753227cc43064c44969741585",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2e2935fa72065f421d1ec7f02cea8e317126e2fe7fe1deeaf878cf1dd6453549",
+        "response_hash": "38b254c170297265447774cde295370ed245e64fea50f14a8de5d1cd4f751793",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4739ec07efa1c188c889261cefe2a03c2f02f2b4566e14a5c5703a0330729b26",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9d3e75bcbeed0da56c6f09fb55b730e3dd1889c10fd7ce219eb89d8a709db78e",
+    "translation_sha256": "bd1f46b5fe96fc28d2a4e45643bf91eb0536d6b1f98ccc38b1d7a15d82b58555"
+  }
+}

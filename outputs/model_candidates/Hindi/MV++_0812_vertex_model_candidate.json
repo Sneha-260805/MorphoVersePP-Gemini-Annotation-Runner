@@ -1,0 +1,215 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A figure looking back longingly toward a distant village",
+          "A solitary traveler walking on a path toward a city skyline in the distance"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A term for a foreigner, outsider, or traveler, heavily loaded in South Asian folk and romantic traditions with the archetype of the beloved who has migrated to a distant land, leaving their partner to pine at home.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "An exoticized, heavily ornamented royal traveler",
+          "A modern tourist with a suitcase and camera"
+        ],
+        "preserved": true,
+        "romanization": "pardesi",
+        "source_span_original": "परदेसी",
+        "source_span_translation": "traveler",
+        "stanza_index": 1,
+        "term": "परदेसी",
+        "translation_note": "Translated as 'traveler', which captures the literal meaning of someone from another land or an outsider, but loses the deep South Asian cultural resonance of a beloved who has gone abroad for work, leaving a pining partner behind.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A traveler or migrant figure dressed in simple, traditional South Asian attire, carrying a small bundle or walking along a dusty path away from home."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "deep longing and persistent hope for the return of a loved one",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'rasta dekha' as 'waited for the path' captures the meaning but loses the idiomatic Hindi sense of physically watching or keeping an eye on the road for someone's arrival.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A deeply cherished, persistent memory or hope of the beloved's return that occupies the speaker's constant thoughts.",
+            "acceptable_visual_variants": [
+              "A close-up of eyes reflecting a soft, warm light or a distant path",
+              "A person looking out of a window with a dreamy, reflective expression"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A dream that has physically taken up residence or settled inside the eyes.",
+            "literalization_risk": "Depicting a tiny human figure or a literal miniature landscape physically living inside a giant eyeball, which would look surreal or grotesque rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "a persistent mental image occupying one's thoughts",
+              "transferred_attributes": [
+                "occupying a space permanently",
+                "being constantly visible or present"
+              ],
+              "vehicle_concept": "a physical settler residing in a space"
+            },
+            "source_span_original": "आंखों में बसा हुआ सपना",
+            "source_span_translation": "The dream settled in my eyes",
+            "source_term": "आंखों में बसा हुआ सपना",
+            "tenor": "A persistent mental image or hope of the beloved's return",
+            "vehicle": "A physical resident or settler living inside the eyes",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking out longingly with a soft, translucent, double-exposed image of the beloved or a distant home reflected gently in their eyes."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'रास्ता देखा' (rasta dekha) as 'I’ve waited for the path' shifts the literal meaning of 'watched/looked at the path' to a more abstract waiting, losing the physical imagery of staring at the road.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'परदेसी' (pardesi) carries a deep cultural resonance of someone who has gone to a foreign land or far away, which is simplified to 'traveler' in English, losing the emotional weight of long-distance estrangement.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The emphatic particle 'hi' in 'tera hi' is translated as 'only for you', which is accurate, though the subtle rhythmic weight it adds to the Hindi line is slightly flattened.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The emotional impact, memories, and lingering presence of the beloved's journey or departure remain deeply felt in the speaker's inner emotional life.",
+            "acceptable_visual_variants": [
+              "A stylized, warm glow emanating from the chest area of a waiting figure",
+              "A split composition showing a dusty road on one side and a person looking reflective on the other"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5-L6",
+            "literal_meaning": "Physical footprints or path markings left behind inside a physical heart organ.",
+            "literalization_risk": "Showing a literal anatomical heart with dusty footprints or dirt tracks stamped across its muscle tissue, which would look medically bizarre or disturbing.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional impressions left on a person's heart",
+              "transferred_attributes": [
+                "permanence",
+                "marking a journey",
+                "being left behind by someone who departed"
+              ],
+              "vehicle_concept": "footprints left on a physical path"
+            },
+            "source_span_original": "तेरी राहों के निशान,  \nअब भी मेरे दिल में बचे हैं।",
+            "source_span_translation": "The marks of your path,  \nStill remain in my heart.",
+            "source_term": "तेरी राहों के निशान, \nअब भी मेरे दिल में बचे हैं।",
+            "tenor": "Emotional memories and lingering feelings of love and longing",
+            "vehicle": "Physical footprints or trail markers left on a path",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person holding their hand over their chest with a pensive expression, while the background subtly shows a fading, dusty path stretching into the distance."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The emphatic particle 'ही' (hi) in 'तेरा ही' (tera hi) is translated as 'only for you', which captures the meaning but loses the concise, rhythmic emphasis of the original Hindi phrasing.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring nature of love and waiting across distance and time"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "घर आजा परदेसी,  \nतेरे शहर का रास्ता देखा।  \nआंखों में बसा हुआ सपना,  \nकभी न मिटी वो चाहत।\n\nतेरी राहों के निशान,  \nअब भी मेरे दिल में बचे हैं।  \nघर आजा परदेसी,  \nमुझे तेरा ही इंतजार है।",
+  "poem_id": "MV++_0812",
+  "poem_title": "Ghar Aaja Pardesi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5c6646e38cdb019fa55ce8bf9d2c61f9c9ae43cb8ce16a149b46861accd5d3d5",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0812.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Come home, traveler,  \nI’ve waited for the path to your city.  \nThe dream settled in my eyes,  \nThat desire has never faded.\n\nThe marks of your path,  \nStill remain in my heart.  \nCome home, traveler,  \nI’ve been waiting only for you.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:15:04.641303+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cd5ecb28b8db86f886636c25e8fcbd6c455b783194e86525760318b5e68b8791",
+        "response_hash": "a0dec5ed08f1f243b53136ec8ffd4b1a7a74ec6b8730b1eaaff7193334c28fd4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da7cabf44f1e87e5fc863aa31edeed626e285914e3703181a9ccdf4316717ab1",
+        "response_hash": "364bb0c9ef98b85778535b91bf2bb360586f8e72e236ce22d48aeb854d497bf5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f1cf061152373c81ace93c97d76f811775ef0a8e15cbeffe899041b8f9905626",
+        "response_hash": "195582815fb05ebdeb30c08cc886c3e72997a6b670fa6f12e95f2f9411269088",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1be82d1c7b10a90aeeb3eb01550e7d8f79cf94170513f17e478e48ea9d52a8df",
+        "response_hash": "a0faf789b0a76af2e47bfaa5b39f08654f23e465e29abb6d93345c0561097cf4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "279c4c872dbf95233f2e620ee775f6488c65799e733514a75efb250467de2963",
+        "response_hash": "acb157abe38904f80c0b9c57bda34d702428d19d61db43b84c975897f6ff04d4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "719bf372ab2a4712684007a5d14a0b52db3a6876fa04a4f8d5888d820bc53072",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "64491402e24323eb7a940738eef49aad1b0e93e0953b09c2c78a26289bc3f8b0",
+    "translation_sha256": "ce9aea4ce1b3cbf6c03fb51072c95a38ee723c531c53ed938d7e9666d42babd1"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A lively street festival scene with colorful banners and lights",
+          "A traditional rural fairground with tents and community gatherings"
+        ],
+        "category": "FESTIVAL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional South Asian fair, festival, or community gathering, often featuring stalls, rides, and celebrations.",
+        "line_ref": "L8",
+        "negative_confusions": [
+          "A modern Western-style commercial theme park",
+          "A solemn religious temple ritual without the festive fair elements"
+        ],
+        "preserved": true,
+        "romanization": "mela",
+        "source_span_original": "मेला",
+        "source_span_translation": "festival",
+        "stanza_index": 1,
+        "term": "मेला",
+        "translation_note": "Translated as 'festival', which captures the celebratory spirit but loses the specific South Asian cultural context of a local fair or community gathering.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A vibrant, bustling open-air fairground",
+          "Colorful stalls with local crafts and sweets",
+          "Crowds of people in festive attire",
+          "A Ferris wheel or traditional hand-cranked carousel in the background"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "resilience to celebration",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation introduces the word 'employ' to force a rhyme with 'joy', which is not present in the original Hindi text, and translates 'mela' (fair/gathering) as 'festival'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The diverse experiences, emotions, and phases of human existence.",
+            "acceptable_visual_variants": [
+              "A person walking through a landscape that transitions from cool morning tones to warm afternoon light",
+              "A collage of everyday moments showing different moods like quiet reflection and joyful interaction"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The physical colors of life",
+            "literalization_risk": "An illustrator might literally paint physical paint splatters or rainbow colors onto a human figure, which misses the abstract emotional variety of life.",
+            "metaphor_mapping": {
+              "tenor_concept": "life's experiences",
+              "transferred_attributes": [
+                "variety",
+                "vibrancy",
+                "emotional tone"
+              ],
+              "vehicle_concept": "colors"
+            },
+            "source_span_original": "जीवन के रंगों",
+            "source_span_translation": "colors of life",
+            "source_term": "जीवन के रंगों",
+            "tenor": "life's diverse experiences and emotions",
+            "vehicle": "colors / pigments",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person experiencing a transition between different emotional states or activities, represented by subtle shifts in lighting or atmospheric tones."
+          },
+          {
+            "abstract_meaning": "An abundant, sudden, and refreshing experience of happiness.",
+            "acceptable_visual_variants": [
+              "A person laughing with head tilted back under a bright, sunlit sky",
+              "A dynamic burst of warm light radiating around a joyful figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A physical downpour or shower of happiness",
+            "literalization_risk": "Showing literal water droplets or rain falling on a smiling person, which looks like a weather event rather than an emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "joy",
+              "transferred_attributes": [
+                "abundance",
+                "suddenness",
+                "refreshing quality"
+              ],
+              "vehicle_concept": "rain shower"
+            },
+            "source_span_original": "खुशी की बौछार",
+            "source_span_translation": "shower of joy",
+            "source_term": "खुशी की बौछार",
+            "tenor": "an abundant experience of joy",
+            "vehicle": "a sudden rain shower or downpour",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person with arms outstretched in a joyful, celebratory posture, surrounded by light or falling flower petals to suggest abundance without literal rain."
+          },
+          {
+            "abstract_meaning": "The guidance, hope, and clarity provided by one's aspirations and dreams.",
+            "acceptable_visual_variants": [
+              "A traveler walking confidently along a path illuminated by a soft, warm glow ahead",
+              "A person looking up at a starry sky with a hopeful expression, bathed in gentle starlight"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The physical illumination emitted by dreams",
+            "literalization_risk": "Depicting literal glowing light bulbs or beams of light shooting out of a sleeping person's head.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams and aspirations",
+              "transferred_attributes": [
+                "illumination",
+                "guidance",
+                "dispelling darkness"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "सपनों के उजाले",
+            "source_span_translation": "light of dreams",
+            "source_term": "सपनों के उजाले",
+            "tenor": "hope and guidance from aspirations",
+            "vehicle": "light / illumination",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person looking forward toward a bright, warm horizon or a softly illuminated path ahead of them."
+          },
+          {
+            "abstract_meaning": "A state of abundant, shared, and festive happiness.",
+            "acceptable_visual_variants": [
+              "A group of friends or family laughing and celebrating together in a warm, decorated outdoor setting",
+              "A vibrant community gathering with warm lighting and expressive, happy faces"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A physical fair or carnival of happiness",
+            "literalization_risk": "Drawing a literal amusement park or fairground with rides, which distracts from the internal and social feeling of celebration.",
+            "metaphor_mapping": {
+              "tenor_concept": "joy",
+              "transferred_attributes": [
+                "crowds",
+                "celebration",
+                "abundance",
+                "liveliness"
+              ],
+              "vehicle_concept": "fair or festival"
+            },
+            "source_span_original": "खुशियों का मेला",
+            "source_span_translation": "festival of joy",
+            "source_term": "खुशियों का मेला",
+            "tenor": "abundant and celebratory joy",
+            "vehicle": "a fair / carnival / festival (mela)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lively, warm gathering of people celebrating, sharing food, or dancing together to capture the festive spirit."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the verb 'to employ' in L4 solely to force an AABB rhyme scheme with 'joy' in L2, which is not present in the original Hindi text.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces the pronoun 'we' ('we tread') in L6, whereas the original Hindi uses an impersonal infinitive construction ('chalna hai') which does not specify a subject.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'mela' as 'festival' in L8 loses the specific cultural connotation of a bustling, crowded regional fair or carnival, flattening it into a generic celebration.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Embracing life's vibrant colors, overcoming pain, and moving forward with hope and joy."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जीवन के रंगों में,  \nहर खुशी की बौछार है।  \nहर दर्द को भुलाकर,  \nएक नई शुरुआत है।  \nसपनों के उजाले में,  \nहर राह पर चलना है,  \nजीवन के रंगों में,  \nखुशियों का मेला है।",
+  "poem_id": "MV++_0434",
+  "poem_title": "Jeevan Ke Rang",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "99a0ce338215540ee31a3c4e966ffc8950264d78a560e4ea84699587f661c21d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0434.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the colors of life,  \nThere’s a shower of joy.  \nForgetting every pain,  \nA fresh start to employ.  \nIn the light of dreams,  \nOn every path we tread,  \nIn the colors of life,  \nA festival of joy is spread.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:24:04.544037+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c8d5a4b21c7e6768798fa9788c434da20ffd11a1e6bb3b88e374bc85487cdf42",
+        "response_hash": "9468a76148b2cabc13d8d38a0d4e9bcec1c053dec37e6eb4ed0ba334b7ef2848"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "18106e230b8a360f2e06cbc2d1f3f19e4d470c012b25f4480768cce260eed0b7",
+        "response_hash": "67c3a9dbc07dffc3944931677da542879c79a086714f4c0f307fcdb03dbbb97a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "636ff5b7e1b531d0eea5e391ee77fb32d549034820f12f0011d86f11e3fa4321",
+        "response_hash": "233dca60735682aa58c61277f15def80e3bacc3201b46c7c87d6aab6843f4754",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "146763b28ff2687cc2ae70d98e6c85035ffdb86c2e3387f3493542205d5bebaa",
+        "response_hash": "e9da6297bb6593af3976dbebcff4714717c749c142db720c23241c84d9a853b3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "77213ac5d9b9af8bb836d8ff5d62c98263496536f36f866d0b99ea4a03484881",
+        "response_hash": "ff2007248a9aad8eab8965c2b1545fcc0ea814a1a1aa673b39be25d268da6d37",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d9c7d5daa3afa3baf11fa9daf91dd4b59e884d0197a20da4ab51a7973f254f93",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c71b0df5d4d327cc0f9be2d517cf801c325202bac4cb71b30c0cc1cebceae8e3",
+    "translation_sha256": "278233a80a201fef657afea53cfcb4433345ff5f1e4fce7168b470bdaee3563c"
+  }
+}

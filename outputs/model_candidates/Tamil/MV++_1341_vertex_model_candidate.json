@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to joyful celebration",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation renders 'kodugalaal' (by lines/strokes) as 'with your grace', which shifts the visual metaphor of drawing or shaping to a more abstract concept.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The precious, vital, and beautiful outcomes, creations, or experiences of the speaker's life.",
+            "acceptable_visual_variants": [
+              "A tree of light with glowing, ripening fruit-like shapes representing life's achievements",
+              "A human figure surrounded by blossoming, fruit-bearing vines that radiate warm light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The fruits of my life / soul",
+            "literalization_risk": "Showing literal apples or mangoes hanging from a human body or heart, which would look bizarre and miss the emotional depth of life's achievements or joy.",
+            "metaphor_mapping": {
+              "tenor_concept": "precious outcomes of life",
+              "transferred_attributes": [
+                "sweetness",
+                "growth",
+                "ripening",
+                "vitality"
+              ],
+              "vehicle_concept": "fruits of a plant"
+            },
+            "source_span_original": "என் உயிரின் கனிகள்",
+            "source_span_translation": "The fruits of my life",
+            "source_term": "என் உயிரின் கனிகள்",
+            "tenor": "the vital, precious outcomes or creations of the speaker's life/soul",
+            "vehicle": "fruits (kanygal) growing on a plant or tree",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict abstract glowing spheres or blossoming floral/fruit-like shapes emerging from a central figure or heart, symbolizing growth and inner joy."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'கோடுகளால்' (kodugalaal) as 'with your grace' loses the literal meaning of 'lines' or 'strokes' (from 'kodu'), which suggests artistic lines, boundaries, or physical contours, replacing it with a more abstract concept of grace.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'உறையும்' (uraiyum) as 'wraps around' alters the primary Tamil meanings of 'freeze', 'coagulate', 'dwell', or 'abide', softening the intense, static, or settling quality of the original verb into a dynamic wrapping motion.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'வளரும்' (valarum) as 'blossom' changes the literal meaning of 'grow' or 'flourish' to a specific floral metaphor, altering the original imagery of growth.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of love and beauty that brings the speaker's life to full blossom."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "அழகிய பெண் மயக்கம்,  \nஉன் கோடுகளால் உறையும்,  \nஎன் உயிரின் கனிகள்,  \nஇன்பத்தில் அழகாய் வளரும்!",
+  "poem_id": "MV++_1341",
+  "poem_title": "Azhagiya Penmai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "88fb407eb47a97dc21b9e9843b29d91064e407809f250261f4e90e50ede47870",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1341.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The enchantment of a beautiful woman,  \nWraps around with your grace,  \nThe fruits of my life,  \nBlossom beautifully in joy!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:23:12.568898+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a5197b10e811735918b605a007661f188a51f3e8d1fcdfd05b43af7b3b2a2b5b",
+        "response_hash": "dfa25d69cd9f1bc82851a34f6e4072bf579b201754779c1b6dd86e155a53927b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4dc7842bd44c9c1e1a082d44038da1b584e6d0d7aa4f7fde44cdb6f2a9521835",
+        "response_hash": "db8018240e82fa187cf85b7c0765e9375eb20ec0654507c0f2bc6bb0a0792ec4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "272f686e6f319084d4dcd6bdce4626570f4a47b0e333a50a78643f0a6784dd6f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dcafea434056c8ad81da09b5b5c6089466f9099b3041c0d9a959399e9b5da675",
+        "response_hash": "48fd5f0e0a0f841baa7cb05cc3b46762c2e3963655f6cf05e61db7dccca83171",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c40f8edb9dd77b53f08fe4c90ba9b56aa33f43e90bd3d37c00985c9e129d0d53",
+        "response_hash": "a60153d59d3a283e5c5181198cad2c620520bd39310c9051b78aeab61c093247",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "860699a94e2fb441ee24c61b3b5c848f0100645034d2392b370fec0a26197f9b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8bd0960dc5fe98d0dcb67d8d5e24dcab4a0b31a6cfa85c9d67512b6a91f4cc05",
+    "translation_sha256": "d1d91e6d27226890ac3d42c31686c022e250c2935348b012f7dc399a4c5b3c49"
+  }
+}

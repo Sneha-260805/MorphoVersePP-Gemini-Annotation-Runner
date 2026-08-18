@@ -1,0 +1,228 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A plain light-brown bamboo flute held horizontally",
+          "A rustic hand-carved wooden flute resting on a surface"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The traditional bamboo flute of Assam, deeply rooted in regional folk music, pastoral life, and devotional traditions.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "An ornate Western metal concert flute",
+          "A highly decorated classical Indian bansuri with heavy tassels and gems"
+        ],
+        "preserved": true,
+        "romanization": "bahi",
+        "source_span_original": "বাঁহী",
+        "source_span_translation": "flute",
+        "stanza_index": 1,
+        "term": "বাঁহী",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A simple, natural bamboo flute (bahi) with finger holes, lacking elaborate modern keys or metal ornamentation."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A transition from acknowledging life's dark history to finding hope and affection through dreams and music.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the specific Assamese emotional resonance of 'cheneh' (affection/warmth) and 'morom' (love/affection) are slightly flattened into standard English equivalents.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life is a record of past experiences, struggles, and memories.",
+            "acceptable_visual_variants": [
+              "An open, ancient-looking book with faint, glowing memories or silhouettes rising from its pages.",
+              "A winding path shaped like a written scroll stretching into the distance."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Life, you are a history book or chronicle",
+            "literalization_risk": "Showing a literal history textbook or historical document, which misses the personal, existential nature of individual life.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "recording of events",
+                "accumulation of past moments",
+                "narrative structure"
+              ],
+              "vehicle_concept": "history book"
+            },
+            "source_span_original": "জীৱন, তুমি এক বুৰঞ্জী",
+            "source_span_translation": "Life, you are a history",
+            "source_term": "জীৱন, তুমি এক বুৰঞ্জী",
+            "tenor": "human life and its accumulated experiences",
+            "vehicle": "a history book / chronicle",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, open chronicle or scroll whose pages blend into scenes of a person's life journey."
+          },
+          {
+            "abstract_meaning": "Experiencing difficult, dark, or depressing times in life.",
+            "acceptable_visual_variants": [
+              "A person standing under a localized dark storm cloud while holding a small light.",
+              "Dark, heavy clouds looming over a landscape, casting deep shadows."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the middle of very bad clouds",
+            "literalization_risk": "Depicting a literal meteorological storm without connecting it to the emotional state of the individual.",
+            "metaphor_mapping": {
+              "tenor_concept": "life difficulties",
+              "transferred_attributes": [
+                "darkness",
+                "gloom",
+                "temporary nature",
+                "turbulent atmosphere"
+              ],
+              "vehicle_concept": "storm clouds"
+            },
+            "source_span_original": "অতি বেয়া মেঘৰ মাজত",
+            "source_span_translation": "Amidst the darkest clouds",
+            "source_term": "অতি বেয়া মেঘৰ মাজত",
+            "tenor": "difficulties, sorrow, or dark periods of life",
+            "vehicle": "dark, stormy clouds",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a figure surrounded by heavy, dark, swirling storm clouds, with a faint light of hope breaking through."
+          },
+          {
+            "abstract_meaning": "The expression of deep love, affection, and emotional harmony arising from the heart.",
+            "acceptable_visual_variants": [
+              "A hand gently holding a bamboo flute from which glowing, warm light-waves emerge.",
+              "A stylized flute integrated with abstract, warm floral or heart-shaped patterns."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The flute of the heart's affection",
+            "literalization_risk": "Showing a physical bamboo flute placed inside a literal anatomical heart, which would look grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional expression of love",
+              "transferred_attributes": [
+                "producing sweet music",
+                "requiring breath/spirit to play",
+                "evoking deep feelings"
+              ],
+              "vehicle_concept": "flute"
+            },
+            "source_span_original": "হৃদয়ৰ চেনেহৰ বাঁহী",
+            "source_span_translation": "The flute of the heart's affection",
+            "source_term": "হৃদয়ৰ চেনেহৰ বাঁহী",
+            "tenor": "the expression of love and emotional harmony from the heart",
+            "vehicle": "a flute",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a traditional bamboo flute floating near a glowing, warm light representing the heart, with soft musical notes or wind currents swirling around it."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'অতি বেয়া' (oti beya) as 'darkest' loses the literal meaning of 'very bad' or 'terrible', shifting the tone from a direct, simple evaluation of the clouds to a more conventional poetic description.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and alliterative quality of the Assamese words 'মৰমত' (moromot) and 'চেনেহৰ' (senehor), which both denote forms of love, affection, and tenderness, is simplified into standard English equivalents ('love' and 'affection'), losing the subtle emotional resonance and warmth of these specific Assamese terms.",
+            "where": "L4-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Life as a complex journey of history, dark clouds, and the redeeming power of dreams and affection."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Assamese",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "জীৱন\nজীৱন, তুমি এক বুৰঞ্জী\nঅতি বেয়া মেঘৰ মাজত,\nসপোনৰ মৰমত দিয়া\nহৃদয়ৰ চেনেহৰ বাঁহী।",
+  "poem_id": "MV++_0006",
+  "poem_title": "Jibon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "792c977b43e536922c66182c9c17f50d377fc9821910a4f31c146a1d62624d5b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Assamese/MV++_0006.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Life\nLife, you are a history\nAmidst the darkest clouds,\nGifted in the love of dreams,\nThe flute of the heart's affection.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:37:09.556321+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9bb1891011945132c5566884049146ca9b01232e8ceca769865d05f2425460b6",
+        "response_hash": "fe6075e205145be0893f860b21359046969501fcfdac7d111ea8c208f9555631"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "42aca559c8cd1d2af2ed8d30b27106a1ca2ffe4a73ddf865586879809a2f36ba",
+        "response_hash": "4cbf61fac373b7175bf3cdd37133ad21e94b1e67b4dd67bffa2bee1cd85548cd",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "675745c9f030d2b343948596e432c8aba6da4779963c4fe7999462356818e46b",
+        "response_hash": "37f50a5c7ecfde62c59497c4f50301afa76a8558568d6a0ba44c9ec1ea0dcbdf",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "11b0842a049ca9eff75ead2d2bda7969bc124faf4ff5be171f59373b0098253a",
+        "response_hash": "d1712ee170dbc980f67c6f8e45b80d916be6e9bb889cbb96b507c2708df2d61c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "647746261627e5f9cb3b1037cce2b5ff28c63ba328113f15cc257964bc6a4a14",
+        "response_hash": "f078871bb4787d39142c4b36644e0cba7cd22ed1fbf13518bb537e420f3e2ff4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f19d1e34b226b14bd5dfdfe641f604c5fc267de8c1e6b81ba5c50294ab252a5c",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a75eab13d09aeddfa8953b37c274e758b2ded7b4f61af718c3536679b078adb5",
+    "translation_sha256": "764299da493caf809c695d22859cd898edb4630648d30c20e3bae0e53a2a382d"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet observation of the shadow's elusive nature shifting into a deeper sense of wonder and mystery",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'dhoop' (sunlight/sunshine) as 'light' generally, which slightly flattens the specific contrast between hot, bright sunlight and cool shadow.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The shadow is described as having human-like agency, feelings of fear, and the action of running away from light and human gaze.",
+            "acceptable_visual_variants": [
+              "A dark silhouette of a person cast on a cobblestone street under a single streetlamp, stretching long and thin.",
+              "A shadow cast on a wall that seems to shrink or bend away from a bright beam of sunlight coming through a window."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L2",
+            "literal_meaning": "The shadow has stories, it hides itself, fears every sunlight, and runs away from every gaze.",
+            "literalization_risk": "An illustrator might draw a literal human figure or a cartoon character with a face running away, which ruins the subtle poetic atmosphere of a natural shadow.",
+            "metaphor_mapping": {
+              "tenor_concept": "The physical movement and disappearance of a shadow",
+              "transferred_attributes": [
+                "fear",
+                "hiding",
+                "running away",
+                "having tales"
+              ],
+              "vehicle_concept": "A timid person hiding from sight"
+            },
+            "source_span_original": "छाया की बातें हैं, वो छुप जाती है,  \nहर धूप से डरती है, हर नज़र से भागती है",
+            "source_span_translation": "These are the tales of the shadow, it hides away,  \nFearing every light, escaping every gaze",
+            "source_term": "छाया की बातें हैं, वो छुप जाती है,  \nहर धूप से डरती है, हर नज़र से भागती है",
+            "tenor": "The natural physical behavior of a shadow, which disappears when light is blocked or changes position, and cannot be grasped.",
+            "vehicle": "A fearful, elusive human being who hides, feels fear, and runs away from others.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stark, elongated shadow cast on a wall or ground, stretching away from a bright light source, conveying a sense of movement and elusiveness without adding literal human features to the shadow."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'dhoop' (which specifically means sunlight or sunshine) as 'light' (which is more generic and loses the direct contrast with shadow/shade).",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical feminine gender of 'chhaya' (shadow) is marked in the verbs 'jaati hai', 'darti hai', 'bhaagti hai', and 'rahti hai', which personifies the shadow as feminine. This gendered personification is lost in the gender-neutral English translation 'it'.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation renders 'apne aap mein hi ek kahani kehti hai' (tells a story within itself) as 'Telling a story within its silence', introducing the word 'silence' which is not explicitly in the Hindi text but captures the quiet mood.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The shadow is constantly attached to a person or object, yet it exists in isolation as a mere dark projection without real companionship.",
+            "acceptable_visual_variants": [
+              "A solitary figure standing in an empty field at sunset, casting a long shadow that is the only other shape in the frame.",
+              "A close-up of a hand casting a shadow on a plain wall, where the hand and shadow mimic each other but do not touch."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "That which is always together/with someone, yet is still lonely/alone.",
+            "literalization_risk": "Depicting two separate people, one looking lonely, which misses the fact that the subject is a physical shadow.",
+            "metaphor_mapping": {
+              "tenor_concept": "A shadow's constant physical attachment to an object",
+              "transferred_attributes": [
+                "being together",
+                "loneliness",
+                "solitude"
+              ],
+              "vehicle_concept": "A lonely companion"
+            },
+            "source_span_original": "जो सदा संग है पर फिर भी अकेली",
+            "source_span_translation": "Always there, yet ever alone",
+            "source_term": "जो सदा संग है पर फिर भी अकेली",
+            "tenor": "The physical reality of a shadow being constantly attached to its owner but having no independent life or interaction.",
+            "vehicle": "A lonely companion who walks beside you but remains emotionally isolated and solitary.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a single person walking down an empty path with their prominent shadow cast beside them, emphasizing the duality of the companion-like shadow and the absolute solitude of the scene."
+          },
+          {
+            "abstract_meaning": "The silent presence and shifting nature of the shadow evoke deep thoughts and tell a silent narrative to those who observe it.",
+            "acceptable_visual_variants": [
+              "A shadow of a window frame cast on a floor, with dust motes dancing in the light beam, suggesting a quiet, passing story of time.",
+              "An abstract shadow of a person cast on a textured brick wall, leaving the viewer to wonder about the person's identity and thoughts."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "It tells a story within itself.",
+            "literalization_risk": "Drawing a shadow with a mouth speaking or speech bubbles, which would look comical and ruin the poem's quiet tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "The evocative visual presence of a shadow",
+              "transferred_attributes": [
+                "telling a story",
+                "communicating meaning"
+              ],
+              "vehicle_concept": "A storyteller"
+            },
+            "source_span_original": "अपने आप में ही एक कहानी कहती है।",
+            "source_span_translation": "Telling a story within its silence.",
+            "source_term": "अपने आप में ही एक कहानी कहती है।",
+            "tenor": "The evocative, mysterious quality of the shadow that inspires contemplation and imagination in the observer.",
+            "vehicle": "A storyteller speaking or conveying a narrative.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the artistic, abstract shape of a shadow that suggests a narrative, such as a shadow of tree branches resembling reaching hands on a bedroom wall."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'apne aap mein hi ek kahaani kehti hai' (literally 'tells a story in/by itself') as 'Telling a story within its silence', introducing the concept of 'silence' which is not explicitly present in the original Hindi text.",
+            "where": "L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The feminine grammatical agreement in 'akele' vs 'akelee' (here 'akelee') and 'kehti hai' reinforces the personification of the shadow as a feminine entity, which is lost in the English translation.",
+            "where": "L6-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The elusive, paradoxical nature of a shadow as a silent companion and a mystery unto itself"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "छाया की बातें हैं, वो छुप जाती है,  \nहर धूप से डरती है, हर नज़र से भागती है,  \nकभी लंबी, कभी छोटी,  \nहर पल बदलती रहती है।\n\nजो पास है पर फिर भी दूर,  \nजो सदा संग है पर फिर भी अकेली,  \nछाया, जो खुद में एक रहस्य है,  \nअपने आप में ही एक कहानी कहती है।",
+  "poem_id": "MV++_0212",
+  "poem_title": "Chhaya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ca226e242b04fa4da5926e752154d9c73c5dda230b18a1b4ca22b70ba1a67da1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0212.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "These are the tales of the shadow, it hides away,  \nFearing every light, escaping every gaze,  \nSometimes long, sometimes short,  \nChanging with every passing moment.\n\nClose yet distant,  \nAlways there, yet ever alone,  \nThe shadow, a mystery unto itself,  \nTelling a story within its silence.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:00:13.687544+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d7a5755b2ea6ffb6dc2db73b56b1cf7cd7c59dfe934e07a71f38b757abdc280e",
+        "response_hash": "f17d01b6a0ac2748159017866884ff9f74ef0306555e232ab76cf5dc4f6316f8"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "85fc1a8e9afca4fe2b76ac7bad48b72fdffbafb7f6f7da05ea54c1086004ce8e",
+        "response_hash": "622156ba7542d767f664bba45ab8c4e546deee7b3cfa9223639afa248e6b039b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "745ed8267f2765ed76188b5be8ffe2701eed9dd7f4c77c6fcd48520662add68d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "26dfd8194d685af3389eb22f79361781bc52a1a9fcef6e2f6152efecd599c7c7",
+        "response_hash": "7ca022a4acdd05cd348d9805a1f1e0dec76cc2aa51cdf6ff97485edf110fc040",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "683d19ee92813b6686e46227c4e79506ef17cfd13ccde19497bc8c45e230a139",
+        "response_hash": "4cba62a7101a948e668a7952c2986f141b0f83283ddc610847247a3072a49494",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1da223317f456e66b1d9318b45da1c431066ed7e141ef2035f5f2cd6c9e6892c",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1761176ad72b31e6fd6313f769e1e256f84003967f90d8f39a7c1bda2f379083",
+    "translation_sha256": "4202325e63febf5c36eaa473f7cab60d6cb5299dfcef58a1cb286ba746e8a317"
+  }
+}

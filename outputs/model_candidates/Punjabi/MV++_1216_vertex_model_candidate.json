@@ -1,0 +1,304 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An abstract, glowing temple silhouette within a human profile",
+          "A traditional stone or marble temple structure"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A temple or sacred place of worship, used here metaphorically to represent the inner sanctum of the mind or soul.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic modern church",
+          "A non-devotional palace"
+        ],
+        "preserved": true,
+        "romanization": "mandir",
+        "source_span_original": "ਮੰਦਰ",
+        "source_span_translation": "temple",
+        "stanza_index": 1,
+        "term": "ਮੰਦਰ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A traditional South Asian temple structure",
+          "sacred architectural elements"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A traditional earthen diya lamp",
+          "A brass oil lamp with a single burning wick"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A sacred flame or light lit in temples and during worship, symbolizing divine presence, spiritual awakening, and purity.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A modern electric light bulb",
+          "A destructive wildfire"
+        ],
+        "preserved": true,
+        "romanization": "jot",
+        "source_span_original": "ਜੋਤ",
+        "source_span_translation": "light",
+        "stanza_index": 1,
+        "term": "ਜੋਤ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A small clay oil lamp (diya) with a bright, steady flame",
+          "A warm golden glow emanating from within"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A group of singers sitting on the floor in prayerful postures",
+          "An abstract representation of musical notes and waves of light flowing from a temple"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A devotional musical performance involving the singing of hymns, praises, and sacred texts, central to Sikh and Hindu worship traditions.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A Western church choir standing in pews",
+          "A secular concert performance"
+        ],
+        "preserved": true,
+        "romanization": "kirtan",
+        "source_span_original": "ਕੀਰਤਨ",
+        "source_span_translation": "hymns",
+        "stanza_index": 1,
+        "term": "ਕੀਰਤਨ",
+        "translation_note": "Translated as 'hymns', which captures the devotional song aspect but loses the specific cultural association with communal, call-and-response musical worship.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Devotees sitting together in a sacred space",
+          "Traditional instruments like the harmonium and tabla being played"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing for spiritual construction to reflective questioning",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The inner self, consciousness, or mind conceptualized as a sacred space of worship and purity.",
+            "acceptable_visual_variants": [
+              "A glowing outline of a temple dome superimposed over a meditating person",
+              "A person sitting in quiet contemplation with a warm, sacred light illuminating their face from within"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical temple made of the mind",
+            "literalization_risk": "An illustrator might draw a literal stone temple building with a giant brain or head inside it, which looks bizarre and misses the spiritual focus on inner purity.",
+            "metaphor_mapping": {
+              "tenor_concept": "mind",
+              "transferred_attributes": [
+                "sacredness",
+                "structure requiring building",
+                "presence of a divine light",
+                "place of worship"
+              ],
+              "vehicle_concept": "temple"
+            },
+            "source_span_original": "ਮਨ ਦਾ ਮੰਦਰ",
+            "source_span_translation": "temple of the mind",
+            "source_term": "ਮਨ ਦਾ ਮੰਦਰ",
+            "tenor": "The human mind or inner consciousness",
+            "vehicle": "A physical temple (mandir)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene human figure in a meditative pose, with a soft, glowing, temple-like architectural silhouette or sacred light radiating from within their chest or head area."
+          },
+          {
+            "abstract_meaning": "Feelings of love, devotion, and compassion growing and flourishing within the heart or mind.",
+            "acceptable_visual_variants": [
+              "Soft pink or white lotus flowers blooming in a calm pool of light",
+              "Delicate blossoms opening up in a warm, glowing atmosphere"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Flowers made of love",
+            "literalization_risk": "Showing literal flowers with hearts on them or physical plants growing out of a brain, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "blooming",
+                "beauty",
+                "fragrance",
+                "growth"
+              ],
+              "vehicle_concept": "flowers"
+            },
+            "source_span_original": "ਪ੍ਰੇਮ ਦੇ ਫੁੱਲ",
+            "source_span_translation": "flowers of love",
+            "source_term": "ਪ੍ਰੇਮ ਦੇ ਫੁੱਲ",
+            "tenor": "Feelings of love and devotion",
+            "vehicle": "Blooming flowers",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict beautiful, soft-colored natural flowers blooming around a central light or within a serene, abstract space representing the inner self."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural resonance of 'jot' (sacred flame/lamp) is translated as a generic 'light within', losing the physical and ritualistic imagery of lighting a traditional oil lamp in a temple.",
+            "where": "L4"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The term 'kirtan' (devotional singing/chanting in congregation) is translated as 'hymns', which flattens the specific communal, musical, and spiritual practice of Sikh and Hindu congregational singing into a Western liturgical concept.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The inner self or mind conceptualized as a sacred temple.",
+            "acceptable_visual_variants": [
+              "A glowing, ethereal temple archway framing a peaceful, meditating figure",
+              "A soft light shining from within a human silhouette"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "A physical temple made of the mind",
+            "literalization_risk": "Depicting a literal brick-and-mortar temple with a brain on the altar, which ruins the spiritual metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "mind",
+              "transferred_attributes": [
+                "sacredness",
+                "structure requiring building"
+              ],
+              "vehicle_concept": "temple"
+            },
+            "source_span_original": "ਮਨ ਦਾ ਮੰਦਰ",
+            "source_span_translation": "temple of the mind",
+            "source_term": "ਮਨ ਦਾ ਮੰਦਰ",
+            "tenor": "The human mind or inner consciousness",
+            "vehicle": "A physical temple (mandir)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on a symbolic representation of inner peace, such as a silhouette of a person in prayer with a warm, golden light radiating from their heart center."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The internal quest to cultivate a pure, loving, and sacred space within the mind."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation quality is marked as 'faithful', but the stanza contains two translation_loss entries detailing significant cultural and semantic losses ('jot' and 'kirtan'), which is internally inconsistent with a fully faithful translation. The quality should be 'partial' or the loss notes adjusted.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The entity 'ਜੋਤ' (jot) is marked as preserved = true, but its translation_status is 'PRESERVED' while the translation_loss list in stanza 1 states that the specific cultural resonance was lost by translating it as a generic 'light within'. This represents an internal contradiction between the entity's preservation status and the stanza's documented translation loss.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Punjabi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ਮਨ ਦਾ ਮੰਦਰ\nਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?\nਰੰਗਾਂ ਵਾਲੀ ਮਿੱਟੀ ਕਿੱਥੋਂ ਲਿਆਈ ਜਾਵੇ?\nਇਸ ਵਿੱਚ ਜੋਤ ਕਿਵੇਂ ਜਗਾਈ ਜਾਵੇ?\nਪ੍ਰੇਮ ਦੇ ਫੁੱਲ ਕਿਵੇਂ ਖਿਲਾਏ ਜਾਵਣ?\nਇਸ ਵਿੱਚ ਭਗਤਾਂ ਦੇ ਕੀਰਤਨ ਕਿਵੇਂ ਵਸਾਏ ਜਾਵਣ?\n\nਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?\nਇਹ ਮਨ ਦਾ ਮੰਦਰ ਕਿਵੇਂ ਬਣਾਇਆ ਜਾਵੇ?",
+  "poem_id": "MV++_1216",
+  "poem_title": "Maan Da Mandir",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f7370c195327dbb2ba97250a3871f7a3ae06e76bce65d05eab957fe550bf3df8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Punjabi/MV++_1216.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Temple of the Mind\nHow can the temple of the mind be built?\nWhere can the colored clay be found?\nHow can the light within be kindled?\nHow can flowers of love bloom in it?\nHow can the hymns of devotees be instilled within?\n\nHow can the temple of the mind be built?\nHow can the temple of the mind be built?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:09:44.558193+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "64f1814768d71daa6b3a036ab9ced1bfb61ec8a03f94068cd19cf9dcbae76d1c",
+        "response_hash": "7ca4af05a6f0b29a266994b4a5c69e19bd5ade123f95d8448444d293dc769e2d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "07b702b3e33f52e0faf2262f2f519676d74f5c27e8b7adb0f17679b20769e677",
+        "response_hash": "bf2a5cb669951e6d67dba1064c83ede9b84fd0f598e4e82c0266373cfd789d78",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6e031f32169e86d62d995ebba772b8f943c33239da1ddaf503441f636671e026",
+        "response_hash": "bcac141a0e69d71be66e2dea1bcea730de18f9b873a6e1bf42b33c81c2704f63",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c6ea5f7198bc4652b37eb3e460f6191642a2f0263390763d2fda6778ed6d64b",
+        "response_hash": "70b558068b1d3ec95a5bee6ec1137551dc106bd2ceacb85da33d0f2f07ec4c41",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79be34a0f6734e0c9b1e80e236f1eefef0d42ae2416a893a9cd43c6cf278dbef",
+        "response_hash": "2fb7d03bc45855a3936dcb9116817ffd806f995e75d4e00c0aebf5c2ae4752ec",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b4eb6df61dc976f5076e2f57a66c8612e58e7ba2c489d278a2eb8172b2e3415",
+        "response_hash": "b4c65da863e53b49d33e7fb38cfb9bac6c48eb587e7651b7f602cf83e161ce42",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "98778ac561803fd0cb22abea826fc750e6c41873cd2b90c7f46464b61bb7011c",
+    "translation_sha256": "15f9e268132bdbbb86678bc8214c8a3baf01cf6073d731ef08f3b3fafa075df6"
+  }
+}

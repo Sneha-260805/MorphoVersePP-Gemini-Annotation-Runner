@@ -1,0 +1,225 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet transition from damp vulnerability to internal peace and creative expression.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal imagery well, though the compound 'neerina mareyolu' (literally 'in the screen/hiding of water') is rendered as 'veil of rain', which slightly shifts the abstract sense of water as a hiding place to a specific weather event.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Living a life that is obscured, hidden, or deeply enveloped by sorrow, tears, or a heavy atmosphere.",
+            "acceptable_visual_variants": [
+              "A person looking out through a window covered in heavy rain streaks",
+              "A figure walking through a dense, misty rain that shrouds their surroundings"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Life within the screen/shroud of water",
+            "literalization_risk": "An illustrator might draw a literal wall of water or a physical curtain made of water droplets, which misses the emotional state of isolation.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional obscurity",
+              "transferred_attributes": [
+                "hiding",
+                "blurring vision",
+                "dampness"
+              ],
+              "vehicle_concept": "water screen"
+            },
+            "source_span_original": "ನೀರಿನ ಮರೆಯೊಳು ಬಾಳ",
+            "source_span_translation": "In the veil of rain, life",
+            "source_term": "ನೀರಿನ ಮರೆಯೊಳು ಬಾಳ",
+            "tenor": "A life lived in obscurity, isolation, or deep emotional sorrow",
+            "vehicle": "A screen or veil made of water/rain",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure standing in a heavy, misty downpour where the background is blurred and obscured by the rain."
+          },
+          {
+            "abstract_meaning": "The memories, past actions, or paths of one's life becoming heavy with emotion, sorrow, or the passage of time.",
+            "acceptable_visual_variants": [
+              "Fading footprints in wet sand being slowly washed by water",
+              "Glistening, wet footprints on a dark stone path reflecting dim light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Footprints became wet",
+            "literalization_risk": "Showing literal muddy footprints on a path without conveying the emotional weight of past journeys.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional traces of the past",
+              "transferred_attributes": [
+                "heaviness",
+                "susceptibility to fading",
+                "moisture"
+              ],
+              "vehicle_concept": "wet footprints"
+            },
+            "source_span_original": "ಹೆಜ್ಜೆ ಗುರುತು ತೇವಗೊಂಡವು",
+            "source_span_translation": "Steps soaked in moisture",
+            "source_term": "ಹೆಜ್ಜೆ ಗುರುತು ತೇವಗೊಂಡವು",
+            "tenor": "The lingering memories or traces of past life experiences affected by sadness or emotional weight",
+            "vehicle": "Wet footprints in the mud or rain",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show soft, fading footprints on a wet, glistening path under a gentle rain."
+          },
+          {
+            "abstract_meaning": "Finding internal direction, comfort, or a path forward through emotional resilience and inner peace.",
+            "acceptable_visual_variants": [
+              "A person standing in the rain with a peaceful expression, looking forward as a soft light guides their steps"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "There was a path in the comfort of the chest/heart",
+            "literalization_risk": "Drawing a literal road or trail winding inside a human chest cavity, which would look bizarre and anatomical.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner emotional direction",
+              "transferred_attributes": [
+                "guidance",
+                "destination",
+                "comfort"
+              ],
+              "vehicle_concept": "pathway"
+            },
+            "source_span_original": "ಎದೆಯ ಹಿತದಲ್ಲಿ ದಾರಿಯಿತ್ತು",
+            "source_span_translation": "Found a path within the heart",
+            "source_term": "ಎದೆಯ ಹಿತದಲ್ಲಿ ದಾರಿಯಿತ್ತು",
+            "tenor": "An internal sense of direction, hope, or emotional resolution",
+            "vehicle": "A physical path or road",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a soft, warm glow radiating from a person's chest, illuminating a faint path ahead of them in the dark."
+          },
+          {
+            "abstract_meaning": "Creating or expressing a beautiful, emotional expression (like a song or poem) born out of being drenched in life's experiences or sorrows.",
+            "acceptable_visual_variants": [
+              "Ripples in a puddle forming concentric circles as if vibrating to a silent melody in the rain"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Bringing a sound/melody while getting wet",
+            "literalization_risk": "Depicting musical notes dripping with physical water droplets, which is overly literal and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "artistic expression of sorrow",
+              "transferred_attributes": [
+                "saturation",
+                "resonance",
+                "emotional depth"
+              ],
+              "vehicle_concept": "drenched melody"
+            },
+            "source_span_original": "ನೆನೆಯುತ ನಾದವ ತಂದು",
+            "source_span_translation": "Bringing forth a drenched tune",
+            "source_term": "ನೆನೆಯುತ ನಾದವ ತಂದು",
+            "tenor": "An artistic or emotional expression shaped by deep feeling and sorrow",
+            "vehicle": "A wet or drenched musical sound",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent a musical instrument (like a flute or stringed instrument) resting in the rain with ripples spreading from it, or a singer singing with rain falling around them."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada word 'mareyolu' literally means 'in the hiding' or 'behind the screen/veil' of water ('neerina'), which the translation renders as 'veil of rain'. This loses the specific nuance of hiding or being concealed behind water.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The word 'neneyuta' carries a double meaning in Kannada: it means both 'getting wet/drenched' and 'remembering/reminiscing'. The translation 'drenched' captures only the physical wetness, completely losing the emotional layer of memory and contemplation.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding inner direction and creative harmony amidst the dampening, obscuring trials of life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ನೀರಿನ ಮರೆಯೊಳು ಬಾಳ,  \nಹೆಜ್ಜೆ ಗುರುತು ತೇವಗೊಂಡವು,  \nಎದೆಯ ಹಿತದಲ್ಲಿ ದಾರಿಯಿತ್ತು,  \nನೆನೆಯುತ ನಾದವ ತಂದು.",
+  "poem_id": "MV++_0965",
+  "poem_title": "Neerina Mareya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "87229391df0e7c4bb937605703ce5580ee7a6b1238a401ca126030f465633d41",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0965.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the veil of rain, life,  \nSteps soaked in moisture,  \nFound a path within the heart,  \nBringing forth a drenched tune.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:37:24.938716+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "99c3caf60d32fefa3346d29c3218b459ac74982289eb6290d096f942518358ce",
+        "response_hash": "2a80b2d88a1c3ec78300a1dad501bb502b17b9181596f1de2b34925d61d95c03"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "91698fc4fc479c5d457f76a1586d25255c2b9e9e9b599c5eab9a9f3fadf1aebe",
+        "response_hash": "69e933849d738633c1cd38134914e953e2f728f7dc442feb89f9b3488a596e1e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ce558f6149cde8020eea1d0eeed232064a2787098fa0a0ed1309f824cf00240f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "10d6d8f92e4d3a3c0000573527a6c4f00ec8fc5cfbab0096bc619854ba10378e",
+        "response_hash": "0158aa324749545a579e3b932a6b431ccfc8ac6659e77cbfdb34304ec79265b9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "65aadc53c4b81464e5b9e5bde0993b3f4c1942f18c34df3c9b1fb8a24c7c59fa",
+        "response_hash": "bd3708be45e6453071a0da3ca8d815eb141e7a148d2def2d59f591dc67912ffd",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "67c15c8031ff0139d5a0a3c44f0589226b73b8fcc18b6d55ca486edff5207c4a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d9693a731d821554a590452baae45bdede0f0cd8977c0523268519b870bcd116",
+    "translation_sha256": "b550b13f6ed73ddd27a877ab3d5df5426ca8618387f7b6b346c6c0bbb24b0575"
+  }
+}

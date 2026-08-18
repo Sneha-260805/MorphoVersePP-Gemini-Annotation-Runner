@@ -1,0 +1,176 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The ultimate spiritual liberation or release from the cycle of rebirth (samsara) in Indian philosophical and religious traditions.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "moksha",
+        "source_span_original": "মোক্ষ",
+        "source_span_translation": "Liberation",
+        "stanza_index": 1,
+        "term": "মোক্ষ",
+        "translation_note": "Translated as 'Liberation', which captures the core meaning but loses the specific philosophical resonance of the Sanskrit/Bengali term 'Moksha' (release from the cycle of rebirth).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "philosophical contemplation to a poignant yearning for life",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The spiritual journey toward liberation involves countless different methods, choices, or life experiences.",
+            "acceptable_visual_variants": [
+              "A single traveler standing at a fork where countless luminous paths branch out into a starry sky.",
+              "An abstract geometric pattern of intersecting lines that all eventually lead to a central point of light."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "On the physical road of freedom, there are ten thousand physical roads.",
+            "literalization_risk": "Depicting literal dirt roads or highways would lose the spiritual and existential dimension of seeking liberation.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual journeys and methods of liberation",
+              "transferred_attributes": [
+                "directionality",
+                "multiplicity of choices",
+                "leading to a final destination"
+              ],
+              "vehicle_concept": "physical roads and paths"
+            },
+            "source_span_original": "মুক্তির পথে অযুত পথ",
+            "source_span_translation": "On the path of freedom, countless roads",
+            "source_term": "মুক্তির পথে অযুত পথ",
+            "tenor": "The spiritual or existential journey toward achieving ultimate liberation (moksha).",
+            "vehicle": "A physical path or road branching into countless other roads.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, abstract landscape where multiple glowing, winding paths converge toward a single distant, radiant horizon."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'মোক্ষ' (Moksha) as 'Liberation' flattens a highly specific Hindu/dharmic philosophical concept of release from the cycle of rebirth (samsara) into a generic English term. While 'freedom' is used for 'মুক্তি' (mukti) in L3, translating both 'মোক্ষ' and 'মুক্তি' with general English terms obscures the distinct philosophical registers of these two words in Bengali.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The intimate, conversational tone of the imperative 'বলো' (bolo) is translated as 'tell me', which loses the specific level of familiarity and warmth conveyed by the ordinary/intimate second-person verb form in Bengali.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The paradox between the spiritual pursuit of ultimate liberation (moksha) and the persistent, deeply human desire to keep living."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing medium and low severity losses. When translation_loss is present, translation_quality should typically be 'partial' to reflect these losses consistently.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that the translation 'loses the specific philosophical resonance'. This is internally inconsistent; if it is only partially preserved and loses key resonance, 'preserved' should be false or the status should be aligned.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Bengali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "মোক্ষ\nমোক্ষ, একটি কথায়।\nমুক্তির পথে অযুত পথ\nযার অন্তে জন্মের শেষ।\nতবে কেন, বলো,\nএখনো এ বাঁচার আকুলতা।",
+  "poem_id": "MV++_0028",
+  "poem_title": "Moksha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "dd7c7f943bf255da03b43372555532189c730c0a2957ae423837802db009b5e1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bengali/MV++_0028.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Liberation\nLiberation, in one word.\nOn the path of freedom, countless roads\nWhose end is the end of birth.\nThen why, tell me,\nThis yearning to live still persists.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:39:25.064147+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0c9ac5c5cf931dbaf7c06ddb0aa18d3b7b3d61f100f49af269856ad885eaac69",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bac53d86a6bb1b8fc6a0e649fc312fd50f219f8b5d0a964bf21376b96781d313",
+        "response_hash": "e95f564718bf0e0132fb85f3e6ce81c3482757b8daa923a3303068ac9471a2eb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ead6dd9de9f88f69a1eca0de0a2ef2683dec274b18d0deacded5cbc3ebeb56d",
+        "response_hash": "e916372e5d5fb9a020f7dcd7ef7b67ae89a7e12b4284a6429c6f8b61fb981195",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "360e8e8d75148445d6edcda9ca0a1be6d6bbb2649bd10541f28504c312fa1acd",
+        "response_hash": "f5b1901201553e0302147077b1e4c5a0d61a36be9622788be0a397e75d749adc",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "034f7ceb609dfd0642f5cd99aa24964c0bc4e6f345a8bfd32d419af85ebff1c2",
+        "response_hash": "30c48664334d3545ec8f22d754f5519dc9a028dba5690715b72cc233c1d2f140",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b9205093b05c2847da83ef587285776310a27e03ca27c99390ef569225639d75",
+        "response_hash": "82aa47a704255fef84c138b67870639464be651c8bb7b0fef75009b5a7082791",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5aa40eab3eaef993a0574d74b1454ff9d4e796115d9fbba6f18472e5f0b5535f",
+    "translation_sha256": "1ec97d58ed21335b515ca22187f8ff5db195da24ee914b54c8bd96c7227582ae"
+  }
+}

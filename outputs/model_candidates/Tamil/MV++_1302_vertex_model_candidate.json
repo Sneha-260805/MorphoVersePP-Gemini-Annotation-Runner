@@ -1,0 +1,194 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A single-stanza movement of deep romantic wonder, shifting from internal listening to external enchantment by a lover's smile.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders 'peidhidum' (showering/raining) as 'whispers', losing the vivid sensory metaphor of love raining down inside the heart. Additionally, the agglutinative locative suffix in 'nenjukkul' (inside the heart) is simplified.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The feeling of love pouring or showering inside the heart like rain.",
+            "acceptable_visual_variants": [
+              "A person standing with a hand over their chest, with soft blue and gold light radiating outward like a gentle shower",
+              "A stylized heart shape filled with flowing, liquid light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "showering/pouring inside the heart",
+            "literalization_risk": "Showing actual rain falling inside a physical human chest cavity or heart organ, which would look grotesque or medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional experience of love",
+              "transferred_attributes": [
+                "pouring down",
+                "filling a space completely",
+                "refreshing"
+              ],
+              "vehicle_concept": "rain/showering"
+            },
+            "source_span_original": "நெஞ்சுக்குள் பெய்திடும்",
+            "source_span_translation": "within the heart",
+            "source_term": "நெஞ்சுக்குள் பெய்திடும்",
+            "tenor": "the sudden, overwhelming feeling of love",
+            "vehicle": "rain or a downpour",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, glowing heart silhouette with soft, rain-like light droplets or sparkling particles gently falling inside it."
+          },
+          {
+            "abstract_meaning": "The beautiful, harmonious, and captivating feeling of love.",
+            "acceptable_visual_variants": [
+              "Abstract golden soundwaves or ripples flowing through the air",
+              "A subtle background pattern of elegant, flowing lines resembling a musical stave without literal notes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "the music of love",
+            "literalization_risk": "Depicting literal musical notes floating out of a heart or a musical instrument labeled 'love', which can look cliché or childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "harmony",
+                "beauty",
+                "rhythm",
+                "evoking deep emotion"
+              ],
+              "vehicle_concept": "music"
+            },
+            "source_span_original": "காதலின் இசையை",
+            "source_span_translation": "music of love",
+            "source_term": "காதலின் இசையை",
+            "tenor": "the emotional harmony and joy of love",
+            "vehicle": "music/melody",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize abstract, flowing waves of warm light or swirling patterns that suggest sound waves and harmony surrounding a couple or a person."
+          },
+          {
+            "abstract_meaning": "The enchanting, mesmerizing, and seemingly inexplicable effect of a loved one's smile.",
+            "acceptable_visual_variants": [
+              "A gentle shimmer in the air around the characters",
+              "A warm, dreamlike soft-focus effect over the scene to suggest a spellbound state of mind"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "magic/illusion",
+            "literalization_risk": "Depicting a literal magician with a top hat, wand, or pulling a rabbit out of a hat, which completely ruins the romantic context.",
+            "metaphor_mapping": {
+              "tenor_concept": "fascination/enchantment",
+              "transferred_attributes": [
+                "inexplicable power",
+                "wonder",
+                "captivation"
+              ],
+              "vehicle_concept": "magic"
+            },
+            "source_span_original": "மாயாஜாலம்",
+            "source_span_translation": "magic",
+            "source_term": "மாயாஜாலம்",
+            "tenor": "the captivating and mesmerizing power of a smile",
+            "vehicle": "magic trick or sorcery",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, sparkling glow or shimmering light particles emanating from a smiling face, conveying a sense of wonder and enchantment."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'peidhidum' (raining/showering) as 'whispers', losing the vivid sensory metaphor of love's music raining down inside the heart.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative locative suffix '-kul' (inside/within) in 'nenjukkul' is flattened into a standard English prepositional phrase.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enchanting, magical power of love and a lover's smile to captivate the heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "நெஞ்சுக்குள் பெய்திடும்  \nகாதலின் இசையை கேள்,  \nஉன் சிரிப்பில் நான்  \nமயங்கிடும் மாயாஜாலம்!",
+  "poem_id": "MV++_1302",
+  "poem_title": "Nenjukkul Peidhidum",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c442ad319a29e6d852e52e829f0edfc8d897739ad9be706644a154d6cc4fc841",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1302.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Hear the music of love  \nThat whispers within the heart.  \nIn your smile, I  \nAm enchanted by the magic!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:19:17.578702+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "faaa0b7ee2c360d2806df63a4ebedd1f825c228d0fb1e03bfa6f564bf220d7fd",
+        "response_hash": "a02d5d69b7075b3036cf6e06a8a80553657e7ffdc17d25de76c3c7fdbc4f5ac8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3ea899142c96ba9fd5b51b2fb7c01be2820b8eaea53b449ee8be8976373ea1f8",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9218b6e5bb569e8ea568b4273fabe94f80159ef383159f691344e4708422f6ae",
+        "response_hash": "7712d2fb06f196af9a00753e9abbb4a41919cd517f0347a83cceae04c2f00221",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d1f1288e79846f9dd2f1b8c0f8d0c44fd206044fddd917c4d35941500f60eb52",
+        "response_hash": "fdf81df20a4b731f66a0c35d22c419b1511e436c5da0fc55a0d9b5433182cb3d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "62fd393c0530113c7b6fa62cb52eada1890f1c440ccc50c342d5b27a319cd988",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7244f107ac589a4fc040f34ccb859a3d0c0d5e2a2b070b377230b2bffee18864",
+    "translation_sha256": "998cd62ad24e5777b5a47f6962e277df5d34afb41c7d35f46784670237feca01"
+  }
+}

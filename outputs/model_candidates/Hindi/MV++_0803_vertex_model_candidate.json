@@ -1,0 +1,118 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A reflective lament on the painful intersection of love and external compulsion, moving from nostalgic regret to a sorrowful acceptance of tears.",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but slightly flattens the rhythmic, melancholic cadence of the repeated Hindi phrase 'kuchh majboori thi' and the subtle emotional weight of 'majboori' (which carries a deep sense of helplessness or societal constraint).",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'majboori' as 'compulsion' loses the deep emotional resonance of helplessness, constraint, and lack of choice that the Urdu/Hindi word carries in romantic poetry.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic, parallel structure of 'kuchh... tha, kuchh... thi' which creates a balanced, melancholic cadence in Hindi is flattened into simpler English phrasing.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The tragic conflict between personal love and external societal or situational compulsion, leading to inevitable sorrow."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कुछ इश्क़ था, कुछ मजबूरी थी  \nकुछ लम्हे थे, कुछ मजबूरी थी  \nजो हंसते थे, वो अब रोते हैं  \nक्योंकि कुछ इश्क़ था, कुछ मजबूरी थी",
+  "poem_id": "MV++_0803",
+  "poem_title": "Kuchh Ishq Tha Kuchh Majboori",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "61101b6d93142e6bedb3113fcd6e5c6b38c937bdf6527ad0c298c2a847673e84",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0803.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Some love, some compulsion  \nSome moments, some compulsion  \nThose who laughed, now cry  \nBecause there was some love, some compulsion.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:14:04.299672+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8a696a2e93265f2a622812662287b8fdb48114eab4b2c1a2dc74d3b279371596",
+        "response_hash": "eaf620ae51a249869ccad104adc1bbfdf5825c38b2d47f4c0f0658b635545f5f"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5f3694165dd64eb8dc6b5b0f8440e2a8e09cf4f39aaa4fa1e5e6e7a2a9ced58b",
+        "response_hash": "bc7c0ded742da04de1b6ad8d39b0a026eef589f567d40861f924cba0e9144ff4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c2dd4dbb51dba234ec75d0975a04b0d89b54db65de125df03d7466aa8261f2ac",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "52354ff928b64dc33ed8d9aafacdcceb39d627094039721f6ab03d510bd1d2cf",
+        "response_hash": "dda2d2c9c20e80ca5b746a9b8aad7b30802b43fbf42600dc353097f2809d42bd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e88718c5bc9366aaef1a0d6ee6d000d23c53a34a8c2ea8d283095f8ecaa8bb42",
+        "response_hash": "a8806dd7c2d8321c935b1e7ba6e03fc97746e22e0259449c7c2972a49778a3df",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "148cb67f861fab60ad3f88067679cc5d7ce7c19d1286f79f99ebd5ce01047b40",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "039e4afe5dc2fc6bfeae92185b1eecbf19f5dad77c85c8d9eabb28139011a15b",
+    "translation_sha256": "ef1dc811a59b6c5b95d89d3edc66003d7a5af22a44641b67a67dd80a8f6a538b"
+  }
+}

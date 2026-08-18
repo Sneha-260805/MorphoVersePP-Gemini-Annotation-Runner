@@ -1,0 +1,163 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address used in classical Telugu didactic poetry (specifically the Sumati Shatakam), meaning 'O person of good intellect' or 'O wise one'.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "The translation preserves the vocative address 'Sumathi' directly. In classical Telugu moral literature (specifically the Sumati Shatakam), this is a standard didactic address meaning 'O person of good intellect' or 'O wise one'.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "cautionary advice and moral warning",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation generalizes specific historical/social roles (such as 'sunkari' meaning toll-collector, 'mangasali' meaning barber, 'velayali' meaning courtesan, and 'vamahastu' meaning left-handed person or deceitful hand) into generic descriptions of deceit, losing the precise social categories of the classical Sumathi Shatakam verse.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A deceitful, untrustworthy, or sinister person who acts underhandedly while appearing harmless.",
+            "acceptable_visual_variants": [
+              "A stylized shadow showing a hand reaching in an underhanded direction while the person faces forward with a polite posture.",
+              "A split-screen or dual-aspect illustration showing a polite face on one side and a hand secretly pocketing something on the other."
+            ],
+            "expression_type": "metonymy",
+            "line_ref": "L4",
+            "literal_meaning": "left-handed person / left hand",
+            "literalization_risk": "An illustrator might literally draw a person using only their left hand, which completely misses the moral warning about deceit and falsely implies a prejudice against left-handedness.",
+            "metaphor_mapping": {
+              "tenor_concept": "deceitful person",
+              "transferred_attributes": [
+                "unreliability",
+                "hidden motives",
+                "unconventional or untrustworthy action"
+              ],
+              "vehicle_concept": "left hand"
+            },
+            "source_span_original": "వామహస్తు",
+            "source_span_translation": "pretty hand that hides deceit",
+            "source_term": "వామహస్తు",
+            "tenor": "a deceitful or untrustworthy person",
+            "vehicle": "the left hand (traditionally associated with underhandedness, awkwardness, or impurity in classical contexts)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure with a split or dual posture, perhaps offering a gift with one hand while concealing their true intentions or a hidden object behind their back, symbolizing double-dealing."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific occupational and social roles mentioned in the original Telugu text (such as 'sunkari' meaning toll-collector/tax-gatherer, 'mangadivani' meaning shopkeeper/barber, and 'velayalin' meaning courtesan/prostitute) are generalized into generic terms like 'cheat', 'one with an insincere smile', and 'pretty hand' in the English translation, losing the historical and social specificity of the original advice.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal meaning of 'vamahastu' (left-handed person or left hand) is translated abstractly as 'the pretty hand that hides deceit', losing the physical idiom and cultural associations of the left hand in traditional contexts.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The classic 'Sumathi' (meaning one with good intellect/mind) signature (makutam) of the Sumathi Satakam poetic style is kept as a proper noun without conveying its literal meaning as an address to a wise person.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A didactic warning advising the reader to avoid trusting untrustworthy characters in society."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "నమ్మకు సుంకరి, జూదరి,  \nనమ్మకు మగసాలి వాని, నటు వెలయాలిన్,  \nనమ్మకు మంగడివానిని,  \nనమ్మకుమీ వామహస్తు నవనిని సుమతీ.",
+  "poem_id": "MV++_1525",
+  "poem_title": "Nammaku sunkari",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d8166b4e9c4a6bc4235440d965b2a5b86ca5b8b5fcb09b351fbb1cce77eb4da9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1525.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Do not trust a cheat, nor a gambler,  \nDo not trust a cunning man who plays the fool,  \nDo not trust the one with an insincere smile,  \nDo not trust the pretty hand that hides deceit, Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:44:34.940064+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2e4dd09ae3227246ae7f503ab63f9df18db112afa33e2f8b5be8767647c81c15",
+        "response_hash": "b7b44cfbcfda860779b5efb6206693e34674dea371cf795f473427996db4a173",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "580ebabb3ccba23bfd7c20eb15033e248d1e9f46212bb14087c90c7a57797ad8",
+        "response_hash": "f98f2faede4c13926920c9d758f45fc2825af4f696cd0680344c11e441ff0218",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e26803fc0d5903e348ad45106e993c51e261b9d141d60cd9971f2324904d4eb2",
+        "response_hash": "c25ec6590f7619d4ed95019f7eb8c55db93a89e04cfdcd82ad67d975dd598cc9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "459f1e770c520d81440cf805530c5c7de65ab7018f815d38cd0f8072e24367af",
+        "response_hash": "d0c1ea7bc21c8df5984ee739883380b33b845262e4318b93d8a8a03aa8b08ca4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9b151aac64ff4535aa1e85ea611a8355e7ff36785954ab834676605ef089679c",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "cbb3f29ffbca9aad5b0ae2aa729da7aef45461ad5164c76142234db8cd69fca5",
+    "translation_sha256": "a281fc54550e1359971f2b0b8149397f1f9bf4354867a35f2241406ffede0a59"
+  }
+}

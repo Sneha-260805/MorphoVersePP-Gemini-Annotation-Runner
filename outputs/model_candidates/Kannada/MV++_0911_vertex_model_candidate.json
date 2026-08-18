@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "turmoil to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The soft, enveloping, and captivating spread of moonlight across the landscape, which feels like a delicate net catching the speaker's thoughts.",
+            "acceptable_visual_variants": [
+              "Moonlight filtering through branches to create a lattice pattern on the forest floor",
+              "A soft, glowing haze of light spreading across a quiet landscape like a thin veil"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A net or web made of moonlight",
+            "literalization_risk": "Depicting a literal spiderweb or fishing net made of glowing threads might look like a fantasy trap rather than a peaceful, beautiful night scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "the widespread, captivating illumination of moonlight",
+              "transferred_attributes": [
+                "enveloping coverage",
+                "delicate structure",
+                "ability to capture or hold attention"
+              ],
+              "vehicle_concept": "a woven net cast to capture things"
+            },
+            "source_span_original": "ಬೆಳದಿಂಗಳ ಬಲೆ",
+            "source_span_translation": "web of moonlight",
+            "source_term": "ಬೆಳದಿಂಗಳ ಬಲೆ",
+            "tenor": "The spread of moonlight (beladingalu)",
+            "vehicle": "A woven net or web (bale)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict soft, overlapping beams of moonlight filtering through trees or clouds, forming a delicate, net-like pattern of light and shadow on the ground."
+          },
+          {
+            "abstract_meaning": "The speaker's thoughts, hopes, or dreams escaping the constraints of daily life and wandering freely.",
+            "acceptable_visual_variants": [
+              "Glowing, abstract bird-like shapes rising from a figure into the night sky",
+              "A person looking up as autumn leaves or light specks drift upward into the moonlight"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "My dreams fly away like birds",
+            "literalization_risk": "Showing literal sleeping dreams or abstract thought bubbles sprouting wings and flying away can look cartoonish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams escaping mental constraints to wander freely",
+              "transferred_attributes": [
+                "upward movement",
+                "freedom",
+                "release from boundaries"
+              ],
+              "vehicle_concept": "birds flying away into the sky"
+            },
+            "source_span_original": "ನನ್ನ ಕನಸುಗಳು ಹಾರಿ ಹೋಗುತ್ತವೆ",
+            "source_span_translation": "My dreams take flight",
+            "source_term": "ನನ್ನ ಕನಸುಗಳು ಹಾರಿ ಹೋಗುತ್ತವೆ",
+            "tenor": "The speaker's dreams and thoughts wandering freely",
+            "vehicle": "Birds or winged creatures taking flight",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a silhouette of a person looking up at a starry sky, with faint, glowing, bird-like shapes or soft light particles ascending into the night."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the specific locative and temporal nuance of 'hottinalli' (at the time of / in the hour of), flattening it to a simpler temporal conjunction 'When'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic and phonetic resonance of the repeated phrase 'beladingala bale' (moonlight web) at the beginning and end of the stanza is partially diminished in English, as the natural cadence and internal rhyme of the Kannada words are lost.",
+            "where": "L1-L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Finding a moment of quiet shelter and dreamlike escape within the chaotic movement of life through the metaphor of a moonlight web."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a detailed loss_note should ideally accompany translation loss when quality is not fully unblemished, or the quality should be calibrated with the presence of structured losses. However, more critically, the loss_note field itself is empty (\"\") while translation_loss has two entries, which is structurally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಬೆಳದಿಂಗಳ ಬಲೆ ಬೀಸಿದ ಹೊತ್ತಿನಲ್ಲಿ,  \nನನ್ನ ಕನಸುಗಳು ಹಾರಿ ಹೋಗುತ್ತವೆ,  \nಜೀವನದ ಗೊಂದಲದ ಮಧ್ಯೆ,  \nಒಂದು ನಿಶ್ಚಲ ಕ್ಷಣದ ಆಸರೆ,  \nಬೆಳದಿಂಗಳ ಬಲೆ.",
+  "poem_id": "MV++_0911",
+  "poem_title": "Belagindala Baale",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1395f3aacf9c613f7ad80156fa8ad67f4b2c334bab7642815596a3517e912305",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0911.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "When the web of moonlight is cast,  \nMy dreams take flight,  \nIn the turmoil of life,  \nA shelter of a still moment,  \nThe web of moonlight.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:30:25.098426+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c33ea2e985252f35d6af700d54724bc1dbc95f14a200c715468b0cc138dc6708",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7847eaafdc73921df5112d9fa39f7d30776daeb0abd33018faf6b4f6555f4661",
+        "response_hash": "a5cf13353d864e3c2d988e8dfdf560e2f475e6b84446ada07a11108ec67e7f08",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a888e48222e24eeec7f74fce3a0a094b417a3a9d644e1db4be2a2e203907470a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ee2f200f69de247c06eafb3cf9a9637527ff1e87e391e9c2327507297aa86418",
+        "response_hash": "243303f2ef1a4db0a755a397359a78b05df10f98630dbf9a08a30bbd4fb17ebd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "94e2f181db55e257379ebb22bada5f60ef6da271aa41fd8db4b0947e24b7e951",
+        "response_hash": "755321f1716b952325cf48774f9350d3ce5c5c689f738ba4f3b7fb23c70ae46f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8da37d769941798d6a591c5a5e7ef6eb88f3e9cfaa4c6319e916bb1222f06732",
+        "response_hash": "b0a99e05581e368c3f10619a1dd36f7c3969674e9ee2e40ad92451e9ae1c64f0",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3bbc830f17e375699d7504da1af5d8cfb86390cc0d8fecc4aa072eac3671bcee",
+    "translation_sha256": "55fb342c499757902f70ce2e83de0824bf16345c130677ac53a0336d8cadf87c"
+  }
+}

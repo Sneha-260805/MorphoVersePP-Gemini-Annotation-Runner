@@ -1,0 +1,196 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The signature makuta (refrain) of the famous Telugu poet Vemana, traditionally addressing his beloved friend or patron Viswada, or symbolizing the universal creator, followed by an exhortation to listen.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Viswadabhirama! Vinura Vema!",
+        "source_span_original": "విశ్వదాభిరామ! వినుర వేమ!",
+        "source_span_translation": "Oh, Viswadabhirama! Listen to what I say!",
+        "stanza_index": 4,
+        "term": "విశ్వదాభిరామ! వినుర వేమ!",
+        "translation_note": "The translation renders this signature line as 'Oh, Viswadabhirama! Listen to what I say!', preserving the name of the addressee but losing the explicit self-referential name of the poet Vema (Vemana).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A sharp, critical observation of human nature and social hierarchy, concluding with a direct, didactic address.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "anger",
+        "index": 1,
+        "loss_note": "The translation introduces concepts like 'storyteller' and 'thief's words' which are not present in the original Telugu line, altering the meaning of 'adhikaram' (authority/power).",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces 'title of storyteller' and 'thief's words fade away like a whisper' which are not present in the original Telugu text. The original text 'అధికార మిచ్చిన' (adhikaaram icchina) literally means 'if given authority/power', which is mistranslated.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "anger",
+        "index": 2,
+        "loss_note": "This stanza is completely unrepresented in the translation; the original line means 'he will drive away all the noble/good people.'",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The entire meaning of this line, which translates to 'he will drive away/dismiss all the noble/great people', is completely omitted and replaced with unrelated imagery in the English translation.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation maps this line to the third line of its single-stanza block, but misses the literal nuance of 'cheppu tinedu' (shoe-eating/leather-chewing) dog, softening it to just 'dog.'",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A person of low character or base nature cannot appreciate or understand noble, refined, or virtuous things.",
+            "acceptable_visual_variants": [
+              "A dog turning its head away from a sweet stalk of sugarcane to gnaw on an old leather sandal.",
+              "A stylized illustration showing a sugarcane stalk and a chewed shoe side-by-side with a questioning or contrasting visual boundary."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L3",
+            "literal_meaning": "Does a dog that eats leather shoes know the sweetness of sugarcane?",
+            "literalization_risk": "An illustrator might literally draw a dog chewing on a shoe next to a stalk of sugarcane, which misses the human social commentary on character and capability.",
+            "metaphor_mapping": {
+              "tenor_concept": "A base person receiving authority/noble values vs appreciating them",
+              "transferred_attributes": [
+                "inability to appreciate refined quality due to base habits"
+              ],
+              "vehicle_concept": "A dog chewing leather vs tasting sugarcane"
+            },
+            "source_span_original": "చెప్పు తినెడు కుక్క చెరకు తీపెరుగునా?",
+            "source_span_translation": "Does a dog relish the sweetness of sugarcane?",
+            "source_term": "చెప్పు తినెడు కుక్క చెరకు తీపెరుగునా?",
+            "tenor": "An uncultured or base person being given authority or exposed to noble, high-quality values which they are incapable of appreciating.",
+            "vehicle": "A dog accustomed to chewing on dry, worthless leather shoes being offered sweet, refined sugarcane.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split scene or a symbolic contrast: on one side, a dog ignoring a fresh, sweet stalk of sugarcane to chew on a discarded leather shoe, subtly framed to evoke the contrast between base habits and refined opportunities."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'చెప్పు తినెడు కుక్క' (a dog that eats/chews on leather shoes) is simplified to just 'a dog', losing the specific, culturally grounded contrast between chewing on worthless leather shoes and tasting sweet sugarcane.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 4,
+        "loss_note": "The translation renders the signature Vemana makutam (refrain) but loses the specific rhythmic and cultural weight of addressing 'Viswadabhirama' and 'Vema.'",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The signature Vemana makutam (refrain) 'విశ్వదాభిరామ! వినుర వేమ!' is translated generically as 'Oh, Viswadabhirama! Listen to what I say!', losing the explicit self-referential naming of the poet 'Vema' (వినుర వేమ - Listen, O Vema).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The inherent nature of a person cannot be changed by giving them power or authority, illustrated through a sharp, proverbial analogy."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "అల్పజాతి వాని కధికార మిచ్చిన\n\nదొడ్డవారినెల్ల తొలగగొట్టు\n\nచెప్పు తినెడు కుక్క చెరకు తీపెరుగునా?\n\nవిశ్వదాభిరామ! వినుర వేమ!",
+  "poem_id": "MV++_1495",
+  "poem_title": "Alpajativani",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3a71670200a11c0d3da1ddc55188399a4f39788d67b03fd5fa14a9afb3dd867e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1495.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The one of lowly birth is given the title of storyteller,\nYet the thief's words fade away like a whisper.\nDoes a dog relish the sweetness of sugarcane?\nOh, Viswadabhirama! Listen to what I say!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:41:08.517431+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d03be1babc3d151eb2e41a0349e59414ed4dc932df79b12fa9b737846ea71a68",
+        "response_hash": "0d762ff9ef30c469ef5268892da8764ef8bb31528ee9baa3ab3fd156df06b038",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "19eb68120b3a4f453c2efe46c6f1806f3b5ace11d8108e7349684e1fa952a70e",
+        "response_hash": "390fa71dab4b82c387ef24c82b3f677f67be0d71683ed880e1b0ce35a518b4c0",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6c3d3aa93d06fde8eac415e31840dc247606314cc21206fcab16ed0ef01bd0b1",
+        "response_hash": "4ba65b2cd9aa628028c3b0bda8ab2820877c7ac5cf57c1444bbe191bafcf2cea",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "476253a4fac4da0b202cf634c58a40f7b0c8dc3a3b8cfe1e52c1d7fb2907bfb3",
+        "response_hash": "7379df45338c6e61080c1ecd0ede53636326e0c9e05ec48efb32d453dfe70ac0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d0f6089c604dc899c56747addea1a3607c0b518a9650eeb767031f72bf46faae",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "948b5df784083e0a0d92d7a749cd8d2e33b56fe9d9b83409b7bc675842191d56",
+    "translation_sha256": "3819ca7d501883994ac71944378ed84fd3b8d36c1f761f1bbba600a1ac32546b"
+  }
+}

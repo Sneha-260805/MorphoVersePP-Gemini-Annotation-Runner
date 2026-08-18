@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "unconditional surrender and devotion to the beloved",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders 'dil' (heart) as 'soul' in line 6, which shifts the emotional locus from the physical/emotional heart to a spiritual plane.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's memories are deeply integrated into the speaker's life and physical existence, constantly felt like a heartbeat.",
+            "acceptable_visual_variants": [
+              "A close-up of a chest with a soft, warm golden glow pulsing in rhythm.",
+              "A silhouette of a person looking at the stars with a faint, glowing heartbeat line overlaid on their chest."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Your memories reside/live inside my heartbeats.",
+            "literalization_risk": "Showing literal memories or tiny figures living inside a beating heart, which looks like a medical anomaly or fantasy illustration rather than deep emotional devotion.",
+            "metaphor_mapping": {
+              "tenor_concept": "constant psychological presence in one's life",
+              "transferred_attributes": [
+                "involuntariness",
+                "rhythm",
+                "essentiality to life"
+              ],
+              "vehicle_concept": "physical residence inside a heartbeat"
+            },
+            "source_span_original": "तेरी यादें मेरी धड़कनों में बसी हैं",
+            "source_span_translation": "Your memories are embedded in my heartbeats",
+            "source_term": "तेरी यादें मेरी धड़कनों में बसी हैं",
+            "tenor": "The constant, involuntary presence of the beloved's memory in the speaker's life",
+            "vehicle": "Memories residing or living inside physical heartbeats",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, glowing heart silhouette with soft, warm light pulsing from it, or a person in a reflective pose with a subtle, rhythmic light emanating from their chest."
+          },
+          {
+            "abstract_meaning": "The beloved's words have a profound, lasting emotional and spiritual impact on the speaker.",
+            "acceptable_visual_variants": [
+              "Abstract waves of light representing spoken words gently enveloping a glowing heart symbol.",
+              "A person holding their hand over their chest as soft, luminous letters float around them."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The effect of your words is on my physical heart.",
+            "literalization_risk": "Showing words physically carved or stamped onto a bloody anatomical heart, which would look violent or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional influence on a person's inner self",
+              "transferred_attributes": [
+                "permanence",
+                "depth",
+                "direct contact"
+              ],
+              "vehicle_concept": "physical impression on an object"
+            },
+            "source_span_original": "तेरी बातों का असर मेरे दिल पर है",
+            "source_span_translation": "Your words leave a mark on my soul",
+            "source_term": "तेरी बातों का असर मेरे दिल पर है",
+            "tenor": "The deep emotional and spiritual influence of the beloved's words",
+            "vehicle": "An physical impact or mark left on a physical heart",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing heart shape with elegant, abstract script or light patterns gently washing over or settling onto its surface."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation shifts the physical/emotional locus from 'dil' (heart) to 'soul' in the English rendering of 'mere dil par hai'.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The intimate, singular informal pronoun 'tu' (and its inflected forms 'tera', 'teri', 'tujhse') is translated as the standard English 'you/your', losing the specific register of deep intimacy or devotion conveyed by the Hindi pronoun.",
+            "where": "L1-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The complete dissolution of self-identity in the existence of the beloved."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं तेरा हूँ, मुझे तुझसे कुछ भी नहीं चाहिए।  \nतेरे बिना, मेरी कोई पहचान नहीं है,  \nमेरे हर ख्वाब में तेरा ही नाम है।  \nतू है तो मैं हूँ, और तू नहीं है तो मैं नहीं।  \nतेरी यादें मेरी धड़कनों में बसी हैं,  \nतेरी बातों का असर मेरे दिल पर है।  \nमैं तेरा हूँ, और तू मेरा है,  \nयह वादा, यह इकरार, केवल तुमसे है।",
+  "poem_id": "MV++_0686",
+  "poem_title": "Main Tera Hoon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "de50a33d071d013e527d0113d8c7ec5643254cc1bae6934648142017462be01f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0686.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I am yours, I ask nothing from you.  \nWithout you, I have no identity,  \nIn every dream of mine, it is your name.  \nIf you exist, I exist; if you don't, I don't.  \nYour memories are embedded in my heartbeats,  \nYour words leave a mark on my soul.  \nI am yours, and you are mine,  \nThis promise, this affirmation, is only with you.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:55:38.025113+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c9f22718800aa68fc23005852f7c8f82aa1211f4c072cbd83745c938f7cfd6b0",
+        "response_hash": "88749e832db71ed17f4d71d97ff6bec2791e6e1d3c349c0b2d461e47a6b75a13"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f01c9233bf37ead9a70440619c7b3757e6d200de14796a5d19d57ba426c34f6f",
+        "response_hash": "30686af8bdb86401ff703fbf4434460f6e5bd40a1deb7b38cc064714e4ccdc33",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dccc3f09f2ec3961da6283d2cbb4486d86e1109731679637d8f7fe738c4de079",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1f5961027c7af935f799878fe3789a492fb9052e5c54489402baedc750ee5424",
+        "response_hash": "7eac69e98ef373598fcc3c2725427ee2821c99cedd3d86750836ae418634d9fe",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "27d55e8c0f69b50b3611206c8f1c8334e94cd46eee04afc84823166647a91488",
+        "response_hash": "db15312a5e38d0780b9477b372c16556464f76217a34bd8d1710139b2a8b836f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc3fb740e2817ca4befb9fe5a0b9fe433591a20dd5bb3141a714ffd7b5d31a2b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "941122f423d894c23bcde51246d614fb0359d9972180769f6a33abb2ef665d22",
+    "translation_sha256": "7d59245a1bba0fb4dcce14db1177d5b3fb4514337c7920fe933c632d45fa3203"
+  }
+}

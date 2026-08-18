@@ -1,0 +1,235 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The physical separation or parting of two people who share a relationship.",
+            "acceptable_visual_variants": [
+              "Two hands gently drifting apart against a soft, warm background",
+              "Two paths diverging in a forest with a single footprint at the split"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L1",
+            "literal_meaning": "Hands slipping away or letting go of each other's physical grasp.",
+            "literalization_risk": "An illustrator might draw two literal hands slipping apart in mid-air, which misses the emotional depth of human relationships parting.",
+            "metaphor_mapping": {
+              "tenor_concept": "maintaining a relationship",
+              "transferred_attributes": [
+                "physical connection representing emotional bond",
+                "letting go representing separation"
+              ],
+              "vehicle_concept": "holding hands"
+            },
+            "source_span_original": "हाथ छूटे",
+            "source_span_translation": "Hands may part",
+            "source_term": "हाथ छूटे",
+            "tenor": "People parting ways or separating in life",
+            "vehicle": "Hands letting go of each other",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict two silhouetted figures walking in opposite directions from a shared path, with their hands slightly reaching back but no longer touching."
+          },
+          {
+            "abstract_meaning": "The different directions, choices, and journeys that a person's life can take over time.",
+            "acceptable_visual_variants": [
+              "A winding dirt path disappearing into a soft sunrise",
+              "A fork in a quiet forest trail"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Physical roads or pathways belonging to life.",
+            "literalization_risk": "Drawing a literal asphalt highway or street sign with 'Life' written on it would look cartoonish and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "life progression and choices",
+              "transferred_attributes": [
+                "direction",
+                "forks and turns",
+                "journeying"
+              ],
+              "vehicle_concept": "roads and pathways"
+            },
+            "source_span_original": "जिंदगी के रास्ते",
+            "source_span_translation": "paths of life",
+            "source_term": "जिंदगी के रास्ते",
+            "tenor": "The course, choices, and progression of human life",
+            "vehicle": "Physical roads or paths",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a winding, misty path through a natural landscape that splits into different directions."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of L3 ('Do the paths of life really change') introduces a negative/questioning tone ('really change') which is not present in the original Hindi text 'जिंदगी के रास्ते बदल जाते हैं' (which simply states that the paths of life do change).",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Emotional distance or physical separation does not destroy the deep emotional bond or love between people.",
+            "acceptable_visual_variants": [
+              "A delicate thread of golden light stretching across a vast landscape between two distant points",
+              "Two distant windows lit up with the same warm color in the night"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L4",
+            "literal_meaning": "Physically shattering or fracturing muscular cardiac organs.",
+            "literalization_risk": "Showing a literal human heart organ cracked in half or shattered like glass is graphic and misrepresents the gentle, enduring tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "destroying emotional connection or causing deep grief",
+              "transferred_attributes": [
+                "fragility",
+                "irreversible damage",
+                "pain"
+              ],
+              "vehicle_concept": "shattering a fragile object"
+            },
+            "source_span_original": "दिलों को नहीं तोड़तीं",
+            "source_span_translation": "break hearts",
+            "source_term": "दिलों को नहीं तोड़तीं",
+            "tenor": "Causing extreme emotional pain or destroying an emotional bond",
+            "vehicle": "Shattering a physical object (heart)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, warm light connecting two distant figures, showing that the space between them does not sever their connection."
+          },
+          {
+            "abstract_meaning": "Being deeply connected through genuine love, affection, and emotional intimacy.",
+            "acceptable_visual_variants": [
+              "A soft, continuous line of light weaving between two people",
+              "Two figures looking at the same moon from different places, suggesting a shared connection"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Physically tied or linked together by the physical heart organs.",
+            "literalization_risk": "Depicting literal strings or ropes tied to anatomical hearts would look bizarre and medical.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional intimacy and love",
+              "transferred_attributes": [
+                "closeness",
+                "unbreakable link",
+                "shared center"
+              ],
+              "vehicle_concept": "physical connection or tether"
+            },
+            "source_span_original": "दिल से जुड़े होते हैं",
+            "source_span_translation": "connected to us from the heart",
+            "source_term": "दिल से जुड़े होते हैं",
+            "tenor": "Deep emotional and spiritual intimacy between people",
+            "vehicle": "A physical link or bond originating from the heart",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use a subtle, warm golden thread or a soft bridge of light connecting two distant silhouettes."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring nature of deep emotional connections despite physical separation and changing life paths."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "/",
+      "issue": "The poem's language is specified as Kannada in the metadata, but the actual text of the original poem, the source spans, and the source terms are entirely in Hindi (written in Devanagari script). This is a fundamental language mismatch.",
+      "severity": "high"
+    },
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list detailing a significant semantic shift in line L3. This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "हाथ छूटे भी तो रिश्ते नहीं छोड़ा करते,  \nकभी भी, कहीं भी, किसी भी मोड़ पे,  \nजिंदगी के रास्ते बदल जाते हैं।  \n\nदूरियां कभी दिलों को नहीं तोड़तीं,  \nहमेशा पास होते हैं वो लोग जिनसे  \nहम दिल से जुड़े होते हैं।",
+  "poem_id": "MV++_1070",
+  "poem_title": "Hath Chhootey Bhi To Rishte Nahin Chhoda Karte",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b752e13a73a18a9e7354bd231f7b5bd59678999a2b0143240f7c1babad6ed9b6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1070.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Hands may part but relationships endure,  \nNever, anywhere, at any crossroads,  \nDo the paths of life really change.  \n\nDistances never break hearts,  \nThose who are connected to us from the heart,  \nAre always near, always with us.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:54:08.896021+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "63b730543b3425d7a524e5dd3a4b6d7b323e4e37505ac89347a51f9403721b1c",
+        "response_hash": "68d73d65403b4b3193d62a1ed1f73cc080e870dc41300bd7b6ca828cd18c70d1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc96f7d6fa0d3fb8a2cfec73cc2d543ad446006881a6bd240ad85623e1346bfb",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "55ee946eaf1275fda9bf2f095087dc0a7e293c1fd85a74cf78045f402c8a185f",
+        "response_hash": "b623cd119de5b9a7e883c52e3bbfabcb42d022e2277e1f1087d893e35ef8e793",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7b40276234c019bcf54005b4064db65775a210559dc182213f24985b750b5027",
+        "response_hash": "951ccfea2d0bb5d97c9d8d7861b8fe10722fe3f6a60cc54b19a23e82573c49ec",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ec195a1eff5bff3633a3c243beb21e10cbd7f16df6b48557c385f4a2ff20ac04",
+        "response_hash": "12a858ffc0e09f4234c6da9d4a3aacb0a7ea3c67d59dfb0f0e62a3f311332f09",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "fc4c843bce6c123e6013a49c61574319333787753ad0593f660f5026d1f781b8",
+    "translation_sha256": "5526db441e24b5d9ace461b0aa8fd4281a1fe17f143a5d573428f49c77202aba"
+  }
+}

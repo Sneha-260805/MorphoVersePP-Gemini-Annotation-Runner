@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady progression of inner peace and spiritual connection, moving from the recognition of a soulful melody to a deep sense of cosmic harmony woven into life.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the core meaning, but the linguistic blend of Bodo and Assamese/Bengali loanwords (such as 'tumar dhun', 'chitta', 'hridoy') which creates a unique regional devotional register is simplified into standard English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Peace is deeply integrated and intertwined with the speaker's existence.",
+            "acceptable_visual_variants": [
+              "Soft glowing waves of light wrapping around a peaceful figure",
+              "Intertwined threads of gold and blue merging into a heart shape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Life is woven / braided",
+            "literalization_risk": "Showing literal threads or a loom weaving a human body or life-force could look bizarre or like a textile factory advertisement.",
+            "metaphor_mapping": {
+              "tenor_concept": "integrating peace into life",
+              "transferred_attributes": [
+                "intertwined",
+                "inseparable",
+                "structured together"
+              ],
+              "vehicle_concept": "weaving threads"
+            },
+            "source_span_original": "जीवन गुथा",
+            "source_span_translation": "Woven into life",
+            "source_term": "जीवन गुथा",
+            "tenor": "the integration of peace into the speaker's life and existence",
+            "vehicle": "weaving or braiding threads together",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict abstract, soft glowing lines of light or colorful threads gently intertwining and merging into a peaceful human silhouette or heart shape."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ग्वसिंग ग्वरण' (Gwsing Gwrwn) as 'Song of the Soul' simplifies the literal Bodo terms, where 'gwsing' relates to the inner self or mind and 'gwrwn' suggests deep understanding, harmony, or resonance, losing the specific cognitive and spiritual nuances of the original compound.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The original text uses Assamese/Bengali loanwords ('तुमार धुन' / tumar dhun, 'मोर चित्त' / mor chitta, 'मोर हृदयले' / mor hridoyole) mixed with Bodo, creating a multilingual/hybrid linguistic texture that is completely flattened into standard English in the translation.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The unifying melody of the soul that connects individual consciousness, creation, and inner peace."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Bodo",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ग्वसिंग ग्वरण\nग्वसिंग ग्वरण, तुमार धुन\nआत्मा, सृष्टि, मोर चित्त,\nमोर हृदयले शांति\nजीवन गुथा।",
+  "poem_id": "MV++_0040",
+  "poem_title": "Gwsing Gwrwn",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "79bc197b1ab0b390b0f1f301c4b870d5e7e42d504b1b681bb4ff1dbc173efee4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bodo/MV++_0040.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Song of the Soul\nSong of the soul, your melody\nSpirit, creation, in my mind,\nIn my heart, there’s peace\nWoven into life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:40:36.587676+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "39471a86bac4009cd6296c6968d72db65b20b06771ef66170cef2d4b47370f37",
+        "response_hash": "1b1259cd901829257413908b3f4dcc1b7ff4492e5caa8038cb09921eadbf07da"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "82e1ab95252a27014c2e46915ec180e61977f5ce8cc90778c9272648b73f4502",
+        "response_hash": "e2f5005d5663f08104e5af17dbfc6b8f2a00e1aeea352832d9914df9db314732",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cb46556a85b44f69cb5c1559075399ae22a89bbca044a53bde9790f720390daf",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e32a36c203998d05c26ef0a815d6c4d7c9a3697c7a7422620bbd1bf9f7d1287",
+        "response_hash": "3a78f40d75040fb2b46744bd9b7d199600b031fe81c4edba683a4254cede650a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9ac888284b7aa5797e6265451d2b07e562bcfb4c9081947e861324a9b065df4f",
+        "response_hash": "14d044e96c2d02089cdc9a121dc656b4a52cef7d11d826f9bb73e5a9e5044714",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c29a6c5d23e0e17c9796bad3d1a3227050be5890b9ba82bd8fd0ca66bd682a5b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d960e90ae6b7afcf7c02673dae4ce496b3e3a10107258b9f6362a0fd39cc6b63",
+    "translation_sha256": "deae105db1cf89a46997e6cc636cbc870061059e9abdce0deaa916c2c846190c"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A shower of dry, multi-colored powders falling over a crowd",
+          "People playfully splashing colored water on one another in an open outdoor setting"
+        ],
+        "category": "FESTIVAL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A culturally resonant phrase literally meaning 'colors are raining', strongly associated with the celebration of Holi, the Hindu spring festival of colors, where people throw colored powders and water on each other.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A literal rainstorm with dark storm clouds and grey rainwater",
+          "A generic indoor paint party or modern color run marathon disconnected from traditional Indian spring celebrations"
+        ],
+        "preserved": true,
+        "romanization": "rang barse",
+        "source_span_original": "रंग बरसे",
+        "source_span_translation": "Colors rain",
+        "stanza_index": 1,
+        "term": "रंग बरसे",
+        "translation_note": "The translation renders the phrase literally as 'Colors rain', which captures the literal meaning but loses the immediate, culturally-embedded association with the spring festival of Holi.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Vibrant colored powders (gulal) flying in the air",
+          "People drenched in colored water",
+          "Joyful, celebratory atmosphere of spring"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A joyful immersion in color and dreams, moving from physical sensation to inner aspiration.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation renders 'man' (mind/heart) as 'soul' and 'agan' (fire) as 'spark... whole' to rhyme, altering the raw intensity of the fire of dreams ('sapno ki ek agan').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The overwhelming, joyful, and immersive experience of festive colors and emotions filling the atmosphere.",
+            "acceptable_visual_variants": [
+              "Vibrant clouds of colored powder suspended in the air",
+              "Splashes of liquid colors being thrown and showering down like rain"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Colors rain down / shower",
+            "literalization_risk": "Showing literal colored water droplets falling from storm clouds like natural rain, which misses the human, festive, and celebratory context of throwing colors.",
+            "metaphor_mapping": {
+              "tenor_concept": "festive colors",
+              "transferred_attributes": [
+                "falling from above",
+                "soaking everything",
+                "ubiquitous coverage"
+              ],
+              "vehicle_concept": "rain"
+            },
+            "source_span_original": "रंग बरसे",
+            "source_span_translation": "Colors rain",
+            "source_term": "रंग बरसे",
+            "tenor": "The festive spreading of colors and joy",
+            "vehicle": "Rain / falling water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict vibrant, dry or wet colored powders (like gulal) swirling and showering through the air over celebrating people."
+          },
+          {
+            "abstract_meaning": "A burning passion, desire, or intense hope driven by one's dreams.",
+            "acceptable_visual_variants": [
+              "A soft, warm golden glow or spark floating in a colorful atmosphere",
+              "A stylized, non-destructive flame shape made of light or color"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A fire of dreams",
+            "literalization_risk": "Depicting literal flames or fire burning physical objects, which suggests destruction rather than passionate hope.",
+            "metaphor_mapping": {
+              "tenor_concept": "passion of dreams",
+              "transferred_attributes": [
+                "heat",
+                "light",
+                "burning intensity",
+                "transformative power"
+              ],
+              "vehicle_concept": "fire"
+            },
+            "source_span_original": "सपनों की एक अगन",
+            "source_span_translation": "A spark of dreams",
+            "source_term": "सपनों की एक अगन",
+            "tenor": "Passion and intense desire of dreams",
+            "vehicle": "Fire / spark / flame",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a warm, glowing light or a gentle, luminous spark emanating from within a person or cradled in hands."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मन' (man) as 'soul' shifts the meaning from the specific Hindi concept of the mind, heart, and seat of emotions to a more Western spiritual concept of 'soul'.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'अगन' (agan - fire/flame) as 'spark' softens the intensity of the original image of a burning fire or flame of dreams.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The addition of the word 'whole' in the translation is a filler used to complete the rhyme scheme, which is not present in the original Hindi text.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of joy and dreams, experienced as a rain of colors that unites body and soul."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रंग बरसे,  \nभीगे मन और तन।  \nहर रंग में बसी,  \nसपनों की एक अगन।",
+  "poem_id": "MV++_0428",
+  "poem_title": "Rang Barse",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "700a7b52ed927c220f20c04582e845d8355bb1a2ea44acd39398a38e1b7b637c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0428.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Colors rain,  \nSoaking body and soul.  \nIn every hue, lies,  \nA spark of dreams whole.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:23:28.744703+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "abbc6eba86017140e10567d7ea62a6e84bad0d8a4f621fd14cf72da008a20d85",
+        "response_hash": "21210542767c51ab64c0653888df9d2525f99ff25d63fc6533027ce72314890c"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c96f8c137675e645070de63c6b9f29dcf747b90dd094573c91af1bcf4d72094",
+        "response_hash": "597009d5983dd4b1146b282c6b5301d0215b9ba4719cd72a2a05695cd10ba71a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "911cdaa40a8b4e1ffd47fb90ca58385f76d520c60bc50f0b6ca768895e625bac",
+        "response_hash": "0f7819eb720ea81915622d3cacdc1a8dbe374a9e5b4992115e5e7750664f2927",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5c85cf03345d490de55e71be0c881fe2f615824104fc020dc8032e8dc3c3b052",
+        "response_hash": "a42441a619f2beeae0a26a87e78fc2697bfce59c821d7c681822e8dabee81dec",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d68a073e9e0537f45045be05419ddf7b30144883fe14e50beb04d1fb394102de",
+        "response_hash": "bbd66a198d0fcc83f60311bd4b62f4b8ed45cddc94ce9ec04df88625ee5b55fb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "250f3b79ea52fa887cccaf442719d4ad210b76bc13415454798e864bba84454d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ff4290928690276124f56ad7b0ea63bcf1009944c81af96c0ad5b2ebc2c11429",
+    "translation_sha256": "91be4e21723b7587103a1965111ca07136e5aa7e2a503ded8a6a5a7f0d8ea60d"
+  }
+}

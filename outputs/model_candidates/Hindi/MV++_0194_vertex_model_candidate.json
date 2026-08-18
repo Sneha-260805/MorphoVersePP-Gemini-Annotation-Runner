@@ -1,0 +1,342 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A stack of thin, colorful glass bangles on a woman's wrist",
+          "A close-up of hands adorned with traditional metal and glass bangles clinking together"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Traditional Indian bangles, typically made of glass, metal, or lacquer, worn by women on the wrists. They hold deep cultural, social, and symbolic significance in South Asia, often associated with femininity, marriage, and festive celebration, and are celebrated for the distinct chiming sound (khanak) they make when they clink together.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Thick, heavy modern Western-style single bracelets or cuffs",
+          "Beaded charm bracelets"
+        ],
+        "preserved": true,
+        "romanization": "chudiyan",
+        "source_span_original": "चूड़ियाँ",
+        "source_span_translation": "bangles",
+        "stanza_index": 1,
+        "term": "चूड़ियाँ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Circular wrist ornaments",
+          "Typically thin and worn in multiples or sets on each wrist",
+          "Vibrant colors (often red, green, gold, or multi-colored)",
+          "Made of glass or polished metal reflecting light"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "wonder to longing",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces 'in time' and 'quiet streams' to maintain rhyme, slightly altering the directness of the original Hindi imagery.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sound of the bangles is so sweet and captivating that it feels like a beautiful melody drifting through the air.",
+            "acceptable_visual_variants": [
+              "A close-up of hands wearing glass bangles with soft, warm light reflecting off them to suggest vibration and sound.",
+              "A stylized depiction of hands with bangles surrounded by delicate, flowing patterns representing wind and melody."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "Like a song drifting/swaying in the wind",
+            "literalization_risk": "Showing literal musical notes or a physical song floating in the air might look cartoonish and distract from the romantic focus on the bangles.",
+            "metaphor_mapping": {
+              "tenor_concept": "the sound of bangles",
+              "transferred_attributes": [
+                "sweetness",
+                "movement through air",
+                "captivating quality"
+              ],
+              "vehicle_concept": "a drifting song"
+            },
+            "source_span_original": "जैसे कोई गीत हवा में बहकता है",
+            "source_span_translation": "It's as if a song sways in the air, in time",
+            "source_term": "जैसे कोई गीत हवा में बहकता है",
+            "tenor": "The chiming sound of the bangles",
+            "vehicle": "A song drifting or swaying in the air",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of hands with colorful bangles in motion, with soft, swirling wind lines or light trails around them to suggest the movement of sound."
+          },
+          {
+            "abstract_meaning": "The sound of the bangles is so vibrant and evocative that it feels as if colors are scattering into the surroundings.",
+            "acceptable_visual_variants": [
+              "Soft, out-of-focus colored light circles (bokeh) surrounding the hands.",
+              "A subtle, colorful aura or glow emanating from the glass bangles as they clash."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "As if some color scatters in their chime",
+            "literalization_risk": "Showing literal paint or colored powder exploding from the bangles could look messy or resemble a Holi festival scene, which is not the intended romantic context.",
+            "metaphor_mapping": {
+              "tenor_concept": "the sound of bangles",
+              "transferred_attributes": [
+                "vibrancy",
+                "sensory richness",
+                "dispersion"
+              ],
+              "vehicle_concept": "scattering colors"
+            },
+            "source_span_original": "उनकी खनक में जैसे कोई रंग बिखरता है",
+            "source_span_translation": "In their sound, colors scatter like dreams",
+            "source_term": "उनकी खनक में जैसे कोई रंग बिखरता है",
+            "tenor": "The sound of the bangles",
+            "vehicle": "Scattering colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use soft, glowing, multi-colored light leaks or a gentle bokeh effect radiating from the moving bangles to represent the visual dispersion of sound."
+          },
+          {
+            "abstract_meaning": "The sound of the bangles has a gentle, soothing, and magical quality, akin to a dream entering someone's sleep.",
+            "acceptable_visual_variants": [
+              "A soft-focus, ethereal background with warm, glowing light surrounding the hands.",
+              "A slightly blurred, double-exposure effect on the bangles to suggest a dreamlike, shifting reality."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Like a dream descending into sleep",
+            "literalization_risk": "Depicting a sleeping person with a literal dream bubble could look overly literal and break the poetic, romantic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "the sound of bangles",
+              "transferred_attributes": [
+                "gentleness",
+                "magical quality",
+                "soothing presence"
+              ],
+              "vehicle_concept": "a dream entering sleep"
+            },
+            "source_span_original": "जैसे कोई सपना नींदों में उतरता है",
+            "source_span_translation": "As if a vision descends in quiet streams",
+            "source_term": "जैसे कोई सपना नींदों में उतरता है",
+            "tenor": "The sound of the bangles",
+            "vehicle": "A dream entering sleep",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Use a dreamy, soft-focus aesthetic with hazy, warm lighting to evoke a surreal, dreamlike state around the hands and bangles."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific onomatopoeic quality of 'chanakti' (clinking/tinkling of bangles) and 'khanak' (metallic/glass ring) is flattened into the more generic English 'chime' and 'sound'.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts 'sapna neendon mein utarta hai' (a dream descends into sleeps/slumber) to 'a vision descends in quiet streams' to force an English rhyme, losing the pluralized intimacy of 'neendon' (sleeps) and replacing 'dream' with 'vision' and 'quiet streams'.",
+            "where": "L4"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation alters 'bahakta hai' (wanders, goes astray, becomes intoxicated/wild) to 'sways... in time', which reverses the original sense of uninhibited, drifting movement to one of structured rhythm.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'kasak' as 'yearning that lingers after' captures the emotional essence but loses the specific, sharp physical-emotional ache implied by the Hindi word.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vibrant colors of the bangles evoke the joy and beauty of the beloved's laughter.",
+            "acceptable_visual_variants": [
+              "Brightly colored glass bangles catching warm sunlight, casting cheerful reflections.",
+              "A close-up of the colorful bangles with the beloved's joyful, smiling face softly blurred in the background."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "In their every color is a glimpse of your laughter",
+            "literalization_risk": "Trying to superimpose a literal face or mouth laughing inside the glass of the bangles would look bizarre and unnatural.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's laughter",
+              "transferred_attributes": [
+                "brightness",
+                "joyfulness",
+                "vibrancy"
+              ],
+              "vehicle_concept": "colors of bangles"
+            },
+            "source_span_original": "उनके हर रंग में तुम्हारी हँसी की झलक है",
+            "source_span_translation": "Each hue reflects a glimpse of your laughter",
+            "source_term": "उनके हर रंग में तुम्हारी हँसी की झलक है",
+            "tenor": "The beloved's laughter",
+            "vehicle": "The colors of the bangles",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the bright, cheerful colors of the bangles reflecting warm, joyful light, perhaps with a soft, out-of-focus smile of the beloved in the background."
+          },
+          {
+            "abstract_meaning": "Each chime of the bangles evokes a deep, sweet ache or yearning in the heart of the lover.",
+            "acceptable_visual_variants": [
+              "A hand wearing bangles resting gently over the heart, captured in soft, nostalgic lighting.",
+              "A close-up of the bangles with a warm, moody color palette that evokes nostalgia and longing."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L6",
+            "literal_meaning": "In every chime, it is as if there is some ache of the heart",
+            "literalization_risk": "Depicting a literal heart with a crack or pain symbol would look cartoonish and overly dramatic.",
+            "metaphor_mapping": {
+              "tenor_concept": "sound of bangles",
+              "transferred_attributes": [
+                "emotional resonance",
+                "lingering quality",
+                "sweet pain"
+              ],
+              "vehicle_concept": "heart's ache/yearning"
+            },
+            "source_span_original": "हर छनक में जैसे दिल की कोई कसक है",
+            "source_span_translation": "Each chime holds a yearning that lingers after",
+            "source_term": "हर छनक में जैसे दिल की कोई कसक है",
+            "tenor": "The sound of the bangles",
+            "vehicle": "An ache or yearning of the heart",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Convey the emotional resonance through moody, atmospheric lighting, perhaps showing a hand gently touching the chest or a lingering shadow."
+          },
+          {
+            "abstract_meaning": "The sound of the bangles is so sweet and captivating that it feels like a beautiful melody drifting through the air.",
+            "acceptable_visual_variants": [
+              "A close-up of hands wearing glass bangles with soft, warm light reflecting off them to suggest vibration and sound.",
+              "A stylized depiction of hands with bangles surrounded by delicate, flowing patterns representing wind and melody."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L8",
+            "literal_meaning": "Like a song drifting/swaying in the wind",
+            "literalization_risk": "Showing literal musical notes or a physical song floating in the air might look cartoonish and distract from the romantic focus on the bangles.",
+            "metaphor_mapping": {
+              "tenor_concept": "the sound of bangles",
+              "transferred_attributes": [
+                "sweetness",
+                "movement through air",
+                "captivating quality"
+              ],
+              "vehicle_concept": "a drifting song"
+            },
+            "source_span_original": "जैसे कोई गीत हवा में बहकता है",
+            "source_span_translation": "It's as if a song sways in the air, in time",
+            "source_term": "जैसे कोई गीत हवा में बहकता है",
+            "tenor": "The chiming sound of the bangles",
+            "vehicle": "A song drifting or swaying in the air",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of hands with colorful bangles in motion, with soft, swirling wind lines or light trails around them to suggest the movement of sound."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'that lingers after' to 'yearning' (kasak) to complete a rhyme scheme, which is not present in the original Hindi text.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'kasak' as 'yearning' partially misses the physical/emotional nuance of a dull, lingering ache or sudden twinge of pain/longing.",
+            "where": "L6"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The repetition of the opening couplet in L7-L8 carries the same loss of 'chanakti' and 'bahakta' (altered to 'chime' and 'sways... in time') as seen in Stanza 1.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sensory memory of a beloved's bangles evoking deep emotional resonance and longing."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हारे हाथ की चूड़ियाँ जब छनकती हैं,  \nजैसे कोई गीत हवा में बहकता है।  \nउनकी खनक में जैसे कोई रंग बिखरता है,  \nजैसे कोई सपना नींदों में उतरता है।  \n\nउनके हर रंग में तुम्हारी हँसी की झलक है,  \nहर छनक में जैसे दिल की कोई कसक है।  \nतुम्हारे हाथ की चूड़ियाँ जब छनकती हैं,  \nजैसे कोई गीत हवा में बहकता है।",
+  "poem_id": "MV++_0194",
+  "poem_title": "Tumhare Haath Ki Chudiyan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "30df137cc7ac20b15c0fa327aac7a404890a4008a6b4c86605d0946278f99e81",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0194.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "When the bangles on your hands chime,  \nIt's as if a song sways in the air, in time.  \nIn their sound, colors scatter like dreams,  \nAs if a vision descends in quiet streams.  \n\nEach hue reflects a glimpse of your laughter,  \nEach chime holds a yearning that lingers after.  \nWhen the bangles on your hands chime,  \nIt's as if a song sways in the air, in time.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:58:00.963791+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c7e259e5aa5442eaff48443c9863950292adb1f7192a4fd0153ec2d60e5deaea",
+        "response_hash": "a47c11bfb206ddeb4751de0d4fe7eb72765da351192a560670d067fa7b5fbf66"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b326ed303222efd6fa17d552e0613fb682e9901a9667ae44fd26a44d6a00843a",
+        "response_hash": "d30f4214868a1205679516bc1bf99bc005bacfa106384b6641059fac4bdcdbf1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6ed739ad4b5768d96f8eb95b3936702dc481b20b2c0bfc6dde05295bd5aefc1b",
+        "response_hash": "5c8d639d18e1a90cf388ae5eddccc9eb7b5c1e766de9d9337a2303536213fe4a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1d4aaf28b2b65436bda4c99f3167a09a04271d638ba026dd6310a34805ad69f1",
+        "response_hash": "9e6fcd6841ffde50850150a1f2361950b01c97eea714ca2175a1b0fe4e7a8a4c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "812c99babce236dc07a4048bc7ff7e0b1a456f80d0f3b9dd19d7b6cf44a6b5fe",
+        "response_hash": "90b9e81ed454a85d30ed850ec458e13dc3930f1a02ce5ad13f0580c6684a8420",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7418f04bf455804c8c36ff639b291d3dcd16e2e4a01520e2d57e5b1b7bb8a6a3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "90a86ade187bdbdafaa29a2cb6ec0a0c97a4c32cacba8044d058bd7d96a5e9bf",
+    "translation_sha256": "4dd951cdc2603006c9f74830830f0c75ceb5c6efd89b5b846d2453c0ce6af845"
+  }
+}

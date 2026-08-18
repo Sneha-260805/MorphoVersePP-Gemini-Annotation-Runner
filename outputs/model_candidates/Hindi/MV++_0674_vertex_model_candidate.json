@@ -1,0 +1,241 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet contemplation to deep inner peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The profound, comforting, and structured quality of absolute silence or inner peace.",
+            "acceptable_visual_variants": [
+              "A single drop falling into a completely still pool of water, creating gentle concentric rings.",
+              "A person sitting in quiet meditation under a starry sky with soft, glowing waves of light representing silent harmony."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "deep music / profound audible melody",
+            "literalization_risk": "Showing musical instruments, notes, or a musician playing, which contradicts the theme of absolute silence.",
+            "metaphor_mapping": {
+              "tenor_concept": "silence",
+              "transferred_attributes": [
+                "harmony",
+                "depth",
+                "comfort",
+                "resonance"
+              ],
+              "vehicle_concept": "music"
+            },
+            "source_span_original": "गहरा संगीत",
+            "source_span_translation": "deepest music",
+            "source_term": "गहरा संगीत",
+            "tenor": "the profound quality of silence or inner peace",
+            "vehicle": "music (specifically deep, structured melody)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person sitting in a vast, serene, empty space with soft ripples in the air around them to suggest resonance without physical sound."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The wordplay and double meaning of 'suni' (सुनी) which means both 'heard' and 'empty/silent' (from 'shunya' or 'soona') is lost in the English translation 'silent moment'. This dual sense of hearing something in emptiness is central to the poem's paradox.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The grammatical gender agreement in 'basi hui' and 'khoi hui' (feminine, referring back to the silent music/vibration) is lost in the gender-neutral English translation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of being settled, secure, or finding a home within silence.",
+            "acceptable_visual_variants": [
+              "A figure resting peacefully under the canopy of a large, ancient tree.",
+              "A warm, soft glow enveloping a person sitting in quiet contemplation."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "a nest, shelter, or dwelling place",
+            "literalization_risk": "Depicting a literal house, hut, or bird's nest, which misses the abstract sense of finding mental refuge.",
+            "metaphor_mapping": {
+              "tenor_concept": "silence",
+              "transferred_attributes": [
+                "safety",
+                "comfort",
+                "permanence",
+                "rest"
+              ],
+              "vehicle_concept": "shelter"
+            },
+            "source_span_original": "बसेरा",
+            "source_span_translation": "dwelling",
+            "source_term": "बसेरा",
+            "tenor": "the state of being settled or finding peace in silence",
+            "vehicle": "a physical shelter or nest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, protective cocoon of light or a gentle enclosure of mist surrounding a resting figure."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The feminine grammatical gender agreement in 'basi hui' (बसी हुई) and 'khoi hui' (खोई हुई) is lost in the English translation, which uses gender-neutral passive participles ('nestled', 'lost') and does not capture the personified feminine subject.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The silent moment encapsulates and expresses the entire meaning, beauty, and rhythm of existence.",
+            "acceptable_visual_variants": [
+              "A blooming flower unfolding its petals in fast-motion, symbolizing the silent but complete expression of life.",
+              "A circular mandala pattern of natural elements (leaves, stars, water droplets) radiating from a central point of stillness."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L12",
+            "literal_meaning": "sings the entire song of life",
+            "literalization_risk": "Depicting a person singing with an open mouth or musical notes flying through the air, which ruins the paradox of silent expression.",
+            "metaphor_mapping": {
+              "tenor_concept": "expressing the essence of life",
+              "transferred_attributes": [
+                "completeness",
+                "expression",
+                "harmony",
+                "beauty"
+              ],
+              "vehicle_concept": "singing a song"
+            },
+            "source_span_original": "जीवन का पूरा गान गाता है",
+            "source_span_translation": "sings\nThe complete song of life",
+            "source_term": "जीवन का पूरा गान गाता है",
+            "tenor": "the silent moment expressing the fullness of existence",
+            "vehicle": "a singer performing a complete song",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a visual representation of life's journey, such as a winding path transitioning through seasons (spring to winter) surrounding a quiet, central figure."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The specific nuance of the verb 'mahsusne' (महसूसने), a colloquial verbalization of the noun 'mahsus' (feeling/perception), is flattened into the generic English gerund 'feeling'.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound, wordless music of silence that resides within every breath and heartbeat."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a translation_loss entry with 'high' severity for L1. A 'faithful' rating is inconsistent with high-severity translation loss.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'partial' with a loss_note and translation_loss entry, which is consistent, but the loss_note is empty for Stanza 1 and Stanza 3 while they still contain translation_loss entries.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सुनी घड़ी में जो सुनाई देता है,\nवो सबसे गहरा संगीत है।\nबिना आवाज़ के भी गूंजता,\nबिना लय के भी बसा रहता।\n\nइस मौन में जो बसेरा है,\nवो शब्दों से परे का है।\nहर धड़कन में बसी हुई,\nहर सांस में खोई हुई।\n\nवो एक अनमोल पल है,\nजो सिर्फ महसूसने से जीया जाता है।\nसुनाई न दे, फिर भी वही\nजीवन का पूरा गान गाता है।",
+  "poem_id": "MV++_0674",
+  "poem_title": "Suni Ghadi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5ea163f4540223372163542b123c3124af5362377cab4164518a704b50729500",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0674.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In a silent moment, what is heard\nIs the deepest music of all.\nEchoing without sound,\nSettling without rhythm.\n\nIn this quiet lies a dwelling,\nBeyond the reach of words.\nNestled in every heartbeat,\nLost in every breath.\n\nIt is a precious moment,\nLived only through feeling.\nUnheard, yet it sings\nThe complete song of life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:54:02.467033+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6ae28be2d7d489c65d147addc70c6804f3d326698bcf286a0239bb7917e8ede9",
+        "response_hash": "f5fafbd92ffed6dc48eb54eaf41fa6ede17b01cd6a6fd7c584c0ff04f49106f4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c0c622ff399be8b20ac79a0564e3be3a01c3018ba8a8641b1a61aae58545a9a7",
+        "response_hash": "90710bd06c7651e2cf53f07945bd49aa821e74d103ffa9294f717515133532cd",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea504083755e8253fe9f6d954a9bc95de73e59f0b0737e2a82dba9e813340ee0",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2fd8ab06ed126328d81fe4e87073604dd48c5fa6ba6170bd8224981238dff0d3",
+        "response_hash": "cd6c68d5f941fada17ca8d1f3222ceff90cc0a6ada847f93991d5c86de74f313",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a47c4949ad9591d44706eab66304b7918eff8f42d439157acf8ac8e7c1507262",
+        "response_hash": "aeb954097e1d4a3fe19c41675d2968b4a9a65d2ca459a41a047e27702de73096",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bc99277eac439d50f91fdcf683224646816e24dedab38fdf3edbf8cda3cf8422",
+        "response_hash": "244e8dcb0a7585bb85b9e32f9d661906f65a13d2a2e89d1c69c8f860dbee6ff5",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "dd5fb8b79da2a701a1fe90c39440ffb97669f04821bd94481d880ca5de47c71d",
+    "translation_sha256": "75b81f85aacdd82bf7ae927c7c26350909f4149ec3b62b870865c6237cb763b6"
+  }
+}

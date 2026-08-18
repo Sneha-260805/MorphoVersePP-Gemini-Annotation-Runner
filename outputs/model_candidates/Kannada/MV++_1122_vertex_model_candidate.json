@@ -1,0 +1,240 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A single fresh white jasmine bud",
+          "A woven string of white jasmine flowers (gajra) typical of Karnataka hair adornments"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The famous Mysore Jasmine, a highly fragrant variety of jasmine flower native to the Mysuru region of Karnataka, known for its unique scent and cultural significance in local festivals, weddings, and literature.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Confusing it with common star jasmine or large-petaled Arabian jasmine varieties",
+          "Depicting generic yellow jasmine flowers"
+        ],
+        "preserved": true,
+        "romanization": "Mysuru Mallige",
+        "source_span_original": "ಮೈಸೂರು ಮಲ್ಲಿಗೆ",
+        "source_span_translation": "Jasmine of Mysore",
+        "stanza_index": 1,
+        "term": "ಮೈಸೂರು ಮಲ್ಲಿಗೆ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "White jasmine flower buds",
+          "Distinctive roundish shape of the Mysuru variety",
+          "Delicate green stem"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing and admiration to deep peace and emotional return",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'hariyuttade' (flows) as 'blooms within' alters the fluid, flowing metaphor of beauty in the original Kannada.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beauty of the jasmine flower deeply moves, spreads through, and fills the speaker's mind or consciousness.",
+            "acceptable_visual_variants": [
+              "A person sitting peacefully with closed eyes as a soft, warm golden light flows around them",
+              "A gentle breeze carrying tiny white jasmine petals swirling around a reflective figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "flows (like water or a liquid stream)",
+            "literalization_risk": "Depicting actual water or liquid pouring into a physical heart or brain would look bizarre and miss the emotional experience of beauty.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional/aesthetic experience",
+              "transferred_attributes": [
+                "movement",
+                "filling a space",
+                "continuous presence"
+              ],
+              "vehicle_concept": "liquid flow"
+            },
+            "source_span_original": "ಹರಿಯುತ್ತದೆ",
+            "source_span_translation": "fills my heart,\nIt blooms within",
+            "source_term": "ಹರಿಯುತ್ತದೆ",
+            "tenor": "the spreading sensation of beauty in the mind",
+            "vehicle": "flowing water or a liquid stream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing wave of light or a gentle breeze carrying jasmine petals surrounding a person in a state of peaceful contemplation."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'hariyuttade' (flows) as 'fills' and 'blooms within', losing the specific fluid/flowing metaphor of beauty moving into the heart.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'hannina dhula' as 'dust of your fruit' is a literal rendering of a compound that refers to pollen (flower dust), and 'kanmaniya' (pupil/apple of the eye) is simplified to 'dear eyes'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The blooming jasmine flower is described as smiling, conveying its fresh, open, and joyful appearance.",
+            "acceptable_visual_variants": [
+              "A close-up of a perfectly open, fresh white jasmine blossom on a green branch",
+              "A cluster of jasmine flowers opening up towards the morning sunlight"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "smiling flower",
+            "literalization_risk": "Drawing a literal cartoonish human mouth smiling on a jasmine flower would look childish and ruin the poetic, elegant tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "botanical state of blooming",
+              "transferred_attributes": [
+                "openness",
+                "radiating happiness",
+                "attractiveness"
+              ],
+              "vehicle_concept": "human facial expression of joy"
+            },
+            "source_span_original": "ನಗುವ ಹೂವು",
+            "source_span_translation": "smiling bloom",
+            "source_term": "ನಗುವ ಹೂವು",
+            "tenor": "a fully open, fresh jasmine blossom",
+            "vehicle": "a human smiling",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a pristine, fully opened jasmine flower glistening with morning dew, captured at the peak of its bloom to naturally evoke freshness and joy."
+          },
+          {
+            "abstract_meaning": "A term of deep endearment referring to a beloved person, or literally referring to the pupil/apple of the eye as something precious.",
+            "acceptable_visual_variants": [
+              "A close-up of gentle, clear eyes looking with affection",
+              "A soft-focus view of a person's face reflecting the gentle light of a garden"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "gem of the eye (pupil)",
+            "literalization_risk": "Depicting literal gemstones or jewels sitting inside an eyeball would look painful and highly unnatural.",
+            "metaphor_mapping": {
+              "tenor_concept": "most cherished part of sight or beloved person",
+              "transferred_attributes": [
+                "preciousness",
+                "centrality",
+                "brilliance"
+              ],
+              "vehicle_concept": "precious jewel"
+            },
+            "source_span_original": "ಕಣ್ಮಣಿಯ",
+            "source_span_translation": "dear eyes",
+            "source_term": "ಕಣ್ಮಣಿಯ",
+            "tenor": "the pupil of the eye / a highly cherished person or sight",
+            "vehicle": "a precious gem or jewel",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on a close-up of expressive, warm, and clear eyes reflecting a soft light, capturing the sense of preciousness and sight."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'kanmaniya' as 'dear eyes' loses the double meaning of 'kanmani' which literally means 'pupil of the eye' but is also a common term of endearment meaning 'darling' or 'precious one'.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The comforting, restorative presence of the Mysore jasmine as a symbol of beauty, peace, and emotional homecoming."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಮೈಸೂರು ಮಲ್ಲಿಗೆ,  \nನಿನ್ನ ಸೊಗಸು ನನ್ನ ಮನಸಿಗೆ  \nಹರಿಯುತ್ತದೆ.  \nನಿನ್ನ ವಾಸನೆ,  \nನಿನ್ನ ಹೂವು,  \nನೀನೇ ನನಗೆ ಶಾಂತಿ.  \n\nನಿನ್ನ ಸೊಗಸು,  \nನಿನ್ನ ನಗುವ ಹೂವು,  \nನನ್ನ ಕಣ್ಮಣಿಯ ಮೇಲೆ  \nನಿನ್ನ ಹಣ್ಣಿನ ಧೂಳ ಬೀಳುತ್ತದೆ.  \nನೀನು ನನ್ನ ಹೃದಯಕ್ಕೆ  \nಮರಳಿ ಬರುವ ಹೂವು.",
+  "poem_id": "MV++_1122",
+  "poem_title": "Mysuru Mallige",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "792b03e0f50c435b915e08b440495e4ca8657ff670e8781bf2fc88287a2bc6ca",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1122.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Jasmine of Mysore,  \nYour beauty fills my heart,  \nIt blooms within.  \nYour fragrance,  \nYour flower,  \nYou bring me peace.  \n\nYour elegance,  \nYour smiling bloom,  \nThe dust of your fruit falls  \nOn my dear eyes.  \nYou are the flower  \nThat returns to my heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:00:02.906336+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "13ac72c936bd64e5d947f4f5debacff355e103552ee2b78e25683ffd856d044c",
+        "response_hash": "835bdbd1a53ad3b488e842a23f940885f5e1024046c2c5f16b0c2c2830cd9841"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1c87eb2e40c7200e4f4449d1a437423b296e59ac3209e61254ed8ca9b0b0a1e8",
+        "response_hash": "1e1581680684195f9bc6199b57568f01b40b4ef6208a41d1cc94822c57a778aa",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca0f44a186d04a98c45ca173e4afc8d5063698c7dfd2a7676498f2b95d8269e0",
+        "response_hash": "74416317bee5c88b98ef959036207eacbf86913acc04c2400852ee4bcfd9dc71",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3c9f6b452d6878a69c32cffef6fb143c94619f08d7d79bb12a9b73f5ff84060a",
+        "response_hash": "807f6f92f3b1d3f9565f28af15ac4b354b741ea34bb848d4104fce525dc8a410",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "764faa48250c81996b2835f77dceae819823330697284d0ace3cf6dd4fbd3c76",
+        "response_hash": "2d6be961e4aa165be0a94b3529234e9ce7bfcf64b6062fcc4131c95f1c86cdd2",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9fa9844049e57dbf1f0bd5545b33f78c0b5dd5f3043db8e8aaee6be08f2d56b6",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6bb4e73cf6e8f70ff5406738d4efc0e629eb8983aa916c6b62b52495e77acafc",
+    "translation_sha256": "2cfae5a36a194fc3ea5417aa759f6fd60820c54f4a8dd0d7d3848933ee1a6545"
+  }
+}

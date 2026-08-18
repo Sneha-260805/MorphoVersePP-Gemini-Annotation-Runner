@@ -1,0 +1,162 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A transition from quiet observation of twilight to a state of longing and dreamlike anticipation.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'saj jaaye' (to adorn oneself / get ready) as 'come undone' in L4 completely reverses the literal meaning of the Hindi verb, changing the active preparation of the queen of dreams into a state of unraveling.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The darkness of night spreading across the landscape.",
+            "acceptable_visual_variants": [
+              "A dark blue gradient sky rolling over hills like a soft fabric",
+              "A starry night sky slowly descending over a sleeping town"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A bedsheet or blanket made of night",
+            "literalization_risk": "An illustrator might draw a literal giant fabric blanket floating down from the sky over a landscape, which looks comical rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "night darkness",
+              "transferred_attributes": [
+                "covering",
+                "spreading",
+                "softness",
+                "comfort"
+              ],
+              "vehicle_concept": "blanket"
+            },
+            "source_span_original": "रात की चादर",
+            "source_span_translation": "blanket of night",
+            "source_term": "रात की चादर",
+            "tenor": "the darkness of night covering the earth",
+            "vehicle": "a blanket or bedsheet (चादर) being spread out",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dark, starry sky gradually rolling over a twilight landscape like a soft, dark blue or black veil."
+          },
+          {
+            "abstract_meaning": "The personification of dreams or a beloved figure associated with sleep and dreaming.",
+            "acceptable_visual_variants": [
+              "An ethereal female silhouette blending into a starry night sky",
+              "A peaceful sleeping face surrounded by soft, glowing dream-like swirls"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "The queen of dreams",
+            "literalization_risk": "Drawing a literal queen with a crown sitting on a throne made of clouds might look too cartoonish or fantasy-like, losing the soft, romantic mood of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "beauty",
+                "allure",
+                "sovereignty over the night"
+              ],
+              "vehicle_concept": "queen"
+            },
+            "source_span_original": "सपनों की रानी",
+            "source_span_translation": "queen of dreams",
+            "source_term": "सपनों की रानी",
+            "tenor": "the onset of sleep, dreams, or a beloved dream-like figure",
+            "vehicle": "a royal woman or queen (रानी) who rules or embodies dreams",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a soft, ethereal, semi-transparent female figure emerging from starlight or clouds, looking peaceful and dreamlike."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'come undone' completely reverses the meaning of the original Hindi verb 'saj jaaye' (सज जाए), which means to adorn oneself, get dressed up, or be beautifully prepared. This alters the imagery from a queen of dreams dressing up/adorning herself to her falling apart or coming undone.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transition from day to night as a catalyst for dreams and longing."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कहीं दूर जब दिन ढल जाए,  \nसूर्य के संग जब छायाएँ मिल जाएं।  \nजब रात की चादर बिछ जाए,  \nतब सपनों की रानी सज जाए।",
+  "poem_id": "MV++_0410",
+  "poem_title": "Kahin Door Jab Din Dhal Jaaye",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0c81953e8bfd2614533d60314d1d2daebe974bd213f8429d0dc942cdb2c93e47",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0410.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "When the day fades away in the distance,  \nWhen shadows meet with the setting sun.  \nWhen the blanket of night is spread wide,  \nThen the queen of dreams will come undone.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:21:46.419803+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cb0174f37d444be9a0e5f7da62497ef827469ce30623117ab83eb3696226d911",
+        "response_hash": "90dd59180af84b41733a5df862394d81df22dbaa477e5e7501cbc0fce6edf53c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f3194cb363eef37b07c5ecb53d9f66f360ef7829d36205a67bb1a35f22d0e50d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e02d335727434bdd3beb2eb1da6b2875774116bc468de824d871f5e8ab9bf947",
+        "response_hash": "1896625e88c82574ae2a101ca84dc0007072a7cfa3305d8711bd4f6ea973e36f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba5e4795983bba1d77dfca3fb49ad5e78d374ac3a06240fe82ebe8b4413e7bc0",
+        "response_hash": "cac36171bd62e0d27180086609295404dbf299eefb2d1e94b94b31eec5068f90",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79991634587bbce56f34b61cd18679688523fe78edaffcbd11d3ebd3a6a45a92",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "da8ee3e7609fa6e093eb15e609545bdd02b221e3c9c6252dc49b3124b9e26168",
+    "translation_sha256": "8f437bf380c7ab1967385d1d896b388158611aa370fe06ad318e997202dc444f"
+  }
+}

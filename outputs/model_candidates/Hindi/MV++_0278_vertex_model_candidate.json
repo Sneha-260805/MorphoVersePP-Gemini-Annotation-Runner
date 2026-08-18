@@ -1,0 +1,284 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contemplation of life's shifting moods and colors leading to a realization of their ultimate emptiness or transcendence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Colors represent human emotions, moods, and life experiences that shift between joy and sorrow.",
+            "acceptable_visual_variants": [
+              "A single person transitioning through different colored lighting environments that match laughing and crying expressions.",
+              "An abstract canvas where bright, vibrant paint splatters blend into dark, dripping streaks."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L3",
+            "literal_meaning": "Colors sometimes laugh, sometimes cry.",
+            "literalization_risk": "Showing literal paint or colored liquids with cartoonish human faces laughing and crying, which would look childish and miss the deep emotional connection to human life.",
+            "metaphor_mapping": {
+              "tenor_concept": "human emotional states",
+              "transferred_attributes": [
+                "laughing",
+                "crying",
+                "experiencing joy and sorrow"
+              ],
+              "vehicle_concept": "colors behaving like emotional humans"
+            },
+            "source_span_original": "रंग\nकभी हंसते हैं,\nकभी रोते हैं।",
+            "source_span_translation": "Color\nSometimes we laugh,\nSometimes we cry.",
+            "source_term": "रंग\nकभी हंसते हैं,\nकभी रोते हैं।",
+            "tenor": "Human emotions and shifting moods of joy and sorrow",
+            "vehicle": "Colors laughing and crying",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a human figure whose silhouette or shadow shifts in color and texture (e.g., bright warm tones for joy, dark cool tones for sorrow) to show the emotional spectrum."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces the pronoun 'we' ('Sometimes we laugh, / Sometimes we cry') which is not explicitly present in the original Hindi verbs 'हंसते हैं' (hansate hain) and 'रोते हैं' (rote hain). The original Hindi lines are subjectless, allowing them to refer to the colors themselves laughing and crying (personification) or to people in general. By inserting 'we', the translation resolves this poetic ambiguity and limits the personification of colors.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The diverse, constantly changing human society and life experiences.",
+            "acceptable_visual_variants": [
+              "A swirling kaleidoscope of abstract colors that subtly resolve into human shapes and faces.",
+              "A street scene where the environment changes color from one corner to another, reflecting different moods."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6-L7",
+            "literal_meaning": "In this changing world of physical colors.",
+            "literalization_risk": "Depicting a literal globe or planet painted in rainbow colors, which misses the social and existential meaning of human diversity.",
+            "metaphor_mapping": {
+              "tenor_concept": "human society and life's variety",
+              "transferred_attributes": [
+                "diversity",
+                "constant change",
+                "multi-faceted nature"
+              ],
+              "vehicle_concept": "a world of diverse colors"
+            },
+            "source_span_original": "रंगों की इस\nबदलती दुनिया में",
+            "source_span_translation": "In this changing\nWorld of colors",
+            "source_term": "रंगों की इस\nबदलती दुनिया में",
+            "tenor": "A diverse and constantly changing human society and life experiences",
+            "vehicle": "A world made of shifting colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a bustling crowd of diverse people, with their silhouettes or clothes blending into a spectrum of different colors and shades."
+          },
+          {
+            "abstract_meaning": "Everyone has their own unique personality, identity, or perspective on life.",
+            "acceptable_visual_variants": [
+              "People leaving footprints of different colors behind them as they walk.",
+              "Individuals wearing unique, vibrant patterns on their clothing amidst a neutral background."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L9",
+            "literal_meaning": "Has their own physical color.",
+            "literalization_risk": "Depicting people painted in solid, single colors like statues, which looks unnatural and misses the psychological depth of individual identity.",
+            "metaphor_mapping": {
+              "tenor_concept": "individual identity and personality",
+              "transferred_attributes": [
+                "uniqueness",
+                "distinctiveness",
+                "personal character"
+              ],
+              "vehicle_concept": "individual color"
+            },
+            "source_span_original": "अपना रंग है।",
+            "source_span_translation": "Their own color.",
+            "source_term": "अपना रंग है।",
+            "tenor": "A unique personality, identity, or perspective",
+            "vehicle": "A unique color belonging to an individual",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict individuals in a crowd, each surrounded by a unique, subtle colored aura or holding a distinct colored light that reflects their inner self."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The various phases, moods, or moral states of life, ranging from dark/sad to bright/passionate.",
+            "acceptable_visual_variants": [
+              "An abstract painting where these four colors dominate different quadrants, blending into each other.",
+              "A single tree shown in four different seasonal or atmospheric lights corresponding to these colors."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L10-L13",
+            "literal_meaning": "Sometimes black, sometimes white, sometimes yellow, sometimes red.",
+            "literalization_risk": "Showing a simple grid of color swatches or paint cans, which has no poetic or emotional resonance.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional and experiential spectrum",
+              "transferred_attributes": [
+                "variety of states",
+                "contrasting moods",
+                "shifting phases"
+              ],
+              "vehicle_concept": "color spectrum"
+            },
+            "source_span_original": "कभी काली,\nकभी सफेद,\nकभी पीली,\nकभी लाल।",
+            "source_span_translation": "Sometimes black,\nSometimes white,\nSometimes yellow,\nSometimes red.",
+            "source_term": "कभी काली,\nकभी सफेद,\nकभी पीली,\nकभी लाल।",
+            "tenor": "Different emotional states, life phases, or moods (grief, purity, joy, anger/passion)",
+            "vehicle": "A sequence of distinct colors (black, white, yellow, red)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Create a sequential visual path or a series of panels where the background color shifts dramatically from black to white, then yellow, then red, with a human silhouette adapting to each space."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The original Hindi adjectives for colors ('काली' / kaali, 'सफेद' / safed, 'पीली' / peeli, 'लाल' / laal) carry grammatical gender. Specifically, 'काली' (black) and 'पीली' (yellow) are marked as feminine, while 'सफेद' (white) and 'लाल' (red) are masculine/neutral in this form. This grammatical gender agreement hints at implicit feminine nouns or subjects being described, which is completely lost in the gender-neutral English color terms.",
+            "where": "L10-L13"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "The translation of 'फिर भी रंग ही नहीं है' as 'Yet color is not everything' shifts the literal meaning, which is closer to 'yet there is no color at all' or 'yet it is colorless', losing the philosophical paradox of being in color yet having no color.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Being immersed in the shared human experience, emotions, and the material world.",
+            "acceptable_visual_variants": [
+              "People connected by thin, glowing colored threads that weave through them.",
+              "A community of people whose shadows all merge into a single colored shadow on the ground."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L15",
+            "literal_meaning": "Inside this physical color or dye.",
+            "literalization_risk": "Showing people drowning or swimming in a giant vat of colored liquid, which looks comical or hazardous.",
+            "metaphor_mapping": {
+              "tenor_concept": "participation in human existence",
+              "transferred_attributes": [
+                "immersion",
+                "shared state",
+                "being enveloped"
+              ],
+              "vehicle_concept": "immersion in a dye"
+            },
+            "source_span_original": "इस रंग में",
+            "source_span_translation": "In this color",
+            "source_term": "इस रंग में",
+            "tenor": "Being immersed in the shared human experience and the material world",
+            "vehicle": "Being immersed in a single color or dye",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a group of people standing together under a single, large wash of colored light that unites them all."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'फिर भी रंग ही नहीं है' as 'Yet color is not everything' alters the literal meaning. The Hindi phrase 'रंग ही नहीं है' literally translates to 'there is no color at all' or 'color itself does not exist', creating a powerful philosophical paradox (we are all in this color, yet there is no color). Translating it as 'not everything' dilutes this absolute existential paradox into a milder, pragmatic statement.",
+            "where": "L16-L17"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The shifting, colorful nature of human existence and the ultimate realization of its illusory or non-essential nature"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रंग  \nकभी हंसते हैं,  \nकभी रोते हैं।  \nकभी रंगीन,  \nकभी नीरस।  \n\nरंगों की इस  \nबदलती दुनिया में,  \nहर किसी का  \nअपना रंग है।  \n\nकभी काली,  \nकभी सफेद,  \nकभी पीली,  \nकभी लाल।  \n\nहम सब हैं  \nइस रंग में,  \nफिर भी रंग ही  \nनहीं है।",
+  "poem_id": "MV++_0278",
+  "poem_title": "Rang",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7b4c60c0c4a2dd51c3cd31d2a5ded0085724b5e1b93d7dc535998b5d08af635d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0278.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Color  \nSometimes we laugh,  \nSometimes we cry.  \nSometimes colorful,  \nSometimes dull.  \n\nIn this changing  \nWorld of colors,  \nEveryone has  \nTheir own color.  \n\nSometimes black,  \nSometimes white,  \nSometimes yellow,  \nSometimes red.  \n\nWe are all  \nIn this color,  \nYet color is  \nNot everything.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:07:34.545521+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "62643e4eb5f87b7dc1420357d374b9f731fedfa4fd65f901fbe939c67ea6980c",
+        "response_hash": "d7d6625311988f0b3b4771b1695d2007a6365a9691e64bbb90bdb770473e25ac",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7e2132b165e59bcc55f42e5cdf742dbdd946f6a02ced573d1bc81b28c412c18b",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d2241f15a6f16a6aa60a6b0996935052df1eae6b5a19728b3054a784b8e913df",
+        "response_hash": "dc71ef5c5f1c4b7d6a348710ef8afb3bf1faab67d0e59625326a67fe061c2652",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e0a8b29ba64686b395a676dff4ab3c6bc8679e0702fd5d53b041b4e793eabee9",
+        "response_hash": "caadd2b72a8275f0bd861559a0de0cb0fd65cf12873ebc50a7ab3550c5864d6e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9cb76513f71790b576cc635ffe59d661d7c2272ebf60a77ba9f8a3aefe1be255",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5d6deb56b85ab613bf14ba8d3ac7f144eeab7cc4e5e82e2e3d7f1fb9667bf1d8",
+    "translation_sha256": "62bb1be70a48d67a1cfe920786becdbd4e98ce9a4fa74a22f07b7c8ab6fe4ef1"
+  }
+}

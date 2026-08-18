@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and torment to a desperate desire for release and forgetfulness",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but slightly flattens the rhythmic repetition and the specific intensity of the Urdu words 'karb' (deep torment/anguish) and 'kaaran' (because of/for the sake of) which carry a heavy, classical poetic weight.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's inner emotional self desires to escape the pain of memory and attachment.",
+            "acceptable_visual_variants": [
+              "A solitary figure looking out of a window into a misty landscape, holding a hand over their chest.",
+              "An abstract representation of a glowing silhouette with a focus on the chest area where a soft light represents the heart's desire."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L2",
+            "literal_meaning": "My physical heart possesses conscious desires and wants to make choices.",
+            "literalization_risk": "Depicting a literal anatomical heart with a face, hands, or speech bubbles expressing desires, which would look cartoonish and lose the emotional gravity of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "human heart / emotions",
+              "transferred_attributes": [
+                "desiring",
+                "wanting",
+                "intending"
+              ],
+              "vehicle_concept": "conscious agent"
+            },
+            "source_span_original": "میرا دل\nچاہتا ہے",
+            "source_span_translation": "my heart\nWants",
+            "source_term": "میرا دل\nچاہتا ہے",
+            "tenor": "The speaker's emotional state and inner longing",
+            "vehicle": "A conscious person who has desires and makes choices",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a state of deep contemplation or emotional exhaustion, perhaps with a soft, warm light emanating from their chest to symbolize the heart's inner yearning without literalizing the organ."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation uses the word 'thought' for both 'khayal mein rehna' (staying in someone's thoughts) and 'khayal rakhna' (which idiomatically means caring for or looking after someone, rather than just thinking about them). This flattens the active caretaking/protective nuance of 'khayal rakhna' into passive thinking.",
+            "where": "L5-L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'karb' as 'torment' captures the pain but loses the specific Urdu/Persian literary resonance of 'karb', which denotes a deep, choking, or suffocating grief/anguish.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The agonizing burden of constant remembrance and emotional attachment to a beloved, leading to a desperate yearning for complete oblivion."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Urdu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "تمہارے کارن میرا دل  \nچاہتا ہے سب کچھ بھول جائے  \nتمہارے کارن میرا دل  \nچاہتا ہے سب کچھ بھول جائے  \nکسی کے خیال میں رہنا  \nاور کسی کا خیال رکھنا  \nایک کرب ہے، ایک درد ہے  \nچاہتا ہوں میں، بے حد چاہتا ہوں  \nسب کچھ بھول جائے۔",
+  "poem_id": "MV++_1567",
+  "poem_title": "Tumhare Kaaran",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "656b3cf075f533bdf0badcffe15a86d23495c2567afdc72ea0071fd278ae9203",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Urdu/MV++_1567.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Because of you, my heart  \nWants to forget everything  \nBecause of you, my heart  \nWants to forget everything  \nTo stay in someone’s thoughts  \nAnd to keep someone in thought  \nIs a torment, is a pain  \nI desire, I desire immensely  \nTo forget everything.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:48:59.509969+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8a89073b0a207ed4613cd64d1ce0a24fd18921e54b8df2a433c95bc8320aa40a",
+        "response_hash": "9c57b83d5b2238660241aae65a0791454f790b632e1914cd76879dde760b747b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e822a750698b904e931620cd0b8d766bf590d52d1e0f4321852005cce2dcc180",
+        "response_hash": "c4b75a0bdca0fcee10966c1b593b499e71f5603f38af2a229f0f6f8c71774aa0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b5351bbf36c4fd9180887e5af2ff2f04d46c9b8ba41f62dd65434be07e378b2e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "adb110379ea16792771b6d04485563d12c2395582fd32a645009920892e44458",
+        "response_hash": "b223b94dbe1dc5f34d3c432afd6cabb0ff3ca27258997bd2eb769726298e273c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c2f11c7ac41f78bf336e17c2c1dd5fb82882628f906912509813b02e5829b1e1",
+        "response_hash": "3bed3b46b41d22a6091d9d9dc77d14ab584b69bae7241b7337bfbe4a9d4bd98d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1e28efd57650e49304840a0cf617f346de941ef6df94387518c600438d5425ce",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "65c0c93a4634a3c48884c98ae7679fe40d2de7b50f88ecf1b240511d02e951cb",
+    "translation_sha256": "a96149e677026e05f967541fc446c740abaf558fb28b40d3b35b748e743fce4b"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet determination and resilience in the face of an endless journey",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An endless journey of life or personal progress where the final destination is not visible.",
+            "acceptable_visual_variants": [
+              "A single figure walking along a path that curves into the horizon",
+              "A winding trail ascending a mountain shrouded in clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A path whose end or limit is not visible",
+            "literalization_risk": "An illustrator might draw a literal dirt road or highway, missing the psychological and existential nature of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "lifelong journey of effort",
+              "transferred_attributes": [
+                "unseen end",
+                "continuous progression",
+                "requirement of movement"
+              ],
+              "vehicle_concept": "endless path"
+            },
+            "source_span_original": "ಅಂತದ ತುದಿ ಕಾಣದ ಹಾದಿ",
+            "source_span_translation": "A path with no end in sight",
+            "source_term": "ಅಂತದ ತುದಿ ಕಾಣದ ಹಾದಿ",
+            "tenor": "The continuous, lifelong journey of striving toward a goal",
+            "vehicle": "An endless, winding path stretching into the horizon",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, winding path fading into a soft, luminous mist or horizon, suggesting an ongoing journey without a physical destination."
+          },
+          {
+            "abstract_meaning": "Life acts as the core structural support, strength, and foundation that enables one to pursue their goals.",
+            "acceptable_visual_variants": [
+              "A strong, upright tree trunk supporting a wide canopy",
+              "A glowing central pillar of light grounding a human silhouette"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Life becoming a backbone",
+            "literalization_risk": "A literal rendering of a human spine or skeletal backbone would look clinical, macabre, or bizarre, completely losing the abstract sense of inner strength.",
+            "metaphor_mapping": {
+              "tenor_concept": "foundational life support",
+              "transferred_attributes": [
+                "structural support",
+                "strength",
+                "uprightness",
+                "essential foundation"
+              ],
+              "vehicle_concept": "backbone"
+            },
+            "source_span_original": "ಬದುಕು ಬೆನ್ನೆಲುಬಾಗಿ",
+            "source_span_translation": "Life forms the backbone",
+            "source_term": "ಬದುಕು ಬೆನ್ನೆಲುಬಾಗಿ",
+            "tenor": "The foundational support, resilience, and strength of existence",
+            "vehicle": "A backbone (anatomical spine)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent structural support metaphorically through an upright, strong tree trunk supporting branches, or a central pillar of light holding up a structure."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Kannada word 'bennelubaagi' literally means 'having become the backbone' (from bennelubu + aagi), which functions as an adverbial/participial modifier. The English translation 'Life forms the backbone' turns this into a standard subject-verb-object clause, losing the fluid, continuous grammatical connection of life acting as a supportive backbone to reach the goal.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic and rhyming structure of the Kannada text, particularly the parallel past participles 'nintaddella' (all that stood/marked) and 'munnadedudella' (all that moved forward) in L1, is flattened into standard English noun phrases ('Every mark left, each step forward').",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The lifelong journey of resilience and determination required to reach one's inner goals."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a detailed loss_note should ideally accompany any non-empty translation_loss list. Additionally, marking translation_quality as 'faithful' while documenting multiple structural and grammatical losses in translation_loss is slightly inconsistent.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಗುರುತು ನಿಂತದ್ದೆಲ್ಲ, ಮುನ್ನಡೆದುದೆಲ್ಲ,  \nಅಂತದ ತುದಿ ಕಾಣದ ಹಾದಿ,  \nಇಡೀ ಬದುಕು ಬೆನ್ನೆಲುಬಾಗಿ,  \nಮನದ ಗುರಿ ತಲುಪಲು.",
+  "poem_id": "MV++_1097",
+  "poem_title": "Guri",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9a7816830db95d5f17a1a7c023bac1e9cc44467d82a4c17f0cc244f98a63677e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1097.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Every mark left, each step forward,  \nA path with no end in sight,  \nLife forms the backbone,  \nTo reach the mind's goal.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:57:20.903084+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e9bcd004bc65ce75017c888e44245c57722589a839cf0f7621e5115f87d1f6a6",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "24838267b2eebc2c554121957b754e957c9a142f7a348cf88803781b0bf768e0",
+        "response_hash": "c5e9e14ca2756412e6fdbc98cb9478156f3e8aa37ceb10a10171c595f625a825",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49debe23beb61c5c56069d71d63141ffcc988c6fd86bf998b858899beded617d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c4cb249f7a5f8ed8d94ba6d5ad85409ef9617656a19c376cce3b91f2f612b8e1",
+        "response_hash": "3b9d0080909465cbd48e46767c383634aa08e85de0246d1c76697e5ff3499abc",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ffb11ac7aba1accb3ebcd354a73d1d4766ed9357130dbdfb4492c38d0020c02b",
+        "response_hash": "50353f1705586caebbc44385697f992c403b8cdc1ee86aa9a367c5d99d2c74e1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1b4d6ea13dca85e31aefa1fe3cf29a453096e550267c1faf04b54621bbc6d462",
+        "response_hash": "1c787acf6048096ff837439d205d82fbe9a866d78f8a7578e7a3f80614f1a89f",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d23c182f964024ef00266854f0bef55aa1bdaf6dfdaac26b8cfe48c811727501",
+    "translation_sha256": "fdcbecafbbeb156458fbe73a21e960677ea3677fee50e1e637be6812a95b935e"
+  }
+}

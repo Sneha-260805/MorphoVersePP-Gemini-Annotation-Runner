@@ -1,0 +1,260 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A woman in traditional Banjara attire walking through a rural landscape",
+          "A woman in vibrant, flowing regional clothing walking near a forest or riverbank"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A female member of the Banjara community, a historically nomadic group in India known for their distinct colorful attire, jewelry, music, and lifestyle.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic modern backpacker or hiker",
+          "A generic desert nomad from non-Indian cultures",
+          "A highly stylized Bollywood-dance costume that lacks authentic regional embroidery and mirror-work"
+        ],
+        "preserved": true,
+        "romanization": "banjaran",
+        "source_span_original": "बंजारन",
+        "source_span_translation": "nomad woman",
+        "stanza_index": 1,
+        "term": "बंजारन",
+        "translation_note": "The translation renders 'banjaran' as 'nomad woman', which captures the literal meaning of a nomadic lifestyle but loses the specific historical, cultural, and musical associations of the Banjara community in India.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Traditional colorful embroidered clothing",
+          "Ornate mirror-work and heavy silver jewelry",
+          "A free-spirited woman walking outdoors under an open sky"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "wonder and quiet admiration to resilient self-determination",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'मन' (mind/inner self) as 'heart' and 'उगाता है' (grows/cultivates) as 'sows', slightly shifting the active cultivation metaphor to a sowing metaphor.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The nomad woman's mind is highly imaginative, constantly generating vibrant hopes, desires, and creative aspirations.",
+            "acceptable_visual_variants": [
+              "A woman walking under the sky with colorful, abstract floral or light patterns swirling around her head to represent her thoughts.",
+              "A woman looking up at the sky with a vibrant, multi-colored landscape softly blending into the background behind her."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4-L5",
+            "literal_meaning": "Her mind/heart grows a harvest of multi-colored dreams.",
+            "literalization_risk": "An illustrator might literally depict plants or crops growing out of a physical heart or head, which looks surreal or grotesque rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental imagination and hope generation",
+              "transferred_attributes": [
+                "fertility",
+                "growth",
+                "vibrant colors",
+                "nurturing process",
+                "harvestable output"
+              ],
+              "vehicle_concept": "agriculture and crop cultivation"
+            },
+            "source_span_original": "उसका मन रंग-बिरंगे\nसपनों की फसल उगाता है।",
+            "source_span_translation": "Her heart sows\nThe crops of colorful dreams.",
+            "source_term": "उसका मन रंग-बिरंगे\nसपनों की फसल उगाता है।",
+            "tenor": "The mind generating vibrant, hopeful dreams and aspirations",
+            "vehicle": "A fertile field growing a colorful crop of agricultural plants",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the nomad woman walking with a thoughtful expression, surrounded by a soft, glowing, colorful aura or abstract swirling patterns of light that suggest a rich inner world of imagination."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'मन' (man) as 'heart' shifts the focus from a broader concept of mind, inner self, and emotional consciousness to a purely emotional 'heart'. Additionally, 'उगाता है' literally means 'grows' or 'cultivates', which is translated as 'sows' (which would be 'बोता है' in Hindi), slightly altering the agricultural metaphor from growing/harvesting to planting.",
+            "where": "L4-L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'बंजारन' (Banjaran) carries specific cultural connotations of the nomadic Banjara community, known for their distinct colorful attire, music, and lifestyle, which is flattened to the generic 'nomad woman' in English.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A vast, deep, and overwhelming abundance of unspoken thoughts, memories, or potential sounds existing within quiet moments.",
+            "acceptable_visual_variants": [
+              "A vast, quiet landscape under a deep blue sky with soft, wave-like ripples in the air around the woman.",
+              "The woman standing in a quiet forest or field, with the background softly blurred to suggest a deep, immersive silence filled with potential."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "There is an ocean of sounds.",
+            "literalization_risk": "Depicting a literal ocean of water with physical sound waves or mouths floating in it would look bizarre and confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "abundance of hidden thoughts or sounds",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "immensity",
+                "hidden currents"
+              ],
+              "vehicle_concept": "ocean"
+            },
+            "source_span_original": "आवाज़ों का सागर है",
+            "source_span_translation": "There is an ocean of hidden sounds",
+            "source_term": "आवाज़ों का सागर है",
+            "tenor": "A massive volume of hidden or unspoken sounds and thoughts",
+            "vehicle": "A vast, deep ocean",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the quiet landscape around the woman with subtle visual ripples in the air, suggesting unseen resonance or a deep, vast atmosphere."
+          },
+          {
+            "abstract_meaning": "Her movement is exceptionally graceful, rhythmic, and harmonious, carrying an inherent poetic beauty.",
+            "acceptable_visual_variants": [
+              "A dynamic side-profile view of the woman walking with a light, flowing stride, her dress capturing the wind to suggest movement.",
+              "A path of swirling dust or wind following her footsteps in a rhythmic, wave-like pattern."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8-L9",
+            "literal_meaning": "In her every step/stride, there is a song, there is a tune.",
+            "literalization_risk": "Drawing literal musical notes floating around her feet or legs as she walks can look cartoonish and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "physical movement and gait",
+              "transferred_attributes": [
+                "rhythm",
+                "grace",
+                "harmony",
+                "beauty",
+                "flow"
+              ],
+              "vehicle_concept": "music and melody"
+            },
+            "source_span_original": "उसकी हर चाल में\nएक गीत है, एक धुन है।",
+            "source_span_translation": "In her every stride\nThere is a song, a tune.",
+            "source_term": "उसकी हर चाल में\nएक गीत है, एक धुन है।",
+            "tenor": "The grace, rhythm, and harmony of her physical movement",
+            "vehicle": "A musical song or melody",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Capture the fluid, dynamic motion of her walking posture, perhaps with flowing garments or a sweeping path that visually conveys rhythm and grace."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The inner richness, freedom, and creative resilience of a nomadic woman walking her own path."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'partial' and lists translation losses, but the cultural_entities entry for 'बंजारन' (which is in Stanza 1) has translation_status 'PARTIALLY_PRESERVED' and 'preserved' true, which is consistent, but the overall stanza 1 translation loss list contains a medium-severity loss for 'बंजारन' and a low-severity loss for 'मन'. This is a well-documented partial translation, so the 'partial' quality is consistent. However, in Stanza 2, translation_quality is marked as 'faithful' and loss_note is empty, yet there are no translation losses listed in translation_loss, which is consistent. No major structural contradictions found.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बंजारन  \nखुले आकाश के नीचे,  \nबंजारन चलती है।  \nउसका मन रंग-बिरंगे  \nसपनों की फसल उगाता है।  \n\nखामोशियों में छिपे  \nआवाज़ों का सागर है,  \nउसकी हर चाल में  \nएक गीत है, एक धुन है।  \n\nजंगलों से निकलकर,  \nनदियों के किनारे,  \nवह अपनी दुनिया  \nबनाने चलती है।",
+  "poem_id": "MV++_0302",
+  "poem_title": "Banjaran",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f465e58354ee1feda5e7de269a49ad1b2e2f45a5655f346354a9cb3af83ede87",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0302.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Nomad Woman  \nUnder the open sky,  \nThe nomad woman walks.  \nHer heart sows  \nThe crops of colorful dreams.  \n\nIn the silences,  \nThere is an ocean of hidden sounds,  \nIn her every stride  \nThere is a song, a tune.  \n\nEmerging from the forests,  \nBy the riverside,  \nShe walks to create  \nHer own world.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:10:15.193817+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f1ab89260a6a98d207699d7fea97377520e30b9d4968db8a41f125e65daff2eb",
+        "response_hash": "c29af9e6a1862a1e75c21c9f70b0781087398bd192ce534f66ed86d7ad0e1faa"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2a928da4c0b55589aad3e768702d165d55b7442f0e42cc1f35ee5b5d80bab9b3",
+        "response_hash": "71baa1d50d547494d33a409b927e737a599349b65538cf5ac5e18fac7ff280fe",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1a9476a8e8e961c181c0b4111d542498065f18cc387664b403b581159599393d",
+        "response_hash": "a704d03c816ad861aafb302b51c32e63fc59f8036b7bee7e8cc294276ed2bfc1",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "57b0ed7433c491d69461e555fd3bdd2a17ea8bfa8a86eff57cec2219fd48c4f1",
+        "response_hash": "fe0fb7db1d200fd457ddf64216c9bd52c86c1e3290831c95ca970e21a5b295f6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5a43a7b00160b08770da331d877198dd60d464ea4a854775d91e5aa6f8a89375",
+        "response_hash": "d5ac2c965bac7960efecdb6dce13749d72bde24ceee8572a5e6afc6fa802aa9b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5a25b7ca6d994803f3c276ce08e3488a0a7aad83225a0112803c65266f26bfd2",
+        "response_hash": "20abd38c7fe455ad806af685ae221b15ad90cd620cf73f827d424b766b23dfcc",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "50d74508099ecf83a1d630722e471a8593bf036d8a3de37bcff53023fd1eb2c2",
+    "translation_sha256": "c1e113755a139f0619ce956929637f9f492114e9556ae841fd4e7178c591d3e7"
+  }
+}

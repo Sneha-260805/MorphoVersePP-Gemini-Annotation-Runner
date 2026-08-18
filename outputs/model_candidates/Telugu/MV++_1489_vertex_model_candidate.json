@@ -1,0 +1,242 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The signature makuta (refrain line) characteristic of Vemana's moral and philosophical poems in Telugu literature, serving as both a poetic signature and a philosophical address.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Viswadabhirama Vinuravema",
+        "source_span_original": "విశ్వదాభిరామ! వినురవేమ!",
+        "source_span_translation": "Viswadabhirama! Listen to what I say!",
+        "stanza_index": 4,
+        "term": "విశ్వదాభిరామ! వినురవేమ!",
+        "translation_note": "The signature makuta (refrain) of Vemana's poems is preserved in transliterated form in the English translation. It addresses the beloved of the creator of the universe, or a beloved friend named Abhirama, followed by 'Listen, oh Vema!'",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "resilience to defiance",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Trying to change someone's fundamental, unalterable nature or character through persistent effort is futile.",
+            "acceptable_visual_variants": [
+              "A person washing a dark cloth or hide in water, with the water running clear but the cloth remaining black",
+              "A stylized illustration of a hand scrubbing a dark surface that refuses to change color"
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "Bringing a rat's skin and washing/rubbing it for a whole year",
+            "literalization_risk": "An illustrator might literally depict a person washing a tiny rat skin in a tub, which looks absurd and misses the philosophical point about human nature.",
+            "metaphor_mapping": {
+              "tenor_concept": "trying to change an unalterable human nature",
+              "transferred_attributes": [
+                "futility",
+                "persistence in vain",
+                "unchanging inherent quality"
+              ],
+              "vehicle_concept": "washing a dark rat skin to turn it white"
+            },
+            "source_span_original": "ఎలుకతోలుఁదెచ్చి యేడాది యుతికిన",
+            "source_span_translation": "Even if you rub a rat's skin for a year",
+            "source_term": "ఎలుకతోలుఁదెచ్చి యేడాది యుతికిన",
+            "tenor": "The futility of trying to reform or change an inherently bad or unyielding character",
+            "vehicle": "Washing a naturally dark rat's skin repeatedly to make it white",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split scene or a symbolic representation showing a person trying to wash a dark, coarse material that remains stubbornly dark, contrasted with a serene observer shaking their head."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific Telugu verb 'utikina' refers to washing or laundering clothes (often by beating them against a stone), which is much more specific than the generic English translation 'rub'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Inherent bad qualities or deep-seated nature cannot be transformed into pure or good qualities.",
+            "acceptable_visual_variants": [
+              "A dark charcoal block next to a white chalk block, showing their unmixable, unchangeable states",
+              "A stylized graphic showing a black circle resisting a white wash"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L2",
+            "literal_meaning": "Black remains black only, whiteness will not come",
+            "literalization_risk": "A literal depiction of black paint or ink failing to turn white might look like a simple color experiment rather than a moral lesson.",
+            "metaphor_mapping": {
+              "tenor_concept": "evil/stubborn nature and good/reformed nature",
+              "transferred_attributes": [
+                "immutability",
+                "stark contrast",
+                "inherent identity"
+              ],
+              "vehicle_concept": "black and white colors"
+            },
+            "source_span_original": "నలుపు నలుపేగాని తెలుపురాదు",
+            "source_span_translation": "The black remains black; white cannot emerge",
+            "source_term": "నలుపు నలుపేగాని తెలుపురాదు",
+            "tenor": "Inherent bad/stubborn nature versus pure/reformed character",
+            "vehicle": "The colors black and white",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use contrasting dark and light visual elements, perhaps showing a dark stone or object that resists being painted or changed to light."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An inanimate, unfeeling, or foolish person cannot be forced to understand, respond, or show wisdom no matter how much pressure or punishment is applied.",
+            "acceptable_visual_variants": [
+              "A person trying to teach or talk to a carved wooden statue",
+              "A hand tapping a wooden block expecting an echo or voice"
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L3",
+            "literal_meaning": "If you bring a wooden doll and beat it, will it speak?",
+            "literalization_risk": "An illustrator might draw someone violently hitting a toy doll, which could look like child's play or domestic anger rather than a metaphor for teaching a fool.",
+            "metaphor_mapping": {
+              "tenor_concept": "trying to educate or reform an unresponsive fool",
+              "transferred_attributes": [
+                "lifelessness",
+                "futility of force",
+                "complete lack of response"
+              ],
+              "vehicle_concept": "striking an inanimate wooden doll to get a response"
+            },
+            "source_span_original": "కొయ్యబొమ్మను దెచ్చి కొట్టినఁ బలుకునా",
+            "source_span_translation": "Can striking a wooden doll make it speak?",
+            "source_term": "కొయ్యబొమ్మను దెచ్చి కొట్టినఁ బలుకునా",
+            "tenor": "Trying to elicit wisdom, response, or emotion from an unfeeling, foolish, or unresponsive person",
+            "vehicle": "Beating a lifeless wooden doll to make it talk",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person speaking earnestly or gesturing towards a rigid, expressionless wooden figure or statue that remains completely unresponsive."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The signature Vemana makuta (refrain) 'Viswadabhirama Vinura Vema' is translated literally as 'Oh, Viswadabhirama! Listen to what I say!', losing the poetic identity, rhythm, and the direct address to the poet's signature name 'Vema'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The futility of trying to change the inherent nature of things or people through external force or effort."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ఎలుకతోలుఁదెచ్చి యేడాది యుతికిన\n\nనలుపు నలుపేగాని తెలుపురాదు\n\nకొయ్యబొమ్మను దెచ్చి కొట్టినఁ బలుకునా\n\nవిశ్వదాభిరామ! వినురవేమ!",
+  "poem_id": "MV++_1489",
+  "poem_title": "Elluka thollu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7119de5586dce583f261664e5935d7fa57c056bb5c8eef280afe8c0b719efe59",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1489.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Even if you rub a rat's skin for a year,\nThe black remains black; white cannot emerge.\nCan striking a wooden doll make it speak?\nOh, Viswadabhirama! Listen to what I say!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:40:29.751182+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "35e4e473d4be9a70e3c66f1ddd0e34e1dcf203944289b5584889bd0557538927",
+        "response_hash": "765dd1a19515ec7761334d4a4b6b71bb695fc82a4ca028037a6b22940c15f3cc",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "74517278f0d24d1957de24afedd884c69c70ffd047fafb453accdc5ff75e1b95",
+        "response_hash": "2c396f60ce850ec85c4dcb09281e17f4988eaeddf65d8c836614fd33c65e4e59",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2877119787320586b945e85102228e27594ca9dd08ea37023e9892f729a402af",
+        "response_hash": "e16af2f1537801afc746bdb6dc1a4e29ba8f234ca17981b5993d1af0c6e7a4c5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "023fd4e1c9fcba45adaacf3281ee972c1293b0353bfd8f6fb8ccb421a578b85f",
+        "response_hash": "4661400d0f87e5df8fe479adbd9087a5cde86f6dc79e069e7ff3c4beb79024bb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d12c212bb6cf056ac3ff9b5a70389fbe8388651f2e5eec1fed63097b1476f0aa",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9be9a31d09db7a612ac07ecdad040f055a8754a9f03a3ead79ffa8ebc785acde",
+    "translation_sha256": "6f5e5463e2161b5d6ccdbd4dcc9e2e4c2dbce01014905bac180760f580e4a7cd"
+  }
+}

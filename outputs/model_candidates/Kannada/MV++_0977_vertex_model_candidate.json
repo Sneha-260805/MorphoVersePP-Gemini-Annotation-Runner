@@ -1,0 +1,147 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet reflection on imagination and separation that resolves in the enduring warmth and guidance of love.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation simplifies the active, causative Kannada verb 'ujjugolisuttave' (making bright/polishing/intensifying) to a static state 'shines bright' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The guiding, comforting, and illuminating nature of love during difficult times of separation.",
+            "acceptable_visual_variants": [
+              "A traditional clay oil lamp (diyas/deepa) with a steady, warm flame illuminating a dark path.",
+              "A soft, warm glow emanating from an unseen source, gently lighting up a pathway of separation."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A physical lamp made of love",
+            "literalization_risk": "An illustrator might draw a literal lamp made out of hearts or abstract love symbols, which looks cartoonish and misses the emotional depth of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "providing guidance",
+                "shining brightly",
+                "bringing warmth"
+              ],
+              "vehicle_concept": "lamp"
+            },
+            "source_span_original": "ಪ್ರೀತಿಯ ದೀಪ",
+            "source_span_translation": "The lamp of love",
+            "source_term": "ಪ್ರೀತಿಯ ದೀಪ",
+            "tenor": "Love (preeti) as a guiding and comforting force",
+            "vehicle": "A physical lamp (deepa) that shines bright and dispels darkness",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing traditional oil lamp (deepa) casting a soft, comforting light over a dark or lonely path, symbolizing hope and connection."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada verb 'ujjugolisuttave' (ಉಜ್ಜುಗೊಳಿಸುತ್ತವೆ) carries a causative and intensive sense of making something shine brighter, polish, or rub to glow, which is simplified to 'shines bright' in English, losing the active, effortful nuance of brightening.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'beruva' (ಬೇರುವ) in 'beruva hadigalalli' (ಬೇರುವ ಹಾದಿಗಳಲ್ಲಿ) is translated as 'separation', but it carries a complex poetic resonance in Kannada that can evoke rooting, branching, or parting ways, which is flattened in the English translation.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The power of love and imagination to guide and comfort children through times of silence and separation."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಮಕ್ಕಳಿಗೆ ಹಾಡು,  \nಮೌನದ ನಡುವೆ ಕಲ್ಪನೆ,  \nಬೇರುವ ಹಾದಿಗಳಲ್ಲಿ,  \nಪ್ರೀತಿಯ ದೀಪ ಉಜ್ಜುಗೊಳಿಸುತ್ತವೆ.",
+  "poem_id": "MV++_0977",
+  "poem_title": "Makkalige Haadu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d65d6183392546fc08591e091c807b981c1febd34a34b06b5a62f7f71e14c07c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0977.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A song for the children,  \nImagination amid silence,  \nOn the paths of separation,  \nThe lamp of love shines bright.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:38:58.814216+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e1786f44e19cc3b5b60fb03f45dffa14e6d896da5b51157dec055bd8101aea20",
+        "response_hash": "8fe8072ceb53a8e6133532422f5f4da6f4af9b6b999e673dfcb05c5d6aa0b777"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fd8a87cb0ea3dbcf582980db5c154a6513d972fcd8d79b5ee28bb81b4873d862",
+        "response_hash": "6690d6d843c57050c38f64bb8d9c7498c1755af3fd105171aa1f2e51721951a1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e961865f58ad55f387d8cacd3bff0e0620dae7c1c61af5e5b9f87cd5da82c6ae",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f2884f5b9014ad73ef4ba3836bff24c20369534b3c0c5a8f3635474083535fa9",
+        "response_hash": "a4a5177a8b75c264fddb33fe1e6fd1a306bfc02532cc51f1bde7fe9c3f3e0114",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6dcdd619e054562fcf95171927a849bf808e9a0068ffa1a8687137fab8943cab",
+        "response_hash": "901cd254cc4aebd29c67b9e01b9e7422f6644bc4d03483d91d94993b473ce27c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bf76b2ced4fbc754e2e97afe038afd367b748afb5633da7ecff3bb405245d038",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "79d6631e194d5934fa02c89d24435020d35b32e8e986a0fc9a1030957359448c",
+    "translation_sha256": "4f0215dab74e2e2dd064a10bcecafe29f815acb865173d24798e9e3406b01ab5"
+  }
+}

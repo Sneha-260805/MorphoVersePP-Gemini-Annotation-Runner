@@ -1,0 +1,138 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contemplative wonder at the sacrifice and essence of a small element in a vast world",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation adds an explanatory line ('It brings flavor to life') that is not explicitly present in the concise original Konkani text, which ends on the act of leaving/dissolving.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker addresses a pinch of salt as a conscious entity capable of feeling and experiencing isolation or sacrifice.",
+            "acceptable_visual_variants": [
+              "A hand releasing a tiny pinch of salt over a vast, empty landscape",
+              "A single grain of salt dissolving in a large, deep body of water"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "How do you feel?",
+            "literalization_risk": "Showing a cartoonish salt crystal with a human face and crying eyes would ruin the poetic, contemplative tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "salt",
+              "transferred_attributes": [
+                "ability to feel",
+                "emotional experience of isolation"
+              ],
+              "vehicle_concept": "human consciousness"
+            },
+            "source_span_original": "तुला कसं वाटतं",
+            "source_span_translation": "How does it feel",
+            "source_term": "तुला कसं वाटतं",
+            "tenor": "A pinch of salt being dissolved or left behind in the world",
+            "vehicle": "A conscious human being with feelings and sensory awareness",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a single pinch of salt falling into a vast, dark, or watery space, emphasizing scale and isolation rather than giving the salt literal human features."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation adds an entire line ('It brings flavor to life') that has no direct textual equivalent in the original Konkani poem, significantly altering the concise, open-ended structure of the source text.",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific regional/dialectal term 'डाखलो' (Dakhlo), which refers to a small piece, pinch, or sample, is translated as 'A pinch of salt' by combining it with the English loanword 'साल्ट' (salt) from the next line, losing the distinct rhythmic separation of the two words.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet sacrifice of a pinch of salt that dissolves to bring flavor to the wider world"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Konkani",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "डाखलो  \nसाल्ट,  \nतुला कसं वाटतं  \nसंपूर्ण जगात  \nसोडून देतं.",
+  "poem_id": "MV++_1168",
+  "poem_title": "Dakhlo",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "bb8b3cbbf295901bf5b18c5ab2a9a48cfd60d8389b4a7e5e96fc91846e450810",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Konkani/MV++_1168.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A pinch of salt,  \nHow does it feel,  \nLeaving everything behind,  \nIn this vast world,  \nIt brings flavor to life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:05:05.296497+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7260ee03fc23c08fd8d6498284fd3ef5faae42cdc43109e046e1cd234c62671",
+        "response_hash": "2c44d14218dc8771d740780d59258f53c609666d992cb3b653eec113c79a35fe",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cc266f5f5a70d0725e37e6ec6bcf2702a57dc88c4883a25d69ebda11021ef2b4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "71e44f00602c39eface8765e2498c42637cf904cbfb165a98da3d5e6ccdb4f83",
+        "response_hash": "875a0c82eca7726f5a60ed98b4a1aab86c79f6eed464ad6cdd3a6b3a82e68873",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2ee54c053049a2d3d605ba8bf2d6234ab4a06c31a279980efc9bd0d1134ac13b",
+        "response_hash": "7f64544cc691f4ec570f5eaa5bc6e59dcde0d01df95c3f856273e7d3281768dd",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "afd9f69e8e314a9ce64668ea99133f95ed557138ebf46f290b70e48d5dec9427",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5c67fe04e3946678fc69a2450ab222e2ff7a34707bc67b1206e36080a343b11c",
+    "translation_sha256": "35cf5a021703957673ff4d656ba68e30afe1aabf6d923ea8704cb1df7ab08f9d"
+  }
+}

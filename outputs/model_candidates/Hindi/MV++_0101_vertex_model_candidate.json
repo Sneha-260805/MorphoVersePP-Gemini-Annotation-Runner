@@ -1,0 +1,193 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet grief to silent acceptance and understanding",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A tiny, singular expression of human grief or emotion (a tear) carries a depth of feeling as vast and profound as the deepest ocean.",
+            "acceptable_visual_variants": [
+              "A single tear falling against a dark, deep blue background that evokes the vastness of the deep sea.",
+              "A close-up of a tear on a cheek, with the reflection of a vast, calm ocean horizon visible within the curve of the droplet."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1-L2",
+            "literal_meaning": "A single physical droplet of tear physically reaches down to touch the bottom of the sea.",
+            "literalization_risk": "Showing a literal droplet of water falling into a physical blue ocean and hitting the seabed, which misses the emotional scale of human grief.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional depth",
+              "transferred_attributes": [
+                "immensity",
+                "profoundness",
+                "hidden scale"
+              ],
+              "vehicle_concept": "ocean depth"
+            },
+            "source_span_original": "आँसू की एक बूँद,\nसागर की गहराई को छूती है।",
+            "source_span_translation": "A drop of tear,\nTouches the depth of the ocean.",
+            "source_term": "आँसू की एक बूँद,\nसागर की गहराई को छूती है।",
+            "tenor": "The profound, immense depth of emotion contained within a single tear.",
+            "vehicle": "A single droplet of water touching the vast, deep floor of an ocean.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of a single tear falling, with a subtle, vast ocean-like depth or deep blue abyss reflected inside the droplet itself."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation 'A drop of tear' is slightly unnatural in English compared to the simple, poignant Hindi 'आँसू की एक बूँद' (literally, 'a single drop of tear').",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender agreement in Hindi ('बहती है' and 'डूबती है' matching the feminine noun 'बूँद') is lost in the gender-neutral English verbs 'flows' and 'sinks'.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Every tear shed communicates a deep, unspoken narrative of personal pain and experience without needing spoken words.",
+            "acceptable_visual_variants": [
+              "A sequence of falling tears fading into faint, ghostly outlines of expressive hands or faces, symbolizing a silent narrative.",
+              "A single tear resting on a surface, reflecting a soft, warm light that hints at a hidden memory."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7-L8",
+            "literal_meaning": "Each physical droplet of tear possesses a voice and speaks a literal narrative aloud.",
+            "literalization_risk": "Depicting a cartoonish tear droplet with a mouth speaking words or holding a book, which ruins the somber, reflective tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "expressive tear",
+              "transferred_attributes": [
+                "communication of narrative",
+                "revealing truth",
+                "evoking empathy"
+              ],
+              "vehicle_concept": "storyteller"
+            },
+            "source_span_original": "आँसू की हर बूँद,\nकहानी कह जाती है।",
+            "source_span_translation": "Every drop of tear,\nTells a story well.",
+            "source_term": "आँसू की हर बूँद,\nकहानी कह जाती है।",
+            "tenor": "The expressive power of tears to reveal a person's inner sorrow and history.",
+            "vehicle": "A storyteller speaking or narrating a tale.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a trail of tears on a face, where each droplet subtly reflects a faint, abstract silhouette of a memory or a past scene, suggesting a history within the water."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds the word 'well' to force a rhyme with 'tell', which is not present in the original Hindi text ('कह जाती है' simply means 'goes on to tell' or 'tells').",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The silent but profound depth of human sorrow expressed through tears"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries, which is inconsistent with a completely faithful translation without loss. However, since the losses are of 'low' severity, this is a minor structural inconsistency.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a 'medium' severity translation_loss entry for the added rhyme word 'well', which is inconsistent with a completely faithful translation.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आँसू की एक बूँद,  \nसागर की गहराई को छूती है।  \nकभी चुपके से बहती है,  \nकभी गहराई में डूबती है।  \n\nइस दिल के दर्द को,  \nकहने की ज़रूरत नहीं।  \nआँसू की हर बूँद,  \nकहानी कह जाती है।",
+  "poem_id": "MV++_0101",
+  "poem_title": "Aansoo",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "aac0d7b51c866e99281e07992202458efd08a7dedec3b233ba3c0602e2a1c7b9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0101.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A drop of tear,  \nTouches the depth of the ocean.  \nSometimes it flows quietly,  \nSometimes it sinks deep.  \n\nThis heart's pain,  \nNeeds no words to tell.  \nEvery drop of tear,  \nTells a story well.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:46:42.644728+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4bc7db0b587097109426213e0f73d1b18f3d38daf0b09184aba935f8eacc15ab",
+        "response_hash": "73e7ca5f09dc55cdab4fcce112d6c29c94d5ff9517ec147ccf762249bdd473cb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "67964ead069416fedcacaa9d1b3790b43416bcf7ce81b35c976c3bdbe6f13bc6",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f94f714da0731fd8fe899f0925385e10e9c52621beca4d8ba89b552345841aaf",
+        "response_hash": "591dabe44515624a2186c99d500154469d1518391900b10750c2c41a4544d934",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eca5c5582dde1d5543c379fef614026ca1317a9e70bf49b91ad9257944a08248",
+        "response_hash": "0806539826a245b0902f24f88701c3ca7edd8ae0cb572b7d7ffdb33351a8f1c7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "100d5aacf3daafd60fd65ed846ef679dfdf41621f072365fca0165df84e48055",
+        "response_hash": "cf8eea827c506dc3c3e25181dcb23477c8a3cc38b7aad6c6e3f54317c20dcf78",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "68df928df796f16336472d18be1a562682224db138e7293969882d11f0abab29",
+    "translation_sha256": "47ac06cf002fb007afbecac302b2a873eade23ede0b52ff001e5fff09f883205"
+  }
+}

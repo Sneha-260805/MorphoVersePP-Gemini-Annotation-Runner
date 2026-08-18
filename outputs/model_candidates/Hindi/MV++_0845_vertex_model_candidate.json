@@ -1,0 +1,211 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "devotion and peace to deep gratitude and strength",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'क़रारा' (karara) as 'comfort' simplifies a word that carries connotations of firm assurance, satisfaction, or a soothing promise.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mother is the central, most important figure in the speaker's life, encompassing their entire existence.",
+            "acceptable_visual_variants": [
+              "A mother embracing her child warmly in a cozy room",
+              "A child looking up lovingly at their mother with a soft, protective aura around them"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Mother, you are my physical planet Earth",
+            "literalization_risk": "Depicting a mother literally transformed into a physical globe or planet, which would look surreal or sci-fi rather than emotional.",
+            "metaphor_mapping": {
+              "tenor_concept": "mother",
+              "transferred_attributes": [
+                "all-encompassing",
+                "central",
+                "essential for existence"
+              ],
+              "vehicle_concept": "world"
+            },
+            "source_span_original": "माँ, तू है मेरी दुनिया",
+            "source_span_translation": "Mother, you are my world",
+            "source_term": "माँ, तू है मेरी दुनिया",
+            "tenor": "the mother's role and importance in the speaker's life",
+            "vehicle": "the physical world/planet",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a mother holding or embracing her child, with a soft, warm glow surrounding them to suggest she is everything to the child, or a stylized background showing elements of a child's life revolving around the mother."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The specific nuance of the Urdu-derived word 'qarara' (meaning firm, stable, or satisfying rest/comfort) is simplified to 'comfort' in English, losing its distinct phonetic weight and colloquial texture.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'शक्ति' (shakti) as 'strength' is accurate, but misses the deeper cultural resonance of 'shakti' as a primal, life-giving cosmic energy or power.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The protective, comforting, and soothing nature of a mother's love.",
+            "acceptable_visual_variants": [
+              "A mother wrapping her shawl or arms around her child to shelter them",
+              "A mother and child sitting peacefully under the gentle shade of a large tree"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "In the physical shadow cast by your maternal love",
+            "literalization_risk": "Depicting a literal dark shadow cast on a child, which might look ominous or spooky rather than comforting.",
+            "metaphor_mapping": {
+              "tenor_concept": "maternal love",
+              "transferred_attributes": [
+                "coolness",
+                "protection from harsh heat/sorrow",
+                "comfort"
+              ],
+              "vehicle_concept": "shade"
+            },
+            "source_span_original": "तेरी ममता की छाँव में",
+            "source_span_translation": "In the shade of your affection",
+            "source_term": "तेरी ममता की छाँव में",
+            "tenor": "maternal love and protection",
+            "vehicle": "shade/shadow (as from a tree)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a mother sheltering her child under her arms or a shawl, or sitting under a leafy, sheltering tree that casts a soft, cool, protective shade over them."
+          },
+          {
+            "abstract_meaning": "The mother is the source of the speaker's inner strength, resilience, and support.",
+            "acceptable_visual_variants": [
+              "A mother holding a child's hand firmly to guide them",
+              "A mother standing as a supportive, reassuring presence behind her child"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "You are my physical power or energy",
+            "literalization_risk": "Depicting the mother as a superhero with physical muscles or glowing energy beams, which misses the emotional and psychological nature of her support.",
+            "metaphor_mapping": {
+              "tenor_concept": "mother",
+              "transferred_attributes": [
+                "empowering",
+                "supporting",
+                "sustaining"
+              ],
+              "vehicle_concept": "power/energy"
+            },
+            "source_span_original": "तू है मेरी शक्ति",
+            "source_span_translation": "You are my strength",
+            "source_term": "तू है मेरी शक्ति",
+            "tenor": "the mother as a source of emotional support and resilience",
+            "vehicle": "strength/power",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the mother standing supportively behind the child, placing a reassuring hand on their shoulder as they face forward, symbolizing inner strength and confidence."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the active, subject-less Hindi verb 'bhula deti hai' (literally '[it] makes [one] forget' or '[she] makes [one] forget') into a passive English construction ('is forgotten'), which alters the agency and emotional flow of the line.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The boundless comfort, strength, and emotional sanctuary found in a mother's love."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "माँ, तू है मेरी दुनिया,  \nतेरे बिना सब है अधूरा।  \nतेरी गोद में मिलती है,  \nसुख और चैन का क़रारा।  \n\nतेरी ममता की छाँव में,  \nहर ग़म भुला देती है।  \nतू है मेरी शक्ति,  \nतू है मेरी हर ख़ुशी की वजह।",
+  "poem_id": "MV++_0845",
+  "poem_title": "Maa",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7cd4e5da945f92fd3cbbe0688a29763790283150c021e4a6f551c0bdbb986b37",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0845.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Mother, you are my world,  \nWithout you, everything is incomplete.  \nIn your lap, I find,  \nThe comfort of happiness and peace.  \n\nIn the shade of your affection,  \nEvery sorrow is forgotten.  \nYou are my strength,  \nYou are the reason for every joy in my life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:20:34.293794+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "02e045ab421b64980590fa7e32c83b0c76a216a073933fade627201de427285e",
+        "response_hash": "2ed20d2c5101b190ee0bf38caf285a07e21db26dc3ae8a723ff1e330ca3a7e65"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9fa24e6effd931d957c8fcc66fdb3b16bc284cc0a227ef4c1443294242893f4c",
+        "response_hash": "449795a10edb4b0a47788d5874c8443d731b90ba86892ea6916659c2ca015079",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "57a1b97b7cc38ac5377165eebf417994a2c8521ae474acce9308ee5bb6303dee",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "498e8a557fb109fca58487dff91387ccdaaf627dc948ce8e21714035ae81ddc5",
+        "response_hash": "6ccb5c9e3a556be1f16b255a32cb04753f64130f4f2f3751359e1d5862e128fb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca8526b9cf184b0a255aa13a7efd5c2096e1316193282868827af21272b53500",
+        "response_hash": "7f7e3b955c5175d569909e59f123ea6bbf0aea49c717745e8b283e55bab5d12d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e87e684346e3f73c56e1104f8599fcb9766eec85405acfb12890698c701cc29",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "272ac39c278da1f48ab7ba6e1b8e1cdfb86eb888c3074467ef1b06c6c4345428",
+    "translation_sha256": "8e81bfd1a690a421347d366b19b9682a21b0c7c57a0ee9cb6c865a56477f65d1"
+  }
+}

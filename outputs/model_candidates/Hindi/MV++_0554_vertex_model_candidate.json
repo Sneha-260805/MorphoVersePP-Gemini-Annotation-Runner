@@ -1,0 +1,250 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional brick-paved courtyard with a central tree",
+          "A simple mud-plastered rural courtyard with a central tree"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional central courtyard in South Asian homes, serving as a private outdoor space for family gatherings, daily chores, and domestic life. It holds deep cultural significance as the heart of the household.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern suburban grassy backyard",
+          "A public park or open forest setting"
+        ],
+        "preserved": true,
+        "romanization": "aangan",
+        "source_span_original": "आंगन",
+        "source_span_translation": "courtyard",
+        "stanza_index": 1,
+        "term": "आंगन",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An open-air central courtyard surrounded by domestic walls",
+          "A single tree standing in the center of the courtyard",
+          "Soft, filtered sunlight casting a gentle shadow"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "resilience and quiet observation of life's passage",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The tree acts as a resilient entity that endures emotional hardships and sorrows over time, mirroring human endurance.",
+            "acceptable_visual_variants": [
+              "A single tree in a courtyard shown during a transition of seasons, such as autumn leaves falling or standing under a grey sky.",
+              "A close-up of a textured, deeply-lined tree trunk that suggests age and endurance."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "Which endures sorrows in every season.",
+            "literalization_risk": "Showing a tree crying or physically carrying heavy burdens like sacks labeled 'sorrows' would look cartoonish and miss the quiet, stoic nature of the tree's presence.",
+            "metaphor_mapping": {
+              "tenor_concept": "A tree standing through seasonal changes",
+              "transferred_attributes": [
+                "the capacity to feel sorrow",
+                "the act of patient endurance",
+                "resilience against external elements"
+              ],
+              "vehicle_concept": "An emotional being enduring grief"
+            },
+            "source_span_original": "जो हर मौसम में ग़मों को सहता है।",
+            "source_span_translation": "Enduring sorrows in every season.",
+            "source_term": "जो हर मौसम में ग़मों को सहता है।",
+            "tenor": "A tree standing in a courtyard, physically weathering natural seasons and changes while symbolizing emotional resilience.",
+            "vehicle": "A living being capable of feeling and enduring emotional grief or sorrow throughout changing weather seasons.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a sturdy, weathered tree standing in a courtyard under changing weather conditions (like rain or wind) to subtly evoke endurance without literalizing human grief."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'चुप सी शांति' (chup si shanti) as 'silent peace' loses the soft, comparative nuance of the particle 'सी' (si), which means 'like' or 'resembling' a silence, softening the description.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'वक़्त की गति' (waqt ki gati) as 'passage of time' loses the literal sense of 'gati' as speed, velocity, or movement, which directly pairs with 'धीमी' (dheemi - slow).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'उड़ते हैं' (udte hain, fly/soar) as 'carry' in 'Its branches carry dreams' alters the active, soaring quality of the dreams in the original Hindi.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The branches of the tree are envisioned as a space where human hopes, dreams, and thoughts take flight or linger.",
+            "acceptable_visual_variants": [
+              "Soft, colorful light specks or glowing embers floating gently around the tree branches at dusk.",
+              "Stylized, translucent bird-like shapes taking flight from the canopy of the tree."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Dreams fly in its branches",
+            "literalization_risk": "Depicting literal sleeping people or thought bubbles with cartoonish dream sequences hanging from branches would disrupt the serene, poetic tone of the scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "Human dreams and thoughts lingering around the tree",
+              "transferred_attributes": [
+                "flight",
+                "resting in branches",
+                "being colorful or quiet"
+              ],
+              "vehicle_concept": "Birds or flying objects nesting in branches"
+            },
+            "source_span_original": "उसकी शाखाओं में उड़ते हैं ख्वाब",
+            "source_span_translation": "Its branches carry dreams",
+            "source_term": "उसकी शाखाओं में उड़ते हैं ख्वाब",
+            "tenor": "Intangible human dreams, aspirations, and thoughts associated with the peaceful space around the tree.",
+            "vehicle": "Birds or airborne entities flying and nesting among the branches of a tree.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render soft, glowing, or semi-translucent abstract shapes, or bird-like silhouettes of light, weaving through the branches of the tree to represent dreams."
+          },
+          {
+            "abstract_meaning": "The tree is portrayed as a silent, conscious observer of the household's life and events over time.",
+            "acceptable_visual_variants": [
+              "The tree framed centrally, casting a wide shadow over a quiet courtyard, implying its protective and observing presence.",
+              "A view looking slightly through the branches toward the courtyard, mimicking the tree's 'perspective' of the space."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "Which quietly watches everything.",
+            "literalization_risk": "Drawing literal eyes on the tree trunk would look like a fantasy caricature or a monster, ruining the realistic, reflective mood of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "A stationary tree overlooking a courtyard",
+              "transferred_attributes": [
+                "silent observation",
+                "constant presence",
+                "witnessing events"
+              ],
+              "vehicle_concept": "A silent human observer"
+            },
+            "source_span_original": "जो चुपचाप सब कुछ देखता है।",
+            "source_span_translation": "Quietly observing everything.",
+            "source_term": "जो चुपचाप सब कुछ देखता है।",
+            "tenor": "The physical presence of the tree overlooking the courtyard, remaining constant as life happens around it.",
+            "vehicle": "A silent human sentinel or witness who watches events unfold without speaking.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Position the tree prominently in the foreground or background overlooking a domestic courtyard scene, suggesting its role as a silent witness through its framing and scale."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'उड़ते हैं ख्वाब' (udte hain khwaab) as 'carry dreams' changes the active verb 'उड़ते हैं' (udte hain - fly/soar) to a passive or holding verb 'carry', losing the dynamic movement of dreams flying in the branches.",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'निस्तब्ध' (nistabdh) as 'still' loses the deeper Sanskritized connotation of absolute, stunned, or breathless silence/motionlessness implied by the word.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring presence of a courtyard tree as a silent witness to time, sorrow, and dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आंगन में एक पेड़ खड़ा है,  \nजो हर मौसम में ग़मों को सहता है।  \nउसकी छांव में एक चुप सी शांति है,  \nजहाँ वक़्त की गति धीमी होती है।\n\nउसकी शाखाओं में उड़ते हैं ख्वाब,  \nकभी रंगीन, कभी निस्तब्ध।  \nआंगन में एक पेड़ खड़ा है,  \nजो चुपचाप सब कुछ देखता है।",
+  "poem_id": "MV++_0554",
+  "poem_title": "Aangan Mein Ek Ped",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a7b8339f9d15f1b4b71159d368f102aa5ba7ade4b5b7aed0ff3ba811360a4be2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0554.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A tree stands in the courtyard,  \nEnduring sorrows in every season.  \nThere is a silent peace beneath its shade,  \nWhere the passage of time slows down.\n\nIts branches carry dreams,  \nSometimes colorful, sometimes still.  \nA tree stands in the courtyard,  \nQuietly observing everything.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:38:12.755636+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f282a5c19eb302c1773c99cfd82349d4c459525d536b214d6569a4a107d3f484",
+        "response_hash": "8d36ccc0e08db327e26a8923ec9c6bd76d1d5a578ce6be0f640603f8e19a6118"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8e52062dafe7c0deb30f8c9ad4207916958629b0f1fa8c32ae3da6c2fd5a7059",
+        "response_hash": "e49eae2c04faeab05457ec66066391755a4132c2909f5adf6bd3a09b30507b22",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bea940fc8274a5bd57f97e0cf450e6bba91b4aecb274ba5da2a5fd62291bc33a",
+        "response_hash": "f7e660ebac59b51d98920124bf5956af28dac1cac59fc14ba86305f0b771fd6e",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "317da28ccd36f28283c78eac9b32d76c47a18b34d5139f8eb0d8c7917ba76fb3",
+        "response_hash": "1ef18cc3a96a979a870fc1e6d5dd78c0548c35ca23fb773546c984a1aa4b89aa",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d908633396debc22ca59a0349f7e8c7ea3ca9313da95cc6b926d535159fda97b",
+        "response_hash": "84fd4f19521ab34c785c16532516cb975b13e33d26bc239d39c4bd01c1bd0656",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f900ffbd78ac6220803a3a3ce09546ba0f2fe16472037817f5beaee83a76d95d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bd6e767c78c1bb361f7e9fc8d29275a1251e7715a50254e949adda51db76b7bb",
+    "translation_sha256": "5f78212264c7258cb687dc6c151f7010a1f831b80b3fcae5ec6d8c79819ec5cd"
+  }
+}

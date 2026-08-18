@@ -1,0 +1,275 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A term of Persian origin meaning readiness to sacrifice one's head or life; highly associated with revolutionary self-sacrifice in the Indian independence movement.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "sarfaroshi",
+        "source_span_original": "सरफ़रोशी",
+        "source_span_translation": "martyrdom",
+        "stanza_index": 1,
+        "term": "सरफ़रोशी",
+        "translation_note": "Translated as 'martyrdom', which captures the core concept of self-sacrifice or readiness to lay down one's life, though the original Urdu/Hindi term carries a specific historical resonance of revolutionary self-sacrifice.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Plural of 'aashiq' (lover). In Urdu/Hindi poetic traditions, particularly under Sufi and ghazal influence, the lover's devotion is often used as a metaphor for intense, self-sacrificing devotion to a cause, nation, or the divine.",
+        "line_ref": "L6",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "aashiqon",
+        "source_span_original": "आशिक़ों",
+        "source_span_translation": "lovers",
+        "stanza_index": 2,
+        "term": "आशिक़ों",
+        "translation_note": "Translated literally as 'lovers'. In the context of patriotic and revolutionary poetry, the lover-beloved dynamic is mapped onto the revolutionary and their cause or homeland.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "defiance and resolve to passionate self-sacrifice",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the rhythmic flow and the specific Urdu-inflected poetic weight of terms like 'sarfaroshi' (readiness to sacrifice one's head/life) and 'bazu-e-qatil' (the arm of the killer).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The power, resources, and oppressive force of the adversary or colonial ruler.",
+            "acceptable_visual_variants": [
+              "A massive, dark silhouette of an armed figure towering over a crowd.",
+              "An abstract representation of heavy iron gates or barriers representing oppressive power."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The physical arm or bicep of the executioner/murderer.",
+            "literalization_risk": "Showing a literal muscular arm holding a weapon might look like a simple crime scene rather than a struggle against systemic oppression.",
+            "metaphor_mapping": {
+              "tenor_concept": "oppressive power of an adversary",
+              "transferred_attributes": [
+                "strength",
+                "capacity to inflict harm",
+                "physical force"
+              ],
+              "vehicle_concept": "physical arm of an executioner"
+            },
+            "source_span_original": "बाज़ु-ए-क़ातिल",
+            "source_span_translation": "arms of the killer",
+            "source_term": "बाज़ु-ए-क़ातिल",
+            "tenor": "The oppressive power and might of the adversary.",
+            "vehicle": "The physical arm of an executioner.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a looming, powerful shadow or a heavily armed, imposing figure representing the adversary, emphasizing scale and force rather than a single literal arm."
+          },
+          {
+            "abstract_meaning": "Addressing the sky or fate as a witness to the struggle.",
+            "acceptable_visual_variants": [
+              "A vast, dramatic sky with parting clouds and sunlight breaking through.",
+              "A wide-angle view looking up from the ground towards the heavens."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "O sky (addressing the physical atmosphere/heavens).",
+            "literalization_risk": "Depicting a literal face in the clouds might look cartoonish or like a fantasy deity.",
+            "metaphor_mapping": {
+              "tenor_concept": "the world or fate as a witness",
+              "transferred_attributes": [
+                "ability to hear",
+                "presence",
+                "witnessing"
+              ],
+              "vehicle_concept": "the physical sky as a person"
+            },
+            "source_span_original": "ऐ आसमां",
+            "source_span_translation": "O sky",
+            "source_term": "ऐ आसमां",
+            "tenor": "Fate, time, or the world at large witnessing the struggle.",
+            "vehicle": "The sky as a conscious listener or witness.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a vast, open sky above the figures, perhaps with dramatic lighting or clouds, to evoke a sense of a grand witness without drawing a literal face."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Persian-derived compound 'bazu-e-qatil' (arm of the killer) carries a specific poetic and grammatical structure (izafat) that is flattened into the English 'arms of the killer'. Additionally, 'sarfaroshi' literally means 'readiness to offer one's head' (from sar + farosh), which is translated abstractly as 'martyrdom', losing the vivid physical metaphor of decapitation/sacrifice.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation renders 'ashiqon' as 'lovers' and 'kooch-e-qatil' as 'killer's alley', which captures the literal sense but loses the rich Sufi-influenced poetic metaphor where the revolutionary martyrs are framed as passionate lovers seeking union with death/the beloved.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The passionate freedom fighters or revolutionaries who love their motherland.",
+            "acceptable_visual_variants": [
+              "A group of diverse, determined people standing shoulder-to-shoulder looking forward.",
+              "A crowd of people holding hands or banners in a peaceful but resolute stance."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Romantic lovers.",
+            "literalization_risk": "Depicting literal romantic couples would completely misrepresent the patriotic and revolutionary context of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "devoted revolutionaries",
+              "transferred_attributes": [
+                "intense passion",
+                "willingness to sacrifice everything",
+                "devotion"
+              ],
+              "vehicle_concept": "romantic lovers"
+            },
+            "source_span_original": "आशिक़ों",
+            "source_span_translation": "lovers",
+            "source_term": "आशिक़ों",
+            "tenor": "Revolutionaries or patriots devoted to the cause of freedom.",
+            "vehicle": "Romantic lovers drawn to their beloved.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a determined group of young, passionate individuals standing together with resolve, showing emotional intensity and unity."
+          },
+          {
+            "abstract_meaning": "The arena of struggle, confrontation, or the path of sacrifice.",
+            "acceptable_visual_variants": [
+              "A path leading towards a bright, intense light or a formidable barrier.",
+              "A street lined with symbolic shadows where a group of people marches resolutely."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The street or alleyway where the murderer lives.",
+            "literalization_risk": "A literal dark alleyway with a murderer waiting might look like a generic thriller scene rather than a symbolic space of political sacrifice.",
+            "metaphor_mapping": {
+              "tenor_concept": "the dangerous path of struggle",
+              "transferred_attributes": [
+                "danger",
+                "inevitability of confrontation",
+                "hostile territory"
+              ],
+              "vehicle_concept": "a physical alleyway of a killer"
+            },
+            "source_span_original": "कूच-ए-क़ातिल",
+            "source_span_translation": "killer's alley",
+            "source_term": "कूच-ए-क़ातिल",
+            "tenor": "The dangerous path of revolution and confrontation with the oppressor.",
+            "vehicle": "A narrow, dangerous alleyway of an executioner.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a symbolic path or street leading towards a heavily guarded or imposing structure, representing the entry into a zone of confrontation."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The term 'aashiqon' (lovers) in Urdu/Hindi poetic tradition carries a deep double meaning of both romantic lovers and passionate, self-sacrificing devotees of a cause (patriots/martyrs). The English translation 'lovers' risks being read in a purely romantic sense, losing the political and revolutionary weight of the metaphor. Additionally, 'kooch-e-qatil' (the street/alley of the killer) uses the Persian izafat construction which is simplified to 'killer's alley'.",
+            "where": "L5-L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The unyielding desire for revolutionary martyrdom and defiance against an oppressor."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सरफ़रोशी की तमन्ना अब हमारे दिल में है,  \nदेखना है ज़ोर कितना बाज़ु-ए-क़ातिल में है।  \nवक्त आने दे बता देंगे तुझे ऐ आसमां,  \nहम अभी से क्या बताएं क्या हमारे दिल में है।  \n\nख़ैंच कर लायी है सब को क़त्ल होने की उम्मीद,  \nआशिक़ों का आज जमघट कूच-ए-क़ातिल में है।  \nसरफ़रोशी की तमन्ना अब हमारे दिल में है,  \nदेखना है ज़ोर कितना बाज़ु-ए-क़ातिल में है।",
+  "poem_id": "MV++_0176",
+  "poem_title": "Sarfaroshi Ki Tamanna",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "44c7616fc02427a5ed225857dfb034bfcf60e40bb5f885a37e7cf77285e437ba",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0176.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The desire for martyrdom is now in our hearts,  \nLet us see how strong the arms of the killer are.  \nLet the time come, and we will show you, O sky,  \nWhy should we tell you now what's in our hearts.  \n\nHope has brought everyone here to face death,  \nToday, lovers gather in the killer's alley.  \nThe desire for martyrdom is now in our hearts,  \nLet us see how strong the arms of the killer are.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:55:33.827183+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f96b94c563f3b9a21dbb84f611af4eeb52fe6380413bc87288bd6c4da407ece3",
+        "response_hash": "b73ab8294412aa49e4d021ed97705fe7432e6650092366c0a1f8bf8c2f7b218b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "11a2b24ca861413fb1c6e63e0fe1ec780058ca1d5a2049a1262aae2be34a5ea1",
+        "response_hash": "297980dc39b4ea748756ce489ba6c4f9c70cfc6fc4529953cc41c080972bd5fa",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7b90b0d5869c65cb37f9d59d4bfa1b89af6d40cc39994141766969abeb277de8",
+        "response_hash": "b101bab4650984a2a49cd475ede54c17200776d59daef2c31ab87ea0fa215283",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ef8582fe93261780f63e6fe5701e3b94036026c8e3379f40c7fe602dc7c5c44f",
+        "response_hash": "670a63ddbaf43638d5dcd5ea1425b83e69be89bf31552b99ab70656b4d4c0816",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "34e89567351ce73164fa1b6eafa55628704103b39565334ef8cf37dfad3b73ee",
+        "response_hash": "c163178040b8b083b5f43ddd7e8836b086f464866ecc51ed0b51057ed54e663f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4fcb262f985659eb55b0347a1b79e82016fadb89ff9a4d6f12448234a492e615",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "06c3523307cbd745052d002de961f9499e840966127123e6a612d3e22c6c2eb8",
+    "translation_sha256": "657983598767439e8b0e513a79e8252b9ba3b47bf01a3a709aebae94062ead0e"
+  }
+}

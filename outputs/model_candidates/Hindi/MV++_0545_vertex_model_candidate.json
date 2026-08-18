@@ -1,0 +1,184 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple stone slab threshold at the entrance of a rural home",
+          "A carved wooden doorframe base in an older style house"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The threshold or doorstep of a house, which holds significant cultural and ritual importance in traditional Indian households as a boundary between the outer world and the sacred domestic space.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern western-style metal or rubber doormat",
+          "An elaborate temple entrance with temple guards"
+        ],
+        "preserved": true,
+        "romanization": "dehri",
+        "source_span_original": "देहरी",
+        "source_span_translation": "threshold",
+        "stanza_index": 1,
+        "term": "देहरी",
+        "translation_note": "Translated as 'threshold', which captures the physical meaning but loses the deep cultural associations of the threshold as a sacred boundary of the home in South Asian domestic life.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A raised wooden or stone doorstep at the entrance of a traditional house",
+          "Slightly worn or polished from people sitting or stepping over it"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and waiting to a quiet, comforting sense of belonging",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'apnon' as 'loved ones' is faithful, but loses the specific Hindi nuance of 'one's own people' or 'kin' which carries a deep sense of personal belonging.",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'apnon' as 'loved ones' loses the specific cultural nuance of 'apna' (one's own people/kin), which carries a deep sense of belonging and shared identity beyond general affection. Additionally, the grammatical gender of the speaker is explicitly marked as masculine in the verb 'karta hoon' (L4) and participle 'baitha' (L1), which is flattened into gender-neutral English verb forms.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation captures the literal meaning well, but the subtle emotional shift in 'ghar lagta hai' (feels like home) loses some of its colloquial warmth and comfort in the English rendering.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The universe or nature feels comforting, protective, and intimately connected to the speaker's personal hope or waiting.",
+            "acceptable_visual_variants": [
+              "A wide sky with soft, low-hanging clouds that seem to cradle the horizon near a house.",
+              "A starry night sky that appears to curve gently over a single illuminated doorway."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5-L6",
+            "literal_meaning": "The physical sky in front of the speaker is physically bending or tilting downward toward them.",
+            "literalization_risk": "An illustrator might draw a literal, physically warped sky or a cartoonish blue dome bending down like a physical object, which would look surreal or comical rather than emotionally comforting.",
+            "metaphor_mapping": {
+              "tenor_concept": "a feeling of cosmic comfort and personal solace",
+              "transferred_attributes": [
+                "closeness",
+                "bending to accommodate",
+                "comforting presence"
+              ],
+              "vehicle_concept": "a physical sky bending down"
+            },
+            "source_span_original": "आकाश है सामने,\nजरा सा झुका है मेरे लिए।",
+            "source_span_translation": "sky before me,\nIt leans just a little, for me.",
+            "source_term": "आकाश है सामने,\nजरा सा झुका है मेरे लिए।",
+            "tenor": "A feeling of comfort, cosmic alignment, or personal solace in a lonely space.",
+            "vehicle": "A vast sky physically leaning down or bowing toward a person.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, open sky with soft, warm light or low-hanging clouds that gently frame the lonely figure sitting on the threshold, creating an atmosphere of intimate shelter."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'ghar lagta hai' as 'it feels like home' captures the meaning but loses the grammatical structure where the physical space itself actively 'feels like' or 'strikes as' a home, flattening the subtle animacy of the Hindi construction.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring feeling of home and connection even in empty spaces and uncertain waiting"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अपनों की देहरी पर बैठा,  \nसपने देखते हुए।  \nकभी लगता है, कभी नहीं,  \nमगर फिर भी इंतजार करता हूँ।\n\nये जो आकाश है सामने,  \nजरा सा झुका है मेरे लिए।  \nसभी घरों के सामने,  \nयहां कोई नहीं रहता है, फिर भी घर लगता है।",
+  "poem_id": "MV++_0545",
+  "poem_title": "Apnon Ki Dehri Par",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e548cdf1431c18a5b7550766f593a6c3dba45f72ef43d688a5ffab985bc2109f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0545.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Sitting on the threshold of loved ones,  \nDreams are what I see.  \nSometimes it seems true, sometimes not,  \nYet still, I wait.\n\nThis sky before me,  \nIt leans just a little, for me.  \nIn front of every home,  \nNo one lives here, yet it feels like home.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:37:09.141659+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "728a466b54bf92c2dd3992d5ffa7927051460229d7d35537c3cbc93331238d02",
+        "response_hash": "62aa54a55469e7860963b1105708cd10d963eff793ca7ae089e1a41c0862acbf"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e2b6c0e2d42d5186be0e30846daacde2f275a7c79d9e00c7539d89591cb469db",
+        "response_hash": "4c6d1205ef622262b17b1af748347ba29a807f996489a488c61779c8022a9e78",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cdfcd574c68b743e27823697cfce8e12fccc56eed8e986525ab78f95d08a1150",
+        "response_hash": "04a2a2911be831e11e177cecff70cdc5cdca3ca5e38c8bbbdaef4439c088a4e2",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bce07d92da6aa4e7855524eeb9659e178b94a5cbf7ef70f4f6ae8bc4bbf9fca4",
+        "response_hash": "cf740a76b4508d4103b8cfe7183eba8cfaf1b0fc9c499ccd50c145196e810571",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4da9c10ce461991493d6e2e729371ee334b64f281dde67f7e89eac7572639794",
+        "response_hash": "754bdb459696626890bc3cc8dba3a9038e5a4d1ceac9bba23db452dac546130e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f01eac14ebc4b575794b86ff45f183a37fb78c5671803257f46b5a460456146d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "72fa05623e386fd8b359e8846ad1f3930144c9f5db0e77b8e0de1c2453bb824f",
+    "translation_sha256": "8e4fde6fb41f0b44b306a694b436b1d9ac0cfaba9d9c715c89cd7da6d144b581"
+  }
+}

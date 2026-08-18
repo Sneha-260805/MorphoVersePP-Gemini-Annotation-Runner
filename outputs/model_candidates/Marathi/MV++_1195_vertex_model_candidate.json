@@ -1,0 +1,206 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "acceptance of death as a peaceful culmination of life",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deepest, most sacred, and intimate center of the speaker's emotional and spiritual self.",
+            "acceptable_visual_variants": [
+              "A stylized, glowing silhouette of a person meditating with a warm light at the center of the chest",
+              "An abstract, sacred-looking inner chamber filled with soft, warm light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "In the inner sanctum of the heart",
+            "literalization_risk": "Depicting a literal anatomical heart with a temple shrine or room carved inside it, which would look grotesque or medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "deepest emotional center",
+              "transferred_attributes": [
+                "sacredness",
+                "innermost location",
+                "depth",
+                "purity"
+              ],
+              "vehicle_concept": "temple inner sanctum"
+            },
+            "source_span_original": "हृदयाच्या गाभ्यात",
+            "source_span_translation": "core of my heart",
+            "source_term": "हृदयाच्या गाभ्यात",
+            "tenor": "The deepest emotional and spiritual center of the human self",
+            "vehicle": "The inner sanctum (garbhagriha) of a temple",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, serene light emanating from the chest of a contemplative figure, or a soft, abstract temple-like archway framing a peaceful silhouette."
+          },
+          {
+            "abstract_meaning": "The speaker's innermost thoughts, creative essence, and personal expression.",
+            "acceptable_visual_variants": [
+              "Faint, glowing Devanagari script swirling in a soft breeze around a silhouette",
+              "A book opening to release a stream of light and abstract shapes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the inner poetry",
+            "literalization_risk": "Showing literal sheets of written poetry or text floating inside a person's body or organs.",
+            "metaphor_mapping": {
+              "tenor_concept": "creative consciousness",
+              "transferred_attributes": [
+                "containing thoughts",
+                "depth",
+                "interiority"
+              ],
+              "vehicle_concept": "internal physical container"
+            },
+            "source_span_original": "आतल्या कवितेत",
+            "source_span_translation": "depths of my poetry",
+            "source_term": "आतल्या कवितेत",
+            "tenor": "The speaker's inner creative consciousness and self-expression",
+            "vehicle": "An internal, physical space or container containing poetry",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict faint, elegant, flowing script or musical lines swirling gently around a reflective figure, blending into the background."
+          },
+          {
+            "abstract_meaning": "Accepting, embracing, and expressing the inevitability of death with peace and joy rather than fear.",
+            "acceptable_visual_variants": [
+              "A serene figure standing on a hill at dusk, singing peacefully into the wind",
+              "An abstract representation of wind blowing through autumn leaves, suggesting a natural, harmonious transition"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L5",
+            "literal_meaning": "I sing the song of death",
+            "literalization_risk": "Showing a grim reaper figure or a corpse singing with a microphone, which ruins the serene, philosophical tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "peaceful acceptance of mortality",
+              "transferred_attributes": [
+                "harmony",
+                "expression of joy",
+                "vocalizing peace"
+              ],
+              "vehicle_concept": "singing a song"
+            },
+            "source_span_original": "मरणाचं गाणं गातो",
+            "source_span_translation": "I sing the song of death",
+            "source_term": "मरणाचं गाणं गातो",
+            "tenor": "Expressing acceptance and joyful embrace of mortality",
+            "vehicle": "Singing a musical song",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a peaceful figure looking up at a vast, starry sky or sunset with their mouth slightly open in a gentle, quiet song, surrounded by soft musical notes or wind currents."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मरणाला आनंदी' (Maranala anandi) as 'Joyful death' flattens the dative case marker '-la' on 'maran' (death), which suggests 'to death' or 'for death', losing the grammatical direction of the joy or welcoming attitude directed toward death.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'गाभ्यात' (gabhyat) literally refers to the innermost sanctum or 'garbhagriha' of a temple, which carries a sacred, architectural depth that is simplified to 'core' in the English translation.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The word 'समेटीत' (sametit) carries a sense of gathering, wrapping up, or summarizing, which is translated as 'converges', losing the active, wrapping-up nuance of the Marathi verb.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The harmonious convergence of life, poetry, and death within the speaker's inner self."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Marathi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मरणाला आनंदी  \nमाझ्या हृदयाच्या गाभ्यात,  \nमाझ्या आतल्या कवितेत,  \nसंपूर्ण जगणं समेटीत आहे,  \nमरणाचं गाणं गातो.",
+  "poem_id": "MV++_1195",
+  "poem_title": "Maranala Anandi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c07081d8a46d7956c6e39fc72a581f5e54e30cba7c4e992dacec439bde73b35c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Marathi/MV++_1195.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Joyful death,  \nIn the core of my heart,  \nIn the depths of my poetry,  \nLife converges completely,  \nI sing the song of death.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:07:39.454187+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "692daadfbc57547398326545e1d2c7cb9518aba1df15f261e945fc7cecd182b9",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6edb4e355553c53c4294070e4b0db86d1bbc7b869618ca8242f1cda737db63bf",
+        "response_hash": "00eca1e36352ccde1c48444bda0359df3f73fecedd9dca1f5763509cc048eb4f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa092aefb0c23e4a3d2692e327ebf61af7ee77857cd8b0a87e44736e880b9456",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "433186e7bd2b7409d5922d7804609a09b432c02a43ea3f8e265d967d04d92f01",
+        "response_hash": "b218c0fc1651478f47f55a65b2073d6a85c5e839943c5cda7bcbf5519e5d45be",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f5d70ec4cc2e17636ad1718ff0162d13537ddc7dbd1932998918145d5cd63262",
+        "response_hash": "455862f2b9be883c6a26b632658261f59cf78f2324564ae48c8dd4784f530291",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "021f5842e57bddc18a3f4f86cff1003ee3595e85e8c63fbfa1120473ccea6cc6",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e664565f46017ad760b9df1f35897af02962851c4f4f423b48bca1dd1ea786e4",
+    "translation_sha256": "c4f8dde98ac3142d2e38480da160580dd75ede98e848a8bc42931ebbaff87452"
+  }
+}

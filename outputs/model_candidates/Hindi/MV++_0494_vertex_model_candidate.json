@@ -1,0 +1,270 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady progression of cold isolation, moving from external winter landscape to internal hopelessness, and finally to the complete erasure of human presence.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The village is experiencing extreme, paralyzing cold, which is described as if the village itself is a living being shivering from the chill.",
+            "acceptable_visual_variants": [
+              "A cluster of snow-covered rural houses huddled together under a dark winter sky",
+              "A desolate village street covered in thick frost with cold mist rising from the ground"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "A village that is physically shivering or trembling from cold",
+            "literalization_risk": "Showing the physical structures of houses and roads literally shaking or vibrating like a cold person, which would look comical or like an earthquake.",
+            "metaphor_mapping": {
+              "tenor_concept": "freezing village",
+              "transferred_attributes": [
+                "trembling from cold",
+                "feeling the physical sensation of freezing temperatures"
+              ],
+              "vehicle_concept": "shivering person"
+            },
+            "source_span_original": "ठिठुरता हुआ गाँव",
+            "source_span_translation": "The shivering village",
+            "source_term": "ठिठुरता हुआ गाँव",
+            "tenor": "A village experiencing freezing winter weather",
+            "vehicle": "A shivering person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a village covered in heavy snow and frost under a dim, cold sky, with visible cold wind currents, suggesting the biting cold without making the buildings physically shake."
+          },
+          {
+            "abstract_meaning": "The vast, unbroken sheets of white snow covering the landscape, blocking the view like curtains.",
+            "acceptable_visual_variants": [
+              "A wide-angle view of fields completely covered in deep, smooth white snow",
+              "A misty winter landscape where heavy falling snow creates a dense white screen obscuring the background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "White curtains made of physical ice or snow fabric",
+            "literalization_risk": "Depicting literal fabric curtains made of snow hanging from the sky, which would look surreal and unnatural.",
+            "metaphor_mapping": {
+              "tenor_concept": "snow cover",
+              "transferred_attributes": [
+                "whiteness",
+                "blocking the view",
+                "covering or draping over everything"
+              ],
+              "vehicle_concept": "curtains"
+            },
+            "source_span_original": "बर्फ़ के सफ़ेद परदे",
+            "source_span_translation": "white curtains of snow",
+            "source_term": "बर्फ़ के सफ़ेद परदे",
+            "tenor": "Vast sheets of snow covering the landscape",
+            "vehicle": "White curtains",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Render a vast, flat landscape completely blanketed in thick, uniform white snow that stretches to the horizon, obscuring the ground and low structures."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the continuous aspect and active present participle nuance of 'thithurta hua' (shivering/freezing in progress) by rendering it as a simple adjective 'shivering' which can feel more static.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The villagers have lost hope, desire, or anticipation for the future due to the harsh, numbing environment.",
+            "acceptable_visual_variants": [
+              "Dark, unlit windows of snow-draped houses at night",
+              "A close-up of a window pane covered in thick frost, blocking any view of the life inside"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L5",
+            "literal_meaning": "There are no physical dream-images inside anyone's eyeballs",
+            "literalization_risk": "Attempting to draw empty eyes or eyes lacking literal floating dream bubbles, which would look bizarre or like a medical condition.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and mental vitality",
+              "transferred_attributes": [
+                "visibility",
+                "presence of life and future outlook"
+              ],
+              "vehicle_concept": "visual dreams inside eyes"
+            },
+            "source_span_original": "आँखों में स्वप्न नहीं हैं",
+            "source_span_translation": "In the eyes of none are dreams",
+            "source_term": "आँखों में स्वप्न नहीं हैं",
+            "tenor": "Hope, aspiration, or vitality in the minds of the people",
+            "vehicle": "Dreams in the eyes",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict the closed, dark windows of houses with no light inside, symbolizing the lack of active life, warmth, or dreaming within."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'khamoshi aur chupp' as 'silence and stillness'. In Hindi, 'chupp' is a colloquial noun/adjective referring to a state of being hushed or tight-lipped, carrying a human quality of keeping quiet, which is slightly flattened into the more physical 'stillness'.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "fear",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sounds of life and human activity are completely drowned out and silenced by the overwhelming cold wind.",
+            "acceptable_visual_variants": [
+              "Swirling snow and wind blowing past a silent, empty street lamp",
+              "A desolate village square with wind whipping up loose snow, with no signs of human presence"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L9",
+            "literal_meaning": "Spoken voices physically wandering around and getting lost in the wind currents",
+            "literalization_risk": "Showing literal letters or sound waves floating in the air and dissolving, which looks like a fantasy cartoon.",
+            "metaphor_mapping": {
+              "tenor_concept": "being silenced or muffled",
+              "transferred_attributes": [
+                "disappearance",
+                "inability to be found or heard"
+              ],
+              "vehicle_concept": "getting lost"
+            },
+            "source_span_original": "हवाओं में गुम हो रहे हैं स्वर",
+            "source_span_translation": "Voices are lost in the winds",
+            "source_term": "हवाओं में गुम हो रहे हैं स्वर",
+            "tenor": "Sounds being muffled and silenced by the wind",
+            "vehicle": "A person getting lost or wandering away",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict strong, visible wind currents blowing snow dust across empty streets, emphasizing the complete absence of people or movement."
+          },
+          {
+            "abstract_meaning": "The village is experiencing extreme, paralyzing cold, described as if the village itself is a living being shivering.",
+            "acceptable_visual_variants": [
+              "A cluster of snow-covered rural houses huddled together under a dark winter sky",
+              "A desolate village street covered in thick frost with cold mist rising from the ground"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L11",
+            "literal_meaning": "A village that is physically shivering or trembling from cold",
+            "literalization_risk": "Showing the physical structures of houses and roads literally shaking or vibrating like a cold person.",
+            "metaphor_mapping": {
+              "tenor_concept": "freezing village",
+              "transferred_attributes": [
+                "trembling from cold",
+                "feeling the physical sensation of freezing"
+              ],
+              "vehicle_concept": "shivering person"
+            },
+            "source_span_original": "ठिठुरता हुआ गाँव",
+            "source_span_translation": "The shivering village",
+            "source_term": "ठिठुरता हुआ गाँव",
+            "tenor": "A village experiencing freezing winter weather",
+            "vehicle": "A shivering person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a village covered in heavy snow and frost under a dim, cold sky, with visible cold wind currents."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'sannate' as 'stillness'. 'Sannata' carries a much deeper, often eerie or desolate connotation of absolute, haunting silence rather than just peaceful stillness.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The crushing weight of winter isolation and silence that drains life, dreams, and voices from a village."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ठिठुरता हुआ गाँव,  \nसर्द हवाएँ चल रही हैं।  \nदूर-दूर तक बर्फ़ के सफ़ेद परदे,  \nखामोशी में घिरे हुए हैं।\n\nकिसी की आँखों में स्वप्न नहीं हैं,  \nबस ख़ामोशी और चुप्प हैं।  \nगाँव की सड़कें सुनसान हैं,  \nहर दरवाज़ा बंद है, कोई नहीं बाहर।\n\nहवाओं में गुम हो रहे हैं स्वर,  \nरात के सन्नाटे में हर आवाज़ लुप्त हो जाती है।  \nठिठुरता हुआ गाँव,  \nसर्द हवाएँ चल रही हैं।",
+  "poem_id": "MV++_0494",
+  "poem_title": "Thithurta Hua Gaon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "efae354ce7cfcf7ff100c7aaf1963f1ebfdb32af5ced60bb5275bcaebbcf38ca",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0494.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The shivering village,  \nCold winds are blowing.  \nFar and wide, white curtains of snow,  \nEnshrouded in silence.\n\nIn the eyes of none are dreams,  \nOnly silence and stillness remain.  \nThe village roads are deserted,  \nEvery door is shut, no one is outside.\n\nVoices are lost in the winds,  \nEvery sound vanishes in the stillness of the night.  \nThe shivering village,  \nCold winds are blowing.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:31:00.478714+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d8ba7eabaf5f1f2b5d1fa76c7fba9787f368e28089bc194e47648a5c544480d2",
+        "response_hash": "87d22d594263fa64482913e744e95086baf89f966a5da784f28153ee91f0ed96",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "07cd1ac7e5ed43b72ab3afebc447340552368ed68ebe59e88bda528d48f3c3db",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e492c1eec5bc2eb645f23e3e6fcfc0264afac3efe333411f00eecedf3f704281",
+        "response_hash": "a98d5d4867c698e58d0601e354d85ef45d54071cdc4959fed26763c3226965c5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3c01d1ca529dc3a9f3e26dbcc64e17b059f235806226c67768cfe26261bc0b41",
+        "response_hash": "5a0cb5de788275112026fd1430fc24b76a16ad964a3856d0933d7e4e3b63dcd0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "58f690138fa24043a68f949f95ca9f0f2fdc9034866c490a83768d1f48a166c2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f585342a79ea58f6c681b64728d7fae88ebf1073b07bfb0db254856df38f1783",
+    "translation_sha256": "f457602ee6fe1ccbdc0ba258e71959d44c90af5ac93a4ba4f2fb9d7b902d8560"
+  }
+}

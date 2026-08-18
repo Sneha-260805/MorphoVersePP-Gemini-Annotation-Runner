@@ -1,0 +1,175 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "admiration to deep inner peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'அணி' (ani, meaning ornament/jewel) as 'melody' to fit the musical metaphor of the subsequent line, losing the specific literal imagery of the heart's ornament.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved is described as the ornament or precious melody of the speaker's heart, representing her deep emotional value and beauty to him.",
+            "acceptable_visual_variants": [
+              "A stylized, glowing heart shape with elegant, flowing lines resembling a delicate ornament.",
+              "A serene portrait of the woman with a soft, warm light reflecting on her, symbolizing her role as the heart's adornment."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The ornament of my heart",
+            "literalization_risk": "Depicting a physical piece of jewelry or a literal heart wearing a necklace would look bizarre and miss the emotional connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "a beloved person who beautifies and brings joy to one's inner life/heart",
+              "transferred_attributes": [
+                "beauty",
+                "preciousness",
+                "adornment",
+                "value"
+              ],
+              "vehicle_concept": "an ornament that beautifies a body"
+            },
+            "source_span_original": "என் இதயத்தின் அணி",
+            "source_span_translation": "The melody of my heart",
+            "source_term": "என் இதயத்தின் அணி",
+            "tenor": "the beloved woman and her emotional value to the speaker's heart",
+            "vehicle": "an ornament or precious decoration (ani) worn on the body",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing light or a subtle, beautiful abstract pattern emanating from a person's chest/heart area towards the beloved."
+          },
+          {
+            "abstract_meaning": "The beloved's presence or love is compared to peaceful music that calms the speaker's soul.",
+            "acceptable_visual_variants": [
+              "Flowing, abstract waves of soft color surrounding the couple, representing the soothing rhythm of music.",
+              "A peaceful landscape at dusk with gentle wind, evoking a quiet, musical harmony."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Music that gives peace",
+            "literalization_risk": "Showing literal musical notes floating in the air might look cartoonish and detract from the romantic, peaceful mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "the presence of the beloved which brings emotional peace",
+              "transferred_attributes": [
+                "harmony",
+                "calmness",
+                "soothing quality",
+                "rhythm"
+              ],
+              "vehicle_concept": "harmonious music that calms the mind"
+            },
+            "source_span_original": "அமைதி தரும் சங்கீதம்",
+            "source_span_translation": "Brings peace in its rhythm",
+            "source_term": "அமைதி தரும் சங்கீதம்",
+            "tenor": "the calming and soothing effect of the beloved's love",
+            "vehicle": "peaceful music/melody (sangeetham)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize peace through gentle, flowing natural elements like soft ripples in water or wind blowing through leaves, suggesting a harmonious rhythm."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'அணி' (ani) as 'melody' alters the literal meaning of the Tamil word, which means ornament, decoration, or beauty, thereby losing the specific metaphor of the beloved being the 'ornament of my heart'.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'சங்கீதம்' (sangeetham) as 'rhythm' in the final line shifts the meaning from 'music' or 'song' to a more generic rhythmic concept, flattening the musical metaphor.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The serene and comforting power of love found in the eyes of a beautiful woman, which acts as a soothing melody to the heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "அழகிய பெண்,  \nஉன் கண்ணில் காதலுக்கு,  \nஎன் இதயத்தின் அணி,  \nஅமைதி தரும் சங்கீதம்!",
+  "poem_id": "MV++_1404",
+  "poem_title": "Azhagiya Pen",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0d64a24d10405ec76914545c8691148d80814b392bb4d827e47e90da9c62f11f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1404.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The beautiful woman,  \nIn your eyes, love resides,  \nThe melody of my heart,  \nBrings peace in its rhythm!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:30:02.877788+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1aa6e4d7ce6ce72a04b424e41413f27efa72c8ced0d5dc0a149deb501e596e8d",
+        "response_hash": "8995dc14bc126dc98b0c361502e77f76515cd10f86c2f0db86b1cabf04b5d7de"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "94f4b4354fde07133db1e168776ab2eb463e40777d2c6aec493ebcccc0c0786e",
+        "response_hash": "6707c609a23e26ec49c8cce9d9bc52b2768a03fc83b4a2a5b5645314e7ebee7b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "724872058e4e6abf78a7c7da74bdfaafb958207a0c3ff857bce4b5ef6b7c0eba",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8fb2a647113eb43e5c9d17245195a519b15d118acd73160546939e181d615730",
+        "response_hash": "c0582e38cd8234a28db97c14dba79a18233fbb5f7a3a0079408f451d2ae3b857",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "639ec457635eb2f30003ad1ceefcc34b04cd23a0c5991b2fd1a290b9fe3d8489",
+        "response_hash": "98435ad792673e65f76c8fe7deb6bc1dd7217155749545bbacb6a0f4474ce4e3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f3ee5ca890aa9879ca6ce4775779981c144236177ed361388deeb681d0890ea9",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5532d0dcc032560f2a2c65d2ca369a2736652f7e98a9aea79a9fe4ce9fd22d2f",
+    "translation_sha256": "86c08f9c58a2399b0084a5b7564634444865d207dfcafe406f3f5d555553e987"
+  }
+}

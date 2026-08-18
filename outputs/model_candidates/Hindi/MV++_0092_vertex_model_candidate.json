@@ -1,0 +1,216 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing for peaceful, shared moments of the past to a deeper acceptance of both beautiful and rainy days",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'रात-दिन' (night and day) as simply 'days' loses the continuous, round-the-clock sense of leisure implied by the original Hindi compound.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's inner self or mind yearns for past moments of peace and companionship.",
+            "acceptable_visual_variants": [
+              "A solitary figure sitting on a porch during twilight, looking wistfully into the distance.",
+              "A close-up of a person's face in soft focus, with their hand gently resting over their heart in a moment of remembrance."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The physical heart goes searching for something.",
+            "literalization_risk": "Showing a literal anatomical heart walking around or searching with a magnifying glass would look comical and miss the emotional depth of nostalgia.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional longing",
+              "transferred_attributes": [
+                "seeking",
+                "yearning",
+                "desiring"
+              ],
+              "vehicle_concept": "searching person"
+            },
+            "source_span_original": "दिल ढूंढता है",
+            "source_span_translation": "The heart seeks",
+            "source_term": "दिल ढूंढता है",
+            "tenor": "The speaker's emotional longing and memory.",
+            "vehicle": "An active searcher looking for a lost object or state.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person sitting in quiet contemplation, perhaps looking out a window or into a soft light, with a subtle warm glow centered on their chest to represent the inner yearning of the heart."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'रात-दिन' (literally 'night and day') simply as 'days', losing the explicit poetic contrast and completeness of both nights and days.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'तन्हा' as 'alone' loses the specific Urdu-derived poetic flavor of solitude, which carries a deep, reflective, and romantic connotation of being isolated together or in quiet contemplation.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'सुहाने' as 'beautiful' is accurate but loses the specific nuance of pleasant, agreeable, or charming weather/atmosphere that 'suhane' carries in Hindi.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's inner self continues to yearn for beautiful past memories.",
+            "acceptable_visual_variants": [
+              "A person looking out at a rainy landscape with a thoughtful expression.",
+              "A silhouette of a person against a warm, golden sunset."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "The physical heart goes searching.",
+            "literalization_risk": "Depicting a literal heart searching would ruin the nostalgic, poetic mood of the stanza.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional longing",
+              "transferred_attributes": [
+                "seeking",
+                "yearning"
+              ],
+              "vehicle_concept": "searching person"
+            },
+            "source_span_original": "दिल ढूंढता है",
+            "source_span_translation": "The heart seeks",
+            "source_term": "दिल ढूंढता है",
+            "tenor": "The speaker's emotional longing.",
+            "vehicle": "An active searcher.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the atmosphere of memory, showing a person looking at rain or a golden sunset, capturing the internal search through external mood."
+          },
+          {
+            "abstract_meaning": "Precious, beautiful, and cherished days of the past.",
+            "acceptable_visual_variants": [
+              "A scene bathed in the warm, amber glow of a late afternoon sun.",
+              "A soft-focus memory sequence with a warm yellow-orange color tint."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Days made of physical gold metal or colored bright gold.",
+            "literalization_risk": "Showing literal gold coins, bars, or metallic gold objects would completely misrepresent the abstract concept of happy memories.",
+            "metaphor_mapping": {
+              "tenor_concept": "cherished memories",
+              "transferred_attributes": [
+                "preciousness",
+                "brightness",
+                "high value",
+                "warmth"
+              ],
+              "vehicle_concept": "gold metal"
+            },
+            "source_span_original": "सुनहरे दिन",
+            "source_span_translation": "golden days",
+            "source_term": "सुनहरे दिन",
+            "tenor": "Cherished, happy, and valuable memories of the past.",
+            "vehicle": "The precious metal gold / golden color.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use warm, golden-hour lighting (sunset or sunrise tones) to illuminate the scene, evoking a sense of warmth, nostalgia, and preciousness."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'सुहाने' as 'beautiful' flattens the specific sensory and emotional nuance of 'suhana', which denotes pleasant, charming, or agreeable weather/moods that evoke a sense of comfort and joy.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The persistent longing of the heart for lost leisure, quiet companionship, and the simple warmth of past days, regardless of their weather."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "दिल ढूंढता है  \nफिर वही फुर्सत के रात-दिन,  \nबैठे रहें तन्हा,  \nबातें करें, और चुप रहें।  \n\nदिल ढूंढता है  \nफिर वही सुनहरे दिन,  \nचाहें वो सुहाने हों,  \nया बारिशों में भीगे।",
+  "poem_id": "MV++_0092",
+  "poem_title": "Dil Dhoondta Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6dd4fe926ac08c48a3d7f149988911c3b191ab4fc0d7deb44bdf7499d977f215",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0092.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The heart seeks  \nAgain those leisurely days,  \nTo sit alone,  \nTo talk and remain silent.  \n\nThe heart seeks  \nAgain those golden days,  \nWhether they be beautiful,  \nOr soaked in the rains.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:45:46.770980+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "92b5992ec3d6426803bb9b2565dd7319f85882ae0587eca748f50d7e877fe986",
+        "response_hash": "86ce61516be33598e98d1c91a9435038c8541eb76748def9e46439cf7fff11d0"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "970836b2e75655ddb178c741b369fa3b7843f03fcaa0ba4982538292ea8a808b",
+        "response_hash": "14d1e29106f92af2a4f729889ebadbdcef65e759366ac3c87fe91f10cb0494c1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ef3bc1d4412049efac4b126853a568b1ccd931b6db6118d633dd4115741343d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9844b3f0d3f0436374fe5e337fd3aeda75ecd927224c5cb4aea7b480392cc3e0",
+        "response_hash": "235c17ed8d8c7fa46547590494883df0582d6542dc274b7ec5c5b7502d5224a3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "698f4a572341fa1b344548b12e9499389d06177f7b6dcc340ecc545ee04c458a",
+        "response_hash": "3dd59c4ef5cfa9ed711817b98828c43944a478dc5d8001051f3c7fe1397cdf0d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a4f555ec8c183b6e12092821ff5e2ffeb045d6cef6aa93bfc8c94c603aa59430",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4e3f4a4cef89a1b49cd5807a0b787c25b3a0c71b765bc04de2525a6a07db79ab",
+    "translation_sha256": "1c913797ba675070b2ac34f9947bf426719913f025ba1d6d87df4aa54d955b61"
+  }
+}

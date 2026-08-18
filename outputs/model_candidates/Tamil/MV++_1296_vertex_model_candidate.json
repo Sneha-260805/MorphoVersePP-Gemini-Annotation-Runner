@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A single-stanza movement of deep longing and tender devotion, culminating in the blooming of love.",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but the agglutinative beauty of Tamil compounds like 'kannin kadalinil' (in the sea of the eye) and 'ponmugathil' (on the golden face) is slightly flattened into standard English prepositional phrases.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vast, deep, and emotional depth of the speaker's gaze or tears, addressed to the beloved as the water within that vast sea.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking out at a vast sea at dusk, with the sea reflecting in their eyes",
+              "A soft-focus portrait where the eyes have a deep, watery, ocean-blue or reflective quality"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "O water in the sea of the eye",
+            "literalization_risk": "An illustrator might draw a literal ocean inside a giant eyeball, which looks surreal or grotesque rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's presence in the eyes",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "essential fluid of life"
+              ],
+              "vehicle_concept": "sea water"
+            },
+            "source_span_original": "கண்ணின் கடலினில் நீரே",
+            "source_span_translation": "O water of the sea of my gaze",
+            "source_term": "கண்ணின் கடலினில் நீரே",
+            "tenor": "the beloved's presence or tears within the speaker's deep gaze",
+            "vehicle": "water in a vast sea",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a close-up of expressive, deep eyes reflecting a vast, calm ocean horizon or gentle waves, capturing the emotional depth without literalizing a physical sea inside the eye socket."
+          },
+          {
+            "abstract_meaning": "A beautiful, radiant, and highly cherished face.",
+            "acceptable_visual_variants": [
+              "A face softly lit by warm candlelight",
+              "A portrait with a warm, golden-hued color palette and soft lighting"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "face made of gold",
+            "literalization_risk": "Depicting a face literally made of metallic gold or painted solid gold, which would look like a statue or a metallic mask rather than a warm, living human face.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's face",
+              "transferred_attributes": [
+                "radiance",
+                "preciousness",
+                "warm glowing color"
+              ],
+              "vehicle_concept": "gold metal"
+            },
+            "source_span_original": "பொன்முகத்தில்",
+            "source_span_translation": "golden face",
+            "source_term": "பொன்முகத்தில்",
+            "tenor": "radiant beauty and preciousness of the beloved's face",
+            "vehicle": "gold",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a face illuminated by a warm, golden, sunlit glow (such as during golden hour) to convey radiance and preciousness naturally."
+          },
+          {
+            "abstract_meaning": "Love manifesting beautifully and harmoniously, like a flower blooming or a song playing.",
+            "acceptable_visual_variants": [
+              "A couple surrounded by soft, opening blossoms in a quiet, peaceful landscape",
+              "An abstract blend of soft floral patterns and flowing, wave-like lines representing musical harmony"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Love is a song that blooms like a flower",
+            "literalization_risk": "Drawing literal musical notes turning into flowers or growing out of a heart, which can look childish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "the growth and expression of love",
+              "transferred_attributes": [
+                "beauty",
+                "growth",
+                "harmony",
+                "sensory delight"
+              ],
+              "vehicle_concept": "blooming flower and musical song"
+            },
+            "source_span_original": "அன்பு பூக்கும் கீதம்",
+            "source_span_translation": "Love blooms like a song",
+            "source_term": "அன்பு பூக்கும் கீதம்",
+            "tenor": "the beautiful, harmonious, and growing manifestation of love",
+            "vehicle": "a blooming flower and a song",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a harmonious, romantic scene with subtle floral elements (like soft petals drifting in the wind) and a serene atmosphere that evokes the feeling of a gentle melody."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative locative case marker '-il' in 'kannil' (in the eye) and 'kadalinil' (in the sea) is translated using standard English prepositions, losing the compact, fused grammatical structure of the original Tamil.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the comparative word 'like' ('Love blooms like a song') which is not explicitly present in the original Tamil text 'anbu pookkum geetham' (literally, 'love-blooming song' or 'song where love blooms'), converting a direct metaphorical compound/association into a simile.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound, poetic union of the lover and the beloved, expressed through the imagery of eyes, seas, and blooming songs."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கண்ணில் தருவேன் உன்னை,  \nகண்ணின் கடலினில் நீரே,  \nஉன் பொன்முகத்தில் நான்  \nஅன்பு பூக்கும் கீதம்!",
+  "poem_id": "MV++_1296",
+  "poem_title": "Kannil Tharuven",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3ee86fd4628fe6b87b7fe73f449dba3f44281d1b5b99e00ce6ea5b7e53782802",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1296.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I will give you in my eyes,  \nO water of the sea of my gaze.  \nOn your golden face,  \nLove blooms like a song!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:18:41.196439+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "71d1900a26168f086ffc8a3f29609a5b0d9bb7269a5857ed175eed4b4decb87c",
+        "response_hash": "ffed0a684918a1598a45ac4b62b379f7bfc00c4a3fa49cf8804c381b878499c3"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d0f3be1c4d44e0b28ced20d5a2c499799255b66cb5eca1a2e2f076baa9afd08c",
+        "response_hash": "2b46ba92e1f936a7baf2557f183fb8b996b74b6ac1a1faaddfb1061f2d9d8b3a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c3fc2d0a6bb86c489a40a8b041bee055675d2590330306881403e32ed0071710",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cc88a94164cfcb0a55885a5f048ccba3ea505d4d92e60c79e2d476ef29149a16",
+        "response_hash": "42e034716cc2594d2c2f6e04ef589fffb3c8658ec8bf4e1b8c20cabc3d2b34ca",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f5f6c8eff41628551825a882c582b9a1779438a1db238e64ba3382d5ecc10cfa",
+        "response_hash": "efff50508c81cb01874468385654222729d7c363bfa12750d423bea3062a6a47",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d01b99393c8e1c39a5374001b6e8b5403a0f81e3d8af13c231fb0c44d91cdd21",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7b2cf6d044089e96f4f290acc156adb4042b8fe7c43244ba610031bf740bee31",
+    "translation_sha256": "022cb79600a89cf5ad1265378f907ee23326486853c125b69909f45449eded69"
+  }
+}

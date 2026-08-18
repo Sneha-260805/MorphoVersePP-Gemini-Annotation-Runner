@@ -1,0 +1,276 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and nostalgia transitioning to hope and anticipation of a future reunion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'kal' as 'tomorrow', but in Hindi 'kal' is polysemous and can mean either 'yesterday' or 'tomorrow'. Given the retrospective context of remembering valleys and fragrance, 'kal' here carries a dual nostalgic and forward-looking weight that is flattened to just 'tomorrow' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The lingering, protective, or haunting presence of past memories that accompany a person.",
+            "acceptable_visual_variants": [
+              "A person walking under a canopy of trees where the dappled light forms faint, dreamlike shapes of past events",
+              "A person walking with a single soft shadow that contains faint, embedded visual scenes of past conversations"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Shadows cast by memories",
+            "literalization_risk": "Showing literal dark silhouettes or shadows cast by invisible figures, which might look like a horror or ghost scene rather than nostalgic recollection.",
+            "metaphor_mapping": {
+              "tenor_concept": "memories",
+              "transferred_attributes": [
+                "following a person closely",
+                "being intangible",
+                "existing as a trace of something else"
+              ],
+              "vehicle_concept": "shadows"
+            },
+            "source_span_original": "यादों के साये",
+            "source_span_translation": "shadows of memories",
+            "source_term": "यादों के साये",
+            "tenor": "memories",
+            "vehicle": "shadows",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person walking down a path with soft, translucent, glowing silhouettes of past moments or figures overlapping with their actual shadow."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The Hindi word 'kal' is highly polysemous, meaning both 'yesterday' and 'tomorrow' depending on context. By translating 'kal ki baatein' exclusively as 'talks of tomorrow', the translation completely loses the poignant, equally valid, and contextually strong reading of 'talks of yesterday' (past memories), which fits perfectly with the retrospective theme of walking in the shadows of memories. This temporal ambiguity is entirely flattened.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The spoken words are still vividly remembered and feel as if they were spoken very recently.",
+            "acceptable_visual_variants": [
+              "A soft glow around the speaker's ears or head to represent clear auditory memory",
+              "A clean, bright, un-faded handwritten letter or text floating in a warm light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The spoken words are still fresh (like newly harvested food or wet paint)",
+            "literalization_risk": "Depicting words as physical objects like fresh green leaves or dew-covered fruit, which distracts from the mental state of remembering.",
+            "metaphor_mapping": {
+              "tenor_concept": "vividness of memory",
+              "transferred_attributes": [
+                "not decayed",
+                "retaining original quality",
+                "vibrant"
+              ],
+              "vehicle_concept": "freshness"
+            },
+            "source_span_original": "बातें अभी भी ताज़ा हैं",
+            "source_span_translation": "words are still fresh",
+            "source_term": "बातें अभी भी ताज़ा हैं",
+            "tenor": "vividness of memory",
+            "vehicle": "freshness (of organic matter)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the emotional expression of the listener, perhaps showing them looking up with a clear, bright expression as if hearing the words in the present moment."
+          },
+          {
+            "abstract_meaning": "The profound, intense, and meaningful nature of their shared dreams and aspirations.",
+            "acceptable_visual_variants": [
+              "A person looking into a deep, clear well that reflects a beautiful, starry sky instead of water",
+              "An expansive, multi-layered dreamscape stretching far into the background with soft, glowing horizons"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "The physical depth or deep abyss of dreams",
+            "literalization_risk": "Showing a person falling into a deep, dark ocean trench or canyon, which could look terrifying or dangerous.",
+            "metaphor_mapping": {
+              "tenor_concept": "profundity of mental aspirations",
+              "transferred_attributes": [
+                "vastness",
+                "immensity",
+                "containing hidden treasures or secrets"
+              ],
+              "vehicle_concept": "physical depth"
+            },
+            "source_span_original": "सपनों की गहराई",
+            "source_span_translation": "depths of our dreams",
+            "source_term": "सपनों की गहराई",
+            "tenor": "profundity of dreams",
+            "vehicle": "deep water or a deep physical space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, deep blue night sky filled with stars or a calm, deep, clear lake reflecting a starry sky, suggesting peaceful immensity."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The Urdu-derived word 'sahar' (dawn) carries a poetic, literary elegance in Hindi that is translated as a simple 'dawn'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A symbol of hope, a new beginning, or a fresh start for their relationship.",
+            "acceptable_visual_variants": [
+              "A window opening to let the first warm rays of morning light into a dark room",
+              "A silhouette of a person looking towards a bright, glowing horizon at daybreak"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L10",
+            "literal_meaning": "A sign of a new morning/dawn",
+            "literalization_risk": "Showing a literal alarm clock or a traffic signal pointing at a sunrise, which is overly mechanical.",
+            "metaphor_mapping": {
+              "tenor_concept": "new beginning",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "bringing light",
+                "starting a new cycle"
+              ],
+              "vehicle_concept": "dawn"
+            },
+            "source_span_original": "नई सहर का संकेत",
+            "source_span_translation": "signal a new dawn",
+            "source_term": "नई सहर का संकेत",
+            "tenor": "hopeful new beginning",
+            "vehicle": "dawn (sahar)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a soft, golden sunrise breaking over a horizon, casting light on a path where two paths merge."
+          },
+          {
+            "abstract_meaning": "A collection of beautiful, cherished memories gathered together over time.",
+            "acceptable_visual_variants": [
+              "An open book on a table with pressed, colorful flowers inside, suggesting preserved memories",
+              "A person gently arranging beautiful, diverse wildflowers in a glass vase filled with clear water"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "A physical bouquet made of memories",
+            "literalization_risk": "Showing a literal bouquet of flowers where the petals are made of photographs or written words, which can look cluttered and artificial.",
+            "metaphor_mapping": {
+              "tenor_concept": "collection of memories",
+              "transferred_attributes": [
+                "gathered together carefully",
+                "beautiful",
+                "fragrant",
+                "each piece representing a distinct beautiful moment"
+              ],
+              "vehicle_concept": "bouquet of flowers"
+            },
+            "source_span_original": "यादों के गुलदस्ते",
+            "source_span_translation": "bouquet of memories",
+            "source_term": "यादों के गुलदस्ते",
+            "tenor": "collection of memories",
+            "vehicle": "bouquet of flowers",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful, artistic arrangement of vibrant flowers, where each flower has a soft, dreamlike glow, held in a person's hands."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'kal' as 'tomorrow' is forced here to maintain consistency, but it continues to suppress the dual temporal meaning of 'yesterday' which would frame the 'new dawn' as a transition from past memories to a new future. Additionally, the poetic Urdu-derived word 'sahar' (dawn) is translated as a simple 'dawn', losing its specific literary register.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring power of shared memories and the hope of a future reunion"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कल की बातें  \nकल की बातें हमें नहीं भूलीं,  \nयादों के साये में हम चलते रहे।  \nवो वादियाँ, वो फूलों की खुशबू,  \nउन क्षणों में हम जीते रहे।  \n\nबातें जो तुमने कही थीं,  \nवो बातें अभी भी ताज़ा हैं।  \nआसमान के रंग, चाँद की रोशनी,  \nहमारे सपनों की गहराई हैं।  \n\nकल की बातें एक नई सहर का संकेत,  \nजहाँ हम फिर से मिलेंगे।  \nयादों के गुलदस्ते में सजेगी,  \nसपनों की नयी कहानी बनेगी।",
+  "poem_id": "MV++_0335",
+  "poem_title": "Kal Ki Baatein",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f64a356ab1cbcd8a028c173e4c5d8831bc9be123df1af234efc90cbcc3afe0a6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0335.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Talks of Tomorrow  \nWe did not forget the talks of tomorrow,  \nWe kept walking in the shadows of memories.  \nThose valleys, the fragrance of flowers,  \nIn those moments, we continued to live.  \n\nThe words you spoke,  \nThose words are still fresh.  \nThe colors of the sky, the moonlight,  \nAre the depths of our dreams.  \n\nThe talks of tomorrow signal a new dawn,  \nWhere we will meet again.  \nIn the bouquet of memories,  \nA new story of dreams will unfold.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:13:58.899956+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "10cc0cb35cecb5212c2181fa4a49c9839131cae2c95215ba8a45b9a363be65b2",
+        "response_hash": "e2c6614b7f0e4de9885bd6062609d8a85d9f643affe269e345eadb0878da9172"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b1f49313b689aae58ea715682e6f96584186fb6e088ddabdcdc621f5542081a",
+        "response_hash": "2a3bc700327e464bf0545c380e2cfa8bf4392da623b945d06dda2138a70da6f2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "268f5573775d3678c90f3cb713082056ed5321662d7a9a5b1be167508c05f27d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d9a37225354d824fc2fa740abdbef2362714947b0e19a70b9a55b70180dbaca4",
+        "response_hash": "b5c6ad5a81ec7313f8681dba3aa810eb346a128ccc5b4edf3e4abd3f8c6736c5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "23e2ec80bf60f4552e0eeecc5e17910195f13ac8a3f35f185fd9511ed1df09da",
+        "response_hash": "d09048e0407b7e8f4364ce732b589335aa159af7e7b8ee203eebe2896b5377aa",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bf5adcebaeff84de577b4f3cd2ba5c5f641c2089862d73d096ebed1ecbba57d1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "addc3616e1193bbfa097f4370bbdb07ea6768dea9922db60fc4bef2273640220",
+    "translation_sha256": "70387907f0da0f5ae5c4c9e74bebbb4d08a89e0bde2082c8f65b76ff1c456ba4"
+  }
+}

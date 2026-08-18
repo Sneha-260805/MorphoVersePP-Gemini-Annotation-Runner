@@ -1,0 +1,242 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience in the face of hardship to hopeful determination",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The difficulties, obstacles, and painful experiences encountered in life's journey.",
+            "acceptable_visual_variants": [
+              "A person walking on a path with sharp, stylized brambles or thorns along the edges.",
+              "A traveler looking down at a rough, rocky path, preparing to take the next step."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "every thorn on the path",
+            "literalization_risk": "An illustrator might draw literal sharp thorns on a dirt road, which misses the emotional weight of life's struggles.",
+            "metaphor_mapping": {
+              "tenor_concept": "life's obstacles",
+              "transferred_attributes": [
+                "causing pain",
+                "obstructing progress",
+                "requiring endurance"
+              ],
+              "vehicle_concept": "thorns on a path"
+            },
+            "source_span_original": "राह के हर काँटे",
+            "source_span_translation": "every thorn",
+            "source_term": "राह के हर काँटे",
+            "tenor": "hardships and obstacles in life",
+            "vehicle": "thorns on a physical path",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a traveler walking along a path that transitions from rough, uneven ground to smoother terrain, symbolizing overcoming obstacles."
+          },
+          {
+            "abstract_meaning": "The emotional and mental responsibility of carrying one's hopes, aspirations, and expectations.",
+            "acceptable_visual_variants": [
+              "A figure walking forward holding a glowing, delicate sphere close to their chest.",
+              "A traveler walking uphill, casting a shadow that looks like wings or a soaring figure."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "the physical weight or load of dreams",
+            "literalization_risk": "Showing a person carrying a literal heavy sack labeled 'dreams' or filled with sleeping faces would look comical and miss the poetic depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "aspirations and dreams",
+              "transferred_attributes": [
+                "heaviness",
+                "exertion required to carry",
+                "preciousness of the cargo"
+              ],
+              "vehicle_concept": "physical load"
+            },
+            "source_span_original": "सपनों का भार",
+            "source_span_translation": "weight of dreams",
+            "source_term": "सपनों का भार",
+            "tenor": "the psychological responsibility of holding onto aspirations",
+            "vehicle": "a heavy physical burden or load",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a traveler walking with a slightly bent posture as if carrying an invisible load, but with a soft, glowing light emanating from their chest or hands to represent dreams."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'सहा' (saha - endured/tolerated) as 'Bearing the pain of', which adds the explicit word 'pain' not present in the original Hindi text. Additionally, the grammatical gender and active aspect of 'चल पड़ा' (chal pada - set off/started walking) and 'बढ़ता गया' (barhta gaya - kept moving forward) are flattened into simple English past/progressive forms.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A fresh start, hope, or a positive turn of events in life.",
+            "acceptable_visual_variants": [
+              "A traveler looking towards a horizon where the sky is transitioning from dark blue to warm orange.",
+              "A silhouette of a person standing at the edge of a hill, facing a rising sun."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L5",
+            "literal_meaning": "a new morning",
+            "literalization_risk": "A simple landscape of a sunrise might look like a generic postcard rather than representing the internal hope of the traveler.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and renewal",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "bringing light",
+                "marking a fresh start"
+              ],
+              "vehicle_concept": "dawn"
+            },
+            "source_span_original": "नयी सुबह",
+            "source_span_translation": "new dawn",
+            "source_term": "नयी सुबह",
+            "tenor": "hope, renewal, and a better future",
+            "vehicle": "the rising sun / dawn",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a soft, warm golden light beginning to break on the horizon ahead of the traveler, contrasting with the dark path behind them."
+          },
+          {
+            "abstract_meaning": "Actively struggling against ignorance, despair, or difficult circumstances.",
+            "acceptable_visual_variants": [
+              "A traveler pushing forward against a dark, swirling wind or mist.",
+              "A figure walking through a deep shadow, illuminated only by a small internal light or forward gaze."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "physically colliding with darkness",
+            "literalization_risk": "Showing a person physically punching or running into a black wall would look absurd and literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "adversity and despair",
+              "transferred_attributes": [
+                "blocking vision",
+                "requiring physical struggle to push through",
+                "oppressive nature"
+              ],
+              "vehicle_concept": "physical darkness"
+            },
+            "source_span_original": "अंधेरों से टकराता रहा",
+            "source_span_translation": "clashed against the darkness",
+            "source_term": "अंधेरों से टकराता रहा",
+            "tenor": "struggling against adversity and despair",
+            "vehicle": "colliding with a physical dark barrier or shadow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure walking resolutely through a dense, dark fog or shadow, with their body posture showing effort and determination."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'सफर' (safar - journey) as 'voyage', which introduces a maritime or seafaring connotation not present in the Hindi word 'safar' (which refers to any journey or travel).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The journey of life as a persistent struggle through darkness and pain, driven by hope and dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss array is provided. Under the completeness contract, translation_loss should be empty or translation_quality should be adjusted to reflect the loss.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss array is provided. Under the completeness contract, translation_loss should be empty or translation_quality should be adjusted to reflect the loss.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जीवन की ओर मैं चल पड़ा,  \nबढ़ता गया अपने पथ पर,  \nराह के हर काँटे को सहा,  \nसपनों का भार संभाले हुए।\n\nएक नयी सुबह की चाह में,  \nअंधेरों से टकराता रहा,  \nचलता गया जीवन की ओर,  \nएक अनजाने सफर की ओर।",
+  "poem_id": "MV++_0566",
+  "poem_title": "Jeevan Ki Oar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6e3be07f0ffc1b403b6a2167576e30f4928f6fb61626beaec2c483e2d5cf6e81",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0566.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I set forth towards life,  \nMoving onward along my path,  \nBearing the pain of every thorn,  \nCarrying the weight of dreams.\n\nIn the hope of a new dawn,  \nI clashed against the darkness,  \nJourneying towards life,  \nTowards an unknown voyage.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:39:28.097896+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b3beb601cd1ff73072135f4b9a6b822b282a795287fc870752c9727896311e6",
+        "response_hash": "a08e8bbcaa42e384eefaeb14c4889eee5aadd97c639682e745e4af1795c4d489",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "09f47b3cd18e2ba6ab44e987d5f30b091466733f53429cd3ea5ef86b22914f94",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b81813c8397426324510dfb99225d8574b02963527ee8f8f6a6cbe5b8ca14312",
+        "response_hash": "211b9ce72b5bceeb9e258b36f8e05bfb2b7395e4992076dc83a7bd828b7ea172",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b84a01cf969bdc489573b7e8035eb9ebfcb7dc114caef32f7790e3c0015e0ca3",
+        "response_hash": "fb99d5ac524c8fc9669e4455429d792811b211c0c6bdebf017cb9aaa68e7e348",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c951d2f303007782fb9a70c9776a45a75dfc541ccc0ec8f26def5f13c61b8335",
+        "response_hash": "8e1844a75558406af274d87532bf36f5c6454bdf95312012248ba8f623c3f089",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1a237949cd0f86c3949d00d82ddba00d908bb9240cccfd5f9fc4fe580f32a3b8",
+    "translation_sha256": "9b871330cee315a471dd96f70777a8e7f90042e2112f504e623cd11701e7c2e1"
+  }
+}

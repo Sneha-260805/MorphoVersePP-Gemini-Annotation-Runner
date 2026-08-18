@@ -1,0 +1,153 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet, reflective observation of change and shared exhaustion in the city.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The shared journey of life, relationship, or struggle that became too exhausting to continue.",
+            "acceptable_visual_variants": [
+              "A long, empty city street stretching into the distance under a dim sky, symbolizing an exhausting journey.",
+              "An abstract path that transitions from structured streets to fragmented lines, representing the decision to stop."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "Physical streets on which a person walked until they were physically tired and wanted to stop.",
+            "literalization_risk": "An illustrator might literally depict a person sitting down on a concrete city sidewalk, missing the deeper emotional exhaustion of a life path or relationship ending.",
+            "metaphor_mapping": {
+              "tenor_concept": "enduring a prolonged life struggle or relationship",
+              "transferred_attributes": [
+                "exhaustion",
+                "repetition",
+                "reaching a limit",
+                "desire to stop"
+              ],
+              "vehicle_concept": "walking on endless streets"
+            },
+            "source_span_original": "रास्ते जिन पर चलते-चलते\nथक कर तुमने कहा था - \"अब बस!\"",
+            "source_span_translation": "streets on which, walking on and on,\nYou tiredly said - \"Enough now!\"",
+            "source_term": "रास्ते जिन पर चलते-चलते\nथक कर तुमने कहा था - \"अब बस!\"",
+            "tenor": "Enduring a long, exhausting life journey, relationship, or shared struggle until reaching a breaking point.",
+            "vehicle": "Walking continuously on physical city streets until physical exhaustion sets in.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a long, winding path or street fading into a hazy city background, with a single pair of footprints stopping abruptly, or a symbolic fork in the road, to capture the emotional weight of stopping."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and continuous aspect of the reduplicated participle 'चलते-चलते' (chal-te chal-te) is partially flattened into 'walking on and on', which loses the natural, repetitive cadence of the Hindi grammatical structure.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial, conversational weight of the phrase 'अब बस!' (ab bas!) is rendered as 'Enough now!', which slightly loses the idiomatic, immediate, and exhausted tone of the original Hindi exclamation.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The passage of time and change in an urban landscape linked to personal memories of shared exhaustion."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing specific grammatical and idiomatic losses. This is internally inconsistent.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "यहाँ से शहर को देखो  \nकितना बदला है शहर,  \nवो रास्ते जिन पर चलते-चलते  \nथक कर तुमने कहा था - \"अब बस!\"",
+  "poem_id": "MV++_0692",
+  "poem_title": "Yahan se Sheher Ko Dekho",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "18f5e5e29244ed84106b26086b2da1c24bc703b868792b7f9dada4b2efc48381",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0692.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Look at the city from here  \nHow much the city has changed,  \nThose streets on which, walking on and on,  \nYou tiredly said - \"Enough now!\"",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:57:13.492779+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "63dffa73521fd0eed95f8d57e08eede62c3cd366f0c390f2679da73188ef5f14",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "723ff7ad927499d6a11c9de43b5352b16ad8a90881382988578315cab58d46e0",
+        "response_hash": "bd8ec0265d4112854884e92a3290b89d3bc2a8c0374591534882ddf18bd6a7b3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "01f2982d309bf38ba43b094d9abaec308e6ccc93842845a349d55de7f65051ef",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2238297938135816c1cd72624c7a248c677fe2de0ef9218e2ee8e4a32c2d1a72",
+        "response_hash": "aa6a714d2ba4d83ac2b811972ebbde830c285393474ec4b2714afac8d4e7b736",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f8865ba81f44c915ac1fa280315d3da467496a2ef58e4ed1582ebabdb280c85a",
+        "response_hash": "acd6e388215cba3aee637d58f253d202e6a669cdfc02fbfa3840a21865296ca8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f13fb92d2c4dc4edf4543eaf97ec4177e178315b3d1f0d773a02e2df29e1db4",
+        "response_hash": "ca8e7bb0df2967b1e81f3d3ebf2631a5522d10fd005f0d8a30e1a6eb87b2595b",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c0608eab49e2427f892baca7d25b44ea0d4c9cd9e07a98a9e1ac338bc451f86d",
+    "translation_sha256": "797ed57f01d76373f78363aef9532bbbc72deccc4608acc679d227e5ee7244f9"
+  }
+}

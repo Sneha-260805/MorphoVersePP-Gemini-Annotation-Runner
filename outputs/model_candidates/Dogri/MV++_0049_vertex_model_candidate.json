@@ -1,0 +1,200 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet hope and acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life is enveloped or surrounded by hopes, which shape its entire existence.",
+            "acceptable_visual_variants": [
+              "A figure walking forward with a warm, soft light radiating around them like a protective cloak",
+              "A path illuminated by soft, floating glowing particles that seem to cradle the traveler"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Wrapped or enveloped in hopes",
+            "literalization_risk": "Showing a person literally wrapped in a blanket or cloth labeled 'hopes' would look comical and miss the abstract emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "hopes surrounding life",
+              "transferred_attributes": [
+                "enveloping",
+                "protecting",
+                "covering"
+              ],
+              "vehicle_concept": "wrapping cloth"
+            },
+            "source_span_original": "उमीदां विच लिपटी",
+            "source_span_translation": "Wrapped in hopes",
+            "source_term": "उमीदां विच लिपटी",
+            "tenor": "Life being defined and surrounded by human hopes",
+            "vehicle": "A physical object wrapped or swaddled in a protective cloth or layer",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing aura or a delicate, translucent veil of light gently enveloping a figure walking on a path, representing the protective and guiding nature of hope."
+          },
+          {
+            "abstract_meaning": "Life presents new possibilities, desires, or aspirations at every transition or change of direction.",
+            "acceptable_visual_variants": [
+              "A winding mountain path where each curve opens up to a different beautiful vista",
+              "A path transitioning through different seasons at each turn"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "At every physical bend or turn in a road, a new dream exists",
+            "literalization_risk": "Depicting literal sleeping dreams or thought bubbles at a physical road intersection might look disjointed or surreal in a cartoonish way.",
+            "metaphor_mapping": {
+              "tenor_concept": "transitions and changes in life",
+              "transferred_attributes": [
+                "unpredictability",
+                "revelation of new sights",
+                "progression"
+              ],
+              "vehicle_concept": "bends in a physical road"
+            },
+            "source_span_original": "हर मोड़ ते इक नवा सपना",
+            "source_span_translation": "At every turn, a new dream",
+            "source_term": "हर मोड़ ते इक नवा सपना",
+            "tenor": "The transitions and changes in life that bring new aspirations",
+            "vehicle": "A winding road with sharp turns, where each turn reveals a new landscape or object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a winding path curving into the distance, where each bend reveals a shift in color, light, or scenery, symbolizing new horizons and aspirations."
+          },
+          {
+            "abstract_meaning": "The dreams, hopes, or life itself acts as a supportive companion along one's journey.",
+            "acceptable_visual_variants": [
+              "A traveler walking with a warm, glowing lantern light cast alongside them like a presence",
+              "A traveler walking with a peaceful, stylized shadow that seems to walk hand-in-hand with them"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "Becoming a physical companion or partner walking along a road",
+            "literalization_risk": "Depicting a literal second person walking next to the traveler might confuse viewers into thinking the poem is about a romantic partner or friend rather than an internal state.",
+            "metaphor_mapping": {
+              "tenor_concept": "abstract hope or dream",
+              "transferred_attributes": [
+                "companionship",
+                "support",
+                "presence"
+              ],
+              "vehicle_concept": "human companion"
+            },
+            "source_span_original": "राह विच बणदा साथी",
+            "source_span_translation": "A companion on the path",
+            "source_term": "राह विच बणदा साथी",
+            "tenor": "An abstract dream or hope providing comfort and guidance through life",
+            "vehicle": "A loyal travel companion walking alongside a traveler",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a single traveler walking, accompanied by their own shadow which is cast forward by a warm light, or a gentle guiding light moving parallel to them."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic resonance of the Dogri postpositions 'di' (possessive) and 'विच' (vich, meaning 'in') which establish a soft, flowing cadence in the original text.",
+            "where": "L2-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The specific nuance of 'लिपटी' (lipti), which carries a tactile sense of being physically wrapped, enveloped, or swaddled, is slightly flattened into the more abstract English 'wrapped'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Life as a journey of continuous hope and companionship"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Dogri",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जिंदगी\nजिंदगी दी कहाणी\nउमीदां विच लिपटी,\nहर मोड़ ते इक नवा सपना,\nराह विच बणदा साथी।",
+  "poem_id": "MV++_0049",
+  "poem_title": "Jindagi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3cb9f7fcd51777bf3ec1fb54d3b9ba4b949483eda38c0f8d4ec484039a359f94",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Dogri/MV++_0049.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Life\nThe story of life\nWrapped in hopes,\nAt every turn, a new dream,\nA companion on the path.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:41:27.945769+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0546601bbf260f53dedde53396ac3bacee0e97a9608e7b6d85d7693e2862d462",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6fe7d7632456b8038dbac1aeebdd4c02368e6f4693dd2a68131e4d05e3a4767",
+        "response_hash": "0305e4eb71d1d5d48d5a35451d1048939a7218805475db2730d2990cf33077ad",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "44b4a87bacadd621b286101af2599016205f142ad1a9b0749a935280feb23e18",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a91bf40775eb4bc5e91f8874fa17c7e141c4d63713ea5802edc3abc4b409546f",
+        "response_hash": "812921cdde58bc04fc8c7a3a5acaf7ae5a6462fc82f118e444e439da30383320",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f978a9fbdc6c19d9518eea6186b9f4dce85430a75c72c3bdc28e31ac5c29b18f",
+        "response_hash": "d236b46400e97f270f7a62be38794e8b32917a45598316b9963fe23e580113e0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a45f889c367447641cba3dc0d3d544721cda1f1bcf317e58588730283ddfa574",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0642df6ee2246f08edb503bf446c79b3a27a63d189ae9caffe35e1c7eac18bef",
+    "translation_sha256": "7ee8775daaee48853f16af483a0a6319423928e4e6b28fb7648b6f3609fa1d7a"
+  }
+}

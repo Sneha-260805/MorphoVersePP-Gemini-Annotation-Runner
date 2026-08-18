@@ -1,0 +1,275 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A boat folded from lined school notebook paper",
+          "A boat folded from newspaper"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A paper boat, which serves as a widespread, highly nostalgic symbol of childhood, monsoon rains, and simple joys in South Asian cultural memory.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A professionally manufactured toy plastic boat",
+          "A large wooden sailboat or ship"
+        ],
+        "preserved": true,
+        "romanization": "kagaz ki kashti",
+        "source_span_original": "कागज़ की कश्ती",
+        "source_span_translation": "The paper boat",
+        "stanza_index": 1,
+        "term": "कागज़ की कश्ती",
+        "translation_note": "The translation renders this as 'The paper boat', which captures the literal meaning but loses the deep cultural resonance of the phrase in South Asian childhood nostalgia, famously celebrated in regional music and literature.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A simple, hand-folded toy boat made of plain white or notebook paper",
+          "Floating on a small puddle or stream of rainwater"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "nostalgia to gentle joy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation alters the sensory and emotional nuances of the original Hindi text. In L4, 'सपनों की महकती है' (fragrance of dreams) is translated as 'It carries dreams away', losing the olfactory metaphor. In L8, 'बनाए हर दिल को दीवानी' (makes every heart crazy/captivated) is translated as 'Makes every heart set sail', which changes the emotional intensity of 'deewani' to a generic sailing metaphor.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A symbol of childhood innocence, fragile dreams, and nostalgic memories.",
+            "acceptable_visual_variants": [
+              "A single white paper boat in a rain puddle",
+              "A child's hand gently placing a folded paper boat into a stream"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A boat made out of folded paper.",
+            "literalization_risk": "An illustrator might draw a literal industrial cargo ship made of paper, missing the intimate, hand-folded childhood toy aspect.",
+            "metaphor_mapping": {
+              "tenor_concept": "childhood memories and innocence",
+              "transferred_attributes": [
+                "fragility",
+                "simplicity",
+                "drifting away with time"
+              ],
+              "vehicle_concept": "paper boat"
+            },
+            "source_span_original": "कागज़ की कश्ती",
+            "source_span_translation": "The paper boat",
+            "source_term": "कागज़ की कश्ती",
+            "tenor": "Childhood innocence, simple joys, and fleeting memories.",
+            "vehicle": "A fragile paper boat floating on water.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a simple, hand-folded origami paper boat floating gently on a small puddle or stream of water."
+          },
+          {
+            "abstract_meaning": "The sweet, fragrant presence of childhood dreams and aspirations.",
+            "acceptable_visual_variants": [
+              "Soft pastel-colored light surrounding the boat",
+              "Tiny glowing stars or sparkles trailing behind the floating boat"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Dreams emit a fragrant scent.",
+            "literalization_risk": "Showing literal perfume bottles or physical scent clouds rising from a paper boat, which looks comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "childhood dreams",
+              "transferred_attributes": [
+                "pleasantness",
+                "evocative power",
+                "intangible beauty"
+              ],
+              "vehicle_concept": "fragrance"
+            },
+            "source_span_original": "सपनों की महकती है",
+            "source_span_translation": "It carries dreams away",
+            "source_term": "सपनों की महकती है",
+            "tenor": "The pleasant, nostalgic, and inspiring nature of childhood dreams.",
+            "vehicle": "Fragrance or sweet scent (महक)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict soft, glowing, or sparkling light trails emanating from the paper boat to represent the intangible, beautiful essence of dreams."
+          },
+          {
+            "abstract_meaning": "Every movement or ripple of life/water carries a joyful, musical memory.",
+            "acceptable_visual_variants": [
+              "Rhythmic, concentric ripples in clear water",
+              "Water ripples reflecting a soft, warm sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "There is a literal musical song inside every water wave.",
+            "literalization_risk": "Drawing literal musical notes floating on top of water waves, which can look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "ripples of water / life experiences",
+              "transferred_attributes": [
+                "rhythm",
+                "harmony",
+                "emotional resonance"
+              ],
+              "vehicle_concept": "song"
+            },
+            "source_span_original": "हर लहर में एक गीत",
+            "source_span_translation": "In every wave a song",
+            "source_term": "हर लहर में एक गीत",
+            "tenor": "The rhythmic, joyful, and expressive quality of childhood experiences.",
+            "vehicle": "A song or melody",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict gentle, rhythmic ripples in the water that have a harmonious, flowing pattern, perhaps reflecting soft light."
+          },
+          {
+            "abstract_meaning": "Every small detail or moment of childhood holds a deep, memorable narrative.",
+            "acceptable_visual_variants": [
+              "Glistening raindrops on a leaf reflecting warm light",
+              "A close-up of a single droplet hanging from a surface, acting like a tiny lens"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A literal written story or book exists inside a single droplet of water.",
+            "literalization_risk": "Drawing tiny books or written text inside water droplets, which is visually cluttered and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "water droplet / small moment",
+              "transferred_attributes": [
+                "depth",
+                "narrative value",
+                "containment of a world"
+              ],
+              "vehicle_concept": "story"
+            },
+            "source_span_original": "हर बूँद में एक कहानी",
+            "source_span_translation": "In every drop a tale",
+            "source_term": "हर बूँद में एक कहानी",
+            "tenor": "The rich meaning and memory contained in even the smallest moments of childhood.",
+            "vehicle": "A story or tale",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict clear, glistening water droplets reflecting miniature, soft-focus scenes of childhood play or warm light."
+          },
+          {
+            "abstract_meaning": "Fills everyone's heart with nostalgic longing, joy, and passionate affection.",
+            "acceptable_visual_variants": [
+              "An adult looking down at a puddle with a gentle, nostalgic smile",
+              "A warm, glowing light emanating from a person's chest area to symbolize a stirred heart"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L8",
+            "literal_meaning": "Makes every physical heart go crazy or lose its mind.",
+            "literalization_risk": "Depicting literal human hearts acting crazy or wearing straightjackets, which is grotesque and incorrect.",
+            "metaphor_mapping": {
+              "tenor_concept": "nostalgic emotional response",
+              "transferred_attributes": [
+                "intensity",
+                "loss of rational restraint",
+                "joyful obsession"
+              ],
+              "vehicle_concept": "passionate infatuation"
+            },
+            "source_span_original": "बनाए हर दिल को दीवानी",
+            "source_span_translation": "Makes every heart set sail",
+            "source_term": "बनाए हर दिल को दीवानी",
+            "tenor": "An overwhelming feeling of nostalgia, joy, and emotional captivation.",
+            "vehicle": "Madness or passionate infatuation (दीवानी)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the emotional expression of a person looking at the paper boat, showing a warm, nostalgic, and dreamy smile."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'सपनों की महकती है' as 'It carries dreams away' completely loses the sensory metaphor of fragrance ('महकती', meaning to emit a sweet fragrance or bloom) associated with dreams.",
+            "where": "L4"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'दीवानी' (crazed with love, passionate, or ecstatic) as 'set sail' in 'Makes every heart set sail' completely alters the emotional intensity and the specific cultural/poetic concept of 'deewani' (passionate devotion or ecstatic joy) into a generic nautical metaphor.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The simple innocence of childhood memories symbolized by a paper boat."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कागज़ की कश्ती,  \nपानी में तैरती है।  \nबचपन की यादों में,  \nसपनों की महकती है।  \nहर लहर में एक गीत,  \nहर बूँद में एक कहानी।  \nकागज़ की कश्ती,  \nबनाए हर दिल को दीवानी।",
+  "poem_id": "MV++_0446",
+  "poem_title": "Kagaz Ki Kashti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "34abe7e8c00d8f4d9a4bcdb3c40ec5b27d0c421b63e3fb00ef0da25ca8afaf1b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0446.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The paper boat,  \nFloats upon the water's play.  \nIn the memories of childhood,  \nIt carries dreams away.  \nIn every wave a song,  \nIn every drop a tale.  \nThe paper boat,  \nMakes every heart set sail.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:25:21.141649+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa07fbe02a09766323a07df0d734e83884db5e17677ade5764a603bfd88dd7d9",
+        "response_hash": "21a90dba405bbaba1ca101e46e9b355a36c9b1db2a70cbddf36862dbf9350bc6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a709e6a13434e70091c6852fb5178125b93bb1a41b2761776fb00002e331a7ae",
+        "response_hash": "bd532d2d93edb135db738ad9e317a811059596aae1c89d8867143c182dc1b4a0",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1f14d4f023e637c23cf4a0a3d5547aca92a65cf5738e455229a536f2c400a2cb",
+        "response_hash": "b867b807457b4084c944ae070c623289c746e1c7a53d1f144aa26ae9401bc0ac",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b55308893be49e744e0bddfd85422a73308f2bb21366ba3b31981ec390c0ab6d",
+        "response_hash": "ea2fcf44b24729c8aea7d983a166b533199bc71493b10f6d353a09bea73aaf61",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8c8af28a685c891eacebf0ed2794d8188fb6f305e79b2190af59ded40519c00a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b2fc267db03fae2509fd6698ffd663f385dd8d8e1aef1da893791e4a36f31aff",
+    "translation_sha256": "4a68649e43e3840fb88445e7a239f906a0b30c467355c1cdd53cd6664f67b309"
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple mud-plastered floor-level stove with firewood sticking out",
+          "A double-burner clay stove built into a rural kitchen corner"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional South Asian clay stove or hearth, typically fueled by wood, coal, or dried dung cakes, central to rural household life and cooking.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern Western-style brick fireplace",
+          "A modern gas stove or electric range"
+        ],
+        "preserved": true,
+        "romanization": "chulhe",
+        "source_span_original": "चूल्हे",
+        "source_span_translation": "hearth",
+        "stanza_index": 1,
+        "term": "चूल्हे",
+        "translation_note": "Translated as 'hearth', which captures the functional essence but loses the specific cultural association of a traditional South Asian clay stove.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A traditional U-shaped or circular clay stove (chulha)",
+          "Traces of ash and glowing embers inside",
+          "A simple pot or flat pan (tawa) resting on top"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A single flatbread being puffed over open embers",
+          "A small stack of freshly cooked flatbreads next to the stove"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional unleavened flatbread, a staple food across South Asia, typically cooked on a flat iron pan (tawa) or directly over the open flames of a chulha.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A loaf of sliced Western yeast bread",
+          "A thick pita bread or naan cooked in a tandoor"
+        ],
+        "preserved": false,
+        "romanization": "roti",
+        "source_span_original": "रोटी",
+        "source_span_translation": "bread",
+        "stanza_index": 1,
+        "term": "रोटी",
+        "translation_note": "Translated as 'bread', which generalizes the specific South Asian unleavened flatbread.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "A round, thin, unleavened flatbread",
+          "Slightly puffed up with brown or charred spots from direct flame cooking"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing and quiet resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces rhyming words like 'frail' and 'alight' to maintain a poetic structure, which slightly shifts the tone of 'jawani' (youth/vitality) and 'sapno ka' (of dreams) into more passive English equivalents.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The domestic labor of cooking over a hearth contains a life story of struggle and experience.",
+            "acceptable_visual_variants": [
+              "A close-up of a glowing clay stove with soft orange embers and gentle smoke rising.",
+              "A person sitting by a traditional hearth in a dimly lit room, looking reflective."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "There is a story inside the heat of the clay stove.",
+            "literalization_risk": "Showing a literal book or written text burning inside a stove's fire, which would look like destruction of literature rather than a life story.",
+            "metaphor_mapping": {
+              "tenor_concept": "life story of domestic labor",
+              "transferred_attributes": [
+                "warmth",
+                "intensity",
+                "gradual burning",
+                "containment of history"
+              ],
+              "vehicle_concept": "heat of a hearth"
+            },
+            "source_span_original": "चूल्हे की आँच में एक कहानी है",
+            "source_span_translation": "In the heat of the hearth lies a tale",
+            "source_term": "चूल्हे की आँच में एक कहानी है",
+            "tenor": "The life experiences, struggles, and domestic history of the person cooking",
+            "vehicle": "The heat/fire of a traditional clay stove (chulha)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing traditional clay stove (chulha) with soft embers, focusing on the atmospheric warmth and the silhouette of a person nearby to suggest a reflective, narrative mood."
+          },
+          {
+            "abstract_meaning": "A person's youth and vital years are spent and consumed in the daily labor of making bread.",
+            "acceptable_visual_variants": [
+              "A close-up of hands rolling out dough on a wooden board.",
+              "Freshly baked rotis stacked neatly near a warm stove."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A youth/young age is residing inside the flatbread.",
+            "literalization_risk": "Showing a tiny young person physically trapped inside a piece of bread, which would look surreal or comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "spent youth and energy",
+              "transferred_attributes": [
+                "being shaped by heat",
+                "consumption of time and energy",
+                "daily repetition"
+              ],
+              "vehicle_concept": "baked flatbread"
+            },
+            "source_span_original": "रोटी में बसी एक जवानी है",
+            "source_span_translation": "In the bread, a youth so frail",
+            "source_term": "रोटी में बसी एक जवानी है",
+            "tenor": "The years of youth spent in domestic labor",
+            "vehicle": "Flatbread (roti)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict hands shaping or rolling out a fresh roti near the hearth, capturing the physical effort of the task to symbolize the passage of time and youth."
+          },
+          {
+            "abstract_meaning": "The hopes and dreams of the individual are slowly burning away and vanishing like smoke during domestic chores.",
+            "acceptable_visual_variants": [
+              "Wisps of grey smoke rising from a clay stove and dispersing into a dark room.",
+              "A soft-focus view of smoke curling upward against a dim background."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Smoke of dreams is rising.",
+            "literalization_risk": "Showing literal dream bubbles or cartoonish sleeping clouds catching fire and turning into black smoke.",
+            "metaphor_mapping": {
+              "tenor_concept": "vanishing dreams",
+              "transferred_attributes": [
+                "transience",
+                "dissipation into the air",
+                "originating from heat/burning"
+              ],
+              "vehicle_concept": "rising smoke"
+            },
+            "source_span_original": "धुआँ उठता है सपनों का",
+            "source_span_translation": "Smoke rises from dreams alight",
+            "source_term": "धुआँ उठता है सपनों का",
+            "tenor": "The fading, burning away, or vanishing of personal dreams and aspirations",
+            "vehicle": "Smoke rising from a fire",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict thin, wispy, elegant trails of smoke rising from the hearth into the air, dissolving into the background to evoke a sense of loss and fading hopes."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'roti' as 'bread' loses the specific cultural and visual context of a flatbread cooked directly on a griddle or open fire, which is central to the imagery of a 'chulha' (hearth/stove).",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds the adjective 'frail' to describe youth ('jवानी') to force a rhyme with 'tale', which is not present in the original text and alters the tone.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'alight' and 'glows bright' to force rhymes, which are not in the original Hindi text and alter the quiet, reflective mood of the original lines.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The domestic struggle and quiet sacrifices of youth and dreams within the warmth and smoke of the household hearth."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चूल्हे की आँच में एक कहानी है,  \nरोटी में बसी एक जवानी है।  \nधुआँ उठता है सपनों का,  \nआँखों में बसी एक नादानी है।",
+  "poem_id": "MV++_0746",
+  "poem_title": "Chulhe Ki Aanch",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0c7e7498ccefb855fbcd7690ee46792788460d5703a7f5ebf1f6cd6085b2d184",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0746.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the heat of the hearth lies a tale,  \nIn the bread, a youth so frail.  \nSmoke rises from dreams alight,  \nIn eyes, innocence glows bright.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:05:54.689233+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8e665d4c4eb6e5f8346e988160589054663017cf330e8d6227501ddf249eae2e",
+        "response_hash": "dc3d7d2bae3224ae58bd8738f268367f1d0ca894df737e6a3b26d453766ee921"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0f2cfb4c1d19c1c5d0c9ffff7387379e42368fe4e7b00f17cb3f55a83cec8873",
+        "response_hash": "e809c54d3a26fcd5052b0a5722226753285204bd9f52186e7fd504bdeaf8e059",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6e68e097f9274544ded6475314675e93f7bb60cfdce16b26de2472e2db406b61",
+        "response_hash": "d90452afc00a0e2b2706e31504a8f86166788ee603a11a72432deb5a6d7d1abd",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c514dd389fee5591a2b3d4e6dd8d29cc52f7d1641bc8dda605c04df8d2896025",
+        "response_hash": "6e4863683f323cc53e98c7999734fd1569f271b5d449b74e0c525588f7356ca7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "92f8aae56b140e086a73104c6f515484ba8142d8f2ccf79c2afc83d516280f2a",
+        "response_hash": "f819b6d4a6048129894dd2787eaf7c6c6b7cb1ce09bc4ab0eeff72607fca4d99",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8d92aaecbd530f40d4f09db997ac5958985a8c50b2de9b29ad8ef508fa9442e9",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "df4cc28be442d0f40e531656e0f0d0d55066dd04d5b9b165846434f84dcb6df9",
+    "translation_sha256": "82d057db6d63fd68f06ab80457cb5384363c4c33594c67589b3e7916cae5be30"
+  }
+}

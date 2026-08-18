@@ -1,0 +1,194 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Traditional Indian fighter kites (patang) flying in a clear blue sky",
+          "Multiple colorful kites of different patterns soaring together"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Kites, which carry deep cultural significance in India, particularly associated with seasonal festivals like Makar Sankranti, Basant Panchami, and Independence Day, representing freedom, celebration, and community spirit.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Western-style delta or stunt kites with dual control lines",
+          "Kites flown on a deserted beach instead of over a crowded urban rooftop skyline"
+        ],
+        "preserved": true,
+        "romanization": "patangon",
+        "source_span_original": "पतंगों",
+        "source_span_translation": "Kites",
+        "stanza_index": 1,
+        "term": "पतंगों",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Brightly colored paper or plastic kites",
+          "Diamond-shaped structures with thin bamboo struts",
+          "Spools of thread (manjha) nearby"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "wonder to joyful celebration",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'बदलती दिशा में' (in changing directions) as 'In changing winds', shifting the focus from the physical direction of the kites to the external force of the wind.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'In the sky they blend' changes the active, decorative meaning of 'सज गई आसमान में' (adorned/decorated the sky) to a passive blending.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The arrival of new hope, aspirations, or imaginative possibilities brought by the soaring kites.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking up at a vast sky filled with colorful kites",
+              "A child pointing excitedly at a kite soaring high in the clouds"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "Brought a new dream",
+            "literalization_risk": "Showing a literal sleeping person with a thought bubble or a physical package labeled 'dream' would look childish and miss the poetic connection to the kites.",
+            "metaphor_mapping": {
+              "tenor_concept": "Inspiration and hope",
+              "transferred_attributes": [
+                "delivery",
+                "arrival",
+                "tangibility of an idea"
+              ],
+              "vehicle_concept": "A messenger bringing a gift"
+            },
+            "source_span_original": "नया सपना लाया",
+            "source_span_translation": "A new dream brought",
+            "source_term": "नया सपना लाया",
+            "tenor": "The feeling of renewed hope and aspiration inspired by watching kites fly.",
+            "vehicle": "An active agent or messenger carrying a physical object (a dream) to someone.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the upward gaze of a person looking at a high-flying kite, with their expression reflecting hope, wonder, and aspiration."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'In joy's gentle light' completely alters the literal meaning of 'खुशियों की सवारी में' (in the carriage/procession of happiness), losing the dynamic imagery of a ride or procession.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The liberating joy and hopeful dreams inspired by kites soaring freely in the sky"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items describing significant shifts in meaning (e.g., 'बदलती दिशा में' to 'In changing winds' and 'सज गई आसमान में' to 'In the sky they blend'). This is internally inconsistent.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss item describing a high-severity alteration of 'खुशियों की सवारी में' to 'In joy's gentle light'. This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पतंगों की उड़ी,  \nबदलती दिशा में,  \nगगन के रंगों से,  \nसज गई आसमान में।  \n\nनया सपना लाया,  \nउन्मुक्त हवा में,  \nगहराई में लहराया,  \nखुशियों की सवारी में।",
+  "poem_id": "MV++_0146",
+  "poem_title": "Patang",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "10f073876774d050a0779b6829e79721f019e4e20a880f546d1b1a2d61832e70",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0146.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Kites soaring high,  \nIn changing winds,  \nAdorned with colors,  \nIn the sky they blend.  \n\nA new dream brought,  \nIn the free air's flight,  \nDancing in the depths,  \nIn joy's gentle light.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:51:46.229298+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3d5ebdbc8cc9d97567fb11c81fd4e0c62ade431f7e658dd539c2ea745c4d7802",
+        "response_hash": "3c9455961c47b24f3786728a62050e9feaef2334489059683742888dd9533ae3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8edc61c6a373c5bceea6b808055f5574f96c3c1ba337e96b303331c4f6b60675",
+        "response_hash": "40c44b56bb48bfaab6f3fe5ff9e89b4e445084050b18cb24d525024e7ba6f4a3",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9289fa0f08e776860ca069f6c9398637b0aa325a2c646773984888eccdefce6e",
+        "response_hash": "3f0829a29df075a852b1592c799d42751aa6ac2df3d32c1b156cbd99b7ba86c7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6a44cdd5395d15a4165355d707057d7d02a677ab142d6b8f4e3f0cbb6edbe8a0",
+        "response_hash": "7ce04ee090e39aeb8b67b561aa5ea497c718a1aef46f861a23484cecef36acad",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d091871d3d061af0af69b01b44e6acdc02eae06c4a583447ec284f1b7ce6dc32",
+        "response_hash": "b3a2b87c3c7e6ed8e85961f0c905d7891074cd74d255d052ea78fb01b3368b8c",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3ad0254e6eac9d504d83e62512ba0c59f7d7343f2b502b85b9111cfb3fc4bd0c",
+    "translation_sha256": "6a337502ad9c21f85966248228213d4690b333eb839571f27ffe4c96af5a1d77"
+  }
+}

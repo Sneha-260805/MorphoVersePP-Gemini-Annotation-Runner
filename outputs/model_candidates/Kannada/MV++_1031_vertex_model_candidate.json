@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet wonder to enduring peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An enduring, eternal quality, memory, or beauty that does not decay or fade over time.",
+            "acceptable_visual_variants": [
+              "A delicate flower silhouette illuminated by a warm, steady light source",
+              "A reflection of a simple, pristine blossom inside a human eye"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A flower that never ends or never wilts",
+            "literalization_risk": "Showing a literal plastic or magical flower that physically never wilts, which misses the emotional and spiritual depth of an enduring memory or quality.",
+            "metaphor_mapping": {
+              "tenor_concept": "eternal memory or beauty",
+              "transferred_attributes": [
+                "endurance",
+                "beauty",
+                "imperishability"
+              ],
+              "vehicle_concept": "unfading flower"
+            },
+            "source_span_original": "ಮುಗಿಯದ ಹೂವು",
+            "source_span_translation": "The unfading flower",
+            "source_term": "ಮುಗಿಯದ ಹೂವು",
+            "tenor": "An eternal memory, love, or beautiful quality of life",
+            "vehicle": "An unfading, endless flower",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing flower shape reflected clearly in the pupil of an eye, blending the floral form with a warm light."
+          },
+          {
+            "abstract_meaning": "The guidance, vitality, or positive consciousness that directs and illuminates one's life journey.",
+            "acceptable_visual_variants": [
+              "A soft golden aura surrounding a silhouette",
+              "A gentle beam of warm light illuminating a path ahead of a person"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the light of life",
+            "literalization_risk": "Depicting a literal lightbulb or physical lamp next to a person, which makes the abstract concept of life's guidance look like a household appliance.",
+            "metaphor_mapping": {
+              "tenor_concept": "life's guidance and vitality",
+              "transferred_attributes": [
+                "illumination",
+                "warmth",
+                "guidance"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "ಜೀವನದ ಬೆಳಕಿನಲ್ಲಿ",
+            "source_span_translation": "In the light of your life",
+            "source_term": "ಜೀವನದ ಬೆಳಕಿನಲ್ಲಿ",
+            "tenor": "Vitality, guidance, or consciousness of life",
+            "vehicle": "Light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use a warm, ambient golden glow emanating from within or surrounding a person to suggest an inner vitality and guidance."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada word 'mugiyada' literally means 'unending' or 'that which does not finish/end', which carries a broader temporal and existential nuance than the English translation 'unfading' (which specifically implies physical wilting or loss of color).",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The past tense verb 'bimbisitu' (reflected/mirrored) is translated as a passive participle 'Reflected', losing the active, self-contained action of the reflection occurring in the eyes.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The eternal presence of an unfading beauty or memory reflected in the life of a loved one."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries and a detailed loss_note is expected or translation_quality should be 'partial' to reflect the documented losses.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಮುಗಿಯದ ಹೂವು,  \nನಿನ್ನ ಕಣ್ಣಿನಲ್ಲಿ ಬಿಂಬಿಸಿತು,  \nನಿನ್ನ ಜೀವನದ ಬೆಳಕಿನಲ್ಲಿ,  \nಅದು ಯಾವತ್ತೂ ಉಳಿಯುತ್ತದೆ.",
+  "poem_id": "MV++_1031",
+  "poem_title": "Mugiyada Hoovu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b9e1b6604c5090c2d11e4145a1b13571a3cf85cb136fca3e5cf1cd2c9118792e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1031.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The unfading flower,  \nReflected in your eyes,  \nIn the light of your life,  \nIt forever stays.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:49:11.599460+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "68afa8db81ad97aeab8b1f01630687bdae34618a54ba5f8db1607e256123ece2",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9965deb68c41377a424996622f5359be5bb7a770778bf04b0bee1e4da59cfb54",
+        "response_hash": "22f2afba75198510b43ee1dc31bed313d5b6a4e323e58bb948623149a7602ff1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d90d6d9701dfd263816c36ae663d489e964bba70252822b4ff75c586f2c723b5",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b31024ba402bf9688e623449b83e54264b739a8e2cd5091b4a0f0116ac37e274",
+        "response_hash": "fafd0dac40d6b92298e5fcd7808cb4cd2fa9eb479c9a4ce6295d8fd0c0892844",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6325febfddbeec7afbabc37d8b4600fb6483a26033d16fac1259db6dac5b7d9",
+        "response_hash": "543d352e040fbd1bcc740397487015b94e9039c6c9852c9322a72f5c58175275",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f2d94cdec5b13ca545d3aae824cd75618cea7d32a3d395cc81d352e90be85de7",
+        "response_hash": "e389e52ac6ad40b31697122aad5b9d558a4272db02abb306d545586bb00688e6",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "95c0810f6477c3f988c5414c68a077c6758c78ff3a44aa72ca2067ac4cd2fd89",
+    "translation_sha256": "a30f8ea3253c84060400a9bd6ca73e5a155fae3bdbbc77ca593378acc4a362a8"
+  }
+}

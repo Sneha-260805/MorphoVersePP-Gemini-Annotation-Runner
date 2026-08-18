@@ -1,0 +1,209 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Depicted as a divine charioteer or teacher",
+          "Depicted as a cowherd youth in Vrindavan"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A major deity in Hinduism, worshipped as the eighth avatar of Vishnu and as a supreme god in his own right. In this context, he is the speaker of the supreme message.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Confusing him with other avatars of Vishnu like Rama",
+          "Depicting him without his traditional iconographic markers like the peacock feather"
+        ],
+        "preserved": true,
+        "romanization": "Krishna",
+        "source_span_original": "कृष्ण",
+        "source_span_translation": "Krishna",
+        "stanza_index": 1,
+        "term": "कृष्ण",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Often depicted with blue skin",
+          "May hold a flute",
+          "Often wears a peacock feather in his crown"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A soft orange and purple twilight sky",
+          "A dusty village path at sunset with cattle"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Literally 'cow-dust time', referring to the sacred hour of twilight when cows return home from pasture, kicking up dust. It is highly auspicious and deeply associated with Krishna's pastoral pastimes in Vrindavan.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A generic dark night scene",
+          "A modern urban sunset without pastoral elements"
+        ],
+        "preserved": true,
+        "romanization": "godhuli",
+        "source_span_original": "गोधूलि",
+        "source_span_translation": "twilight",
+        "stanza_index": 1,
+        "term": "गोधूलि",
+        "translation_note": "Translated as 'twilight', which captures the literal time of day but loses the specific cultural association with the dust kicked up by returning cows.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Warm golden hour light",
+          "Dust particles suspended in the air",
+          "Silhouettes of returning cattle"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "reverence to deep spiritual connection",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders the specific cultural resonance of 'godhuli' (cow-dust twilight) as general 'twilight' and 'Hari' as 'God', losing the specific Vaishnava devotional register of the original Hindi phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The pervasive, protective, and far-reaching influence of Krishna's divine message across all times and places.",
+            "acceptable_visual_variants": [
+              "A gentle, sweeping mist of light covering diverse terrains under a twilight sky",
+              "A vast, protective canopy of tree-like branches casting a soft, sheltering shade over the earth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The physical shadow cast by my supreme message",
+            "literalization_risk": "An illustrator might draw a literal dark silhouette or black shadow cast by a physical scroll or floating letters, which looks ominous rather than protective and divine.",
+            "metaphor_mapping": {
+              "tenor_concept": "the spiritual reach and presence of a divine message",
+              "transferred_attributes": [
+                "pervasiveness",
+                "covering all ground",
+                "quiet presence"
+              ],
+              "vehicle_concept": "a physical shadow spreading over the earth"
+            },
+            "source_span_original": "मेरे परम संदेश का साया",
+            "source_span_translation": "The shadow of my supreme message",
+            "source_term": "मेरे परम संदेश का साया",
+            "tenor": "The far-reaching presence and protective influence of a divine message",
+            "vehicle": "A shadow (saaya) that spreads and covers the land",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm, protective glow or a gentle, translucent canopy of light spreading across a landscape of changing seasons, representing the protective 'shadow' of the message."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'गोधूलि' (godhuli) as 'twilight' loses the specific cultural and pastoral imagery of 'cow-dust hour' associated with Krishna returning home with the cattle.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'हरि काज करत' (hari kaaj karat) uses a Braj-influenced register that evokes traditional devotional poetry, which is flattened into standard English prose.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The omnipresence of the divine message and the intimate union between the seeker's actions and the divine presence within the heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' and 'loss_note' both state that the specific cultural resonance of 'godhuli' was lost/flattened to 'twilight'. These values are internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कृष्ण ने कहा था—\nहरि काज करत गोधूलि में\nतुम हो ना इसमें, तुम्हीं हो,  \nहर ऋतु हर भू पर छा गया  \nमेरे परम संदेश का साया।  \nयह जो तुम आकर करते हो  \nवो मैं तुम्हारे दिल में करता हूँ।",
+  "poem_id": "MV++_1085",
+  "poem_title": "Krishna Ki Chetavani",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "69e26017416d610c9153b7724a1bb4ea3e44ab842ae3f804cab6d0eacca97fa0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1085.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Krishna had said—\nIn the twilight, doing the work of God,  \nYou are in it, you are it,  \nIn every season, on every land,  \nThe shadow of my supreme message spreads.  \nWhat you come and do,  \nI do within your heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:56:01.920468+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4170ec386b47282e51d821bfa6cef236aa55a7535988ca76f33c2132282c1d75",
+        "response_hash": "47693f50b8c5613f31dc0f0430960d629fe61bcbc4ca00aca81f785fe5e93683"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "414bdedc52aa312315c823d8d1b4b4006d6316b2572a0c8a343053b5fe48aeb4",
+        "response_hash": "9cb34f8497660b94bece6a2cbf53cdb83997af6bcb734b73ec85e3a9e8921286",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9241c4cc9811e1193cdd44a7be1efc5820007745390cbe2f6018e86f330cbcd7",
+        "response_hash": "94dc0bf714da64f00d07a5123596b27a3873a70b5b8e434d5795d43649460259",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "38c6fad92143b2d083fe1b655dcc507304cf6dae82868a2b265a6dbd5f5cab29",
+        "response_hash": "aa54ed10ed4ea2204baa92c98cac8cd2b86d5145eda9c4b35b5a93b5fcf7ee33",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "24f74ef9b305bb0e85cd3cc8a6ebea2561e6b64d81fd9e8d5a19ce14a1b8376d",
+        "response_hash": "00ad31ec31fc2243da6ec5c9f03f6636e0599e4244017a25f7989b68c4384148",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "afcddd724d600ba57e7a3accf25f172b4a936ccc157458bf53c9c59f2f5cd6e0",
+        "response_hash": "1db2ab69be4cff6fa2a244c4c26f6244c65b50059a4af218b3ca4c6526c8bdf1",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d6bb9872199b172302bcd21bc9193dcf2580de03df3307f9b68dc29b13dcb307",
+    "translation_sha256": "37461e9d742521532e82e3562dd4eb727a8b1c58920bb4608a3e956048c5f756"
+  }
+}

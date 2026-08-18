@@ -1,0 +1,157 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address (makutam) meaning 'O person of good intellect' or 'wise one', characteristic of the classical Telugu Sumati Satakam moral poems.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "The translation preserves the vocative address 'Sumathi' directly, which is the traditional makutam (signature line/address) of the Sumati Satakam poems. It literally means 'one with good intellect' or 'wise person'.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "reflective observation on human relationships and perception",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation completely alters the meaning of the original Telugu poem. The original poem (a classic Sumati Shatakam moral verse) states that during days of affection (koorimi), faults (neramulu) are never noticed; but when that affection sours, only faults become visible. The translation incorrectly renders this as a struggle between truth, lies, and obscurity.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "When affection or friendship turns sour, bitter, or breaks down.",
+            "acceptable_visual_variants": [
+              "Two stylized figures turning away from each other as their shared warm shadow turns cold and splits.",
+              "A single wilting flower losing its vibrant color to represent a dying friendship."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "When affection becomes tasteless or bitter in flavor",
+            "literalization_risk": "Showing someone tasting bitter food or drink, which would completely miss the interpersonal breakdown of friendship.",
+            "metaphor_mapping": {
+              "tenor_concept": "relationship breakdown",
+              "transferred_attributes": [
+                "loss of sweetness",
+                "becoming unpleasant or bitter"
+              ],
+              "vehicle_concept": "taste deterioration"
+            },
+            "source_span_original": "కూరిమి విరసంబైనను",
+            "source_span_translation": "Though the essence may seem bitter",
+            "source_term": "కూరిమి విరసంబైనను",
+            "tenor": "The deterioration of a loving relationship or friendship into mutual dislike",
+            "vehicle": "A sweet substance or food turning tasteless, sour, or bitter",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two figures who once stood close together now turning their backs on each other, with a dividing crack or a fading warm light between them to represent the souring of their bond."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the core meaning of the poem. The original Telugu poem is about love/friendship ('kurimi') and faults/mistakes ('neramulu'), stating that when love exists, faults are never noticed, but when love sours, only faults appear. The translation incorrectly renders 'kurimi' (love) as 'obscurity' and 'neramulu' (faults) as 'truth/lies'.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The specific wordplay and structural symmetry between 'kurimi' (love) and 'neramulu' (faults) across the lines is entirely lost due to the mistranslation of these core terms.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "How affection or the lack thereof alters our perception of others' faults"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "కూరిమిగల దినములలో  \nనేరము లెన్నcడునుc గలుగనేరవు, మఱి యా  \nకూరిమి విరసంబైనను,  \nనేరములే తోచుచుండు నిక్కము సుమతీ.",
+  "poem_id": "MV++_1534",
+  "poem_title": "Kurimigala",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c31b72c80f312c5878d82f63edb23270a25762e9ee247a311c2153d39e10f8d0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1534.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the days filled with obscurity,  \nTruth struggles to find its place amidst lies,  \nThough the essence may seem bitter,  \nOnly truth will stand out clear, Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:45:28.088842+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8bd6b0500468a6a8e07be571082b8fa166e7f192cff8263e3b129a1b7ac7952b",
+        "response_hash": "59c94964b853fb785c4bf76551b88600178a71c4c121dc28d1c55ef645c30e04",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e84e3bca63aa9aa673121f4edbcdc879b33eb87f82e0fb5044b392bf0b41b13b",
+        "response_hash": "d769353329794c4b0f00b229aed3f22d6317e79233fe30bc31869f8d9ed4f024",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f86d61643bb6c38d064e7a0868042c8751d6e7b180a48318c88251bca27e7da3",
+        "response_hash": "1f480cbcc00d42671b36f96cf56825684f045675ca2c728e1a20941c56563d6d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "802532c7d71289ecbab50acbce94ce283b7251e3e4cbb11e38f407b506a051cc",
+        "response_hash": "0d37463cb75802847ee46f6d27b739abaaea7ffa7c524860866adfa563678c23",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "21505123b7e6aa082157b1a16af5fc0d9420abeca2c3383ef121968c5ad91459",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "85e7834149f20069fa6a443c11918f28bcd29af3d3f5928c3963010d514c1f29",
+    "translation_sha256": "ebabc18577d3c3f903e406cb271d35b8014e4ce4fd41a41d5536254a68839b95"
+  }
+}

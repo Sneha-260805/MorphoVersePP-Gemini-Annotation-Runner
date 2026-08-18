@@ -1,0 +1,255 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and separation to acceptance and quiet resolve",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but loses the explicit feminine gender marking of the speaker in the Hindi verb forms 'chali' and 'hoon door'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A major life transition, spiritual journey, or departure from the familiar.",
+            "acceptable_visual_variants": [
+              "A figure stepping onto a path made of stars or light",
+              "A silhouette walking away from a group of warm, glowing figures into an open landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A physical journey or trip that is wondrous or amazing.",
+            "literalization_risk": "An illustrator might draw a literal traveler with suitcases or boarding a vehicle, which misses the emotional and abstract nature of the life transition.",
+            "metaphor_mapping": {
+              "tenor_concept": "life transition",
+              "transferred_attributes": [
+                "movement forward",
+                "leaving a place behind",
+                "uncertainty",
+                "wonder"
+              ],
+              "vehicle_concept": "physical travel"
+            },
+            "source_span_original": "अद्भुत यात्रा",
+            "source_span_translation": "wondrous journey",
+            "source_term": "अद्भुत यात्रा",
+            "tenor": "A major life transition or departure from loved ones",
+            "vehicle": "A physical journey or travel",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure walking toward a bright, misty horizon or a path of light, leaving a cozy, dimly lit scene behind."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The feminine grammatical gender of the speaker, explicitly marked by the verb endings 'chali' (चली) and 'hoon' (हूं) in 'hui hoon' (हुई हूं), is lost in the gender-neutral English translation 'left behind' and 'I am now far'.",
+            "where": "L1-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Pleasant, affectionate, or comforting conversations.",
+            "acceptable_visual_variants": [
+              "Two silhouettes sitting close together with a warm glow between them",
+              "Soft, flowing lines connecting two figures to represent gentle speech"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Conversations that taste like sugar or sweetness.",
+            "literalization_risk": "Depicting literal candy, sugar, or food coming out of mouths would look bizarre and completely misrepresent the emotional memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "pleasant communication",
+              "transferred_attributes": [
+                "pleasurableness",
+                "comfort",
+                "delight"
+              ],
+              "vehicle_concept": "sweet taste"
+            },
+            "source_span_original": "मीठी बातें",
+            "source_span_translation": "sweet conversations",
+            "source_term": "मीठी बातें",
+            "tenor": "Pleasantness or affection in speech",
+            "vehicle": "Sweetness (taste)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Focus on the warmth of the interaction rather than the taste; depict two people talking with soft, warm light or gentle smiles."
+          },
+          {
+            "abstract_meaning": "The persistent and overwhelming presence of memories in the speaker's mind.",
+            "acceptable_visual_variants": [
+              "A swirl of warm light and faint, sketch-like faces encircling a seated figure",
+              "The speaker looking at a collage of soft-focus memories floating in the air"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8-L9",
+            "literal_meaning": "Memories physically standing around or encircling a person.",
+            "literalization_risk": "Showing literal ghostly figures or solid walls closing in on the speaker could look threatening or like a horror scene, whereas the poem suggests a bittersweet, nostalgic surrounding.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental preoccupation",
+              "transferred_attributes": [
+                "closeness",
+                "omnipresence",
+                "confinement"
+              ],
+              "vehicle_concept": "physical encirclement"
+            },
+            "source_span_original": "यादें हैं,\nजो मुझे घेरे हैं।",
+            "source_span_translation": "memories,\nThat surround me.",
+            "source_term": "यादें हैं, जो मुझे घेरे हैं",
+            "tenor": "The psychological experience of being constantly reminded of the past",
+            "vehicle": "Physical entities surrounding or enclosing someone",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the speaker sitting in the center with soft, semi-transparent, glowing floating images or hazy bubbles containing scenes of smiling faces and conversations swirling gently around them."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation of 'deedar' as 'see' loses the poetic, Urdu-derived nuance of a precious or beloved sight/vision.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A new direction, choice, or phase in life.",
+            "acceptable_visual_variants": [
+              "A single figure stepping onto a fresh, untouched trail of light",
+              "A path winding through a changing landscape from autumn colors to spring blooms"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L13",
+            "literal_meaning": "A newly constructed or different physical road or path.",
+            "literalization_risk": "Showing a literal fork in a dirt road or a paved highway might look too mundane or like a traffic sign.",
+            "metaphor_mapping": {
+              "tenor_concept": "life choice",
+              "transferred_attributes": [
+                "direction",
+                "destination",
+                "unexplored territory"
+              ],
+              "vehicle_concept": "physical path"
+            },
+            "source_span_original": "नई राह",
+            "source_span_translation": "new path",
+            "source_term": "नई राह",
+            "tenor": "A new life choice or direction",
+            "vehicle": "A physical road or path",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a glowing, winding path diverging from an old, familiar road, leading toward a bright, open horizon."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Urdu-derived poetic term 'deedar' (दीदार), which carries a deep, often devotional or romantic connotation of beholding or catching a precious glimpse of a beloved, is flattened to the simple English verb 'see'.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The bittersweet transition of leaving behind loved ones and familiar memories to embark on a new, solitary path of reality."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "छोड़ चली  \nदेखो, मैं छोड़ चली,  \nएक अद्भुत यात्रा पर।  \nजिनका साथ था हर कदम,  \nउनसे अब हुई हूं दूर।  \n\nवो मीठी बातें,  \nवो हंसते चेहरे,  \nअब केवल यादें हैं,  \nजो मुझे घेरे हैं।  \n\nसपनों में फिर से,  \nउनका दीदार करूँगी,  \nपर यथार्थ की दुनिया में,  \nमैंने एक नई राह चुन ली है।",
+  "poem_id": "MV++_0341",
+  "poem_title": "Chhod Chali",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "8b8de2098fe164e593e6afe542cdc902b31ec635f626448cb115d78dac40ef60",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0341.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Left Behind  \nLook, I have left behind,  \nOn a wondrous journey.  \nThose who walked with me,  \nI am now far from them.  \n\nThose sweet conversations,  \nThose smiling faces,  \nAre now just memories,  \nThat surround me.  \n\nIn dreams again,  \nI will see them,  \nBut in the world of reality,  \nI have chosen a new path.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:14:33.857406+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d799b2919e69d64094188e0893079a4d02896d604a94e58ada850853e6cb9684",
+        "response_hash": "94e9887cf5df0578257ac9e3913b2f1b4ed39f4534c31fec2cccfa116dcb06c7"
+      },
+      {
+        "attempt": 2,
+        "outcome": "success",
+        "prompt_hash": "ac11d54ba88063388ed438290d45367d90921db0292537612e84c7e47c5e6662",
+        "response_hash": "322949fe54889009e26ff68707649dbdf94582f5f094fe3a5c7c4833eaefe62d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e95264a1daa17f347082855dbf4897050a20e206a6d02e79900a25cbd7ab9da",
+        "response_hash": "58d66ea85b2ddd424ab6bb4a9fc0da2d1f877c6fd2f63adfca5440bc20364463",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3a61e0a5a8b1de5d686751ee1cc4a5b3b3659f77cde0d88cf51c90e4f12f6dfd",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "de6577c37df5f7d161189f68378dd179c7662a343c9673b3e7cc41d48efcf593",
+        "response_hash": "43e87e70141ba9e47977ea3746a803ab077634f281bc7783d67c001c773938b8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "149cf29085349817781ad3cf8ec7a723eaa5a4b66aedae9977ada1039bee9eab",
+        "response_hash": "8ba26fa39124c5d19d62f654c919b639d4034daa8f323ff38e151db7070d064c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8d3391791cad11605e6195c2d8cda01694c9901d09dc17368cc0c209d687def7",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a73fa45a5e6e275384d0e5e3affb2d468557e010b71012ddb257c9894d8b04ca",
+    "translation_sha256": "2eb2982c671f6fd51075e847dec56a34097468ab5903db308d1097bbecfd9ba7"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and dependence to peaceful celebration",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'basa hai' as 'intertwined' shifts the literal sense of being settled, inhabited, or established to a different metaphoric concept.",
+        "metaphor_spans": [],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'basa hai' (settled, established, inhabited) as 'intertwined', which shifts the spatial metaphor of a settled home or existence to one of physical entanglement.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The word 'bahaar' carries a rich cultural connotation of spring, blooming, and prosperity in Hindustani poetry, which is simplified to 'Spring' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's life has become joyful, vibrant, and full of happiness due to the beloved's laughter.",
+            "acceptable_visual_variants": [
+              "A garden suddenly bursting into colorful blooms under warm sunlight",
+              "A person walking from a cold, barren path into a lush, green, flower-filled meadow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Spring has arrived in life",
+            "literalization_risk": "Depicting literal spring flowers growing out of a physical body or clock might look surreal or bizarre rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "Joyful state of life",
+              "transferred_attributes": [
+                "warmth",
+                "blooming",
+                "vibrancy",
+                "renewal"
+              ],
+              "vehicle_concept": "Spring season"
+            },
+            "source_span_original": "जीवन में बहार आई है",
+            "source_span_translation": "Spring has entered my life",
+            "source_term": "जीवन में बहार आई है",
+            "tenor": "Joy, vitality, and happiness in the speaker's life",
+            "vehicle": "Spring (Bahaar) bringing bloom and warmth",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a warm, bright, blooming landscape or garden surrounding a person, contrasting with a duller background to show the transition to joy."
+          },
+          {
+            "abstract_meaning": "Every night spent in thoughts of the beloved is filled with endless, beautiful possibilities, dreams, and deep emotional depth.",
+            "acceptable_visual_variants": [
+              "A person looking out of a window at a starry night sky with soft, glowing dream-bubbles",
+              "A quiet, moonlit room with soft shadows that suggest gentle, imaginative shapes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Every night hides a new story/tale",
+            "literalization_risk": "Showing literal books or written scrolls floating in the night sky might look like a fantasy library rather than a romantic, reflective mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "The imaginative depth of nightly thoughts",
+              "transferred_attributes": [
+                "mystery",
+                "narrative depth",
+                "unfolding secrets",
+                "wonder"
+              ],
+              "vehicle_concept": "A hidden story or book"
+            },
+            "source_span_original": "हर रात नयी कहानी छिपी है",
+            "source_span_translation": "Every night hides a new story",
+            "source_term": "हर रात नयी कहानी छिपी है",
+            "tenor": "The rich, imaginative, and deep thoughts of the beloved during the night",
+            "vehicle": "A hidden storybook or narrative waiting to be read",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a starry night sky where the stars or constellations subtly form soft, dreamlike silhouettes or narrative scenes."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'bahaar' (spring, bloom, prime) as 'Spring', which captures the seasonal meaning but loses the specific Urdu/Hindustani poetic resonance of 'bahaar' as a state of flourishing, joy, and aesthetic abundance.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound impact of a beloved on the speaker's entire existence, transforming daily life and nights into a source of renewal."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हारे कारण,  \nमेरा अस्तित्व बसा है,  \nतुम्हारे बिना,  \nहर सुबह अधूरी लगती है।  \n\nतुम्हारी हंसी से,  \nजीवन में बहार आई है,  \nतुम्हारे ख्यालों में,  \nहर रात नयी कहानी छिपी है।",
+  "poem_id": "MV++_0383",
+  "poem_title": "Tumhare Karan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2857a946f96888ec23d09739c90b13a04643ce765ef57ed4d3cd8a3a10071c4c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0383.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Because of you,  \nMy existence is intertwined,  \nWithout you,  \nEvery morning feels incomplete.  \n\nWith your laughter,  \nSpring has entered my life,  \nIn your thoughts,  \nEvery night hides a new story.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:19:05.226531+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6fe0b69ca20360e390058796a56ee35ca5533efba0dec52f4315efb187066389",
+        "response_hash": "e43ebc151fb7e3d0edb7b046dec1af5d29d3331c6bb6d8af74d95888afb3d93d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aed86f94adb415893b0d4a7192cd70172bdf22802615692132b8f3d4b6c834fd",
+        "response_hash": "f9e8ac0961f8cb908ee7730038551345e14828b57e2f26a7760710ed39fbc84b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6a6e4d66df3a10e36379bab3e272a08ee20c6ba0cb943296c6881fbd50443467",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "58cfb8d33ee24e83c9cd09f75c8b539b1fceb572f1c718adc73149a942af5179",
+        "response_hash": "89d385c55182e3566f6b6303971e9f1b7060ffd89e5596375f4a4f657f1a2834",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "98cca378a7a1cbd66e1af1b48a560c2fb051b1f0c32e3dcbf48cb424d36238bf",
+        "response_hash": "ad3e7a7c7608cee66ce7f105ee09a50522bfcd8269b28b907d81cd9554c9b478",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9f832941085537b5ec754a2cedbe3d9ad6f57da9dee0b27febf89c7851745477",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d887808feb5be2997309e504e2aca9f16a206370ee24602dcb8b0314537dc51c",
+    "translation_sha256": "298368e3adcde43d9b1d5ee1e39a425344c404f8d86a8afbc6220a3a731bffc8"
+  }
+}

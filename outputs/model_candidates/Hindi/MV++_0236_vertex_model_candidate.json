@@ -1,0 +1,355 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "reflective contemplation of life's ups and downs moving toward resilient hope and collective action",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The fluctuating, dynamic, and unpredictable nature of human existence.",
+            "acceptable_visual_variants": [
+              "A glowing, undulating line resembling a wave that winds through a landscape of changing seasons.",
+              "A stylized ocean wave where the crest is bright and the trough is dark, symbolizing ups and downs."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical wave of water belonging to life",
+            "literalization_risk": "An illustrator might draw a literal wave made of water with people or objects floating in it, which misses the abstract concept of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "rising and falling",
+                "continuous movement",
+                "unpredictability"
+              ],
+              "vehicle_concept": "water wave"
+            },
+            "source_span_original": "जीवन की लहर",
+            "source_span_translation": "Wave of Life",
+            "source_term": "जीवन की लहर",
+            "tenor": "Human life and its fluctuations",
+            "vehicle": "A wave (water wave)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, flowing path or wave-like ribbon that transitions through different phases of light and shadow, representing life's journey."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The fluctuating, dynamic, and unpredictable nature of human existence.",
+            "acceptable_visual_variants": [
+              "A glowing, undulating line resembling a wave that winds through a landscape of changing seasons.",
+              "A stylized ocean wave where the crest is bright and the trough is dark, symbolizing ups and downs."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A physical wave of water belonging to life",
+            "literalization_risk": "An illustrator might draw a literal wave made of water with people or objects floating in it, which misses the abstract concept of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "rising and falling",
+                "continuous movement",
+                "unpredictability"
+              ],
+              "vehicle_concept": "water wave"
+            },
+            "source_span_original": "जीवन की लहर",
+            "source_span_translation": "The wave of life",
+            "source_term": "जीवन की लहर",
+            "tenor": "Human life and its fluctuations",
+            "vehicle": "A wave (water wave)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, flowing path or wave-like ribbon that transitions through different phases of light and shadow, representing life's journey."
+          },
+          {
+            "abstract_meaning": "The comforting, nurturing, and protective state of dreaming or having aspirations.",
+            "acceptable_visual_variants": [
+              "A person sleeping peacefully under a canopy of soft, warm light.",
+              "A figure cradled gently by soft, abstract, flowing lines that suggest comfort and safety."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The physical lap of dreams",
+            "literalization_risk": "Drawing a literal giant lap made of clouds or abstract shapes holding a person might look bizarre or overly surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams and aspirations",
+              "transferred_attributes": [
+                "comfort",
+                "nurturing",
+                "safety",
+                "holding close"
+              ],
+              "vehicle_concept": "mother's lap"
+            },
+            "source_span_original": "सपनों की गोद",
+            "source_span_translation": "lap of dreams",
+            "source_term": "सपनों की गोद",
+            "tenor": "The state of dreaming or holding aspirations",
+            "vehicle": "A lap (as of a mother)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person resting peacefully in a warm, glowing, cloud-like cradle or soft light, surrounded by faint, positive symbolic imagery of aspirations."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'कुछ हंसती, कुछ रोती' as 'some laugh, some weep' loses the grammatical feminine gender agreement of the participles 'हंसती' (hansati) and 'रोती' (roti), which personify the moments or the story ('कहानी', a feminine noun) as laughing and weeping.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'एक नई दिशा है मिली' as 'a new direction hides' alters the meaning of the verb 'मिली' (found/received) to 'hides' (likely to force a rhyme with 'resides').",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation of 'सुख-दुख की दांव' as 'the gamble of tomorrow' loses the specific pairing of pleasure and pain (sukha-dukha) as a stake or turn in a game.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The comforting or lingering presence of sadness and sorrow.",
+            "acceptable_visual_variants": [
+              "A figure sitting under a cool, dim shadow cast by a tree during twilight.",
+              "A soft, blue-toned shadow falling across one side of an otherwise warm landscape."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The physical shade or shadow cast by sorrows",
+            "literalization_risk": "Drawing literal dark umbrellas or physical shadows cast by monsters might look cartoonish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "sorrow",
+              "transferred_attributes": [
+                "darkness",
+                "coolness/dimness",
+                "covering or hanging over"
+              ],
+              "vehicle_concept": "shade or shadow"
+            },
+            "source_span_original": "ग़मों की छांव",
+            "source_span_translation": "shade of sorrow",
+            "source_term": "ग़मों की छांव",
+            "tenor": "Sorrows/sadness",
+            "vehicle": "Shade/shadow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use soft, cool-toned shadows or a gentle dimming of light over a portion of the scene to represent the presence of sorrow without physicalizing it as an object."
+          },
+          {
+            "abstract_meaning": "Life viewed as a game with rules, challenges, wins, losses, and opportunities.",
+            "acceptable_visual_variants": [
+              "A winding path with stepping stones across a gentle stream.",
+              "A vast landscape with multiple pathways leading toward a bright horizon."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "This physical game of life",
+            "literalization_risk": "Drawing a literal board game or sports match might trivialize the profound message of perseverance in life.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "having rules",
+                "wins and losses",
+                "requiring strategy and effort",
+                "unpredictable outcomes"
+              ],
+              "vehicle_concept": "game"
+            },
+            "source_span_original": "जिंदगी की इस खेल",
+            "source_span_translation": "game of life",
+            "source_term": "जिंदगी की इस खेल",
+            "tenor": "Life and its challenges/rules",
+            "vehicle": "A game",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a path with various crossroads, obstacles, and bright spots, suggesting a journey that requires choices and effort."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'सुख-दुख की दांव' as 'the gamble of tomorrow' replaces the specific Hindi concept of 'दांव' (stake, wager, or turn in a game) of pleasure and pain ('सुख-दुख') with 'tomorrow' to force a rhyme with 'sorrow'.",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'नया अवसर है पाओ' as 'a new opportunity to start' alters the active imperative/hortative sense of 'पाओ' (obtain/find) to an infinitive 'to start' for rhyming purposes.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "The translation introduces 'life's fountains' to rhyme with 'mountains', which is not present in the original Hindi text ('जीवन की परछाई' means 'shadow of life').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The reflection, trace, or constant accompaniment of life's experiences.",
+            "acceptable_visual_variants": [
+              "A gentle reflection of a traveler in a calm pool of water.",
+              "A soft, warm silhouette cast by a figure walking toward the sunrise."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "The physical shadow cast by life",
+            "literalization_risk": "Drawing a literal dark silhouette on the ground might look spooky or disconnected from the positive tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "life's experiences and essence",
+              "transferred_attributes": [
+                "following closely",
+                "reflecting the form",
+                "always present"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "जीवन की परछाई",
+            "source_span_translation": "shadow of life’s fountains",
+            "source_term": "जीवन की परछाई",
+            "tenor": "The reflection or trace of life's experiences",
+            "vehicle": "A shadow",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a soft, luminous reflection in water that mirrors the journey of a traveler, symbolizing the trace of life's experiences."
+          },
+          {
+            "abstract_meaning": "The fluctuating, dynamic, and unpredictable nature of human existence.",
+            "acceptable_visual_variants": [
+              "A glowing, undulating line resembling a wave that winds through a landscape of changing seasons.",
+              "A stylized ocean wave where the crest is bright and the trough is dark, symbolizing ups and downs."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L13",
+            "literal_meaning": "This physical wave of water belonging to life",
+            "literalization_risk": "An illustrator might draw a literal wave made of water with people or objects floating in it, which misses the abstract concept of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "rising and falling",
+                "continuous movement",
+                "unpredictability"
+              ],
+              "vehicle_concept": "water wave"
+            },
+            "source_span_original": "जीवन की इस लहर",
+            "source_span_translation": "wave of life",
+            "source_term": "जीवन की इस लहर",
+            "tenor": "Human life and its fluctuations",
+            "vehicle": "A wave (water wave)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, flowing path or wave-like ribbon that transitions through different phases of light and shadow, representing life's journey."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'जीवन की परछाई' (the shadow/reflection of life) as 'the shadow of life’s fountains' introduces the word 'fountains' which is completely absent in the original Hindi text, solely to create a rhyme with 'mountains'.",
+            "where": "L11"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'अपने सपनों को साकार करें' (make our dreams a reality/give shape to our dreams) as 'let our dreams abide' alters the active, constructive meaning of 'साकार करें' (to realize/manifest) to a passive state of remaining or dwelling ('abide') to force a rhyme with 'tide'.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Life is a continuous wave of joy and sorrow that must be navigated with resilience and shared hope."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जीवन की लहर\n\nजीवन की लहर, उठती और गिरती,\nहर पल की कहानी, कुछ हंसती, कुछ रोती।\nसपनों की गोद में, जो आशा है बसी,\nहर लहर में छिपी, एक नई दिशा है मिली।\n\nखुशियों की मुस्कान, ग़मों की छांव,\nहर लहर में बहे, सुख-दुख की दांव।\nजिंदगी की इस खेल में, हिम्मत ना हारो,\nहर लहर में छिपा, नया अवसर है पाओ।\n\nसमुद्र की गहराई, पहाड़ों की ऊंचाई,\nहर लहर के संग, बहे जीवन की परछाई।\nचलो संग संग बढ़ते, हर लहर को पार करें,\nजीवन की इस लहर में, अपने सपनों को साकार करें।",
+  "poem_id": "MV++_0236",
+  "poem_title": "Jivan Ki Lahar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6f71ac73f457159ae9198418d023097eaecdf6fb44d8eafc8ebfa287f7aa3340",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0236.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Wave of Life\n\nThe wave of life rises and falls,\nEach moment's tale, some laugh, some weep.\nIn the lap of dreams, where hope resides,\nWithin each wave, a new direction hides.\n\nThe smile of joy, the shade of sorrow,\nFlowing in every wave, the gamble of tomorrow.\nIn this game of life, do not lose heart,\nIn every wave, a new opportunity to start.\n\nThe depths of the ocean, the heights of mountains,\nWith each wave flows, the shadow of life’s fountains.\nLet us rise together, crossing every tide,\nIn the wave of life, let our dreams abide.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:02:57.879211+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4a183c83cea24722891a8a103b5fe5921351efd4016a85c80955ff1d7a24cb21",
+        "response_hash": "91c7ca8922971bfeb3270097e535212e7c3ddcb602839561dbc3c559e5a7ce3f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3b6cf58fc09dd99212f283ffb6d64a783d3ee2b965fa1d5b46573785e48a2498",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2fa37b1754308ed777726db4d03dd21cbd940f86f3393ba60bbf283cbc6efd8e",
+        "response_hash": "1d441ef2e86c297c07418232d4656825cec2b90a62dded6c7187399f1ac270bd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3a62eff97b7bd97ef1bc890f90940c74e8dace571a77107f6318759f3ab740c5",
+        "response_hash": "af64ca691a212f5aee426fa1df5e3a4bb058a5413fc75ceaa215a7f0ddbff1e6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2cb2c866105e8f587573c5679422262114a11bcc33f381275e4fcee58d5fbc45",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0a8337125aa9ad0fcf670aabde5d0076b3077d45fbd33c1d5eee8456b2f338d1",
+    "translation_sha256": "a6b8c1990a90b1c1a782c79fc58611a27d131e9265246808a61d41110b7bb8b8"
+  }
+}

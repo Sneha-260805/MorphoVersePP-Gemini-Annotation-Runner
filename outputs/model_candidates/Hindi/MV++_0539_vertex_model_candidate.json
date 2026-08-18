@@ -1,0 +1,242 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet isolation to contemplative uncertainty",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic repetition of 'dheere-dheere' (slowly) and the colloquial flow of 'udhar se udhar' (from here to there) lose some of their soft, repetitive Hindi poetic texture.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker attributes human-like silence and a lack of social awareness to a mechanical fan, drawing a parallel between the fan's physical state and the speaker's own social isolation or emotional detachment.",
+            "acceptable_visual_variants": [
+              "A person sitting on a chair looking up at a ceiling fan in a dimly lit room",
+              "A close-up of a ceiling fan spinning slowly with a person's silhouette visible in the background"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "Both the fan and the speaker are silent, and neither of them knows any other person.",
+            "literalization_risk": "An illustrator might draw a fan with a literal human face, eyes, or mouth to show it 'not knowing' or being 'silent', which would look cartoonish and ruin the poem's quiet, reflective mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "mechanical stillness and lack of interaction",
+              "transferred_attributes": [
+                "silence",
+                "not knowing anyone"
+              ],
+              "vehicle_concept": "human silence and social isolation"
+            },
+            "source_span_original": "दोनों चुप हैं, दोनो किसी को नहीं जानते।",
+            "source_span_translation": "Both silent, neither knowing anyone.",
+            "source_term": "दोनों चुप हैं, दोनो किसी को नहीं जानते।",
+            "tenor": "The mechanical, non-communicative state of the ceiling fan",
+            "vehicle": "A silent, unacquainted human companion",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person sitting quietly in a room beneath a simple, slowly rotating ceiling fan, emphasizing the empty space and quiet atmosphere without adding cartoonish human features to the fan."
+          },
+          {
+            "abstract_meaning": "The physical rotation of the fan is mapped onto the speaker's aimless, repetitive thoughts or physical pacing, suggesting a shared state of monotonous, circular existence.",
+            "acceptable_visual_variants": [
+              "A split composition showing the fan blades on one side and the thoughtful face of the speaker on the other",
+              "A single shot of a room where the shadows of the fan blades sweep slowly across the speaker's face"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "We just keep rotating or wandering around slowly.",
+            "literalization_risk": "Showing the human speaker physically spinning in circles like a fan would look absurd and literalize the shared verb 'turning' (घूमते).",
+            "metaphor_mapping": {
+              "tenor_concept": "repetitive mental or physical wandering",
+              "transferred_attributes": [
+                "slow speed",
+                "repetitive circular motion",
+                "aimlessness"
+              ],
+              "vehicle_concept": "circular mechanical rotation"
+            },
+            "source_span_original": "बस घूमते रहते हैं धीरे-धीरे,",
+            "source_span_translation": "We just keep turning slowly,",
+            "source_term": "बस घूमते रहते हैं धीरे-धीरे,",
+            "tenor": "The repetitive, aimless thoughts or movements of the speaker",
+            "vehicle": "The physical, circular rotation of a fan's blades",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the fan's blades blurred from slow motion, while the person is shown in a pensive, static posture, capturing the internal 'turning' of thoughts through mood and lighting."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation uses 'turning' for 'घूमते रहते हैं' (ghoomte rahte hain), which collapses the dual meaning of physical rotation (for the fan) and wandering/roaming around aimlessly (for the human speaker) into a single physical motion.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'sochta hoon' as 'I sit quietly and wonder' adds 'sit' which is not explicitly in the Hindi text ('chupchaap sochta hoon' means 'quietly think/wonder'), though it faithfully preserves the overall reflective mood.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The chaotic, restless, and unsettled state of the speaker's mind is described as a physical churning or turbulent upheaval.",
+            "acceptable_visual_variants": [
+              "A person sitting with their head resting in their hands under a fan",
+              "A shadow of the spinning fan cast unevenly across a wall, mirroring the internal restlessness"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The physical tossing and turning or upheaval of the mind.",
+            "literalization_risk": "An illustrator might literally draw a brain or head cracking open with stormy waves or debris flying out, which is too graphic and misses the quiet, internal nature of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental anxiety and restlessness",
+              "transferred_attributes": [
+                "chaos",
+                "restlessness",
+                "lack of stability"
+              ],
+              "vehicle_concept": "physical upheaval or churning"
+            },
+            "source_span_original": "मन की उथल-पुथल",
+            "source_span_translation": "turmoil of the mind",
+            "source_term": "मन की उथल-पुथल",
+            "tenor": "Anxious, chaotic, and unsettled thoughts",
+            "vehicle": "A turbulent, churning physical mass or stormy water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use moody, soft-focus lighting, shadows, or a slightly cluttered room background to suggest internal restlessness, keeping the speaker's physical form calm."
+          },
+          {
+            "abstract_meaning": "The physical direction of the fan's rotation or breeze is used to represent the correct path, decision, or moral direction in the speaker's life.",
+            "acceptable_visual_variants": [
+              "The speaker looking slightly away from the fan toward a window, suggesting looking for a way out or a path forward",
+              "A quiet, minimalist composition focusing on the speaker's upward gaze toward the fan"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L8",
+            "literal_meaning": "The correct physical compass direction or orientation of movement.",
+            "literalization_risk": "Drawing literal compass arrows or road signs pointing in different directions around the fan would make the subtle philosophical question look like a literal navigation problem.",
+            "metaphor_mapping": {
+              "tenor_concept": "life choices and mental clarity",
+              "transferred_attributes": [
+                "correctness",
+                "guidance",
+                "orientation"
+              ],
+              "vehicle_concept": "physical spatial direction"
+            },
+            "source_span_original": "सही दिशा",
+            "source_span_translation": "right direction",
+            "source_term": "सही दिशा",
+            "tenor": "The correct life path, decision, or mental clarity",
+            "vehicle": "The physical direction of a fan's rotation or air current",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the speaker looking up at the fan with a questioning, contemplative expression, letting the light and shadow suggest a moment of hesitation or decision-making."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'me' ('calms me') which is not explicitly present in the Hindi text 'शांत करता है' (shaant karta hai), slightly reducing the abstract, shared state of calming that could apply to the environment or the mind generally.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'सोचता हूँ' (sochta hoon) as 'sit quietly and wonder', adding the physical posture 'sit' which is not in the original Hindi verb 'सोचना' (to think).",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The parallel, silent existence of a human and a mechanical fan, reflecting shared aimless movement and internal search for direction."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक पंखा और मैं,  \nदोनों चुप हैं, दोनो किसी को नहीं जानते।  \nबस घूमते रहते हैं धीरे-धीरे,  \nउधर से उधर, कभी एक ओर, कभी दूसरी ओर।\n\nमन की उथल-पुथल में,  \nपंखे का झोंका शांत करता है,  \nपर मैं चुपचाप सोचता हूँ,  \nक्या वही सही दिशा है?",
+  "poem_id": "MV++_0539",
+  "poem_title": "Ek Pankha Aur Main",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "42beb15f412ea8856408e9d2c46c024cdac8c895ed763c85317cac0fb00adafa",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0539.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A fan and I,  \nBoth silent, neither knowing anyone.  \nWe just keep turning slowly,  \nFrom here to there, sometimes one way, sometimes the other.\n\nIn the turmoil of the mind,  \nThe fan’s breeze calms me,  \nBut I sit quietly and wonder,  \nIs that the right direction?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:36:28.745507+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "23ecc26ff97c9b620fdd77235b2da66bb95d0d9b5c8ea49c2babf3df1c207430",
+        "response_hash": "65bcb06663e2c247dc56e8a5ece370c06a764a0293dc5c2962e11f5cb9797afc"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b312927f42cd3efa41a86c113793359f74e357dd3a35248c955695a7b798fc8a",
+        "response_hash": "15bf2e830719ef178f8a2be935939cb28934311ba326961ea95f05b7f3ddb7f2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aea23fe2b33cb59092ef7188724b6a1865da1de1ac20d1b7f2e0f516e74162cf",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "529fd664d222c67e1b1cc007fe119feccafe21c333d2ccfca4a719f52feb3613",
+        "response_hash": "17a0477080744fdb2f602a5dedf055c8d5694fd35bc52be0af116b9c16078dda",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d7b6d5a0711cc483ace0acad14d43efb2b5511f2ded0c9676509f4a7d3204ea2",
+        "response_hash": "1bee1ea8a11e059c9887888d92e19b9620f1b8dbbc9d0e557b311f46e4dff22d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f817227ef8bdfeb6ae0f6477b14519d0bd6201d590c964b266caba67904d5a2d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f3e0ae2139a17ed47f46fa60cb5bdd221b3ee809b22045a6dc7f5e1f6271097c",
+    "translation_sha256": "ce1e25c7f4423e03bc58b49748641273b4e2cd856b751f96971947fcba810493"
+  }
+}

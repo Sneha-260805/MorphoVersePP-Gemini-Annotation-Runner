@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet, persistent sense of longing and incompleteness that remains unresolved from beginning to end.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The pervasive, lingering, and inescapable presence of loneliness in an empty space.",
+            "acceptable_visual_variants": [
+              "A bare, textured wall with a long, soft shadow stretching across it from an unseen object.",
+              "An empty corner of a room where the play of light and deep shadow creates a sense of quiet isolation."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The shadow of loneliness",
+            "literalization_risk": "An illustrator might draw a literal dark silhouette or ghost-like figure on the wall, which could look like a horror scene or a literal person rather than representing the abstract feeling of isolation.",
+            "metaphor_mapping": {
+              "tenor_concept": "solitude",
+              "transferred_attributes": [
+                "darkness",
+                "lingering presence",
+                "clinging to walls",
+                "intangibility"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "तन्हाई का साया",
+            "source_span_translation": "Shadows of solitude",
+            "source_term": "तन्हाई का साया",
+            "tenor": "the feeling of loneliness or solitude",
+            "vehicle": "a shadow cast on a wall",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stark, empty room with long, dramatic shadows cast by bare walls under a single light source, emphasizing emptiness and solitude without drawing a literal human silhouette."
+          },
+          {
+            "abstract_meaning": "At every transition, decision point, or new phase of life's journey.",
+            "acceptable_visual_variants": [
+              "A winding stone path disappearing behind a wall or hill.",
+              "A sharp turn in an empty, quiet hallway with light spilling from around the corner."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "At every physical bend or turn in a path",
+            "literalization_risk": "Showing a literal winding road or street corner might make the scene look like a simple landscape or traffic scene, losing the emotional weight of life's unfinished stories.",
+            "metaphor_mapping": {
+              "tenor_concept": "life transition",
+              "transferred_attributes": [
+                "change of direction",
+                "uncertainty of what lies ahead",
+                "progression"
+              ],
+              "vehicle_concept": "road turn"
+            },
+            "source_span_original": "हर मोड़ पर",
+            "source_span_translation": "At every turn",
+            "source_term": "हर मोड़ पर",
+            "tenor": "a new phase, choice, or transition in life",
+            "vehicle": "a bend or turn in a road",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a path or corridor that bends sharply out of sight, with the lighting changing beyond the bend to suggest transition and the unknown."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces the verb 'meet' ('Shadows of solitude meet') to create a rhyme with 'incomplete', which is not present in the original Hindi text. The original simply states 'tanhai ka saaya hai' (there is a shadow of solitude).",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the verb 'unfolds' ('a tale unfolds') to maintain the English poetic meter, whereas the original Hindi 'har mod par ek kahani' simply states 'at every turn, a story/tale' without an explicit verb of unfolding.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The perpetual, unfinished nature of human quests and stories amidst isolation."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a non-empty loss_note is expected when translation loss is documented. Under the schema rules, translation_quality should be 'partial' if there is notable translation loss, or the loss_note should explain the discrepancy.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "खोज,  \nजो अधूरी रह गई।  \nहर खड़ी दीवार पर,  \nतन्हाई का साया है।  \nहर मोड़ पर एक कहानी,  \nजो अधूरी रह गई।  \nखोज,  \nजो अधूरी रह गई।",
+  "poem_id": "MV++_0458",
+  "poem_title": "Khoj",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "517dbe4768080ca822e12d7189a6332f7e329f3f9427ec56ebb7b1739980c697",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0458.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The quest,  \nThat remains incomplete.  \nOn every standing wall,  \nShadows of solitude meet.  \nAt every turn, a tale unfolds,  \nThat remains incomplete.  \nThe quest,  \nThat remains incomplete.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:26:29.431603+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2002bf30bb0ebbaa0770391d7cf25a0990bd72cb2bc5e2608d962440864e202d",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "413211281f92f6b29206b3e6561425f27fa16fa86bfc193e1fbc442c6d96839a",
+        "response_hash": "c83a4889029d18e111d1587b72a5b6f5b0808956aef34125168c32a42318d0eb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4f35a9d8a63faee3e22f4f236fb9181af21139a4409d73bed9f0f04173f6d0fd",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8512e55202f0d0916f0eb02a200f8e7f0efe31a49f965c6609a714b174b0681",
+        "response_hash": "02e777c0c75a73eca8ff927ee77cf9e928854c96d1ffc06c0c2522812522552a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6d9c7b3f0496223cb510a3803e681e10dea43c92f265bdfa44f1877c71bafa50",
+        "response_hash": "33f9d70f210c8ae4de0c8e012d4d6f5a0e95bb19bf2c67f840b12d1c9a2497d1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "387540f34660ffc3a6d4389daa25a0176c45659f856d40682d8ad628048000a9",
+        "response_hash": "982ceb3176f7e2fb965eefcf230a7ec7c830b4edbff716d5f305105808413203",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "61e276ac5ab85c53527b6fb0460b26084184a70514b4ed08f486f6a19a29b3d2",
+    "translation_sha256": "1184b419c1506552f6c67a19b869d382312f7b5d3c142864c3b89d853690073b"
+  }
+}

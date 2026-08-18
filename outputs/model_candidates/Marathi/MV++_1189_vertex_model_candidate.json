@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet reverence and longing for a mother's enduring presence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The boundary or threshold of existence, suggesting a state of being near the end of life or observing life from a stable, quiet margin.",
+            "acceptable_visual_variants": [
+              "An elderly woman sitting on a simple wooden bench at the edge of a misty, soft horizon",
+              "A mother sitting on a stone step that overlooks a vast, quiet expanse of light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "On the shore/bank of life",
+            "literalization_risk": "Depicting a literal riverbank with a woman sitting on it might lose the abstract, existential quality of her presence at the boundary of life.",
+            "metaphor_mapping": {
+              "tenor_concept": "existential boundary of life",
+              "transferred_attributes": [
+                "being at the margin",
+                "observing from a stable edge",
+                "closeness to a transition"
+              ],
+              "vehicle_concept": "riverbank or shore"
+            },
+            "source_span_original": "जीवनाच्या काठावर",
+            "source_span_translation": "At the edge of life",
+            "source_term": "जीवनाच्या काठावर",
+            "tenor": "The temporal or existential boundary of a person's life",
+            "vehicle": "A physical shore or bank of a body of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict an elderly mother sitting upright on a subtle, glowing or misty threshold that transitions from a structured space into an open, vast background."
+          },
+          {
+            "abstract_meaning": "The deepest, most foundational part of the speaker's subconscious mind or inner thoughts.",
+            "acceptable_visual_variants": [
+              "A mother standing in a deep, dark blue space with soft starlight or floating glowing particles around her feet",
+              "A silhouette of a mother standing at the base of a soft, surreal landscape of shifting colors representing a dream state"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "At the bottom of dreams",
+            "literalization_risk": "Showing a woman standing underwater at the bottom of a literal sea would look like a drowning scene, which completely misrepresents the emotional and psychological depth of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "the deepest layer of subconscious memory",
+              "transferred_attributes": [
+                "depth",
+                "foundational presence",
+                "submerged or hidden nature"
+              ],
+              "vehicle_concept": "the deep bottom of a body of water"
+            },
+            "source_span_original": "स्वप्नांच्या तळाशी",
+            "source_span_translation": "At the depths\nOf my dreams",
+            "source_term": "स्वप्नांच्या तळाशी",
+            "tenor": "The deepest level of the subconscious mind where memories of the mother persist",
+            "vehicle": "The deep floor or bottom of a body of water or abyss",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a surreal, dreamlike space where a mother's figure stands grounded in a soft, deep blue or dark background, with faint, floating dream-like imagery or light around her."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation rearranges the original line order, shifting the spatial and temporal flow of the Marathi text where 'Every day' (दररोज) and 'my' (माझ्या) lead directly into 'dreams' (स्वप्नांच्या) in a tightly bound syntactic structure.",
+            "where": "L4-L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Marathi perfect participle 'बसलेली' (basaleli - having sat / seated) carries a continuous state of being seated, which is rendered as a simple present participle 'Sitting' in English, slightly flattening the aspectual nuance of her enduring posture.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring, quiet presence of a mother who anchors the speaker's life and dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a loss_note should ideally accompany any non-faithful aspects, or translation_quality should be 'partial' if there are notable structural and aspectual losses. However, since the losses are of 'low' severity, this is a minor structural inconsistency.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Marathi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "माझी आई  \nजीवनाच्या काठावर  \nताठ बसलेली,  \nदररोज माझ्या  \nस्वप्नांच्या तळाशी  \nती उभी आहे.",
+  "poem_id": "MV++_1189",
+  "poem_title": "Majhi Aai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "08a2d45171f77c78f0eafd9363306782038f23a6d3d2b704d882518ab4db636b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Marathi/MV++_1189.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My mother,  \nSitting upright  \nAt the edge of life,  \nEvery day she stands  \nAt the depths  \nOf my dreams.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:07:04.168631+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cc787b931a89dbdf107b97bb6eb99c5d1fb4098030b860106c614e14dc946a52",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "23d0f65cbd7a6966b56c792658f62e75d8f004a327dd08f40ac7a4c1d57d021a",
+        "response_hash": "c5a0f9c4a02272a8c7e5dc0b1a0bb2b6b15475b265adc5269b2bbcb588f1c3cb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "af0b3171f4f457a409585b2eb192f9fb8fb8b5b1e555c3f83687736ace551f4a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ce45d37ca9794c76e33bef1fb477b6e414e305c0f4e4b7a643bea0fe00a5a3a",
+        "response_hash": "80a4849eff05fafae8e80eb28c5d58d9d7110ce75d5cb5af37062e84e89b9ee6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "47f09fabb1d85e753b73adc67c5257ca4b38aebe4cdd3890378569d3f8da7977",
+        "response_hash": "42b2e75a1c83ba720cf2779bd844d9a0692e8a3812150dd011c973c951800c95",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d3332a94926a319df4ebfa2663ce58864d7e41395b800940dbbf7f4f732963c0",
+        "response_hash": "1e5a8d22fa260764478d325f5c625b20f424640c333503e46afbbbf6ec159366",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3e62ac12b1dd7747f2ed177d3e19fa2f6e7b9528a30dc7fce22aaf3682281e9c",
+    "translation_sha256": "14792281283c7853c0a3f2103c7683f9adfdc2b48282f8a063bfdb7872c603b3"
+  }
+}

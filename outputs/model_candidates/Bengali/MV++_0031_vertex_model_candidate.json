@@ -1,0 +1,168 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet wonder and appreciation of artificial beauty",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the poetic pronoun 'mor' (my) carries a slightly more literary, tender tone than the standard 'amar' which is flattened to 'my' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An artificial, delicate, or fragile creation that mimics natural beauty but lacks life, representing a manufactured or preserved sentiment.",
+            "acceptable_visual_variants": [
+              "A delicate origami flower held in a hand",
+              "A colorful, hand-cut paper blossom resting on a surface"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A flower crafted out of paper",
+            "literalization_risk": "An illustrator might draw a generic garden flower instead of showing the distinct folds, textures, and artificial nature of paper.",
+            "metaphor_mapping": {
+              "tenor_concept": "artificial or fragile beauty",
+              "transferred_attributes": [
+                "delicate",
+                "beautiful but lifeless",
+                "man-made"
+              ],
+              "vehicle_concept": "paper flower"
+            },
+            "source_span_original": "কাগজের ফুল",
+            "source_span_translation": "paper flower",
+            "source_term": "কাগজের ফুল",
+            "tenor": "An artificial or delicate beauty that mimics life but is static",
+            "vehicle": "A handmade flower made of paper",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a clearly crafted, folded paper flower with visible paper textures or origami-like creases."
+          },
+          {
+            "abstract_meaning": "An ethereal, fleeting, or idealized quality that feels surreal or perfect, much like a dream.",
+            "acceptable_visual_variants": [
+              "A soft-focus, glowing background behind the flower",
+              "A gentle mist or light rays surrounding the paper flower"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Similar to a dream",
+            "literalization_risk": "A literal rendering might show a sleeping person dreaming, which distracts from the waking appreciation of the flower's beauty.",
+            "metaphor_mapping": {
+              "tenor_concept": "ethereal beauty",
+              "transferred_attributes": [
+                "surreal",
+                "idealized",
+                "fleeting"
+              ],
+              "vehicle_concept": "dream"
+            },
+            "source_span_original": "স্বপ্নের মতো",
+            "source_span_translation": "Like a dream",
+            "source_term": "স্বপ্নের মতো",
+            "tenor": "The beauty and presence of the paper flower in the speaker's heart",
+            "vehicle": "A dream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Surround the paper flower with a soft, glowing, or slightly blurred aura to suggest a surreal, dreamlike quality."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses the standard 'my heart' for 'মোর মনের গভীরে' (mor moner gobhire), which loses the specific poetic pronoun 'মোর' (mor, a literary/archaic form of 'my') and the distinct psychological/emotional nuance of 'মন' (mon, mind/soul/heart) as separate from the physical heart.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding deep, dreamlike beauty in a simple, artificial paper flower"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Bengali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "কাগজের ফুল\nকাগজের ফুল, তবুও\nএমন সুন্দর, মনে হয়।\nএটি স্বপ্নের মতো,\nমোর মনের গভীরে।",
+  "poem_id": "MV++_0031",
+  "poem_title": "Kagojer Phool",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "bf92db8e5e1a3d5ab6d42fb3213ff0764d7fa6c17a854a3cc55fcf1450bbc6bf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bengali/MV++_0031.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Paper Flower\nA paper flower, yet\nSo beautiful, it seems.\nLike a dream,\nDeep in my heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:39:40.836399+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0f250bf0444c76887861e3988c3e6b2ac04abb3163319c2acacc96cb33e243f1",
+        "response_hash": "d3335f4a305435f5f52833c464b1ee720e806fe08d2c4bb5583c03cf5c61ad15"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a4b8f58adfd7191f073ba3c996b40827e16ad4f5fe8bb4aaa966bbfcf4f26ec5",
+        "response_hash": "bad14265a95bc3d4146da3d2ffa6ef91593f964e8491e3e62ff2e5fca6fc5f1f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d5058d8aedc71eabec242a277e8b60a4c8281f0bc5feddc504370672923f6eef",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5cc525ae48111a5b20fe08ba829d04f717ccfe74ae005a36519d330f8bba62b8",
+        "response_hash": "a4fe5b16b078e229dcddfd116b64ad00ce6bd13a27ec78caddea597bd703ef82",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e2a013e508be9e81b55cd381a11a1520e1961b1f9e5bea9877d888cb1afe164",
+        "response_hash": "65a2f9700f1111462a01579d98915625946e6182e01aaa4f30767ea9cb2464f1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be9d436c9d5bd7a48fa4c77c37ad78508b2dca590420755c356e157ae7dfd118",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2f47a3a270555876581698f1641eccad83fd0caaaf4f0c9c99d7ca54d632e1a7",
+    "translation_sha256": "9fcf2a0b24eb3691a6a2118d1d56c14d5149e032bbb7388c702f6c358abcdcc0"
+  }
+}

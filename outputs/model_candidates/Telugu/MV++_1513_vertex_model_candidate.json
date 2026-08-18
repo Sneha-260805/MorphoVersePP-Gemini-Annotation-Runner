@@ -1,0 +1,170 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional poetic address or makutam (signature) meaning 'O person of good intellect' or 'wise one', characteristic of the classical Telugu Sumati Satakam moral verses.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "The term is preserved as a direct address in the translation. It is a classic makutam (signature/refrain) of the Sumati Satakam, meaning 'one with good intellect' or 'wise person'.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "cautionary reflection on power and humility",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning and the moral lesson, but loses the specific poetic meter (Kanda padyam) and the traditional vocative address 'Sumathi' which carries cultural weight as a marker of moral instruction literature in Telugu.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Even the most powerful and arrogant oppressor can be overcome and defeated by the collective effort of many small, seemingly weak individuals.",
+            "acceptable_visual_variants": [
+              "A stylized, traditional Indian folk-art style illustration showing a giant snake surrounded by a network of tiny ants.",
+              "A symbolic representation of a crown or throne being dismantled by tiny, simple hands."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L3-L4",
+            "literal_meaning": "A strong snake gets trapped and killed by tiny cold-ants.",
+            "literalization_risk": "An illustrator might draw a literal biological scene of ants attacking a snake, which misses the moral lesson about human power dynamics and arrogance.",
+            "metaphor_mapping": {
+              "tenor_concept": "arrogant tyrant defeated by the weak",
+              "transferred_attributes": [
+                "physical strength rendered useless by overwhelming numbers",
+                "smallness overcoming greatness through unity"
+              ],
+              "vehicle_concept": "serpent defeated by ants"
+            },
+            "source_span_original": "బలవంతమైన సర్పము\nచలిచీమల చేతcజిక్కి చావదె",
+            "source_span_translation": "A powerful serpent\nCan still be trapped and killed by tiny ants",
+            "source_term": "బలవంతమైన సర్పము\nచలిచీమల చేతcజిక్కి చావదె",
+            "tenor": "An arrogant, powerful person being defeated by the collective power of many weak people they oppressed.",
+            "vehicle": "A powerful snake being swarmed, trapped, and killed by a large group of tiny ants.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split-screen or a symbolic juxtaposition: on one side, a massive, coiled serpent being swarmed by tiny ants; on the other side, a wealthy or powerful figure looking defeated as a unified crowd of ordinary people stands together."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific poetic meter (Kanda padyam) and the traditional moral address 'Sumathi' (meaning 'one with good intellect'), which functions as a formal signature (makutam) of the Sumathi Shatakam, are flattened into a generic vocative.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The word 'chalicheemalu' specifically refers to 'cool ants' or 'shivering ants' (often associated with tiny black ants that move in swarms), which is translated simply as 'tiny ants', losing the sensory and regional specificity of the Telugu term.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The vulnerability of the powerful when facing the collective strength of the small"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].category",
+      "issue": "The term 'సుమతీ' (Sumathi) is categorized as 'DEVOTIONAL_CONCEPT', but the gloss and translation notes correctly identify it as a secular moral/ethical address ('one with good intellect') from a didactic/moral text (Sumati Satakam), not a devotional concept. A category like 'SOCIAL_CUSTOM' or a more general classification would be more consistent, or the gloss should clarify any devotional connection if one is claimed.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "బలవంతుcడ నాకేమని  \nబలువురతో నిగ్రహించి పలుకుటమేలా  \nబలవంతమైన సర్పము  \nచలిచీమల చేతcజిక్కి చావదె సుమతీ.",
+  "poem_id": "MV++_1513",
+  "poem_title": "Balavanthudu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "15a40b26bf4b334fc8a685aab727dd877d8b4b1ad8a10a5fff52d6a406be9247",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1513.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What is the strength of the powerful?  \nIs it merely to speak harshly to the weak?  \nA powerful serpent  \nCan still be trapped and killed by tiny ants, oh Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:43:20.352094+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fabb01f8ddb37dc1a5047089f5d3a954eda92ded0b19cd1011d4fbf558278300",
+        "response_hash": "6b623c588b81c1543335322fa3a679cc5011895c5748b86a64a64e1fd4f2b520"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2c4bfd7f3803cbf10d99c42279bf98d6688d805730a6c13ee399dc8a0a63bc88",
+        "response_hash": "54a4999ac274dad607bd24603746a6219ac7f82df6ac81958100985c9e75eb49",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3b648134b0a37c50915d4284ea40b083f51d079811ca7a03da44df394a31863c",
+        "response_hash": "05c6e8a4adcb8db981681cd8c30472a5a12f520c3fdc5095125c4ed21317806b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c8d6dfc89f149680ecc77ac5e5638ac1c45ba80d4702d1769e8a5e4835e52398",
+        "response_hash": "8be0a4b675923c97eb6f4a765bf39976e043eada06dc522800060332949f1c6f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3ef6e0111690346f3e6ef00374421de5edb131e3b9d7df2eaa0c93cb095425de",
+        "response_hash": "217c7ae48e554850b2cd2d358cc55e9801801cb666e030693edbba93bcd38c2d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "35985416411eae95626baec70b7072978ad8f5a58cb7b0aa6a62d79e1a2e3652",
+        "response_hash": "fd249365620bc61a8fb11f6cc72584903eba4db0984db9c7620e74b6cab49792",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b435e44d2297433d61c2a0368cd118f8b02f244449877da6f81f967e14e89b0e",
+    "translation_sha256": "2bb9799842f62e057fca86b9908ce06b3d1dc79d52269c06cd4b0ee4d7d724e5"
+  }
+}

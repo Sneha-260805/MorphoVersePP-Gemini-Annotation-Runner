@@ -1,0 +1,140 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to quiet peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of the final line 'ಪ್ರೀತಿಯಲ್ಲಿ ಸತ್ತರೆಂಬುದು' (literally 'that they died in love' or 'dying in love') as 'That love is the essence of life' alters the literal meaning of 'sattarembudu' (dying/having died) to a more abstract philosophical statement about life's essence.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The inner joy, emotional resonance, and poetic essence of human existence.",
+            "acceptable_visual_variants": [
+              "A stylized silhouette of a person with soft, warm light and faint, elegant musical clefs or waves emanating from the chest area",
+              "A close-up of a peaceful face with abstract, flowing lines of color representing a melody rising from within"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A musical song physically located inside the anatomical heart",
+            "literalization_risk": "Showing a literal musical score or a tiny singer inside a physical human heart organ would look bizarre and miss the emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional resonance in human consciousness",
+              "transferred_attributes": [
+                "melody",
+                "harmony",
+                "internal presence",
+                "emotional expression"
+              ],
+              "vehicle_concept": "song in a physical chamber"
+            },
+            "source_span_original": "ಹೃದಯದಲ್ಲಿ ಹಾಡು",
+            "source_span_translation": "A song in the heart",
+            "source_term": "ಹೃದಯದಲ್ಲಿ ಹಾಡು",
+            "tenor": "the inner emotional essence of a human being",
+            "vehicle": "a song inside the heart",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, warm light or abstract musical notes radiating softly from a person's chest area to symbolize inner harmony."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'That love is the essence of life' completely alters the literal meaning of the Kannada verb 'sattarembudu' (meaning 'that they died' or 'having died'), shifting a poignant, tragic, or self-sacrificing image of dying in love into a generic philosophical statement about life's essence.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Kannada dative construction 'naguvinge' (to/for your smile) is simplified to 'in your smile', losing the grammatical nuance of the smile being the recipient or cause of the hearing.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound nature of human existence as defined by love and inner song"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಮಾನವ, ನೀನು ಏನು?  \nಹೃದಯದಲ್ಲಿ ಹಾಡು,  \nನಿನ್ನ ನಗುವಿಗೆ ಕೇಳಿದೆ,  \nಪ್ರೀತಿಯಲ್ಲಿ ಸತ್ತರೆಂಬುದು.",
+  "poem_id": "MV++_0971",
+  "poem_title": "Manava",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ab043dd24dafcc8d6545c7b47fbe2a3e759c8beefb089560e860b9e30fb0a49a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0971.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Human, what are you?  \nA song in the heart,  \nI have heard in your smile,  \nThat love is the essence of life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:37:53.470722+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c9c9901b152ba384c2205938ecbd76a38d26060f21406b9b88208ae16a5cb0af",
+        "response_hash": "29f49e7842926d65152461059338075b89ce3806f6211e1597aaf82808948ba2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5f3e12447f272d3cc64c74590937c9f3f415fc7a77a9efaf909e8ed501d86fe9",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b4a8aecb7bb7929098b0c9b0ebc920f9df60227947a305f389d7a70cbb7ac5b4",
+        "response_hash": "4f5d59a8e7b10ab85973519e13c441e25ee899c5b926771e7ca90d2104d963b5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1b22dc3d2cd32689d7cfb629ac9eb8897f3d1fd3d905d80d0f73a7782d1e44ae",
+        "response_hash": "a85712aef2cf6c6111ccd4b9f1b7c11ca6f6ade2ffc29c2332e217135698691a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ae4ce0d01240c3e705b383be0c1a5dea8fa53e5ae7b581601d1b7e767c267e59",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6cc46aa6dea4705021ad244f22beea88da73c13411efc20729557fc4d584c151",
+    "translation_sha256": "e054ea4b8f987d57352332359cafcdbedca532ae65fbd77e8a351c10e4110203"
+  }
+}

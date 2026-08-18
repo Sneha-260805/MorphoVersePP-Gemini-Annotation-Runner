@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address meaning 'O person of good intellect' or 'O wise one', characteristic of the classical Telugu Sumati Satakam moral poems. It functions as a structural and moral marker rather than a personal name.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A single reflective observation on the futility of hoarding wealth, which ultimately falls to rulers just as anthills built by ants are occupied by snakes.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation completely misinterprets the core meaning of the classical Sumati Satakam moral verse. It translates 'paamurudu' (ignorant person/fool) as 'nature is concealed', 'hemambu' (gold) 'guda bettina' (hoarded/accumulated) as 'gold is often mislaid', and 'bhumishula pala cheru' (falls into the hands of kings/rulers) as 'the essence of earth remains ever present'. This results in a total loss of the poem's moral and literal meaning.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Just as anthills built by hard-working ants are ultimately occupied by snakes, wealth accumulated by a foolish or miserly person is ultimately taken over by kings or rulers. This is a classic Telugu proverb/analogy illustrating the futility of hoarding wealth.",
+            "acceptable_visual_variants": [
+              "A chest of gold being sealed by a royal guard while a simple laborer looks on in despair",
+              "A snake slithering into a large earthen anthill in a dry landscape"
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1-L2",
+            "literal_meaning": "Just like anthills built by ants become the dwelling places of snakes",
+            "literalization_risk": "An illustrator might literally draw ants and snakes, which misses the human moral about wealth, greed, and rulers.",
+            "metaphor_mapping": {
+              "tenor_concept": "rulers seizing wealth accumulated by misers",
+              "transferred_attributes": [
+                "unearned occupation",
+                "loss of hard work to a stronger power"
+              ],
+              "vehicle_concept": "snakes occupying anthills built by ants"
+            },
+            "source_span_original": "చీమలు పెట్టినా పుట్టలు\nపాముల కిరువైన యట్లు",
+            "source_span_translation": "Even if ants establish a nest,\nLike serpents lurking, their nature is concealed.",
+            "source_term": "చీమలు పెట్టినా పుట్టలు\nపాముల కిరువైన యట్లు",
+            "tenor": "A foolish person accumulating wealth which is then taken by rulers/kings",
+            "vehicle": "Ants building an anthill which is then occupied by snakes",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split scene or a symbolic transition showing a hoard of gold being taken by a royal figure, alongside a subtle natural background of an anthill being approached by a serpent."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the core meaning of the classic Sumati Shatakam moral verse. The original Telugu states that just as anthills built by ants become homes for snakes, wealth accumulated by a foolish person (paamarudu) ultimately ends up in the hands of kings/rulers (bhuumeeshula). The translation misinterprets 'paamarudu' (foolish/ignorant person) and 'bhuumeeshula' (kings/rulers), translating them instead as 'their nature is concealed' and 'essence of earth remains ever present', losing the entire moral analogy of the proverb.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "The futility of hoarding wealth, which inevitably passes to rulers or others, illustrated through the natural metaphor of snakes occupying anthills built by ants."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "చీమలు పెట్టినా పుట్టలు  \nపాముల కిరువైన యట్లు పామరుcడుదగన్  \nహేమంబుcగూడcబెట్టిన  \nభూమీశుల పాలcజేరు భువిలో సుమతీ.",
+  "poem_id": "MV++_1531",
+  "poem_title": "Chimmalu pettina",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b162747bfb37dedd67d47fdc073da85dc1cf93b4ec88985e1ea546baf9309bb4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1531.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Even if ants establish a nest,  \nLike serpents lurking, their nature is concealed.  \nGold is often mislaid,  \nYet the essence of earth remains ever present, Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:45:10.285874+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d42ffa17721b3e4f8abc9e7dce7268a1450043379f6813d99b6cde761c52beb1",
+        "response_hash": "d2c83e6b445dfcfb97f35570cade88ada2a7eacdfb64b2d516622a0aa2f996db",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f2b1742e0ce52200c5ff53cd8d517eebdeb0da2fa2d8f76eb0fa22969a260c94",
+        "response_hash": "bd2b146af585e935ddd180e7a641d9283a84df9d0f9297917d55902926610d3b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "98c736fa96dac650bbad1b71db526ff2f8684466f3c4c54f2756e5f5cb57069e",
+        "response_hash": "d24bf6b5dc948ac0a220214a9f5581473fc8de1d5fb2cdc6b10069f94cec449a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9219e8181f1b85cdfd5f8a0295e6abd082be6e0537fe3fc1b487fb48ab653d69",
+        "response_hash": "897c5f35f4db2fa938ca61bf1ee67a4d4d0e8860a853b3f40cffa17795670b82",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db014eb0a5dfb0288874436338ef750d19ffab25bee37273e72bdec9e55402e1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0eb3e6c5fe175d1285f22ea4d48fb52d58102f65f43ff28b50f325453c42b092",
+    "translation_sha256": "b06b7e107f539de5a465cf7b2b07b3d04cb749cc2db9ef4d6ce999efb36f5095"
+  }
+}

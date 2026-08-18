@@ -1,0 +1,183 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple clay oil lamp (diya) with a cotton wick burning in a dark room.",
+          "An ornate brass or metal oil lamp casting a shadow at its base."
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A highly common Hindi/Hindustani proverb meaning 'darkness beneath the lamp', used to describe situations where a source of light, knowledge, or power fails to benefit its immediate surroundings.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern electric lamp or flashlight.",
+          "A generic candle which does not carry the same cultural weight as a traditional South Asian chirag/diya."
+        ],
+        "preserved": true,
+        "romanization": "chirag tale andhera",
+        "source_span_original": "चिराग तले अंधेरा",
+        "source_span_translation": "darkness beneath the lamp",
+        "stanza_index": 1,
+        "term": "चिराग तले अंधेरा",
+        "translation_note": "The translation renders the literal meaning of the proverb ('darkness beneath the lamp') but loses its idiomatic status as a well-known Hindi proverb about hypocrisy or local neglect.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "An oil lamp (diya or traditional clay/metal chirag) casting light outwards but leaving a distinct dark shadow directly underneath its base."
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A steady, quiet descent into absolute darkness and isolation, moving from a localized shadow to a vast, empty sky.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but loses the idiomatic resonance of the proverb 'Chirag tale andhera' (the lamp's own base is dark), which carries a cultural connotation of irony or hypocrisy where the source of light itself is surrounded by darkness.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The irony that those who guide or provide light to others are themselves in darkness, ignorance, or neglect.",
+            "acceptable_visual_variants": [
+              "A traditional Indian clay diya on a stand with a dark shadow cast directly underneath its base",
+              "A modern street lamp illuminating a wide street but leaving its own pole and base in pitch darkness"
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "There is darkness directly underneath an oil lamp",
+            "literalization_risk": "An illustrator might draw a literal clay lamp with a dark shadow under it, missing the human irony of a helper or leader who is neglected or ignorant.",
+            "metaphor_mapping": {
+              "tenor_concept": "guide or helper suffering from the very lack they cure for others",
+              "transferred_attributes": [
+                "proximity to light yet experiencing darkness",
+                "inability to benefit from one's own light"
+              ],
+              "vehicle_concept": "lamp casting shadow underneath"
+            },
+            "source_span_original": "चिराग तले अंधेरा है",
+            "source_span_translation": "There is darkness beneath the lamp",
+            "source_term": "चिराग तले अंधेरा है",
+            "tenor": "A person, institution, or guide who helps others but remains in ignorance, neglect, or sorrow themselves",
+            "vehicle": "An oil lamp casting a shadow directly beneath its own base while illuminating the surrounding room",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a traditional clay oil lamp (diya) casting a distinct, deep shadow directly beneath its base, while its flame illuminates the background, or metaphorically show a teacher or guide sitting in a dark corner while their students are in the light."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation loses the idiomatic resonance of the well-known Hindi proverb 'Chirag tale andhera' (literally 'darkness beneath the lamp'), which metaphorically refers to a situation where a person or thing that spreads light/knowledge to others remains in ignorance or neglect themselves. The English translation renders it purely literally as 'darkness beneath the lamp'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'andhera' (darkness) as 'shadow' in the second line weakens the repetition of the word 'andhera' (darkness) which appears in both L1 and L2, diminishing the structural and thematic emphasis on absolute darkness.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The pervasive and inescapable nature of darkness, both near and far, leaving no source of hope or light."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The field 'preserved' is set to true, which contradicts 'translation_status' being set to 'PARTIALLY_PRESERVED' and the 'translation_note' stating that the translation loses its idiomatic status. These should be aligned.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[0].source_span_original",
+      "issue": "The source_span_original 'चिराग तले अंधेरा' does not match the exact verbatim substring in the original poem line L1, which is 'चिराग तले अंधेरा है,'. It is missing the verb 'है' and the comma.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चिराग तले अंधेरा है,  \nहर तरफ घना अंधेरा है।  \nदूर कहीं एक चाँद भी नहीं,  \nआसमान में तारे भी नहीं।",
+  "poem_id": "MV++_0701",
+  "poem_title": "Chirag Tale Andhera",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "11e97b50a62c437d4bb8411c840df3309b393b0ffe9c54396f7758388b2dd2bd",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0701.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "There is darkness beneath the lamp,  \nA deep shadow surrounds everywhere.  \nFar away, there is no moon,  \nNot even a star in the sky.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:58:11.652918+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49fd4e3fa478af27c6d248f6eadb6c1b3a97ec311abd763bd6fb5cd280a7ef91",
+        "response_hash": "e188872d1a5016c4f34b8cf0ccb88c72348829eb9082d4b5aae4b3884548551b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "77d93f5868130a5644bebdf71de0904cfd950cdd2bda1fd53bc789bf79844ea3",
+        "response_hash": "3f7fc9d611f4c9af9d2d51b36595ed2fe104272c323334112d169ecef06c279c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6247644b121beeca973d00143ad954b84b36212fa4f578ca28c7883ef1ec5bac",
+        "response_hash": "a27983573a7384cc81c6e1506b25029c0e76c725ebfc70e619d2f488ede78ede",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2ba5163c79878e532320cca83119881232f368bb691efba36d360261dfe12d06",
+        "response_hash": "b863b52eb10c68a31ec4634aa57ab6db10275fb7a46c4afe2af69ec0ef241312",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f247958612717e282fe1c7345d83e3345562c3b9d34dbf399a99502fa08a61e7",
+        "response_hash": "26e5f0b988327a65c2fc7206f7a63e3ada67642577ae43276acf143a410a2888",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e28f19549f3667655c735c063b0113bbedab1f2fa02e91dd2e4e82641338d516",
+        "response_hash": "8c2e51224745dffcc3fc33ea2f74693de911f90e48c4a2b6dfa49d34a0216012",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "635275f03137adf1a95b92034ec12765609fff9017ebf7834d88e19b50097494",
+    "translation_sha256": "f368fd709c8982c8e6a492e4ada544529c81f9aecef9941f9ca8c5f3701d248e"
+  }
+}

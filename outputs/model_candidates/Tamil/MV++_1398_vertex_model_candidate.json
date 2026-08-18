@@ -1,0 +1,140 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to tender hope",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'இளங்கூடும்' (ilangkoodum) as 'ripens' simplifies the complex Tamil imagery of a fresh nest or gathering structure under the rain, losing the physical metaphor of shelter and growth.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mature, sweet, and fully developed state of love.",
+            "acceptable_visual_variants": [
+              "A glowing, ripe fruit cradled gently in two hands",
+              "A beautiful, mature fruit hanging from a branch glistening with fresh rain droplets"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The fruit of love",
+            "literalization_risk": "An illustrator might draw a literal piece of fruit hanging from a heart or a person, which would look bizarre and miss the emotional depth of the love.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "sweetness",
+                "ripeness",
+                "growth",
+                "maturity"
+              ],
+              "vehicle_concept": "fruit"
+            },
+            "source_span_original": "காதலின் கனியும்",
+            "source_span_translation": "The fruit of my love",
+            "source_term": "காதலின் கனியும்",
+            "tenor": "The speaker's love",
+            "vehicle": "A ripe fruit",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lush, growing plant or tree bearing a single, glowing, ripe fruit in a soft, romantic setting, perhaps under gentle rain."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'இளங்கூடும்' (ilangkoodum) as 'ripens', which loses the literal imagery of a young nest or tender gathering ('இளங்கூடு') reacting to the rain, shifting the metaphor entirely to ripening fruit.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative locative case marker '-il' in 'நெஞ்சில்' (nenjil) and 'நினைவுகளில்' (ninaivugalil) is simplified into standard English prepositions ('in the heart', 'in your thoughts'), losing the compact, fused grammatical structure of the original Tamil.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The nurturing of love and memory, ripening like fruit under the rain of thoughts"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "நெஞ்சில் புதியது,  \nஉன் நினைவுகளில் எழுந்தது,  \nஎன் காதலின் கனியும்,  \nமழையால் இளங்கூடும்!",
+  "poem_id": "MV++_1398",
+  "poem_title": "Nenjil Puthu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "21faf4a6b91a372f006eee838db33ac88a277283ddcd4aede8e50b9a69ea53ab",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1398.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "New in the heart,  \nAwoken in your thoughts,  \nThe fruit of my love,  \nRipens with the rain!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:29:25.606110+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f838c41f074f3038a8c1a67586cf8ea16a0046f0b8075433c5df8c4dca9a0441",
+        "response_hash": "64b080cab6f4f817b2a45044520585031b04e6abc6ac363e69559b9b29cfcfb3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0ef00702e528a3fd4a9fe75140982c11c4be2e1cf5147068817c15a3909d2679",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "17b9456fd6e114993463bab9bccb9a282c9c0f96f8204e93d4072ca991fccd4a",
+        "response_hash": "82e049458a4228475f800353060a44a92b99125e1568a71a959e6a32e2f6e4d4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ddc2231308ad6897be8562f210b82a3aecae096ba6b30460c2cd3247038e960a",
+        "response_hash": "83a468d5f376b1f98d9290a63af95f9121fbf2a1c6cf949c2e2c779a15e6f180",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ec9c3c955e9b5521998b7e5adc5a618cd174f0dc2415d76ef8f062bfc2100d52",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3d16701dabf5fdeb67172fd94c825b6a639bdd9242a1aadba9bc8b5ba60fa761",
+    "translation_sha256": "93ac32c64035283fae41bc08c59352214dd1f678107c651e981a3fe8cecbc756"
+  }
+}

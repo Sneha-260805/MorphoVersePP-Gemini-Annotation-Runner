@@ -1,0 +1,185 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and devotion to absolute surrender",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation adds 'and depth' to line 4 to force a rhyme with 'breath', which is not present in the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's entire life, vitality, and existence are dedicated to or dependent on the beloved.",
+            "acceptable_visual_variants": [
+              "A soft, warm light emanating from the speaker's chest",
+              "A gentle, stylized breeze carrying tiny glowing particles towards the beloved"
+            ],
+            "expression_type": "metonymy",
+            "line_ref": "L2",
+            "literal_meaning": "My every physical breath / inhalation and exhalation",
+            "literalization_risk": "Showing physical lungs, windpipes, or literal air molecules being handed over, which looks clinical or bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "essentiality",
+                "continuity",
+                "vitality"
+              ],
+              "vehicle_concept": "breath"
+            },
+            "source_span_original": "मेरी हर सांस",
+            "source_span_translation": "my every breath",
+            "source_term": "मेरी हर सांस",
+            "tenor": "life and existence",
+            "vehicle": "breath",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a subtle, warm glow or a gentle breeze surrounding the speaker, symbolizing the life force or breath of life."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'depth' to the end of the line to force a rhyme with 'breath', which is not present in the original Hindi text ('jeene ki aas' simply means 'hope to live').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation of line 8 introduces the metaphor 'I drown' to rhyme with 'down' and 'found', which is a significant departure from the literal Hindi 'sab hai bekaar' (everything is useless/worthless).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An abundant, sudden, and refreshing outpouring of joy triggered by the beloved's laughter.",
+            "acceptable_visual_variants": [
+              "A shower of golden, sparkling light rays",
+              "A gentle cascade of colorful, stylized flower petals falling from above"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "A shower or downpour of happiness",
+            "literalization_risk": "Depicting literal rain clouds or water droplets falling on a laughing person, which might look like a gloomy storm rather than joy.",
+            "metaphor_mapping": {
+              "tenor_concept": "joy",
+              "transferred_attributes": [
+                "abundance",
+                "refreshment",
+                "suddenness",
+                "delight"
+              ],
+              "vehicle_concept": "rain shower"
+            },
+            "source_span_original": "खुशी की बौछार",
+            "source_span_translation": "joy pours down",
+            "source_term": "खुशी की बौछार",
+            "tenor": "abundant joy",
+            "vehicle": "shower / downpour of rain",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a shower of bright, warm, sparkling light particles or stylized flower petals falling gently around the laughing person."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the phrase 'I drown' to create a rhyme with 'down' and 'found', which is not present in the original Hindi text ('sab hai bekaar' literally translates to 'everything is useless/worthless').",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The complete surrender of one's existence, hope, and joy to the beloved, without whom life is meaningless."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हारे लिए यह सब कुछ,  \nतुम्हारे लिए मेरी हर सांस।  \nतुम्हारे बिना अधूरी है मेरी दुनिया,  \nतुमसे ही है मुझे जीने की आस।  \n\nतुम्हारी हंसी में है खुशी की बौछार,  \nतुम्हारी यादों में बसा है मेरा प्यार।  \nतुम हो तो सब कुछ है,  \nतुम्हारे बिना सब है बेकार।",
+  "poem_id": "MV++_0074",
+  "poem_title": "Tumhare Liye",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cfcf70af9a16fab203ae70ebd13dd9c847730066e045c99176d70dc57a14af81",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0074.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "For you, this is everything,  \nFor you, my every breath.  \nWithout you, my world is incomplete,  \nIt’s you who gives me hope for life and depth.  \n\nIn your laughter, joy pours down,  \nIn your memories, my love is found.  \nWith you, everything exists,  \nWithout you, all is lost, I drown.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:43:51.055089+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b61df01f910171a7c1edb182f31c181141dc90143e81c006bf33b5666764a465",
+        "response_hash": "b3fb9f252704c6ebd3fd2e76f9850b580014e32ba12d4b8de86773adf7217446"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ac417da0cbf3e59f2651af498373b1d3f9098c10c3f573e6df40ed390de37d5",
+        "response_hash": "e3c34df495e09b9b37957c6ed132004e9c74d8e1e51afc003367fa8a0f67504d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "89712e082f2d3142b9a22340cf390c69ffbf599f41433f029472e4f2d49693f8",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a708ebaeb3a3f8c86bbc2fb5a0a000a2cfc8e6c9477d4d301583143ef210117c",
+        "response_hash": "034001907d90ff93182868a76146818a4acbb992dfcfdea9a3997d9dd444e3ca",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "603f768a2a26b91bc9230d462b6f18efff11af061f1e7fb6aac2eb81c1bfdf0d",
+        "response_hash": "670800ecf6a1818372220d5e0d7217729da34df80d081a684def7f6a40a61898",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ce530750315498e0560cbaf4a1dcec294489eabb25a2cfee0152bff0464efd69",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "91915cc66f750b0bfc2d9c2b5a7e952f6ed5a2a713bbc62675fa24a338c49cf6",
+    "translation_sha256": "19ded85ca62f2416ac8d9381bbbba3ef94863e25d4dcf51ce86b5a188c86be0e"
+  }
+}

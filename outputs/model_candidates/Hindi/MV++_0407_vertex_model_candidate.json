@@ -1,0 +1,153 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "grief and regret to quiet realization",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The innermost, most sincere, and private emotional core of a person where true feelings reside.",
+            "acceptable_visual_variants": [
+              "A person sitting in quiet contemplation with a soft light glowing from within their chest.",
+              "A silhouette of a person standing at the edge of a deep, calm, glowing blue pool reflecting stars, symbolizing the inner emotional depths."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the physical depths or deep abysses of the heart organ",
+            "literalization_risk": "An illustrator might literally depict a physical heart with a deep cavern or canyon inside it, which would look like a medical or surreal anatomical drawing rather than conveying emotional sincerity.",
+            "metaphor_mapping": {
+              "tenor_concept": "innermost emotional core",
+              "transferred_attributes": [
+                "depth",
+                "hiddenness",
+                "sincerity",
+                "difficulty of access"
+              ],
+              "vehicle_concept": "deep physical space"
+            },
+            "source_span_original": "दिल की गहराइयों में",
+            "source_span_translation": "In the depths of my heart",
+            "source_term": "दिल की गहराइयों में",
+            "tenor": "The innermost, sincere emotional core of a person",
+            "vehicle": "A deep physical space or abyss (depths)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a reflective, introspective pose with a soft, warm light emanating from their chest, or show a silhouette looking down into a calm, deep, glowing pool of water to represent looking into one's inner depths."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'too' at the end of the line to force a rhyme with 'you', which is not present in the original Hindi text and slightly alters the emphasis of the hidden truth.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces the word 'once' ('What I once told you') which is not explicitly in the Hindi text 'जो तुमसे कहा था' (which simply means 'that which I told you' or 'what was said to you'), adding a temporal distance not necessarily present in the original.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The painful duality of a love that was spoken falsely while a deeper truth remained hidden within."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful' and loss_note is empty, but the stanza contains non-empty translation_loss items detailing specific semantic additions ('too', 'once') in the translation. This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "झूठा है मेरा प्यार,  \nजो तुमसे कहा था।  \nदिल की गहराइयों में,  \nएक सच था छुपा था।",
+  "poem_id": "MV++_0407",
+  "poem_title": "Jhootha Hai Mera Pyar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "8c12a6a3a179cfb0bb40593b4a55654d5b5088b94f7080be84edea691bd75019",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0407.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My love is a lie,  \nWhat I once told you.  \nIn the depths of my heart,  \nA truth was hidden too.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:21:30.135503+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "408076b8cea9d49a290b0bbf6bb4c0ac096e61f50a755d30854e2551926d64a7",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4e56b25231cef20a4b4072bea14373120c86612172f9ce7266b402b33c6aeec5",
+        "response_hash": "bed4674fa4e43d2ec11f5e1420b74689a9b05ce845ebddcd67db2663d701e1c2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c57857b5239bb149216c0ccca7d06a53aa01b3924cb2bc8ceedba2b6a6fe42b4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fcfcc79c5633a9fc43331674d2f83f29eed2630712a34bf296ca94f5885e3909",
+        "response_hash": "bfa63241f772c05eb485ddee61d1ed343c50dfaac6fc4ff6877b092cd1833595",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e977c9cd5cfe9b25ad6332d1ec68907d2020b1406d8c178d1eeb6d378cb98858",
+        "response_hash": "9b1829262116fcd9f1053ed6db34656723a57a2e15bf652c288f058133656c2e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "00cd56896ebe04b6cff7544a1d94038b1017a5bd9624e8b35ef99eaf8ef1d089",
+        "response_hash": "843a8919d7e407cd9c26cc0c567d5a2b9781048eb37f4f9da4843f95d17f343d",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "81e9c30a3aab994b740a5687b9581401126dea40544fcd70eb6fa74bead68b6b",
+    "translation_sha256": "eba91ba8f5406a3399c9e4bc53f61553e5fcf14c4c36ed4a3e3b1b791f73e6ec"
+  }
+}

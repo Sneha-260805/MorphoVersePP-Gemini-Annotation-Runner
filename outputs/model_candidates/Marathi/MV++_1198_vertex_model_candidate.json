@@ -1,0 +1,231 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A scenic view of the Konkan coast with coconut trees and red soil",
+          "A rustic village nestled in the green hills of the coastal Konkan region"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Refers to the Konkan region, a coastal strip of land in western India (primarily Maharashtra) known for its distinct geography, red soil, coconut groves, and cultural identity. Here, it is described as 'gold' to signify its preciousness.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A generic dry North Indian plain or desert landscape",
+          "A modern urban cityscape"
+        ],
+        "preserved": true,
+        "romanization": "Kokanatla",
+        "source_span_original": "कोकणातलं",
+        "source_span_translation": "Konkan",
+        "stanza_index": 1,
+        "term": "कोकणातलं",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Coastal landscape of Maharashtra",
+          "Lush green coconut palms",
+          "Red laterite soil",
+          "Traditional coastal village houses with tiled roofs"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "deep affection and pride for one's native village",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the core meaning, but slightly flattens the specific cultural and physical imagery of 'gaathit' (knots/bonds) into 'embrace', and 'virajman' (seated majestically/enthroned) into 'taken its throne'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The village is deeply loved, cherished, and constantly remembered by the speaker.",
+            "acceptable_visual_variants": [
+              "A person holding their hand over their heart while looking out at a distant village landscape",
+              "A warm glow emanating from a person's chest, revealing a miniature, idyllic village scene within the light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Sitting or residing physically inside my heart",
+            "literalization_risk": "Showing a tiny village physically stuffed inside a human heart organ, which would look grotesque or medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "deep emotional attachment and memory",
+              "transferred_attributes": [
+                "closeness",
+                "preciousness",
+                "centrality"
+              ],
+              "vehicle_concept": "physical residency inside a heart"
+            },
+            "source_span_original": "माझ्या हृदयात बसलेलं",
+            "source_span_translation": "Nestled in my heart",
+            "source_term": "माझ्या हृदयात बसलेलं",
+            "tenor": "The speaker's deep emotional attachment and love for their village",
+            "vehicle": "A physical entity sitting or residing inside a physical heart",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking reflective with a warm, glowing chest area, or a soft, dreamlike silhouette of a coastal village superimposed over their chest."
+          },
+          {
+            "abstract_meaning": "The Konkan region is highly precious, beautiful, and valuable to the speaker.",
+            "acceptable_visual_variants": [
+              "A coastal village landscape with golden sunlight reflecting off the water and fields",
+              "Lush green palms and red soil of Konkan illuminated by a bright golden sun"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The gold of Konkan",
+            "literalization_risk": "Depicting literal gold bars, coins, or mining operations in the Konkan region, which misrepresents the poetic appreciation of nature.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural beauty and preciousness of a region",
+              "transferred_attributes": [
+                "high value",
+                "brightness",
+                "preciousness"
+              ],
+              "vehicle_concept": "gold"
+            },
+            "source_span_original": "कोकणातलं सोनं",
+            "source_span_translation": "The golden land of Konkan",
+            "source_term": "कोकणातलं सोनं",
+            "tenor": "The natural beauty, richness, and value of the Konkan region",
+            "vehicle": "Gold (precious metal)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict the lush Konkan landscape (coconut trees, coastlines) bathed in the warm, golden light of a sunset or sunrise."
+          },
+          {
+            "abstract_meaning": "The village holds a highly respected, prominent, and permanent place of honor in the speaker's life.",
+            "acceptable_visual_variants": [
+              "An elevated, beautiful view of a coastal village looking grand and peaceful",
+              "A village scene framed elegantly like a revered portrait or shrine"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "That village is seated majestically / has taken its throne",
+            "literalization_risk": "Depicting a literal village with houses and roads sitting on top of a physical royal throne, which would look absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "supreme importance and honored status",
+              "transferred_attributes": [
+                "majesty",
+                "honor",
+                "permanence",
+                "authority"
+              ],
+              "vehicle_concept": "royalty/deity seated on a throne"
+            },
+            "source_span_original": "विराजमान झालंय ते गाव",
+            "source_span_translation": "That village has taken its throne",
+            "source_term": "विराजमान झालंय ते गाव",
+            "tenor": "The prominent and honored status of the village in the speaker's mind",
+            "vehicle": "A royal figure or deity seated majestically on a throne",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the village positioned prominently on a high, beautiful hill or elevated landscape, bathed in majestic light, overlooking the surrounding hamlets."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'गाठीत' (gathit) as 'embrace' loses the literal Marathi sense of 'knot' or 'binding together', which evokes a tight-knit, interconnected cluster of small villages.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'कोकणातलं सोनं' as 'The golden land of Konkan' abstracts the literal 'gold of Konkan' (sone), which directly equates the region or its natural beauty to gold itself rather than just describing it as a golden land.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The deep-seated love, pride, and emotional connection to one's native village in the Konkan region."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Marathi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "माझं गाव  \nमाझ्या हृदयात बसलेलं,  \nकोकणातलं सोनं,  \nखेडेगावांच्या गाठीत,  \nविराजमान झालंय ते गाव.",
+  "poem_id": "MV++_1198",
+  "poem_title": "Mazha Gaav",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "234ec7c4afe48b1252668f667765c8911de2838e6b8f91b5f7666acb801e4899",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Marathi/MV++_1198.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My village,  \nNestled in my heart,  \nThe golden land of Konkan,  \nIn the embrace of small hamlets,  \nThat village has taken its throne.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:07:57.665708+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9400f3018c226f25aea01f350dc389a7bcf2e2028c66a991b3620f34638c6c18",
+        "response_hash": "a658468a9ad7b78f17f0470430a5c9e62f1d99111ccf67139d791e0883126e53"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "878740f4a1afbaa1c8074b4d66ed1ddf7c9556e0e8f7443196375abeae7cf105",
+        "response_hash": "33bc18653fbecda6f59786594c78cd82df194ae04e4c41f7ea611b7c929ee5c5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "427e0cbecc207d5caa71092500a0892dce2a2a460ee94b9175b8ef15dec08ad9",
+        "response_hash": "98c9ea9ed659429033f289dfc9c4213bc13894c16cf68016bf083a4fbde03050",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c79394c7bf3c34a51b941689f6876fdaee9922e26e5a8448028e2276f7271650",
+        "response_hash": "a96e4985f439358c61b86c9059dfdef54ea5a1cfd75c7dbf1b34e6bf05f519e4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "01425c7201aae96ffcac040d31e17ff4af966a7198b42238a30886b605bd4dda",
+        "response_hash": "def0f2bf47bf220791a9045d577bcc29f9af1f4d517fdd9d48a4d25df0f4df3c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b9b867b29d97187a85ef47b5f1e2e2038a2bc2aef00b7e9edb712c37681c5ac2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b2cf49c39b692e2f7bfa279a900f027b14bd8aa1e150a931537cff9453f990d0",
+    "translation_sha256": "cd6caf656a50a2986cd81b008e3cd5fbc12f4ac6fdaf8386a7b7cef85be6eb1f"
+  }
+}

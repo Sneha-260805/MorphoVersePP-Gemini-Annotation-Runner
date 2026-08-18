@@ -1,0 +1,218 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The signature makuta (refrain) of the poet Vemana, addressing either a beloved friend, a spiritual preceptor, or the universal creator, characteristic of classical Telugu moral and philosophical poetry.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Viswadabhirama! Vinura Vema!",
+        "source_span_original": "విశ్వదాభిరామ! వినుర వేమ!",
+        "source_span_translation": "Oh, Viswadabhirama! Listen to what I say!",
+        "stanza_index": 4,
+        "term": "విశ్వదాభిరామ! వినుర వేమ!",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "observation of nature to philosophical realization",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The inner virtues of great teachers are hidden beneath an unpretentious or plain exterior, just as the sweet fragrance of musk is hidden inside a dark, unappealing substance.",
+            "acceptable_visual_variants": [
+              "A dark, earthy pod of musk opening to reveal a golden, fragrant mist rising from it.",
+              "A humble, plainly dressed teacher sitting quietly while a warm, luminous glow of wisdom surrounds them."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "The musk of the deer appears dark on the outside when looked at",
+            "literalization_risk": "An illustrator might literally depict a deer or a dark lump of musk, which fails to convey the abstract comparison to a teacher's inner virtues.",
+            "metaphor_mapping": {
+              "tenor_concept": "plain exterior of teachers hiding virtue",
+              "transferred_attributes": [
+                "hidden value",
+                "external-internal contrast"
+              ],
+              "vehicle_concept": "dark musk hiding fragrance"
+            },
+            "source_span_original": "మృగమదంబు చూడ మీఁద నల్లగనుండు",
+            "source_span_translation": "The musk of the deer appears dark on the outside",
+            "source_term": "మృగమదంబు చూడ మీఁద నల్లగనుండు",
+            "tenor": "The plain, unpretentious exterior of great teachers which hides their deep inner virtues",
+            "vehicle": "Dark, unappealing exterior of deer musk which hides a sweet fragrance",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split or dual-layered scene showing a dark, unrefined substance (musk) releasing a glowing, expansive aura of fragrance, juxtaposed with a simple, unadorned teacher radiating wisdom."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The specific term 'mrugamadambu' refers to musk, but literally translates to 'deer-intoxication/secretion', carrying a classical poetic weight that is simplified to 'musk of the deer'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The vibrant verb 'baridhavillu' (to shine, spread, or flourish intensely) is translated as a simpler 'spreads far and wide', losing its classical Telugu poetic resonance.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The informal, intimate, and direct address marker '-ra' in 'leelaaguraa' (this is how it is, my friend/dear) is lost in the formal English translation 'In the same way'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The signature Vemana makutam (refrain) 'Viswadaabhiraama! Vinura Vema!' is translated literally but loses its rhythmic, aphoristic, and historical identity as a classic Telugu moral verse ending.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The true virtues of great teachers are often hidden beneath an unassuming or dark exterior, much like the fragrant musk of a deer."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided. Under the completeness contract, translation_loss should only contain items when translation_quality is not fully faithful, or the loss_note should explain the discrepancy. Here, loss_note is empty while translation_loss is populated.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided while loss_note is empty.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided while loss_note is empty.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[3].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided while loss_note is empty.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "మృగమదంబు చూడ మీఁద నల్లగనుండు\n\nబరిఢవిల్లు దాని పరిమళంబు\n\nగురువులైన వారి గుణము లీలాగురా\n\nవిశ్వదాభిరామ! వినుర వేమ!",
+  "poem_id": "MV++_1480",
+  "poem_title": "Donga Buddi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7f446c73a35419d780376fa61041a6d747fe55c8835ff3012ae7fec38f098104",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1480.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The musk of the deer appears dark on the outside,\nYet its fragrance spreads far and wide.\nIn the same way, the virtues of great teachers may be hidden,\nOh, Viswadabhirama! Listen to what I say!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:39:23.354468+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c63d2532497c12ec2a0ca7a1e76492001c94c1071efda5e7f90b15c27370ab46",
+        "response_hash": "4fd86ce1e2cc07ff0865de91eef529cf01a426a4ff617e2deb71fb88220131ae",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fedca5ed836aca5370ffcb47ab5e50c93d018bab3207ef69ac3a1480704429f6",
+        "response_hash": "0a564bbba0ae25311ef83cdd054c4cdac8fdcf25be10bbe3591a19a1327c427c",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "25b5664a9c4c5d9c80bbcff6361158e9a151822b532140ce768a2b70157ba389",
+        "response_hash": "e11df0f75f32193ac3b3d35175d5290c404ea03990e30452205b2554b1ce753d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "97031075a509325292cb4cd5a7ed9875dc7c90cfbf8d55763442543060470f9f",
+        "response_hash": "a4e33908f761b847f2a4720769aac7ea417dddf18c9982b7335a3a1928bd545f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0dcd7b19b574f35a421229310386bd8bf2054674925c413dbb28e4801ccf0c45",
+        "response_hash": "8a07635ddcdd480a7241f208c40432605843b2613b18ff0154f6f51b88698e7d",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5f8eda0ef001ecbb6bdea5f5f7c3f013933edc7244b535ce60f28790a19fed85",
+    "translation_sha256": "e40948cfd57f1a7aa596506f3eddc152814a51a7872144e0d243c17bdaec9103"
+  }
+}

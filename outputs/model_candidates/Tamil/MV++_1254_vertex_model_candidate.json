@@ -1,0 +1,171 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and deep affection shifting to sorrowful remembrance",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation simplifies the rich, affectionate Tamil terms of endearment (like 'kanne', 'kalimane', 'ponne') and flattens the complex poetic compound 'paalakamuthu' (nectar-like milk/childhood nectar) and the temporal/celestial imagery of 'mathi maalaiye' (moonlit evening) into more generic English equivalents.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A highly precious, beloved, and cherished child.",
+            "acceptable_visual_variants": [
+              "A child bathed in warm, golden sunlight",
+              "A child wearing a simple golden ornament or thread"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "O gold",
+            "literalization_risk": "Depicting a child literally made of solid gold metal, which would look robotic, unnatural, or metallic rather than expressing deep affection.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved child",
+              "transferred_attributes": [
+                "preciousness",
+                "purity",
+                "high value"
+              ],
+              "vehicle_concept": "gold"
+            },
+            "source_span_original": "பொண்ணே",
+            "source_span_translation": "Golden child",
+            "source_term": "பொண்ணே",
+            "tenor": "the beloved child",
+            "vehicle": "gold (precious metal)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a child surrounded by a warm, soft golden glow or warm lighting, emphasizing their preciousness without turning their skin into metal."
+          },
+          {
+            "abstract_meaning": "A source of pure, life-giving happiness and sweet comfort.",
+            "acceptable_visual_variants": [
+              "A mother feeding or holding a child tenderly",
+              "A soft, glowing vessel of light nearby"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "milk-nectar / ambrosia of youth",
+            "literalization_risk": "Depicting literal streams of milk or a magical chalice of glowing liquid, which distracts from the emotional bond.",
+            "metaphor_mapping": {
+              "tenor_concept": "child's comforting presence",
+              "transferred_attributes": [
+                "sweetness",
+                "nourishment",
+                "divine comfort"
+              ],
+              "vehicle_concept": "divine nectar / sweet milk"
+            },
+            "source_span_original": "பாலகமுது",
+            "source_span_translation": "nectar of happiness",
+            "source_term": "பாலகமுது",
+            "tenor": "the sweet, comforting presence of the child",
+            "vehicle": "milk-nectar (amrita)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the sweet, nurturing interaction between the speaker and the child, perhaps with a soft, nourishing light or a gentle, flowing abstract background."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'கண்ணே களிமணே' (Kanne kalimane) as 'O beautiful-eyed girl' loses the specific play on words and terms of endearment. 'கண்ணே' (Kanne) literally means 'my eye' (a common Tamil term of endearment), and 'களிமணே' (kalimane) refers to clay or a joyful gem, which is flattened into a generic description.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'பாலகமுது' (paalakamuthu) as 'nectar of happiness' loses the literal compound meaning of 'childhood nectar' or 'milk-nectar' (paal + amuthu), which evokes maternal/infantile sweetness.",
+            "where": "L3"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely omits the poetic imagery of 'மதி மாலையே' (mathi maalaiye), which refers to the evening moon or a cool evening breeze, losing the celestial and temporal atmosphere of the original line.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The painful contrast between sweet memories of a beloved child and the present grief of separation"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கண்ணே களிமணே, கன்னியே, \nபொண்ணே பொன்னாதக் குழந்தை,\nபாலகமுது சுகம் தரும் மதி மாலையே,\nபறவைகளின் குரல் சொல்லும் மதியம்\nஅன்றென்று நினைவினில் அழுதிருக்கிறேன்.",
+  "poem_id": "MV++_1254",
+  "poem_title": "Kanne Kalaimaane",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e6d25cde6661dd4a6d794d240fc1146d8ab9f45960115b847d74216bd8748770",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1254.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "O beautiful-eyed girl,\nGolden child, beloved one,\nYou are the nectar of happiness,\nYour voice a bird's song in the afternoon\nIn memories past, I weep.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:13:55.074336+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "99d8088df8036d9e7775c5c0cb95c488eed09afc5a4f87e6b060cd4b12e2d1ef",
+        "response_hash": "3d0c6426a56634a6766f253735c927b50b5ba2b664131b4cb4097b8c18bdee11",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0282d8debfa6c5df4fb5fe3aa041dcfac749eb838f54cb3969978f0bb5e33892",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "84b0fdd170bb0eb8f8c59ed7b9a90a6eec660f497cba7ff321f55a6004d13b80",
+        "response_hash": "9e71f06cc41c087a771df1704f3c2453f5a9171ba57d7bf8d6a1da5e86858033",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "80dd120d93a1bae081aabe2570532da89a821a545ee7fe57fe69e73c0cfe49f9",
+        "response_hash": "545ca28e2eace84cc3a09c80ed8dde824c43d50d5e3d84081b22ea94126b1092",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "782967225cf688c1d4bc1fbafa357396b8bd2f166c2a740f07945199a0155350",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "84273aef53803ef46124c9dce5ded13cf9d24b27563576afe4632a55faec0a61",
+    "translation_sha256": "130a5cbba98d9213f0f128a8aa1dad8ea6d53a28c442ced1d08ca30747ee23f2"
+  }
+}

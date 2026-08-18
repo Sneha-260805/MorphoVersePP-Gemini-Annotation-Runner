@@ -1,0 +1,153 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet realization of love and support, moving from the grounding presence of nature to the warmth of affection.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's love is a guiding, warm, and bright presence that illuminates the speaker's life.",
+            "acceptable_visual_variants": [
+              "A soft golden glow surrounding a couple near a tree",
+              "A small, gentle oil lamp (diyas/vilakku) casting a warm light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Flame of love!",
+            "literalization_risk": "Showing a literal fire or burning flame on a person might look like they are on fire or in danger, rather than loved.",
+            "metaphor_mapping": {
+              "tenor_concept": "love / affection",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "guidance",
+                "illumination of darkness"
+              ],
+              "vehicle_concept": "flame / light"
+            },
+            "source_span_original": "காதலின் சுடரே!",
+            "source_span_translation": "The light of affection!",
+            "source_term": "காதலின் சுடரே!",
+            "tenor": "the beloved's love or affection",
+            "vehicle": "a flame or bright light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, soft, glowing light source emanating from a central point or surrounding two figures, symbolizing the warmth of affection."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'காதலின் சுடரே' (kaadhalin sudarae) as 'The light of affection' flattens the specific romantic intensity of 'kaadhal' (romantic love/passion) into a more generic 'affection', and loses the vocative address suffix '-e' which directly addresses the beloved as the flame/light itself.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative genitive case endings in 'மரத்தின்' (marathin - of the tree) and 'அன்பின்' (anbin - of love) are rendered as standard English prepositions, losing the natural rhythmic flow and structural cohesion of the Tamil noun inflections.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The grounding, protective nature of love and companionship, mirrored in the steady presence of a tree."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a detailed loss_note should ideally accompany translation loss when quality is not fully uncompromised, or the quality should be marked as 'partial' to reflect the documented medium and low severity losses.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "மரத்தின் துணை,  \nஉன் அன்பின் ஓரம்,  \nஎன் வாழ்வில் நிறைந்து,  \nகாதலின் சுடரே!",
+  "poem_id": "MV++_1428",
+  "poem_title": "Maramathin Thunai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7ac9503d2e17c10663b73279172feded5ef05b655041317dae71bf0558242bff",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1428.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Support of the tree,  \nThe edge of your love,  \nFilling my life,  \nThe light of affection!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:32:35.178504+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7a7b448fbd02999fc60484d61ec045c55d88371dc8ce2c34d0fd77ffa8511f97",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "699ff6ce1a2906daff2c8f3166b04bc2de60eb87f60cb8a16161a327608f4285",
+        "response_hash": "c9c877559984bb8ddba4db893fcab29b1a6af8fc399dcc28857e09cc38da1ef0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6349f523f6f253ea7af1852d4fc9d9fa4b48b5f89a30b3d867f7d836e9f1f11e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ecefdb06ac170b1c56010bd46b5484c3c370dc711991295a3f3566748d7e9ad3",
+        "response_hash": "27391dfa258237840a59c8b4177e57f0245fc696cc61583dfa3bc4c82f6d0f63",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9ca3988f32e0c374b1a6f5d9762a2ce64f61f959bc9f913dd03ed75a55d94af8",
+        "response_hash": "3b15664ae5e40f0cc408d13399f80b10637a4ccd6ce67933cb0acf01dfe9f58a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a1e6c59a642f11a1e3e655533296d8444dc9de48607b57b59797236d00a2a7dc",
+        "response_hash": "a5e8e1f92c58ab92231b4434d7a8be9cf323a5b1c5f53d92748334204a77b764",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4cd0d7d2a2c7daaf5d85578efe0dc585d6f4ae32524d55ddcdc8817e1acb1bbc",
+    "translation_sha256": "89b54b76d372b43ce63cdb9e9e6a02e66364fb21c257ef0a8325d3303e2281ac"
+  }
+}

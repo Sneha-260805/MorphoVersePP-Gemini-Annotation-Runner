@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A soft breeze swaying green leaves or a person's hair gently",
+          "A warm, soft light suggesting a comforting atmosphere"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The cool, gentle southern breeze, highly celebrated in Tamil literature and culture for its soothing, romantic, and comforting qualities.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A harsh, cold winter wind",
+          "A violent storm or gale"
+        ],
+        "preserved": true,
+        "romanization": "thendral",
+        "source_span_original": "தென்றல்",
+        "source_span_translation": "breeze",
+        "stanza_index": 1,
+        "term": "தென்றல்",
+        "translation_note": "Translated as 'breeze', which captures the literal meaning but loses the specific cultural association of the southern wind in Tamil literature.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A gentle, invisible wind rustling leaves or hair softly",
+          "Warm, comforting atmosphere"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "gentle longing and quiet comfort",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation adds 'within me' to ground the rain metaphor, which is more implicit in the Tamil phrasing 'மழையில் மெல்ல நிறைந்து விட்டது' (softly filled in the rain).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The gentle, comforting, and fleeting arrival of memories of a loved one, which soothe the speaker's inner self just as a passing breeze physically comforts the body.",
+            "acceptable_visual_variants": [
+              "A person standing by an open window with curtains blowing gently inward under soft sunlight",
+              "A person walking through a quiet field where tall grass bends under a gentle breeze"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1-L2",
+            "literal_meaning": "Like the southern breeze coming and embracing my heart/chest before leaving",
+            "literalization_risk": "An illustrator might depict a literal wind-spirit or giant ghostly hands physically wrapping around a human chest, which looks comical or frightening rather than romantic and emotional.",
+            "metaphor_mapping": {
+              "tenor_concept": "memories of a loved one comforting the mind",
+              "transferred_attributes": [
+                "gentleness",
+                "soothing touch",
+                "fleeting but deeply felt presence"
+              ],
+              "vehicle_concept": "a passing gentle breeze embracing the body"
+            },
+            "source_span_original": "தென்றல் வந்து என் நெஞ்சை  \nதழுவி சென்றது போல",
+            "source_span_translation": "Like the breeze that gently  \nEmbraced my heart",
+            "source_term": "தென்றல் வந்து என் நெஞ்சை\nதழுவி சென்றது போல",
+            "tenor": "The emotional impact of the loved one's memories arriving softly and comforting the speaker's mind",
+            "vehicle": "A gentle southern breeze (thendral) that physically touches and embraces a person's chest/heart as it passes by",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing peacefully with closed eyes as their hair and clothes are softly stirred by an invisible wind, with subtle light patterns suggesting a comforting presence."
+          },
+          {
+            "abstract_meaning": "The speaker's inner emotional landscape is completely overwhelmed and saturated by memories of the loved one, compared to a space being filled up by rain.",
+            "acceptable_visual_variants": [
+              "A quiet landscape being slowly saturated by a gentle, misty rain shower",
+              "A close-up of water droplets accumulating on a leaf, representing gradual filling and emotional saturation"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "Your memories have softly filled up in the rain",
+            "literalization_risk": "An illustrator might literally draw rain falling inside a person's hollow chest cavity or stomach, which would look surreal, anatomically bizarre, or like a medical diagram.",
+            "metaphor_mapping": {
+              "tenor_concept": "memories occupying the speaker's consciousness",
+              "transferred_attributes": [
+                "abundance",
+                "gradual accumulation",
+                "complete saturation of an environment"
+              ],
+              "vehicle_concept": "rainwater filling a space to capacity"
+            },
+            "source_span_original": "உன் நினைவுகள் மழையில்  \nமெல்ல நிறைந்து விட்டது",
+            "source_span_translation": "Your memories have softly  \nFilled the rain within me",
+            "source_term": "உன் நினைவுகள் மழையில்\nமெல்ல நிறைந்து விட்டது",
+            "tenor": "The speaker's mind or inner self becoming entirely occupied and saturated by thoughts of the loved one",
+            "vehicle": "Rainwater filling up a vessel or saturating a landscape completely",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking out at a soft, steady rainfall, with the reflection of the rain on a window pane overlaying their thoughtful face to symbolize their internal state."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and sensory nuance of 'thendral' (தென்றல்), which refers specifically to a cool, gentle southern breeze, is translated as a generic 'breeze'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The locative case marker '-il' in 'mazhaiyil' (மழையில், meaning 'in the rain') is translated as 'the rain within me', adding an internalizing metaphor ('within me') not explicitly present in the original Tamil text.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The soothing yet pervasive nature of a loved one's memories, likened to a gentle breeze and filling rain."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "தென்றல் வந்து என் நெஞ்சை  \nதழுவி சென்றது போல,  \nஉன் நினைவுகள் மழையில்  \nமெல்ல நிறைந்து விட்டது!",
+  "poem_id": "MV++_1260",
+  "poem_title": "Thendral Vanthu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "54506407ce1771b5ad10469fffceef9b4714a52679b567d46f118af3d58fee5b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1260.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Like the breeze that gently  \nEmbraced my heart,  \nYour memories have softly  \nFilled the rain within me!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:14:34.643904+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cc1f2ed55ee36bc8e568582900ea825319139579dd6b1672821fc6b46490c760",
+        "response_hash": "bcbc94b2d197f3b375818bec0930ad19da0e3358f3a92d50d173115842316eed"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "97a10c063d8190de9ce0eeebbf55acf8dbb09b2cda93c40fe111bbe10cd8561e",
+        "response_hash": "3cd9984ff5e99b4b6db74d72276a91e6ee71bed01014c88eb106eb547d191bef",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e27daf3b1432a0832ac8783acd90e891b30bd36eae21f3d234c6ab6f455b6757",
+        "response_hash": "8806c0b7f188f8d5c6b1dd2131dd8493ef49d3c53c9fa7337d5f6e3375b43faf",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b2c437e5ff5a23120c06fabd0c75c12fe5b22c1a05c87839ecc0d07c3d803a4a",
+        "response_hash": "5a0713d78971df7657dc9bb3dfc90f4dfc592309ee3732680e3611e498951c84",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6507a9274ddad06340a6007c7a4436b1291945674a4a08f9d7fe1cf97f3b61d0",
+        "response_hash": "e6140ddc02679be2c8d752f1a86b15e744eba25cd515e74fe03d4e90ab463c42",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ff44d8ea66bfff6b7b087b2f30a7cfe7d793cd46767615f92b9e6d68d1d4fa8f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5b0f889238a0c3c7f70f173a57fc1efe9e1a6fd31708e0b82425262bb67415ea",
+    "translation_sha256": "25103e1e09091886673b04d1225881c44bad15f8477048f6034ecd1b26b51afc"
+  }
+}

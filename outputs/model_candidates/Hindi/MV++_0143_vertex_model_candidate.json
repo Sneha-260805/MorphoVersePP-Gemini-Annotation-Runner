@@ -1,0 +1,377 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional Indian forest garden with classical elements like peacocks or flowering creepers",
+          "A stylized, colorful modern garden representing a sanctuary of peace"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Literally 'forest of honey', a culturally significant forest in the Braj region near Vrindavan, deeply associated with the divine play (lila) of Krishna. In modern poetic usage, it also functions as a metaphor for a lush, fragrant garden.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic Western manicured lawn or public park",
+          "A dry, barren desert landscape"
+        ],
+        "preserved": false,
+        "romanization": "Madhuban",
+        "source_span_original": "मधुबन",
+        "source_span_translation": "The garden",
+        "stanza_index": 1,
+        "term": "मधुबन",
+        "translation_note": "Translated as 'The garden' in the first stanza, losing the specific mythological and cultural resonance of Madhuban (the forest of Vrindavan associated with Krishna).",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "A lush, vibrant forest or garden filled with blooming flowers",
+          "Dappled sunlight filtering through green leaves",
+          "A serene, idyllic natural landscape"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Abstract colorful swirls emanating from flower petals to represent the mood of the raga",
+          "A subtle depiction of a classical stringed instrument resting near flowers"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A melodic framework in Indian classical music, having a specific sequence of notes, rules, and emotional associations (rasas).",
+        "line_ref": "L10",
+        "negative_confusions": [
+          "Western musical notation sheets or treble clefs",
+          "Modern electronic music equipment"
+        ],
+        "preserved": false,
+        "romanization": "raag",
+        "source_span_original": "राग",
+        "source_span_translation": "melody",
+        "stanza_index": 3,
+        "term": "राग",
+        "translation_note": "Translated as 'melody', which generalizes the highly structured and culturally specific Indian classical melodic framework of a raga.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "An abstract representation of musical sound waves or notes floating from a flower petal",
+          "A classical Indian musician playing a traditional instrument like a sitar or flute in a garden setting"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "peace to wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'anan' as 'gem' is a loose interpretation of the original word which can mean face or soul, slightly altering the sensory focus.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Every person or element in this environment is deeply immersed in and influenced by the sweet, fragrant atmosphere of the garden.",
+            "acceptable_visual_variants": [
+              "A person standing with closed eyes, smiling gently as soft wind blows through green foliage.",
+              "A close-up of a face surrounded by soft-focus blooming flowers and gentle light."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Every face/person is physically wrapped or enveloped in fragrance.",
+            "literalization_risk": "An illustrator might draw people literally wrapped in thick, visible clouds of perfume or physical bandages of scent, which looks bizarre and misses the emotional sense of peaceful immersion.",
+            "metaphor_mapping": {
+              "tenor_concept": "immersion in a pleasant sensory environment",
+              "transferred_attributes": [
+                "envelopment",
+                "closeness",
+                "sensory saturation"
+              ],
+              "vehicle_concept": "wrapping in a fragrant material"
+            },
+            "source_span_original": "सुरभि में लिपटा हर अनन है।",
+            "source_span_translation": "Wrapped in the essence, every gem.",
+            "source_term": "सुरभि में लिपटा हर अनन है।",
+            "tenor": "being deeply immersed in or affected by a pleasant atmosphere",
+            "vehicle": "being physically wrapped or enveloped in a fragrant cloth or shroud",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict people with serene expressions standing in a lush, blooming garden with soft, glowing light or gentle wind carrying petals to suggest the pervasive fragrance."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and mythological resonance of 'Madhuban' (associated with Vrindavan and Krishna) is flattened to a generic 'garden' in English.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The word 'anan' (meaning face or person) is translated as 'gem', which alters the literal meaning of the line from 'every face/person is wrapped in fragrance' to 'every gem'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The word 'taana' (musical note/extension or warp/thread) is translated as 'thread', which captures the weaving metaphor but loses the direct musical connotation of the Hindi term.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The diverse, beautiful, and precious experiences, sights, or flowers found within the garden.",
+            "acceptable_visual_variants": [
+              "A hand gently holding a colorful, diverse bouquet of wild flowers.",
+              "A vibrant garden bed filled with a dense, rich tapestry of multi-colored blossoms."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A physical chest of priceless treasure consisting of various colors.",
+            "literalization_risk": "An illustrator might draw a literal wooden treasure chest overflowing with gold coins and colorful gems, which completely misses the natural, botanical context of the garden.",
+            "metaphor_mapping": {
+              "tenor_concept": "diverse natural beauty of flowers",
+              "transferred_attributes": [
+                "high value",
+                "vibrancy",
+                "abundance",
+                "preciousness"
+              ],
+              "vehicle_concept": "precious treasure chest"
+            },
+            "source_span_original": "हर रंग का अनमोल खजाना।",
+            "source_span_translation": "The priceless treasure of every hue.",
+            "source_term": "हर रंग का अनमोल खजाना।",
+            "tenor": "the beautiful variety of flowers and natural elements in the garden",
+            "vehicle": "a priceless treasure chest of colors",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a vibrant, diverse collection of colorful flowers of different species gathered together beautifully, emphasizing their rich colors as the 'treasure'."
+          },
+          {
+            "abstract_meaning": "To fully experience and live through every single thread, note, or moment of life and song in this peaceful sanctuary.",
+            "acceptable_visual_variants": [
+              "A person sitting under a tree canopy with a relaxed, meditative posture.",
+              "A silhouette of a person looking at a beautiful garden landscape during a quiet afternoon."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "To physically live or survive through every single musical note or woven thread.",
+            "literalization_risk": "An illustrator might draw a person physically holding or climbing giant musical notes or literal threads of yarn, which looks cartoonish and fails to convey the reflective, peaceful mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "moments of lived experience",
+              "transferred_attributes": [
+                "individuality",
+                "structure",
+                "contribution to a larger beautiful whole"
+              ],
+              "vehicle_concept": "individual musical notes or woven threads"
+            },
+            "source_span_original": "जी लूं मैं हर एक ताना।",
+            "source_span_translation": "I live each thread anew.",
+            "source_term": "जी लूं मैं हर एक ताना।",
+            "tenor": "individual moments, experiences, or expressions of life",
+            "vehicle": "a musical note (taan) or a woven thread (tana)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person sitting peacefully in the shade of a large tree, looking out at the garden in deep, quiet contemplation."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'taana' (musical note, stretch, or tension) is translated as 'thread', which loses the musical metaphor and connection to the song/melody theme of the poem.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation of 'sagar ka bhaag' as 'ocean's reverie' is a poetic adaptation rather than a literal rendering of 'ocean's share/part'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Nature is inherently musical and harmonious; every small part of the garden contains its own song or emotional melody.",
+            "acceptable_visual_variants": [
+              "A macro shot of a single vibrant flower petal glistening with dew.",
+              "A gentle breeze blowing through a flower, causing its petals to sway gracefully as if dancing to music."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "A musical melody or raga physically living inside a flower petal.",
+            "literalization_risk": "An illustrator might draw literal musical notes or sheet music printed onto the surface of flower petals, which is too literal and ruins the natural aesthetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "the aesthetic and emotional appeal of a flower petal",
+              "transferred_attributes": [
+                "harmony",
+                "beauty",
+                "emotional expression",
+                "rhythm"
+              ],
+              "vehicle_concept": "a musical composition or melody"
+            },
+            "source_span_original": "हर पंखुड़ी में बसी है राग।",
+            "source_span_translation": "In every petal resides a melody.",
+            "source_term": "हर पंखुड़ी में बसी है राग।",
+            "tenor": "the inherent beauty, harmony, and emotional resonance of nature",
+            "vehicle": "a musical melody residing inside a physical object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of delicate flower petals with morning dew, perhaps with soft, flowing lines in the background suggesting gentle wind or sound waves."
+          },
+          {
+            "abstract_meaning": "The sensory experiences of the garden (scent and sound) are deeply intertwined, creating a unified, harmonious atmosphere.",
+            "acceptable_visual_variants": [
+              "A peaceful garden corner with flowers in full bloom and a gentle breeze, suggesting a sensory harmony.",
+              "A person playing a flute in a blooming garden, with petals drifting in the air around them."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "A physical scent physically wrapped or bound inside sound waves.",
+            "literalization_risk": "An illustrator might draw literal musical staves wrapping around a cloud of perfume, which looks artificial and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "the blending of auditory and olfactory sensations",
+              "transferred_attributes": [
+                "inseparability",
+                "mutual enhancement",
+                "closeness"
+              ],
+              "vehicle_concept": "physical wrapping or binding"
+            },
+            "source_span_original": "संगीत से लिपटी ये खुशबू,",
+            "source_span_translation": "This fragrance wrapped in music,",
+            "source_term": "संगीत से लिपटी ये खुशबू,",
+            "tenor": "the synesthetic blending of beautiful sounds and sweet fragrances",
+            "vehicle": "being physically wrapped or bound together",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a serene garden scene where a traditional instrument (like a flute or sitar) rests near blooming, fragrant flowers, with soft light suggesting a harmonious atmosphere."
+          },
+          {
+            "abstract_meaning": "Brings a vast, deep, and overwhelming wave of emotion, peace, or expansiveness to the mind.",
+            "acceptable_visual_variants": [
+              "A person standing with open arms in a wide, beautiful garden landscape under a vast sky.",
+              "A reflective, peaceful face superimposed softly with a calm, vast water surface or horizon."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "A physical portion or piece of the ocean entering inside the human mind.",
+            "literalization_risk": "An illustrator might draw a literal ocean wave crashing inside a giant human head, which is surreal, jarring, and completely ruins the peaceful, romantic tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "the depth and scale of human emotion/mind",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "boundlessness",
+                "overwhelming peace"
+              ],
+              "vehicle_concept": "the vastness and depth of the ocean"
+            },
+            "source_span_original": "मन में सागर का भाग।",
+            "source_span_translation": "Brings forth the ocean's reverie.",
+            "source_term": "मन में सागर का भाग।",
+            "tenor": "a deep, vast, and boundless state of emotion or consciousness",
+            "vehicle": "a portion of the vast ocean",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person standing in the garden with an expression of profound peace, looking up at a vast, clear sky or a wide horizon, suggesting an expansive state of mind."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'raag' (classical melodic framework/mood) is translated as 'melody', which simplifies a highly specific Indian classical music concept into a generic Western musical term.",
+            "where": "L10"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'bhaag' (share, portion, or destiny) is translated as 'reverie', which changes the literal meaning of 'bringing the ocean's share/portion into the heart' to a more abstract state of daydreaming.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The harmonious union of nature, music, and the human spirit within a fragrant garden."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मधुबन खुशबू देता है,  \nफूलों का चमन हर क्षण है।  \nहरियाली में रमता है मन,  \nसुरभि में लिपटा हर अनन है।  \n\nचुन चुन कर मैंने चुन लिया,  \nहर रंग का अनमोल खजाना।  \nमधुबन की छाया में बैठकर,  \nजी लूं मैं हर एक ताना।  \n\nचाहूं मैं इस बाग को सजा,  \nहर पंखुड़ी में बसी है राग।  \nसंगीत से लिपटी ये खुशबू,  \nले आती है मन में सागर का भाग।",
+  "poem_id": "MV++_0143",
+  "poem_title": "Madhuban Khushboo Deta Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3cb2b8604f3d46030c7699367dbfe55a9fac0cbd8e83babea8d6b31727000ad8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0143.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The garden gives fragrance,  \nA grove of flowers every moment.  \nThe heart revels in the greenery,  \nWrapped in the essence, every gem.  \n\nI have chosen, piece by piece,  \nThe priceless treasure of every hue.  \nSitting in the shade of the garden,  \nI live each thread anew.  \n\nI want to adorn this grove,  \nIn every petal resides a melody.  \nThis fragrance wrapped in music,  \nBrings forth the ocean's reverie.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:51:27.207474+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "804db042557c6e30758023e579164d79955cc98714d7a4b109d3cbcb3aeac444",
+        "response_hash": "e23bd752085ad5ccb8ede7cecd03d4633b671d70bf4fa5eb3885cf3d11cb85b0"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4da12a7540ac0cd1ef34d74c0994143c2ff7a62ea7fab832fd0d6de647966973",
+        "response_hash": "b131c6fccf5514d487f5a3de91374930475828d3cb053c68265991449bc1c0d4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "89316308963da3b1061d9cc57afbc43bbe0fe349f3a0a7cc54bfeeca7183c742",
+        "response_hash": "33c61088caa718e951e26018ba3a8c26006f62bd0fb4ec54a766f2735342be31",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1f43591f45f49d103a88683f7980d59994c1241e0dcba479175657a22a2a91b1",
+        "response_hash": "3761bc56723f032f7938a47d0b667beeea9a1aefac6d9ad7f7f3ed945aefa32b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7e6c786e72ac93515223d425a9ee9053da51cd0df54c46e4c556ecc881b4170c",
+        "response_hash": "875340137beb3727aac3a180b51643b62f1d7d2e6bdb39cc46c7191eaab08bd3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "019d87a141b7a601f69168853e49fae74becfe1ea8b787ba83862c62c438501e",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e4c3df9326b56994e33d7616f31cc9843de61a935f01ae4acffe7fb92c905b93",
+    "translation_sha256": "36c44407e318ec1223b831fd69b8c087844e48ee24fafea020b338e01d16036b"
+  }
+}

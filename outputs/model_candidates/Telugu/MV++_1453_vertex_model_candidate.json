@@ -1,0 +1,551 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A stylized, mythical sea of glowing white liquid with gentle waves",
+          "A cosmic, celestial ocean of milk blending into a starry background"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The mythological Ocean of Milk (Kshira Sagara) from Hindu cosmology, churned by gods and demons to obtain the nectar of immortality. Here, it is used to describe the radiant, fair complexion of the beloved.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A standard blue ocean",
+          "A glass of milk or a simple spill of milk",
+          "A stormy, dark sea"
+        ],
+        "preserved": true,
+        "romanization": "paalasandram",
+        "source_span_original": "పాలసంద్రం",
+        "source_span_translation": "milk ocean",
+        "stanza_index": 1,
+        "term": "పాలసంద్రం",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A vast, churning ocean of pure white milk",
+          "Soft, glowing white waves",
+          "Ethereal, divine light radiating from the waters"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and wonder to deep devotion and tender surrender",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's touch is as gentle and refreshing as a cool breeze.",
+            "acceptable_visual_variants": [
+              "A soft breeze swaying light curtains in a room where a person sits",
+              "A gentle wind rustling leaves around a peaceful figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The gentle breeze is your touch",
+            "literalization_risk": "Showing a literal wind blowing on a person without conveying the intimate, emotional quality of the touch.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's touch",
+              "transferred_attributes": [
+                "gentleness",
+                "coolness",
+                "refreshing quality"
+              ],
+              "vehicle_concept": "gentle breeze"
+            },
+            "source_span_original": "పిల్ల గాలి నీ స్పర్శ",
+            "source_span_translation": "gentle breeze that touched me this very moment is your touch",
+            "source_term": "పిల్ల గాలి నీ స్పర్శ",
+            "tenor": "beloved's touch",
+            "vehicle": "gentle breeze",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, invisible breeze gently rustling the hair or clothing of a person, with warm lighting to suggest intimacy."
+          },
+          {
+            "abstract_meaning": "The beloved's smile is sudden, brilliant, and illuminating, like a flash of lightning.",
+            "acceptable_visual_variants": [
+              "A sudden glow of light breaking through clouds",
+              "A warm spark of light reflecting in a dark space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The lightning is your smile",
+            "literalization_risk": "A literal storm or destructive lightning bolt would look menacing rather than joyful and beautiful.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's smile",
+              "transferred_attributes": [
+                "brilliance",
+                "suddenness",
+                "illuminating quality"
+              ],
+              "vehicle_concept": "lightning flash"
+            },
+            "source_span_original": "మెరుపు నీ నవ్వు",
+            "source_span_translation": "lightning that flashed this very moment is your smile",
+            "source_term": "మెరుపు నీ నవ్వు",
+            "tenor": "beloved's smile",
+            "vehicle": "lightning flash",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, golden or warm flash of light illuminating a dark sky or room, avoiding harsh storm imagery."
+          },
+          {
+            "abstract_meaning": "The beloved's face is as beautiful, serene, and delicate as a blooming night-lotus.",
+            "acceptable_visual_variants": [
+              "A single night-blooming water lily opening its petals in a quiet pond",
+              "A delicate flower floating on still water reflecting moonlight"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The water lily/lotus is your face",
+            "literalization_risk": "Superimposing a human face onto a flower or vice versa can look surreal or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's face",
+              "transferred_attributes": [
+                "beauty",
+                "delicacy",
+                "serenity",
+                "blooming"
+              ],
+              "vehicle_concept": "blooming water lily"
+            },
+            "source_span_original": "కలువ నీ మోము",
+            "source_span_translation": "lotus that bloomed this very moment is your face",
+            "source_term": "కలువ నీ మోము",
+            "tenor": "beloved's face",
+            "vehicle": "blooming water lily (kaluvu)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a beautiful water lily blooming in a calm pond under soft light, placed adjacent to or mirroring a serene human profile."
+          },
+          {
+            "abstract_meaning": "The beloved's complexion is pure, radiant, and fair, compared to the mythical ocean of milk.",
+            "acceptable_visual_variants": [
+              "Soft, glowing white waves of water reflecting a bright sky",
+              "A pearlescent, shimmering liquid surface"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The ocean of milk is your skin color",
+            "literalization_risk": "Depicting a literal sea of white milk can look unnatural, culinary, or bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's skin complexion",
+              "transferred_attributes": [
+                "purity",
+                "whiteness",
+                "radiance",
+                "vastness"
+              ],
+              "vehicle_concept": "ocean of milk"
+            },
+            "source_span_original": "పాలసంద్రం నీ మేని వర్ణం",
+            "source_span_translation": "milk ocean this very moment is the color of your skin",
+            "source_term": "పాలసంద్రం నీ మేని వర్ణం",
+            "tenor": "beloved's skin complexion",
+            "vehicle": "ocean of milk (palasandram)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict soft, swirling white waves with a pearlescent, glowing quality under gentle light."
+          },
+          {
+            "abstract_meaning": "The beloved's feet are as pure, sacred, and beautiful as a white lotus flower.",
+            "acceptable_visual_variants": [
+              "A pure white lotus blooming in a clean, still pond",
+              "A close-up of a blooming white lotus with dew drops on its petals"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The white lotus is your lotus feet",
+            "literalization_risk": "Drawing feet growing out of a flower or feet made of petals can look grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's feet",
+              "transferred_attributes": [
+                "purity",
+                "sacredness",
+                "beauty",
+                "softness"
+              ],
+              "vehicle_concept": "white lotus"
+            },
+            "source_span_original": "శ్వేత పద్మం నీ పాద పద్మం",
+            "source_span_translation": "white lotus that blossomed this very moment is your sacred feet",
+            "source_term": "శ్వేత పద్మం నీ పాద పద్మం",
+            "tenor": "beloved's feet",
+            "vehicle": "white lotus (shveta padmam)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a pristine white lotus blooming in clear water, or a person's feet resting gently near a lotus pond."
+          },
+          {
+            "abstract_meaning": "The beloved's name is as beautiful, artistic, and meaningful as a finely crafted classical poem.",
+            "acceptable_visual_variants": [
+              "An open classical manuscript with elegant calligraphy",
+              "A hand writing beautiful script on fine parchment with a quill or stylus"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The beautiful poem is your name",
+            "literalization_risk": "Showing literal text or letters floating in the air might look dry or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's name",
+              "transferred_attributes": [
+                "beauty",
+                "artistry",
+                "harmony",
+                "evocative power"
+              ],
+              "vehicle_concept": "beautiful poem"
+            },
+            "source_span_original": "సుందర కావ్యం నీ నామధేయం",
+            "source_span_translation": "beautiful poem composed this very moment is your name",
+            "source_term": "సుందర కావ్యం నీ నామధేయం",
+            "tenor": "beloved's name",
+            "vehicle": "beautiful poem (sundara kavyam)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict an elegant, classical palm-leaf manuscript or scroll with beautiful, artistic script under warm, soft lighting."
+          },
+          {
+            "abstract_meaning": "The beloved's arched eyebrows are as perfectly curved, tense, and striking as a drawn bow.",
+            "acceptable_visual_variants": [
+              "An elegant, slender bow curved gracefully without an arrow",
+              "A stylized, symmetrical arch shape in a classical design"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The raised/drawn bow is your eyebrows",
+            "literalization_risk": "Depicting a literal weapon like a bow and arrow near a face can look violent or threatening.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's arched eyebrows",
+              "transferred_attributes": [
+                "perfect arch",
+                "tension",
+                "striking curve",
+                "graceful form"
+              ],
+              "vehicle_concept": "drawn bow"
+            },
+            "source_span_original": "ఎక్కుపెట్టిన విల్లు నీ కను బొమ్మలు",
+            "source_span_translation": "bow that was raised this very moment is your arched eyebrows",
+            "source_term": "ఎక్కుపెట్టిన విల్లు నీ కను బొమ్మలు",
+            "tenor": "beloved's arched eyebrows",
+            "vehicle": "drawn bow (ekku pettina villu)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a beautifully crafted, elegant wooden bow drawn back in a graceful curve, emphasizing its symmetry and form."
+          },
+          {
+            "abstract_meaning": "The beloved's poetic form is like a beautiful, cherished dream that lingers in the eyes.",
+            "acceptable_visual_variants": [
+              "A soft, glowing silhouette seen through a hazy, dreamlike mist",
+              "A gentle reflection in calm, shimmering water"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The dream in the eyes is your poetic form",
+            "literalization_risk": "Trying to draw a literal dream inside an eyeball would look surreal and medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's poetic form",
+              "transferred_attributes": [
+                "ethereal quality",
+                "beauty",
+                "elusiveness",
+                "cherished presence"
+              ],
+              "vehicle_concept": "dream in the eyes"
+            },
+            "source_span_original": "కనుల స్వప్నం నీ కావ్య రూపం",
+            "source_span_translation": "dream that stirred in my eyes this very moment is your poetic form",
+            "source_term": "కనుల స్వప్నం నీ కావ్య రూపం",
+            "tenor": "beloved's poetic form/presence",
+            "vehicle": "dream in the eyes (kanula svapnam)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Use a soft-focus, ethereal, and slightly misty visual style to depict a faint, graceful silhouette or form."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'కలువ' (kaluva) as 'lotus' loses the specific cultural and poetic distinction of the night-blooming water lily, which is traditionally contrasted with the day-blooming lotus in classical Indian aesthetics.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'పాలసంద్రం' (paalasandram) as 'milk ocean' loses the direct mythological resonance of the cosmic ocean of milk (Kshira Sagara) from Hindu cosmology, flattening it to a descriptive color.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'పాద పద్మం' (paada padmam) as 'sacred feet' loses the compound metaphor of 'foot-lotus' (feet like lotuses), which is a standard classical poetic device (rupaka) in Telugu.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation maps the content of stanzas 2, 3, 4, and 5 into a single block under stanza 2, disrupting the structural alignment of the original Telugu stanzas.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intricate braids of the beloved's hair are as beautiful and perfectly woven as a fresh flower garland.",
+            "acceptable_visual_variants": [
+              "A close-up of a neatly braided jasmine garland",
+              "An elegant, intertwined floral pattern on a soft background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The woven garlands are the braids of your hair",
+            "literalization_risk": "Showing hair literally made of flowers or flowers growing out of a scalp can look strange or unnatural.",
+            "metaphor_mapping": {
+              "tenor_concept": "braids of hair",
+              "transferred_attributes": [
+                "intricate weaving",
+                "beauty",
+                "neatness",
+                "intertwined structure"
+              ],
+              "vehicle_concept": "woven garland"
+            },
+            "source_span_original": "మాలికలు నీ కురుల అల్లికలు",
+            "source_span_translation": "garland woven this very moment is the braid of your hair",
+            "source_term": "మాలికలు నీ కురుల అల్లికలు",
+            "tenor": "braids of hair (kurula allikalu)",
+            "vehicle": "woven garland (maalikalu)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautifully woven, fresh flower garland lying gracefully, emphasizing its neat, braided pattern."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation maps the content of Stanzas 2, 3, 4, and 5 into a single continuous block under Stanza 2, disrupting the original stanzaic structure and line-by-line correspondence of the Telugu text.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "The translation for this stanza is merged into the translation block of stanza 2, leaving this stanza without direct alignment.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's gaze is as soothing, bright, and comforting as full, ripe moonlight.",
+            "acceptable_visual_variants": [
+              "A quiet night landscape illuminated by a bright, full moon",
+              "Soft silver moonlight filtering through a window onto a quiet room"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The ripe moonlight is your eye's gaze",
+            "literalization_risk": "Beams of light shooting literally from eyes can look like a sci-fi laser effect.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's gaze",
+              "transferred_attributes": [
+                "brightness",
+                "soothing quality",
+                "coolness",
+                "radiance"
+              ],
+              "vehicle_concept": "ripe/full moonlight"
+            },
+            "source_span_original": "పండు వెన్నెల నీ కంటి చూపు",
+            "source_span_translation": "ripe moonlight that ripened this very moment is your gaze",
+            "source_term": "పండు వెన్నెల నీ కంటి చూపు",
+            "tenor": "beloved's gaze (kanti choopu)",
+            "vehicle": "ripe/full moonlight (pandu vennela)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a landscape bathed in the soft, silver, and serene glow of a full moon, evoking a sense of peace and warmth."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'పండు వెన్నెల' (pandu vennela) as 'ripe moonlight' loses the idiomatic Telugu sense where 'pandu' (ripe/fruit) intensifies the moonlight to mean 'full, bright, and golden moonlight' rather than literal ripeness.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "devotion",
+        "index": 4,
+        "loss_note": "The translation for this stanza is merged into the translation block of stanza 2, leaving this stanza without direct alignment.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's voice is as sweet, melodic, and beautiful as the song of a cuckoo (koel).",
+            "acceptable_visual_variants": [
+              "A silhouette of a singing bird on a branch against a soft morning sky",
+              "A peaceful garden scene with a small bird singing amidst green leaves"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The koel's voice is your voice",
+            "literalization_risk": "Showing a bird coming out of a throat or a human with a bird's beak would be grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's voice",
+              "transferred_attributes": [
+                "sweetness",
+                "melody",
+                "beauty",
+                "pleasantness"
+              ],
+              "vehicle_concept": "koel's song"
+            },
+            "source_span_original": "కోయిల స్వరం నీ కంఠ స్వరం",
+            "source_span_translation": "song sung by the koel this very moment is your voice",
+            "source_term": "కోయిల స్వరం నీ కంఠ స్వరం",
+            "tenor": "beloved's voice (kantha svaram)",
+            "vehicle": "koel's song (koila svaram)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a graceful koel bird perched on a leafy branch, with its beak slightly open as if singing, surrounded by soft nature elements."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'కోయిల స్వరం' (koyila svaram) as 'song sung by the koel' loses the acoustic resonance and the specific cultural association of the Asian koel's high-pitched call, which is a classic symbol of longing and sweet voice in Telugu poetry.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "peace",
+        "index": 5,
+        "loss_note": "The translation for this stanza is merged into the translation block of stanza 2, leaving this stanza without direct alignment.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's gentle scolding or reprimand is filled with love, care, and protective affection, just like a mother's gentle, corrective slap.",
+            "acceptable_visual_variants": [
+              "A mother holding a child's hand in a warm, reassuring clasp",
+              "A gentle, loving gesture between two figures in soft, warm light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The slap from a mother's hand is your reprimand",
+            "literalization_risk": "Depicting physical violence or a harsh strike would completely ruin the tender, affectionate context of the comparison.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's gentle scolding",
+              "transferred_attributes": [
+                "underlying love",
+                "care",
+                "corrective nature",
+                "absence of malice"
+              ],
+              "vehicle_concept": "mother's gentle slap"
+            },
+            "source_span_original": "అమ్మ చేతి దెబ్బ నీ మందలింపు",
+            "source_span_translation": "loving slap from a mother this very moment is your gentle reprimand",
+            "source_term": "అమ్మ చేతి దెబ్బ నీ మందలింపు",
+            "tenor": "beloved's gentle scolding (nee mandalimpu)",
+            "vehicle": "mother's gentle slap/reprimand (amma cheti debba)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a warm, comforting gesture such as a mother's hand gently resting on a child's shoulder or a soft, caring touch."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'మందలింపు' (mandalimpu) as 'gentle reprimand' loses the nuanced domestic tone of a soft, caring scolding or admonishment, which is contrasted with the physical 'slap' (debbe) of a mother.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "The omnipresence of the beloved in every sensory experience of the present moment"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].category",
+      "issue": "The category 'MYTHOLOGICAL_EVENT' is incorrect for 'పాలసంద్రం' (Ocean of Milk), which is a mythological place/concept rather than an event. A more appropriate category would be 'DEVOTIONAL_CONCEPT' or 'REGIONAL_SYMBOL' under the schema's controlled vocabulary, or the category should be flagged as inconsistent with the entity type.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ఈ క్షణమే తాకిన పిల్ల గాలి నీ స్పర్శ.. ఈ క్షణమే మెరిసిన మెరుపు నీ నవ్వు.. ఈ క్షణమే విరిసిన కలువ నీ మోము.. ఈ క్షణమే చిలికిన పాలసంద్రం నీ మేని వర్ణం.. ఈ క్షణమే పూసిన శ్వేత పద్మం నీ పాద పద్మం.. ఈ క్షణమే రాసిన సుందర కావ్యం నీ నామధేయం.. ఈ క్షణమే ఎక్కుపెట్టిన విల్లు నీ కను బొమ్మలు.. ఈ క్షణమే మెదిలిన కనుల స్వప్నం నీ కావ్య రూపం..\n\n\n\nఈ క్షణమే అల్లిన మాలికలు నీ కురుల అల్లికలు..\n\nఈ క్షణమే కాసిన పండు వెన్నెల నీ కంటి చూపు..\n\nఈ క్షణమే కూసిన కోయిల స్వరం నీ కంఠ స్వరం..\n\nఈ క్షణమే కొట్టిన అమ్మ చేతి దెబ్బ నీ మందలింపు..",
+  "poem_id": "MV++_1453",
+  "poem_title": "Kshanam..",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c6be74bb6addb599c0ff32eece52494b5d59fc0769cb135233bd9d8c7c35de69",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1453.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The gentle breeze that touched me this very moment is your touch.\nThe lightning that flashed this very moment is your smile.\nThe lotus that bloomed this very moment is your face.\nThe sparkling milk ocean this very moment is the color of your skin.\nThe white lotus that blossomed this very moment is your sacred feet.\nThe beautiful poem composed this very moment is your name.\nThe bow that was raised this very moment is your arched eyebrows.\nThe dream that stirred in my eyes this very moment is your poetic form.\n\nThe garland woven this very moment is the braid of your hair.\nThe ripe moonlight that ripened this very moment is your gaze.\nThe song sung by the koel this very moment is your voice.\nThe loving slap from a mother this very moment is your gentle reprimand.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:35:52.132969+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "494031c6f7ab6116d1830c647db25ddafeb10abaa927df073abac4382d688466",
+        "response_hash": "04d7f080696afecf42348d55caa6a57f0bf322e81e48ffbf12a42a01d333728f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "93a9ec1d9d460d17b28d500b8d556eaa2eb3e04a6f7e976d6f6a255fbaac5ed8",
+        "response_hash": "c18b515ab3cd30f0bfc5d59bf703440d47052848583646a1ed0ab88edc82c5ae",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fcc967c1a1114cddf5cf156ec2f05310de7e73a8cedc84a25b958a011aa25895",
+        "response_hash": "4d52a40e38a7800a82683797acf9a76f4efaba22d7d56d9d7e8137b3d5b19dd7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8547330015b7ca9b1dfc786098848f33e77143bb0c14365595c2e01e463259c2",
+        "response_hash": "16be5918850b85fa720fa12115209e37cc6b12723e929d555741120cc779daf9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7e0ed3a5ea27fd27ce8beb4c383f4abeae4408b4e96ef0ddc20acef8bb40bccf",
+        "response_hash": "a4981a2f022690cc429c64c545ccb0fe28ece9b76964aab8739f13ffa5ae6b48",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "52a1dae9137e24e3610c746e8e8d20cd00f3ee60840e5b05c07d5409f5a61939",
+    "translation_sha256": "ec4dd19e09f01af4f42d6c025eea9c6c790c0af0feb9b8372c7a8e7c9e152711"
+  }
+}

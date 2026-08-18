@@ -1,0 +1,245 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional small silver or brass container holding the black paste",
+          "A close-up of eyes lined with deep black kajal"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Traditional black collyrium or eyeliner (kajal) used both for cosmetic enhancement and to ward off the evil eye.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Modern liquid felt-tip eyeliner pen",
+          "Western-style colorful eyeshadow"
+        ],
+        "preserved": true,
+        "romanization": "kaatuka",
+        "source_span_original": "కాటుక",
+        "source_span_translation": "black eyeliner",
+        "stanza_index": 1,
+        "term": "కాటుక",
+        "translation_note": "Translated as 'black eyeliner' which captures the cosmetic aspect but loses the traditional preparation and cultural associations of homemade collyrium (kajal).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Dark black cosmetic paste applied along the inner waterline of the eyes",
+          "Slightly glossy or matte charcoal texture"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A small black dot applied with a finger on the soft part of the cheek",
+          "A tiny black mark placed discreetly behind the ear"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The traditional practice of warding off the 'evil eye' or negative energy, often done by placing a small black dot (kaatuka chukka) on a person's cheek or behind the ear.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A perfectly symmetrical, printed cosmetic beauty mark",
+          "A large decorative bindi on the center of the forehead"
+        ],
+        "preserved": false,
+        "romanization": "dishthi",
+        "source_span_original": "దిష్ఠి",
+        "source_span_translation": null,
+        "stanza_index": 1,
+        "term": "దిష్ఠి",
+        "translation_note": "The translation completely omits the explicit concept of warding off the evil eye (dishthi), rendering it only as a 'beauty spot'.",
+        "translation_status": "LOST",
+        "visual_features": [
+          "A small, distinct black dot placed intentionally on the cheek or side of the face to ward off envy"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A steady progression of romantic wonder, adoration, and playful self-reflection.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation simplifies the cultural practice of warding off the evil eye (dhishti teeyanga) and the wordplay on 'chukka' (which means both star/beauty spot and a beautiful woman).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The moon is depicted as a conscious being capable of feeling stunned or amazed by the beauty of the beloved's reflection.",
+            "acceptable_visual_variants": [
+              "A realistic glowing full moon in a starry sky",
+              "A soft, luminous moon partially veiled by thin clouds"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The moon in the sky's street was left stunned",
+            "literalization_risk": "Showing a literal human face on the moon looking shocked, which would look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "the moon's visual presence relative to the beloved",
+              "transferred_attributes": [
+                "being stunned",
+                "feeling outshone"
+              ],
+              "vehicle_concept": "human emotion of amazement"
+            },
+            "source_span_original": "గగన వీధిలో చంద్రబింబం నివ్వెర పోయెనే",
+            "source_span_translation": "The moon in the sky was left stunned",
+            "source_term": "గగన వీధిలో చంద్రబింబం నివ్వెర పోయెనే",
+            "tenor": "The moon's appearance in comparison to the beloved's beauty",
+            "vehicle": "A person being stunned or amazed",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, beautiful full moon in a deep night sky, casting soft light, without drawing a literal face on it."
+          },
+          {
+            "abstract_meaning": "The ocean waves are personified as feeling envious of the moonlight and the love swelling in the speaker's heart.",
+            "acceptable_visual_variants": [
+              "Crashing waves on a sandy beach under moonlight",
+              "Gentle, rolling ocean swells reflecting the night sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "Even the waves felt jealous",
+            "literalization_risk": "Depicting waves with angry or jealous human faces, which ruins the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "the restless motion of ocean waves",
+              "transferred_attributes": [
+                "envy",
+                "restlessness",
+                "agitation"
+              ],
+              "vehicle_concept": "human jealousy"
+            },
+            "source_span_original": "అలలు సైతం అసూయ పడిపోయే",
+            "source_span_translation": "Even the waves on the shore were envious",
+            "source_term": "అలలు సైతం అసూయ పడిపోయే",
+            "tenor": "The restless, surging movement of the ocean waves",
+            "vehicle": "A jealous person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show dynamic, crashing ocean waves under the moonlight, capturing their natural restless energy."
+          },
+          {
+            "abstract_meaning": "The mirror is personified as an active participant that answers or replies by reflecting the speaker's shy smile.",
+            "acceptable_visual_variants": [
+              "A classic wooden-framed mirror reflecting a smiling face",
+              "A hand mirror reflecting a close-up of a warm smile"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "the mirror gives an answer",
+            "literalization_risk": "Depicting a talking mirror with a mouth, which turns a romantic poem into a fantasy cartoon.",
+            "metaphor_mapping": {
+              "tenor_concept": "optical reflection",
+              "transferred_attributes": [
+                "responsiveness",
+                "interaction"
+              ],
+              "vehicle_concept": "conversational reply"
+            },
+            "source_span_original": "అద్దం బదులిచ్చే",
+            "source_span_translation": "the mirror replies",
+            "source_term": "అద్దం బదులిచ్చే",
+            "tenor": "The physical reflection of a smile in a mirror",
+            "vehicle": "A person replying or responding",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a realistic, elegant mirror reflecting a soft, shy smile of a person looking into it."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'దిష్ఠి తీయంగా' (dishthi teeyangaa) as 'beauty spot' loses the specific cultural practice of warding off the evil eye (drishti/dishti) using a black dot (kaatuka/kajal) on the cheek.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The wordplay on 'చుక్క' (chukka) which means both a star/dot (as in the beauty spot/cheek mark) and a beautiful woman (as in 'chakkani chukka') is flattened in the translation, losing the double meaning.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The captivating beauty of a beloved and the deep, reflective joy of love that mirrors itself in nature and the self."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "గగన వీధిలో చంద్రబింబం నివ్వెర పోయెనే నా కనుపాపల్లో నీ ప్రతిరూపం వెన్నెల కాంతులకు సాగర తీరంలో అలలు సైతం అసూయ పడిపోయే నా ఎద లోతుల్లో ఎగిసిపడే నీ ప్రేమ పొంగులకు మిలమిలలాడే పసిడి తానే ఆతృతగా చూసే నీ నవ్వున జారిన తళుకులన్నీ తనవే అనుకుంటూ వర్ణాలన్నీ తమ వంతు కోసం ఎదురుచూస్తుంటే ఏ విరినో చేరి నీ సిగను తామే సింగారించుటకు అడుగులు వేస్తూ నల్లని కాటుక నిన్నే చేరెనులే అడుగులు వేస్తూ నల్లని కాటుక నిన్నే చేరెనులే వడిడవిగా నీ బుగ్గన చుక్కై దిష్ఠి తీయంగా ఈ చక్కని చుక్కకు తగువాడు ఎవడను గుసగుసలే వింటూ ఆ మోహన రూపం ఇదిగో అంటూ అద్దం బదులిచ్చే నా ముసిముసి నవ్వుల ప్రతిబింబాన్నే తనలో బంధించే",
+  "poem_id": "MV++_1456",
+  "poem_title": "Chakkani Chukka",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "43ce1e80116f23d7eee32be641458dd76c381e0a8223fb0701996e5f27b3bd81",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1456.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The moon in the sky was left stunned,\nFor your reflection appeared in my eyes.\nEven the waves on the shore were envious of the moonlight,\nAs your love swells in the depths of my heart.\nThe gold stars glimmer in excitement,\nWatching your smile, as if claiming every sparkle as their own.\nAll the colors stand in line, waiting for their turn,\nTo adorn themselves with the charm of your blush.\nEven the black eyeliner follows you step by step,\nGracefully marking itself upon your cheek as a beauty spot.\nWho could ever match the charm of this lovely spot?\nWhispers fly, saying this enchanting form stands before me,\nAnd the mirror replies with the reflection of my soft, shy smiles,\nCapturing them within itself.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:36:12.885888+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba609c5a7570dfe2910894e1be82805ebb39f6a44921745c9d1b652976e51a50",
+        "response_hash": "8e69f426456f1d5dc825db4f4c83eb18cf7f31eada92c5f8f3bb4291f87a1242",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9aeb041fb02337154af894ecea9b97af53bd8ae04e39cadbdaa7d0ab6aaf19ec",
+        "response_hash": "290f99589409c33c22d87a04a177b2b76bb61fb98f016160132757c769ffa1ed",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9bc8e3ddca2cea78729c94b98f4c03e18fb3284e4f0483418708cacbdc69bbdf",
+        "response_hash": "2c737fb71fd4fe78f9ca076b66537bf3fe378d8b8a9e8c246c017f454915a032",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "33ca5736b80e75bef540dc6f87ed65435afcc5d35b53b32ee78279b35730ed55",
+        "response_hash": "2615b931429515fb962bbff5a13bce6b27a20aa37f447b9fc0206b3b2b10575e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7fd68caf510276ca337e6249676b3779990d337378406f7ea00e41b3ba71eac7",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "308992f0fb72aa62375bbad881ea6213565625a0c7758a060bd13dba12c9a5fa",
+    "translation_sha256": "ab9ce49919d98ea721bac4da8a549648477111f1faf0b5302717ee2a19020e95"
+  }
+}

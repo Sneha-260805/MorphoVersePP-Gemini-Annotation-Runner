@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A plain bamboo flute held horizontally",
+          "A simple transverse flute without elaborate modern keys"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional Indian bamboo flute, closely associated with pastoral music and classical/devotional traditions.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern Western metal concert flute",
+          "An ornate, heavily jeweled flute that looks like a royal scepter rather than a simple folk instrument"
+        ],
+        "preserved": true,
+        "romanization": "vanshi",
+        "source_span_original": "वंशी",
+        "source_span_translation": "flute",
+        "stanza_index": 1,
+        "term": "वंशी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A simple, slender bamboo flute with finger holes",
+          "Natural light-brown or golden bamboo texture"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A simple bamboo flute being played or held",
+          "A rustic wooden flute"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional side-blown bamboo flute of India, synonymous with the vanshi, used in classical, folk, and devotional music.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A modern silver or gold orchestral flute",
+          "A vertical recorder-style whistle"
+        ],
+        "preserved": true,
+        "romanization": "bansuri",
+        "source_span_original": "बंसुरी",
+        "source_span_translation": "flute",
+        "stanza_index": 1,
+        "term": "बंसुरी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A transverse bamboo flute with finger holes",
+          "Natural wood or bamboo finish"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing to quiet revelation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic flow and internal resonance of 'vanshi' and 'bansuri' (both referring to the flute) are slightly flattened into 'flute' and 'flute's notes'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The flowing, undulating movement of musical notes or melodies.",
+            "acceptable_visual_variants": [
+              "Soft, translucent ribbons of light curving through the air",
+              "Abstract, gentle ripples in the atmosphere surrounding the flute player"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "waves of musical notes",
+            "literalization_risk": "An illustrator might literally draw physical water waves or ocean tides coming out of a flute, which would look bizarre and distract from the musical context.",
+            "metaphor_mapping": {
+              "tenor_concept": "musical melody",
+              "transferred_attributes": [
+                "undulating movement",
+                "flowing nature",
+                "continuous spread"
+              ],
+              "vehicle_concept": "water waves"
+            },
+            "source_span_original": "सुर लहरियों",
+            "source_span_translation": "waves of the flute's notes",
+            "source_term": "सुर लहरियों",
+            "tenor": "musical notes / melody (sur)",
+            "vehicle": "waves (lahr)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict soft, flowing, abstract lines or glowing ribbons of light undulating through the air from the flute to represent the movement of sound waves."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses 'flute' for both 'वंशी' (vanshi) in L1 and 'बंसुरी' (bansuri) in L3, flattening the subtle lexical variation between these two closely related terms for the instrument.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मन' (man) as 'heart' in L4 simplifies a complex Sanskrit/Hindi concept that encompasses mind, heart, soul, and inner consciousness, reducing it to a purely emotional organ.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The intimate, hidden messages of the heart carried through the soaring notes of a flute."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सुनो मेरी वंशी, सुनो,  \nआसमान की ऊँचाइयों से।  \nबंसुरी की सुर लहरियों में,  \nछिपा है मन का सन्देश।",
+  "poem_id": "MV++_0064",
+  "poem_title": "Suno Meri Vanshi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f8cd9cfa73cbf058f2d384cc49d6f94ba4ab6e4be884429ab7de841d4cba0ffe",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0064.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Listen to my flute, listen,  \nFrom the heights of the sky.  \nIn the waves of the flute's notes,  \nThe message of the heart lies hidden.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:42:54.581725+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "806ddef1a134c09d06bd69f5acac9fe9a2adc68ef4c5d11f3de941aa611cef2c",
+        "response_hash": "fd507673db987238d020310e143cccdd1d22547b0b6ea63f9d9d227b4cccb855"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "43be1010f75a474b72a3f5955ba384eade7ca0b5e3f12d8d0cf7d0daa3908179",
+        "response_hash": "1f133f48bdf5b54a18ebe9b89d8788fd46d979afb32ab18eb2b63778843df107",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "890c695eb9f6066e3b7ff5ec0456717cbf2ce33116f4da36be5a6910df0b7f62",
+        "response_hash": "0abf45a626ebd3c0c164a1cfdd43740303064888efb60afd19350947f07903fb",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "253d39cc1ac5f25b38c48b1e9d651c6049e256d9916df360c2acc85ae2345691",
+        "response_hash": "272ec3ce752ac5f332c30c6dfc3966125add14ca5a0f95209b15b8dd81438a8d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c708c395e441067dd1dd4ebcf943a626d5f751e756864f2a5a1af60f140a6430",
+        "response_hash": "0858e1d71714ee21c6f2f0ef19d93403802ffd1abe9ad797ba37f3c98ad951a7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "746f539cc7fa4848540bdfced052571560186b23892193eba13367745ba0e2fe",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f49039d0582848363b36cbe15ca128bd80fb15cd3cf95bf7fcf1ccc235cfdf0c",
+    "translation_sha256": "4db7d905274ab3b7083e16d65249b670a54a67c4c522ae3add223326a4527408"
+  }
+}

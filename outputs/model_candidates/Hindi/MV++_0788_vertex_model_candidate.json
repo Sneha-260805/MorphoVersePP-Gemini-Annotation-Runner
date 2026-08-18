@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A woman in traditional Indian attire (sari) holding a sword or ancient weapon",
+          "A modern Indian woman depicted with the symbolic shadow or spirit of a warrior queen behind her"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A central female figure from the ancient Indian epic Mahabharata, symbolizing resilience, justice, and the fight against humiliation. In modern contexts, her name is invoked to urge women to stand up and fight for their own rights and protection.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Depicting her as a helpless victim crying for help, which contradicts the poem's call to take up arms",
+          "Depicting her as a multi-armed goddess, which confuses a human epic heroine with a deity"
+        ],
+        "preserved": true,
+        "romanization": "Draupadi",
+        "source_span_original": "द्रौपदी",
+        "source_span_translation": "Draupadi",
+        "stanza_index": 1,
+        "term": "द्रौपदी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A strong, determined woman of classical Indian appearance",
+          "Ready to take up arms or weapons",
+          "Defiant posture"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A direct, urgent call to action and self-defense, moving from an address to an immediate declaration of battle.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To stand up for oneself, take action, and prepare to fight for one's rights and dignity.",
+            "acceptable_visual_variants": [
+              "A woman standing in a powerful, resolute posture with clenched fists.",
+              "A silhouette of a woman looking forward with determination against a rising sun."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "To physically pick up weapons.",
+            "literalization_risk": "An illustrator might depict a woman literally holding ancient or modern weapons of war, which misses the modern feminist message of self-reliance and social struggle.",
+            "metaphor_mapping": {
+              "tenor_concept": "empowerment and self-defense",
+              "transferred_attributes": [
+                "readiness",
+                "strength",
+                "active resistance"
+              ],
+              "vehicle_concept": "physical weaponry"
+            },
+            "source_span_original": "शस्त्र उठा लो",
+            "source_span_translation": "pick up arms",
+            "source_term": "शस्त्र उठा लो",
+            "tenor": "Preparing for self-defense, empowerment, and standing up against injustice",
+            "vehicle": "Picking up physical weapons/arms",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a woman standing tall with a determined expression, perhaps with her fist raised or stepping forward confidently, rather than holding literal weapons."
+          },
+          {
+            "abstract_meaning": "The personal, social, or legal struggle for justice and self-respect.",
+            "acceptable_visual_variants": [
+              "A path leading through a steep, rocky terrain representing a difficult journey.",
+              "A symbolic representation of a courtroom or a public forum where voices are raised for justice."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A physical combat or war.",
+            "literalization_risk": "An illustrator might depict a literal battlefield with blood and violence, which misrepresents the metaphorical struggle for dignity.",
+            "metaphor_mapping": {
+              "tenor_concept": "social and personal struggle",
+              "transferred_attributes": [
+                "conflict",
+                "necessity of effort",
+                "high stakes"
+              ],
+              "vehicle_concept": "military combat"
+            },
+            "source_span_original": "लड़ाई",
+            "source_span_translation": "battle",
+            "source_term": "लड़ाई",
+            "tenor": "A social, personal, or legal struggle for justice and rights",
+            "vehicle": "A physical battle or war",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a symbolic path or a challenging climb ahead of a determined figure, representing a long and difficult journey of struggle."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'shastra' as 'arms' loses the specific cultural and historical resonance of traditional, sacred, or classical weaponry associated with epic warriors in Indian literature, as opposed to modern firearms.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The necessity of self-reliance and taking up arms for one's own defense, using the mythological figure of Draupadi as a symbol for modern empowerment."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss array detailing a 'medium' severity loss of cultural resonance for 'shastra'. When translation_quality is 'faithful', translation_loss should typically be empty, or the quality should be marked as 'partial' to reflect the loss.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[0].category",
+      "issue": "The cultural entity 'Draupadi' is categorized as 'MYTHOLOGICAL_EVENT', but Draupadi is a mythological character/figure, which would be more accurately categorized under a different category or represents a conceptual mismatch with 'EVENT'.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सुनो द्रौपदी, शस्त्र उठा लो,  \nतुम्हारी लड़ाई का समय आ गया है।",
+  "poem_id": "MV++_0788",
+  "poem_title": "Suno Draupadi Shastra Utha Lo",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3b12e2bf2014f0daa98b2d5d808efee7e0ae94cfb2f5b12a267cffd5489da131",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0788.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Listen, Draupadi, pick up arms,  \nThe time for your battle has come.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:11:56.270803+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b55f3eee00b5acef6bfc40bc8479a9c7a982d882473c905819f9df7722bb26c5",
+        "response_hash": "fef8f60f6f6235280fb31ba0c79de403719731724bd027ff071217596bae70a8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b2d89b86a0100561d5a4419b97b672c9dcbdbae11a4c7003a21f49951451b88b",
+        "response_hash": "85d7f0d937a4e5863e66f0887d320b54a59f46eef666f53560cebcdfe5a71d68",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d816eea877eab35561ee83e3f8f0604b56cd7cf620a03ef61228a9255dfdd4a1",
+        "response_hash": "95575b068820c87e27dea743136eae36ef95d24a1892434194b90673f3fc1673",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "71264aa0db8d72c6df3b7527f7f66e38cb243850678b8da536a348b38615d754",
+        "response_hash": "3e094c3f828f8875488e0ec8f0ac6205df79a5e8d1b6347a4580c9c3eb6041b9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bdb034fc7c31410189c42ede75429dce5ce3999e67f7707736544461247bed9c",
+        "response_hash": "aa27ab4aa7ba5887e1d1281cf9c4bde5c9c280927017315f2da267525f4547d0",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ca6f01d29019a4b0d3c979c3d55818ff87f41802497904d8b6fb365e14f63811",
+    "translation_sha256": "3cbe14396a536775c77724674aebe17d64dc4345faac4b971d6185ce199fc142"
+  }
+}

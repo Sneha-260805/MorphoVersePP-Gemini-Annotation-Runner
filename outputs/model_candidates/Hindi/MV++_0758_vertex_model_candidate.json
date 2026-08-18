@@ -1,0 +1,138 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady state of longing and quiet disappointment over an absent beloved during a rainy night.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the gender-neutral English 'I' collapses the grammatically masculine verb endings in Hindi ('jhakta raha', 'nazar aaye') which suggest a male speaker or a specific grammatical agreement.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's intense longing and constant anticipation make them mistake every passing shadow or dark shape outside for the arrival of their beloved.",
+            "acceptable_visual_variants": [
+              "A close-up of a person looking through a rain-streaked window pane, with their own reflection or outside shadows casting a faint, human-like silhouette in the background.",
+              "A wide shot of a dark room where a window lets in light from a streetlamp, casting long, ambiguous shadows on the wall that resemble a standing figure."
+            ],
+            "expression_type": "other",
+            "line_ref": "L4",
+            "literal_meaning": "You physically appeared inside every single shadow",
+            "literalization_risk": "An illustrator might literally draw multiple clones of the beloved standing inside or emerging from different shadows, which would look like a supernatural or sci-fi cloning event rather than a psychological projection of longing.",
+            "metaphor_mapping": null,
+            "source_span_original": "हर परछाईं में तुम नज़र आए",
+            "source_span_translation": "Seeing you in every shadow",
+            "source_term": "हर परछाईं में तुम नज़र आए",
+            "tenor": "The speaker's psychological projection of their beloved's form onto random shapes due to intense longing",
+            "vehicle": "The physical appearance of the beloved's form inside dark shapes/shadows",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a single lonely figure looking out of a window into a dark, rainy night, with faint, ambiguous shapes or shadows cast by trees or streetlights outside that subtly suggest the silhouette of a person, capturing the subjective illusion."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the gender-neutral or ambiguous gender marking of the speaker in Hindi (implied by the masculine-default verb form 'झाँकता रहा' which is conventionally used as a default or indicates a male speaker, but is translated with the gender-neutral English 'I kept peeking').",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the subtle passive/experiential construction of 'नज़र आए' (literally 'appeared to sight' or 'came into view'), rendering it as the active English participle 'Seeing you'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The painful anticipation and illusion of seeing a beloved who never arrives."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रात भर बारिश होती रही,  \nऔर तुम नहीं आए।  \nखिड़की से बाहर झाँकता रहा,  \nहर परछाईं में तुम नज़र आए।",
+  "poem_id": "MV++_0758",
+  "poem_title": "Aur Tum Nahin Aaye",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f46d77eebaf73750029c70815d9a2b6268922a9b7572e16d2b2df3729ce60851",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0758.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "It rained all night long,  \nAnd you did not come.  \nI kept peeking out the window,  \nSeeing you in every shadow.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:07:46.795155+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b5d811ea7961104bcbffa44ac74895800b2ef411486cd6c5f5379457c537291",
+        "response_hash": "75f0cca5fdcc5cc2e92871981f8012c9766cfc69af5f1cada6aebdada1c4c9e2"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "96cd04bc6d60878203fa3784009e40bc0c3b1038fc1d9da2f45c580d803d9a69",
+        "response_hash": "d1ec7cd7e921928762b45509c88bffe26c94006f123eda07b68b03eded29def3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "640f80c9c66c043d2718830696248887645441ddf5ac8ce974e5facd2b4a6912",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "06c16d4f8a83cd595350f57cacfcab1b8d78f27f1658b0b487b9b46578bcecd2",
+        "response_hash": "3dc28089a45e8f736fcbeac1fa8bcc18fa38ee874e50c86658ce301121da449c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ac41cb571f586b6c1493369a52397b47f23328368ff51dd7e3a0832c7ed18d57",
+        "response_hash": "106c7a1364b900ed9bc6fff4d5c3ab6aa0a09194e80a005f2e867d6b50a6f3af",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "415a22a1d59896b02c6c8a2b303a95d8e42a6d6123119e652121bb227730b3b5",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d0686f25b07fa5b54eee0ca3af944d194d95263f4f4d52fa2236d252cc69191d",
+    "translation_sha256": "8c9ec6fd93a45c7acb00905d4bf017d438b150835de7e78fdc212d3860917840"
+  }
+}

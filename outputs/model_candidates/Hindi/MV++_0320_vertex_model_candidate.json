@@ -1,0 +1,230 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "innocent longing to peaceful dreaming and joyful wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces a forced rhyme ('wish to vie') that is not present in the simple, direct Hindi phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An unattainable, beautiful desire or ideal that the speaker longs for.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking up at a large, glowing crescent moon in a starry sky",
+              "A hand reaching out towards a distant, bright full moon in a deep blue night sky"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "The Earth's natural satellite.",
+            "literalization_risk": "Depicting a person literally trying to grab or hold the physical moon, which makes the poem look like a literal fantasy rather than a symbolic longing.",
+            "metaphor_mapping": {
+              "tenor_concept": "An unattainable ideal or deep desire",
+              "transferred_attributes": [
+                "beauty",
+                "remoteness",
+                "radiance",
+                "desirability"
+              ],
+              "vehicle_concept": "The physical moon"
+            },
+            "source_span_original": "चाँद",
+            "source_span_translation": "moon",
+            "source_term": "चाँद",
+            "tenor": "An ultimate, beautiful, and seemingly unreachable desire or aspiration.",
+            "vehicle": "The physical moon in the high sky.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure looking up at a bright, luminous moon high in a vast sky, emphasizing the distance and the emotional longing of the gaze."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the phrase 'I wish to vie' to force a rhyme with 'sky', which is not present in the original Hindi text and alters the simple, direct tone of wanting the moon.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation adds 'to keep' to force a rhyme with 'asleep', slightly altering the simple desire for a world of dreams.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of mind filled with peaceful, imaginative, and hopeful thoughts during sleep.",
+            "acceptable_visual_variants": [
+              "A person sleeping peacefully in a room lit by moonlight, with soft, ethereal light patterns around their head",
+              "A surreal, soft landscape of clouds and gentle light representing a dreamscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A physical planet or world made entirely of dreams.",
+            "literalization_risk": "Drawing a literal globe or planet with dream-like objects floating on it, which misses the intimate, peaceful state of sleeping under moonlight.",
+            "metaphor_mapping": {
+              "tenor_concept": "The mental state of dreaming",
+              "transferred_attributes": [
+                "vastness",
+                "variety",
+                "immersion",
+                "creative freedom"
+              ],
+              "vehicle_concept": "A physical world or landscape"
+            },
+            "source_span_original": "सपनों का संसार",
+            "source_span_translation": "A world of dreams",
+            "source_term": "सपनों का संसार",
+            "tenor": "The subjective, peaceful realm of sleep and imagination.",
+            "vehicle": "A physical world or universe.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a peaceful sleeping figure bathed in soft, cool moonlight, with gentle, abstract, glowing shapes or soft clouds swirling around them to represent dreams."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'शीतल' (sheetal) as 'gentle' loses the specific cultural and sensory nuance of 'cool' or 'soothingly cold' light, which is highly valued in the hot climate of South Asia.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "The translation introduces 'a silent ploy' to rhyme with 'joy', which is entirely absent from the original text and alters the innocent, decorative tone of the final line.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The pure, soft, and precious quality of the moonlight that beautifies the night.",
+            "acceptable_visual_variants": [
+              "Moonlight filtering through clouds with a soft, pearly, iridescent glow",
+              "A night scene where the light on the water or ground has a shimmering, soft-white luster resembling a pearl's surface"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L11",
+            "literal_meaning": "The physical reflection of light off a highly valuable pearl.",
+            "literalization_risk": "Depicting literal pearls scattered across the night sky or on the ground, which distracts from the actual subject of moonlight.",
+            "metaphor_mapping": {
+              "tenor_concept": "The quality of moonlight",
+              "transferred_attributes": [
+                "softness",
+                "preciousness",
+                "pearly white glow",
+                "elegance"
+              ],
+              "vehicle_concept": "The luster of a pearl"
+            },
+            "source_span_original": "जैसे अनमोल मोती की चमक",
+            "source_span_translation": "Like precious pearls aglow",
+            "source_term": "जैसे अनमोल मोती की चमक",
+            "tenor": "The soft, shimmering radiance of the moonlight.",
+            "vehicle": "The luster and glow of a precious pearl.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render the moonlight with a soft, iridescent, pearlescent sheen or texture as it drapes over the landscape or clouds."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces 'a silent ploy' to force a rhyme with 'joy', which has no basis in the original Hindi text and introduces an unintended sense of deception or strategy.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A simple, childlike yearning for the beauty, comfort, and light of the moon in the quiet of the night."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मुझे चाँद चाहिए,  \nआसमान की ऊँचाई पर,  \nटिमटिमाता हुआ, उजाला फैलाता,  \nवो प्यारा सा चाँद चाहिए।  \n\nरात के अंधेरे में,  \nजब सब सो जाएँ,  \nउसकी शीतल रोशनी में,  \nसपनों का संसार चाहिए।  \n\nमुझे चाँद चाहिए,  \nखुशियों की झिलमिलाहट में,  \nजैसे अनमोल मोती की चमक,  \nउससे सजती रात चाहिए।",
+  "poem_id": "MV++_0320",
+  "poem_title": "Mujhe Chand Chahiye",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "dd41fa9da3aebb6a8fe5b6fcf105be1e288663332373c566ec7ea9d836b7d7ec",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0320.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I want the moon,  \nHigh in the sky,  \nTwinkling, spreading light,  \nThat lovely moon I wish to vie.  \n\nIn the dark of night,  \nWhen all fall asleep,  \nIn its gentle glow,  \nA world of dreams to keep.  \n\nI want the moon,  \nIn shimmering joy,  \nLike precious pearls aglow,  \nA night adorned, a silent ploy.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:12:21.714185+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fa9575f9d8dfa7fca66c6ef482e8f5ea8d17559b9966ae460f32c06088131ec6",
+        "response_hash": "6bf2e9c8b47074923daea662e74d320963f5173b7b8437e2cc712b5ccd5ab1de"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a8f109d176d0eeb72f72d3192369a308a81d6a1fd697e7b8e827cfd44a11ca3b",
+        "response_hash": "6cc161b442078dce0f4dbf4e413dcf140af67225866d80fa42883febe7304cbd",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b0b46fb74f9e0e4f1358ba92b8807fb0d16f4625af286da4a4f025aab6322942",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "002fa35068c955213f62b059e87530acb1aaaa632a21b9637b937c4d6349d22a",
+        "response_hash": "e8f142d67ce204a2a804cfa1b5cad44fd537b42d5d3a455a4e90d8dd5be6d6df",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9bef0128798ab30151f93ac8c4b8b96e6b8a29b0e46336e2b51b7a80e0860f02",
+        "response_hash": "1b452bd26c52f61dcf9329e3b1a8162606b8f99d115826dd6f38d39279b52f35",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f3e4c03911025f9a267a105daa17274989d2152af95a509a7760ffd45f0c529f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f4cdec059a4636413d29ebf919bb7bbfaec4aaabe8fb8adb446ae17fdf76b751",
+    "translation_sha256": "d2e5315299b95dd9222014348949f45ec2c343d7e1a442a703f445bf72cdc2dc"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and uncertainty",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life is complex, confusing, and full of unanswered questions.",
+            "acceptable_visual_variants": [
+              "A person looking at a winding path",
+              "A silhouette facing a complex maze"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Life is a riddle or puzzle",
+            "literalization_risk": "Showing a literal jigsaw puzzle or word puzzle would miss the existential weight of living through confusing times.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "complexity",
+                "unsolved nature",
+                "need for a solution"
+              ],
+              "vehicle_concept": "puzzle"
+            },
+            "source_span_original": "வாழ்க்கை ஒரு விடுகதை",
+            "source_span_translation": "Life is a puzzle",
+            "source_term": "வாழ்க்கை ஒரு விடுகதை",
+            "tenor": "human life and its unpredictable nature",
+            "vehicle": "a riddle / puzzle",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing at a crossroads or looking at a complex path that twists into the distance, suggesting a search for direction."
+          },
+          {
+            "abstract_meaning": "Time or the present moment is actively seeking answers, emphasizing the urgency of finding meaning.",
+            "acceptable_visual_variants": [
+              "A person looking up at a starry sky as if waiting for a sign",
+              "An hourglass with sand slipping through, casting a long shadow"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The moment searches for a solution",
+            "literalization_risk": "Depicting a literal clock or hourglass with eyes and hands searching would look cartoonish and ruin the reflective tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "a moment of time",
+              "transferred_attributes": [
+                "agency",
+                "seeking",
+                "urgency"
+              ],
+              "vehicle_concept": "human seeker"
+            },
+            "source_span_original": "தீர்வு தேடும் கணம்",
+            "source_span_translation": "The moment searches for answers",
+            "source_term": "தீர்வு தேடும் கணம்",
+            "tenor": "the passage of time / the present moment",
+            "vehicle": "a searching person",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person in deep contemplation under a shifting sky, capturing the fleeting nature of a single moment of decision."
+          },
+          {
+            "abstract_meaning": "Love is beautiful, fleeting, and perhaps illusory or intangible.",
+            "acceptable_visual_variants": [
+              "Two figures in a misty, ethereal landscape",
+              "A soft-focus scene of a shared memory fading at the edges"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "Love is like a dream",
+            "literalization_risk": "Showing a sleeping person dreaming would literalize the act of sleep rather than the quality of love.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "transience",
+                "beauty",
+                "intangibility",
+                "unreality"
+              ],
+              "vehicle_concept": "dream"
+            },
+            "source_span_original": "காதல் ஒரு கனவினைப் போல",
+            "source_span_translation": "Love is like a dream",
+            "source_term": "காதல் ஒரு கனவினைப் போல",
+            "tenor": "romantic love",
+            "vehicle": "a dream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use soft, hazy lighting and semi-transparent figures to suggest a beautiful but fleeting memory or presence."
+          },
+          {
+            "abstract_meaning": "The lingering memory or trace of a loved one continues to follow and haunt the speaker.",
+            "acceptable_visual_variants": [
+              "A single person walking with a double shadow on the path",
+              "A faint, glowing outline of a figure walking slightly behind the main subject"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "Only your physical shadow is behind me",
+            "literalization_risk": "Showing a literal dark silhouette on the ground might look like a horror scene rather than a poignant romantic memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory of a person",
+              "transferred_attributes": [
+                "following closely",
+                "intangibility",
+                "being a trace of the original person"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "உன் நிழல் மட்டும் என் பின்னே",
+            "source_span_translation": "Only your shadow follows me",
+            "source_term": "உன் நிழல் மட்டும் என் பின்னே",
+            "tenor": "the lingering memory or presence of an absent lover",
+            "vehicle": "a shadow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lonely figure walking, with a faint, stylized second shadow cast beside or behind them that does not match their own posture."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil word 'vidukathai' literally means a riddle, which carries a stronger connotation of a word-puzzle or mystery to be solved than the generic English word 'puzzle'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The poetic rhythm and the internal rhyme of 'vidukathai' (L1) and 'pola' (L3), along with the postpositional structure of 'pinnē' (behind me / following me) in L4, are flattened into standard English declarative syntax.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The elusive nature of life and love, leaving only a lingering presence"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "வாழ்க்கை ஒரு விடுகதை,  \nதீர்வு தேடும் கணம் இங்கே,  \nகாதல் ஒரு கனவினைப் போல,  \nஉன் நிழல் மட்டும் என் பின்னே!",
+  "poem_id": "MV++_1305",
+  "poem_title": "Vaazhkai Oru Vidukathai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6714e80e03b74823867b57737fe646b87dd17cb820e52c20f743ccb7a03a5020",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1305.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Life is a puzzle,  \nThe moment searches for answers here.  \nLove is like a dream,  \nOnly your shadow follows me!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:19:37.067106+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "41af3e8ff3e9713e5566e3dfe3b915912e19cecd1a660e3191daa69ce5d7c568",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1d871f440dd0537e30bbe744d374b9092bd4a0348d5061468397a69ea646f35a",
+        "response_hash": "4f915f74be63aed6b99b8290ae8937ab878cbc2718718b265227197042fbe139",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a46e668dc854e8be1405f25d7bba505986f5784406c6d752af0952e2483236c7",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b1b399ea5b7fb4a438bde0da64aa5da626bac6f1ef8ad1ff3a171dc32dfe82dc",
+        "response_hash": "61af7a8b04d61a6bbad647e938289d82277ab99b544d5f29e80c75774fc22a8e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d1e4663afd5eac15fcbb15d00800e5d80d5c97d37ec78c6f167c4dbda26c3e80",
+        "response_hash": "841bf34cbe1fb71b79b23b5de35684f6a5b2fcebde1b1a1f2e5b70a88049391b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ec09f10b5fd8e7e28fd694ba07dafd45d0fd4083d51a061fd397417bc7490a2d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8ef9f03601d9aa6b34a5456b31aae4daf3548d68d1591b891a429993d6f67120",
+    "translation_sha256": "64413d7933b2b6ae58ab070b6e9346cefce0a7d234f01ec2486f754be264a750"
+  }
+}

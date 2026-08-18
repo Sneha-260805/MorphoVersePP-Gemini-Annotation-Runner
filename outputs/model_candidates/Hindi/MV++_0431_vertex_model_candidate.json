@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady state of deep devotion and tender remembrance.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The persistent, beautiful memory and presence of the beloved's identity.",
+            "acceptable_visual_variants": [
+              "A person looking out a window with a soft, warm breeze blowing through, suggesting a lingering presence.",
+              "A close-up of a handwritten letter or name on paper surrounded by delicate, fragrant petals."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The physical scent or perfume of your name",
+            "literalization_risk": "Showing literal letters of a name emitting physical smoke or perfume mist, which looks comical or magical rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory of a name",
+              "transferred_attributes": [
+                "sweetness",
+                "pervasiveness",
+                "lingering presence",
+                "evocative power"
+              ],
+              "vehicle_concept": "fragrance"
+            },
+            "source_span_original": "तुम्हारे नाम की ख़ुशबू",
+            "source_span_translation": "The fragrance of your name",
+            "source_term": "तुम्हारे नाम की ख़ुशबू",
+            "tenor": "the memory and presence of the beloved's name",
+            "vehicle": "fragrance / scent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person gently holding a letter or thinking of someone, with soft, warm light or subtle floral elements in the air to suggest a sweet, pervasive atmosphere."
+          },
+          {
+            "abstract_meaning": "In every part of the speaker's inner emotional life and memory.",
+            "acceptable_visual_variants": [
+              "An abstract representation of a glowing heart shape containing a soft, cherished image or light within.",
+              "A reflective person sitting in a cozy, warm room that represents their inner sanctuary."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In every physical corner of the heart organ",
+            "literalization_risk": "Depicting a literal anatomical heart with physical rooms or corners inside it, which would look surreal or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional heart",
+              "transferred_attributes": [
+                "having corners",
+                "containing objects",
+                "spatial depth"
+              ],
+              "vehicle_concept": "physical room"
+            },
+            "source_span_original": "दिल के हर कोने में",
+            "source_span_translation": "In every corner of my heart",
+            "source_term": "दिल के हर कोने में",
+            "tenor": "the emotional capacity and memory of the speaker",
+            "vehicle": "a physical room or space with corners",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the emotional state of the speaker, perhaps showing them in a quiet, reflective space filled with memories or soft light, symbolizing the inner chambers of the mind and heart."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces the word 'fold' ('every moment's fold') to create a rhyme with 'behold', which is not present in the original Hindi text ('har lamhe mein basi hai' simply means 'is settled/dwelling in every moment').",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the active verb 'I behold' to complete the rhyme scheme, whereas the original Hindi ('tumhari hi ek chhavi hai') is a simple existential statement ('there is only an image of you').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The omnipresence of the beloved's memory in the speaker's heart and time."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a detailed loss_note should ideally accompany non-faithful elements, or the quality should be marked as 'partial' to reflect the structural additions ('fold', 'behold') noted in translation_loss.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हारे नाम की ख़ुशबू,  \nहर लम्हे में बसी है।  \nदिल के हर कोने में,  \nतुम्हारी ही एक छवि है।",
+  "poem_id": "MV++_0431",
+  "poem_title": "Tumhare Naam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c308409ff4dc8d2f128700695c7153cd1de851c41b4a43e12de2f746d09202fb",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0431.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The fragrance of your name,  \nIs in every moment's fold.  \nIn every corner of my heart,  \nYour image I behold.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:23:44.675764+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7627e30223db0146edf9ce92347bbcce18296644319cf51b5962ae5994ca9525",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "59f6a9002374072d93cc4769bab596be26298407d04201b7237cd0637c459b0f",
+        "response_hash": "e06c0809afaa0ffbb558637e8f6a16bbc68cb2021c7385c65d621bc1226abd0a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8c33b6d43470704b4ff30be58c062e333f0ea092ab4304417e27934fb35dab4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8747c1acaf68eec0a35fbf3d8cec9bc1db0c4bf1a1179209808da33d825619ab",
+        "response_hash": "e78e61f91b2a32c3efc42e9dad1b3ca41f8c3be39ea5afa38f764befeac0b682",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "47d933d97c0d31c691798eba6a624d133ca58d3a555ebb1ad3460bb0cd1a246c",
+        "response_hash": "7666ab8cbd4d07f384c52235d024f5602f04087631f63718eb10358164e02cc1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5fe118b1548e1ac546e787549298450f7f4356cc6057e0b89b7394f545b23ba3",
+        "response_hash": "adfdd9a0d7f7f63c7838fa9a4e22d8e866d5db53a04ac6d61f34f7d0378b317b",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "af69b293d6f2c2dffbf4025607a509f8fd116e319bad414565a733c2dbbaf528",
+    "translation_sha256": "b66a70a380e9186d8de8eeda4e313ebb8122db05b26e49880659ff43e8ab823f"
+  }
+}

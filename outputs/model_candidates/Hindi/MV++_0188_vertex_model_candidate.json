@@ -1,0 +1,219 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet contemplation of harshness moving to resilient self-assertion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation 'The warmth feels' loses the precise grammatical structure of 'गर्मी का एहसास' (the sensation/feeling of warmth), rendering it as an active verb 'feels' rather than a noun phrase.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sun acts as a companion or witness that illuminates, guides, or shares in the journey of the speaker's inner aspirations and dreams.",
+            "acceptable_visual_variants": [
+              "A person walking on a dusty path under a brilliant, dominant sun.",
+              "Sunlight filtering through clouds onto a long road stretching into the horizon."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5-L6",
+            "literal_meaning": "The physical sun has traveled the path of our dreams.",
+            "literalization_risk": "Showing a literal sun walking down a road or path made of literal sleeping dreams, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "The sun illuminating or accompanying human dreams",
+              "transferred_attributes": [
+                "traveling",
+                "accompanying",
+                "witnessing"
+              ],
+              "vehicle_concept": "A traveler making a journey"
+            },
+            "source_span_original": "सूरज ने किया है,\nहमारे सपनों का सफर।",
+            "source_span_translation": "The sun has made,\nThe journey of our dreams.",
+            "source_term": "सूरज ने किया है,\nहमारे सपनों का सफर।",
+            "tenor": "The external light/reality interacting with or guiding internal human aspirations",
+            "vehicle": "The sun as a traveler or companion making a journey",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a bright sun casting long, warm rays over a path where a person is walking, with subtle dreamlike or ethereal elements in the air to suggest the journey of aspirations."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intense heat or harshness of life affects even the most protected, cool, and sheltered spaces (the shadows of deep trees).",
+            "acceptable_visual_variants": [
+              "Heat distortion waves rising from the ground under a tree's canopy.",
+              "A stark contrast of blinding white light eating away at the dark edges of a tree's shadow."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9-L10",
+            "literal_meaning": "The dark shadows cast by thick trees are physically catching fire or burning in the sun.",
+            "literalization_risk": "Showing literal black shadows on the ground on fire with orange flames, which is physically impossible and visually confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "The intensity of life's hardships overcoming protective barriers",
+              "transferred_attributes": [
+                "heat",
+                "destruction of coolness",
+                "vulnerability"
+              ],
+              "vehicle_concept": "Shadows catching fire"
+            },
+            "source_span_original": "धूप में जलतीं हैं,\nछायाएँ गहरे दरख्तों की।",
+            "source_span_translation": "Shadows of deep trees,\nBurn in the sunlight.",
+            "source_term": "धूप में जलतीं हैं,\nछायाएँ गहरे दरख्तों की।",
+            "tenor": "The loss of shelter or the penetration of harsh reality into places of refuge",
+            "vehicle": "Shadows burning in the sunlight",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a very harsh, blindingly bright sunlight hitting the ground under large trees, where the shade looks thin, shimmering with heat waves, or dissolving under the intense glare."
+          },
+          {
+            "abstract_meaning": "The speakers endure suffering, hardships, or intense trials (burning) but maintain their agency, spirit, and self-expression (singing their own songs).",
+            "acceptable_visual_variants": [
+              "People walking through a hot, sun-drenched landscape with calm, singing expressions.",
+              "Silhouettes of people against a blazing sunset or bright sun, standing tall and singing."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11-L12",
+            "literal_meaning": "Our physical bodies are on fire, yet we continue to sing vocal melodies.",
+            "literalization_risk": "Depicting literal people engulfed in flames while singing, which looks like a horrific scene of torture rather than a metaphor for resilience.",
+            "metaphor_mapping": {
+              "tenor_concept": "Resilience and self-expression amidst intense life struggles",
+              "transferred_attributes": [
+                "pain",
+                "heat",
+                "unbroken spirit",
+                "vocal expression"
+              ],
+              "vehicle_concept": "Burning in fire while singing"
+            },
+            "source_span_original": "हम भी जलते हैं,\nपर अपने ही गीत गाते हैं।",
+            "source_span_translation": "We too burn,\nYet sing our own songs.",
+            "source_term": "हम भी जलते हैं,\nपर अपने ही गीत गाते हैं।",
+            "tenor": "Enduring suffering or hardship while maintaining creative spirit and resilience",
+            "vehicle": "People burning while singing songs",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show people walking or standing under a harsh, blazing sun with expressions of determination or peaceful resilience, their lips parted in song, perhaps with symbolic musical notes or light radiating from them."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation 'Shadows of deep trees' loses the specific poetic register of 'दरख्तों' (darakhton), which is a Persian-derived Urdu loanword for trees commonly used in Hindi poetry to evoke a particular literary and aesthetic depth, flattening it to the generic 'trees'.",
+            "where": "L10"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the subtle grammatical gender agreement in 'जलतीं हैं' (feminine plural verb agreeing with the feminine plural noun 'छायाएँ' / shadows), which highlights the active, personified burning of the shadows in Hindi.",
+            "where": "L9-L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Finding self-awareness and creative resilience through the trials and burning heat of life"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "दोपहर की धूप में,  \nबड़ी सर्दी है।  \nगर्मी का एहसास,  \nसिर से लेकर पांवों तक।  \n\nसूरज ने किया है,  \nहमारे सपनों का सफर।  \nनंगे पांव चलते हैं,  \nखुद को पहचानते हैं।  \n\nधूप में जलतीं हैं,  \nछायाएँ गहरे दरख्तों की।  \nहम भी जलते हैं,  \nपर अपने ही गीत गाते हैं।",
+  "poem_id": "MV++_0188",
+  "poem_title": "Dhoop",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "dfdca3196892e18c01a48e3496f0b101d61755e0b5534541a6aa9b7e0167020d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0188.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the noon sunlight,  \nThere’s a great chill.  \nThe warmth feels,  \nFrom head to toes.  \n\nThe sun has made,  \nThe journey of our dreams.  \nWe walk barefoot,  \nRecognizing ourselves.  \n\nShadows of deep trees,  \nBurn in the sunlight.  \nWe too burn,  \nYet sing our own songs.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:57:14.271237+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b1ea799b2822c3fdb786dee52da2e43a6548954bf03ad697a01177ca1ad3f787",
+        "response_hash": "ecb824962b68d6500e858d832f8b658f64368e5fc4903492b8e5d3366747f4bf",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2713197c4d1c9ef12c536ee362d672f73c1b79234fb785ed1edb2f6ded212ab7",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5dc77ec8365100b5130ebe61f3759f66bd37e6a3336a2374926f908b95cf100a",
+        "response_hash": "eab13e1c79c13fb11de57a614a44a6991e485c705f366f1c4e54a7e812e295c3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "651b076e44f00a7788bbc3e4bdee8589fa1b2dd31c785e14a4ead1c0e0d16596",
+        "response_hash": "20941984c3e026174d192a93152f383836ea24e247c038f2e46f4c8d186a1024",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fc51945e84f15ca89ecae26b68bc695fa4a16e950d1fb27039e33228cfbea624",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1b75bfe48d23b265511bc3943361f00bbfba81902b9d822ab4005ad1a6bb4052",
+    "translation_sha256": "9953811c937c3af33fa698273833924af92f65e8f4f2f491bed11ab341907217"
+  }
+}

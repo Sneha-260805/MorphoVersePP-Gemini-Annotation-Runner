@@ -1,0 +1,197 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "peaceful wonder to deep existential acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An intense, overwhelming, and delightful presence of sweet scents in the night air.",
+            "acceptable_visual_variants": [
+              "A soft, luminous mist weaving through garden foliage under the moonlight",
+              "Delicate flower petals drifting on a gentle night breeze"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Showers or downpours of fragrance",
+            "literalization_risk": "An illustrator might literally depict droplets of perfume or liquid scent falling from the sky like rain, which would look unnatural and miss the atmospheric poetic meaning.",
+            "metaphor_mapping": {
+              "tenor_concept": "intense fragrance",
+              "transferred_attributes": [
+                "abundance",
+                "refreshing quality",
+                "falling or spreading through the air"
+              ],
+              "vehicle_concept": "rain showers"
+            },
+            "source_span_original": "खुशबू की बौछारें",
+            "source_span_translation": "showers of fragrance",
+            "source_term": "खुशबू की बौछारें",
+            "tenor": "The intense and widespread scent of flowers in the air",
+            "vehicle": "Rain showers or downpours (bouchaarein)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a gentle night breeze carrying visible soft petals, pollen, or a subtle glowing mist swirling around blooming flowers to suggest the movement of scent."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the rhythmic and phonetic resonance of the Hindi alliterative phrasing 'chaandni raat' and 'chaand ki kirnein' which share the root 'chaand' (moon).",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Dreams become more vivid, beautiful, and full of hope or imagination.",
+            "acceptable_visual_variants": [
+              "A sleeping figure with a dream bubble showing a vibrant, colorful landscape",
+              "A wash of warm, glowing colors spreading across a dark, starry night sky above a sleeping person"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Colors are painted or climb onto dreams",
+            "literalization_risk": "Showing literal paint cans or brushes coloring a sleeping person's head would look comical and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "the enrichment of subconscious thoughts and desires",
+              "transferred_attributes": [
+                "vibrancy",
+                "beauty",
+                "transformation from dull to colorful"
+              ],
+              "vehicle_concept": "dyeing or painting a canvas"
+            },
+            "source_span_original": "सपनों में रंग चढ़ते हैं",
+            "source_span_translation": "Colors rise in dreams",
+            "source_term": "सपनों में रंग चढ़ते हैं",
+            "tenor": "Dreams becoming vivid, intense, and emotionally rich",
+            "vehicle": "Applying vibrant paint or dye (rang chadhna)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a sleeping person with soft, swirling, multicolored pastel or watercolor-like clouds rising from their mind, blending into the moonlit background."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'rang chadhte hain' as 'colors rise' loses the idiomatic Hindi nuance of 'rang chadhna', which implies becoming deeply saturated, colored, or intensely influenced by an emotion or state.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The beauty of moonlight as a backdrop to the entire cycle of human life and dreams"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].translation_loss",
+      "issue": "Stanza 2 is marked as translation_quality 'faithful' and has an empty loss_note, but contains a non-empty translation_loss list. This is internally inconsistent. If translation loss is present, translation_quality should be 'partial' or the loss_note should describe it.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[2].translation_loss",
+      "issue": "Stanza 3 is marked as translation_quality 'faithful' and has an empty loss_note, but contains a non-empty translation_loss list. This is internally inconsistent. If translation loss is present, translation_quality should be 'partial' or the loss_note should describe it.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चाँदनी\n\nचाँदनी रात है,  \nचाँद की किरणें बिखरी हैं,  \nनदियों में लहरें हैं,  \nखुशबू की बौछारें हैं।  \n\nबागों में फूल खिलते हैं,  \nसपनों में रंग चढ़ते हैं,  \nइस चाँदनी में जीते हैं,  \nइस चाँदनी में मरते हैं।",
+  "poem_id": "MV++_0797",
+  "poem_title": "Chandni",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "37c03b0bcb07ba7a053b60eafbb3c998228726de944d5c7bbaa36f969c064071",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0797.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Moonlight\n\nIt’s a moonlit night,  \nMoonbeams are scattered,  \nThere are waves in the rivers,  \nAnd showers of fragrance.  \n\nFlowers bloom in the gardens,  \nColors rise in dreams,  \nWe live in this moonlight,  \nWe die in this moonlight.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:13:28.577595+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "54b12b4ff50ed521c994bc9a5d7969d257719c27ee139493025953e1d36029b3",
+        "response_hash": "ce86f3a60ca56dabb52ee07672f282ce63d855c7d4300050d6128df9cede77ed",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "13a9e8f90750e9dc760e464bac2fb360676e06a92980767d84497a6d315ccc33",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6289cb8a5a972a21eb46b320db3a813f62effef52a0fa6167ba6740734a81c27",
+        "response_hash": "582c0bbec76e13b9afd80fb26ca6c340d456c501573085d7521e08197944bab7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6dfc19553fef1d96b0b8ed34aad08ca03eb970237523fe8dcea112dcde8eb53a",
+        "response_hash": "64b5a929a56829c4315a31cd1c0dc8fab0d68246d6e9184641b102dc1a5d6a6c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bdb2252aaf59be9edc052a7e785f8d781a3708529c703cc38bb2cffa24770483",
+        "response_hash": "b77c261fa57d78a9396cf87f5852cb8fa6f784a75939ca5980478c1f13a0ec8a",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c98a8ef55bf0d662110eccdecce8b65f24ee7ed11bfbb152012e7521452de62a",
+    "translation_sha256": "ff5080157423e35b0c02cf9c1ec5e05cd6db76a22fdc2f2134a078b4623aab71"
+  }
+}

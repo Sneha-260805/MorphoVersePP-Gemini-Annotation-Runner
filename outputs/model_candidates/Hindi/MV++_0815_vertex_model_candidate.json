@@ -1,0 +1,341 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A close-up of a fresh pink or red flower bud glistening with dew",
+          "A stylized floral motif reminiscent of traditional Kashmiri embroidery (Kashida)"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Literally 'the bud of Kashmir', a highly recognizable cultural trope in India symbolizing pristine, natural beauty, often associated with the scenic landscapes and romanticized imagery of the Kashmir valley.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic tropical flower like a hibiscus or lotus which does not evoke the temperate climate of Kashmir",
+          "An over-commercialized tourist souvenir"
+        ],
+        "preserved": true,
+        "romanization": "Kashmir ki kali",
+        "source_span_original": "कश्मीर की कली",
+        "source_span_translation": "The flower of Kashmir",
+        "stanza_index": 1,
+        "term": "कश्मीर की कली",
+        "translation_note": "Translated literally as 'The flower of Kashmir', which captures the literal meaning but loses the cultural resonance of the phrase as a classic romantic trope and regional symbol in Indian popular culture.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A delicate, blooming flower bud",
+          "Set against a backdrop of snowy mountains or misty valleys"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "wonder and peace sustained throughout",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'surmayi' as 'slate' captures the color but loses the poetic, soft, and romantic connotations of kohl-colored or dusky-grey rivers in Hindi poetry.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A beautiful, delicate young woman or the pristine essence of Kashmir itself, personified as a blooming flower.",
+            "acceptable_visual_variants": [
+              "A young woman in traditional Kashmiri dress smiling in a valley",
+              "A close-up of a delicate wild flower bud blooming in the snow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The bud of Kashmir",
+            "literalization_risk": "Depicting a literal botanical bud floating in the air rather than capturing the human or regional beauty it represents.",
+            "metaphor_mapping": {
+              "tenor_concept": "youthful beauty or regional essence",
+              "transferred_attributes": [
+                "delicacy",
+                "blooming",
+                "freshness"
+              ],
+              "vehicle_concept": "flower bud"
+            },
+            "source_span_original": "कश्मीर की कली",
+            "source_span_translation": "The flower of Kashmir",
+            "source_term": "कश्मीर की कली",
+            "tenor": "A young woman or the natural beauty of Kashmir",
+            "vehicle": "A flower bud (kali)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a graceful young woman in traditional Kashmiri attire amidst a scenic valley, or a beautiful blooming flower integrated into a scenic landscape."
+          },
+          {
+            "abstract_meaning": "The quiet, serene, and undisturbed flow of the river, conveying deep peace.",
+            "acceptable_visual_variants": [
+              "A glassy, reflective river surface winding through mountains",
+              "A misty river at dawn with still waters"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "Flows like silence",
+            "literalization_risk": "Attempting to draw 'silence' as a physical substance flowing in water, which is abstract and impossible to draw literally.",
+            "metaphor_mapping": {
+              "tenor_concept": "river flow",
+              "transferred_attributes": [
+                "quietness",
+                "calmness",
+                "lack of disturbance"
+              ],
+              "vehicle_concept": "silence"
+            },
+            "source_span_original": "बहे जैसे खामोशी",
+            "source_span_translation": "Like silence flowing",
+            "source_term": "बहे जैसे खामोशी",
+            "tenor": "The quiet flow of the river",
+            "vehicle": "Silence",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a calm, smooth, slate-colored river flowing gently through a quiet, misty valley with no visible ripples or turbulent waves."
+          },
+          {
+            "abstract_meaning": "A thick, smooth, and continuous layer of snow covering the landscape like a blanket.",
+            "acceptable_visual_variants": [
+              "A vast snow-covered mountain range under a soft sky",
+              "A village with roofs and fields blanketed in thick white snow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A bedsheet of snow",
+            "literalization_risk": "Drawing an actual woven textile bedsheet made of fabric draped over mountains.",
+            "metaphor_mapping": {
+              "tenor_concept": "snow cover",
+              "transferred_attributes": [
+                "flatness",
+                "whiteness",
+                "covering completely"
+              ],
+              "vehicle_concept": "bedsheet"
+            },
+            "source_span_original": "बर्फ की चादर",
+            "source_span_translation": "wrapped in snow",
+            "source_term": "बर्फ की चादर",
+            "tenor": "A thick layer of snow",
+            "vehicle": "A bedsheet or blanket (chadar)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show mountains and valleys completely covered in a smooth, pristine, unbroken layer of white snow."
+          },
+          {
+            "abstract_meaning": "The daily cycle of nature and life in Kashmir creating new experiences and beautiful scenes every day.",
+            "acceptable_visual_variants": [
+              "Golden morning sunbeams piercing through mountain mists",
+              "A fresh sunrise over a quiet Kashmiri lake"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Every morning weaves a new story",
+            "literalization_risk": "Showing a literal personified 'morning' figure holding a loom or knitting needles.",
+            "metaphor_mapping": {
+              "tenor_concept": "morning / time",
+              "transferred_attributes": [
+                "creation",
+                "gradual assembly",
+                "unfolding of patterns"
+              ],
+              "vehicle_concept": "weaver"
+            },
+            "source_span_original": "हर सुबह बुनती है एक नई कहानी",
+            "source_span_translation": "Each morning weaves a new tale",
+            "source_term": "हर सुबह बुनती है एक नई कहानी",
+            "tenor": "The passage of time and changing of days bringing new beauty",
+            "vehicle": "A weaver weaving a story",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show the transition of dawn with golden sunlight breaking over the mountains, illuminating a fresh, untouched landscape."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'कली' (kali) literally means 'bud' rather than a fully bloomed 'flower', which carries a connotation of youth, potential, and delicate beauty that is flattened by translating it as 'flower'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'सुरमई' (surmayi) evokes a specific greyish-blue, kohl-like, or twilight shade, which is translated literally as 'slate', losing its poetic, soft, and romantic visual associations.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The metaphor 'बर्फ की चादर' (barf ki chadar) literally translates to 'a sheet/shroud of snow', which is rendered more abstractly as 'wrapped in snow', losing the specific domestic and comforting imagery of a bedsheet or blanket.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'kali' as 'flower' rather than 'bud' loses the specific nuance of unblossomed potential and delicate youth inherent in the Hindi term.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life is deeply intertwined with, and finds its vibrant expression in, the natural fragrance and beauty of the flowers.",
+            "acceptable_visual_variants": [
+              "Vibrant wild flowers blooming in a lush green meadow",
+              "A close-up of fresh blossoms glistening with morning dew"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Life resides / is settled",
+            "literalization_risk": "Showing tiny human figures living inside flower petals.",
+            "metaphor_mapping": {
+              "tenor_concept": "vitality of life",
+              "transferred_attributes": [
+                "dwelling",
+                "belonging",
+                "presence"
+              ],
+              "vehicle_concept": "resident"
+            },
+            "source_span_original": "बसी है जिंदगी",
+            "source_span_translation": "life resides",
+            "source_term": "बसी है जिंदगी",
+            "tenor": "The essence of life and vitality",
+            "vehicle": "A resident or dweller",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict vibrant, colorful flowers in full bloom with bees or butterflies, conveying a strong sense of natural vitality and life."
+          },
+          {
+            "abstract_meaning": "A beautiful, dreamlike reflection or manifestation of serene, slate-colored dreams.",
+            "acceptable_visual_variants": [
+              "A soft, hazy reflection of a woman or mountains in a calm lake",
+              "A dreamlike, double-exposure style visual blending a silhouette with misty mountains"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A beautiful shadow of slate-colored dreams",
+            "literalization_risk": "Drawing a dark, literal silhouette shadow cast on a wall, which ruins the romantic, soft, dreamlike quality.",
+            "metaphor_mapping": {
+              "tenor_concept": "ethereal presence",
+              "transferred_attributes": [
+                "softness",
+                "reflection",
+                "dreamlike quality"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "सुरमई सपनों की, हसीन परछाई",
+            "source_span_translation": "A beautiful shadow of slate dreams",
+            "source_term": "सुरमई सपनों की, हसीन परछाई",
+            "tenor": "The delicate, ethereal presence of the beloved or the valley's beauty",
+            "vehicle": "A shadow (parchhai)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Use a soft-focus, misty, or semi-translucent visual style showing a graceful figure or landscape reflected softly in still water under a twilight sky."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'कली' (kali) is again translated as 'flower' instead of 'bud', losing the delicate nuance of a budding flower.",
+            "where": "L7"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'सुरमई' (surmayi) is again translated as 'slate', losing its poetic, kohl-like, and twilight-colored connotations in the context of dreams.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The serene, dreamlike beauty and natural magic of Kashmir"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' describes a loss of cultural resonance, which is internally inconsistent. 'preserved' should be false if the cultural resonance is lost or partially preserved.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कश्मीर की कली, खिलती है वहाँ,  \nसुरमई नदियों में, बहे जैसे खामोशी।  \nसपनों का जहां, बर्फ की चादर,  \nहर सुबह बुनती है एक नई कहानी।  \n\nहर रंग में छुपा है वहाँ का जादू,  \nफूलों की महक में, बसी है जिंदगी।  \nकश्मीर की कली, बगिया में बसी,  \nसुरमई सपनों की, हसीन परछाई।",
+  "poem_id": "MV++_0815",
+  "poem_title": "Kashmir Ki Kali",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d6f9af562ca8d0c9156a606919938b82bfec404988b9126e22825b5cd3f4a2d0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0815.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The flower of Kashmir blooms there,  \nLike silence flowing in the slate rivers.  \nA land of dreams, wrapped in snow,  \nEach morning weaves a new tale.  \n\nIn every color, the magic is hidden,  \nIn the fragrance of flowers, life resides.  \nThe flower of Kashmir, nestled in the garden,  \nA beautiful shadow of slate dreams.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:15:58.424042+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "97c13a02b9049f9a915e3387afc1cb0324250f0d59ba46abde54affb77c2c74f",
+        "response_hash": "8a313161d855317f5ee0c0a447b1ceaa9ac68fcd33ea8acb51eddb422fd7dcf9"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9a46ed44b6c4831f1caa18e883513fc8f852df040da70a17ddf8b66ee1aa7a76",
+        "response_hash": "3a6cd7cc5555e9d6ada762995639972e9214c47a9b4df40024144ec5f90ae3e7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9d353a9792b9fc639b534034fe7a6130c7b1ddebb3c9e3901b63e8ce44cbbafa",
+        "response_hash": "57fe98da5ac6035cf2cfd62456d465c1d0f104fef2fd8c162228022ead2dd4eb",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d04c98d576f3453f8bd6e84d68edbdb35d717792a493a9cb26f68f3167c2bd83",
+        "response_hash": "ede3b3169da14832c6363ad2dff0e594e26a655770c77b71ffe089ed134f916b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "850bb6d34fdba0db44d187aa94f6a5be8965e8701916a6ea15603cb064c158a3",
+        "response_hash": "56e5108529d208d11296fb01d7fe2336a78f647bdad59d0c937ef32488ad2c8a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "968f842a2a1aac0dc0a09c29a77a9832c4b96bfda20110e59f44f6a824eafb73",
+        "response_hash": "4f4737a3c7521706516c93b5408d3e3f8acae7459f4344f9bfa3effd4b1d2725",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "643d0706f5e34c2fa352b202fbcdb306ab6ca27687283cafd0c8a48f317a2050",
+    "translation_sha256": "6e05437627be2905612304a9a18e498713ab65e699b85eea5277218ac1308afd"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A young Tamil boy being embraced affectionately by a parent",
+          "A symbolic representation of a precious child surrounded by warm, golden light"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A common Tamil term of endearment literally meaning 'golden son', used to express deep affection, pride, and the precious value of a male child or loved one.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "An actual statue made of solid gold",
+          "A royal prince wearing an elaborate golden crown and jewels"
+        ],
+        "preserved": true,
+        "romanization": "thanga magan",
+        "source_span_original": "தங்க மகன்",
+        "source_span_translation": "Golden son",
+        "stanza_index": 1,
+        "term": "தங்க மகன்",
+        "translation_note": "Translated literally as 'Golden son', which is a common Tamil term of endearment for a beloved son or male figure, carrying connotations of preciousness, purity, and high esteem.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A young boy or son depicted with a warm, glowing, or golden aura of affection",
+          "A mother or parent looking lovingly at a young boy"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "devotion and tenderness throughout",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic flow and the intimate, poetic resonance of the Tamil address 'Thanga magan' (literally golden son, used as a term of endearment) are slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A highly precious, beloved, and virtuous son.",
+            "acceptable_visual_variants": [
+              "A mother or father holding a young boy who is smiling, with warm golden sunlight streaming through a window onto them.",
+              "A close-up of a happy child's face illuminated by a gentle, warm golden glow."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A son made of gold metal",
+            "literalization_risk": "Depicting a child literally made of solid gold metal, which would look like a statue or a robotic figure rather than a beloved human child.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved son",
+              "transferred_attributes": [
+                "preciousness",
+                "purity",
+                "high value",
+                "brightness"
+              ],
+              "vehicle_concept": "gold"
+            },
+            "source_span_original": "தங்க மகன்",
+            "source_span_translation": "Golden son",
+            "source_term": "தங்க மகன்",
+            "tenor": "a beloved and precious son",
+            "vehicle": "gold (precious metal)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, loving scene of a parent and child with a soft, warm golden light or aura surrounding the child to symbolize his preciousness."
+          },
+          {
+            "abstract_meaning": "To be constantly remembered, loved, and kept in one's deepest thoughts and emotions.",
+            "acceptable_visual_variants": [
+              "A parent holding a hand to their chest with a peaceful, loving expression while looking at their child.",
+              "A stylized illustration of a parent's silhouette with a warm, glowing light in the chest area, reflecting the image of the child."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Physically residing or living inside a chest/heart organ",
+            "literalization_risk": "Showing a tiny person physically living inside a human heart or chest cavity, which would look anatomically bizarre or like a medical illustration.",
+            "metaphor_mapping": {
+              "tenor_concept": "occupying someone's emotional thoughts",
+              "transferred_attributes": [
+                "presence",
+                "closeness",
+                "constant occupancy"
+              ],
+              "vehicle_concept": "residing in a physical dwelling"
+            },
+            "source_span_original": "நெஞ்சில் வாழ்வாய்",
+            "source_span_translation": "Living in my heart",
+            "source_term": "நெஞ்சில் வாழ்வாய்",
+            "tenor": "being deeply loved and remembered in someone's mind and emotions",
+            "vehicle": "a physical resident living inside a house or space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize the parent holding their hand over their heart while looking affectionately at the child, or show a soft, glowing heart symbol overlaying a scene of them together."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The emphatic clitic '-e' in 'neeye' (நீயே) emphasizes 'you alone' or 'you indeed', which is flattened to a simple 'you are' in the English translation.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil phrase 'un meethu' (உன் மீது) literally means 'upon you' or 'about you', carrying a sense of dedication or singing praises over the child, which is simplified to 'tell you' in English.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A parent's deep, enduring love and devotion to their beloved child."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "தங்க மகன், நீயே  \nஎன் நெஞ்சில் வாழ்வாய்,  \nஉன் மீது நான் சொல்வேன்  \nஅன்பின் கதை, அழகே!",
+  "poem_id": "MV++_1290",
+  "poem_title": "Thanga Magan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cb2475e41dc0ff446f14643d0d92a97e8a30b4accce14ad7dfa98a34d77dc40b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1290.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Golden son, you are  \nLiving in my heart.  \nI will tell you  \nThe tale of love, O beauty!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:18:02.607386+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7d9805c59512285ff4d6aa5abc80092dbe971386953b4945f6fa5359950c7f41",
+        "response_hash": "cf58ec2e4cb7fe47afaac6ac6d8d4073358cdd954534c1af99e65dec75b2958c"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "74b3df6a32551bbe0f01b5d98ee4e2ac62cf302be04dffe4400c7592dac7d6cd",
+        "response_hash": "be189603d07a960c0ab0916038918a51ccca65feb55bf3095e1dcfc05dae05fb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "895850ef02fba85379e54fcea451a46508de360a340144a1daf5f61c2d1bbd1e",
+        "response_hash": "be7f0a85800a0deaadf8318bcc07967d5c8e8e177b291ab3afd0fee47dfa5f7e",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d3a5c7ab72dc7019999b8010639f37f814f2fbfebb1cb0897b0349e4740ae7c2",
+        "response_hash": "d9dcf9a9bf49d09559f33438be547040e9c488df2a8f714f5c7f3914e7fafd1a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "64cb71f3ba2c14895675201ab815e9d9a068b278ad951146d8b2b670258aa903",
+        "response_hash": "3aa0a820187d949468f5d37bc0831905da75b19b40d2d71b7c556557cee2aa0d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1896dc577fba1ca6456c866c9fdd66956d3165afe66b456f5e42811318427ab7",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4f2dcdec1c4483a2914b898545e9ea0de9aec5bd31141ae2e2b1f71c4c3e9414",
+    "translation_sha256": "f81194a7a52e3d062a78897cceeba0a76d24d16096f6905e8c8cd1fa9cf12d15"
+  }
+}

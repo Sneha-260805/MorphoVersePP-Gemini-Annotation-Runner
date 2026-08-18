@@ -1,0 +1,171 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A classic iconographic depiction of Krishna with a peacock feather in his hair",
+          "An abstract, radiant divine figure standing under a starry sky"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "An epithet of Krishna or Vishnu, meaning 'Lord of Lakshmi' or 'descendant of Madhu', used here in a personal, devotional address.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A generic, non-Indian depiction of a Western deity or angel",
+          "An incorrect representation of a different Hindu deity like Shiva or Ganesha"
+        ],
+        "preserved": true,
+        "romanization": "Madhava",
+        "source_span_original": "మాధవా",
+        "source_span_translation": "Madhava",
+        "stanza_index": 1,
+        "term": "మాధవా",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A traditional representation of Krishna, often depicted with blue skin, wearing a yellow dhoti, and holding a flute, or represented abstractly as a divine presence."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "wonder to intimate devotion",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'అంతం' (antam - end/limit) as 'vast' alters the literal meaning of the Telugu word. Additionally, the translation of the final line 'నీవు నాకన్నా మధురమా మాధవా' as 'Are sweeter than you, O Madhava' reverses the comparative structure of the original Telugu, which literally asks/states 'Are you sweeter than me, O Madhava?' or compares sweetness in a way that is lost in the English rendering.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The stars in the night sky are perceived as conscious, watchful eyes observing the speaker and the divine presence.",
+            "acceptable_visual_variants": [
+              "A wide-angle view of a starry night sky over a quiet landscape with a silhouette of a person looking up.",
+              "A close-up of a person looking up at a sky where the stars are clustered in a way that suggests a gentle, watchful presence without drawing literal eyes."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Your stars that are looking/watching",
+            "literalization_risk": "Depicting stars with literal human eyeballs or faces in the sky, which would look cartoonish and ruin the solemn, devotional mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "stars",
+              "transferred_attributes": [
+                "gazing",
+                "observing",
+                "consciousness"
+              ],
+              "vehicle_concept": "watching eyes"
+            },
+            "source_span_original": "చూస్తున్న నీ నక్షత్రాలు",
+            "source_span_translation": "The stars watching",
+            "source_term": "చూస్తున్న నీ నక్షత్రాలు",
+            "tenor": "The silent, shining stars in the night sky",
+            "vehicle": "Stars as conscious, watching entities or eyes",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, clear night sky filled with brilliant, intensely shining stars that cast a soft, ambient glow over a solitary figure looking upward, conveying a sense of being observed by the cosmos."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The internal rhyme and phonetic play between 'andam' (beauty) and 'antam' (end/limit) is lost, with 'antam' being translated as 'vast' rather than its literal meaning of 'end' or 'limit'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'naa vantu' (my turn / my share) is translated as 'I stand', losing the literal sense of personal turn or share before God.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The comparative structure 'neevu naakanna madhuramaa' (are you sweeter than me?) is inverted in translation to 'Are sweeter than you', which changes the direction of the comparison and the poetic inquiry.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The vastness of the cosmos as a backdrop for intimate devotion and sweet communion with the divine."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ఆకాశం అందం, ఆకాశం అంతం,\nనీకెదురుగా, ఓ దేవుడు నా వంతు\nచూస్తున్న నీ నక్షత్రాలు, ఓ ప్రియతమా\nనీవు నాకన్నా మధురమా మాధవా.",
+  "poem_id": "MV++_1431",
+  "poem_title": "Aakasam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5e506cf1df2ffad36e67b91a79225ac57a455341abc2863cf10a31c832851432",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1431.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The sky is beautiful, the sky is vast,\nBefore you, O God, I stand,\nThe stars watching, dear beloved,\nAre sweeter than you, O Madhava.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:32:52.605970+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3dc189bc11aa2bc2ca946a22177520c7b6c64b3255649767efee40d3db7b7875",
+        "response_hash": "56618e3592b873a8273b385cb888cdac545535c72d3b68c7c6e1b2e6a6ea45fe",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dd849cab3900ba1ad15f31102ebe40921b32ace113ec5e8d7e981a2ef6b92aba",
+        "response_hash": "96e64898d81189c6772afb13fef425902d088d556c91401d15ffec2d1e6a99ed",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d8c40415c134ec6ec09b4e1c6e389a717a951737e90e8eae1e0fa125f70a9bab",
+        "response_hash": "a09c69870bd7e087a782193d19017eb340b0cb836dcfc8bf3bcf82bb5c54461e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d462ca302fba2fbc262ab0b1c173866e411a2fc87f6d2e94c416cbfcc91409a9",
+        "response_hash": "7b73b87bcd9f54dd81fe8d983a3699429d536e580f175eb54b4c7faa95e693e8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b91f67a3b067856a5c22ff803125f489ee248fa7682fa59c573f29e971c52d73",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6329bd2618998574246bd4353c177914a6af77359e81da9bf2fe2248c95bbbf8",
+    "translation_sha256": "b624db95a4be380f6c8c97c3f98c31f07fba207bddeef0b8768bf86eefe43d83"
+  }
+}

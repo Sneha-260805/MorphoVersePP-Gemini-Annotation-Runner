@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "peaceful joy and quiet celebration of love",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The feeling of love that moves gently and pervasively, affecting the speaker's emotional state.",
+            "acceptable_visual_variants": [
+              "A soft breeze rustling leaves on a branch near two people standing close together",
+              "A gentle wind lightly lifting the hair of a person looking towards another"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The wind/breeze of love",
+            "literalization_risk": "Depicting literal wind blowing objects around a couple might look like a weather event rather than an emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "gentleness",
+                "movement",
+                "invisible presence",
+                "ability to stir things"
+              ],
+              "vehicle_concept": "breeze"
+            },
+            "source_span_original": "காதலின் காற்று",
+            "source_span_translation": "The breeze of love",
+            "source_term": "காதலின் காற்று",
+            "tenor": "the emotion of love",
+            "vehicle": "a gentle breeze or wind",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a gentle, subtle movement in hair, clothing, or leaves around a couple to suggest a soft breeze, keeping the focus on their intimate proximity."
+          },
+          {
+            "abstract_meaning": "The gentle movement or stirring of love's presence near the beloved.",
+            "acceptable_visual_variants": [
+              "Wildflowers swaying gracefully in a gentle wind",
+              "A light curtain or fabric fluttering softly near a window"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "dances / sways",
+            "literalization_risk": "Showing a literal personified wind figure dancing could look cartoonish or like a fantasy character.",
+            "metaphor_mapping": {
+              "tenor_concept": "movement of love",
+              "transferred_attributes": [
+                "gracefulness",
+                "rhythm",
+                "expressiveness"
+              ],
+              "vehicle_concept": "dancing"
+            },
+            "source_span_original": "ஆடும்",
+            "source_span_translation": "Dances",
+            "source_term": "ஆடும்",
+            "tenor": "the gentle movement of the breeze of love",
+            "vehicle": "a dancer swaying or dancing",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the graceful, rhythmic swaying of natural elements like grass or flowers near the beloved to visually convey the 'dance' of the breeze."
+          },
+          {
+            "abstract_meaning": "The heart or the feeling of love leaping with joy and excitement.",
+            "acceptable_visual_variants": [
+              "A person with a joyful, radiant expression, perhaps slightly lifting on their toes",
+              "A sudden, upward swirl of colorful petals or light in a calm setting"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "leaps / jumps up",
+            "literalization_risk": "Showing a literal heart physically jumping out of a chest or leaping through the air would look grotesque or comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful emotion",
+              "transferred_attributes": [
+                "sudden upward movement",
+                "energy",
+                "excitement"
+              ],
+              "vehicle_concept": "leaping"
+            },
+            "source_span_original": "துள்ளுகிறது",
+            "source_span_translation": "leaps",
+            "source_term": "துள்ளுகிறது",
+            "tenor": "the sudden, joyful surge of emotion in the speaker's heart",
+            "vehicle": "a lively creature leaping or jumping with joy",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Convey the joyful leap through expressive body language, a brightened facial expression, or a sudden upward movement of light or petals around the figure."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative genitive case marker '-in' in 'kaadhalin' (love's / of love) and 'ullathin' (heart's / of heart) is flattened into English prepositional phrases ('of love', 'of my heart'), losing the tight, fused grammatical connection of the original Tamil.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic and phonetic resonance of the alliterative and rhyming words 'kaadhalin kaatru' (L1) and 'ullathin' (L3) is lost in the English translation.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The gentle yet lively movement of love within a calm heart"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "காதலின் காற்று,  \nஉன் அருகில் ஆடும்,  \nஎன் உள்ளத்தின் அமைதியில்,  \nஅழகாய் துள்ளுகிறது!",
+  "poem_id": "MV++_1329",
+  "poem_title": "Kaadhalin Kaatru",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6687de154f79713aa9e80f43fe459bd2b3c56b91ae477da8f8511a9efaf8a21c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1329.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The breeze of love,  \nDances near you,  \nIn the calm of my heart,  \nIt leaps beautifully!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:22:00.413243+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "18f2e2a378c4b2d392c0ce7cf4a1d6cdb7b5544c3795667fd2cdcc175ba9fb22",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a2973b5344b4772058ccb9decd459ba58fe082aa302935fd3455e9bab7a45f43",
+        "response_hash": "9e9899713678007d5d2b431a785a82648beedfdb737a04cb7e8e68ad0f4f8bf7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a4c534b25fec0bba63c80517a920d031b0a9c9762fcd0e13435eeb9d4238bdbf",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d92155110e0b2f4010abec3f56123f1b16d61c5886adedb5987631222c66828a",
+        "response_hash": "0566dac51a1bf7e9e84781c35ebe30b77ce1fd59e4f6f074f8fa4d5b5a9a798a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "22cc1f39e00bf491e456ad9d94fad03596107e356ba1c71fd130d8fa2d82f315",
+        "response_hash": "0a85c6b0f89c8107d88a97ca269b8dcdeec141ace3cc71c833daf57449eb5589",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "efddbf8fb13f3f5d5ddfca1740de8ac0d04b0de39928b340d4b40ae65897dbf8",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f84e530fce250ba5dc286b146ce85ad35528fedc9dbe581c1d6c050537826e7a",
+    "translation_sha256": "0a2a08a087b40144e6e2cc80691cb777ed54123be14878f1e15ae096c9de06c2"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The traditional Indian social stratification system of caste or lineage group.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "kulamu",
+        "source_span_original": "కులము",
+        "source_span_translation": "caste",
+        "stanza_index": 1,
+        "term": "కులము",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A single sandalwood tree standing out in a dense forest",
+          "A piece of carved sandalwood emitting fragrance"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Sandalwood tree or its fragrant wood, traditionally associated with the Malaya mountain range in southern India.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "Generic colorful garden flowers",
+          "A pine forest"
+        ],
+        "preserved": false,
+        "romanization": "malayajambu",
+        "source_span_original": "మలయజంబు",
+        "source_span_translation": null,
+        "stanza_index": 3,
+        "term": "మలయజంబు",
+        "translation_note": "The translation generalizes 'malayajambu' (sandalwood, literally 'born of the Malaya mountains') to 'flowers'.",
+        "translation_status": "LOST",
+        "visual_features": [
+          "Sandalwood tree with small, pale green or reddish flowers",
+          "Aromatic wood bark"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The signature refrain (makutam) of the poet Vemana, addressing either his beloved friend Abhirama, or translating philosophically as 'Beloved of the Creator of the Universe, listen Vema!'",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "viswadaabhiraama vinura vema",
+        "source_span_original": "విశ్వదాభిరామ! వినుర వేమ!",
+        "source_span_translation": "Oh, Viswadabhirama! Listen to what I say!",
+        "stanza_index": 4,
+        "term": "విశ్వదాభిరామ! వినుర వేమ!",
+        "translation_note": "The translation preserves the name 'Viswadabhirama' but omits the signature name 'Vema' (Vemana) in the final line.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "steady moral conviction and philosophical clarity",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation renders 'malayajambu' (sandalwood tree) generally as 'fragrance of flowers', losing the specific cultural and sensory reference to sandalwood.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Just as a single sandalwood tree makes an entire forest fragrant and famous, a single virtuous person brings glory and renown to their entire family or community.",
+            "acceptable_visual_variants": [
+              "A close-up of a sandalwood tree trunk with its aromatic bark exposed, surrounded by ordinary forest trees",
+              "A wide shot of a green forest with one central, majestic sandalwood tree from which a gentle breeze carries fragrance across the landscape"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "Like a sandalwood tree existing in a flourishing forest",
+            "literalization_risk": "An illustrator might literally depict a generic forest of flowers as suggested by the translation, missing the specific cultural and botanical significance of the sandalwood tree (malayajambu) which is prized for its intrinsic, deep-seated fragrance rather than superficial floral scent.",
+            "metaphor_mapping": {
+              "tenor_concept": "virtuous person in a community",
+              "transferred_attributes": [
+                "permeating fragrance representing spreading fame",
+                "elevating the value of the surrounding environment"
+              ],
+              "vehicle_concept": "sandalwood tree in a forest"
+            },
+            "source_span_original": "వెలయు వనములోన మలయజంబున్నట్లు",
+            "source_span_translation": "Like the fragrance of flowers in a forest",
+            "source_term": "వెలయు వనములోన మలయజంబున్నట్లు",
+            "tenor": "A virtuous person (gunavantudu) whose noble character elevates and brings glory to their entire community or family",
+            "vehicle": "A sandalwood tree (malayajambu) whose fragrance permeates and elevates the entire forest in which it grows",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a single, distinct sandalwood tree standing out within a lush forest, perhaps subtly radiating a soft, glowing aura or mist to visually represent its permeating fragrance spreading outward."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation generalizes 'malayajambu' (sandalwood tree/fragrance) as 'fragrance of flowers', losing the specific cultural and sensory association of sandalwood from the Malaya mountains.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders the signature makuta 'Viswadabhirama Vinura Vema' as 'Oh, Viswadabhirama! Listen to what I say!', losing the direct address to Vema (the poet's self-reference or beloved friend) and the traditional structure of Vemana's moral poems.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "A single virtuous person elevates their entire community, just as a single sandalwood tree perfumes an entire forest."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[3].translation_quality",
+      "issue": "Stanza 4 is marked as 'faithful' but contains a structured translation_loss entry describing a high-severity loss of the signature name 'Vema'. This is internally inconsistent with a 'faithful' rating.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[2].preserved",
+      "issue": "The 'preserved' boolean is set to true, but the 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that the translation omits the signature name 'Vema'. This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "కులము లోన నొకడు గుణవంతుడుండిన\n\nకులము వెలయు వాని గుణము చేత\n\nవెలయు వనములోన మలయజంబున్నట్లు\n\nవిశ్వదాభిరామ! వినుర వేమ!",
+  "poem_id": "MV++_1486",
+  "poem_title": "Kulamulona",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0e30cf67d5c1e6125557cbda1642db99695b95d3bc8138244df07937c8e08a72",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1486.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In a caste, if a person possesses virtues,\nThe essence of his character shines beyond the caste.\nLike the fragrance of flowers in a forest,\nOh, Viswadabhirama! Listen to what I say!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:40:08.800537+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "751c296928850e5251a49e7fdc032b1a3f5eccb3e2cc6ff258c3cbbea2873e8e",
+        "response_hash": "6dd05dddb3c0a6e475c2ab4defb2d109462c0e38e48425de1bea381d5b7721da",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8fafbbdad36dca06b30c46e4571817841ccb9e3248779fc812d8408298d27ba4",
+        "response_hash": "6c8135860230aee59798a9eed4596d8e8e444962bf954da5c0ebca07dea54550",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f3877b9592da01e21108cf66ca9ae4481dbce89e5692319e698ef7cbf1b16e89",
+        "response_hash": "997b29728825c1cea47231cb590bf77efed21a204a59fe889d005bfa6ca553a4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5424baeaa8c987cf99f95fb39ff6932cf6234315a848e1bf471d74a5c9341494",
+        "response_hash": "8fa59c05dc6985268de9a73dde03c793a898ac0d8da47ee4af64e627e3600373",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6e79f1597b4ac3c6a5a385742cdd31f6d33c85427240c6c1baed232f5e66c46e",
+        "response_hash": "d3d7881d124cb5c839eb8f1de0a143e812a8040d3c46d5f0130183c1ab813b42",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "cc35f6d65c7168fe8682b60ff4ff6a5368c456c2dcbf1efefb4a06d8fd783241",
+    "translation_sha256": "70d07a5c097cebd70decedd3009314dabc29fc8199b064413797bbfe38f34952"
+  }
+}

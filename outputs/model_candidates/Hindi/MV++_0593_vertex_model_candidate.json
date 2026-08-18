@@ -1,0 +1,214 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet determination to hopeful resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The difficulties, obstacles, or painful experiences encountered in life or a shared relationship.",
+            "acceptable_visual_variants": [
+              "A winding path with rough, uneven stones or brambles under a dim sky",
+              "Two people walking hand-in-hand facing a slightly rugged but open trail"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Sharp thorns lying on a physical road or walking path",
+            "literalization_risk": "An illustrator might draw literal sharp plant thorns on a dirt road, which misses the emotional and life-journey context of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "hardships in life",
+              "transferred_attributes": [
+                "causing pain",
+                "obstructing progress",
+                "requiring careful navigation"
+              ],
+              "vehicle_concept": "thorns on a path"
+            },
+            "source_span_original": "राह के कांटे",
+            "source_span_translation": "The thorns on the path",
+            "source_term": "राह के कांटे",
+            "tenor": "Obstacles and hardships in life or a relationship",
+            "vehicle": "Thorns on a path",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a path that looks rough or uneven, perhaps with subtle shadows or abstract obstacles, rather than literal botanical thorns, to emphasize the journey of life."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'दूरियों' (duriyon) as both 'distances' and 'gaps', losing the poetic repetition of the exact same word in consecutive lines (L3 and L4) which emphasizes the theme of physical/emotional distance.",
+            "where": "L3-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic flow and internal rhyme of the Hindi verbs 'चलते हैं' (chalte hain) and 'हटते हैं' (hatate hain) are lost in the English translation.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Periods of sadness, despair, uncertainty, or difficult times in life.",
+            "acceptable_visual_variants": [
+              "A landscape transitioning from dawn to sunrise, with shadows fading",
+              "A soft glow of a lantern casting away surrounding dimness"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L7",
+            "literal_meaning": "Physical darkness or absence of light",
+            "literalization_risk": "Drawing pitch-black night or literal dark silhouettes might look like a horror scene rather than a poetic representation of emotional hardship.",
+            "metaphor_mapping": {
+              "tenor_concept": "difficult times",
+              "transferred_attributes": [
+                "obscuring vision",
+                "causing fear or uncertainty",
+                "temporary nature before dawn"
+              ],
+              "vehicle_concept": "darkness"
+            },
+            "source_span_original": "अंधेरे",
+            "source_span_translation": "shadows",
+            "source_term": "अंधेरे",
+            "tenor": "Despair, sadness, or difficult phases of life",
+            "vehicle": "Darkness / shadows",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use soft, receding shadows or a twilight setting where light is beginning to break through, symbolizing hope."
+          },
+          {
+            "abstract_meaning": "Hope, happiness, clarity, and better times ahead.",
+            "acceptable_visual_variants": [
+              "A soft golden sunrise breaking through clouds",
+              "A gentle, warm light source illuminating the path ahead of two travelers"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L8",
+            "literal_meaning": "Physical light or brightness",
+            "literalization_risk": "A literal rendering might show a bright electric bulb or a harsh spotlight, which ruins the gentle, hopeful poetic mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and happiness",
+              "transferred_attributes": [
+                "bringing clarity",
+                "dispelling darkness",
+                "providing warmth and comfort"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "उजालों",
+            "source_span_translation": "light",
+            "source_term": "उजालों",
+            "tenor": "Hope, joy, and positive future times",
+            "vehicle": "Light / brightness",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a warm, gentle golden glow or the soft light of dawn on the horizon."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'अंधेरे' (andhere - darknesses/darkness) as 'shadows', which alters the literal contrast with 'उजालों' (ujalon - lights) in the next line.",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'चलो दो कदम और थाम लो मेरा हाथ' omits the literal translation of 'चलो' (let's go/come), slightly shifting the collaborative invitation tone to a direct imperative 'Hold my hand'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Finding strength in companionship and hope to overcome the hardships of a shared journey."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चलो दो कदम और साथ चलते हैं,\nराह के कांटे कुछ दूर हटते हैं।\nदूरियों में छुपी हुई हैं मंज़िलें,\nदूरियों से पार चलकर ही मिलती हैं।\n\nचलो दो कदम और थाम लो मेरा हाथ,\nसफर के किस्से और भी होंगे साथ।\nयह अंधेरे मिट ही जाएंगे,\nबस उजालों की कुछ आस रखते हैं।",
+  "poem_id": "MV++_0593",
+  "poem_title": "Do Kadam Aur",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a7188d919dba4aa8a40044fdf43bc874b1e486fc53b7d6084d2e46a9ba7ec6a6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0593.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Let’s walk two more steps together,\nThe thorns on the path move aside a little further.\nDestinations are hidden in the distances,\nReached only by crossing those gaps.\n\nHold my hand for two more steps,\nMore tales of the journey will come along with us.\nThese shadows will surely fade away,\nLet’s just hold onto a little hope for light.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:42:45.208419+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7f3ccb10e82d5acabf85431301e93fb0f9ef3fd67d6fc1a4f7b4c3380e09f0a6",
+        "response_hash": "f4d0d4ba1643bdca68d1fa9fc05a39262a0ac115486395a5cce92045675b09ce",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "59f8e43f65b460148abad9382be9461e948918ab9695f17678021a0e2f2d9b61",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1828331d4bcdc8b28dc70c6cf9e87292af2a240576ab5c8da8c924b2f8bbb38e",
+        "response_hash": "a76f65488c5538a3ecd24f7bc184c4c6c1f3a1ca2623af161e1a7033b3f938a5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e5f5288a7c24086c9ae971acba901e8bd47f6d45cd7fb52f8b0a83c786c2a439",
+        "response_hash": "af8276f44617b63bac94700636bb1b799748a45314e2554d2c2e44995d06c2ce",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "54d286d2479678bca184908edaa9a50c5b85a1658c39ede1376e5cd762f564d1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9adf31ca51bb05fa97c665c62b3ebba285783d14cb6ff2ad746f5d0d93ddfb1e",
+    "translation_sha256": "ae8fe237113ae86de3b401c90eb251d8a9c9ac1873bb8582eeb6c8511129d6b1"
+  }
+}

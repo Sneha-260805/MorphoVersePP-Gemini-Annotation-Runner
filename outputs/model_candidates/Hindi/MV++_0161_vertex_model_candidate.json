@@ -1,0 +1,249 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and realism in the face of life's harsh journey",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation of 'dhoop' as 'sunlight' misses the Urdu/Hindi poetic nuance where 'dhoop' (sunlight/heat) represents hardships and trials, rather than just pleasant light.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life's journey will inevitably bring hardships, struggles, and challenges.",
+            "acceptable_visual_variants": [
+              "A solitary figure walking along a cracked, dry road under a blazing sun",
+              "A silhouette of a person walking uphill against a bright, blinding light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "There will be hot sunlight on the road during a journey",
+            "literalization_risk": "An illustrator might draw a literal sunny day or a desert road, which misses the existential weight of life's struggles.",
+            "metaphor_mapping": {
+              "tenor_concept": "Life's struggles and hardships",
+              "transferred_attributes": [
+                "inevitability",
+                "harshness",
+                "difficulty of travel"
+              ],
+              "vehicle_concept": "A hot, sunny journey"
+            },
+            "source_span_original": "सफ़र में धूप तो होगी",
+            "source_span_translation": "There will be sunlight on the journey",
+            "source_term": "सफ़र में धूप तो होगी",
+            "tenor": "The inevitable hardships and struggles encountered in life",
+            "vehicle": "A hot, sunny road during a physical journey",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lone traveler walking on an endless, dusty road under a harsh, glaring sun, emphasizing the vastness and difficulty of the path."
+          },
+          {
+            "abstract_meaning": "The conformist, unthinking mass of society that lacks individuality.",
+            "acceptable_visual_variants": [
+              "A dense, monochrome crowd of blurred figures moving in unison",
+              "A maze of shadows where one distinct figure breaks away from the flow"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L2",
+            "literal_meaning": "In a physical crowd of people",
+            "literalization_risk": "A literal crowd of people might look like a festive gathering or a busy market, losing the sense of existential conformity.",
+            "metaphor_mapping": {
+              "tenor_concept": "Social conformity and loss of individuality",
+              "transferred_attributes": [
+                "density",
+                "anonymity",
+                "lack of direction"
+              ],
+              "vehicle_concept": "A physical crowd"
+            },
+            "source_span_original": "भीड़ में",
+            "source_span_translation": "in the crowd",
+            "source_term": "भीड़ में",
+            "tenor": "The conformist, unthinking mass of society",
+            "vehicle": "A dense crowd of people",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a sea of faceless, identical silhouettes moving in one direction, with one figure attempting to step out or turn away."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'dhoop' as 'sunlight' loses the negative connotation of scorching heat or hardship that 'dhoop' carries in this context, making it sound pleasant rather than challenging.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'chalo' as 'go' loses the sense of walking along or moving forward together, which is better captured by 'walk' or 'come along'.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'faza' as 'haze' or 'atmosphere' loses the expansive, environmental scale of the Urdu-origin word, and 'mujhe gira ke' is rendered slightly passively.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Hope, clarity, guidance, or a source of light and truth in a dark world.",
+            "acceptable_visual_variants": [
+              "A dark, smog-filled landscape where the sky is entirely obscured",
+              "A traveler looking up at a completely dark, featureless sky filled with haze"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L7",
+            "literal_meaning": "The physical sun in the sky",
+            "literalization_risk": "Drawing a literal sunless sky might look like a simple overcast day rather than a state of existential despair and lack of guidance.",
+            "metaphor_mapping": {
+              "tenor_concept": "Hope and guidance",
+              "transferred_attributes": [
+                "light",
+                "warmth",
+                "direction",
+                "clarity"
+              ],
+              "vehicle_concept": "The sun"
+            },
+            "source_span_original": "सूरज",
+            "source_span_translation": "sun",
+            "source_term": "सूरज",
+            "tenor": "Hope, guidance, and clarity",
+            "vehicle": "The sun",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dark, heavy sky completely choked with thick, swirling smoke, with no hint of light or sun visible."
+          },
+          {
+            "abstract_meaning": "An atmosphere of confusion, uncertainty, despair, and lack of clarity in life.",
+            "acceptable_visual_variants": [
+              "A person surrounded by thick, abstract grey mist that obscures all landmarks",
+              "A landscape where the horizon is completely lost in a heavy, dark haze"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The atmosphere is filled with smoke",
+            "literalization_risk": "A literal rendering of smoke might look like a forest fire or industrial pollution rather than a psychological or social state of confusion.",
+            "metaphor_mapping": {
+              "tenor_concept": "Confusion and lack of clarity in life",
+              "transferred_attributes": [
+                "obscurity",
+                "difficulty in breathing",
+                "lack of visibility"
+              ],
+              "vehicle_concept": "A smoky atmosphere"
+            },
+            "source_span_original": "धुआँ धुआँ है फ़ज़ा",
+            "source_span_translation": "just a smoky haze",
+            "source_term": "धुआँ धुआँ है फ़ज़ा",
+            "tenor": "A state of confusion, moral ambiguity, and lack of direction in society",
+            "vehicle": "A smoky, hazy atmosphere",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure standing in a dense, swirling fog or haze that blurs the surroundings, symbolizing the inability to see the path ahead."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'faza' (atmosphere/air/surroundings) is simplified to 'haze' in 'smoky haze', losing the poetic Urdu-derived term for the entire environment or atmosphere.",
+            "where": "L7"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'mujhe gira ke agar tum sambhal sako' as 'If you can rise after my fall' alters the active, causal sense of 'gira ke' (by knocking me down / causing me to fall) to a passive sequence of events.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The necessity of self-reliance, adaptability, and inner strength in a crowded, indifferent world."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सफ़र में धूप तो होगी, जो चल सको तो चलो,  \nसभी हैं भीड़ में, तुम भी निकल सको तो चलो।  \nकिसी के वास्ते राहें कहाँ बदलती हैं,  \nतुम अपने आप को ख़ुद ही बदल सको तो चलो।  \n\nयहाँ किसी को कोई रास्ता नहीं देता,  \nमुझे गिरा के अगर तुम सँभल सको तो चलो।  \nकहीं नहीं कोई सूरज, धुआँ धुआँ है फ़ज़ा,  \nख़ुद अपने आप से बाहर निकल सको तो चलो।",
+  "poem_id": "MV++_0161",
+  "poem_title": "Safar Mein Dhoop To Hogi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "25056c43c68cd1e3f392833834789d6ce3537d3172a142bb2bfd6d665d7a4324",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0161.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "There will be sunlight on the journey; if you can walk, then go,  \nEveryone is in the crowd; if you can break free, then go.  \nNo path changes for anyone's sake,  \nIf you can change yourself, then go.  \n\nHere, no one shows the way to anyone else,  \nIf you can rise after my fall, then go.  \nThere's no sun anywhere, just a smoky haze,  \nIf you can step outside yourself, then go.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:53:33.813339+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "98ae9e4b724740cbf26208ee83347c3e3134b0ea65c9bbd21905fa293bb15f8c",
+        "response_hash": "871cf7a4bc8f241bf17399fa9f09b0274ae57b9e06b07253ae9ac6f6c8690111"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b2d0d38f4a524dbf11226bf80b8cb57b564f2fa35fb6e2b3348ea151a01e2e9",
+        "response_hash": "0f739fd15ff47cf571e518f8e7dfe92843c540140e62516c72ebe942c789e06a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cc2534d3021ae78cb97181f27ffdde4496fe80dca7e73fffc4e430fc09e25338",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "095648b8ddb56e6bcdffeeb77ec2b5c39486c7f4d931c10e9a97fc5ad757d653",
+        "response_hash": "b6abba6497b1c0864a656f5f8abbe3d329dde62696db2e5d4b40b4db1e465505",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8161a940c568a1b249c226d218231fe7f9251c28e2f6c6f3008fddf991da6f73",
+        "response_hash": "9d37ddb3795b0e2494906d05e109c36ce88a747df06ab09600de7787ef642ce7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "29b54918cf865267f489c21032bd8a4ac0ace9dcea2ab5366aae603f524b6666",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a1abb05d8dbe4a8c977de2b7d2b90e29e8c5ca9b169d405cd484c1979a3bdfe3",
+    "translation_sha256": "432046d63b9eaf869a22fec01dd8b30a5a1dd7d4745fc715b310ac55bfc70110"
+  }
+}

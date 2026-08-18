@@ -1,0 +1,280 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and nostalgia to peaceful belonging",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'bhool bhulaiya' as 'maze' captures the literal sense but loses the specific cultural resonance of a traditional labyrinth or confusing pathways of life.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The pleasant, evocative, and inspiring quality of one's aspirations or memories of home.",
+            "acceptable_visual_variants": [
+              "A warm golden light filtering through a doorway",
+              "A gentle breeze rustling curtains in an empty room"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The physical fragrance or scent of dreams",
+            "literalization_risk": "Depicting literal smoke, perfume bottles, or physical scent clouds rising from a sleeping person's head, which would look like a fantasy cartoon rather than a poetic memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental aspirations",
+              "transferred_attributes": [
+                "pleasantness",
+                "evocativeness",
+                "ability to linger in the air"
+              ],
+              "vehicle_concept": "olfactory scent"
+            },
+            "source_span_original": "सपनों की महक",
+            "source_span_translation": "scents of dreams",
+            "source_term": "सपनों की महक",
+            "tenor": "aspirations / memories of home",
+            "vehicle": "fragrance / scent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, soft-focus atmosphere or a gentle breeze carrying light, shimmering particles through an open doorway to suggest an evocative presence."
+          },
+          {
+            "abstract_meaning": "The confusing, complex, and overwhelming nature of the outside world or life's paths.",
+            "acceptable_visual_variants": [
+              "A series of winding, narrow city streets fading into haze",
+              "An abstract pattern of intersecting paths and shadows"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A physical labyrinth or maze",
+            "literalization_risk": "Drawing a literal medieval stone hedge maze or a puzzle on a page, which distracts from the urban or emotional setting of leaving home.",
+            "metaphor_mapping": {
+              "tenor_concept": "complexity of life",
+              "transferred_attributes": [
+                "disorienting nature",
+                "multiple winding paths",
+                "risk of getting lost"
+              ],
+              "vehicle_concept": "physical labyrinth"
+            },
+            "source_span_original": "भूल भुलैया",
+            "source_span_translation": "maze",
+            "source_term": "भूल भुलैया",
+            "tenor": "the complex outside world / life's paths",
+            "vehicle": "labyrinth / maze",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a busy, winding street scene with intersecting alleys, overlapping shadows, or crowded pathways that visually convey a sense of complexity and disorientation."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds the word 'unclear' to force a rhyme with 'near', which is not present in the original Hindi text. Additionally, the specific cultural resonance of 'bhool bhulaiya' (a labyrinth or maze, often associated with historical structures like Lucknow's Bara Imambara) is flattened to a generic 'maze'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The walls of the house seem to hold and echo the memories and happy sounds of the family.",
+            "acceptable_visual_variants": [
+              "Walls adorned with faint, warm shadows of children playing",
+              "A sunlit room with textured walls showing signs of lived-in warmth"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7",
+            "literal_meaning": "Every physical wall speaks or tells a story",
+            "literalization_risk": "Drawing literal mouths, eyes, or faces on the plaster of the walls, which would look like a horror movie or a children's cartoon.",
+            "metaphor_mapping": {
+              "tenor_concept": "inanimate walls",
+              "transferred_attributes": [
+                "ability to speak",
+                "retaining and sharing memories",
+                "expressing emotion"
+              ],
+              "vehicle_concept": "human storyteller"
+            },
+            "source_span_original": "हर दीवार सुनाती है",
+            "source_span_translation": "Every wall recounts",
+            "source_term": "हर दीवार सुनाती है",
+            "tenor": "the physical walls of the house retaining memories",
+            "vehicle": "a person speaking or telling a story",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the walls of a cozy room decorated with framed family photographs, children's drawings, or warm sunlight reflecting off the paint to suggest they hold memories."
+          },
+          {
+            "abstract_meaning": "The joyful atmosphere and sounds of laughter within the home.",
+            "acceptable_visual_variants": [
+              "Children laughing together near a window",
+              "A warm family gathering filled with animated expressions of happiness"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A sweet musical melody composed of happiness",
+            "literalization_risk": "Drawing literal musical notes floating through the air, which is a cliché cartoon trope.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional joy",
+              "transferred_attributes": [
+                "sweetness",
+                "harmony",
+                "ability to uplift the spirit"
+              ],
+              "vehicle_concept": "music"
+            },
+            "source_span_original": "खुशियों की मीठी धुन",
+            "source_span_translation": "The sweet tunes of joy",
+            "source_term": "खुशियों की मीठी धुन",
+            "tenor": "joyful atmosphere and laughter",
+            "vehicle": "musical melody / tune",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Focus on the visual source of the 'melody'—the expressive, laughing faces of children or family members in a brightly lit room."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation introduces 'my essence' and 'my home's light' which alters the direct phrasing of 'mera sapno ka jahan, mera ghar' (my world of dreams, my home).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The home as a personal world built entirely out of one's hopes, dreams, and sense of belonging.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person on a rooftop looking at a beautiful starry sky",
+              "A warm, glowing house silhouette framed against a vast twilight sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "A physical universe or world made of dreams",
+            "literalization_risk": "Depicting a literal planet floating in space with clouds and castles, which ruins the intimate, realistic setting of a rooftop looking at the sky.",
+            "metaphor_mapping": {
+              "tenor_concept": "personal home and hopes",
+              "transferred_attributes": [
+                "vastness",
+                "completeness",
+                "being a self-contained space of belonging"
+              ],
+              "vehicle_concept": "universe / world"
+            },
+            "source_span_original": "सपनों का जहान",
+            "source_span_translation": "My dreamland",
+            "source_term": "सपनों का जहान",
+            "tenor": "one's home and personal aspirations",
+            "vehicle": "a world / universe",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person standing on a simple rooftop at dusk or night, looking up at a vast, starry sky that reflects in their eyes, suggesting their inner world is as vast as the cosmos."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'वहीं बसा है मेरा, सपनों का जहान, मेरा घर' as 'There resides my essence, My dreamland, my home’s light' alters the literal meaning. The Hindi 'जहान' (jahaan) means world/universe, so 'सपनों का जहान' is 'world of dreams', which is translated as 'dreamland'. Furthermore, 'मेरा घर' (my home) is rendered as 'my home's light' to rhyme with 'bright', and 'मेरा' (mine) is translated as 'my essence' which introduces a philosophical concept not explicitly in the original text.",
+            "where": "L11-L12"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the adjective 'so bright' to describe the sky ('आसमान को') to satisfy the rhyme scheme, which is not in the original Hindi text.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Home as a sanctuary of dreams, memories, and personal identity"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "घर से निकलते ही,  \nएक आवाज़ गूंजती है,  \nसपनों की महक लाती,  \nभूल भुलैया में खो जाती।  \n\nखिड़कियों से आती है,  \nबच्चों की हंसी की गूंज,  \nहर दीवार सुनाती है,  \nखुशियों की मीठी धुन।  \n\nघर की छत पर चढ़कर,  \nदेखता हूँ आसमान को,  \nवहीं बसा है मेरा,  \nसपनों का जहान, मेरा घर।",
+  "poem_id": "MV++_0095",
+  "poem_title": "Ghar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "32a9486cf7468687453f0dc26cb8a12fab2a5c710a9ece273fb8e65827c86fd1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0095.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Stepping out of home,  \nA voice echoes near,  \nBringing scents of dreams,  \nLost in the maze, unclear.  \n\nFrom the windows comes,  \nThe laughter of the young,  \nEvery wall recounts,  \nThe sweet tunes of joy sung.  \n\nClimbing atop the roof,  \nI gaze at the sky so bright,  \nThere resides my essence,  \nMy dreamland, my home’s light.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:46:08.546605+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c6a238f4845b4d50e04f7aca1348662208d33d2a20d17f96bfa0d652b0f36a2f",
+        "response_hash": "da3181755444ecbe09c9f9a99b86b9bf16b2d0d240be6a795a25e91946836e08"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2e215c32ac495c179fb69d7c9a45f072663061e6c5705f3910e2f61e5d6a1f4e",
+        "response_hash": "ac08b54742dd93199dc701ddac50b8bba69a4c41384c07a1be5fd41f6469903e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "836cf48fb6020b67f7e48b54152e2f60b8e4412e3aab5ef9cf76c78145d9bf88",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "249c61a5e9ce26b16321a00250cbc36be6c945ceeb7871e18513cc81bc332801",
+        "response_hash": "74a3476cd13b5c7d54cdc17f6fed600f53eaa315763ece29adffade4d9cf7933",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "20c9405b94817af17a37fa242860c50ef6cdab3d7540077bf1842660b63eb1b8",
+        "response_hash": "26a718f205659bc2660de868151b8d29284b72b4944fddf686666a4bb4f5c779",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b7e323304e65e5a5717f4b8e3e8ea36c8d6d4f45e597cf1acc7f345c55cf9d0b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d39ea583c89fc45b2a959a50bdfd7718f07bd629788f41df932dd2c7ff48d75a",
+    "translation_sha256": "375a13b0f56512de09e41cf8d8b0f607e2ae19503d0a49d061803b63baf2c16e"
+  }
+}

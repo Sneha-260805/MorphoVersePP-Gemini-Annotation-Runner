@@ -1,0 +1,162 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet longing and internal reflection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'ಕಣ್ಮನಸು' (kanmanasu, a compound of eye and mind/heart) as 'longing' and 'ತುಂತುರು' (tunturu, drizzle/sprinkle) as 'drop' simplifies the rich sensory blend of internal perception and gentle rain imagery present in the original Kannada.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A sudden, refreshing influx of dreams or imaginative thoughts that wash over the speaker's consciousness.",
+            "acceptable_visual_variants": [
+              "A person standing with closed eyes as soft, luminous droplets fall around them",
+              "A stylized, abstract shower of light and soft colors enveloping a human silhouette"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Rain made of dreams",
+            "literalization_risk": "An illustrator might literally depict sleeping figures with physical rain clouds pouring down over them, which misses the internal, emotional nature of the experience.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "refreshing quality",
+                "falling from above",
+                "abundance",
+                "ability to saturate"
+              ],
+              "vehicle_concept": "rain"
+            },
+            "source_span_original": "ಕನಸಿನ ಮಳೆ",
+            "source_span_translation": "Dream rain",
+            "source_term": "ಕನಸಿನ ಮಳೆ",
+            "tenor": "Dreams / imaginative thoughts",
+            "vehicle": "Rain / rainfall",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking reflective or peaceful, with soft, glowing, translucent droplets or light patterns falling around them to suggest a non-physical, dreamlike shower."
+          },
+          {
+            "abstract_meaning": "A heart that is completely saturated with deep emotions, sorrow, or longing, comparable to a vessel filled to the brim with water.",
+            "acceptable_visual_variants": [
+              "A person with a hand over their chest, looking deeply reflective, with a soft blue light emanating from the chest area",
+              "An abstract silhouette of a figure with a glowing, fluid-like center representing the emotional heart"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the heart filled with water",
+            "literalization_risk": "A literal rendering of an anatomical heart filled with liquid water would look clinical, bizarre, or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotionally saturated heart",
+              "transferred_attributes": [
+                "fullness",
+                "heaviness",
+                "readiness to overflow"
+              ],
+              "vehicle_concept": "water-filled vessel"
+            },
+            "source_span_original": "ನೀರು ತುಂಬಿದ ಹೃದಯದಲ್ಲಿ",
+            "source_span_translation": "In the heart filled with water",
+            "source_term": "ನೀರು ತುಂಬಿದ ಹೃದಯದಲ್ಲಿ",
+            "tenor": "A heart saturated with deep emotion or longing",
+            "vehicle": "A vessel or container filled with water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the emotional expression of the figure, perhaps showing a hand placed over the chest with a subtle, soft blue or watery glow radiating from the heart area to symbolize emotional depth."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಕಣ್ಮನಸು' (kanmanasu) as 'longing' loses the compound's literal blend of 'eye' (kannu) and 'mind/heart' (manasu), which evokes a sensory and emotional totality. Additionally, 'ತುಂತುರು' (tunturu) literally means 'drizzle' or 'fine spray', which is translated abstractly as 'drop', losing the delicate, continuous rain imagery that mirrors the 'dream rain' in L1.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The gentle, immersive quality of dreams and longing, likened to a soft rain filling the heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಕನಸಿನ ಮಳೆ,  \nನನಗೆ ಹತ್ತಿರವಾದುದು,  \nನೀರು ತುಂಬಿದ ಹೃದಯದಲ್ಲಿ,  \nಎಲ್ಲ ಕಣ್ಮನಸು ತುಂತುರು.",
+  "poem_id": "MV++_1019",
+  "poem_title": "Kanasina Male",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b54674146bf5caa25350a92a84027ac8e383113191ac2d15b9f74a0b2c37ad74",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1019.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Dream rain,  \nDraws close to me,  \nIn the heart filled with water,  \nEvery drop of longing.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:46:36.626416+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d7d1c7f26f7a22fded2a259349c2c7af67d1d6a6de159a6a127fff38b06e463e",
+        "response_hash": "9e645bccf0bb011fa261ca8c6a16bbfe9d393b03429c0e91d5fd54c240a2215f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d8da9d469c147f1ff15ca59fb67a9960676bb86143e36fd1cbba583c6b12476c",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1934f7150b28b7e60f89ad2344ce6b9b90a7a4c1acfb430540d49f4b50183c61",
+        "response_hash": "2b2235c2690300288667b98111c66e633b6d60427612a237b5449ac33294149f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aede7f3229b3662a424392584ab8451a46c6aa2a0811dc022506ea9c08a7c038",
+        "response_hash": "79578b108e86fb5679fc361b6cedc1bc795c505495b934e27a41896a76eb1538",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9812f885eacb875be01cb369b371f0eb8d0abf39cbda1685884ce38f9ea2738f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9d070895b6f4b98618f70c38bd619b0ce8d8262bc4d48d1f7c9c04202151becf",
+    "translation_sha256": "6a26020fa7e6ea0c4e63a10c8f595c5364626132e01742c5fd87b563a3dd4dd5"
+  }
+}

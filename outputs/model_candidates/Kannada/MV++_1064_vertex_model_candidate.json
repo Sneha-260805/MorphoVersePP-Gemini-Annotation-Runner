@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "fear and vulnerability to desperate longing and declaration",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "fear",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved is the speaker's ultimate fate, destiny, or the force that shapes her life's path.",
+            "acceptable_visual_variants": [
+              "A close-up of the speaker's face looking towards an out-of-frame or softly blurred figure of the beloved with an expression of absolute surrender and love.",
+              "Two figures sitting close together in a quiet, intimate space, with their shadows merging on the wall behind them to symbolize their intertwined fates."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "You who are my written fate/destiny",
+            "literalization_risk": "Depicting a literal scroll of fate or a cosmic map of destiny would distract from the intimate, human relationship between the speaker and the beloved.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved",
+              "transferred_attributes": [
+                "inevitability",
+                "ultimate purpose",
+                "shaping of life's path"
+              ],
+              "vehicle_concept": "destiny"
+            },
+            "source_span_original": "तुम जो मेरी तक़दीर हो",
+            "source_span_translation": "you who are my destiny",
+            "source_term": "तुम जो मेरी तक़दीर हो",
+            "tenor": "the beloved person",
+            "vehicle": "destiny / written fate (takdeer)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the speaker looking at the beloved with deep devotion, perhaps with subtle, warm light connecting them to suggest a fated bond without using literal cosmic symbols."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The deep vulnerability, fear of abandonment, and absolute emotional dependence of a woman on her beloved, whom she views as her destiny."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "/",
+      "issue": "The poem is labeled as Kannada in the metadata, but the original poem text ('मुझे डर है कि...', 'तुम जो मेरी तक़दीर हो') is entirely in Hindi written in the Devanagari script. This is a severe language mismatch.",
+      "severity": "critical"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मुझे डर है कि,  \nतुम मुझे खो न दो।  \nमैं एक औरत हूँ,  \nजिसे फिर से तुम्हारे बिना जीना नहीं आता।  \n\nमुझे डर है कि,  \nतुम मुझसे दूर न चले जाओ।  \nजितना चाहती हूँ,  \nउतना ही मैं तुम्हें पा नहीं सकती।  \n\nअब मैं क्या करूँ?  \nमुझे तुम चाहिए, तुम जो मेरी तक़दीर हो।",
+  "poem_id": "MV++_1064",
+  "poem_title": "Ek Aurat Ki Kavitayein",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7bdfa53255e420ff96a888d574393ed3c410337fd192990dc325209c971dbd74",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1064.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I fear that,  \nYou might lose me.  \nI am a woman,  \nWho doesn’t know how to live without you again.  \n\nI fear that,  \nYou might walk away from me.  \nAs much as I want,  \nI can’t have you as I wish.  \n\nWhat should I do now?  \nI want you, you who are my destiny.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:53:29.244616+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79760792756cf56b4de9797e514c96d211c6e93291eb50ae7f3f1e5077e8690e",
+        "response_hash": "3d7cf4fbd6a29c720e55d1d318f8688825a68ce1b5806755f8ce4338a9939def",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5231cd711e83fbeb3392c30277d62c06eeaf8579227ac23c54ce271c8dbf5120",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "34061714970d19b038f50e8658629b1e3604530196f844aba141c227394a9c89",
+        "response_hash": "9474af7eb2d04c852d75f7bf90e42dec82d7d63b0c0d349d8b39985fde345b9b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da7f04a98106eb8383e782bc987d9ebce1ae83220701fc9b176e17aa20e8de84",
+        "response_hash": "96935153c8d0c0f5c9f9c5ae9fe5cef5f7dcbf379c961e5d08dbb4821ac3b182",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aed01db30e4ecfc1036fe1d0fa833eaeeada50304ca57558e338823516238243",
+        "response_hash": "69b16648aa4b40302a3c71a935795618068282e1b6764a296d27f7888343ed10",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4ff63ea139dd29c57ef04381862f39beb4a2f1fbf75b83ddf3a04ed79595d458",
+    "translation_sha256": "49dc090cb99ce4281c6a6cbc0335ce772c8a56a93ca3872146672ba3e78bd409"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A woman looking out of an ornate window of a large traditional mansion",
+          "A woman sitting in a formal, high-status household setting looking constrained"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A culturally loaded Hindi idiom referring to a daughter from an affluent, high-status, or aristocratic family, carrying heavy expectations of maintaining family honor, modesty, and strict social boundaries. It is also a famous literary allusion to Premchand's classic short story of the same name.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern wealthy woman in Western clothing partying",
+          "A poor village girl in tattered clothes"
+        ],
+        "preserved": true,
+        "romanization": "bade ghar ki beti",
+        "source_span_original": "बड़े घर की बेटी",
+        "source_span_translation": "The daughter of a big house",
+        "stanza_index": 1,
+        "term": "बड़े घर की बेटी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A young woman dressed in elegant, traditional, but restrictive high-status clothing",
+          "A grand, traditional Indian ancestral home or courtyard in the background"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "grief and quiet resignation over sacrificed dreams and societal expectations",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation of 'mar diye' as 'buried' captures the figurative meaning well, though the original Hindi literally means 'killed' or 'let die', which carries a slightly more active, tragic weight.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Using societal morality as a shield or cover to suppress personal desires.",
+            "acceptable_visual_variants": [
+              "A woman partially obscured by a heavy curtain or architectural partition in an old-style house.",
+              "A shadow of a decorative screen falling across a woman's face."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "In the shelter/behind the screen of morality",
+            "literalization_risk": "Showing a literal physical screen or veil with the word 'morality' written on it, which looks cartoonish and misses the psychological suppression.",
+            "metaphor_mapping": {
+              "tenor_concept": "societal morality",
+              "transferred_attributes": [
+                "hiding something behind it",
+                "blocking visibility",
+                "restricting movement"
+              ],
+              "vehicle_concept": "physical screen or barrier"
+            },
+            "source_span_original": "नैतिकता की आड़ में",
+            "source_span_translation": "Behind the veil of morality",
+            "source_term": "नैतिकता की आड़ में",
+            "tenor": "The societal rules of morality that hide or suppress personal freedom",
+            "vehicle": "A physical screen, veil, or shelter (आड़)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a woman standing behind a heavy, opaque traditional screen or partition that casts a shadow over her, symbolizing societal boundaries."
+          },
+          {
+            "abstract_meaning": "Completely gave up or suppressed her personal aspirations and desires.",
+            "acceptable_visual_variants": [
+              "A woman letting go of glowing, floating sparks that fade into darkness.",
+              "A closed, dusty book of personal writings kept away in a dark drawer."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Killed her dreams",
+            "literalization_risk": "Showing a literal corpse of a dream or a physical grave, which is overly macabre and misses the emotional reality of unfulfilled potential.",
+            "metaphor_mapping": {
+              "tenor_concept": "abandoning personal dreams",
+              "transferred_attributes": [
+                "termination of life",
+                "permanent loss",
+                "silencing"
+              ],
+              "vehicle_concept": "killing or burying a living being"
+            },
+            "source_span_original": "सपने मर दिए",
+            "source_span_translation": "buried her dreams",
+            "source_term": "सपने मर दिए",
+            "tenor": "The permanent abandonment of personal aspirations",
+            "vehicle": "The act of killing or burying a living entity",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a woman looking down at faded, unraveled sketches, a closed diary, or a broken instrument, symbolizing abandoned aspirations."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The cultural idiom 'Bade ghar ki beti' carries a specific socio-cultural weight in Hindi (referring to a daughter of a wealthy, respectable, or high-status family with strict codes of conduct) which is flattened to the literal 'daughter of a big house' in English. Additionally, the typo 'mar diye' (instead of 'maar diye') in L5 is smoothed over as 'buried' in the translation.",
+            "where": "L1-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Restricted her freedom and choices through societal and familial expectations.",
+            "acceptable_visual_variants": [
+              "A woman framed tightly by heavy wooden doorframes or window bars of a grand house.",
+              "The shadow of a window grill falling across her like bars."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "Bound her in boundaries/limits",
+            "literalization_risk": "Showing literal ropes or chains binding the woman, which suggests physical captivity or abuse rather than social/cultural confinement.",
+            "metaphor_mapping": {
+              "tenor_concept": "social and familial restrictions",
+              "transferred_attributes": [
+                "loss of physical freedom",
+                "confinement to a small space",
+                "inability to move freely"
+              ],
+              "vehicle_concept": "physical binding or confinement"
+            },
+            "source_span_original": "सीमाओं में बांध दिया",
+            "source_span_translation": "Bound her within limits",
+            "source_term": "सीमाओं में बांध दिया",
+            "tenor": "The restrictive nature of family traditions",
+            "vehicle": "Physical ropes or chains binding someone within a confined space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the woman standing inside a beautifully carved but restrictive courtyard or looking out through a small window, emphasizing spatial confinement."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The poetic redundancy of 'chaand ki chaandni' (literally 'the moonlight of the moon') is translated as 'moonlight of the moon', which sounds slightly unnatural in English compared to the lyrical flow of the original Hindi phrasing.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 3,
+        "loss_note": "The translation renders 'hansne' as both 'laughter' and 'smile' to avoid repetition, which is faithful to the emotional context but slightly shifts the literal repetition of the act of laughing in the original Hindi.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Unexpressed sorrows, struggles, and silent sacrifices that she keeps to herself.",
+            "acceptable_visual_variants": [
+              "A close-up of her face smiling, but with a single tear or a deeply sorrowful expression reflected in a glass pane.",
+              "Her shadow on the wall depicting a slumped, grieving posture while she stands upright and smiles."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L13",
+            "literal_meaning": "Unspoken stories are hidden",
+            "literalization_risk": "Showing literal books or scrolls hidden behind her back, which is too literal and fails to convey emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "unexpressed personal grief and experiences",
+              "transferred_attributes": [
+                "being out of sight",
+                "containing a narrative",
+                "known only to the owner"
+              ],
+              "vehicle_concept": "hidden physical objects or texts"
+            },
+            "source_span_original": "अनकही कहानियाँ छुपी हैं",
+            "source_span_translation": "untold stories lie hidden",
+            "source_term": "अनकही कहानियाँ छुपी हैं",
+            "tenor": "The unexpressed emotional pain and history of the woman",
+            "vehicle": "Hidden books, manuscripts, or secrets kept out of sight",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a split-screen or dual-tone image: one side showing her smiling face to others, and the other showing her reflective, sorrowful expression in a mirror or shadow."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation alternates between 'laughter' for 'hansne' in L10 and 'smile' for 'hansne' in L12, losing the direct repetition of the exact same Hindi root word ('hansne') which emphasizes the contrast between her outward laughter and her hidden pain.",
+            "where": "L10-L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The silent sacrifices and emotional suppression of women bound by familial honor and societal expectations in wealthy households."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बड़े घर की बेटी  \nबड़े घर की बेटी,  \nबड़ी जिम्मेदारी से भरी।  \nनैतिकता की आड़ में,  \nउसने अपने सपने मर दिए।  \n\nचाँद की चाँदनी में,  \nउसकी आँखों में सपने थे,  \nलेकिन परिवार की परंपराओं ने  \nउसे सीमाओं में बांध दिया।  \n\nहर कोई उसके हंसने में खुश है,  \nलेकिन कोई नहीं जानता,  \nउसके हंसने के पीछे,  \nकितनी अनकही कहानियाँ छुपी हैं।",
+  "poem_id": "MV++_0263",
+  "poem_title": "Bade Ghar Ki Beti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4c8f26aa5d557ad634bf91c89bdbf0777d741073b75750fb4835fae725980c17",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0263.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Daughter of a Big House  \nThe daughter of a big house,  \nFilled with great responsibilities.  \nBehind the veil of morality,  \nShe buried her dreams.  \n\nIn the moonlight of the moon,  \nHer eyes held dreams,  \nBut the traditions of the family  \nBound her within limits.  \n\nEveryone is happy in her laughter,  \nBut no one knows,  \nBehind her smile,  \nHow many untold stories lie hidden.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:05:54.114797+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "919f0438e55432f1dbbb315015b9a75f679741c12430ea078773c60924411668",
+        "response_hash": "aed07d425d9a65e1f8df488b0a90d8596203b05fd901aaa8e8cf8830dcb25bd1"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e53a4107d6afa0e6db7a1144ac1a0f513622df06c938719147aec9653aad24dd",
+        "response_hash": "2bdd34cdb647f5edd5c42c6973a7c3365ffacfe94c1fd80620b89606892b095b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "26d1f1843eeb333a8c2cff396c4f734f76a4b1e4f78481e41ea12e972e720a1a",
+        "response_hash": "01a53d8fdbfda968f588521821fd44881c8cf1aa1594d35b3dd113e526c638e2",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fbd8859ff3e27d13f56be51bc85db7f1deffd427a42bcfa7bfa1a17c338e89f6",
+        "response_hash": "d2a52987aada64775958a7c67f56eaf14cb9550f2da7236905a5a9c80c711d33",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c70a005a707dcbae35e4875e6f34de94333b18e2d93446e4c178ed0cfb23dc1a",
+        "response_hash": "05c66ee661ed893f8469969efbf1e99c0eff97409fdd84c025093a88e9c60d4f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "65e5334ff8b54f4b3075973ad0aca0b3777d023e5e4e14222841c839c993d648",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "36275c76658bbd0b2b7da28db0a8a71bb648f812d0152f703dc8bf224b17a2e1",
+    "translation_sha256": "ba3bdb975ea007111dc323036021925ce7c0ff0834364fd14afc96a5f3bf3960"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A deep, reverential faith, trust, or devotion, often directed toward the divine or sacred ideals in Indian philosophical and religious traditions. Here, it is personified as the core essence of womanhood.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "shradha",
+        "source_span_original": "श्रद्धा",
+        "source_span_translation": "devotion",
+        "stanza_index": 1,
+        "term": "श्रद्धा",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A formal act of worship, adoration, or devotional service directed toward a deity or sacred truth. Here, it represents the woman's alignment with absolute truth.",
+        "line_ref": "L8",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "aaradhana",
+        "source_span_original": "आराधना",
+        "source_span_translation": "worship",
+        "stanza_index": 2,
+        "term": "आराधना",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "reverence and devotion to a moral and protective duty",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'विश्वास-रजत-नग पग-तल में' as 'A silver peak under faith’s notion' loses the precise spatial metaphor of the silver mountain of faith resting at the woman's feet.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker defines womanhood as the pure embodiment of devotion and reverence.",
+            "acceptable_visual_variants": [
+              "A woman with a peaceful expression looking forward with hands gently clasped near her heart.",
+              "A stylized silhouette of a woman integrated with soft, warm light rays."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Woman! You are only devotion/reverence",
+            "literalization_risk": "Depicting a woman literally transforming into a religious ritual or abstract concept of devotion would look bizarre and lose the human element.",
+            "metaphor_mapping": {
+              "tenor_concept": "woman",
+              "transferred_attributes": [
+                "purity",
+                "reverence",
+                "selflessness"
+              ],
+              "vehicle_concept": "devotion"
+            },
+            "source_span_original": "नारी! तुम केवल श्रद्धा हो",
+            "source_span_translation": "Woman! You are only devotion",
+            "source_term": "नारी! तुम केवल श्रद्धा हो",
+            "tenor": "woman (naari)",
+            "vehicle": "devotion (shradha)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a woman in a serene, respectful posture, perhaps with hands folded or in a calm, meditative state, surrounded by a soft, warm glow."
+          },
+          {
+            "abstract_meaning": "The steady, unshakeable foundation of faith is compared to a silver mountain standing firm beneath her feet.",
+            "acceptable_visual_variants": [
+              "A woman standing on a stylized, shimmering silver mountain peak under a clear sky.",
+              "A close-up of feet resting on a solid, silver-veined stone or rock foundation."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The silver mountain of faith at the soles of the feet",
+            "literalization_risk": "Drawing a literal mountain directly under a woman's feet could look like a surreal giant-woman fantasy illustration rather than a poetic metaphor of stability.",
+            "metaphor_mapping": {
+              "tenor_concept": "faith",
+              "transferred_attributes": [
+                "steadfastness",
+                "purity",
+                "grandeur",
+                "immovability"
+              ],
+              "vehicle_concept": "silver mountain"
+            },
+            "source_span_original": "विश्वास-रजत-नग पग-तल में",
+            "source_span_translation": "A silver peak under faith’s notion",
+            "source_term": "विश्वास-रजत-नग पग-तल में",
+            "tenor": "faith (vishwas)",
+            "vehicle": "silver mountain (rajat-nag)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a woman standing gracefully on a high, snow-capped, silver-glowing mountain peak, symbolizing her elevated and firm foundation."
+          },
+          {
+            "abstract_meaning": "The woman is urged to continuously flow with gentleness, nourishment, and life-giving love, like a stream of nectar.",
+            "acceptable_visual_variants": [
+              "A sparkling, luminous stream flowing smoothly through a lush green meadow.",
+              "A woman pouring water from a traditional vessel, where the water glows with a golden, nectar-like light."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "Flow like a spring/source of nectar",
+            "literalization_risk": "Showing a golden liquid pouring out of a woman's body could look grotesque or like a magical fantasy spell.",
+            "metaphor_mapping": {
+              "tenor_concept": "woman's gentle presence",
+              "transferred_attributes": [
+                "sweetness",
+                "nourishment",
+                "continuous flow",
+                "life-giving quality"
+              ],
+              "vehicle_concept": "stream of nectar"
+            },
+            "source_span_original": "पीयूष-स्रोत-सी बहा करो",
+            "source_span_translation": "Flow like the stream of nectar",
+            "source_term": "पीयूष-स्रोत-सी बहा करो",
+            "tenor": "the gentle, nourishing presence of a woman",
+            "vehicle": "stream of nectar (peeyush-srot)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a gentle, glowing, crystal-clear stream winding through a landscape, with the soft, ethereal silhouette of a woman integrated into the flow or standing beside it."
+          },
+          {
+            "abstract_meaning": "Life is conceptualized as a smooth, beautiful plain or landscape through which the stream of her presence flows.",
+            "acceptable_visual_variants": [
+              "A wide, peaceful green valley under a warm sunrise.",
+              "A harmonious landscape with gentle hills flattening into a beautiful, open plain."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "In the beautiful plain of life",
+            "literalization_risk": "A literal flat field might look boring or like a simple agricultural landscape without conveying the journey of life.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "smoothness",
+                "peacefulness",
+                "breadth",
+                "harmony"
+              ],
+              "vehicle_concept": "plain landscape"
+            },
+            "source_span_original": "जीवन के सुंदर समतल में",
+            "source_span_translation": "In life’s plain, grow gentler",
+            "source_term": "जीवन के सुंदर समतल में",
+            "tenor": "life (jeevan)",
+            "vehicle": "beautiful plain/flat land (sundar samtal)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a vast, serene, and beautiful valley or plain stretching to the horizon under a soft sky, through which a river flows."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'विश्वास-रजत-नग पग-तल में' as 'A silver peak under faith’s notion' loses the precise spatial metaphor of the silver mountain of faith standing at the woman's feet ('पग-तल में'), which establishes her foundational stature.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'In life’s plain, grow gentler' introduces 'grow gentler' to force a rhyme with 'nectar', losing the original's direct command to flow in the beautiful plains of life ('सुंदर समतल में').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation of 'संलालता' (cherished/nurtured beauty or tenderness) as 'treasure... in veil' alters the original meaning to fit a rhyme scheme.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The woman is described as a complete, self-contained epic story of resilience and virtue.",
+            "acceptable_visual_variants": [
+              "A woman standing in a thoughtful pose with an open, ancient-style scroll or book nearby.",
+              "A portrait of a woman with a deep, expressive gaze that suggests a rich, untold history."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "You are a self-complete saga/epic",
+            "literalization_risk": "Depicting a woman literally made of book pages or text would look like a surreal graphic design rather than a poetic tribute.",
+            "metaphor_mapping": {
+              "tenor_concept": "woman",
+              "transferred_attributes": [
+                "completeness",
+                "depth",
+                "rich history",
+                "narrative richness"
+              ],
+              "vehicle_concept": "epic tale"
+            },
+            "source_span_original": "तुम स्वयंपूर्ण गाथा हो",
+            "source_span_translation": "You are the self-complete tale",
+            "source_term": "तुम स्वयंपूर्ण गाथा हो",
+            "tenor": "woman (tum)",
+            "vehicle": "saga/epic tale (gatha)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a woman looking reflective, with faint, elegant ancient script or scroll motifs subtly layered in the background to suggest her deep, historic narrative."
+          },
+          {
+            "abstract_meaning": "The woman is described as the very embodiment of the worship of truth.",
+            "acceptable_visual_variants": [
+              "A woman lighting a traditional clay lamp (diya) in a quiet, sacred space.",
+              "A woman standing in a peaceful, meditative pose surrounded by soft, pure white light."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "You are the worship of truth",
+            "literalization_risk": "Showing a woman worshipping herself or a literal word 'Truth' would be confusing and lose the abstract beauty of the metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "woman",
+              "transferred_attributes": [
+                "purity",
+                "sacredness",
+                "devotion to truth"
+              ],
+              "vehicle_concept": "worship of truth"
+            },
+            "source_span_original": "तुम सत्य की आराधना हो",
+            "source_span_translation": "In truth’s worship, you are true",
+            "source_term": "तुम सत्य की आराधना हो",
+            "tenor": "woman (tum)",
+            "vehicle": "worship/devotion (aaradhana)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a woman in a serene, prayerful posture with a glowing light source in front of her, symbolizing the pursuit and embodiment of truth."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The rare Sanskritized term 'संलालता' (meaning cherished tenderness, playfulness, or beauty) is translated loosely as 'treasure... in veil' to fit the rhyme scheme, losing its specific aesthetic and emotional quality.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'In truth’s worship, you are true' simplifies 'तुम सत्य की आराधना हो' (You are the very worship/adoration of truth), turning a noun of identity ('आराधना') into an adjective ('true').",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation 'never sway' is added to rhyme with 'convey', which is not present in the original Hindi text.",
+            "where": "L11"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'Thus will your message convey' alters the active subjunctive/imperative structure of 'तुम्हारा सन्देश बने' (let this become your message in the world).",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The idealized, pure, and self-sacrificing nature of womanhood as a source of devotion, truth, and moral duty."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing multiple losses, which is inconsistent with a fully faithful translation rating.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "नारी! तुम केवल श्रद्धा हो,  \nविश्वास-रजत-नग पग-तल में।  \nपीयूष-स्रोत-सी बहा करो,  \nजीवन के सुंदर समतल में।  \n\nतुम स्वयंपूर्ण गाथा हो,  \nयुग-युग की वह संलालता हो।  \nतुम में न कोई छलना है,  \nतुम सत्य की आराधना हो।  \n\nतुम्हें चाहिए यह स्मरण रहे,  \nप्रियतम का जो आदेश मिले।  \nउसकी मान-रक्षा करना ही  \nजग में तुम्हारा सन्देश बने।",
+  "poem_id": "MV++_0659",
+  "poem_title": "Naari Tum Sirf Shradha Ho",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5adce64338c9a73c370b10ef8c260f54e6d2147dfc0e5bc2c4c28ad55cdf5a79",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0659.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Woman! You are only devotion,  \nA silver peak under faith’s notion.  \nFlow like the stream of nectar,  \nIn life’s plain, grow gentler.  \n\nYou are the self-complete tale,  \nThe treasure of ages in veil.  \nNo deception lies within you,  \nIn truth’s worship, you are true.  \n\nLet it be engraved in your mind,  \nThe command from the beloved kind.  \nTo guard his honor, never sway,  \nThus will your message convey.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:52:28.798498+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "215b8740220ee76140f5c6c5486c6e86d7d1b5e4ed28af7630db5b0a60912097",
+        "response_hash": "6a74e8ca9b0b36559bcc89cebadb0178cd408db51f882f7342425129ea34a6d8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "74e01ca5958bd0083274a7beb412d4c626960e712ad8b16988927aec549ff650",
+        "response_hash": "710870e859c4a29cb4829856b182a541fcfe5865ce884471db12a01374397d32",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "af650d2b749a8f32cdc49798e2302fbf2b2d1092b5734fb47b6c8296e2c64675",
+        "response_hash": "5c4a4194d94337e6b0e2cd10021845745149757fa4818960bb7f9902ab5b24b7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cc5a3ee265998f47a6f413be419b742085b6a9396322da2fdc87cecf6b88e9c5",
+        "response_hash": "8da78d212e58f8c43f211d75e18541f5505466d360d5a34cd0b7d61951475ab5",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "203fc2661d71b9fba29f466331784ace2b5455b36d63fccfa7dfef1d8c96febe",
+        "response_hash": "e813a5fc373f35d65cf5822baaf4863002855b2527ab6bd884f40f05dccd2075",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2c6e6d77dfbf60da786f7c963b1c982fe3a8a1c88617d668c8db3f4d8093ebd1",
+    "translation_sha256": "74e9f57e0212b692958cf6ec84710ee470126cd3479e61859c87fc38a0a4e8f0"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A transition from dynamic movement to soaring liberation.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A powerful, swift, and untamed force or spirit of nature that races forward",
+            "acceptable_visual_variants": [
+              "A stylized black horse running alongside a rushing river and dissolving into the wind",
+              "A dark, ethereal equine silhouette leaping into the sky among clouds and water currents"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "The black horse of the stable/yard",
+            "literalization_risk": "Depicting a literal domestic horse in a stable misses the wild, elemental, and soaring nature of the spirit described in the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "elemental force",
+              "transferred_attributes": [
+                "speed",
+                "power",
+                "untamed movement"
+              ],
+              "vehicle_concept": "black horse"
+            },
+            "source_span_original": "ಕಾಲೇ ಕೊಟ್ಟಿಯ ಮಾರು",
+            "source_span_translation": "The black horse races",
+            "source_term": "ಕಾಲೇ ಕೊಟ್ಟಿಯ ಮಾರು",
+            "tenor": "An elemental, swift force or spirit",
+            "vehicle": "A black horse racing",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dark, powerful horse-like form composed of or merging with natural elements like water and wind, showing it in mid-stride or soaring."
+          },
+          {
+            "abstract_meaning": "Moving with absolute fluidity, grace, and natural ease",
+            "acceptable_visual_variants": [
+              "The horse running parallel to a fast-flowing river, its form mirroring the waves",
+              "The horse's body partially transitioning into flowing water currents"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "flowing from/with the water",
+            "literalization_risk": "An illustrator might literally submerge a horse in a river, making it look like it is drowning or swimming rather than moving fluidly.",
+            "metaphor_mapping": {
+              "tenor_concept": "movement of the spirit",
+              "transferred_attributes": [
+                "fluidity",
+                "grace",
+                "continuous motion"
+              ],
+              "vehicle_concept": "flowing water"
+            },
+            "source_span_original": "ನೀರಿನಿಂದ ಹರಿಯುವ",
+            "source_span_translation": "Flowing with the water",
+            "source_term": "ನೀರಿನಿಂದ ಹರಿಯುವ",
+            "tenor": "fluid and effortless movement of the horse/spirit",
+            "vehicle": "flowing water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render the horse's mane, tail, or body with fluid, wave-like blue and white lines that mimic the motion of a rushing stream."
+          },
+          {
+            "abstract_meaning": "Achieving complete freedom, transcendence, and rising above earthly limitations",
+            "acceptable_visual_variants": [
+              "A dark silhouette leaping upward into a dramatic, windy sky with swirling dust and clouds",
+              "The horse dissolving into wind currents that sweep upward toward the heavens"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3-L4",
+            "literal_meaning": "rising inside the wind, they will fly/soar",
+            "literalization_risk": "Depicting literal people flying or a horse with bird wings might look cartoonish or like a western Pegasus, losing the abstract elemental quality.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual liberation",
+              "transferred_attributes": [
+                "elevation",
+                "freedom",
+                "weightlessness"
+              ],
+              "vehicle_concept": "flight in the wind"
+            },
+            "source_span_original": "ಗಾಳಿಯ ಒಳಗೆ ಎದ್ದು,\nಅವರು ಹಾರುವರು!",
+            "source_span_translation": "Rising in the wind,\nThey shall soar high!",
+            "source_term": "ಗಾಳಿಯ ಒಳಗೆ ಎದ್ದು, ಅವರು ಹಾರುವರು!",
+            "tenor": "the horse/spirit achieving ultimate liberation and elevation",
+            "vehicle": "birds or airborne entities soaring in the wind",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show the dark equine form ascending into swirling wind currents, with its shape becoming lighter and blending into the sky."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಕಾಲೇ ಕೊಟ್ಟಿಯ' (kaale kottiya) as 'black horse' collapses the specific regional or colloquial nuances of the original phrasing, which carries a distinct rhythmic and dialectal texture in Kannada that is lost in the standard English rendering.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The third-person plural pronoun 'ಅವರು' (avaru) in Kannada is an honorific or respectful plural, which is translated as a simple plural 'They' in English, losing the inherent tone of respect or social distance present in the original verb agreement and pronoun.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The boundless, elemental journey of a black horse transcending physical limits."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing medium and low severity losses. Usually, if there are notable losses, translation_quality should be 'partial' or the loss_note should explain the discrepancy.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[0].metaphor_spans[2].source_span_original",
+      "issue": "The source_span_original contains a newline character ('\\n') which does not match the exact verbatim substring of the original poem block where lines are separated.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಕಾಲೇ ಕೊಟ್ಟಿಯ ಮಾರು,  \nನೀರಿನಿಂದ ಹರಿಯುವ,  \nಗಾಳಿಯ ಒಳಗೆ ಎದ್ದು,  \nಅವರು ಹಾರುವರು!",
+  "poem_id": "MV++_0929",
+  "poem_title": "Kaale Koti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "afd37859f44545012e4ee77b3b345a644eabb70a27a15ebced340c4953a7e52f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0929.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The black horse races,  \nFlowing with the water,  \nRising in the wind,  \nThey shall soar high!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:32:34.639961+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "92e9a5140e59f1b7d7fb07feb6191abf7dbb826b612cd24a84db1d3ff4abebcf",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      },
+      {
+        "attempt": 2,
+        "outcome": "success",
+        "prompt_hash": "8e939d3feb0a3d7072642c675525b5437feb581e95c788ceab8f71711d5b785f",
+        "response_hash": "7cce544e28842eb7e1948f7b862695fbd52436a028895929c45aa3d0b457b5ad"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4e19817e5ff27ff8757fdf35f7edbd38970952a80a139241b719a3b0f6e9b3da",
+        "response_hash": "a3eead341d0913c37be33aa5f235dd473f9c8722b6361e2cf952982c81a2bb8c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a0ab5d33a0e7ee706812cdb44ca7481d9b21f05194025df551c51559c01f6289",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5d597dedda30a08e4c3df3df08d34ac2ee8a8aa33bd55734bc88d246be134d8e",
+        "response_hash": "47b36310afaecf7a9a44db89228f605f04a72bc7e6894a45cc2e39e6751586d5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b10f65f5ba8b939c43ee6b27a1d86259b96a0cc6ac8006f82d852b072ea2f360",
+        "response_hash": "00b0d7b02b77e88e0b8eba6097b99bb9f92f99dd850da0f7d0b6244475b63a36",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6bd165792f62809a9f7b1bdbb10d1b18e228b2bdd896dacd9bc5a2b359b5eaa3",
+        "response_hash": "864534a37bf554e46b9f311ecc628c60410068d36cdc822301964f2e1475cd29",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e019d3f11cd1bb0b5c843ddbdfed8e604a9ab93df59612609463bc7c22efe79a",
+    "translation_sha256": "2eacb85ec955245f128fb89eebceec558ddad645a213ea8850f05de78f699833"
+  }
+}

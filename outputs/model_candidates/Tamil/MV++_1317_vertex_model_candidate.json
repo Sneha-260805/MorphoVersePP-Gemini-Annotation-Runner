@@ -1,0 +1,174 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the core meaning, though the intense physical sensation of 'kuthum' (piercing/stabbing) and the agglutinative flow of Tamil case endings are slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intense, sharp, and sometimes painful emotional impact of love felt deeply in the heart.",
+            "acceptable_visual_variants": [
+              "A stylized silhouette of a figure with a glowing, vibrant heart that has delicate, sharp rays of light emanating from it.",
+              "A close-up of a person's face showing a mixture of pain and joy, with their hand gently pressed against their chest."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Love that stabs or pricks in the chest/heart",
+            "literalization_risk": "An illustrator might literally depict a weapon or sharp object physically stabbing a human chest, which would look violent, gory, and completely misrepresent the romantic, emotional tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional intensity of love",
+              "transferred_attributes": [
+                "sharpness",
+                "suddenness",
+                "deep penetration",
+                "painful but profound sensation"
+              ],
+              "vehicle_concept": "physical stabbing/piercing"
+            },
+            "source_span_original": "நெஞ்சில் குத்தும் காதல்",
+            "source_span_translation": "Love that pierces the heart",
+            "source_term": "நெஞ்சில் குத்தும் காதல்",
+            "tenor": "The intense emotional pain or sharp sensation of love",
+            "vehicle": "A sharp object stabbing or piercing the chest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person holding their hand over their heart with an expression of intense, bittersweet emotion, perhaps with soft, warm light radiating from the chest to symbolize the internal fire of love rather than physical injury."
+          },
+          {
+            "abstract_meaning": "Feeling completely suspended, weightless, and sustained by the beloved's gaze.",
+            "acceptable_visual_variants": [
+              "A dreamlike scene where a figure is gently drifting upward against a background of soft, warm light representing the beloved's eyes.",
+              "A close-up of expressive eyes reflecting a tiny, peaceful silhouette of the speaker."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Floating or drifting inside your sight/gaze",
+            "literalization_risk": "Depicting a tiny person literally swimming or floating inside a giant eyeball or a physical beam of light coming from an eye, which would look surreal, bizarre, or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional state of being loved and looked at",
+              "transferred_attributes": [
+                "weightlessness",
+                "effortless suspension",
+                "being surrounded and supported by a medium"
+              ],
+              "vehicle_concept": "buoyancy/floating in a fluid medium"
+            },
+            "source_span_original": "உன் பார்வையில் மிதக்கும்",
+            "source_span_translation": "Floating in your gaze",
+            "source_term": "உன் பார்வையில் மிதக்கும்",
+            "tenor": "The feeling of being uplifted, secure, and carried away by the beloved's look",
+            "vehicle": "An object or body floating weightlessly in water or air",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two figures looking at each other, where one figure is rendered with a slightly translucent, weightless quality, or surrounded by soft, swirling patterns of light that suggest a dreamlike suspension."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil locative case suffix '-il' in 'nenjil' (in the heart) and 'paarvaiyil' (in the gaze) is rendered as standard English prepositions, losing the tight, agglutinative fusion of location and noun characteristic of Tamil grammar.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'kuthum' literally means stabbing or pricking, which has a sharper, more physical tactile connotation in Tamil than the English translation 'pierces'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The bittersweet nature of love that pierces the heart yet remains the ultimate joy of existence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "நெஞ்சில் குத்தும் காதல்,  \nஇன்னும் விடாமல்,  \nஉன் பார்வையில் மிதக்கும்,  \nஎன் உயிரின் இன்பம்!",
+  "poem_id": "MV++_1317",
+  "poem_title": "Nenjil Kothikkum",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "8f69315abe021b1f73cf1fdb39eedbd2885a32b14d8d970e4e4c4c52a0c7b848",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1317.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Love that pierces the heart,  \nYet never lets go,  \nFloating in your gaze,  \nIs the joy of my existence!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:20:49.193139+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "710043a9fd0acf6ac5a4744052c9b021c4ab92d95d2c4237b86b01bb540d9181",
+        "response_hash": "7c6af9794c9236b6a5fd7353c708442189260a0b807ca6d75faffb3a38dfe16d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c0e266f098d67dd2de7eee7e5e4573c53192ba48d1ffb332694bc7a9def08030",
+        "response_hash": "8c43d92490c0aa783d6a7d1569cf976fa221ff2598eb83cb79b7d29f5644f7ae",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6f36d64dba2e657a5525099c4f95c1bac292a3db493707668a31bbfdca3c8552",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db1e9f5152c5e1608b18faa76c453ec27628b5c2bdad0a0e3e75cf52a15338ad",
+        "response_hash": "e4234927515c1f4daf18e893e8625598c8ca0d88c72303c0fc490ffd85e5f382",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "964fc1ba8b6d23714c610efd80f6e907d37be984636f9eec50673fccaec7c0e1",
+        "response_hash": "29db01f69bd4996d3ce07ce85cf6bc8ed27e10b22f874a7ec36d5eea9cb91d75",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49a87f3e4f5210ab2750f9ed8b919cbb2474df58f42aee806309e2f1656bc5ee",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2144e040a927b22b62d9baa5ce568d60dc161238fdb08447a414ee8caeb96286",
+    "translation_sha256": "794ef1a401eea8191ebc217f6bae6f859392dca18d8cace86b37bc243f1d8c1f"
+  }
+}

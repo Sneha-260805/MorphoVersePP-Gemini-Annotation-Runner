@@ -1,0 +1,217 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet wonder to deep connection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but the soft, rhythmic flow of the Devanagari script and the specific sensory blending of 'chandni ki khushbu' (fragrance of moonlight) lose some of their native poetic resonance in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The lines on a person's hands seem to convey a deep, unspoken meaning or destiny to the observer.",
+            "acceptable_visual_variants": [
+              "A close-up of two hands held open, with the palm lines softly highlighted by warm light.",
+              "A person gently holding another's hand, looking intently at the palm lines in a quiet, intimate setting."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L2",
+            "literal_meaning": "The physical creases on the palms of the hands literally speaking words in silence.",
+            "literalization_risk": "Showing literal mouths or speech bubbles emerging from the lines of a hand, which would look surreal or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "visual patterns of palm lines",
+              "transferred_attributes": [
+                "expressiveness",
+                "ability to convey meaning",
+                "silent communication"
+              ],
+              "vehicle_concept": "human speech"
+            },
+            "source_span_original": "हाथों की रेखाएँ  \nखामोशी से कुछ कहने लगें",
+            "source_span_translation": "lines of your hands  \nBegin to speak silently",
+            "source_term": "हाथों की रेखाएँ\nखामोशी से कुछ कहने लगें",
+            "tenor": "The expressive, communicative quality of the beloved's hands",
+            "vehicle": "A person speaking silently",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of open palms with soft, glowing, or detailed lines, perhaps with a gentle light emanating from them to suggest they hold a story."
+          },
+          {
+            "abstract_meaning": "The eyes of the beloved reflect a serene, beautiful, and intoxicating quality, combining visual light with olfactory sweetness.",
+            "acceptable_visual_variants": [
+              "A close-up of eyes reflecting a bright crescent moon, with soft silver sparkles suggesting a sensory atmosphere.",
+              "A face illuminated by soft, cool moonlight, capturing a dreamy, reflective expression in the eyes."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The physical scent of moonlight physically settling and living inside someone's eyeballs.",
+            "literalization_risk": "Depicting literal perfume bottles or mist spraying from the moon into a pair of eyes, which ruins the delicate poetic synesthesia.",
+            "metaphor_mapping": {
+              "tenor_concept": "the visual beauty of eyes",
+              "transferred_attributes": [
+                "luminosity",
+                "sweetness",
+                "intoxicating presence",
+                "gentleness"
+              ],
+              "vehicle_concept": "fragrant moonlight"
+            },
+            "source_span_original": "चाँदनी की खुशबू बसने लगे",
+            "source_span_translation": "fragrance of moonlight  \nResides in your eyes",
+            "source_term": "चाँदनी की खुशबू बसने लगे",
+            "tenor": "The beautiful, luminous, and captivating quality of the beloved's eyes",
+            "vehicle": "A fragrant scent of moonlight",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a close-up of expressive eyes reflecting a soft, silver moonlit glow, perhaps with subtle, ethereal floral or light patterns swirling gently around them."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The Urdu-derived word 'nazaakat' (delicacy/elegance) carries a specific aesthetic weight in Hindustani poetry that 'delicacy' only partially conveys.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sound of the beloved's laughter is so musical and natural that even the wind seems to try to harmonize with it.",
+            "acceptable_visual_variants": [
+              "A joyful person laughing in a field, with wind-blown leaves or petals swirling around them in a circular, rhythmic motion.",
+              "A close-up of a laughing face with abstract, flowing wind lines curving gracefully around the frame like musical staves."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5-L7",
+            "literal_meaning": "The physical wind actively searching for a musical rhythm or beat within the sound waves of a human laugh.",
+            "literalization_risk": "Showing a cartoon wind character with ears or eyes searching through musical notes coming out of a mouth.",
+            "metaphor_mapping": {
+              "tenor_concept": "the wind interacting with laughter",
+              "transferred_attributes": [
+                "responsiveness",
+                "musicality",
+                "harmonization"
+              ],
+              "vehicle_concept": "a seeker of musical rhythm"
+            },
+            "source_span_original": "हवा  \nतुम्हारे हँसने की आवाज़ में  \nलय खोजेगी",
+            "source_span_translation": "breeze  \nSeeks a rhythm in your laughter",
+            "source_term": "हवा\nतुम्हारे हँसने की आवाज़ में\nलय खोजेगी",
+            "tenor": "The natural, musical, and harmonious quality of the beloved's laughter",
+            "vehicle": "A musician or dancer seeking a rhythm to harmonize with",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person laughing joyfully outdoors, with their hair and clothes gently blowing in a swirling breeze, using soft lines to show the wind wrapping around them in a rhythmic, flowing pattern."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of the future tense verb 'हँसोगे' (will laugh) and 'खोजेगी' (will seek) into the English present tense ('laugh', 'seeks') flattens the subtle shift from the present subjunctive/habitual framing of the first stanza to a more explicit future projection in the second stanza.",
+            "where": "L5-L7"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Urdu-derived word 'नज़ाकत' (nazaakat), which carries deep aesthetic connotations of elegance, delicacy, and exquisite refinement in Hindustani poetic traditions, is translated as the more generic 'delicacy'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The subtle, sensory transformation of the world through the presence and actions of a beloved."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_loss",
+      "issue": "The stanza translation_quality is marked as 'partial' and the loss_note describes specific poetic and sensory losses, but the translation_loss array is empty. This is inconsistent; the described losses should be structured in the translation_loss array.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जब तुम्हारे हाथों की रेखाएँ  \nखामोशी से कुछ कहने लगें,  \nजब तुम्हारी आँखों में  \nचाँदनी की खुशबू बसने लगे।  \n\nजब तुम हँसोगे, और हवा  \nतुम्हारे हँसने की आवाज़ में  \nलय खोजेगी,  \nजब हर पल की नज़ाकत  \nतुमसे जुड़ने लगे।",
+  "poem_id": "MV++_0089",
+  "poem_title": "Jab Tumhare",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c89fbc3d611ac6bce4317f478d1aefd843bf9ee3df8d8ace22c752409df1172b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0089.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "When the lines of your hands  \nBegin to speak silently,  \nWhen the fragrance of moonlight  \nResides in your eyes.  \n\nWhen you laugh, and the breeze  \nSeeks a rhythm in your laughter,  \nWhen the delicacy of every moment  \nStarts to connect with you.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:45:27.900957+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "11f6d81ee8a7db55f2e0ac15165b651fe27aeab8f2f00f8da5500a06c7da3dc3",
+        "response_hash": "4cedcaf48922b7426d77474fc8824fcff03d153f2e72fd1039bde01575f83a0e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9fed27d2b0ba93d9e4eab42d0afd777caaaef6e7c00197b946ea1d53aafc4b05",
+        "response_hash": "f07348c02c12d298b6ae5759b06fd8b5f941adb54ba670b5e450de4d61d7f172",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df2148cfef9f7628a0ceb77b8f4505f0a9536f2245b963fa11df7ff6cb1047f0",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cf4e8f0e52b55bf7d68cf32e7f32bafe6f4d04d54270cb1eb65f9b81c18de551",
+        "response_hash": "0283543a96987bee8a331e88d5bc200ead3a357e714e2d62afc571b5d4f5e342",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "201bffb93d56cf94e885851631ea326f42fb704f08e351e4e2058cb22df2bd49",
+        "response_hash": "6afb06f1aaa8ce651e565aee1918f696e37b735f3a450b16f69b222e28d9f56c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "15e59d4d3b74ff8ef85d538f7ebdd2d7c1d31309baba3e6a9d5186558663ee74",
+        "response_hash": "63d2ce78a35907bd6da0734a7a28aead3483dae4e966f3e44e0c0b55a8539336",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "10857207e76f78d300c195c1c39a29ba82b8b57015a2f8085914e26ae5218b03",
+    "translation_sha256": "9f0264a8aac34171f24c83b77efbf7be0d11e94a4a2793e659e92c1fab9b1981"
+  }
+}

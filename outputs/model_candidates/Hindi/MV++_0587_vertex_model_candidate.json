@@ -1,0 +1,278 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and determination building to active defiance and forward movement",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The natural world or reality demands attention and action from the individual.",
+            "acceptable_visual_variants": [
+              "A wide-angle view of a vast landscape with wind blowing across the grass",
+              "A person standing on a high cliff looking out over the expansive earth"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The physical soil/planet Earth speaks out loud",
+            "literalization_risk": "Depicting a literal face or mouth emerging from the soil, which looks like a fantasy monster rather than a poetic call.",
+            "metaphor_mapping": {
+              "tenor_concept": "compelling call of reality",
+              "transferred_attributes": [
+                "voice",
+                "urgency",
+                "agency"
+              ],
+              "vehicle_concept": "speaking person"
+            },
+            "source_span_original": "धरती कहे पुकार के",
+            "source_span_translation": "The earth calls out",
+            "source_term": "धरती कहे पुकार के",
+            "tenor": "The compelling call of reality or duty",
+            "vehicle": "A speaking person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, cracked or fertile landscape stretching to the horizon under a bright sky, suggesting a silent but powerful presence."
+          },
+          {
+            "abstract_meaning": "To stop daydreaming or focusing on unrealistic fantasies and face reality.",
+            "acceptable_visual_variants": [
+              "A person stepping out of a misty shadow into clear sunlight",
+              "A silhouette turning away from a starry, surreal sky toward a rising sun"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L2",
+            "literal_meaning": "Physically turning one's face away from dreams",
+            "literalization_risk": "Showing literal floating dream bubbles being physically turned away from, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "rejecting illusions",
+              "transferred_attributes": [
+                "physical redirection",
+                "rejection of sight"
+              ],
+              "vehicle_concept": "turning away"
+            },
+            "source_span_original": "सपनों से मुँह मोड़ के",
+            "source_span_translation": "Turning away from dreams",
+            "source_term": "सपनों से मुँह मोड़ के",
+            "tenor": "Rejecting illusions or passive fantasies in favor of action",
+            "vehicle": "Turning one's head away from an object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person turning their back on a hazy, soft-focus background and stepping toward a sharp, brightly lit path."
+          },
+          {
+            "abstract_meaning": "Look toward hope, clarity, truth, or a bright future.",
+            "acceptable_visual_variants": [
+              "A golden sunrise casting long shadows forward",
+              "A bright light breaking through clouds, illuminating a path"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L3",
+            "literal_meaning": "Staring directly at the physical sun",
+            "literalization_risk": "Depicting someone staring directly at the sun, which is physically harmful and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and clarity",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "guidance"
+              ],
+              "vehicle_concept": "sun"
+            },
+            "source_span_original": "सूरज की ओर देख",
+            "source_span_translation": "Look towards the sun",
+            "source_term": "सूरज की ओर देख",
+            "tenor": "Hope, truth, and a bright future",
+            "vehicle": "The sun",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a person looking up toward a warm, golden dawn light illuminating their face."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic, rhyming quality of the Hindi imperative verbs ('dekh' and 'chal') and the internal rhyme of the conjunctive participles ('mod ke', 'pukaar ke') are lost in the English translation, which uses standard non-rhyming English imperatives.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Possessing intense passion, determination, or inner strength.",
+            "acceptable_visual_variants": [
+              "A person walking resolutely forward against a dark, cold wind",
+              "A close-up of determined eyes reflecting a warm, bright light"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L7",
+            "literal_meaning": "Having a physical fire burning inside one's chest",
+            "literalization_risk": "Showing a literal flame burning inside a transparent chest cavity, which looks like a medical anomaly or fantasy horror.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner passion",
+              "transferred_attributes": [
+                "heat",
+                "energy",
+                "consuming power"
+              ],
+              "vehicle_concept": "fire"
+            },
+            "source_span_original": "सीने में आग है",
+            "source_span_translation": "there is fire within",
+            "source_term": "सीने में आग है",
+            "tenor": "Passion, courage, and determination",
+            "vehicle": "Fire",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person with a highly determined facial expression and a strong, upright posture, perhaps with a warm golden glow reflecting on their chest and face."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The repetition of the concessive particle 'sahi' (meaning 'granted' or 'even if it is so') in 'kathin sahi' and 'toofaan sahi' is lost, flattening the rhythmic emphasis of accepting hardships before overcoming them.",
+            "where": "L5-L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'seene mein' as 'within' loses the specific physical and emotional resonance of 'seenah' (chest/breast), which is a common poetic locus of courage, passion, and fire in Hindi-Urdu poetry.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Confronting severe difficulties and challenges with courage and directness.",
+            "acceptable_visual_variants": [
+              "A traveler standing unyielding on a mountain ridge during a gale",
+              "A close-up of a determined face looking straight ahead into swirling dust"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L9",
+            "literal_meaning": "Making direct eye contact with a physical storm wind",
+            "literalization_risk": "Depicting a storm wind with literal eyes in the clouds, which looks like a cartoon character.",
+            "metaphor_mapping": {
+              "tenor_concept": "direct confrontation",
+              "transferred_attributes": [
+                "fearlessness",
+                "direct gaze",
+                "equality of power"
+              ],
+              "vehicle_concept": "eye contact"
+            },
+            "source_span_original": "आँधियों से आँख मिलाकर",
+            "source_span_translation": "Face the gusts eye to eye",
+            "source_term": "आँधियों से आँख मिलाकर",
+            "tenor": "Confronting challenges directly and fearlessly",
+            "vehicle": "Eye contact with an opponent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person standing firm, head held high, looking directly into a powerful wind that blows their hair and clothes back."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The intense phonetic alliteration and rhythmic drive of the conjunctive participles 'milaakar' and 'takraakar' are lost in the English translation, which uses standard participial phrases ('Face...', 'And clash...').",
+            "where": "L9-L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "An urgent call to abandon passive dreaming, face life's storms with inner fire, and actively forge one's own path."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "धरती कहे पुकार के,  \nसपनों से मुँह मोड़ के,  \nसूरज की ओर देख,  \nकदम मिला के चल।\n\nराहें कठिन सही,  \nवर्षा, अंधड़, तूफान सही,  \nसीने में आग है,  \nतूफानों से लड़ चल।\n\nआँधियों से आँख मिलाकर,  \nबिजली के झटकों से टकराकर,  \nधरती कहे पुकार के,  \nअपनी राह बना, बढ़ चल।",
+  "poem_id": "MV++_0587",
+  "poem_title": "Dharti Kahe Pukaar Ke",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "fd98dc797ab2c90aca26fed00434b2d7cc639eea8ec4eefa7ee76264c114596c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0587.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The earth calls out,  \nTurning away from dreams,  \nLook towards the sun,  \nAnd march in step.\n\nThe paths may be tough,  \nWith rain, storm, and gale,  \nBut there is fire within,  \nFight through the tempests.\n\nFace the gusts eye to eye,  \nAnd clash with lightning’s shocks,  \nThe earth calls out,  \nMake your path, move on.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:41:40.867575+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "73a8c36a91863028d63214c662684d728ce0ee1be75df987a36da36baef549c7",
+        "response_hash": "855412b155def316ddb48a2555eace50863d4e3660c76ba713ecd168bb0c3efa",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b6bf66de14d36906bad0df44ea68006d1b7b23836fe0be71aecfc6eb63160e18",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ff33f7c38a3a6e8d52a0d43fc4ee825d829dce1b0efa75378e9d69a11489dba1",
+        "response_hash": "9b1c362be6d40df13c5f464c4fc5a8812338d175689b3bbb5e9c7f40b4f1be67",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f214ad57ca3461060e6b58a270a13d40797cb219cd5ad45ea515a9a19221a12f",
+        "response_hash": "448fe8869658e438db03a5dbe5bc517a4b83fd5064b92f2689322395dc734874",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eac4b24e67ef6b5e0b42863853608a9e98c1d668c8f5666e747f3bdaed3b5054",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7235bd462c3928a987328d112c9664569a0a8038ba5c586069c580852163b5a6",
+    "translation_sha256": "5fd16a0194e3c058b5e092c0753cf0dd55fe92e59378bedc538bf5c2bf45a230"
+  }
+}

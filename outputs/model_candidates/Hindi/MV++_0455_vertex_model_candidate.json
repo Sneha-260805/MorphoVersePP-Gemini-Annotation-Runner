@@ -1,0 +1,247 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional brick-paved courtyard with domestic elements",
+          "A simple mud-plastered village courtyard with a quiet, shaded corner"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional central courtyard in South Asian homes, serving as a private, open-air domestic space for family gatherings, daily chores, and quiet reflection.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A sprawling public park or European-style botanical garden",
+          "A modern suburban backyard with manicured lawns"
+        ],
+        "preserved": true,
+        "romanization": "aangan",
+        "source_span_original": "आँगन",
+        "source_span_translation": "garden",
+        "stanza_index": 1,
+        "term": "आँगन",
+        "translation_note": "The translation renders 'aangan' as 'garden', which shifts the cultural concept of a central domestic courtyard to a generic outdoor garden.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "An open-air central courtyard surrounded by rooms or low walls",
+          "Sunlight filtering down into a paved or earthen domestic space",
+          "Potted plants or a small central tree like Tulsi"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "peace and wonder throughout",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'aangan' (courtyard) as 'garden' and 'van' (forest/woods) as 'garden', which slightly shifts the specific domestic-yet-wild imagery of a courtyard forest to a more generic garden.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The domestic courtyard is conceptualized as a quiet, serene forest, emphasizing its peacefulness and natural beauty.",
+            "acceptable_visual_variants": [
+              "A traditional Indian courtyard with a central tulsi plant and surrounding greenery under a soft sky.",
+              "A modern home garden patio filled with dense potted plants and quiet shadows."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The quiet forest of the courtyard",
+            "literalization_risk": "An illustrator might draw a massive wild jungle instead of a domestic courtyard garden, losing the intimate home setting.",
+            "metaphor_mapping": {
+              "tenor_concept": "courtyard",
+              "transferred_attributes": [
+                "quietness",
+                "serenity",
+                "natural beauty",
+                "seclusion"
+              ],
+              "vehicle_concept": "forest"
+            },
+            "source_span_original": "आँगन का शांत वन",
+            "source_span_translation": "The quiet garden",
+            "source_term": "आँगन का शांत वन",
+            "tenor": "the domestic courtyard (आँगन)",
+            "vehicle": "a quiet forest (शांत वन)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a peaceful domestic courtyard filled with lush green plants, potted flowers, and soft lighting to evoke a forest-like sanctuary within a home."
+          },
+          {
+            "abstract_meaning": "Silence is personified as an entity that is hiding or sitting quietly on the leaves and flowers.",
+            "acceptable_visual_variants": [
+              "Still, unmoving leaves and flowers glistening with morning dew in absolute stillness.",
+              "A soft, hazy light filtering through quiet branches with no visible movement."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "Silence is hiding",
+            "literalization_risk": "Depicting a literal human figure hiding behind leaves would look like a trespasser or a game of hide-and-seek, ruining the serene mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "silence",
+              "transferred_attributes": [
+                "being hidden",
+                "sitting quietly",
+                "presence without sound"
+              ],
+              "vehicle_concept": "hiding person"
+            },
+            "source_span_original": "चुप्पी का छुपा है",
+            "source_span_translation": "Silence is hidden",
+            "source_term": "चुप्पी का छुपा है",
+            "tenor": "the pervasive quietness of the garden",
+            "vehicle": "a hiding person or creature",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Represent silence visually through atmospheric cues: still leaves, dew drops, soft morning mist, and a lack of wind or movement."
+          },
+          {
+            "abstract_meaning": "The peaceful atmosphere of the garden inspires quiet, imaginative thoughts and dreams that feel harmonious like music.",
+            "acceptable_visual_variants": [
+              "A soft, ethereal glow surrounding the plants, suggesting a dreamlike state.",
+              "Gentle, rhythmic patterns of light and shadow cast on the courtyard floor."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "The music of dreams",
+            "literalization_risk": "Drawing literal musical notes floating in the air can look cartoonish and disrupt the realistic, peaceful tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams/peaceful thoughts",
+              "transferred_attributes": [
+                "harmony",
+                "soothing quality",
+                "rhythm",
+                "beauty"
+              ],
+              "vehicle_concept": "music"
+            },
+            "source_span_original": "सपनों का संगीत",
+            "source_span_translation": "The music of dreams",
+            "source_term": "सपनों का संगीत",
+            "tenor": "the peaceful, inspiring atmosphere of the courtyard",
+            "vehicle": "music",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Convey a dreamlike, musical harmony through visual rhythm: repeating patterns of leaves, gentle curves of branches, and soft, harmonious color gradients."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'आँगन' (aangan) as 'garden', which loses the specific cultural and architectural nuance of a traditional Indian home's central open courtyard. Additionally, 'वन' (van) literally means forest or woods, so 'आँगन का शांत वन' evokes a quiet forest within a courtyard, a rich juxtaposition simplified to 'quiet garden'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'चुप्पी का छुपा है' as 'Silence is hidden' loses the grammatical flow and the specific possessive construction 'का' (ka) which links silence to the hiding, as well as the adverbial depth of 'गहराई से' (profoundly/with depth) being split into 'Profoundly it sits' which adds an unwritten verb 'sits'.",
+            "where": "L5-L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'Where every breath sings' introduces the active verb 'sings' which is not present in the original 'जहाँ हर साँस में' (where in every breath), altering the quiet, passive presence of the music of dreams within the breath.",
+            "where": "L8-L9"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound silence and dreamlike music found within a quiet courtyard garden"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'ALTERED' and the 'translation_note' explains that 'aangan' was shifted to 'garden', which is a contradiction. 'preserved' should be false when the term is altered/translated as a generic word.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[0].metaphor_spans[0].line_ref",
+      "issue": "The source_span_original 'आँगन का शांत वन' occurs on both L1 and L7, but the line_ref only lists 'L1'. It should list both occurrences or be mapped to both lines.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आँगन का शांत वन,  \nकितना सुन्दर है।  \nहर पत्ते पर,  \nहर फूल पर,  \nचुप्पी का छुपा है,  \nगहराई से।  \nआँगन का शांत वन,  \nजहाँ हर साँस में,  \nसपनों का संगीत है।",
+  "poem_id": "MV++_0455",
+  "poem_title": "Aangan Ka Shant Van",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "31a0368af61bb2a09c1f17616ae3a8e014cc6c17a822674ddc2ec303dcd19be9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0455.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The quiet garden,  \nHow beautiful it is.  \nOn every leaf,  \nOn every flower,  \nSilence is hidden,  \nProfoundly it sits.  \nThe quiet garden,  \nWhere every breath sings,  \nThe music of dreams.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:26:13.303335+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "09f82d8b6d2bf98d596262d0a93d5abee3a904ab117652eaaeaa9676aa3363b6",
+        "response_hash": "bab8610fbaf5e1e5a73f80db172f18c7bd4f0652b5784778b1460b9239724994"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8d8eb3385b37f6e59501328344fdc197015b82fed99c945e8171729911da1bf7",
+        "response_hash": "81423b403473ce09625999bd9d5d7a131efda55881b150692e4da7deac07a6e6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e27dedc9856cbcf3df48b446175e010c73e45a05b4e80e329033cda300ee877",
+        "response_hash": "ae509c99b0a8c25e36676e9ff6c3aea683dd05c5b63d106c122c02192856fa21",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f91243c19c760ebf17e8216dbaa8b1abdaae3101bc8d57d1913b7abfb4a21929",
+        "response_hash": "56c5a48a9719f83013af79a7dfb47a57157c410c9e40f6164b17b25d860f5b48",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "51d42295208942f1855feeb7b5ddc35ebd3d5d0949cca9dccfe6db403c5a0540",
+        "response_hash": "6a2ff220b75e32e0f199e5338b7e236f624b2e66845360651893c454e7425a31",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cbaf4c3670d8b776cfa195a949f98f158b4250196bc6193264dcbac896fb6fa1",
+        "response_hash": "2118c32075488c5953c40ffed27f8e6b26644c332a027637f4c99cb24793d1e0",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "af58157a9b6d6a5c83a3f82794257e7ec9d883a61297688073280efe7c164889",
+    "translation_sha256": "d59503be64438d567c376de0c2843be24a3557cf2d2b270c1f44003e104bf495"
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "skepticism and disillusionment to quiet acceptance and internal preservation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Artificial, fragile, or temporary creations that mimic genuine beauty or emotions but lack true substance.",
+            "acceptable_visual_variants": [
+              "A hand holding a beautifully crafted but lifeless paper rose",
+              "A vase filled with colorful, stiff paper flowers next to a window"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "Flowers crafted out of paper",
+            "literalization_risk": "An illustrator might draw literal paper crafts without conveying the underlying sense of superficiality or emotional fragility.",
+            "metaphor_mapping": {
+              "tenor_concept": "artificial or superficial creations",
+              "transferred_attributes": [
+                "lack of life",
+                "temporary beauty",
+                "fragility"
+              ],
+              "vehicle_concept": "paper flowers"
+            },
+            "source_span_original": "कागज के फूल",
+            "source_span_translation": "Paper Flowers",
+            "source_term": "कागज के फूल",
+            "tenor": "Artificial or superficial things/emotions",
+            "vehicle": "Paper flowers",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict delicate, artificially colored paper flowers that look beautiful but clearly lack organic life, perhaps showing a slight tear or crease to emphasize their artificiality."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Superficial or artificial feelings and relationships that lack genuine depth.",
+            "acceptable_visual_variants": [
+              "A hand reaching out to touch a paper flower, realizing it has no texture or life",
+              "Paper flowers losing their artificial color under a harsh light"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L2",
+            "literal_meaning": "Flowers made of paper",
+            "literalization_risk": "Depicting literal paper crafts might obscure the emotional emptiness and lack of reality being discussed.",
+            "metaphor_mapping": {
+              "tenor_concept": "artificial or superficial creations",
+              "transferred_attributes": [
+                "lack of life",
+                "temporary beauty",
+                "fragility"
+              ],
+              "vehicle_concept": "paper flowers"
+            },
+            "source_span_original": "कागज के फूलों",
+            "source_span_translation": "paper flowers",
+            "source_term": "कागज के फूलों",
+            "tenor": "Artificial or superficial things/emotions",
+            "vehicle": "Paper flowers",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person looking skeptically or sadly at a bouquet of artificial paper flowers that are beginning to lose their vibrant dye."
+          },
+          {
+            "abstract_meaning": "Appearing attractive or vibrant for a brief moment before fading.",
+            "acceptable_visual_variants": [
+              "A paper flower fully spread out to look like a real blossom",
+              "A hand unfolding a paper flower to make it look 'bloomed'"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "To open up or blossom (as a biological flower)",
+            "literalization_risk": "Showing a biological flower opening up would contradict the fact that these are paper flowers.",
+            "metaphor_mapping": {
+              "tenor_concept": "temporary vibrant appearance",
+              "transferred_attributes": [
+                "opening up",
+                "vibrancy",
+                "attracting attention"
+              ],
+              "vehicle_concept": "blooming"
+            },
+            "source_span_original": "खिलते हैं",
+            "source_span_translation": "bloom",
+            "source_term": "खिलते हैं",
+            "tenor": "The temporary appeal or brief success of artificial things",
+            "vehicle": "Blossoming of a flower",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a paper flower being unfolded or standing stiffly upright to mimic a fresh bloom, but with visible paper seams."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the subtle emphasis of the particle 'to' (तो) in 'ये तो बस' which highlights the contrast and limitation of the paper flowers.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Unrealistic, ungrounded desires or illusions that have no foundation in reality.",
+            "acceptable_visual_variants": [
+              "Paper petals drifting high in the air, dissolving into mist",
+              "A silhouette of a person watching light paper shapes float away in the wind"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Things that float or fly in the wind are just dreams",
+            "literalization_risk": "An illustrator might draw literal sleeping dreams or birds, missing the sense of ungrounded, drifting illusions.",
+            "metaphor_mapping": {
+              "tenor_concept": "unrealistic dreams",
+              "transferred_attributes": [
+                "lack of grounding",
+                "drifting away",
+                "instability"
+              ],
+              "vehicle_concept": "flying in the air"
+            },
+            "source_span_original": "हवा में उड़ते हैं, वो सिर्फ ख्वाब होते हैं",
+            "source_span_translation": "fly in the air, they are merely dreams",
+            "source_term": "हवा में उड़ते हैं, वो सिर्फ ख्वाब होते हैं",
+            "tenor": "Ungrounded, unrealistic illusions or fantasies",
+            "vehicle": "Objects floating or flying away in the wind",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show paper flowers or light paper scraps being swept away and scattered helplessly by a gust of wind into an empty sky."
+          },
+          {
+            "abstract_meaning": "Existing briefly in a state of superficial beauty before deteriorating or losing appeal.",
+            "acceptable_visual_variants": [
+              "A crumpled, faded paper flower lying in the dust",
+              "A paper flower with torn, drooping petals losing its structure"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L9",
+            "literal_meaning": "To live and then wilt/wither like a biological organism",
+            "literalization_risk": "Showing a biological plant rotting or wilting naturally would mislead the viewer, as paper does not decay biologically in the same manner.",
+            "metaphor_mapping": {
+              "tenor_concept": "temporary existence and decay of artificial things",
+              "transferred_attributes": [
+                "vitality",
+                "decay",
+                "loss of form"
+              ],
+              "vehicle_concept": "living and withering"
+            },
+            "source_span_original": "जीते हैं, फिर मुरझा जाते हैं",
+            "source_span_translation": "live only for a moment, then wither away",
+            "source_term": "जीते हैं, फिर मुरझा जाते हैं",
+            "tenor": "The brief duration of usefulness or beauty of artificial objects",
+            "vehicle": "The life cycle of a living plant (living and withering)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a paper flower becoming crumpled, dusty, and losing its shape, looking discarded and worn out."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'ख़्वाब' (khwaab) as 'dreams', which is accurate, but loses the specific Urdu-derived poetic register of 'khwaab' compared to the Hindi 'sapna' used later in the poem.",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the emphasis of the particle 'to' (तो) in 'ये तो बस' which stresses the temporal limitation of their existence.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An illusion of beauty and sensory pleasure that has no real substance.",
+            "acceptable_visual_variants": [
+              "A person sniffing a paper flower and looking disappointed by the lack of scent",
+              "A black-and-white paper flower casting a colorful, imaginary shadow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "An imagined concept of color and scent",
+            "literalization_risk": "Showing literal clouds of perfume or paint might make the scene look magical rather than deceptive and empty.",
+            "metaphor_mapping": {
+              "tenor_concept": "deceptive appeal",
+              "transferred_attributes": [
+                "attractiveness",
+                "lack of physical reality"
+              ],
+              "vehicle_concept": "imagined sensory qualities"
+            },
+            "source_span_original": "रंग और खुशबू की एक कल्पना है",
+            "source_span_translation": "fantasy of color and fragrance",
+            "source_term": "रंग और खुशबू की एक कल्पना है",
+            "tenor": "The deceptive, superficial appeal of artificial creations",
+            "vehicle": "Imagined color and fragrance",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a colorless, scentless paper flower with a faint, ghostly outline of vibrant colors and swirling mist around it to represent the imagined qualities."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'सहेज' (sahej) as 'preserve' loses the nuance of 'sahejna', which implies gathering, arranging, and keeping something safe with deep care and affection.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 5,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To cherish, remember, or preserve memories and illusions internally.",
+            "acceptable_visual_variants": [
+              "A person holding a paper flower close to their chest with closed eyes",
+              "A stylized chest silhouette containing a neatly preserved, glowing paper flower"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L15",
+            "literal_meaning": "To decorate and keep something inside one's physical heart",
+            "literalization_risk": "A literal rendering of a physical heart organ decorated with paper flowers would look grotesque or anatomically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "preserving memories internally",
+              "transferred_attributes": [
+                "safekeeping",
+                "affection",
+                "internal preservation"
+              ],
+              "vehicle_concept": "decorating a physical heart"
+            },
+            "source_span_original": "दिल में सजा कर रख सकते हो",
+            "source_span_translation": "keep them in your heart",
+            "source_term": "दिल में सजा कर रख सकते हो",
+            "tenor": "Cherishing or preserving memories and feelings in one's mind/emotions",
+            "vehicle": "Decorating a physical heart with objects",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person holding their hand over their chest with a warm, reflective expression, while a soft, glowing silhouette of a paper flower is visible within their chest area."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'सजा कर रख सकते हो' as 'keep them' loses the specific visual and emotional action of 'saja kar rakhna' which means to decorate, adorn, or keep beautifully arranged.",
+            "where": "L15"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces 'But' at the start of the line, which is not present in the original Hindi text, slightly altering the flow and tone of the final statement.",
+            "where": "L15"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The contrast between artificial illusions and organic reality, culminating in the internal preservation of fragile dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कागज के फूल\n\nकागज के फूलों का कोई क्या कर सकता है,  \nतुम सोचते हो क्या, कि ये सच्चे होते हैं?  \nये तो बस कुछ पल के लिए खिलते हैं,  \nफिर से रंग खो जाते हैं।\n\nजो मिट्टी में उगते हैं, वो सच्चे होते हैं,  \nजो हवा में उड़ते हैं, वो सिर्फ ख्वाब होते हैं।  \nकागज के फूलों की कोई क़ीमत नहीं होती,  \nये तो बस कुछ वक़्त के लिए जीते हैं, फिर मुरझा जाते हैं।\n\nयह रंग और खुशबू की एक कल्पना है,  \nजो असल नहीं, बस एक सपना है।  \nजब तक तुम उन्हें सहेज नहीं सकते,  \nतुम उन्हें खो देते हो।\n\nकागज के फूल तो हमेशा खिले रहते हैं,  \nतुम उन्हें अपने दिल में सजा कर रख सकते हो।",
+  "poem_id": "MV++_0653",
+  "poem_title": "Kagaz Ke Phool",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "aca82c4622a855a73ec02056b106c14582ed4ac6043e3b5ff74db3c862aff924",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0653.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Paper Flowers\n\nWhat can one do with paper flowers?  \nDo you think they are real?  \nThey bloom only for a while,  \nThen lose their color.\n\nThose that grow in the soil, they are real,  \nThe ones that fly in the air, they are merely dreams.  \nPaper flowers have no worth,  \nThey live only for a moment, then wither away.\n\nIt’s a fantasy of color and fragrance,  \nWhich is not real, just a dream.  \nUntil you can preserve them,  \nYou lose them.\n\nPaper flowers always bloom,  \nBut you can only keep them in your heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:51:35.477368+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e521962cb94ce41eeda2a20950078809363fc909979f60a9cb1cbcec0e6a9f5f",
+        "response_hash": "f105a37abda4bc0713f316a596701dcfd95f192a12d5993d8ae347be54063164",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f77e75f4d8323c4edf713b188e54f162ba6754cda0088f9542b6f81d08248050",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b8ee8fdb2ab13b79a5aa488adcd79063679bc524dc70e94a8c61fa85e16afc2",
+        "response_hash": "a6f05ee6af28978f0714ca01e15fc04d9584eed3b23d612b53e05955ea9ea626",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "090d62714fdaeeaa0d1a502ecb00fa8a6677216ba7afae95f01ac97295f3f60c",
+        "response_hash": "e3be3572551e7468114121773a8cf8d845b8e7ad1d45cfc344c95b0e9e59b085",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "26f7c974cae230d2a0c54a6d5ac858a87016de903b3651871e2e04f924429b75",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6e91b838bb1d70e1934172ca237060346b161e48e144601c65ce18ecdef7ebfd",
+    "translation_sha256": "b0a5f441c0de8f0e117c9259a543eb13302f2eb5e7cd0e134ab2fa457c8f9687"
+  }
+}

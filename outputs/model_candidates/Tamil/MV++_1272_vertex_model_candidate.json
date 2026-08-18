@@ -1,0 +1,237 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "The phrase written in elegant Tamil calligraphy",
+          "A serene domestic or community gathering where people greet each other"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional Tamil blessing and greeting meaning 'Live with prosperity and abundance', popularized by spiritual philosopher Vethathiri Maharishi.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic Western handshake",
+          "A formal business greeting"
+        ],
+        "preserved": true,
+        "romanization": "Vazhga Valamudan",
+        "source_span_original": "வாழ்க வளமுடன்",
+        "source_span_translation": "Live with prosperity",
+        "stanza_index": 1,
+        "term": "வாழ்க வளமுடன்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A written Tamil script of the blessing",
+          "A gesture of blessing with palms slightly raised"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A detailed close-up of the Saraswati veena resting on a traditional mat",
+          "An artist playing the veena in a classical posture"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Saraswati veena, a classical South Indian plucked string instrument associated with Carnatic music, learning, and fine arts.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A North Indian sitar",
+          "A Western lute or guitar",
+          "A generic harp"
+        ],
+        "preserved": true,
+        "romanization": "veenaiyum",
+        "source_span_original": "வீணையும்",
+        "source_span_translation": "veena",
+        "stanza_index": 1,
+        "term": "வீணையும்",
+        "translation_note": "Translated as 'veena' with the coordinating conjunction '-um' ('and' / 'also') represented contextually.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A large plucked string instrument with a pear-shaped wooden resonator (kudam)",
+          "A smaller secondary gourd resonator near the neck",
+          "Intricate carvings, often featuring a dragon or yali head at the neck's end",
+          "Twenty-four brass frets set in wax"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A steady progression of blessing, cultural pride, and patriotic aspiration.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation of 'ஆடுக' (literally to dance or play) as 'resonate' captures the musical spirit but loses the physical movement implied in the original Tamil verb.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Let the pure, harmonious music and cultural heritage of the veena resonate and spread joy across the land.",
+            "acceptable_visual_variants": [
+              "A classical veena placed on a clean, traditional floor with soft light suggesting music",
+              "A person playing the veena in a peaceful, natural setting representing the land"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L3",
+            "literal_meaning": "Let the flawless veena dance on the earth",
+            "literalization_risk": "An illustrator might literally draw a veena instrument physically dancing on the ground like a cartoon character, which would look comical and miss the poetic sense of cultural harmony.",
+            "metaphor_mapping": {
+              "tenor_concept": "cultural harmony and peaceful prosperity",
+              "transferred_attributes": [
+                "purity",
+                "joy",
+                "harmonious resonance"
+              ],
+              "vehicle_concept": "a flawless musical instrument playing/dancing"
+            },
+            "source_span_original": "மாசிலா வீணையும் மண்ணினில் ஆடுக",
+            "source_span_translation": "Let the pure veena resonate across the land",
+            "source_term": "மாசிலா வீணையும் மண்ணினில் ஆடுக",
+            "tenor": "The peaceful, harmonious, and prosperous cultural life of the people",
+            "vehicle": "A flawless veena playing or dancing on the earth",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful, traditional veena resting gracefully in a serene landscape, with subtle, flowing visual waves or light radiating from it to represent its music spreading across the land."
+          },
+          {
+            "abstract_meaning": "Let the nation rise in stature, pride, and sovereignty.",
+            "acceptable_visual_variants": [
+              "A flag fluttering atop a high mast against a sunrise sky",
+              "A stylized flag waving gracefully in the wind"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "Let the national flag fly high",
+            "literalization_risk": "A literal drawing of a flag is straightforward, but without context, it may look like a simple political graphic rather than a poetic symbol of national aspiration and pride.",
+            "metaphor_mapping": {
+              "tenor_concept": "national pride and advancement",
+              "transferred_attributes": [
+                "height",
+                "visibility",
+                "triumph"
+              ],
+              "vehicle_concept": "a flag flying high in the wind"
+            },
+            "source_span_original": "தேசியக்கொடி உயரப் பறக்குக",
+            "source_span_translation": "Let the national flag fly high and proud",
+            "source_term": "தேசியக்கொடி உயரப் பறக்குக",
+            "tenor": "National pride, sovereignty, and progress",
+            "vehicle": "A national flag flying high in the sky",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a majestic national flag fluttering high against a bright, hopeful sky with soft clouds, capturing a sense of pride and elevation."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation uses two different English phrases ('Live with prosperity' and 'Live with abundance') for the exact same repeated Tamil phrase 'வாழ்க வளமுடன்' (Vazhga Valamudan), losing the rhythmic and formulaic repetition of the original blessing.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil verb 'ஆடுக' (aaduga) literally means 'to dance' or 'to play/move dynamically', which is translated as 'resonate'. This loses the vivid personification of the veena 'dancing' or playing across the earth.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A collective blessing for prosperity, cultural harmony, and national pride."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].line_ref",
+      "issue": "The term 'வாழ்க வளமுடன்' occurs on both L1 and L2, but the line_ref only lists L1. It should cover both occurrences (L1-L2) or be split, especially since the translation_loss section explicitly references L1-L2 for this repeated phrase.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "வாழ்க வளமுடன்  \nவாழ்க வளமுடன்  \nமாசிலா வீணையும் மண்ணினில் ஆடுக  \nதேசியக்கொடி உயரப் பறக்குக",
+  "poem_id": "MV++_1272",
+  "poem_title": "Vazhga Valamudan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5a4d7d097ff0bc6c5dc3e9eca0133243d099f78bf31d2e9733b5f8fd00218b93",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1272.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Live with prosperity,  \nLive with abundance.  \nLet the pure veena resonate across the land,  \nLet the national flag fly high and proud.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:16:09.132939+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cc0d3413240f334e60878a65cdfb8368dab568e966ce41cff156dfcbcba0de7f",
+        "response_hash": "fdb22d4d894c1f956a45837994178a2701c198928349463a088ec84b29f86e4a"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d35686d1837689f3b165ab73b4ba6fe5779cf9bd0ef952bda9529dd0e4bc726b",
+        "response_hash": "fba7fb869fe1dc2d840652a14f7e95d6495b58fc45212c65b349f9155aff58e1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc23afee3c8e79a893591b042fef540cc0e7b6acf100c207ed4fb19f56c66d34",
+        "response_hash": "03cc49d5730862db06a1f776af1fd59a2ea574472efd1bf09d71c5aac4b779b6",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "231015d48c2539d2e0f344bc062e3dd4c27d31dcf08bd5589b0ded9e31863d0d",
+        "response_hash": "0ae55672de05590b47fb152f6684959c5548d11fe419dfb97615d6e2825771ca",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7938bacd2c4b296b8d6fd0403b1c418b1aeb98f283202d7b52460b23d774f598",
+        "response_hash": "003f2d2052fe5d06a804e008496921d725db1fbe96cf185f83f9757df26f8e9f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0c66d5109da5d9a51095380eafbf0e498de099f15e10d023dbfe27bb5195d6cc",
+        "response_hash": "2f642a0e3e7b439b6e9436de8543443bc2d9cdce6ecb74ad45a2eb9cdd6fe456",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "77c586f9362f92f4fffdfac821060f7a9e50fef3ab10d7782833be6b6afba3da",
+    "translation_sha256": "a63a4ad239633b80373616e047f9b6225c9a42556d2afdbc63f29c0ced1fab76"
+  }
+}

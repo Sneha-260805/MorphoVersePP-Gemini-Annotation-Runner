@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to quiet wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's creative expression and song are identified with a soaring, boundless love that transcends quietude or suppression.",
+            "acceptable_visual_variants": [
+              "A human figure singing with luminous, wing-like energy radiating outward into the sky",
+              "An abstract wave of vibrant colors breaking through a heavy, dark barrier of silence"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "My song is love that flew transcending silence",
+            "literalization_risk": "Depicting a literal musical score or sheet music physically growing wings and flying away from a silent room, which misses the emotional depth of artistic expression.",
+            "metaphor_mapping": {
+              "tenor_concept": "A song expressing love beyond silence",
+              "transferred_attributes": [
+                "soaring",
+                "transcending boundaries",
+                "freedom of movement"
+              ],
+              "vehicle_concept": "A bird soaring past boundaries"
+            },
+            "source_span_original": "ನನ್ನ ಹಾಡು ಮೌನವನು ಮೀರಿ ಹಾರಿದ ಪ್ರೇಮವೇ",
+            "source_span_translation": "My song is love that soars beyond silence",
+            "source_term": "ನನ್ನ ಹಾಡು ಮೌನವನು ಮೀರಿ ಹಾರಿದ ಪ್ರೇಮವೇ",
+            "tenor": "The speaker's song and creative expression of love",
+            "vehicle": "A bird or soaring entity flying high beyond the boundaries of silence",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, glowing bird-like form or wave of light rising from a quiet, dark landscape into a vast, open sky, representing the song breaking free."
+          },
+          {
+            "abstract_meaning": "The continuous, life-giving, and expanding nature of emotional or creative expression, which nourishes like growing water.",
+            "acceptable_visual_variants": [
+              "A gentle fountain or spring bubbling up and expanding outward, surrounded by a soft, rhythmic glow",
+              "A vast, calm body of water reflecting a starry sky where the ripples form patterns of sound waves"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Water that grew in an endless song",
+            "literalization_risk": "Showing literal water droplets physically growing larger like plants inside a musical staff, which looks surreal and nonsensical.",
+            "metaphor_mapping": {
+              "tenor_concept": "An endless, nourishing song",
+              "transferred_attributes": [
+                "growth",
+                "nourishment",
+                "continuous flow"
+              ],
+              "vehicle_concept": "Expanding or rising water"
+            },
+            "source_span_original": "ಮುಗಿಯದ ಹಾಡಿನಲ್ಲಿ ಬೆಳೆದ ನೀರು",
+            "source_span_translation": "Water that grows in an endless song",
+            "source_term": "ಮುಗಿಯದ ಹಾಡಿನಲ್ಲಿ ಬೆಳೆದ ನೀರು",
+            "tenor": "The nourishing, life-giving flow of artistic and emotional expression",
+            "vehicle": "Water that expands, flows, or grows within a continuous melody",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a flowing river or stream of clear water winding through a landscape, with subtle, abstract musical waves or ripples shimmering on its surface."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'hottida' (ಹೊತ್ತಿದ) as 'heart' misses the literal meaning of 'ignited' or 'lit' (from hottu, meaning to catch fire or burn), which creates a stark, poetic tension with 'drops' (hanigalu) in the same line. This fire-and-water imagery is flattened into a conventional emotional metaphor ('heart').",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada vocative suffix '-e' in 'premave' (ಪ್ರೇಮವೇ) adds an intense, direct address ('O love!') which is flattened into a simple declarative statement ('is love') in the English translation.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transformative power of love and poetry that transcends silence and connects the individual to the collective life of the village."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing significant semantic and grammatical losses (such as flattening 'hottida' meaning ignited/lit into 'heart', and losing the vocative suffix '-e' in 'premave'). A translation with high-severity semantic losses should be marked as 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ನನ್ನ ಹಾಡು ಮೌನವನು ಮೀರಿ ಹಾರಿದ ಪ್ರೇಮವೇ,  \nಅವಳ ಕನಸು ನಮ್ಮ ಕವಿತೆಗಳ ಕಡೆ,  \nಊರ ಒಳಗಿನ ಹೊತ್ತಿದ ಹನಿಗಳು,  \nಮುಗಿಯದ ಹಾಡಿನಲ್ಲಿ ಬೆಳೆದ ನೀರು.",
+  "poem_id": "MV++_1100",
+  "poem_title": "Nanna Haadu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c4a644d30a64013b1c85ce2962e0ca7b6865559bcc2e1f45281caec430e23b76",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1100.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My song is love that soars beyond silence,  \nHer dreams reach towards our poetry,  \nThe drops in the village’s heart,  \nWater that grows in an endless song.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:57:47.859506+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79e95b7ac7c0437d7912188d1cbbe3992f40fbd90347959b65f5b3d151e14719",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc5451cfcbb968a7fd9e701d76930f35a783156d43af0d504509b3f1fd51b52c",
+        "response_hash": "50f526c7fedc15772023cee511a7d0d176e67601d23890ba45e6f6aee56dcf3d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4be9ed4bfe90d71847942587b22dc3ac4cf369d4e2cace82ae7bf723b0ac4b28",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d7d1981d21e1d6984f1cf201516f6c9e0c43a82f5ff211d19f30867b036c5979",
+        "response_hash": "00a78847b82ab9ca11625c95872e6ffb39f17744bccf6ff2666d879090975e3b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "77f3fe562e3764999753531a87832b2f760943ca0a572aec953e1aea2fa89f76",
+        "response_hash": "c8ff96975babbbaa8ddfa4dfd9c8514e4fed8928162f9d90e2d9b817c8e318b0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c2665e20ecba26e5e4e2e5f6a16e6f3de3b59ee700b5ee2312013b48da4ec6eb",
+        "response_hash": "29fa7a269064c10ad4339cc89dff4a182d0e1ad613382c87f01d0c7303e43595",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "23a587fb5b4949ff7b68126b5c063cf4dfad8c7ba15aa5cebffa893e9cc930f3",
+    "translation_sha256": "05e975d3ae4500f0d9b71d324b05d60ccc27c045be6ce0b68ec3f57226455991"
+  }
+}

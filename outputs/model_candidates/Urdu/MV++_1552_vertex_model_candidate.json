@@ -1,0 +1,216 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The Persian-origin word for God, widely used in Urdu and Persianate cultures to refer to the Divine Creator.",
+        "line_ref": "L12",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Khuda",
+        "source_span_original": "خدا",
+        "source_span_translation": "God",
+        "stanza_index": 1,
+        "term": "خدا",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Plural of 'nimat', referring to divine blessings, bounties, or gifts bestowed by God upon humanity.",
+        "line_ref": "L12",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "nimaten",
+        "source_span_original": "نعمتیں",
+        "source_span_translation": "grace",
+        "stanza_index": 1,
+        "term": "نعمتیں",
+        "translation_note": "Translated as 'grace', which captures the divine favor aspect, though 'nimaten' specifically denotes blessings, bounties, or gifts bestowed by God.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "longing and sorrow to quiet acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the specific rhythmic cadence and the deep cultural resonance of the phrase 'mujhse pehli si mohabbat' which evokes a classic Urdu poetic tradition of balancing personal love with worldly grief.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker loved the beloved with an idealized, ethereal, and perhaps fleeting intensity, treating her as something precious but ultimately intangible.",
+            "acceptable_visual_variants": [
+              "A glowing, indistinct human figure surrounded by soft, swirling clouds or mist",
+              "A hand reaching out toward a fading, shimmering reflection in water"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "I loved you like a dream",
+            "literalization_risk": "Showing a person literally sleeping and dreaming of another person would reduce the poetic, emotional quality of the love to a physical act of sleeping.",
+            "metaphor_mapping": {
+              "tenor_concept": "idealized love",
+              "transferred_attributes": [
+                "ethereal quality",
+                "preciousness",
+                "intangibility",
+                "fleeting nature"
+              ],
+              "vehicle_concept": "dream"
+            },
+            "source_span_original": "ایک خواب کی طرح چاہتا تھا",
+            "source_span_translation": "Like a dream, so dear",
+            "source_term": "ایک خواب کی طرح چاہتا تھا",
+            "tenor": "the speaker's past idealized love for the beloved",
+            "vehicle": "a dream (khwab)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, hazy, semi-transparent silhouette of a beloved figure blending into a starry or misty background, evoking the ethereal and elusive quality of a dream."
+          },
+          {
+            "abstract_meaning": "The beloved is constantly present in the speaker's thoughts and memories, occupying his mind as if living there.",
+            "acceptable_visual_variants": [
+              "A double exposure image showing a person's profile overlaid with a scene of a couple walking together",
+              "A person looking at an empty chair that has a faint, glowing outline of a figure sitting in it"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "You inhabit/dwell in my memories",
+            "literalization_risk": "Showing a tiny person physically living inside a brain or a head would look comical and surreal rather than deeply emotional.",
+            "metaphor_mapping": {
+              "tenor_concept": "occupying someone's thoughts",
+              "transferred_attributes": [
+                "constant presence",
+                "belonging to a space",
+                "intimacy"
+              ],
+              "vehicle_concept": "inhabiting a house"
+            },
+            "source_span_original": "تُو میری یادوں میں بستی ہے",
+            "source_span_translation": "You dwell in my memories",
+            "source_term": "تُو میری یادوں میں بستی ہے",
+            "tenor": "the persistent presence of the beloved in the speaker's mind and thoughts",
+            "vehicle": "dwelling or living in a physical home",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a pensive person looking into the distance, with a faint, warm silhouette of the beloved integrated into the background or within a soft glow surrounding them."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'pehli si' as 'once had' flattens the specific Urdu comparative nuance of 'the kind of love I had before' or 'the love like that first love'.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'chahata tha' (masculine past continuous/imperfective verb form) into English collapses the explicit grammatical gender of the speaker, which is clearly marked as masculine in the Urdu original.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'basti hai' (dwells/inhabits, feminine singular verb agreement) into 'dwells' loses the explicit feminine grammatical gender associated with the subject 'tu' (you), which identifies the beloved as grammatically feminine in this line.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The painful realization that a past, idealized love cannot be reclaimed in the face of present sorrow and memory."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Urdu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "مجھ سے پہلی سی محبت  \nاب نہ مانگ۔  \nمیں تَجھے  \nایک خواب کی طرح چاہتا تھا۔  \nاب بھی،  \nہنستے ہوئے یہ سب کو  \nپیار کیا تھا۔  \nبیشک میں اب بھی  \nغمزدہ ہوں۔  \nتُو میری یادوں میں بستی ہے،  \nجب مجھے لگتا ہے،  \nتیری خدا کی نعمتیں ہیں۔",
+  "poem_id": "MV++_1552",
+  "poem_title": "Mujhse Pehli Si Mohabbat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "475117449d3a1e609cd93d5bc4c94f53967b65c5bb5d89b6d56670b896a7bb7f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Urdu/MV++_1552.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Do not ask me for the love  \nThat I once had for you.  \nI loved you  \nLike a dream, so dear.  \nEven now,  \nIn laughter, I remember  \nThe love I had for everyone.  \nSurely, I am still  \nIn sorrow.  \nYou dwell in my memories,  \nWhen I feel,  \nYour grace from God.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:47:26.181528+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d4adac0f8aad9b92c579d4ba7aec8463ee4dd133280076c5d48e694715e17938",
+        "response_hash": "a03823f7574c277c11fdf86d25f6710e200562aa90df4af60e8d939cc976d660"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "369aa6b149488b8291e9976d442c218302a0c0506e2ca19e5d868ecfb0eedb3b",
+        "response_hash": "36d81dd7f0834abf6d483497c8f814831961b76d8d7ecb68d315157294451e73",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cf787cda054deb9cf7051d1a18d1e50af15cf416b13007b142f18255e8608d37",
+        "response_hash": "9672503758519c8e244ae6523d899e7d173f7917d8d487d173c76601a363dab3",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "50dbd7eaec37da18f1cf333266fe7be261aa2d60c72667812518ea5cab380814",
+        "response_hash": "a1f672707d3ac4dc2eebbbbd85b395be77e6102b25dd013816a32ab0da1bfb77",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "53eb252dd1f9aa160d1cc7deedd210a3875fee9c990aee71273681c36f9d0a3b",
+        "response_hash": "5f385876925398496523f940000e502e61f1ac29fe1d934a202202486ecf4e6c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b7d426b5cd1fb054d12b34edd3e587485c97b8441d03a1b07ad6a2f8abffe744",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "db14275506362eb8be119c9ce5e9408bd2aba4daa270bbb3e8efde84eae18c3b",
+    "translation_sha256": "f28a347bb0a2e0ac0dcd7ae76e50ed468e61c7c2f59e6c49b4519419fccd00e8"
+  }
+}

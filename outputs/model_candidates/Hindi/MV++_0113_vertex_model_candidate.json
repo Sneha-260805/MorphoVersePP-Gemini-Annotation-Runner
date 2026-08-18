@@ -1,0 +1,208 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and introspection leading to resilience and hope",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation of 'मूरत' (moorat) as 'statue' is somewhat literal, losing the poetic nuance of an 'image', 'embodiment', or 'form' of dreams. Additionally, the Urdu-derived word 'जज़्बात' (jazbaat) carries a deep, intense emotional resonance that is slightly flattened by the generic English word 'emotion'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A concrete representation or idealization of one's inner desires and aspirations.",
+            "acceptable_visual_variants": [
+              "A shimmering, ethereal silhouette standing on a far horizon",
+              "A delicate, glowing sculpture-like form emerging from soft clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A sculpted statue made of dreams",
+            "literalization_risk": "An illustrator might draw a literal stone or marble statue, which misses the abstract sense of idealized, distant hopes.",
+            "metaphor_mapping": {
+              "tenor_concept": "idealized dreams",
+              "transferred_attributes": [
+                "solidity",
+                "form",
+                "beauty",
+                "stillness"
+              ],
+              "vehicle_concept": "sculpted statue"
+            },
+            "source_span_original": "सपनों की एक मूरत",
+            "source_span_translation": "statue of dreams",
+            "source_term": "सपनों की एक मूरत",
+            "tenor": "Aspirations and idealized hopes",
+            "vehicle": "A sculpted statue (muraat)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, semi-translucent human figure or form made of starlight or soft light, standing in a distant, misty landscape."
+          },
+          {
+            "abstract_meaning": "The journey of life, filled with experiences, learning, and self-discovery.",
+            "acceptable_visual_variants": [
+              "A solitary path winding through changing seasons (spring to winter)",
+              "A footprint trail left on a vast, open sandy landscape leading toward the sun"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A physical trip or travel from one place to another",
+            "literalization_risk": "Depicting a literal traveler with a suitcase or on a train might make it look like a simple vacation or commute rather than the existential journey of life.",
+            "metaphor_mapping": {
+              "tenor_concept": "living through life",
+              "transferred_attributes": [
+                "movement",
+                "obstacles",
+                "destination",
+                "progression"
+              ],
+              "vehicle_concept": "traveling a path"
+            },
+            "source_span_original": "सफर",
+            "source_span_translation": "journey",
+            "source_term": "सफर",
+            "tenor": "The passage of time and experiences in human life",
+            "vehicle": "A physical journey or travel",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a winding path stretching from a misty foreground toward a bright, open horizon, symbolizing the progression of life."
+          },
+          {
+            "abstract_meaning": "The process of self-discovery and understanding one's true identity.",
+            "acceptable_visual_variants": [
+              "A person walking toward a bright light within themselves",
+              "A silhouette opening a door that reveals a starry sky inside"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "A physical search or exploration for a lost object or place",
+            "literalization_risk": "Showing a person with a magnifying glass or a treasure map would look comical and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "discovering one's true self",
+              "transferred_attributes": [
+                "effort",
+                "seeking",
+                "revelation",
+                "value of the find"
+              ],
+              "vehicle_concept": "searching for a hidden treasure"
+            },
+            "source_span_original": "खोज",
+            "source_span_translation": "quest",
+            "source_term": "खोज",
+            "tenor": "The internal process of self-realization and finding identity",
+            "vehicle": "A physical search or quest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking at their own reflection in a clear, still pool of water, where the reflection is glowing or slightly different, representing self-discovery."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मूरत' (moorat) as 'statue' misses the poetic nuance of an image, form, or embodiment of dreams, making it sound overly physical and rigid.",
+            "where": "L3"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'जीवन से यही' as 'This is life' alters the grammatical and semantic meaning of the postposition 'से' (from/than), which suggests 'from life, only this' or 'away from life', rather than a simple declarative 'this is life'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The spelling 'सिखा' (sikha) in the original text is a common colloquial or non-standard spelling of 'सीखा' (seekha - learned), which is translated directly as 'learned' without capturing the subtle orthographic/phonetic variation.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Life as an inner journey of self-discovery, learning from struggles, and maintaining hope."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जीवन से यही  \nकहीं दूर,  \nसपनों की एक मूरत है।  \nहर धड़कन में  \nएक नई कहानी है।  \nहर आंसू में  \nएक जज़्बात है।  \nयह जो सफर है,  \nसिर्फ एक सफर नहीं,  \nयह तो एक खोज है,  \nजिसमें खुद को पाना है।  \nहर ठोकर पर  \nकुछ नया सिखा है।  \nहर घड़ी में  \nएक नई उम्मीद है।  \nजीवन से यही  \nकहीं दूर,  \nसपनों की एक मूरत है।",
+  "poem_id": "MV++_0113",
+  "poem_title": "Jeevan Se Yehhi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "46f0a68d399931f8b53c7c296b0642b295e9c56d2f850e7c6ee90a5615c86c67",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0113.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This is life,  \nSomewhere far,  \nThere’s a statue of dreams.  \nIn every heartbeat,  \nThere’s a new story.  \nIn every tear,  \nThere’s an emotion.  \nThis journey,  \nIs not just a journey,  \nIt’s a quest,  \nTo find oneself.  \nAt every stumble,  \nThere’s a new lesson learned.  \nIn every moment,  \nThere’s a new hope.  \nThis is life,  \nSomewhere far,  \nThere’s a statue of dreams.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:47:51.251925+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "47eb78109dc9acfddd7a687e4718a3b92b519bc51a23ae5177575bd270fda7b6",
+        "response_hash": "c6d799330f2ab0a417d829920d09608d1abc64824c80a3e565daea7a95123c07"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d51e47cfe6c55b470c63bcefe7c12d387b228450b9a478129dca961042d5022d",
+        "response_hash": "1670a81605af33b3615d55badf3107a35ba5e46fee8eaae1c607278dfed7e82f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b8632f92e35169ab79abfa7b5ad1a3b67e6460d93d339211bbe1920582ac5cf5",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7c32d5a15e57630d3b4b55c2d8bcfe4fbd40a0b20edf1ab5b325fab05a4c2a09",
+        "response_hash": "3ee68a9d41f12e76c2903bd179eadaa3d65d161b076805608987bf707162aec9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eb2477066044a97b9bf7edf85ce17774b052b0a0ac3be5185a9d8fd5870769d7",
+        "response_hash": "d60db4226c02a02b80b1f9de3607b4fdfdfabbaaa6a6d87b7a5090f6edfbd394",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f6c489c4e6e299f4d505bae2c488b064dc1750d76506fc3aa334f449d3fb7ae0",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6d5eba5382336011e890f868d590707618745b30dbcc887e8180b52ad62314ea",
+    "translation_sha256": "7bc76544daf7c96b38560a4532d84b4c1df365c483d5f2122f484586da9247f9"
+  }
+}

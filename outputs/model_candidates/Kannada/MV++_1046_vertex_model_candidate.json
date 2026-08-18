@@ -1,0 +1,329 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traveler carrying a small bag at a doorway",
+          "An unexpected visitor being greeted at the entrance"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A guest, traditionally treated with supreme hospitality in Indian culture under the ethos of 'Atithi Devo Bhava' (the guest is equivalent to God).",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern tourist with heavy luggage and cameras",
+          "A formal business client in a corporate setting"
+        ],
+        "preserved": true,
+        "romanization": "atithi",
+        "source_span_original": "अतिथि",
+        "source_span_translation": "guest",
+        "stanza_index": 1,
+        "term": "अतिथि",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A visitor standing at the threshold of a home",
+          "Traditional welcoming gestures like folded hands"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A simple wooden doorframe with a slightly raised sill",
+          "A traditional threshold decorated with simple patterns"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The traditional wooden doorframe or threshold of a house, which holds significant cultural and symbolic value in Indian households as the boundary between the home and the outside world.",
+        "line_ref": "L9",
+        "negative_confusions": [
+          "A modern sliding glass door",
+          "A metallic security gate"
+        ],
+        "preserved": true,
+        "romanization": "chaukhat",
+        "source_span_original": "चौखट",
+        "source_span_translation": "door",
+        "stanza_index": 3,
+        "term": "चौखट",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A raised wooden threshold at the entrance of a house",
+          "An ornate or simple wooden doorframe"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "weariness and longing for peace to polite desperation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation adds rhyming fillers like 'I refrain' to maintain a poetic structure, which slightly alters the direct, weary tone of the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The host is exhausted from hosting and serving the guest for an excessively long time.",
+            "acceptable_visual_variants": [
+              "A person slumping their shoulders while holding a traditional welcome plate",
+              "A person sighing while looking at a pile of dishes or guest items"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L2",
+            "literal_meaning": "The hands have physically grown tired from performing welcoming gestures.",
+            "literalization_risk": "An illustrator might depict someone with physically bruised or trembling hands, missing the emotional fatigue of overstayed hospitality.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional and financial exhaustion of hosting",
+              "transferred_attributes": [
+                "weariness",
+                "desire to stop the action"
+              ],
+              "vehicle_concept": "physical fatigue of hands"
+            },
+            "source_span_original": "स्वागत करते-करते थक चुके हैं हाथ",
+            "source_span_translation": "My hands tire of this welcoming quest",
+            "source_term": "स्वागत करते-करते थक चुके हैं हाथ",
+            "tenor": "Exhaustion from prolonged hospitality",
+            "vehicle": "Tired hands",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person with a forced, weary smile holding a welcoming tray or gesture, looking visibly drained."
+          },
+          {
+            "abstract_meaning": "A persistent, troubling thought or question keeps arising in the host's mind.",
+            "acceptable_visual_variants": [
+              "A close-up of the host's stressed facial expression while looking at the guest's luggage",
+              "The host staring blankly at a wall in frustration"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A question physically rises or climbs up inside the heart/mind.",
+            "literalization_risk": "Showing a literal question mark floating up from a chest cavity would look cartoonish and lose the internal psychological tension.",
+            "metaphor_mapping": {
+              "tenor_concept": "recurrent emergence of a thought in consciousness",
+              "transferred_attributes": [
+                "upward movement",
+                "repetition",
+                "unavoidable visibility"
+              ],
+              "vehicle_concept": "physical rising of an object or bubble"
+            },
+            "source_span_original": "मन में उठता है एक सवाल बार-बार",
+            "source_span_translation": "A question rises within, over and again",
+            "source_term": "मन में उठता है एक सवाल बार-बार",
+            "tenor": "A recurring, nagging thought",
+            "vehicle": "An object rising or bubbling up",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the host sitting in deep, anxious contemplation with a furrowed brow, looking sideways at the guest."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the filler phrase 'I refrain' to force a rhyme with 'again', which is absent in the original Hindi text and alters the tone of the speaker's internal question.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'शांति पुरानी' (old/accustomed peace) as 'a distant claim' changes the nuance of wanting to return to a previously existing state of quiet.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The daily routine has become monotonous, repetitive, and exhausting due to the guest's presence.",
+            "acceptable_visual_variants": [
+              "The host looking at a calendar with identical marks on each day",
+              "The host serving the same tea to the same guest in a loop"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Every day and night is a literal written storybook with the exact same text.",
+            "literalization_risk": "Showing a literal open book with repeating text would distract from the domestic setting of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "monotony of daily life with an unwanted guest",
+              "transferred_attributes": [
+                "repetition",
+                "predictability",
+                "lack of progress"
+              ],
+              "vehicle_concept": "a story repeated without change"
+            },
+            "source_span_original": "हर दिन, हर रात की वही कहानी",
+            "source_span_translation": "Each day, each night the story is the same",
+            "source_term": "हर दिन, हर रात की वही कहानी",
+            "tenor": "Monotonous and frustrating daily routine",
+            "vehicle": "A repetitive storybook or narrative",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a montage or a scene showing the repetitive cycle of serving meals to the guest day after day."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the phrase 'I repeat' to satisfy the rhyme scheme, which is not present in the original text and slightly diminishes the raw exasperation of the sigh 'आह!' (Ah!).",
+            "where": "L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific nuance of 'शांति पुरानी' (the old, familiar peace that used to exist in the house before the guest arrived) is generalized to 'Peace in the home feels a distant claim'.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation adds 'end this press' to rhyme with 'confess', introducing a slightly more dramatic phrasing than the simple, repetitive question in the original.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The host's patience is completely running out and reaching its breaking point.",
+            "acceptable_visual_variants": [
+              "The host holding a cup tightly with a tense, strained facial expression",
+              "The host covering their ears in frustration"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L10",
+            "literal_meaning": "Physically shattering or breaking the object called patience.",
+            "literalization_risk": "Showing a literal glass or wall shattering labeled 'patience' would look overly literal and cheesy.",
+            "metaphor_mapping": {
+              "tenor_concept": "exhaustion of emotional endurance",
+              "transferred_attributes": [
+                "sudden failure",
+                "reaching a limit",
+                "irreversibility"
+              ],
+              "vehicle_concept": "shattering of a physical vessel or barrier"
+            },
+            "source_span_original": "मेरा सब्र तोड़ रही है",
+            "source_span_translation": "they test my patience more",
+            "source_term": "मेरा सब्र तोड़ रही है",
+            "tenor": "Losing one's capacity to endure a situation",
+            "vehicle": "A fragile object being broken",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the host clenching their fists or jaw in extreme frustration while hearing the footsteps of the guest."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'but I confess' and 'end this press' to maintain the rhyme scheme, introducing a confessional and slightly forced tone not present in the original Hindi lines.",
+            "where": "L11-L12"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The cultural resonance of 'चौखट' (threshold/doorframe), which represents a significant boundary of the household in South Asian domestic life, is simplified to 'door'.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The exhaustion of hosting an overstaying guest and the longing for quietude"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[1].translation_status",
+      "issue": "The translation_status is marked as PRESERVED, but the translation_note and loss_note (stanza 3) state that 'चौखट' was simplified to 'door', which represents an ALTERED or PARTIALLY_PRESERVED status rather than fully PRESERVED.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The field 'preserved' is set to true, but the translation loss notes explicitly state that the cultural resonance of 'चौखट' is simplified/lost in the translation to 'door'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम कब जाओगे अतिथि,  \nतुम्हारा स्वागत करते-करते थक चुके हैं हाथ,  \nमन में उठता है एक सवाल बार-बार,  \nतुम कब जाओगे अतिथि?  \n\nहर दिन, हर रात की वही कहानी,  \nतुम्हारे बिना घर में हो शांति पुरानी,  \nतुमसे बिछड़ने का सपना भी सुहाना,  \nआह! तुम कब जाओगे अतिथि?  \n\nमेरी चौखट पर तुम्हारे कदमों की आहट,  \nजाने कब से मेरा सब्र तोड़ रही है,  \nजाने वाले के लिए मन में प्रेम है, पर  \nतुम कब जाओगे अतिथि?",
+  "poem_id": "MV++_1046",
+  "poem_title": "Tum Kab Jaoge Atithi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "14e6d5d1171859d9fd3a3e78dd5e7feb7294ee6ae82897b3f79e8adc8dfa309b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1046.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "When will you leave, guest,  \nMy hands tire of this welcoming quest.  \nA question rises within, over and again,  \nWhen will you leave, guest, I refrain?\n\nEach day, each night the story is the same,  \nPeace in the home feels a distant claim.  \nEven the dream of parting is sweet,  \nOh, when will you leave, guest, I repeat?\n\nThe sound of your footsteps at my door,  \nSince forever, they test my patience more.  \nThere’s love for one who departs, but I confess,  \nWhen will you leave, guest, end this press?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:50:58.166143+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f6d131917ac323a62c5b152478396959bb060f967f313afad1273d7cfab2313f",
+        "response_hash": "d448e771641386187c2175f46bf31ae6ef37c17fe0d9e130da4f5791483f96e8"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8f288c45a8eab5fa0f049e6db2e5bfba93c857fb144eefa5aa299cabe79399c0",
+        "response_hash": "224b5af71fca85ce76132f72f2e8098259792f4c94abc42147b7d0518f3a7eec",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d4014c3e4745088450f2065999c7ce8b68fad3e4dd1d8f489d384e7b09a9f9cf",
+        "response_hash": "4531642695091641c4c23498b6e89d245415aaa53ca5c413467f1ce710d1a94f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d9baee5886552a594eee96ff7615cd8f75ac4467c289c327eeba3afa4f47d31c",
+        "response_hash": "d07c57842559c46abe197f9e4cb3e74b84d40d14dd1d222a5ef5fdd57ca4fa0c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a66275010f87f745809815cab0123b7b03bf862299a6efe5521a847c7369a515",
+        "response_hash": "6a79e884ac827f9a21b9d5222abb9b5b04b850d10618baa4bc4a5ef20aa4f14a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2c061eb5aee90427024e7239d119fda28d2d31368dda87a50f47ec4f5b91f10f",
+        "response_hash": "fac5456ab510f541c967e5c69168f6a5698c399d4ca26fcfe25d92c2e06c9448",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "197e9d63f68dd4c5e05659e0c8bb24f5c7483d6a40d804fca3e4113cb7a1a99e",
+    "translation_sha256": "19233c26fbdc8599e5c5dde278b6c39159ce04f54b44a7f16766b94d4b7a1371"
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A sky filled with dark, moisture-laden monsoon clouds",
+          "Rain falling over a lush, green rural landscape"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The fifth month of the Hindu calendar, corresponding to July-August, synonymous with the arrival of the life-giving monsoon rains, relief from heat, and romantic longing in South Asian literature.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "A generic winter storm cloud",
+          "A dry desert sandstorm"
+        ],
+        "preserved": true,
+        "romanization": "sawan",
+        "source_span_original": "सावन",
+        "source_span_translation": "monsoon",
+        "stanza_index": 1,
+        "term": "सावन",
+        "translation_note": "Translated as 'monsoon', which captures the seasonal and cultural essence of the rain-bearing month.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Dark, heavy rain clouds filling the sky",
+          "Freshly wet earth and green foliage",
+          "Falling rain drops"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing for peace and transient beauty",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The journey, choices, and progression of a person's life.",
+            "acceptable_visual_variants": [
+              "A winding path through a misty landscape",
+              "A single figure walking along a long, open road at dawn"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The physical roads or paths of life",
+            "literalization_risk": "An illustrator might draw a literal dirt road or highway, which misses the existential search for peace in life.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey",
+              "transferred_attributes": [
+                "direction",
+                "movement",
+                "obstacles",
+                "destination"
+              ],
+              "vehicle_concept": "physical path"
+            },
+            "source_span_original": "ज़िंदगी दे रस्ते",
+            "source_span_translation": "paths of life",
+            "source_term": "ज़िंदगी दे रस्ते",
+            "tenor": "the journey and progression of human life",
+            "vehicle": "physical paths or roads",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a winding path fading into a soft, atmospheric background to represent the journey of life."
+          },
+          {
+            "abstract_meaning": "Peace is fleeting, elusive, yet deeply comforting and natural, much like the scent of dry earth when first struck by rain.",
+            "acceptable_visual_variants": [
+              "Raindrops falling on dry soil with soft mist rising",
+              "A close-up of parched earth receiving the first drops of monsoon rain"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "In the manner of the fragrance of soil",
+            "literalization_risk": "Showing someone literally smelling a handful of dirt might look unappealing or overly literal rather than evocative.",
+            "metaphor_mapping": {
+              "tenor_concept": "peace",
+              "transferred_attributes": [
+                "evanescence",
+                "deep comfort",
+                "natural origin",
+                "nostalgia"
+              ],
+              "vehicle_concept": "earthy fragrance"
+            },
+            "source_span_original": "मिट्टी दे खुशबू दी तरह",
+            "source_span_translation": "Like the scent of soil",
+            "source_term": "मिट्टी दे खुशबू दी तरह",
+            "tenor": "the elusive, comforting, and natural quality of peace",
+            "vehicle": "the scent of dry earth hit by rain (petrichor)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict rain droplets hitting dry, cracked earth with subtle vapor rising to visually suggest the release of fragrance."
+          },
+          {
+            "abstract_meaning": "Peace is transient, moving, and brings relief, much like monsoon clouds that gather, bring rain, and pass away.",
+            "acceptable_visual_variants": [
+              "Rolling dark, rain-bearing clouds over a green landscape",
+              "Soft grey clouds gathering in a vast sky just before rain falls"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L5",
+            "literal_meaning": "Like the clouds of the monsoon season",
+            "literalization_risk": "A literal drawing of dark storm clouds might convey gloom or sadness instead of the relief and peace associated with the monsoon.",
+            "metaphor_mapping": {
+              "tenor_concept": "peace",
+              "transferred_attributes": [
+                "transience",
+                "bringing relief",
+                "gathering and dispersing",
+                "coolness"
+              ],
+              "vehicle_concept": "monsoon clouds"
+            },
+            "source_span_original": "सावन दे बादलां वांग",
+            "source_span_translation": "Like the monsoon clouds",
+            "source_term": "सावन दे बादलां वांग",
+            "tenor": "the transient, relief-giving, and moving nature of peace",
+            "vehicle": "monsoon clouds",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict soft, heavy, moisture-laden monsoon clouds rolling over a landscape, casting a cool, peaceful shadow."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and emotional resonance of 'sajna' (a term of endearment with deep roots in South Asian poetry) is flattened to the generic 'dear' in English.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The evocative regional association of 'sawan' (the highly anticipated monsoon season of rain, relief, and romantic longing in Dogri/North Indian culture) is translated as the more literal and meteorological 'monsoon clouds'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The elusive nature of peace, compared to fleeting natural phenomena like the scent of dry earth after rain and passing monsoon clouds."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Dogri",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सुकून\nसुकून कहां है ओ सजना,\nज़िंदगी दे रस्ते विच\nमिट्टी दे खुशबू दी तरह,\nसावन दे बादलां वांग।",
+  "poem_id": "MV++_0046",
+  "poem_title": "Sukoon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e075b4079a598233d07f98e998097f46a10637dddb499400e745dd7e82a4353d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Dogri/MV++_0046.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Peace\nWhere is peace, dear?\nOn the paths of life,\nLike the scent of soil,\nLike the monsoon clouds.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:41:10.725183+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e5420f6fb4dd630032b7387a3322edecf4f8940d66de241634de0f546d9b944c",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7a0025528d64a758f7ee2cbc37b5aa8a4858be2f2c53ff791fc25d33ae7b0c3f",
+        "response_hash": "a31b755ccec926209aed37aaacc79f7891669540b7d00d9d988ad1eaf8431862",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5075ee8bd1359ebae0e0bcd35daef933847b73e226e77a0561f7304e29c2b8b6",
+        "response_hash": "796a5462a7381ec0aa3833ae848001f9f3f68afef8d6e4773771c24a972e08f1",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be23c79064ed4ea5ff088736f9fc44f63ca9a2b3e50518f94dadd18b8beb721a",
+        "response_hash": "5cbbdd52ec94c63c0d232a6b24f39fdfa633559b2719d0c66ff3cab44f53c9e9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f8cbd6d80aebd4a100024234c99c9cdae717e6f1c441fa23940d953b7e179d54",
+        "response_hash": "7ac6e95d7b64d4f2b967fa8ba536a4e877b385743004cee1c6999fff9569ed4b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eccaa4fa8e9435ab283325778c6ca3651d8fdd9ab036a36973cad44a290f8044",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "93f85804c83970bd055fb9ab82d9599bcc672c8ecb77c78fc9bc852af81c8c4e",
+    "translation_sha256": "598b989a0ced4a7ba6b362cf5cd4e64c60aee1bc93432c0065c37b180c65b52a"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to quiet realization of truth",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation introduces rhyming words like 'surreal' and 'swirls' which are not in the original text, slightly altering the quiet, natural tone of the Hindi lines.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The dew drops are fleeting, delicate, and carry an ethereal, transient beauty, much like a dream.",
+            "acceptable_visual_variants": [
+              "Close-up of a single leaf with perfectly round, reflective dew drops",
+              "A wider shot of a branch covered in morning dew under soft, misty sunlight"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "Dew drops are like a dream",
+            "literalization_risk": "An illustrator might try to draw literal dream bubbles or sleeping figures, which would distract from the natural landscape of dew on leaves.",
+            "metaphor_mapping": {
+              "tenor_concept": "dew drops",
+              "transferred_attributes": [
+                "transience",
+                "ethereal beauty",
+                "delicacy"
+              ],
+              "vehicle_concept": "dream"
+            },
+            "source_span_original": "शबनम की बूँदें, जैसे कोई सपना",
+            "source_span_translation": "Drops of dew, like a dream surreal",
+            "source_term": "शबनम की बूँदें, जैसे कोई सपना",
+            "tenor": "dew drops (शबनम की बूँदें)",
+            "vehicle": "a dream (सपना)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict glistening, delicate dew drops on green leaves with a soft, slightly blurred, or ethereal morning light to evoke a dreamlike quality."
+          },
+          {
+            "abstract_meaning": "The dew drops glisten brightly and beautifully in the morning sun, resembling precious pearls.",
+            "acceptable_visual_variants": [
+              "Dew drops reflecting a bright white-gold sun flare",
+              "Dew drops with a soft, milky-white pearlescent glow inside them"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "shining like pearls",
+            "literalization_risk": "Drawing actual pearl necklaces or jewelry on the leaves would look unnatural and ruin the organic scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "dew drops in sunlight",
+              "transferred_attributes": [
+                "brightness",
+                "roundness",
+                "precious gleam"
+              ],
+              "vehicle_concept": "pearls"
+            },
+            "source_span_original": "मोती सी चमके",
+            "source_span_translation": "gleam like pearls",
+            "source_term": "मोती सी चमके",
+            "tenor": "dew drops shining in the morning rays",
+            "vehicle": "pearls (मोती)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Render the dew drops with high-contrast specular highlights and a pearlescent, iridescent sheen as they catch the morning sun rays."
+          },
+          {
+            "abstract_meaning": "The silent presence of the morning dew drops conveys or holds the secrets, quietness, and events of the night that has just passed.",
+            "acceptable_visual_variants": [
+              "Dew drops reflecting a deep indigo dawn sky with a single fading star",
+              "A misty, quiet morning garden scene that feels secretive and untouched"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "tiny drops speaking or telling some matter of the night",
+            "literalization_risk": "Depicting literal mouths on the dew drops or speech bubbles would look cartoonish and inappropriate for a reflective poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "dew drops formed overnight",
+              "transferred_attributes": [
+                "ability to communicate secrets",
+                "bearing witness to the night"
+              ],
+              "vehicle_concept": "human storyteller"
+            },
+            "source_span_original": "नन्हीं बूँदें जैसे रात की कोई बात कहें",
+            "source_span_translation": "As if telling stories of the night's swirls",
+            "source_term": "नन्हीं बूँदें जैसे रात की कोई बात कहें",
+            "tenor": "dew drops carrying the quiet essence of the night into the morning",
+            "vehicle": "a person speaking/telling a story",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the dew drops in a dim, transitional dawn light, perhaps reflecting the last fading stars or a deep blue night sky, suggesting they hold the night's memory."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the word 'surreal' to rhyme with 'appeal', which adds a modern, abstract psychological tone not present in the simple Hindi simile 'जैसे कोई सपना' (like some dream).",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'न जाने कब का अपना' (belonging to one since who knows when / an ancient intimacy) is translated as 'with a timeless appeal', losing the specific emotional nuance of personal belonging and recognition.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'telling stories of the night's swirls' introduces 'swirls' for rhyme, losing the quiet, conversational intimacy of 'रात की कोई बात कहें' (as if speaking of some matter of the night).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'aanchal' (the protective border/veil of a garment) as 'petals' loses the personified, maternal warmth of the flower's lap or veil.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The soft, protective, and delicate surface of the flower petals where the moisture rests.",
+            "acceptable_visual_variants": [
+              "A close-up of a rose or lotus petal gently holding a pool of dew",
+              "A soft-focus view of a flower blossom cradling moisture in its center"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "on the lap/hem of the flowers' garment",
+            "literalization_risk": "Drawing actual clothes or fabric draped over flowers would look bizarre and literalistic.",
+            "metaphor_mapping": {
+              "tenor_concept": "soft surface of flower petals",
+              "transferred_attributes": [
+                "softness",
+                "protection",
+                "nurturing embrace"
+              ],
+              "vehicle_concept": "protective hem of a mother's garment"
+            },
+            "source_span_original": "फूलों के आँचल पर",
+            "source_span_translation": "on petals lain",
+            "source_term": "फूलों के आँचल पर",
+            "tenor": "the surface of flower petals",
+            "vehicle": "the hem or lap of a garment (आँचल)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict soft, wide flower petals gently cupping or cradling the morning moisture/dew drops."
+          },
+          {
+            "abstract_meaning": "The moisture/dew on the flowers represents a moment of quiet stillness, as if a narrative or passage of time has been temporarily frozen in place.",
+            "acceptable_visual_variants": [
+              "A single water droplet suspended perfectly at the tip of a petal, reflecting a quiet garden",
+              "A misty, silent garden scene where everything is perfectly still under a soft morning haze"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L6",
+            "literal_meaning": "like a story that is paused/still",
+            "literalization_risk": "Depicting literal book pages or written text frozen in ice would completely miss the naturalistic, quiet tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "still, quiet morning moisture",
+              "transferred_attributes": [
+                "stillness",
+                "depth of meaning",
+                "temporary suspension of time"
+              ],
+              "vehicle_concept": "a paused narrative"
+            },
+            "source_span_original": "जैसे कोई कहानी हो ठहरी हुई सी",
+            "source_span_translation": "Like a tale softly frozen",
+            "source_term": "जैसे कोई कहानी हो ठहरी हुई सी",
+            "tenor": "the still moisture on the flowers",
+            "vehicle": "a paused or frozen story (ठहरी हुई कहानी)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Emphasize absolute stillness in the scene—no wind, a perfectly suspended drop of water on the verge of falling from a petal, capturing a frozen moment in time."
+          },
+          {
+            "abstract_meaning": "The tiny, fragile dew drop reflects the entire world and serves as a metaphor for human life—small, transient, yet reflecting a deeper reality.",
+            "acceptable_visual_variants": [
+              "A macro shot of a dew drop reflecting the morning sun and the surrounding green garden",
+              "A dew drop reflecting a miniature version of the vast sky and trees within its boundary"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "a small mirror of life is hidden",
+            "literalization_risk": "Drawing a literal glass mirror hanging from a leaf or flower would look highly artificial and ruin the natural metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "transient dew drop",
+              "transferred_attributes": [
+                "reflection of reality",
+                "fragility",
+                "containing a larger world within a small space"
+              ],
+              "vehicle_concept": "mirror"
+            },
+            "source_span_original": "छुपा है जीवन का एक छोटा सा आईना",
+            "source_span_translation": "Lies a mirror to life",
+            "source_term": "जीवन का एक छोटा सा आईना",
+            "tenor": "the dew drop reflecting life/existence",
+            "vehicle": "a small mirror (छोटा सा आईना)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a detailed close-up of a spherical dew drop acting as a natural lens, clearly reflecting the surrounding garden, trees, and sky upside down or curved within its tiny sphere."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'फूलों के आँचल पर' (on the lap/veil of the flowers) as 'on petals lain', losing the personifying cultural metaphor of 'आँचल' (the protective border or drape of a sari/veil).",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'without pain' to rhyme with 'lain', introducing an emotional concept of suffering/painlessness that is absent from the original Hindi line.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'मासूम सच्चाई' (innocent truth/honesty) as 'innocence' flattens the philosophical pairing of innocence with truth.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transient beauty of morning dew as a mirror to the delicate, fleeting nature of human life and memory."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].metaphor_spans[2].source_term",
+      "issue": "The source_term ('जीवन का एक छोटा सा आईना') does not match the source_span_original ('छुपा है जीवन का एक छोटा सा आईना') exactly. The source_term should be a verbatim substring matching the source_span_original or vice versa.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "शबनम की बूँदें, जैसे कोई सपना,  \nपत्तों पे बिखरी, न जाने कब का अपना।  \nसवेरे की किरणों में मोती सी चमके,  \nनन्हीं बूँदें जैसे रात की कोई बात कहें।  \n\nफूलों के आँचल पर सजी एक नमी,  \nजैसे कोई कहानी हो ठहरी हुई सी।  \nशबनम की इस मासूम सच्चाई में,  \nछुपा है जीवन का एक छोटा सा आईना।",
+  "poem_id": "MV++_0197",
+  "poem_title": "Shabnam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e580ba1fd2818af7a82b40b626f2e62c1ae60d5ed2f72f0b489befdaa0703d4f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0197.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Drops of dew, like a dream surreal,  \nScattered on leaves, with a timeless appeal.  \nIn morning rays, they gleam like pearls,  \nAs if telling stories of the night's swirls.  \n\nA tender mist on petals lain,  \nLike a tale softly frozen, without pain.  \nIn the innocence of this gentle dew,  \nLies a mirror to life, simple and true.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:58:26.266861+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2def9763da18192f85c7dedd602fce153db7c2b905b342d3ebf70eba4c9184f6",
+        "response_hash": "751b47f77b8be3008440206d0603fa8259b602d8793d61b511d39c88eb524047"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cdd0b0bfd8d2e427fbe7a5986e510c1f5707ad6782fa0f57ac434d299785cf53",
+        "response_hash": "a82b1408d51689fb317200ddc5c60a0406253dd896301419bffc56fe63e24a92",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "98d5c96329c9ed0936c01fdd8742a5f0b07ac53c329a23f89e76bfa61f28e438",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e30ee6e7588de8ae64c3870ed6ceed8b17111e4fa694f4d9fb6a04a8527aae0f",
+        "response_hash": "51de3543cc9e44dd80724e1f61fa0b75b632940a3af318419bf7f97f7c19a3d6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "489fe0ee35289d5803e1fea4bd2572b3e4081e10e38e75fcebd1cf45e01a0779",
+        "response_hash": "59ca6db8f3274c4b8dfc587352cbddb43149296b01111121e64edff115cbfc3e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3013c2ffab86ee107474fd9b729742b6e5fbc8f0bbf28cd74f329e3ef489737a",
+        "response_hash": "bf1861b9a0c46a58101d9855bf43849c316d14fb45634afe0d689f71b8b4ea04",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3dc401649aab3e16f71c8bd886e9309bed9f13dce21cbaa144a3ca8aa7e75ed1",
+    "translation_sha256": "4c08c873ce162d60a87642359cf1081d26ded1ca1e602a95f323892edb319edd"
+  }
+}

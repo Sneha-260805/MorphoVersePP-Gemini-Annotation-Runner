@@ -1,0 +1,172 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and wonder amidst a storm",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the compound Sanskritized rhythm of 'drutpatan' (swift descent/fall) is simplified to 'rushed in their fall'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sun became obscured by clouds, described as if it actively chose to hide itself.",
+            "acceptable_visual_variants": [
+              "A dark sky filled with heavy grey clouds completely covering the sun",
+              "A faint outline of the sun behind a thick layer of mist and clouds"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The sun hid itself",
+            "literalization_risk": "Showing the sun with human features physically ducking behind a cloud like a cartoon character.",
+            "metaphor_mapping": {
+              "tenor_concept": "obscuration by clouds",
+              "transferred_attributes": [
+                "intentional concealment",
+                "disappearing from sight"
+              ],
+              "vehicle_concept": "hiding"
+            },
+            "source_span_original": "छिप गया सूर्य",
+            "source_span_translation": "The sun hid away",
+            "source_term": "छिप गया सूर्य",
+            "tenor": "The sun being covered by dense clouds",
+            "vehicle": "A person hiding from view",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict the sun partially or fully obscured by thick, dark storm clouds, with only a faint, soft glow filtering through to suggest its presence behind them."
+          },
+          {
+            "abstract_meaning": "The rainbow is associated with or belongs to the beloved, symbolizing hope, beauty, or the beloved's presence in the speaker's inner world.",
+            "acceptable_visual_variants": [
+              "A bright rainbow arching over misty mountains",
+              "A soft, glowing rainbow fading into a clearing blue sky"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L6",
+            "literal_meaning": "The rainbow belonged to him",
+            "literalization_risk": "Depicting a literal rainbow with a person's name or face physically written on it, or a person holding a miniature rainbow.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's presence and beauty",
+              "transferred_attributes": [
+                "vibrancy",
+                "fleeting beauty",
+                "connection between earth and sky"
+              ],
+              "vehicle_concept": "rainbow"
+            },
+            "source_span_original": "उसका ही था इन्द्रधनुष",
+            "source_span_translation": "It was his rainbow that filled the sky",
+            "source_term": "उसका ही था इन्द्रधनुष",
+            "tenor": "The beauty, hope, and memory of the beloved",
+            "vehicle": "A physical rainbow in the sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render a vibrant, luminous rainbow stretching across a clearing sky after a storm, casting a warm, hopeful light over the landscape to evoke the beloved's presence."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'चले ठंडी बयार' (chale thandi bayar) as 'A cool breeze blew' loses the grammatical aspect of the verb 'चले' (chale), which suggests an ongoing, flowing, or habitual action rather than a simple past tense.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'that filled the sky' to the final line to complete the English sentence structure, which is not explicitly present in the original Hindi text 'उसका ही था इन्द्रधनुष' (literally, 'His indeed was the rainbow').",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The presence of the beloved remembered through the dramatic elements of nature"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "गगन गहन मेघ में, \nछिप गया सूर्य।\nद्रुतपतन गिरी नदियाँ, \nचले ठंडी बयार।\nस्वप्नों में बसा था प्रियतम, \nउसका ही था इन्द्रधनुष।",
+  "poem_id": "MV++_0662",
+  "poem_title": "Gagan Gahana Megh",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2bb5539d41d59a219b010feaf1ee28e848960eddad6b1c0a9d88f5ad516e1fc2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0662.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the dense clouds in the sky,  \nThe sun hid away.  \nRivers rushed in their fall,  \nA cool breeze blew.  \nIn dreams lived my beloved,  \nIt was his rainbow that filled the sky.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:52:43.711874+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "257e21b8b76f2a51ddd1f4583b79548d02547a2b6cbde97857882354f6705a37",
+        "response_hash": "b242ccf6d7a39f6da0c8901fa119bba0926d80d2373600ae54cd9a285b61212e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "06bdb3f01c997e4eea4b3ae6e0141072ca10521af0edff60019846e002acacd6",
+        "response_hash": "6e0df0b4c10bb31f6342f657fa25df996447d3f78e01115367fb0a359afe1529",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "449925beeafbea38e1a708036130d264902d68acb8e60d23885f22af739205d8",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "285be0db5fe5db51bc9672637bf6eadc83c83823c39dfd42fc7e31cc76661432",
+        "response_hash": "55a0eeaafddd740ba087b1bfa37245100e330ff8592d366e712055b484a8a703",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cb6970b2bf62819882ead578f3b9daa80ff07519a05c4fdc3cc83f2f549ba9ba",
+        "response_hash": "d412ef8e522e478a31b598cc9f78cb15be12344189e037257f469183574a6164",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "43363fe3bf03ba7f6c0ed1c717656d19b344800a39dbc2e3f6fbe046ed0875a4",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a427ea9bcd0fc1b4635284e9d36ac1201fbb47939318d18a7b4700e91acf5ca8",
+    "translation_sha256": "35d015c9cc28a7f52658b52d686d1849ac9485d2222b537b3a0868149cfe7c96"
+  }
+}

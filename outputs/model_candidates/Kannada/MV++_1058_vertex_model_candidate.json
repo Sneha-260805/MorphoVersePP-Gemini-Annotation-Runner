@@ -1,0 +1,287 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A bright full moon shining in a clear night sky",
+          "A glowing full moon partially framed by soft clouds"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The full moon of the fourteenth night of the lunar cycle, traditionally celebrated in South Asian literature and music as the ultimate standard of radiant beauty and romantic perfection.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A crescent moon",
+          "A generic sun or daylight scene"
+        ],
+        "preserved": true,
+        "romanization": "chaudahvi ka chand",
+        "source_span_original": "चौदहवीं का चाँद",
+        "source_span_translation": "moon of the fourteenth night",
+        "stanza_index": 1,
+        "term": "चौदहवीं का चाँद",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A perfectly round, luminous full moon",
+          "Soft, brilliant white or silver moonlight casting a gentle glow"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing to grief",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A symbol of ultimate beauty, perfection, and beloved presence, drawing on the classic cultural trope of the full moon of the fourteenth night.",
+            "acceptable_visual_variants": [
+              "A brilliant full moon shining through soft clouds",
+              "A glowing moon reflected in still water with a nostalgic atmosphere"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "The moon of the fourteenth night of the lunar cycle (the full moon)",
+            "literalization_risk": "Depicting a literal calendar or a simple astronomical moon misses the deep romantic and cultural association with the beloved's face and presence.",
+            "metaphor_mapping": {
+              "tenor_concept": "perfect beauty of the beloved",
+              "transferred_attributes": [
+                "radiance",
+                "perfection",
+                "evocation of love"
+              ],
+              "vehicle_concept": "fourteenth night full moon"
+            },
+            "source_span_original": "चौदहवीं का चाँद",
+            "source_span_translation": "moon of the fourteenth night",
+            "source_term": "चौदहवीं का चाँद",
+            "tenor": "The beloved's perfect beauty and the memory of their meeting",
+            "vehicle": "The full moon of the fourteenth night",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a luminous, perfectly round full moon casting a soft, nostalgic glow over a quiet, reflective landscape or a silhouette of two people meeting."
+          },
+          {
+            "abstract_meaning": "To cherish, remember, and hold a memory or feeling deep within one's emotional core forever.",
+            "acceptable_visual_variants": [
+              "A stylized silhouette of a person with a glowing light in their chest",
+              "A person looking up at the moon with a hand placed gently over their heart"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L4",
+            "literal_meaning": "To settle or house something inside the physical heart",
+            "literalization_risk": "A literal rendering showing a miniature moon physically placed inside a human heart organ would look bizarre, medical, or surreal in an unintended way.",
+            "metaphor_mapping": {
+              "tenor_concept": "preserving a memory in one's emotions",
+              "transferred_attributes": [
+                "permanence",
+                "protection",
+                "intimacy"
+              ],
+              "vehicle_concept": "settling/housing an object"
+            },
+            "source_span_original": "दिल में बसाया था",
+            "source_span_translation": "kept in my heart forever",
+            "source_term": "दिल में बसाया था",
+            "tenor": "Deeply cherishing and preserving a memory of love",
+            "vehicle": "Housing or settling a physical object inside one's heart",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the emotional posture of a person holding their hand over their chest in a reflective, longing gesture, with a soft internal warmth or light emanating from the chest area."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The cultural resonance of 'chaudhvin ka chand' (the full moon of the fourteenth night) as an established poetic standard of ultimate beauty is translated literally as 'moon of the fourteenth night', losing its immediate idiomatic and romantic weight in Hindi/Urdu poetic tradition.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The shift from the plural/inclusive royal pronoun 'humne' (we/us) in L2 to the singular 'I' in the translation's L4 collapses the poetic ambiguity of collective memory versus singular perspective.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The heart no longer feels joy, happiness, or emotional blooming; the feeling of despair and emotional numbness.",
+            "acceptable_visual_variants": [
+              "A withered or closed flower bud in the shadow of the moonlight",
+              "A person sitting in a dark room with moonlight streaming through a window but not reaching their face"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The heart does not bloom like a flower",
+            "literalization_risk": "Showing a literal flower or heart organ physically opening or remaining closed can look overly anatomical or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "the heart feeling joy and love",
+              "transferred_attributes": [
+                "opening",
+                "vibrancy",
+                "beauty",
+                "growth"
+              ],
+              "vehicle_concept": "a flower opening/blooming"
+            },
+            "source_span_original": "दिल नहीं खिलता",
+            "source_span_translation": "No longer brightens my heart",
+            "source_term": "दिल नहीं खिलता",
+            "tenor": "The heart experiencing joy and emotional opening",
+            "vehicle": "A flower blooming",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a contrast of light and shadow, where the moonlight falls on a figure who remains in deep shadow, looking downcast, symbolizing the lack of inner blooming."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal translation of 'dil nahi khilta' as 'no longer brightens my heart' loses the organic, floral metaphor of blooming ('khilna') inherent in the original Hindi verb.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The memory of the beloved and that perfect moment now exists only as a mental recollection rather than a living reality.",
+            "acceptable_visual_variants": [
+              "A person looking at a faded, old photograph under the moonlight",
+              "A hazy, dreamlike sequence of a past meeting dissolving into mist"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L10",
+            "literal_meaning": "To reside or live inside memories as if they were a physical dwelling",
+            "literalization_risk": "Showing a literal house filled with thoughts or a brain with a tiny moon living inside it would be too literal and ruin the melancholic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "existing in memory",
+              "transferred_attributes": [
+                "dwelling",
+                "containment",
+                "permanence"
+              ],
+              "vehicle_concept": "residing in a physical house"
+            },
+            "source_span_original": "यादों में बसा है",
+            "source_span_translation": "exists only in memories",
+            "source_term": "यादों में बसा है",
+            "tenor": "The state of existing only as a mental recollection",
+            "vehicle": "A physical dwelling or home",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a faded, double-exposure style image where a faint, translucent silhouette of the past meeting is overlaid onto a lonely present-day figure looking at the moon."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The repetition of 'chaudhvin ka chand' carries a structural refrain that loses its specific cultural-idiomatic weight in the literal English rendering.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The painful contrast between enduring memories of shared love and the cold reality of present loneliness, symbolized by the unchanging full moon."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "metadata.language",
+      "issue": "The poem's metadata states the language is Kannada, but the original poem text ('वह चौदहवीं का चाँद...') is written in Hindi (Devanagari script) and uses Hindi/Urdu vocabulary. This is a fundamental language mismatch.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "वह चौदहवीं का चाँद,  \nजिसे हमने कभी देखा था।  \nवह चाँद जो तुमसे मिलने के बाद,  \nहमेशा अपने दिल में बसाया था।  \n\nआज भी वो चाँद वही है,  \nलेकिन अब उसकी रोशनी से,  \nमेरा दिल नहीं खिलता,  \nनहीं मिलता कोई दिलासा।  \n\nवह चौदहवीं का चाँद,  \nअब सिर्फ यादों में बसा है।",
+  "poem_id": "MV++_1058",
+  "poem_title": "Vah Chaudhvin Ka Chand",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9d17a00d49c6c953a61fe38a099bcc8def59def59512bb97a6d64a8c6b54fe35",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1058.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "That moon of the fourteenth night,  \nWhich we once saw.  \nThat moon, after meeting you,  \nI had kept in my heart forever.\n\nEven today that moon is the same,  \nBut now its light,  \nNo longer brightens my heart,  \nNo longer gives me any solace.\n\nThat moon of the fourteenth night,  \nNow exists only in memories.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:53:00.163145+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "232702ddb0599469b4742d27c4bbcaf6e04dae0d82dd79d599759e0a9cc932e0",
+        "response_hash": "2568e30ecbceb129c38ffd9e097e99d9245451d803c3ef085f37aee24f0f3027",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d693ea75ecda207880d3a8cb40ac7c500129140057e9c6535345a913c14602fb",
+        "response_hash": "17d81f2e39ac7e51bd88196e953ef3ebd0630aa456c7a0f7bdfd13d9371ff3fb",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8dbc143d0388d57192f33133e0dc2e1565d9873cede181eb9b5c671cfba3ef6d",
+        "response_hash": "0da3c08dfa104044112d495df533bf3981e811b3c9d63bfcf49d5a1a3787fb9f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "699a1a6d408a2937569d38ccc54c1ad7d8a4d7eee09f1daf05c3cff637507086",
+        "response_hash": "7a7e18efa1c0f60135d2fece4638b70d16490a1992a2a0c30fbcaa43a98e33a9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e92c3e20216088fa7c4759997e3b102b169801f663a716cca223ad53bf12a12",
+        "response_hash": "fdf2acda25feab30fe118424c28091ea3975610ede5f988c0c5f7b429762a01a",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "60b70b4d5eb2ed75c5f45345b210105bdc69d1c3e6a5967614d52e793a19d6a5",
+    "translation_sha256": "8b2bfca8a246773edd19b7c04f52199ba96ad4e6c978f6cca4992a51c6e20447"
+  }
+}

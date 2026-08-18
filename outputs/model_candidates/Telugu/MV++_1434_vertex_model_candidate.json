@@ -1,0 +1,214 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A stylized depiction of Hanuman's silhouette or heroic monkey warriors standing by the sea",
+          "An abstract representation of a powerful, ancient lineage rooted in the earth with subtle simian or heroic motifs"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The lineage or clan of Hanuman (Anumantha), referencing the mythological monkey warriors who crossed the ocean to Lanka in the Ramayana.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic human family tree or standard human ancestors without any mythological or simian attributes",
+          "A literal depiction of modern monkeys in a jungle setting"
+        ],
+        "preserved": false,
+        "romanization": "Anumantha Vamsam",
+        "source_span_original": "అనుమంత వంశం",
+        "source_span_translation": null,
+        "stanza_index": 1,
+        "term": "అనుమంత వంశం",
+        "translation_note": "The translation generalizes 'Anumantha Vamsam' (the lineage of Hanuman/Anumantha, referencing the mythological monkey warriors who crossed the ocean to Lanka) to 'The ancestral line', losing the specific mythological connection to Hanuman.",
+        "translation_status": "LOST",
+        "visual_features": [
+          "Depictions of heroic monkey warriors (Vanaras) associated with Hanuman",
+          "Symbols of crossing the ocean or building a bridge of stones"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A steady progression of pride and reverence for ancestral strength and heritage.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation renders 'Anumantha vamsam' generally as 'ancestral line', losing the specific mythological resonance and allusion to Hanuman's lineage and strength.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The legacy or lineage of the ancestors guides and directs the current generation's path.",
+            "acceptable_visual_variants": [
+              "A faint, luminous path winding forward from ancient footprints",
+              "A guiding light or constellation casting a path ahead"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "is drawing/making a path",
+            "literalization_risk": "Showing a literal person physically drawing a line or path on the ground, which misses the abstract guiding legacy of the lineage.",
+            "metaphor_mapping": {
+              "tenor_concept": "ancestral guidance",
+              "transferred_attributes": [
+                "direction",
+                "leadership",
+                "guidance"
+              ],
+              "vehicle_concept": "physical pathfinding"
+            },
+            "source_span_original": "దారి తీస్తున్నది",
+            "source_span_translation": "leads the way",
+            "source_term": "దారి తీస్తున్నది",
+            "tenor": "The guiding influence of ancestral legacy",
+            "vehicle": "A physical guide or leader physically drawing a path ahead",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, subtle path or trail stretching forward from historical figures or ancient symbols, guiding a modern silhouette."
+          },
+          {
+            "abstract_meaning": "The deep connection, heritage, and enduring presence of the heroic ancestors in this land.",
+            "acceptable_visual_variants": [
+              "Stylized root patterns blending into ancient stone carvings underground",
+              "A majestic tree with deep roots where the roots subtly mirror the shapes of ancient warriors or shields"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The roots of the heroes are deep in this soil",
+            "literalization_risk": "Depicting literal human bodies with plant roots growing out of them into the dirt, which looks grotesque or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "ancestral heritage in a homeland",
+              "transferred_attributes": [
+                "depth",
+                "stability",
+                "nourishment",
+                "permanence"
+              ],
+              "vehicle_concept": "tree roots in soil"
+            },
+            "source_span_original": "వీరుల వేర్లు ఈ నేలలో గాఢం",
+            "source_span_translation": "Roots of heroes",
+            "source_term": "వీరుల వేర్లు ఈ నేలలో గాఢం",
+            "tenor": "The deep-seated heritage and historical connection of ancestors to the land",
+            "vehicle": "Deeply embedded plant or tree roots in the earth",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict stylized, glowing root-like patterns interwoven with ancient symbols or historical motifs embedded deep within the layers of the earth beneath the surface."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific cultural and mythological resonance of 'Anumantha' (referring to Hanuman/Anjaneya, symbolizing ultimate strength, loyalty, and the leap across the ocean) is generalized to 'ancestral line' in English, losing the direct connection to the deity's lineage.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The vivid imagery of 'సముద్రాన్ని చీల్చి' (splitting/tearing through the ocean) is softened to 'crossed the ocean' in the translation, losing the intense physical force and epic scale implied by the Telugu verb.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring legacy and deep-rooted strength of ancestral lineage."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].category",
+      "issue": "The category 'MYTHOLOGICAL_EVENT' is inconsistent with the term 'అనుమంత వంశం' (Anumantha Vamsam), which refers to a lineage, clan, or group of beings rather than a specific event. A category like 'DEVOTIONAL_CONCEPT' or 'REGIONAL_SYMBOL' would be more consistent, or the term itself should be noted as spanning categories.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "అనుమంత వంశం దారి తీస్తున్నది, \nఅంతులేని శక్తి, పితామహుల నుండి. \nసముద్రాన్ని చీల్చి వెళ్ళిన\nవీరుల వేర్లు ఈ నేలలో గాఢం,\nఅదిగో వాటి చిహ్నాలు.",
+  "poem_id": "MV++_1434",
+  "poem_title": "Anumantha Vamsam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "252ce001141f8ae65e16c1a4596355a5ce1eccdbe1f7b217aaa33714fe6cfa55",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1434.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The ancestral line leads the way, \nUnfathomable strength, passed down from forefathers. \nRoots of heroes who crossed the ocean, \nDeeply embedded in this soil, \nThere lie their marks.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:33:13.783957+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5ff40f9268eb8c76a0c4f1e2c87300400c0aeb6cc11135c3977b95d43fb997d6",
+        "response_hash": "9413a2bf8725ef9720ec06769e355d32adf32b062d1b81c30a3aac407141ff07"
+      },
+      {
+        "attempt": 2,
+        "outcome": "success",
+        "prompt_hash": "93f529c10adb68ea433bfa6c6a04c92b8a1c0ed0fd5da4a607b476252e3c8ccb",
+        "response_hash": "0a9f71670532ed73ea63d646b97ad6428c4264821fd4e127024bd7fcfec1071e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6878f69980029a5070466d5573a5ab76bc25cb3698c64e410e43b986d1a30872",
+        "response_hash": "7d9a941f43662f7f7974b733636945d005c74f8f64d54ced99aa26a549bf759d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ce975f64e8ef6ecff019a0ab6afe2c459ec2cbcf0c4509d1ed48c5ebfd117ce8",
+        "response_hash": "c0fe2db488d29f188ed46e1b0ee1e3680314a6d95270ebb7988959e3156882f9",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ed6d14df90466240bad162806dff53a58a7697c6b5e8037c4419b866d250f86f",
+        "response_hash": "3316f5ad64c9e13b9265cce3a182a8ba62bab11b3e4035fb0a3b752afdf0f246",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6b19d7a4a6c9dc40160c9bc27993503a32c400be8c01e9953a5fac8e8bfc5f29",
+        "response_hash": "630b490216e34a8d2195d0feb0c04f06598454556db39ad34bc70ed549c388e6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "611a4f1640a4c3b54503f8505ae80c2d87bc2302ad17ce12ee61525b91ed8607",
+        "response_hash": "e19b6e3d86f662660ef59b0ead89ec2933eb075d2ef02b1bef0140a4e837532f",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1c7d9a53ec6eac85875bc88d962637eede14fd77013cc96a88e01506f5ca45c3",
+    "translation_sha256": "352299bdc2f5151e8e9555e2f573c762bd1545345e66bc021d3a6f722a3d6f3d"
+  }
+}

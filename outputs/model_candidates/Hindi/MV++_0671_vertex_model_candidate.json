@@ -1,0 +1,257 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "restless longing to quiet resignation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A brief moment or small amount of sleep that the speaker is desperately trying to find.",
+            "acceptable_visual_variants": [
+              "A soft, glowing puzzle piece floating near the bed",
+              "A tiny, luminous cloud drifting away from the sleeper's reach"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A physical fragment or broken piece of sleep",
+            "literalization_risk": "Showing a literal broken chunk of glass, stone, or bread labeled 'sleep' would look surreal or comical, losing the emotional weight of insomnia.",
+            "metaphor_mapping": {
+              "tenor_concept": "sleep",
+              "transferred_attributes": [
+                "divisibility",
+                "physical presence",
+                "ability to be lost and found"
+              ],
+              "vehicle_concept": "solid object"
+            },
+            "source_span_original": "नींद का एक टुकड़ा",
+            "source_span_translation": "piece of sleep",
+            "source_term": "नींद का एक टुकड़ा",
+            "tenor": "A brief duration or small portion of sleep",
+            "vehicle": "A physical fragment or piece of a solid object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person restlessly searching in a dark room, with a faint, glowing, semi-transparent shard or soft light bubble representing the elusive sleep just out of reach."
+          },
+          {
+            "abstract_meaning": "The deep, complex, and overlapping layers of human thoughts and worries.",
+            "acceptable_visual_variants": [
+              "Overlapping pages of semi-transparent notebooks floating around the thinker",
+              "Swirling, layered mist surrounding a person in deep contemplation"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Within the physical folds or layers of thinking",
+            "literalization_risk": "Showing literal physical sheets of paper or geological rock layers inside a human head could look bizarrely anatomical or industrial.",
+            "metaphor_mapping": {
+              "tenor_concept": "human mind and thoughts",
+              "transferred_attributes": [
+                "depth",
+                "multi-layered structure",
+                "ability to hide things within folds"
+              ],
+              "vehicle_concept": "layered physical material"
+            },
+            "source_span_original": "सोच के परतों में",
+            "source_span_translation": "layers of thought",
+            "source_term": "सोच के परतों में",
+            "tenor": "The complex, deep, and multi-layered nature of human thoughts",
+            "vehicle": "Folded sheets, fabric, or geological strata",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the silhouette of a head filled with swirling, overlapping translucent waves or folded ribbons of soft light, suggesting deep mental layers."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the specific grammatical gender agreement of the verb 'dhoondhta hoon' (masculine speaker) which is flattened into the gender-neutral English 'I search'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'soch ke perton mein' as 'layers of thought' loses the grammatical feminine gender of 'soch' (thought) and the specific plural postpositional phrasing 'ke perton' (in the layers of).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The concept of sleep itself is personified as a living entity that has gone to sleep somewhere else, leaving the speaker awake.",
+            "acceptable_visual_variants": [
+              "A small, glowing, curled-up dream-like creature sleeping on a high shelf or roof",
+              "A peaceful shadow figure resting in a corner of the room, detached from the restless speaker"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "Sleep itself is sleeping somewhere",
+            "literalization_risk": "Depicting a literal second person sleeping peacefully next to the awake speaker might look like a simple domestic scene rather than a poetic personification of sleep itself.",
+            "metaphor_mapping": {
+              "tenor_concept": "the state of sleep",
+              "transferred_attributes": [
+                "ability to sleep",
+                "having a physical location",
+                "independence of action"
+              ],
+              "vehicle_concept": "a sleeping person"
+            },
+            "source_span_original": "कहीं वो कहीं सोया है",
+            "source_span_translation": "It must be sleeping somewhere",
+            "source_term": "कहीं वो कहीं सोया है",
+            "tenor": "The state of sleep being completely unavailable and distant from the speaker",
+            "vehicle": "A sleeping person or creature",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a faint, anthropomorphic figure made of soft starlight or mist curled up asleep on a distant cloud or roof, visible to the viewer but out of reach of the awake speaker."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'It must be sleeping somewhere' for 'kahin vo kahin soya hai' loses the double use of 'kahin' (somewhere) which creates a rhythmic, hesitant poetic cadence in Hindi.",
+            "where": "L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the personification nuance of sleep ('vo... soya hai') being grammatically masculine here, matching the masculine noun 'tukda' (piece) of sleep, which is rendered as a neutral 'it' in English.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A small, elusive portion of sleep that has been lost.",
+            "acceptable_visual_variants": [
+              "A glowing drop of dew slipping off the pillow",
+              "A tiny, luminous puzzle piece resting on the floor beside the bed"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "A physical fragment of sleep",
+            "literalization_risk": "Showing a literal broken chunk of glass or stone under a pillow would look dangerous and lose the poetic sense of insomnia.",
+            "metaphor_mapping": {
+              "tenor_concept": "sleep",
+              "transferred_attributes": [
+                "divisibility",
+                "physical presence",
+                "ability to be dropped or lost"
+              ],
+              "vehicle_concept": "solid object"
+            },
+            "source_span_original": "एक टुकड़ा नींद का",
+            "source_span_translation": "A piece of sleep",
+            "source_term": "एक टुकड़ा नींद का",
+            "tenor": "A brief duration or small portion of sleep",
+            "vehicle": "A physical fragment or piece of a solid object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a soft, glowing, feather-like or crystal-like shard slipping off the edge of the bed or under a pillow, emitting a gentle light."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation 'Sometimes beyond it' for 'kabhi takiye se pare' loses the specific ablative postposition 'se' (from/than) which establishes a spatial relationship of distance relative to the pillow.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The elusive search for sleep and peace of mind amidst restless thoughts."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं ढूंढता हूँ रात में\nनींद का एक टुकड़ा,\nकभी छत पर, कभी बिस्तर में,\nकभी सोच के परतों में।\n\nवो जो कहीं खो गया है\nमुझे उसी की तलाश है,\nरातों के अंधेरों में\nकहीं वो कहीं सोया है।\n\nकभी तकिये के नीचे,\nकभी तकिये से परे,\nएक टुकड़ा नींद का,\nजो शायद मेरा था, कहीं गिर गया है।",
+  "poem_id": "MV++_0671",
+  "poem_title": "Neend Ka Ek Tukda",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "50b9a3364530a1a6104a751be7090aa1eda234ddee7bc46c415fdbf8cacdf4b3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0671.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I search in the night\nFor a piece of sleep,\nSometimes on the roof, sometimes in bed,\nSometimes in layers of thought.\n\nThat which is lost somewhere,\nIs what I seek,\nIn the darkness of the night\nIt must be sleeping somewhere.\n\nSometimes under the pillow,\nSometimes beyond it,\nA piece of sleep,\nThat perhaps was mine, has fallen somewhere.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:53:44.307364+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6303fe0799e03630c1d4cdc99f92d5e1cccd8ce63faeaaccd83707bf17071f31",
+        "response_hash": "df1b4f3758566c53016287489ada1da26bb8db9852f296c3de42b9102fdf9f9a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "27653eb4164f8053a3599f70e82577bd759c7ac643c1d6f94919749c68409a15",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fe1b8dbfea03e80b145cfacdd4e42d42b857d3dce435907c70fedbe72a56ecf3",
+        "response_hash": "c44a8dc8164c5d79d5f84a1b82b70cbf8004646c677979d6ff5fe4e08e49abb9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cbadb7d2281441febe0fa5617babc441f327895dad306492e4b6df158473a11d",
+        "response_hash": "f9e4c20c9a4cf7c2d7d683d7486a65ce83ae6aea2fa12d1ea2df0d5eb09db602",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "076530adb3ba767b242bfc6b4910b0bbff5c2977f4e3544384bfde6bf65aa03c",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d0614f5a979f77bf33e1f65ea9fb73c5c7a983eed1dcd9aa624793cb041ae087",
+    "translation_sha256": "3940415b01baa9d713d8353410755c9d454fe28e18d8410e27764784405127ad"
+  }
+}

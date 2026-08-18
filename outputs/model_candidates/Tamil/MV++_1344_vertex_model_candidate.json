@@ -1,0 +1,174 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A short, intense reflection of longing and wonder, moving from the memory of a wandering gaze to the dreamlike celebration of a lover's beauty.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but the rhythmic flow and the specific poetic resonance of Tamil compound words like 'பேரழகின்' (grand/great beauty) and 'அணிவகுப்பில்' (procession/array) are slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The memories and experiences of the beloved's love actively play and manifest in the speaker's subconscious mind during sleep.",
+            "acceptable_visual_variants": [
+              "A sleeping person with a soft, glowing aura above them containing abstract, flowing shapes that suggest joyful movement.",
+              "A dreamscape where a silhouette of the beloved is dancing amidst soft, warm light."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2-L3",
+            "literal_meaning": "The days of your love dance in my dreams",
+            "literalization_risk": "Showing literal calendar days or calendar pages physically dancing inside a sleeping person's head, which would look comical and miss the emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "recurrent vivid dreaming",
+              "transferred_attributes": [
+                "liveliness",
+                "rhythm",
+                "active movement"
+              ],
+              "vehicle_concept": "dancing"
+            },
+            "source_span_original": "உன் காதலின் நாட்கள்,\nஎன் கனவுகளில் ஆடும்",
+            "source_span_translation": "Days of your love,\nDances in my dreams",
+            "source_term": "உன் காதலின் நாட்கள், \nஎன் கனவுகளில் ஆடும்",
+            "tenor": "the active, lively presence of memories of love in the speaker's dreams",
+            "vehicle": "dancing days",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dreamlike, ethereal sequence where joyful, warm memories of the beloved (such as shared moments or a glowing presence) swirl gracefully around a sleeping figure."
+          },
+          {
+            "abstract_meaning": "The overwhelming, structured, and grand display of the beloved's beauty.",
+            "acceptable_visual_variants": [
+              "A series of elegant, glowing portraits or silhouettes of the beloved unfolding like a beautiful tapestry.",
+              "A majestic procession of light and floral elements swirling around the dreamer."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "In the parade/procession of your great beauty",
+            "literalization_risk": "Depicting a literal military parade or marching band made of beauty products or facial features, which would look absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "grand display of beauty",
+              "transferred_attributes": [
+                "grandeur",
+                "orderly sequence",
+                "overwhelming presence",
+                "spectacle"
+              ],
+              "vehicle_concept": "parade/procession"
+            },
+            "source_span_original": "உன் பேரழகின் அணிவகுப்பில்",
+            "source_span_translation": "In the array of your beauty",
+            "source_term": "உன் பேரழகின் அணிவகுப்பில்",
+            "tenor": "the grand, multi-faceted, and overwhelming display of the beloved's beauty",
+            "vehicle": "a parade or military-style array/procession",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a grand, sweeping sequence of beautiful natural elements (like blooming flowers, light rays, or elegant patterns) unfolding one after another in a majestic procession."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil word 'சுற்றும்' (suttrum) carries a sense of spinning, revolving, or circling, which is translated as 'wandering'. This loses the specific dynamic of a spinning or swirling gaze.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative suffix '-இல்' in 'அணிவகுப்பில்' (anivaguppil) functions as a locative case marker ('in the array'), which is flattened into a standard English prepositional phrase, losing the tight morphological integration of the original Tamil noun and case marker.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The mesmerizing, dreamlike presence of a lover's beauty and past days of love in the speaker's inner world."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "சுற்றும் விழி,  \nஉன் காதலின் நாட்கள்,  \nஎன் கனவுகளில் ஆடும்,  \nஉன் பேரழகின் அணிவகுப்பில்!",
+  "poem_id": "MV++_1344",
+  "poem_title": "Suttrum Vizhi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e18da25c4ba3d1346e3e2990f44e14426d33fcacd909cdbffd1772cb9f73b0e0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1344.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The wandering eye,  \nDays of your love,  \nDances in my dreams,  \nIn the array of your beauty!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:23:32.207297+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4421c4378fefe635aaee7fd1a4ccb746a0b2a0973841e02b0acfb7ee943f1169",
+        "response_hash": "09fb7f376607cfd58a587d91b328d069531034071bbed6efc5da7d1664e90e9b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "63c409e81e507bf8c6c84a91ac9b63205ec8be4391b9f84233afcb966399af40",
+        "response_hash": "663c0904642668688782d9278e5078f98d720dc0297e5dcbb61e14f01fd4c31b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b01e56fa0ab36eff341d3891795c28074c7da34e8133e58fe7c5254c623a4a0",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2a6019095cd4a72a66e041133ede27ba1a6243089c0ed6eaf73296a559dffe2b",
+        "response_hash": "7a3d2bf7e3c3ad7de8a70673a7c290a820c2b7d2ad1f740a3629dec3b9883732",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5224eb7a28447842e909ede2b5a68cd9625aef639fc9533efa9522e3673ab85c",
+        "response_hash": "2efff20d9eb54e52934092ba29ae933e8d4eb515e2d0c690142651d9326bcfef",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "570bb90566eebc9c9b5b3b25d4ae74ed6521441ba2f0692a2e7294320be2ec7a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d27cb03b856e62c2803cc1438c49ba39ef8318f3168b9d410057b7731200c814",
+    "translation_sha256": "11469f1aaa9e9d30548c89b1b4cdad7f87a4339e6dbb0723cc59c4dd251ec210"
+  }
+}

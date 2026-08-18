@@ -1,0 +1,204 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A path winding through the iconic stone ruins of Hampi under a bright sky",
+          "A close-up of ancient carved stone pillars with a pathway stretching into the background"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Hampi, the historic capital of the Vijayanagara Empire located in modern Karnataka, renowned for its architectural ruins, temples, and cultural heritage. The term appears here in its genitive form ('of Hampi').",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic modern Indian city street",
+          "A generic North Indian marble monument like the Taj Mahal",
+          "A generic tropical jungle setting without the distinct granite boulders and architecture of Hampi"
+        ],
+        "preserved": true,
+        "romanization": "Hampiya",
+        "source_span_original": "ಹಂಪಿಯ",
+        "source_span_translation": "Hampi",
+        "stanza_index": 1,
+        "term": "ಹಂಪಿಯ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Ancient stone ruins",
+          "Carved pillars and temples",
+          "Rocky boulder-strewn landscape of Hampi",
+          "Dusty pathways"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing to quiet resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the rhythmic flow and the specific resonance of 'chaitanya' (vital energy/consciousness) and 'haridu haarida' (torn and flown/scattered) in Kannada.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A lost hope or shattered aspiration that has drifted away from reach.",
+            "acceptable_visual_variants": [
+              "A glowing, fading silhouette of a bird rising into the sky above the ruins",
+              "A soft, dissolving trail of light drifting away from a stone path"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A dream that tore and flew away",
+            "literalization_risk": "Showing literal pieces of paper or fabric flying in the wind, which misses the emotional weight of lost historical glory.",
+            "metaphor_mapping": {
+              "tenor_concept": "A lost human dream",
+              "transferred_attributes": [
+                "drifting away",
+                "becoming unreachable",
+                "fragmenting"
+              ],
+              "vehicle_concept": "A torn, flying object"
+            },
+            "source_span_original": "ಹರಿದು ಹಾರಿದ ಕನಸು",
+            "source_span_translation": "The dream that flew away",
+            "source_term": "ಹರಿದು ಹಾರಿದ ಕನಸು",
+            "tenor": "A lost or shattered aspiration",
+            "vehicle": "A torn object or bird flying away",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a faint, translucent, bird-like shape or glowing mist drifting away from the ancient stone ruins of Hampi."
+          },
+          {
+            "abstract_meaning": "The enduring beauty, grace, or historical spirit of the ruins of Hampi.",
+            "acceptable_visual_variants": [
+              "Golden sunlight bathing the stone chariot or temple pillars of Hampi",
+              "A serene, warm glow reflecting off the ancient stone carvings"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "The smile of Hampi",
+            "literalization_risk": "Drawing a literal human face or mouth onto the stone monuments of Hampi, which would look cartoonish and disrespectful.",
+            "metaphor_mapping": {
+              "tenor_concept": "The architectural beauty and spirit of a place",
+              "transferred_attributes": [
+                "warmth",
+                "expression of joy or peace",
+                "endurance"
+              ],
+              "vehicle_concept": "A human smile"
+            },
+            "source_span_original": "ಹಂಪಿಯ ನಗು",
+            "source_span_translation": "The smile of Hampi",
+            "source_term": "ಹಂಪಿಯ ನಗು",
+            "tenor": "The aesthetic grace and enduring spirit of the ruins of Hampi",
+            "vehicle": "A human smile",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Capture the warm, golden sunlight illuminating the carved stone pillars or a serene monument, evoking a sense of peaceful, silent joy."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada verb 'haridu' (ಹರಿದು) carries a double meaning of 'flowing' (like a river) and 'tearing/ripping' (like paper or cloth). The translation 'flew away' for 'haridu haarida' (ಹರಿದು ಹಾರಿದ) captures only the movement of flying away, losing the rich poetic imagery of a dream that has either torn apart or flowed away before taking flight.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'chaitanya' (ಚೈತನ್ಯ) carries a deep philosophical and spiritual connotation of 'consciousness', 'vital force', or 'divine spirit' in Kannada, which is significantly simplified and flattened to the physical concept of 'energy' in the English translation.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring spirit and memory of Hampi's ruins"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಹಂಪಿಯ ಪಥದಲ್ಲಿ,  \nಹರಿದು ಹಾರಿದ ಕನಸು,  \nಅವನ ಪಾದದಲ್ಲಿ ಹೊತ್ತ ಚೈತನ್ಯ,  \nಹಂಪಿಯ ನಗು.",
+  "poem_id": "MV++_1109",
+  "poem_title": "Hampi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "28a33f45ea77c5f61c0bfa7a457b2587d6c8f9a1f44895bfba70d32d56c9eefa",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1109.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "On the path of Hampi,  \nThe dream that flew away,  \nThe energy that arose in his feet,  \nThe smile of Hampi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:58:38.753536+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "783c7cb157915d0fe18b60ea2c8340ef1ccd5f7ab288699a4ffa61c6bdacbe1e",
+        "response_hash": "9fae8da8aeaddd6d92a25c4d2bef2879bd4adf34ffbc13ebee936fa84cc5ee40"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b8941ec78cb465cc854b438ea5eeb081f06294effa15fa2ac6e5d3e63c7b42a4",
+        "response_hash": "7fa52a14609895f843a3c85071e75555ddb63d75a73912d43f767c99fa6cc970",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "50c4653f6a8c89524d3c56bc5565951e769b32e4c4bac062f6ae007a7b0088a3",
+        "response_hash": "2cf9062b3b3c673461963d9b933f9e18dac1c224340864b6001dc0f9c57eadb2",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dd7915a209da3ed8ece77a3c5d99d8c84dec563ad6a58ad1190d51b11a80a187",
+        "response_hash": "d669c59126f36246aac2733dd5f271334b3dcd577b94291924ff9c0e3d1fe656",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8d9fd858ad2b2bc3302602a1191b756a5525c85b85839b00232ad1505a4850bc",
+        "response_hash": "25dc3255370c63ea7d5e8c0cb723b47af79761cb2f44d14a4d5f0b40e002c371",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8fa78561b267683693ff49f64069b7e9c75485b8890429c8621131f0a26917fd",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4bcf2233d6d8dcf99d9f2c19a9dac6df47e5b76d67beece4231fee2c0cf2d06c",
+    "translation_sha256": "8623e41c24993636de98e84d03e5d6ef87fcbee9df8a8be3aff1838a48b5382c"
+  }
+}

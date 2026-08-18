@@ -1,0 +1,227 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A celestial warrior standing on a chariot of pure golden light",
+          "A heroic figure looking up towards the sky with sunbeams framing his silhouette"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Literally 'one whose chariot is made of rays of light' or 'charioteer of the sun'. In Hindi literary culture, this is a highly specific epithet famously associated with Karna, the tragic hero of the Mahabharata epic, representing resilience, duty, and struggle against destiny.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A standard medieval European knight on a wooden carriage",
+          "A generic modern fantasy sun god with a halo"
+        ],
+        "preserved": true,
+        "romanization": "Rashmirathi",
+        "source_span_original": "रश्मिरथी",
+        "source_span_translation": "charioteer of the sun",
+        "stanza_index": 1,
+        "term": "रश्मिरथी",
+        "translation_note": "The translation renders the concept as 'charioteer of the sun' which captures the literal meaning of the compound (rashmi = ray of light, rathi = charioteer), though it loses the immediate cultural resonance with the legendary figure Karna from the Mahabharata, who is famously known by this epithet in Hindi literature.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A warrior or charioteer riding a chariot made of or radiating brilliant beams of sunlight",
+          "A majestic figure holding reins amidst glowing solar rays"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A traditional Indian yogi or sanyasi in saffron or simple garb",
+          "A serene, detached figure looking calmly at a scene of conflict"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "An ascetic, renunciant, or monk who has detached themselves from worldly desires (vairagya). In this context, it highlights the paradox of an ascetic engaging in or observing the battle of life.",
+        "line_ref": "L10",
+        "negative_confusions": [
+          "A Western-style wizard with a staff and pointed hat",
+          "A generic fortune teller or occultist"
+        ],
+        "preserved": true,
+        "romanization": "Bairagi",
+        "source_span_original": "बैरागी",
+        "source_span_translation": "mystic",
+        "stanza_index": 1,
+        "term": "बैरागी",
+        "translation_note": "Translated as 'mystic', which captures the spiritual/ascetic dimension but loses the specific cultural context of a Hindu renunciant or ascetic who has subdued worldly desires.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "An ascetic figure with simple or minimal attire, possibly with ash markings or simple robes, representing detachment",
+          "A calm, meditative figure standing unaffected amidst a chaotic battlefield"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A proud declaration of identity and cosmic purpose, moving from separation to a defiant embrace of battle and truth.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation introduces phrases not in the original (e.g., 'Riding with strength and might', 'Searching for my light') and alters the final line's philosophical depth: 'बैरागी का राज़ है' (is the secret of the ascetic/renunciant) is translated as 'a mystic's love', losing the specific cultural nuance of 'Bairagi' (renunciant).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker identifies as a radiant, powerful being guided by divine light or cosmic duty, embodying the strength and brilliance of the sun's charioteer.",
+            "acceptable_visual_variants": [
+              "A warrior figure standing amidst intense, structured beams of golden sunlight that resemble a chariot's frame",
+              "A glowing human form merging with the dawn sky, holding reins made of pure light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "I am the rider of the sun's rays / charioteer of light",
+            "literalization_risk": "Depicting a literal man driving a physical chariot made of sunbeams might look like a fantasy superhero, losing the internal spiritual and heroic resolve of the speaker.",
+            "metaphor_mapping": {
+              "tenor_concept": "heroic and spiritually illuminated self",
+              "transferred_attributes": [
+                "radiance",
+                "cosmic purpose",
+                "unyielding movement",
+                "divine guidance"
+              ],
+              "vehicle_concept": "charioteer of sunbeams"
+            },
+            "source_span_original": "रश्मिरथी हूँ मैं",
+            "source_span_translation": "I am the charioteer of the sun",
+            "source_term": "रश्मिरथी हूँ मैं",
+            "tenor": "The speaker's elevated, radiant, and duty-bound spiritual or heroic identity",
+            "vehicle": "A charioteer riding on rays of light or driving the sun's chariot",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a majestic, glowing silhouette or heroic figure standing tall, with brilliant rays of sunlight emanating from behind them like reins or a chariot's path."
+          },
+          {
+            "abstract_meaning": "The intense struggle of life or battle is viewed not as mere violence, but as the inner secret, passion, or detached duty of an ascetic/mystic.",
+            "acceptable_visual_variants": [
+              "A serene ascetic in orange or simple robes meditating peacefully while abstract silhouettes of warriors clash in the background",
+              "A single warrior holding a weapon with a completely calm, meditative, and detached facial expression"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9-L10",
+            "literal_meaning": "The conflict of war is the secret of the ascetic/renouncer.",
+            "literalization_risk": "Showing a literal monk whispering secrets on a bloody battlefield would look absurd and fail to convey the philosophical synthesis of action and detachment.",
+            "metaphor_mapping": {
+              "tenor_concept": "the chaotic external conflict of war",
+              "transferred_attributes": [
+                "deep spiritual purpose",
+                "detachment amidst action",
+                "sacred duty"
+              ],
+              "vehicle_concept": "the quiet, detached inner secret of an ascetic"
+            },
+            "source_span_original": "युद्ध का संग्राम,\nबैरागी का राज़ है।",
+            "source_span_translation": "The battle is a mystic's love.",
+            "source_term": "युद्ध का संग्राम,\nबैरागी का राज़ है।",
+            "tenor": "The chaotic and violent nature of battle or life's struggle",
+            "vehicle": "The secret or inner mystery of a detached ascetic (bairagi)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Juxtapose elements of conflict and peace: depict a meditative figure in a calm, seated posture superimposed over or standing serene amidst the abstract, swirling shapes of a battlefield."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces 'Riding with strength and might' which is not present in the original Hindi text, and completely omits the literal translation of 'रश्मिरथी' (Rashmirathi - one whose chariot is made of sunbeams/light rays), simplifying it to 'charioteer of the sun'.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Hindi phrase 'खुद को खोजते' (searching for oneself) is translated as 'Searching for my light', altering the existential search for self into a search for external light.",
+            "where": "L4"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'बैरागी का राज़ है' (is the secret of the ascetic/renunciant) as 'is a mystic's love' changes the concept of a 'secret' (राज़) to 'love', and simplifies the specific cultural/spiritual figure of a 'Bairagi' (ascetic/renunciant) to a generic 'mystic'.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The cosmic journey of the sun's charioteer, seeking truth and embracing battle with the detachment of an ascetic."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रश्मिरथी हूँ मैं,  \nसूर्य की रथी।  \nधरा के बिछड़े,  \nखुद को खोजते,  \nआसमान की ऊँचाइयों तक,  \nपहुंचने का यत्न करते।  \nन्याय और सत्य का,  \nस्वागत करता हूँ मैं।  \nयुद्ध का संग्राम,  \nबैरागी का राज़ है।",
+  "poem_id": "MV++_0443",
+  "poem_title": "Rashmirathi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "110bb080ad607faeb8612fcf8798ecf5613384b8462f7a4cfb58abcff160b3f5",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0443.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I am the charioteer of the sun,  \nRiding with strength and might.  \nSeparated from the earth,  \nSearching for my light,  \nStriving to reach the heights,  \nOf the endless sky above.  \nI welcome justice and truth,  \nThe battle is a mystic's love.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:25:00.994774+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a905f6d3788efa6bfe9d5c67316e43e5d01039ae5367296f032a981c5eb57683",
+        "response_hash": "32e88b8b3cb34815ea2d619ed92810cc3ea6fc02eb4bc6eef7d8ac10b1a2aa85",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "81c9fc2219b5c15bbfcb2fec4d49d53c54927a59ff2833278acf0d66997842ba",
+        "response_hash": "b750a525440f32fe7be0996f71e4cc00da060b95b5c0a8c9401a082d13c8dd20",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3302ea05e9bced96a7afab11e8c76d8c2db9682524acb8a82c5853f0a4aeed9d",
+        "response_hash": "3fc11ef410e1974423e13a0a3e198af64975f46642546746354f3096302de003",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca04053845624ef336e55fb50f59a3be1a718a92d6a04239490e19e199841635",
+        "response_hash": "b96c3f519358d079958bae895def9381a4afd090ae2458c3a631ef7c11617c9d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bfe53cd42e9054930ec914c494ee67e2d01fabef0feb678b8c68e4302ac79a7f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "32d6381aa54a6d98c1a61d256617431edefbf8c67e4a5153f185d63d31bc2a4c",
+    "translation_sha256": "c806814378fc7334101e17cc3aea19894aab2f0ae9c28e57b1cccc87820b535d"
+  }
+}

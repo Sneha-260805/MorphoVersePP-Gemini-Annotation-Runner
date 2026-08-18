@@ -1,0 +1,232 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A soft, finely woven shawl draped gently",
+          "A close-up of delicate, hand-spun woolen threads"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Pashmina, a fine type of cashmere wool hand-spun and woven in Kashmir, representing luxury, warmth, and delicate texture.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Coarse, heavy modern synthetic blankets",
+          "Generic thick winter coats"
+        ],
+        "preserved": true,
+        "romanization": "pashmine",
+        "source_span_original": "पश्मीने",
+        "source_span_translation": "pashmina",
+        "stanza_index": 1,
+        "term": "पश्मीने",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Fine, soft, woven woolen fabric",
+          "Delicate texture with a subtle sheen",
+          "Often associated with elegant shawls"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A gentle immersion into a peaceful, sensory night, moving from tactile warmth to visual wonder.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the tactile and cultural resonance of 'pashmina' (representing luxurious, soft warmth) and the specific rhythmic flow of the Hindi phrasing are slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The night is soft, warm, and luxurious, carrying a comforting and premium texture.",
+            "acceptable_visual_variants": [
+              "A cozy, dimly lit night scene with soft-focus glowing lights and a warm color palette.",
+              "A serene night landscape where the air itself looks thick, soft, and comforting, perhaps with gentle mist."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The night is made of pashmina wool",
+            "literalization_risk": "An illustrator might literally draw a night sky made of woven wool fabric or a blanket draped over the sky, which misses the atmospheric quality of the metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "night atmosphere",
+              "transferred_attributes": [
+                "warmth",
+                "softness",
+                "luxury",
+                "comfort"
+              ],
+              "vehicle_concept": "pashmina wool"
+            },
+            "source_span_original": "रात पश्मीने की है",
+            "source_span_translation": "night of pashmina",
+            "source_term": "रात पश्मीने की है",
+            "tenor": "the night's atmosphere and temperature",
+            "vehicle": "pashmina wool",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm, and deeply comforting night scene with gentle, hazy lighting that evokes the tactile softness of pashmina without showing literal fabric."
+          },
+          {
+            "abstract_meaning": "The moonlight makes the night feel smooth, glossy, and delicate like silk.",
+            "acceptable_visual_variants": [
+              "Moonlight casting a smooth, unbroken, satin-like glow over a quiet landscape.",
+              "A soft, shimmering silver haze emanating from the moon and coating the surroundings."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Silken with the moon's moonlight",
+            "literalization_risk": "An illustrator might draw literal silk threads or ribbons hanging from the moon, which would look overly literal and surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "moonlight",
+              "transferred_attributes": [
+                "smoothness",
+                "glossiness",
+                "delicacy",
+                "sheen"
+              ],
+              "vehicle_concept": "silk fabric"
+            },
+            "source_span_original": "चाँद की चाँदनी से रेशमी",
+            "source_span_translation": "Silken with the moon's glow",
+            "source_term": "चाँद की चाँदनी से रेशमी",
+            "tenor": "moonlight",
+            "vehicle": "silk",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render the moonlight as a smooth, continuous, and glossy sheen over the landscape, emphasizing its soft, reflective quality."
+          },
+          {
+            "abstract_meaning": "The colors have a pure, gentle, and unblemished radiance.",
+            "acceptable_visual_variants": [
+              "Soft, warm, non-glaring colored lights gently blending into the night air.",
+              "A subtle, clean, and gentle luminescence reflecting off natural surfaces."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "innocent shine/glow",
+            "literalization_risk": "An illustrator might try to draw a face or a literal child's expression on the light, which would ruin the abstract beauty of the scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "visual glow",
+              "transferred_attributes": [
+                "purity",
+                "gentleness",
+                "lack of malice",
+                "softness"
+              ],
+              "vehicle_concept": "innocence"
+            },
+            "source_span_original": "मासूम चमक",
+            "source_span_translation": "innocent shine",
+            "source_term": "मासूम चमक",
+            "tenor": "the glow of colors in the night",
+            "vehicle": "an innocent child or person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use soft, pastel, or gentle light sources that do not glare or overwhelm, conveying a sense of quiet purity."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and tactile resonance of 'pashmina' (a premium, hand-spun cashmere wool from Kashmir) is partially flattened into a generic material reference in English, losing its deep associations with luxurious warmth, heritage, and winter comfort in South Asia.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The alliterative and rhythmic quality of 'chaand ki chaandni' (literally 'the moon's moonlight') is simplified to 'the moon's glow', losing the poetic repetition of the 'ch' sound and the specific nuance of 'chaandni' as distinct from general glow.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The soft, comforting, and colorful beauty of a quiet night."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रात पश्मीने की है,  \nचाँद की चाँदनी से रेशमी।  \nनर्म हवाओं में बह रही है,  \nसभी रंगों की मासूम चमक।",
+  "poem_id": "MV++_0752",
+  "poem_title": "Raat Pashmine Ki",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "660154246c17edd2e9c69072ef3e89ec2ad62c977899efa0fd929fecd8e9ac31",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0752.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "It is a night of pashmina,  \nSilken with the moon's glow.  \nCarried by soft winds,  \nThe innocent shine of all colors flows.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:07:00.436209+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0608e0a1693a2dd04024774a5cf798d31737ade8f11f03d67aa0be853f7173fc",
+        "response_hash": "ec59cd408c0e7f5d3436a218c250b5a5b4b904813781dcb704dff1a438702e22"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b70c37cf005693ee899dcd6dbcaf8997d1055ef1e998fabd3f41703c17373fa8",
+        "response_hash": "6d9f577532544d490fabe7902c6925554c939acb98af0089b52407ad64a615f9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "374f0cefcf58b8853c0e2c591d47ff51200ac49983cc3f3bd7169cae100f262c",
+        "response_hash": "a990dbb459823e9b2d6e6c55bfc0f2f8831f3d234ad0faf23e97705d96f8312a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fdbeddc1d596d197d2bb67dc94db34a773096850d1a95c5f21215eb1d8555ecb",
+        "response_hash": "dd8ec6cb445b16d479cd74a52151cb4ea86af0f857b86e7ded9fc49d180b1476",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "46dc3660d5af71b78ab70a0804633f58dc9d17b71042f47b434cdd51bbad206e",
+        "response_hash": "608a48f2abb5f3ce74bcf93f0c82242fe0ced8154c6f0797ae1a0a24b607d1df",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7f7ff32d1322ee578a84d3cd3fe75c9816d28a86ece531d0de187208a152ed71",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "19da0f08fa376de32de1155ef0b3fd9710fd40a04ae68b117d3da9fa04ed78b7",
+    "translation_sha256": "266747f00ea8c92a969d6a17eab2137123ca1f20867977b6e7414535c792c1ce"
+  }
+}

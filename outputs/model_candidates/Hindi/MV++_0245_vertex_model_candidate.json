@@ -1,0 +1,224 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet observation of nature and human indifference, moving into deep isolation, and returning to the cyclical, silent endurance of the grove",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders the present continuous 'kya kar raha hai' (what it is doing) as a present perfect 'has done', slightly shifting the immediacy of the ongoing winter action.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of decay, aging, or persistent melancholy that nevertheless offers protection or endures.",
+            "acceptable_visual_variants": [
+              "A single large tree with yellowing leaves casting a wide shadow",
+              "A quiet path winding through a sparse grove of autumn trees with yellow leaves"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A forest or grove made of yellow, dying leaves.",
+            "literalization_risk": "An illustrator might draw a literal forest of bright yellow paper-like leaves, missing the emotional atmosphere of quiet endurance and melancholy.",
+            "metaphor_mapping": {
+              "tenor_concept": "An enduring state of melancholy or aging",
+              "transferred_attributes": [
+                "yellow color representing decay or autumn",
+                "providing shade despite being withered"
+              ],
+              "vehicle_concept": "A forest of yellow leaves"
+            },
+            "source_span_original": "पीले पत्तों का बन",
+            "source_span_translation": "The grove of yellow leaves",
+            "source_term": "पीले पत्तों का बन",
+            "tenor": "An enduring state of melancholy, aging, or quiet decay",
+            "vehicle": "A forest of yellow leaves",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a sparse, quiet grove of trees with thinning yellow leaves casting long, soft shadows on the ground."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the continuous present tense of 'क्या कर रहा है' (what it is doing / what it is currently making happen) to the present perfect 'has done', losing the sense of an ongoing, unfolding winter process.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation captures the literal meaning well, but loses the rhythmic contrast and internal rhyme of 'gham mein hi rahenge' and 'khush rehne mein rahenge'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The feeling of isolation, loneliness, and the inability of a decaying or sorrowful entity to communicate its pain to others.",
+            "acceptable_visual_variants": [
+              "A solitary yellow tree standing apart from a distant, lively green forest",
+              "A close-up of withered yellow leaves trembling in the wind, suggesting silent whispering"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5-L7",
+            "literal_meaning": "A forest of yellow leaves asking whom it should speak to and where it should go.",
+            "literalization_risk": "Drawing a tree with a literal human mouth or legs walking would look cartoonish and ruin the somber, reflective tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "A lonely person unable to communicate their sorrow",
+              "transferred_attributes": [
+                "desire to speak",
+                "desire to seek companionship or help"
+              ],
+              "vehicle_concept": "A forest seeking human interaction"
+            },
+            "source_span_original": "पीले पत्तों का बन\nकिससे कहे,\nकिसके पास जाएं",
+            "source_span_translation": "The grove of yellow leaves\nTo whom should it speak,\nWhere should it go",
+            "source_term": "पीले पत्तों का बन\nकिससे कहे,\nकिसके पास जाएं",
+            "tenor": "A lonely, aging, or sorrowful person who has no one to share their grief with",
+            "vehicle": "A forest of yellow leaves seeking a listener and a destination",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict the yellow grove standing isolated under a vast, empty, and overcast sky, emphasizing its solitude and silence."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation shifts the plural verb form 'जाएं' (should we/they go, or a respectful singular/plural) to a singular 'should it go' to match the personified grove, flattening the grammatical ambiguity and collective resonance of the Hindi verb.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "Similar to the first stanza, 'kya kar raha hai' is translated as 'has done', which alters the active, ongoing sense of the winter season's current impact.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of decay, aging, or persistent melancholy that nevertheless offers protection or endures.",
+            "acceptable_visual_variants": [
+              "A single large tree with yellowing leaves casting a wide shadow",
+              "A quiet path winding through a sparse grove of autumn trees with yellow leaves"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L12",
+            "literal_meaning": "A forest or grove made of yellow, dying leaves.",
+            "literalization_risk": "An illustrator might draw a literal forest of bright yellow paper-like leaves, missing the emotional atmosphere of quiet endurance and melancholy.",
+            "metaphor_mapping": {
+              "tenor_concept": "An enduring state of melancholy or aging",
+              "transferred_attributes": [
+                "yellow color representing decay or autumn",
+                "providing shade despite being withered"
+              ],
+              "vehicle_concept": "A forest of yellow leaves"
+            },
+            "source_span_original": "पीले पत्तों का बन",
+            "source_span_translation": "The grove of yellow leaves",
+            "source_term": "पीले पत्तों का बन",
+            "tenor": "An enduring state of melancholy, aging, or quiet decay",
+            "vehicle": "A forest of yellow leaves",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a sparse, quiet grove of trees with thinning yellow leaves casting long, soft shadows on the ground."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the continuous present tense of 'क्या कर रहा है' (what it is doing) to the present perfect 'has done', losing the sense of an ongoing, unfolding winter process.",
+            "where": "L15"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The silent, enduring presence of nature amidst human self-absorption and the cold passage of time"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पीले पत्तों का बन  \nसाल भर छाया करता है।  \nएक बार रुककर देख,  \nये सर्दी का मौसम क्या कर रहा है।  \n\nपीले पत्तों का बन  \nकिससे कहे,  \nकिसके पास जाएं,  \nजिन्हें ग़म है उनका,  \nवो ग़म में ही रहेंगे।  \nजिन्हें खुशी है उनकी ख़ुशियों का,  \nवो ख़ुश रहने में रहेंगे।  \n\nपीले पत्तों का बन  \nसाल भर छाया करता है।  \nएक बार रुककर देख,  \nये सर्दी का मौसम क्या कर रहा है।",
+  "poem_id": "MV++_0245",
+  "poem_title": "Peele Patton Ka Ban",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e8742715b2ab158dd9896dec03cdffc98317ef0f820cc3a0ae5bde1809309612",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0245.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The grove of yellow leaves  \nProvides shade all year round.  \nStop for a moment and see,  \nWhat this winter season has done.  \n\nThe grove of yellow leaves  \nTo whom should it speak,  \nWhere should it go,  \nThose who are in sorrow,  \nWill remain in their sorrow.  \nThose who are happy with their joys,  \nWill remain in their happiness.  \n\nThe grove of yellow leaves  \nProvides shade all year round.  \nStop for a moment and see,  \nWhat this winter season has done.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:03:53.350305+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a1cc08aebce2aafe4221c22b979a5d3d87243195818dba23a7d449bb39c7fd57",
+        "response_hash": "6e4668a224afb2f3875d499f2a0069404251516d561779ac7fe80b43da88ff36"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b39fcdac48c9fd473d21494fa6f1a6db6a5b9e0bf4a5cfc4552ca567fd0f859c",
+        "response_hash": "e5993356e7049f7209fb410389d1276da9d0549189b4fa0ee567d441d2a43ad6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1c5221bd34d73f3a40e8844faff1bd7ac8070b3a287f2a39398705eb950fa9aa",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5c25a82f3dff57277dab05cfa1376acd24cfb5d1871e8610fa508c43bc5de013",
+        "response_hash": "e2e6f048f161ac5be855bf35e647a595cd890382f7ea6e5d87bf1475c368a6b9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e2079fa64b849456915f54e9147bd8a202fd987abec56b44675eb89d1c9ccb8",
+        "response_hash": "864ddff3456e5d86639e46b69110f812ea59ba22e67cb7b0b6fc4bcd81e88a69",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ffcf9f589bc1ba12df6ff84d888981a0bf3e5ded2855070dc31c98c71bb3a0c9",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1130c3b3a91beb2684581c1a44720f25214363602f5a81f405f1622229a369f9",
+    "translation_sha256": "f0fd052aa3de97927ecc3dd20c0d5c7fa5c2e2e8bcc7e7b5f5a908032c40f5df"
+  }
+}

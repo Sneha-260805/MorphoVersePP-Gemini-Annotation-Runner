@@ -1,0 +1,246 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An earthen clay diya with a single cotton wick",
+          "A simple brass or metal oil lamp of traditional Indian design"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional clay oil lamp (diya or deepak) used in South Asian households and devotional rituals, symbolizing light, knowledge, and spiritual guidance. In this context, it serves as a central address of devotion and guidance.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern electric lamp or lightbulb",
+          "An ornate Western-style candle or lantern"
+        ],
+        "preserved": true,
+        "romanization": "deepak",
+        "source_span_original": "दीपक",
+        "source_span_translation": "lamp",
+        "stanza_index": 1,
+        "term": "दीपक",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A small, traditional clay oil lamp (diya)",
+          "A warm, flickering flame",
+          "A cotton wick soaked in oil or ghee"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing and prayerful devotion to a steady, protective light",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders the imperative 'जल' (burn) as a present-tense statement 'burns', shifting the active plea/command to a passive observation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker addresses a lamp as a conscious entity, asking it to burn sweetly and guide or remember them, symbolizing a source of inner light, hope, or a beloved guide.",
+            "acceptable_visual_variants": [
+              "A simple clay diya resting on a dark surface with a single steady flame",
+              "A hand gently shielding a burning lamp to keep its flame steady"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "burning of a physical clay or metal oil lamp",
+            "literalization_risk": "Showing a literal talking lamp with a face or human gestures would look cartoonish and ruin the spiritual, reflective tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "guiding presence or hope",
+              "transferred_attributes": [
+                "warmth",
+                "light",
+                "conscious mercy",
+                "remembrance"
+              ],
+              "vehicle_concept": "burning lamp"
+            },
+            "source_span_original": "दीपक जल",
+            "source_span_translation": "lamp burns",
+            "source_term": "दीपक जल",
+            "tenor": "an inner guide, hope, or beloved entity being asked to remain constant and supportive",
+            "vehicle": "a physical lamp being asked to burn sweetly and show mercy",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a traditional Indian clay lamp (diya) burning with a soft, warm, steady golden flame in a quiet, dark space, casting a gentle glow."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'जल' (jal) as 'burns' (indicative verb), losing the imperative/vocative nuance of 'जल' (burn/shine) which addresses the lamp directly. Additionally, the rhythmic repetition of 'मधुर मधुर' (sweetly, sweetly) is flattened to a single 'Sweetly'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'Please do not let me forget' shifts the agentive focus of 'मुझे भूले नहीं' (literally 'do not forget me' or 'may I not be forgotten' by the lamp/beloved) to an active self-forgetting.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The grammatical gender of the speaker is explicitly marked as feminine in Hindi ('अधूरी हूँ'), which is flattened into the gender-neutral 'incomplete' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The darkness, ignorance, or difficulties of life that cast a shadow over one's path or destiny.",
+            "acceptable_visual_variants": [
+              "Deep twilight shadows stretching across a path",
+              "A dark room with moonlight casting long, soft shadows on the floor"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "the physical shadow cast during the night",
+            "literalization_risk": "Depicting a literal giant shadow monster or black silhouette might look like a horror scene rather than a poetic representation of life's struggles.",
+            "metaphor_mapping": {
+              "tenor_concept": "hardships or ignorance",
+              "transferred_attributes": [
+                "darkness",
+                "obscurity",
+                "coldness"
+              ],
+              "vehicle_concept": "night shadow"
+            },
+            "source_span_original": "रात का साया",
+            "source_span_translation": "The shadow of the night",
+            "source_term": "रात का साया",
+            "tenor": "difficulties, ignorance, or dark phases of life",
+            "vehicle": "shadow of the night",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict soft, deep blue and purple shadows creeping across a surface, contrasted with a warm golden light source cutting through them."
+          },
+          {
+            "abstract_meaning": "The vast, deep, and potentially overwhelming realm of dreams, subconscious thoughts, or illusions.",
+            "acceptable_visual_variants": [
+              "A vast, misty sea under a starry sky with soft reflections",
+              "A person standing at the edge of a calm, endless body of water reflecting cosmic dust"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "a physical sea made of dreams",
+            "literalization_risk": "Drawing a literal ocean filled with floating dream bubbles or sleeping faces could look surrealist in a tacky or childish way.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams and subconscious",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "potential to get lost or drown"
+              ],
+              "vehicle_concept": "ocean"
+            },
+            "source_span_original": "सपनों के सागर",
+            "source_span_translation": "ocean of dreams",
+            "source_term": "सपनों के सागर",
+            "tenor": "the vast and deep realm of dreams or subconscious thoughts",
+            "vehicle": "an ocean",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a vast, calm, deep blue water surface reflecting a starry sky, blending the boundary between the sea and the heavens to suggest a dreamlike state."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'I won't let it get lost' for 'खोने न दूँ' (khone na doon) loses the grammatical gender marking of the speaker. The feminine adjective 'अधूरी' (adhoori) in L7 explicitly establishes a female speaker/persona, which is flattened into the gender-neutral English 'incomplete'.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The speaker's deep spiritual or emotional reliance on a burning lamp as a guide through darkness and dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मधुर मधुर मेरे दीपक जल,  \nकृपा करो, मुझे भूले नहीं।  \nसुर्य से, चाँद से, तारे से,  \nअपने जीवन में कर दो शामिल।  \n\nरात का साया, तेरी लकीरों में,  \nरोशनी बिखेर, कहीं खोने न दूँ।  \nतेरे बिना, मैं अधूरी हूँ,  \nसपनों के सागर में खोने न दूँ।",
+  "poem_id": "MV++_0833",
+  "poem_title": "Madhur Madhur Mere Deepak Jal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5ae8cf98cc3266856c2d91f190b9afd63f39da88f6008688a60ba2f6103fa66d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0833.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Sweetly my lamp burns,  \nPlease do not let me forget.  \nWith the sun, the moon, and the stars,  \nInclude me in your life.  \n\nThe shadow of the night, in your lines,  \nSpreading light, I won’t let it get lost.  \nWithout you, I am incomplete,  \nIn the ocean of dreams, I won’t let it get lost.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:18:13.186580+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "87b593ba4a5995455c3f2520cf4ca1bd7782893209e732410cdde0feb1dc713c",
+        "response_hash": "7f7570037506d6483b2f666dfb78a9b2c824a49e259fec02a44bcd87f1f5c311"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "55b97357f30f72d5326c02d8b5632c63aa597ee93f873b39fed501c7e2324f55",
+        "response_hash": "bab8c26972e20bd25d448b14355016093eb0b62276d43ff4af3b9bb0e3e5781a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "862c88003c770a0efe30331a10b1aa764f465576f8bf774ed758933df5dce8cd",
+        "response_hash": "75de0178bb6aed2452506a6b7e38cb40c4040af46d5ebc15d8c039d967bc0ed1",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "27f2b2dde9a5a2ac26bb3063dc79ae13e392e62527ce63d3f2f0bd5713f9f723",
+        "response_hash": "75d9ee0f3b3371d288fefe22f27eae4d12ad67b577f7ee0d7d1c3cd6f31d264e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c9e1036d2263c7360e267cc7fb4fc0b86fe4a46f71d7ba2b213456057befeaec",
+        "response_hash": "b46773f1b02e006ac9b050291cb166fe1e1cba560b162378319d1978c27f64b3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f0dca0c7d7ed9e326d41da11168a8ff1e7f1e422eaa54c96f7e697dfeda15106",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ee9b3cae5ecd358dfdc8a430886300c6455172ed87f1111a652340f65b76101b",
+    "translation_sha256": "b0a1037f529603fc1068b89bf7abbc108aae8e4fbb0ee848c81dca7327b7b960"
+  }
+}

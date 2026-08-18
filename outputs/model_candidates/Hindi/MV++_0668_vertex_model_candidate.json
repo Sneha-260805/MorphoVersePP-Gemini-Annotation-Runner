@@ -1,0 +1,327 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Depicted in simple monastic robes",
+          "Depicted with traditional features like elongated earlobes and a topknot (ushnisha) in a modern artistic style"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Siddhartha Gautama, the historical Buddha and founder of Buddhism, depicted here as a silent, contemplative figure observing worldly attachments.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "A generic modern monk without distinct iconographic associations",
+          "An active, preaching figure rather than a silent, observing presence"
+        ],
+        "preserved": true,
+        "romanization": "Buddha",
+        "source_span_original": "बुद्ध",
+        "source_span_translation": "Buddha",
+        "stanza_index": 2,
+        "term": "बुद्ध",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A serene, meditative figure resembling traditional representations of the Buddha",
+          "Calm, silent posture standing in a corner",
+          "A sharp, deep, contemplative gaze"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "From sensory immersion and worldly intoxication to deep existential questioning and quiet, transcendent wisdom.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation of 'sura-ras' as 'goblets raised' shifts the literal 'nectar of wine' to a physical action, and 'rasile' (juicy/delightful) is flattened to 'filled with allure'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Being caught up in the fluctuating dualities of life, such as ignorance and knowledge, or joy and sorrow.",
+            "acceptable_visual_variants": [
+              "People dancing under sharp, alternating spotlights and deep shadows",
+              "A split-lighting effect on the faces of the crowd in the hall"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "submerged or drowned in darkness and light",
+            "literalization_risk": "Showing people physically underwater or drowning in a pool of black and white liquid, which misses the emotional and spiritual state of confusion.",
+            "metaphor_mapping": {
+              "tenor_concept": "being consumed by worldly dualities and emotional fluctuations",
+              "transferred_attributes": [
+                "envelopment",
+                "loss of clear direction",
+                "immersion"
+              ],
+              "vehicle_concept": "drowning in physical light and shadow"
+            },
+            "source_span_original": "तम-उजाले में डूबे थे",
+            "source_span_translation": "lost in shadow and light",
+            "source_term": "तम-उजाले में डूबे थे",
+            "tenor": "experiencing the dualities and illusions of worldly existence",
+            "vehicle": "submersion in physical darkness and light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict people in a dance hall with dramatic, contrasting shadows and bright beams of light cast over them, obscuring their features to show immersion."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'सुरा-रस' (sura-ras) as 'goblets raised' loses the literal meaning of 'nectar/juice of wine' and its sensory, liquid quality. Additionally, 'जन-मन रसीले हुए थे' is translated as 'all filled with allure', which loses the specific aesthetic and emotional resonance of 'rasila' (juicy, saturated with emotion/relish) applied to the collective mind/heart (jan-man).",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'dhyanmagn' as 'quiet' loses the specific meditative connotation of 'absorbed in contemplation/meditation'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The internal emotional pain and deep spiritual distress felt by Buddha upon observing worldly attachments.",
+            "acceptable_visual_variants": [
+              "A close-up of Buddha's face with downcast, sorrowful eyes and a tense jaw",
+              "Buddha standing in a corner with a slightly hunched posture of quiet grief"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L7",
+            "literal_meaning": "as if some pain or agony was pinching/gnawing his mind",
+            "literalization_risk": "Depicting a physical hand reaching inside a chest to pinch or scratch a heart, which is overly graphic and misses the meditative sorrow.",
+            "metaphor_mapping": {
+              "tenor_concept": "persistent emotional and spiritual ache",
+              "transferred_attributes": [
+                "sharpness",
+                "persistence",
+                "internal discomfort"
+              ],
+              "vehicle_concept": "physical pinching or gnawing of an organ"
+            },
+            "source_span_original": "ज्यों किसी व्यथा से मन उन का कचोट रहा",
+            "source_span_translation": "as if some sorrow gnawed at his heart",
+            "source_term": "ज्यों किसी व्यथा से मन उन का कचोट रहा",
+            "tenor": "deep internal sorrow and spiritual distress",
+            "vehicle": "a physical pinching, scraping, or gnawing sensation",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on Buddha's facial expression, showing a subtle, pained contraction of the brow and a hand slightly pressed against his chest."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ध्यानमग्न' (dhyanmagna) as 'In a quiet corner' completely omits the explicit reference to being 'absorbed in meditation/contemplation', which is a crucial attribute of the Buddha.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "The translation of 'man' as 'spirit' collapses the distinct Sanskrit/Hindi psychological categories of 'man' (mind/heart), 'atma' (soul), and 'buddhi' (intellect) which are listed separately in line 10.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The memories, experiences, and attachments of his past life that remained deeply ingrained in his consciousness.",
+            "acceptable_visual_variants": [
+              "Faint, dream-like imagery of a palace floating in the background behind Buddha",
+              "A shadow cast by Buddha that takes the shape of his past princely self"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "that which was settled or living in the past",
+            "literalization_risk": "Showing a miniature house or person living inside a physical timeline, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "being stored in memory",
+              "transferred_attributes": [
+                "permanence",
+                "dwelling",
+                "presence"
+              ],
+              "vehicle_concept": "residing in a physical dwelling"
+            },
+            "source_span_original": "अतीत में जो था बसा",
+            "source_span_translation": "what was etched in his past",
+            "source_term": "अतीत में जो था बसा",
+            "tenor": "memories and past experiences stored in the mind",
+            "vehicle": "a physical inhabitant residing in a place called the past",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Use a faint, ghostly double-exposure or silhouette behind Buddha depicting scenes of his past princely life to show it dwelling in his consciousness."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'मन, न आत्मा, न बुद्धि' as 'mind nor soul nor intellect' is relatively faithful, but the distinction between 'man' (the emotional/sensory mind) and 'buddhi' (the intellect/discriminative faculty) is flattened in English, losing the precise Indian psychological/philosophical categorization.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "The translation of 'moh-phansi' as 'noose of desire' loses the specific nuance of 'moh' (attachment/delusion) as distinct from mere desire.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The illusory, repetitive, and performative nature of human existence and worldly activities.",
+            "acceptable_visual_variants": [
+              "Dancers depicted with faint puppet strings attached to them",
+              "The dance hall floor rendered to look slightly like a wooden stage platform"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L13",
+            "literal_meaning": "the theatrical play of life",
+            "literalization_risk": "Depicting a literal theater stage with actors in costumes, which might distract from the dance hall setting of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "the cycle of human life and desires",
+              "transferred_attributes": [
+                "illusion",
+                "temporariness",
+                "performative nature",
+                "pre-scripted roles"
+              ],
+              "vehicle_concept": "theatrical performance with actors and scripts"
+            },
+            "source_span_original": "जीवन का नाटक",
+            "source_span_translation": "drama of life",
+            "source_term": "जीवन का नाटक",
+            "tenor": "human existence and its worldly pursuits",
+            "vehicle": "a theatrical stage play or drama",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Frame the dance hall scene with subtle theatrical elements, like heavy curtains framing the edges of the image or dramatic stage-like lighting on the dancers."
+          },
+          {
+            "abstract_meaning": "Becoming trapped and bound by worldly attachments, desires, and illusions.",
+            "acceptable_visual_variants": [
+              "Faint golden threads weaving through the crowd, binding their hands and feet",
+              "Stylized, ribbon-like smoke curling around the dancers like webs"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L14",
+            "literal_meaning": "getting entangled in the noose of attachment/delusion",
+            "literalization_risk": "Showing literal hangman's nooses around the necks of the dancers, which is too violent and morbid for the spiritual context.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional and spiritual attachment (moha)",
+              "transferred_attributes": [
+                "entanglement",
+                "restriction of freedom",
+                "deadly grip"
+              ],
+              "vehicle_concept": "a physical rope snare that entangles and strangles"
+            },
+            "source_span_original": "मोह-फांसी में उलझता",
+            "source_span_translation": "caught in the noose of desire",
+            "source_term": "मोह-फांसी में उलझता",
+            "tenor": "the binding and trapping nature of worldly desires",
+            "vehicle": "a physical rope noose or snare",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict faint, glowing or smoky threads/vines wrapping around the limbs and bodies of the dancing crowd, symbolizing their entanglement."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मोह-फांसी' (moha-phansi) as 'noose of desire' simplifies 'moha', which specifically denotes worldly attachment, delusion, or infatuation rather than simple desire (which is 'chah' in L13).",
+            "where": "L14"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The contrast between worldly sensory indulgence and the silent, questioning detachment of spiritual wisdom."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं नाचघर में बैठा था, सब लोग मग्न थे नाच में,\nकुछ मस्ती में, कुछ प्यासे थे, सुरा-रस पिये हुए थे।\nतम-उजाले में डूबे थे कुछ, कुछ सुखी थे, कुछ दु:खी,\nगान-वाद्य-रंग और सुरा से, जन-मन रसीले हुए थे।\n\nध्यानमग्न एक कोने में बुद्ध खड़े थे चुपचाप,\nमौन पड़ी एक तीखी दृष्टि सब पर उनकी।\nअशांत, क्षुब्ध, ज्यों किसी व्यथा से मन उन का कचोट रहा,\nयाद कर रहे अतीत को, व्यर्थता का अनुभव कर रहे थे।\n\nध्यान मग्न उन की दृष्टि में प्रश्न था, शायद एक असमाप्त प्रश्न,\nजिस का उत्तर न मन, न आत्मा, न बुद्धि पा सकी।\nवह जो देख रहे थे यह दृश्य, और अतीत में जो था बसा,\nउन का मन क्यों न था उस में, और क्यों न था अब इस में।\n\nक्यों मानव की यह चाह, क्यों है यह जीवन का नाटक,\nमोह-फांसी में उलझता हर व्यक्ति हर रोज।\nसमझ न पाया बुद्ध कुछ, न मन को शांति दे सके,\nपर उनकी दृष्टि में था वह ज्ञान, वह अनंत अनुभव।",
+  "poem_id": "MV++_0668",
+  "poem_title": "Buddha Aur Nachghar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7fe75bc9f195fddee86619fea79462343173e1b8dec6c5a069668a33dd698648",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0668.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I sat in the dance hall, all were absorbed in dance,\nSome were intoxicated, some thirsty, with goblets raised.\nSome were lost in shadow and light, some happy, some sad,\nThe song, the music, the color, the wine – all filled with allure.\n\nIn a quiet corner stood Buddha, silent and still,\nHis gaze sharp, resting on everyone.\nDisturbed, troubled, as if some sorrow gnawed at his heart,\nHe remembered the past, feeling the futility of it all.\n\nIn his deep gaze, a question lay, perhaps an unfinished query,\nA question neither mind nor soul nor intellect could resolve.\nWhat he saw here, and what was etched in his past,\nWhy was his spirit not in either, not in the past nor present?\n\nWhy this desire of humankind, why this drama of life,\nEach person caught in the noose of desire, every single day.\nBuddha could not find the answer, nor calm his mind,\nBut in his gaze was that wisdom, that endless experience.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:53:25.854730+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be9511006446416bf658662f22d89b5259b36bb57f654597935bb07e1e4b25c5",
+        "response_hash": "616aac22d71b65a742f04fa2fb9a9d59719f6c3c8508e200b57f18e5608db5d0"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "80996a4596a06450c2dc128ee8a58df9af709ef6ceb4c4af697c6080aea285d1",
+        "response_hash": "59ddcfd7d677b28804341f91f66b4caa1e8cfcb49b9fb7b213181ca16400c801",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8549460ece129a6d65bab6525d1e132acf0e9fffee146ba473435c4a78920ab1",
+        "response_hash": "61bc54300c10b00844f7b185f81e0301d7e97ec7915d65b3654e650d6fa6a556",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1a3775582776769a2d84a513ee29ece9f46d2a9c9aed18b6680dd46cb4c14b7e",
+        "response_hash": "f8f7f1c5bd9e34efe40db77b2c3f6a43b31cdf6a6d5b4ce451d2cc7305352e6b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ef8d4358e7ac93654237ac701994e6aedb5304656d5ea079e44cc0a04b84237",
+        "response_hash": "45d9a4a3d7a0c9ca4e3371d716d03805ed497f90e0de1835e7c895bc971c6758",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ddebcdefe0840db3ecc73ee32233d406c5f6ea8619b574104f1c8e7edf97a7cc",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7f12ae1adfd767fe10d6ac6eea8930f01577b8093c1ff8caa2c0c83b4db467bf",
+    "translation_sha256": "ae9a164ac8d2d6bf658ecc13abfa80254dd2a7e309e0a88dba8d33664cdddc5f"
+  }
+}

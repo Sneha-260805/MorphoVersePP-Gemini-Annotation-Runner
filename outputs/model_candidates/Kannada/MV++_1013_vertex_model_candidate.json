@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady, quiet progression of grief and suffering along the path of life.",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic, alliterative flow of the Kannada words (e.g., 'madilalli', 'hejjeyalli', 'daariyalli') is naturally lost in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of deep, comforting, or enveloping quietness where one's grief or thoughts exist undisturbed.",
+            "acceptable_visual_variants": [
+              "A single teardrop falling into a completely still, dark pool of water, creating soft ripples in an otherwise empty space.",
+              "A person sitting quietly in a dimly lit room with soft shadows curving around them like a protective embrace."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "In the lap of silence",
+            "literalization_risk": "An illustrator might draw a literal human figure made of mist or shadow with a lap, which would look like a fantasy character rather than conveying the abstract feeling of quiet isolation.",
+            "metaphor_mapping": {
+              "tenor_concept": "silence",
+              "transferred_attributes": [
+                "comfort",
+                "enclosure",
+                "safety",
+                "quietude"
+              ],
+              "vehicle_concept": "motherly lap"
+            },
+            "source_span_original": "ಮೌನದ ಮಡಿಲಲ್ಲಿ",
+            "source_span_translation": "In the lap of silence",
+            "source_term": "ಮೌನದ ಮಡಿಲಲ್ಲಿ",
+            "tenor": "The quiet, non-communicative state of being alone with one's grief",
+            "vehicle": "A mother's or caregiver's lap offering comfort and safety",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure sitting in a vast, dimly lit, empty space with soft, enveloping shadows that suggest a protective, quiet enclosure."
+          },
+          {
+            "abstract_meaning": "The journey of living through time, experiencing hardships, and moving forward.",
+            "acceptable_visual_variants": [
+              "A single set of footprints stretching across an empty, vast landscape under a changing sky.",
+              "A winding path through a forest where light and shadow alternate, symbolizing life's ups and downs."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "On the path of life",
+            "literalization_risk": "Drawing a literal dirt road or highway with signs might look like a travel advertisement rather than a poetic representation of existence.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "direction",
+                "obstacles",
+                "journey",
+                "progression"
+              ],
+              "vehicle_concept": "physical path"
+            },
+            "source_span_original": "ಬಾಳದ ದಾರಿಯಲ್ಲಿ",
+            "source_span_translation": "On the path of life",
+            "source_term": "ಬಾಳದ ದಾರಿಯಲ್ಲಿ",
+            "tenor": "The passage of time and sequence of experiences in a person's life",
+            "vehicle": "A physical road or path that one walks upon",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a long, winding, narrow path fading into an uncertain, misty horizon to represent the journey of life."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada word 'toyuva' literally means 'soaking' or 'wetting', and 'haniyu' means 'drop'. The translation renders this as 'flowing tear', which interprets the drop specifically as a tear and changes 'soaking/wetting' to 'flowing', losing the tactile sense of dampness and the deliberate ambiguity of what kind of drop (rain, dew, or tear) is wetting the scene.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada word 'asahaneya' translates more precisely to 'impatience' or 'intolerance' rather than 'suffering' (which would typically be 'yaatane' or 'novu'). The translation of 'asahaneya' as 'suffering' shifts the emotional tone from restless irritation/impatience to passive pain.",
+            "where": "L3"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The Kannada word 'baalada' is a negative adjectival participle meaning 'unlived' or 'that which has not been lived' (from the root 'baalu', to live). The translation renders 'baalada daariyalli' as 'On the path of life', completely reversing the negative aspect ('unlived path' or 'path of not living') into a conventional positive 'path of life'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet, painful journey of life marked by silent tears and suffering."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ತೋಯುವ ಹನಿಯು,  \nಮೌನದ ಮಡಿಲಲ್ಲಿ,  \nಅಸಹನೆಯ ಹೆಜ್ಜೆಯಲ್ಲಿ,  \nಬಾಳದ ದಾರಿಯಲ್ಲಿ.",
+  "poem_id": "MV++_1013",
+  "poem_title": "Toreyuva Haniyu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e582d190b3a3320cf90d51ca9927a559dfaf82c07da0ef0e55fd71a798c19dc0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1013.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The flowing tear,  \nIn the lap of silence,  \nIn the steps of suffering,  \nOn the path of life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:45:36.687968+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4eb69f2c7a47a22e3e186ad8d826705f7313c7056cf4f505d2f0d1140e1c0709",
+        "response_hash": "3d80ca9e61d6c1fd6ac7b476b4e46e0cd1b2d6c6284351bd1e2d435b6e10304e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2e998b44056af233b18928c127316e0e5c77c151ec30a890a08efb42c2c1448c",
+        "response_hash": "0eac507850aaaef325315715137196089738e17a26434fc65670394aca940462",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3dd61d0aaad53edfa00e3d6f8615a20f783d06eb93c68b85cd03f6090caf870c",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c9137dc3f3dca5c95869b6939fab8f702fa25b6f1c3458fe89d6b5dda43da055",
+        "response_hash": "dd86d2a3f1485c5baf0e3b81c6db6dcf302c9b0c26884c993f5da9d96e13cdb9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b7423d4de211b3621eb2c95c3932c70ee25f65a9e7005c002591f4fa826bcbfe",
+        "response_hash": "57bf0968eb6d1ab65918f7b8a2bf9ca3bd2d31b53986024a233fd674ec672eb4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b12c7449fef572bb3fd25c05ff0e7ed9f250ad0ccc8a3a3822e1a3f7ac36dece",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7164d4cedd3a2dba74542868e6de89aeb65c8839e8c6ddf4e665b243d80691e8",
+    "translation_sha256": "5b357cb393b70f804f3290ab146cc61eef4950b08327aa19f0e9d8de80552bf3"
+  }
+}

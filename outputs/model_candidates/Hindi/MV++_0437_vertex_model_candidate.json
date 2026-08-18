@@ -1,0 +1,221 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet reflection on the expressive power of poetry, moving from gentle declaration to a deep, resonant awareness of emotional pain.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation alters the central simile in L8: the original Hindi compares pain to a vast ocean ('samandar sa bharta hai'), whereas the English translation renders it as echoing 'like a bell', completely changing the visual and conceptual vehicle of the metaphor.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Poems express deep human emotions and truths as if they were speaking human beings.",
+            "acceptable_visual_variants": [
+              "A book open with soft light or glowing script rising from its pages",
+              "A person looking deeply moved while reading a manuscript"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "Poems speak words aloud like human beings.",
+            "literalization_risk": "Showing literal anthropomorphic books or sheets of paper with human mouths speaking words, which looks comical and misses the emotional depth of poetic expression.",
+            "metaphor_mapping": {
+              "tenor_concept": "poetic expression",
+              "transferred_attributes": [
+                "vocalizing",
+                "communicating directly",
+                "having a voice"
+              ],
+              "vehicle_concept": "human speech"
+            },
+            "source_span_original": "कविताएँ बोलती हैं",
+            "source_span_translation": "Poems speak",
+            "source_term": "कविताएँ बोलती हैं",
+            "tenor": "Written poems expressing deep emotional truths",
+            "vehicle": "A speaking human being",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person reading a poem with emotional expressions or words gently flowing out of a book like a soft breeze or light, rather than literal mouths on paper."
+          },
+          {
+            "abstract_meaning": "The deepest, most introspective part of human consciousness and emotion.",
+            "acceptable_visual_variants": [
+              "A silhouette of a reflective person filled with deep blue space and soft light",
+              "A quiet, deep pool of water reflecting stars"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The physical depth or deep bottom of the mind.",
+            "literalization_risk": "Depicting a literal physical hole, cavern, or deep ocean inside a human head, which looks bizarre and overly anatomical.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental/emotional interiority",
+              "transferred_attributes": [
+                "being hidden deep down",
+                "requiring effort to reach",
+                "holding vast contents"
+              ],
+              "vehicle_concept": "physical depth"
+            },
+            "source_span_original": "मन की गहराई",
+            "source_span_translation": "depths of the mind",
+            "source_term": "मन की गहराई",
+            "tenor": "The subconscious or profound inner thoughts and feelings",
+            "vehicle": "A deep physical space or abyss",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use abstract visual metaphors such as a silhouette of a head filled with a deep, starry night sky or a calm, deep blue space to represent inner depth."
+          },
+          {
+            "abstract_meaning": "The expressive power, tone, and message of poetry.",
+            "acceptable_visual_variants": [
+              "Flowing, luminous lines of script winding through the air",
+              "A reader surrounded by soft, resonant light waves emanating from a book"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7",
+            "literal_meaning": "The physical vocal sound produced by a poem.",
+            "literalization_risk": "Depicting a piece of paper or a book with a literal throat or sound waves coming out of it.",
+            "metaphor_mapping": {
+              "tenor_concept": "artistic expression",
+              "transferred_attributes": [
+                "tone",
+                "resonance",
+                "ability to convey pain and emotion"
+              ],
+              "vehicle_concept": "human voice"
+            },
+            "source_span_original": "कविता की आवाज़",
+            "source_span_translation": "voice of poetry",
+            "source_term": "कविता की आवाज़",
+            "tenor": "The expressive quality and emotional resonance of a poem",
+            "vehicle": "A human voice",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Represent the 'voice' visually through flowing, elegant script that seems to ripple or vibrate across the scene, or through a warm glow emanating from the text."
+          },
+          {
+            "abstract_meaning": "Pain swells and becomes vast, deep, and overwhelming, much like a rising ocean.",
+            "acceptable_visual_variants": [
+              "A vast, calm but deep ocean under a twilight sky reflecting a solitary figure",
+              "Soft, deep blue waves rising around a reflective silhouette"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L8",
+            "literal_meaning": "Pain fills up physically like a literal ocean.",
+            "literalization_risk": "Showing a person literally drowning in a physical sea of tears or water, which might look like a natural disaster rather than an internal emotional state. Note: The English translation changes this to a bell metaphor ('echoes like a bell'), so a literal visual of a bell would completely lose the original Hindi ocean imagery.",
+            "metaphor_mapping": {
+              "tenor_concept": "accumulating emotional pain",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "overwhelming volume",
+                "surging movement"
+              ],
+              "vehicle_concept": "a swelling ocean"
+            },
+            "source_span_original": "दर्द समंदर सा भरता है",
+            "source_span_translation": "Every pain echoes like a bell",
+            "source_term": "दर्द समंदर सा भरता है",
+            "tenor": "The overwhelming and vast nature of emotional pain",
+            "vehicle": "An ocean filling up or swelling",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, deep blue ocean with gentle but powerful waves surrounding a solitary, reflective figure, capturing the scale of the emotion without literal drowning."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation replaces the vast, deep water imagery of 'samandar sa' (like an ocean) with 'like a bell', completely altering the physical and emotional scale of the simile.",
+            "where": "L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'unvarnished part' to rhyme with 'heart', which is not present in the original Hindi text 'sacchai ki baaton ki' (of the words of truth).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Poetry as the authentic voice of the heart's deepest truths and sorrows."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कविताएँ बोलती हैं,  \nदिल के जज़्बातों की।  \nहर शब्द में बसी है,  \nसच्चाई की बातों की।  \nजब मन की गहराई में,  \nअहसास उभरता है।  \nकविता की आवाज़ में,  \nहर दर्द समंदर सा भरता है।",
+  "poem_id": "MV++_0437",
+  "poem_title": "Kavitayein Bolti Hain",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f759993c0f0691d3166e09a87c3b5753c4e985f897dd830e45e39b4c5bd2fa3e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0437.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Poems speak,  \nOf feelings from the heart.  \nIn every word resides,  \nTruth's unvarnished part.  \nWhen from the depths of the mind,  \nEmotions start to swell,  \nIn the voice of poetry,  \nEvery pain echoes like a bell.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:24:21.593046+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6fc7ce6546aa66e8a0c1a8ff623a928c814629acf85cc27299048a2e05b4503",
+        "response_hash": "fb809b694453c58efb4da2e541385682679cb8a273b45139b5a13368bd789964",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d36e1de294d4a28ecba603c2c6f4dafdd1c0e3d1eee35250b7b8f339a5a5c232",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e3eb5aab7310ab4cf492c6f24668809b4aaed27ed95bfa3cd397210c77263963",
+        "response_hash": "4a1760ee7118f608766467d4611537a8952d9113f860a40d86d819f865b7141e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2f819d0267f3fa0600a0318b668d2f3e190f291d8de2f9cd7bd07085cbb4bbdb",
+        "response_hash": "e79bcb0f7a4cbdefd6a9d74a4dabe84f6f99f052e7c3779413ebd5fb781b3095",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8fc937b292b754baacd941473d519fa78e560d3a91defc1ce84e9bfb8bbe967d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "15f428d88110f3ba3be008686b1780eb352b7ea03ea13efc45d837ba6be93ef1",
+    "translation_sha256": "cceb0357e1669187bd3438208ba7afb42ea7407a3c6619977e38c7fe8e667415"
+  }
+}

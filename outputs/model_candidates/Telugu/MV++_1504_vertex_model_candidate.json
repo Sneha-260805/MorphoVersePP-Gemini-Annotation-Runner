@@ -1,0 +1,282 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address meaning 'O wise one' or 'one with a good mind', serving as the defining makutam (signature refrain) of the classical Telugu didactic verse collection 'Sumati Satakam'.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": false,
+        "romanization": "Sumati",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": null,
+        "stanza_index": 4,
+        "term": "సుమతీ",
+        "translation_note": "The traditional vocative address 'Sumati' (meaning 'O wise one' or 'one with a good mind'), which is the signature makutam (refrain) of the classical Sumati Satakam poems, is completely omitted in the English translation. This strips the poem of its classical didactic genre marker.",
+        "translation_status": "LOST",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "acceptance of life's dualities and natural cycles",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Pleasantness or intimacy inevitably leads to or exists alongside discord or separation; life's positive states naturally transition into their opposites.",
+            "acceptable_visual_variants": [
+              "A path winding through a sunny, blooming garden that leads into a misty, barren landscape.",
+              "A single tree shown in two halves: one in full spring bloom and the other in bare winter state."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "Pleasantness/intimacy is only for the sake of discord/distaste.",
+            "literalization_risk": "An illustrator might draw a literal physical transition from a sweet substance to a sour one, or a couple physically fighting, which misses the philosophical point about the natural cycle of life's states.",
+            "metaphor_mapping": {
+              "tenor_concept": "cyclical nature of life's emotional experiences",
+              "transferred_attributes": [
+                "inevitability",
+                "cyclical transition",
+                "interdependence of opposites"
+              ],
+              "vehicle_concept": "alternation of sweet and sour states"
+            },
+            "source_span_original": "సరసము విరసము కొఱకే",
+            "source_span_translation": "To be joyful and to be empty is necessary",
+            "source_term": "సరసము విరసము కొఱకే",
+            "tenor": "The inevitable cyclical nature of human experiences, where joy and pain alternate.",
+            "vehicle": "The transition from a sweet, harmonious relationship or state (sarasamu) to a sour, discordant one (virasamu).",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split scene or a cyclical path showing a bright, harmonious interaction transitioning naturally into a quiet, distant, or somber state, emphasizing the cycle rather than a violent conflict."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'sarasamu' (playfulness/intimacy) and 'virasamu' (discord/estrangement) as 'joyful' and 'empty' loses the specific relational and emotional contrast of the original Telugu terms.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Complete or peak happiness only serves to make the subsequent, inevitable suffering feel more intense, or exists to balance out deep pain.",
+            "acceptable_visual_variants": [
+              "A scale balancing a glowing golden orb of joy with a heavy, dark stone of sorrow.",
+              "A climber reaching a beautiful, sunlit mountain peak with dark, stormy valleys visible below."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L2",
+            "literal_meaning": "Complete happiness is only for the sake of excessive pain.",
+            "literalization_risk": "Showing a person laughing hysterically and then crying hysterically might look cartoonish or like a medical mood disorder rather than a philosophical reflection on life's balance.",
+            "metaphor_mapping": {
+              "tenor_concept": "the emotional contrast between extreme happiness and deep sorrow",
+              "transferred_attributes": [
+                "inevitability of change",
+                "heightened contrast",
+                "balance of opposites"
+              ],
+              "vehicle_concept": "a peak state of fullness preceding an inevitable fall"
+            },
+            "source_span_original": "పరిపూర్ణ సుఖంబు లధిక బాధల కొఱకే",
+            "source_span_translation": "Complete happiness requires a share of pain",
+            "source_term": "పరిపూర్ణ సుఖంబు లధిక బాధల కొఱకే",
+            "tenor": "The philosophical truth that peak joy is temporary and sets the stage for experiencing deep sorrow.",
+            "vehicle": "A vessel filled to the brim with sweet water that must eventually empty or spill, leading to distress.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use light and shadow contrast, such as a bright, warm sunlit peak casting a long, deep shadow, symbolizing how great light creates great darkness."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'adhika baadhala' (excessive/greater pains) as 'a share of pain' softens the stark contrast intended in the original Telugu text between complete happiness and intense suffering.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Growth, accumulation, or rising to a high position is always followed by a fall, break, or decline.",
+            "acceptable_visual_variants": [
+              "A wave at its highest crest, beginning to break into foam.",
+              "The moon shown in its waxing phase transitioning to a waning crescent."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L3",
+            "literal_meaning": "Growth/rising is only for the sake of breaking/falling.",
+            "literalization_risk": "Showing a literal branch snapping or a tower collapsing might look like an accident or a disaster scene rather than a natural, philosophical cycle of growth and decay.",
+            "metaphor_mapping": {
+              "tenor_concept": "the rise and fall of human fortunes and life cycles",
+              "transferred_attributes": [
+                "inevitable decline",
+                "limit of growth",
+                "natural law"
+              ],
+              "vehicle_concept": "a physical object growing tall and then breaking"
+            },
+            "source_span_original": "పెరుగుట విరుగుట కొఱకే",
+            "source_span_translation": "To increase and to diminish is necessary",
+            "source_term": "పెరుగుట విరుగుట కొఱకే",
+            "tenor": "The universal law of nature that all rising fortunes or physical growth must eventually decline.",
+            "vehicle": "The physical growth of an object (like a wave or a plant) that eventually breaks or snaps under its own height.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a natural cycle of growth and decline, such as a wave cresting beautifully just before it breaks onto the shore, or the phases of the moon waxing to full and then waning."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'viruguta' (breaking/shattering) as 'to diminish' loses the physical, abrupt, and destructive imagery of breaking, replacing it with a gradual reduction.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "The translation of 'dhara' as 'burden' misses the literal meaning of price/earth, and the direct address to 'Sumati' (wise one), a classic Telugu moral poem signature, is omitted.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Fluctuations in value, status, or worldly burdens are cyclical; a decline is merely a preparation for a subsequent rise.",
+            "acceptable_visual_variants": [
+              "The ocean tide pulling back far from the shore, preparing for a high wave.",
+              "A simple, classical balance scale in motion, with one side rising as the other falls."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L4",
+            "literal_meaning": "The price/value falling is only for the sake of rising.",
+            "literalization_risk": "Showing modern financial stock charts or price tags would look highly anachronistic and ruin the classical poetic tone of the verse.",
+            "metaphor_mapping": {
+              "tenor_concept": "the cyclical fluctuation of life's circumstances",
+              "transferred_attributes": [
+                "cyclical movement",
+                "temporary nature of low states",
+                "inevitable recovery"
+              ],
+              "vehicle_concept": "the rise and fall of market prices or physical levels"
+            },
+            "source_span_original": "ధర తగ్గుట హెచ్చు కొరకె",
+            "source_span_translation": "To decrease the burden is what brings truth",
+            "source_term": "ధర తగ్గుట హెచ్చు కొరకె",
+            "tenor": "The constant ebb and flow of life's fortunes, where every low point is a precursor to a high point.",
+            "vehicle": "The fluctuation of market prices or physical weight rising and falling.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a natural ebb and flow, such as the tide receding from the shore only to rush back in with greater height, or a simple balance scale shifting."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely misses the traditional Telugu 'Sumati' makutam (signature address to a wise person/mind) and misinterprets 'dhara tagguta' (the falling of prices/earthly values) as 'decrease the burden'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The inevitable cyclical nature of life, where every positive state inherently leads to or requires its opposite."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "సరసము విరసము కొఱకే\n\nపరిపూర్ణ సుఖంబు లధిక బాధల కొఱకే\n\nపెరుగుట విరుగుట కొఱకే\n\nధర తగ్గుట హెచ్చు కొరకె తథ్యము సుమతీ.",
+  "poem_id": "MV++_1504",
+  "poem_title": "Sarasamu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b186f9ef50c761278655ed8966e7fd60a43bb413d1d6bba84368b64dffa8aa06",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1504.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "To be joyful and to be empty is necessary,  \nComplete happiness requires a share of pain,  \nTo increase and to diminish is necessary,  \nTo decrease the burden is what brings truth.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:42:18.251600+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f3b6efe8e7b5c7e98a93ee9cb4aa98dab9d7f924d21b35bacae6b9140179d2b6",
+        "response_hash": "687e858995650455e310d57c51579684f782664e87cd50328cb715961e961990",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "765914e1820769e571df8a1a64f21c530abdf33fbcda044a45ed228f165ba03a",
+        "response_hash": "273c8bfab46be4ab697fd67b7a37044a1a3078067d5cd67dd9f77706705b5612",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49662282566ad5030476d81ad6085225a001484b2278e98758ae8c25887b9887",
+        "response_hash": "c52553782ee5d325404450d21851acf0d771575e01264185f2122dfd5c73f295",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "477a98251772c65736c7c481be7b5927f83285a8bfbc7fea4e0d19cd69859a20",
+        "response_hash": "3a2da3db2b6c03a25ab1a2aceec751127033e88573cd606f304402917b112e89",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e03821f1efa28b3cd63f208fd21604471eb274f706b918d961eb3a8c5692b19",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b95c02953bd90a8498f08e4e9a490e7926a442208b9e090221ee5308ea9337fe",
+    "translation_sha256": "d978adb55ffd02d75c96b1b7d7b9897df675d28cfe8a7a89f784d05a42e07e03"
+  }
+}

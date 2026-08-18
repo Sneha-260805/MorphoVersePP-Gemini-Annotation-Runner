@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A gentle reflection on love, dreams, and shared journeys, moving from quiet joy to a sense of expansive, flowing life.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal imagery but loses the soft, rhythmic resonance of the Kannada words like 'nenesida' (which carries connotations of soaking, steeping, or remembering) and the specific dative/locative grammatical flow of the original.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of joy, happiness, and emotional warmth within a person's inner self.",
+            "acceptable_visual_variants": [
+              "A stylized heart symbol surrounded by warm, bright light",
+              "A person with a joyful expression and a glowing chest area"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "in a heart that smiles",
+            "literalization_risk": "Depicting a literal anatomical heart with a human mouth smiling, which would look grotesque or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful emotional state",
+              "transferred_attributes": [
+                "happiness",
+                "warmth",
+                "expressiveness"
+              ],
+              "vehicle_concept": "smiling heart"
+            },
+            "source_span_original": "ನಗುವ ಹೃದಯದಲ್ಲಿ",
+            "source_span_translation": "smiling heart",
+            "source_term": "ನಗುವ ಹೃದಯದಲ್ಲಿ",
+            "tenor": "a joyful and loving emotional state",
+            "vehicle": "a heart that smiles",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing chest area of a person, or a stylized, soft heart shape radiating warm light and gentle, happy energy."
+          },
+          {
+            "abstract_meaning": "The shared journey or steps of two people moving together in harmony, elevated by hope and freedom like a flying kite.",
+            "acceptable_visual_variants": [
+              "A kite soaring high in the sky with its string trailing down toward two sets of footprints on a path",
+              "Two stylized figures walking together with a kite flying high above them, symbolizing their shared aspirations"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "a kite to the footsteps that flew",
+            "literalization_risk": "Showing literal feet or footprints physically flying in the air attached to a paper kite, which looks absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "shared life journey",
+              "transferred_attributes": [
+                "elevation",
+                "freedom",
+                "connectedness",
+                "soaring"
+              ],
+              "vehicle_concept": "kite flying high"
+            },
+            "source_span_original": "ಹಾರಿದ ಹೆಜ್ಜೆಗೆ ಪಟಕೆ",
+            "source_span_translation": "The kite to the footsteps that flew together",
+            "source_term": "ಹಾರಿದ ಹೆಜ್ಜೆಗೆ ಪಟಕೆ",
+            "tenor": "the uplifting, soaring feeling of shared life steps and companionship",
+            "vehicle": "a kite attached to or guiding flying footsteps",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict two people walking or running hand-in-hand, with their shadows or a light trail rising up into the sky, blending into the shape of a soaring kite."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada word 'bhaava' (ಭಾವ) carries deep aesthetic, emotional, and philosophical connotations of inner feeling, mood, or state of mind, which is simplified to the generic 'Emotion' in English.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The verb 'nenesida' (ನೆನೆಸಿದ) can mean both 'remembered/recalled' and 'soaked/drenched', creating a poetic double meaning where the dream is both remembered and deeply soaked/steeped in the smiling heart; the translation only captures 'remembered'.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The dative case marker in 'patake' (ಪಟಕೆ, to the kite) and 'nadige' (ನದಿಗೆ, to the river) creates a specific grammatical relationship of direction or purpose that feels slightly awkward or obscured in the English literal rendering ('to the footsteps', 'to the river').",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The soaring, fluid nature of shared love and life's dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಭಾವ ಪ್ರೇಮ,  \nನಗುವ ಹೃದಯದಲ್ಲಿ ನೆನೆಸಿದ ಕನಸು,  \nಒಟ್ಟಿಗೆ ಹಾರಿದ ಹೆಜ್ಜೆಗೆ ಪಟಕೆ,  \nಬಾಳಿನ ಕನಸು ಹಾರಿದ ನದಿಗೆ.",
+  "poem_id": "MV++_1112",
+  "poem_title": "Bhaava Prema",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c9e232fea9045a4d1fbaefeb95b806d14cb978ffe5c56aea3f52ab35a5db05aa",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1112.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Emotion and Love,  \nThe dream remembered in a smiling heart,  \nThe kite to the footsteps that flew together,  \nThe dream of life that flew to the river.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:58:54.541961+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "754fbf2d1382d3fde913abc32d0f219f6693f233bab5c0698ca5fce78311e41f",
+        "response_hash": "d5fa4a4fe871955f24940856889e715364de879f693cd37a2d20abc825ade5ef"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a800624c4b9a62b6fbdaba407d2698f9fe986e3a80ac271549ab4ff0c9b2deb6",
+        "response_hash": "8362b1800266fd88e664b523badc304ef1c136dbdf00d2c62bc77b8aebede1cb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79f632f88ba60e0c7dc27e3e22bea5efabb6e5e05a4f430640986e27354fe752",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "317e6f4e22f2947b76a3c008f0ebfaec650d51a1e1cd81ff10be98c5ccee1dfd",
+        "response_hash": "57168c3df8303bcc4ec646ded6c54847a8eaf1298bff90ca2af7ac52a5e5dd96",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "41a3443db959f51cfd55b988159ba3409a8ca29310043e7610031f4902132b39",
+        "response_hash": "2f7186440e145c468f35d3ab1e133d00f146446bbdcc0184a3f7dd84912b9c43",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3dc458bf90da4503a83d740db7f63c13a73fdbd1e0313313d673f4c758865b79",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "978d521888065e811610e4a7520843462588e9305e1f602daa3dbccabd4715a4",
+    "translation_sha256": "d5f0f97597ca71bf3f76469a69f4cc733ab9ef5a744c0195dc40ca136db54326"
+  }
+}

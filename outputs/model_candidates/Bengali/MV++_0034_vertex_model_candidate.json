@@ -1,0 +1,186 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady movement from the celebration of liberation to a quiet, resilient hope amidst darkness.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The active, unstoppable, and dynamic spread of freedom.",
+            "acceptable_visual_variants": [
+              "A glowing, fluid stream of light winding through a dark landscape",
+              "A stylized river of vibrant colors cutting through a grey background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A water current of independence",
+            "literalization_risk": "An illustrator might draw literal water flowing out of a abstract concept, which looks like a plumbing issue rather than a poetic movement.",
+            "metaphor_mapping": {
+              "tenor_concept": "freedom",
+              "transferred_attributes": [
+                "movement",
+                "unstoppable force",
+                "direction",
+                "vitality"
+              ],
+              "vehicle_concept": "flowing water current"
+            },
+            "source_span_original": "স্বাধীনতার স্রোত",
+            "source_span_translation": "The current of freedom",
+            "source_term": "স্বাধীনতার স্রোত",
+            "tenor": "The spread and movement of freedom",
+            "vehicle": "A flowing water current",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dynamic, flowing stream of light or energy that sweeps through a landscape, suggesting movement without literalizing water."
+          },
+          {
+            "abstract_meaning": "A small, vital sign of hope, life, and liberation emerging in a bleak, oppressive environment.",
+            "acceptable_visual_variants": [
+              "A soft, expanding aura of warm light dispersing dark shadows",
+              "A single gentle ripple of light expanding in a dark, quiet void"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4-L5",
+            "literal_meaning": "A breath of light in the middle of darkness",
+            "literalization_risk": "Drawing a literal mouth breathing out glowing particles or light beams can look cartoonish or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and freedom",
+              "transferred_attributes": [
+                "vitality",
+                "illumination",
+                "life-giving force",
+                "contrast with darkness"
+              ],
+              "vehicle_concept": "breath of light"
+            },
+            "source_span_original": "অন্ধকারের\nমাঝে আলোর নিঃশ্বাস",
+            "source_span_translation": "Like a breath of light\nAmidst the darkness",
+            "source_term": "অন্ধকারের\nমাঝে আলোর নিঃশ্বাস",
+            "tenor": "A vital sign of hope and freedom in oppression",
+            "vehicle": "A breath of light",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a soft, pulsing glow of light expanding outward like a gentle ripple or mist in a dark space, evoking the expansion of a breath."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the specific compound wordplay of 'Muktodhara' (literally 'free stream' or 'unfettered flow'), which carries a rich literary resonance in Bengali (including associations with Rabindranath Tagore's famous play of the same name), by rendering it as the more abstract 'flow of liberation'.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic flow of the Bengali phrasing, particularly the alliterative and liquid sounds in 'muktodharay boye chole' and 'shadhinotar srot', is flattened into standard English prose rhythm.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The unstoppable flow of freedom and light through the darkest times."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing multiple losses. When translation_quality is 'faithful', translation_loss should typically be empty, or the quality should be marked as 'partial' to reflect the documented losses.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[0].metaphor_spans[1].source_span_original",
+      "issue": "The source_span_original contains a newline character ('\\n'), which does not match the exact verbatim substring of the original poem lines L4-L5 without normalization.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Bengali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "মুক্তধারা\nমুক্তধারায় বয়ে চলে\nস্বাধীনতার স্রোত,\nচলছে যেন অন্ধকারের\nমাঝে আলোর নিঃশ্বাস।",
+  "poem_id": "MV++_0034",
+  "poem_title": "Muktodhara",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "198341daf477c7980e4799c9672ff1f6245c479eb000ca540fa0071a7f491a0c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bengali/MV++_0034.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Flow of Liberation\nIn the flow of liberation,\nThe current of freedom flows,\nLike a breath of light\nAmidst the darkness.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:40:04.318328+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "efaafdca75acae817e12cf5cd080fbb19c84dee9c8eec7dec0dcf6dbdc702d35",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d8a987b1265bedf3067de71e7482a65e55aceaf166076a09cc546944b1a22739",
+        "response_hash": "3278c13438c3479da3219528ebe6ae2ec1af5d54bdfacebc436573620626fecb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba7bac472da121795a9f93ae4cd1bb3a1abfecde1f1b1b4637dccdc06e953845",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "530c35de944fca4513f5ea1cfff878ac255d4dde03512351ce9a1176e018347e",
+        "response_hash": "d7a9ab194ecd6a1378ea87f33817437301b98cc96060b93d535f2c63eb03e0fb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a054de0995ef89e1ec4df94a6d1ef370c85431b304bea9832f0c967d62f01f02",
+        "response_hash": "873d116efab3c7e9fd5f67751c14b9649e007953df3800fe450925cc5f011f95",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b39f30f521db23fda1537cb7e4d26e196a08c880b73c4ab85222e7e13237f473",
+        "response_hash": "0a762326fbbc2765c2bd7a185d098f8e878cdebe0dd41375c140f6d12313a327",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f12ed5aa2c0c6d489e77f6f3ca00f88e450f1c0b24fd5467dfd70363414f0a65",
+    "translation_sha256": "c9f919bdefc9e29275a493b21fd388236cfe7ad3a311feecfc0fced612618c38"
+  }
+}

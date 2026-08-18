@@ -1,0 +1,376 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A gentle maternal figure emerging from or blending with the soil and green landscape",
+          "A symbolic representation of a nurturing mother holding a small plant or soil in her hands"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The personification of Earth as a nurturing mother goddess, a deeply rooted concept in South Asian cultural and spiritual traditions.",
+        "line_ref": "L11",
+        "negative_confusions": [
+          "A generic Western-style Mother Nature figure with a crown of oak leaves",
+          "A highly stylized, multi-armed classical Hindu goddess holding weapons"
+        ],
+        "preserved": true,
+        "romanization": "Dharti Maa",
+        "source_span_original": "धरती माँ",
+        "source_span_translation": "Mother Earth",
+        "stanza_index": 3,
+        "term": "धरती माँ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A maternal figure representing the Earth",
+          "Often depicted in traditional Indian attire like a sari",
+          "Surrounded by green plants, soil, and blooming flowers"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A simple mud-plastered village courtyard with green plants growing in the corners",
+          "A brick or stone-paved courtyard open to the sky with potted greenery"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The traditional central open courtyard of a South Asian home, serving as a social, domestic, and symbolic space for family life and connection to nature.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A modern suburban grassy backyard with a wooden fence",
+          "A grand palace courtyard with marble fountains"
+        ],
+        "preserved": true,
+        "romanization": "aangan",
+        "source_span_original": "आँगन",
+        "source_span_translation": "courtyard",
+        "stanza_index": 1,
+        "term": "आँगन",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An open-air central courtyard of a traditional house",
+          "Surrounded by rooms or low walls",
+          "Often has a small patch of soil or a sacred plant like Tulsi in the center"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "The draped fabric of a sari blending into a landscape of green fields and morning dew",
+          "A maternal figure cradling flowers or soil in the folded fabric of her sari's end"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The decorative end or fold of a sari, traditionally used by South Asian mothers to shield, comfort, or carry their children, symbolizing maternal protection, care, and abundance.",
+        "line_ref": "L10",
+        "negative_confusions": [
+          "A literal lap of a seated person in modern Western clothing",
+          "An apron or a simple blanket"
+        ],
+        "preserved": false,
+        "romanization": "aanchal",
+        "source_span_original": "आंचल",
+        "source_span_translation": "lap",
+        "stanza_index": 3,
+        "term": "आंचल",
+        "translation_note": "The translation renders 'aanchal' as 'lap', which captures the maternal protective sense but loses the specific visual and cultural reference to the decorative edge or fold of a sari used to cradle, shield, or comfort.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "The flowing end of a traditional sari draped over a maternal figure",
+          "Used metaphorically here to represent the protective, nurturing surface of the earth filled with morning light and fragrance"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The natural environment or Earth is depicted as a conscious, vocal entity pleading for care and protection from humanity.",
+            "acceptable_visual_variants": [
+              "A vast landscape of dry earth with a single green sprout, conveying a silent plea",
+              "A soft, stylized silhouette of a maternal figure integrated into the hills and fields"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The physical soil/planet speaks out in a loud voice",
+            "literalization_risk": "Depicting a literal giant human face emerging from the soil or a cartoonish talking globe, which distracts from the serious ecological message.",
+            "metaphor_mapping": {
+              "tenor_concept": "The ecological state of the Earth signaling a desperate need for human care",
+              "transferred_attributes": [
+                "vocal expression",
+                "emotional distress",
+                "maternal authority",
+                "pleading for help"
+              ],
+              "vehicle_concept": "A human mother calling out to her child"
+            },
+            "source_span_original": "धरती कहे पुकार के",
+            "source_span_translation": "The earth calls out",
+            "source_term": "धरती कहे पुकार के",
+            "tenor": "The ecological state of the Earth signaling a desperate need for human care",
+            "vehicle": "A human mother or person calling out in distress",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a cracked, dry landscape transitioning into green, with subtle natural contours that suggest a maternal profile or protective posture without drawing a literal human face."
+          },
+          {
+            "abstract_meaning": "Humanity is addressed as the child of the Earth, emphasizing a duty of care, respect, and filial responsibility.",
+            "acceptable_visual_variants": [
+              "Hands of different generations planting a sapling together",
+              "A single person tending to a garden plot"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Male offspring",
+            "literalization_risk": "Depicting a literal young boy standing on dirt, which narrows the universal scope of humanity's relationship with nature.",
+            "metaphor_mapping": {
+              "tenor_concept": "Humanity which has a duty to protect the environment",
+              "transferred_attributes": [
+                "filial duty",
+                "dependence",
+                "responsibility to care for the parent"
+              ],
+              "vehicle_concept": "A son who has a duty to protect his mother"
+            },
+            "source_span_original": "बेटा",
+            "source_span_translation": "Son",
+            "source_term": "बेटा",
+            "tenor": "Humanity / the human caretaker",
+            "vehicle": "A son / child",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a human figure of ambiguous age/gender actively planting or caring for the soil, representing humanity's role as a caretaker."
+          },
+          {
+            "abstract_meaning": "The local environment or immediate surroundings of humanity are compared to a household courtyard that must be kept clean and green.",
+            "acceptable_visual_variants": [
+              "A traditional open courtyard filled with potted plants and green vines",
+              "A stylized boundary where a home's threshold opens directly into a thriving forest or field"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Take care of your domestic courtyard",
+            "literalization_risk": "Depicting a literal concrete courtyard of a house, missing the broader ecological metaphor of the Earth as our shared home.",
+            "metaphor_mapping": {
+              "tenor_concept": "The surrounding natural environment",
+              "transferred_attributes": [
+                "closeness",
+                "ownership",
+                "responsibility to clean and maintain",
+                "intimate living space"
+              ],
+              "vehicle_concept": "A household courtyard"
+            },
+            "source_span_original": "अपने आँगन को सँभालो",
+            "source_span_translation": "Take care of your courtyard",
+            "source_term": "अपने आँगन को सँभालो",
+            "tenor": "The surrounding natural environment and habitats",
+            "vehicle": "A domestic courtyard (angan)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a transition where a domestic garden or courtyard seamlessly blends into a wider, lush natural landscape."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Establishing a permanent, sustainable, and harmonious relationship between humanity and nature that lasts across generations.",
+            "acceptable_visual_variants": [
+              "Interlocking roots of a tree and human footprints in the soil",
+              "A young child and an elder tending to the same ancient tree"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Make this relationship immortal / deathless",
+            "literalization_risk": "Depicting fantasy elements of immortality (like glowing halos or magical elixirs) which do not fit the ecological theme.",
+            "metaphor_mapping": {
+              "tenor_concept": "A sustainable, long-lasting ecological balance",
+              "transferred_attributes": [
+                "permanence",
+                "unbreakable strength",
+                "survival across generations"
+              ],
+              "vehicle_concept": "An immortal being or unbreakable lifelong pact"
+            },
+            "source_span_original": "इस रिश्ते को अमर बना दो",
+            "source_span_translation": "And make this bond eternal",
+            "source_term": "इस रिश्ते को अमर बना दो",
+            "tenor": "A sustainable, long-lasting ecological balance between humans and nature",
+            "vehicle": "An immortal, deathless living being",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a mature, deep-rooted tree standing strong alongside a human settlement, symbolizing a long-term, enduring relationship."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation of 'aanchal' as 'lap' captures the maternal sense but loses the specific cultural imagery of the protective fold of a mother's sari.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The surface of the Earth, covered in vegetation and flowers, is compared to the fragrant hem of a mother's traditional garment (anchal).",
+            "acceptable_visual_variants": [
+              "A field of blooming flowers swaying in the wind",
+              "A stylized landscape where the green meadows curve gently like protective folds of cloth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "Make the hem of my sari / my lap fragrant",
+            "literalization_risk": "Depicting a literal giant sari draped over hills, which can look surreal or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "The fertile surface of the Earth",
+              "transferred_attributes": [
+                "protective covering",
+                "warmth",
+                "fragrance",
+                "maternal comfort"
+              ],
+              "vehicle_concept": "A mother's protective sari hem (anchal)"
+            },
+            "source_span_original": "मेरा आंचल महकाओ",
+            "source_span_translation": "Make my lap fragrant",
+            "source_term": "मेरा आंचल महकाओ",
+            "tenor": "The blooming, fertile surface of the Earth",
+            "vehicle": "The fragrant hem or lap of a mother's sari (anchal)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show rolling green hills covered in colorful wildflowers, with mist or light breeze suggesting the gentle movement of a protective fabric."
+          },
+          {
+            "abstract_meaning": "The Earth is conceptualized as a nurturing mother who provides life, sustenance, and shelter to her children (humanity).",
+            "acceptable_visual_variants": [
+              "A close-up of hands holding rich, dark soil with a small green sprout",
+              "A warm, golden-lit landscape that feels protective and welcoming"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L11",
+            "literal_meaning": "Mother Earth",
+            "literalization_risk": "Depicting a literal goddess figure with multiple arms or a giant woman standing in space, which might impose specific religious iconography not explicitly detailed in the text.",
+            "metaphor_mapping": {
+              "tenor_concept": "The planet Earth and its ecosystems",
+              "transferred_attributes": [
+                "giving life",
+                "providing food and shelter",
+                "deserving of respect and protection"
+              ],
+              "vehicle_concept": "A nurturing mother"
+            },
+            "source_span_original": "धरती माँ",
+            "source_span_translation": "Mother Earth",
+            "source_term": "धरती माँ",
+            "tenor": "The planet Earth and its life-supporting ecosystems",
+            "vehicle": "A nurturing mother",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the nurturing aspects of nature, such as rich soil cradling seeds, or gentle natural elements surrounding a human figure."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'aanchal' (the decorative border or loose end of a sari, used here metaphorically as a mother's protective fold or lap) as 'lap', which loses the specific cultural resonance of the maternal garment and its protective, nurturing associations in South Asian culture.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sacred bond between humanity and Mother Earth, calling for ecological stewardship and care."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "धरती कहे पुकार के,  \nबेटा, मुझे न छोड़ो इस तरह,  \nअपने आँगन को सँभालो,  \nहरियाली से इसको भर दो।\n\nमेरी मिट्टी को बंजर मत करो,  \nहर बीज को सजीव बना दो,  \nहर पौधा बढ़े तुम्हारे साथ,  \nइस रिश्ते को अमर बना दो।\n\nहर सुबह की नई किरण से,  \nमेरा आंचल महकाओ,  \nधरती माँ का आदर रखो,  \nहर फूल को खिलाओ।",
+  "poem_id": "MV++_0530",
+  "poem_title": "Dharti Kahe Pukar Ke",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3baf0ae867f47aeadecb664894969274f8d290f653f3472b13ed76583793ea07",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0530.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The earth calls out,  \nSon, do not leave me this way,  \nTake care of your courtyard,  \nAnd fill it with greenery.\n\nDo not let my soil go barren,  \nGive life to every seed,  \nLet each plant grow with you,  \nAnd make this bond eternal.\n\nWith each morning's new light,  \nMake my lap fragrant,  \nHonor Mother Earth,  \nAnd let every flower bloom.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:35:15.904928+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e1e4f34fe4e997a1833237eed582852abca41e20e5f0e19e5420c10d308a9ff2",
+        "response_hash": "7be1274f0dc5b9a14c17891bd1322f3aa7cc8a25a609ed481d039fedfd73a180",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5d39ac23432d6f3af1b78033b55cf3e57853ccfded13b94c79461b3bf87eefb3",
+        "response_hash": "45ab51438d3769f05acae17a767360cb02ea9c5d795db2c2b1c0318d104aee99",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1d27a3b793e77e6c830cef42bee364becc06bd2b0094c93bfb25595c43b9c1cd",
+        "response_hash": "2dfc17c34ccafd664f6ae49f734372f9caa1dfca58b932484a4eb53ba43f95ac",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "00ff465a60b49b7b2312678e089c100e3eb5a8c98beed8e4c3617b91fe70810a",
+        "response_hash": "ab9a91a72baffc39baa9355efe5c86eab9ad9f7522337473e1693c48762c012c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca6b8a009366523f11086690ee4a44b55a6d7210a3301dc5c61017b8d51d925f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e88b42b0933cc0e17294327142c9acdd864aa299b929f86ab06a5a9f676eab34",
+    "translation_sha256": "a39c4849bf7bfcda29b709d10626ea1ffd94bbd1170c33cd516debb15ac05cca"
+  }
+}

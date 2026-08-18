@@ -1,0 +1,364 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A sober reflection on the duality of life, balancing sweet dreams and bitter realities, moving into a quiet acceptance of the inevitable coexistence of joy and sorrow.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The imaginative, hopeful, or illusory aspects of human desires and aspirations.",
+            "acceptable_visual_variants": [
+              "A figure looking at a swirling canvas of soft, bright pastel colors",
+              "A person surrounded by a gentle, colorful aura representing their inner aspirations"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "In the physical pigments or hues of sleeping visions",
+            "literalization_risk": "Depicting literal paint jars or rainbow-colored clouds floating above a sleeping person, which misses the abstract sense of hopeful illusions.",
+            "metaphor_mapping": {
+              "tenor_concept": "imaginative hopes and illusions",
+              "transferred_attributes": [
+                "vibrancy",
+                "variety",
+                "illusory beauty"
+              ],
+              "vehicle_concept": "visual colors/pigments"
+            },
+            "source_span_original": "सपनों के रंगों में",
+            "source_span_translation": "In the colors of dreams",
+            "source_term": "सपनों के रंगों में",
+            "tenor": "hopeful and imaginative aspects of life",
+            "vehicle": "colors of dreams",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, vibrant, multi-colored haze or glowing light surrounding a person in deep contemplation, blending into the background."
+          },
+          {
+            "abstract_meaning": "Pleasant, comforting, or flattering speech.",
+            "acceptable_visual_variants": [
+              "A close-up of a smiling face speaking softly",
+              "A warm, glowing light emanating between two conversing figures"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Words that possess a sugary or sweet taste",
+            "literalization_risk": "Depicting literal sugar cubes, candy, or honey dripping from a person's mouth, which looks comical and misses the emotional quality of speech.",
+            "metaphor_mapping": {
+              "tenor_concept": "pleasant verbal communication",
+              "transferred_attributes": [
+                "desirability",
+                "pleasurableness",
+                "comfort"
+              ],
+              "vehicle_concept": "sweet taste"
+            },
+            "source_span_original": "मीठी बातें",
+            "source_span_translation": "sweet words",
+            "source_term": "मीठी बातें",
+            "tenor": "pleasantness of speech",
+            "vehicle": "sweetness (taste)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict two people engaged in a warm, gentle conversation with soft, inviting facial expressions and open body language."
+          },
+          {
+            "abstract_meaning": "Harsh, painful, or hurtful words and realities.",
+            "acceptable_visual_variants": [
+              "A figure with a sharp, defensive posture during a conversation",
+              "A shadow falling over a face as if struck by harsh words"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Having an acrid, sharp, or unpleasant taste",
+            "literalization_risk": "Depicting someone eating a bitter gourd or drinking medicine, which literalizes taste rather than the emotional sting of harsh words.",
+            "metaphor_mapping": {
+              "tenor_concept": "painful or harsh communication",
+              "transferred_attributes": [
+                "unpleasantness",
+                "sharpness",
+                "rejection"
+              ],
+              "vehicle_concept": "bitter taste"
+            },
+            "source_span_original": "कड़वी",
+            "source_span_translation": "bitter",
+            "source_term": "कड़वी",
+            "tenor": "harshness or painfulness of speech/reality",
+            "vehicle": "bitterness (taste)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person turning away with a pained or downcast expression, contrasting with the previous warm interaction."
+          },
+          {
+            "abstract_meaning": "The inescapable presence, marks, or pathways of sorrow embedded within existence.",
+            "acceptable_visual_variants": [
+              "Faint, dark ripples in an otherwise clear blue sky",
+              "A vast sky with subtle, linear cloud formations that evoke a sense of melancholy"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Physical lines or streaks made of grief",
+            "literalization_risk": "Drawing literal black lines or cracks across a blue sky, which might look like a broken glass pane or a technical error rather than a poetic mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "pervasive sorrow in life",
+              "transferred_attributes": [
+                "visibility",
+                "permanence",
+                "structuring of space"
+              ],
+              "vehicle_concept": "drawn lines or physical streaks"
+            },
+            "source_span_original": "दुख की लकीरें",
+            "source_span_translation": "lines of sorrow",
+            "source_term": "दुख की लकीरें",
+            "tenor": "the presence and marks of sorrow",
+            "vehicle": "lines/streaks",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict thin, subtle dark streaks or wispy, shadowy clouds cutting across a vast blue sky, casting faint shadows below."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The correlative grammatical structure 'jitni... utni hi' (as much as... so much) is flattened into a simpler comparative statement in English, losing the precise structural symmetry of the Hindi phrasing.",
+            "where": "L4-L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'baatein' as 'words' loses the broader colloquial sense of 'baatein' which encompasses conversations, matters, or aspects of life, narrowing the scope of the original Hindi.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The journey of life, representing the passage of time and experiences.",
+            "acceptable_visual_variants": [
+              "A solitary figure walking along a winding path through a natural landscape",
+              "A path that transitions from light to shadow, symbolizing life's ups and downs"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "Traveling along a physical road or path of life",
+            "literalization_risk": "Depicting a literal traveler with a backpack walking down a paved highway, which is too modern and mundane.",
+            "metaphor_mapping": {
+              "tenor_concept": "living through time and experiences",
+              "transferred_attributes": [
+                "movement forward",
+                "encountering obstacles",
+                "changing landscapes"
+              ],
+              "vehicle_concept": "traveling on a road"
+            },
+            "source_span_original": "जीवन के सफर में",
+            "source_span_translation": "In the journey of life",
+            "source_term": "जीवन के सफर में",
+            "tenor": "the course of human existence over time",
+            "vehicle": "a journey/travel",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding, dusty path stretching toward a distant, misty horizon under a changing sky."
+          },
+          {
+            "abstract_meaning": "At every critical transition, decision point, or unexpected change in life.",
+            "acceptable_visual_variants": [
+              "A fork in a dirt path where the direction changes",
+              "A winding mountain path disappearing around a rocky bend"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "At every physical bend or curve in a road",
+            "literalization_risk": "Depicting a literal traffic sign indicating a sharp turn, which is overly literal and modern.",
+            "metaphor_mapping": {
+              "tenor_concept": "a sudden change in life circumstances",
+              "transferred_attributes": [
+                "unpredictability",
+                "change of direction",
+                "hidden view ahead"
+              ],
+              "vehicle_concept": "a sharp bend in a path"
+            },
+            "source_span_original": "हर एक मोड़ पर",
+            "source_span_translation": "At every turn",
+            "source_term": "हर एक मोड़ पर",
+            "tenor": "life transitions and unexpected changes",
+            "vehicle": "a bend/turn in a road",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a path that bends sharply behind a hill or a cluster of trees, obscuring what lies ahead."
+          },
+          {
+            "abstract_meaning": "Joy and sorrow constantly coexist and accompany a person throughout life.",
+            "acceptable_visual_variants": [
+              "A traveler walking through a landscape that is half-sunny and half-rainy",
+              "A traveler with a dual expression or a reflective pool showing a different emotion"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L12-L13",
+            "literal_meaning": "Facial expressions and physical teardrops walking on legs next to a traveler",
+            "literalization_risk": "Depicting a giant floating smiley face and a giant teardrop with legs walking hand-in-hand with a person, which is cartoonish and absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "coexisting emotions of joy and grief",
+              "transferred_attributes": [
+                "constant presence",
+                "companionship",
+                "shared journey"
+              ],
+              "vehicle_concept": "traveling companions"
+            },
+            "source_span_original": "कभी मुस्कान, कभी आँसू\nसाथ चलते हैं।",
+            "source_span_translation": "Sometimes smiles, sometimes tears\nWalk alongside.",
+            "source_term": "मुस्कान, कभी आँसू / साथ चलते हैं",
+            "tenor": "the coexistence of joy and sorrow in life",
+            "vehicle": "companions walking alongside",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a single traveler whose shadow or reflection shows a contrasting emotion, or show two subtle masks (one smiling, one weeping) hanging from the traveler's pack."
+          },
+          {
+            "abstract_meaning": "Periods of deep sorrow, depression, or difficult times.",
+            "acceptable_visual_variants": [
+              "A solitary figure looking out of a window into a dark, deep night",
+              "A landscape enveloped in thick, dark shadows with a single faint light source"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L16",
+            "literal_meaning": "Nighttime hours physically composed of grief",
+            "literalization_risk": "Depicting a literal calendar with nights labeled 'sorrow', which is dry and non-poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "periods of emotional suffering",
+              "transferred_attributes": [
+                "darkness",
+                "coldness",
+                "obscurity",
+                "loneliness"
+              ],
+              "vehicle_concept": "nighttime darkness"
+            },
+            "source_span_original": "दुख की रातें",
+            "source_span_translation": "nights of sorrow",
+            "source_term": "दुख की रातें",
+            "tenor": "periods of suffering and sadness",
+            "vehicle": "night/darkness",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure sitting alone in a dark, shadowy room or landscape under a moonless, deep night sky."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and adverbial pairing of 'kabhi... kabhi' (sometimes... sometimes) is rendered literally but loses the natural poetic cadence and flow inherent in the Hindi phrasing of alternating emotional states.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The inescapable duality of human existence, where joy and sorrow, dreams and harsh realities, walk hand in hand throughout life's journey."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].metaphor_spans[2].source_span_original",
+      "issue": "The source_span_original contains a newline character ('\\n') which does not match the exact verbatim substring of the original poem as formatted in the line-referenced block. It should be a single-line or space-separated representation matching the source text.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जीवन से\nसपनों के रंगों में  \nजीवन की सच्चाई है।  \nजितनी मीठी बातें हों  \nउतनी ही कड़वी हैं।  \nआसमान के नीले रंग में  \nदुख की लकीरें हैं।  \nजिन्हें भुला नहीं सकता  \nकोई इंसान यहाँ।  \n\nजीवन के सफर में  \nहर एक मोड़ पर  \nकभी मुस्कान, कभी आँसू  \nसाथ चलते हैं।  \nएक झलक में  \nखुशियाँ दिखती हैं,  \nफिर दुख की रातें  \nरात की गहराई में।",
+  "poem_id": "MV++_0290",
+  "poem_title": "Jivan Se",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e376a1fda51fc386b8f442c282ab0d4896261b79576cf13a9a7d72c9f5fd5a16",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0290.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "From Life\nIn the colors of dreams  \nThere is the truth of life.  \nAs many sweet words there are  \nThere are equally bitter.  \nIn the blue of the sky  \nLie the lines of sorrow.  \nNo human can forget  \nThese here.  \n\nIn the journey of life  \nAt every turn  \nSometimes smiles, sometimes tears  \nWalk alongside.  \nIn a glimpse,  \nHappiness appears,  \nThen the nights of sorrow  \nIn the depth of night.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:08:58.632287+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "925ed2ce24551bf8398ed8f657376ae1b77d7e400c5ed4b2cb5d4e8b16d9daa1",
+        "response_hash": "7ca4af05a6f0b29a266994b4a5c69e19bd5ade123f95d8448444d293dc769e2d"
+      },
+      {
+        "attempt": 2,
+        "outcome": "success",
+        "prompt_hash": "8cc713ab2d5b93f61f14c1ebdaf038eb6c6545bb11dda697ebce674a2819eeba",
+        "response_hash": "0868990716b902395d412910cbe4bd1a3e4ac917746099b8634c43b189abf9e0"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c1f4b8f9f0515e9e379d556eb6702ff1a17cde90b524271a0fbdade1f03f7967",
+        "response_hash": "ee6c5366501004826aa9ab4089b103988731a75ed57beca513b7f0c49c621ee8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b6e73388050a69da71731c3f66c817a2142483701ee85328543a11f88b5f401f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5572477eb8f046f07607fd44a4153976f291471a86696c358ed85540c86599e9",
+        "response_hash": "9f44f127102dd9caf07466e7ff16ee18d28c8d805cba37338b5aa60808a9311c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e90996f071ac165ef7be4999f6147aab16252b2a0a24284aec527a9381db5b8b",
+        "response_hash": "c80bedc44e10972a9615d8ae95627125ca311383619412cebbc6e6db97b416ad",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ad4778c5ff9a324a4f69b08ba4bae1fff87c04e65bcd85823fd31dbae2f26529",
+        "response_hash": "a29b292d18af14a6c7a3f50d9bc615f63430a7a46639890243aa8279ee5b85ff",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2ef60ceee6910f163cf22909e1f21a2c44790f4933e4a98427baa03b91bad1f7",
+    "translation_sha256": "2514ea17f3c89565d686f2070db47ec50317e64d262dcf9c039b27dde2aab3c2"
+  }
+}

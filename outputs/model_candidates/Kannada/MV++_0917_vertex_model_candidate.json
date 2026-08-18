@@ -1,0 +1,230 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A solemn vow, resolution, or mental determination, often associated with ritual intent or deep personal commitment in Indian philosophical and cultural contexts. Here, it represents a profound inner resolve that refuses to be confined.",
+        "line_ref": "L5",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "sankalpa",
+        "source_span_original": "ಸಂಕಲ್ಪ",
+        "source_span_translation": "resolution",
+        "stanza_index": 2,
+        "term": "ಸಂಕಲ್ಪ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "longing to resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'ಅವನೆಂದು ನನಸಿನಲ್ಲಿ' (avanendu nanasinalli) as 'In my heart' alters the literal meaning of 'nanasu' (reality/truth) and introduces a different spatial metaphor.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The addressee is the speaker's ultimate aspiration and guiding vision.",
+            "acceptable_visual_variants": [
+              "A soft, luminous figure standing on a distant horizon",
+              "A warm, glowing light source illuminating a path for the speaker"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "You are my sleep-state dream",
+            "literalization_risk": "Showing a sleeping person with a dream bubble containing the addressee, which makes it look like a literal nocturnal dream rather than a deep life aspiration.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved/addressee",
+              "transferred_attributes": [
+                "desirability",
+                "ethereal beauty",
+                "inspiration"
+              ],
+              "vehicle_concept": "dream"
+            },
+            "source_span_original": "ನೀನು ನನ್ನ ಕನಸು",
+            "source_span_translation": "You are my dream",
+            "source_term": "ನೀನು ನನ್ನ ಕನಸು",
+            "tenor": "the beloved or addressee",
+            "vehicle": "a dream (kanasu)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, ethereal silhouette or a guiding light that represents the inspiring presence of the addressee."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation replaces the wordplay and contrast between 'kanasu' (dream) and 'nanasu' (reality/realization) in lines 3-4 with 'heart' and 'vision', losing the internal rhyme and semantic tension.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'ಬೇಲಿ ಹಾಕಲು' (beli haakalu) as 'locked away' generalizes the specific Kannada metaphor of 'putting up a fence' (beli), losing the agricultural/spatial imagery of containment.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To restrict, confine, or limit the speaker's resolution or life.",
+            "acceptable_visual_variants": [
+              "Abstract dark lines or shadows forming a cage-like structure around a glowing core",
+              "A path blocked by a heavy, stylized barrier that is partially translucent"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "To put up a fence",
+            "literalization_risk": "Depicting a literal wooden or barbed-wire fence around a person, which over-literalizes the abstract emotional and mental confinement.",
+            "metaphor_mapping": {
+              "tenor_concept": "restriction/confinement",
+              "transferred_attributes": [
+                "blocking movement",
+                "enclosure",
+                "limitation of freedom"
+              ],
+              "vehicle_concept": "fence"
+            },
+            "source_span_original": "ಬೇಲಿ ಹಾಕಲು",
+            "source_span_translation": "confined",
+            "source_term": "ಬೇಲಿ ಹಾಕಲು",
+            "tenor": "confinement or restriction of one's resolution",
+            "vehicle": "a fence (beli)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict abstract, geometric barriers or shadows closing in on a bright, rising spark or light that represents the resolution."
+          },
+          {
+            "abstract_meaning": "The addressee should act as the guiding force, expression, or meaning of the speaker's life.",
+            "acceptable_visual_variants": [
+              "Concentric ripples of warm light spreading across a dark background",
+              "A guiding star emitting soft, pulsing waves of light toward a figure below"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Become the physical voice of my life",
+            "literalization_risk": "Showing a literal mouth speaking or sound waves coming out of a body, which misses the abstract sense of guidance and purpose.",
+            "metaphor_mapping": {
+              "tenor_concept": "guiding force/expression",
+              "transferred_attributes": [
+                "expression",
+                "guidance",
+                "audibility",
+                "agency"
+              ],
+              "vehicle_concept": "voice"
+            },
+            "source_span_original": "ಬದುಕಿಗೆ ನೀನು ಧ್ವನಿಯಾಗು",
+            "source_span_translation": "Be the voice of my life",
+            "source_term": "ಬದುಕಿಗೆ ನೀನು ಧ್ವನಿಯಾಗು",
+            "tenor": "the guiding force or expression of life",
+            "vehicle": "a voice (dhvani)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent the voice visually as a gentle ripple of light or a resonant wave guiding a traveler through a quiet landscape."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'mudalilla nillalu' (did not rise to stand/stop) and 'beli hakalu' (to put up a fence) as 'not meant to be confined, nor locked away' abstracts away the concrete agricultural/spatial metaphor of a fence ('beli').",
+            "where": "L6-L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The internal strength found in holding onto a deep personal resolution and hope as a guiding force for one's life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].metaphor_spans[0].source_span_translation",
+      "issue": "The source_span_translation is set to 'confined', but the translation of 'ಬೇಲಿ ಹಾಕಲು' (beli haakalu) in the translation block is 'locked away' (with 'confined' corresponding to 'ಮೂಡಲಿಲ್ಲ ನಿಲ್ಲಲು' / 'not meant to be confined').",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ನೀನು ನನ್ನ ಕನಸು,  \nನೀನು ನನ್ನ ಆಸೆ,  \nಅವನೆಂದು ನನಸಿನಲ್ಲಿ,  \nಅಡಗಿದ ಕನಸು.  \n\nನೀನು ನನ್ನ ಸಂಕಲ್ಪ,  \nಮೂಡಲಿಲ್ಲ ನಿಲ್ಲಲು,  \nಬೇಲಿ ಹಾಕಲು,  \nಬದುಕಿಗೆ ನೀನು ಧ್ವನಿಯಾಗು.",
+  "poem_id": "MV++_0917",
+  "poem_title": "Sankalpa",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "de1652084e5e2a2ee687eddf0a77249f7498a9b73a64a78d28bed74a285f3824",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0917.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "You are my dream,  \nYou are my hope,  \nIn my heart,  \nA hidden vision.\n\nYou are my resolution,  \nNot meant to be confined,  \nNor locked away,  \nBe the voice of my life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:31:22.116342+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c49c2795a79dcec784e0b49546552092fde5c25e14c9e4c392f3f2e67e7c4fec",
+        "response_hash": "b87ad3029138cef79f9d28a53dbf80d38937532a60f606f7dbfdaa5fdc96be82",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b985bba1c30213083d63005bfc45cc2d930235836ddfe2f415b959d1e37e8205",
+        "response_hash": "304b0e03330aa33e450c8c3a219ac260db9fe4fff7afb5e7a3fa94e868eaacb0",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b3964a391d835868f5b921729421c73b14b2ab74603224f6b1a541936f3b66b",
+        "response_hash": "c6f1f7ee42390c86129e86fb23cfe9e2b496ccaad91b8871ec122f8328835046",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "99e68556e3c663432989902bbbb5d281be1801d00dfd7acd0c31dc02da35643b",
+        "response_hash": "709d82f6a098ba1201262384458202dc0b289a3abca489d4f16c6fc00461f0fa",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "404e3efb15356f8f954c43d6451e9fe14ded2dbf595467b10f2a91adb175bf37",
+        "response_hash": "64729a480ae55b537360445fde0ae8148cca19ec91c1b7f571d46e0fd50e2e7e",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "590760c03df73b65858dc8339e2017410353bd0c7c38431d90dff466a8f598a5",
+    "translation_sha256": "d8e58a20d995d77381a04a52d90aeed0fb17466cb479cdf66eb6ea70661ee0f4"
+  }
+}

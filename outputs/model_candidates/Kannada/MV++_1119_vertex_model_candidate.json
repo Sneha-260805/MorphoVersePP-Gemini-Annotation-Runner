@@ -1,0 +1,254 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Depicted as a divine youth standing in a graceful posture",
+          "Depicted symbolically through a flute and peacock feather",
+          "Depicted in a traditional iconographic style or a simplified modern artistic rendering"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Krishna, a major deity in Hinduism, worshipped as the eighth avatar of Vishnu and as a supreme god in his own right, characterized by his divine playfulness, wisdom, and role in the Bhagavad Gita.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Confusing Krishna with other avatars like Rama who do not wear peacock feathers or play flutes",
+          "Depicting him with multiple arms in a way that contradicts the intimate, personal devotional tone of the poem"
+        ],
+        "preserved": true,
+        "romanization": "Krishna",
+        "source_span_original": "ಕೃಷ್ಣಾ",
+        "source_span_translation": "Krishna",
+        "stanza_index": 1,
+        "term": "ಕೃಷ್ಣಾ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Often depicted with blue skin",
+          "Adorned with a peacock feather in his hair",
+          "Typically shown holding or playing a flute",
+          "Wearing yellow garments (pitambara)"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Dharma (here in the accusative case), a key concept in Indian philosophy and religion referring to cosmic order, moral duty, righteousness, and appropriate living in accordance with one's nature and role.",
+        "line_ref": "L12",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "dharmavannu",
+        "source_span_original": "ಧರ್ಮವನ್ನು",
+        "source_span_translation": "duty",
+        "stanza_index": 3,
+        "term": "ಧರ್ಮವನ್ನು",
+        "translation_note": "Translated as 'duty', which captures the moral obligation aspect of Dharma but simplifies its broader cosmic, ethical, and spiritual dimensions.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "longing to peaceful devotion and commitment",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning, but the deep emotional resonance of the Kannada devotional address and the compound structure of 'hesaralli hesaraagiruva' (being the name within the name) are simplified.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's deep spiritual desire to merge their consciousness or soul with the divine presence of Krishna.",
+            "acceptable_visual_variants": [
+              "A devotee kneeling in deep meditation with a glowing stream of light connecting their heart to a larger, ethereal form of Krishna.",
+              "A figure stepping into a brilliant, warm light that takes the soft shape of Krishna."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "I wish to physically enter inside of you",
+            "literalization_risk": "An illustrator might literally depict a tiny person walking inside another person's body, which would look grotesque or bizarre rather than spiritual.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual union",
+              "transferred_attributes": [
+                "closeness",
+                "becoming one with the interior space",
+                "loss of separate boundaries"
+              ],
+              "vehicle_concept": "physical entry"
+            },
+            "source_span_original": "ನಿನ್ನೊಳಗೆ ಹೋಗಬೇಕೆಂದು ಹಾರೈಸುತ್ತೇನೆ",
+            "source_span_translation": "I long to enter into you",
+            "source_term": "ನಿನ್ನೊಳಗೆ ಹೋಗಬೇಕೆಂದು ಹಾರೈಸುತ್ತೇನೆ",
+            "tenor": "Spiritual union or merging of the soul with the divine",
+            "vehicle": "Entering inside a physical space or body",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a human silhouette or figure dissolving into a radiant, larger divine silhouette of Krishna, representing spiritual merging."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'ಎಲ್ಲೆಲ್ಲಿದೆ' (elellide) as 'everywhere' loses the direct, intimate questioning tone of 'where all are you' or 'wherever you are' in the Kannada reduplicative questioning structure.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'ಹೆಸರಲ್ಲಿ ಹೆಸರಾಗಿರುವ' (hesaralli hesaragiruva) literally means 'being the name within the name' or 'renowned among names', which carries a deeper philosophical and phonetic resonance of divine name-repetition (nama-smarana) that is flattened to 'In the name that carries your essence'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The colloquial Kannada phrasing 'talekeditalla' (not a headache/worry) is translated somewhat formally as 'no trouble for you', losing the intimate, conversational tone of the original.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker experiences a sudden, overwhelming surge of joy, love, or spiritual ecstasy.",
+            "acceptable_visual_variants": [
+              "A stylized, glowing heart symbol rising gently upward from the chest of a smiling devotee.",
+              "The devotee standing with arms open wide, surrounded by a flock of white birds rising into the air to symbolize the feeling of flight."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L8",
+            "literal_meaning": "My physical heart flew away or jumped out",
+            "literalization_risk": "Depicting a literal anatomical heart flying out of a chest cavity like a bird would look like a horror scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional elevation",
+              "transferred_attributes": [
+                "rising upward",
+                "freedom",
+                "sudden movement",
+                "lightness"
+              ],
+              "vehicle_concept": "flight"
+            },
+            "source_span_original": "ನನ್ನ ಹೃದಯ ಹಾರಿದೊಡನೆ",
+            "source_span_translation": "My heart takes flight",
+            "source_term": "ನನ್ನ ಹೃದಯ ಹಾರಿದೊಡನೆ",
+            "tenor": "A sudden feeling of intense joy or emotional elevation",
+            "vehicle": "A bird or object taking flight into the air",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the devotee with a joyful expression, perhaps with a soft, glowing bird-like shape or butterfly-like light rising from their chest toward the sky."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The colloquial Kannada term 'ತಲೆಕೆಡಿತಲ್ಲ' (talekeditalla, from talekedu meaning head-spinning or worry/bother) is translated as 'no trouble for you', which loses the informal, intimate, and slightly playful regional idiom of having 'no head-ache' or 'no worries'.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation of 'dharma' as 'duty' is a standard simplification; 'dharma' carries broader cosmic, moral, and spiritual connotations in Kannada that are partially lost in the English word 'duty'.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ಧರ್ಮವನ್ನು' (dharmavannu) as 'my duty' simplifies the rich, multi-layered Sanskrit/Kannada cultural and spiritual concept of 'Dharma', which encompasses righteousness, cosmic order, moral duty, and spiritual path.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The speaker's deep yearning for union with Krishna, finding peace in his presence and strength to fulfill their duty."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಎಲ್ಲಿರುವೆ ನನ್ನ ಕೃಷ್ಣಾ  \nನೀನು ಎಲ್ಲೆಲ್ಲಿದೆ ನನ್ನ ಭಗವಂತ  \nಹೆಸರಲ್ಲಿ ಹೆಸರಾಗಿರುವ ನಿನ್ನ  \nನಿನ್ನೊಳಗೆ ಹೋಗಬೇಕೆಂದು ಹಾರೈಸುತ್ತೇನೆ.  \n\nನಿನ್ನ ಸುಮ್ಮನಾದ ನಡಿಗೆಲ್ಲ  \nನಿನಗೊಂದು ತಲೆಕೆಡಿತಲ್ಲ,  \nನಿನ್ನ ಸುಂದರ ನಗುವಾಗ,  \nನನ್ನ ಹೃದಯ ಹಾರಿದೊಡನೆ.  \n\nನೀನು ನನ್ನ ನಡಿಗೆ ಇದ್ದರೆ,  \nನಾನು ಇಲ್ಲಿಯೇ ಬಾಳುತ್ತೇನೆ,  \nನೀನು ನನ್ನ ಪರದಲ್ಲಿ ನಿಲ್ಲುತ್ತಿದ್ದರೆ,  \nನನ್ನ ಧರ್ಮವನ್ನು ಸದಾ ನೆನೆಸುತ್ತೇನೆ.",
+  "poem_id": "MV++_1119",
+  "poem_title": "Elliruve Nanna Krishna",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d1d437608e903bc142207472371132283005f48d4a759c5286fc7ac6a37c7eef",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1119.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Where are you, my Krishna?  \nWhere is my Lord everywhere?  \nIn the name that carries your essence,  \nI long to enter into you.  \n\nIn your silent walk,  \nThere is no trouble for you,  \nWhen you smile beautifully,  \nMy heart takes flight.  \n\nIf you walk with me,  \nI will live right here,  \nIf you stand by my side,  \nI will always remember my duty.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:59:44.267709+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5b304f8f6b5d0228f8fa3598b84e914e2f933de14de6efa7df1435852b0d0ab1",
+        "response_hash": "621f8282ae40d161011ddce739c66ff7ed173438fd633dd9e7a4895906ef2220"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "438beb726f3c5fbef2567cd92ac32d462fd34ee4e6ab3baf34aa37d0c3a7fa47",
+        "response_hash": "b0f3fcdd396109dccfb38f438b397fc2675da5f75408f41d0f550f02df3defc6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b2a272673d08eff723ce737e5ce43d627a6a848614de2b19ebe0cc107f4afbbd",
+        "response_hash": "692238aa6166c329153879d1d3543a2e3e790c27670cded42e0161e5568f65d3",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d7deca2981c5988f3bdbc9be70ce7686db3e75fc9b4f9dd5c160897e1fb4e4f5",
+        "response_hash": "bf9df4719224053d155ef35d14e0a745d61c67ec5ac6a1dc33bd23d3d0054f12",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "561f99b8174c89160f86ad29f94cabbd84b5702f09a259ae330bf7b896e3ffc8",
+        "response_hash": "bb33784736723243383239156f5d6e4068cbe9827d4c41b64b21ed66f5df891a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eeaec63bf1a5211ec129f84cf1932134d6011979222c8ade0f0f3631f3245089",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "927e353f83d567d34258608b94c1809351858a7bbc2368acb2a5bd31e1203b7b",
+    "translation_sha256": "ea1d4d1c55310fa114e8fe515d2fa9e26a6bb28ed8261f1e5fa73a5e0c84a6be"
+  }
+}

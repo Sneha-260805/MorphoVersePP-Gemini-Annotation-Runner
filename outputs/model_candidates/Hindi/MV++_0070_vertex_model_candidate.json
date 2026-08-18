@@ -1,0 +1,178 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "anger and grief over political corruption and the destruction of humanity",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "anger",
+        "index": 1,
+        "loss_note": "The translation captures the core meaning, though the specific rhyme and rhythmic flow of the Hindi phrasing (such as 'hatyaari' and 'maari') are lost in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Profiting from violence, suffering, or the loss of human lives for personal or political gain.",
+            "acceptable_visual_variants": [
+              "A balance scale weighing coins against a dark red liquid or stain",
+              "A shadowy figure holding a ledger with red ink dripping from the pages"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The brokering or trading of blood",
+            "literalization_risk": "Showing a literal merchant selling vials or bags of blood in a market, which turns a political critique into a medical or fantasy horror scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "political exploitation of human lives",
+              "transferred_attributes": [
+                "transactional nature",
+                "profiting from loss",
+                "devaluation of life to a commodity"
+              ],
+              "vehicle_concept": "commercial trade of blood"
+            },
+            "source_span_original": "खून की दलाली",
+            "source_span_translation": "Merchants of blood",
+            "source_term": "खून की दलाली",
+            "tenor": "Exploiting human suffering and death for political or personal profit",
+            "vehicle": "Brokering or trading a physical commodity (blood)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict abstract transactional elements like scales or ledgers juxtaposed with symbolic red stains or silhouettes of people, emphasizing the cold, transactional exploitation of life."
+          },
+          {
+            "abstract_meaning": "The manipulative, strategic, and often insincere maneuvers of political actors who treat human lives as mere pieces or scores.",
+            "acceptable_visual_variants": [
+              "A chessboard with faceless human figures as pawns",
+              "Shadowy hands pulling strings over a map or crowd"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The game of politics",
+            "literalization_risk": "Depicting politicians literally playing a board game or sports match, which trivializes the severe real-world violence and suffering described in the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "political maneuvering and governance",
+              "transferred_attributes": [
+                "strategic play",
+                "treating people as pawns",
+                "lack of real-world empathy for consequences"
+              ],
+              "vehicle_concept": "a game with rules and pieces"
+            },
+            "source_span_original": "राजनीति के खेल",
+            "source_span_translation": "games of politics",
+            "source_term": "राजनीति के खेल",
+            "tenor": "The manipulative and competitive nature of political power struggles",
+            "vehicle": "A recreational or strategic game",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a chessboard where the pieces are abstract human silhouettes, or a puppet theater setup, showing control and manipulation from behind the scenes."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'खून की दलाली' (literally 'brokerage/pimping of blood') as 'Merchants of blood', which shifts the abstract noun 'दलाली' (brokerage/dealing) to the plural agents 'Merchants', losing the direct focus on the corrupt transaction itself.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'हत्यारी' (murderer/killer, which is grammatically feminine in Hindi) as 'Murderers' (plural/neutral), losing the specific feminine gender agreement that personifies 'politics' or the 'brokerage' as a female killer.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'मारी' (which can mean stricken, victim, or plague/ruin) as 'casualty', which simplifies the rich, emotionally charged Hindi term that carries connotations of being struck down or deeply afflicted.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The devastating impact of political games on human life and moral values"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "खून की दलाली,  \nइंसानियत की हत्यारी,  \nराजनीति के खेल में,  \nबना दिया है मानवता को मारी।",
+  "poem_id": "MV++_0070",
+  "poem_title": "Khoon ki Dalali",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3ac4519564b33970ede84bd2fa22ece68f2c17261d7bcdb0d2ce2474cc1fb065",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0070.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Merchants of blood,  \nMurderers of humanity,  \nIn the games of politics,  \nThey’ve made humanity a casualty.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:43:35.386109+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e99c582b6ffdb64413e346543d3c3877ce90ef895f86d08e89effb61d99afdac",
+        "response_hash": "73eb50bc5cd49c229ef9715dcb4306c148455d8577f3e309722a0fcae364e6d4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "56dddf8f0e717aa125c82ad916e2f48f17bfdfad7d85dad313194fa89541936d",
+        "response_hash": "fabe8ffd7f93175f5c2ba7dc2037a002fed53b06cd94242867c44e7a4fe5d3fd",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e0ec4e39958c2060e4a2a4d2ee243177f54e2e2e859a98fa5b9dcb96893dd48a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "72622b3760cb2088d5773f771a39903e001167444995a9dc8508ad7a86780cc3",
+        "response_hash": "bb650f972dc14b36bf82c86247d7838bd74852caae111a019210404c847fbacf",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "199e6145220bad79ad49608c280d125d2dfeb10b929f69dabfe9c6b054613116",
+        "response_hash": "c7376c741767a0d617fc2555b03869aaa53bd3bc1db5b94f4a1f72d00a0a0cd2",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "31a08aa92f097e1bd93f7405df77b103c7a674ca875a9406da4ac1d1cadd631c",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a924396b91664711b0bcf1095182c8764b096bafffc1d7226a7b4d1a0adaf6a0",
+    "translation_sha256": "6b14bf54002b871405240583fc40b4fae96cec5ea172613fe16c979ef2b775e7"
+  }
+}

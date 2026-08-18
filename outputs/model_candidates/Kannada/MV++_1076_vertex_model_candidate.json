@@ -1,0 +1,266 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A wide landscape view of low, forested mountain ridges",
+          "A close-up of a rocky cave opening nestled in dense green foliage"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Vindhya mountain range, historically and culturally marking the boundary between northern and southern India in classical geography.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "Snow-capped Himalayan peaks",
+          "Sharp, jagged alpine mountains"
+        ],
+        "preserved": true,
+        "romanization": "Vindhyachal",
+        "source_span_original": "विंध्याचल",
+        "source_span_translation": "Vindhyachal",
+        "stanza_index": 1,
+        "term": "विंध्याचल",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Ancient, weathered, forested mountain peaks and rocky caves",
+          "Subtropical vegetation typical of central India"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A wide riverbank with stone steps and distant temple silhouettes",
+          "A close-up of hands offering water or flowers at the river's edge"
+        ],
+        "category": "SACRED_RIVER",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Ganges River, personified and revered as a sacred, purifying river goddess in Indian culture.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "A generic wild forest river with no cultural markers",
+          "A modern concrete canal or industrial harbor"
+        ],
+        "preserved": true,
+        "romanization": "Ganga",
+        "source_span_original": "गंगा",
+        "source_span_translation": "Ganga",
+        "stanza_index": 1,
+        "term": "गंगा",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Wide, flowing river with stone steps (ghats) leading down to the water",
+          "Devotional lamps or small clay pots floating on the water surface"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A stylized glowing plant with golden or blue light",
+          "A vibrant green medicinal herb glistening with dew in a mountain setting"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A mythical, life-restoring herb mentioned in the Ramayana, symbolizing ultimate healing, rejuvenation, and life-giving power.",
+        "line_ref": "L10",
+        "negative_confusions": [
+          "A generic houseplant or common garden weed",
+          "A modern chemical or pharmaceutical bottle"
+        ],
+        "preserved": false,
+        "romanization": "Sanjeevani",
+        "source_span_original": "संजीवनी",
+        "source_span_translation": "vitality",
+        "stanza_index": 1,
+        "term": "संजीवनी",
+        "translation_note": "Translated as 'vitality', which loses the specific mythological allusion to the life-restoring herb from the Ramayana.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "A glowing, luminous herb or plant growing on a rocky mountain slope",
+          "Soft, ethereal light radiating from the leaves"
+        ],
+        "visual_priority": "optional"
+      }
+    ],
+    "emotional_arc": "longing to resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the Sanskritized vocabulary (such as 'sanjeevani' and 'vedana') loses some of its deep, classical resonance when rendered into standard English terms like 'vitality' and 'pain'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The Earth is personified as a conscious motherly entity expressing deep concern and calling out to humanity.",
+            "acceptable_visual_variants": [
+              "A serene landscape with a soft, warm glow rising from the soil and rivers towards the sky",
+              "A stylized, maternal silhouette integrated naturally into the contours of hills and valleys"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The physical soil/planet calls out from the depth of its mind.",
+            "literalization_risk": "Depicting a literal giant human face emerging from the soil speaking with a mouth would look cartoonish and miss the spiritual, ecological essence.",
+            "metaphor_mapping": {
+              "tenor_concept": "ecological and spiritual voice of the Earth",
+              "transferred_attributes": [
+                "voice",
+                "deep emotion",
+                "maternal concern"
+              ],
+              "vehicle_concept": "human mother calling out"
+            },
+            "source_span_original": "धरती पुकारती मन की गहराई से।",
+            "source_span_translation": "The earth calls out from deep within.",
+            "source_term": "धरती पुकारती मन की गहराई से।",
+            "tenor": "The ecological and spiritual voice of the Earth urging humanity to connect with nature",
+            "vehicle": "A human mother calling out from the depths of her heart/mind",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, beautiful landscape of mountains and rivers with subtle, glowing energy lines or wind patterns suggesting a silent, powerful voice or call emanating from the earth."
+          },
+          {
+            "abstract_meaning": "An invitation to live in complete harmony, unity, and alignment with nature's ways.",
+            "acceptable_visual_variants": [
+              "A person whose silhouette is filled with patterns of leaves, soil, and water",
+              "A person wearing simple, natural-dyed clothing that matches the earthy tones of the landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Son, dye yourself in my physical color.",
+            "literalization_risk": "Showing a person literally painting their skin green or brown with mud or paint, which looks like a physical activity rather than a spiritual union.",
+            "metaphor_mapping": {
+              "tenor_concept": "adopting qualities and living in harmony",
+              "transferred_attributes": [
+                "sameness",
+                "absorption",
+                "unity"
+              ],
+              "vehicle_concept": "dyeing oneself in a color"
+            },
+            "source_span_original": "पुत्र, मेरे रंग में तू भी रंग जा,",
+            "source_span_translation": "Child, embrace my hues as yours,",
+            "source_term": "पुत्र, मेरे रंग में तू भी रंग जा,",
+            "tenor": "Adopting the qualities, lifestyle, and peaceful nature of the Earth",
+            "vehicle": "Dyeing oneself in the same color/hue",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a human figure sitting in meditation or walking, with their clothing or aura seamlessly blending into the natural colors of the surrounding forest and earth."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'घाटों' (ghaton) as 'banks' loses the specific cultural and religious significance of 'ghat' as structured steps leading down to a holy river like the Ganga, where rituals, bathing, and cremations take place.",
+            "where": "L5"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'संजीवनी' (sanjeevani) as 'vitality' loses the deep mythological resonance of the life-giving, rejuvenating herb from the Ramayana, flattening a rich cultural allusion into a generic abstract noun.",
+            "where": "L10"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'मेरे संरक्षण में' (under my protection/guardianship) as 'protecting me' inverts the agency, making the child the protector of the earth rather than the earth offering her maternal protection to the child.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sacred call of the earth urging humanity to recognize its pain, embrace its steady nature, and step forward in mutual protection."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[2].category",
+      "issue": "The category 'DEVOTIONAL_CONCEPT' is used for 'संजीवनी' (Sanjeevani), which is a mythical life-restoring herb. A more accurate category under the controlled vocabulary would be 'MYTHOLOGICAL_EVENT' or 'REGIONAL_SYMBOL' if interpreted as a cultural symbol, as it is a physical herb/allusion rather than a devotional concept. However, within the strict controlled vocabulary, 'MYTHOLOGICAL_EVENT' is the closest fit for Ramayana-related mythological entities, or it represents a schema mismatch.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "धूल धूसरित, कन-कन में बसी हुई,  \nधरती पुकारती मन की गहराई से।  \nप्राची के पर्वतों की चोटी से,  \nविंध्याचल की कंदराओं तक,  \nगंगा के घाटों से लेकर  \nगहरे समंदर की थाह तक,  \nहर कोना, हर क्षण मुझे पुकारता।  \n\"पुत्र, मेरे रंग में तू भी रंग जा,  \nमेरी तरह स्थिर और शांत हो जा,  \nमेरी वेदना और मेरी संजीवनी को जान ले,  \nऔर बढ़ा कदम मेरे संरक्षण में।\"",
+  "poem_id": "MV++_1076",
+  "poem_title": "Prithvi Ki Pukar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a8a2f2cb8f4fc1ce26d79507a83ac4dfc659a73980bfec661ead5c5ae8d75af7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1076.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Dusted and veiled in every grain,  \nThe earth calls out from deep within.  \nFrom the peaks of eastern mountains,  \nTo the caves of Vindhyachal,  \nFrom the banks of the Ganga  \nTo the depth of the vast seas,  \nEvery corner, every moment calls to me.  \n\"Child, embrace my hues as yours,  \nBe calm and steady as I am,  \nKnow my pain and my vitality,  \nAnd step forward, protecting me.\"",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:55:05.573395+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc8720685fd1708747a694406ee1f16da3b15772a5bac53766bced6c25fc664d",
+        "response_hash": "55875014a2eb93571b3355dc5ba08c6819548fb723b8e6d3f8fb7e31dddba36a"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7de35390e6dc5748333a926530e1e0ab23b8be3f061a0bbd3b0aa65619316694",
+        "response_hash": "b822d43e90ef774028e48c0e766f9176f1c234ed8859af65198ebc224db3a96e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "daf9f94a3e02f85669eef99486bbdb9d70f158e82a8107be381491c6c5ec6de3",
+        "response_hash": "4b1be575e0df553dce62ab789931922011a927c8294468dc61db5dc0361805d4",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e105ac7e36120b2205708f02ed08197af8cc57478cc68a6b433a1eb48ba0383e",
+        "response_hash": "14f1fecc57c4ec5d5eda531e4617b4fa03f3d12513322ce66a43c34866fd7936",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "402bd8538cef9470da78cf172bc699c0eb91f5cf972df261a39e84869ff4a8c2",
+        "response_hash": "6c4f2c0ec4845c0d0845a3741221fd2220d44d6456ac3eecfdb401e1ecffcc8c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b80d9b4220f353068615dcf7bf9ff1a9d0273a774a3c083150320840e45d6788",
+        "response_hash": "2e6a13c94195156f09a03f806fee96d43881ff9420f1728e05f1ba346dd22b96",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8f8749e981e297c642df1c0ac7bed6660df7b4500aef1d30c869b3fc17bcc25c",
+    "translation_sha256": "fab64c2d77ce2396b5465a7d3f753ed630b4f33ca7f3796110d83ef0ca608993"
+  }
+}

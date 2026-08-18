@@ -1,0 +1,362 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to deep intimacy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A fleeting presence or memory that stays only temporarily, like a transient visitor.",
+            "acceptable_visual_variants": [
+              "A soft, glowing outline of a figure sitting by a window looking out at the night sky",
+              "A faint shadow cast on a wall next to the speaker's own shadow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A guest who stays only for the duration of the night",
+            "literalization_risk": "Depicting a literal human traveler arriving with luggage at a house, which misses the internal, psychological nature of the memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "fleeting memory",
+              "transferred_attributes": [
+                "temporary stay",
+                "inevitable departure",
+                "intimate but brief presence"
+              ],
+              "vehicle_concept": "overnight guest"
+            },
+            "source_span_original": "रात भर का मेहमान",
+            "source_span_translation": "A guest for the night",
+            "source_term": "रात भर का मेहमान",
+            "tenor": "A fleeting memory or emotional state",
+            "vehicle": "A temporary overnight guest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a shadowy, translucent human-like silhouette sitting quietly in a dimly lit room next to a person, suggesting a presence rather than a physical person."
+          },
+          {
+            "abstract_meaning": "An overwhelming accumulation of memories that gathers and surrounds the speaker's mind.",
+            "acceptable_visual_variants": [
+              "A soft blue-grey fog rolling into a room through an open window",
+              "A stylized, swirling vapor pattern surrounding the speaker's head"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A cloud made of memories",
+            "literalization_risk": "Showing literal clouds with photographs or written diary pages floating inside them, which can look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "memories",
+              "transferred_attributes": [
+                "gathering overhead",
+                "blocking out light",
+                "surrounding or enveloping"
+              ],
+              "vehicle_concept": "cloud"
+            },
+            "source_span_original": "यादों का बादल",
+            "source_span_translation": "A cloud of memories",
+            "source_term": "यादों का बादल",
+            "tenor": "A dense collection of past memories",
+            "vehicle": "A gathering storm cloud",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a dark, swirling mist or soft-edged cloud-like shape gently enveloping a room or a seated figure, rendered in cool, nostalgic tones."
+          },
+          {
+            "abstract_meaning": "The quiet, dim, and reflective atmosphere of the evening hours.",
+            "acceptable_visual_variants": [
+              "A room illuminated only by the blue light of dusk filtering through a window",
+              "Long, soft shadows stretching across a floor from furniture during sunset"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the shadow cast by the evening",
+            "literalization_risk": "Depicting a giant, literal shadow monster or a distinct black silhouette cast by an object named 'evening'.",
+            "metaphor_mapping": {
+              "tenor_concept": "evening twilight",
+              "transferred_attributes": [
+                "coolness",
+                "dimness",
+                "quietness",
+                "covering"
+              ],
+              "vehicle_concept": "shade/shadow"
+            },
+            "source_span_original": "शाम के साए में",
+            "source_span_translation": "In the shade of evening",
+            "source_term": "शाम के साए में",
+            "tenor": "The twilight time of day",
+            "vehicle": "A physical shadow or shade",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use deep blue and purple twilight gradients casting long, soft shadows across the scene to establish the time of day naturally."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation uses 'It' to refer to the guest/cloud, which collapses the personified masculine pronoun 'वो' (vo) used in the Hindi text to refer to the guest who came to sit.",
+            "where": "L5-L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A fleeting presence or memory that stays only temporarily, like a transient visitor.",
+            "acceptable_visual_variants": [
+              "A soft, glowing outline of a figure sitting by a window looking out at the night sky",
+              "A faint shadow cast on a wall next to the speaker's own shadow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "A guest who stays only for the duration of the night",
+            "literalization_risk": "Depicting a literal human traveler arriving with luggage at a house, which misses the internal, psychological nature of the memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "fleeting memory",
+              "transferred_attributes": [
+                "temporary stay",
+                "inevitable departure",
+                "intimate but brief presence"
+              ],
+              "vehicle_concept": "overnight guest"
+            },
+            "source_span_original": "रात भर का मेहमान",
+            "source_span_translation": "A guest for the night",
+            "source_term": "रात भर का मेहमान",
+            "tenor": "A fleeting memory or emotional state",
+            "vehicle": "A temporary overnight guest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a shadowy, translucent human-like silhouette sitting quietly in a dimly lit room next to a person, suggesting a presence rather than a physical person."
+          },
+          {
+            "abstract_meaning": "An overwhelming accumulation of memories that gathers and surrounds the speaker's mind.",
+            "acceptable_visual_variants": [
+              "A soft blue-grey fog rolling into a room through an open window",
+              "A stylized, swirling vapor pattern surrounding the speaker's head"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A cloud made of memories",
+            "literalization_risk": "Showing literal clouds with photographs or written diary pages floating inside them, which can look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "memories",
+              "transferred_attributes": [
+                "gathering overhead",
+                "blocking out light",
+                "surrounding or enveloping"
+              ],
+              "vehicle_concept": "cloud"
+            },
+            "source_span_original": "यादों का बादल",
+            "source_span_translation": "A cloud of memories",
+            "source_term": "यादों का बादल",
+            "tenor": "A dense collection of past memories",
+            "vehicle": "A gathering storm cloud",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a dark, swirling mist or soft-edged cloud-like shape gently enveloping a room or a seated figure, rendered in cool, nostalgic tones."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'उससे हलचल में' as 'In its movement' loses the specific causal connection of 'उससे' (from that/due to that), which links the inner stir directly to the moon's light settling within.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A fleeting presence or memory that stays only temporarily, like a transient visitor.",
+            "acceptable_visual_variants": [
+              "A soft, glowing outline of a figure sitting by a window looking out at the night sky",
+              "A faint shadow cast on a wall next to the speaker's own shadow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L13",
+            "literal_meaning": "A guest who stays only for the duration of the night",
+            "literalization_risk": "Depicting a literal human traveler arriving with luggage at a house, which misses the internal, psychological nature of the memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "fleeting memory",
+              "transferred_attributes": [
+                "temporary stay",
+                "inevitable departure",
+                "intimate but brief presence"
+              ],
+              "vehicle_concept": "overnight guest"
+            },
+            "source_span_original": "रात भर का मेहमान",
+            "source_span_translation": "A guest for the night",
+            "source_term": "रात भर का मेहमान",
+            "tenor": "A fleeting memory or emotional state",
+            "vehicle": "A temporary overnight guest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a shadowy, translucent human-like silhouette sitting quietly in a dimly lit room next to a person, suggesting a presence rather than a physical person."
+          },
+          {
+            "abstract_meaning": "The profound, communicative power of silence that conveys deep emotions or memories without words.",
+            "acceptable_visual_variants": [
+              "A single candle flame burning steadily in a quiet room, symbolizing quiet focus",
+              "Two figures sitting in complete stillness, with dust motes floating in a single beam of light"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L14",
+            "literal_meaning": "The silence which talks or speaks",
+            "literalization_risk": "Showing a literal mouth opening in empty space or a personified 'Silence' character with speech bubbles.",
+            "metaphor_mapping": {
+              "tenor_concept": "silence",
+              "transferred_attributes": [
+                "ability to communicate",
+                "conveying meaning",
+                "presence"
+              ],
+              "vehicle_concept": "speaking person"
+            },
+            "source_span_original": "वो चुप्प जो बातें करता है",
+            "source_span_translation": "The silence that speaks",
+            "source_term": "वो चुप्प जो बातें करता है",
+            "tenor": "An intense, communicative silence",
+            "vehicle": "A speaking person",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the intense, quiet gaze between the speaker and the shadowy presence, emphasizing stillness and emotional resonance through lighting."
+          },
+          {
+            "abstract_meaning": "The intimate, protective, and vital space created by breathing and being alive close to someone.",
+            "acceptable_visual_variants": [
+              "A soft, warm-toned aura surrounding two closely seated figures in a cold, dark room",
+              "A gentle, rhythmic ripple in the air or light around the speaker's face"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L15",
+            "literal_meaning": "In the shadow or shade cast by breaths",
+            "literalization_risk": "Showing literal clouds of breath or steam forming a physical umbrella or canopy over a person.",
+            "metaphor_mapping": {
+              "tenor_concept": "breathing/vital presence",
+              "transferred_attributes": [
+                "protection",
+                "closeness",
+                "comfort",
+                "enveloping space"
+              ],
+              "vehicle_concept": "shade/canopy"
+            },
+            "source_span_original": "सांसों की छाँव में",
+            "source_span_translation": "In the shade of breaths",
+            "source_term": "सांसों की छाँव में",
+            "tenor": "The intimate warmth and rhythm of breathing",
+            "vehicle": "The shade of a tree or canopy",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a warm, soft glow or gentle light radiating from the chest of the figures, suggesting the warmth and life of breath enveloping them."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'बेहयाई से' as 'With boldness' softens the intense, slightly transgressive connotation of 'behayai' (shamelessness, audacity, or lack of modesty), which carries a much stronger emotional and social weight in Hindi/Hindustani poetic contexts than simple boldness.",
+            "where": "L16"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'वो चुप्प' (that silence) as 'The silence' loses the demonstrative pronoun 'वो' (that), which points to a specific, personified silence.",
+            "where": "L14"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transient yet deeply intimate visitation of memories during the night, personified as a fleeting guest."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रात भर का मेहमान\nयादों का बादल घेरने आया।\nशाम के साए में\nहर राह से आकर\nवो मेरे पास\nबैठने आया।\n\nरात भर का मेहमान\nयादों का बादल घेरने आया।\nचाँद की चाँदनी\nमेरे भीतर बसी\nउससे हलचल में\nदिल धड़कने आया।\n\nरात भर का मेहमान\nवो चुप्प जो बातें करता है\nसांसों की छाँव में\nबेहयाई से\nमेरे भीतर वो हर धड़कन सुनने आया।",
+  "poem_id": "MV++_0905",
+  "poem_title": "Raat Bhar Ka Mehman",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "664d0defcb5613db125e5dbd5f96593cfff5b00da3d0dd526617690f2b8d96e8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0905.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A guest for the night,\nA cloud of memories came to surround.\nIn the shade of evening,\nIt walked through every path,\nCame to sit beside me.\n\nA guest for the night,\nA cloud of memories came to surround.\nThe moon's light,\nSettled within me,\nIn its movement,\nThe heart began to beat.\n\nA guest for the night,\nThe silence that speaks,\nIn the shade of breaths,\nWith boldness,\nIt came to hear every pulse within me.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:29:04.597574+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e91744f837ce937ff436213e0e977e72756b00e5d93904b9aa306cfeeaa3cbb2",
+        "response_hash": "8ca6669f80e2b4bfe8a03edb6b703f3d84bc8a5508a7e38cd68b11115e99a786",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8070036a43572d42f24a9f153d077fd2dc988bfd22b82e543d9349dd83fe3f56",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0fdcf9dc0336b00ad2b921f9d9a719ccc1a66ac799044dccc7ee67993db2350b",
+        "response_hash": "2c4a2aad22375edcec77d43a67f13476898b6761b69fb3eb6363ea54aab2f4ed",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eb34a1da8d77a83fb00e8cbbe3921b9248562d1164a62a883de51e6a4d97ba14",
+        "response_hash": "833905489579aa22b94de255660e17f51affdc37139e73bff5439abc2a649801",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ec283e2afdb9dd961deeab377f8d39c09f8855cc18550d9f0989e5bc4818b1ca",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5fff6710493f54a9b3566b70af339c175cac7e82624172a89fb2e88a58b2a911",
+    "translation_sha256": "754bb9ea2f311e2bf0cb48c22957c59a194158fd633aada1831325f3f02061f2"
+  }
+}

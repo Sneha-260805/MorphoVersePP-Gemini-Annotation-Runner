@@ -1,0 +1,305 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A stack of thin glass bangles on a wrist",
+          "A pair of ornate metal bangles"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Traditional Indian bangles, typically made of glass, metal, or lacquer, worn by women as a symbol of femininity, marriage, and cultural identity, known for their distinct jingling sound.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Thick Western-style solid cuffs",
+          "Modern plastic wristbands"
+        ],
+        "preserved": true,
+        "romanization": "chudiyan",
+        "source_span_original": "चूड़ियाँ",
+        "source_span_translation": "bangles",
+        "stanza_index": 1,
+        "term": "चूड़ियाँ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Circular wrist ornaments",
+          "Often worn in sets or stacks",
+          "Can be colorful, metallic, or glass-like"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A natural light-brown bamboo flute",
+          "A decorated flute with hanging tassels"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional side-blown flute made of bamboo, deeply rooted in Indian classical and folk music, as well as mythology.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A modern silver metal concert flute",
+          "A vertical recorder or whistle"
+        ],
+        "preserved": true,
+        "romanization": "bansuri",
+        "source_span_original": "बांसुरी",
+        "source_span_translation": "flute",
+        "stanza_index": 2,
+        "term": "बांसुरी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A simple, straight bamboo tube",
+          "Finger holes along the body",
+          "Held horizontally to the side when played"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "admiration and wonder to deep tenderness",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'dil ki reet' as 'the heart's decree' slightly shifts the nuance of 'reet' (custom, tradition, or way) to a more formal 'decree'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sound of the bangles is melodious and pleasing to the ear, evoking the feeling of a song.",
+            "acceptable_visual_variants": [
+              "A close-up of hands wearing glass bangles with subtle motion lines",
+              "A woman moving her hands gracefully, causing the bangles to slide and touch"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "They ring like some song",
+            "literalization_risk": "An illustrator might literally draw musical notes or a sheet of music floating out of the bangles, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "sound of bangles",
+              "transferred_attributes": [
+                "melodiousness",
+                "rhythm",
+                "pleasing quality"
+              ],
+              "vehicle_concept": "music"
+            },
+            "source_span_original": "बजती हैं जैसे कोई गीत",
+            "source_span_translation": "Ring like a sweet melody",
+            "source_term": "बजती हैं जैसे कोई गीत",
+            "tenor": "the sound of the bangles",
+            "vehicle": "a song / sweet melody",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the bangles in motion on a hand, perhaps with soft, radiating ripples or light lines to suggest gentle sound waves without literal musical notes."
+          },
+          {
+            "abstract_meaning": "The bangles reflect light brilliantly, resembling the sparkling of stars in the night sky.",
+            "acceptable_visual_variants": [
+              "Bangles with tiny, sharp starburst reflections on their metallic or glass surfaces",
+              "A soft glow surrounding the bangles to emphasize their brightness"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "They sparkle like stars",
+            "literalization_risk": "Drawing actual stars floating around the wrist could look like a magical fantasy scene rather than a realistic depiction of shiny bangles.",
+            "metaphor_mapping": {
+              "tenor_concept": "glass bangles",
+              "transferred_attributes": [
+                "brightness",
+                "sparkling",
+                "glimmering"
+              ],
+              "vehicle_concept": "celestial bodies"
+            },
+            "source_span_original": "जगमगाती हैं जैसे सितारे",
+            "source_span_translation": "They sparkle like the stars",
+            "source_term": "जगमगाती हैं जैसे सितारे",
+            "tenor": "the sparkle of the bangles",
+            "vehicle": "stars",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use sharp, bright glints of light and reflections on the surface of the bangles to show their high reflectivity."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural resonance of 'chudiyan' (traditional glass or metal bangles worn by women in South Asia, carrying deep social and romantic connotations) is flattened to the generic English 'bangles'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'dil ki reet' (the custom/tradition of the heart) as 'the heart's decree' alters the cultural concept of 'reet' (custom, ritual, or traditional way) into a more authoritative or legalistic 'decree'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The phrase 'karn phulbaano ki baansuri' is translated loosely as 'a flute of blossoms' tune', losing the specific compound imagery of 'karn' (ear) or 'karnphool' (earring ornament) combined with 'phulbaan' (blossom-bearer/arrows of flowers).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sound of the bangles is compared to the sweet, natural music of a flute made of or associated with blossoms.",
+            "acceptable_visual_variants": [
+              "A background with soft-focus falling blossoms to evoke the floral atmosphere",
+              "Delicate, thin lines representing the sound waves blending into floral patterns"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L6",
+            "literal_meaning": "Like the flute of blossom-keepers / flower-dwellers",
+            "literalization_risk": "Drawing a literal flute made of flowers being played next to the hands would be highly distracting and surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "sound of bangles",
+              "transferred_attributes": [
+                "sweetness",
+                "natural beauty",
+                "delicate sound"
+              ],
+              "vehicle_concept": "wind instrument made of flowers"
+            },
+            "source_span_original": "जैसे कर्ण फुलबानों की बांसुरी",
+            "source_span_translation": "Like a flute of blossoms' tune",
+            "source_term": "जैसे कर्ण फुलबानों की बांसुरी",
+            "tenor": "the jingling sound of the bangles",
+            "vehicle": "a flute of blossoms",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the delicate, floral, and light nature of the movement, perhaps incorporating soft floral motifs in the background or on the clothing to evoke the association."
+          },
+          {
+            "abstract_meaning": "The physical touch and movement of the bangles create or weave a narrative of love between the lovers.",
+            "acceptable_visual_variants": [
+              "Two hands gently clasped together, highlighting the bangles on the wrist",
+              "A hand with bangles reaching out towards another person's hand in a warm, soft-focus setting"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "They weave a story of love",
+            "literalization_risk": "Showing literal threads of yarn or fabric being woven by the bangles would look bizarre and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "creating a romantic relationship",
+              "transferred_attributes": [
+                "intertwining",
+                "creation",
+                "gradual building"
+              ],
+              "vehicle_concept": "weaving threads into fabric"
+            },
+            "source_span_original": "बुनती हैं प्यार की कहानी",
+            "source_span_translation": "They weave a tale of love",
+            "source_term": "बुनती हैं प्यार की कहानी",
+            "tenor": "creating a romantic connection through touch",
+            "vehicle": "weaving",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a tender moment of touch, such as two hands gently holding or approaching each other, where the bangles are prominent, capturing the emotional narrative."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'karn phulbanon ki bansuri' (literally 'the flute of the flower-forests of Karn' or referring to a specific regional/mythological context of 'Karn Phulban') is simplified and altered to 'a flute of blossoms' tune', losing the specific cultural or geographical reference of 'Karn'.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds the word 'boon' at the end of the stanza to force a rhyme with 'tune', which has no semantic equivalent in the original Hindi text ('bunti hain pyar ki kahani' simply means 'they weave a tale of love').",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sensory beauty of a beloved's bangles evoking love and melody"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हारे हाथ की चूड़ियाँ,  \nबजती हैं जैसे कोई गीत।  \nजगमगाती हैं जैसे सितारे,  \nनज़र में बसी हैं, दिल की रीत।  \n\nजब तुम चलती हो, ये झनकती हैं,  \nजैसे कर्ण फुलबानों की बांसुरी।  \nतुम्हारे हर अँगुली की छुवन से,  \nबुनती हैं प्यार की कहानी।",
+  "poem_id": "MV++_0848",
+  "poem_title": "Tumhare Haath Ki Chudiyan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d2e16f69edae4301d69fac4c14cff29e7a1df247aa5e74c66eb02281357c149d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0848.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The bangles of your hands,  \nRing like a sweet melody.  \nThey sparkle like the stars,  \nIn the eyes, they dwell, the heart's decree.  \n\nWhen you walk, they jingle,  \nLike a flute of blossoms' tune.  \nWith the touch of every finger,  \nThey weave a tale of love, a boon.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:20:57.458541+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4f72de3c8246ad387acc7cd9b18b222f468660d8ca7efea60db206c815429b5b",
+        "response_hash": "24afebb5f468805f84069514fa3fb3172864929426b41ca4d2738403bd7c50b0"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "68d37a9e6e4118a7bfb5d9b3a2f3ab28a2832d74a420d753fe0721af2a85dcc5",
+        "response_hash": "dac02cb9c83d05d8ca2cbfcf4e3f973008e2e76bff60d2cf3bae1414759a319c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "17a78dafe5eabf20bf6ab9f2fc5b4dcac51fb98036e21a1169a568045067a7f9",
+        "response_hash": "e9fe42424361027311938cb013c040cb9f4705aa504d33fe5ed4fbf23d86cee4",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "045fbdf941eeda716a2bcda3288c0573c34fa13ee8e6d1540a0816f93efb990c",
+        "response_hash": "d1c5fd4af93ac8459291658d332e110028fd758c5f7022cdc1a1d069f0b1231e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6e426cb1314015e8b1f39d561495a2838175026fbc0eb3f33ddc2047ef60445f",
+        "response_hash": "942382608e55d318fcf413a3b3fbdf8b3cea725cff9d0b4b49161d5a390528d0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5db11fb20f57fc882f77168d64d6d07a989e00c2d8954b9df87a5dbca3b33451",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "61c936c89c22fdb028fdde21e8a7ccf57938810bbeebbb727faa249c9b32635f",
+    "translation_sha256": "28da287ff425c0aae3e24b46a27cd0b54dc2715b445753fa3bad85d888f52262"
+  }
+}

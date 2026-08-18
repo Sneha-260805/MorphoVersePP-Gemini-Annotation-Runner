@@ -1,0 +1,192 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Kayaka refers to the concept of dedicated, selfless work or labor as a spiritual path and service, central to the 12th-century Veerashaiva (Lingayat) movement in Karnataka.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "Confusing kayaka with ordinary manual labor or secular employment without its spiritual, egalitarian, and devotional context."
+        ],
+        "preserved": true,
+        "romanization": "kayakagala",
+        "source_span_original": "ಕಾಯಕಗಳ",
+        "source_span_translation": "life",
+        "stanza_index": 1,
+        "term": "ಕಾಯಕಗಳ",
+        "translation_note": "The translation renders the compound 'anubhava kayakagala' as 'experiential life', which captures the essence of 'kayaka' (spiritualized work/duty) in a generalized philosophical sense but loses its specific historical and devotional resonance from the Veerashaiva/Sharanas tradition.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A quiet contemplation of inner depth, moving from dissolution to a realization of life's essence.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'kayaka' as 'life' or 'experiential life' loses the profound Veerashaiva philosophical connotation of 'kayaka' as dedicated, divine physical labor or duty. Additionally, 'yemattinalli' is translated loosely as 'in the depths' rather than its literal temporal/situational meaning.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Becoming completely absorbed, integrated, or lost in deep contemplation or emotional depths.",
+            "acceptable_visual_variants": [
+              "A human form whose edges softly diffuse into a deep blue or golden background",
+              "A drop of ink gently dispersing and losing its boundaries in clear water"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "dissolved or melted (like ice or a solid in liquid)",
+            "literalization_risk": "Showing a physical object literally liquefying or melting into a puddle, which misses the emotional and spiritual absorption.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental absorption",
+              "transferred_attributes": [
+                "loss of distinct physical boundaries",
+                "becoming one with the surrounding medium"
+              ],
+              "vehicle_concept": "melting solid"
+            },
+            "source_span_original": "ಕರಗಿಹೋದ",
+            "source_span_translation": "Melted",
+            "source_term": "ಕರಗಿಹೋದ",
+            "tenor": "emotional or mental absorption",
+            "vehicle": "melting/dissolving",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, dissolving silhouette or a figure gently blending into a deep, luminous background to suggest merging rather than physical melting."
+          },
+          {
+            "abstract_meaning": "The vast, unfolding, and endless nature of human life, experiences, or consciousness.",
+            "acceptable_visual_variants": [
+              "An open book whose pages unfurl into a winding path stretching to the horizon",
+              "A stream of glowing script or pages floating gently through space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "an infinite or limitless novel",
+            "literalization_risk": "Depicting a literal giant book with infinite pages, which might look like a fantasy prop rather than representing the depth of life.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "narrative structure",
+                "endless pages or chapters",
+                "depth of character and plot"
+              ],
+              "vehicle_concept": "infinite book"
+            },
+            "source_span_original": "ಅಪರಿಮಿತ ಕಾದಂಬರಿ",
+            "source_span_translation": "An endless tale",
+            "source_term": "ಅಪರಿಮಿತ ಕಾದಂಬರಿ",
+            "tenor": "the vastness of human life and experience",
+            "vehicle": "an endless novel/book",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a stylized scroll or book pages that seamlessly transform into scenes of life, paths, or flowing water."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಕಾದಂಬರಿ' (kaadambari) as 'tale' loses the specific literary connotation of a 'novel' or a complex, structured prose narrative, simplifying it to a generic story.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ಕಾಯಕ' (kaayaka) as 'life' or 'experiential life' collapses the profound spiritual and philosophical concept of 'Kayaka' (dedicated, selfless physical labor or duty as worship, central to Veerashaiva philosophy) into a generic secular concept of work or experience.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The integration of deep experience and work into the core pulse of existence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' and 'loss_note' explicitly state that the specific spiritual meaning of 'kayaka' was lost or collapsed into a generic secular concept in the translation. This represents an internal contradiction.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಯೆಮತ್ತಿನಲ್ಲಿ ಕರಗಿಹೋದ,  \nಅಪರಿಮಿತ ಕಾದಂಬರಿ,  \nಹೃದಯದ ಸ್ಪಂದನವು,  \nಅನುಭವ ಕಾಯಕಗಳ ಜೀವನೆ.",
+  "poem_id": "MV++_0995",
+  "poem_title": "Yemathinalli",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1a1ba26e3dfab1c3af452729ee22214152e9d7948a17364c1d74d2126e6b80bb",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0995.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Melted in the depths,  \nAn endless tale unfolds,  \nThe pulse of the heart,  \nThe essence of experiential life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:40:56.600635+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e2f63a96c73204a4c103a330ee47ad7344cdd9e0ddf17ee587ff6c9f2dd3e28f",
+        "response_hash": "52cc82f921e2bd86ff089a03d6fac312de9a9387ce5355f227868bce2d38c8f0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e11d7bed82c1377693df35d8f4115cdbe6d4bddf9514a16d8c9456e8f2865032",
+        "response_hash": "70aed9d5c0e46730a528c71f8358d30dd637f035146392da4100ec744de4fe3f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa882e5b65e1ba5be94922080238679ca7ed540f642684f30f804cb16d6ff7d5",
+        "response_hash": "f516e658f1f49dd5e09415ccd57e6625b480fc71ad5f74468e468d1208343719",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d0bfce2aa490cb72e49dca1b4ce13557b261361a83a28c20a1738279102d931c",
+        "response_hash": "acbb94ad7bd2de40cef9a96614ad3b035ddf17ea529e691f57f4e8924604e6a3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aeeefb8e5c23d3a6ab3fa1bacebf3011e93a1756b99de992e91a27b88b0776aa",
+        "response_hash": "98354b01a30702562a64e1b6598b0903a6856b3adc0021a6703569e8b113da01",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bd15a6de6e15bae1029482602b461fc21578322e2ccfca75a0f450d84e3d2b93",
+    "translation_sha256": "29aed8a3e0d4304aef94807f1a3b1be2bcee39c89e836ec8aa3a517e1c1e501c"
+  }
+}

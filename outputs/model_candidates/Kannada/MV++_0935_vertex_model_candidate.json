@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet wonder to inner illumination",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'ಬಾನುಳಿ' (banuli) as 'sky line', which captures the literal elements of sky and light/sound but loses the poetic compound's specific resonance in Kannada where 'banu' (sky) and 'uli' (sound/resonance or light/glow) blend into a singular atmospheric image.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A feeling of joy, hope, or sudden clarity within one's inner self or soul.",
+            "acceptable_visual_variants": [
+              "A warm golden glow radiating from a person's chest",
+              "A soft beam of light illuminating a peaceful face from within"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A physical light shining inside the muscular organ of the heart.",
+            "literalization_risk": "An anatomical heart containing a glowing lightbulb or flame, which looks medical or surreal rather than emotional.",
+            "metaphor_mapping": {
+              "tenor_concept": "joy and hope",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "dispelling of darkness"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "ಹೃದಯದಲ್ಲಿ ಬೆಳಕು!",
+            "source_span_translation": "A light in the heart!",
+            "source_term": "ಹೃದಯದಲ್ಲಿ ಬೆಳಕು!",
+            "tenor": "joy, hope, or emotional clarity",
+            "vehicle": "physical light / illumination",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a human silhouette with a soft, warm, diffuse golden glow radiating gently from the chest area."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The compound word 'ಬಾನುಳಿ' (baanuLi), which combines 'baanu' (sky) and 'oLi' (sound/light/glow), is translated literally as 'sky line', losing its poetic ambiguity and the evocative blend of celestial sound and light.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and alliterative play between 'nenesikoLLuva' (to remember/recall) and 'nenapu' (memory) is flattened into the somewhat redundant English phrase 'A memory to remember'.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The expansive connection between the vast sky, memory, and the light of the heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಬಾನುಳಿ ಎದ್ದು ಬೆಳಗು,  \nನೆನೆಸಿಕೊಳ್ಳುವ ನೆನಪು,  \nಆಕಾಶದಲಿ ಹಾರಲು,  \nಹೃದಯದಲ್ಲಿ ಬೆಳಕು!",
+  "poem_id": "MV++_0935",
+  "poem_title": "Banuli",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "69977732852a7ce7494a75b64d9202f52d4272d23b77d153df468cfd38ec0840",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0935.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The sky line rises and shines,  \nA memory to remember,  \nTo soar in the sky,  \nA light in the heart!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:33:01.956899+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ee79db3b443aaee74068f7a317f55888d6acc8e0172018f788da32ab3a4ac440",
+        "response_hash": "2b5a6d6353bc10bea47ac92d8022c6c4957ff4cc459343afa15b3ce5e5798470"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "13c9aa9f1394dfc32611b40173eb7f9770338c945eb84d3b267141879bb5b2fc",
+        "response_hash": "039d606cb3db7dc5f48da4702b4c54ea9d303643aedd6ffe8543877d52aa41d0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "86c48cae06d9d942c9f304ebf29e47736509a0e2132d87ee4f7c3e09bc2235d4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b613801c849d4330f10fbf12c8de1c0021849e8d888b62886d6ce608016a4fd",
+        "response_hash": "58db5082c4c7fc0ca1ed2678e2cf10aa1c008e5e63f768ab2c5f9969a3e9b422",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "95067c9154a31718f67970c5d98e5a3fe11544f360d502ed81dadc21590f7665",
+        "response_hash": "baea3ad7eecb89c6f78bafd854949cf091d11a05da3efa67d7f598c1f1a1b86f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "67ddf30a8cf8e6b4fef5cf2a4c8dc7426bf1f6b0fabf6d294640483534655fad",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6bb519dda22f7523074d1df153343f13beaeed39a7704378e55695ed60cae5cd",
+    "translation_sha256": "1833a87d5f9d4e79f5ffbeeac693ff4d8e079aef0e32257a0a37d303938e99b0"
+  }
+}

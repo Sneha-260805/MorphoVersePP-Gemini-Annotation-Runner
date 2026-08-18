@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet admiration of a wordsmith's quiet power to reveal truth",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation beautifully captures the imagery, though the compound 'ഉള്ളിളക്കം' (ullilakkam) carries a deeper sense of internal stirring or inner tremor that is slightly flattened to 'tremors of truth'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deep, unsettling, or moving core of truth that is revealed through words.",
+            "acceptable_visual_variants": [
+              "A glowing, vibrating word on a page with soft ripples spreading outward",
+              "A hand writing a word that gently glows and causes a subtle ripple in its paper background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The inner shaking or tremor of truth",
+            "literalization_risk": "An illustrator might literally depict a physical object or person physically shaking or cracking open, which misses the abstract emotional resonance of truth.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional or intellectual impact of truth",
+              "transferred_attributes": [
+                "shaking",
+                "depth",
+                "unsettling nature",
+                "movement from within"
+              ],
+              "vehicle_concept": "physical tremor or inner shaking"
+            },
+            "source_span_original": "സത്യത്തിന്റെ ഉള്ളിളക്കം",
+            "source_span_translation": "tremors of truth",
+            "source_term": "സത്യത്തിന്റെ ഉള്ളിളക്കം",
+            "tenor": "The profound, stirring, or unsettling essence of truth",
+            "vehicle": "An inner tremor or shaking movement (uḷḷiḷakkam)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a subtle, radiating ripple or vibration emanating from a written or spoken word, symbolizing an inner tremor."
+          },
+          {
+            "abstract_meaning": "The sudden revelation or shift in perspective brought about by the wordsmith's craft.",
+            "acceptable_visual_variants": [
+              "A walking path curving sharply around a hill to reveal a sunlit valley",
+              "A stylized line of text that bends and transforms into a physical path leading forward"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L5",
+            "literal_meaning": "Like a turn in the road / detour",
+            "literalization_risk": "Showing a literal asphalt road with a sharp curve might look like a traffic sign or a mundane landscape rather than a poetic shift in consciousness.",
+            "metaphor_mapping": {
+              "tenor_concept": "a sudden shift in intellectual or moral direction",
+              "transferred_attributes": [
+                "change of direction",
+                "revelation of the unseen",
+                "new perspective"
+              ],
+              "vehicle_concept": "a physical bend in a road revealing a new view"
+            },
+            "source_span_original": "വഴിതിരിവ് പോലെ",
+            "source_span_translation": "As if revealing\nA turn in the road",
+            "source_term": "വഴിതിരിവ് പോലെ",
+            "tenor": "A sudden shift in understanding, perspective, or direction caused by truth",
+            "vehicle": "A physical bend or turn in a path or road",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a path winding through a misty landscape that suddenly bends sharply, revealing a bright, clear horizon or a new landscape beyond the turn."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The compound 'നാട്ടു വാക്കുകാരൻ' (nattu vakkukaran) literally means a country/village person of words or wordsmith, but carries a colloquial, grounded regional flavor of a local storyteller or speaker that 'village wordsmith' slightly formalizes.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'ഉള്ളിളക്കം' (ullilakkam) combines 'ul' (inside/inner) and 'ilakkam' (stirring, movement, or shaking). The translation 'tremors' captures the shaking but loses the specific nuance of an 'inner stirring' or 'deep internal movement' of truth.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The phrase 'താനായ്കൊണ്ട്' (thanaykondu), meaning 'becoming oneself' or 'by being himself' in the words, is translated as 'weaving', which changes the grammatical and philosophical sense of the speaker embodying or existing as the words themselves.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet, transformative power of a village wordsmith who reveals deep truths and new directions through simple words."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Malayalam",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ഒരു നാട്ടു വാക്കുകാരൻ  \nസത്യത്തിന്റെ ഉള്ളിളക്കം  \nവാക്കുകളിൽ താനായ്കൊണ്ട്  \nകാട്ടിയിടുന്ന  \nവഴിതിരിവ് പോലെ.",
+  "poem_id": "MV++_1174",
+  "poem_title": "Oru Nattu Vakkukaran",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "03d92da7efac7193d79e3f39bcfa4d24e3055998dc8b1b8da2f6295e21ce033f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Malayalam/MV++_1174.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A village wordsmith,  \nWeaving the tremors of truth,  \nCarving paths,  \nAs if revealing  \nA turn in the road.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:05:35.785766+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f527c9b50b826a582d15ce48371fea9241621be84202a469ba28f38489f828b3",
+        "response_hash": "352b76066adb22d8880f4dde53ea542738ed0f2bf6e81f96014a06842a163274"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e978639035d7d002000ba9562247fbab38de58a16991cc1521b963d6573fdaa7",
+        "response_hash": "c6e6f7a1c5ede507eb412221c76e9a03fc1edbd57a398f69dc042fa6bf9fd3f8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fecf16f9a137d252e82f7c88fd5341f11102ccffe974ed0f56ea2aac5b5cf035",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4e99676a79bdb48a00302b7dc10b01b48fb2d7b990f9be82f7540cdb6cf5aa71",
+        "response_hash": "81fbe54001307acf3cee54df5cc3e624f2f00e292b7666b2799516426b5cd98a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "54e76d0958cfb2162d9e9f774eb1218e1748da149277916b55cbe4823261c9c9",
+        "response_hash": "d24539ad50b8faef494e9c6fe0b0b65789feed774db81656d731d415d2d77f87",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d9efe964cdfeea8104e2a81d4de6d5d2e59c39212cea5220cbe226361cf2cf84",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a34b7c24f0e83e08f521d509b42951209e76832f46246ef01973d13d6ba3bbe5",
+    "translation_sha256": "4c5ee29ae2dcfd50604fcc316274fb34ac0b74ed1a233b4dce1642384816a549"
+  }
+}

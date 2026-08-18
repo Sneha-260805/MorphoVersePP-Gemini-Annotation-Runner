@@ -1,0 +1,250 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "grief and confusion to silent resignation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation renders 'सवाल हो गया' as 'became sharper' in line 2 to rhyme with 'deeper', which slightly alters the literal meaning of 'became a question' to fit English poetic flow.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An emotional or psychological trauma or unresolved existential crisis became more intense and painful.",
+            "acceptable_visual_variants": [
+              "A dark, deep crack splitting a smooth stone surface.",
+              "A stylized, non-graphic silhouette of a figure with a glowing, deep-blue fissure in the chest area."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical injury on the body split open and became deeper.",
+            "literalization_risk": "Depicting a bloody, graphic physical gash on a human body would turn a psychological poem into a medical or horror scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional trauma",
+              "transferred_attributes": [
+                "painfulness",
+                "depth",
+                "vulnerability",
+                "exposure"
+              ],
+              "vehicle_concept": "physical injury"
+            },
+            "source_span_original": "एक घाव सामने खुला, और गहरा हो गया",
+            "source_span_translation": "A wound opened before me, and grew deeper",
+            "source_term": "एक घाव सामने खुला, और गहरा हो गया",
+            "tenor": "An emotional trauma or painful existential crisis",
+            "vehicle": "A physical, deepening bodily wound",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dark, abstract crack or fissure opening up in a flat, minimalist landscape or wall, with a soft, deep shadow inside to suggest depth without blood."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'सवाल हो गया' (became a question) as 'became sharper' in L2, losing the literal repetition of 'सवाल' (question) which mirrors the thematic focus on questioning in L2 and L4.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'तड़प' (restlessness, agony, yearning) as 'ache' flattens the intense emotional and physical restlessness implied by the Hindi term.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "The translation of 'एक अजनबी ख्वाब हो गया' as 'an unfamiliar dream departed' interprets 'ho gaya' as 'departed/gone' in this context, which resolves the slight ambiguity of the original Hindi verb phrase.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's hopes, aspirations, and plans for the future collapsed or were shattered.",
+            "acceptable_visual_variants": [
+              "Delicate glowing bubbles cracking and dissolving into dust.",
+              "A fragile, crystalline structure or star-like shape fracturing into pieces."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Intangible mental dreams physically shattering into pieces like glass.",
+            "literalization_risk": "Showing literal sleeping bubbles or clouds physically cracking like glass might look cartoonish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "failing hopes",
+              "transferred_attributes": [
+                "fragility",
+                "irreversibility",
+                "breaking into sharp pieces"
+              ],
+              "vehicle_concept": "shattering glass"
+            },
+            "source_span_original": "सपने टूटने लगे",
+            "source_span_translation": "Dreams started breaking",
+            "source_term": "सपने टूटने लगे",
+            "tenor": "The collapse of hopes and aspirations",
+            "vehicle": "Shattering glass or brittle physical objects",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict delicate, translucent, glowing spheres or glass-like bubbles floating in the air, with some of them cracking and splintering into tiny shards."
+          },
+          {
+            "abstract_meaning": "The boundary or transition point where one must face harsh, objective reality.",
+            "acceptable_visual_variants": [
+              "A sharp, geometric stone frame standing alone in an empty space.",
+              "A stark threshold of light and shadow where a figure stands."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A physical wooden or metal door belonging to a structure named Reality.",
+            "literalization_risk": "Drawing a literal wooden door with the word 'Reality' written on it would look clumsy and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "confronting reality",
+              "transferred_attributes": [
+                "boundary",
+                "passage",
+                "transition",
+                "separation"
+              ],
+              "vehicle_concept": "doorway"
+            },
+            "source_span_original": "यथार्थ के इस दरवाज़े",
+            "source_span_translation": "door of reality",
+            "source_term": "यथार्थ के इस दरवाज़े",
+            "tenor": "The transition point or boundary of objective reality",
+            "vehicle": "A physical door or threshold",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stark, sharp, minimalist architectural doorway casting a long, hard shadow, separating a soft, hazy background from a cold, clear foreground."
+          },
+          {
+            "abstract_meaning": "The complete absence of words or speech itself became an active, demanding inquiry or source of tension.",
+            "acceptable_visual_variants": [
+              "A single candle whose flame is perfectly still, surrounded by vast, heavy darkness.",
+              "A silhouette of a person facing a massive, blank, towering wall."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "The abstract state of silence transformed into a living entity or a literal punctuation mark that asks a question.",
+            "literalization_risk": "Drawing a literal giant question mark floating in an empty room would look like a comic strip.",
+            "metaphor_mapping": {
+              "tenor_concept": "unresolved silence",
+              "transferred_attributes": [
+                "demanding an answer",
+                "imposing presence",
+                "tension"
+              ],
+              "vehicle_concept": "an active questioner"
+            },
+            "source_span_original": "मौन एक सवाल हो गया",
+            "source_span_translation": "silence has become a question",
+            "source_term": "मौन एक सवाल हो गया",
+            "tenor": "The heavy, unresolved tension of absolute silence",
+            "vehicle": "An active, questioning entity or symbol",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a solitary figure sitting in a vast, empty, dark space with their hand over their mouth, with the vast negative space around them conveying the heavy, looming weight of silence."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'एक अजनबी ख्वाब हो गया' (became an unfamiliar/strange dream) as 'an unfamiliar dream departed', changing the verb 'हो गया' (became) to 'departed' and altering the existential state of the dream.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'कभी चुप था' (sometimes [I] was silent) loses the implicit subject pronoun and grammatical gender/number agreement of the past tense verb 'था' (masculine singular), which is flattened into a gender-neutral English past tense.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The painful transformation of suffering and broken dreams into unresolved, silent questions."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक घाव सामने खुला, और गहरा हो गया,  \nकुछ और नहीं, सिर्फ़ वही सवाल हो गया।  \nयह दर्द, यह तड़प, यह जलन, क्या है,  \nहर ज़ख्म से पहले एक और सवाल हो गया।\n\nसपने टूटने लगे, आशाएँ धराशायी हुईं,  \nयथार्थ के इस दरवाज़े से एक अजनबी ख्वाब हो गया।  \nकभी चुप था, कभी गुस्से में जलता,  \nअब शब्द भी चुप हो गए, और मौन एक सवाल हो गया।",
+  "poem_id": "MV++_0557",
+  "poem_title": "Ek Ghaav Saamne Khula",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "77427c44121de2e09639d45f557a9089e0f723005594954f224ccdcfc238c1d1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0557.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A wound opened before me, and grew deeper,  \nNothing else, just that same question became sharper.  \nThis pain, this ache, this burning, what is it?  \nBefore every wound, another question arose.\n\nDreams started breaking, hopes fell apart,  \nThrough the door of reality, an unfamiliar dream departed.  \nAt times I was silent, sometimes burning with rage,  \nNow words have fallen silent, and silence has become a question.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:38:32.503951+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e464a9610d0dd3bc53643b83f4c00003b2da72be0a1acdc21c3b08195b5b1292",
+        "response_hash": "d9e629a19440d4b78ab11a001fa96c002d4276339bad7fcfc02e6db8efe96d86"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "020c06463c65821abda5ae74d7cf2f329d4add4a273dff7dcff7fda88393239b",
+        "response_hash": "ee363aa0b96a6d8fbe7e8e46c3d8f160530364de2c17715d89ca12859281b1cd",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d3b93c823e960f0989370d4612dfb13fba63a0831eba274a2855aff0624b28a9",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a5dc49b76884a73e407bf85e01330c8eca4af5211bad25b7f8926bfa8330dc3d",
+        "response_hash": "121305e307b0c36ff8b95104b5575e9df7c5c2607557bd014051f75e5d61ad92",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "45491faafce0027aa4fc67a4f42a1878ae1d7377cfcd193b6fe4d33694bb9948",
+        "response_hash": "342801bfd8a22c81a9f451410a72cff9ef90ca8e3b23d5116ebfbe1412566dda",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "06f9ae534110eff42d6c94ec06813148aabd65b09614120d527d9f4191e1ff68",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0b72e0149b119156c6daadef94207a3668f7594e0405e695458f0a8073badb14",
+    "translation_sha256": "aecfa747ea9803d12a0c15b61ae7d8670d6f6c7b448c558e143a18eda28f7d94"
+  }
+}

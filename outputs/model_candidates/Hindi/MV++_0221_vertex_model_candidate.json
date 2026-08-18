@@ -1,0 +1,290 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Simple hand-molded clay dolls dissolving in a stream",
+          "A single fragile clay figure crumbling under water"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Literally 'puppets or figurines of clay'; a common philosophical and devotional metaphor in South Asian poetry (especially Bhakti and Sufi traditions) representing the fragile, transient nature of the human body and mortal life.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "Highly detailed, painted ceramic or porcelain dolls",
+          "Ornate religious idols (murti) used in temple worship"
+        ],
+        "preserved": true,
+        "romanization": "maati ke putle",
+        "source_span_original": "माटी के पुतले",
+        "source_span_translation": "clay figurines",
+        "stanza_index": 2,
+        "term": "माटी के पुतले",
+        "translation_note": "The translation renders this as 'clay figurines', which captures the literal meaning but loses the specific South Asian philosophical/devotional idiom of the human body as a fragile, temporary vessel made of clay/dust.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Small, fragile figurines or puppets molded from raw, unbaked river clay or earth",
+          "Cracked or dissolving surfaces as they are swept away by water"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "melancholy and grief to quiet resignation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker feels completely enveloped and paralyzed by a deep sense of sadness and grief.",
+            "acceptable_visual_variants": [
+              "A person sitting alone on a bench with their arms wrapped around their knees in a protective posture",
+              "A close-up of hands tightly gripping one's own shoulders in a cold, empty landscape"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "My arms physically wrapped or enveloped in sadness",
+            "literalization_risk": "Showing literal ghostly arms or a physical fabric labeled 'sadness' wrapping around a person's arms, which looks comical or supernatural.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional engulfment by sadness",
+              "transferred_attributes": [
+                "enveloping",
+                "constricting",
+                "inescapable"
+              ],
+              "vehicle_concept": "physical wrapping or clasping"
+            },
+            "source_span_original": "उदासी में लिपटी हुई मेरी बाहें",
+            "source_span_translation": "My arms wrapped in melancholy’s clasp",
+            "source_term": "उदासी में लिपटी हुई मेरी बाहें",
+            "tenor": "The emotional state of being overwhelmed by sadness",
+            "vehicle": "A physical cloth or clasp wrapping around arms",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lonely figure sitting with their arms tightly crossed over their chest in a self-hugging gesture, set against a bleak, desaturated background."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'मेरी बाहें' (my arms) as 'My arms wrapped in melancholy's clasp', which shifts the active grammatical state of the arms being wrapped/enveloped in sadness ('उदासी में लिपटी हुई') to a personified 'clasp' of melancholy, altering the passive, heavy physical sensation of the original Hindi phrasing.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The people or things the speaker valued as living, meaningful parts of life have turned out to be fragile, lifeless, and temporary.",
+            "acceptable_visual_variants": [
+              "Cracked, fragile clay statues sitting on a riverbank being eroded by waves",
+              "A hand releasing dry, crumbling clay dust into a flowing river"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "became puppets or figurines made of clay/mud",
+            "literalization_risk": "Depicting literal toy-like clay dolls floating in water, which might look like a children's play scene rather than a poignant realization of mortality and loss.",
+            "metaphor_mapping": {
+              "tenor_concept": "transient human relationships or life illusions",
+              "transferred_attributes": [
+                "fragility",
+                "lifelessness",
+                "susceptibility to being washed away"
+              ],
+              "vehicle_concept": "clay figurines"
+            },
+            "source_span_original": "माटी के पुतले बने",
+            "source_span_translation": "turned to clay figurines",
+            "source_term": "माटी के पुतले बने",
+            "tenor": "The fragile, transient, and ultimately lifeless nature of worldly relationships or illusions",
+            "vehicle": "Clay figurines (fragile, easily dissolved or broken)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show delicate, unbaked clay figures dissolving and crumbling as they are swept away by a gentle stream of water."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'बहा दें' (let us wash away / flow away) as 'swept away somehow' loses the active, potentially self-directed or ritualistic suggestion of letting go or releasing (flowing away) the clay figurines, replacing it with an accidental passive occurrence ('somehow').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The transition of evening into night feels heavy and saturated with a deep, pervasive sadness.",
+            "acceptable_visual_variants": [
+              "A solitary figure watching a dim, foggy sunset over a barren field",
+              "A streetlamp turning on in the deep, misty twilight of an empty street"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "This evening dissolving or melting into sadness",
+            "literalization_risk": "Showing a literal sky melting like paint into a beaker, which is overly surreal and distracts from the emotional tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "deepening emotional atmosphere",
+              "transferred_attributes": [
+                "blending",
+                "permeating",
+                "fading away"
+              ],
+              "vehicle_concept": "dissolving substance"
+            },
+            "source_span_original": "उदासी में घुलती ये शाम",
+            "source_span_translation": "This evening dissolves into sadness",
+            "source_term": "उदासी में घुलती ये शाम",
+            "tenor": "The atmosphere of the evening becoming increasingly melancholic",
+            "vehicle": "A substance dissolving into a liquid",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a landscape at dusk where the warm colors of sunset are rapidly fading into cold, dark, misty blues and grays."
+          },
+          {
+            "abstract_meaning": "The paths or journeys of life are fading into absolute silence and emptiness.",
+            "acceptable_visual_variants": [
+              "An empty forest path covered in fallen leaves under a quiet, overcast sky",
+              "A desolate road stretching into the dim twilight with no signs of life"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "These paths molding or slipping into silence",
+            "literalization_risk": "Showing a road physically disappearing into a giant mouth or a literal shadow labeled 'silence'.",
+            "metaphor_mapping": {
+              "tenor_concept": "a life journey becoming quiet and lonely",
+              "transferred_attributes": [
+                "quietness",
+                "obscurity",
+                "disappearance"
+              ],
+              "vehicle_concept": "a path fading into darkness or shadow"
+            },
+            "source_span_original": "ख़ामोशी में ढलती हुई ये राहें",
+            "source_span_translation": "These paths slip into silence's shades",
+            "source_term": "ख़ामोशी में ढलती हुई ये राहें",
+            "tenor": "The quiet, lonely, and uneventful nature of the speaker's life path",
+            "vehicle": "Paths physically transforming or slipping into a physical shade of silence",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a long, empty dirt path winding into a thick, quiet fog where the horizon is completely obscured."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses 'shades' to rhyme with 'fades', which introduces a visual metaphor of shadows/shades not explicitly present in the Hindi verb 'ढलती हुई' (fading/setting/molding into silence).",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'Lost in the days, gone somehow' collapses the specific Hindi phrasing 'सिर्फ़ यादों में खो गए वो दिन सारे' (all those days became lost only in memories), completely omitting the crucial word 'यादों' (memories) to force a rhyme with 'now'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transience of life and the fading of memories into silence"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पीले पत्तों का बन, वो सूनी राहें,\nउदासी में लिपटी हुई मेरी बाहें।\n\nजिन्हें जीवन समझे बैठे थे अब तक,\nवो माटी के पुतले बने, बहा दें।\n\nउदासी में घुलती ये शाम ढल रही,\nख़ामोशी में ढलती हुई ये राहें।\n\nवो सब जो हमने थे समझे अब तक,\nसिर्फ़ यादों में खो गए वो दिन सारे।",
+  "poem_id": "MV++_0221",
+  "poem_title": "Peele Patton Ka Ban",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c966589f7102deaec47356d403774996548d41f78330fa2f79009dfc78bb21e3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0221.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The forest of yellow leaves, those lonely paths,\nMy arms wrapped in melancholy’s clasp.\n\nWhat we thought was life until now,\nHave turned to clay figurines, swept away somehow.\n\nThis evening dissolves into sadness as it fades,\nThese paths slip into silence's shades.\n\nAll that we understood till now,\nLost in the days, gone somehow.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:01:23.227926+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "02a245d2b5390b92ea108cd3a7e35e98685a3748f4453c68ccb05b988d27e3d1",
+        "response_hash": "7b2c984bf6462a9c7efe6adfbaed8e09a670c9089b7f5b521bed2d4249042d59",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "33e5df4769f02ab350419873a8db3e85137a5852ac6fae6d555feeb0fbb14a97",
+        "response_hash": "dce3382945da4f638417b09e84e417297250d358928f84808bbf2c4d15d9f024",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "43294d8ebfd81c9cf037f792c9fafad4582a786a3bea1814ce5477506ed59a62",
+        "response_hash": "941cc3d2db4a0b5e9284b8156045c82be439ebeab4043ac1535981a09f36a616",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8bf00a4c82bf6df85028747768cd2ef88f8ef0376d6d393e0206f4b0b076e394",
+        "response_hash": "feacb8b5aafb31e83defac01a934a3da5f1f4dd28ee19cea65ef86d37279a9cb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "99d14dcf40683cf040e1248e22368b698b1a9e776357e6cc46520490585f342a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9f5be27d31f9902e01cc419f46ab518235e3cdfd48ccec198387402e7b3dd858",
+    "translation_sha256": "2ac75f425b2b348bf9bdcae8f7af871779bfe635def138d644622ddd3f8c9b2f"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Homeland, motherland, or country; a term deeply rooted in South Asian patriotic and emotional discourse.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "watan",
+        "source_span_original": "वतन",
+        "source_span_translation": "country",
+        "stanza_index": 1,
+        "term": "वतन",
+        "translation_note": "The Urdu-derived term 'watan' carries a deep, emotionally charged sense of homeland, nation, or motherland in South Asian poetry, which is translated as 'country' in English.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A steady, unifying declaration of shared ownership and belonging, moving from collective assertion to a tender, dream-filled embrace of the homeland.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'watan' as 'country' loses the deep emotional, patriotic, and poetic resonance of the Urdu/Hindi word 'watan', which carries a strong sense of homeland, belonging, and shared identity.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The homeland is built upon, sustained by, and belongs to the collective love and aspirations of its people.",
+            "acceptable_visual_variants": [
+              "A group of diverse citizens looking towards a bright horizon together",
+              "Hands holding soil together with small green shoots growing from it"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7-L8",
+            "literal_meaning": "The country belongs to/is made of your love and your dreams.",
+            "literalization_risk": "Showing literal floating hearts or sleeping people dreaming next to a physical map of a country, which misses the abstract sense of civic devotion and shared national hope.",
+            "metaphor_mapping": {
+              "tenor_concept": "abstract emotions and aspirations of citizens",
+              "transferred_attributes": [
+                "ownership",
+                "foundational structure",
+                "creative source"
+              ],
+              "vehicle_concept": "possessions or building blocks of a physical space"
+            },
+            "source_span_original": "तुम्हारी मुहब्बत का है,\nतुम्हारे ही ख्वाबों का है।",
+            "source_span_translation": "It is the love of yours,\nIt is your dreams, too.",
+            "source_term": "तुम्हारी मुहब्बत का है,\nतुम्हारे ही ख्वाबों का है।",
+            "tenor": "The emotional and aspirational investment of the citizens in their nation",
+            "vehicle": "Love and dreams as physical foundations or owners of a country",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a diverse group of people holding hands or working together to build a community, with subtle warm lighting symbolizing hope and shared dreams."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'tumhari muhabbat ka hai' as 'It is the love of yours' and 'tumhare hi khwabon ka hai' as 'It is your dreams, too' flattens the possessive postposition 'ka' (of), which grammatically links the homeland directly as being 'made of' or 'born from' your love and dreams.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The homeland belongs equally to everyone, built on shared love, dreams, and collective identity."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss array detailing a medium-severity loss of the emotional resonance of 'watan'. This is internally inconsistent.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss array detailing a medium-severity loss of the possessive postposition 'ka' (of). This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "यह वतन तुम्हारा है,\nयह वतन हमारा है।\nहम सबका है,\nहम सबका है।\nयह वतन तुम्हारा है,\nयह वतन हमारा है।\n\nतुम्हारी मुहब्बत का है,\nतुम्हारे ही ख्वाबों का है।\nहमारा वतन है,\nहमारा वतन है।\nयह वतन तुम्हारा है,\nयह वतन हमारा है।",
+  "poem_id": "MV++_0893",
+  "poem_title": "Yeh Watan Tumhara Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6f19d7cd43ee21ff86e7ae02e70bb110d9a2d304d5615733f84ec680e4cea86c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0893.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This country belongs to you,\nThis country belongs to us.\nIt belongs to all of us,\nIt belongs to all of us.\n\nIt is the love of yours,\nIt is your dreams, too.\nIt is our country,\nIt is our country.\nThis country belongs to you,\nThis country belongs to us.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:27:03.226371+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e43f5c2f2d5eb46005277f250fff581bb627fe54e48f4e76357cbdd4d2739b6",
+        "response_hash": "585faac639f868850746631704324cb4435a17cb0f5c7351f7cbe44891a19843",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "080accc6399adb4ef60ece0e209b0a9310f9094571cb34fbd0aae7d579168667",
+        "response_hash": "b81df2025779ffe97983c998e697c3a1f1506923674fd621e078b7e2a0519cc3",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f52286688165b96b52b1e817732b598880978985cb458e551bb5629a084691d6",
+        "response_hash": "e70ca478a5eb137f35dc087d371a5634ee10ce01bd8be8aeede2b768251ad07f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ffd88454e88439e6d588d4b62da37c53a69cce70ba6d91a646b697866b570498",
+        "response_hash": "9f15fa1f84f20947ef66eafc88908e1cdde0e5e7e58f4e2a22c9e4339d99ec92",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aaa5ec138a685fc6924ddfa4b51f2062319616b211d600fe9f8b635ac07d5465",
+        "response_hash": "e9ac737e72ac23b5eaf3ee7130c7a3d9630da74f089d1075a11a07929d4e88fc",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f39857ca697ed37f7e79140415a9df8d366161207601a527f28a6a33e5ef974a",
+    "translation_sha256": "0fb83485a46b03c283bf4c07952ae7042101525ca96c5ed781837931400dc7a1"
+  }
+}

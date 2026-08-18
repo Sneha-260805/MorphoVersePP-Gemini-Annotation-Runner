@@ -1,0 +1,316 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A close-up of feet resting on the soil with hands gently reaching towards them in a gesture of respect.",
+          "A symbolic representation of bowing down to the earth."
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The feet of a revered figure (deity, mother, or motherland), serving as a focal point of devotion, surrender, and respect in South Asian cultural and religious traditions.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "Depicting modern shoes or western-style walking footprints instead of bare feet associated with reverence.",
+          "Depicting a purely physical walk or journey without the devotional posture of surrender."
+        ],
+        "preserved": true,
+        "romanization": "charanon",
+        "source_span_original": "चरणों",
+        "source_span_translation": "footsteps",
+        "stanza_index": 2,
+        "term": "चरणों",
+        "translation_note": "Translated as 'footsteps', which shifts the physical and devotional focus from the literal feet (charan) to the path or movement (footsteps).",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "A person bowing down or placing their hands/head near the feet of a revered figure.",
+          "Feet adorned with simple traditional markings or dust of the soil."
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A dusty, empty courtyard of a rural home with sunlight streaming down.",
+          "An abandoned inner courtyard of a traditional brick or mud house."
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The traditional central open courtyard of a South Asian home, serving as the heart of domestic life, family gatherings, and daily rituals.",
+        "line_ref": "L8",
+        "negative_confusions": [
+          "A modern suburban backyard with grass lawns and patio furniture.",
+          "A grand palace courtyard or a public town square."
+        ],
+        "preserved": true,
+        "romanization": "aangan",
+        "source_span_original": "आँगन",
+        "source_span_translation": "courtyard",
+        "stanza_index": 2,
+        "term": "आँगन",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An open-to-the-sky central courtyard of a traditional house.",
+          "Clay or stone-paved floor, possibly with a small tulsi plant or traditional household items nearby.",
+          "A sense of emptiness or lack of activity to reflect the 'deserted' (soona) state."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "deep reverence and connection to a maternal or sacred presence, shifting to a poignant sense of emptiness without them",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'ahsaas' as 'sense' and 'essence' in different lines slightly flattens the emotional resonance of the repeated Hindi word 'अहसास' (ahsaas), which carries a deep, felt presence.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deep emotional connection, belonging, and life-giving essence associated with one's homeland or motherland.",
+            "acceptable_visual_variants": [
+              "A wide-angle view of golden agricultural fields under a warm sun",
+              "A close-up of fresh rain falling on dry earth with green sprouts emerging"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "In the scent of your physical dirt/soil",
+            "literalization_risk": "An illustrator might literally depict someone smelling a handful of dirt, which misses the grander emotional and patriotic sense of belonging to a homeland.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional connection to homeland",
+              "transferred_attributes": [
+                "evocative power",
+                "grounding presence",
+                "life-giving quality"
+              ],
+              "vehicle_concept": "fragrance of soil"
+            },
+            "source_span_original": "तेरी मिट्टी की खुशबू में",
+            "source_span_translation": "In the fragrance of your soil",
+            "source_term": "तेरी मिट्टी की खुशबू में",
+            "tenor": "The emotional essence and sense of belonging to the homeland",
+            "vehicle": "The physical scent of soil/earth",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, warm landscape of fertile fields or earth under a soft light, evoking a sensory connection to the land without focusing on a single handful of dirt."
+          },
+          {
+            "abstract_meaning": "The nurturing, motherly care of the homeland present in every drop of water or rain.",
+            "acceptable_visual_variants": [
+              "Dewdrops glistening on a fresh green leaf in the morning",
+              "Gentle rain falling on parched soil, causing tiny sprouts to grow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In every physical drop of liquid is your motherly love",
+            "literalization_risk": "Depicting literal motherly figures inside water droplets would look surreal and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "motherly love and nurturing",
+              "transferred_attributes": [
+                "purity",
+                "life-giving nourishment",
+                "pervasiveness"
+              ],
+              "vehicle_concept": "drops of water"
+            },
+            "source_span_original": "हर बूँद में तेरी ममता",
+            "source_span_translation": "In every drop, your nurturing",
+            "source_term": "हर बूँद में तेरी ममता",
+            "tenor": "The nurturing care and love of the homeland/mother",
+            "vehicle": "A physical drop of water/rain",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show gentle rain or dew drops nourishing green leaves or crops, symbolizing life-giving care."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses 'essence' for 'ahsaas' in L4, but 'ahsaas' is repeated in both L2 and L4 in the original Hindi, creating a rhythmic and thematic echo of 'feeling/awareness' that is lost by using two different English words ('sense' and 'essence').",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'mamta' as 'nurturing' loses the deeply specific cultural and emotional resonance of maternal love, tenderness, and motherly affection inherent in the Hindi word.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'चरणों' (charanon) as 'footsteps' misses the deeply respectful and devotional connotation of 'sacred feet' or 'feet of a revered figure' in Hindi culture.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Complete devotion, surrender, and finding all of one's desires and purpose in serving or being near the beloved/homeland.",
+            "acceptable_visual_variants": [
+              "A path of soft footprints on a dusty road illuminated by golden sunlight",
+              "A silhouette of a person standing respectfully near a sacred threshold or path"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5-L6",
+            "literal_meaning": "All my desires live/dwell in your physical feet/footsteps",
+            "literalization_risk": "Showing literal desires or tiny people living inside or around a pair of physical feet would look bizarre and miss the spiritual/emotional depth of devotion.",
+            "metaphor_mapping": {
+              "tenor_concept": "complete devotion and surrender of desires",
+              "transferred_attributes": [
+                "humility",
+                "sanctuary",
+                "ultimate destination"
+              ],
+              "vehicle_concept": "dwelling at someone's feet"
+            },
+            "source_span_original": "तेरे चरणों में बसी है,\nमेरी हर चाहत।",
+            "source_span_translation": "In your footsteps resides,\nAll my desires.",
+            "source_term": "तेरे चरणों में बसी है, मेरी हर चाहत।",
+            "tenor": "The ultimate state of devotion, surrender, and life's purpose",
+            "vehicle": "The physical feet or footsteps of a revered figure",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a figure in a posture of deep respect or contemplation looking towards a path of footprints leading into a warm, bright horizon."
+          },
+          {
+            "abstract_meaning": "An intense feeling of emptiness, desolation, and lack of life or joy when separated from the beloved/homeland.",
+            "acceptable_visual_variants": [
+              "An empty courtyard of a traditional home with an unused swing under a bare tree",
+              "A quiet, shadowed courtyard with a single extinguished clay lamp (diya) on the porch"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L8",
+            "literal_meaning": "Like an empty, silent courtyard of a house",
+            "literalization_risk": "An illustrator might draw a literal abandoned house courtyard, which is a faithful visual but needs to convey the emotional state of loneliness rather than just architectural decay.",
+            "metaphor_mapping": {
+              "tenor_concept": "empty and lonely life",
+              "transferred_attributes": [
+                "silence",
+                "lack of life",
+                "absence of warmth",
+                "neglect"
+              ],
+              "vehicle_concept": "deserted courtyard"
+            },
+            "source_span_original": "जैसे सूना कोई आँगन",
+            "source_span_translation": "Like a deserted courtyard",
+            "source_term": "जैसे सूना कोई आँगन",
+            "tenor": "A life devoid of meaning, joy, or presence of the beloved",
+            "vehicle": "A deserted, silent courtyard",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict an empty, traditional courtyard with dry leaves scattered on the ground, cast in long, lonely shadows of late afternoon."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'charnon' (literally 'feet' or 'revered feet') as 'footsteps', which loses the cultural and devotional nuance of seeking refuge, respect, or solace at someone's feet.",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'soona koi aangan' as 'deserted courtyard' loses the cultural resonance of the 'aangan' (courtyard) as the vibrant, central social and familial heart of a traditional Indian home, making its emptiness particularly poignant.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound, life-giving connection to one's motherland or maternal figure, whose absence leaves life completely desolate."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'ALTERED' and the 'translation_note' explains that the translation shifts the focus from feet to footsteps. These values are internally inconsistent; 'preserved' should be false if the translation status is ALTERED.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PRESERVED' while the translation actually translates 'aangan' as 'courtyard' (which is a translation, not a preservation of the original term). This is a minor conceptual inconsistency.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तेरी मिट्टी की खुशबू में,  \nजीने का अहसास है।  \nहर बूँद में तेरी ममता,  \nहर कण में तेरा अहसास है।  \n\nतेरे चरणों में बसी है,  \nमेरी हर चाहत।  \nतेरे बिना ये जीवन है,  \nजैसे सूना कोई आँगन।",
+  "poem_id": "MV++_0842",
+  "poem_title": "Teri Mitti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a2f7d81939e216597d08ff1bef0a0c61690a895bd0db94b082dac09d98ae95a1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0842.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the fragrance of your soil,  \nThere’s a sense of living.  \nIn every drop, your nurturing,  \nIn every grain, your essence.  \n\nIn your footsteps resides,  \nAll my desires.  \nWithout you, this life is,  \nLike a deserted courtyard.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:20:06.106164+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2ad3962bd83a980752d8ab58120d6ca8ab3efbf3950a8ce9ea51057b7d9b1c8c",
+        "response_hash": "3992104680f108aa0e9a9dc677baeee9974f39456ef75415bd5e05433c2a49ec"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "60231c2db510cbe873d06323d02feb57ff809f038982930809c49b8e25ad468e",
+        "response_hash": "e1f1da8b9541a24eebe9779fa99353a42819f4b87d504b10c2c6778b00447b1d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9284bf4f1343418e6da450c312f6e748ff4f14ce7994333ba86cc53fef5a99bd",
+        "response_hash": "5de03826dd17e3df4211f61efba497a49e4c4fb5c678583b663bd3c4bddc4e89",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b834d5a0e96f42ee0e30f76d95675a5536920e6bad3935d435d2da46e9e0fd81",
+        "response_hash": "6b261eaa2b617fa0f43e3848030182136743e3eb6a7ce0c1d0a220ed0be143c3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df945d4b6314a28a2694022a5d4bfd13f87c64413b937d3ded8dc2dd8c5a58c5",
+        "response_hash": "5bc16be93271ffcb8e8596becb006f3955b643a97da41cc9f0aa294f8e4021b9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "05df20096f7c5c440a2b076b896aea64af4be49468468f9ec8dfc43f69a9c68c",
+        "response_hash": "1ce8194854354b5cb3a6fa67c3680ce8e329077e6e789b289c2cfb66e22f5253",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f382b8ebf92d93ce3047943b09970d167d478ae21edc8d67133d0ce0f901a8a9",
+    "translation_sha256": "3598433d55b10d7f6f90b2da3ddc633750aabd3369be6692b4781534a190b2cb"
+  }
+}

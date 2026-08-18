@@ -1,0 +1,231 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "joyful anticipation to deep contentment and celebration of a beloved's arrival",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "The translation renders 'saj gaye' (decorated/adorned) as 'blossomed' to fit the English poetic idiom, slightly shifting the visual metaphor of preparation and adornment to organic growth.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's hopes and aspirations became beautiful, active, and real upon the beloved's arrival.",
+            "acceptable_visual_variants": [
+              "A person looking happy with soft, warm light reflecting on their face as if seeing their hopes come alive",
+              "A cozy home interior transitioning from dimness to a warm, decorated glow"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Dreams were decorated / adorned",
+            "literalization_risk": "Showing literal sleeping dreams physically putting on jewelry or decorations, which looks absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "realization of dreams",
+              "transferred_attributes": [
+                "beauty",
+                "festivity",
+                "readiness"
+              ],
+              "vehicle_concept": "adornment/decoration"
+            },
+            "source_span_original": "सपने सज गए",
+            "source_span_translation": "Dreams blossomed",
+            "source_term": "सपने सज गए",
+            "tenor": "The realization and beautification of hopes and dreams",
+            "vehicle": "Adorned or decorated entities (like a bride or a festive house)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing domestic scene where abstract, soft-focused dreamlike bubbles or symbols of hope gently light up around a welcoming doorway."
+          },
+          {
+            "abstract_meaning": "A pervasive, protective, and comforting presence of happiness surrounding the home.",
+            "acceptable_visual_variants": [
+              "A gentle, warm glow cast over a family or couple",
+              "A soft, protective canopy-like light filtering through a window"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The shadow/shade of happiness",
+            "literalization_risk": "Showing dark, ominous literal shadows cast on the floor, which conveys fear or gloom instead of joy.",
+            "metaphor_mapping": {
+              "tenor_concept": "enveloping joy",
+              "transferred_attributes": [
+                "protection",
+                "coolness",
+                "pervasiveness"
+              ],
+              "vehicle_concept": "protective shade/shadow"
+            },
+            "source_span_original": "खुशियों का साया",
+            "source_span_translation": "Shadows of happiness",
+            "source_term": "खुशियों का साया",
+            "tenor": "The comforting and enveloping presence of joy",
+            "vehicle": "A protective shadow or shade cast by a tree or canopy",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Represent the 'shadow' as a soft, protective canopy of warm, golden light or gentle, translucent patterns enveloping the characters."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'सज गए' (saj gaye) as 'blossomed' loses the literal meaning of being decorated, adorned, or arranged beautifully, shifting the visual metaphor from active preparation/adornment to organic growth.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The emphatic particle 'ही' (hee) in 'तुम ही' (tum hee), which emphasizes 'you' (as in 'you yourself' or 'only you'), is flattened to a simple 'you' in the English translation.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The sensory quality of 'khanak' (specifically the sharp, metallic, or glass-like tinkling sound of laughter or bangles) is simplified to 'tinkling' in English, losing its specific cultural resonance of lively domestic warmth.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A period of intense joy, renewal, and beauty brought into the speaker's life.",
+            "acceptable_visual_variants": [
+              "A background filled with fresh green leaves and soft blossoms framing a happy scene",
+              "A warm sunlight illuminating a garden-like indoor or outdoor space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Spring season in life",
+            "literalization_risk": "Showing literal flowers suddenly bursting out of a person's physical body or limbs.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful phase of life",
+              "transferred_attributes": [
+                "freshness",
+                "blooming",
+                "vibrancy",
+                "joy"
+              ],
+              "vehicle_concept": "spring season"
+            },
+            "source_span_original": "जीवन में बहार",
+            "source_span_translation": "Spring in life",
+            "source_term": "जीवन में बहार",
+            "tenor": "A state of happiness, vitality, and emotional renewal",
+            "vehicle": "The spring season (blooming flowers, greenery, fresh life)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a subtle transition in the background environment from dry or neutral tones to vibrant, blooming green plants and colorful flowers around the characters."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific auditory quality of 'खनक' (khanak), which denotes a metallic clinking, ringing, or sharp tinkling sound (often associated with bangles or coins), is translated as a generic 'tinkling', losing its culturally resonant sensory texture.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The word 'बहार' (bahaar) carries a rich Persian-derived poetic association of spring, bloom, and prosperity, which is simplified to the literal season 'Spring' in English.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative joy, warmth, and renewal brought to a home and heart by the arrival of a beloved person."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जब तुम ही घर आए\n\nजब तुम ही घर आए,  \nसपने सज गए,  \nखुशियों का साया,  \nहर दिल में बसा।  \n\nतेरी हंसी की खनक,  \nसंग लाए प्यार,  \nजीवन में बहार,  \nहर पल का एहसास।",
+  "poem_id": "MV++_0800",
+  "poem_title": "Jab Tum Hi Ghar Aaye",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "09f363ebb51a6dddef4a7d0841c5e62ed64699b6def3931d14882daf8e185ef4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0800.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "When You Came Home\n\nWhen you came home,  \nDreams blossomed,  \nShadows of happiness,  \nSettled in every heart.  \n\nThe tinkling of your laughter,  \nBrought love along,  \nSpring in life,  \nThe feeling of every moment.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:13:51.872602+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da5a5e4952d2515426c05857f9342bd9aadda5c080b4dee0de5dae5a9a167f08",
+        "response_hash": "2d78f358061b07f960314595464627dc6dd7f3e200b9de558e6607295c68c809"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b8d0cc025aa288167c4080dd676f377a9ed800ca8a424c6b39ea2f62e386e3b",
+        "response_hash": "6bfeaf6cc34cbe2e06afa4932a4a4b295302b97cbe40f857f7e66e0a7d25e482",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bf9ecf9d0ea3e30c8c6940cea31f6b86d9659d3ed9585ec9f98c0eaf2d3eb39f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b423d3dc198971d61ccccefccb4bbdd9305b566fa95e21468910f6dfe879c03d",
+        "response_hash": "d7333c23a6ed5c88d320dd1543af21096f23e4d2cfed9a8b1f94a2ed93305f80",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e372345e888138230fbf37e6addf22839162aaf6a8abae794ec5bc2814026cf",
+        "response_hash": "78921b1e3deb7911c40450b906308a3657462e31f2b86dbf793486ab114bbff8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "10ed39e8aa47f83e63a82f70aad0cbf7f4d76adc4f5f2b202bffec97a51b3f33",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a2ed85deccf3c40cc8d267c29335db1b90e1f46f9477ae362a256f897b0a738d",
+    "translation_sha256": "e13f3f6884718ea7251a42949c95ff5173f00851fdcf3eec9a9c257443721ad7"
+  }
+}

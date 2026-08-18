@@ -1,0 +1,147 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A gentle declaration of deep love and devotion, moving from a rhetorical question of existence to an intimate sensory connection.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of L1 ('You say everything in every word') alters the meaning of the original Hindi ('At every single word/matter, you say...'). Additionally, the sensory metaphor of fragrance ('khushboo') in the heartbeat is rendered as 'rings true' in English, which loses the literal olfactory imagery of the original.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's essence, presence, or memory is deeply integrated into the speaker's very life and heartbeat.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person with a warm, pulsing light in the chest area, with delicate petals or soft mist drifting around them.",
+              "Two figures close together, where one's presence is visualized as a soft, fragrant aura enveloping the other's chest/heart area."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "In every heartbeat of the heart, there is only your fragrance.",
+            "literalization_risk": "Showing a literal heart organ pumping out perfume or scented mist, which would look bizarre, medical, or comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "the beloved's essence permeating the speaker's life",
+              "transferred_attributes": [
+                "pervasiveness",
+                "sweetness",
+                "vitality",
+                "intimacy"
+              ],
+              "vehicle_concept": "fragrance filling a physical heartbeat"
+            },
+            "source_span_original": "दिल की हर धड़कन में,\nतुम्हारी ही तो खुशबू है।",
+            "source_span_translation": "In every heartbeat,\nIt’s your fragrance that rings true.",
+            "source_term": "दिल की हर धड़कन में, \nतुम्हारी ही तो खुशबू है।",
+            "tenor": "the beloved's constant, life-giving presence in the speaker's life",
+            "vehicle": "fragrance (khushboo) inside a heartbeat (dhadkan)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of a person with a glowing, warm light radiating from their chest, surrounded by subtle, swirling floral or abstract patterns representing fragrance."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'You say everything in every word' misinterprets the original Hindi 'हर एक बात पे कहते हो तुम' (har ek baat pe kahte ho tum), which literally means 'At every single word/matter, you say' or 'To everything I say, you respond'. This alters the conversational dynamic of the opening line.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'that rings true' to force a rhyme with 'you', which is not present in the original Hindi text 'तुम्हारी ही तो खुशबू है' (it is only your fragrance).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The omnipresence of the beloved in the speaker's very existence and heartbeat."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "हर एक बात पे कहते हो तुम,  \nतुम्हारे बिना क्या है।  \nदिल की हर धड़कन में,  \nतुम्हारी ही तो खुशबू है।",
+  "poem_id": "MV++_0419",
+  "poem_title": "Har Ek Baat Pe Kahte Ho Tum",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9f02b8a61bd56fd163dc35e777401b7338b0b455cfac9a10b10c20aca5aceebf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0419.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "You say everything in every word,  \nWhat is there without you?  \nIn every heartbeat,  \nIt’s your fragrance that rings true.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:22:40.426278+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7dada30b0a71b03cf48d255f039acd892611de395fe2c148e8c4871d53fafa0a",
+        "response_hash": "a6fd09860906e23060981f1360a053562af7b053236b7627090fc412bab8b7c4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "54704ee6fa327f5a7e3b29e6c8e6623c6c71470c62018eaba56bc01980697821",
+        "response_hash": "6fb6722a60a9ade5ae10111cccb4f84cfc3aa9dc2d4d7bd3a7a8fcc425102aec",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c8e436642f94b5a13b44139daca8b4464172f8ef4891e7cdca796c421d098b48",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "42b72544a14c8558f735f067607581de242e70eb1c2ddc681dfe353543a0c323",
+        "response_hash": "0faf94f2b0e9eb3ed48cf2539a4e01c9f13165b4cc1ff73f48aebbd26414bddb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0100d7ea898759c09f64442f20ef8cdf702b365b061be8f45d032c4f71973502",
+        "response_hash": "3642e41a22835d34bb8877d9e40fe903deb01aa16edce3b8349c4d6695b358d9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b3df1fc56d27da172b41dec1b27e9584ddbc0cd27774532a8d3ee004ee17caa",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b9892fea3aecf52c719df68f671e03b4d57783bdb262562ade74f9bc9524b390",
+    "translation_sha256": "95ca58756e7bc3a435f7fec8044dab7678ad94d30a4fd4516441208524f9b992"
+  }
+}

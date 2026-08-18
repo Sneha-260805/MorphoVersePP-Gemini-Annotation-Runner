@@ -1,0 +1,261 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A transition from shared sorrow and silent pain to collective resilience, hope, and ultimate solidarity.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation adds the word 'plain' to force a rhyme with 'silence', slightly altering the stark, unadorned quality of the original phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The poet acts as an artistic medium that expresses and gives voice to the collective suffering of the people.",
+            "acceptable_visual_variants": [
+              "A silhouette of a singer whose voice transforms into warm light enveloping a crowd",
+              "A hand writing lyrics on a page that gently glows with soft colors"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "I am the musical song of your physical pain",
+            "literalization_risk": "Depicting a literal musical score or notes physically emerging from a wound or painful body part, which would look bizarre and miss the emotional solidarity.",
+            "metaphor_mapping": {
+              "tenor_concept": "poetic expression of suffering",
+              "transferred_attributes": [
+                "melodic structure",
+                "audibility",
+                "emotional resonance"
+              ],
+              "vehicle_concept": "song"
+            },
+            "source_span_original": "तुम्हारे दर्द का गीत हूँ",
+            "source_span_translation": "The song of your pain",
+            "source_term": "तुम्हारे दर्द का गीत हूँ",
+            "tenor": "the poet's voice expressing the people's suffering",
+            "vehicle": "a song (गीत)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a poet figure singing or reciting with a passionate, empathetic expression, surrounded by faint, flowing musical lines or waves that weave through a group of listening people."
+          },
+          {
+            "abstract_meaning": "The poet speaks on behalf of those who are marginalized, silenced, or unable to speak for themselves.",
+            "acceptable_visual_variants": [
+              "A single glowing throat or microphone standing amidst a quiet, dark crowd",
+              "A ripple in still water representing sound breaking a deep silence"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "I am the audible sound of your quietness",
+            "literalization_risk": "Showing a literal mouth opening to emit the word 'silence' in text, which is overly literal and lacks artistic depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "representation of the unexpressed",
+              "transferred_attributes": [
+                "audibility",
+                "articulation",
+                "breaking of quietness"
+              ],
+              "vehicle_concept": "vocal sound"
+            },
+            "source_span_original": "तुम्हारी चुप्पी का स्वर हूँ",
+            "source_span_translation": "The voice of your silence",
+            "source_term": "तुम्हारी चुप्पी का स्वर हूँ",
+            "tenor": "the poet speaking for the silenced people",
+            "vehicle": "a voice/sound (स्वर)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a diverse group of people with quiet, solemn expressions, while a central poet figure stands with an open mouth in speech or song, symbolizing their collective voice."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'plain' to force a rhyme with 'pain', which is not present in the original Hindi text and slightly alters the tone of the line.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation introduces rhyming fillers ('pursue' / 'true') which are not present in the original text, slightly softening the directness of the declaration.",
+        "metaphor_spans": [],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'true' to force a rhyme with 'pursue', which is not present in the original Hindi text and adds an unnecessary qualifying adjective.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation adds rhyming tags ('dear' / 'for your sake') to maintain a structured rhyme scheme, which slightly dilutes the solemnity of the original lines.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The poet contains, feels, and reflects the immense, collective grief and hardships of the people.",
+            "acceptable_visual_variants": [
+              "A reflective, calm sea whose waves gently touch a shore where many people stand in quiet contemplation",
+              "A close-up of hands cupping a small pool of water that reflects a vast sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "I am a literal ocean made out of your teardrops",
+            "literalization_risk": "Showing a giant human figure literally made of blue water or drowning in a literal sea of giant teardrops, which looks comical or like a fantasy disaster movie.",
+            "metaphor_mapping": {
+              "tenor_concept": "immense collective grief",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "salty composition",
+                "boundlessness"
+              ],
+              "vehicle_concept": "ocean"
+            },
+            "source_span_original": "तुम्हारे आंसुओं का सागर हूँ",
+            "source_span_translation": "I am the sea of your tears",
+            "source_term": "तुम्हारे आंसुओं का सागर हूँ",
+            "tenor": "the vast depth of collective human grief held by the poet",
+            "vehicle": "an ocean/sea (सागर)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a vast, deep blue ocean under a twilight sky, with the surface reflecting many small, shimmering points of light resembling falling tears or stars, evoking a mood of deep, shared sorrow."
+          },
+          {
+            "abstract_meaning": "The poet embodies and amplifies the joy, hope, and light found in the people's moments of happiness.",
+            "acceptable_visual_variants": [
+              "A lantern or candle flame burning brightly in the center of a circle of joyful faces",
+              "Golden sunlight breaking through dark clouds over a community"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "I am the physical brightness or illumination generated by your laughter",
+            "literalization_risk": "Showing literal beams of light shooting out of laughing mouths, which looks like a cartoon superpower.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful laughter",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "dispelling of darkness",
+                "cheerfulness"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "तुम्हारी हंसी का उजास हूँ",
+            "source_span_translation": "The light of your laughter",
+            "source_term": "तुम्हारी हंसी का उजास हूँ",
+            "tenor": "the joy and hope brought by the people's happiness",
+            "vehicle": "light/brightness (उजास)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a warm, golden glow radiating outward from a gathering of smiling and laughing people, illuminating a dark background with soft, welcoming light."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds the phrases 'dear' and 'for your sake' to force a rhyme scheme (dear/clear/sake), which are not present in the original Hindi text and alter the direct, declarative tone of the poet's voice.",
+            "where": "L10-L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The poet as an inseparable voice, companion, and witness to the collective struggles, dreams, and emotions of the common people."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "/",
+      "issue": "The poem is written in Hindi (as evidenced by the original text in Devanagari script and terms like 'कवि', 'गीत', 'पीड़ा', 'सागर', 'उजास'), but the metadata 'language' field classifies it as Kannada. This is a fundamental language mismatch.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं तुम लोगों का कवि हूँ,  \nतुम्हारे दर्द का गीत हूँ।  \nतुम्हारी पीड़ा के शब्द हूँ,  \nतुम्हारी चुप्पी का स्वर हूँ।  \n\nमैं वही हूँ जो तुमसे जुड़ा है,  \nतुम्हारे सपनों में जो बसा है।  \nतुम्हारे संघर्ष का साथी हूँ,  \nतुम्हारी जीत की आशा हूँ।  \n\nतुम्हारे आंसुओं का सागर हूँ,  \nतुम्हारी हंसी का उजास हूँ।  \nतुम्हारे हर कदम का साक्षी हूँ,  \nमैं तुम लोगों का कवि हूँ।",
+  "poem_id": "MV++_1043",
+  "poem_title": "Main Tum Logon Ka Kavi Hoon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "07c40f15e3a43b5fec45d0771f1623db32ec56b784ad6057bf537991145f7e1f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1043.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I am your poet,  \nThe song of your pain.  \nI am the words of your sorrow,  \nThe voice of your silence, plain.\n\nI am the one bound to you,  \nLiving in the dreams you pursue.  \nA companion in your struggle,  \nThe hope in victories, true.\n\nI am the sea of your tears,  \nThe light of your laughter, dear.  \nWitness to every step you take,  \nI am your poet, for your sake.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:50:30.031968+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b5c2e17c54fe4707758d4ce3be1a7ef5e60a0a90ff41bcb2712f132e0c9938c0",
+        "response_hash": "7f9c6fd95688ceb462f9964cc96134d805047b0325f3791bddce273bc9469b87"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b15cedac884e6fd68b1b4e921bc5d884cb3a690af0cb19e0b4143e07c40344c7",
+        "response_hash": "22affdfa374bcf24841df0265b0e7c57c83742f60b741b769ac51c4f9581e47d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a68004054f3573371f7c8af7205af192c4baaf303ad7d8d3bbbb8773c5d20197",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "abf98b00f9c0ebdc541d85aad1e8fe292165e5a2c904407c9bb23bee9ea4f969",
+        "response_hash": "62379cb1c61fe8445651feeba8f5594d607c23f875eb8795e16a593076c60850",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "863e5c41a42cb2e6bfedac7bf91d732d22cb1940600a8c18c505b5bad37696a1",
+        "response_hash": "ef76292f30afcd67792162330ea461602a8a8e2700390870ba94ae483edefe37",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3214519cf5eab89a79c279758ce536d900bd27fa679ea4b5b837be5a64509945",
+        "response_hash": "56e1cdc633a15976c8d55fa9f9a69f7912052520e74e3736a1990bfaefd86dec",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "cb9a82b5113b5901f7b260d6d31eb9eaa84387a56f6158a06d2329c76425909b",
+    "translation_sha256": "016d082bd059b64d35d4e81a8df4b66e016c978172be0c9d16fb865f87f786d0"
+  }
+}

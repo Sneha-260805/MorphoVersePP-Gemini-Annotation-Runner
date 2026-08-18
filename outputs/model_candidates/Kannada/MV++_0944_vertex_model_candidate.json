@@ -1,0 +1,229 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vast, deep, and turbulent emotional space of human feelings.",
+            "acceptable_visual_variants": [
+              "A vast ocean under a starry sky where the waves form soft, organic curves resembling a heart shape.",
+              "A person standing at the edge of a deep, calm sea, looking out, symbolizing inner emotional depth."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "In the ocean of the heart",
+            "literalization_risk": "Depicting a literal human heart organ filled with saltwater or floating in a physical sea, which would look grotesque and miss the emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "heart",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "turbulent movement",
+                "holding hidden things"
+              ],
+              "vehicle_concept": "ocean"
+            },
+            "source_span_original": "ಹೃದಯದ ಸಮುದ್ರದಲಿ",
+            "source_span_translation": "ocean of the heart",
+            "source_term": "ಹೃದಯದ ಸಮುದ್ರದಲಿ",
+            "tenor": "heart / emotional depth",
+            "vehicle": "ocean",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, deep blue ocean with gentle or deep waves, subtly blending into a soft, glowing heart-shaped silhouette or light in the background."
+          },
+          {
+            "abstract_meaning": "Memories that rise, crash, and recede continuously in the mind.",
+            "acceptable_visual_variants": [
+              "Rhythmic waves gently washing onto a sandy shore under soft light.",
+              "Overlapping translucent ripples on a deep water surface."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Wave of memory",
+            "literalization_risk": "Showing literal water waves with physical photographs or documents floating in them, which is too literal and cluttered.",
+            "metaphor_mapping": {
+              "tenor_concept": "memories",
+              "transferred_attributes": [
+                "rising and falling",
+                "continuous motion",
+                "crashing on the shore of consciousness"
+              ],
+              "vehicle_concept": "ocean waves"
+            },
+            "source_span_original": "ನೆನೆಪಿನ ಅಲೆ",
+            "source_span_translation": "Waves of memories",
+            "source_term": "ನೆನೆಪಿನ ಅಲೆ",
+            "tenor": "memories",
+            "vehicle": "waves",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict rhythmic, rolling ocean waves catching the light, symbolizing the ebb and flow of thoughts."
+          },
+          {
+            "abstract_meaning": "The foundational platform or state of existence upon which one lives out their life.",
+            "acceptable_visual_variants": [
+              "A peaceful, flat expanse of green grass or earth representing a resting place.",
+              "A simple, clean, minimalist platform overlooking a calm horizon."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The bed of life",
+            "literalization_risk": "Showing a literal wooden bed frame with a mattress sitting outdoors, which looks absurd and misses the existential foundation.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "foundation",
+                "resting place",
+                "area of daily existence"
+              ],
+              "vehicle_concept": "bed"
+            },
+            "source_span_original": "ಬಾಳದ ಹಾಸಿಗೆ",
+            "source_span_translation": "The bed of life",
+            "source_term": "ಬಾಳದ ಹಾಸಿಗೆ",
+            "tenor": "life / existence",
+            "vehicle": "bed",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a calm, flat, supportive surface like a peaceful meadow or a quiet, stable platform of earth/sand stretching out under a soft sky."
+          },
+          {
+            "abstract_meaning": "Finding peace, comfort, or a soothing presence in the midst of life's chaotic struggles.",
+            "acceptable_visual_variants": [
+              "A turbulent, dark sky with a single clear, calm opening of blue sky letting down a peaceful ray of light.",
+              "A person standing calm and serene while wind-blown leaves swirl around them in a storm."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The cool breeze of a storm",
+            "literalization_risk": "Showing a violent hurricane with a tiny fan or a literal small wind blowing in the opposite direction, which looks comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "peace in chaos",
+              "transferred_attributes": [
+                "soothing quality",
+                "gentle relief",
+                "contrast with surrounding turbulence"
+              ],
+              "vehicle_concept": "cool breeze in a storm"
+            },
+            "source_span_original": "ಬಿರುಗಾಳಿಯ ತಂಗಾಳಿ",
+            "source_span_translation": "A calming breeze in the storm",
+            "source_term": "ಬಿರುಗಾಳಿಯ ತಂಗಾಳಿ",
+            "tenor": "peace amidst chaos",
+            "vehicle": "calming breeze within a storm",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict dark, swirling storm clouds in the background, while in the foreground, a single delicate flower or blade of grass sways gently in a soft, warm shaft of light and a gentle breeze."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The stark oxymoronic contrast of 'birugaaliya tangaali' (literally 'cool gentle breeze of a storm') is softened into 'A calming breeze in the storm', which introduces the preposition 'in' and reduces the direct, paradoxical compound nature of the Kannada phrasing.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The turbulent yet comforting nature of memories and life within the human heart"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided. Usually, a 'faithful' rating implies no significant translation loss, or conversely, a documented loss should correspond to a 'partial' translation_quality rating.",
+      "severity": "minor"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಹೃದಯದ ಸಮುದ್ರದಲಿ,  \nನೆನೆಪಿನ ಅಲೆ,  \nಬಾಳದ ಹಾಸಿಗೆ,  \nಬಿರುಗಾಳಿಯ ತಂಗಾಳಿ!",
+  "poem_id": "MV++_0944",
+  "poem_title": "Hrudaya Samudra",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f8305f6c5f42d4be96df4fb61489f96280744078e85581ce155d7dec8fd98a44",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0944.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the ocean of the heart,  \nWaves of memories,  \nThe bed of life,  \nA calming breeze in the storm!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:34:23.929765+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e5fa15b0bad7887ba3914634215bf35a6c60391c37a355fca8364b8cc9fc8a1",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "31689294d9b853bdd64386b984bf3372d3172e2517cc0e4a599ab7ed3d1a8f1c",
+        "response_hash": "876d6d7775e48452e1024ea01bf28751b89bc312f52cd0b631560ba3406487aa",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "00c148746a893eda03ed683e780976150a31e2496d70653d4a7a0ba250a569b1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "941d4db635efb91be9608fdc22e488ab9d932a8b86fd469fdf37baca68515ceb",
+        "response_hash": "53b45df22dd62141756a04098c0e5a252f932468a7a562f04593ac1e47591b0b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f13df2e8aadde63088fb592ccb08e097c9e52a6791e6251a34216f47f75ed2a",
+        "response_hash": "d2400837ec6b73859d80713b0823b9bc4e1828185a05cc530695bea302526e4d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "92b649d77e722123c39bc197be5daa426302284d5705ff2cb82f8ad83933ee80",
+        "response_hash": "720ea5880042ea59310b17efdc666d53f1add8d1ec9c9b88ada11908ef67b3b9",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "881f314ea91906584dd75bdf132fa404b1d47bf77c0900c926fd3713dbe8160f",
+    "translation_sha256": "439e5b6b5c4dc5f92060887911e9d60656aeabc6c666abebc8093fe9bf2552fd"
+  }
+}

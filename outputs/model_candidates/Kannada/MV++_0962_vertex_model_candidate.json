@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to gentle hope",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'hakkigalu' (birds) as 'wings', altering the literal image of 'birds of memory' to 'wings of memory'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker addresses a silver cloud as a conscious entity capable of listening, coming, and stepping, representing a gentle, transient messenger or companion in their inner emotional landscape.",
+            "acceptable_visual_variants": [
+              "A bright, silver-lined cloud floating in a twilight sky",
+              "A soft, glowing cloud drifting close to a quiet landscape"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "Oh, silver cloud",
+            "literalization_risk": "Depicting a literal human-like cloud with a face or limbs would look cartoonish and ruin the poetic, serene atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural messenger of thoughts",
+              "transferred_attributes": [
+                "listening",
+                "moving intentionally",
+                "bringing comfort"
+              ],
+              "vehicle_concept": "personified cloud"
+            },
+            "source_span_original": "ಬೆಳ್ಳಿ ಮೋಡವೇ",
+            "source_span_translation": "silver cloud",
+            "source_term": "ಬೆಳ್ಳಿ ಮೋಡವೇ",
+            "tenor": "A transient, beautiful natural element acting as a companion or messenger to the speaker's inner thoughts",
+            "vehicle": "A silver cloud addressed as a personified companion",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, luminous silver-edged cloud drifting in a vast sky, perhaps catching the light of a hidden sun or moon, without any literal human features."
+          },
+          {
+            "abstract_meaning": "Memories are conceptualized as birds that fly, migrate, and bring thoughts back to the speaker's mind.",
+            "acceptable_visual_variants": [
+              "A flock of white or glowing birds in flight",
+              "Silhouettes of birds soaring through a soft sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "with the birds of memory",
+            "literalization_risk": "Showing literal birds carrying physical brain-shaped memories or notes would be absurd and distracting.",
+            "metaphor_mapping": {
+              "tenor_concept": "memories",
+              "transferred_attributes": [
+                "flight",
+                "returning",
+                "gentle presence",
+                "freedom"
+              ],
+              "vehicle_concept": "birds"
+            },
+            "source_span_original": "ನೆನಪಿನ ಹಕ್ಕಿಗಳೊಂದಿಗೆ",
+            "source_span_translation": "wings of memory",
+            "source_term": "ನೆನಪಿನ ಹಕ್ಕಿಗಳೊಂದಿಗೆ",
+            "tenor": "memories",
+            "vehicle": "birds",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a flock of soft, ethereal, or semi-translucent birds flying alongside or emerging from the silver cloud."
+          },
+          {
+            "abstract_meaning": "The cloud is asked to step gently and lovingly into the speaker's life or dreams, emphasizing a soft, comforting arrival.",
+            "acceptable_visual_variants": [
+              "A soft light spreading gently over a quiet field",
+              "The shadow of a cloud moving softly across the ground"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "take a step filled with love",
+            "literalization_risk": "Drawing literal feet on a cloud would look comical and destroy the delicate, romantic tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "gentle arrival of thoughts",
+              "transferred_attributes": [
+                "softness",
+                "care",
+                "deliberate movement"
+              ],
+              "vehicle_concept": "walking with loving steps"
+            },
+            "source_span_original": "ಪ್ರೀತಿ ತುಂಬಿದ ಹೆಜ್ಜೆಯಿಡು",
+            "source_span_translation": "step with love-filled feet",
+            "source_term": "ಪ್ರೀತಿ ತುಂಬಿದ ಹೆಜ್ಜೆಯಿಡು",
+            "tenor": "the gentle, loving arrival or movement of the cloud/memories into the speaker's consciousness",
+            "vehicle": "taking steps with feet",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize the soft, gradual movement of the cloud's shadow or light gently sweeping across a quiet landscape, suggesting a soft step or arrival."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'ನೆನಪಿನ ಹಕ್ಕಿಗಳೊಂದಿಗೆ' (with the birds of memory) as 'wings of memory', substituting the bird's wings for the birds themselves and altering the literal imagery.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The vocative suffix '-e' in 'ಮೋಡವೇ' (modave) and the intimate imperative verb forms 'ಬಾ' (baa, come) and 'ಹೆಜ್ಜೆಯಿಡು' (hejjeyidu, step) carry a direct, personal, and informal tone of address that is partially flattened in the English translation.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A tender invocation to a silver cloud to bring back memories and fill dreams with love and joy."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಬೆಳ್ಳಿ ಮೋಡವೇ,  \nನೆನಪಿನ ಹಕ್ಕಿಗಳೊಂದಿಗೆ ಬಾ,  \nನನ್ನ ಕನಸುಗಳಲಿ ಮುದ ನೀಡಿ,  \nಪ್ರೀತಿ ತುಂಬಿದ ಹೆಜ್ಜೆಯಿಡು.",
+  "poem_id": "MV++_0962",
+  "poem_title": "Belli Modave",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "04f2aad6e86ee0f5124375f54c7b99e1a67d3a1e13b5b8651b25649e11182e43",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0962.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Oh, silver cloud,  \nCome with wings of memory,  \nBring joy to my dreams,  \nAnd step with love-filled feet.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:37:06.221886+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "22cb3bc8a5f1750d457aadb344e0b62e308a2397d2e85cad0695cf644d9fc782",
+        "response_hash": "94c82874ae652830d3ee487a33a890fd8829d2460117f050a2c1dd241d2b2be4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7b92e219504488da12c0b23e34c0a6c1218a305fadee527f039ab13640b2cd81",
+        "response_hash": "bf4c47cd33aeeeb01d450ba5d2c945c86d0df7879f5a29f349b687b3e6c6180e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "709efb281c99f2f699719355c1f063df7c595468f5437e6f3581b0bbf9ccefbe",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8bf924d21ca684e5e7fae9a2cadc26edaa90afb13888117d9cd1f1bdba4d4d36",
+        "response_hash": "4a7ec85f0f31eba70b789c52f0f237022065e49b1c12b03ee0956ea9dd1f1b45",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "98f326f2addd05d03c3a4607e7c9e533648ad82c8675e3c28260638c75013ce9",
+        "response_hash": "54c816aa5aa31e90d896c3c82fecd6f11643f22d6f1426bcb69c16dc5bb19e38",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3651e4c566d568351b343ecb542e845a0704a41e555a2dbcb567f93e47260889",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4e1b83a44cc851a8cc41c75f6cbbfc39ef89ace337d2e1573008871e7238ae0e",
+    "translation_sha256": "a7fdc0316824cd4f3e00ba370332debf49266c0fe73dd778f613b8b5009fc57f"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and unexpressed love to a quiet, dream-like devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "innermost feelings or unspoken thoughts of love",
+            "acceptable_visual_variants": [
+              "A person sitting alone in quiet contemplation",
+              "A hand gently resting over the chest/heart area"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L3",
+            "literal_meaning": "talk of the heart",
+            "literalization_risk": "Showing a physical heart with a mouth speaking words would look cartoonish or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "innermost emotional feelings",
+              "transferred_attributes": [
+                "internal",
+                "deeply personal",
+                "communicative"
+              ],
+              "vehicle_concept": "heart speaking words"
+            },
+            "source_span_original": "दिल की बात",
+            "source_span_translation": "The words of his heart",
+            "source_term": "दिल की बात",
+            "tenor": "innermost emotional feelings",
+            "vehicle": "the heart speaking words",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking pensive or holding their hand over their chest to symbolize deep, unspoken feelings."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "seeking comfort, hope, or a sense of connection to his beloved in the night sky",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking up at a clear, starry night sky",
+              "A close-up of eyes reflecting starlight"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "searches for her physically among the stars",
+            "literalization_risk": "Showing a person physically climbing or reaching into space to sift through stars would look like a fantasy quest rather than a romantic longing.",
+            "metaphor_mapping": {
+              "tenor_concept": "longing for and thinking of the beloved while looking at the night sky",
+              "transferred_attributes": [
+                "distant",
+                "gazing upward",
+                "searching"
+              ],
+              "vehicle_concept": "searching for a lost object among physical stars"
+            },
+            "source_span_original": "सितारों में खोजता है",
+            "source_span_translation": "seeks his love\nAmong the stars",
+            "source_term": "सितारों में खोजता है",
+            "tenor": "longing for and thinking of the beloved while looking at the night sky",
+            "vehicle": "searching for a lost object among physical stars",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a person looking up at a starry night sky with a longing expression."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Urdu-derived poetic word 'tanha' (lonely/solitary) carries a specific aesthetic of Urdu ghazal poetry which is flattened into the standard English 'lonely'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Urdu-derived word 'armanon' (yearnings/desires/aspirations) carries a deep, romantic, and melancholic weight in Hindustani poetry that is simplified to 'desires' in English.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 5,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "completely consumed or overwhelmed by love",
+            "acceptable_visual_variants": [
+              "A person sitting with closed eyes, surrounded by a soft, warm glow",
+              "A person looking deeply reflective in a peaceful setting"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "submerged or drowned in love",
+            "literalization_risk": "Showing a person physically drowning or submerged underwater would look like a life-threatening emergency rather than a state of romantic devotion.",
+            "metaphor_mapping": {
+              "tenor_concept": "being completely overwhelmed or consumed by an emotion",
+              "transferred_attributes": [
+                "surrounded",
+                "submerged",
+                "overwhelmed"
+              ],
+              "vehicle_concept": "immersion in water"
+            },
+            "source_span_original": "प्रेम में डूबा",
+            "source_span_translation": "Deep in love",
+            "source_term": "प्रेम में डूबा",
+            "tenor": "being completely overwhelmed or consumed by an emotion",
+            "vehicle": "immersion in water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person surrounded by warm, soft light or in a dreamy, contemplative posture that suggests being lost in thought."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts from the third-person description of the lover ('wo' / 'he') to a direct address ('your name' / 'tera name') without capturing the intimate, informal register of the pronoun 'tera' in Hindi.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 6,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "the realm of imagination, fantasy, or subconscious thoughts where they are together",
+            "acceptable_visual_variants": [
+              "A double-exposure style image of a person sleeping and a faint image of a couple walking together",
+              "A soft-focus, misty scene of two figures holding hands"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L14",
+            "literal_meaning": "a physical world made of dreams",
+            "literalization_risk": "Showing a literal fantasy planet or surreal landscape might distract from the intimate, emotional reality of the lover's thoughts.",
+            "metaphor_mapping": {
+              "tenor_concept": "the state of dreaming or imagining",
+              "transferred_attributes": [
+                "spatial",
+                "inhabitable",
+                "surreal"
+              ],
+              "vehicle_concept": "a physical world or landscape"
+            },
+            "source_span_original": "सपनों की दुनिया में",
+            "source_span_translation": "In the world of dreams",
+            "source_term": "सपनों की दुनिया में",
+            "tenor": "the state of dreaming or imagining",
+            "vehicle": "a physical world or landscape",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft-focus, ethereal, or slightly blurred scene of two people walking together, suggesting a memory or a dream."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'har lamha jeeta hai' as 'lives every moment' loses the specific poetic resonance of 'lamha' (an Urdu-derived word for moment/instant) which is highly characteristic of romantic Hindustani poetry.",
+            "where": "L16"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The silent, unexpressed longing of a lover who finds solace only in dreams and quiet devotion."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक आशिक\n\nएक आशिक\nजो अपने दिल की बात\nकभी न कह सका।\n\nवो तन्हा रातों में\nअपनी चाहत को\nसितारों में खोजता है।\n\nचाँद की चाँदनी में\nअपने अरमानों को\nकभी समझा न सका।\n\nवो प्रेम में डूबा\nहर धड़कन में\nसिर्फ तेरा नाम लेता है।\n\nसपनों की दुनिया में\nतेरे साथ बिताए पल\nहर लम्हा जीता है।",
+  "poem_id": "MV++_0233",
+  "poem_title": "Ek Aashiq",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f109ff4e2ed2065da57b1506fa48dd5fd7dd115591c2239c017377d9f0771b16",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0233.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A Lover\n\nA lover\nWho could never express\nThe words of his heart.\n\nIn lonely nights,\nHe seeks his love\nAmong the stars.\n\nIn the moonlight,\nHe could never convey\nHis desires.\n\nDeep in love,\nIn every heartbeat,\nHe only utters your name.\n\nIn the world of dreams,\nHe lives every moment\nSpent with you.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:02:37.955568+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cb58381e84d512fd9a96eb5107ab4e39b0e1d2494df95c3e7c60bfdda245f58a",
+        "response_hash": "5b73c14eb65e939137c713347b1a220fabc65e81bb496a0100ebb9df1dcd3bd7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "544e41d2ab2379112c44a90febacf96c9ed68564dc92d20d8eae67bf98602d02",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fd30d2829f4e6fed423497c88657b367b42c8f292d1837153aac148b77533c0f",
+        "response_hash": "4dd06dd0648b1abddf9cb496668a2f91342ffdbf279cc24ae1109ec149323267",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "61714f70ee22548609c3b9ca585b0cfd2764c35cf35b73cad5db1cc52725bfdf",
+        "response_hash": "35b06804979516d2a40a1a401863592ada9e510eb76ab1184c890d64f09735e8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b1eeef6f71b42c05250a0d593712c0d116fba8d2fed74abc2de6888197cc9cf2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c8f906fc84592137bb4c8e20ee8a3157410b6a1eed033810681a32a5d9f485c3",
+    "translation_sha256": "024c965f8061f91c756eb03e92eeb1a933b13b6a3ff9f505e44097dbd0513a1f"
+  }
+}

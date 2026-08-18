@@ -1,0 +1,231 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A stylized stone temple gateway (gopuram)",
+          "A simple, abstract glowing altar or shrine"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A temple or sacred shrine, used here metaphorically as a sanctuary built of desire within the heart.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic Western church building",
+          "An elaborate modern palace"
+        ],
+        "preserved": true,
+        "romanization": "kovil",
+        "source_span_original": "கோவில்",
+        "source_span_translation": "Temple",
+        "stanza_index": 1,
+        "term": "கோவில்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A traditional South Indian temple structure or sanctum",
+          "A symbolic, glowing inner sanctuary within a heart"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and devotion in love",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders the literal meaning well, but the agglutinative genitive suffixes in Tamil (e.g., aasaiyin, idayathin, kaadhalin) create a rhythmic, flowing connection between the concepts of desire, heart, soul, and love that is slightly flattened into English prepositions.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A deep, sacred, and structured longing or desire built within the heart.",
+            "acceptable_visual_variants": [
+              "An outline of a traditional South Indian temple gopuram glowing with warm light inside a human silhouette",
+              "A stylized, luminous sanctuary floating in a soft, emotional space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical temple made of desire",
+            "literalization_risk": "Showing a literal stone temple building with no representation of emotional longing or desire.",
+            "metaphor_mapping": {
+              "tenor_concept": "desire",
+              "transferred_attributes": [
+                "sacredness",
+                "structure",
+                "devotion",
+                "permanence"
+              ],
+              "vehicle_concept": "temple"
+            },
+            "source_span_original": "ஆசையின் கோவில்",
+            "source_span_translation": "Temple of desire",
+            "source_term": "ஆசையின் கோவில்",
+            "tenor": "Desire (aasai)",
+            "vehicle": "A temple (kovil)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, ethereal temple structure emerging from or superimposed over a human chest or heart area to represent the internal, emotional nature of this temple."
+          },
+          {
+            "abstract_meaning": "The beloved person who is cherished and idealized like a divine or angelic being in the speaker's heart.",
+            "acceptable_visual_variants": [
+              "A soft-focused silhouette of a beloved woman illuminated by a gentle light",
+              "A graceful figure standing in a serene, dreamlike setting"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The goddess/angel of my heart",
+            "literalization_risk": "Depicting a literal winged western angel or a mythological deity floating in the air, which misses the human romantic context.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved person",
+              "transferred_attributes": [
+                "beauty",
+                "divinity",
+                "purity",
+                "adoration"
+              ],
+              "vehicle_concept": "goddess/angel"
+            },
+            "source_span_original": "என் இதயத்தின் தேவதை",
+            "source_span_translation": "The angel of my soul",
+            "source_term": "என் இதயத்தின் தேவதை",
+            "tenor": "The beloved person",
+            "vehicle": "A goddess or angel (thevathai)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a graceful, idealized human figure surrounded by a soft, warm aura or light, reflecting the speaker's deep adoration."
+          },
+          {
+            "abstract_meaning": "The beloved or the speaker's soul is tossed around, drifting, or moving amidst the vast, overwhelming, and deep emotions of love.",
+            "acceptable_visual_variants": [
+              "A figure floating peacefully in a vast, starry, ocean-like expanse of deep blue and violet hues",
+              "Stylized waves of light gently carrying a silhouette"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Wandering or waving in a literal ocean of love",
+            "literalization_risk": "Showing a literal person swimming or drowning in a physical blue ocean, which loses the emotional and romantic essence of love.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "turbulence",
+                "constant movement"
+              ],
+              "vehicle_concept": "sea/ocean"
+            },
+            "source_span_original": "காதலின் கடலில் அலைகிறது",
+            "source_span_translation": "Waves in the sea of love",
+            "source_term": "காதலின் கடலில் அலைகிறது",
+            "tenor": "The vast, deep, and sometimes turbulent emotion of love (kaadhal)",
+            "vehicle": "A vast sea or ocean (kadal) with waves",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure gently drifting or swaying amidst deep blue, swirling patterns of light and water-like waves that blend into a dreamlike, emotional atmosphere."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil verb 'alaigirathu' (அலைகிறது) carries a double meaning of 'wandering/roaming' and 'making waves/tossing about', which is flattened to 'waves' in the English translation.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The genitive case markers in 'aasaiyin' (ஆசையின்), 'ithayathin' (இதயத்தின்), and 'kaathalin' (காதலின்) are translated as simple English prepositions ('of'), losing the tight, agglutinative compound-like structure of the original Tamil noun phrases.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sacred and turbulent nature of deep romantic love"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ஆசையின் கோவில்,  \nஉன் உள்ளத்தில் எழுந்தது,  \nஎன் இதயத்தின் தேவதை,  \nகாதலின் கடலில் அலைகிறது!",
+  "poem_id": "MV++_1392",
+  "poem_title": "Aasaiyin Kovil",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "14fc7f9fe6b2e15f45627d31c75be2b2e4ba8f07d3ac3c3124f4efdf0562e875",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1392.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Temple of desire,  \nEmerged in your heart,  \nThe angel of my soul,  \nWaves in the sea of love!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:28:55.376758+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "89b61078c9240aab29326588b82fcfab3607201bb1dcdb5dbc1739d279c6432d",
+        "response_hash": "e1c319c21a656d45201912590d133540f626065d32a02f4755f193458429cb04"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3a36d24826609f0c80187f859f461477a2801f771e1d04899d01fab80e56bb39",
+        "response_hash": "794c38e7e07492ff5bdd81f73f9193676b97aa8989c267c1bf6a90cac0c72057",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ae130dd07e36f58d2af16188312b99ab819daf54de3076215489d6c56bb9c056",
+        "response_hash": "49ab4ad9b94adfc0b4573920001949a7f13995a2a7031e0b3a724f5e430356c3",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "974e000665fccb6fc3a9f6e3ffd817bade7f9f4205b87ecbd72d179e9ac5024a",
+        "response_hash": "c38959955b3fc8e500e8dbe97792b01f6b8827df76fd0d64aa260c101be1facd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8836a12ae1ccc267f44e53ce7d8041dececaace6228f4a5d0714ef5d30f7abef",
+        "response_hash": "97ae34f84acb6cebd8bdae1b91f329ab6ab44750542b4867271000b382b014cc",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4fb0dc5b4e8246ad7c56e2af294bb3449e2bc5c5ab74f5bc85f6511c50e7aff7",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2803d3aba4fe8856a7525525ed34e2b92dbc335f2abf76803f95aa9b40151d63",
+    "translation_sha256": "6719f32084eede287e327377327eaf85d219432bf44c8f8574ad2bde8e830559"
+  }
+}

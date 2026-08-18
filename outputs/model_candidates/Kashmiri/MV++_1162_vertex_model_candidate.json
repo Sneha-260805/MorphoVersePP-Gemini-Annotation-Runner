@@ -1,0 +1,157 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and conviction",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Freedom is the vital force that makes life meaningful and active.",
+            "acceptable_visual_variants": [
+              "A bird soaring in an open sky",
+              "Wind rustling through a vast open field"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1-L2",
+            "literal_meaning": "Freedom is the breath/living force of life",
+            "literalization_risk": "Depicting literal breathing or lungs would miss the abstract political and spiritual concept of freedom.",
+            "metaphor_mapping": {
+              "tenor_concept": "freedom",
+              "transferred_attributes": [
+                "essential for survival",
+                "animating force",
+                "invisible but necessary"
+              ],
+              "vehicle_concept": "breath/vital force"
+            },
+            "source_span_original": "آزادی\nچٕھ زندگیٔ دٕرٕ زٕندٕ",
+            "source_span_translation": "Freedom,\nIt is the breath of life",
+            "source_term": "آزادی\nچٕھ زندگیٔ دٕرٕ زٕندٕ",
+            "tenor": "freedom",
+            "vehicle": "the breath of life / living force",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict an open, expansive natural space with wind blowing through grass or trees to symbolize breath and freedom."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation replaces the specific Kashmiri phonetic rhythm, internal rhyme, and unique vowel structures (such as the use of Kashmiri-specific diacritics like the wavy over-stroke and ring-vowels) with standard English poetic phrasing, losing the acoustic texture of the original.",
+            "where": "L1-L5"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation uses highly generalized, abstract English metaphors ('breath of life', 'song of the heart', 'soul's whisper') which flatten the specific idiomatic and colloquial nuances of the original Kashmiri phrasing.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Freedom as the fundamental essence of life and identity"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing significant acoustic and semantic losses, which is logically inconsistent with a fully faithful translation status.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[0].loss_note",
+      "issue": "The loss_note is empty, but the translation_loss array contains two detailed entries describing significant losses. The loss_note should summarize these findings when translation_loss is populated.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kashmiri",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "آزادی  \nچٕھ زندگیٔ دٕرٕ زٕندٕ  \nپتھ کٕو تٕرٕیٚزٕ  \nسُرٕ دٕرٕ گٲندٕ  \nگٕوٚرٕ چھٕ پہٚچانٕ۔",
+  "poem_id": "MV++_1162",
+  "poem_title": "Azadi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "784ca9e26fcec68c9e409160f752b9f151de9bdda877316646c2a9ac9c4b1368",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kashmiri/MV++_1162.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Freedom,  \nIt is the breath of life,  \nA song of the heart,  \nIn every soul's whisper,  \nIt is the essence of identity.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:04:39.989837+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "53bc26da588699da5d7d261e21cf3b9f5ccac44b9bd5f04d438483e0d4751ad7",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "10f119f482ab098d6a9ddfca3a502dda210498c88e4fc8f9b99382309b12357f",
+        "response_hash": "5739b05f4f1f9f9f4534a903f91102e00af1466c39c1eb8ca41eb0028f57b918",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b9f6ee8ae708f9df72c529a90f6b35704db935f2c80ed85838c86392ac9d1cf1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49d8bcec82e65692dfd1a0e5ee7091051fc3b3a0e48486d44b8c4ca164660d16",
+        "response_hash": "52f27d573f1eb9dd7fc7ac9c43749e9975e39af31ec63c05862284e18d5464bf",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b07d4a413bd1551241b4c02b139ebeaa49f1a27c60bd29358464a252c3fcd054",
+        "response_hash": "184a3455a23169f63c7b0dcc5470ed3f0337ec68024bb16d98e0c0f85d2d6cd7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fb0fa1cefb33e562106aa46df10ce5d2b2c855e030033a02dcfe90b4026a41a9",
+        "response_hash": "b198fe1d03f6992b7f54bccf418f00910976c286b147d8b7f5ce592dbd59fa98",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7f76b560665cb7b6a480d133c4b11deb6f26cd2fca8fdc460c791f44d7d64e2a",
+    "translation_sha256": "d57f129e74471d8dd3036aeb231b7184111f4c6923348c3206b2680f83ebcb6d"
+  }
+}

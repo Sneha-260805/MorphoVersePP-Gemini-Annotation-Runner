@@ -1,0 +1,184 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and commitment to shared memories",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation of 'छोड़ूंगी' (chhodungi) and 'छोड़ोगे' (chhodoge) as 'leave' loses the specific grammatical gender marking in Hindi, where the speaker is explicitly marked as feminine ('-ungi') and the addressee as masculine ('-oge').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The shared experiences, choices, and journey of life that two people undertook together.",
+            "acceptable_visual_variants": [
+              "Two figures walking side-by-side on a winding path at dusk",
+              "Two silhouettes walking together along a misty trail"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "physical roads or paths",
+            "literalization_risk": "An illustrator might draw a literal dirt road or paved street, which misses the emotional and relational journey of the couple.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey",
+              "transferred_attributes": [
+                "direction",
+                "shared movement",
+                "physical progression"
+              ],
+              "vehicle_concept": "physical paths"
+            },
+            "source_span_original": "राहों",
+            "source_span_translation": "paths",
+            "source_term": "राहों",
+            "tenor": "the shared journey of life and relationship",
+            "vehicle": "physical paths or roads",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict two figures walking side-by-side along a path that blends into a soft, abstract background, emphasizing companionship over a specific physical location."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender marking in the verb 'chhodungi' (feminine) indicates that the speaker is female, which is lost in the gender-neutral English translation 'I will not leave'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation of 'बुनाई है' (bunai hai) as 'woven' captures the meaning but loses the noun form 'weaving' (bunai) which functions as a noun in Hindi, describing the state of memories in the heart.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The process of memories being deeply integrated, structured, and preserved within one's emotional core.",
+            "acceptable_visual_variants": [
+              "Glowing golden threads weaving together to form a heart silhouette",
+              "A stylized chest area showing a tapestry of soft, colorful light patterns representing memories"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5-L6",
+            "literal_meaning": "the physical weaving of memories inside a physical heart organ",
+            "literalization_risk": "A literal depiction of a physical heart being stitched or woven with threads could look grotesque or medical.",
+            "metaphor_mapping": {
+              "tenor_concept": "retaining memories",
+              "transferred_attributes": [
+                "intertwining",
+                "creation of a cohesive pattern",
+                "durability"
+              ],
+              "vehicle_concept": "weaving fabric"
+            },
+            "source_span_original": "यादों की\nबुनाई है दिल में",
+            "source_span_translation": "memories\nWoven in my heart",
+            "source_term": "यादों की\nबुनाई है दिल में",
+            "tenor": "the integration and preservation of memories in the mind or soul",
+            "vehicle": "weaving threads or fabric",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use abstract, glowing threads of light intertwining to form a soft heart shape, or a stylized silhouette of a person with delicate, luminous patterns woven across the chest area."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Hindi noun phrase 'yaadon ki bunai' literally means 'the weaving of memories', which is rendered as a passive participle 'woven' in English, slightly flattening the active noun-based metaphor of weaving.",
+            "where": "L5-L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring bond of shared paths and woven memories that will never be abandoned or forgotten."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "न मैं छोड़ूंगी,  \nन तुम छोड़ोगे।  \nजिन राहों पर  \nहम साथ चले थे।  \n\nजिन यादों की  \nबुनाई है दिल में,  \nउन यादों को  \nकभी भुलाएंगे नहीं।",
+  "poem_id": "MV++_0863",
+  "poem_title": "Naa Chhodungi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4381cc8fa063d608511e1616bfc32dcf9b91a331f38e81f8004c595892c06c43",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0863.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I will not leave,  \nNor will you leave.  \nOn the paths  \nWe walked together.  \n\nIn the memories  \nWoven in my heart,  \nWe will never  \nForget those memories.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:22:24.802779+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "331591b856f7baefd6c1bfe607c6c95d5b4752cbc27e54ebf1ee5bb89880e983",
+        "response_hash": "10b0139ad407d10ef823eb33e6c2028290d2e2b4953863f5b3026a68d2e0e808"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ced1c19f4c52d514054d98fa2e9b3ce45183a2d0cf18bb1690699dfd3d08a3e",
+        "response_hash": "d6c468011d67c6a7ca48cf476d6ff372e0b8a2dddf50565545477954cd2fcd32",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4e19f039dbeef73d76c1d76e2fb10196187cafa8014df3ab3b1abf2cd66ff5c6",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "666fda2b2eb53d20706e06a536de58632125a24129b9361ca01d126347c40629",
+        "response_hash": "566000cd0cafd2c1b9216b77cf9e2a13bb10524816a4cd08d334411790681c3b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3e64e6d1b8b6ddaf6d3b0b1c6686d28415c9793df81b4ee7deb9eef1d0a4fbea",
+        "response_hash": "a4924eb007f61556e6ef3ddd5011bcfb8f117271f5365a321eb7c0d73a78c74f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b615eec6fdb68dfd68c6945594d41696654e2373193039381b9a46067e32ead",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "049ac5dfd00a56337099244c320aa89cb333990afa110ed47902a4383cc77a97",
+    "translation_sha256": "b6af636e6e174f0790a242ee1322c0c786f8d33700af4e2d47965d597d3eb309"
+  }
+}

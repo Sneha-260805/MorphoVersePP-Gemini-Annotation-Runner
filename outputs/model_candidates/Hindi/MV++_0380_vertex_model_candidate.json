@@ -1,0 +1,268 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The childhood dream is bright, pure, and beautiful, standing out in the speaker's memory.",
+            "acceptable_visual_variants": [
+              "A child looking up at a soft, glowing orb of light",
+              "A dream bubble containing a glowing, luminous landscape"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "Shining like the moon",
+            "literalization_risk": "An illustrator might draw a literal moon in the sky, which distracts from the internal, mental nature of the dream.",
+            "metaphor_mapping": {
+              "tenor_concept": "childhood dreams",
+              "transferred_attributes": [
+                "brightness",
+                "purity",
+                "beauty"
+              ],
+              "vehicle_concept": "moonlight"
+            },
+            "source_span_original": "चाँद की तरह चमकता",
+            "source_span_translation": "Shining like the moon",
+            "source_term": "चाँद की तरह चमकता",
+            "tenor": "The childhood dream's beauty and clarity",
+            "vehicle": "The moon's bright, luminous glow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing light surrounding a child's silhouette or a dreamlike scene, mimicking the gentle radiance of moonlight without necessarily drawing a literal moon."
+          },
+          {
+            "abstract_meaning": "The childhood dream is active, imaginative, and nurtured in a magical, starry atmosphere.",
+            "acceptable_visual_variants": [
+              "A child chasing sparkling points of light in a dark room",
+              "A starry night sky reflecting in a child's eyes"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Playing in the light of stars",
+            "literalization_risk": "Showing a child physically playing with stars like toys might look too cartoonish or literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreaming in childhood",
+              "transferred_attributes": [
+                "joy",
+                "wonder",
+                "freedom"
+              ],
+              "vehicle_concept": "playing in starlight"
+            },
+            "source_span_original": "तारों की रोशनी में खेलता",
+            "source_span_translation": "Playing in the light of stars",
+            "source_term": "तारों की रोशनी में खेलता",
+            "tenor": "The dream existing and thriving in a magical, imaginative space",
+            "vehicle": "A child playing physically in starlight",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a child-like figure surrounded by a soft, sparkling field of starlight, conveying a sense of wonder and playfulness."
+          },
+          {
+            "abstract_meaning": "The dream decorates and beautifies the simple, innocent thoughts of a child.",
+            "acceptable_visual_variants": [
+              "A child sleeping with colorful, glowing dream-bubbles floating above them",
+              "A child painting or arranging glowing stars on a wall"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Decorating/adorning the wishes of a tiny mind",
+            "literalization_risk": "An illustrator might try to draw a physical brain or mind being decorated with ornaments, which would look bizarre and clinical.",
+            "metaphor_mapping": {
+              "tenor_concept": "enriching a child's mind with dreams",
+              "transferred_attributes": [
+                "beauty",
+                "care",
+                "delicacy"
+              ],
+              "vehicle_concept": "decorating a physical space"
+            },
+            "source_span_original": "नन्हे मन के ख्वाब सजाता",
+            "source_span_translation": "Adorning the tiny mind's wishes",
+            "source_term": "नन्हे मन के ख्वाब सजाता",
+            "tenor": "The process of a child's mind forming beautiful, hopeful wishes",
+            "vehicle": "Decorating or arranging physical ornaments",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize abstract, colorful shapes, toys, or stars gently floating around a child's head to represent thoughts and wishes being beautifully arranged."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic resonance of the rhyming participles ('chamakta', 'khelta', 'sajata') which establish a playful, musical cadence in Hindi is lost in the English translation.",
+            "where": "L2-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The subtle distinction between the Sanskrit-derived 'sapna' (dream) and the Persian-derived 'khwaab' (wishes/dreams) is flattened into 'dream' and 'wishes' in English, losing the stylistic register blending characteristic of Hindustani poetry.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Childhood thrives, grows, and finds joy even in the warmth and challenges of sunny days.",
+            "acceptable_visual_variants": [
+              "A child opening their arms to the warm sun",
+              "A young plant sprouting next to a child's footprints in the sun"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Blooming in the heat of the sun",
+            "literalization_risk": "Drawing a literal flower blooming might lose the human element of childhood.",
+            "metaphor_mapping": {
+              "tenor_concept": "a child growing up happily",
+              "transferred_attributes": [
+                "growth",
+                "vitality",
+                "opening up"
+              ],
+              "vehicle_concept": "a flower blooming"
+            },
+            "source_span_original": "धूप की गर्मी में खिलता",
+            "source_span_translation": "Blooming in the warmth of sunlight",
+            "source_term": "धूप की गर्मी में खिलता",
+            "tenor": "Childhood growing and thriving in the warmth of life",
+            "vehicle": "A flower blooming in the sunlight",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a happy child running or playing in a bright, sun-drenched field, capturing the feeling of growth and warmth."
+          },
+          {
+            "abstract_meaning": "Childhood serves as a beautiful, comforting narrative that defines the sweetness of life.",
+            "acceptable_visual_variants": [
+              "An open book with glowing, magical scenes of childhood rising from the pages",
+              "A grandmother whispering to a child with dreamlike imagery floating between them"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "Telling a sweet story of life",
+            "literalization_risk": "Showing a person reading a literal book might look too mundane and miss the abstract sweetness of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "the evocative nature of childhood memories",
+              "transferred_attributes": [
+                "narrative",
+                "sweetness",
+                "nostalgia"
+              ],
+              "vehicle_concept": "storytelling"
+            },
+            "source_span_original": "जिंदगी की मीठी कहानी सुनाता",
+            "source_span_translation": "Telling the sweet story of life",
+            "source_term": "जिंदगी की मीठी कहानी सुनाता",
+            "tenor": "The memories of childhood bringing joy and sweet reflection to one's life",
+            "vehicle": "A storyteller narrating a sweet tale",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict an older person looking at a glowing scrapbook or a projection of childhood memories in the air, showing a sweet, nostalgic connection."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The phonetic rhythm and internal rhyme of the active participles ('khilta', 'jhoomta', 'sunata') which drive the lyrical flow of the stanza are lost in translation.",
+            "where": "L5-L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural nuance of 'masti' (carefree joy, intoxication, or mischief) is simplified to 'joyfully', losing its deeper colloquial flavor of uninhibited childhood playfulness.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The innocent joy and enduring sweetness of childhood dreams and memories."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बचपन का सपना,  \nचाँद की तरह चमकता,  \nतारों की रोशनी में खेलता,  \nनन्हे मन के ख्वाब सजाता।\n\nधूप की गर्मी में खिलता,  \nबारिश में मस्ती में झूमता,  \nवो प्यारा सा बचपन,  \nजिंदगी की मीठी कहानी सुनाता।",
+  "poem_id": "MV++_0380",
+  "poem_title": "Bachpan Ka Sapna",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "36862062dba4c49c9bbfc1071ccae9763b1591ae19c019c9bc4ac454e1a2e7e9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0380.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Childhood dream,  \nShining like the moon,  \nPlaying in the light of stars,  \nAdorning the tiny mind's wishes.\n\nBlooming in the warmth of sunlight,  \nSwaying joyfully in the rain,  \nThat lovely childhood,  \nTelling the sweet story of life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:18:48.854556+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "951cd7a1d34e45d78d9c5d69e28bd856ff13264d3ec639b7c1330b5cc0eb7ea4",
+        "response_hash": "a8876cdf18229f68e6d7701ca7b1288fbd37e1746d770cc6e2368535c6b923f1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5bfc4d99fe1d6d031e9ba9db6f6ec47b5322ae55dd8a81e13602efa1952a6929",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4de11cddc229d94e3419861f6a9f6193d5604f2473cedeef56c5f6650abdbfb9",
+        "response_hash": "478f77bb99cc7dd5da10cb895f8b4eedcb81ee3a6f3b3b9c7aa2cfce6b5b774f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2f0a1f9a790a154a25f7a74bd1b80dcf759716920587799fd43096470bfaa16a",
+        "response_hash": "2be09a07e5d4c335cf5673c1f101310c3ba5636684b6a8e95eb2583043100f0e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d598ddcc86567a6fb8e2e39dcc0048c0a95eb4c88d1920f15eb34959493c5da8",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2a1df00e4d6a644ef3621419952e3264236dca7023ae8eba222c2dd0cfe5dea5",
+    "translation_sha256": "10596573c379e34be54bd8bf2dbda22298db29d5dff0a31f973dbf525c90ce75"
+  }
+}

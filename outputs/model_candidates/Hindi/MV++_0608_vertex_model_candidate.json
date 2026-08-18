@@ -1,0 +1,286 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "despair and silence to deep-seated fear",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the spelling 'आकाल' (akaal) in the original is a slight variant of the standard 'अकाल' (akal), which adds a regional or colloquial texture that is lost in the standard English 'Famine'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Indifferent, helpless, or turning away from responsibility and reality due to despair.",
+            "acceptable_visual_variants": [
+              "A man looking down at his empty hands, avoiding looking at the dry fields",
+              "A figure standing with their back partially turned to the viewer, looking into the distance"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L4",
+            "literal_meaning": "having turned one's face away",
+            "literalization_risk": "An illustrator might draw a person physically twisting their neck away from a camera, which misses the emotional weight of societal indifference or helplessness.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional detachment or helplessness",
+              "transferred_attributes": [
+                "avoiding eye contact",
+                "turning away from a problem"
+              ],
+              "vehicle_concept": "physical aversion of the face"
+            },
+            "source_span_original": "मुँह फेरे",
+            "source_span_translation": "with averted gaze",
+            "source_term": "मुँह फेरे",
+            "tenor": "indifference, avoidance, or despair in the face of tragedy",
+            "vehicle": "turning one's face physically away",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing with a downcast, averted face, looking away from the dry landscape, conveying shame or deep sorrow rather than just a physical turn."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The spelling 'आकाल' (Akaal) is a non-standard or regional variant of the standard Hindi word for famine 'अकाल' (Akaal), which carries a distinct colloquial or dialectal flavor that is flattened into the standard English word 'Famine'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial Hindi noun 'चुप्प' (chupp) is used instead of the standard 'चुप्पी' (chuppi) for silence, conveying a raw, colloquial, and abrupt quality that is lost in the standard English translation 'silence'.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "The Hindi word 'जर्दी' (jardi) literally means yellowness or paleness (often associated with decay, dryness, or sickness), which is translated as 'yellowing earth'. The specific nuance of 'jardi' as a state of sickly pallor is slightly flattened.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The yellowing, dry, and dying state of the earth has stripped away all happiness and livelihood from the people.",
+            "acceptable_visual_variants": [
+              "A vast, dry, yellow-tinted cracked field under a harsh sun with no signs of life",
+              "An empty courtyard of a village home with dry, yellow dust settling over abandoned utensils"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7-L8",
+            "literal_meaning": "The yellow color of the earth has silently robbed every joy.",
+            "literalization_risk": "Depicting a literal thief or a personified yellow earth figure physically stealing bags of 'joy' would look cartoonish and ruin the somber tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "drought destroying the emotional well-being and joy of the villagers",
+              "transferred_attributes": [
+                "stealing silently",
+                "leaving victims empty-handed",
+                "causing sudden loss"
+              ],
+              "vehicle_concept": "a silent thief stealing valuables"
+            },
+            "source_span_original": "धरती की जर्दी ने चुपचाप\nहर एक खुशी को लूटा है।",
+            "source_span_translation": "The yellowing earth silently\nHas robbed every joy.",
+            "source_term": "धरती की जर्दी ने चुपचाप\nहर एक खुशी को लूटा है।",
+            "tenor": "The devastating effect of drought and famine on human happiness",
+            "vehicle": "A silent robber or thief",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a cracked, parched, yellow-toned landscape stretching out, with empty, abandoned festival items or broken household objects in the foreground to symbolize lost joy."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'जर्दी' (jardi/zardi), meaning yellowness or paleness, carries a strong sensory association with sickness, decay, or lifelessness in Hindustani, which is only partially captured by the literal translation 'yellowing'.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "fear",
+        "index": 3,
+        "loss_note": "The translation of 'प्यास की लकीरें' as 'lines of thirst' is faithful, though the visceral quality of these lines 'burning' in the eyes carries a slightly more intense physical sensation in the Hindi verb 'जलती हैं'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intense, visible physical and emotional longing for water and survival reflected in the eyes of the suffering people.",
+            "acceptable_visual_variants": [
+              "A close-up of a person's face with dry, cracked lips and deeply sunken, tired eyes",
+              "An eye reflecting the cracked, dry earth pattern in its iris"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "Lines of thirst are burning inside the eyes.",
+            "literalization_risk": "Drawing literal flames or physical lines inside a human eyeball would look like a horror or fantasy element rather than a realistic depiction of famine.",
+            "metaphor_mapping": {
+              "tenor_concept": "the painful sensation and visible strain of extreme thirst",
+              "transferred_attributes": [
+                "heat",
+                "dryness",
+                "pain",
+                "visible lines"
+              ],
+              "vehicle_concept": "burning lines or hot cracks"
+            },
+            "source_span_original": "आँखों में जलती हैं प्यास की लकीरें",
+            "source_span_translation": "In the eyes, burn the lines of thirst",
+            "source_term": "आँखों में जलती हैं प्यास की लकीरें",
+            "tenor": "The visible, painful longing and physical dryness of dehydration in the eyes",
+            "vehicle": "Burning lines or cracks of fire/heat",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on a close-up of bloodshot, dry, hollow eyes of a person, reflecting a harsh, bright, sunlit dry landscape."
+          },
+          {
+            "abstract_meaning": "Even the wind offers no relief, passing by indifferently without bringing rain or coolness.",
+            "acceptable_visual_variants": [
+              "Dry dust devils swirling through an empty, hot village street",
+              "A single dry leaf being blown across a cracked, barren ground by a hot gust of wind"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L10",
+            "literal_meaning": "The wind also turns its face away and leaves.",
+            "literalization_risk": "Depicting a cloud or wind with a literal human face turning away would look like a children's cartoon.",
+            "metaphor_mapping": {
+              "tenor_concept": "the wind blowing away from the drought-stricken area without bringing relief",
+              "transferred_attributes": [
+                "indifference",
+                "rejection",
+                "avoidance"
+              ],
+              "vehicle_concept": "a person turning their face away in rejection"
+            },
+            "source_span_original": "हवा भी जैसे मुँह फेरकर जाती है।",
+            "source_span_translation": "Even the breeze seems to turn away.",
+            "source_term": "हवा भी जैसे मुँह फेरकर जाती है।",
+            "tenor": "The complete lack of cool breeze or rain-bearing winds, leaving only hot, stagnant air",
+            "vehicle": "An indifferent person turning their face away",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show dry dust storms or heat waves blowing dry leaves away from the village, emphasizing the harshness of the wind rather than a literal face."
+          },
+          {
+            "abstract_meaning": "The fear and trauma of the famine are clearly visible in the expressions and lines on everyone's faces.",
+            "acceptable_visual_variants": [
+              "A portrait of an elderly villager with deep wrinkles that mirror the cracks in the dry earth",
+              "A mother holding a child, both with expressions of quiet, intense anxiety and weariness"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "It is written on everyone's face.",
+            "literalization_risk": "Drawing literal letters or words on a person's skin would look like body paint or a fantasy curse, completely missing the realistic emotional portrayal.",
+            "metaphor_mapping": {
+              "tenor_concept": "deep wrinkles, hollow cheeks, and expressions of fear on human faces",
+              "transferred_attributes": [
+                "legibility",
+                "permanence",
+                "clear visibility"
+              ],
+              "vehicle_concept": "words written clearly on a page"
+            },
+            "source_span_original": "हर किसी के चेहरे पर लिखा जाता है।",
+            "source_span_translation": "Is written on every face.",
+            "source_term": "हर किसी के चेहरे पर लिखा जाता है।",
+            "tenor": "The clear, unmistakable visibility of fear and suffering in human facial expressions",
+            "vehicle": "A written text or script on a surface",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a group of villagers with deeply lined faces, hollow cheeks, and wide, anxious eyes that clearly communicate fear and exhaustion."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The passive construction 'लिखा जाता है' (likha jaata hai) emphasizes an ongoing, inevitable process of fear being inscribed on faces, which is rendered as a simple present state 'Is written' in English, losing the aspectual nuance of continuous passive action.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The devastating physical and psychological aftermath of famine on the land and its people"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आकाल और उसके बाद,\nधरती पर एक अजीब सी चुप्प है।\nगाँवों में सूखा पड़ा है,\nऔर आदमी मुँह फेरे खड़ा है।\n\nजो बीज कभी उगते थे,\nअब वह सूखे बंजर में खो गए।\nधरती की जर्दी ने चुपचाप\nहर एक खुशी को लूटा है।\n\nआँखों में जलती हैं प्यास की लकीरें,\nहवा भी जैसे मुँह फेरकर जाती है।\nआकाल और उसके बाद का डर,\nहर किसी के चेहरे पर लिखा जाता है।",
+  "poem_id": "MV++_0608",
+  "poem_title": "Akal Aur Uske Baad",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e79d6f96dcd5513001f3d6726cbc1af8d5d07987df8d43110f7f4408e04f462b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0608.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Famine and after,\nThere is a strange silence on the earth.\nThe villages are dry,\nAnd man stands with averted gaze.\n\nThe seeds that once sprouted,\nNow lost in the barren waste.\nThe yellowing earth silently\nHas robbed every joy.\n\nIn the eyes, burn the lines of thirst,\nEven the breeze seems to turn away.\nThe fear of famine and after,\nIs written on every face.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:45:34.886234+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "84c240b91e4e3899886734cfd11142a07d3a01a3b2905098eabc36e0a0f30b91",
+        "response_hash": "a93289d7a66f4fa07479a6a05c22bec1f6c9ab2e2bd0a05de6b7f13bcc42d48d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9305f11b3d1abeaa356a84b5458c9cf616801d21197583bb914eae51d8901af0",
+        "response_hash": "573184294f6355dd879a998a34ad449a30476fa06fd83128cb4450a6dd1c0d88",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8650aafb1c530b765b57659ff3c0d6cff78bff6d8dd895eb918daf3e398c135d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cdc18453c3edbff04e129cc0a9d74859671922a527af8f403368375ef76c9530",
+        "response_hash": "33a51ba4c52ab37931a93e21143aacb3293250499e137b6e95a7fe0c51074c94",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3e6a4c7c1c535062143b9398df4040830549334614ef92f188377e5ef5b4db81",
+        "response_hash": "279c06ae94a4299f571dd7ebe86dcdb9d85353ee24ffeeebe9fa0e4bd0c72a45",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "31cdf09fa4b42441dd88e152551695e5cebb859c0e865edfd108bcc021a23d84",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ac35c03a4ca9f378bbbb0e2a14f5097f8cb61475027a3382c57a3c44e8443f21",
+    "translation_sha256": "c2fb6fb03b8d99e999ebe0f66ba7cb11bb7e9107a2da8df202aa28fd65221f2f"
+  }
+}

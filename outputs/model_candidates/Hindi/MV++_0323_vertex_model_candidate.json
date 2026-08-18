@@ -1,0 +1,294 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A landscape showing the transition from dry summer to wet monsoon with dark clouds and light rain",
+          "A traditional Indian village setting under a heavy grey sky with fresh green vegetation"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The fourth month of the Hindu lunar calendar, corresponding to June-July, marking the arrival of the monsoon season in India. It is deeply associated in classical and regional literature with the first rains, dark clouds, and romantic longing.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic tropical storm or hurricane scene",
+          "A dry desert landscape with no rain"
+        ],
+        "preserved": true,
+        "romanization": "Ashadh",
+        "source_span_original": "अषाढ़",
+        "source_span_translation": "Ashadha",
+        "stanza_index": 1,
+        "term": "अषाढ़",
+        "translation_note": "The translation preserves the term as 'Ashadha', which is the Sanskritized spelling of the Hindu calendar month.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Dark monsoon clouds",
+          "Drizzling rain",
+          "Lush green landscape",
+          "Sunlight filtering through clouds"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A landscape showing the transition from dry summer to wet monsoon with dark clouds and light rain",
+          "A traditional Indian village setting under a heavy grey sky with fresh green vegetation"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The fourth month of the Hindu lunar calendar, corresponding to June-July, marking the arrival of the monsoon season in India. It is deeply associated in classical and regional literature with the first rains, dark clouds, and romantic longing.",
+        "line_ref": "L7",
+        "negative_confusions": [
+          "A generic tropical storm or hurricane scene",
+          "A dry desert landscape with no rain"
+        ],
+        "preserved": true,
+        "romanization": "Ashadh",
+        "source_span_original": "अषाढ़",
+        "source_span_translation": "Ashadha",
+        "stanza_index": 2,
+        "term": "अषाढ़",
+        "translation_note": "The translation preserves the term as 'Ashadha', which is the Sanskritized spelling of the Hindu calendar month.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Dark monsoon clouds",
+          "Drizzling rain",
+          "Lush green landscape",
+          "Sunlight filtering through clouds"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "wonder to celebration",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sunlight fading or turning away as clouds block it.",
+            "acceptable_visual_variants": [
+              "Sunlight retreating behind a heavy cloud bank",
+              "Shadows sweeping across a field as the sun is blocked"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Turning the face of the sunlight",
+            "literalization_risk": "Showing a literal face on a sunbeam turning around, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "sunlight fading behind clouds",
+              "transferred_attributes": [
+                "intentional movement",
+                "turning away"
+              ],
+              "vehicle_concept": "human turning face away"
+            },
+            "source_span_original": "धूप का मुँह मोड़ कर",
+            "source_span_translation": "Turning away from the sun",
+            "source_term": "धूप का मुँह मोड़ कर",
+            "tenor": "The fading or shifting of sunlight as storm clouds roll in",
+            "vehicle": "A person turning their face away",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict sunlight shifting or retreating behind dark clouds, casting shadows across the landscape."
+          },
+          {
+            "abstract_meaning": "The sky or landscape being covered or draped in dark rain clouds.",
+            "acceptable_visual_variants": [
+              "Thick monsoon clouds hanging low over hills",
+              "A sky completely blanketed by dark, textured rain clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Wearing a robe/garment of clouds",
+            "literalization_risk": "Depicting a literal giant person wearing a robe made of fluffy clouds, which ruins the natural landscape imagery.",
+            "metaphor_mapping": {
+              "tenor_concept": "being covered by clouds",
+              "transferred_attributes": [
+                "covering",
+                "draping",
+                "adornment"
+              ],
+              "vehicle_concept": "wearing a robe"
+            },
+            "source_span_original": "बादलों का चोला पहने",
+            "source_span_translation": "Dressed in the attire of clouds",
+            "source_term": "बादलों का चोला पहने",
+            "tenor": "The sky or landscape covered in clouds",
+            "vehicle": "A robe or garment (chola)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show heavy, dark monsoon clouds completely enveloping the sky and draping over hills or the horizon like a thick garment."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'धूप' (dhoop) as 'sun' loses the specific nuance of 'sunlight' or 'sunshine' as distinct from the sun itself, which is 'सूरज' (suraj) in L3. This collapses the distinction between the celestial body and its light.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The cultural and literary resonance of 'अषाढ़' (Ashadh) as the traditional Hindu calendar month marking the onset of the monsoon, which carries deep classical poetic associations with longing and rain, is flattened to a simple transliterated name 'Ashadha'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "In the deep, quiet, or hidden parts of one's mind or inner consciousness.",
+            "acceptable_visual_variants": [
+              "A person in a reflective pose with a soft inner glow",
+              "A quiet, cozy corner of a room used as a visual parallel for introspection"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "In the corner of the mind/heart",
+            "literalization_risk": "Showing a literal heart or brain with physical architectural corners, which is anatomically absurd and visually jarring.",
+            "metaphor_mapping": {
+              "tenor_concept": "hidden depths of the mind",
+              "transferred_attributes": [
+                "containment",
+                "privacy",
+                "hidden spaces"
+              ],
+              "vehicle_concept": "corners of a physical room"
+            },
+            "source_span_original": "मन के कोने में",
+            "source_span_translation": "corners of the heart",
+            "source_term": "मन के कोने में",
+            "tenor": "The inner, private depths of human consciousness or memory",
+            "vehicle": "A physical room with corners",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on a contemplative person looking inward, perhaps with a soft, warm light or a symbolic glowing space near their chest to represent the inner voice."
+          },
+          {
+            "abstract_meaning": "The feeling of vitality, joy, and existence urging the speaker to enjoy the moment.",
+            "acceptable_visual_variants": [
+              "A figure joyfully dancing or reaching out to catch raindrops",
+              "Vibrant green leaves glistening with fresh rain, symbolizing active life"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L10",
+            "literal_meaning": "Life was speaking/saying",
+            "literalization_risk": "Depicting a literal personified figure named 'Life' speaking to the character, which is overly allegorical.",
+            "metaphor_mapping": {
+              "tenor_concept": "the abstract feeling of vitality",
+              "transferred_attributes": [
+                "communication",
+                "agency",
+                "invitation"
+              ],
+              "vehicle_concept": "a person speaking words of invitation"
+            },
+            "source_span_original": "कह रही थी ज़िंदगी",
+            "source_span_translation": "life was saying",
+            "source_term": "कह रही थी ज़िंदगी",
+            "tenor": "The abstract feeling of being alive and joyful during the monsoon",
+            "vehicle": "A speaking person",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict the joyful atmosphere of rain, green plants, and splashing water droplets that naturally evoke a sense of playfulness and vitality."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मन' (man) as 'heart' collapses the distinct Sanskrit/Hindi concept of 'manas' (the mind-heart, seat of emotions, thoughts, and inner desires) into the Western emotional default of 'heart'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The arrival of the monsoon month of Ashadha brings a playful, rejuvenating spirit to both nature and the human heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अषाढ़ का एक दिन  \nबूंदों की फुहार में  \nसूरज की किरणें छुपी थीं।  \nधूप का मुँह मोड़ कर,  \nबादलों का चोला पहने,  \nधरती पर बिखरे थे रंग।  \n\nइस अषाढ़ में,  \nमन के कोने में बसी थी  \nएक मीठी-सी आवाज़,  \nजिसमें कह रही थी ज़िंदगी,  \n'आओ, खेलें, मस्ती करें।'",
+  "poem_id": "MV++_0323",
+  "poem_title": "Ashad Ka Ek Din",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "fb3f0bec66e40b5c18e1111d87d50db61da0bf481ec235264e5ef1e9247369c0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0323.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A Day in Ashadha  \nIn the drizzle of droplets,  \nThe rays of the sun were hidden.  \nTurning away from the sun,  \nDressed in the attire of clouds,  \nColors were scattered on the earth.  \n\nIn this Ashadha,  \nResided in the corners of the heart,  \nA sweet voice,  \nThat life was saying,  \n'Come, let’s play, let’s rejoice.'",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:12:44.100435+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "63339777e0a767fe843bb02d24f22e2dd019d069454037ba4a57274acb45954b",
+        "response_hash": "b081f7f84e4202e419baaab2a8090e293c398681f69644ddf5e5e5bf5e6513f8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bc92bd0b3708e32e3641d39123da3527d68a1e26792344968679c5d1e8606646",
+        "response_hash": "2dcc635435eb36966a02149da887bdc2dcbb8d2b704631def0c43d843dc1d3a2",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f16aacfb72581b813a6b0c74660f7ee6d4823f634b4bbeb84581e40a1ade830e",
+        "response_hash": "5769d5a2ddaed04656793dff33531fa596bd935f04e2b5447af8afd2727e6c70",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0d8468efc2b3c9760c5ca1a37635e2fb43bdbccf82b74cb3304c4c2839e53b80",
+        "response_hash": "9fe1e87fb7fc684a3a6c9f3301f017b93bb532bf6e15a73e43476001e7b70c77",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7489eb65a485399fb7e351d5598a9d4e5318b954a08d765c1ca32aceed12c3ca",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7a4b00740460087c950662321cec986ddb7a37d1255b6072ce32428d821a3428",
+    "translation_sha256": "491d77eec216c87471dc816d64afb344095d7e148641c974fa867b255b5a8150"
+  }
+}

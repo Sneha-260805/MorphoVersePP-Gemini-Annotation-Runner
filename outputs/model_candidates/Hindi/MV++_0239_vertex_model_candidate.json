@@ -1,0 +1,275 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A gentle ripple in the sand dunes with light dust motes catching the morning sun",
+          "A soft breeze swaying a single desert shrub or flower under a vast sky"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A classical poetic term of Persian origin meaning a gentle, cool morning breeze, highly stylized in Urdu and Hindi ghazal poetry as a symbol of comfort, hope, or the beloved's presence.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A violent desert sandstorm or dust storm",
+          "A tropical sea breeze with palm trees"
+        ],
+        "preserved": true,
+        "romanization": "baad-e-naseem",
+        "source_span_original": "बाद-ए-नसीम",
+        "source_span_translation": "gentle breeze",
+        "stanza_index": 1,
+        "term": "बाद-ए-नसीम",
+        "translation_note": "Translated as 'gentle breeze', which captures the literal meaning but loses the specific Persianate poetic register of the Urdu/Hindi ghazal tradition.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A soft, invisible movement of air rustling through desert sands or sparse vegetation under a morning sky."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing to quiet solace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation uses 'desolation's spree' to rhyme with 'memory', which introduces a slightly active, celebratory connotation not present in the original Urdu/Hindi word 'veeraane' (desolate place/wilderness). Additionally, the specific poetic compound 'baad-e-naseem' (cool morning breeze) is simplified to 'gentle breeze'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sudden, comforting, and transformative arrival of a beloved's memory in a lonely, grieving heart.",
+            "acceptable_visual_variants": [
+              "A lone figure in a dark room looking out a window as a soft, warm breeze gently rustles the curtains and brings in a single green leaf.",
+              "A desolate landscape transitioning from cold grey to warm, soft green tones around a central figure."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "As if spring arrives silently in a desolate wasteland.",
+            "literalization_risk": "An illustrator might draw a literal desert blooming with flowers, which misses the emotional reality of a person remembering a loved one in a quiet room.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory in a lonely heart",
+              "transferred_attributes": [
+                "suddenness",
+                "revitalization",
+                "quiet comfort",
+                "transformation of barrenness to life"
+              ],
+              "vehicle_concept": "spring in a wasteland"
+            },
+            "source_span_original": "जैसे वीराने में चुपके से बहार आ जाए।",
+            "source_span_translation": "Like a quiet spring arrives in desolation’s spree.",
+            "source_term": "जैसे वीराने में चुपके से बहार आ जाए।",
+            "tenor": "The sudden arrival of a comforting memory of a beloved in a lonely heart.",
+            "vehicle": "Spring arriving quietly in a barren, desolate wilderness.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split or blended scene: a person sitting in a dimly lit, quiet room, with a soft, warm, green spring-like light or subtle floral shadows gently washing over them to represent the internal shift."
+          },
+          {
+            "abstract_meaning": "The soothing, refreshing effect of the beloved's memory on a dry, exhausted, or suffering soul.",
+            "acceptable_visual_variants": [
+              "A close-up of a person closing their eyes in relief as a gentle breeze moves their hair.",
+              "A vast, quiet desert at dusk with soft ripples in the sand under a calm, starry sky."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "As if a gentle morning breeze starts blowing in a desert.",
+            "literalization_risk": "Showing a literal desert with wind blowing sand might look harsh or stormy, which contradicts the gentle, soothing nature of 'baad-e-naseem' (morning breeze).",
+            "metaphor_mapping": {
+              "tenor_concept": "comforting memory in a weary mind",
+              "transferred_attributes": [
+                "relief from heat/pain",
+                "gentleness",
+                "refreshment",
+                "unexpected comfort"
+              ],
+              "vehicle_concept": "cool breeze in a hot desert"
+            },
+            "source_span_original": "जैसे सहरा में हो चलने लगे बाद-ए-नसीम,",
+            "source_span_translation": "Like a gentle breeze stirs in the desert sand,",
+            "source_term": "जैसे सहरा में हो चलने लगे बाद-ए-नसीम,",
+            "tenor": "The soothing and refreshing impact of a memory on a dry, weary mind.",
+            "vehicle": "A cool, gentle morning breeze blowing across a hot, dry desert.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a weary traveler resting under a night sky, their hair and clothes gently swayed by a soft, cool breeze, conveying relief and peace."
+          },
+          {
+            "abstract_meaning": "The sudden, unexplainable relief and peace that comes to a suffering heart upon remembering the beloved.",
+            "acceptable_visual_variants": [
+              "A hand resting peacefully on a chest, tension releasing.",
+              "A silhouette of a person sitting up in a soft light, looking peaceful and restored."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "As if a sick person suddenly finds peace/relief without any apparent reason.",
+            "literalization_risk": "Depicting a hospital bed or physical sickness literally might feel too clinical or morbid, detracting from the romantic and poetic nature of the emotional relief.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional peace from a memory",
+              "transferred_attributes": [
+                "suddenness",
+                "absence of physical cause",
+                "profound relief",
+                "restoration of calm"
+              ],
+              "vehicle_concept": "unexplained relief from illness"
+            },
+            "source_span_original": "जैसे बीमार को बेवजह करार आ जाए।",
+            "source_span_translation": "Like sudden solace in a sickly land.",
+            "source_term": "जैसे बीमार को बेवजह करार आ जाए।",
+            "tenor": "The sudden, unexplainable peace brought to a grieving heart by a memory.",
+            "vehicle": "A sick person suddenly experiencing a wave of comfort and relief without medicine.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the expression of relief: show a person who looked tense or weary suddenly relaxing, perhaps with a soft smile, as if a heavy burden has just been lifted."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'yoon' (यूं) as 'settles' misses the specific adverbial nuance of 'in this manner' or 'thus', which sets up the subsequent comparative 'jaise' (जैसे) clauses. Additionally, the Urdu-derived poetic compound 'baad-e-naseem' (बाद-ए-नसीम), meaning a cool morning breeze, is simplified to a generic 'gentle breeze', losing its classical literary register. The word 'bewajah' (बेवजह), meaning 'without reason' or 'unexpectedly', is translated as 'sudden', which alters the nuance of uncaused, grace-like relief. Finally, 'bimaar' (बीमार) refers to a sick person, which the translation generalizes to 'a sickly land' to force a rhyme with 'sand'.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The repetition of the first two lines serves as a structural refrain, carrying the same minor translation shifts as in the first stanza.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sudden, comforting, and transformative arrival of a beloved's memory in a lonely, grieving heart.",
+            "acceptable_visual_variants": [
+              "A lone figure in a dark room looking out a window as a soft, warm breeze gently rustles the curtains and brings in a single green leaf.",
+              "A desolate landscape transitioning from cold grey to warm, soft green tones around a central figure."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L6",
+            "literal_meaning": "As if spring arrives silently in a desolate wasteland.",
+            "literalization_risk": "An illustrator might draw a literal desert blooming with flowers, which misses the emotional reality of a person remembering a loved one in a quiet room.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory in a lonely heart",
+              "transferred_attributes": [
+                "suddenness",
+                "revitalization",
+                "quiet comfort",
+                "transformation of barrenness to life"
+              ],
+              "vehicle_concept": "spring in a wasteland"
+            },
+            "source_span_original": "जैसे वीराने में चुपके से बहार आ जाए।",
+            "source_span_translation": "Like a quiet spring arrives in desolation’s spree.",
+            "source_term": "जैसे वीराने में चुपके से बहार आ जाए।",
+            "tenor": "The sudden arrival of a comforting memory of a beloved in a lonely heart.",
+            "vehicle": "Spring arriving quietly in a barren, desolate wilderness.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split or blended scene: a person sitting in a dimly lit, quiet room, with a soft, warm, green spring-like light or subtle floral shadows gently washing over them to represent the internal shift."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'yoon' (यूं) as 'settles' misses the specific adverbial nuance of 'in this manner' or 'thus', which sets up the subsequent comparative 'jaise' (जैसे) clauses. Additionally, the rhyme-forced phrase 'desolation's spree' introduces a playful or active connotation ('spree') that is entirely absent from the original 'veeraane' (वीराने), which denotes absolute desolation, emptiness, or wilderness.",
+            "where": "L5-L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sudden, comforting arrival of a lost memory in a desolate heart, like spring in a wasteland."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The field 'preserved' is set to true, which is inconsistent with 'translation_status' being set to 'PARTIALLY_PRESERVED' and the 'translation_note' stating that the specific poetic register was lost. It should be false or null to align with partial preservation.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रात यूं दिल में तेरी खोई हुई याद आई,\nजैसे वीराने में चुपके से बहार आ जाए।\nजैसे सहरा में हो चलने लगे बाद-ए-नसीम,\nजैसे बीमार को बेवजह करार आ जाए।\n\nरात यूं दिल में तेरी खोई हुई याद आई,\nजैसे वीराने में चुपके से बहार आ जाए।",
+  "poem_id": "MV++_0239",
+  "poem_title": "Raat Yun Dil Mein",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7dee13489b7f357221a1def9ed8b2aaded574db81083bef2e9cfba0fd606fbba",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0239.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Night settles in my heart with your lost memory,\nLike a quiet spring arrives in desolation’s spree.\nLike a gentle breeze stirs in the desert sand,\nLike sudden solace in a sickly land.\n\nNight settles in my heart with your lost memory,\nLike a quiet spring arrives in desolation’s spree.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:03:19.521908+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f966553f0480679322c54ff288c54b008eb47140d19a213937dc2a91edbd6306",
+        "response_hash": "f50b10fc929fe9b99e5d65df384ee7361138fd4638f8bffcd43ad08f39f02b11"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1e25d46bb5ff2d8b2bbbd2b3e49d2dac336ca70262cd1a696c1c4bc9222c4d35",
+        "response_hash": "f7deadf45de87de50d19ad1f74a0dd07e1cc118a706c6e32b3af2d26ffcf5ba7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b522926a8d2e45df3d2635088a01c5bf1c085eee58afcf07ec58a8ffcaeb1c72",
+        "response_hash": "245b52b070e5e77497e6df97d1bcfe29382acf4b746d8816cab1586a9a174eef",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2bd2214beb00e5c3426f8ff74d8ed234dde7194df688dc5f858f8149c56b59a3",
+        "response_hash": "a15334990872bd4a739fb238a318f3fe0a344e6476d13ec205dd4b8bdddf09dc",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7fff04e3caf8d45be3593a96372e9826021ab960c0cf8e5f150d20cf53877428",
+        "response_hash": "1a9a5c21299836e29f6058df7c61c731db4c449f44ee70002ea9661d9562ecb5",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db588a957b62cb4587b780e31821773a5de480d8fd7e1583304049573358b56e",
+        "response_hash": "989377d8708676c73111f6cad0fd8e047b8923ff5cfbf58897fbd49ad2bc2e09",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f7927563ea07d20b44d03bfd90240b9ccd4863e5e89bebbc76a5e5fdd892b473",
+    "translation_sha256": "f4bc35f0b3b772825b513738e8c7861be12542846d105c7a728e450302941717"
+  }
+}

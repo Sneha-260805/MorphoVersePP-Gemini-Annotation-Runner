@@ -1,0 +1,231 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A vast desert landscape under a bright sky",
+          "A traditional stone gateway or fort silhouette in the background"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A northwestern state of India known for its distinct cultural heritage, desert landscapes, and historical kingdoms. Here invoked as a symbol of regional pride.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic tropical Indian landscape with palm trees and lush greenery",
+          "A modern urban cityscape with glass skyscrapers"
+        ],
+        "preserved": true,
+        "romanization": "Rajasthan",
+        "source_span_original": "राजस्थान",
+        "source_span_translation": "Rajasthan",
+        "stanza_index": 1,
+        "term": "राजस्थान",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Arid or semi-arid landscape",
+          "Traditional architecture elements like arches or stone carvings",
+          "Vibrant colors in attire"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Expansive sand dunes stretching to the horizon",
+          "A desert landscape with a caravan or travelers in the distance"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Thar Desert, also known as the Great Indian Desert, which forms a major geographical and cultural region of Rajasthan.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A rocky canyon or mountain range",
+          "A coastal beach with ocean waves"
+        ],
+        "preserved": true,
+        "romanization": "Thar",
+        "source_span_original": "थार",
+        "source_span_translation": "Thar",
+        "stanza_index": 1,
+        "term": "थार",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Rolling sand dunes",
+          "Sparse desert vegetation like shrubs or acacia trees",
+          "Warm golden sunlight"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A figure at a doorway welcoming guests with a traditional greeting gesture",
+          "An open gateway symbolizing hospitality"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional Rajasthani phrase of welcome, literally meaning 'Welcome to my land', deeply associated with regional hospitality and folk music.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A formal military salute",
+          "An aggressive or dismissive hand gesture"
+        ],
+        "preserved": true,
+        "romanization": "Padharo mhare desh",
+        "source_span_original": "पधारो म्हारे देश",
+        "source_span_translation": "Come to my land",
+        "stanza_index": 1,
+        "term": "पधारो म्हारे देश",
+        "translation_note": "Translated as 'Come to my land', which captures the literal meaning but loses the iconic status of this specific phrase as the traditional Rajasthani welcome.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A welcoming gesture with folded hands (Anjali Mudra or Namaste)",
+          "Warm, hospitable facial expressions"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A joyful and welcoming celebration of the vibrant land of Rajasthan and the Thar desert.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation simplifies the iconic regional welcoming phrase 'padharo mhare desh' and the specific cultural resonance of 'rangilo' (colorful/joyous) into standard English adjectives, losing their deep regional and rhythmic flavor.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Vibrant, culturally rich, and full of life",
+            "acceptable_visual_variants": [
+              "People in bright traditional attire against the desert backdrop",
+              "A festive gathering with colorful banners and traditional instruments"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Colored or dyed with multiple colors",
+            "literalization_risk": "An illustrator might paint the physical sand of the Thar desert or the land itself in literal rainbow colors, which would look unnatural and miss the cultural meaning of vibrancy.",
+            "metaphor_mapping": {
+              "tenor_concept": "cultural vibrancy and richness",
+              "transferred_attributes": [
+                "brightness",
+                "variety",
+                "joyfulness"
+              ],
+              "vehicle_concept": "multicolored fabric or object"
+            },
+            "source_span_original": "रंगीलो",
+            "source_span_translation": "Colorful",
+            "source_term": "रंगीलो",
+            "tenor": "The vibrant culture, hospitality, and spirit of Rajasthan and the Thar desert",
+            "vehicle": "A multicolored or brightly dyed object/fabric",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the scene with vibrant, warm-toned traditional Rajasthani attire, festive decorations, or lively cultural gatherings to visually convey 'color' through cultural life."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the specific cultural resonance of the welcoming phrase 'Padharo mhare desh', which is a traditional Rajasthani formula of hospitality. It also flattens the regional grammatical markers and the rhythmic cadence of the original Rajasthani phrasing.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Hospitality and pride in the colorful heritage of Rajasthan."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[2].preserved",
+      "issue": "The 'preserved' boolean is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that it loses the iconic status of the phrase, which is inconsistent with full preservation.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Rajasthani",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रंगीलो राजस्थान, रंगीलो रे थार।\nपधारो म्हारे देश, खुशीयां सांचो बारां।",
+  "poem_id": "MV++_1231",
+  "poem_title": "Rangila Rajasthan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0302688162399ad8d6a065512d2fe4f947cfbe36fc14d4ecea1f97739cbc9ad7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Rajasthani/MV++_1231.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Colorful Rajasthan, the colorful Thar.  \nCome to my land, happiness here is never far.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:11:33.486429+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7cacd9350aa03e1f823aac5a811cfeb8fc4338cc3854018e8e2ae99ddaed9bc0",
+        "response_hash": "df5d589daa204ee77671da9af3f86efdd29b15b1a9d0469be9f7f36eb0ee55bb"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d7d97ca01ce543040cf213f4ea24b6dc685a70eea2dda6fc44b689f0515a5bcd",
+        "response_hash": "16347ef37a6d14dfa399f542f53d9a80294fbfe228a4542ff1f0a6dad2f38453",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "55ff7ea3af3c9a5913d5efc276a5ba265ae912943a4acbec42b1f431af6c35a8",
+        "response_hash": "6af3920854aac04a095d75f49eb09f9008cc7a675f3cb8469b628545255fb08f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e61ba062964f188689ee6271b960cf1686a46c8f3d85eaff5118c49a272fd0dc",
+        "response_hash": "8e2fe7e37c7b344bb7fc1b92f703154ef6e19bf08f6dc7b005b180e28a2acae8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "54a9cb5adfa2f772947a1f266deb3ccab5b1411a88d3cabb23791eeea787f452",
+        "response_hash": "176ede07f38e40f3277d0bd37b9de3ef3ede4eb12d377f6da469d5f10316a177",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "707b66e802ecd130322271845e75c46933f6f9747f8e84269a127a76bcbd58d9",
+        "response_hash": "520f0f4847fb5fad19ddf8bc51bd3eafe3d1ae2d5f80b3bd2aebe8397c9c8387",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "677915d0dfae4bb8df6f6023290627a04622dc7155e30275d26137e9a6c2ebb1",
+    "translation_sha256": "efb5f21be48b7b626bcbe5f17bcc62a5d910eed701df47bf0804f4d49655108a"
+  }
+}

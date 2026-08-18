@@ -1,0 +1,184 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A modern Tamil bride in contemporary elegant attire",
+          "A traditional bride in a classic red or yellow silk saree"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Literally 'new woman' or 'new bride', a term culturally used in Tamil society to refer to a newly married woman, often associated with specific traditional attire, modesty, and transition into a new household.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic Western bride in a white gown",
+          "An ancient classical Sangam-era historical figure",
+          "A temple dancer in Bharatanatyam costume"
+        ],
+        "preserved": true,
+        "romanization": "puthu penn",
+        "source_span_original": "புது பெண்",
+        "source_span_translation": "The new woman",
+        "stanza_index": 1,
+        "term": "புது பெண்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A newly married Tamil bride",
+          "Traditional silk saree (Kanchipuram style)",
+          "Gold jewelry (necklace, bangles, hair ornaments)",
+          "Flowers (jasmine) in her hair",
+          "Modest posture, casting a shadow"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A sudden burst of joy and romantic wonder upon witnessing the presence of a beloved.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beautiful, harmonious, and emotionally moving experience of love.",
+            "acceptable_visual_variants": [
+              "A couple sharing a quiet, joyful moment with soft, flowing light patterns in the background",
+              "A woman casting a gentle shadow toward a man who looks at her with a joyful expression"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The sweet musical melody of love",
+            "literalization_risk": "Depicting literal musical notes or instruments floating around a couple, which might look cartoonish or distract from the emotional connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "romantic love",
+              "transferred_attributes": [
+                "sweetness",
+                "harmony",
+                "emotional resonance"
+              ],
+              "vehicle_concept": "music/melody"
+            },
+            "source_span_original": "காதலின் இனிய ராகம்",
+            "source_span_translation": "The sweet melody of love",
+            "source_term": "காதலின் இனிய ராகம்",
+            "tenor": "the feeling of love",
+            "vehicle": "a sweet musical melody (ragam)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the couple in a warm, harmonious setting with soft lighting that suggests a peaceful, melodic atmosphere, or use abstract, flowing visual lines to represent the rhythm of their connection."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'உன் நிழலால் காட்டும்' as 'Casting shadows' loses the explicit second-person possessive pronoun 'உன்' (your) and the instrumental case suffix '-ஆல்' (by/through), which directly attributes the action of showing/revealing to the subject's shadow ('by your shadow shown').",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation 'Brings joy to my heart' flattens the locative case marker '-இல்' (in) on 'இதயத்தில்' (in the heart) and the noun 'களிப்பு' (joy/delight), converting a state of joy existing within the heart into an active verb phrase ('brings joy').",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transformative joy and sweet melody of love brought by the presence of a new woman."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss array detailing medium and low severity losses. This is slightly inconsistent with a completely faithful translation, though acceptable if the overall quality remains high. No action required unless strict consistency is enforced.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "புது பெண்,  \nஉன் நிழலால் காட்டும்,  \nஎன் இதயத்தில் களிப்பு,  \nகாதலின் இனிய ராகம்!",
+  "poem_id": "MV++_1386",
+  "poem_title": "Puthu Penn",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "be0899439c4f18a78367d4a2d234af7e78a4ae0035858ec688e94a267539c807",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1386.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The new woman,  \nCasting shadows,  \nBrings joy to my heart,  \nThe sweet melody of love!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:28:17.058816+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "afb41281bf76ef69709f32b69f6b620e69a5e457566a025613c6ce1a5e9fde74",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3d24ed969d111363489f8fc89e975abb4f8bd68d4b9085deccf70516f4fe709f",
+        "response_hash": "7236ccf539fb558ee108d2026ab893dbf70281bc3cdff0d996aaed16f887756e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e2a09676133a4ac1d10d4dce36f0fc0328ca47597fae755291df20bd03c41661",
+        "response_hash": "50c773eb804a652cffa04f27eb6ae33b7bb9de9d0f59047170c3a01df3299ff6",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "90194469fe9ddb01d47479d1818c3683936423714a29f15c4c6a7875c56c5258",
+        "response_hash": "d2f3d46303f5b60da814ea15857cd42d914a774e7d5e5ad2aeb93ec44ec6fdc2",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "29e746759bbd3e6a5a0bb6dff6b265ed5c5b942db2df184029cf2cbff3531a99",
+        "response_hash": "a740dd386e80862332f96e28a73266b980bc734674747276a42e4b6d465cf25f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4a09494ec3fde9f25141f17bfa2ab60a013e84094e6a68e76a6e21d604548ba5",
+        "response_hash": "9b977712c4ce064544fb8851a0bfae9a6239e8e073d0b4bf127c1ba4b849f8a7",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f88eea9917e93cac75c4ac6f14022e582021ca3f98f1a173925f908e665c9402",
+    "translation_sha256": "37304852f80b548dd0048ff3eb60471e4070e512f537215de712bfe6f07ab9fd"
+  }
+}

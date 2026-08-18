@@ -1,0 +1,241 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple, unadorned mud stove in a rustic kitchen setting",
+          "A clay stove with light decorative white chalk or rice paste patterns around its rim"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional South Asian earthen or clay stove, typically built on the ground and fueled by firewood, coal, or dried cow dung cakes, deeply associated with rural domestic life and traditional cooking.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern Western-style metal stove",
+          "A generic brick fireplace",
+          "An industrial charcoal grill"
+        ],
+        "preserved": true,
+        "romanization": "mitti ka chula",
+        "source_span_original": "मिट्टी का चुल्ला",
+        "source_span_translation": "The earthen stove",
+        "stanza_index": 1,
+        "term": "मिट्टी का चुल्ला",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A handmade, low-to-the-ground stove molded from clay or mud",
+          "A single or double burner opening on top",
+          "A front opening for feeding firewood or fuel",
+          "Slightly textured, rustic earthen surface"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Freshly puffed, round rotis rising with steam",
+          "A stack of soft, flat rotis wrapped in a simple cotton cloth"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Plural of roti; traditional unleavened flatbreads cooked on a griddle (tawa) or directly over an open flame, a staple food across South Asia.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "Loaves of sliced Western bread",
+          "Thick, leavened naan bread",
+          "Puffy deep-fried puris"
+        ],
+        "preserved": true,
+        "romanization": "rotiyan",
+        "source_span_original": "रोटियाँ",
+        "source_span_translation": "bread",
+        "stanza_index": 1,
+        "term": "रोटियाँ",
+        "translation_note": "Translated as 'bread', which generalizes the specific South Asian flatbread (roti) to a broader category.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Round, thin, unleavened flatbreads",
+          "Slightly puffed or charred spots from direct flame cooking",
+          "Stacked on a plate or cloth near the stove"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "nostalgia to peaceful appreciation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'rotiyan' as 'bread' generalizes the culturally specific flatbread, and the grammatical gender agreement in 'lati hai' (referring back to the stove or the steam) is flattened into the neutral English 'it'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The hopeful, ephemeral, and nurturing atmosphere of aspirations and desires rising from a simple household.",
+            "acceptable_visual_variants": [
+              "A close-up of steam rising from fresh rotis on a tawa over a clay stove with a warm golden glow.",
+              "A mother cooking on a clay stove with soft steam rising into a dimly lit, cozy room."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "steam made of dreams",
+            "literalization_risk": "Showing literal steam with dream-like imagery or sleeping faces inside it might look like a surreal fantasy or cartoon, rather than a warm, realistic household scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "rising hopes and dreams of a family",
+              "transferred_attributes": [
+                "rising upward",
+                "warmth",
+                "ephemeral nature",
+                "association with nourishment"
+              ],
+              "vehicle_concept": "steam rising from a cooking pot"
+            },
+            "source_span_original": "सपनों की भाप",
+            "source_span_translation": "steam of dreams",
+            "source_term": "सपनों की भाप",
+            "tenor": "aspirations and hopes of the household members",
+            "vehicle": "steam rising from cooking food",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, realistic kitchen scene with soft, glowing steam rising from a cooking pot on an earthen stove, using warm lighting to evoke a hopeful, cozy atmosphere."
+          },
+          {
+            "abstract_meaning": "The essential, rich, and satisfying experience of living simply.",
+            "acceptable_visual_variants": [
+              "A family sitting together on the floor, smiling and sharing a simple meal of fresh rotis.",
+              "An elderly person taking a bite of warm bread with a peaceful, content expression."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "the taste or flavor of life",
+            "literalization_risk": "Depicting someone literally tasting a physical object representing 'life' would look bizarre and nonsensical.",
+            "metaphor_mapping": {
+              "tenor_concept": "the quality of human experience",
+              "transferred_attributes": [
+                "richness",
+                "satisfaction",
+                "sensory pleasure",
+                "wholesomeness"
+              ],
+              "vehicle_concept": "culinary flavor"
+            },
+            "source_span_original": "जिन्दगी का स्वाद",
+            "source_span_translation": "flavor of life",
+            "source_term": "जिन्दगी का स्वाद",
+            "tenor": "the essence and joy of living",
+            "vehicle": "culinary flavor or taste",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the emotional expression of satisfaction and contentment on a person's face as they eat a simple meal cooked on the stove."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'chula' as 'stove' and 'rotis' as 'bread' loses the specific cultural resonance of a traditional South Asian clay hearth and flatbread, which carry deep associations of rural warmth, communal cooking, and maternal care.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender agreement in 'laati hai' (feminine singular verb) refers back to the feminine noun 'bhaap' (steam) or 'roti' (bread) / 'mitti' (soil/clay), which is flattened into the gender-neutral English pronoun 'It'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The simple warmth of home and life's true flavor found in humble origins"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that the term is generalized as 'bread'. These values are internally inconsistent. If a term is generalized to a broad category, 'preserved' should be false.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मिट्टी का चुल्ला,  \nजिनमें हमारी रोटियाँ पकती हैं।  \nसपनों की भाप में,  \nघर की खुशबू लाती है।  \nउसकी सरलता में,  \nजिन्दगी का स्वाद है।",
+  "poem_id": "MV++_0359",
+  "poem_title": "Mitti Ka Chula",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9de26ea5870ea23eb633f1ec02f05a764c432f49ef4f4e0b1b3ab6598a919d22",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0359.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The earthen stove,  \nWhere our bread is baked.  \nIn the steam of dreams,  \nIt brings the fragrance of home.  \nIn its simplicity,  \nLies the flavor of life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:16:33.021698+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "61323253efb714e305896f60c5e9f5734704d532f65c5fedf2fa489ac476d8b5",
+        "response_hash": "26b601e0358a1ce00d3641a5da4c19fe6c704cb91355fb564883482b011b3231"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "25baa3077495896088eb58a75174564f86a9b2e7522c34611885fbed23a8c7ac",
+        "response_hash": "c628dfcaa0e5dfaa1c84eaf9aeb3abf604cac78defb2a66d97b05d2bf901e6fe",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fe9d965699d25fef27ce6f685e8c6759a814a675ecbb57326328867080870e16",
+        "response_hash": "9dd1edc2578e62843e5d51e91274965afd8aa972923215ecc2a70908c07cffb5",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a84c4ee6eae455a35429c865f2b08e49b47c84a277cb31c0232bfd92e0689f3a",
+        "response_hash": "00535b3b86eef254819d6883a7e742de89da9bd42c21f32efbb86e2f2aa01a8b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c1cda29d2266acd858b6407b6d0565720bdcdbe1b99fd31af857f69f672ea5a6",
+        "response_hash": "33f16e595e2df3672bf18dd7e3e9f93a6c2625c3397f232905ce5db5384c69af",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "33a5b8a22e1ea174bf0c4d8a558a92343304244e197d2288553ad952c72bda66",
+        "response_hash": "370d58f939169cb28691c623cfd78da834c01c40fadfaa342040c5f6feac1998",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "33e81c92720067bdb566d7d2cb784f75975bd628a9b7336c41a8a5d22f2691a5",
+    "translation_sha256": "ec5315f1b998ef152259a91fd15c9d5e073b47d0539ef8c57e250c8f8fcace7c"
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Depicted as a graceful female figure playing a veena amidst glowing light",
+          "Depicted symbolically as a glowing classical veena surrounded by divine radiance"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "An epithet of Goddess Saraswati, the Hindu deity of knowledge, music, art, speech, and learning, literally meaning 'she who plays the veena (lute)'.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic western lute or guitar",
+          "A fiery demon or destructive deity instead of a serene goddess of wisdom"
+        ],
+        "preserved": false,
+        "romanization": "Veena Vadini",
+        "source_span_original": "वीणा वादिनी",
+        "source_span_translation": null,
+        "stanza_index": 1,
+        "term": "वीणा वादिनी",
+        "translation_note": "The translation replaces the specific deity epithet 'Veena Vadini' (Saraswati, the goddess of learning and music who plays the lute) with 'O Lute of Fire', shifting the focus from the divine figure to the instrument itself.",
+        "translation_status": "LOST",
+        "visual_features": [
+          "A female deity seated on a white lotus or swan",
+          "Holding or playing a classical Indian stringed instrument (veena)",
+          "Dressed in a white sari representing purity"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A Saraswati veena with a single gourd resonator at the top and a wooden resonator at the bottom",
+          "A Rudra veena with two large identical gourds connected by a bamboo tube"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A multi-stringed chordophone instrument of the Indian subcontinent, highly significant in classical music and sacred iconography.",
+        "line_ref": "L9",
+        "negative_confusions": [
+          "An Elizabethan lute",
+          "A modern acoustic guitar",
+          "A violin"
+        ],
+        "preserved": true,
+        "romanization": "veena",
+        "source_span_original": "वीणा",
+        "source_span_translation": "lute",
+        "stanza_index": 2,
+        "term": "वीणा",
+        "translation_note": "Translated as 'lute' in 'lute of life', which captures the general instrument type but loses the specific cultural and classical associations of the Indian veena.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A traditional Indian veena with two large gourd resonators (toombas)",
+          "A long hollow neck made of wood with frets and tuning pegs"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "devotional invocation to fierce resilience",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders 'Veena Vadini' (she who plays the lute, a traditional epithet of Saraswati) as 'Lute of Fire', shifting the personified divine addressee to an object. It also translates 'mritika ke jaal' (web of clay/earth) as 'death's endless night', losing the physical metaphor of earthly dust/clay.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The illuminating and guiding power of freedom",
+            "acceptable_visual_variants": [
+              "A bright sun rising over a vast horizon, breaking through dark storm clouds",
+              "A single powerful beam of sunlight illuminating a dark landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Sun of independence",
+            "literalization_risk": "Depicting a literal sun with the word 'freedom' written on it, which looks like a graphic design rather than a poetic image.",
+            "metaphor_mapping": {
+              "tenor_concept": "freedom",
+              "transferred_attributes": [
+                "radiance",
+                "dispelling of darkness",
+                "warmth",
+                "vitality"
+              ],
+              "vehicle_concept": "sun"
+            },
+            "source_span_original": "स्वतंत्र-रवी",
+            "source_span_translation": "light of freedom's noon",
+            "source_term": "स्वतंत्र-रवी",
+            "tenor": "Independence/freedom (Swatantra)",
+            "vehicle": "The sun (Ravi)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a brilliant, rising sun casting powerful golden rays that pierce through dark, heavy clouds, symbolizing liberation."
+          },
+          {
+            "abstract_meaning": "With the piercing, swift, and transformative power of a fiery arrow",
+            "acceptable_visual_variants": [
+              "A streak of golden-red fire cutting through a dark sky",
+              "A glowing, ethereal arrow of pure light and flame flying upwards"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Like a fire-arrow",
+            "literalization_risk": "An illustrator might draw a literal archer shooting a burning arrow, which shifts the focus to medieval warfare rather than the abstract energy of a call to action.",
+            "metaphor_mapping": {
+              "tenor_concept": "heroic call/action",
+              "transferred_attributes": [
+                "speed",
+                "piercing quality",
+                "fiery intensity",
+                "light"
+              ],
+              "vehicle_concept": "fiery arrow"
+            },
+            "source_span_original": "अग्नि-बाण सा",
+            "source_span_translation": "like flame",
+            "source_term": "अग्नि-बाण सा",
+            "tenor": "The hero's call or action",
+            "vehicle": "A fiery arrow (Agni-baan)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a streak of brilliant, fiery light cutting across a dark sky, resembling the trajectory of a blazing arrow without necessarily showing the physical bow."
+          },
+          {
+            "abstract_meaning": "The physical, mortal limitations of the earthly body or material existence",
+            "acceptable_visual_variants": [
+              "Cracked, dry earth forming binding rings that are shattering",
+              "Ethereal chains made of dark, dusty soil breaking apart under a bright light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Net of clay/earth",
+            "literalization_risk": "Showing a literal net made of mud or clay trapping a person, which could look comical or like a swamp monster scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "mortal bondage",
+              "transferred_attributes": [
+                "entrapment",
+                "earthly/heavy material",
+                "confinement"
+              ],
+              "vehicle_concept": "net of clay"
+            },
+            "source_span_original": "मृतिका के जाल",
+            "source_span_translation": "chains of death’s endless night",
+            "source_term": "मृतिका के जाल",
+            "tenor": "Mortal existence and physical bondage",
+            "vehicle": "A net or web made of clay/earth (Mritika)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict roots or cracked, dry earth wrapping around feet or hands like chains, which are beginning to break apart as light shines through them."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific invocation of 'Veena Vadini' (Saraswati, the goddess of learning and music who holds the lute) is translated as 'O Lute of Fire', losing the direct cultural personification of the goddess of arts and wisdom.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The compound 'swatantra-ravi' (sun of freedom) is translated as 'light of freedom's noon', losing the specific solar metaphor ('ravi').",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The literal image of 'agni-baan' (arrows of fire) is translated as 'like flame', losing the sharp, martial imagery of fiery arrows.",
+            "where": "L4"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The phrase 'mritika ke jaal' (web/snare of clay/earth) is translated as 'death's endless night', changing the physical, earthly metaphor of clay/dust into a temporal metaphor of night.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation generalizes 'pralay' (cosmic dissolution/apocalypse) as 'storm' and renders 'pran' (breath/life-force) as 'lives/courage'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The heart remaining intensely passionate, courageous, and full of life",
+            "acceptable_visual_variants": [
+              "A warm, intense golden glow emanating from a person's chest",
+              "A stylized heart shape made of pure, gentle flame"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Let this heart keep burning/blazing",
+            "literalization_risk": "An illustrator might draw a literal human heart on fire, which looks like a medical anomaly or a graphic horror image.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional passion",
+              "transferred_attributes": [
+                "heat",
+                "light",
+                "intensity",
+                "consuming energy"
+              ],
+              "vehicle_concept": "fire"
+            },
+            "source_span_original": "धधकता रहे, यह ह्रदय",
+            "source_span_translation": "Let this heart burn, with passion aglow",
+            "source_term": "धधकता रहे, यह ह्रदय",
+            "tenor": "The heart's passion and courage",
+            "vehicle": "A blazing fire",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a human silhouette with a warm, glowing golden-red light radiating from the chest area, symbolizing inner fire and passion."
+          },
+          {
+            "abstract_meaning": "Life lived as a harmonious, expressive, and beautiful song or instrument",
+            "acceptable_visual_variants": [
+              "A glowing Veena with light radiating from its strings",
+              "A silhouette of a person holding a Veena that merges into flowing lines of light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "Life-lute",
+            "literalization_risk": "Drawing a literal musical instrument floating in the air with no context, which fails to capture the concept of 'life' being played.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "harmony",
+                "creation of music",
+                "vibration",
+                "responsiveness to touch"
+              ],
+              "vehicle_concept": "lute (musical instrument)"
+            },
+            "source_span_original": "जीवन वीणा",
+            "source_span_translation": "lute of life",
+            "source_term": "जीवन वीणा",
+            "tenor": "Human life (Jeevan)",
+            "vehicle": "A lute (Veena)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful, classical Indian lute (Veena) with its strings glowing with light, surrounded by abstract, flowing colorful waves representing music and life energy."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'prajwalit pranon mein' (in ignited/blazing breaths/lives) is translated as 'through all lives, let courage grow', which abstracts the vivid physical metaphor of burning/ignited life-force into 'courage'.",
+            "where": "L8"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The word 'pralay' (cosmic dissolution/apocalypse) is translated as 'storm', which significantly softens the scale of destruction from a cosmic, cyclical end-of-the-world event to a localized weather event.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A passionate prayer for liberation and eternal life through the transformative power of fire and song."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "वीणा वादिनी, वर दे!  \nप्रिय स्वतंत्र-रवी, वर दे!\nउज्ज्वल गगन का छोर, चीर  \nअग्नि-बाण सा सब ओर वीर  \nविकट प्रलय का कर नाद,  \nखोल दे अब मृतिका के जाल।\n\nधधकता रहे, यह ह्रदय  \nप्रज्वलित प्राणों में, फिर से  \nगाए यह जीवन वीणा,  \nप्रलय में भी अमर हो जाना।",
+  "poem_id": "MV++_0061",
+  "poem_title": "Agnibeena",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7ad0033b070e1ded21d8f836c5d2c81e881cbb4ed909eba73a44d5ccdb172642",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0061.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "O Lute of Fire, grant us your boon!  \nBless us, dear light of freedom's noon!  \nPierce the radiant sky, like flame,  \nA hero’s call, fearless in name,  \nRoar with a fury, with thunder’s might,  \nBreak the chains of death’s endless night.\n\nLet this heart burn, with passion aglow,  \nAnd through all lives, let courage grow,  \nLet the lute of life sing on,  \nEven through the storm, let it live on.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:42:38.655422+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f3d277fa3c30518cea8149ba47d2aad3bb8572adac24de59695b2b77abd29115",
+        "response_hash": "48d1714bdbddea7ba4578b440fb69c727a461365fe11f33e6a10a72829f97cd4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2341671fcc6c3e1287414356b9eb98c2cc859b579dd4c9665a4c7b5fdba2ac09",
+        "response_hash": "174a37890187452dfcbee3e46777d44523bb819aeb1ae9c55cd0b8e0df6e4b3d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "752965fcdcd5f708c06c4963ff1c72b71a2b42583999007bf5b7089b4fba7e04",
+        "response_hash": "b4242ffbe2f850dd6b62f0b03ba7c4e4b2a0c42e5f4559cb41bc09d96e996a5d",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fa418a087ee2076f9af1abbd00d487ac038519e82e0e382ea409c641a20f4419",
+        "response_hash": "11ea9cb11bf9da87ce8732eec95305249fa7b675e6dbef5dc25aa8230ab01a92",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "042cd38c2228bbc93344f54c84163e8b887551518e6d00aafabe1fbaa5b54aad",
+        "response_hash": "e96333398814b4f60f21c74aa12cf71430ad3e64727d3366e186d31f49793b94",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "023bbe7c3b562415ea4b8736d463999d0d71be7a3ca564463c40ff156c5052cf",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "64ab9103a11bd5e01fafcecc29db0a318b7cdd7bf566909802c6f30ecdb7de4a",
+    "translation_sha256": "ab55781854c3880654275467045ea7e4ab195016a6d617e4cc1bf9f65ef2ef8d"
+  }
+}

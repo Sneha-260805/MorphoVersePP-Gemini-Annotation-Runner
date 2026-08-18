@@ -1,0 +1,220 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to deep reflection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vibrant, diverse, and imaginative qualities of human hopes and dreams.",
+            "acceptable_visual_variants": [
+              "A person looking up at a swirling sky of soft, blended rainbow colors",
+              "A glowing, abstract collage of diverse, warm-toned light patterns representing thoughts"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "in the colorfulness of dreams",
+            "literalization_risk": "Depicting literal colored paint or physical pigments leaking out of a sleeping person's head, which misses the abstract beauty of human aspiration.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional and imaginative variety of human aspirations",
+              "transferred_attributes": [
+                "vibrancy",
+                "diversity",
+                "beauty"
+              ],
+              "vehicle_concept": "chromatic spectrum and colorfulness"
+            },
+            "source_span_original": "सपनों की रंगीनियों में",
+            "source_span_translation": "in the hues of dreams",
+            "source_term": "सपनों की रंगीनियों में",
+            "tenor": "the imaginative variety and emotional richness of dreams",
+            "vehicle": "colors and hues",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render a soft, glowing, multi-colored dreamscape or surreal, shifting pastel hues surrounding a reflective silhouette."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic resonance of the repeated phrase 'रंग भारी' (Rang Bhari) is flattened into the simple English adjective phrase 'Filled with Colors'.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The pluralized abstract noun 'रंगीनियों' (ranginiyon) carries a sense of colorfulness, vibrancy, and playfulness that is simplified to 'hues' in the English translation.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The progression of human life from birth to death, experienced as a journey through time and events.",
+            "acceptable_visual_variants": [
+              "A winding path through changing seasonal landscapes",
+              "A silhouette of a person walking towards a bright, colorful horizon"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "this travel/journey of life",
+            "literalization_risk": "Depicting a literal traveler with a suitcase walking down a paved highway, which over-literalizes the existential passage of time.",
+            "metaphor_mapping": {
+              "tenor_concept": "living through time and experiencing life events",
+              "transferred_attributes": [
+                "movement forward",
+                "changing landscapes",
+                "having a destination"
+              ],
+              "vehicle_concept": "traveling along a path or road"
+            },
+            "source_span_original": "जिंदगी का ये सफर",
+            "source_span_translation": "This journey of life",
+            "source_term": "जिंदगी का ये सफर",
+            "tenor": "the passage of time and experiences in a person's life",
+            "vehicle": "a journey or travel",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding path fading into a soft, colorful horizon, symbolizing the open-ended and experiential nature of living."
+          },
+          {
+            "abstract_meaning": "Life being completely enveloped, characterized, and influenced by a diverse spectrum of emotions, joys, and sorrows.",
+            "acceptable_visual_variants": [
+              "A figure wrapped in a flowing, semi-transparent shawl of blended warm and cool light",
+              "An abstract landscape covered in a soft, glowing haze of diverse colors"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "wearing/draping a blanket of colors",
+            "literalization_risk": "Depicting a person wearing a literal, heavy patchwork quilt of solid primary colors, which looks like a physical product advertisement rather than a poetic state of being.",
+            "metaphor_mapping": {
+              "tenor_concept": "the pervasive presence of varied emotional states in life",
+              "transferred_attributes": [
+                "enveloping",
+                "covering completely",
+                "providing character or texture"
+              ],
+              "vehicle_concept": "a protective or enveloping textile sheet"
+            },
+            "source_span_original": "रंगों की चादर ओढ़े हुए",
+            "source_span_translation": "Is draped in a blanket of colors",
+            "source_term": "रंगों की चादर ओढ़े हुए",
+            "tenor": "being fully enveloped by diverse emotional experiences (joys and sorrows)",
+            "vehicle": "a draped blanket or sheet made of colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a path or a human silhouette softly enveloped in a swirling, translucent mist of vibrant, shifting colors."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The culturally resonant metaphor of 'चादर ओढ़े हुए' (chadar odhe hue) evokes wrapping oneself in a traditional sheet or shawl (chadar), which is translated as a more generic 'blanket of colors'.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Life as a colorful journey encompassing both joy and sorrow"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items. When translation_loss is present, translation_quality should typically reflect that some elements are 'partial' or 'lost', or the loss_note should explain the discrepancy.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a translation_loss item for the metaphor 'chadar odhe hue'. This is inconsistent with a completely faithful rating without qualification.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रंग भारी  \nरंग भारी दुनिया में,  \nहर जगह छाए हैं रंग।  \nफूलों की महक में,  \nऔर सपनों की रंगीनियों में।  \n\nइन रंगों में छिपा है,  \nहर खुशी और हर ग़म।  \nजिंदगी का ये सफर,  \nरंगों की चादर ओढ़े हुए।",
+  "poem_id": "MV++_0338",
+  "poem_title": "Rang Bhari",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f212fb119f1bbba3cf5aab834e03a8f1710b67f8fcdf1908dac681f53a03662b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0338.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Filled with Colors  \nIn a world filled with colors,  \nColors are everywhere.  \nIn the fragrance of flowers,  \nAnd in the hues of dreams.  \n\nIn these colors lies,  \nEvery joy and every sorrow.  \nThis journey of life,  \nIs draped in a blanket of colors.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:14:14.294157+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "733034ec50397423e788bca21617e6353f43016cea4c5f27d1ae9a11b187f307",
+        "response_hash": "e0676e2cdb5f5b96159a4a328626a0909db8734f010ffe47d9dbb5e2aca18ea0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ff9e7eb2f956f6d238b9df3195bd16f0dfd070e567b4a69fad1408e7f1a2b17f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "989d66becb0cac2f99fd682adfc11e5bbd5e07953d4293c2a3a836fba57aa098",
+        "response_hash": "8d6d7765d4caa9b98334d60b2b62338b57f2f0f4d3f7bfb2b33e36d7c667c430",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bd71980a5367786cd968ba2ad0f1ee2aae1956838b8d8d3034e847e2d06b5f22",
+        "response_hash": "b2b1ea48ab428de4c40d02b04c8875eaf6aa5c7fec239e2ed0b8c3538ea36939",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5293941d6ed0a40f94cbc72f4ffc701dc130a2ce7ac65c389a63484a62e1a1d5",
+        "response_hash": "9eaf39dc39ee0f185d2ea3e42a1df55b84753c453c8a3e9bdc818f8b52fbfcfa",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "455f07a3be542260bdf507f43c8110edb514f57f9eb61e902040c0ec1e975454",
+    "translation_sha256": "45ac60584dbe3502f6fe5dc29a91da1fa196eaa9d88cafacec9f230882e9257c"
+  }
+}

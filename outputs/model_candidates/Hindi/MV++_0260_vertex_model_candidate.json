@@ -1,0 +1,184 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "steady resilience and encouragement",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The continuous act of maintaining hope, determination, and ambition despite life's challenges.",
+            "acceptable_visual_variants": [
+              "A person walking up a steep mountain path under a wide, open sky with a bird gliding effortlessly overhead.",
+              "A silhouette of a person looking upward with a dramatic sky filled with light breaking through clouds, suggesting rising hope."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The flight of courage / determination",
+            "literalization_risk": "An illustrator might literally draw a heart or a brain with wings flying through the air, which looks cartoonish and misses the emotional depth of human determination.",
+            "metaphor_mapping": {
+              "tenor_concept": "courage",
+              "transferred_attributes": [
+                "rising high",
+                "moving forward",
+                "overcoming gravity/obstacles"
+              ],
+              "vehicle_concept": "flight"
+            },
+            "source_span_original": "हौंसले की उड़ान",
+            "source_span_translation": "flight of courage",
+            "source_term": "हौंसले की उड़ान",
+            "tenor": "The internal state of courage and perseverance",
+            "vehicle": "A bird or object in flight soaring high in the sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing on a high peak looking out at a vast horizon, with a soaring bird high in the sky above them to symbolize the soaring spirit of courage."
+          },
+          {
+            "abstract_meaning": "Life's goals being difficult to achieve and the process of achieving them being filled with hardships.",
+            "acceptable_visual_variants": [
+              "A steep, winding staircase carved into a cliffside disappearing into the clouds.",
+              "A lone traveler walking along a long, empty road that stretches to a distant horizon under a twilight sky."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7-L8",
+            "literal_meaning": "Whether the destinations are far or the paths are difficult",
+            "literalization_risk": "Depicting a literal traveler on a dirt road might make it look like a simple travel scene rather than a universal metaphor for life's struggles.",
+            "metaphor_mapping": {
+              "tenor_concept": "achieving life goals through hardships",
+              "transferred_attributes": [
+                "distance",
+                "physical obstacles on a path",
+                "effort required to walk"
+              ],
+              "vehicle_concept": "difficult journey to a distant destination"
+            },
+            "source_span_original": "मंजिलें हो दूर\nया राहें हों मुश्किल",
+            "source_span_translation": "Whether the destinations are far\nOr the paths are difficult",
+            "source_term": "मंजिलें हो दूर\nया राहें हों मुश्किल",
+            "tenor": "Life's long-term goals and the struggles faced while trying to achieve them",
+            "vehicle": "A long journey on foot along a rugged, winding road toward a distant peak",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a winding, rocky path leading up toward a distant, misty mountain peak, emphasizing the scale and difficulty of the terrain."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The literal meaning of 'do kadam' is 'two steps', which carries a specific, minimal, and rhythmic sense of progress. The translation generalizes this to 'a few steps', losing the precise numerical imagery of 'two'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The reduplicative structure of 'चलते चलते' (chalte chalte) conveys continuous, ongoing action and a rhythmic, meditative pace of walking. The translation 'While walking' flattens this repetitive poetic rhythm into a simple temporal clause.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The reduplicative phrase 'एक एक कदम' (ek ek kadam) literally means 'one one step' (step by step), emphasizing deliberate, individual, and incremental effort. The translation 'One step at a time' captures the meaning but loses the rhythmic repetition of the Hindi phrasing.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Perseverance and continuous effort in the face of difficult journeys"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].loss_note",
+      "issue": "The field 'loss_note' is empty, but 'translation_loss' contains three structured items. When translation loss is identified, 'loss_note' should summarize these losses rather than being left empty.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "दो कदम और सही  \nचलते चलते,  \nकिसी मोड़ पर  \nरुकते नहीं,  \nहौंसले की उड़ान  \nजारी रखो।  \nमंजिलें हो दूर  \nया राहें हों मुश्किल,  \nहमेशा याद रखना  \nफासले घटते हैं।  \nएक एक कदम  \nबढ़ाते रहो,  \nदो कदम और सही।",
+  "poem_id": "MV++_0260",
+  "poem_title": "Do Kadam Aur Sahi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6341f927febe83aefbf7bb201b65652c343c7db8d08ac90f02b9682cf5e3c4c0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0260.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Just a few steps more,  \nWhile walking,  \nDo not stop  \nAt any turn.  \nKeep the flight of courage  \nOngoing.  \nWhether the destinations are far  \nOr the paths are difficult,  \nAlways remember  \nDistances diminish.  \nKeep taking  \nOne step at a time,  \nJust a few steps more.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:05:31.797743+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3a9f6a7149e3c83255fed08527b4528c5892b97bf4a7187bb4cc66f2772c71b5",
+        "response_hash": "ba5cf029556d46c6940f055790d60578a0bbfdd8836bcde2914998209c25736d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d4300569a24b87846dc037e0108d40d47491c187f823c3bf551c6c08ef5feeb0",
+        "response_hash": "9f86a04401a5e72456c6e707faf30d0bcd992f02173b329abab4d968761e579c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a0f09bd05f090dd4688708fddd5565c8e7e9234fc8430c135a250d4a4f150e9e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "903bc94b6322b95e471cc6b99f6747eece51577c987569e45249adaf82858265",
+        "response_hash": "ab4347de86b33b6d34fa2026385b670b78e89314075642a9815196ba001ee96e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "afbdf7912c0bcafd7cda2b7f13181aba119f517512876a66d713a7eed4c17426",
+        "response_hash": "bc629b17b0dc064e5ae6ef645c134a93f35805977df337d610fcb2d09cc2b7f6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "024594a9431767aa14bb29671fe8a714776dfc107821baf5d79fec48b6a01e22",
+        "response_hash": "55b34f5beb8910e5e2a14a540330101adc143b899c55613505bea06884b62bcb",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "76373ef2f933d646de6e3f08d6ecfe03eae07b7723a27e660ad5a03e71e90246",
+    "translation_sha256": "bd76d9f26ce9a2153060a1b15c4345e83815bad3410cf149411a7c1375373a5b"
+  }
+}

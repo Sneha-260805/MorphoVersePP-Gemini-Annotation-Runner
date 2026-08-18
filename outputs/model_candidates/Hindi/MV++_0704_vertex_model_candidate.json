@@ -1,0 +1,171 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and unresolved search for lost memories",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the subtle grammatical ambiguity of who is unable to return (the memories themselves, or the person searching) is slightly flattened in the English rendering.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The elusive nature of past memories which cannot be easily located or retrieved.",
+            "acceptable_visual_variants": [
+              "A person looking at a blank map where streets fade into mist",
+              "A hand holding a key that fits no door in a street of closed houses"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The physical address or location of memories",
+            "literalization_risk": "Showing a literal envelope or mailbox with the word 'Memories' written on it, which misses the psychological depth of searching one's mind.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental retrieval",
+              "transferred_attributes": [
+                "having a specific address",
+                "being searchable in a physical space"
+              ],
+              "vehicle_concept": "physical location"
+            },
+            "source_span_original": "यादों का पता",
+            "source_span_translation": "The address of memories",
+            "source_term": "यादों का पता",
+            "tenor": "the accessibility or retrieval of past memories",
+            "vehicle": "a physical address or home location",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing at a misty, empty crossroads looking at a blank signpost or holding an empty, unaddressed envelope."
+          },
+          {
+            "abstract_meaning": "Trying every possible way or searching through every mental avenue to recall or reconnect with the past.",
+            "acceptable_visual_variants": [
+              "A row of ancient, closed wooden doors fading into a dark background with a hand reaching out to touch one",
+              "A person walking down a corridor of closed doors, each slightly glowing with a different color representing a past era"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Physically knocking on every door in a neighborhood",
+            "literalization_risk": "Depicting a literal salesman or visitor knocking on wooden doors in a modern street, losing the poetic sense of searching for lost time.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental searching",
+              "transferred_attributes": [
+                "repeated attempts to gain entry or access",
+                "visiting multiple locations sequentially"
+              ],
+              "vehicle_concept": "knocking on doors"
+            },
+            "source_span_original": "हर दरवाजे पे दस्तक देने के बाद",
+            "source_span_translation": "After knocking on every door",
+            "source_term": "हर दरवाजे पे दस्तक देने के बाद",
+            "tenor": "searching through different mental paths or past associations",
+            "vehicle": "knocking on physical doors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a shadowy figure standing before a series of closed, semi-translucent doors that reveal faint, unreachable memories behind them."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation resolves the ambiguous subject of the verb 'laut paate' (लौट पाते) as 'they' (referring to memories), whereas the Hindi verb form is grammatically plural/honorific and could also refer to the speaker/seekers ('we/I') who are unable to return after wandering. This rich grammatical ambiguity of subject is flattened in English.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic flow of the Hindi phrasing, particularly the internal rhyme and cadence of 'milta' (मिलता) and 'paate' (पाते), is lost in the literal English translation.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The elusive nature of memories and the inability to retrieve them despite searching everywhere."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "यादों का पता नहीं मिलता,\nहर दरवाजे पे दस्तक देने के बाद,\nहर गली में घूमते हुए,\nफिर भी न लौट पाते।",
+  "poem_id": "MV++_0704",
+  "poem_title": "Yaadon Ka Pata",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a2119b6211faddb21f35dbc96262f4e81d924d2aca46b01f1c73f3b38fc565c0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0704.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The address of memories is not found,  \nAfter knocking on every door,  \nRoaming in every street,  \nYet, they do not return.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:58:26.077372+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "912a6a729802564e013583d02745b748968af804d8d3588a74d7caa04d03a156",
+        "response_hash": "95195d86152a96dd846a2683136c1534312072e7a66a354431e58d69712ef94b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea3562063783263ba79fa9ea79209a74a6f9bc5d6b0d66d0e74300b8a6343cf2",
+        "response_hash": "9455746a89f7a53f5f2645d9e8be516760aef4726a0674c5d90c8c87eb5c3bf0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "642fc070a1c088dc5a4889bf032ceb7b1160a0367fa08ccc7fefb7e129edf9d4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bfbcae37a91a642d88477a91f85aac402e7789fde0e5088b5256bbfb68129c87",
+        "response_hash": "dfad91716949b95c95f3de3dea144363cee14cc83937b461653a5d25ec250fea",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "413d1ddbc1f6cee123c23440bbbbdbb91438e7818281a07749e2d6c20e1e19fd",
+        "response_hash": "67f1168082db4e50c1c4fdded7938e26eae9c62ebad810bbe315c8a6588be7d2",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "716e0fee9bf8fea74f817b5d2a63fc1147d39eaf58feb702d05c0249c5d4002f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "26069eca2c7098987a3f3213253d03b75327883c4c19f69495cffcdf6460cc16",
+    "translation_sha256": "9227d57b3ca0424725f51867e84e04656e90ae52e81c13c6cd4edd9c78e3cfd1"
+  }
+}

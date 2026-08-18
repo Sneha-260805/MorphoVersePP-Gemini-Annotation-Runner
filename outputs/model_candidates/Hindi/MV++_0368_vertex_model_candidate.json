@@ -1,0 +1,247 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and contemplation to emotional release and vulnerability",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'nashili' as 'drunken' slightly flattens the poetic nuance of intoxication, which in Hindi/Urdu poetry often carries a broader, romantic, or mystical connotation of being dazed or enchanted rather than merely physically inebriated.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The captivating, mesmerizing, or transformative quality of deep, intimate conversations.",
+            "acceptable_visual_variants": [
+              "Two people talking in a cozy, dimly lit room with warm ambient light surrounding them.",
+              "A close-up of expressive faces in conversation with soft-focus background lights."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Supernatural magic or sorcery",
+            "literalization_risk": "Depicting literal magic tricks, wizardry, or fantasy spellcasting would completely misrepresent the intimate, conversational tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "captivating conversation",
+              "transferred_attributes": [
+                "mesmerizing effect",
+                "inexplicable power",
+                "transformative quality"
+              ],
+              "vehicle_concept": "magic"
+            },
+            "source_span_original": "जादू",
+            "source_span_translation": "magic",
+            "source_term": "जादू",
+            "tenor": "the captivating quality of intimate conversations",
+            "vehicle": "magic / sorcery",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two people deeply engaged in conversation with subtle, warm, glowing light or soft particles floating between them to symbolize the captivating atmosphere."
+          },
+          {
+            "abstract_meaning": "The clever, playful, or manipulative use of language in conversation.",
+            "acceptable_visual_variants": [
+              "Floating, glowing words in Devanagari script drifting between two silhouettes.",
+              "A soft, abstract pattern of intersecting lines representing the flow of dialogue."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L3",
+            "literal_meaning": "A physical game played with words or letters",
+            "literalization_risk": "Showing literal board games, alphabet blocks, or puzzle pieces would distract from the verbal and emotional nature of the interaction.",
+            "metaphor_mapping": {
+              "tenor_concept": "conversation",
+              "transferred_attributes": [
+                "playfulness",
+                "rules and turns",
+                "cleverness"
+              ],
+              "vehicle_concept": "game"
+            },
+            "source_span_original": "शब्दों का खेल",
+            "source_span_translation": "game of words",
+            "source_term": "शब्दों का खेल",
+            "tenor": "the playful and dynamic nature of conversation",
+            "vehicle": "a game / play",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize stylized, floating Devanagari letters or words gently weaving or dancing between two speakers."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'नशिली' (nashili) as 'drunken' loses the poetic, romantic, and intoxicating nuance of the Urdu-derived word 'nasha', which refers to a state of being captivated or spellbound, not merely physically intoxicated by alcohol.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'आलम' (aalam) as 'realm' simplifies a rich Urdu-derived term that encompasses state, condition, world, or atmosphere, losing its expansive emotional resonance.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'nashe mein doobi raat' as 'night drenched in intoxication' is faithful, though the passive, immersive quality of 'doobi' (submerged/drowned) is slightly more evocative in the original Hindi.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Losing one's self-consciousness, inhibitions, or sense of control during deep emotional sharing.",
+            "acceptable_visual_variants": [
+              "A silhouette with edges softly blending into a starry or misty background.",
+              "A person leaning back with closed eyes, looking completely relaxed and unburdened."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L6",
+            "literal_meaning": "To physically misplace or lose oneself",
+            "literalization_risk": "Showing a person physically lost in a maze, forest, or crowd would incorrectly imply physical disorientation rather than emotional vulnerability.",
+            "metaphor_mapping": {
+              "tenor_concept": "loss of inhibition",
+              "transferred_attributes": [
+                "disappearance of boundaries",
+                "letting go of control"
+              ],
+              "vehicle_concept": "physical loss"
+            },
+            "source_span_original": "खुद को खोते हैं",
+            "source_span_translation": "We lose ourselves",
+            "source_term": "खुद को खोते हैं",
+            "tenor": "loss of self-consciousness and inhibitions",
+            "vehicle": "physical loss of an object or person",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a figure with a soft, dissolving, or semi-transparent outline, blending into a warm, atmospheric background to represent letting go of the ego."
+          },
+          {
+            "abstract_meaning": "A night characterized by a heavy, intoxicating, and deeply emotional atmosphere.",
+            "acceptable_visual_variants": [
+              "A hazy, dreamlike night landscape with soft-focus bokeh lights.",
+              "A room with deep blue shadows and warm lamplight filtering through a window showing the night sky."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "A night physically submerged or drowned in an intoxicating liquid",
+            "literalization_risk": "Showing a night sky physically drowning in alcohol or liquid would look bizarre and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "intoxicating atmosphere",
+              "transferred_attributes": [
+                "being surrounded entirely",
+                "heavy saturation",
+                "altered state"
+              ],
+              "vehicle_concept": "submersion in liquid"
+            },
+            "source_span_original": "नशे में डूबी रात",
+            "source_span_translation": "night drenched in intoxication",
+            "source_term": "नशे में डूबी रात",
+            "tenor": "the intense, uninhibited atmosphere of the night",
+            "vehicle": "submersion in liquid / intoxication",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a deep indigo or midnight-blue night scene with soft, hazy, or blurred streetlights and stars, conveying a dreamy, saturated atmosphere."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Hindi verbs 'हंसते हैं, रोते हैं, खुद को खोते हैं' are grammatically plural/habitual without an explicit subject pronoun, allowing for a universal or collective experience. The English translation inserts the specific pronoun 'We', which narrows the open, general perspective of the original text.",
+            "where": "L5-L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The phrase 'नशे में डूबी रात' literally means 'a night drowned/submerged in intoxication'. The translation 'drenched in intoxication' slightly alters the watery metaphor of being completely submerged ('डूबी') to being wet or soaked ('drenched').",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The liberating magic of intoxicated conversations that break down barriers and reveal the heart's true feelings"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "नशिली बातों में,\nकुछ ऐसा जादू है।\nशब्दों का खेल है,\nयादों का आलम है।\n\nहंसते हैं, रोते हैं,\nखुद को खोते हैं।\nनशे में डूबी रात में,\nदिल की सच्चाई बोलते हैं।",
+  "poem_id": "MV++_0368",
+  "poem_title": "Nashili Baat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6c78d9f7d827c36dd6bf0baa0ee601017a78932caf536a45343f2aeaaceeee01",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0368.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In drunken talks,\nThere’s a certain magic.\nIt’s a game of words,\nA realm of memories.\n\nWe laugh, we cry,\nWe lose ourselves.\nIn the night drenched in intoxication,\nWe speak the truth of the heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:17:28.694515+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ddb9b4b9a6005bfd7d9d4ca6a6c76105985cbb72c55e10317e5ae19bcdcdd2ec",
+        "response_hash": "c39f69f920a08be1f351a5298e403fd234c9923c6d6c72b0e8cae51158d6ba05"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0742592d225c575b5e211c4561568e1afdacc0f4b7079431b056c7da3332920b",
+        "response_hash": "1f6b347c57c52868d8145450b8965718341e5a03bdfb739893f4ba1945f7a1f7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f75c0e06eb43db8da6813e3cbd96380147b2af322352d5298314dc9bdedb5d56",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9326d4cc263fbda24749c5f906335adae9168f5cdcff3b92fa0ff930365b71ef",
+        "response_hash": "557a8f698119bcbb530a6772878b33f0ec61dcaae0f73e0841686b0a7567c588",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d389b1bac1adf0181f094e229bdf7e2254e7a0d2a04a7be4a8a1e1e10d1200de",
+        "response_hash": "996bce869c86917cbac88c3837d82f5b9121a5c17adbccb9c243b1bc846e8925",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cb7e3241c9fb3b2e7399391fd43a6e53ceab1f75ed20f137d49757da0349c418",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "eef52fd0f0c68406b77cdb2214a01da407d364686550f5b26f4919ee4f208013",
+    "translation_sha256": "8f0bad1cac62fae1206d88ea3473f4f7f7f6100e9ad2e9fd35b6b76a2021d666"
+  }
+}

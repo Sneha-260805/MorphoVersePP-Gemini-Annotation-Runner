@@ -1,0 +1,357 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple mud-plastered village courtyard",
+          "A paved brick or stone courtyard in an urban home"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional open central courtyard in South Asian homes, serving as a focal point for family life, domestic activities, and cultural rituals.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern Western-style grassy backyard with a fence",
+          "A public park or playground"
+        ],
+        "preserved": true,
+        "romanization": "aangan",
+        "source_span_original": "आँगन",
+        "source_span_translation": "courtyards",
+        "stanza_index": 1,
+        "term": "आँगन",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An open-to-the-sky central courtyard",
+          "Surrounding domestic walls or rooms",
+          "Sunlight filtering down into the space"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A colorful cotton sari end draped gently",
+          "A translucent dupatta fabric catching the light"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The decorative loose end of a sari or dupatta, culturally symbolizing maternal care, modesty, shelter, and feminine grace in South Asia.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A heavy winter neck scarf",
+          "A modern western bandana"
+        ],
+        "preserved": true,
+        "romanization": "aanchal",
+        "source_span_original": "आँचल",
+        "source_span_translation": "scarf",
+        "stanza_index": 1,
+        "term": "आँचल",
+        "translation_note": "Translated as 'scarf', which captures the physical object but loses the deep cultural associations of maternal protection, modesty, and domestic grace.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "The flowing end of a sari or dupatta",
+          "Soft fabric draped over a shoulder or head"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "hopeful domesticity to quiet resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Nurturing and cultivating hopes or aspirations for the future.",
+            "acceptable_visual_variants": [
+              "A person kneeling in a courtyard garden, pressing seeds into the soil with a gentle expression.",
+              "A stylized scene of hands holding soil from which tiny, luminous green shoots are emerging."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "planting physical seeds that belong to dreams",
+            "literalization_risk": "Showing a person literally burying glowing or surreal dream-bubbles in dirt like plant seeds.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental cultivation of hopes",
+              "transferred_attributes": [
+                "planting",
+                "nurturing",
+                "growth potential"
+              ],
+              "vehicle_concept": "agriculture/gardening"
+            },
+            "source_span_original": "सपनों के बीज रोपते हैं",
+            "source_span_translation": "plant seeds of dreams",
+            "source_term": "सपनों के बीज रोपते हैं",
+            "tenor": "cultivating hopes and aspirations",
+            "vehicle": "planting seeds in soil",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person gently tending to small, glowing sprouts or planting seeds in a courtyard garden under soft, warm lighting."
+          },
+          {
+            "abstract_meaning": "Every hope or dream successfully blossoms and comes to fruition.",
+            "acceptable_visual_variants": [
+              "A close-up of a beautiful flower opening its petals in a warm courtyard.",
+              "A garden filled with diverse, colorful blossoms in full bloom."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "every dream physically transforms into a botanical flower",
+            "literalization_risk": "Showing a literal thought bubble or word transforming physically into a rose or marigold.",
+            "metaphor_mapping": {
+              "tenor_concept": "fulfillment of desires",
+              "transferred_attributes": [
+                "beauty",
+                "blossoming",
+                "completion"
+              ],
+              "vehicle_concept": "botanical blooming"
+            },
+            "source_span_original": "हर ख्वाब, एक फूल बन जाता है",
+            "source_span_translation": "Every wish turns into a flower",
+            "source_term": "हर ख्वाब, एक फूल बन जाता है",
+            "tenor": "a dream or wish being fulfilled",
+            "vehicle": "a flower blooming",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict vibrant, blooming flowers in a courtyard, symbolizing the successful growth of what was planted."
+          },
+          {
+            "abstract_meaning": "The domestic space and the women within it express quiet joy, comfort, or life.",
+            "acceptable_visual_variants": [
+              "A colorful scarf draped gently, swaying in a soft breeze near a window.",
+              "A woman in a courtyard with her scarf lightly catching the wind as she goes about her day."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "the song belonging to a physical scarf/veil hums on its own",
+            "literalization_risk": "Depicting a literal piece of cloth (scarf) with a mouth singing or humming notes.",
+            "metaphor_mapping": {
+              "tenor_concept": "the peaceful atmosphere and presence of women in a home",
+              "transferred_attributes": [
+                "humming",
+                "voice",
+                "comforting sound"
+              ],
+              "vehicle_concept": "an inanimate piece of clothing singing/humming"
+            },
+            "source_span_original": "गुनगुना जाता है हर आँचल का गान",
+            "source_span_translation": "The song of every scarf softly hums",
+            "source_term": "गुनगुना जाता है हर आँचल का गान",
+            "tenor": "the quiet, comforting presence and domestic joy of women in the household",
+            "vehicle": "a humming song of a scarf",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a gentle breeze rustling a hanging scarf (aanchal) in a peaceful courtyard, suggesting movement and quiet life."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'aanchal' as 'scarf' loses the deep cultural and emotional resonance of the word, which refers to the protective, maternal, and comforting corner of a sari.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The reduplicative structure 'apne apne' (each in their own / respective) is simplified to a collective 'our own', losing the sense of individual, parallel domestic spaces.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'sangeen' as 'moments' loses the gravity of the original word, which means serious, grave, or heavy, and 'chupp' is translated as 'silence' but carries a deeper sense of quietude or unspoken understanding.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The journey, experiences, and progression of living.",
+            "acceptable_visual_variants": [
+              "A stone path leading out of a traditional courtyard into the distance.",
+              "A dusty, sunlit path winding through trees."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "on the physical roads or pathways of life",
+            "literalization_risk": "Showing a literal highway or dirt road labeled 'Life'.",
+            "metaphor_mapping": {
+              "tenor_concept": "temporal progression of life",
+              "transferred_attributes": [
+                "direction",
+                "journey",
+                "movement forward"
+              ],
+              "vehicle_concept": "physical pathways"
+            },
+            "source_span_original": "जीवन की राहों पर",
+            "source_span_translation": "On life's paths",
+            "source_term": "जीवन की राहों पर",
+            "tenor": "the journey of living and experiencing life",
+            "vehicle": "roads or pathways",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding path leading outward from a home, fading into a soft, warm horizon."
+          },
+          {
+            "abstract_meaning": "Spreading hope, happiness, and positive energy within one's home.",
+            "acceptable_visual_variants": [
+              "A traditional clay lamp (diya) being lit on a doorstep, illuminating the dark.",
+              "Warm light spilling out from an open doorway of a house into a dark courtyard."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "physically throwing or scattering light particles like seeds",
+            "literalization_risk": "Showing a person throwing glowing dust or light bulbs around a room.",
+            "metaphor_mapping": {
+              "tenor_concept": "sharing joy and warmth",
+              "transferred_attributes": [
+                "brightness",
+                "dispelling darkness",
+                "distribution"
+              ],
+              "vehicle_concept": "scattering luminous particles"
+            },
+            "source_span_original": "रोशनी बिखेरते हैं",
+            "source_span_translation": "scatter light",
+            "source_term": "रोशनी बिखेरते हैं",
+            "tenor": "spreading happiness, warmth, and hope",
+            "vehicle": "scattering physical light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a warm, glowing lamp being lit inside a home, casting a soft, inviting light through the windows and doors."
+          },
+          {
+            "abstract_meaning": "Enduring, absorbing, and experiencing the difficult or intense phases of life.",
+            "acceptable_visual_variants": [
+              "Two people sitting in quiet companionship as the deep blues and purples of twilight settle around them.",
+              "A reflective moment of silence with shadows and rich, deep colors cast across the scene."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "drinking the physical colors of a serious or heavy time",
+            "literalization_risk": "Showing people literally drinking paint or colored liquids from cups.",
+            "metaphor_mapping": {
+              "tenor_concept": "experiencing and enduring difficult periods",
+              "transferred_attributes": [
+                "absorption",
+                "consumption",
+                "internalization of intensity"
+              ],
+              "vehicle_concept": "consuming liquid colors"
+            },
+            "source_span_original": "संगीन वक्त के रंगो को पीते हैं",
+            "source_span_translation": "We drink the colors of time's moments",
+            "source_term": "संगीन वक्त के रंगो को पीते हैं",
+            "tenor": "enduring and absorbing the emotional experiences of difficult times",
+            "vehicle": "drinking colored liquids",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict individuals sitting together in quiet, reflective silence in a courtyard during twilight, surrounded by deep, somber colors of dusk."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'sangeen' (grave, serious, or heavy) as 'time's moments' completely alters the tone, omitting the weight and gravity of the difficult times implied by the original Urdu-derived adjective.",
+            "where": "L8"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial noun 'chupp' (silence/quietness) is translated as 'silence', but loses its specific intimate, noun-formed quality in Hindi.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding hope, light, and shared resilience within our personal and domestic spaces amidst the passage of time."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' explicitly details what was lost in translation. These values are internally inconsistent. 'preserved' should be false if the cultural resonance was partially lost or altered.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अपने अपने आँगन में,  \nसपनों के बीज रोपते हैं हम।  \nहर ख्वाब, एक फूल बन जाता है,  \nगुनगुना जाता है हर आँचल का गान।\n\nजीवन की राहों पर,  \nअपने अपने घरों में रोशनी बिखेरते हैं।  \nहम मिलकर, अपनी चुप्प में,  \nसंगीन वक्त के रंगो को पीते हैं।",
+  "poem_id": "MV++_0542",
+  "poem_title": "Apne Apne Aangan Mein",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "83aac7b4f304045d91c8483da4f1cb46a197a6230611b87a99b9a5ee43084fc7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0542.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In our own courtyards,  \nWe plant seeds of dreams.  \nEvery wish turns into a flower,  \nThe song of every scarf softly hums.\n\nOn life's paths,  \nWe scatter light in our homes.  \nTogether, in our silence,  \nWe drink the colors of time's moments.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:36:51.959015+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "96fa97749be03feb3c74eb9b795a3f4db48c07262024be076783972c72faae1f",
+        "response_hash": "bafa532776cde4420de90a7557dd068c3e4c1d55b45739bc1b8ef8528ed58d34",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df5e393caf0ec65825e6c8a2dda0b379566ca6e18a46277cf623443ecdca0e93",
+        "response_hash": "0ea0aab605e09056043db9429e3a0a213a17f0410ea340f699fa449eb61a2e5a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6cf8b8af6a8e20461a2effdda38ec9f38f818766ef8910114ef094402446e11b",
+        "response_hash": "98dba381e08006cc07957053902d3273219c2062742ebdbcd37f9743e6198785",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0032fb015a7e6986cf88247c24378cfc9cad5ea8ad154742da2031f7f89e5e78",
+        "response_hash": "ff9ed4564fb5f3db8ad248eb0c7b1ad41ef278502a9e2d7e747c326f88f0b3c3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bf4b1d9bb325546fe584ea217234ec92453c4705dd7dd1e8f149343c1867a76b",
+        "response_hash": "bf778578ec696db82b0faeea8ac70a0d96e97e3aeecda3a0a6bf4422616d4dc7",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e1cbb5e4d4d9a178e8c7470cce28f449659e7586e25f70ba95e70fb1af1b4d36",
+    "translation_sha256": "110b1d5c1433335d3e9194d2b1c4b0431644f809718a9fa1d3471a0f663e85d1"
+  }
+}

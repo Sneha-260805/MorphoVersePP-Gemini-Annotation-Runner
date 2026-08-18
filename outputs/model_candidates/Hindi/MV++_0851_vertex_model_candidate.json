@@ -1,0 +1,263 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and aspiration to resilience and wisdom",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Every human aspiration or dream contains its own vast realm of infinite possibilities and potential.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person standing on a high peak looking out at an endless horizon.",
+              "A glowing, expansive sky-like pattern gently blending into the background of a reflective person."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Inside every dream, there exists a physical sky.",
+            "literalization_risk": "Showing a literal sky or clouds physically trapped inside a sleeping person's head or a thought bubble, which looks surreal or cartoonish rather than inspiring.",
+            "metaphor_mapping": {
+              "tenor_concept": "limitless potential of dreams",
+              "transferred_attributes": [
+                "vastness",
+                "limitlessness",
+                "openness"
+              ],
+              "vehicle_concept": "sky"
+            },
+            "source_span_original": "हर ख्वाब में एक आसमान होता है।",
+            "source_span_translation": "Every dream has a sky.",
+            "source_term": "हर ख्वाब में एक आसमान होता है।",
+            "tenor": "the vast potential and limitless possibilities of human aspirations",
+            "vehicle": "a sky (आसमान) inside a dream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking up at a vast, starry or bright open sky, symbolizing the expansive nature of their inner ambitions."
+          },
+          {
+            "abstract_meaning": "Taking courageous action, preparing to pursue one's goals, and opening oneself up to risks.",
+            "acceptable_visual_variants": [
+              "A shadow of a bird with spread wings cast behind a determined person.",
+              "A person standing on a cliff edge with arms outstretched toward the horizon."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Spreading physical wings to fly.",
+            "literalization_risk": "Drawing literal bird wings growing out of a human being's back, which shifts the genre to fantasy or mythology.",
+            "metaphor_mapping": {
+              "tenor_concept": "human preparing to pursue goals",
+              "transferred_attributes": [
+                "readiness",
+                "courage",
+                "expansion"
+              ],
+              "vehicle_concept": "bird spreading wings"
+            },
+            "source_span_original": "परों को फैलाता है",
+            "source_span_translation": "spreads its wings",
+            "source_term": "परों को फैलाता है",
+            "tenor": "preparing to take action and pursue ambitions courageously",
+            "vehicle": "spreading wings",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing with arms wide open facing the wind on a high place, capturing the posture and feeling of flight without literal wings."
+          },
+          {
+            "abstract_meaning": "Achieving the highest levels of one's goals and realizing ambitious aspirations.",
+            "acceptable_visual_variants": [
+              "A person standing on a high peak looking down at the clouds below.",
+              "An upward-looking perspective of a person reaching toward a bright star."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Physically reaching out and touching a high altitude belonging to dreams.",
+            "literalization_risk": "Depicting a person physically touching a cloud or a literal signpost labeled 'dreams' high in the air.",
+            "metaphor_mapping": {
+              "tenor_concept": "ambitious achievement",
+              "transferred_attributes": [
+                "elevation",
+                "attainment",
+                "climax"
+              ],
+              "vehicle_concept": "physical height"
+            },
+            "source_span_original": "सपनों की ऊँचाइयों को छूता है।",
+            "source_span_translation": "Touching the heights of dreams.",
+            "source_term": "सपनों की ऊँचाइयों को छूता है।",
+            "tenor": "achieving ambitious goals",
+            "vehicle": "touching physical heights",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a climber reaching the summit of a mountain, looking up at the sky in triumph."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the specific Urdu-derived poetic register of 'ख्वाब' (khwaab - dream) which contrasts with the Sanskrit-derived 'सपनों' (sapnon - dreams) in L4, flattening both to 'dream/dreams' in English.",
+            "where": "L2-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender and subject-verb agreement in 'भरता है' (bharta hai - masculine singular) and 'फैलाता है' (phailata hai - masculine singular) are rendered as gender-neutral or impersonal ('Soaring', 'it spreads') in English, losing the personified masculine subject.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The inner determination, courage, and spirit to pursue one's goals should not be shattered or lost.",
+            "acceptable_visual_variants": [
+              "A steady, burning candle flame shielded from a gust of wind.",
+              "A person standing firm and looking forward despite dark storm clouds in the background."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The physical courage to fly does not break like a solid object.",
+            "literalization_risk": "Showing a literal heart or abstract shape cracking or shattering in mid-air.",
+            "metaphor_mapping": {
+              "tenor_concept": "resilient human spirit",
+              "transferred_attributes": [
+                "strength",
+                "integrity",
+                "resistance to shattering"
+              ],
+              "vehicle_concept": "unbroken solid object"
+            },
+            "source_span_original": "उड़ने का हौसला न टूटे।",
+            "source_span_translation": "The spirit of flying remains unbroken.",
+            "source_term": "उड़ने का हौसला न टूटे।",
+            "tenor": "the resilience of human determination",
+            "vehicle": "a breakable solid object (representing courage/spirit)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a small plant or a figure standing strong and upright amidst a harsh, blowing wind, symbolizing resilience."
+          },
+          {
+            "abstract_meaning": "The end of each day brings experiences, reflections, and lessons that contribute to personal growth.",
+            "acceptable_visual_variants": [
+              "A warm sunset casting long shadows as a person sits in quiet contemplation.",
+              "An open book resting on a table next to a window showing the transition from dusk to night."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "The evening acts as a schoolteacher delivering a lesson.",
+            "literalization_risk": "Depicting a literal personified 'evening' figure with a face and hands standing at a blackboard teaching a class.",
+            "metaphor_mapping": {
+              "tenor_concept": "evening/passage of time",
+              "transferred_attributes": [
+                "imparting wisdom",
+                "instruction",
+                "reflection"
+              ],
+              "vehicle_concept": "teacher"
+            },
+            "source_span_original": "हर शाम एक नया सबक सिखाती है।",
+            "source_span_translation": "Every evening teaches a new lesson.",
+            "source_term": "हर शाम एक नया सबक सिखाती है।",
+            "tenor": "the passage of time and daily experiences bringing wisdom",
+            "vehicle": "a teacher",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a person sitting quietly by a window or on a porch during a peaceful sunset, looking reflective or writing in a journal."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The subjunctive mood and negative optative nuance of 'न टूटे' (na toote - may it not break / let it not break) is translated as a declarative statement ('remains unbroken'), altering the speaker's prayer-like wish or hope into a factual assertion.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The limitless potential of human dreams and the resilience required to pursue them through life's challenges"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "हवा में उड़ान भरता है,  \nहर ख्वाब में एक आसमान होता है।  \nबिना डरे वो परों को फैलाता है,  \nसपनों की ऊँचाइयों को छूता है।  \n\nचाहे कितनी भी मुश्किलें आएं,  \nउड़ने का हौसला न टूटे।  \nहर सुबह एक नई शुरुआत है,  \nहर शाम एक नया सबक सिखाती है।",
+  "poem_id": "MV++_0851",
+  "poem_title": "Hawa Mein Udaan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2c4dbb8f6570605fc5c1405c466100f64ed8b5655b6b88f4c75fab5394d922ec",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0851.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Soaring in the air,  \nEvery dream has a sky.  \nFearlessly it spreads its wings,  \nTouching the heights of dreams.  \n\nNo matter how many challenges arise,  \nThe spirit of flying remains unbroken.  \nEvery morning is a new beginning,  \nEvery evening teaches a new lesson.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:21:15.680532+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0a9b35a07fea1bcd542f133439c585174294199a3f23c034096bcc43d3285cdc",
+        "response_hash": "f1c0309a4dcbf52d278e5ed194367c3985cea1747c201d45b21ce7392c648980",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7c6638cc613daab31bcafda085ccc25185d81309d07ae4b8e0b4d8dd86cec2cb",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e0e0763ee0e2fd30108ce8b2a0bff9ecf57d42e2ed07ec701fcbc2a0ece8e307",
+        "response_hash": "8ecf8c85e4a7b6f25532c111b742a5f08b947b561eb6de6cb22c4313cebd6c30",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "46cc44e86ab59ba41299c48ae90f404df47f44490e466a733bb67a0c527b0a34",
+        "response_hash": "b0ab231af34b5db72b5c238f81a263c9e2905dd5948b94075ded8183a590fbb4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6189f80af7ce3a2888c231f7c124f6ed35a8dd3d05edb3874a4ca65707165c09",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "cd9babe03d5cd4254968dc50d9347f10456633606d1182c1cbec7d556686820a",
+    "translation_sha256": "e0610fdf7a1c909a7573e991d435e7c34b3daabb434ed31396c21dae3f157977"
+  }
+}

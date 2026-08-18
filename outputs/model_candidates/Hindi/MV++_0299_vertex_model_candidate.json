@@ -1,0 +1,281 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A single radiant white horse galloping along a path",
+          "A horse pulling a celestial chariot of light"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The seventh horse of the sun god Surya's chariot in Hindu mythology, representing the final ray of light or hope, and famously used as a literary metaphor in modern Hindi literature.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A standard farm horse",
+          "A dark or demonic warhorse"
+        ],
+        "preserved": true,
+        "romanization": "Suraj Ka Satwan Ghoda",
+        "source_span_original": "सूरज का सातवाँ घोड़ा",
+        "source_span_translation": "The seventh horse of the sun",
+        "stanza_index": 1,
+        "term": "सूरज का सातवाँ घोड़ा",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A majestic horse associated with the sun chariot",
+          "Often depicted as white or radiant",
+          "Symbolizes light, speed, and endurance"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "anticipation and wonder to resilient strength and back to hopeful anticipation",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The final, remaining ray of hope or truth that persists through struggle and darkness, drawing on the mythological chariot of the sun.",
+            "acceptable_visual_variants": [
+              "A stylized, luminous horse silhouette running along a path towards the viewer",
+              "A majestic white horse with solar rays emanating from its mane"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "The seventh horse belonging to the sun's chariot",
+            "literalization_risk": "Depicting a literal horse pulling a sun chariot might obscure the abstract, symbolic meaning of hope and endurance in human struggle.",
+            "metaphor_mapping": {
+              "tenor_concept": "A persistent, final ray of hope or truth",
+              "transferred_attributes": [
+                "bringing light",
+                "endurance",
+                "coming along the way"
+              ],
+              "vehicle_concept": "The seventh horse of the sun's chariot"
+            },
+            "source_span_original": "सूरज का सातवाँ घोड़ा",
+            "source_span_translation": "The seventh horse of the sun",
+            "source_term": "सूरज का सातवाँ घोड़ा",
+            "tenor": "A persistent, final ray of hope or truth",
+            "vehicle": "The seventh horse of the sun's chariot",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a majestic, glowing horse emerging from or running alongside a path of light, blending mythological grandeur with a sense of journey."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic resonance of the Hindi postpositions 'ka' and 'ki' which establish a musical cadence in the original Devanagari text is flattened in the English prepositional structure.",
+            "where": "L1-L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal translation of 'गायों की गिलास' as 'glass of cows' misses the surreal, potentially colloquial, or symbolic nuance of 'gilaas' (glass/tumbler) in relation to cows (perhaps referring to milk or a specific vessel), which sounds highly unusual in English.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The final, remaining ray of hope or truth that persists through struggle and darkness, drawing on the mythological chariot of the sun.",
+            "acceptable_visual_variants": [
+              "A stylized, luminous horse silhouette running along a path towards the viewer",
+              "A majestic white horse with solar rays emanating from its mane"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L6",
+            "literal_meaning": "The seventh horse belonging to the sun's chariot",
+            "literalization_risk": "Depicting a literal horse pulling a sun chariot might obscure the abstract, symbolic meaning of hope and endurance in human struggle.",
+            "metaphor_mapping": {
+              "tenor_concept": "A persistent, final ray of hope or truth",
+              "transferred_attributes": [
+                "bringing light",
+                "endurance",
+                "coming along the way"
+              ],
+              "vehicle_concept": "The seventh horse of the sun's chariot"
+            },
+            "source_span_original": "सूरज का सातवाँ घोड़ा",
+            "source_span_translation": "The seventh horse of the sun",
+            "source_term": "सूरज का सातवाँ घोड़ा",
+            "tenor": "A persistent, final ray of hope or truth",
+            "vehicle": "The seventh horse of the sun's chariot",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a majestic, glowing horse emerging from or running alongside a path of light, blending mythological grandeur with a sense of journey."
+          },
+          {
+            "abstract_meaning": "The embodiment or personification of struggle, conflict, and war.",
+            "acceptable_visual_variants": [
+              "A horse with a powerful, muscular build standing amidst a dramatic, stormy background",
+              "A horse silhouette that subtly incorporates elements of shields or ancient armor"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A statue or physical idol of war",
+            "literalization_risk": "Drawing a literal statue of war might look like a historical monument rather than representing the active, living struggle of the horse.",
+            "metaphor_mapping": {
+              "tenor_concept": "The essence of conflict and struggle",
+              "transferred_attributes": [
+                "solidity",
+                "physical form",
+                "representation of conflict"
+              ],
+              "vehicle_concept": "A statue or physical idol"
+            },
+            "source_span_original": "जंग की मूरत",
+            "source_span_translation": "embodiment of war",
+            "source_term": "जंग की मूरत",
+            "tenor": "The essence of conflict and struggle",
+            "vehicle": "A statue or physical idol",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict the horse with a powerful, battle-hardened posture, perhaps with subtle armor-like patterns or a fierce, determined expression."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender and personification inherent in the relative pronoun 'जो' (jo) and the verb 'हंसता है' (hansata hai - masculine singular) are rendered as the gender-neutral pronoun 'it' in English, reducing the active, personified presence of the horse.",
+            "where": "L8-L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The final, remaining ray of hope or truth that persists through struggle and darkness, drawing on the mythological chariot of the sun.",
+            "acceptable_visual_variants": [
+              "A stylized, luminous horse silhouette running along a path towards the viewer",
+              "A majestic white horse with solar rays emanating from its mane"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L12",
+            "literal_meaning": "The seventh horse belonging to the sun's chariot",
+            "literalization_risk": "Depicting a literal horse pulling a sun chariot might obscure the abstract, symbolic meaning of hope and endurance in human struggle.",
+            "metaphor_mapping": {
+              "tenor_concept": "A persistent, final ray of hope or truth",
+              "transferred_attributes": [
+                "bringing light",
+                "endurance",
+                "coming along the way"
+              ],
+              "vehicle_concept": "The seventh horse of the sun's chariot"
+            },
+            "source_span_original": "सूरज का सातवाँ घोड़ा",
+            "source_span_translation": "The seventh horse of the sun",
+            "source_term": "सूरज का सातवाँ घोड़ा",
+            "tenor": "A persistent, final ray of hope or truth",
+            "vehicle": "The seventh horse of the sun's chariot",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a majestic, glowing horse emerging from or running alongside a path of light, blending mythological grandeur with a sense of journey."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The repetition of the surreal imagery 'गायों की गिलास' (glass of cows) and 'किसान की हंसी' (laughter of farmers) loses its rhythmic, hypnotic quality when translated literally into English prose-like lines.",
+            "where": "L10-L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The arrival of the mythical seventh horse of the sun as a symbol of hope, resilience, and the enduring spirit of the common people amidst struggle."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सूरज का सातवाँ घोड़ा  \nसूरज का सातवाँ घोड़ा,  \nरास्ते में आएगा।  \nगायों की गिलास लिए,  \nकिसान की हंसी लिए।  \n\nसूरज का सातवाँ घोड़ा,  \nरास्ते में आएगा।  \nजो जंग की मूरत है,  \nजो हंसता है अमर है।  \n\nगायों की गिलास लिए,  \nकिसान की हंसी लिए।  \nसूरज का सातवाँ घोड़ा,  \nरास्ते में आएगा।",
+  "poem_id": "MV++_0299",
+  "poem_title": "Suraj Ka Satwan Ghoda",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6036198013aa2940ce607afadd1abb036fd821c89ce34a26d8ac38f9b293abcd",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0299.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Seventh Horse of the Sun  \nThe seventh horse of the sun,  \nWill come along the way.  \nCarrying the glass of cows,  \nBearing the laughter of farmers.  \n\nThe seventh horse of the sun,  \nWill come along the way.  \nIt is the embodiment of war,  \nIt laughs, it is immortal.  \n\nCarrying the glass of cows,  \nBearing the laughter of farmers.  \nThe seventh horse of the sun,  \nWill come along the way.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:09:54.083164+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b4ba2749db17964975b7e68722c790bcc929990d6f7afcc77ab3d5da5b2def35",
+        "response_hash": "1396d8ed135c99554630fbc426bce2d0bfb47549033f9a1b2143bedac13239e2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "466040c2cffdc24da50d60d98f671396315fd34312d82f23ca408a2d266ff599",
+        "response_hash": "17001cd2e095e890aa9770f88b303e14621396dec54b3a0a4b470ff2092dd2f8",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db1ae897ec37de6d7644c0badfa23f5a30398922340fa0062217b2324f30e300",
+        "response_hash": "3a3b8ac65929c02f875afdbb5d1b9b7f5a3a15dd92d46041529de6b4e6a809ff",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8834f2d465105f68e1341b9360062a971e33ae93d60f4ab8df7424237ca5d8ad",
+        "response_hash": "6333162a0be8d8ac75e01daa3833ff1741582ce679e62a92fd7012cb76d43b01",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "638525a5beeec7c369e5c700912b962170a6444297ff80d0002e77cf35b9ab47",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c878eee36ba113130e5472c6e591eb55bc5e69b62a02b1d2a96b064960cd5157",
+    "translation_sha256": "9c659ea11f0523501008171bc188f872e5eab6b003f593499cb74b777947ad8e"
+  }
+}

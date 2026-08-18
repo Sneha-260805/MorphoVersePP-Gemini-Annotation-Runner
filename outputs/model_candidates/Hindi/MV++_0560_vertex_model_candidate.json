@@ -1,0 +1,235 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A lone traveler with a small bundle walking down an endless road",
+          "A figure walking under the open sky, transitioning from sun to moonlight"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A historically nomadic trading and pastoral community of India, often used in Hindi poetry as a symbol of a restless, wandering soul or free spirit.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A European-style Romani caravan or wagon",
+          "A modern tourist with a backpack and hiking gear"
+        ],
+        "preserved": true,
+        "romanization": "banjara",
+        "source_span_original": "बंजारा",
+        "source_span_translation": "gypsy",
+        "stanza_index": 1,
+        "term": "बंजारा",
+        "translation_note": "The translation renders 'banjara' as 'gypsy', which captures the nomadic essence but loses the specific historical and regional context of the Banjara community of India.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Simple, rustic attire",
+          "A traveler walking on an open, dusty path",
+          "No permanent home or shelter in sight"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing to resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'mann' (mind/soul/inner self) as 'heart' to fit English poetic conventions, slightly shifting the internal focus from the restless mind to the emotional heart.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A restless, wandering, and unanchored state of mind or heart that seeks meaning without settling down.",
+            "acceptable_visual_variants": [
+              "A solitary figure walking along a path that morphs into a starry sky",
+              "A glowing heart or mind-like shape floating along a dusty road under a vast sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A nomadic/gypsy mind",
+            "literalization_risk": "An illustrator might literally depict a traditional nomadic traveler or gypsy figure walking, which completely misses the internal, psychological nature of the restless mind.",
+            "metaphor_mapping": {
+              "tenor_concept": "human mind",
+              "transferred_attributes": [
+                "constant movement",
+                "lack of permanent settlement",
+                "restlessness",
+                "seeking a path"
+              ],
+              "vehicle_concept": "nomadic traveler"
+            },
+            "source_span_original": "बंजारा मन",
+            "source_span_translation": "Gypsy heart",
+            "source_term": "बंजारा मन",
+            "tenor": "The human mind or inner self (mann) which is restless, constantly seeking, and unable to find permanent peace or stillness",
+            "vehicle": "A nomadic traveler (banjara) who constantly moves from place to place without a permanent home",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a translucent, ethereal human silhouette walking along an endless, winding path that stretches into a vast horizon, with symbolic elements of thoughts or dreams floating around it."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'मन' (mann) as 'heart', which loses the specific Hindi philosophical and psychological concept of 'mann' as the seat of both mind, intellect, and emotional desires, rather than just the emotional 'heart'.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'बंजारा' (banjara) as 'gypsy' introduces European cultural connotations that do not align with the traditional nomadic, trading, and pastoralist identity of the Banjara community in India.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The reduplication in 'दूर दूर' (door door) which emphasizes vastness, continuity, and extreme distance is flattened into a simple 'far and wide' without capturing the rhythmic and intensifying quality of the Hindi repetition.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'mann' as 'heart' continues here. Additionally, the Hindi word 'banjara' carries specific cultural connotations of nomadic communities in India, which is generalized to 'gypsy' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Actively pursuing one's desires, ambitions, or life goals with great intensity.",
+            "acceptable_visual_variants": [
+              "A figure walking towards a bright, distant horizon where abstract shapes of light shimmer",
+              "A person climbing a path towards a glowing peak in the distance"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L7",
+            "literal_meaning": "Running behind dreams",
+            "literalization_risk": "Showing a person literally running after floating cloud-like bubbles with sleeping faces or literal dream-bubbles, which looks cartoonish and misses the serious existential search.",
+            "metaphor_mapping": {
+              "tenor_concept": "pursuit of life goals",
+              "transferred_attributes": [
+                "forward motion",
+                "exertion",
+                "focus on a distant target"
+              ],
+              "vehicle_concept": "physical chase"
+            },
+            "source_span_original": "सपनों के पीछे भागते हुए",
+            "source_span_translation": "Chasing dreams",
+            "source_term": "सपनों के पीछे भागते हुए",
+            "tenor": "Striving hard to achieve one's aspirations and desires",
+            "vehicle": "Physically chasing or running after a moving object or person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a silhouette of a person reaching out towards distant, glowing stars or soft, luminous points of light on the horizon."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मन' (mann) as 'heart' is repeated here, continuing the loss of the mind-heart synthesis inherent in the Hindi term.",
+            "where": "L6"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The cultural and nomadic specificity of 'बंजारा' (banjara) is again lost by translating it as 'gypsy'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The restless, wandering nature of the human mind and heart as it endlessly pursues its dreams without boundaries."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' explains that the translation as 'gypsy' loses the specific historical and regional context of the Banjara community. These values are internally inconsistent; 'preserved' should be false if the specific cultural term was replaced by a generic/different cultural concept like 'gypsy'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बंजारा मन, बंजारा मन,  \nनिरंतर चलता है इस राह पर।  \nघूमते हैं कदम अपने ही,  \nदूर दूर तक कहीं न एक ठहराव है।\n\nचाहे सूरज की गर्मी हो या चाँद की ठंडी छांव,  \nहर पल हर कदम, यह मन न कोई सीमा जानता है।  \nसपनों के पीछे भागते हुए,  \nएक बंजारा अपना रास्ता खोजता है।",
+  "poem_id": "MV++_0560",
+  "poem_title": "Banjara Mann",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "93a471bd390a512998c006cf939d8f9294faf49c61a38a195da1ddb7cf6d0d54",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0560.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Gypsy heart, gypsy heart,  \nIt keeps walking along this path.  \nIts steps wander aimlessly,  \nNever a halt, going far and wide.\n\nWhether under the sun’s heat or the moon’s cool shade,  \nEvery moment, every step, this heart knows no boundary.  \nChasing dreams,  \nA gypsy seeks its own way.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:38:51.720946+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dfecca5f21a3c818eb1757359913b62e95c6bdf18dd60b4022b24ee32847aa0b",
+        "response_hash": "06e6a302d346abcc89f138f75d0198869e0b47738ddab21c59a80da62a156b3a"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "129574cbdfddfa6f82582832c1986c58904474ad06e7c4e26014ec6e213aa72d",
+        "response_hash": "724b50d4cab475ecb14289e29eadaeaa53604e826996ddd7fed4ac37d690e56e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7d7b220970e931e477a76d123ec2f232a1f6c3c7cc4f1bf4b5752d60dff2b06b",
+        "response_hash": "302bbc627dbee7d6a94319bc0b4002b52d7775138e225f287e7cb6207e3b5d08",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a3f04cc119332ac105a20f9cfce16ca4a8037e0482c63c8273202744b1e95dae",
+        "response_hash": "e2c4dd24eefc7d6b86271d66c47be0807fe8aa64b75442e6c230c57f894787d8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "afdbd54b468542f2eb41177391379ef14d2cf3e4eef68df19e3a2b7de711f1d4",
+        "response_hash": "b49e5a89db6771d1082abe6b477dd7191770c6b19e24433c827f7342c94ae9fb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "83c356effe707e983db7b8dad5e7eda5a682ff96aa11d8db93df488367d2ab3e",
+        "response_hash": "29c0425bce0cd71fd9e3281eb0cb30d499c17b360465473b898c112deca95022",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b79b0db5138050aa840c17045030e9d470bce3f7b6436e1d9f63859a06936d4c",
+    "translation_sha256": "caaeb78ad0460367a42546525c2e601ed4485090c9a0801ffb5065b9f1328e9b"
+  }
+}

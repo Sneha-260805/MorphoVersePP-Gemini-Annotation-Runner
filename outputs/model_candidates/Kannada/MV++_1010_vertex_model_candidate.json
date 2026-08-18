@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet wonder and appreciation of life's journey and companionship",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Hope, guidance, or a positive presence that illuminates one's life.",
+            "acceptable_visual_variants": [
+              "A single warm ray of sunlight piercing through dark clouds",
+              "A soft glow emanating from an unseen source illuminating a dark path"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A ray of physical light",
+            "literalization_risk": "An illustrator might draw a literal sunbeam or flashlight beam, missing the emotional warmth and guidance of hope.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and guidance",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "showing direction",
+                "bringing warmth"
+              ],
+              "vehicle_concept": "light ray"
+            },
+            "source_span_original": "ಬೆಳಕಿನ ಕಿರಣ",
+            "source_span_translation": "A ray of light",
+            "source_term": "ಬೆಳಕಿನ ಕಿರಣ",
+            "tenor": "Hope or guidance in life",
+            "vehicle": "A ray of light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm beam of light gently breaking through a dark or misty background, illuminating a path."
+          },
+          {
+            "abstract_meaning": "The long, continuous journey of life or a relationship.",
+            "acceptable_visual_variants": [
+              "A winding dirt path disappearing into a soft, misty horizon",
+              "A scenic trail through a forest stretching far into the distance"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A road or path that does not end",
+            "literalization_risk": "A literal drawing of an infinite highway might look like a barren desert road or a highway construction project, losing the poetic sense of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey",
+              "transferred_attributes": [
+                "continuity",
+                "ongoing progression",
+                "lack of a final destination"
+              ],
+              "vehicle_concept": "endless road"
+            },
+            "source_span_original": "ಮುಗಿಯದ ಹಾದಿ",
+            "source_span_translation": "An endless path",
+            "source_term": "ಮುಗಿಯದ ಹಾದಿ",
+            "tenor": "The journey of life or companionship",
+            "vehicle": "An endless path",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a winding, beautiful path stretching into a soft, distant horizon without a visible end."
+          },
+          {
+            "abstract_meaning": "The vital spark of life, soul, or the guiding light that keeps a person alive and hopeful.",
+            "acceptable_visual_variants": [
+              "A traditional clay diya with a steady golden flame",
+              "A small, glowing light source held gently in cupped hands"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A physical oil lamp of life",
+            "literalization_risk": "Drawing a literal lamp inside a human body or heart could look bizarre or anatomically strange.",
+            "metaphor_mapping": {
+              "tenor_concept": "vital life force",
+              "transferred_attributes": [
+                "burning continuously",
+                "providing warmth",
+                "vulnerability to being extinguished"
+              ],
+              "vehicle_concept": "burning oil lamp"
+            },
+            "source_span_original": "ಜೀವದ ದೀಪ",
+            "source_span_translation": "A lamp of life",
+            "source_term": "ಜೀವದ ದೀಪ",
+            "tenor": "The soul or vital life force",
+            "vehicle": "A lamp",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a traditional clay oil lamp (diya) burning with a steady, warm, golden flame, perhaps cradled gently."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and alliterative flow of the Kannada genitive case endings (-ina, -ada) which create a cohesive musicality across the lines is lost in the English prepositional phrases.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The guiding light and magic of companionship on life's endless journey"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing rhythmic and grammatical loss. Usually, 'faithful' implies minimal or no structured loss, or at least a matching empty loss_note. However, this is a minor stylistic mismatch rather than a strict schema violation.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಬೆಳಕಿನ ಕಿರಣ,  \nಮುಗಿಯದ ಹಾದಿ,  \nಜೀವದ ದೀಪ,  \nಸಂಗತಿಯ ಮೋಡಿ.",
+  "poem_id": "MV++_1010",
+  "poem_title": "Belakina Kirana",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "280d308934b13ca27af03fbc0772d4bdfa6fb386aa19be7306b54f8619008347",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1010.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A ray of light,  \nAn endless path,  \nA lamp of life,  \nMagic of companionship.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:45:00.315033+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "711557e38ed67b903245e3cf0dae0d77ac1265d319c55f403993b6f12c797e53",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "19c3ed6dc358bb53f593fcc5f34bf1bbce666ed2a229147cf2dcf95dde6c9103",
+        "response_hash": "0d0a777ce4ceec743dea7c537209672aa9b22e2304978a92b12ccf0d77940f86",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ecc88f8bb800d4e9781338d0ab2bd2fb6cfc6b676b7b1015693a6bcf56da3d4b",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "189ba3a18afae856216f5baba886ed22ebb57509d2ba428bb0057148b9b1bf35",
+        "response_hash": "845674fa853d58842af385235397a76b5f5828b13df08d2f5418ad4d39c23140",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "96ecb4e514e41a27e1dfc64799e275ff4f0e0dd9b8070836439519ea560404b3",
+        "response_hash": "fa96c8d36a82dd0867ebd6228da0b1fe1cfa6fbeadc7c7a72753d1bf9de519af",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa34f9587335f55fa1160222714aec3885f6081ea64b11bc1e29864a76ec4771",
+        "response_hash": "6966101fe64d95f769e6e16c199c1484907721ff052dff06e7a63e0d50d22498",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ea08fcaa173113d6daed384e11f6c03e544c83708365d70486e8d6bb5ff5604e",
+    "translation_sha256": "af6aa6133ff2ee30e8c03aabb176c558a7e0f4f6fda9fc36337064d30cd82b14"
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "hopeful determination to resilient struggle",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A common, working-class person rising from poverty or humble origins to seek their rights.",
+            "acceptable_visual_variants": [
+              "A farmer standing tall in a plowed field under a morning sky",
+              "A construction worker or laborer rising from a seated posture on the ground"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A man physically emerging or rising up out of the dirt/soil.",
+            "literalization_risk": "Showing a literal zombie-like figure or a clay statue coming to life out of the ground, which misses the social and economic struggle of the working class.",
+            "metaphor_mapping": {
+              "tenor_concept": "poverty/humble origins",
+              "transferred_attributes": [
+                "lowliness",
+                "closeness to the earth",
+                "starting point of growth"
+              ],
+              "vehicle_concept": "soil/dirt"
+            },
+            "source_span_original": "मिट्टी से उठता आदमी",
+            "source_span_translation": "The man rising from soil",
+            "source_term": "मिट्टी से उठता आदमी",
+            "tenor": "A working-class person rising from poverty or humble origins",
+            "vehicle": "A man physically rising out of the soil",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a humble laborer or farmer standing up from working in a field, looking forward with determination."
+          },
+          {
+            "abstract_meaning": "Nurturing, planning, or holding onto hopes and aspirations for a better future.",
+            "acceptable_visual_variants": [
+              "A person looking towards a bright horizon with a hopeful expression",
+              "A person gently holding a small, glowing light source in their hands"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L4",
+            "literal_meaning": "To physically decorate or arrange dreams like physical objects.",
+            "literalization_risk": "Depicting a person hanging ornaments or decorations on floating, abstract dream bubbles, which looks overly whimsical or surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "nurturing hopes",
+              "transferred_attributes": [
+                "care",
+                "beautification",
+                "deliberate arrangement"
+              ],
+              "vehicle_concept": "decorating objects"
+            },
+            "source_span_original": "सपनों को सजाता है",
+            "source_span_translation": "He adorns his dreams",
+            "source_term": "सपनों को सजाता है",
+            "tenor": "Nurturing and holding onto hopes for the future",
+            "vehicle": "Decorating or arranging physical objects",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person looking thoughtfully into the distance or at a glowing light, with subtle, warm visual cues of hope."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मिट्टी' (mitti) as 'soil' loses the deep cultural resonance of 'mitti' in Hindi, which carries connotations of humble origins, mortality, and a profound connection to one's homeland or native earth.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and poetic flow of the Hindi phrase 'किरण के संग' (kiran ke sang) is flattened into the more literal and standard English prepositional phrase 'With the first light'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The tangible, pervasive presence and impact of hard physical labor.",
+            "acceptable_visual_variants": [
+              "Glistening sweat on a worker's forehead in the sun",
+              "Soil-stained hands resting on a tool"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The physical scent or smell of hard work.",
+            "literalization_risk": "Depicting visible scent lines or perfume bottles rising from sweat, which could look comical or unpleasant.",
+            "metaphor_mapping": {
+              "tenor_concept": "hard labor",
+              "transferred_attributes": [
+                "pervasiveness",
+                "distinctive presence",
+                "association with the earth"
+              ],
+              "vehicle_concept": "fragrance"
+            },
+            "source_span_original": "मेहनत की गंध",
+            "source_span_translation": "The fragrance of his toil",
+            "source_term": "मेहनत की गंध",
+            "tenor": "The tangible presence and impact of hard labor",
+            "vehicle": "A physical fragrance or scent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict sweat on a laborer's brow or hands covered in soil, emphasizing the physical reality of labor."
+          },
+          {
+            "abstract_meaning": "The nurturing, protective, and receptive nature of the earth/land.",
+            "acceptable_visual_variants": [
+              "A person sitting or kneeling on soft, rich soil",
+              "A close-up of hands planting a seed in warm, dark earth"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "The physical lap of a motherly earth figure.",
+            "literalization_risk": "Depicting a giant, literal woman made of dirt holding a man, which looks like a fantasy monster rather than a poetic metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "the earth",
+              "transferred_attributes": [
+                "nurturing",
+                "safety",
+                "closeness",
+                "holding"
+              ],
+              "vehicle_concept": "mother's lap"
+            },
+            "source_span_original": "धरती की गोद",
+            "source_span_translation": "earth's lap",
+            "source_term": "धरती की गोद",
+            "tenor": "The nurturing and receptive land/soil",
+            "vehicle": "A mother's lap",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person resting or working directly on rich, fertile soil, framed by warm, protective natural elements."
+          },
+          {
+            "abstract_meaning": "The ambition to achieve great heights, success, or high aspirations.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person on a hill looking up at a starry or bright sky",
+              "A person looking up at a soaring bird or high clouds with a determined expression"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L7",
+            "literal_meaning": "The physical desire to reach up and touch the literal sky.",
+            "literalization_risk": "Showing a person with unnaturally long arms stretching into the clouds, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "achieving high ambitions",
+              "transferred_attributes": [
+                "height",
+                "limitlessness",
+                "grandeur"
+              ],
+              "vehicle_concept": "touching the sky"
+            },
+            "source_span_original": "आसमान को छूने की चाह",
+            "source_span_translation": "desire to touch the sky",
+            "source_term": "आसमान को छूने की चाह",
+            "tenor": "Having high ambitions and aspirations",
+            "vehicle": "Reaching up to physically touch the sky",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a person standing on a high point looking up at a vast, open sky with arms slightly raised or head held high."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मिलती है' (milti hai) as 'Mingles' loses the dual meaning of 'milna' in Hindi, which means both to blend/mingle and to be found/united with, softening the sense of physical union between the laborer's sweat and the earth.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'हर कदम पर संघर्ष है' as 'Struggles lie at every step' shifts the active, lived experience of 'sangharsh' (struggle/conflict) into a passive state of existence ('struggles lie'), reducing the immediate, active agency of the struggling subject.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The persistent struggle and dignity of the common working man rising from the soil to claim his rights and dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].loss_note",
+      "issue": "The field loss_note is empty, but translation_loss contains structured loss items. When translation loss is present, loss_note should summarize it rather than being empty.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].loss_note",
+      "issue": "The field loss_note is empty, but translation_loss contains structured loss items. When translation loss is present, loss_note should summarize it rather than being empty.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मिट्टी से उठता आदमी,  \nअपने हक की खोज में,  \nहर सुबह की पहली किरण के संग,  \nसपनों को सजाता है।  \n\nउसकी मेहनत की गंध,  \nधरती की गोद में मिलती है,  \nआसमान को छूने की चाह में,  \nहर कदम पर संघर्ष है।",
+  "poem_id": "MV++_0077",
+  "poem_title": "Mitti se Uthta Aadmi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6d9a6c4f7bc968ed1fd069849bea8bdc8e196b3984b1a4d3d7945a7123681b20",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0077.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The man rising from soil,  \nIn search of his rights,  \nWith the first light of every dawn,  \nHe adorns his dreams.  \n\nThe fragrance of his toil,  \nMingles in the earth's lap,  \nIn the desire to touch the sky,  \nStruggles lie at every step.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:44:12.276923+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "28167b8a7ea640fd0fcacd130331397c64ba2cb0b86c4ef58698bbedf9f1210e",
+        "response_hash": "2b61203d764610a3aa63c030c702eb5448b1106d35351e1836f47162586139a4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d13d32319ea85e3fa68cd517dcc9482e6f89b9b93264275227cf89aa7a954028",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2baa20321d4fc3e822b1621e073286242c8cec0adb166aed5867c3d4542e4547",
+        "response_hash": "b813890ad46b9c357e5d3da3dd91941d2753d51aa05a9eac71c7f5ef26039d2d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f24917225f5f710c8447caa858d72c8a87ae09b29079343d2086b057edf29f0a",
+        "response_hash": "55bdce476a81f1155b41b6c9afed315641b4ff109a472d3363725b2a51a34b0e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8f9622a576bc177933bf242185017161911036dcc2b706502c25a9006e0196e3",
+        "response_hash": "a97f88cdfe13244446e2674f53deb441af65ec086a3ae6375d515decd5c8c370",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d2fc8d516be47b17726f68b7879ca4f79b8af1701f389c33e21fb86c405a2f0a",
+    "translation_sha256": "fba2b7a3802d9b63587a5c2f4d39c14689d9284de4a7bb96140cf1eed769ccca"
+  }
+}

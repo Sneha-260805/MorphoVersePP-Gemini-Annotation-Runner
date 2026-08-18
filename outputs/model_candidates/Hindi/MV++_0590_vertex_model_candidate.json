@@ -1,0 +1,433 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A person helping someone in distress, reflecting the inner qualities of a true devotee rather than outward sectarian symbols."
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A devotee of Vishnu, characterized in this poem by ethical purity, empathy, and selflessness rather than mere sectarian ritual.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "An overly ritualistic priest performing elaborate temple rituals, which contradicts the poem's focus on ethical conduct over external rites."
+        ],
+        "preserved": true,
+        "romanization": "Vaishnav",
+        "source_span_original": "वैष्णव",
+        "source_span_translation": "Vaishnav",
+        "stanza_index": 1,
+        "term": "वैष्णव",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A serene devotee, possibly wearing simple traditional attire or tulsi beads, showing compassion to others."
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The philosophical concept of illusion, attachment, or the deceptive nature of the material world that binds the soul.",
+        "line_ref": "L13",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "maya",
+        "source_span_original": "माया",
+        "source_span_translation": "worldly illusions",
+        "stanza_index": 4,
+        "term": "माया",
+        "translation_note": "Translated as 'worldly illusions' to convey the philosophical concept of cosmic illusion or attachment.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Ascetic detachment, dispassion, or freedom from worldly desires and attachments.",
+        "line_ref": "L14",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "vairagya",
+        "source_span_original": "वैराग्य",
+        "source_span_translation": "detachment",
+        "stanza_index": 4,
+        "term": "वैराग्य",
+        "translation_note": "Translated as 'detachment' to capture the sense of freedom from worldly desires.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The sacred name of Ram, used as a focal point of devotion and constant remembrance.",
+        "line_ref": "L15",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Ram-nam",
+        "source_span_original": "राम-नाम",
+        "source_span_translation": "the name of Ram",
+        "stanza_index": 4,
+        "term": "राम-नाम",
+        "translation_note": "Translated as 'the name of Ram'.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Sacred pilgrimage sites or holy places, which the poem internalizes within the body of the pure devotee.",
+        "line_ref": "L16",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "teerath",
+        "source_span_original": "तीरथ",
+        "source_span_translation": "pilgrimage",
+        "stanza_index": 4,
+        "term": "तीरथ",
+        "translation_note": "Translated as 'pilgrimage'.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A steady progression of deep spiritual devotion, outlining the ideal qualities of a righteous soul, culminating in a sense of ultimate peace and salvation.",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the rhythmic, musical cadence of the original bhajan format.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To remain humble and not let pride or ego take over one's thoughts.",
+            "acceptable_visual_variants": [
+              "A person sitting in quiet meditation with a serene, open expression, surrounded by a calm, empty space.",
+              "A person performing a simple act of service, like offering water, with a gentle and unpretentious demeanor."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Do not bring pride/ego into the mind (as if pride were an external guest or entity entering a physical space)",
+            "literalization_risk": "Showing a physical figure labeled 'Pride' walking through a door into a giant brain or head, which looks comical and misses the internal psychological state of humility.",
+            "metaphor_mapping": {
+              "tenor_concept": "Ego taking root in the human mind",
+              "transferred_attributes": [
+                "entering",
+                "occupying space",
+                "taking control of the interior"
+              ],
+              "vehicle_concept": "An entity entering a physical space"
+            },
+            "source_span_original": "मन अभिमान न आणे",
+            "source_span_translation": "do not let pride enter the mind",
+            "source_term": "मन अभिमान न आणे",
+            "tenor": "The psychological process of becoming arrogant or harboring ego in one's consciousness",
+            "vehicle": "An external entity or guest entering a physical room or vessel",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a humble posture (such as bowing slightly or serving others with a peaceful expression) with a soft, clear light surrounding their head, symbolizing a mind free of intrusive ego."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic, conversational, and musical quality of the Gujarati/Hindi dialect's poetic filler 're' (रे) is lost in the English translation.",
+            "where": "L2-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and theological weight of the term 'Vaishnav Jan' (devotee of Vishnu) is simplified to 'those people Vaishnav' without conveying the deep devotional context of the original.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The specific phrase 'वाच काछ मन' (speech, conduct/chastity, and mind) is simplified to 'words, actions, and thoughts' in English, losing some of the traditional ethical nuances.",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific alliterative and rhythmic phrase 'वाच काछ मन' (speech, conduct/chastity, and mind) is translated as 'words, actions, and thoughts', losing the precise cultural resonance of 'kaach' (referring to moral purity/chastity).",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The emphatic repetition of 'धन-धन' (blessed, blessed) is flattened to a single 'Blessed' in the translation.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation of 'पर-स्त्री जेने मात' as 'see every woman as a mother' is faithful, though the poetic brevity of the original is expanded.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Treating and respecting every woman with the same purity, honor, and non-lustful devotion that one has for one's own mother.",
+            "acceptable_visual_variants": [
+              "A man offering a respectful gesture of greeting (Pranam or Namaste) to a woman, with a calm and dignified expression.",
+              "A split scene showing a man helping or respecting a woman with the same gentle care he shows to his mother."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "Another's wife/woman is a mother",
+            "literalization_risk": "Depicting a young woman literally transforming into an elderly mother, or showing a man treating a peer like a biological parent, which confuses the moral boundary of respect with literal kinship.",
+            "metaphor_mapping": {
+              "tenor_concept": "Other women in society",
+              "transferred_attributes": [
+                "respect",
+                "purity of gaze",
+                "absence of lustful desire",
+                "maternal honor"
+              ],
+              "vehicle_concept": "Mother"
+            },
+            "source_span_original": "पर-स्त्री जेने मात",
+            "source_span_translation": "see every woman as a mother",
+            "source_term": "पर-स्त्री जेने मात",
+            "tenor": "Any woman other than one's spouse",
+            "vehicle": "A mother (symbol of selfless love, respect, and non-sexual devotion)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a man bowing his head in deep, respectful salutation (with folded hands) toward a woman, illustrating a gaze of pure honor and reverence."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The literal physical action of 'नव झाले हाथ' (does not touch/hold with hands) is translated abstractly as 'do not touch', losing the vivid physical imagery of the original phrasing.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "The phrase 'ताली लागी' (deeply absorbed/attuned, like a rhythmic clap or trance) is translated as 'engrossed', which loses the physical and musical metaphor of the original.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Being deeply absorbed, synchronized, or intensely focused in devotion to the divine name.",
+            "acceptable_visual_variants": [
+              "A person singing with closed eyes and a peaceful smile, completely lost in devotional ecstasy.",
+              "A quiet figure sitting under a tree in deep contemplation, radiating a sense of profound inner peace."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L15",
+            "literal_meaning": "To be struck by the rhythm/clapping of Ram's name (or to have a deep meditative lock/absorption)",
+            "literalization_risk": "Showing a person literally clapping their hands together or being physically locked in chains, which misses the internal state of spiritual absorption.",
+            "metaphor_mapping": {
+              "tenor_concept": "Unbroken spiritual concentration and devotion",
+              "transferred_attributes": [
+                "unison",
+                "rhythm",
+                "unbreakable connection",
+                "absorption"
+              ],
+              "vehicle_concept": "A rhythmic clap or physical lock"
+            },
+            "source_span_original": "राम-नाम-शु ताली लागी",
+            "source_span_translation": "engrossed in the name of Ram",
+            "source_term": "राम-नाम-शु ताली लागी",
+            "tenor": "Deep, uninterrupted meditative absorption in the divine",
+            "vehicle": "A rhythmic clap or lock (Taali) that binds two things in perfect unison",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a devotee sitting in deep meditation with a serene, joyful expression, perhaps with faint glowing Devanagari script of 'Ram' surrounding them like a warm aura."
+          },
+          {
+            "abstract_meaning": "The ultimate spiritual purity and holiness reside within a righteous person, making physical pilgrimages unnecessary.",
+            "acceptable_visual_variants": [
+              "A silhouette of a meditating person with faint, elegant outlines of sacred rivers or temple spires subtly integrated into the glowing aura around them.",
+              "A person performing a kind deed, with the background softly dissolving into a peaceful, sacred landscape."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L16",
+            "literal_meaning": "All holy pilgrimage sites are inside their physical body",
+            "literalization_risk": "Showing miniature temples, rivers, and shrines physically crammed inside a human torso, which looks grotesque and anatomically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "The physical and spiritual presence of a virtuous person",
+              "transferred_attributes": [
+                "holiness",
+                "purity",
+                "divine presence",
+                "sanctity"
+              ],
+              "vehicle_concept": "Sacred pilgrimage destinations"
+            },
+            "source_span_original": "सकल तीरथ तेना तन मा",
+            "source_span_translation": "every pilgrimage lies within",
+            "source_term": "सकल तीरथ तेना तन मा",
+            "tenor": "The moral and spiritual purity of a righteous person's body and soul",
+            "vehicle": "Sacred pilgrimage sites (temples, holy rivers, shrines)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a virtuous person standing peacefully, with a soft, sacred golden light radiating from their chest/heart area, casting a serene glow that evokes the sanctity of a temple."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The vivid musical and meditative metaphor of 'ताली लागी' (struck a chord / deeply absorbed in rhythm) is translated abstractly as 'engrossed', losing the sensory and musical imagery of the original.",
+            "where": "L15"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal phrase 'तेना तन मा' (in their body) is translated as 'lies within', which abstracts away the physical, bodily sacredness implied by 'tan' (body) as a temple containing all pilgrimages.",
+            "where": "L16"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 5,
+        "loss_note": "The specific regional signature of the poet 'भणे नरसैयों' (Narsinh says) and the traditional concept of 'कुळ एकोतेर' (seventy-one generations/ancestors) are simplified to 'entire families' and 'Narsinh says'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To have successfully controlled, subdued, or overcome one's base desires and anger.",
+            "acceptable_visual_variants": [
+              "A person looking calmly at their own reflection in still, clear water, symbolizing a mind undisturbed by the ripples of passion.",
+              "A serene figure gently waving away dark, smoky shadows that try to cloud their vision."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L18",
+            "literal_meaning": "Warded off / turned back lust and anger (as if they were physical enemies or invaders)",
+            "literalization_risk": "Showing a warrior physically fighting personified monsters labeled 'Lust' and 'Anger' with a sword, which literalizes a purely internal psychological victory.",
+            "metaphor_mapping": {
+              "tenor_concept": "Overcoming internal negative emotions and desires",
+              "transferred_attributes": [
+                "conquering",
+                "subduing",
+                "preventing entry",
+                "mastery"
+              ],
+              "vehicle_concept": "Warding off physical attackers or wild beasts"
+            },
+            "source_span_original": "काम-क्रोध निवार्या",
+            "source_span_translation": "conquered lust and anger",
+            "source_term": "काम-क्रोध निवार्या",
+            "tenor": "Achieving self-control and emotional mastery over internal passions",
+            "vehicle": "Defeating or warding off physical enemies or wild beasts",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person sitting in absolute stillness and calm, while turbulent, dark stormy winds (representing anger and desire) swirl around them but fail to touch or disturb their peaceful posture."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific number 'एकोतेर' (seventy-one) in 'कुळ एकोतेर तार्या' (saves seventy-one generations/clans) is completely omitted and generalized to 'entire families' in the translation, losing the precise cultural-mythological idiom.",
+            "where": "L20"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The signature/attribution of the poet 'भणे नरसैयों' (Narsinh says / sings) is translated simply as 'Narsinh says', losing the poetic and musical performance aspect of 'bhane'.",
+            "where": "L19"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The definition of a true devotee (Vaishnav) through selfless service, humility, purity of mind, and detachment from worldly illusions."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "वैष्णव जन तो तेने कहिये,  \nजे पीर पराई जाने रे।  \nपर दुःखे उपकार करे तोय,  \nमन अभिमान न आणे रे।  \n\nसकळ लोक मा सहुने वंदे,  \nनिंदा न करे केनी रे।  \nवाच काछ मन निश्चल राखे,  \nधन-धन जननी तेनी रे।  \n\nसम-दृष्टि ने तृष्णा त्यागी,  \nपर-स्त्री जेने मात रे।  \nजिह्वा थकी असत्य न बोले,  \nपर-धन नव झाले हाथ रे।  \n\nमोह माया व्यापे नहि जेने,  \nदृढ़ वैराग्य जेना मन मा रे।  \nराम-नाम-शु ताली लागी,  \nसकल तीरथ तेना तन मा रे।  \n\nवण-लोभी ने कपट-रहित छे,  \nकाम-क्रोध निवार्या रे।  \nभणे नरसैयों तेनुं दरशन करता,  \nकुळ एकोतेर तार्या रे।",
+  "poem_id": "MV++_0590",
+  "poem_title": "Vaishnav Jan To",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a438ad43007a6345ce76a252e17c16f0b0eda70c3c05d6f9639cec12f9fe8391",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0590.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Call only those people Vaishnav,  \nWho feel the pain of others.  \nHelp others in suffering,  \nAnd do not let pride enter the mind.\n\nThey respect everyone,  \nAnd do not criticize anyone.  \nTheir words, actions, and thoughts remain pure,  \nBlessed is the mother who gives birth to such a soul.\n\nThey have an unbiased view, without greed,  \nAnd see every woman as a mother.  \nThey never utter lies,  \nAnd do not touch others' wealth.\n\nThey remain unaffected by worldly illusions,  \nFirm in their mind's detachment.  \nThey are engrossed in the name of Ram,  \nFor them, every pilgrimage lies within.\n\nFree from greed and deceit,  \nThey have conquered lust and anger.  \nNarsinh says, meeting such a person,  \nWill lift entire families to salvation.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:42:10.676914+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c37b6c84710994e07d136d5ea7cc5f79f5cec29a37b5f76e3ad9168bd69508f2",
+        "response_hash": "d57e807afe79a526d41041662a003b7ba3d7aab6635c89820085f92e25769558"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "158bc0d97b6244a56db43fa73db64f35732350965b17afba4635a0403d592bad",
+        "response_hash": "196a0379e8e30da14374654705db60b51a085a2e85a4e34073bbacb6323ab2e8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d038e82b47b49fc55cc426c9c6c56fad7684642e89e2d649f4709d0c00267b81",
+        "response_hash": "7c32969082c3e5a72efdcd30aca6e708b13cf38e89d1ed222ff2382bfc8319c1",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9829f092659d0e8d861c1d43490817f41c64f823a0a1f40de3389399424e32ec",
+        "response_hash": "a840ec3e90ce789be2a24e0c5e6c4a41ccf5208ab6edc0a6100be0827493c005",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6cd3015c10430544d6142657c6885c7e02b03a15efb1a1289075d420678f8d26",
+        "response_hash": "fdc27730e24c6ed800d34726a0d5be945ba212ee03ccd3a71e3e6fbd09fc1b08",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a1dcae33ed48afa206387e8a84ac3f88825a1bf8fe06bc1f1dd2edfa8a089280",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "69c2f4f810983b5c96b40a485a5d2538351899fac1ff040b598e7f6177b40b6e",
+    "translation_sha256": "b883f6e26d44897487df4be78fa672a59263bea1909ea9e8a6f1723cb099993b"
+  }
+}

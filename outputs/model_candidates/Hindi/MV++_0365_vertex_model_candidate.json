@@ -1,0 +1,223 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "encouragement and hope",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A person navigating through life's journey and challenges.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person walking along a winding path at dawn",
+              "A close-up of feet stepping forward on a path with light ahead"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A traveler or wayfarer on a physical road.",
+            "literalization_risk": "Depicting a literal backpacker or hiker on a dirt road might miss the existential, universal nature of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey",
+              "transferred_attributes": [
+                "movement forward",
+                "facing turns",
+                "seeking a destination"
+              ],
+              "vehicle_concept": "physical journey"
+            },
+            "source_span_original": "राही",
+            "source_span_translation": "Wayfarer",
+            "source_term": "राही",
+            "tenor": "A person living their life and pursuing goals",
+            "vehicle": "A traveler walking on a path",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a solitary figure walking forward on an open, winding path that stretches toward a bright horizon."
+          },
+          {
+            "abstract_meaning": "Actively pursuing one's goals, desires, and aspirations in life.",
+            "acceptable_visual_variants": [
+              "A figure reaching toward a starry sky",
+              "A traveler walking toward a bright, warm light on the horizon"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Physically running or walking behind tangible dreams.",
+            "literalization_risk": "Showing a person literally chasing floating dream-bubbles or sleeping figures would look cartoonish and miss the abstract striving.",
+            "metaphor_mapping": {
+              "tenor_concept": "striving for goals",
+              "transferred_attributes": [
+                "direction",
+                "effort",
+                "desire to reach"
+              ],
+              "vehicle_concept": "physical pursuit"
+            },
+            "source_span_original": "सपनों के पीछे",
+            "source_span_translation": "In pursuit of dreams",
+            "source_term": "सपनों के पीछे",
+            "tenor": "Striving to achieve abstract goals and aspirations",
+            "vehicle": "Chasing or running after a physical object or person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the traveler looking or moving toward a glowing, distant horizon or a soft light source symbolizing aspirations."
+          },
+          {
+            "abstract_meaning": "At every new phase, decision point, or unexpected change in life.",
+            "acceptable_visual_variants": [
+              "A path curving around a mountain bend",
+              "A fork in a misty trail where the direction changes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "At every physical bend or curve in a road.",
+            "literalization_risk": "A literal road sign showing a sharp turn or a simple street corner would feel too mundane and urban.",
+            "metaphor_mapping": {
+              "tenor_concept": "life transition",
+              "transferred_attributes": [
+                "change of direction",
+                "uncertainty of what lies ahead",
+                "new perspective"
+              ],
+              "vehicle_concept": "bend in a road"
+            },
+            "source_span_original": "हर मोड़ पर",
+            "source_span_translation": "At every turn",
+            "source_term": "हर मोड़ पर",
+            "tenor": "A transition point, change, or new phase in life",
+            "vehicle": "A bend or curve in a physical path",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding path that curves out of sight behind a hill or trees, suggesting mystery about what lies ahead."
+          },
+          {
+            "abstract_meaning": "New sources of hope, optimism, and positive possibilities.",
+            "acceptable_visual_variants": [
+              "Golden morning light filtering through trees onto a path",
+              "Sunbeams breaking through parting clouds ahead of the traveler"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L6",
+            "literal_meaning": "Fresh beams of physical sunlight.",
+            "literalization_risk": "Overly literal rendering might look like a simple weather illustration of a sunny day rather than an emotional awakening.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and optimism",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "dispelling darkness",
+                "guidance"
+              ],
+              "vehicle_concept": "sunlight"
+            },
+            "source_span_original": "नई किरणें",
+            "source_span_translation": "New rays of light",
+            "source_term": "नई किरणें",
+            "tenor": "Hope, inspiration, and positive beginnings",
+            "vehicle": "Rays of sunlight breaking through darkness or clouds",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Incorporate soft, golden rays of light breaking through clouds or rising over the horizon, illuminating the path of the traveler."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces the verb 'arise' in 'New hopes arise' to make a grammatically complete English clause, whereas the original Hindi lines 'नई उम्मीदें, / नई किरणें' (L5-L6) are nominal phrases without an explicit verb, creating a more open, minimalist poetic rhythm.",
+            "where": "L5-L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The continuous journey of life guided by hope and dreams"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "राही,  \nचलते रहो,  \nसपनों के पीछे,  \nहर मोड़ पर,  \nनई उम्मीदें,  \nनई किरणें।",
+  "poem_id": "MV++_0365",
+  "poem_title": "Rahi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "fc2c98ab196ab470cce94169ae2117d98af63bf25e36711c9d13fe84aebc75de",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0365.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Wayfarer,  \nKeep moving,  \nIn pursuit of dreams,  \nAt every turn,  \nNew hopes arise,  \nNew rays of light.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:17:09.599266+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d35cd70920874bdf820c41d017fa665bc39bb5371b3748ec674a5e56aa855a70",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8ed4c142dba567b1244243c817395bdde8a57add646c5f212a2bcb303590e61a",
+        "response_hash": "4a72e7f49dd4a682d8efd73a7ef2b100e403d4fd5ae416e4213e68307cd7a136",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "761ea85b97909a2c073c6090f9aa10d3b9443a699b0171e8b5b35d6b41ed1ee3",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fd3cfdfcbe940310a6b56ca1232d81c8784dfd828a3954419a2a76c5e7ce8e98",
+        "response_hash": "1d8596c5b3c199ae7e82cfc7c4b0f9ffd53cce92a09222951d69dfcb11b3e5e4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a653708a41faba09c0c8bf7ae3d3c9c10e37099a9ed0cbca496fdfd7f8870687",
+        "response_hash": "a5850a188de8516420323bf2a332aeb70ac5753dbcc2aeb027db19ed965ec5e7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dda5aec411dceadaa526dbf21082c5bca82f858896a8496cc3ebcf38d04c31eb",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "629aecb37eee5b37355d33be5756531160fb1da815c20479ba56dc862596c993",
+    "translation_sha256": "2b9ada3d4895a1099007f3e229fc3781e1ba9dba2e4c9f9d38eb6069ce0e590c"
+  }
+}

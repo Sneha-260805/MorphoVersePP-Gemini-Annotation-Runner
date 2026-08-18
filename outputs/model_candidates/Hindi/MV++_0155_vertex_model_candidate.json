@@ -1,0 +1,211 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A visual metaphor of colorful rivers or streams flowing together into a single peaceful body of water",
+          "A gathering of diverse people representing different regions of India coming together in unity"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Literally meaning 'confluence' (especially of rivers), in Indian cultural discourse it symbolizes the harmonious blending of diverse cultures, languages, and traditions.",
+        "line_ref": "L7",
+        "negative_confusions": [
+          "A literal, sterile geographic depiction of a river fork without any cultural or human warmth",
+          "A chaotic or messy mixing of elements rather than a harmonious, beautiful union"
+        ],
+        "preserved": true,
+        "romanization": "sangam",
+        "source_span_original": "संगम",
+        "source_span_translation": "confluence",
+        "stanza_index": 2,
+        "term": "संगम",
+        "translation_note": "Translated as 'confluence', which captures the literal meaning of the meeting of rivers, but loses the deep cultural resonance of 'Sangam' as a sacred, harmonious merging of diverse elements (often associated with the holy confluence at Prayagraj).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A symbolic merging of different streams or paths into one",
+          "diverse people or cultural elements blending harmoniously"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "pride and celebration of unity to appreciation of natural and cultural abundance",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces the word 'clear' to force an AABB rhyme scheme with 'dear', which is not present in the original Hindi text where 'प्यारे' (pyare) and 'सारे' (sare) rhyme naturally without altering the meaning of brotherhood.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of the final line 'यहाँ की धरती है नेक' (This land is noble/virtuous) is altered to 'This land of ours never stops' to force a rhyme, losing the original moral and spiritual personification of the earth as 'nek' (noble/virtuous).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The harmonious blending and coexistence of diverse cultural traditions within the country.",
+            "acceptable_visual_variants": [
+              "A stylized river where the water is composed of different vibrant colors and patterns representing different regions, merging into one stream.",
+              "A tapestry where different threads of distinct cultural patterns weave together into a single cohesive design."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "A wondrous confluence (merging of rivers) of culture",
+            "literalization_risk": "Showing literal rivers merging might make the viewer think of a physical geography lesson rather than the abstract unity of diverse human cultures.",
+            "metaphor_mapping": {
+              "tenor_concept": "cultural diversity and unity",
+              "transferred_attributes": [
+                "merging together",
+                "harmonious blending",
+                "creating a grander whole"
+              ],
+              "vehicle_concept": "confluence of rivers"
+            },
+            "source_span_original": "संस्कृति का है अद्भुत संगम",
+            "source_span_translation": "A wondrous confluence of culture",
+            "source_term": "संस्कृति का है अद्भुत संगम",
+            "tenor": "The harmonious blending of diverse cultural traditions",
+            "vehicle": "The physical confluence (sangam) of multiple rivers merging into one body of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict diverse cultural motifs, traditional patterns, or artistic expressions flowing together like streams into a single, beautiful, unified tapestry or river-like flow."
+          },
+          {
+            "abstract_meaning": "The land or country is noble, virtuous, and generous in its nature.",
+            "acceptable_visual_variants": [
+              "A serene, sunlit landscape of fertile green and golden fields under a clear sky, evoking peace and purity.",
+              "Hands gently cradling rich, fertile soil from which a green sprout grows, symbolizing care and virtue."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "The soil/land here is noble/virtuous",
+            "literalization_risk": "Depicting the physical soil or earth with a literal human face or crown could look cartoonish or like a fantasy character, detracting from the poem's sincere tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "the land/soil of the country",
+              "transferred_attributes": [
+                "nobility",
+                "virtue",
+                "generosity",
+                "kindness"
+              ],
+              "vehicle_concept": "a virtuous person"
+            },
+            "source_span_original": "यहाँ की धरती है नेक",
+            "source_span_translation": "This land of ours never stops",
+            "source_term": "यहाँ की धरती है नेक",
+            "tenor": "The generous, nurturing, and sacred nature of the country's land",
+            "vehicle": "A noble, virtuous, and kind-hearted human being",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful, fertile, and nurturing landscape with golden fields and gentle light, evoking a sense of peace, purity, and natural benevolence."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'यहाँ की धरती है नेक' (This land is noble/virtuous) as 'This land of ours never stops' completely alters the meaning of the adjective 'नेक' (virtuous, noble, good) to force a rhyme with 'crops'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A celebration of the country's diverse unity, natural beauty, and rich cultural heritage."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a translation_loss entry listed for this stanza. Under the schema rules, translation_loss should be empty when translation_quality is faithful. If there is a loss, translation_quality should be 'partial' or 'lost'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मेरे देश की बात,  \nयहाँ के लोग हैं प्यारे।  \nहर भाषा, हर रंग में,  \nभाईचारा सारे।\n\nपहाड़ों से नदियाँ बहतीं,  \nफसलों से भरपूर हैं खेत।  \nसंस्कृति का है अद्भुत संगम,  \nयहाँ की धरती है नेक।",
+  "poem_id": "MV++_0155",
+  "poem_title": "Mere Desh Ki Baat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5e1565b08803617294f8b2824f662c006663023dc95d236925c1720086492398",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0155.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "About my country,  \nThe people here are dear.  \nIn every language, every color,  \nBrotherhood is clear.\n\nRivers flow from the mountains,  \nFields are full of crops.  \nA wondrous confluence of culture,  \nThis land of ours never stops.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:52:54.794565+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e412c676fb13550644638011e263cf50156bbe1ac44409c07153ef3305255335",
+        "response_hash": "246252476afaccb73474138f5995279ff27b77f4cdd1e46376d029a324fbb8f6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "21fcbe3a8812c87fafadc8caf7323ad5b8ad045ec647c193438dcea4eede1ac5",
+        "response_hash": "b57dc7b2fa6543fdb3d0f913a5b3e3f4083a4ff496b9d67ee6269fbb6edbe27f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "292a0f4423a3ac3066e31096e4e227961071efdcb7e60735e182698f88efd00e",
+        "response_hash": "624e9c1999c81da1f1ed1fab4e63ed3a83353669b196fa5fe079bb89aaf8d808",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8a57c9e614039029c1a1196e658539f2ccbc79f1de6a3dbffec61f2a3cfd8cc2",
+        "response_hash": "8d2b7f3e2a80aca2d2f804acda11ee3ef6c1420eed1ca76ed93db21c684de28a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6eec2eec2bf6a4177f4bf45a663f4a488e89d6a10af86ab87e8cd7874b971865",
+        "response_hash": "beae4c9d1611970cbc88c624db1ed7e1318db357adbb2233d6b09a1b0422bef5",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "aa071ca3a42f4f23b41a3225bd599d0f1c024bbf0f4737147171417efc98cd77",
+    "translation_sha256": "9bc22d0ceda2401227bedefc35874aa3a621126ad5a0fc4909170687d12ea7dd"
+  }
+}

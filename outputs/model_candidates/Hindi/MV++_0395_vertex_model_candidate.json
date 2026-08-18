@@ -1,0 +1,175 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the Hindi word 'man' (मन) carries a broader emotional and spiritual connotation of heart-mind-soul than the English 'mind' captures.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The complex, difficult, and restrictive circumstances of life that trap a person.",
+            "acceptable_visual_variants": [
+              "A dark, tangled web of threads breaking apart as warm light bursts from behind them",
+              "A rigid, cage-like lattice of lines fracturing and crumbling away"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "This harsh/rigid net of life",
+            "literalization_risk": "Depicting a literal rope net or spiderweb trapping a person might look like a physical rescue scene rather than a psychological or existential release.",
+            "metaphor_mapping": {
+              "tenor_concept": "the struggles and constraints of human existence",
+              "transferred_attributes": [
+                "entangling",
+                "harshness",
+                "restrictiveness",
+                "ability to be broken"
+              ],
+              "vehicle_concept": "a physical net or web that traps and binds"
+            },
+            "source_span_original": "जिंदगी का ये कठोर जाल",
+            "source_span_translation": "The harsh web of life",
+            "source_term": "जिंदगी का ये कठोर जाल",
+            "tenor": "the restrictive and difficult circumstances of life",
+            "vehicle": "a harsh, rigid net or web",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, geometric web of dark, rigid lines or threads that is visibly cracking, snapping, or dissolving to let light through."
+          },
+          {
+            "abstract_meaning": "The deepest, most private, or subconscious parts of one's inner self or mind.",
+            "acceptable_visual_variants": [
+              "A glowing spark rising from a deep, dark, misty space",
+              "A soft light emerging from a deep, quiet pool of water"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "the physical depths of the mind/heart",
+            "literalization_risk": "Showing a literal deep ocean floor or a physical cave inside a brain would look bizarre and overly anatomical or literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "the inner subconscious mind",
+              "transferred_attributes": [
+                "depth",
+                "hiddenness",
+                "obscurity",
+                "capacity to hold secrets"
+              ],
+              "vehicle_concept": "a deep physical body of water or cavern"
+            },
+            "source_span_original": "मन की गहराइयों",
+            "source_span_translation": "depths of the mind",
+            "source_term": "मन की गहराइयों",
+            "tenor": "the subconscious or innermost thoughts and feelings",
+            "vehicle": "a deep physical space, like an ocean or abyss",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use a soft, deep blue or dark gradient background representing the inner self, with a glowing light (representing joy) rising up from the bottom."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मन' (man) as 'mind' loses the rich, culturally-embedded dual meaning of 'man' in Hindi, which encompasses both the emotional heart/soul and the cognitive mind.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic, repetitive cadence and internal rhyme of the original Hindi lines (such as 'jaega' / 'hoga') are flattened into standard English prose-like structures, losing the musicality of the poetic flow.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The hope of liberation from life's harsh struggles and the eventual emergence of inner joy."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक दिन, एक दिन सब कुछ बदल जाएगा,  \nजिंदगी का ये कठोर जाल टूट जाएगा।  \nमन की गहराइयों में छुपा सुख उजागर होगा,  \nएक दिन, एक दिन सब कुछ बदल जाएगा।",
+  "poem_id": "MV++_0395",
+  "poem_title": "Ek Din",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "498fa78ad68e5ac426c47b6e851aa0769fb81052ad28e899bac8a3cbc9e37d0c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0395.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "One day, one day everything will change,  \nThe harsh web of life will break apart.  \nThe joy hidden in the depths of the mind  \nWill be revealed, one day, one day everything will change.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:20:23.459264+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "51460d5c3b3101fc27cacfcf9663443436fd9d8ca8815c8844f6061ee6994eeb",
+        "response_hash": "49d842770612e02384254a9ba3aede46cd988c6aef40900f155c2a0649a9017f"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b297504681c92dbeba8ed7bf2532b3c11527748cbac9c64052f474d9baea50fd",
+        "response_hash": "7bcc7cc0a8ca086b39dc6c50ac10d2c6f0ef084a0c23b8c777d18abb9475822f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "060dd6cd65ff86e7fb8648106342e8e8251be8821aaadaabecd6394694fa44cd",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "01f7840ee28edaea9c932259646a96a938ba3bc40b623089adbb3ead71dee37b",
+        "response_hash": "77e087e8d9d75e82a5b2bae9d0b78eec194e25974e9b5179b419b6a9a2b461c5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c4d072acf3952d57c233265f5d93ff808556b501d9b8051d34f3ac3b6c5c6fa6",
+        "response_hash": "e5b4a172e308140e08b7b6795f4137de859f2106b8750633b55a949aed09b572",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "63eb90db4f4c23afdc9f81b4d94c542867d5ce2dffbaedc5bef3946466e71881",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7b9376d00954629b5785b0bbc4d67a3c7a3e0c82a395afc0320d268302d9c5ec",
+    "translation_sha256": "405232da6f9642621d9cf061ae2d4656a526bc0abeb133cd75cac88beffdcdef"
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A sunlit or shadowed empty courtyard showing traditional brick or plaster walls",
+          "An abstract representation of a domestic inner courtyard with soft light filtering from above"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional central open-air courtyard in South Asian domestic architecture, serving as a social, domestic, and emotional focal point of the household. In poetry, it often symbolizes the inner personal domain, family life, or the space of one's dreams and memories.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "A modern Western-style grassy backyard with patio furniture",
+          "A grand palace courtyard or public square"
+        ],
+        "preserved": true,
+        "romanization": "aangan",
+        "source_span_original": "आँगन",
+        "source_span_translation": "courtyard",
+        "stanza_index": 2,
+        "term": "आँगन",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An open-air central courtyard of a traditional South Asian house",
+          "Surrounding walls or rooms opening into the central space",
+          "A flat stone or packed-earth floor, possibly with a small plant or simple domestic elements"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A progression of deep sorrow and grief, moving from the externalized imagery of a stained dawn and burning candle to the internalized solitude of a courtyard of dreams.",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation of 'shama' (शम्अत) as 'candle' is faithful, though it loses the rich poetic associations of the candle-and-moth motif common in Urdu/Hindi poetry registers.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A flawed, compromised, or disappointing freedom or dawn of hope.",
+            "acceptable_visual_variants": [
+              "A pale sun rising behind dark, patchy clouds",
+              "A dim morning light casting long, distorted shadows"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "spotted or stained light",
+            "literalization_risk": "An illustrator might draw literal dirt or ink stains on a physical sunbeam, which looks comical rather than tragic.",
+            "metaphor_mapping": {
+              "tenor_concept": "compromised hope",
+              "transferred_attributes": [
+                "flawed",
+                "imperfect",
+                "disappointing"
+              ],
+              "vehicle_concept": "stained light"
+            },
+            "source_span_original": "दाग़-दाग़ उजाला",
+            "source_span_translation": "stained dawn",
+            "source_term": "दाग़-दाग़ उजाला",
+            "tenor": "compromised hope or freedom",
+            "vehicle": "stained light / dawn",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dim, hazy dawn breaking over a landscape, where the light is filtered through heavy, dark clouds or smoke, conveying a sense of gloom rather than brightness."
+          },
+          {
+            "abstract_meaning": "Tears slowly gathering or falling from the eyes due to sorrow.",
+            "acceptable_visual_variants": [
+              "A close-up of eyes reflecting a dim light with tears welling up",
+              "A single tear falling from an eye"
+            ],
+            "expression_type": "metonymy",
+            "line_ref": "L3",
+            "literal_meaning": "drop by drop in the eyes",
+            "literalization_risk": "Depicting generic water droplets falling into eyes might look like eye drops or rain rather than crying.",
+            "metaphor_mapping": {
+              "tenor_concept": "tears",
+              "transferred_attributes": [
+                "falling slowly",
+                "accumulating"
+              ],
+              "vehicle_concept": "drops of water"
+            },
+            "source_span_original": "बूँद बूँद आँखों में",
+            "source_span_translation": "drop by drop in my eyes",
+            "source_term": "बूँद बूँद आँखों में",
+            "tenor": "tears of grief",
+            "vehicle": "drops of liquid",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Focus on a close-up of eyes glistening with unshed tears, with a single tear starting to track down a cheek."
+          },
+          {
+            "abstract_meaning": "The restless, uncontrollable stirring of deep sorrow within the heart.",
+            "acceptable_visual_variants": [
+              "A person sitting with head in hands, showing physical tension",
+              "A silhouette of a person pacing restlessly in a dark room"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "the throwing of tantrums or restless stirring of griefs",
+            "literalization_risk": "Depicting a literal monster or personified figure of 'grief' throwing a tantrum could look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "grief",
+              "transferred_attributes": [
+                "restless",
+                "uncontrollable",
+                "demanding attention"
+              ],
+              "vehicle_concept": "restless child"
+            },
+            "source_span_original": "ग़मों का मचलना",
+            "source_span_translation": "stirring of grief untame",
+            "source_term": "ग़मों का मचलना",
+            "tenor": "uncontrollable emotional pain",
+            "vehicle": "a restless, throwing-tantrums child or creature",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Convey this internally through a figure clutching their chest or sitting in a tense, restless posture of distress."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'ujala' (light/brightness) as 'dawn' (substituting a specific time of day for the general concept of light) and 'shama' (candle) as 'candle's flame' (adding 'flame' to fit the rhyme scheme). Additionally, the rhythmic repetition of 'daag-daag' (stained/spotted) and 'boond boond' (drop by drop) loses its poetic, repetitive cadence in the English phrasing.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation captures the literal meaning well, though the compound 'ranj-o-gam' (रंज-ओ-ग़म) carries a heavy, classical poetic weight of sorrow that is slightly flattened into 'sorrow' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mental space or life stage where one's hopes, dreams, and aspirations reside.",
+            "acceptable_visual_variants": [
+              "An empty courtyard with soft, ethereal light filtering through",
+              "A quiet courtyard with shadows of trees swaying gently"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "courtyard of dreams",
+            "literalization_risk": "Drawing literal dreams floating like bubbles inside a physical courtyard might look too surreal or whimsical.",
+            "metaphor_mapping": {
+              "tenor_concept": "mind/life space",
+              "transferred_attributes": [
+                "open",
+                "receptive",
+                "domestic space for gathering"
+              ],
+              "vehicle_concept": "courtyard"
+            },
+            "source_span_original": "ख्वाबों का आँगन",
+            "source_span_translation": "courtyard of dreams",
+            "source_term": "ख्वाबों का आँगन",
+            "tenor": "the mind or life space filled with aspirations",
+            "vehicle": "a courtyard",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict an empty, quiet traditional courtyard bathed in soft, surreal moonlight, evoking a space of memory and quiet contemplation."
+          },
+          {
+            "abstract_meaning": "The lingering, inescapable presence of sorrow and grief that follows a person.",
+            "acceptable_visual_variants": [
+              "A solitary figure casting a long, dark shadow across an empty floor",
+              "A room where the corners are swallowed by deep, heavy shadows"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "the shadow of grief and sorrow",
+            "literalization_risk": "Drawing a literal dark shadow monster behind a person can look like a horror movie trope.",
+            "metaphor_mapping": {
+              "tenor_concept": "lingering sadness",
+              "transferred_attributes": [
+                "dark",
+                "following closely",
+                "looming"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "रंज-ओ-ग़म की परछाई",
+            "source_span_translation": "shadows of sorrow blend",
+            "source_term": "रंज-ओ-ग़म की परछाई",
+            "tenor": "the lingering presence of sadness",
+            "vehicle": "a shadow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use lighting to cast long, deep, dramatic shadows behind a solitary figure, blending the figure's shadow into the darkness of the room."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'it lends' to line 6 and 'blend' to line 8 to force an AABB rhyme scheme ('lends'/'blend'), which is not present in the original Hindi structure. The original uses the Persian-style conjunction 'ranj-o-gam' (grief and sorrow), which is simplified to 'shadows of sorrow' in English, losing the specific compound weight of the two distinct Urdu/Hindi words for sadness.",
+            "where": "L6-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The inescapable presence of sorrow and the painful reality of life's solitude."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].line_ref",
+      "issue": "The cultural entity 'आँगन' (aangan) is annotated with line_ref 'L5', but the term appears in both L5 ('यह ख्वाबों का आँगन') and L6 ('यह आँगन की तन्हाई'). The line_ref should be updated to 'L5-L6' to fully cover its occurrences in Stanza 2.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "यह दाग़-दाग़ उजाला,  \nयह शम्अत का जलना।  \nयह बूँद बूँद आँखों में,  \nयह ग़मों का मचलना।  \n\nयह ख्वाबों का आँगन,  \nयह आँगन की तन्हाई।  \nयहाँ ज़िंदगी की सच्चाई,  \nयहाँ रंज-ओ-ग़म की परछाई।",
+  "poem_id": "MV++_0173",
+  "poem_title": "Yeh Daag Daag Ujala",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "056ec61477c88caf964cbb3d5fbbef6391fe944d943d5b0395dd49368fb1cc19",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0173.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This stained dawn,  \nThis candle’s flame.  \nThis drop by drop in my eyes,  \nThis stirring of grief untame.\n\nThis courtyard of dreams,  \nThis solitude it lends.  \nHere lies the truth of life,  \nHere shadows of sorrow blend.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:55:09.443430+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e57f793af732fbca90ea214917d53d986a3b54f9b13abc5693439994d2c0a10b",
+        "response_hash": "61ff522892a83a2c3a49b9d42d893ddfdadb05ffd1ad6edc386f4da90daa5bb7"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df484da1e494e15917b96c4db3dab83d6235b43e8670deb8b108e95311edacde",
+        "response_hash": "28214f9462c849073167759084e14741ecbffb0bc3594167c1d2d08653d69223",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "61901cd5a19f2b31a595181762ef77956e6a33273ac942ce425396f44206b70f",
+        "response_hash": "0b1ade10becfd9a3bc72f93b02fb426835f5c2abd09b6d27be27cb9d64bc5598",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d6454682c2f0fe4b59b65ac19273bef3d2fb77c25eb9be1b3e1f7f410bb58edc",
+        "response_hash": "bf1a4e29c6c6e5bcd88ba7aabaae8f8ecc3542a7d9308533e41d943f72be6e23",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e5c3bf05ebdf178e58e96a2732b94dc288985ac75a712f714a66f6f9772f74ba",
+        "response_hash": "418b587aec0f7ae08610f68c5fcc65961e17952529b1651eaace223f636be166",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8a5bec015ddd37abc346b52fb69ad0c5e4c2bb21aa19227a6c57036912196551",
+        "response_hash": "82d9eee0d15a6f9fd91d0d0aade46077ff3918d5d488399b3b32f0e3b9db98e8",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c5bd7c612fd000fdb948621ff0a2eb7f960850c9c13c57caaa49e82cf7b56ff1",
+    "translation_sha256": "bebf57ba462d5b31d252875cb71a287cc0d4b5762bbb58ecc7707b8f836f9356"
+  }
+}

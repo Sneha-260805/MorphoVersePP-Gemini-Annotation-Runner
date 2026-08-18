@@ -1,0 +1,118 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and sorrow over separation to a pleading call for union",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the subtle grammatical gender marking in the Hindi adjective 'akela' (masculine singular) which establishes the speaker's gender is lost in the gender-neutral English 'alone'.",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender marking in the adjective 'अकेला' (akela) explicitly indicates a masculine speaker, which is lost in the gender-neutral English translation 'alone'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender marking in the verb 'सकोगी' (sakogi) explicitly indicates a feminine addressee, which is lost in the gender-neutral English translation 'Could you'.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The deep yearning of a solitary soul seeking emotional union and shared existence with a beloved"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कब तक रहूँ अकेला\nक्या तुम मुझसे नहीं मिलोगी?\nमेरे हर्ष में अपना हर्ष,\nमेरे दुख में अपना दुख क्यों नहीं पाओगी?\nआओ, तुम्हारे बिन इस दुनिया में\nमुझे क्या तुम अकेला छोड़ सकोगी?",
+  "poem_id": "MV++_0665",
+  "poem_title": "Kab Tak Rahoon Akela",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0e4cd76d8c769eb09b956a748ba9768d64a9bdba50a3fc79346169a7f1b3a274",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0665.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "How long shall I be alone  \nWon’t you meet me?  \nWhy can't you find your joy in my joy,  \nAnd your sorrow in my sorrow?  \nCome, in this world without you  \nCould you leave me all alone?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:52:55.499344+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "30c390b20740739b68a2475e23c111d3cde466b8098e6b1f63fbaba95d4735e1",
+        "response_hash": "d445ee73cc1cfb774143d09aac7d5d4d25957993f2a7bc85409145c03f494e66"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "926d08618378c932f744bf2a99832a9e55f58b296e68a9d3ffc7944bb8c8df75",
+        "response_hash": "0c7fbc07e5bc77d00d50a9f178281c512fef4cb2bc8855efb6984e80aa0cc923",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ce28a4cdcc88cb0214c743f19fa552d4b51f7222c5452218961f73e2996197f0",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "265ecb7b9882952996161cb4e3b423e71657ca3533cc24bcee0d07295f45e3c9",
+        "response_hash": "dda2d2c9c20e80ca5b746a9b8aad7b30802b43fbf42600dc353097f2809d42bd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4bd5a3b9dbe212a82b39b03f6aba5d0edc998fb7e732260fc80243dd5579ef5d",
+        "response_hash": "63948562dd6db25779ab8d61ee55d97acb3ee2a499093fe65466bfb9e8d53349",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "72b82bcfb15a1dbdc545a049c4d90516beb750a089d7abd133548670350abdf8",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6d1a418c78315e4938d6d67ee1cf22d28c50803e7b4d0aa7ebbf540e65990b76",
+    "translation_sha256": "cab995ce672cc6f8efba70bd14fa4309372404c51d0d9a0cba98ab0a28d771cb"
+  }
+}

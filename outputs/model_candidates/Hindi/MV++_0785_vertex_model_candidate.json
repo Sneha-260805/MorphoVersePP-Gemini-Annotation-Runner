@@ -1,0 +1,200 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to quiet self-loss",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but slightly flattens the poetic resonance of the wordplay around 'rang' (color) and 'rang kar' (having been colored/blended).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The comforting, protective, or diverse experiences and emotions of life.",
+            "acceptable_visual_variants": [
+              "A canopy of colorful autumn leaves casting a soft, multi-hued light on people below",
+              "A gentle, abstract rainbow-like mist or light filtering down like a protective umbrella"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The shade or shadow cast by colors",
+            "literalization_risk": "An illustrator might literally draw a physical shadow that is colored, which misses the abstract sense of living under life's diverse emotional spectrum.",
+            "metaphor_mapping": {
+              "tenor_concept": "comforting variety of life",
+              "transferred_attributes": [
+                "comfort",
+                "protection",
+                "diversity"
+              ],
+              "vehicle_concept": "shade of colors"
+            },
+            "source_span_original": "रंगों की छांव",
+            "source_span_translation": "shade of colors",
+            "source_term": "रंगों की छांव",
+            "tenor": "the protective or comforting variety of life's experiences",
+            "vehicle": "shade cast by colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing under a vibrant, multi-colored canopy or a soft, colorful light filter that mimics a protective shade."
+          },
+          {
+            "abstract_meaning": "Giving life, hope, and vivid reality to one's aspirations and dreams.",
+            "acceptable_visual_variants": [
+              "A person brushing vibrant streaks of light onto a dark, starry sky",
+              "An artist painting vivid, colorful landscapes onto floating, dream-like bubbles"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "To paint or fill dreams with physical colors",
+            "literalization_risk": "Showing someone literally coloring a sleeping person's brain or a literal cloud bubble with paintbrushes might look comical or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "vitalizing abstract aspirations",
+              "transferred_attributes": [
+                "vibrancy",
+                "vitality",
+                "realization"
+              ],
+              "vehicle_concept": "coloring a blank canvas"
+            },
+            "source_span_original": "सपनों में रंग भरते हैं",
+            "source_span_translation": "fill dreams with hues",
+            "source_term": "सपनों में रंग भरते हैं",
+            "tenor": "bringing hope, vitality, and realization to abstract dreams",
+            "vehicle": "painting or coloring",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person painting vibrant, colorful scenes onto a translucent, floating canvas that represents their imagination or dreams."
+          },
+          {
+            "abstract_meaning": "Conforming to the ways, expectations, and social norms of the world, losing one's unique identity.",
+            "acceptable_visual_variants": [
+              "A colorful figure stepping into a crowd and slowly turning the same grey or uniform shade as everyone else",
+              "A person's distinct colorful outline dissolving into a large, swirling background pattern of the world"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Being dyed or painted in the physical color of the world",
+            "literalization_risk": "Showing a person literally dipped in paint or dye might look like a physical accident rather than a metaphor for social conformity.",
+            "metaphor_mapping": {
+              "tenor_concept": "social conformity and loss of self",
+              "transferred_attributes": [
+                "uniformity",
+                "loss of original color",
+                "blending in"
+              ],
+              "vehicle_concept": "dyeing fabric to match a background"
+            },
+            "source_span_original": "दुनिया के रंग में रंग कर",
+            "source_span_translation": "Blended in the colors of the world",
+            "source_term": "दुनिया के रंग में रंग कर",
+            "tenor": "conforming to societal expectations and losing individuality",
+            "vehicle": "dyeing or blending into a single background color",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person's vibrant, unique colors slowly fading or blending into a monochrome or uniform background pattern of a crowd."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the poetic wordplay and phonetic resonance of the root 'rang' (color) which is repeated in various grammatical forms ('rangon', 'rang', 'rang', 'rang kar') across all four lines, creating a cohesive sonic and thematic thread that is flattened by alternating between 'colors' and 'hues' in English.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'rang kar' as 'blended' loses the active, literal sense of dyeing or being physically colored/stained by the world, which directly connects to the subsequent loss of self.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The dual nature of life's vibrant experiences, which both inspire our dreams and cause us to lose our individual identity in the crowd."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रंगों की छांव में जीते हैं सभी,  \nसपनों में रंग भरते हैं हम।  \nदुनिया के रंग में रंग कर,  \nखुद को खो बैठते हैं कभी कभी।",
+  "poem_id": "MV++_0785",
+  "poem_title": "Rangon Ki Chhaon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a23bb8bf4511be0099d22ea3fa32b9b9466eca491ae288e9e523a7f6052fb9a0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0785.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the shade of colors, all live,  \nWe fill dreams with hues.  \nBlended in the colors of the world,  \nAt times, we lose ourselves.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:11:38.533923+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a1518bfd0861a71ad58d0c7bb8d5688232f27980eef44b69efa11296d5f98eb7",
+        "response_hash": "5e7fca8721722bc70f487da3af317236c846bf5b04b2cf64c6fd2e6057ab10e9"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3adc275ca45b5c62509c53e494ddad53c86eddc8465bc7736afc3c088e6c4f21",
+        "response_hash": "04cb9799a2824fec67cb352f105d7ba6a25f44d5cdbbc26149cf5bb232133ca2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1e167f603f45d0e7c3b84bd8f98829aeb82af9e3aec6a2db915fe5324850781f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7c512def5f581e17be33e20cb62910ae50b4bcd1b318ffb7e9ff21c7059a32c",
+        "response_hash": "a9f5a3ec308c6d4e9f26ff9f8679959b2810bb0bf649dcb33b02d7e1d31106c1",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e630df5f3f51a9082b1e7a31c12cb0dd01283c81ac3b9747c4815ff4379844f",
+        "response_hash": "f57c5b7dee12bcd1136934527cc7986cdebc5e269ba95b6b1d64d4c02d2b0174",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "025b371a388759e85481065c5824128f0d89aafbad02c0e9a3aadde4ab533a64",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a4dfd78aa2716c8e92696d421d841e484b139f2f59032068ae426ce1752a2bdf",
+    "translation_sha256": "77a85e085eb1522607af1a9b4505c010b5d88ba2fbb0c1e14246818a304fefed"
+  }
+}

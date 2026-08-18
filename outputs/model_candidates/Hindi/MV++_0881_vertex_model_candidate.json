@@ -1,0 +1,251 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience to celebration",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation of 'ahsaas' as 'essence of my being' is slightly more abstract than the original Hindi, which denotes a direct sensory awareness or feeling of being alive.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The hope, guidance, and clarity provided by one's aspirations and dreams.",
+            "acceptable_visual_variants": [
+              "A path ahead softly illuminated by a warm, golden sunrise-like glow, symbolizing a hopeful future.",
+              "A close-up of a person's eyes reflecting a soft, warm light, indicating inner vision and hope."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The physical light emitted by dreams",
+            "literalization_risk": "Showing literal glowing orbs or beams of light emanating from a sleeping person's head, which looks like a sci-fi or fantasy trope rather than a poetic metaphor for hope.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "illumination",
+                "guidance",
+                "clarity",
+                "hope"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "सपनों की रोशनी",
+            "source_span_translation": "light of dreams",
+            "source_term": "सपनों की रोशनी",
+            "tenor": "dreams (सपने) as a source of guidance and hope",
+            "vehicle": "light (रोशनी)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking forward with a soft, warm, hopeful glow illuminating their face, suggesting internal inspiration and clarity without drawing literal floating lightbulbs or beams."
+          },
+          {
+            "abstract_meaning": "Each day brings new experiences, challenges, and opportunities for personal growth.",
+            "acceptable_visual_variants": [
+              "A figure standing at a crossroads at dawn, looking out toward a vast horizon.",
+              "A person opening a window to let in the morning light, symbolizing readiness for whatever the day brings."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Every single day is a literal physical trip or voyage to a new geographical location",
+            "literalization_risk": "Depicting a person packing suitcases, boarding trains, or walking down a literal highway every single morning, which misses the internal, existential nature of daily life as a journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "daily life",
+              "transferred_attributes": [
+                "movement forward",
+                "new discoveries",
+                "unpredictability",
+                "exploration"
+              ],
+              "vehicle_concept": "journey"
+            },
+            "source_span_original": "मेरा हर दिन है एक नया सफर",
+            "source_span_translation": "Each day is a new journey for me",
+            "source_term": "मेरा हर दिन है एक नया सफर",
+            "tenor": "each passing day (हर दिन)",
+            "vehicle": "a new journey (नया सफर)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a person stepping out of a doorway into a fresh, open landscape or a bright morning street, capturing the symbolic threshold of a new day."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'मेरे जिंदा होने का अहसास भी है' as 'I feel the essence of my being' shifts the literal meaning of 'ahsaas' (feeling, realization, or awareness) to a more abstract concept of 'essence of my being'.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'तड़प' (tarap) as 'longing' captures the desire but loses the intense physical and emotional connotation of restlessness, yearning, or throbbing pain inherent in the Hindi term.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "The plural 'aawaazon' (voices) is translated accurately, but the singular 'junoon' is rendered as plural 'passions' to match, slightly shifting the singular focus of the speaker's intense passion.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's presence, influence, and essence are deeply felt in their surroundings.",
+            "acceptable_visual_variants": [
+              "A person standing with arms open in an open field as the wind blows through the grass, conveying a sense of harmony and presence.",
+              "A close-up of wind chimes moving gently in the breeze, suggesting an invisible, pleasant influence."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The physical atmosphere is chemically saturated with the speaker's literal perfume or bodily scent",
+            "literalization_risk": "Depicting visible colored mist, perfume bottles, or flowers floating in the air, which makes the scene look like a commercial air freshener advertisement.",
+            "metaphor_mapping": {
+              "tenor_concept": "personal influence and presence",
+              "transferred_attributes": [
+                "pervasiveness",
+                "subtle but undeniable impact",
+                "pleasantness"
+              ],
+              "vehicle_concept": "fragrance dispersing in air"
+            },
+            "source_span_original": "मेरी ख़ुशबू से भरी है ये हवा",
+            "source_span_translation": "This air is filled with my fragrance",
+            "source_term": "मेरी ख़ुशबू से भरी है ये हवा",
+            "tenor": "the speaker's personal essence, presence, and impact on their environment",
+            "vehicle": "fragrance (ख़ुशबू) filling the air",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the physical effects of a gentle breeze on the environment, such as rustling leaves or a person's hair blowing softly, to represent the invisible but pervasive presence."
+          },
+          {
+            "abstract_meaning": "Every moment of life serves as a constant, active reminder of the speaker's vitality and existence.",
+            "acceptable_visual_variants": [
+              "A person with closed eyes smiling as they feel the warmth of the sun on their face.",
+              "A person touching a green leaf or water, deeply connected to the physical world around them."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8-L9",
+            "literal_meaning": "Time or moments of life possess vocal cords and literally speak words to the narrator",
+            "literalization_risk": "Depicting a literal clock face with a mouth speaking to a person, which would look cartoonish and absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "moments of conscious experience",
+              "transferred_attributes": [
+                "communication",
+                "reassurance",
+                "active presence"
+              ],
+              "vehicle_concept": "a companion speaking words of reassurance"
+            },
+            "source_span_original": "ज़िंदगी का हर एक पल,\nमुझे कहता है कि मैं ज़िंदा हूँ।",
+            "source_span_translation": "Every moment of life,\nTells me that I am alive.",
+            "source_term": "ज़िंदगी का हर एक पल, मुझे कहता है कि मैं ज़िंदा हूँ",
+            "tenor": "the passage of time and moments of experience (हर एक पल)",
+            "vehicle": "a person speaking/telling (कहता है)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a montage or a single powerful moment of sensory experience—such as feeling raindrops on one's face or watching a vibrant sunset—capturing the feeling of being intensely aware of the present moment."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'जुनून' (junoon) as 'passions' (plural) loses the singular, intense, and consuming nature of the Urdu-derived Hindi word 'junoon', which denotes a singular madness, obsession, or intense passion.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The persistent, passionate assertion of one's own existence and the drive to live fully despite life's challenges."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं ज़िंदा हूँ\nमेरे जिंदा होने का अहसास भी है,\nजीने की तड़प भी है,\nसपनों की रोशनी में,\nमेरा हर दिन है एक नया सफर।\n\nमेरी ख़ुशबू से भरी है ये हवा,\nमेरी आवाज़ों में छुपा है मेरा जुनून,\nज़िंदगी का हर एक पल,\nमुझे कहता है कि मैं ज़िंदा हूँ।",
+  "poem_id": "MV++_0881",
+  "poem_title": "Main Zinda Hoon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0db3db64cda16f25cd00ba7de8930523a419c5a7fdf8c14c4874a6d28c626d20",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0881.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I am alive,\nI feel the essence of my being,\nThere’s a longing to live,\nIn the light of dreams,\nEach day is a new journey for me.\n\nThis air is filled with my fragrance,\nMy passions are hidden in my voices,\nEvery moment of life,\nTells me that I am alive.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:25:49.626751+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d46145bfed75545f6ae941673cc1aaa949b54f40439e3e9c16b1a41d238cc86c",
+        "response_hash": "cf80db6c59cecd9dde1647c57d96e8e19c6519dd12dccd37cd4e0c5b75bdfc4a"
+      },
+      {
+        "attempt": 2,
+        "outcome": "success",
+        "prompt_hash": "cc122ac3aa220fd332adf13372b65f6975a40360244841fad444422a30257668",
+        "response_hash": "3105fef45a7703e38054bedd3e2c38ccb73999b549564ff69705abb54f2f0ab5"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ae720c18c7508bf7d48ae752992998d46ee765964c4aa5931d2b863e009b90f6",
+        "response_hash": "973c9ba7d22ec2fa452763465bae7773e53b7b619d4e4720fdf3374b28010c88",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "de8836471b35b64640e61f51e4ae380900e49447aa0b47fa7319388b34b3ea75",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "11cfc7968cb69fc4332ccf2d90f376512b7addb0b4e81b1750afdad7b7ba42a8",
+        "response_hash": "b9f84182acc5767e3452cb37cccddab1432f915249929c77a7d22bdf77221cc7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f0dfb88fd1acadbfdfa8cc99487b81a0494ae4a1c2794d58067534cec2cb6341",
+        "response_hash": "cc5c71962c4cdccf13643c4540e885a3d72a764ad95c381a8202a8a2da2f667f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "19d5db6b80feeed8a7ebe38b1ce02a1ce6da059b9307eef0c42b067fc862b167",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7909f3150c18a327589fc968a9832f28067f8340b36de8cacf5891e6cb4c9617",
+    "translation_sha256": "16f5bc780ce7e83381f1390c4ad4be6fa0bc007b4a05843e0942fed41d8f3e80"
+  }
+}

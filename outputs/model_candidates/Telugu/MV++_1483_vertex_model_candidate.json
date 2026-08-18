@@ -1,0 +1,285 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A vast river landscape under soft daylight",
+          "A close-up of steady, deep water currents flowing smoothly"
+        ],
+        "category": "SACRED_RIVER",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The sacred river Ganges, personified and revered in Hindu tradition as a symbol of purity, grace, and steady, silent majesty.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A muddy, turbulent mountain stream",
+          "A chaotic, noisy waterfall",
+          "A generic small creek"
+        ],
+        "preserved": true,
+        "romanization": "Ganga",
+        "source_span_original": "గంగ",
+        "source_span_translation": "Ganges",
+        "stanza_index": 1,
+        "term": "గంగ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A wide, serene, steadily flowing river",
+          "Calm, clear waters moving with silent dignity",
+          "No turbulent rapids or chaotic splashing"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The signature crown-phrase (makuta) of Vemana's moral poems, traditionally interpreted either as an address to the beloved of the creator of the universe, or to his friend Abhirama, urging the listener (Vema) to pay heed.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Viswadabhirama Vinuravema",
+        "source_span_original": "విశ్వదాభిరామ! వినురవేమ!",
+        "source_span_translation": "Oh, Viswadabhirama! Listen to what I say!",
+        "stanza_index": 4,
+        "term": "విశ్వదాభిరామ! వినురవేమ!",
+        "translation_note": "The translation renders the signature line partially, capturing the address to Viswadabhirama but omitting the direct name of the poet-sage Vemana (Vema).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "reflective observation of nature leading to a philosophical declaration on human character",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation adds poetic embellishments about dancing ripples and grandeur not present in the original line, which simply states that the Ganges always flows with an unshakeable, steady movement.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A noble or wise person acts with steady, quiet dignity and composure, without making empty noise.",
+            "acceptable_visual_variants": [
+              "A split-screen style illustration showing a calm, deep river next to a quiet, composed person.",
+              "A single symbolic scene where a serene person is seated peacefully on the banks of a vast, smooth-flowing river."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "The sacred river Ganges always flows with an unshakeable, steady movement.",
+            "literalization_risk": "An illustrator might depict only a physical river scene, completely missing the moral comparison to human character and wisdom.",
+            "metaphor_mapping": {
+              "tenor_concept": "The quiet, dignified conduct of a wise or noble person",
+              "transferred_attributes": [
+                "steadiness",
+                "silence",
+                "majesty",
+                "lack of empty noise"
+              ],
+              "vehicle_concept": "The silent, steady flow of the Ganges river"
+            },
+            "source_span_original": "గంగ పాఱు నెపుడు కదలని గతితోడ",
+            "source_span_translation": "The Ganges flows with a movement that never falters",
+            "source_term": "గంగ పాఱు నెపుడు కదలని గతితోడ",
+            "tenor": "The quiet, dignified, and steady behavior of a noble or wise person (pedda).",
+            "vehicle": "The steady, silent, and majestic flow of the sacred Ganges river.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split or dual scene: on one side, a wide, calm, majestic river flowing smoothly without turbulent waves; on the other side, a dignified, serene person standing or sitting in quiet contemplation."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces imagery of 'ripples dancing together' and 'grandeur in this vastness' which is not present in the original Telugu line. It also collapses the structure of the entire four-line poem into a single stanza's translation, misrepresenting the literal meaning of the first line.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "This entire stanza (line 2) is completely omitted from the translation. It describes a dirty, muddy stream flowing with loud, turbulent noise, which is crucial for the poem's central contrast.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An inferior, ignorant, or petty person makes a lot of empty noise and boasts loudly despite having no real substance.",
+            "acceptable_visual_variants": [
+              "A split-screen style illustration showing a muddy, splashing stream next to a loud, gesturing person.",
+              "A symbolic scene of a shallow, noisy brook contrasting visually with the deep, quiet river of Stanza 1."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L2",
+            "literal_meaning": "A dirty stream or gutter flows with a loud, rushing noise.",
+            "literalization_risk": "An illustrator might draw a literal muddy ditch or gutter, which fails to convey the moral critique of human pettiness and empty boasting.",
+            "metaphor_mapping": {
+              "tenor_concept": "The loud, empty boasting of an ignorant or petty person",
+              "transferred_attributes": [
+                "noisiness",
+                "shallowness",
+                "lack of substance",
+                "turbulent but insignificant movement"
+              ],
+              "vehicle_concept": "A shallow, dirty stream flowing with loud noise"
+            },
+            "source_span_original": "ముఱికి వాగు పాఱు మ్రోఁతతోడ",
+            "source_span_translation": null,
+            "source_term": "ముఱికి వాగు పాఱు మ్రోఁతతోడ",
+            "tenor": "The loud, boastful, and empty behavior of an ignorant or petty person (pinna).",
+            "vehicle": "A shallow, dirty stream rushing noisily over rocks.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split or dual scene contrasting with Stanza 1: a shallow, muddy, turbulent stream splashing noisily over rocks, paired with a person gesturing wildly and shouting with an empty, boastful expression."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The entire second line, which contrasts the silent flow of the Ganges with the noisy flow of a dirty stream ('ముఱికి వాగు పాఱు మ్రోఁతతోడ'), is completely omitted from the translation.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "This entire stanza (line 3) is completely omitted from the translation. It delivers the core philosophical message: this is how the relationship/difference between greatness (pedda) and smallness/insignificance (pinnatanamu) behaves.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The difference in character and behavior between the noble/wise and the petty/ignorant is as vast and clear as the difference between the Ganges and a noisy dirty stream.",
+            "acceptable_visual_variants": [
+              "A side-by-side comparative illustration showing the two contrasting states of nature and human character.",
+              "A single conceptual landscape where a deep, quiet river flows in the background, while a small, muddy, noisy stream branches off turbulently in the foreground."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The greatness of the noble and the pettiness of the low is like this.",
+            "literalization_risk": "An illustrator might try to depict abstract 'greatness' and 'pettiness' literally, resulting in confusing scale differences rather than character differences.",
+            "metaphor_mapping": {
+              "tenor_concept": "The contrast between a wise, noble person and a petty, ignorant person",
+              "transferred_attributes": [
+                "vast difference in quality",
+                "dignity vs. emptiness",
+                "silence vs. noise"
+              ],
+              "vehicle_concept": "The contrast between a majestic, silent river and a shallow, noisy stream"
+            },
+            "source_span_original": "పెద్ద పిన్నతనము పేరిమి యీలాగు",
+            "source_span_translation": null,
+            "source_term": "పెద్ద పిన్నతనము పేరిమి యీలాగు",
+            "tenor": "The contrast between the quiet dignity of a wise person and the loud emptiness of an ignorant person.",
+            "vehicle": "The contrast between the silent Ganges and the noisy dirty stream.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Create a balanced, contrasting composition that visually pairs the calm river/wise person on one side with the noisy stream/boastful person on the other, highlighting the moral contrast."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The entire third line, which delivers the core philosophical comparison about the nature of great versus small/petty minds ('పెద్ద పిన్నతనము పేరిమి యీలాగు'), is completely omitted from the translation.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "devotion",
+        "index": 4,
+        "loss_note": "The translation collapses the signature Vemana makutam (refrain) into a generic exclamation, losing the specific address to the beloved of the creator of the universe and the call to Vemana to listen.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The signature Vemana makutam (refrain) 'విశ్వదాభిరామ! వినురవేమ!' is translated generically as 'Oh, Viswadabhirama! Listen to what I say!', losing the specific name of the poet Vemana ('Venu-ra-Vema' / 'Listen, O Vema') and the traditional structure of the moral verse.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "True greatness is quiet and steady like the Ganges, while insignificance is loud and turbulent like a muddy stream."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "గంగ పాఱు నెపుడు కదలని గతితోడ\n\nముఱికి వాగు పాఱు మ్రోఁతతోడ\n\nపెద్ద పిన్నతనము పేరిమి యీలాగు\n\nవిశ్వదాభిరామ! వినురవేమ!",
+  "poem_id": "MV++_1483",
+  "poem_title": "Ganga pravaham",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0792acc279eae8878445d21b32bcd6d53162486b52f803bdcafac1947eb404f8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1483.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Ganges flows with a movement that never falters,\nIts banks adorned with ripples dancing together.\nWhat grandeur exists in this vastness,\nOh, Viswadabhirama! Listen to what I say!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:39:49.019749+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "32c72e66beb42b295472bd8874187ced4eecf16a46346eee1e92c01201924565",
+        "response_hash": "9f8aa2a7de2e9cd5a4935baccab6bc23b80b6482580675cdea746cde4b07cbd2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "72b11edcccb77fcae1460fd931205d0064c1b5539b288adc7c529c0c37c21e72",
+        "response_hash": "2c0a1f8032bfb1171b808259d893c782901c7bdd20ab2e885557743ae3785550",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8f5b7c4588edae0342a325ad96eb3a2e1bf49c5334f2041d8929e5df6aaad193",
+        "response_hash": "68fb3b71ff035c66e76b3d7e14f241d170beff2093c8c3a26cde7e87f900dc2d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "46e07da8a03900ee4682232474691cf8d374eaac7d264dfa73ee17990c35e4be",
+        "response_hash": "e6a20b8d3e2fe3c385baeea474ae934a11adb964b40b02c777d005709a898fbd",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be154cae930518fc189a003ca175896440d941097672bc5469d15f22e7f12779",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b5e6a0d3ba485eaf59a7f81b88750a0d13ae044817fa0a06000d7694a388b83b",
+    "translation_sha256": "ed2d6c6a3da217ef535c976d2502dbb51d3d6f0b6a06349676e1ab9a3b87ce8e"
+  }
+}

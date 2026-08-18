@@ -1,0 +1,278 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A Sanskrit-derived term for worship, adoration, or devotion, representing a structured or deep spiritual practice of honoring the divine. Here, it is equated with human brotherhood.",
+        "line_ref": "L2",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "aaradhana",
+        "source_span_original": "आराधना",
+        "source_span_translation": "worship",
+        "stanza_index": 1,
+        "term": "आराधना",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional Hindu ritual of worship, reverence, or devotion. In this context, the poet redefines true ritual worship (pooja) as loving and serving humanity.",
+        "line_ref": "L11",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "pooja",
+        "source_span_original": "पूजा",
+        "source_span_translation": "devotion",
+        "stanza_index": 3,
+        "term": "पूजा",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A call for human brotherhood and love as true worship, moving from a declaration of moral duty to a vision of a beautiful, peaceful world.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation adds 'in God's plan' to rhyme with 'man', which is not explicitly in the Hindi text, and translates 'prem ka deep' (lamp of love) as 'lamp of light' to rhyme with 'spite'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Actively overcoming and eliminating feelings of hatred and malice from one's mind and society.",
+            "acceptable_visual_variants": [
+              "A figure sweeping away dark, smoky shadows from a room.",
+              "A person opening windows to let fresh air and light disperse dark mist."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Chasing away or making hatred and malice run far away.",
+            "literalization_risk": "Showing a person physically chasing away personified figures labeled 'hatred' and 'spite' like fleeing intruders, which might look comical or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "overcoming negative emotions",
+              "transferred_attributes": [
+                "active expulsion",
+                "removal from a space"
+              ],
+              "vehicle_concept": "chasing away an unwanted intruder"
+            },
+            "source_span_original": "द्वेष, घृणा को दूर भगाकर",
+            "source_span_translation": "Casting out hatred and spite",
+            "source_term": "द्वेष, घृणा को दूर भगाकर",
+            "tenor": "The psychological and social act of rejecting and overcoming hatred.",
+            "vehicle": "An unwanted person or animal being chased away.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person opening a dark, closed space to let light in, or a gentle gesture of sweeping away dark shadows or dust representing negative emotions."
+          },
+          {
+            "abstract_meaning": "To foster, cultivate, and spread love and compassion among people.",
+            "acceptable_visual_variants": [
+              "A traditional Indian clay lamp (diya) being lit by two hands coming together.",
+              "A warm, golden light radiating outward from a simple lamp, illuminating surrounding faces."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "To light a lamp made of love.",
+            "literalization_risk": "Depicting a physical lamp literally made of 'love' or a heart-shaped flame, which can look cliché or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "spreading love to eliminate hatred",
+              "transferred_attributes": [
+                "illumination",
+                "warmth",
+                "dispelling darkness",
+                "guidance"
+              ],
+              "vehicle_concept": "lighting a lamp to dispel darkness"
+            },
+            "source_span_original": "प्रेम का दीप जलाना है",
+            "source_span_translation": "We must kindle the lamp of light",
+            "source_term": "प्रेम का दीप जलाना है",
+            "tenor": "Spreading love and kindness to dispel hatred.",
+            "vehicle": "A lit clay lamp (diya) dispersing darkness.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show hands gently cupping and lighting a traditional clay lamp (diya) whose warm glow illuminates a dark space, symbolizing the quiet power of love."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'in God's plan' to create a rhyme with 'man', which is not present in the original Hindi text.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'प्रेम का दीप' (lamp of love) as 'lamp of light' to fit the rhyme scheme, losing the explicit connection to 'love' (प्रेम).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation adds 'and bright' and 'sight' to maintain a rhyme scheme, slightly altering the literal phrasing of 'anmol' (priceless/invaluable) and 'har dil tak pahunchana hai' (must reach every heart).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To make sure every individual understands and feels the message of peace.",
+            "acceptable_visual_variants": [
+              "A group of diverse people of different ages smiling gently as a warm light washes over them.",
+              "A dove flying over a community, with people looking up in peace and shared understanding."
+            ],
+            "expression_type": "metonymy",
+            "line_ref": "L8",
+            "literal_meaning": "To physically deliver or carry something to every physical heart.",
+            "literalization_risk": "Showing a messenger physically carrying a scroll or letter and placing it onto a physical, anatomical heart, which is visually jarring and medically literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "communicating a message of peace to every individual person",
+              "transferred_attributes": [
+                "reception",
+                "intimacy",
+                "deep internal acceptance"
+              ],
+              "vehicle_concept": "delivering a physical letter or object to a physical heart"
+            },
+            "source_span_original": "हर दिल तक पहुँचाना है",
+            "source_span_translation": "We must carry to every heart’s sight",
+            "source_term": "हर दिल तक पहुँचाना है",
+            "tenor": "Every individual person's emotional and intellectual awareness.",
+            "vehicle": "The physical heart as the destination for a delivered message.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, warm light or a gentle wave of peaceful energy radiating outward and touching diverse people who look comforted and serene."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'अनमोल' (priceless/invaluable) as 'rare and bright' to maintain a rhyme scheme, altering the literal meaning of absolute, unmeasurable value.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'sight' to 'every heart's' to force a rhyme with 'bright', which introduces a visual metaphor not present in the original 'हर दिल तक' (to every heart).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation adds 'again' and 'in life's plain' to satisfy the rhyme scheme, which are not present in the original Hindi text.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'सृष्टि' (creation/universe) as 'world', which slightly flattens the grander, cosmic scale of the original Sanskrit-derived term.",
+            "where": "L10"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'in life's plain' to create a rhyme with 'again', introducing a landscape metaphor entirely absent from the original Hindi text.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "True worship of God lies in human brotherhood, love, and peace rather than ritualistic devotion."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मनुष्य का मनुष्य से हो भाईचारा,  \nयही ईश्वर की सच्ची आराधना है।  \nद्वेष, घृणा को दूर भगाकर,  \nप्रेम का दीप जलाना है।  \n\nहमें समझना होगा ये सत्य,  \nकि सबका जीवन अनमोल है।  \nअमन और शांति का यह संदेश,  \nहर दिल तक पहुँचाना है।  \n\nमनुष्य का मनुष्य से प्रेम हो,  \nतो सृष्टि सुंदर हो जाएगी।  \nयही सच्ची पूजा है,  \nयही हमारी जिम्मेदारी है।",
+  "poem_id": "MV++_0470",
+  "poem_title": "Manushya Ka Manushya Se",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "78955274321d778149017b606ae47bab2737ee19cb889020edadddf9bbf89b2b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0470.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Let there be brotherhood from man to man,  \nThis is true worship in God's plan.  \nCasting out hatred and spite,  \nWe must kindle the lamp of light.\n\nWe must understand this truth,  \nThat each life is rare and bright.  \nThis message of peace and calm,  \nWe must carry to every heart’s sight.\n\nWhen man loves man,  \nThe world will be beautiful again.  \nThis is true devotion,  \nOur duty, in life’s plain.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:28:01.209879+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "84502613481d3dab26c01f8dce8c227f09d12381fed51fd6d2b9347dea4ad2e7",
+        "response_hash": "47ce1f98a2c027b588173b37ca5a96c94501487d363edb5d141becd1be6a25bf"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3db60fee6f7d65acf06237b2d5ed3cf0f081d6e0374990e99bc48060a16fc271",
+        "response_hash": "865879c0d4416f961d02b3e41a1aa5769cf32369c194fcf584d404b65cb1f4c5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b6bfa81a94bec36fc583d73883f9c465c0ef066198b96627454c1a143a2b68b",
+        "response_hash": "a0637831958ae1e0e019bcdb0c3b824241a2a0c54f65b38f22627e409b801d4e",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e696ad0dddb1bb1eff04815050eb6c0aacaf03ac27405c5c1fa2debf4b9ea54",
+        "response_hash": "984a84074b9a7446393514e9a0173c0b9e4c3a94ca47425171f9f939a04ecdfb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a6499b7620ff3f1436feb431e206410ff4aab16b765de13a48f925f33934b9f6",
+        "response_hash": "ca59f7464c378970f41aa1336f97a3f4efeefd16fdad9d60a875c8a01ae7432f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "16f8bb98ddcefb23d3d03edfb952adcae186ab3135f9167287ca20453c22e49f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e29c8998c041882b0cb509bd8df79ed780784eefad97ccfb27720d0c776307d0",
+    "translation_sha256": "5b96f6350686d32bd832da5aeb455e12e6aa2742cfba809f3f62cd30bc51ae06"
+  }
+}

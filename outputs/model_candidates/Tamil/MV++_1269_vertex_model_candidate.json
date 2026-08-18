@@ -1,0 +1,164 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A core ethical concept in Tamil philosophy (prominently featured in the Tirukkural) denoting truthfulness that is defined not merely by factual accuracy, but by its capacity to produce harmless, unblemished good for others.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "vaimai",
+        "source_span_original": "வாய்மை",
+        "source_span_translation": "truth",
+        "stanza_index": 1,
+        "term": "வாய்மை",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "philosophical conviction and moral clarity",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the core philosophical meaning but loses the concise, aphoristic structure of the classical Tamil couplet form (Kural style) and the specific nuances of the agglutinative phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Falsehood can be elevated to the moral status of truth if its outcome is entirely beneficial and harmless.",
+            "acceptable_visual_variants": [
+              "A path that splits into a straight road and a winding road, both leading to the same beautiful, sunlit city of peace, showing different means reaching the same virtuous end."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "Even falsehood is in the place of truth if it produces flawless good.",
+            "literalization_risk": "Showing a personified character named 'Falsehood' physically sitting in a chair labeled 'Truth' would look comical and miss the philosophical depth of the ethical proverb.",
+            "metaphor_mapping": {
+              "tenor_concept": "moral substitution of falsehood for truth based on utilitarian ethics",
+              "transferred_attributes": [
+                "position",
+                "status",
+                "acceptance"
+              ],
+              "vehicle_concept": "physical displacement and substitution of one object for another in a designated spot"
+            },
+            "source_span_original": "பொய்மையும் வாய்மை யிடத்த புறக்கன்",
+            "source_span_translation": "Even falsehood, when used in the place of truth,",
+            "source_term": "பொய்மையும் வாய்மை யிடத்த புறக்கன்",
+            "tenor": "The moral equivalence of a harmless lie to an absolute truth based on its positive consequences",
+            "vehicle": "Falsehood physically occupying the physical seat or place of truth",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a scale of justice where a dark, rough stone (representing a lie) balances perfectly with a glowing, pure crystal (representing truth) because a flourishing green plant (representing the good brought to the world) is rooted between them."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The highly condensed, aphoristic grammatical structure of classical Tamil (resembling Thirukkural style) is expanded into a more explanatory English prose sentence, losing the rhythmic brevity and punch of the original.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The specific nuances of the agglutinative case endings and particles (such as the conjunctive/emphasizing '-um' in 'poymaiyum' and the locative 'idaththu') are flattened into standard English prepositions and conjunctions.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The ethical relativity of truth, where falsehood is elevated to the status of truth if it results in pure, harmless good for the world."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "பொய்மையும் வாய்மை யிடத்த புறக்கன்  \nவையம் சுழலும் அடைக்கும்பால்",
+  "poem_id": "MV++_1269",
+  "poem_title": "Poymaiyum Vaimaiyidaththu Purakkan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "803cbadf61dac0d0c2768797b99833127316228fd773214d00415603aa922b9f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1269.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Even falsehood, when used in the place of truth,  \nMay be deemed truth if it brings unshakable good to the world.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:15:30.039287+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c256f7087f3a76aa0b529613d8729140e4c24046aba2e286fe15ff512e3139f9",
+        "response_hash": "634020838f8c8fddc671b36a5eee74dff00a458085a4b967d59ef5f27562308f"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "97a0744c96a77681d2057b82dc57dc893465579dad6a3133d03fc4c92b2e6c43",
+        "response_hash": "31e9d3ba743b4b24297e46a825973722a3469581cd7f30c946f84fb1af231a12",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ab8b5366ef08b73fd23ce40e1eedb6b56ae2156cc8682f4b217d35bc3e69621d",
+        "response_hash": "29862763ba63519a18d8e9085e7d27a72bfdb8adb58a794859a012610efb53a4",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b38a6ad827b767121488c9925e7379fcb0d777a70a709082478ea60728087901",
+        "response_hash": "3435d67f4f3bc123533c1c3c1c09b4d0e70a1699ccb404644f2b0aa56457ad2f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2c4dfb4839d8220a43204fe76fa1e281058936ca45df8fc834a1bdede4857b25",
+        "response_hash": "22ca30c5e8bf72c928e6a6ea929b679d2a34a794ec40258e007426607db87f0c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4354512cc034283f37ddbab8ad671cf3e65820c139ca5dec22426ea1108c2a83",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "458e468d03cfb07f6a348a9b2e51f1862311e80ca45638f19b7c011675647a27",
+    "translation_sha256": "4d72927028ce2b386e9e8200f99b4ebc128e540e5545c81442623f5b79dbeb1b"
+  }
+}

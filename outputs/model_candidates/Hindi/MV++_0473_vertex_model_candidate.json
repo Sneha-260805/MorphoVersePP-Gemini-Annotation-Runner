@@ -1,0 +1,262 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet, heavy reflection on inherited waiting and unfulfilled dreams, moving from a shared sense of generational silence to a deep, unresolved oscillation between hope and despair.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'khamoshiyon ki yeh chuppi' as 'silence of muteness' slightly flattens the poetic resonance of compounding two words for silence/quietness in Hindi.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker feels that waiting and longing are inherited burdens passed down through generations.",
+            "acceptable_visual_variants": [
+              "An older hand passing an empty, dusty key ring to a younger hand.",
+              "A young person looking at a large, ancient clock handed down by ancestors."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "We have received waiting as a physical inheritance or legacy.",
+            "literalization_risk": "Showing a physical will, deed, or chest of gold being handed to a child, which misses the emotional weight of generational waiting.",
+            "metaphor_mapping": {
+              "tenor_concept": "waiting",
+              "transferred_attributes": [
+                "passed down through generations",
+                "unsolicited",
+                "defining one's life state"
+              ],
+              "vehicle_concept": "inheritance"
+            },
+            "source_span_original": "विरासत में हमें मिली है प्रतीक्षा",
+            "source_span_translation": "In inheritance, we have received waiting",
+            "source_term": "विरासत में हमें मिली है प्रतीक्षा",
+            "tenor": "The state of perpetual waiting and longing (prateeksha)",
+            "vehicle": "An inherited physical property or legacy (virasat)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a shadowy, ancestral figure handing down an empty, open box or an hourglass to a younger person, symbolizing the inheritance of time and waiting."
+          },
+          {
+            "abstract_meaning": "The state of hoping for something is filled with uncertainty, doubt, and lack of clarity.",
+            "acceptable_visual_variants": [
+              "A dark, misty path where a single, dim lantern shines in the distance.",
+              "A silhouette of a person looking out of a dark window into a starry but dark night sky."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A physical darkness made out of hopes.",
+            "literalization_risk": "Showing a literal black cloud or pitch-black room, which fails to capture the positive aspect of 'hope' mixed with the negative aspect of 'darkness'.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope",
+              "transferred_attributes": [
+                "obscurity",
+                "uncertainty",
+                "blinding quality",
+                "lack of direction"
+              ],
+              "vehicle_concept": "darkness"
+            },
+            "source_span_original": "उम्मीदों का यह अंधेरा",
+            "source_span_translation": "the darkness of hope",
+            "source_term": "उम्मीदों का यह अंधेरा",
+            "tenor": "Hope (ummeed)",
+            "vehicle": "Darkness (andhera)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person standing in a dark room illuminated only by a tiny, flickering candle or a faint, distant glow that represents hope but leaves everything else in shadow."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'खामोशियों की यह चुप्पी' as 'This silence of muteness' loses the poetic resonance of pairing two closely related Hindi words for silence ('khamoshi' and 'chuppi') which creates a layered, heavy atmosphere of quietude.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses 'waiting' for 'प्रतीक्षा' (L1) and 'wait' for 'इंतजार' (L5), which collapses the subtle shift in register from the formal, Sanskrit-derived 'prateeksha' to the more conversational, Persian-derived 'intezaar'.",
+            "where": "L1-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic flow of 'aadhi-adhoori chaahtein' (half-unfulfilled desires) is simplified to 'half-fulfilled desires'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The unfulfilled plans, aspirations, and dreams left behind by previous generations.",
+            "acceptable_visual_variants": [
+              "A sketch of a road on a canvas where the paint runs out and turns into blank paper.",
+              "A stone pathway in a garden that suddenly stops and is overgrown with wild thorns."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Physical roads or pathways built out of dreams that end abruptly.",
+            "literalization_risk": "Showing a literal construction site of a highway ending in dirt, which loses the poetic connection to dreams and desires.",
+            "metaphor_mapping": {
+              "tenor_concept": "unfulfilled dreams",
+              "transferred_attributes": [
+                "incomplete",
+                "leading nowhere yet",
+                "requiring further travel",
+                "abandoned midway"
+              ],
+              "vehicle_concept": "unfinished roads"
+            },
+            "source_span_original": "नए ख्वाबों की अधूरी राहें",
+            "source_span_translation": "The unfinished paths of new dreams",
+            "source_term": "नए ख्वाबों की अधूरी राहें",
+            "tenor": "Unfulfilled dreams and aspirations (naye khwaab)",
+            "vehicle": "Unfinished paths/roads (adhuri raahein)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a winding, ethereal path made of light or mist that fades away into empty space or clouds, leaving a traveler standing at the edge."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'आधी-अधूरी' as 'Half-fulfilled' loses the rhythmic reduplication and colloquial emphasis of the Hindi compound adjective, which conveys a deep sense of fragmented, lingering incompleteness.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intense, overwhelming, and profound nature of feeling hopeless.",
+            "acceptable_visual_variants": [
+              "A person submerged deep underwater, looking up at the distant surface light.",
+              "A silhouette standing at the edge of a vast, dark, misty canyon."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L13",
+            "literal_meaning": "The physical depth of a deep pit, well, or ocean of hopelessness.",
+            "literalization_risk": "Showing a person literally falling down a deep well or canyon, which looks like an adventure accident rather than an emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "despair",
+              "transferred_attributes": [
+                "darkness",
+                "difficulty of escaping",
+                "overwhelming scale",
+                "sinking feeling"
+              ],
+              "vehicle_concept": "physical depth/abyss"
+            },
+            "source_span_original": "निराशा की गहराई",
+            "source_span_translation": "the depths of despair",
+            "source_term": "निराशा की गहराई",
+            "tenor": "Despair/hopelessness (niraasha)",
+            "vehicle": "A deep pit or abyss (gaharai)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a solitary figure sitting at the bottom of a deep, shadowy depression or valley, looking up at a distant, unreachable rim of light."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation 'We are in this legacy of waiting' for 'हम हैं इस प्रतीक्षा की विरासत में' flattens the grammatical structure where the speaker and others are positioned directly inside/as part of the inherited waiting itself, losing the poetic intimacy of the Hindi phrasing.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The burden and legacy of perpetual waiting passed down through generations, where hope and despair coexist in a suspended state of existence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "विरासत में हमें मिली है प्रतीक्षा,  \nखामोशियों की यह चुप्पी,  \nऔर उम्मीदों का यह अंधेरा,  \nजिसमें हर दिन एक नई उम्मीद है,  \nऔर हर रात एक नया इंतजार।  \n\nहमारे पूर्वजों ने हमें छोड़ी है ये विरासत,  \nनए ख्वाबों की अधूरी राहें,  \nआधी-अधूरी चाहतें,  \nऔर एक निरंतर प्रतीक्षा,  \nजिसमें हर एक लम्हा थमा हुआ है।  \n\nहम हैं इस प्रतीक्षा की विरासत में,  \nकभी उम्मीद की झलक,  \nतो कभी निराशा की गहराई।",
+  "poem_id": "MV++_0473",
+  "poem_title": "Prateeksha Mein Viraasat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d46bb3e4d2501f696ce5cdda730c445c3650033fc894713fcdba9b91b01a89ec",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0473.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In inheritance, we have received waiting,  \nThis silence of muteness,  \nAnd the darkness of hope,  \nWhere each day brings a new expectation,  \nAnd every night a fresh wait.  \n\nOur ancestors have left us this legacy,  \nThe unfinished paths of new dreams,  \nHalf-fulfilled desires,  \nAnd a perpetual waiting,  \nIn which every moment is paused.  \n\nWe are in this legacy of waiting,  \nAt times a glimpse of hope,  \nAnd sometimes the depths of despair.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:28:21.678940+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1c3b0935f1410488a94b78bc045ff5e7cd13da4bff513ea45502df8fc2fc79e5",
+        "response_hash": "4a5389a4827d521422ecadb72e5b717b6092a63ab9821bf44615e56224c15897"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "17c09bcd5ab074fd8fd193056a0aa317368091f689f7368f2a8645cdfbd893ea",
+        "response_hash": "ac14e3a83eef5bc84dd00ac6097f190e227cd0f824984f284168bbcadbe9b6dc",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "044d8665f0e61fcab966e4ac0859a39aad4ab222b0c4131068863e06f2bfa574",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "73463bd1fe6a0d76680b092aa6894a9f522169777007763bbf2b8c6e01e0f4b5",
+        "response_hash": "13f65fff02a5b0416acaa7cc0ada7e6eb9936dd1a3c1d23429d10741831ac28e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dfa9b50a3d6754e59a5b426a4128e16577f2a0d10243d2b7d719b160ecdde25c",
+        "response_hash": "83e371515a9ea68889cdeaadff83129553a9179e59b67d64ac53c05743e6327b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5cf315648f3897bc3b1a7b9db461d9e537cf4d8f43dfc1dc4279d432e34349b3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d46a3cacb165070a645bb066cf21216ac51d62cda03620047bcdd2a920fff82c",
+    "translation_sha256": "ee354b63d3d7f3234af03d0ff9586d73f56f06e1face115f0dd183e838e43b62"
+  }
+}

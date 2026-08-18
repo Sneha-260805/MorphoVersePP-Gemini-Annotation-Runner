@@ -1,0 +1,307 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A vibrant, stylized parade of glowing, dream-like figures in festive attire",
+          "A traditional wedding procession with music and dancing, rendered with a surreal, dream-like quality"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional South Asian wedding procession, typically involving the groom's family and friends traveling to the wedding venue with music, dancing, and celebratory attire. Here, it is used metaphorically for a procession of dreams.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A somber, quiet funeral march",
+          "A generic military parade",
+          "A Western-style wedding party walking down a church aisle"
+        ],
+        "preserved": true,
+        "romanization": "baaraat",
+        "source_span_original": "बारात",
+        "source_span_translation": "procession",
+        "stanza_index": 1,
+        "term": "बारात",
+        "translation_note": "The translation renders 'बारात' (baraat) as 'procession', which conveys the general movement but loses the specific cultural context of a festive wedding procession.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A festive, joyous procession",
+          "Participants in colorful traditional attire",
+          "A sense of movement and celebration"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "Joyful anticipation of celebration leading to a shared, universal experience of happiness.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The pervasive, uplifting, and pleasing presence of happiness that spreads easily to others.",
+            "acceptable_visual_variants": [
+              "A warm golden light radiating from a person or heart",
+              "Soft, floating flower petals drifting through the air"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The physical scent or fragrance of happiness",
+            "literalization_risk": "Depicting literal perfume bottles or visible scent clouds might look like a commercial product rather than an emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "joy",
+              "transferred_attributes": [
+                "pervasiveness",
+                "pleasurableness",
+                "invisible spreading"
+              ],
+              "vehicle_concept": "fragrance"
+            },
+            "source_span_original": "खुशियों की महक",
+            "source_span_translation": "fragrance of joy",
+            "source_term": "खुशियों की महक",
+            "tenor": "happiness / joy",
+            "vehicle": "fragrance / scent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing atmosphere or gentle breeze carrying soft petals or light to represent the spreading of joy."
+          },
+          {
+            "abstract_meaning": "A grand, celebratory, and orderly progression of one's hopes and aspirations.",
+            "acceptable_visual_variants": [
+              "A parade of glowing lanterns floating forward",
+              "A whimsical, festive procession of colorful, abstract dream-like figures"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A wedding procession of dreams",
+            "literalization_risk": "Showing a literal groom on a horse with a wedding band might over-specify the metaphor to marriage rather than general life aspirations.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "grandeur",
+                "celebration",
+                "festive movement",
+                "joyous assembly"
+              ],
+              "vehicle_concept": "wedding procession"
+            },
+            "source_span_original": "सपनों की बारात",
+            "source_span_translation": "procession of dreams",
+            "source_term": "सपनों की बारात",
+            "tenor": "hopes and dreams",
+            "vehicle": "wedding procession (baaraat)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a festive, glowing parade of abstract, luminous shapes or symbolic figures marching joyfully."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural imagery of a 'baraat' (wedding procession) is translated as a generic 'procession', losing the festive, celebratory, and communal associations of a traditional South Asian wedding.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "The translation of 'खुशियों का समां बांधने आया' as 'has come to weave joy' loses the specific idiomatic nuance of 'समां बांधना' (samaa bandhna), which means to create a captivating atmosphere or spellbinding mood.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To cherish, protect, and hold something close with the utmost care and affection.",
+            "acceptable_visual_variants": [
+              "A close-up of peaceful closed eyes with soft stardust or light resting on the lashes",
+              "A person sleeping or meditating with miniature glowing symbols of dreams floating near their face"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L5",
+            "literal_meaning": "To physically place or keep something on one's eyelids",
+            "literalization_risk": "Showing literal objects or words balanced precariously on a person's closed eyelids would look bizarre, uncomfortable, or surreal in an unintended way.",
+            "metaphor_mapping": {
+              "tenor_concept": "protective care",
+              "transferred_attributes": [
+                "closeness to sight",
+                "delicate handling",
+                "protection"
+              ],
+              "vehicle_concept": "eyelids"
+            },
+            "source_span_original": "पलकों पर रखा है",
+            "source_span_translation": "kept every dream on my eyelids",
+            "source_term": "पलकों पर रखा है",
+            "tenor": "cherishing and protecting dreams",
+            "vehicle": "eyelids as a resting place",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person with closed eyes and a peaceful smile, with soft, glowing dream-like imagery hovering gently just above or around their eyes."
+          },
+          {
+            "abstract_meaning": "Allowing one's hopes and desires to find expression, joy, and fulfillment.",
+            "acceptable_visual_variants": [
+              "Glowing bubbles rising and sparkling as they pop",
+              "Abstract shapes shifting into bright, warm colors"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "Allowing dreams to physically laugh or smile",
+            "literalization_risk": "Drawing literal dreams (like clouds) with human mouths laughing can look cartoonish or childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "dream fulfillment",
+              "transferred_attributes": [
+                "joy",
+                "expression",
+                "vibrancy"
+              ],
+              "vehicle_concept": "human laughter"
+            },
+            "source_span_original": "ख्वाब को हंसने दिया",
+            "source_span_translation": "Letting them smile",
+            "source_term": "ख्वाब को हंसने दिया",
+            "tenor": "dreams being fulfilled and bringing joy",
+            "vehicle": "a laughing/smiling person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show abstract dream symbols (like stars or bubbles) bursting into bright, sparkling light."
+          },
+          {
+            "abstract_meaning": "Creating a captivating, beautiful, and cohesive atmosphere of pure happiness.",
+            "acceptable_visual_variants": [
+              "A circle of people holding hands with a glowing thread of light connecting them",
+              "A beautiful tapestry of warm colors and light enveloping a gathering of people"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L8",
+            "literal_meaning": "To physically tie or bind the atmosphere of happiness",
+            "literalization_risk": "Showing people literally tying ropes around clouds or weaving physical threads of 'joy' could look confusingly industrial or literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "creating an atmosphere",
+              "transferred_attributes": [
+                "cohesion",
+                "creation",
+                "holding together"
+              ],
+              "vehicle_concept": "binding or weaving"
+            },
+            "source_span_original": "खुशियों का समां बांधने",
+            "source_span_translation": "to weave joy",
+            "source_term": "खुशियों का समां बांधने",
+            "tenor": "creating a beautiful collective mood of joy",
+            "vehicle": "binding/weaving a physical atmosphere",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a diverse group of people gathered in a circle, their hands or energy creating a shared, swirling canopy of warm light."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'in the light' which is not present in the original text ('हंसने दिया' simply means 'let them laugh/smile').",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The idiomatic Urdu/Hindi phrase 'samaa bandhna' (creating a captivating atmosphere or spellbinding environment) is translated as 'to weave joy', which loses the specific cultural nuance of setting a magical, collective mood.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The celebration of the heart's dreams and the universal sharing of joy."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that the translation loses the specific cultural context of a wedding procession. These values are internally inconsistent; 'preserved' should be false if the cultural specificity is lost or altered.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "दिल का जश्न मनाना है,  \nखुशियों की महक बिखेरना है।  \nसपनों की बारात सजाना है,  \nहर रंग में उमंग भरना है।  \n\nपलकों पर रखा है मैंने,  \nहर ख्वाब को हंसने दिया।  \nजश्न-ए-दिल में सारा जहां,  \nखुशियों का समां बांधने आया।",
+  "poem_id": "MV++_0821",
+  "poem_title": "Jashn-e-Dil",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cf56de3817cbc21738fd75d5534ef697460d3fcfcc13329fab1271e187d2d047",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0821.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "It’s time to celebrate the heart,  \nTo spread the fragrance of joy.  \nTo adorn the procession of dreams,  \nTo fill every color with enthusiasm.  \n\nI have kept every dream on my eyelids,  \nLetting them smile in the light.  \nIn this celebration of the heart,  \nThe whole world has come to weave joy.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:16:56.569049+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7aa86c1dca0c19473e3b1a6b0060f60d8a73d6d1ebee83505ece5b4a94537835",
+        "response_hash": "54db46317d64eb19e691089de64d731d514e444d51b7f0abd5e8c63952e57adc"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "935716376796d14cb64a5f615fc62eee93c798a4350fd440310f84a56893abed",
+        "response_hash": "4faecb7cce7e74b9ed4c9d1d93b590025df2f01fb050f2606e4d86e4205d493a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6aa7ea369677d8ef5c82592acb2543031d9c48f984ee50b798607753c0bb87fa",
+        "response_hash": "b66686d12e62f7ea1281236e69f0032f4c9bb52068ae6b9d355e8b6c3c7c5331",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2b015e4809b7a0eb877211d32785f344e756e247a0ae48d96c9e340e2f071949",
+        "response_hash": "f75fcada2c5830f2d736ca67c96cc640f919d86b242bcad93cb8d4045d65d675",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b680bb7d7c1215e341d695f6a21806e66575a811a490abd79ee1973386b227e3",
+        "response_hash": "ac571ca0c7d97ebf470a5497090e53efd0163f93b8f70f34ed87b5aadb1d3b3d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d6e5d4eb930ef9fd7d2da910ff731bb3e42e9de6222be8d851252d3a831cadfd",
+        "response_hash": "358745a353cf89ad89323a408f0562aa3e653523087f89e046437a273321eff4",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "059708ee04ff4745aaa9e685f6e430b010e26d0d410717fc543a18fef69c38f3",
+    "translation_sha256": "96bfb902b40d6135fa3d114581ad543883f009fbacd7112902857a24ff9bc99a"
+  }
+}

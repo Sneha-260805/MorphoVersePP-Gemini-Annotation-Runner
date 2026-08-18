@@ -1,0 +1,213 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contemplative realization to acceptance of life's transience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'sabse paar hai' as 'conquers all' slightly shifts the philosophical nuance of transcending or crossing over worldly struggles to a more active conquest.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To overcome all worldly struggles, difficulties, or the cycle of existence successfully.",
+            "acceptable_visual_variants": [
+              "A figure standing peacefully on a far shore looking back at distant waves",
+              "A silhouette stepping into a bright, clear space beyond a chaotic threshold"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L4",
+            "literal_meaning": "is on the other side / has crossed over",
+            "literalization_risk": "Showing a person physically stepping off a boat onto a riverbank, which misses the abstract sense of mental or spiritual triumph over life's fleeting nature.",
+            "metaphor_mapping": {
+              "tenor_concept": "transcending worldly difficulties",
+              "transferred_attributes": [
+                "reaching safety",
+                "leaving obstacles behind",
+                "attaining a state of completion"
+              ],
+              "vehicle_concept": "crossing a river or sea"
+            },
+            "source_span_original": "पार है",
+            "source_span_translation": "conquers all",
+            "source_term": "पार है",
+            "tenor": "overcoming life's challenges or achieving liberation/success",
+            "vehicle": "crossing a body of water to reach the opposite shore",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized figure standing calmly on a high, stable vantage point looking back over a turbulent, misty path they have successfully traversed."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the internal rhyme and rhythmic flow of the Hindi words 'baat' (L1) and 'saar' (L2), as well as the specific idiomatic nuance of 'sabse paar' (L4), which literally means 'beyond everyone/everything' or 'crossing over,' but is translated more aggressively as 'conquers all.'",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation introduces 'tomorrow' to complete the rhyme scheme, which is not explicitly present in the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An immense, overwhelming, and deep abundance of happiness experienced in a single moment.",
+            "acceptable_visual_variants": [
+              "A vast, calm ocean reflecting a golden sunrise",
+              "A figure floating peacefully on a sparkling, endless sea under a clear sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "ocean of happiness",
+            "literalization_risk": "Depicting a literal body of water made of smiling faces or literal water, which looks surreal or comical rather than emotionally profound.",
+            "metaphor_mapping": {
+              "tenor_concept": "abundance of emotion",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "boundlessness",
+                "immensity"
+              ],
+              "vehicle_concept": "ocean"
+            },
+            "source_span_original": "खुशियों का सागर",
+            "source_span_translation": "a sea of joy",
+            "source_term": "खुशियों का सागर",
+            "tenor": "an immense volume of joy",
+            "vehicle": "an ocean or sea",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person surrounded by a vast, sparkling, deep blue expanse of water reflecting warm, bright sunlight to evoke a sense of boundless light and happiness."
+          },
+          {
+            "abstract_meaning": "An all-encompassing, heavy, and inescapable environment of grief or suffering.",
+            "acceptable_visual_variants": [
+              "A solitary figure sitting under a vast, dark, stormy sky that fills the entire frame",
+              "A dark, monochromatic landscape stretching to the horizon, conveying isolation"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "world of sorrow",
+            "literalization_risk": "Drawing a literal globe or planet covered in weeping faces, which feels cartoonish and detracts from the internal weight of sorrow.",
+            "metaphor_mapping": {
+              "tenor_concept": "all-encompassing emotional state",
+              "transferred_attributes": [
+                "entirety",
+                "containment",
+                "inescapability",
+                "vastness"
+              ],
+              "vehicle_concept": "world/planet"
+            },
+            "source_span_original": "दुःख का संसार",
+            "source_span_translation": "a world of sorrow",
+            "source_term": "दुःख का संसार",
+            "tenor": "the totalizing experience of grief",
+            "vehicle": "a world or universe",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure enveloped in a dark, vast, shadowy landscape or a heavy, swirling atmosphere of deep blues and greys that seems to stretch out infinitely."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the word 'tomorrow' in L8 to force an English rhyme with 'sorrow' in L6, which is not present in the original Hindi text ('haar' simply means defeat or loss, with no temporal reference to tomorrow).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound significance of a single moment in shaping the entire essence and experience of human life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक पल की बात है,  \nजीवन का सारा सार है।  \nक्षण में जो समझ सका,  \nवही सबसे पार है।  \n\nएक पल में खुशियों का सागर,  \nएक पल में दुःख का संसार।  \nक्षण भर में बदल जाए जीवन,  \nक्षण भर में हो जीवन हार।",
+  "poem_id": "MV++_0827",
+  "poem_title": "Ek Pal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "42da9b15847eac156f7adea11b4d2a9724dc05083d993671ae47dc2dfcf109d8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0827.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "It's just a moment,  \nThe essence of life it holds.  \nWhoever understands in an instant,  \nIs the one who conquers all.  \n\nIn a moment, a sea of joy,  \nIn a moment, a world of sorrow.  \nLife can change in a blink,  \nOr in a moment, be lost tomorrow.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:17:34.291420+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "639876e28c9e26b9e2f6186c73b671f4493a995540cd27922d73f28915caff45",
+        "response_hash": "dcee6775634161d35e4316f81e0ea6bebca1e37dcd440f0f18332a542a20b9cc"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c916a2f9b2c34aeb0d3874a066019e914c60185dd07ebce429324939518cc428",
+        "response_hash": "dbe4fd1e7e7dcca3f2b9a32b17055ba998fd52f96b6257accf5e08da5168bbef",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "71d5c1c8c8cd2b8002a54a12dd9f2f151217eacdcd44146ffaad60b76f35b732",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4de7fc2d2ded8c6bbd4db72e2b7fcb2e94d8568ff25410995911ecf894e41f26",
+        "response_hash": "9f9f88d01109907d8bc0a6c769945ff7a5e801d9f74a4a45f07382f4d7437d22",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2090a62d8409205cc7794112ef4b9b2d765773377537f7b55b9373ec1afd5a56",
+        "response_hash": "c3d09fe5e84249f69e23bea6f4c72fb47d904a270c3436a15a329a7b1f7f2d2d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "85f515a62a5787a9f5d9717b16c41ffedd64a22f2681d538a1d443c3a64f4bc5",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9e10b8465fc05b82aca2e7b75684cf504d232ad97a8f49463b1262249449274e",
+    "translation_sha256": "ba2df11e877adf8ed7858b1647d3725b4c44c847aa373c5b77316fd9848cb882"
+  }
+}

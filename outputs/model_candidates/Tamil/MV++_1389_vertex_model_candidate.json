@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peaceful devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the agglutinative flow of Tamil case endings (e.g., 'kanavil' meaning 'in dream', 'ullathin' meaning 'of the heart/soul') is simplified into standard English prepositions.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Being constantly immersed in or carried away by thoughts of a loved one.",
+            "acceptable_visual_variants": [
+              "A person resting peacefully with closed eyes surrounded by soft, warm light",
+              "A silhouette gently drifting through a starry, hazy sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Floating in memory",
+            "literalization_risk": "Showing a person physically floating on water or inside a giant brain/cloud of memories, which looks like a literal drowning or sci-fi scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "being immersed in memories",
+              "transferred_attributes": [
+                "buoyancy",
+                "effortless suspension",
+                "being carried by a current"
+              ],
+              "vehicle_concept": "floating on water"
+            },
+            "source_span_original": "நினைவில் மிதக்கும்",
+            "source_span_translation": "Floating in your memory",
+            "source_term": "நினைவில் மிதக்கும்",
+            "tenor": "The state of being immersed in memories",
+            "vehicle": "An object floating on water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene figure in a soft, dreamlike environment with gentle ripples or light patterns suggesting a floating sensation without literal water."
+          },
+          {
+            "abstract_meaning": "The inner feelings, joy, and emotional harmony of the soul.",
+            "acceptable_visual_variants": [
+              "Flowing golden ribbons of light surrounding a peaceful figure",
+              "A subtle background pattern resembling gentle sound waves or musical staves"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the song of the heart/mind",
+            "literalization_risk": "Depicting a literal musical score or instrument emerging from a physical heart or chest cavity.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner emotional state",
+              "transferred_attributes": [
+                "harmony",
+                "rhythm",
+                "expression of deep feeling"
+              ],
+              "vehicle_concept": "a musical song"
+            },
+            "source_span_original": "உள்ளத்தின் கீதத்தில்",
+            "source_span_translation": "In the song of my soul",
+            "source_term": "உள்ளத்தின் கீதத்தில்",
+            "tenor": "The inner emotional state and feelings of the soul",
+            "vehicle": "A musical song or melody",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use abstract visual elements like flowing, rhythmic lines of light or soft waves of color emanating from a person to suggest music and harmony."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'நிறைந்து கொண்டிருக்கிறது' as 'ever-present' flattens the continuous aspect marker '-கொண்டிருக்கிறது' which literally means 'is filling up' or 'is in the process of overflowing/filling', losing the dynamic sense of love actively filling the heart.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The genitive case marker '-இன்' in 'உள்ளத்தின்' (of the heart/soul) and 'கீதத்தில்' (in the song) represents an agglutinative chain of possession and locative relationship ('in the song of my heart') which is rendered with standard English prepositions, losing the tight syntactic fusion of the original Tamil.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring presence of love sustained through dreams and memories"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கனவில் வாழ்கை,  \nஉன் நினைவில் மிதக்கும்,  \nஎன் உள்ளத்தின் கீதத்தில்,  \nகாதல் நிறைந்து கொண்டிருக்கிறது!",
+  "poem_id": "MV++_1389",
+  "poem_title": "Kanavil Vaazhkai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e357eb7ecc5f5ecd05cf1611adeb2356029fad4c07a777cbf3113cd783109e7a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1389.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Life in dreams,  \nFloating in your memory,  \nIn the song of my soul,  \nLove is ever-present!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:28:35.130795+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "92b359af18812d8211dff173edb294bc29df4867fc558e4b8a8ab499e088c5ff",
+        "response_hash": "5c3d8a121ec2d693c7e8d1298677bc7841c3a68bbf6ba331f4299a063901ed23"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b65c14539d6047afed1d04370d10570b5faef190b1ce50f133ff0497fe0a99e",
+        "response_hash": "6aef5239a5778946fce0edba2dc5615eafc7467d94b01eef1312f104517a6c7c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b1a01a0bcc87191c5b6b2b8a786119a6eb8104642ec5f1cc941a76ddab67e7f3",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d1ef8eeaf5b3ee74730f91ff847e34dce5054224c63dd938af220cb8a3128bc1",
+        "response_hash": "60f4fbb2fe12b1f2b206cd44b83306e3da3f9b11dd7bf1aabce10a54753bc76f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cf302c74fda78cdc0c4f67f9b8a0316c9a6017b965aa7368b8f3e761ebdef68d",
+        "response_hash": "707b26afa00514867b301f160e4dcb6c36c37c9adb22698ec776faf6d9fac996",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9dfd26454ed5777ead78968694f5e77b6e0ce6e898ada73ba545f2d1b89f2106",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2d0047713ac80d56c61671b42ef9a7b685291931bc01aaf3cb02a0f06c34648a",
+    "translation_sha256": "4d61545f7bbac864624b980b1f2bd07a3cb9e21f2396277126f5fda5967d8997"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A lush green grove with ancient banyan trees",
+          "A quiet forest clearing near a river bank"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A sacred grove of five banyan trees mentioned in the Ramayana, where Rama, Sita, and Lakshmana lived during their exile.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic modern garden",
+          "A dense tropical jungle without banyan trees"
+        ],
+        "preserved": true,
+        "romanization": "Panchvati",
+        "source_span_original": "पंचवटी",
+        "source_span_translation": "Panchvati",
+        "stanza_index": 1,
+        "term": "पंचवटी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A serene forest clearing",
+          "Five prominent banyan trees",
+          "A simple rustic setting"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A simple circular leaf-thatched hut",
+          "A small rectangular cottage made of forest materials"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional rustic hut constructed from leaves, straw, and bamboo, typically used by hermits or exiles in ancient Indian forests.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A modern wooden log cabin",
+          "A brick or stone cottage"
+        ],
+        "preserved": true,
+        "romanization": "parnakuti",
+        "source_span_original": "पर्णकुटी",
+        "source_span_translation": "leafy hut",
+        "stanza_index": 2,
+        "term": "पर्णकुटी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A small simple hut",
+          "Roof thatched with broad green and dry leaves",
+          "Walls made of woven bamboo or twigs"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Sita sitting near the leafy hut",
+          "Sita interacting with forest animals"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "An affectionate and regional name for Sita, the consort of Rama and the central heroine of the epic Ramayana.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A heavily ornamented queen in a palace setting",
+          "A generic modern Indian woman"
+        ],
+        "preserved": true,
+        "romanization": "Siya",
+        "source_span_original": "सिया",
+        "source_span_translation": "Sita",
+        "stanza_index": 2,
+        "term": "सिया",
+        "translation_note": "Translated as 'Lady Sita' to preserve her identity and title.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A serene woman in simple forest attire",
+          "Dressed in ascetic or simple traditional garments",
+          "An aura of grace and resilience"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Rama standing guard near the hut",
+          "Rama sitting peacefully in the grove"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A title for Rama, meaning 'the Lord or chief of the Raghu dynasty/clan'.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A king wearing a golden crown and royal robes",
+          "A generic warrior without traditional Indian ascetic features"
+        ],
+        "preserved": true,
+        "romanization": "Raghukulapati",
+        "source_span_original": "रघुकुलपति",
+        "source_span_translation": "Lord of the Raghu clan",
+        "stanza_index": 2,
+        "term": "रघुकुलपति",
+        "translation_note": "Translated descriptively as 'the Lord of the Raghu clan'.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A noble warrior-prince in simple forest attire",
+          "Carrying a bow and quiver of arrows",
+          "Calm and majestic expression"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Rama looking affectionately at Sita",
+          "Rama sitting in meditation under a tree"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The seventh avatar of Vishnu and the protagonist of the Ramayana epic.",
+        "line_ref": "L8",
+        "negative_confusions": [
+          "A generic deity with multiple arms",
+          "A modern warrior"
+        ],
+        "preserved": true,
+        "romanization": "Rama",
+        "source_span_original": "राम",
+        "source_span_translation": "Rama",
+        "stanza_index": 3,
+        "term": "राम",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A noble figure with a serene countenance",
+          "Dressed in simple forest-dwelling attire",
+          "Often depicted with a bow"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A traditional scroll or manuscript",
+          "Visual motifs representing scenes of exile and devotion"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The ancient Indian epic poem detailing the life and adventures of Prince Rama, Sita, and Lakshmana.",
+        "line_ref": "L11",
+        "negative_confusions": [
+          "A generic modern printed book"
+        ],
+        "preserved": true,
+        "romanization": "Ramayana",
+        "source_span_original": "रामायण",
+        "source_span_translation": "Ramayana",
+        "stanza_index": 4,
+        "term": "रामायण",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An ancient palm-leaf manuscript",
+          "An aura of epic storytelling"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A radiant, golden-hued landscape",
+          "A peaceful forest scene where predators and prey drink together"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The first of the four cosmic yugas (ages) in Hindu cosmology, characterized by truth, virtue, and absolute righteousness.",
+        "line_ref": "L13",
+        "negative_confusions": [
+          "A futuristic city",
+          "A generic heaven with clouds and angels"
+        ],
+        "preserved": true,
+        "romanization": "Satyug",
+        "source_span_original": "सतयुग",
+        "source_span_translation": "golden age",
+        "stanza_index": 4,
+        "term": "सतयुग",
+        "translation_note": "Translated as 'the golden age' to convey the conceptual meaning to English readers.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An atmosphere of perfect harmony, light, and peace",
+          "Nature blooming in pristine beauty",
+          "Coexistence of humans and wild animals"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "reverence and peace to deep spiritual wonder",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal meaning of 'Panchvati' as a grove of five sacred banyan/fig trees is lost in the generic translation 'The Grove of Panchvati'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The specific cultural title 'Raghukulpati' (Lord of the Raghu clan) is translated as 'Lord of the Raghu clan', which loses the compact, compound Sanskritized poetic resonance of the original title.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'satkar' literally means hospitality, welcoming, or honoring guests; translating 'vanya jeevan ka kiya satkar' as 'Embracing the wild with grace' shifts the active cultural practice of offering hospitality/respect to nature into a more passive emotional state of embracing it.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Nature itself felt deeply moved, restless, or emotionally responsive to the profound love of Rama and Sita.",
+            "acceptable_visual_variants": [
+              "Leaves rustling softly in the wind with ripples on a nearby stream",
+              "A soft mist rising among the trees under a gentle light"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L9",
+            "literal_meaning": "Nature also became restless/agitated",
+            "literalization_risk": "Depicting nature as literally pacing or showing human anxiety might look cartoonish or chaotic rather than serene and emotionally charged.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural environment",
+              "transferred_attributes": [
+                "emotional sensitivity",
+                "responsiveness",
+                "movement"
+              ],
+              "vehicle_concept": "human restlessness"
+            },
+            "source_span_original": "प्रकृति भी हुई विकल",
+            "source_span_translation": "nature became restless",
+            "source_term": "प्रकृति भी हुई विकल",
+            "tenor": "The natural environment of the forest responding dynamically to the emotional atmosphere",
+            "vehicle": "A restless, emotionally stirred human being",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the forest elements (leaves, water, wind) in gentle, dynamic motion, as if reacting to a spiritual or emotional presence."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The wordplay on 'jad' (which means both 'root' of a plant/tree and 'inert/non-living matter' in philosophical contexts) in 'jad se jude' is simplified to 'rooted', losing the dual resonance of being connected to the physical earth/roots and the spiritual/material elements of nature.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sacred history and spiritual essence of the Ramayana are deeply felt and remembered in every part of the physical landscape.",
+            "acceptable_visual_variants": [
+              "A serene forest clearing with ancient trees bathed in golden sunlight",
+              "A soft, glowing aura surrounding the natural elements of the grove"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "The story of the Ramayana echoed",
+            "literalization_risk": "Showing literal text or speech bubbles rising from the dirt would look overly literal and ruin the natural landscape.",
+            "metaphor_mapping": {
+              "tenor_concept": "historical and spiritual memory",
+              "transferred_attributes": [
+                "reverberation",
+                "pervasiveness",
+                "resonance"
+              ],
+              "vehicle_concept": "audible echo"
+            },
+            "source_span_original": "रामायण की गाथा गूँजी",
+            "source_span_translation": "Echoed the tale of the Ramayana",
+            "source_term": "रामायण की गाथा गूँजी",
+            "tenor": "The enduring spiritual and historical memory of the events embedded in the location",
+            "vehicle": "An audible echo or sound reverberating through space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the ancient, sacred atmosphere of the grove, perhaps with soft, warm light filtering through the trees to suggest a living history."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific mythological and cosmological term 'Satyug' (the first and most righteous of the four cyclic cosmic ages in Hindu cosmology) is translated as 'the golden age', which replaces a precise cyclical Hindu temporal concept with a generic Western historical/literary trope.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The sacred, harmonious exile of Rama and Sita in the serene grove of Panchvati, reviving the purity of the golden age."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पंचवटी\n\nपर्णकुटी बनाकर वन में,  \nमाता सिया और रघुकुलपति,  \nबसे पंचवटी के रमणीय क्षेत्र में,  \nवन्य जीवन का किया सत्कार।\n\nजड़ से जुड़े सहज स्नेह में,  \nहरित छाया के उस आँगन में,  \nराम का प्रेम स्नेहिल,  \nवहाँ प्रकृति भी हुई विकल।\n\nउस मिट्टी के कण-कण में,  \nरामायण की गाथा गूँजी।  \nपंचवटी के इस रमणीय क्षेत्र में,  \nसतयुग की छवि पुनः पाई।",
+  "poem_id": "MV++_0611",
+  "poem_title": "Panchvati",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "db8a71fb8a5d5120d1842309bcbccbc88448cf39addd33fb41be69f284ddfcab",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0611.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Grove of Panchvati\n\nIn a leafy hut in the woods,  \nLady Sita and the Lord of the Raghu clan,  \nSettled in the lovely Panchvati grove,  \nEmbracing the wild with grace.\n\nIn the simple, rooted affection,  \nIn the courtyard of green shade,  \nRama’s love was tender and true,  \nEven nature became restless there.\n\nIn each particle of that earth,  \nEchoed the tale of the Ramayana.  \nIn this enchanting grove of Panchvati,  \nThe image of the golden age was revived again.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:46:06.001898+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "52dbd866ef413aebe6ac896864354b61946261a4b99f73782a6e83db7a5f8b92",
+        "response_hash": "3003da71bb9efa3ad96480690ba18dc1f70367dbb6151d65e4939c7741895603",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a88de652a60601e9626f12fca284e028235f5be43187130139cde32a744f65fe",
+        "response_hash": "2b4ff788a2af5a0ebe7981c139ff6732ca075fcd06bdc7b22ed860c4dbdbba9a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b20e2472de411f74035b43c97ff1aefd7c7d540901b6e229f448d215c91570b2",
+        "response_hash": "a8caa6824c9435c2cfff5249d2d402e618c3eea6c45fcc4dbe148057bf000d7f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c6886100b7c2da699552829cabfda48f984487da68f72f824634c70166b07154",
+        "response_hash": "02f12b2c104bc97f386bfa22e4feea5b1851bfe95fab90645893fb224b2837a0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ef3ca83d2943baa200e28ee8d51f7862f7bce0463b94797761d50a3d01161066",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0349869c2cc0ed3138613fb9d9d7ebab023ca11699d988f88a7ba33c6e84e18a",
+    "translation_sha256": "f66b646e8bca0dcc46a872992b4f7c9da00097d507b8bdf5d46944096fffc981"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A classic black-and-white portrait style reflecting his historical era",
+          "A symbolic representation of a critic's desk with Malayalam manuscripts and books"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Kuttikrishna Marar (1900–1973) was an influential Malayalam literary critic and scholar who revolutionized Malayalam literary criticism with his analytical and independent approach. His name also carries the caste-associated suffix 'Marar' (traditionally temple musicians/drummers in Kerala), though here it functions as his proper name.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Depicting him as a temple drummer playing a chenda merely because of the caste name 'Marar', which is completely irrelevant to his identity as a literary critic in this poem's context"
+        ],
+        "preserved": true,
+        "romanization": "Kuttikrishna Marar",
+        "source_span_original": "കുട്ടികൃഷ്ണ മാരാർ",
+        "source_span_translation": "Kuttikrishna Marar",
+        "stanza_index": 1,
+        "term": "കുട്ടികൃഷ്ണ മാരാർ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A portrait of an intellectual, scholarly Indian man of the mid-20th century, typically depicted with traditional Kerala attire (such as a simple white mundu) and a thoughtful, analytical expression."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "reverence and intellectual appreciation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but the compound verb 'വഴിയുനർത്തുന്നു' (vazhiyunarthunnu - literally awakening the path/guiding) is simplified to 'guiding' in English, losing the poetic nuance of awakening or illuminating a path.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The profound, deep state of contemplation and intellectual reflection.",
+            "acceptable_visual_variants": [
+              "A silhouette of a head filled with deep blue water or cosmic space",
+              "A person sitting in deep meditation with soft, layered shadows expanding around them"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "In the depth of contemplation / thinking",
+            "literalization_risk": "Showing a person literally submerged underwater or standing at the edge of a physical canyon, which distracts from the intellectual nature of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "profound thought",
+              "transferred_attributes": [
+                "depth",
+                "immensity",
+                "stillness"
+              ],
+              "vehicle_concept": "deep water"
+            },
+            "source_span_original": "ആലോചനയുടെ ആഴത്തിൽ",
+            "source_span_translation": "In the depths of thought",
+            "source_term": "ആലോചനയുടെ ആഴത്തിൽ",
+            "tenor": "The intensity and profound nature of human thought",
+            "vehicle": "A deep body of water or physical abyss",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, reflective figure surrounded by deep, cool-toned layers of blue or shadow, suggesting internal depth and quiet contemplation."
+          },
+          {
+            "abstract_meaning": "The creative and spontaneous generation of ideas and intellectual insights.",
+            "acceptable_visual_variants": [
+              "Soft, glowing abstract shapes resembling opening petals around a silhouette",
+              "Delicate organic lines branching out like growing vines with soft light at the tips"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Thoughts blooming / flowering",
+            "literalization_risk": "Depicting literal flowers growing out of a brain or head, which can look surreal, bizarre, or comical rather than intellectual.",
+            "metaphor_mapping": {
+              "tenor_concept": "emerging thoughts",
+              "transferred_attributes": [
+                "growth",
+                "beauty",
+                "sudden appearance",
+                "vitality"
+              ],
+              "vehicle_concept": "blooming flowers"
+            },
+            "source_span_original": "ചിന്തകൾ പൂക്കുന്ന",
+            "source_span_translation": "Ideas bloom",
+            "source_term": "ചിന്തകൾ പൂക്കുന്ന",
+            "tenor": "The emergence and growth of creative thoughts and ideas",
+            "vehicle": "Flowers blooming on a plant",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use abstract, glowing floral shapes or organic, expanding patterns of light that gently unfurl around a contemplative figure."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Malayalam verb 'വഴിയുനർത്തുന്നു' (vazhiyunarthunnu) is a poetic compound combining 'vazhi' (path/way) and 'unarthunnu' (awakens/rouses). The English translation 'Guiding' flattens this evocative image of 'awakening the path' into a standard directional verb.",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Malayalam word 'ആലോചന' (aalochana) in 'ആലോചനയുടെ' (aalochana-yude) carries a deeper connotation of intense contemplation, deliberation, or counsel, which is simplified to the more generic 'thought' in the English translation.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of critical thought and literary analysis as exemplified by Kuttikrishna Marar"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Malayalam",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "കുട്ടികൃഷ്ണ മാരാർ  \nആലോചനയുടെ ആഴത്തിൽ  \nചിന്തകൾ പൂക്കുന്ന  \nവിമർശനത്തിനായ്‌  \nജീവിതത്തെ  \nവഴിത്തിരിവുകളിലേയ്ക്ക്‌  \nവഴിയുനർത്തുന്നു.",
+  "poem_id": "MV++_1183",
+  "poem_title": "Kuttikrishna Marar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "716c2c100a39dedb536b96e707186af0a0c171a3afd2ca70d41b047181c2c4d7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Malayalam/MV++_1183.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Kuttikrishna Marar,  \nIn the depths of thought,  \nIdeas bloom  \nFor criticism,  \nGuiding life  \nThrough its twists and turns.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:06:26.454662+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a3b9008d4176085aa9b3dd6abde683a231b7cf9ffdf49faf335480946f3d03ae",
+        "response_hash": "ef4259a09a33e3fb56408ed89cbf05ddad67d722f4264abc0b7d07e185438194"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8fc2a226f740aefa0f4dbbdee6df7a6075719af844f1fbecb193158e43fdb8f2",
+        "response_hash": "ef59b5315541d520b203fdab0e13d564811a47da9fc57e2c948977804f83f9bf",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3ab83a17d3b114d21cebce450dc48bec6c665b418d59f4ba6d605a495d5779b0",
+        "response_hash": "1ea444deb19422c2c06555973f275df85f3bb03b785eb860f7b643f4fef67d93",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "98bd04be0099de86ac0bd06b2c79ed90e354a0e315facbd3dbfb43c0b510ec0e",
+        "response_hash": "3b2e9da461d745e30f1e37ccc3fd12f7e093371033e5642579e4bd4dc4ec6fa0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "37f765fe3dd1a7d96cad669c3d0737876937595ae74e5855076f20fe5d3ebb82",
+        "response_hash": "6d6c35694628ff3c4f0a038d9aa85fcc72d32319101b204529d47475f96fb238",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dfaebbfadd0705eaca79ed9fce86338bda43ee1621d80eb2a7569f08e6e4886e",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d40b06802d4a14f67988cb3aecfea21623467e622b1a3c28d06efa16c4f42cf6",
+    "translation_sha256": "e2a6c1f004253b3553f6b3ca97f33ac069331827ee3710095809d4fea14cb18c"
+  }
+}

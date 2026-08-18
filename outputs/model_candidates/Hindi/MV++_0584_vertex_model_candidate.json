@@ -1,0 +1,258 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Terraced green steps carved into steep mountain slopes with a single farmer",
+          "A wider view of a mountain village with stepped agricultural fields under a bright sun"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Terrace farming or hill agriculture, which is a distinct socio-ecological practice and regional symbol of life in the Himalayan and hilly regions of India, requiring unique labor, community cooperation, and adaptation to steep terrains.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Flat industrial plains with large tractors",
+          "Generic tropical rice paddies on flat wetlands"
+        ],
+        "preserved": true,
+        "romanization": "pahad par kheti",
+        "source_span_original": "पहाड़ पर खेती",
+        "source_span_translation": "Farming on the hills",
+        "stanza_index": 1,
+        "term": "पहाड़ पर खेती",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Steep terraced hillsides",
+          "Farmers working on narrow steps of land",
+          "Traditional agricultural tools suitable for mountain terrain"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "acknowledgment of hardship to deep admiration of human resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The farmers rely on every single drop of water for their survival and hope for a good harvest.",
+            "acceptable_visual_variants": [
+              "A dry, cracked soil bed with a single green sprout receiving a single drop of water",
+              "A farmer looking up at a cloudy sky with a single raindrop reflecting on their face"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "To tie or connect hope to every single drop of water.",
+            "literalization_risk": "An illustrator might draw literal threads or ropes tied to falling water droplets, which looks surreal and misses the emotional weight of agricultural dependence.",
+            "metaphor_mapping": {
+              "tenor_concept": "placing emotional reliance and expectation",
+              "transferred_attributes": [
+                "connection",
+                "dependence",
+                "fragility"
+              ],
+              "vehicle_concept": "tying a physical thread or connection"
+            },
+            "source_span_original": "हर बूंद से उम्मीद जोड़नी पड़ती है।",
+            "source_span_translation": "every drop holds hope.",
+            "source_term": "हर बूंद से उम्मीद जोड़नी पड़ती है।",
+            "tenor": "Relying on scarce water resources for survival and future success",
+            "vehicle": "Tying or connecting hope to a physical drop of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of a farmer's weathered hands cupping a single, precious drop of water falling from a leaf or sky, with an expression of deep anticipation."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'हर बूंद से उम्मीद जोड़नी पड़ती है' as 'And every drop holds hope' flattens the active, effortful Hindi phrasing 'उम्मीद जोड़नी पड़ती है' (one has to connect/bind hope to every drop) into a passive state of holding hope.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Drought severely affects and takes over the agricultural fields.",
+            "acceptable_visual_variants": [
+              "A dusty haze or heat shimmer rising from dry, cracked fields under a harsh sun",
+              "A boundary of dry, yellowed grass encroaching upon a cultivated terrace field"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "Drought surrounds or encircles the fields like an active captor.",
+            "literalization_risk": "Depicting a literal monster or shadowy figure physically wrapping its arms around a field, which shifts the genre to fantasy.",
+            "metaphor_mapping": {
+              "tenor_concept": "the spread of environmental devastation",
+              "transferred_attributes": [
+                "hostility",
+                "inescapability",
+                "encirclement"
+              ],
+              "vehicle_concept": "surrounding or encircling an enemy"
+            },
+            "source_span_original": "सूखा घेर लेता है खेतों को",
+            "source_span_translation": "drought seizes the fields",
+            "source_term": "सूखा घेर लेता है खेतों को",
+            "tenor": "The pervasive and inescapable spread of dry weather over farmland",
+            "vehicle": "An active captor or enemy surrounding a target",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a wide shot of parched, cracked earth spreading from the edges and completely enveloping a small patch of green crops."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'सूखा घेर लेता है खेतों को' as 'drought seizes the fields' loses the specific spatial nuance of 'घेर लेता है' (surrounds/encircles), which evokes a sense of being trapped or besieged by the drought.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The farmers work under the intense, scorching heat of the sun.",
+            "acceptable_visual_variants": [
+              "A farmer working on a terraced slope with a bright sun overhead casting sharp, dark shadows",
+              "Sunburned, weathered skin on a farmer's neck and face as they bend over crops"
+            ],
+            "expression_type": "other",
+            "line_ref": "L9",
+            "literal_meaning": "They are scorched or charred in the sunlight.",
+            "literalization_risk": "Showing farmers literally on fire or with blackened, charred skin, which is morbid and inaccurate.",
+            "metaphor_mapping": {
+              "tenor_concept": "enduring intense solar heat during hard labor",
+              "transferred_attributes": [
+                "extreme heat",
+                "physical suffering",
+                "exhaustion"
+              ],
+              "vehicle_concept": "scorching or charring by heat"
+            },
+            "source_span_original": "धूप में झुलसते हैं",
+            "source_span_translation": "They burn in the sun",
+            "source_term": "धूप में झुलसते हैं",
+            "tenor": "Enduring extreme heat and physical exhaustion while working outdoors",
+            "vehicle": "Being physically burned or charred by fire",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a farmer wiping sweat from their brow under a bright, blazing sun, with heat waves shimmering in the background."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'धूप में झुलसते हैं' as 'They burn in the sun' loses the specific intensity of 'झुलसना', which means to be scorched, singed, or withered by heat, rather than just generally burning.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The grueling struggle of hill farming as a source of life's meaning and human resilience"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पहाड़ पर खेती करना  \nएक कठिन काम है,  \nहर बीज को बचाना पड़ता है  \nहर बूंद से उम्मीद जोड़नी पड़ती है।\n\nकई बार बारिश नहीं आती  \nऔर सूखा घेर लेता है खेतों को,  \nफिर भी उम्मीद नहीं छोड़ते लोग  \nहर बार नए जोश से फसल बोते हैं।\n\nधूप में झुलसते हैं,  \nपसीने से तर होते हैं,  \nफिर भी एक मुस्कान  \nउनके चेहरों पर रहती है।\n\nक्योंकि पहाड़ पर खेती करना  \nसिर्फ जीविका नहीं,  \nबल्कि एक संघर्ष है  \nजो जीवन को अर्थ देता है।",
+  "poem_id": "MV++_0584",
+  "poem_title": "Pahad Par Kheti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f36c2d4aebaa37289f8d4b87df9f5598054efc125b6d69c1eab99a16daad4ea3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0584.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Farming on the hills  \nIs a difficult task,  \nEvery seed must be protected  \nAnd every drop holds hope.\n\nMany times, the rain doesn’t come  \nAnd drought seizes the fields,  \nYet the people don’t lose hope  \nAnd plant crops with renewed zeal.\n\nThey burn in the sun,  \nDrenched in sweat,  \nYet a smile  \nRemains on their faces.\n\nBecause farming on the hills  \nIs not just a livelihood,  \nBut a struggle  \nThat gives life its meaning.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:41:22.825621+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "231265a385229608a5a99ade657341f27ec744b5fc5439180b8b4cb147955342",
+        "response_hash": "e122ce884cc0a5e66c665da4d420a7a6eea6e989529b1159c1253918591deda6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "04e497cd867aa7f3a793d87ed62116c478a87e50251b688ae25f4c452c9a48c4",
+        "response_hash": "abd6ab07f6b1b4efe06c02fe3df60413712a4efbd40534663f3619145175e96f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "83586ab9fa66ef7897b8995754569c988bc6b332ab89f6113665d88c1cd27193",
+        "response_hash": "bd0dfbb7e9745f30b91fba5acf80233667f1f954d4bb53753a95024faebee1ba",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f081f27f04600b5eae65fe282656d11cf534d7066ea45a82417a02d26825c8f1",
+        "response_hash": "b27287f91e7be81f16261a5eaffd1b937727390ad3e643fb3ca51bc28af974d6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d9ecb06797c616d16038a512e10bb39232a9233ade31d51b04fe3dbc79f16cf2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e3e7334088e77ee5c47b576bbc0ef740ba8090b459fa7d91134f1774d979f1f9",
+    "translation_sha256": "1f665b4eb9f33e87520035fb63e4050004569541cba799e92da6a810c9b52936"
+  }
+}

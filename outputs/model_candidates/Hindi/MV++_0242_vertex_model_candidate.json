@@ -1,0 +1,190 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "disillusionment to quiet resignation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The artificial, superficial, and emotionless expressions of people in modern society who lack genuine warmth or vitality.",
+            "acceptable_visual_variants": [
+              "People wearing flat, printed paper masks of smiling faces over tired or expressionless real faces.",
+              "A group of people standing stiffly like artificial mannequins in a sterile, colorless environment."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "Human faces that physically resemble artificial flowers made of paper.",
+            "literalization_risk": "An illustrator might literally draw people with actual paper origami flowers growing out of their necks instead of heads, which looks surreal or whimsical rather than conveying emotional emptiness and superficiality.",
+            "metaphor_mapping": {
+              "tenor_concept": "superficial human expressions",
+              "transferred_attributes": [
+                "lack of natural scent/warmth",
+                "artificiality",
+                "lifelessness",
+                "faded beauty"
+              ],
+              "vehicle_concept": "artificial paper flowers"
+            },
+            "source_span_original": "काग़ज़ के फूल जैसे चेहरे",
+            "source_span_translation": "faces like paper flowers",
+            "source_term": "काग़ज़ के फूल जैसे चेहरे",
+            "tenor": "human faces / expressions (lacking genuine emotion, warmth, or vitality)",
+            "vehicle": "paper flowers (artificial, scentless, and lifeless imitations of real flowers)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a crowd of people with stiff, mask-like, or overly manicured expressions that look artificial and flat, perhaps with a subtle texture of paper or cardboard on their skin, contrasting with a natural background."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the specific rhythmic and phonetic resonance of the Hindi phrasing, particularly the contrast between the Persian-derived 'berang' (colorless) and 'rangat' (vibrant color/glow/hue), which share a common root 'rang' (color) in the original text. This internal linguistic echo is flattened into 'colorless' and 'hue'.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The wear and tear, neglect, and corrupting influence of time, societal pressures, or worldly experiences.",
+            "acceptable_visual_variants": [
+              "A fine layer of grey dust settling over old, forgotten portraits or figures sitting motionless.",
+              "A clock face or hourglass slowly dissolving into fine grey sand or dust that settles over people."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Physical dust or dirt accumulated from the physical world or era.",
+            "literalization_risk": "An illustrator might draw a literal giant cloud of dirt or a vacuum cleaner, which misses the abstract sense of emotional weariness, aging, and societal neglect.",
+            "metaphor_mapping": {
+              "tenor_concept": "the dulling effect of time and societal wear",
+              "transferred_attributes": [
+                "obscuring original brightness",
+                "accumulation over time",
+                "neglect",
+                "dullness"
+              ],
+              "vehicle_concept": "accumulated dust"
+            },
+            "source_span_original": "ज़माने की धूल",
+            "source_span_translation": "dust of time",
+            "source_term": "ज़माने की धूल",
+            "tenor": "the passage of time, societal neglect, or worldly hardships",
+            "vehicle": "dust (which accumulates over time, dulling colors and burying objects)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a subtle, grey, dusty overlay or fading effect on the figures, making them look neglected, forgotten, or blending into a drab, grey background as if covered by a fine layer of soot or time."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'zamaane ki dhool' as 'the dust of time' slightly shifts the nuance of 'zamaanah', which refers not just to abstract time, but to the world, the era, or society at large. The original suggests the wear and tear inflicted by the world/society, which is narrowed to purely temporal decay in English.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The artificiality and loss of genuine vitality in human faces worn down by time and societal falseness."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].loss_note",
+      "issue": "The field loss_note is empty, but translation_loss contains an entry. When translation loss is identified, loss_note should summarize it rather than being empty.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].loss_note",
+      "issue": "The field loss_note is empty, but translation_loss contains an entry. When translation loss is identified, loss_note should summarize it rather than being empty.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ये काग़ज़ के फूल जैसे चेहरे,  \nझूठे और बेरंग हैं सब।  \nइनमें ना कोई खुशबू है,  \nना इनमें कोई रंगत बाकी है।\n\nवो जो कभी ताजगी थी,  \nवो अब कहीं खो गई है।  \nज़माने की धूल ने इनको,  \nबेजान और भुला दिया है।",
+  "poem_id": "MV++_0242",
+  "poem_title": "Kaagaz Ke Phool",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a8dfd737d493650a7fd1e30c2489ac4751a09d6eb3b4d7f5fa7fd1e8191af4e9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0242.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "These faces like paper flowers,  \nAll are false and colorless.  \nThey hold no fragrance,  \nNor do they have any hue left.\n\nThe freshness they once had,  \nHas now disappeared somewhere.  \nThe dust of time has left them,  \nLifeless and forgotten.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:03:35.095091+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8a9d6ce5be0f1412dfdeee33bb473bc2553c0ec2be827b6d932905aabbbacf85",
+        "response_hash": "26b90a79b3b6c08254df2c38fb8b35ab042031b54ece576d1921a8e157805d09",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0efc34323bfda48acfe8507d56d72629fef9b4554214262e6842e30b0d836c8c",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8c4250c294e63a4cd16e8163ee603c5277dfb2ae9bc7de1d71c525143d8634a3",
+        "response_hash": "6779d1e19cb56adc4de9386bea3b624920bc408474724f268d1a2c405eb2abe9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da3d8e0ee923a28cade07ed219087130ca4afa7c7cde144d427e3ff44942d79e",
+        "response_hash": "17a2f9281e8250c236477b37f7a80e54911a90f1e99b1b4e906104bbbe30af34",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da8655a21913f9d9e72bd73ee31a51cd0eb72521f5e5e04e60cb0ab91ab0079c",
+        "response_hash": "6da4763b2bad0fd4c44b9ff5bbd4214e6b4391fe97c202e894c7bc19cf09ebb1",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "20dfe24c14a01b117811f632fcd02d898ebd3219ef7ce423f2962d9f14003d38",
+    "translation_sha256": "60be296543b9653a5e4d3de563c489a225851228e5e3f66f8347e82702a7aa38"
+  }
+}

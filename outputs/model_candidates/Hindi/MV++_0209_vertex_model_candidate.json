@@ -1,0 +1,270 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contemplative observation of external noise to internal disconnect",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation introduces 'quiet halls' to rhyme with 'calls', which adds a spatial metaphor not present in the original Hindi 'khamoshi' (silence/quietness).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The profound, meaningful quality of silence that speaks louder than actual noise.",
+            "acceptable_visual_variants": [
+              "A person sitting in deep, peaceful meditation in a quiet room with soft light",
+              "A still, windless forest clearing at dawn"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The priceless voice/sound of silence",
+            "literalization_risk": "Depicting a physical mouth or musical note emerging from a silent void, which looks like literal sound rather than quietness.",
+            "metaphor_mapping": {
+              "tenor_concept": "silence",
+              "transferred_attributes": [
+                "expressiveness",
+                "preciousness",
+                "audibility"
+              ],
+              "vehicle_concept": "voice or musical sound"
+            },
+            "source_span_original": "शांति का अनमोल स्वर",
+            "source_span_translation": "A precious sound of silence, a voice",
+            "source_term": "शांति का अनमोल स्वर",
+            "tenor": "The profound state of silence",
+            "vehicle": "A precious voice or musical sound",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, quiet environment like a calm room or a still landscape with soft, warm light, suggesting a peaceful atmosphere without physical sound waves."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the word 'halls' ('quiet halls') to force a rhyme with 'calls', which is not present in the original Hindi text ('ख़ामोशी' simply means silence/quietness).",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'शांति का अनमोल स्वर' (the precious voice/tone of peace) as 'A precious sound of silence, a voice', shifting the concept of peace ('shanti') to silence, and splitting 'स्वर' into 'sound' and 'voice'.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation adds 'so deep' and 'and hide' to maintain the rhyme scheme, slightly altering the directness of the original Hindi phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Being completely lost in one's own thoughts or self-absorption.",
+            "acceptable_visual_variants": [
+              "A person sitting with closed eyes in a crowded cafe, with the background softly blurred",
+              "A stylized figure surrounded by a gentle, non-threatening watery outline while sitting in a normal room"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L5",
+            "literal_meaning": "Remaining submerged/drowned in oneself",
+            "literalization_risk": "Showing people physically drowning in water or inside their own bodies, which looks like a physical disaster.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental self-absorption",
+              "transferred_attributes": [
+                "being surrounded",
+                "inability to perceive external things",
+                "depth"
+              ],
+              "vehicle_concept": "submersion in water"
+            },
+            "source_span_original": "खुद में डूबे रहते",
+            "source_span_translation": "lost within themselves",
+            "source_term": "खुद में डूबे रहते",
+            "tenor": "Being deeply self-absorbed or lost in thought",
+            "vehicle": "Drowning or being submerged in water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person sitting in a crowded space but looking inward with a soft, semi-transparent blue overlay or a gentle ripple effect around them to suggest a separate mental space."
+          },
+          {
+            "abstract_meaning": "The chaotic, overwhelming mental chatter or emotional turmoil inside a person's mind.",
+            "acceptable_visual_variants": [
+              "A person with a hand to their temple, surrounded by a faint, chaotic swirl of abstract grey lines",
+              "A silhouette of a head filled with a dense, chaotic pattern of overlapping abstract shapes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The noise/clamor inside",
+            "literalization_risk": "Showing literal gears, speakers, or screaming faces inside a person's chest or head, which looks cartoonish or medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental chatter",
+              "transferred_attributes": [
+                "chaos",
+                "overwhelming nature",
+                "distraction"
+              ],
+              "vehicle_concept": "physical noise"
+            },
+            "source_span_original": "भीतर के शोर",
+            "source_span_translation": "the clamor inside",
+            "source_term": "भीतर के शोर",
+            "tenor": "Internal mental chatter and emotional unrest",
+            "vehicle": "Loud, chaotic physical noise",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking thoughtful or stressed, with faint, swirling abstract lines or chaotic scribbles softly layered around their head to represent mental noise."
+          },
+          {
+            "abstract_meaning": "An overwhelming, uncontrollable rush of thoughts.",
+            "acceptable_visual_variants": [
+              "A stylized figure sitting calmly while abstract, flowing blue lines sweep past them like a gentle current",
+              "A person looking up at a swirling vortex of soft, glowing abstract shapes representing thoughts"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "In this flood of thoughts",
+            "literalization_risk": "Showing a person drowning in a literal deluge of water or giant floating letters, which looks like a natural disaster or a fantasy scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "overwhelming thoughts",
+              "transferred_attributes": [
+                "overwhelming volume",
+                "uncontrollable flow",
+                "submerging everything"
+              ],
+              "vehicle_concept": "flood of water"
+            },
+            "source_span_original": "विचारों की इस बाढ़ में",
+            "source_span_translation": "In this flood of thoughts so deep",
+            "source_term": "विचारों की इस बाढ़ में",
+            "tenor": "An overwhelming rush of thoughts",
+            "vehicle": "A physical flood of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person sitting at a desk or in a room, with a stylized, gentle wave of abstract blue and white light patterns sweeping across the background, symbolizing a rush of thoughts."
+          },
+          {
+            "abstract_meaning": "True feelings and inner desires being suppressed or ignored due to mental distractions.",
+            "acceptable_visual_variants": [
+              "A faint, glowing heart icon behind a screen of abstract, overlapping geometric lines",
+              "A person holding their hand over their chest with a quiet, wistful expression, while the background is busy and cluttered"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "The words of the heart get buried/suppressed somewhere",
+            "literalization_risk": "Showing a physical heart organ buried under dirt or heavy rocks, which is graphic and misleading.",
+            "metaphor_mapping": {
+              "tenor_concept": "suppression of feelings",
+              "transferred_attributes": [
+                "being hidden",
+                "being crushed",
+                "loss of visibility"
+              ],
+              "vehicle_concept": "physical burial"
+            },
+            "source_span_original": "दिल की बातें कहीं दब जातीं",
+            "source_span_translation": "The heart's words get buried and hide",
+            "source_term": "दिल की बातें कहीं दब जातीं",
+            "tenor": "True feelings being ignored or suppressed",
+            "vehicle": "Objects being physically buried or crushed under weight",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a glowing, stylized heart shape in a person's chest, partially obscured or dimmed by overlapping abstract grey layers representing thoughts."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the adjective 'deep' ('thoughts so deep') to rhyme with 'hide/buried', which is absent in the original Hindi line 'विचारों की इस बाढ़ में' (literally, 'in this flood of thoughts').",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The paradox of silence containing infinite echoes while internal thoughts drown out the true voice of the heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सबसे बड़ा शोर है यह,  \nशांति का अनमोल स्वर है यह।  \nभीड़ में खो गई हैं आवाज़ें,  \nख़ामोशी में बसी हैं अनगिनत गूंजें।  \n\nखुद में डूबे रहते सब,  \nभीतर के शोर को नहीं सुन पाते।  \nविचारों की इस बाढ़ में,  \nदिल की बातें कहीं दब जातीं।",
+  "poem_id": "MV++_0209",
+  "poem_title": "Sabse Bada Shor",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cf661a744e82bbc6b5e818a43e64fc569f132dfa611641e92d6cfc8e7acf1c87",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0209.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This is the greatest noise,  \nA precious sound of silence, a voice.  \nLost in the crowd are the calls,  \nInfinite echoes reside in quiet halls.\n\nEveryone is lost within themselves,  \nUnable to hear the clamor inside.  \nIn this flood of thoughts so deep,  \nThe heart's words get buried and hide.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:59:52.370423+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a47109897df6d04aa07123782ce06c213093d971f2bd384becd80d5bfe4b4651",
+        "response_hash": "89ee6573d0a80737d46cfdfb05b8ab76536a952cd9592765aa0f905065eed9a9"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2993e3a31cab6cb8c731d36d9e01226c7511ee4ecf3ff62f6b3bb116d515ed1c",
+        "response_hash": "96fc8b0487e843a1e16cbb20ea4a587815cf83f61b2f928f2e6a37769eedbed2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fc7d872ced08a0fecf161b3810c34b927744fde7efcab08f713ff2fd4ffc0398",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2e66eb17cf3f4b6c513a8b4f1716f73fe986e469e65ebf2c70167c4d3af69088",
+        "response_hash": "cf2ee5275c377f71b54805e31c87ea5f1ab11c567992e96a9172d6a5dadbeed2",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "364a2c7d3d162e103d0de86665ac9cfa32e0632131cc8011b6c41a82a37ffec3",
+        "response_hash": "c3affeda2567d6f3418bad9db3d8fe72d83bba15990d033a5bdd9e5bf7469967",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f837e6533c6bfc1927f96567bd18b9eabf7f03fdf75f549bbc827ea39fa611a1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "72ba1d87f36300a5e9d433305a8ce935fdda57e1bc9e3d03914642240947ef12",
+    "translation_sha256": "35ece86bb75afe4b8761f64988eb64011427a3a740ddf19d01bad3e0fe4c0f22"
+  }
+}

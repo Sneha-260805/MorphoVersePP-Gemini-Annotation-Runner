@@ -1,0 +1,189 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and longing to peaceful resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'سرهاڻ جو گل' as 'garland of fragrance' captures the poetic essence, though 'گل' literally means flower, suggesting a single blossom or flower of fragrance worn around the neck.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The land is described as a personified entity that can show itself and wear a garland of fragrance around its neck, representing the beautiful, fragrant, and welcoming nature of the territory.",
+            "acceptable_visual_variants": [
+              "A scenic view of rolling green hills covered in vibrant, blooming wildflowers resembling a natural necklace.",
+              "A path or gateway in the land framed beautifully by fragrant flowering vines."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L4",
+            "literal_meaning": "A physical land mass showing itself to someone while wearing a fragrant flower garland around its neck.",
+            "literalization_risk": "An illustrator might draw a literal giant human-like earth figure with a neck wearing a physical flower garland, which looks cartoonish and misses the poetic beauty of the landscape.",
+            "metaphor_mapping": {
+              "tenor_concept": "A beautiful, fragrant landscape",
+              "transferred_attributes": [
+                "wearing a garland around the neck",
+                "exuding fragrance",
+                "welcoming presence"
+              ],
+              "vehicle_concept": "A person wearing a garland"
+            },
+            "source_span_original": "ڌرتي،  \nجيڪا تون مون کي ڏيکاريندين،  \nپنهنجي ڳچيءَ ۾،  \nسرهاڻ جو گل لايون.",
+            "source_span_translation": "land,  \nWhich you will show me,  \nWearing around your neck,  \nA garland of fragrance.",
+            "source_term": "ڌرتي،\nجيڪا تون مون کي ڏيکاريندين،\nپنهنجي ڳچيءَ ۾،\nسرهاڻ جو گل لايون.",
+            "tenor": "The beautiful, welcoming, and fragrant natural landscape of the land.",
+            "vehicle": "A person wearing a fragrant flower garland around their neck.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lush, beautiful landscape or path adorned with blooming, fragrant flowers that naturally wrap around hills or pathways like a garland."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'گل' (flower) as 'garland' to make sense of the neck metaphor, losing the literal singular 'flower of fragrance' (سرهاڻ جو گل) which is poetically worn or attached to the neck.",
+            "where": "L3-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The exclamation 'واه جو' (Wah jo) carries a specific Sindhi tone of admiration, wonder, and praise, which is somewhat flattened to the English exclamation 'Oh, that'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation captures the core meaning well, though the rhythmic, alliterative quality of 'جڳمڳ ڪندو' (shining/sparkling) is simplified to 'it will shine'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The love between the individuals will remain bright, hopeful, and resilient even during the most difficult, dark, or challenging times.",
+            "acceptable_visual_variants": [
+              "A warm, gentle glow emanating from two people holding hands in a dark, starry night.",
+              "A single lantern casting a warm, protective light around a couple in the darkness."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "An object physically glowing or emitting light during pitch-black nights.",
+            "literalization_risk": "An illustrator might depict a literal glowing heart or abstract light bulb in a dark room, which feels cliché and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "Love enduring through hardships",
+              "transferred_attributes": [
+                "brightness",
+                "visibility in darkness",
+                "providing guidance and warmth"
+              ],
+              "vehicle_concept": "A light shining in the dark"
+            },
+            "source_span_original": "انڌاري راتين ۾ به جڳمڳ ڪندو.",
+            "source_span_translation": "Even in the darkest of nights, it will shine.",
+            "source_term": "انڌاري راتين ۾ به جڳمڳ ڪندو.",
+            "tenor": "The resilience, hope, and enduring nature of love during difficult times.",
+            "vehicle": "A shining light or glowing object in pitch darkness.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two figures standing together in a vast, dark night landscape under a brilliant, clear starry sky, or holding a soft, warm, natural source of light like a lantern that illuminates their immediate surroundings."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic resonance of the Sindhi reduplicative/onomatopoeic-style verb 'جڳمڳ ڪندو' (jagmag kando - will glitter/sparkle/shimmer) is simplified to the standard English verb 'shine'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring power of love and connection to a promised land that shines even through the darkest times."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Sindhi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "واه جو ڌرتي،  \nجيڪا تون مون کي ڏيکاريندين،  \nپنهنجي ڳچيءَ ۾،  \nسرهاڻ جو گل لايون.\n\nاهو پيار جيڪو،  \nاسان جي وچ ۾ آهي،  \nهر وقت گڏ رهندو،  \nانڌاري راتين ۾ به جڳمڳ ڪندو.",
+  "poem_id": "MV++_1244",
+  "poem_title": "Wah Jo Dharti:",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "75231be97c35ddada4c7148f6748f271f3813afad9cb1503bf9c8016510efc56",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Sindhi/MV++_1244.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Oh, that land,  \nWhich you will show me,  \nWearing around your neck,  \nA garland of fragrance.\n\nThat love which,  \nExists between us,  \nWill always remain,  \nEven in the darkest of nights, it will shine.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:12:54.995826+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "370c603bab5495bb11623a4628e813f18872e3d084b6c5968e44550094083aa8",
+        "response_hash": "da67d8402e928b5c3d0c49610a2efa89d4b66868464f7d2535faeaa4d5eea09e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "423c29291e5284ad54cad8cbf16e5fc93bc84275fcebdb03c16af45bca920867",
+        "response_hash": "f8537f801efeb2be6f6bf32178a306b78018fd166fb38e22e6f702affa61a6c3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e2b1af9ba3f9877535055570f85811e07d29478124b96d6efac66a6e2029a8c1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3a388efa2ba2e498ff24111eaacfe7e3793b223969dfd0e5a9bc009c789f31bb",
+        "response_hash": "78614fea617f7874cc7fc1bb54fcd163e0a69eafc9b6a423ad9f829e186e26a0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dbb32525359e3880455f89f206aff3083929b1e34492eb92d7b39da18ae37f5e",
+        "response_hash": "030ef9cd3f3339d56268785da96d57090645c4b415462ea9a4bfa47197c29a02",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2333b023f58fbb83b1d79dfd25457b17c6b6a61f50965908b14ad628f94773bf",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2d49b7a1dbaf20e7bf74e1fcd93ff345f7dc2537a69ab3f3c9281030b2f92aec",
+    "translation_sha256": "6f53d0df9dd7407a2bc800538a655f932867b747ed749135a31c52ac5e5b26eb"
+  }
+}

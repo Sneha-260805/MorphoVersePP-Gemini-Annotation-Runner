@@ -1,0 +1,219 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "grief and endurance to quiet resilience and hope",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker feels that the difficult period of life (symbolized by the night) is not yet over and must be endured further.",
+            "acceptable_visual_variants": [
+              "A single candle burning low in a dark room with shadows stretching across the walls.",
+              "A person looking out at a dark, empty street under a single dim streetlamp."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3-L4",
+            "literal_meaning": "The night itself has to endure or tolerate more things.",
+            "literalization_risk": "Showing the night sky or a personified dark figure physically groaning or bearing a heavy weight, which looks like a fantasy character rather than a psychological state.",
+            "metaphor_mapping": {
+              "tenor_concept": "the night",
+              "transferred_attributes": [
+                "the capacity to feel pain",
+                "the act of enduring hardship"
+              ],
+              "vehicle_concept": "a suffering person"
+            },
+            "source_span_original": "रात को,\nकुछ और तो सहना बाकी है",
+            "source_span_translation": "this night still has\nMuch more to endure",
+            "source_term": "रात को, / कुछ और तो सहना बाकी है",
+            "tenor": "The night (representing a difficult period of time)",
+            "vehicle": "A person who has to endure or tolerate suffering",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure sitting in a dark room looking out of a window at a deep, dark night sky, conveying endurance and quiet sorrow."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic repetition of 'baaki hai' (remains / is left) across lines 1, 2, and 4 is partially flattened by using different English verbs ('is not yet over', 'remains', 'to endure'), losing the hypnotic, repetitive structure of the original Hindi.",
+            "where": "L1-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation renders 'baaton' (matters/things/conversations) as 'words' and adds 'still untold' which is not explicitly in the source text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of ignorance, sadness, or unresolved emotional confusion despite outward signs of hope or clarity.",
+            "acceptable_visual_variants": [
+              "A landscape where moonlight glints on distant hills but leaves the foreground valley in deep shadow.",
+              "A room where starlight filters through a window but cannot reach the dark corners."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L6",
+            "literal_meaning": "The physical absence of light.",
+            "literalization_risk": "Depicting a pitch-black room where nothing is visible, which fails to capture the presence of the moon and stars mentioned in the same stanza.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional or mental obscurity",
+              "transferred_attributes": [
+                "obscuring vision",
+                "creating a sense of coldness or isolation",
+                "making pathfinding difficult"
+              ],
+              "vehicle_concept": "physical darkness"
+            },
+            "source_span_original": "अंधेरा",
+            "source_span_translation": "darkness",
+            "source_term": "अंधेरा",
+            "tenor": "Emotional sadness, confusion, or unresolved problems",
+            "vehicle": "Physical darkness",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Render a night scene where the moon and stars are visible in the sky, but deep, heavy shadows still shroud the ground and the immediate surroundings of the observer."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'baaton ko' (matters/things/conversations) as 'words' and adding 'still untold' introduces a specific verbal/communicative framing that is more restrictive than the original Hindi 'baatein', which can refer to unexpressed thoughts, experiences, or unresolved matters.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To redefine, rebuild, or give concrete form and direction to one's dreams and hopes.",
+            "acceptable_visual_variants": [
+              "Hands gently cupping a small, soft glow of light, suggesting nurturing and shaping a spark.",
+              "An open journal with faint, abstract geometric sketches next to written words."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "To physically mold or sculpt something into a new physical shape.",
+            "literalization_risk": "Showing a person literally sculpting a cloud or a glowing word like 'dream' with clay tools, which looks overly literal and surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "redefining abstract dreams",
+              "transferred_attributes": [
+                "malleability",
+                "deliberate effort to create form",
+                "transformation from formless to structured"
+              ],
+              "vehicle_concept": "shaping clay or raw material"
+            },
+            "source_span_original": "एक नया आकार देना",
+            "source_span_translation": "Needs a new shape to take",
+            "source_term": "एक नया आकार देना",
+            "tenor": "Reimagining or realizing abstract dreams and hopes",
+            "vehicle": "Sculpting or molding a physical object",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person in deep contemplation, perhaps sketching on a blank canvas or looking at a horizon where faint, structured light patterns begin to form, suggesting the organization of thoughts."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'har khwaab ko, har sapna ko' as 'Every dream, every hope', substituting 'hope' for 'sapna' (which also means dream) to avoid English redundancy, thereby losing the emphatic, closely paired synonyms of the original Hindi.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Finding the strength to endure, understand, and reshape one's dreams in the quiet hours of a long night"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रात अभी बाकी है,  \nसन्नाटा भी बाकी है,  \nग़मों के साथ इस रात को,  \nकुछ और तो सहना बाकी है।\n\nचाँद भी है, सितारे भी हैं,  \nमगर फिर भी अंधेरा बाकी है,  \nन जाने कितनी बातों को,  \nसमझना अभी बाकी है।\n\nहर ख्वाब को, हर सपना को,  \nएक नया आकार देना बाकी है,  \nरात अभी बाकी है,  \nरात को अब जीना बाकी है।",
+  "poem_id": "MV++_0572",
+  "poem_title": "Raat Abhi Baaki Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4a95df7cd618026823965f0767901ac03d7739b5c32899db8db237c9208ff482",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0572.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The night is not yet over,  \nThe silence remains,  \nWith sorrows, this night still has  \nMuch more to endure.\n\nThe moon is there, the stars are there,  \nBut still, darkness prevails,  \nSo many words remain to be  \nUnderstood, still untold.\n\nEvery dream, every hope,  \nNeeds a new shape to take,  \nThe night is not yet over,  \nIt is yet to be lived.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:40:05.353572+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "655086b52c15de44039c8d99fca6079b25bcf57a396278dc36e2b636adc05664",
+        "response_hash": "54a2811b04ad4cd65b3416de1a87b14115dc8c245c30b8e2e0cf576e35bf553f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "40fb766f5a0a1f17dacb8f6b029b0c2dd0ed750242c8291494b36641db39a792",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f8516f4a2fc625cbb35ff68c03a20e230ea4c5495e365544d3892f345cf09bed",
+        "response_hash": "eb1ae4d0b8a1e209f4ac1249b795e6fe43eec7ec7a789afece1be3affeef1dbd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ef1aa3f6feaf7c5e48084543d93dba5bbf66ff3843333d7f78d289a771039f99",
+        "response_hash": "bb7c41a1eb4eb40e46bbfef9397d9e0806685a0218a2ba78157e300ffffb2939",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4880273d6a9fa800d5f69383a4270d09141d4a243b02ec4a30eecbcbe1cfd426",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c3c0c6df0964dc09056d03387feaf23a23a3439e60d94d43d551808ffaff4cee",
+    "translation_sha256": "b3695ff7080c01280ca4bd12e917b4242ec55b98d42137baee86653ec264cb6a"
+  }
+}

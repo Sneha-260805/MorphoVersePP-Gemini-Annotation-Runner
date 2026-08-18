@@ -1,0 +1,175 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet contemplation of fading memories",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation adds the word 'undefined' to the final line to complete the rhyme scheme, which is not present in the original Hindi text ('जो छुपी हुई हैं अजनबी' / 'who are hidden, strangers').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Fading, half-forgotten memories stored in the subconscious mind.",
+            "acceptable_visual_variants": [
+              "Faint, translucent sketches or silhouettes floating in a dark space",
+              "A dusty, old photo album with blurred, unrecognizable faces on the pages"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Forgotten, scattered paintings or pictures",
+            "literalization_risk": "Showing literal framed paintings or physical photographs lying around, which misses the internal, psychological nature of the memories.",
+            "metaphor_mapping": {
+              "tenor_concept": "fading memories",
+              "transferred_attributes": [
+                "static",
+                "visual",
+                "stored away",
+                "dusty or faded over time"
+              ],
+              "vehicle_concept": "forgotten paintings"
+            },
+            "source_span_original": "भूले बिसरे चित्र",
+            "source_span_translation": "forgotten images",
+            "source_term": "भूले बिसरे चित्र",
+            "tenor": "Fading memories of past events or people",
+            "vehicle": "Scattered, dusty, or forgotten paintings/pictures",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict faint, semi-transparent, or dusty outlines of scenes or faces floating softly within a dark, vast space representing the mind."
+          },
+          {
+            "abstract_meaning": "The memories have become so distant and unfamiliar over time that they feel like strangers hiding in the mind.",
+            "acceptable_visual_variants": [
+              "Vague, faceless figures standing in a dense fog",
+              "Shadowy outlines of people blending into a dark background"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Hidden like strangers/unfamiliar people",
+            "literalization_risk": "Depicting literal human intruders or strangers hiding behind physical furniture, which would look like a home invasion rather than a psychological state.",
+            "metaphor_mapping": {
+              "tenor_concept": "unfamiliar memories",
+              "transferred_attributes": [
+                "unrecognized",
+                "distant",
+                "hidden from plain sight",
+                "evoking a sense of unfamiliarity"
+              ],
+              "vehicle_concept": "strangers hiding"
+            },
+            "source_span_original": "छुपी हुई हैं अजनबी",
+            "source_span_translation": "Hidden, like strangers",
+            "source_term": "छुपी हुई हैं अजनबी",
+            "tenor": "The distant, unrecognizable nature of old memories",
+            "vehicle": "Strangers or unfamiliar people hiding in a space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show shadowy, indistinct human silhouettes standing in a misty background, partially obscured and looking away to represent unfamiliarity."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'undefined' to complete the rhyme scheme, which is not present in the original Hindi text.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the word 'like' to turn 'ajnabi' (strangers) into an explicit simile ('like strangers'), whereas the original Hindi text places 'ajnabi' in apposition or as a direct modifier ('hidden, strangers'), leaving the relationship slightly more ambiguous and poetic.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The elusive and distant nature of forgotten memories stored deep within the mind."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "भूले बिसरे चित्र हैं,\nमन के भीतर कहीं।\nधुंधली सी यादें हैं,\nजो छुपी हुई हैं अजनबी।",
+  "poem_id": "MV++_0743",
+  "poem_title": "Bhoole Bisre Chitra",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3b4b7c7a8ddaffc5d1249a463447c3c123c3444b8fef1b6f5ccd211a84d3863a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0743.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "There are forgotten images,  \nSomewhere deep inside the mind.  \nFaint memories linger,  \nHidden, like strangers, undefined.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:05:12.889139+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "287ab83845383196de92684e780b21560d00aefcf60df67ede96d28425820ce1",
+        "response_hash": "eda36f8735ece0185fe0f3b84a3359fcaa9d5681b524e94423a138db03c39011"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f81bc8665d92d652d429c1d4143a113b8cc0990c4adbd091bf8c35ff20cfe1c1",
+        "response_hash": "2acff43a1bc5cf2f9f9a8364418b68e7c4373cc284ace65e1b79a42b023d9f82",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7e2d7f24b9435c811d18daed54332f23ac6d2a8437365aeba6d973ca3c2b0589",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e3e4187ff9ed95a65d5da6857b5f5c80c35eb0e9bf1135c44e0dd0a89a3170f8",
+        "response_hash": "21e300525b5f5f9300f04f2cf760c8d82f6e5cd790b58c23cb0f3aa50a4f89d5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "108cb2c4e8f23e5274eb792e39fd9d1cee07249aa8a250113b357b5b9e4d802e",
+        "response_hash": "2e3a211f46d3e2816042f043834f58a3b05dd87d684444ec2581b656665f7fe3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9638b8f67d4d295de93b2db8b810c63db729d998daf413c5e2d0119566376fd6",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bff193b983a6d5306d610083c824b38f8d96b69711b2a4403ac3a730eec8010f",
+    "translation_sha256": "b58a9e90e58190ddd1371eaff4af2fa3738a30dd52b12a1629d57b8b73af1bb0"
+  }
+}

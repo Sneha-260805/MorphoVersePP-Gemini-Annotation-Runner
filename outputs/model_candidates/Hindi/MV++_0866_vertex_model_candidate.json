@@ -1,0 +1,190 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "nostalgic warmth to joyful peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The lingering emotional presence and mental impressions of past life events associated with the home.",
+            "acceptable_visual_variants": [
+              "Faint pencil height marks on a wooden doorframe.",
+              "Slightly faded patches on the wall where pictures used to hang, showing the passage of time.",
+              "A warm, softly lit wall with subtle textures of age and domestic life."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Physical marks, scratches, or physical imprints left by memories on a surface.",
+            "literalization_risk": "An illustrator might draw literal text, thought bubbles, or ghostly photographs physically stuck to or engraved into the plaster of the walls, which looks unnatural.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental impressions of memories",
+              "transferred_attributes": [
+                "visibility",
+                "permanence",
+                "association with a physical structure"
+              ],
+              "vehicle_concept": "physical marks on a wall"
+            },
+            "source_span_original": "यादों के निशान",
+            "source_span_translation": "marks of my memories",
+            "source_term": "यादों के निशान",
+            "tenor": "The mental and emotional impressions of past experiences",
+            "vehicle": "Physical marks or imprints on a wall",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, lived-in room with subtle signs of life and passage of time, such as faint pencil height marks of growing children on a doorframe or slightly faded paint where frames once hung."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मेरा मन' (mera man) as 'my mind' flattens the emotional and spiritual depth of 'man', which encompasses heart, soul, and inner emotional self rather than just the cognitive mind.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Hopes, aspirations, and future plans are nurtured, cultivated, and beautifully imagined within the home.",
+            "acceptable_visual_variants": [
+              "A child's bedroom corner with colorful drawings of houses and stars pinned to the wall.",
+              "A cozy window nook with books and a warm light, suggesting quiet contemplation and dreaming.",
+              "Children playing with building blocks, constructing imaginative structures."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "Dreams are physically decorated, arranged, or dressed up like physical objects or people.",
+            "literalization_risk": "An illustrator might draw literal floating dream bubbles containing physical decorations, jewelry, or ornaments, which looks overly surreal and misses the domestic warmth.",
+            "metaphor_mapping": {
+              "tenor_concept": "nurturing and cultivating abstract hopes",
+              "transferred_attributes": [
+                "beauty",
+                "careful arrangement",
+                "aesthetic preparation"
+              ],
+              "vehicle_concept": "decorating or dressing up physical objects"
+            },
+            "source_span_original": "सपने सजते हैं",
+            "source_span_translation": "dreams are adorned",
+            "source_term": "सपने सजते हैं",
+            "tenor": "The nurturing and flourishing of hopes and aspirations",
+            "vehicle": "Physical objects or people being decorated/adorned",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a cozy, imaginative space such as a child's bedroom corner with drawings, colorful toys, or a starry night-light, suggesting a space where imagination and future hopes are nurtured."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The passive translation 'dreams are adorned' for 'सपने सजते हैं' (sapne sajte hain) loses the active, self-decorating, and blossoming nuance of the Hindi intransitive verb 'sajna' in relation to dreams.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The comforting sanctuary of one's own home filled with memories, light, and the joy of family."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss array is provided for this stanza. When translation_loss is present, translation_quality should typically be 'partial' to reflect the loss of nuance.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss array is provided for this stanza. When translation_loss is present, translation_quality should typically be 'partial' to reflect the loss of nuance.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मेरा अपना घर,  \nजिसकी दीवारों पर  \nमेरी यादों के निशान हैं।  \nखिड़कियों से आती हैं  \nसूरज की किरणें,  \nजिससे भर जाता है  \nमेरा मन।  \n\nबच्चों की हंसी से  \nगूंजता है हर कोना,  \nजहां सपने सजते हैं,  \nहर दिन नया होता है।",
+  "poem_id": "MV++_0866",
+  "poem_title": "Mera Apna Ghar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "93c9286993082629de69f9ef11965fe4670f9be5c8c718cf51f7bfcbb02bacab",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0866.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My own home,  \nWhose walls bear  \nThe marks of my memories.  \nSunbeams come through  \nThe windows,  \nFilling my mind.  \n\nEvery corner resonates  \nWith children's laughter,  \nWhere dreams are adorned,  \nAnd every day is new.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:22:40.510965+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "12d9f40fa7c3615d4ca47196dab8d923f92d9eb44dd7ba0f2c3d0f07f6011203",
+        "response_hash": "948f312df4a4b7f50a7925784e90828bcddb59c76bb4a2adf6c5bcfde22554bf",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "17379ac8369754c6a9b13ad60faf33569b18404e04fe2ad53a1a8b8191e02345",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "76e332f2e64b4f083931cf25c5c1a1d902ecd16d14c3cf5770ca2d6112559a59",
+        "response_hash": "d6d8606b6d5a7477612bcb7f46869b5e1f717eac511edbe061367d815a1b6c2d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b32f1ba898a988bf1bf10ffb78c14df5b9fbe96d5fd8fb761a5e8904c2504541",
+        "response_hash": "eb35c8441deba31b669fca9f0ff6ba4218aad8359796f1de74f3e902dd699048",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c4d6ff9e2cd72661c6612ddc95efbdb2fdc0b75684ce9c47cd188d508a3e41ca",
+        "response_hash": "1b749e2bfec5d213449ed486166d6431be6c8c299fdb7fa2ae11c799777ec0f4",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "55495caec34138a98ab6372f8f7abbda3cd36d1506bac72fca2c564dac6d3408",
+    "translation_sha256": "96a5cd6221d63e13cfcd25e4e50b28cf7bf9e491cdfebf6744e221e8d1f5e21a"
+  }
+}

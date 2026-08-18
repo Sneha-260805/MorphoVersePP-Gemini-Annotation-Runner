@@ -1,0 +1,178 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A transition from observing a gathering storm to witnessing the earth and trees react with fear and submission.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "fear",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but slightly loses the rhythmic repetition of 'dekha' (saw) at the end of lines 1, 2, and 4, which emphasizes the speaker's role as an active, witnessing observer.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The earth shaking or vibrating under the force of a powerful storm, described as if it is feeling fear.",
+            "acceptable_visual_variants": [
+              "A wide landscape shot of a vast plain under a dark, heavy sky with dust rising from the vibrating ground",
+              "A close-up of soil and small stones vibrating as heavy rain begins to fall"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "The earth feeling frightened/shrinking back in fear",
+            "literalization_risk": "Depicting a literal human face or body emerging from the soil looking scared, which would look cartoonish and ruin the naturalistic storm imagery.",
+            "metaphor_mapping": {
+              "tenor_concept": "seismic or atmospheric vibration of the ground",
+              "transferred_attributes": [
+                "shaking",
+                "vulnerability",
+                "instability"
+              ],
+              "vehicle_concept": "human fear and trembling"
+            },
+            "source_span_original": "धरती को सहमती हुई",
+            "source_span_translation": "The earth trembling",
+            "source_term": "धरती को सहमती हुई",
+            "tenor": "The physical shaking or vulnerability of the earth during a violent storm",
+            "vehicle": "A person trembling or shrinking back in fear",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a cracked, dry, or vibrating ground surface under dark storm clouds, perhaps with loose pebbles or dust visibly shaking to convey physical trembling."
+          },
+          {
+            "abstract_meaning": "The trees bending low under the force of strong storm winds, described as if they are bowing in submission or respect.",
+            "acceptable_visual_variants": [
+              "A single large tree bent low towards the ground under a dark sky",
+              "A row of trees along a ridge all leaning heavily in the direction of the storm wind"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Saw the tree bowing down (as a human bows in respect or submission)",
+            "literalization_risk": "Depicting trees with human-like backs, arms, or faces physically bowing, which distracts from the natural majesty of the storm.",
+            "metaphor_mapping": {
+              "tenor_concept": "wind-induced bending of branches and trunks",
+              "transferred_attributes": [
+                "bending forward",
+                "lowering height",
+                "yielding to a superior force"
+              ],
+              "vehicle_concept": "human bowing"
+            },
+            "source_span_original": "पेड़ को झुकता हुआ देखा",
+            "source_span_translation": "And the trees bowing down",
+            "source_term": "पेड़ को झुकता हुआ देखा",
+            "tenor": "Trees bending under the physical force of strong winds",
+            "vehicle": "A person bowing down in submission or respect",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict trees with their trunks and branches heavily bent at an angle, leaves blowing wildly in one direction, capturing the intense force of the wind."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the rhythmic repetition of the verb phrase 'hua dekha' (saw happening) which structures the original Hindi lines (L1, L2, L4) and creates a parallel, meditative cadence.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'sahamati' as 'trembling' loses the specific emotional nuance of fear, shrinking, or being startled/awed that the Hindi verb 'sahamna' carries, flattening a personified emotional reaction into a physical motion.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The singular 'ped' (tree) is translated as plural 'trees', altering the singular focus of the original image.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The overwhelming power of nature during a storm and the humble submission of the earth and its elements to it."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बादल को घेरता हुआ देखा,  \nबिजली को चमकता हुआ देखा,  \nधरती को सहमती हुई,  \nऔर पेड़ को झुकता हुआ देखा।",
+  "poem_id": "MV++_0698",
+  "poem_title": "Badal Ko Gherta Hua Dekha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a1de820aaae1c7697ab644a14788f3ffef8340cef85b9477deea1cf99fa4870c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0698.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Saw the cloud gather,  \nThe lightning flash,  \nThe earth trembling,  \nAnd the trees bowing down.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:57:54.646291+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "78b8db8ded84b0780c13e4ba9f76b3e8097bab98502bd23ed6e994dcb7b4ebe1",
+        "response_hash": "d23260f771ace55c9c3621e184cec6aa34c534c6c40984ed67d7f8c5e57846bc"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "85f5a83c31db4f0a51febd3113b50fec3f02b8c19ee035d9db09039a4d40f152",
+        "response_hash": "c54b8bce31df24fc5c857590b9c50bb69dd2896c10a09d6cf576061c0e4a9d7e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bc228fae451869f7c936a24fa0fd661b68fb01bb1057fc5f8b6453f816184eaa",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6d5e708f5b0b08a4d3d4a091af3811874bd6be5a647529f95e8806cbee8e0b33",
+        "response_hash": "b9cb38d1f79dd57160fca4706b14c8a32dfad49437620e1321f27bd8b52d35b3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "47f4f81d0764048a690047a76e8ec8805356d353315ebfff95bd887caea2a205",
+        "response_hash": "4f6a01662c132535ae1039fb6b84cd74bc945934c1dcec8519e384644e21a8f6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "505781302a0482526313d4ca5e27560df801ed260dce59c07b10bfccb3d4e893",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "933c107e41f98d7853ef547ea03387383d010282c7ae2c98b63c8d321c4cd06b",
+    "translation_sha256": "e7e17e5dcab492f173b37ce22a344d995abf2b1ac3f8094ed0a8cae5846b237f"
+  }
+}

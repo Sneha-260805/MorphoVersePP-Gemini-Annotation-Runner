@@ -1,0 +1,338 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contemplative observation to empowering acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Human existence is a temporary, structured performance where people play pre-assigned roles.",
+            "acceptable_visual_variants": [
+              "A classic wooden theater stage with curtains framing a vast, starry sky instead of a backdrop",
+              "A stylized path shaped like a stage platform winding through a landscape of clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Life is a theater stage",
+            "literalization_risk": "An illustrator might draw a literal wooden theater stage with actors, losing the philosophical depth of human life.",
+            "metaphor_mapping": {
+              "tenor_concept": "human existence",
+              "transferred_attributes": [
+                "temporary nature",
+                "pre-assigned roles",
+                "structured performance"
+              ],
+              "vehicle_concept": "theater stage"
+            },
+            "source_span_original": "जीवन एक रंगमंच है",
+            "source_span_translation": "Life is a stage",
+            "source_term": "जीवन एक रंगमंच है",
+            "tenor": "human existence",
+            "vehicle": "theater stage",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a surreal, vast landscape blending into a theatrical stage with cosmic elements, showing people walking across it."
+          },
+          {
+            "abstract_meaning": "Every individual has a specific role or destiny to play in the world.",
+            "acceptable_visual_variants": [
+              "People in modern clothing holding theatrical masks in their hands",
+              "Silhouettes of people cast as shadows on a stage backdrop"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Everyone here is a theatrical character/actor",
+            "literalization_risk": "Depicting people in literal theatrical costumes might make it look like a specific historical play rather than a universal metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "individual human being",
+              "transferred_attributes": [
+                "assigned role",
+                "temporary presence",
+                "performing for an audience"
+              ],
+              "vehicle_concept": "theatrical character"
+            },
+            "source_span_original": "हर कोई यहाँ एक पात्र है",
+            "source_span_translation": "Everyone here is a character",
+            "source_term": "हर कोई यहाँ एक पात्र है",
+            "tenor": "individual human being",
+            "vehicle": "theatrical character",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show diverse people wearing subtle, semi-transparent masks or holding scripts while walking through daily life scenes."
+          },
+          {
+            "abstract_meaning": "The mental space or backdrop where human desires, hopes, and dreams are projected.",
+            "acceptable_visual_variants": [
+              "A sheer, flowing fabric curtain blowing in the wind with constellations shining through it",
+              "A soft, misty screen hovering in the air reflecting surreal landscapes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "On the curtain/screen of dreams",
+            "literalization_risk": "Drawing a literal movie screen or heavy theater curtain might look too modern or commercial, losing the ethereal quality of dreams.",
+            "metaphor_mapping": {
+              "tenor_concept": "human mind or imagination",
+              "transferred_attributes": [
+                "projection surface",
+                "temporary display of images",
+                "boundary between reality and illusion"
+              ],
+              "vehicle_concept": "theater curtain or screen"
+            },
+            "source_span_original": "सपनों के पर्दे पर",
+            "source_span_translation": "On the screen of dreams",
+            "source_term": "सपनों के पर्दे पर",
+            "tenor": "human mind or imagination",
+            "vehicle": "theater curtain or screen",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a translucent, shimmering curtain made of stardust or light, with faint, glowing dream-like imagery projected onto it."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'parde' (curtain) as 'screen', which shifts the theatrical metaphor of a stage curtain to a modern cinematic or digital screen.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Everyone must participate and fulfill their duties in the grand drama of life.",
+            "acceptable_visual_variants": [
+              "A group of diverse individuals moving in unison along a path of light",
+              "Figures interacting with giant, symbolic chess pieces on a stage floor"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "In this game/play, everyone has to perform/play their part",
+            "literalization_risk": "Showing people playing a literal board game or sports game would completely miss the theatrical and existential context of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "the course of human life and duties",
+              "transferred_attributes": [
+                "rules to follow",
+                "active participation required",
+                "inevitable involvement"
+              ],
+              "vehicle_concept": "game or theatrical play"
+            },
+            "source_span_original": "इस खेल में सबको निभाना है",
+            "source_span_translation": "In this play, everyone must act",
+            "source_term": "इस खेल में सबको निभाना है",
+            "tenor": "the course of human life and duties",
+            "vehicle": "game or theatrical play",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict people of various ages engaged in everyday actions (working, walking, comforting each other) on a stage-like platform."
+          },
+          {
+            "abstract_meaning": "Every emotional state, experience, or phase of life (both joyful and sorrowful) contains deeper meaning.",
+            "acceptable_visual_variants": [
+              "Swirling ribbons of different colored light wrapping gently around the figures",
+              "A background that transitions from bright, sunny hues to deep, reflective twilight tones"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L9-L10",
+            "literal_meaning": "In every color, the meaning of life is hidden",
+            "literalization_risk": "Showing literal paint buckets or a rainbow might look like an art class rather than a deep philosophical statement about life's phases.",
+            "metaphor_mapping": {
+              "tenor_concept": "diverse human emotions and experiences",
+              "transferred_attributes": [
+                "variety",
+                "emotional associations",
+                "richness of experience"
+              ],
+              "vehicle_concept": "colors"
+            },
+            "source_span_original": "हर रंग में जीवन का\nअर्थ छिपा है",
+            "source_span_translation": "In every color, the essence of life\nIs hidden",
+            "source_term": "हर रंग में जीवन का\nअर्थ छिपा है",
+            "tenor": "diverse human emotions and experiences",
+            "vehicle": "colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use a vibrant color gradient (shifting from warm yellows to deep blues and purples) washing over the characters and the stage."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'khel' (game/play) as 'play' to maintain the theatrical metaphor, but it loses the dual meaning of 'khel' as a game or cosmic play.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'arth' (meaning/purpose) as 'essence', which slightly shifts the philosophical nuance from 'meaning' to 'essence'.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Human existence is a temporary, structured performance where people play pre-assigned roles.",
+            "acceptable_visual_variants": [
+              "A classic wooden theater stage with curtains framing a vast, starry sky instead of a backdrop",
+              "A stylized path shaped like a stage platform winding through a landscape of clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L13",
+            "literal_meaning": "Life is a theater stage",
+            "literalization_risk": "An illustrator might draw a literal wooden theater stage with actors, losing the philosophical depth of human life.",
+            "metaphor_mapping": {
+              "tenor_concept": "human existence",
+              "transferred_attributes": [
+                "temporary nature",
+                "pre-assigned roles",
+                "structured performance"
+              ],
+              "vehicle_concept": "theater stage"
+            },
+            "source_span_original": "जीवन एक रंगमंच है",
+            "source_span_translation": "Life is a stage",
+            "source_term": "जीवन एक रंगमंच है",
+            "tenor": "human existence",
+            "vehicle": "theater stage",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a surreal, vast landscape blending into a theatrical stage with cosmic elements, showing people walking across it."
+          },
+          {
+            "abstract_meaning": "Every individual is the protagonist of their own life story, holding agency and significance.",
+            "acceptable_visual_variants": [
+              "Ordinary people looking out towards a bright horizon with determined expressions",
+              "Silhouetted figures standing proudly under a canopy of stars"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L14",
+            "literal_meaning": "We are all the heroes/protagonists here",
+            "literalization_risk": "Drawing comic-book superheroes or ancient warriors in armor would distort the poem's message of everyday human dignity.",
+            "metaphor_mapping": {
+              "tenor_concept": "individual human beings with agency",
+              "transferred_attributes": [
+                "central importance",
+                "agency",
+                "facing challenges"
+              ],
+              "vehicle_concept": "theatrical hero or protagonist"
+            },
+            "source_span_original": "हम सब यहाँ के नायक हैं",
+            "source_span_translation": "We are all the heroes here",
+            "source_term": "हम सब यहाँ के नायक हैं",
+            "tenor": "individual human beings with agency",
+            "vehicle": "theatrical hero or protagonist",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show ordinary people standing tall and confident, illuminated by individual spotlights on the stage of life."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'parikalpana' (imagination/conception/hypothesis) as 'concept', which loses the poetic and creative nuance of imagination or visualization.",
+            "where": "L11"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'nayak' (protagonists/leads) as 'heroes', which introduces a modern heroic connotation rather than the theatrical 'lead actors' or 'protagonists' that directly mirrors 'patra' (characters) in L2.",
+            "where": "L14"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Life as a theatrical stage where every individual plays a temporary but meaningful role"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जीवन एक रंगमंच है,  \nहर कोई यहाँ एक पात्र है।  \nसपनों के पर्दे पर  \nहर दिन नई कहानी है।  \n\nजो आए हैं, वो सब जाएंगे,  \nइस खेल में सबको निभाना है।  \nकुछ पल हँसते हैं,  \nकुछ पल रोते हैं,  \nहर रंग में जीवन का  \nअर्थ छिपा है।  \n\nहर रोज़ नई परिकल्पना है,  \nहर पल एक नया मोड़ है।  \nजीवन एक रंगमंच है,  \nहम सब यहाँ के नायक हैं।",
+  "poem_id": "MV++_0269",
+  "poem_title": "Jeevan Ek Rangmanch",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7455d42169f551151fcbd08466ea6a6d8ba460fd3f5211bd413485c882ed8f45",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0269.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Life is a Stage  \nLife is a stage,  \nEveryone here is a character.  \nOn the screen of dreams,  \nEvery day tells a new story.  \n\nThose who come will all depart,  \nIn this play, everyone must act.  \nSome moments are filled with laughter,  \nSome moments are filled with tears,  \nIn every color, the essence of life  \nIs hidden.  \n\nEvery day brings a new concept,  \nEvery moment has a new turn.  \nLife is a stage,  \nWe are all the heroes here.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:06:36.504838+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f308012748fef50ee0260726a528338bfbf77304f59f64f11a2a64d55764c348",
+        "response_hash": "cbbc98f50a0408fe3ec6bed8d15036b0daedca7d9536ec1cca58b4f0be3bd78c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6d7c32c56483c44ce8a7f4961c2133252286799afc538a55579ed86ef1c15a32",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "974202676f8cb81674f9ad90527a88cd6823c0b6c9d3641992bf2da3e772d195",
+        "response_hash": "8a0aefcdad9ebe98c28ddebcf8bde33776aea6d01674af4748f63b8cbd2ecaa2",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df00914ed1ec2afd38470c37ff75e3a443785474b697290479978fa878273f20",
+        "response_hash": "d63caf2b282362892d8c6c1c171b04fe9390283d2b2aa09cf9fa9df73d3cad9c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c3c76b553500d29100efbd587db945d8c394aa7d5303dec666cd5f86abe9bfb0",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f6929c085d2af0cd0b7cb6460b5659d4556f8cbd94644101bb2e962725b82bea",
+    "translation_sha256": "1fb280a45b7b3f6214428fee1ac69c69b8678fa364a5bca6f4e2ad4916a90ad2"
+  }
+}

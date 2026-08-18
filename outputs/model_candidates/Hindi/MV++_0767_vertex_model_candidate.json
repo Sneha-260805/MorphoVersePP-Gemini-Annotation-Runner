@@ -1,0 +1,153 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady rise of hope and inner strength inspired by the morning sun.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A fresh beginning, a new phase of life filled with optimism and energy.",
+            "acceptable_visual_variants": [
+              "A person looking out of a window at a golden dawn sky.",
+              "A path illuminated by the first rays of morning light."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "The sun rising at dawn.",
+            "literalization_risk": "An illustrator might draw a literal sun rising over a landscape, which misses the internal, psychological feeling of hope and enthusiasm described in the rest of the stanza.",
+            "metaphor_mapping": {
+              "tenor_concept": "new beginning",
+              "transferred_attributes": [
+                "brightness",
+                "freshness",
+                "dispelling of darkness",
+                "renewal"
+              ],
+              "vehicle_concept": "morning sun"
+            },
+            "source_span_original": "भोर का सूरज",
+            "source_span_translation": "morning sun",
+            "source_term": "भोर का सूरज",
+            "tenor": "A new beginning or a fresh start in life.",
+            "vehicle": "The morning sun rising at dawn.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a warm, golden morning light filtering into a room or onto a path, suggesting a fresh start, rather than just a generic landscape drawing of the sun."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The specific cultural and poetic resonance of 'bhor' (the auspicious, peaceful pre-dawn/early morning period) is simplified to the generic English 'morning'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Hindi verb 'mila tha' (literally 'was found' or 'was met') is translated as 'appeared', which alters the sense of active discovery or receiving a path that was given/encountered.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The dawn of new beginnings and the inner enthusiasm to face whatever path lies ahead."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries and a detailed loss_note should accompany any translation loss. Under the schema rules, translation_loss should be empty when translation_quality is faithful.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "भोर का सूरज चमका,  \nआत्मा में जोश था।  \nनई उम्मीदों के साथ,  \nहर रास्ता जो मिला था।",
+  "poem_id": "MV++_0767",
+  "poem_title": "Bhor Ka Sooraj",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d534deb8ca007733de20bf4776a432b4c91e3259c80e4cff23df739e3a3e04c5",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0767.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The morning sun shone,  \nThere was enthusiasm in the soul.  \nWith new hopes,  \nEvery path that appeared.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:09:19.231496+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bbafa7afbe934a6621587cff378508e03ddbd8811d4bacb128fb7eb2bd43cf00",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "24a76b6ec895fa282e3ae9631f918f15782242797479c76f95a470325ed7e682",
+        "response_hash": "2ce2e426c176ccb753a0eecfc26c66aa66e0449f366b597472f04a916becf8fd",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0169ccc25967b7d3e669b527f004a1767fac9e4e11e690134edcd7dba319afbd",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e7df2ffa98a0229a6457bcf05a695e4d032f86c64b3a90b1663b573d6b4a8eb4",
+        "response_hash": "cb247618dbb34fe22e29ee27a6e24e1b46d9e791227fd183d8f9c7dc0f1c4574",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2d6181a46d251fb37bc4203fcf8284cfb51b21da3ed9fadfc93112cf782765ed",
+        "response_hash": "7a7a32547a72b6d121f46cdcc92f7cd41b0cf9d8f0678d119a81afba70c13d1d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "efba89702290a1eafa47019d956f9daddb2eec6c0e2a2358658f4546061854fe",
+        "response_hash": "4606c175033b93485ada40294c628c336852e23661be61e672d67a4a26522915",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6c11e715cf975f8c1f8d72cdadf17c2325d16df2edc987546e71e6784074b67a",
+    "translation_sha256": "876b5f68657827d2471c92752a48bcd21d2e0f77dbba4ab7929f7a7eb5ba9e4b"
+  }
+}

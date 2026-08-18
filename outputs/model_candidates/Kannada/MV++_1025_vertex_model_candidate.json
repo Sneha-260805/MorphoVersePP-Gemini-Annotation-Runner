@@ -1,0 +1,262 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A wide shot of a serene rural lake in Karnataka with a person standing on the steps (katte) performing the offering.",
+          "A close-up of water flowing from a vessel back into a larger body of water."
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A famous philosophical and devotional metaphor in Kannada Haridasa literature (specifically attributed to Purandara Dasa), meaning to offer back to the Divine or the community what originally belongs to them, symbolized by pouring lake water back into the lake.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern concrete swimming pool or an industrial reservoir.",
+          "A generic Western lake without any regional or traditional Indian context."
+        ],
+        "preserved": true,
+        "romanization": "kereya niiranu kerege chelli",
+        "source_span_original": "ಕೆರೆಯ ನೀರನ್ನು ಕೆರೆಗೆ ಚೆಲ್ಲಿ",
+        "source_span_translation": "Return the lake’s water to the lake",
+        "stanza_index": 1,
+        "term": "ಕೆರೆಯ ನೀರನ್ನು ಕೆರೆಗೆ ಚೆಲ್ಲಿ",
+        "translation_note": "The translation renders the literal meaning of the phrase, but the deep cultural resonance of the Purandara Dasa kirtana metaphor (offering back to God what is already His, like offering lake water back to the lake) is lost without external commentary.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A person scooping water from a traditional South Indian village lake (kere) or stepwell and pouring it back into the same body of water.",
+          "Hands cupped or holding a simple clay/metal vessel."
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A transition from selfless offering to collective hope and love.",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the deep cultural resonance of the Purandara Dasa-inspired phrase 'kereya niranu kerege chelli' which implies returning divine gifts back to the divine.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Using resources or blessings that originally came from a source to give back to that source or to the community, reflecting a traditional proverb of selfless offering.",
+            "acceptable_visual_variants": [
+              "Hands cupping water from a lake and letting it flow back in a gentle, glowing stream",
+              "A community working together to direct lake water to nourish a shared garden"
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "Pouring the lake's own water back into the lake",
+            "literalization_risk": "An illustrator might literally depict a person scooping water out of a lake and pouring it right back in, which looks redundant and misses the philosophical concept of giving back.",
+            "metaphor_mapping": {
+              "tenor_concept": "returning received blessings to the community",
+              "transferred_attributes": [
+                "originating from the source",
+                "selfless return",
+                "cyclical flow"
+              ],
+              "vehicle_concept": "returning lake water to its source"
+            },
+            "source_span_original": "ಕೆರೆಯ ನೀರನ್ನು ಕೆರೆಗೆ ಚೆಲ್ಲಿ",
+            "source_span_translation": "Return the lake’s water to the lake",
+            "source_term": "ಕೆರೆಯ ನೀರನ್ನು ಕೆರೆಗೆ ಚೆಲ್ಲಿ",
+            "tenor": "Returning received blessings or resources back to their source or community",
+            "vehicle": "Lake water being returned to the lake",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, cyclical flow of water from a lake being channeled to nourish surrounding fields or community spaces, emphasizing a cycle of giving."
+          },
+          {
+            "abstract_meaning": "Cultivating and spreading love among people, initiating a process of emotional growth.",
+            "acceptable_visual_variants": [
+              "Two people planting a seedling together with warm light emanating from their hands",
+              "Glowing seeds falling into fertile ground and immediately sprouting tiny green shoots of light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Sowing seeds of love",
+            "literalization_risk": "Showing literal seeds being dropped into dirt, which fails to convey the emotional and interpersonal nature of love.",
+            "metaphor_mapping": {
+              "tenor_concept": "initiating love in people's hearts",
+              "transferred_attributes": [
+                "potential for growth",
+                "careful planting",
+                "future blooming"
+              ],
+              "vehicle_concept": "sowing seeds in soil"
+            },
+            "source_span_original": "ಪ್ರೀತಿಯ ಬೀಜ ಬಿತ್ತೊಣ",
+            "source_span_translation": "sow the seeds of love",
+            "source_term": "ಪ್ರೀತಿಯ ಬೀಜ ಬಿತ್ತೊಣ",
+            "tenor": "Love",
+            "vehicle": "Seeds",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show hands gently planting glowing, warm seeds into soil, with soft light radiating from the planting site to symbolize emotional warmth."
+          },
+          {
+            "abstract_meaning": "The beautiful, flourishing outcomes and joy of a renewed life.",
+            "acceptable_visual_variants": [
+              "A vibrant, colorful flower blooming in a soft, ethereal light",
+              "A garden of diverse, glowing flowers opening up simultaneously"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Flowers of new life",
+            "literalization_risk": "Depicting ordinary botanical flowers without any connection to human life or renewal, making it look like a simple nature scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "flourishing and joyful new life",
+              "transferred_attributes": [
+                "beauty",
+                "fragrance",
+                "blossoming",
+                "vitality"
+              ],
+              "vehicle_concept": "blooming flowers"
+            },
+            "source_span_original": "ಹೊಸ ಬದುಕಿನ ಹೂವು",
+            "source_span_translation": "flowers of new life",
+            "source_term": "ಹೊಸ ಬದುಕಿನ ಹೂವು",
+            "tenor": "New life / flourishing existence",
+            "vehicle": "Flowers",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict vibrant, luminous flowers blooming in an unconventional, warm environment, symbolizing a fresh start and vitality."
+          },
+          {
+            "abstract_meaning": "Nurturing positive emotions and life within the inner selves of all people.",
+            "acceptable_visual_variants": [
+              "Silhouettes of people with stylized, glowing floral patterns blooming within their chest areas",
+              "A group of people holding hands, with a vine of light connecting them and blooming at each person's chest"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Growing inside everyone's physical heart",
+            "literalization_risk": "An anatomical heart with a plant growing out of it, which would look surreal, medical, or grotesque rather than warm and poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "nurturing love within human hearts",
+              "transferred_attributes": [
+                "internal cultivation",
+                "nurturing care",
+                "emotional expansion"
+              ],
+              "vehicle_concept": "growing a plant in soil"
+            },
+            "source_span_original": "ಎಲ್ಲರ ಹೃದಯದಲ್ಲಿ ಬೆಳೆಸಿ",
+            "source_span_translation": "Grow in everyone’s heart",
+            "source_term": "ಎಲ್ಲರ ಹೃದಯದಲ್ಲಿ ಬೆಳೆಸಿ",
+            "tenor": "Nurturing love and life within human consciousness/emotions",
+            "vehicle": "A growing plant/flower",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict diverse people standing together with a warm, soft green and floral glow emanating from their chests, symbolizing inner growth and shared humanity."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The phrase 'Kereya niranu kerege chelli' is a direct allusion to a famous Purandara Dasa devotional song ('Kereya neeranu kerege chelli, Hariya karunavembudanu...'), which carries a deep philosophical meaning of offering back to God what already belongs to Him. The English translation renders this literally as returning lake water to the lake, losing the rich cultural, devotional, and philosophical resonance of the original proverb/allusion.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Kannada verb form 'bittonya' (let us sow) is an inclusive first-person plural hortative, which carries a warm, collective, and communal invitation. The English 'Let's sow' partially captures this but loses the specific regional warmth and poetic rhythm of the Kannada verbal inflection.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Offering back what we have received to foster collective love and new life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' and 'loss_note' both state that the deep cultural resonance is lost, which is inconsistent with full preservation.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಕೆರೆಯ ನೀರನ್ನು ಕೆರೆಗೆ ಚೆಲ್ಲಿ,  \nನಮ್ಮ ಪ್ರೀತಿಯ ಬೀಜ ಬಿತ್ತೊಣ,  \nಹೊಸ ಬದುಕಿನ ಹೂವು,  \nಎಲ್ಲರ ಹೃದಯದಲ್ಲಿ ಬೆಳೆಸಿ.",
+  "poem_id": "MV++_1025",
+  "poem_title": "Kereya Niranu Kerege Chelli",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f9c6304377abaa621d6be5688f26eb438341cd95f9357bde869f180d2fa52628",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1025.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Return the lake’s water to the lake,  \nLet’s sow the seeds of love,  \nLet the flowers of new life  \nGrow in everyone’s heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:48:40.379936+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eeb4d04d7caae848257f3dd5301e0b62eef7fa03650b7cfcd91b60c64733fe73",
+        "response_hash": "602056bc298e7833637cad70cc34fc37c7986116a18a70ed8dd3e823f651da8a"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "438849c7ffdff99c532bd9b7f1590d6bb867fcf4b5a7c819214c54852761d70e",
+        "response_hash": "6472fbd62c13b19a49192f249829264db25031c220455f0f822429a971d0f5b2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f1b3e591c62b7d0e93af075e94cf2a8786c21ec5c39d01799965f8a3dc55f74b",
+        "response_hash": "9de66577455bf27070cdebd728e4d3ca24ef5b718d58a1f2a00a485af4cda1ee",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b9e587d687079c5e6b2b20bb5568e5f225c00bad8938e63c956c5bc40e8c2d18",
+        "response_hash": "6f01b0cb81e1087c6129b6764597a5da902983bb98c9135b8f96b25bb0797568",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cb9060e484a19b6f1e2b2f781b3b1f2064f782ac97ff5774113a5a8b07008992",
+        "response_hash": "afd5fd3516ad1bbc336767c855ded43fadd011ea8d9c40f64dead02fd0ad4868",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2bffdddd476b34ef0265acc2ac516bb9718f64699ed4932922dff06c535a81b3",
+        "response_hash": "5140d58e6659886595ec2c2a6f40af2373ad33919a974391dafe0abb8ae8aa31",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8e434fdcfc05e19e99d1fe97efab74e065fd3e773ac5bfa3bdcbd69f6089cc11",
+    "translation_sha256": "7765056a0f36ac25115f9b74300c6742b7a132d3b3f63e659c63987af63c04fe"
+  }
+}

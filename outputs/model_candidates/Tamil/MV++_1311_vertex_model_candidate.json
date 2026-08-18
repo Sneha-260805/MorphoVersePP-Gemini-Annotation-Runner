@@ -1,0 +1,203 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet transition from the vastness of the world to a state of peaceful, resting love.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The overwhelming, life-giving, and dense presence of living beings or souls surrounding the speaker.",
+            "acceptable_visual_variants": [
+              "A soft rain where each droplet glows with a tiny spark of light",
+              "A misty shower over a vast landscape of living nature"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "In the rain of souls / lives",
+            "literalization_risk": "Showing literal human souls or ghostly figures falling from the sky like raindrops, which could look like a horror scene or a bizarre supernatural event.",
+            "metaphor_mapping": {
+              "tenor_concept": "souls",
+              "transferred_attributes": [
+                "abundance",
+                "falling from above",
+                "life-giving quality",
+                "enveloping presence"
+              ],
+              "vehicle_concept": "rain"
+            },
+            "source_span_original": "உயிர்கள் மழையில்",
+            "source_span_translation": "rain of souls",
+            "source_term": "உயிர்கள் மழையில்",
+            "tenor": "souls / living beings",
+            "vehicle": "rain",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a gentle, shimmering downpour of light or translucent droplets that blend into a crowd of living beings, suggesting a spiritual or vital atmosphere rather than literal bodies falling."
+          },
+          {
+            "abstract_meaning": "The soothing, moving, and comforting influence of the beloved's spoken words.",
+            "acceptable_visual_variants": [
+              "A gentle breeze rustling through green leaves around a resting figure",
+              "A soft wind blowing a light curtain in a quiet room"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the wind/breeze of your words",
+            "literalization_risk": "Depicting literal words or letters flying through the air on a gust of wind, which looks cartoonish and disrupts the romantic mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "words",
+              "transferred_attributes": [
+                "gentleness",
+                "movement",
+                "invisible comforting touch",
+                "soothing effect"
+              ],
+              "vehicle_concept": "breeze"
+            },
+            "source_span_original": "உன் சொல்லின் காற்றில்",
+            "source_span_translation": "breeze of your words",
+            "source_term": "உன் சொல்லின் காற்றில்",
+            "tenor": "words / speech",
+            "vehicle": "breeze / wind",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the physical effect of an invisible gentle breeze, such as hair or clothing softly swaying, or leaves rustling, in a peaceful setting."
+          },
+          {
+            "abstract_meaning": "The speaker's love finds a state of absolute peace, security, and quiet rest.",
+            "acceptable_visual_variants": [
+              "A person resting their head in a peaceful, breezy outdoor setting",
+              "A quiet, serene landscape at twilight conveying absolute stillness and rest"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "My love will sleep",
+            "literalization_risk": "Depicting a literal heart or an abstract 'love' character tucked into a bed sleeping, which is overly literal and childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "peacefulness",
+                "restfulness",
+                "security",
+                "quietude"
+              ],
+              "vehicle_concept": "sleeping"
+            },
+            "source_span_original": "என் காதல் தூங்கும்",
+            "source_span_translation": "My love finds its rest",
+            "source_term": "என் காதல் தூங்கும்",
+            "tenor": "love",
+            "vehicle": "a sleeping person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person resting peacefully in a serene environment, with a calm expression that conveys deep emotional security and contentment."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil verb 'தூங்கும்' (thoongum) literally means 'will sleep', which carries a sense of peaceful, deep slumber or suspension. The English translation 'finds its rest' softens this specific image of sleeping into a more general state of resting.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative locative case marker '-il' (மழையில், பேச்சில், காற்றில்) is translated using the English preposition 'In', which slightly flattens the organic, fused spatial relationship of the original Tamil nouns.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Finding ultimate peace and sanctuary in the beloved's words amidst the vastness of existence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "உயிர்கள் மழையில்,  \nஉலகின் பேச்சில்,  \nஉன் சொல்லின் காற்றில்  \nஎன் காதல் தூங்கும்!",
+  "poem_id": "MV++_1311",
+  "poem_title": "Ulaipaaraiyin Kaatril",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4d042f4e5844e81fb96700c4f3642b3b286bc33c6b548f11b2c0ba130741e015",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1311.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the rain of souls,  \nIn the speech of the world,  \nIn the breeze of your words,  \nMy love finds its rest!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:20:13.762440+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6dc9c93161debcae4ce9e6f9a10d5d74dbc84ce73f8d2890ecb8bcfa5468a90e",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5d567ef6b567387b1e603126ac3930bcbbb42a552df3726ff6cefde598e2586e",
+        "response_hash": "b5118658a0eb3c06f352a00a78429201b55d17b9c683077c26d01a76f9038eba",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "634418c1e1be399ad24021116a5d07d9c24e4d34f33396235039d7052197455f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a63a083b7428794b415fc4201e93bffaaf9f9634501988b99679157b22a23494",
+        "response_hash": "3e94fb9f7ee4ee6a6f32f01949e782e6d9423d5456776c40b0ba7b1224b07253",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0509ad92d2e50e280efe6e050da414f456e9d881d895162d822acf4186d59482",
+        "response_hash": "975d8a978e2f4acc6031d8ed8123dc72adc83da55f23420d33d9c9bb0d5c9a0c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4950b511b382c76c6c7887e9c2de085e17cae8f29908dd43171b0c42afdcfe4",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "753b00dbf6933340eba0c6594bdf89ab347beab766eebaac78ac12039673f892",
+    "translation_sha256": "e179c430d5846c511fd60468ca2a3e3b8fa80f0676c671750121f903de17e000"
+  }
+}

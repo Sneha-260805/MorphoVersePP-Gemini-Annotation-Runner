@@ -1,0 +1,211 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing for rest to quiet, bittersweet reflection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'chaand ki chaandni mein' as 'In the moonlight's embrace' adds a personified touch ('embrace') not explicitly present in the literal Hindi text, which simply means 'in the moonlight of the moon.'",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The night sky filled with stars stretching overhead like a protective or covering sheet.",
+            "acceptable_visual_variants": [
+              "A wide-angle view of a dark landscape under a massive dome of stars",
+              "A close-up of a person looking up at a dense canopy of stars that resembles a textured fabric"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "stretching a sheet/blanket of stars",
+            "literalization_risk": "An illustrator might draw a literal fabric blanket woven with physical stars, which misses the naturalistic beauty of a clear night sky.",
+            "metaphor_mapping": {
+              "tenor_concept": "starry sky",
+              "transferred_attributes": [
+                "covering",
+                "stretching over",
+                "providing comfort or shelter"
+              ],
+              "vehicle_concept": "blanket"
+            },
+            "source_span_original": "तारों की चादर ताने",
+            "source_span_translation": "Under the blanket of stars",
+            "source_term": "तारों की चादर ताने",
+            "tenor": "the starry night sky",
+            "vehicle": "a blanket or sheet (chaadar)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, clear night sky filled with countless shining stars stretching over a lonely figure walking at night."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces the word 'embrace' for 'chaandni' (moonlight), which shifts the literal meaning of 'chaand ki chaandni mein' (in the moonlight of the moon) to a more active personification. Additionally, the active verb 'taane' (stretching/spreading out a sheet) is rendered statically as 'under the blanket'.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation interprets the verbs 'muskuraaye' and 'chhupaaye' as referring to the memories/dreams ('Sometimes they smile...'), whereas in Hindi these are past-tense or subjunctive verb forms that could also implicitly refer to the speaker ('Sometimes [we/I] smiled, sometimes [we/I] hid tears too').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Memories are disorganized, omnipresent, and cluttering the speaker's mind like scattered physical objects.",
+            "acceptable_visual_variants": [
+              "A person walking through a landscape where faint, translucent scenes of the past are superimposed on the background",
+              "A dark room with shafts of light illuminating dust motes or scattered papers on the floor"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "memories are scattered/strewn about",
+            "literalization_risk": "Depicting literal brain cells or floating photographs might look overly surreal or sci-fi, detracting from the emotional, melancholic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "unorganized memories",
+              "transferred_attributes": [
+                "disarray",
+                "being spread across a space",
+                "visibility"
+              ],
+              "vehicle_concept": "scattered objects"
+            },
+            "source_span_original": "यादें हैं बिखरी",
+            "source_span_translation": "memories are scattered",
+            "source_term": "यादें हैं बिखरी",
+            "tenor": "intangible memories",
+            "vehicle": "scattered physical objects",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person sitting in a room surrounded by old, disorganized personal items like letters, diaries, or faded photographs to ground the metaphor."
+          },
+          {
+            "abstract_meaning": "Hopes, aspirations, or dreams that remain unfulfilled or broken.",
+            "acceptable_visual_variants": [
+              "A person staring out of a window at a distant, unreachable horizon",
+              "An open journal with blank pages or half-written lines"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "dreams are incomplete/unfinished",
+            "literalization_risk": "Drawing literal sleeping dreams as half-faded bubbles might look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "unfulfilled desires",
+              "transferred_attributes": [
+                "incompleteness",
+                "lack of wholeness",
+                "state of being in-progress or abandoned"
+              ],
+              "vehicle_concept": "unfinished object"
+            },
+            "source_span_original": "सपने हैं अधूरे",
+            "source_span_translation": "dreams are incomplete",
+            "source_term": "सपने हैं अधूरे",
+            "tenor": "unfulfilled life goals or desires",
+            "vehicle": "an unfinished structure or puzzle",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict symbolic incomplete elements, such as an unfinished sketch on an easel or a half-built structure in the background, to evoke unfulfilled aspirations."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the pronoun 'they' ('Sometimes they smile / Sometimes they hide tears too') which resolves the subject of the verbs 'muskuraaye' and 'chhipaaye'. In the original Hindi, the subject is unexpressed and ambiguous, leaving it open whether the memories/dreams themselves are smiling/hiding tears, or if the speaker/people are doing so.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The restless search for sleep amidst scattered memories and incomplete dreams under the night sky."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "नींद की तलाश में,  \nचलते हैं कितनी रातें,  \nचाँद की चाँदनी में,  \nतारों की चादर ताने।  \n\nकितनी यादें हैं बिखरी,  \nकितने सपने हैं अधूरे,  \nकभी मुस्कुराए,  \nकभी आंसू भी छुपाए।",
+  "poem_id": "MV++_0377",
+  "poem_title": "Neend Ki Talaash",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c782bec98b3863c6355accf93ad1339516c6294b50ca7e989f190531ab9dd4c7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0377.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In search of sleep,  \nCountless nights we walk,  \nIn the moonlight's embrace,  \nUnder the blanket of stars.\n\nSo many memories are scattered,  \nSo many dreams are incomplete,  \nSometimes they smile,  \nSometimes they hide tears too.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:18:30.501001+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "519481614a229ddfc1e5e5988e31db7af15b992ba5d59ad84df0fb55503f5575",
+        "response_hash": "285d1325de8029f8c7aa7cc1f804a6cc9681dd1e8f99d6bf2b58441b09b14566"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "88b64f3ac0c075e029249242f195d506274c163542f5c2f79a89dd3ea608eeac",
+        "response_hash": "6684ba43c432f4b5cd03e181b5cc74c82412864c6a7d3b383a0be753df509378",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a883e7fe8742a483d6dc1c4a0dd2f2e67b52ba07cc1566ad874c6dfa97989e4f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cb5de4398600866eb95392e9cfaca138504b5677d0c05dcbc0a3519a66f87ef0",
+        "response_hash": "76ded8838557009569f3a6cd62a0f8c3a250b3866828f9859665feaf50c3da45",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "28d69cbc4c7bdacd630cfe36ce03b81eec90a5f887bf650c23a33cb82d5981aa",
+        "response_hash": "9892f266b356914f51fb24652a12205a9f38e616f1189218c0757af3ab67f1cb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "88d8e2f42f703754f7b29f3dd7fcdc558026bca3abcc9d20bcac4a799517627b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a850d3eca99ca7d49885b40a1b1768114f104920435c4c64cdf970af3f91d9c1",
+    "translation_sha256": "667f8bc7fdce2c443c5b3e32ecb5a1f60248984bafa135992f1616f7a10b2b5d"
+  }
+}

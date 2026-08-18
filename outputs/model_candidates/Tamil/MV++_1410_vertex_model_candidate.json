@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A gentle progression from the wonder of a new gaze to the sweet, buzzing connection of love.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The emotional bonds and connections of the heart are active, sweet, and busy like bees in the realm of love.",
+            "acceptable_visual_variants": [
+              "Golden glowing bees hovering near a blooming flower that symbolizes the heart",
+              "Stylized, gentle bees made of light buzzing around two lovers"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Bees of love",
+            "literalization_risk": "Showing literal insects flying around a human heart might look bizarre or like a pest infestation rather than a romantic metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "loving relationships and emotional bonds",
+              "transferred_attributes": [
+                "sweetness",
+                "activity",
+                "gathering of affection"
+              ],
+              "vehicle_concept": "bees gathering nectar"
+            },
+            "source_span_original": "காதலின் தேனீகள்",
+            "source_span_translation": "bees of love",
+            "source_term": "காதலின் தேனீகள்",
+            "tenor": "bonds of the heart / feelings of love",
+            "vehicle": "bees",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict soft, glowing, stylized bee-like shapes or golden light particles hovering around a central warm heart symbol or two figures, suggesting sweet, active energy."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic repetition and poetic emphasis of 'புது புது' (puthu puthu) is simplified to a single 'New' in English, losing the lyrical cadence of the original Tamil line.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative genitive case markers in 'இதயத்தின்' (ithayathin - of the heart) and 'காதலின்' (kaathalin - of love) are flattened into standard English prepositions ('of'), losing the native Tamil morphological flow.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transformative power of a beloved's gaze and the sweet, active bonds of love."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries and a non-empty loss_note is expected if there is loss, or translation_quality should be 'partial' to reflect the documented losses.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "புது புது விழிகள்,  \nஉன் பார்வையில் அழகு,  \nஎன் இதயத்தின் உறவுகள்,  \nகாதலின் தேனீகள்!",
+  "poem_id": "MV++_1410",
+  "poem_title": "Puthu Puthu Vizhigal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f3f6576594c6b4d1e0b6e1c73e5248ce702ae07f8626c7e569b6295443171794",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1410.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "New eyes,  \nBeauty in your gaze,  \nThe bonds of my heart,  \nAre the bees of love!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:30:39.958129+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5543b625e75923cd2721571947eba937cd244a54856534a29d15a342d48e8afe",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9967b21d8b47fbcc83edeec9ad35caf8e44f6a1564a9d440c0ec628863bf102b",
+        "response_hash": "d82028214371d0e2fab8bd8efa146b4c1842ee993e2d7378f67cf550e44ed7d8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "115a4b037c33cf899f57d2a3e025a98cc718099cef2197dfa69b0b8ba8153e2a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2a8f5d3fd16395b01cf6155829e8d498c63cd756c2d29d0f15d015a653c18501",
+        "response_hash": "6687b6da0d395e9fd40e9532b7f6578ddcfa26b2fc78b352952b0665839a1365",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0c8e2f1773cfd9b8583fe9d769e653a6aa4ccee332b87f244ca4ca4b4fb2f096",
+        "response_hash": "0615b665091aba4796cc998630a27ba7f399d023f6ed2a067bed839e71403fca",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6c906e1245984620bed15b571a250bfb615ebf7eb9a23015294292735590127",
+        "response_hash": "b88889756f47380169427baf09debf3cb62cd986c97b8bbaa007206047d50a99",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8067f804cd549ced2c1003af272a081ce6375bcc96f2bdc7f8bf1e7ceccbea08",
+    "translation_sha256": "4ad530eab970daab34cb8897d2645375225788958aaaab4bf17f014a865b2250"
+  }
+}

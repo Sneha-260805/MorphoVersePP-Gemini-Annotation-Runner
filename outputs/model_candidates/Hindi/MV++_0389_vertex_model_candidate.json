@@ -1,0 +1,187 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A landscape showing dark, heavy rain clouds over South Asian terrain",
+          "A window view of heavy monsoon rain with a person looking out"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The fifth month of the Hindu calendar (July-August), corresponding to the peak of the monsoon season, deeply associated in South Asian literature with romantic longing, rain, and renewal.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic autumn rainstorm in a Western city",
+          "A tropical hurricane or storm with destructive winds"
+        ],
+        "preserved": true,
+        "romanization": "Saavan",
+        "source_span_original": "सावन",
+        "source_span_translation": "monsoon",
+        "stanza_index": 1,
+        "term": "सावन",
+        "translation_note": "Translated as 'monsoon', which captures the meteorological phenomenon but loses the specific cultural, literary, and emotional associations of the fifth month of the Hindu calendar (Sawan/Shravan) associated with rains, longing, and festivals.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Dark monsoon clouds",
+          "Raindrops falling",
+          "Lush green landscape typical of the Indian rainy season"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A transition from the external arrival of the monsoon to internal longing, balancing sadness with a bright inner hope.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'man' and 'dil' both as 'heart', collapsing the subtle distinction between the mind/psyche (man) and the emotional heart (dil). Additionally, the rhythmic, song-like quality of the Hindi refrain is partially flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of emotional turbulence, excitement, or restlessness within the mind or heart, triggered by the arrival of the monsoon.",
+            "acceptable_visual_variants": [
+              "A person looking out at the rain with a stylized, turbulent wave pattern overlaid softly across their chest area",
+              "A silhouette of a person filled with the image of a stormy sea to represent the inner noise"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "There is the noise of waves in the mind/heart",
+            "literalization_risk": "Showing literal ocean waves physically crashing inside a human chest cavity or brain, which looks like a medical anomaly or surreal horror rather than emotional turbulence.",
+            "metaphor_mapping": {
+              "tenor_concept": "surging emotional state",
+              "transferred_attributes": [
+                "restlessness",
+                "loudness",
+                "uncontrollable movement",
+                "surging energy"
+              ],
+              "vehicle_concept": "ocean waves crashing noisily"
+            },
+            "source_span_original": "मन में लहरों का शोर है",
+            "source_span_translation": "waves crash in the heart",
+            "source_term": "मन में लहरों का शोर है",
+            "tenor": "Turbulent, restless, or surging emotions in the mind",
+            "vehicle": "The crashing and roaring of water waves",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing in the monsoon rain with a double-exposure effect where their chest or silhouette contains swirling, churning water currents or waves, reflecting their inner state."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'man' (mind/soul/inner self) and 'dil' (heart) both as 'heart', collapsing the distinct psychological and emotional registers of these two terms in Hindi poetic tradition.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'shor' (noise/clamor) as 'crash' changes the auditory quality of the metaphor from a chaotic, internal noise to a physical impact.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'noor' (light/radiance, a word of Arabic origin carrying a sense of divine or exquisite beauty) as 'shine bright' flattens the spiritual and aesthetic depth of the original term.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The bittersweet emotional resonance of the monsoon season, where external rain mirrors internal waves of longing and quiet hope."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].metaphor_spans[0].line_ref",
+      "issue": "The metaphor span 'मन में लहरों का शोर है' occurs in both L1 and L4, but the line_ref only lists L1. It should list both L1 and L4 or be marked as L1-L4.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सावन आया, मन में लहरों का शोर है,  \nकैसी ये घटा है, कैसी ये बूंदें हैं,  \nदिल में कुछ उदासी है, आँखों में नूर है,  \nसावन आया, मन में लहरों का शोर है।",
+  "poem_id": "MV++_0389",
+  "poem_title": "Saavan Aaya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "32dae3b1aa5a9e67fbbf1101206783a0006e0aaa36dcea3f421f029299cc1600",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0389.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The monsoon has arrived, waves crash in the heart,  \nWhat are these clouds, what are these raindrops,  \nSadness fills the heart, yet eyes shine bright,  \nThe monsoon has arrived, waves crash in the heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:19:40.677222+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "63ae919eddd6122b12b3c238eec6b41660312353fd7e6fb52d867346e227e43a",
+        "response_hash": "905f94f165d82b357501abff8c886e7d72876b89412a87aaf87d6ffa16db6119"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "29cd189d5fc29c75d1a8a1c4934edd5e17ee8ce58e2282e3212e15d27f762a2f",
+        "response_hash": "f0d12197fdf6a04ce8967584afc2f475633281ea228f06e7060bdf888fac525d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "001343cdaab485ef20bc6525eec4489f03b73d9448a50608f8a8ee3dc3673e94",
+        "response_hash": "a9db076f8c859e290744e18cc39f8aa031959a5e989a60e2f21e13f4a9c2b124",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c22fb6ab4f4373f220f9bee9cdf62e574ad2cefcbdb0d35ee6146c3df9cfc73d",
+        "response_hash": "5f45f1d77ba8ce2bbac06a43393ca722a18f321b9521950f1467a3b20ce150d8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "afc310eb55f14cd62f8e0ce5a9f201d5d9bb6ee5224e2a98a865b015e8c981c8",
+        "response_hash": "847c7416daa22960ae195c5ec8dba0489278d106dca13d43b665ebae6d815e42",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8eec9c8f07bef12b2b32cc5bf8a1231d5a09f2c68e587384e6427724d08458b9",
+        "response_hash": "fde6756e64230ec118397ae86773a64341270f436c9045e268d86988a4c746cd",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4d5c60f7f302c76d726642e24ad2ebb245f4a468cca7b8cca27ecec29af5d08a",
+    "translation_sha256": "48ff62d061f82ad486fe2cb1c14a6837ada6a738d3ed543b6e422e32b0eb2d94"
+  }
+}

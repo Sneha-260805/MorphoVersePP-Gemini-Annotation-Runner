@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet, persistent state of restlessness and internal confusion that deepens into a sense of incompleteness and loss.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the subtle poetic resonance of Urdu-derived terms like 'aalam' (state/world/condition) and the colloquial softness of 'si' in 'uljhan si' (a sort of tangle) are slightly flattened into standard English equivalents.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A feeling of emotional confusion, anxiety, or unresolved tension within the speaker's mind or emotional state.",
+            "acceptable_visual_variants": [
+              "An abstract human figure with a messy, tangled ball of yarn or scribbled lines over the chest area",
+              "A person sitting with their head down, surrounded by a complex web of faint, overlapping lines representing mental clutter"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "There is a sort of physical tangle or knot inside the physical heart",
+            "literalization_risk": "Showing a literal anatomical heart wrapped in physical ropes or strings, which looks like a medical condition or horror imagery rather than emotional anxiety.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional confusion",
+              "transferred_attributes": [
+                "intricacy",
+                "difficulty to unravel",
+                "constriction"
+              ],
+              "vehicle_concept": "physical tangle"
+            },
+            "source_span_original": "दिल में कुछ उलझन सी है",
+            "source_span_translation": "A tangle in the heart",
+            "source_term": "दिल में कुछ उलझन सी है",
+            "tenor": "Emotional confusion and restlessness",
+            "vehicle": "A physical tangle, knot, or web of threads",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, abstract silhouette of a person with a glowing or shadowed knot of tangled lines in the chest area, or a person sitting amidst a web of soft, messy threads."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Urdu-derived poetic register of 'aalam' (state/world/condition) in 'bechaini ka aalam' is flattened into the simpler English 'state of restlessness', losing its expansive, atmospheric, and classical ghazal-like nuance.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The softening, comparative particle 'si' (like/resembling) in 'uljhan si hai' is omitted in the translation 'A tangle in the heart', making the feeling of a tangle sound absolute rather than a subtle, elusive sensation.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The pervasive, unsettling feeling of internal restlessness and the quiet grief of an undefined loss."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बेचैनी का आलम है,  \nदिल में कुछ उलझन सी है।  \nजैसे हर चीज़ अधूरी है,  \nजैसे कहीं कुछ खो गया है।",
+  "poem_id": "MV++_0776",
+  "poem_title": "Bechaini",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6eb0bf5e7e1fe9ccb8c6cb8220d808fa874e85c8303277c6eea25cec9e2f89e3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0776.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A state of restlessness,  \nA tangle in the heart.  \nAs if everything is incomplete,  \nAs if something is lost somewhere.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:10:45.360158+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cddc2b86c906ccbcb52f31f8343e3c76c647372516905df9855d4461a4a1a466",
+        "response_hash": "ccffdacb8141ccc7e21dbd85b95ac6be40f39ea847bb6103865f6b701cb8f14d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0a95a5e6ccd49056846d23fcd571b71f836126cc1b58c0d2e6e8e1ef13b8e102",
+        "response_hash": "ad086ad99ad5e2ff2f7daabe98f00a8b970947ba6042a0737d89cff0cfa58bc4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "502b0e161a63dab4cd709a5a2be5d2fc7c7e187bac6a0e59ca0a3939117a450d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "62dec9cb3d25ab84e98b37650f8c1cf385e075fc3beb22ac0f6181bb0864d260",
+        "response_hash": "89fd425c480f6f4edbf0ec0c8cb425570593db65f0df30a3e557180f71528212",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5c7507161ebdab6000ec715abc67d98e5770c459ac61ccef2dc44ebd0a3f7f70",
+        "response_hash": "020a1d3f1b168e8a4506c3592554f643346162429170e74dcc5494b19fd9439b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bd95d78d92455b3d419fe7d48bae38250ff40da534a602886a3ed0e80b8ed0a0",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0f4923148dfbc60f264438144eada6b96e29be788f295015a83f676deef6bc51",
+    "translation_sha256": "dd3e182368e16c73f2a07a6551ca9076a60ad9ce0b0bb89aaa7926455bf77db8"
+  }
+}

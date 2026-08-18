@@ -1,0 +1,118 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'खास' (khas) as 'dear' captures the emotional warmth but slightly shifts the literal meaning of 'special' or 'extraordinary' in Hindi.",
+        "metaphor_spans": [],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the internal rhyme scheme of 'paas' (L2) and 'khaas' (L4), replacing it with the English rhyme 'near' and 'dear'.",
+            "where": "L2-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'khaas' (which literally means special, unique, or extraordinary) as 'dear' shifts the meaning from pain becoming something uniquely meaningful or special to pain becoming beloved or cherished.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The comforting and transformative presence of a beloved that makes all hardships bearable."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "क्या नहीं हो सकता,  \nजब तुम हो पास।  \nहर मुश्किल आसान,  \nहर दर्द होता है खास।",
+  "poem_id": "MV++_0425",
+  "poem_title": "Kya Nahi Ho Sakta",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e500b75d2b5ca31c7e58f4c657f02034ea1bca0f5533422c3269d99535f1a7aa",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0425.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What cannot happen,  \nWhen you are near?  \nEvery trouble becomes easy,  \nEvery pain feels dear.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:23:10.161779+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ccb13bd3040f79147fb521907accf07621a5b1f27a0f1acbd83405a02f3ebab8",
+        "response_hash": "d410ff33729a9d3aa44da2b2b9c35ffdd8539da3c6a8431c0c902224dab6c6b2"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3c844a643f934ba66633a5e844b89fd7a28869d3b9691ab9e292d63702953318",
+        "response_hash": "bfb59c1ebc29381c4ae4f0bcdd82d31d6cf2252fcac31035d3bd9109b9779dda",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dd55d652233bdf9da704bb33358cfc3ce034a1fa3b6d1deeb9f292bd0bf91f52",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "13cb471b3375526e1a6e129cfc3d6bf47fbc0f7d8884867203926814ae179acf",
+        "response_hash": "dda2d2c9c20e80ca5b746a9b8aad7b30802b43fbf42600dc353097f2809d42bd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "88bc8bce3e8f7149af463f3345e126f659589f91470addd73c6d159faf7efeb4",
+        "response_hash": "0b6099a096341dabb191eb871308c3692237f061f9429d25da7fe89722a22d40",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "abbdd7129475dca211600644c1fba0ac7f36a6eab350456902c492af4dfaafcc",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2d9b9616cc17690af5cc717adff62146960959c1361937a434c2786e13879690",
+    "translation_sha256": "c3100a63fb94a4232aac062447a42de45e663eb0a59ad97ebfc1da47de99b584"
+  }
+}

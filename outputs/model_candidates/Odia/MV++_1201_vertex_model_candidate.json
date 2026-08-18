@@ -1,0 +1,208 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A symbolic representation of ancient Odia maritime trade",
+          "traditional stone carvings reminiscent of Konark or ancient Kalinga temples"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "An ancient historical region of India, largely corresponding to modern-day Odisha, historically associated with great maritime power, artistic heritage, and the famous Kalinga War.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Modern political boundaries of Odisha",
+          "generic North Indian landscapes"
+        ],
+        "preserved": true,
+        "romanization": "Kalinga",
+        "source_span_original": "କଳିଙ୍ଗ",
+        "source_span_translation": "Kalinga",
+        "stanza_index": 1,
+        "term": "କଳିଙ୍ଗ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Historical regional map contours",
+          "ancient stone architecture motifs",
+          "maritime symbols like ancient boats (Boita)"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Depiction as a classical cowherd boy (Gopala)",
+          "depiction in traditional Odia Pattachitra style"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Refers to Lord Krishna, a major deity in Hinduism, highly revered in Odisha's devotional traditions (often associated with Jagannath).",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "Generic modern calendar art depictions of Krishna without regional aesthetic context",
+          "depictions of other Hindu deities like Rama"
+        ],
+        "preserved": true,
+        "romanization": "Krushnanka",
+        "source_span_original": "କୃଷ୍ଣଙ୍କ",
+        "source_span_translation": "Krishna",
+        "stanza_index": 1,
+        "term": "କୃଷ୍ଣଙ୍କ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Dark-skinned deity",
+          "holding a flute",
+          "wearing a peacock feather crown"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "reverence and quiet contemplation of truth, divinity, and maternal beauty",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation simplifies the rhythmic flow and the specific resonance of classical Odia terms like 'Kalinga Gatha' and 'Mukura'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A tool or medium for self-reflection, introspection, and seeing the true nature of reality within the domestic sphere.",
+            "acceptable_visual_variants": [
+              "A traditional hand-held mirror reflecting a warm, soft light",
+              "A larger wall mirror in a serene domestic space reflecting a peaceful, clear atmosphere"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "a physical mirror or looking glass",
+            "literalization_risk": "An illustrator might draw a simple household mirror showing a literal face, missing the deeper spiritual and philosophical self-realization implied by the context.",
+            "metaphor_mapping": {
+              "tenor_concept": "self-reflection and truth",
+              "transferred_attributes": [
+                "reflecting reality",
+                "revealing hidden truths",
+                "clarity"
+              ],
+              "vehicle_concept": "mirror"
+            },
+            "source_span_original": "ମୁକୁରା",
+            "source_span_translation": "mirror",
+            "source_term": "ମୁକୁରା",
+            "tenor": "self-reflection and spiritual realization of truth within the home",
+            "vehicle": "a physical mirror reflecting an image",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, reflective surface or mirror within a quiet home setting, reflecting a soft light or a symbolic representation of truth rather than a simple literal face."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The historical and regional resonance of 'Kalinga' (କଳିଙ୍ଗ), which evokes the ancient maritime empire, the Kalinga War, and Ashoka's transformation, is flattened to a generic place name 'Kalinga' in English.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The specific Odia word 'mukura' (ମୁକୁରା), which carries classical literary and poetic associations of a reflective mirror or looking glass, is translated as a simple, everyday 'mirror'.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic flow, internal assonance, and classical poetic meter of the Odia phrasing (such as 'samsarara satyara sakshatkara') are lost in the literal English translation.",
+            "where": "L3-L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The spiritual realization of truth and divine presence within the historical and domestic landscape of Kalinga"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Odia",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "କଳିଙ୍ଗ ଗାଥା  \nଏଠାରେ ଅନୁକ୍ରମ  \nସଂସାରର ସତ୍ୟର ସାକ୍ଷାତ୍କାର,  \nଘରରେ ମୁକୁରା ଏବଂ  \nକୃଷ୍ଣଙ୍କ ସଙ୍ଗରେ।  \nଗହର ଶବ୍ଦ ଓ ଶତକୋଟି ନର ତଥା  \nମାତୃକା ହୃଦୟର ରମ୍ୟା।",
+  "poem_id": "MV++_1201",
+  "poem_title": "Kalinga Gatha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4f2be0f2a0dad5a9a4eb455baf3ec0ac1599a48ed69c9347c561cf635ca40a1e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Odia/MV++_1201.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The tale of Kalinga,  \nHere unfolds a sequence,  \nThe realization of truth in the world,  \nIn the home with the mirror,  \nAnd with Krishna.  \nThe sound of the depths and the countless men,  \nThe beauty of a mother’s heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:08:13.776533+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e9b0b01b8cfda11d2ab25edb64acdeb234514339490e79bbc7c48c2ee59d6ef",
+        "response_hash": "40b7745604dc3579cbb21d4717f8d5614bb8c37275c6e082ccd1fafc68c97c59"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "af9690dd5b14ad0bc5e83f2f6623366aed87cb24686ade4f1babb182b24466b6",
+        "response_hash": "70187e5bc6abef47ddea6da667b980c848291c8da1a6a30e28333e978576b06b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3a1294c55a9dc40a47f9fc266a781832deeaa330c2650dc45e376a94e1b6500d",
+        "response_hash": "713c510dcadbb58da4f695baa3fb4446c28b2fcf7d32ef64a12b80ef0b1b4108",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "33aee3002ba7c202eba42ba0c65d2c631e2908b1666e336504569d150ebebf81",
+        "response_hash": "a83e35ec1dee124f0ef0e3ebe5b86de7145ac7355d64c221df0ad6c232460626",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7ef7436274ecff9bcfa4df1cc5cf97395752c20d13ede1626f984410770ed328",
+        "response_hash": "6de0fa24c4df5eb14692a4bb7d02a9c5695e52a4874c0b2fa33f790cf56e13ed",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5c2067707fd5971b1994d8b2564cc8785721db6124d3b3f8c4fa559c1861ed97",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0bebbdc727bab3ee086949b614323c0a177299756cdb4069bd7d3fda117a88bd",
+    "translation_sha256": "45ae5ebccd58fa41ff10abee99f176340456c776ef9a337cccadec6d8f1db376"
+  }
+}

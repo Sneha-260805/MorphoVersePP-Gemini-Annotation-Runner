@@ -1,0 +1,178 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet, tender reflection on maternal love and belonging, moving from memory to a sense of peaceful connection.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'ತೋಳ' (thola - arm/embrace) as 'garden' in line 3 alters the literal imagery of the original Kannada text, which refers to comforting arms or embrace rather than a physical garden, though it attempts to capture the overall domestic comfort.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A source of comfort, peace, and joy that enriches the family home.",
+            "acceptable_visual_variants": [
+              "A mother and child in a warm, sunlit room with potted plants and flowers on the windowsill.",
+              "A stylized illustration of a home surrounded by blooming, protective greenery."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A garden that is pleasant to the house",
+            "literalization_risk": "Depicting a literal garden growing inside a physical house, which would look surreal and miss the emotional warmth of the family relationship.",
+            "metaphor_mapping": {
+              "tenor_concept": "child",
+              "transferred_attributes": [
+                "bringing joy",
+                "pleasantness",
+                "nurturing environment"
+              ],
+              "vehicle_concept": "garden"
+            },
+            "source_span_original": "ಮನೆಗೆ ಹಿತವಾದ ತೋಳ",
+            "source_span_translation": "A garden that brings joy home",
+            "source_term": "ಮನೆಗೆ ಹಿತವಾದ ತೋಳ",
+            "tenor": "The son/child who brings joy and comfort to the household",
+            "vehicle": "A pleasant garden (thola)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, cozy home interior with subtle, soft floral or green motifs in the background to suggest the garden's pleasantness without drawing a literal outdoor garden inside."
+          },
+          {
+            "abstract_meaning": "The beautiful, delicate, and cherished expressions or outcomes of a mother's love.",
+            "acceptable_visual_variants": [
+              "A child holding a fresh flower while looking at their mother.",
+              "A mother embracing her child with a soft, floral-patterned shawl or background."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The flowers of your love",
+            "literalization_risk": "Showing literal flowers growing out of a person's heart or hands, which could look bizarre or like a fantasy horror element.",
+            "metaphor_mapping": {
+              "tenor_concept": "maternal love",
+              "transferred_attributes": [
+                "beauty",
+                "delicacy",
+                "fragrance",
+                "nurtured growth"
+              ],
+              "vehicle_concept": "flowers"
+            },
+            "source_span_original": "ನಿನ್ನ ಪ್ರೀತಿಯ ಹೂವುಗಳು",
+            "source_span_translation": "The flowers of your love",
+            "source_term": "ನಿನ್ನ ಪ್ರೀತಿಯ ಹೂವುಗಳು",
+            "tenor": "The mother's love and its manifestations (such as her children or her affection)",
+            "vehicle": "Flowers",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use a soft-focus background of blooming flowers surrounding a tender interaction between mother and child, or depict the child holding a delicate flower."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಓಲೆಗೆ' (olege) as 'embrace' alters the literal meaning of 'ole' which typically refers to an ornament, earring, or palm-leaf letter, losing the specific domestic and physical imagery of the original Kannada noun.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ತೋಳ' (thola) as 'garden' is a significant semantic shift; 'thola' literally means 'arm' or 'shoulder' in Kannada, which connects to the physical presence of the mother/son relationship, whereas 'garden' introduces a completely different botanical metaphor not present in the literal Kannada word.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The nurturing, comforting, and life-giving nature of a mother's love."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].metaphor_spans[0].literal_meaning",
+      "issue": "The literal_meaning is defined as 'A garden that is pleasant to the house', which contradicts the stanza's loss_note and translation_loss[1] where 'ತೋಳ' (thola) is correctly identified as literally meaning 'arm' or 'shoulder' rather than 'garden'.",
+      "severity": "high"
+    },
+    {
+      "field_path": "stanzas[0].metaphor_spans[0].vehicle",
+      "issue": "The vehicle is defined as 'A pleasant garden (thola)', which incorrectly conflates the translation's altered imagery ('garden') with the Kannada word 'thola' (which actually means arm/shoulder).",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ತಾಯಿ, ನಿನ್ನ ನೆನೆಸಿನಲ್ಲಿ,  \nನಾನೊಬ್ಬ ಮಗನ ನಿನ್ನ ಓಲೆಗೆ,  \nಮನೆಗೆ ಹಿತವಾದ ತೋಳ,  \nನಿನ್ನ ಪ್ರೀತಿಯ ಹೂವುಗಳು.",
+  "poem_id": "MV++_0986",
+  "poem_title": "Thayi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9083d3c45eba7890d266c5ebb878bdbbc7a40c98f66f92f67f05e5f3f386bfa9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0986.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Mother, in your thoughts,  \nI am a son in your embrace,  \nA garden that brings joy home,  \nThe flowers of your love.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:39:47.204979+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "967d280ffbac45841f67d71e268b95a8acf044df6d928d4d0c4bec023f80503e",
+        "response_hash": "404938d525e8d85538148348a29db75d016ac729dd0036d41e853461e37cdfad",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "036b2835f682a4275b2f73339f75f93a2d792a1a9d6b828fa84e8309b63e571d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0a5f807b9f560e0ca7709789b64c0352573e81fd6614b0882dd4503f9f2aa0fc",
+        "response_hash": "cb6df40046bfbaf8be40ac0b9625e63e851417d4dc41e7f589cd2745cab46c5c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cd000690bcee35a9e1e01e9e50435d111f55fc6aef5cdd8c3dceaad6b1f1d373",
+        "response_hash": "8722de41e860fb98de0d4b48a3c4ac39f74a8f75694a9c575cb68830d170012a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba00ecf0942b541b06d3c127e381ea95d8b982d7387b97352d9ed155c1d7a8d0",
+        "response_hash": "8841e9cdb5f2a1a219f5018d9391321c18ffefaf29544b389e3136911665dc42",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "87f6de5f5f928966154bc3542bd819d7d1c930aa85624499d4de9f2ca82b847a",
+    "translation_sha256": "d42c98832ef152e08f888264c537c0dab56b4f918790e33b4981201e8c79f751"
+  }
+}

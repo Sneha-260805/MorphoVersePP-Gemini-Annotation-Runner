@@ -1,0 +1,280 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A soft, luminous aura around the hill flower",
+          "A faint, stylized spirit figure blending into the mountain mist behind the flower"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Like a deity or spirit (Lai), referring to a divine or sacred presence in the hills.",
+        "line_ref": "L9",
+        "negative_confusions": [
+          "A standard Western-style winged angel",
+          "A classical Hindu deity icon with multiple arms"
+        ],
+        "preserved": false,
+        "romanization": "laigum",
+        "source_span_original": "लाईगुम",
+        "source_span_translation": null,
+        "stanza_index": 3,
+        "term": "लाईगुम",
+        "translation_note": "The translation generalizes the deity-like presence ('laigum', meaning like a deity/spirit) into a secular description of the hill's flower swaying.",
+        "translation_status": "LOST",
+        "visual_features": [
+          "A subtle, ethereal or glowing presence surrounding a mountain flower",
+          "A sense of sacredness or animistic spirit in a high mountain landscape"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A stylized, symbolic representation of a nature spirit integrated into the mountain landscape",
+          "An abstract sacred light or pattern near the mountain flora"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional deity or spirit (Lai) associated with abundance, nature, or specific localities in Meitei/Manipuri belief systems.",
+        "line_ref": "L12",
+        "negative_confusions": [
+          "A generic cartoon ghost",
+          "A classical Olympian deity"
+        ],
+        "preserved": false,
+        "romanization": "lai maranglao",
+        "source_span_original": "लाई मरंगलाओ",
+        "source_span_translation": null,
+        "stanza_index": 3,
+        "term": "लाई मरंगलाओ",
+        "translation_note": "The translation completely omits the specific reference to the deity/spirit 'Lai Maranglao', rendering the stanza as a general description of a flower standing tall.",
+        "translation_status": "LOST",
+        "visual_features": [
+          "An ancient, sacred natural setting",
+          "A symbolic representation of a local guardian spirit of the hills"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "wonder and quiet admiration to a sense of sacred resilience and eternity",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation generalizes specific Manipuri botanical and geographical terms (like 'chingda' and 'pamlaimama') into generic English poetic imagery ('flower of the hill').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The flower reaching high towards the sky in pure delight, representing aspiration and natural beauty.",
+            "acceptable_visual_variants": [
+              "A close-up of a vibrant hill flower pointing towards the sun",
+              "A wide shot of a mountain peak with a single prominent flower stretching upwards"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "A plant or flower stretching high like a person reaching out.",
+            "literalization_risk": "Showing a flower with literal human arms reaching up to touch the sky would look cartoonish and ruin the naturalistic, poetic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "plant growth and upward posture",
+              "transferred_attributes": [
+                "upward movement",
+                "delight",
+                "aspiration"
+              ],
+              "vehicle_concept": "human reaching in joy"
+            },
+            "source_span_original": "इचि याड्रीगु पमलैममा।",
+            "source_span_translation": "Reaching for the sky in pure delight.",
+            "source_term": "इचि याड्रीगु पमलैममा।",
+            "tenor": "A flower growing tall on a hill",
+            "vehicle": "A person reaching up in delight",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a beautiful wild flower growing on a high mountain slope, angled upwards towards a bright, open sky."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific botanical and cultural imagery of the hill-growing flower (Chingda Satpi) and the mountain-dwelling orchid/plant types is generalized into standard English poetic tropes ('flower of the hill', 'reaching for the sky').",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The specific mythological or local reference to 'chinglei' (mountain-dwelling/serpentine entities or flora associated with hills) is completely omitted in favor of generic romantic imagery ('mountain's love').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation flattens the specific natural and elemental descriptions of the original Manipuri text into conventional English romantic tropes ('morning dew kisses its face').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The gentle touch of morning dew on the flower's petals, described as a kiss to show intimacy and natural harmony.",
+            "acceptable_visual_variants": [
+              "A macro shot of dew drops on a petal reflecting the morning sun",
+              "A soft-focus view of a flower covered in morning mist"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "The morning dew kissing the face of the flower.",
+            "literalization_risk": "Depicting a literal mouth or face on the flower receiving a kiss would look bizarre and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "dew drops condensing on a petal",
+              "transferred_attributes": [
+                "gentleness",
+                "intimacy",
+                "touch"
+              ],
+              "vehicle_concept": "affectionate human kiss"
+            },
+            "source_span_original": "इशिंगै बा फिनिनबा,",
+            "source_span_translation": "The morning dew kisses its face,",
+            "source_term": "इशिंगै बा फिनिनबा,",
+            "tenor": "Dew drops settling on a flower petal",
+            "vehicle": "A kiss on the face",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show glistening, delicate dew drops resting on the soft petals of a hill flower in the early morning light."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The complex Manipuri terms describing natural elements, dew, and environmental states ('ishingai', 'maringaoba', 'taoi renba') are simplified into conventional English nature imagery ('morning dew', 'winds of time').",
+            "where": "L5-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation misses the specific spiritual/deity-like comparisons in the original text (such as 'laigum' meaning like a deity/spirit, and 'laimaranglao') which elevate the flower to a sacred entity rather than just a symbol of eternity.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The flower standing tall and proud as a symbol of timelessness and enduring natural beauty.",
+            "acceptable_visual_variants": [
+              "A flower standing firm amidst ancient, mossy rocks",
+              "A resilient bloom under a vast, starry night sky over the mountains"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L9",
+            "literal_meaning": "The hill flower acting as a physical representation of eternity.",
+            "literalization_risk": "Attempting to draw an abstract infinity symbol or clock next to the flower would disrupt the organic, natural imagery of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "timelessness and eternity",
+              "transferred_attributes": [
+                "endurance",
+                "permanence",
+                "unshakable presence"
+              ],
+              "vehicle_concept": "an enduring flower on a mountain"
+            },
+            "source_span_original": "चिंग्दा फुरम्बा लाईगुम,",
+            "source_span_translation": "A symbol of eternity.",
+            "source_term": "चिंग्दा फुरम्बा लाईगुम,",
+            "tenor": "Eternity and timelessness",
+            "vehicle": "A resilient hill flower",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the flower standing strong and upright against a backdrop of ancient, weathered mountain peaks and old trees, conveying a sense of timeless endurance."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The explicit comparison to local deities or spirits ('laigum', 'furambi lai') and the specific regional landscape markers are entirely lost, replaced by generic Western poetic concepts ('shadow of ancient trees', 'symbol of eternity').",
+            "where": "L9-L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring, sacred beauty of the mountain flower blooming in isolation"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Manipuri",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चिंगदा सत्तपी मतोइ,  \nइचि याड्रीगु पमलैममा।  \nथावा थामा मनिन्बरी,  \nना थाम्बा चिंग्लई पंबीगु।\n\nइशिंगै बा फिनिनबा,  \nमरिंगाओबा नीनतंगोई।  \nताओई रेनबा नैरेइबा,  \nयामलंबा मरोमली ओइ।\n\nचिंग्दा फुरम्बा लाईगुम,  \nनुंगी दरेइ, चिंग्लई थाबी।  \nपोरं कांगरे, पंगक लेइबा,  \nफुरंबी लाई मरंगलाओ।",
+  "poem_id": "MV++_1186",
+  "poem_title": "Chingda Satpi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9a6cd86154c75259290bed0eaa600561d39af7aec682aff53958331f435f4c62",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Manipuri/MV++_1186.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The flower of the hill, so fair and bright,  \nReaching for the sky in pure delight.  \nIts petals whisper a song untold,  \nOf the mountain’s love in the quiet fold.\n\nThe morning dew kisses its face,  \nIn this high, untouched, and sacred place.  \nWinds of time may come and go,  \nBut in this bloom, love will grow.\n\nThe hill’s flower sways in the breeze,  \nIn the shadow of ancient trees.  \nIt stands tall, proud and free,  \nA symbol of eternity.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:06:46.405807+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6b6c14a8cd324c67029a3981f33c897b084527db5781b6db36b8b8b53b4c2604",
+        "response_hash": "f93b40a7288cc4b4a29f4d878c3978658c6f308dda8f7215e87b6027073482b5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7d33fa8f5157282eb84ef20ac18186b2a7d05a84b9d704d5e38aa5e6827e0b6",
+        "response_hash": "b79143a8c18837d093cdd2437517b47191c9d952e0a21250c8de64544cb6a020",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bd41f216c70a28beeb84e6307dabe4105fbfe337b8131ec9a9197c0d9a719335",
+        "response_hash": "a83dee6fbbf5a58e862936463b71d84864502b350096fb1c9dedf416717197fa",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4b6938bc47b118fca9b4576cb18549ae559dba25d2b8dfb63d6c69d4cf4845a",
+        "response_hash": "47ef69fc52d934510e0650523cf239e0ab6f93725e4544f8a962a979f87a7a8b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a5f612bcb068713274ac5cc3e14c15b32ebcbf5da581abf989a2b4e1988cf323",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "968f4c996ad30a0b77f9571f35010a3fba0ea9d60db871be0700044a57de83b8",
+    "translation_sha256": "b5e308ef85bea09d81948b165d1e08e6167b81e529a1ccc6b9e64525b246f974"
+  }
+}

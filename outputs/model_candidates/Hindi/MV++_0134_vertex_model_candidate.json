@@ -1,0 +1,289 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A warrior standing on a chariot illuminated by intense sunbeams",
+          "A glowing silhouette of a warrior with solar motifs"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Literally 'one whose chariot is made of sunbeams', referring to Karna, a central heroic figure in the Mahabharata epic, and the title of Ramdhari Singh Dinkar's famous Hindi epic poem.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic medieval European knight",
+          "An ordinary modern soldier"
+        ],
+        "preserved": true,
+        "romanization": "Rashmirathi",
+        "source_span_original": "रश्मिरथी",
+        "source_span_translation": "Rashmirathi",
+        "stanza_index": 1,
+        "term": "रश्मिरथी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A warrior figure associated with solar rays or a chariot of light."
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A prince standing with a bow looking towards the sun",
+          "A warrior in a chariot looking contemplative"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "One of the primary heroes of the ancient Indian epic Mahabharata, a master archer and the close friend and disciple of Lord Krishna.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A generic archer without Indian royal or classical warrior attire",
+          "A modern fantasy archer"
+        ],
+        "preserved": true,
+        "romanization": "Arjuna",
+        "source_span_original": "अर्जुन",
+        "source_span_translation": "Arjuna",
+        "stanza_index": 1,
+        "term": "अर्जुन",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A noble warrior prince holding a grand bow (Gandiva)",
+          "Often depicted in warrior attire with a quiver of arrows"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The core Indian philosophical concept of action, deed, and the moral law of cause and effect, heavily emphasized in the Bhagavad Gita.",
+        "line_ref": "L5",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "karma",
+        "source_span_original": "कर्म",
+        "source_span_translation": "deeds",
+        "stanza_index": 2,
+        "term": "कर्म",
+        "translation_note": "The translation renders 'सूर्य' (Surya) as 'the sun' and 'सारथी' (sarathi) as 'charioteer', which conveys the literal meaning but loses the specific mythological and cultural resonance of Surya as a deity and the sacred role of a charioteer in the epic context.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The cosmic order, righteousness, moral duty, and law that sustains society and the universe in Indian philosophy.",
+        "line_ref": "L5",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "dharma",
+        "source_span_original": "धर्म",
+        "source_span_translation": "duty",
+        "stanza_index": 2,
+        "term": "धर्म",
+        "translation_note": "Translated as 'duty' in the English text, which captures the moral obligation aspect but loses the broader cosmic and righteous dimensions of the Sanskrit/Hindi term.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "wonder and reverence to resilience and celebration",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders 'srishti' (creation/universe) as 'creation', which slightly flattens the cosmic scale of the original Hindi term.",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal meaning of 'Rashmirathi' (one whose chariot is made of sunbeams, referring to Karna) is lost in translation, as it is kept as a proper noun without explaining its solar connection. Additionally, 'adbhut' (wondrous/extraordinary) is translated as 'divine', shifting the nuance.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'divya gyan' (divine knowledge/spiritual wisdom) as 'wisdom's shine' loses the specific sacred or transcendental connotation of 'divya'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'karma aur dharma' as 'duty and deeds' simplifies the deep philosophical and moral connotations of 'dharma' in Indian philosophy.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Purified, blessed, or deeply illuminated by the glorious, divine light of the sun, representing spiritual and heroic brilliance.",
+            "acceptable_visual_variants": [
+              "A warrior figure standing on a chariot with golden sunlight streaming down from a prominent sun in the background",
+              "An epic landscape illuminated by intense, divine golden rays of dawn breaking through clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Bathed in the rays of the sun",
+            "literalization_risk": "An illustrator might literally depict characters taking a bath or being physically washed with water under a sun, which completely misses the abstract sense of spiritual and heroic glorification.",
+            "metaphor_mapping": {
+              "tenor_concept": "receiving glory and spiritual illumination",
+              "transferred_attributes": [
+                "warmth",
+                "brilliance",
+                "purification",
+                "radiance"
+              ],
+              "vehicle_concept": "bathing in light"
+            },
+            "source_span_original": "सूर्य की रश्मियों में नहाई",
+            "source_span_translation": "Bathed in the sun's radiant light",
+            "source_term": "सूर्य की रश्मियों में नहाई",
+            "tenor": "being illuminated or glorified by divine/heroic brilliance",
+            "vehicle": "bathing in physical sunbeams",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict heroic figures standing majestically with a powerful, warm golden glow or brilliant sunbeams radiating down upon them, highlighting their noble stature."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'karma aur dharma' as 'duty and deeds' simplifies the deep philosophical and ethical resonance of 'dharma' (righteousness, cosmic order, moral duty) and 'karma' (action, intent, ethical consequence) into everyday English terms.",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'shurveeron' (brave warriors/heroes) as 'heroes' loses the specific martial and epic connotation of 'shurveer' in the context of a legendary battle saga.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The celebration of epic heroism, duty, and divine wisdom through the tale of Rashmirathi and Arjuna."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].category",
+      "issue": "The term 'रश्मिरथी' (Rashmirathi) is categorized as 'MYTHOLOGICAL_EVENT', but the gloss describes it as referring to Karna (a person/character) or the title of an epic poem, which is inconsistent with an event.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[1].category",
+      "issue": "The term 'अर्जुन' (Arjuna) is categorized as 'DEITY', but Arjuna is a mythological hero/prince rather than a deity in Hindu tradition.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[2].translation_note",
+      "issue": "The translation_note for 'कर्म' (karma) discusses 'सूर्य' (Surya) and 'सारथी' (sarathi) instead of explaining the translation handling of 'karma' or 'deeds'.",
+      "severity": "high"
+    },
+    {
+      "field_path": "cultural_entities[2].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED', which is slightly inconsistent.",
+      "severity": "low"
+    },
+    {
+      "field_path": "cultural_entities[3].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED', which is slightly inconsistent.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रश्मिरथी का ये महाकाव्य,  \nअर्जुन की अद्भुत कथा।  \nसूर्य का सारथी बना,  \nदिव्य ज्ञान से भरी यह सृष्टि।  \n\nकर्म और धर्म की बात करे,  \nसंघर्ष की जो पाठ सिखाए।  \nसूर्य की रश्मियों में नहाई,  \nशूरवीरों की गाथा सुनाए।",
+  "poem_id": "MV++_0134",
+  "poem_title": "Rashmirathi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e92ece0b9a679e947b5ddde980b9a99f7bcd6f63c87ec271f9cb7c95db0da962",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0134.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The epic of Rashmirathi,  \nA tale of Arjuna so divine.  \nBecame the charioteer of the sun,  \nA creation filled with wisdom’s shine.  \n\nIt speaks of duty and deeds,  \nTeaches the struggles we face.  \nBathed in the sun's radiant light,  \nIt narrates the heroes’ grace.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:50:10.304502+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79d5e28df4adaa347d1d3a63be4c2af81ff1dda9afd95e5c44dc9571f27d01ec",
+        "response_hash": "fced8b8033cc7f78571bcb8258e8eb99ed4fcfac9db8b416f71e0e0c9e82f8f9"
+      },
+      {
+        "attempt": 2,
+        "outcome": "success",
+        "prompt_hash": "d7baacfa6ffd35252e9c6539187defc01ebd960cb52e327e9504b5333f0d69df",
+        "response_hash": "d7820611763be40bc930ce8c82efe4f9da60bff5c6572273d99c9282bc2d1b0b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "141bbe8f3ef9285d76d3677d414866817dc67a967a851ef33d113e2692ba17f6",
+        "response_hash": "247a7dea55f5752d6c426556d85a9ec54d04a6802345ea1450e502da846313c6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3c12dcf1ecb3e59d52a11c4ca078f058be877282af3f09cce16e028916b127ba",
+        "response_hash": "8aa02c0328dc3826f01a039a9a0eac83aa9baa0c2acd246b84255e1833bd672e",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "07998a627d9bef5b4d31983c09ca2eb04c5e98e0dafc9412a774e5974a9c7341",
+        "response_hash": "503b9531f004249335e61c1e3758a2d1f21bd89b00d6004193bbe5d02be49d3a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2bac6dc6034816ad0b168f3ddf6bb495d6b6fe2ffaeeb450c9f751fbefa4e3c4",
+        "response_hash": "2437fe6e9ce14aec379da9d43b30f2850b12b4a8b27509c2c93bab766c02ac99",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "69a69f0bffdf0c204f2c72444aac7bf7929ca7c7ee329f83bd78b01a013e43f2",
+        "response_hash": "4e9c233d99bed8f09338f7f728da75b767a44863a24ca314089ed875a0cccaac",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6668b6fd6ea3d3616518b2be2a4bbc72b15f7e920d6efcf55c24a45a17331dc8",
+    "translation_sha256": "eab77caf719530f50d5861b1c1df7712816ff78612abe0528c22dc4813ad05da"
+  }
+}

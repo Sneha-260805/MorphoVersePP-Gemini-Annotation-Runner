@@ -1,0 +1,198 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and quiet reflection on a love that exists as a shadow",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Love that exists only in the realm of imagination or dreams rather than reality.",
+            "acceptable_visual_variants": [
+              "A faint, glowing figure standing in a misty, surreal landscape",
+              "A soft-focus reflection of a person in water that dissolves into ripples"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "Love that lives/dwells in a dream",
+            "literalization_risk": "Showing a physical person literally sleeping or living inside a floating dream bubble, which looks like a fantasy cartoon rather than a poignant emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "idealized love",
+              "transferred_attributes": [
+                "dwelling",
+                "existing in an intangible space"
+              ],
+              "vehicle_concept": "living being in a dream"
+            },
+            "source_span_original": "கனவில் வாழும் காதல்",
+            "source_span_translation": "Love that lives in dreams",
+            "source_term": "கனவில் வாழும் காதல்",
+            "tenor": "An idealized, unfulfilled love",
+            "vehicle": "A living being dwelling in a dream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, hazy, or translucent silhouette of a couple or a heart-like form blending into a starry, dreamlike background."
+          },
+          {
+            "abstract_meaning": "The boundary of one's inner consciousness or soul.",
+            "acceptable_visual_variants": [
+              "A silhouette standing at the edge of a cliff overlooking a misty expanse",
+              "A figure standing in a doorway between a lit room and a dark night"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "At the border/edge of the heart/mind",
+            "literalization_risk": "Drawing a literal fence, wall, or geographical border line inside a human chest or heart organ.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional/spiritual limit",
+              "transferred_attributes": [
+                "having an edge",
+                "demarcating inside from outside"
+              ],
+              "vehicle_concept": "physical boundary"
+            },
+            "source_span_original": "உள்ளத்தின் எல்லையில்",
+            "source_span_translation": "At the edge of my soul",
+            "source_term": "உள்ளத்தின் எல்லையில்",
+            "tenor": "The limit of conscious awareness or emotional endurance",
+            "vehicle": "A physical border or boundary line",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use a threshold of light and shadow, where a figure stands at the boundary between a bright, warm space and a dark, misty void."
+          },
+          {
+            "abstract_meaning": "Existing in a faint, intangible, or haunting manner rather than as a solid reality.",
+            "acceptable_visual_variants": [
+              "A faint, semi-transparent silhouette of a person cast on a wall by soft moonlight",
+              "A dark, soft-edged shape on the ground stretching towards the viewer"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "It stands as a shadow",
+            "literalization_risk": "Depicting a literal, sharp black shadow cast on a wall without any source figure, which might look like a horror movie trope.",
+            "metaphor_mapping": {
+              "tenor_concept": "intangible presence of love",
+              "transferred_attributes": [
+                "darkness",
+                "lack of physical substance",
+                "following or lingering silently"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "நிழலாய் நிற்கிறது",
+            "source_span_translation": "It stands as a shadow",
+            "source_term": "நிழலாய் நிற்கிறது",
+            "tenor": "The lingering, intangible presence of love",
+            "vehicle": "A shadow",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Render a soft, elongated, translucent shadow cast across the ground or a wall, where the source of the shadow is absent or faint, conveying a sense of longing."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The repetition of the verb root 'nil' (நிற்க in L2 and நிற்கிறது in L4) creates a structural and rhythmic echo in the Tamil text that is flattened by using 'Stands' and 'It stands' in English, losing the poetic symmetry of the original.",
+            "where": "L2-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative suffix '-ai' in 'nizhalaay' (நிழலாய்) fuses the noun 'shadow' with an adverbial/similative marker ('as a shadow'), which is rendered analytically in English with two separate words, losing the compact, fused quality of the Tamil grammar.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The elusive, dreamlike nature of love that exists only as a shadow on the boundaries of the soul"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கனவில் வாழும் காதல்,  \nஉன் இதயத்தில் நிற்க,  \nஎன் உள்ளத்தின் எல்லையில்,  \nநிழலாய் நிற்கிறது!",
+  "poem_id": "MV++_1365",
+  "poem_title": "Kanavil Vaazhum Kaadhal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1d897f17f89065c7cee3cda5cdac6c546955f048bc6a9e6407c0bed99fb8797f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1365.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Love that lives in dreams,  \nStands in your heart,  \nAt the edge of my soul,  \nIt stands as a shadow!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:26:07.474909+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ce7bdfbf12dfbd5e5aa9e53c54a46eeeded6dd7037e62e8b0dcb31658aaddaaf",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9ab03d355fe1f9d2ea643269c4d63d4864eca5dc4e9ed646072618e310d1eaaa",
+        "response_hash": "79a992e52221eff19daed9529dd3729085caa5746171ab511a81db33b2444897",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c0249cccadfaed841d10fec9a843be60d1cdd247a738c038de97b7d4a9e68b38",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a422cb28c71d7a07c019bd92484a2930ae637f8fa2f53b75f678bebdd50bbaa0",
+        "response_hash": "d3159159f0c33f5f88029838570ff582ffa46dee19b5040de1220b8d94406e61",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0429df3570a95095e8b7ee34352110dc83e1d4930a7d522cce4b564d5709becd",
+        "response_hash": "8f3623a65e5bb01c08f6963fc48a58c2a35fb421b1f4d4e8f6973355c0bc9e48",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fe5a005af773ae0caafc8f3e6bbb938a2b16da75598471bc8a3caaeefefee039",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bcbbda58a326d77d3999e96bb71ef02f7e6f46c8984fa1d8b6be92325e6af75e",
+    "translation_sha256": "8bd9177adeff837f544e618e48dcc6507c954c921cc0517fa58a86c36712033e"
+  }
+}

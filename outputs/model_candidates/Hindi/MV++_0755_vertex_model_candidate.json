@@ -1,0 +1,210 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Traditional clay diyas with cotton wicks and oil",
+          "Modern decorative fairy lights alongside traditional lamps"
+        ],
+        "category": "FESTIVAL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Hindu festival of lights, celebrated by lighting small clay lamps (diyas) and decorating homes.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Electric neon signs",
+          "Western-style Christmas decorations",
+          "Large bonfires instead of small individual lamps"
+        ],
+        "preserved": true,
+        "romanization": "Diwali",
+        "source_span_original": "दिवाली",
+        "source_span_translation": "Diwali",
+        "stanza_index": 1,
+        "term": "दिवाली",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Small burning clay lamps (diyas)",
+          "Illuminated streets and houses",
+          "Warm golden light against the night sky"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Simple unadorned terracotta diyas",
+          "Painted or decorated clay lamps"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Traditional clay lamps (diyas) lit with oil and cotton wicks, central to Diwali celebrations.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "Modern glass lanterns",
+          "Wax candles",
+          "Electric light bulbs"
+        ],
+        "preserved": true,
+        "romanization": "deep",
+        "source_span_original": "दीप",
+        "source_span_translation": "lamps",
+        "stanza_index": 1,
+        "term": "दीप",
+        "translation_note": "Translated as 'lamps' in L2 and 'lights' in L3.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Small earthen or clay pots",
+          "Flickering cotton wick flame",
+          "Warm golden glow"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A steady state of festive wonder and celebration, capturing the illuminated atmosphere of Diwali night.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic flow and the specific cultural resonance of 'ghar-ghar' (every single home) are slightly flattened into 'Homes'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The clay lamps emitted vibrant, colorful light, creating a festive and warm atmosphere.",
+            "acceptable_visual_variants": [
+              "A row of traditional clay diyas with warm flames reflecting off colorful floor decorations",
+              "Diyas painted in vibrant colors with glowing wicks"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Lamps were burning with literal colors or flames made of colors",
+            "literalization_risk": "An illustrator might depict lamps with physically colored flames (like green or blue chemical fire) rather than warm yellow flames casting light on colorful surroundings or colorful clay lamp bodies.",
+            "metaphor_mapping": {
+              "tenor_concept": "vibrant festive illumination",
+              "transferred_attributes": [
+                "brightness",
+                "multi-colored radiance",
+                "warmth"
+              ],
+              "vehicle_concept": "burning colors"
+            },
+            "source_span_original": "रंगों से जलते दीप थे",
+            "source_span_translation": "The lamps were burning in colors",
+            "source_term": "रंगों से जलते दीप थे",
+            "tenor": "The vibrant, colorful glow and festive light cast by traditional oil lamps",
+            "vehicle": "Lamps burning with colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict traditional clay oil lamps (diyas) with warm golden flames, placed on colorful rangoli patterns or painted in bright festive colors, casting a warm glow."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'जलती' (jalti) as 'burning' in 'burning Diwali' loses the idiomatic sense of a lively, glowing, and fully lit festival, making it sound literally on fire or combusting.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'घर-घर' (ghar-ghar) as 'Homes' loses the distributive emphasis of 'every single home' or 'house to house' which conveys the collective, community-wide scale of the celebration.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'दीप' (deep) and 'दीपों' (deepon) as 'lamps' and 'lights' loses the specific cultural resonance of traditional clay oil lamps (diyas) which are central to Diwali.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The collective joy and luminous beauty of celebrating Diwali across homes and streets."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जलती दिवाली की रात थी,  \nरंगों से जलते दीप थे।  \nसज रही थी घर-घर दीपों से,  \nसड़कें भी झिलमिलाती थीं।",
+  "poem_id": "MV++_0755",
+  "poem_title": "Jalti Diwali",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e88b94ba6e76265ce27a40178c8762c1efa6e6268b7ed1b91dc57730258265c3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0755.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "It was the night of the burning Diwali,  \nThe lamps were burning in colors.  \nHomes were adorned with lights,  \nThe streets too shimmered bright.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T14:00:48.816006+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a4b2e92b384b4a26701257ce864923d3ac51b7d1913d7e8adf791a4647b17c35",
+        "response_hash": "baea341c342171c65ca15b6646783383aa74dc900a1ed5443d0a1a7a019e62a9"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "063f7f8b12ae2530563daaede8cc782a237c6aa6bff7a1d02847cda6de1a322b",
+        "response_hash": "7246af76fc3b494e77c25df167d5af83b917c6dca4c120fe6ae16f0654340ec9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d4ba1e72a2685e9a981d35b075a0c12d02216dc9fe9d211f1254037b70c77e3",
+        "response_hash": "fb4823666266b7b36767de4412aa1d41f938fe4be2ccd0c7e69a12ba1c2ddb50",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "85a08bc614070358491553700387ceb94ffd22e932b3164a7ad6b2022bde5590",
+        "response_hash": "2586c296b138f2db82c40de2eaddaac48f48dffa51a4f69b1464184bd30e36f9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7d8ca20c533115d65d9ca821cdebd6e498ab59bc4248dc1153fc2b222f7be7c3",
+        "response_hash": "5dfbd9d865ef58a8f3ad79ade3740c901444f0896a0db020486abcc6be148804",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "72602c44bf500cb7f0ceeaeb7b23fe3d0f1c181bdc4b9b1e876fee8093e1e39e",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "21312d629adb2bea9cfe8492e20c195c402a877e2f2c6dedf88f65b9d7d47653",
+    "translation_sha256": "55ab2a1850b33116d5a5a6a142d7c770d0a9088cbce7232bcabf35d1a3e80dfc"
+  }
+}

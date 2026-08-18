@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A group of people walking together in traditional festive clothing",
+          "A decorated entrance or pathway indicating a celebration"
+        ],
+        "category": "FESTIVAL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A celebration, festival, or festive occasion in South Asian cultural contexts, often marked by communal gathering and joy.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A specific religious ritual or temple scene not supported by the text",
+          "A modern Western-style party"
+        ],
+        "preserved": true,
+        "romanization": "utsav",
+        "source_span_original": "उत्सव",
+        "source_span_translation": "celebration",
+        "stanza_index": 1,
+        "term": "उत्सव",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A gathering of people in festive attire",
+          "Warm lighting or decorative elements",
+          "A sense of communal joy and movement"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "anticipation to shared joy",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Every moment or action in this journey of life/celebration is filled with joy.",
+            "acceptable_visual_variants": [
+              "A group of friends walking down a sunlit path laughing together",
+              "People dancing or moving forward with light steps during a festive gathering"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "There is happiness inside every physical footstep.",
+            "literalization_risk": "An illustrator might literally draw glowing or smiling faces inside footprints on the ground, which looks cartoonish and misses the abstract sense of joyful progress.",
+            "metaphor_mapping": {
+              "tenor_concept": "actions or moments filled with joy",
+              "transferred_attributes": [
+                "containment",
+                "presence in every unit of movement"
+              ],
+              "vehicle_concept": "physical steps containing objects"
+            },
+            "source_span_original": "हर कदम में ख़ुशियाँ हैं",
+            "source_span_translation": "Happiness lies in every step",
+            "source_term": "हर कदम में ख़ुशियाँ हैं",
+            "tenor": "the experience of joy in every moment or action of walking together",
+            "vehicle": "physical footsteps containing or holding a physical substance called happiness",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict people walking together with joyful expressions and light, energetic postures, suggesting that the act of walking itself is a source of happiness."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'कहाँ आएगा' as 'return again' changes the literal rhetorical question 'where will this day come again?' to a temporal question 'when will this day return again?', losing the spatial metaphor of 'where' (कहाँ) used in Hindi to denote impossibility or rarity.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The subtle register shift from the Sanskrit-derived 'उत्सव' (utsav) and 'निमंत्रण' (nimantran) in the first line to the Persian-derived 'ख़ुशियाँ' (khushiyan) and 'कदम' (kadam) in the third line is flattened into standard English vocabulary ('celebration', 'invitation', 'happiness', 'step'), losing the natural linguistic synthesis of Hindustani poetic registers.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Embracing the fleeting opportunity for collective celebration and joy."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing specific semantic and register losses. A 'faithful' rating is inconsistent with having documented translation losses of low-to-medium severity. The rating should be 'partial' if losses are explicitly documented, or the losses should be removed if the translation is considered fully faithful.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "उत्सव का निमंत्रण आया है,  \nयह दिन फिर कहाँ आएगा?  \nहर कदम में ख़ुशियाँ हैं,  \nआओ, हम सब साथ चलें।",
+  "poem_id": "MV++_0749",
+  "poem_title": "Utsav Ka Nimantran",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c6105f56976450345a82e5bc105f6c58427aa6bf5ccfa6b91371dd83b0cdb79d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0749.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "An invitation to celebration has come,  \nWhen will this day return again?  \nHappiness lies in every step,  \nCome, let us all walk together.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:06:26.743847+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "723497acfcd039444a885077f6a0ea8efad4ad6fc4291ff982b2e527ed35286b",
+        "response_hash": "2a057f07c263c0bee3345f823520822e39a8fd87dfda400619e1eacea97e8c7b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "56215b4aed42cf5d318ac6b1a342b5916fbfec28356573527103fbd74f7b5da7",
+        "response_hash": "66b69be37e68fb70e673e8efe6d3c8862879f18816f0acce32974abafb6448de",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "73908efab9d84b1a247df4f1a9fd5f2b55d224ff40dbcf6435efd01fdda3e234",
+        "response_hash": "6356450a843f89f5b2d00fa65a9016d78b2a8eea44ea43f3d15fc4e89ec20209",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "830fa396ae491bbb58c9264ce9e5cb1f0ca0d478634b22cdd407ab094584a07a",
+        "response_hash": "616580b18c36b02c8abe720da1c9967df03778c6497009d3f6a6bc41486ece6e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "833980f9e66c86acc8757201c1a8e663f38b0bcee064527228587ce245a11511",
+        "response_hash": "bc251ed40655b34e955ee98529ade3ee1cd22b575ace0c1c4b0c628684f37990",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "fca30e8b19ff2b91e83b75e81771cec64686c245c5d6f5443bd89b55f0b3a02f",
+    "translation_sha256": "bc93015ef7a5c3db6efd140d111bf3792fe17eaba08038c511942a5cccacbb28"
+  }
+}

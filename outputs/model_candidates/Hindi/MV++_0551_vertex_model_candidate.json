@@ -1,0 +1,305 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple unpainted brown clay figurine with basic human features",
+          "A lightly painted traditional folk doll with simple mineral-pigment details"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional handmade clay doll, common in rural South Asian folk crafts and children's play, symbolizing fragility, simplicity, and the transient nature of life.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern plastic or porcelain doll",
+          "An ornate, highly detailed ceramic collector's figurine"
+        ],
+        "preserved": true,
+        "romanization": "mitti ki gudiya",
+        "source_span_original": "मिट्टी की गुड़िया",
+        "source_span_translation": "doll of clay",
+        "stanza_index": 1,
+        "term": "मिट्टी की गुड़िया",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A simple, rustic doll made of unbaked or lightly baked clay",
+          "Hand-painted or plain earthy brown texture",
+          "Lacks complex mechanical joints or modern synthetic materials"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "quiet observation to deep philosophical wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A fragile, lifeless, or passive human figure, possibly representing a vulnerable person or a silent observer.",
+            "acceptable_visual_variants": [
+              "A stylized human figure with clay-like skin textures standing motionless.",
+              "A literal clay doll placed in a human-like setting to emphasize its isolation."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A doll made of clay or mud.",
+            "literalization_risk": "An illustrator might draw a literal toy doll made of mud, missing the deeper human emotional state of passivity or helplessness.",
+            "metaphor_mapping": {
+              "tenor_concept": "fragile/passive human being",
+              "transferred_attributes": [
+                "lifelessness",
+                "silence",
+                "fragility",
+                "inability to act"
+              ],
+              "vehicle_concept": "clay doll"
+            },
+            "source_span_original": "मिट्टी की गुड़िया",
+            "source_span_translation": "doll of clay",
+            "source_term": "मिट्टी की गुड़िया",
+            "tenor": "A passive, silent, or fragile human being",
+            "vehicle": "A clay doll",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a human figure sitting or standing in a completely rigid, frozen, doll-like posture, with a texture subtly resembling dry, cracked earth or clay."
+          },
+          {
+            "abstract_meaning": "Standing completely still, silent, and unresponsive, much like a wild plant or herb rooted in the ground.",
+            "acceptable_visual_variants": [
+              "A figure standing frozen amidst tall, quiet wild herbs.",
+              "A human silhouette whose lower body transitions into delicate plant roots."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "Stands still in the manner of a medicinal herb or plant.",
+            "literalization_risk": "Depicting a literal green leafy herb standing up might look comical or like a botanical illustration rather than conveying quiet, frozen isolation.",
+            "metaphor_mapping": {
+              "tenor_concept": "motionless human/doll",
+              "transferred_attributes": [
+                "stillness",
+                "rootedness",
+                "silence"
+              ],
+              "vehicle_concept": "rooted herb"
+            },
+            "source_span_original": "जड़ी-बूटी की तरह खड़ी रहती है",
+            "source_span_translation": "stands like an herb",
+            "source_term": "जड़ी-बूटी की तरह खड़ी रहती है",
+            "tenor": "The doll's absolute stillness and lack of movement",
+            "vehicle": "A medicinal herb/plant rooted in the earth",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the figure's feet or base subtly blending into the ground with root-like patterns, or surrounded by quiet, wild herbs to visually link the two."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'जड़ी-बूटी' (jadi-booti) as 'an herb' loses the specific cultural nuance of traditional medicinal roots and herbs, which implies a lifeless, rooted, or inert state rather than just any generic green herb.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The eyes hold a deep, vast, and profound silence, containing unexpressed emotions or secrets like the depths of an ocean.",
+            "acceptable_visual_variants": [
+              "Eyes reflecting a vast, calm sea under a quiet sky.",
+              "A close-up of deep, dark, expressionless eyes with subtle watery reflections."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L6",
+            "literal_meaning": "Its eyes are silent like an ocean.",
+            "literalization_risk": "Drawing literal waves or water inside the eyeballs could look bizarre or surreal in a distracting way.",
+            "metaphor_mapping": {
+              "tenor_concept": "unreadable eyes",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "profound silence",
+                "hidden secrets"
+              ],
+              "vehicle_concept": "silent ocean"
+            },
+            "source_span_original": "उसकी आँखें एक सागर जैसी चुप्प हैं",
+            "source_span_translation": "Its eyes are as silent as the sea",
+            "source_term": "उसकी आँखें एक सागर जैसी चुप्प हैं",
+            "tenor": "The profound, unreadable silence in the eyes",
+            "vehicle": "The vast, deep, and quiet sea",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict wide, deep, dark eyes reflecting a calm, vast horizon of water, or use deep blue tones in the eyes to suggest oceanic depth."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'बड़ा है' (bada hai) as 'greater' uses a masculine/neutral verb agreement in Hindi ('है' with 'बड़ा') which contrasts with the feminine 'गुड़िया' (gudiya) in the previous lines, introducing a grammatical shift in gender/subject reference that is flattened in English.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The cycle of life and death; originating from the earth and ultimately returning to it.",
+            "acceptable_visual_variants": [
+              "A figure slowly crumbling into fine earth under a soft light.",
+              "A silhouette blending seamlessly into a landscape of soft soil."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "Made of soil, it dissolves back into the soil.",
+            "literalization_risk": "Showing a doll melting into mud might look like a simple physical destruction rather than a poetic transition of life returning to nature.",
+            "metaphor_mapping": {
+              "tenor_concept": "human mortality and decay",
+              "transferred_attributes": [
+                "dissolution",
+                "returning to the source",
+                "impermanence"
+              ],
+              "vehicle_concept": "clay returning to earth"
+            },
+            "source_span_original": "मिट्टी से बनी, वो मिट्टी में समाई",
+            "source_span_translation": "Made of clay, it is absorbed into the earth",
+            "source_term": "मिट्टी से बनी, वो मिट्टी में समाई",
+            "tenor": "The inevitable return of living beings to death and dust",
+            "vehicle": "Clay dissolving back into the ground",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the lower half of the figure gently dissolving or crumbling into soft, glowing dust or soil that merges with the ground."
+          },
+          {
+            "abstract_meaning": "Creating or leaving behind a sense of longing, unfulfilled love, or a tragic romantic narrative through its silent existence.",
+            "acceptable_visual_variants": [
+              "The figure standing alone next to an empty, unoccupied space or a faded shadow of another.",
+              "A single, delicate thread trailing off into the air from the figure's hand, symbolizing an unfinished connection."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "Composes or writes an unfinished love story.",
+            "literalization_risk": "Showing a doll literally writing in a book or weaving threads would look too literal and active for a passive object.",
+            "metaphor_mapping": {
+              "tenor_concept": "evoking romantic longing and tragedy",
+              "transferred_attributes": [
+                "incompleteness",
+                "narrative creation",
+                "emotional resonance"
+              ],
+              "vehicle_concept": "weaving an unfinished book/tale"
+            },
+            "source_span_original": "अधूरी प्रेम कहानी रचती है",
+            "source_span_translation": "weaves an incomplete love story",
+            "source_term": "अधूरी प्रेम कहानी रचती है",
+            "tenor": "Evoking a poignant feeling of unfulfilled love and longing",
+            "vehicle": "Weaving or writing an incomplete story",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict the silent figure looking toward a distant, empty space or a fading silhouette, suggesting a narrative of separation and longing."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical error in the Hindi source 'न चमकते' (na chamakte) is smoothed over in the English translation as 'neither shines', losing the slightly ungrammatical or colloquial aspect of the original phrasing.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The silent, transient clay doll as a profound symbol of existence, mortality, and incomplete love."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मिट्टी की गुड़िया कभी हंसती नहीं,\nन रोती है, न चलती है,  \nबस एक जड़ी-बूटी की तरह खड़ी रहती है,\nन कोई खुशी, न कोई पीड़ा।\n\nउसके होंठ हिले नहीं कभी,\nउसकी आँखें एक सागर जैसी चुप्प हैं।\nमगर वह सबकी रचनाओं से बड़ा है,\nन ये गुड़िया, न ये जो कोई ख़्वाब है।\n\nजो मिट्टी से बनी, वो मिट्टी में समाई,  \nक्या सचमुच कोई उसका सच्चा रूप है?\nवह न चमकते न गगन की ओर जाती है,\nमगर एक अधूरी प्रेम कहानी रचती है।",
+  "poem_id": "MV++_0551",
+  "poem_title": "Mitti Ki Gudiya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "23a3bd207bf0d191f4d4e1ba1b7444e8af2394cc6dd7b6748dbcd3ee490035c5",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0551.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The doll of clay never laughs,  \nNeither cries, nor moves,  \nIt just stands like an herb,  \nNo joy, no sorrow.\n\nIts lips never move,  \nIts eyes are as silent as the sea.  \nBut it is greater than all creations,  \nNeither this doll, nor the dreams that rise.\n\nMade of clay, it is absorbed into the earth,  \nIs there truly any real form of it?  \nIt neither shines, nor goes toward the sky,  \nBut it weaves an incomplete love story.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:37:51.597234+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6c5d09e521bf6c14cd78ff2be7cbfb54d5e63a32b36b5615e0568d60f54e1126",
+        "response_hash": "4982ee1958506495f95b825e4deee4a8ac0f3126f9058aeed9cb345cfc64fea1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "896397217f1baf3b24715e24b86a099c04cac22b345d9131b478c5369c1151f3",
+        "response_hash": "d7043e4c0a51d55ffb47f999b5a42ebf6be40d3aa6a1ba32dbc3842e2112f08c",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6ff7a6b7a49179e6d546279ccc34e3a3c5acdab2be87f1fe534a69f99eb64b56",
+        "response_hash": "72bbf5406173c196a57d9796978848e039697c237f69637f9445cc4fd7b24de9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d11f50a6df16fea7b54b1e24f8094856bbbdd18f67b455e339ae91b2162eed1b",
+        "response_hash": "cb948dc07198368bba5f1de5dabf64cdd4250967642ee1acad80d13745fc33a0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3d016aabdf09116a8bab8be9217fd94f85197913d615614d9e35d6378d29708a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8f1b3b1c82fb313b6d5b996294ea8eb0b517d2779e3786ccd8a0eba207404339",
+    "translation_sha256": "3a585e524c124896a33e64905a6e0bd3be18b6d6a9d5dd23619b5137c804bf03"
+  }
+}

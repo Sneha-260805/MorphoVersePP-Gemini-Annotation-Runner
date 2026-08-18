@@ -1,0 +1,141 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address meaning 'O person of good intellect/virtue', characteristic of the classical Telugu Sumati Satakam moral verses. It functions as a structural and moral signpost in Telugu didactic poetry.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "steady moral instruction and ethical guidance",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation significantly alters the meaning of several key terms: 'parasati' (another's wife) is translated as 'common people'; 'paradhanamaula' (others' wealth) is translated as 'wealth'; 'sirichedi chuttambu' (a relative who has lost their wealth/prosperity) is translated as 'the affluent'. The classic 'Sumathi' vocative, indicating a person of good intellect, is preserved but the core moral instructions of this traditional Sumathi Satakam poem are heavily distorted.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the meaning of 'parasathi' (another man's wife) to 'common people', and 'kutami' (intimate union/association) to 'gathering'.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation alters 'paradhanamaula kaasapadaku' (do not covet others' wealth) to 'Do not let wealth divide you', and completely omits the phrase 'parunenchakumi' (do not criticize/belittle others).",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation alters 'sirichedi chuttambuka daku jeraku' (do not go to a relative who has lost their wealth/fortune) to 'Do not disgrace yourself around the affluent', reversing the meaning of 'sirichedi' (ruined/lost wealth) and 'chuttambu' (relative).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A collection of moral and ethical instructions advising against coveting another's wife, desiring others' wealth, speaking ill of others, engaging in unworthy gossip, and visiting relatives when one's wealth has diminished."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].category",
+      "issue": "The term 'సుమతీ' (Sumathi) is categorized as 'DEVOTIONAL_CONCEPT', but the gloss and context describe it as a secular moral/didactic vocative address ('O person of good intellect') from the Sumati Satakam, which does not fit a devotional concept. A category like 'SOCIAL_CUSTOM' or a more general classification would be more consistent, or the category is mismatched with the secular didactic nature of the poem.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "పరసతి కూటమిc గోరకు,  \nపరధనముల కాసపడకు, పరునెంచకుమీ,  \nసరిగాని గోష్టి చేయకు,  \nసిరిచెడి చుట్టంబుకడకు జేరకు సుమతీ.",
+  "poem_id": "MV++_1522",
+  "poem_title": "Parasathikutami",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c62638ca378d98e7559a8a37712c839c7f644b8fbbb1874f63fef95adecf6152",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1522.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "For the gathering of common people,  \nDo not let wealth divide you,  \nDo not engage in unworthy gossip,  \nDo not disgrace yourself around the affluent, Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:44:16.733475+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "53f918206a49003099f3329839b088eff18e6a621e16954a263c725ba6af2025",
+        "response_hash": "7e9df17e787b6751d6a962f1bdb9cb45765bdf8a68a80aadf55c118c9113fdb0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "234d31a48e2ba8101e883c649ad86eb6c00ce72f5f9a9ec5d0cd10ea6139165b",
+        "response_hash": "d03b5268f572268989d3c0e31388be0aedcbee932555280087ae4e28a548c038",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d79f63c2e9d3863fd2384fa431ea9c6b0598ece7e798eba3ca0799bd369246c5",
+        "response_hash": "dda2d2c9c20e80ca5b746a9b8aad7b30802b43fbf42600dc353097f2809d42bd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e739ba320e32a5626374813df5ac9b906b4e1f69f2e33da206a5e7bb0369960c",
+        "response_hash": "9c595864e298013b9afc3fa37efc60af9b471cfa3bc9ad3974bfa5cb42dc8d91",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "19a6c489b606785af37956bdd49feccfde26153067e5c3a362d0e90f63ebbc44",
+        "response_hash": "fd34bf2ff013a6181a6b44d581c316e21a7a4233f1c43ccba88deb03df4fd1d0",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "115ed54e44205dac9fa98dfb8a2649d2c3ee14293d0d01f371d32cf1a334912e",
+    "translation_sha256": "80753179cdbeabe74ecb774a4fb7eb8f7ae47b46b0312d8660ac7eb18c1a1cbe"
+  }
+}

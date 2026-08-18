@@ -1,0 +1,216 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A close-up of a single heart-shaped peepal leaf with a small, delicate, imaginative blossom resting on it.",
+          "A broader view of a lush green peepal tree branch with tiny, subtle flowers beginning to open among the leaves."
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The flower of the sacred fig (peepal) tree, culturally revered across India and Karnataka as a symbol of life, peace, and spiritual awakening. Its 'blossoming' is a rare, auspicious, and poetic image.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "Do not depict a generic common fig fruit or a standard western flower.",
+          "Avoid depicting a generic lotus or hibiscus, which are different cultural symbols altogether."
+        ],
+        "preserved": true,
+        "romanization": "arali huu",
+        "source_span_original": "ಅರಳಿ ಹೂ",
+        "source_span_translation": "fig flower",
+        "stanza_index": 1,
+        "term": "ಅರಳಿ ಹೂ",
+        "translation_note": "The translation renders 'arali' as 'fig' (referring to the sacred fig or peepal tree, Ficus religiosa), which is highly significant in Indian culture. In Kannada, 'arali' refers to the sacred peepal tree, whose flowers are famously hidden or non-existent in common lore, making a 'blossoming peepal flower' a rare, almost mythical symbol of impossible beauty or transformation.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A delicate, stylized blossom emerging from the branch of a sacred fig (peepal) tree, characterized by its distinct heart-shaped leaves with long, tapering tips.",
+          "Soft, subtle floral elements that suggest a rare or mystical blooming."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A quiet, reverent love for the land transitioning into a hopeful, active call to blossom and spread goodness.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'ಸಾಯುವುದು' (saayuvudu - dying/dissolving) as 'drenched' alters the intense literal imagery of the mother selflessly dissolving or dying in her outpouring of love. Additionally, the collective hortative verb forms 'ಆಗೋಣ' (aagona - let us become) and 'ಚಿಮ್ಮೋಣ' (chimmona - let us scatter) lose some of their direct, rhythmic communal call in the English phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The motherland or the nurturing spirit of the country",
+            "acceptable_visual_variants": [
+              "A maternal silhouette emerging from green hills",
+              "A motherly figure cradling green fields under a soft rain"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "Its mother",
+            "literalization_risk": "Depicting a literal human mother dying or being showered might distract from the geopolitical or environmental love for the homeland.",
+            "metaphor_mapping": {
+              "tenor_concept": "homeland",
+              "transferred_attributes": [
+                "nurturing",
+                "loving",
+                "giving life"
+              ],
+              "vehicle_concept": "mother"
+            },
+            "source_span_original": "ಅದರ ತಾಯಿ",
+            "source_span_translation": "Its mother",
+            "source_term": "ಅದರ ತಾಯಿ",
+            "tenor": "The land or nation",
+            "vehicle": "A human mother",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a maternal figure composed of or blending into the natural landscape, receiving a gentle shower of light or water."
+          },
+          {
+            "abstract_meaning": "An invitation to bloom, develop, and bring beauty or prosperity to the land",
+            "acceptable_visual_variants": [
+              "A group of people standing together with a large, beautiful flower blooming in their midst",
+              "Stylized figures whose arms open up like petals"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Let us become a blossoming flower",
+            "literalization_risk": "Showing people literally turning into flowers can look like a surreal fantasy or horror trope rather than a poetic call to action.",
+            "metaphor_mapping": {
+              "tenor_concept": "human growth and contribution",
+              "transferred_attributes": [
+                "beauty",
+                "growth",
+                "opening up to the world"
+              ],
+              "vehicle_concept": "blossoming flower"
+            },
+            "source_span_original": "ಆಗೋಣ ಒಂದು ಅರಳಿ ಹೂ",
+            "source_span_translation": "Let’s become a blossoming fig flower",
+            "source_term": "ಆಗೋಣ ಒಂದು ಅರಳಿ ಹೂ",
+            "tenor": "The citizens or people of the land",
+            "vehicle": "A blossoming flower",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show people working together with flowers blooming around them, or a stylized transition of a human figure opening up like a flower."
+          },
+          {
+            "abstract_meaning": "Spreading positive influence, love, and good deeds across the land",
+            "acceptable_visual_variants": [
+              "Hands scattering glowing seeds over a green field",
+              "Sparkles of light drifting from hands like wind-blown seeds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Let us scatter seeds of fragrance",
+            "literalization_risk": "Fragrance does not literally have seeds; showing literal seeds being thrown might look like ordinary farming without conveying the abstract beauty of spreading goodness.",
+            "metaphor_mapping": {
+              "tenor_concept": "spreading goodness",
+              "transferred_attributes": [
+                "scattering",
+                "growing into something pleasant",
+                "spreading far and wide"
+              ],
+              "vehicle_concept": "seeds of fragrance"
+            },
+            "source_span_original": "ಚಿಮ್ಮೋಣ ಪರಿಮಳದ ಬೀಜ",
+            "source_span_translation": "Let’s scatter seeds of fragrance",
+            "source_term": "ಚಿಮ್ಮೋಣ ಪರಿಮಳದ ಬೀಜ",
+            "tenor": "Good deeds, love, or positive influence",
+            "vehicle": "Seeds of fragrance",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict glowing, sparkling particles or seeds being scattered by hands, which turn into flowers or light as they touch the ground."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'ಸಾಯುವುದು' (saayuvudu, which literally means 'dying' or 'to die') as 'drenched', completely altering the intense, self-sacrificing literal meaning of the mother dying in the gush of love. Additionally, the plural hortative verb forms 'ಆಗೋಣ' (aagona - let us become) and 'ಚಿಮ್ಮೋಣ' (chimmona - let us splash/scatter) lose their specific collective, inclusive Kannada grammatical register in the English translation.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A deep, nurturing connection to one's homeland, characterized by natural beauty, maternal love, and a collective aspiration to blossom and spread positive influence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ನನ್ನ ದೇಶ ಇರುವುದು ಹಸಿರಿನಲ್ಲಿ,  \nಅದರ ತಾಯಿ ಸಾಯುವುದು ಚಿಮ್ಮಿಸು ಪ್ರೀತಿಯಲಿ,  \nಆಗೋಣ ಒಂದು ಅರಳಿ ಹೂ,  \nಚಿಮ್ಮೋಣ ಪರಿಮಳದ ಬೀಜ.",
+  "poem_id": "MV++_0992",
+  "poem_title": "Nanna Desha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a1adfd04b594b693e17d947ed05d98701c6c07555428a0136c70551cfb5666f8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0992.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My land exists in the greenery,  \nIts mother drenched in the shower of love,  \nLet’s become a blossoming fig flower,  \nLet’s scatter seeds of fragrance.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:40:40.097020+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e08f427f54646b49edf2a589fc422eda005b77b576b5c60003baf797345b2dbd",
+        "response_hash": "82b8200cf5fe914871f5230d5eaad29defa01bc6851f8adff2cc3925fc0ffa06",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "56ad52e3baeb9fe0add250e973c648c6dc3463f63510f4bdbfc1cb452886ce0d",
+        "response_hash": "5f5fbffd4706411f59f734482bd5febd92f31d4149f91d9716839739664de5aa",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a904e7f03d29b357afcf6955a5caac5d5f21081cf6eb1224529a027d004058c7",
+        "response_hash": "51df7861aaa7d4bae7ebcd451f31fe4636ee2cc87e9b747f0a4a448db93527be",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5ac82cfbb03dec06a440f3c9bdf3dfbc1e4c9fc09dbda77927bcc498f06308f8",
+        "response_hash": "e8d82b5c4951205591f6e2183e232dc35211bff37470537384173751786ba56a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "91d31ebbf4e7522ae3673c633a77cb69693466f73d1261c4321ec10104c76edb",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d7b200f76db31e944dacbe3909da724de0e42c00b9c3ebe4d0c0be0a07873c86",
+    "translation_sha256": "f1a14b68718dd81e3d1d23091003b46cea55f6756c0329cf1ee80c4ca2c4395b"
+  }
+}

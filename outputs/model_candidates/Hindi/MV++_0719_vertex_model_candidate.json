@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A brief, static state of cold anxiety and internal dread during a freezing night.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "fear",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The night is intensely cold, creating a harsh, uninviting, and anxious atmosphere that mirrors the speaker's internal state.",
+            "acceptable_visual_variants": [
+              "A dark room with a window showing a cold, starry night with frost patterns on the glass.",
+              "An outdoor scene of a quiet, cold street under a dark sky with a light mist or fog."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "A night that is physically shivering or trembling from cold.",
+            "literalization_risk": "Showing the night sky or darkness physically shaking or wearing a blanket like a cold person, which would look comical rather than atmospheric.",
+            "metaphor_mapping": {
+              "tenor_concept": "cold night",
+              "transferred_attributes": [
+                "trembling",
+                "feeling cold",
+                "vulnerability"
+              ],
+              "vehicle_concept": "shivering human being"
+            },
+            "source_span_original": "ठिठुरती रात",
+            "source_span_translation": "shivering night",
+            "source_term": "ठिठुरती रात",
+            "tenor": "The cold night",
+            "vehicle": "A shivering person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dark, cold night scene with visual cues of extreme cold, such as frost on a windowpane, bare branches, or a faint mist, capturing the mood of shivering without literalizing it."
+          },
+          {
+            "abstract_meaning": "The mind is completely overwhelmed and consumed by feelings of fear and anxiety.",
+            "acceptable_visual_variants": [
+              "A person sitting with their head in their hands, surrounded by deep, heavy shadows that engulf them.",
+              "A stylized silhouette of a person appearing to descend or float downwards through a dark, abstract space."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Submerged or drowned in water or liquid.",
+            "literalization_risk": "Showing a physical brain or heart drowning in a pool of water, which is too literal and anatomically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "being overwhelmed by emotion",
+              "transferred_attributes": [
+                "submersion",
+                "helplessness",
+                "being overwhelmed",
+                "loss of control"
+              ],
+              "vehicle_concept": "sinking in water"
+            },
+            "source_span_original": "डूबा",
+            "source_span_translation": "sinks",
+            "source_term": "डूबा",
+            "tenor": "Being overwhelmed by emotions of fear and worry",
+            "vehicle": "Drowning or sinking in a deep body of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure sitting in a dark room, cast in deep shadows that seem to weigh down on them, or surrounded by a dark, heavy mist that suggests being submerged."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses the present tense 'sinks' for 'डूबा' (dooba), which is grammatically a past participle or simple past form ('sank' or 'drowned/submerged'), flattening the completed state of being submerged into an ongoing action.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The tactile, physical sensation of shivering/freezing ('ठिठुरती') is personified as qualifying the night itself, which is partially preserved but loses the specific visceral Hindi connotation of bone-chilling winter cold.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The paralyzing weight of anxiety and fear in moments of physical and emotional coldness."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a detailed loss_note should accompany non-faithful translations or be consistent with the loss severity described. However, under the schema, translation_loss can be empty when faithful; having active loss items with 'low' severity while marking the overall translation as 'faithful' is a minor tension, though not a strict schema violation. A more direct inconsistency is that loss_note is empty (\"\") while translation_loss contains two structured items. Usually, if translation_loss is populated, loss_note should summarize these losses rather than being an empty string.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ठिठुरती रात में मेरा मन\nआशंका और चिंता में डूबा।",
+  "poem_id": "MV++_0719",
+  "poem_title": "Thithurti Raat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a6c72851da158048f615e059ae58f0c44dff0707ee11853c6473e25e3b1d5ebb",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0719.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the shivering night, my mind\nsinks into fear and worry.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:59:37.209738+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "750f318b365012be13a953ec103a32414824fe7cb83c9a3bc2ed153b16c41b45",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6d59a1e53ab8289fc42586c58dc3a6e9a92aa0ed6d69aa832fc2a6a1ce04c4d4",
+        "response_hash": "6e9279a1ed0f63a9e5cfc890de64361b9ba18a7445f64c4fa7c97b3bfba14390",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6aa0f760445106d18119d6e9ed561ab2a8744d8656f6ee0aca2f824b0ce5ee7",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fcda63827139913b1627378de3e68802d168150213a6295bb05fe1ff5a6f7c0d",
+        "response_hash": "9d5eba0b40ba80bd135abb43cfcacb9350c804e100a09035b2a17a4a07787686",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5d3513133d8d531af2c08e2024af369f74acc75eacc798f3f1e91c24869f28c2",
+        "response_hash": "3e5f861f0df89bf4b98bac52c7850d695f8bd923bee35b037806a5bb51921bf6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b3808ff91e27db279674ddbdf01ec021464c4630efbdc2aa637fd2d978b87a79",
+        "response_hash": "38a57bcb53a35adbd99fc91d5001784a602f610e341099b8dedf392c9049356a",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "708925640c7b30f2a81906c953683b3a30bf9cb932ee8211cf4e7990ea82f4ba",
+    "translation_sha256": "177a22a5e78c323a78d60869d6e81da5799eddc42b3bbe571f966ff7020f3328"
+  }
+}

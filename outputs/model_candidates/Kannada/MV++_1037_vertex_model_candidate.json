@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet joy and peaceful reflection on shared love",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the core imagery well, though the specific nuance of 'kanasu kattida' (literally 'built dreams') is rendered as 'woven in dreams' which slightly shifts the metaphor from building/constructing to weaving.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The merging of two lives or destinies in a deep, loving relationship.",
+            "acceptable_visual_variants": [
+              "Two roots of adjacent trees growing together underground",
+              "Two distinct colored threads blending into a single woven pattern"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "binding/weaving life together",
+            "literalization_risk": "Showing literal ropes or physical threads binding two people together, which looks like captivity rather than loving union.",
+            "metaphor_mapping": {
+              "tenor_concept": "uniting lives in love",
+              "transferred_attributes": [
+                "intertwined",
+                "inseparable",
+                "mutually supportive"
+              ],
+              "vehicle_concept": "weaving/binding threads"
+            },
+            "source_span_original": "ಬಾಳು ಬೆಸೆದು",
+            "source_span_translation": "lives intertwined",
+            "source_term": "ಬಾಳು ಬೆಸೆದು",
+            "tenor": "shared life and deep emotional connection",
+            "vehicle": "intertwined or woven threads/vines",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two distinct paths, streams of light, or soft colorful ribbons gently merging into a single harmonious flow."
+          },
+          {
+            "abstract_meaning": "Taking life steps or making progress guided by shared hopes and dreams.",
+            "acceptable_visual_variants": [
+              "Footprints made of stardust or light on a winding path",
+              "Two people walking hand-in-hand leaving glowing impressions on the ground"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "steps that built/wove dreams",
+            "literalization_risk": "Depicting literal feet physically constructing a brick wall or weaving a fabric, which is surreal and nonsensical.",
+            "metaphor_mapping": {
+              "tenor_concept": "making progress based on shared aspirations",
+              "transferred_attributes": [
+                "constructive",
+                "deliberate",
+                "hopeful"
+              ],
+              "vehicle_concept": "building/weaving a physical path or structure"
+            },
+            "source_span_original": "ಕನಸು ಕಟ್ಟಿದ ಹೆಜ್ಜೆ",
+            "source_span_translation": "Steps woven in dreams",
+            "source_term": "ಕನಸು ಕಟ್ಟಿದ ಹೆಜ್ಜೆ",
+            "tenor": "actions and progress made toward a shared future",
+            "vehicle": "steps building or weaving a structure of dreams",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show soft, glowing footprints on a path, with each footprint leaving behind a faint, beautiful image of a home, a garden, or stars."
+          },
+          {
+            "abstract_meaning": "The successful realization, flourishing, or beautiful manifestation of their journey and dreams.",
+            "acceptable_visual_variants": [
+              "A path transforming from dry earth to a lush, green, flowering trail",
+              "A soft glow radiating outward like a blossoming flower from the path ahead"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "blooming/blossoming like a flower",
+            "literalization_risk": "Showing literal flowers growing out of human feet or a dirt road, which can look like a botanical anomaly rather than a poetic flourishing.",
+            "metaphor_mapping": {
+              "tenor_concept": "the fulfillment and beauty of a shared life journey",
+              "transferred_attributes": [
+                "growth",
+                "beauty",
+                "vibrancy",
+                "opening up"
+              ],
+              "vehicle_concept": "a flower bud opening into full bloom"
+            },
+            "source_span_original": "ಅರಳಿ",
+            "source_span_translation": "Blooming",
+            "source_term": "ಅರಳಿ",
+            "tenor": "the flourishing and fulfillment of their life path",
+            "vehicle": "a flower opening up and blossoming",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a path lined with vibrant, opening wildflowers that seem to light up or bloom in the wake of the travelers."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada verb 'kattida' literally means 'built' or 'constructed' (as in building a house or structure), which carries a sense of active, deliberate creation. The English translation renders this as 'woven' ('Steps woven in dreams'), which shifts the metaphor from construction/building to weaving.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Kannada phrase 'baalu besedu' uses the verb 'besedu' which carries the physical connotation of soldering, fusing, or binding together strongly (like metals or joints), which is slightly softened to 'intertwined' in the English translation.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The beautiful journey of lives intertwined in love and shared dreams"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಪ್ರೀತಿಯ ಜೊತೆ,  \nನಾವು ಬಾಳು ಬೆಸೆದು,  \nಕನಸು ಕಟ್ಟಿದ ಹೆಜ್ಜೆ,  \nನಮ್ಮ ಹಾದಿಯಲ್ಲೇ ಅರಳಿ.",
+  "poem_id": "MV++_1037",
+  "poem_title": "Preetiya Jothe",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1626e0c55736ed9b317e49db00244e1d693f26f641b556b166203d164d002af5",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1037.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "With love,  \nOur lives intertwined,  \nSteps woven in dreams,  \nBlooming on our path.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:49:46.605944+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6072e2636e342a30713e73928f8c14db851468ae11085ccd87551644df734b4d",
+        "response_hash": "fff80858fd50243ff722f8aeaa86dd8cad6f0f9e7b5d8bb03c180095710d19d5"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea9834720620c8d3028baaabf2c0e322f1d17b3a879bfaf91eee130be86c1895",
+        "response_hash": "8af1eeb91ad5a87f37a145ca031ec7a3ad148f654820198f388635834ae74557",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "637b1a77f76998539a24c7d7294cab0453ac58dcabf2830e35703cafdf5ee70a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fd602ee06141e4114555fbc9091ff8fcdabaa9ac3dde991400752527044b0d6c",
+        "response_hash": "67ffb8c89f25e8a699d0b00fd7cdcdd67050091a8fb6ac2ed9e60cfd0b54a00d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "510f2cc5f733653fa54291758db85cfa204b8d5370edf6bcb146a49cfb126144",
+        "response_hash": "1389299ac5740ac48eefffc6bbd864cad582a5679ed33703fe4a303913f5900f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "254c5c089a6a6fd08f4b4776689737d9854dde00a5f6bc5dc45b0a5dcadd452e",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "200f240e928a9f89e20187110381f9e97df119c9561b5e122b508c1d63887a1f",
+    "translation_sha256": "63546b07edf60935756cca72142186c18375d15f2d9131e7d33747be4d742a13"
+  }
+}

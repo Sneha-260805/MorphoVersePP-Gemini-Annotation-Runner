@@ -1,0 +1,319 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A philosophical and devotional concept referring to that which has a manifest, physical form or shape, often contrasted with 'nirakar' (formless) in Indian theological and philosophical traditions.",
+        "line_ref": "L13",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "saakaar",
+        "source_span_original": "साकार",
+        "source_span_translation": "had form",
+        "stanza_index": 4,
+        "term": "साकार",
+        "translation_note": "Translated as 'had form', which captures the literal meaning of having a physical shape or manifest form, though it loses the specific philosophical resonance of the saguna/nirguna (manifest/unmanifest) theological discourse in Indian philosophy.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "quiet resilience and longing leading to a sobering, realistic acceptance of existence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mountain is treated as a conscious, feeling entity that has a story, stands silently, and never grows tired, representing enduring, unacknowledged existence.",
+            "acceptable_visual_variants": [
+              "A towering peak standing alone against a twilight sky",
+              "A rugged mountain peak rising above a sea of low clouds, untouched by the surrounding elements"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L4",
+            "literal_meaning": "A geological landform has a narrative, is ignored by others, stands in silence, and does not experience physical fatigue or pause.",
+            "literalization_risk": "Depicting a mountain with literal human features like a face, eyes, or tired limbs would look cartoonish and ruin the solemn, natural tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "A mountain standing in nature",
+              "transferred_attributes": [
+                "having a story",
+                "standing in conscious silence",
+                "not feeling physical fatigue",
+                "being ignored by others"
+              ],
+              "vehicle_concept": "A silent, ignored human being"
+            },
+            "source_span_original": "एक पहाड़ की कहानी,  \nजिसे सदा अनसुना किया,  \nमगर वह खड़ा रहा खामोश,  \nकभी न थका, न थमा।",
+            "source_span_translation": "A story of a mountain,  \nWhich was always unheard,  \nYet it stood silent,  \nNever tired, never still.",
+            "source_term": "एक पहाड़ की कहानी, \nजिसे सदा अनसुना किया, \nमगर वह खड़ा रहा खामोश, \nकभी न थका, न थमा।",
+            "tenor": "The enduring, unacknowledged, and unchanging nature of the mountain.",
+            "vehicle": "A silent, tireless human observer or outcast who is ignored by society but remains steadfast.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a massive, solitary mountain standing under a vast sky, perhaps partially shrouded in mist or shadow to emphasize its isolation and silent endurance."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'न थमा' as 'never still' reverses the literal meaning of the Hindi verb 'थमना' (to stop/pause), which means 'never stopped' or 'never paused' rather than 'never still'.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender of the mountain ('पहाड़') is masculine in Hindi, which governs the masculine verb forms 'खड़ा रहा' and 'थका'. The English translation uses the gender-neutral pronoun 'it', losing the subtle personification of the mountain as a masculine entity.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mountain is depicted as having desires, longing for connection, and watching the people or world around it.",
+            "acceptable_visual_variants": [
+              "A high peak looking down upon a distant village with warm, glowing lights at dusk",
+              "A solitary mountain overlooking a winding road with tiny, passing travelers"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5-L7",
+            "literal_meaning": "The mountain experiences constant longing, wishes to be asked about its desires, and visually observes everyone.",
+            "literalization_risk": "Drawing eyes on the mountain peak or showing it physically reaching out would look like a children's book illustration rather than a serious poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "A mountain overlooking a landscape",
+              "transferred_attributes": [
+                "desiring interaction",
+                "watching others",
+                "being neglected or unprompted"
+              ],
+              "vehicle_concept": "A lonely observer"
+            },
+            "source_span_original": "वह चाहता था हर समय,  \nजो उसे किसी ने न पूछा,  \nवह देखता रहा सबको",
+            "source_span_translation": "It longed every moment,  \nFor something no one ever asked,  \nIt watched everyone",
+            "source_term": "वह चाहता था हर समय, \nजो उसे किसी ने न पूछा, \nवह देखता रहा सबको",
+            "tenor": "The mountain's passive, enduring presence in relation to the active world around it.",
+            "vehicle": "A lonely, isolated person who yearns for social connection and silently observes others from afar.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the mountain overlooking a distant, bustling valley or path with tiny figures of people, emphasizing the vast physical distance and emotional isolation between the peak and humanity."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'जो उसे किसी ने न पूछा' as 'For something no one ever asked' alters the grammatical structure where 'पूछना' (to ask/care for) implies that no one asked about him or inquired after him, rather than asking for a specific 'something'.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mountain's continuous, unchanging existence is compared to the constant, unstopping nature of a mountain lake.",
+            "acceptable_visual_variants": [
+              "A pristine mountain lake at the foot of a massive peak, reflecting its image perfectly",
+              "A small, clear stream flowing from a mountain, showing movement alongside the mountain's stillness"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L9-L10",
+            "literal_meaning": "The mountain does not stop, in the same manner that a mountain lake never stops.",
+            "literalization_risk": "An illustrator might try to show a mountain physically moving or flowing like water, which contradicts the physical reality of a mountain.",
+            "metaphor_mapping": {
+              "tenor_concept": "The mountain's existence",
+              "transferred_attributes": [
+                "never stopping",
+                "continuous presence in the landscape"
+              ],
+              "vehicle_concept": "A mountain lake"
+            },
+            "source_span_original": "हर पहाड़ी झील की तरह,  \nवह कभी न रुका",
+            "source_span_translation": "Like every mountain lake,  \nIt never stopped",
+            "source_term": "हर पहाड़ी झील की तरह, \nवह कभी न रुका",
+            "tenor": "The mountain's continuous, uninterrupted state of existence.",
+            "vehicle": "A mountain lake (which flows, ripples, or exists continuously).",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a still, clear alpine lake reflecting the massive mountain peak, showing both elements coexisting in quiet, eternal stillness."
+          },
+          {
+            "abstract_meaning": "The mountain's physical height makes it seem to reach for the sky in a desire for grand connection, while it remains alienated from its own internal reality.",
+            "acceptable_visual_variants": [
+              "A sharp, snow-covered peak pointing directly into a starry night sky",
+              "A mountain summit lost in high, swirling clouds, suggesting a reach into the unknown"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L11-L12",
+            "literal_meaning": "The mountain desires to speak with the sky but is unable to physically reach or understand its own interior.",
+            "literalization_risk": "Showing a mountain with a mouth speaking to a personified sky or cloud would be overly literal and childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "A high mountain peak reaching toward the sky",
+              "transferred_attributes": [
+                "desiring to converse with the heavens",
+                "failing to reach inward or find self-realization"
+              ],
+              "vehicle_concept": "A self-alienated seeker"
+            },
+            "source_span_original": "वह चाहता था आकाश से बात करें,  \nमगर कभी खुद तक नहीं पहुंचा।",
+            "source_span_translation": "It wanted to converse with the sky,  \nBut never reached within itself.",
+            "source_term": "वह चाहता था आकाश से बात करें, \nमगर कभी खुद तक नहीं पहुंचा।",
+            "tenor": "The physical height of the mountain reaching toward the heavens contrasted with its hollow or silent internal depths.",
+            "vehicle": "An ambitious but self-alienated person who seeks high, external connections while lacking self-awareness or internal peace.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show the sharp peak of the mountain piercing high into a dramatic, cloudy sky, emphasizing the vertical scale and the vast, empty space surrounding the summit."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मगर कभी खुद तक नहीं पहुंचा' as 'But never reached within itself' shifts the literal meaning of 'खुद तक' (up to/to himself), which suggests never reaching or arriving at his own self/potential, rather than looking 'within' himself.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The physical weathering, cracks, and barrenness of the mountain are described as wounds and poverty, framing natural wear as suffering.",
+            "acceptable_visual_variants": [
+              "A close-up of a deeply fractured, barren rock face showing decades of erosion",
+              "A steep, rocky slope devoid of green plants, scarred by landslides or harsh weather"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L14",
+            "literal_meaning": "In every physical injury and state of extreme financial lack.",
+            "literalization_risk": "Depicting literal bleeding wounds or human beggars on the mountain would completely misrepresent the natural imagery.",
+            "metaphor_mapping": {
+              "tenor_concept": "Cracks, erosion, and barrenness of a mountain",
+              "transferred_attributes": [
+                "pain",
+                "scarring",
+                "lack of lush vegetation or resources",
+                "exposure to harsh elements"
+              ],
+              "vehicle_concept": "Human wounds and poverty"
+            },
+            "source_span_original": "हर चोट, हर दारिद्रय में",
+            "source_span_translation": "In every wound, every poverty",
+            "source_term": "हर चोट, हर दारिद्रय में",
+            "tenor": "The cracks, crevices, erosion, and barren, rocky surfaces of the mountain.",
+            "vehicle": "Wounds and poverty (human suffering and deprivation).",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the rough, heavily weathered, cracked rock faces of the mountain, perhaps with sparse, dry vegetation to visually convey 'wounds' and 'poverty' through natural textures."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'साकार' as 'had form' captures the literal meaning but loses the philosophical weight of the Sanskrit-derived term 'sakaar' (having a concrete, physical, or manifested form/shape), which contrasts with 'nirakar' (formless) in Indian philosophy.",
+            "where": "L13"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'दारिद्रय' as 'poverty' is literal, but the Hindi term 'daridraya' carries a deeper, classical register of absolute destitution, misery, or existential lack that is somewhat flattened by the generic English word 'poverty'.",
+            "where": "L14"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The silent, unacknowledged endurance of nature and the self, balancing grand aspirations with the quiet reality of existence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक पहाड़ की कहानी,  \nजिसे सदा अनसुना किया,  \nमगर वह खड़ा रहा खामोश,  \nकभी न थका, न थमा।\n\nवह चाहता था हर समय,  \nजो उसे किसी ने न पूछा,  \nवह देखता रहा सबको,  \nसभी को और कुछ नहीं चाहिए था।\n\nहर पहाड़ी झील की तरह,  \nवह कभी न रुका,  \nवह चाहता था आकाश से बात करें,  \nमगर कभी खुद तक नहीं पहुंचा।\n\nवह समझता था सब कुछ साकार है,  \nहर चोट, हर दारिद्रय में,  \nमगर यही सच है,  \nवह सिर्फ़ एक पहाड़ था।",
+  "poem_id": "MV++_0515",
+  "poem_title": "Ek Pahad ki Kahani",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "13d02512c136cd0d437f6af38d08972425be37af36e877f232b3b0a910b7f38d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0515.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A story of a mountain,  \nWhich was always unheard,  \nYet it stood silent,  \nNever tired, never still.\n\nIt longed every moment,  \nFor something no one ever asked,  \nIt watched everyone,  \nAnd needed nothing more.\n\nLike every mountain lake,  \nIt never stopped,  \nIt wanted to converse with the sky,  \nBut never reached within itself.\n\nIt believed everything had form,  \nIn every wound, every poverty,  \nBut this is the truth,  \nIt was just a mountain.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:33:30.019619+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1b8104524f711174b47a25d7bf5bd3afad70d8bbde5b6601987fd97995c464ff",
+        "response_hash": "6f20ac47e7e7c3144bf035f76a18ecab0b18ff2d53da8f6467e2d9ae2c27a5e9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bf851a0c6e3cf474ca84e67b0c2d7e4818d6f0e1298d15ea91bb32edb4760496",
+        "response_hash": "5fc2f33bdb5b9cb2ca588522c0bd429e4d688647b71c7c1ede0c26604f23a81f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "918393fbc13a6732c412667b506b83a48ee10d0bcfe5378e9ef177abcbc5e4fc",
+        "response_hash": "2c959634e44b1ddc8fe05659f613617d918a7d7e53a70c00e0501bbd31c009cb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "39fc1bd78f7278a33a0bf13cd3ac2584ad6c48695195ddf03f5acdd952efdd2c",
+        "response_hash": "16a4b604c9ba26ca02c8663dff6f4083f1b70df80b531daaf8af1fdb77384216",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "54d1031107b446c8831fd8cb980278b42b22fefa5d692aaa36a505ffc48a4ef1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "906f3866201f7269945477d1a4a525939826b332c98b298f19926d73a6a0011d",
+    "translation_sha256": "a27646685b842d672e08b7cecebba935d1204e8e83a38a2138eeae1e2af04290"
+  }
+}

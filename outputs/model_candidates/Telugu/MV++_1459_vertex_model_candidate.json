@@ -1,0 +1,282 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A hand-painted wall slogan in a rural Indian village setting",
+          "A banner held during a public rally or demonstration"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A highly prominent national slogan in India meaning 'Hail the Farmer', coined by Prime Minister Lal Bahadur Shastri in 1965 to highlight the critical role of farmers in the nation's self-reliance and security.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Generic Western agricultural protest signs",
+          "Slogans from unrelated political movements outside India"
+        ],
+        "preserved": true,
+        "romanization": "Jai Kisan",
+        "source_span_original": "జై కిసాన్",
+        "source_span_translation": "\"Jai Kisan!\" (Hail the farmer!)",
+        "stanza_index": 1,
+        "term": "జై కిసాన్",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A bold, patriotic slogan written in Telugu or Devanagari script, often seen on banners, rural walls, or public signs in India."
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A farmer standing in a field holding a heap of freshly harvested paddy in cupped hands",
+          "An elder farmer serving food or grain to others"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A culturally and spiritually loaded term in India meaning 'the giver of food' or 'food provider', elevating the farmer to a highly revered, almost divine status of sustainer of life.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A commercial food distributor or modern industrial agricultural worker",
+          "A generic chef or cook serving food"
+        ],
+        "preserved": true,
+        "romanization": "annadaata",
+        "source_span_original": "అన్నదాత",
+        "source_span_translation": "giver of food",
+        "stanza_index": 1,
+        "term": "అన్నదాత",
+        "translation_note": "Translated as 'giver of food' and 'provider of food' in different parts of the stanza, capturing the literal meaning but losing the deep cultural and spiritual reverence associated with the term in Indian society.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A humble farmer offering or holding harvested grain, reflecting the traditional Indian ideal of the farmer as a selfless sustainer of life."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "Moves from ironic celebration of the farmer's status to deep grief and despair over their tragic reality.",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the rhythmic, repetitive structure of the Telugu verbal suffixes (-annaru, meaning 'they said') which builds the ironic contrast in the first half is flattened into standard English declarative sentences.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The farmer is highly valued and holds supreme importance in society, comparable to a sovereign ruler.",
+            "acceptable_visual_variants": [
+              "A farmer standing tall and proud amidst crops with a warm, respectful light shining down on them like a spotlight.",
+              "A split image showing a traditional king on one side and a hardworking farmer on the other, sharing a similar posture of responsibility."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "They said the farmer is indeed the king",
+            "literalization_risk": "Depicting a farmer wearing a royal crown and sitting on a golden throne would misrepresent their actual impoverished, working-class reality.",
+            "metaphor_mapping": {
+              "tenor_concept": "farmer",
+              "transferred_attributes": [
+                "supreme importance",
+                "sovereignty",
+                "dignity",
+                "centrality to the realm"
+              ],
+              "vehicle_concept": "monarch / ruler"
+            },
+            "source_span_original": "రైతే రాజన్నారు",
+            "source_span_translation": "the farmer is a king",
+            "source_term": "రైతే రాజన్నారు",
+            "tenor": "the farmer's societal importance and dignity",
+            "vehicle": "king / royalty",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a farmer standing proudly in a green field holding a simple tool like a spade, but framed with a subtle, glowing golden outline or shadow resembling a crown or throne to suggest royal dignity."
+          },
+          {
+            "abstract_meaning": "The farmer is the essential support system that holds the entire nation together and keeps it functioning.",
+            "acceptable_visual_variants": [
+              "A strong, central pillar made of soil and crops supporting a miniature representation of a modern country.",
+              "A farmer's hands holding up the foundation of a city or nation."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "They said the farmer is indeed the backbone of the country",
+            "literalization_risk": "An illustrator might literally draw a human spine superimposed over a map of India, which looks clinical or bizarre rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "farmer's economic and structural role",
+              "transferred_attributes": [
+                "structural support",
+                "essential for standing upright",
+                "vital core"
+              ],
+              "vehicle_concept": "backbone / spine"
+            },
+            "source_span_original": "రైతే దేశానికి వెన్నముక అన్నారు",
+            "source_span_translation": "the farmer is the backbone of the nation",
+            "source_term": "రైతే దేశానికి వెన్నముక అన్నారు",
+            "tenor": "the farmer's role as the structural support of the nation's economy and survival",
+            "vehicle": "backbone / spine",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a farmer bent over working in the soil, with their curved back subtly morphing into or supporting a stylized map or skyline of the nation."
+          },
+          {
+            "abstract_meaning": "The farmer is the foundational source from which the country's development and progress grow.",
+            "acceptable_visual_variants": [
+              "A tree of national progress where the roots are depicted as tilled soil and agricultural tools.",
+              "A farmer planting a seed that sprouts into a glowing pathway of development."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "They said the farmer is the root for the country's progress",
+            "literalization_risk": "Drawing literal plant roots growing out of a human farmer's feet into the ground could look like a fantasy monster or tree-person.",
+            "metaphor_mapping": {
+              "tenor_concept": "farmer's foundational labor",
+              "transferred_attributes": [
+                "source of nourishment",
+                "foundation",
+                "origin of growth"
+              ],
+              "vehicle_concept": "root of a plant"
+            },
+            "source_span_original": "దేశ ప్రగతికి మూలం రైతన్నారు",
+            "source_span_translation": "For the progress of the country, the farmer is the root",
+            "source_term": "దేశ ప్రగతికి మూలం రైతన్నారు",
+            "tenor": "the foundational role of agriculture in national development",
+            "vehicle": "root of a plant",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a thriving, modern city or green tree growing upwards, with its deep roots underground wrapping around or being nourished by a farmer's hands working the soil."
+          },
+          {
+            "abstract_meaning": "Being trapped in and devastated by severe drought and famine conditions.",
+            "acceptable_visual_variants": [
+              "A dark, looming shadow of a predatory beast cast over a dry, barren field where a farmer sits helplessly.",
+              "Cracked earth patterns that visually mimic a cage or trap surrounding the farmer."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "Getting caught in the fangs/clutches of drought and famine",
+            "literalization_risk": "Drawing a literal monster with fangs biting a farmer might look like a horror movie or fantasy scene rather than a realistic depiction of agricultural crisis.",
+            "metaphor_mapping": {
+              "tenor_concept": "drought and famine",
+              "transferred_attributes": [
+                "sharpness",
+                "deadly grip",
+                "predatory threat",
+                "pain"
+              ],
+              "vehicle_concept": "fangs or claws of a predatory beast"
+            },
+            "source_span_original": "కరువు కాటకాల కోరల్లో చిక్కుకొని",
+            "source_span_translation": "Caught in the clutches of drought and despair",
+            "source_term": "కరువు కాటకాల కోరల్లో చిక్కుకొని",
+            "tenor": "the inescapable and destructive grip of drought and famine",
+            "vehicle": "fangs / claws of a wild beast",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a farmer standing in a cracked, dry, parched earth landscape where the deep cracks in the soil curve and close in around him like the sharp claws or teeth of a beast."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic, repetitive structure of the Telugu suffix '-annaru' (they said/called), which builds a powerful rhetorical momentum in the original text, is flattened into varied English phrasing ('They say', 'They chant').",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific compound 'annadata' (giver of food) is translated as 'giver of food' and 'provider of food', losing the deep cultural resonance of 'annadata' as a sacred, life-sustaining role in Indian society.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The tragic irony of the Indian farmer who feeds the nation but is driven to hunger and suicide by systemic neglect and natural disasters."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "రైతే రాజన్నారు రైతు లేనిదే రాజ్యం లేదన్నారు రైతే దేశానికి వెన్నముక అన్నారు రైతే అన్నదాతన్నారు దేశ ప్రగతికి మూలం రైతన్నారు జై కిసాన్ అన్నారు కాని ఏమున్నది లాభం ప్రస్తుత రైతు పరిస్థితి మరీ దారుణం ప్రకృతి ప్రకోపానికి విల విల లాడుతూ కరువు కాటకాల కోరల్లో చిక్కుకొని అధికారుల నిర్లక్ష్యానికి గురవుతూ అధిక వడ్డీ రేట్లతో సతమతమైపోతు కత్తి పురుగు మందులు నకిలీ విత్తనాలతో పంట నష్టాన్నే పొందుతున్న అన్నదాతకే ఆకలి మిగిలింది ఆత్మ హత్యే శరణ్యం అయ్యింది.......",
+  "poem_id": "MV++_1459",
+  "poem_title": "Raitu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c3c00408814be24a161a74a034a72784f5b2cc7c924529ff7150fbc85173b1c4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1459.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "They say the farmer is a king;\nWithout farmers, there is no kingdom.\nThey say the farmer is the backbone of the nation;\nThey say the farmer is the giver of food.\nFor the progress of the country, the farmer is the root;\nThey chant \"Jai Kisan!\" (Hail the farmer!).\nBut what is left?\nThe current state of farmers is truly dire.\nTrembling under nature’s wrath,\nCaught in the clutches of drought and despair,\nEnduring the indifference of officials,\nSuffering under high-interest rates,\nStruggling with pesticides and fake seeds,\nThe farmer faces only losses.\nFor the provider of food, hunger remains;\nSuicide has become the only refuge...",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:36:40.272738+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "155904235cdc2c49647790278569fa1eac7300c23d272383722b94973d29766a",
+        "response_hash": "9c40ce7ae6240c0a3e749a26132fe5560e6fdbade72335836dd46d09d5ab4bef"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "380d0e212d8d77e4e07563c01c52bd528ebec5f9cddd2bc9baa22eb7eb057ca6",
+        "response_hash": "3529b01e39342767ba839893fe71701705d39c4bd17819b6e9d223a0b8f293c1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "06d124961aaaa3f606be2cc1332d10e7c3e19a1af564b655ddce1609b892c402",
+        "response_hash": "9ed3943df674c11b24ff6f262aecfc5b9a65415e3a0550f38ea815222f229ecb",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6efdd15963adbcdd4f493ba645c91351abc0bbb1de871f2011fcb75bf303cbce",
+        "response_hash": "f32b365644b3590aabf057338814aff5d6e69de189506e1fddecb27c0be08846",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3e635a1d8f389ca10ee04e19c31f47379bbf2f4f5876d292b300a5f0c1e00ba3",
+        "response_hash": "097acfb853272985e67c3fcf3664eff9f1be60ce465d5f191f1b7bd5b65cef5b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2235ec643c889bc0a5f1bb30b28a544b5dcdc2709e23a80f0eec56af52a20ead",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2d86cbb31921239cf42a84b427d2430b756f61a895389b8517a50a2223f33db3",
+    "translation_sha256": "c71703c44abc685ebdd276f693eb30047592d3e4c9f24dcc3baaed993e248c9a"
+  }
+}

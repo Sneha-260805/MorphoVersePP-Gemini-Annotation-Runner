@@ -1,0 +1,200 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to quiet devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The silent, non-verbal communication and emotions conveyed through a person's gaze or eyes.",
+            "acceptable_visual_variants": [
+              "A close-up of expressive, emotional eyes reflecting a soft light or a loved one's silhouette.",
+              "Two figures in a gentle profile gaze, with a warm, glowing line or soft sparkles tracing the path of their look."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The spoken language or tongue of the eye",
+            "literalization_risk": "Depicting a literal mouth or speech bubble emerging from an eyeball, which would look surreal or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "visual gaze communication",
+              "transferred_attributes": [
+                "expressiveness",
+                "ability to convey deep meaning",
+                "direct communication"
+              ],
+              "vehicle_concept": "verbal language"
+            },
+            "source_span_original": "விழியின் மொழி",
+            "source_span_translation": "The language of eyes",
+            "source_term": "விழியின் மொழி",
+            "tenor": "silent emotional expressions conveyed through looking",
+            "vehicle": "spoken language / speech",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two people looking deeply into each other's eyes with soft, expressive gazes, perhaps with subtle light or warmth connecting their eyes to show communication."
+          },
+          {
+            "abstract_meaning": "The deepest, most sincere feelings and emotional truths arising from one's inner self.",
+            "acceptable_visual_variants": [
+              "A hand resting gently over the chest of a figure to symbolize speaking from the heart.",
+              "A stylized, warm glowing heart shape radiating soft light waves like sound waves."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the spoken words of the physical heart organ",
+            "literalization_risk": "Depicting an anatomical heart with a mouth speaking words, which is visually jarring and medically literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "innermost emotions",
+              "transferred_attributes": [
+                "articulation",
+                "sincerity",
+                "direct expression of truth"
+              ],
+              "vehicle_concept": "spoken words"
+            },
+            "source_span_original": "இதயத்தின் சொல்லில்",
+            "source_span_translation": "In the words of my heart",
+            "source_term": "இதயத்தின் சொல்லில்",
+            "tenor": "deep emotional feelings and sincerity",
+            "vehicle": "spoken words / speech",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on a person placing a hand over their chest/heart with a sincere, tender expression, or use a soft glowing heart symbol to represent deep emotion."
+          },
+          {
+            "abstract_meaning": "Love is felt deeply and expressed clearly between the lovers, as if it were an active speaker.",
+            "acceptable_visual_variants": [
+              "A couple sitting close together in a peaceful, warm setting, conveying a deep unspoken bond.",
+              "Soft, warm light enveloping two figures to represent the active, comforting presence of love."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "The abstract concept of love is physically speaking words",
+            "literalization_risk": "Depicting a personified abstract figure named 'Love' with a mouth speaking, which can look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "the emotion of love",
+              "transferred_attributes": [
+                "ability to speak",
+                "active communication",
+                "presence"
+              ],
+              "vehicle_concept": "a human speaker"
+            },
+            "source_span_original": "காதல் பேசுகின்றது",
+            "source_span_translation": "Love speaks softly",
+            "source_term": "காதல் பேசுகின்றது",
+            "tenor": "the clear presence and mutual understanding of love",
+            "vehicle": "a speaking person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the intimate, quiet atmosphere of two lovers sharing a close, silent moment where their connection speaks for itself."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the adverb 'softly' to the verb 'speaks' (பேசுகின்றது), which is not present in the original Tamil text. The original simply states that love speaks.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The genitive case markers in 'விழியின்' (vizhiyin - of the eye) and 'இதயத்தின்' (ithayathin - of the heart) carry a poetic rhythm and flow that is flattened into standard English prepositional phrases ('of eyes', 'of my heart').",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The silent, unspoken language of love that connects two souls through dreams and the heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "விழியின் மொழி,  \nஉன் கனவினில் நிற்கும்,  \nஎன் இதயத்தின் சொல்லில்,  \nகாதல் பேசுகின்றது!",
+  "poem_id": "MV++_1401",
+  "poem_title": "Vizhiyin Mozhi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5f6513890700d96f913046e200c1f3575b9511e8f30df2265e85403fb1196bd4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1401.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The language of eyes,  \nStands in your dreams,  \nIn the words of my heart,  \nLove speaks softly!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:29:46.101282+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b047b2f2899e01901b16bfc123bcea41c2320174c4e3331e295b4d1ddc059746",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f407b60f1998b1a71069ee989b3c5b9aed6b62cf620387966f6b9ff4227860c8",
+        "response_hash": "5ed56223e134f4d9e98ab0b0db5cd1b843c2031b7539a502c85409881e4b8814",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "68a48a03b3b69da08ed5c864fb164571d943347453bac1aa4c125497cebe0273",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5cf7c2c329c8cc6cbef60e04f45fab7e1d42e032d8f2c8dd3c3f01181890efd3",
+        "response_hash": "a96a467aedfd9b838560dee2651e026f5247f02ededd6081cada2a4f0f3a5f2c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e86800d86e656b6fb03b8f93b9a76470e4eb57936091a3ca92e84dbb5fbc819c",
+        "response_hash": "ff9de44cb6b9f6d07593bee217d7f0fc3c73a1615ea22379f7e41df438a2d6eb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0a54dd2c1e6571eda2ed60f458af8dab759251c6a553e80d86ad828f9e87a495",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1752fd2b831478743901275e0a18fd82ea309d3b19abb598aee647fff2b649cb",
+    "translation_sha256": "7ee3e029005651bc472519ff046fd35c475f6a14c80ed6174891c9c71f3c475a"
+  }
+}

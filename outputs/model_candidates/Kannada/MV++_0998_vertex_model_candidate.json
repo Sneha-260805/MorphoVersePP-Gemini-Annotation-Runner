@@ -1,0 +1,238 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple thatched-roof structure under a large banyan tree with students sitting on mats",
+          "An open-air courtyard of a traditional clay-walled dwelling"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional residential school system in ancient India where disciples lived near or with the guru.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern Western-style classroom with desks and blackboards",
+          "A highly ornate, wealthy temple complex"
+        ],
+        "preserved": false,
+        "romanization": "gurukuladalli",
+        "source_span_original": "ಗುರುಕುಲದಲ್ಲಿ",
+        "source_span_translation": "school of wisdom",
+        "stanza_index": 1,
+        "term": "ಗುರುಕುಲದಲ್ಲಿ",
+        "translation_note": "The translation generalizes the culturally specific residential school system 'Gurukula' to 'school of wisdom'.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "A traditional forest-like or simple outdoor hermitage setting",
+          "A teacher (guru) and students (shishyas) gathered in study"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "wonder and intellectual growth",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'oduttade' (runs) as 'take flight' to match the bird imagery, altering the literal movement of the dream in the forest.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The liberating and expansive nature of acquiring knowledge, which allows one's mind to soar.",
+            "acceptable_visual_variants": [
+              "A stylized bird silhouette soaring into a bright sky",
+              "An abstract form of light shaped like wings expanding outward from a central point of light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The bird called knowledge",
+            "literalization_risk": "Depicting a literal bird with books or letters on its wings, which looks cartoonish and misses the spiritual/intellectual elevation.",
+            "metaphor_mapping": {
+              "tenor_concept": "knowledge",
+              "transferred_attributes": [
+                "flight",
+                "soaring",
+                "freedom",
+                "elevation"
+              ],
+              "vehicle_concept": "bird"
+            },
+            "source_span_original": "ಜ್ಞಾನವೆಂಬ ಹಕ್ಕಿ",
+            "source_span_translation": "The bird called knowledge",
+            "source_term": "ಜ್ಞಾನವೆಂಬ ಹಕ್ಕಿ",
+            "tenor": "knowledge / wisdom",
+            "vehicle": "a bird soaring",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, ethereal bird-like form of light rising upwards from a figure engaged in contemplation or study."
+          },
+          {
+            "abstract_meaning": "The deep, vast, and complex inner landscape of one's mind, intuition, and self-reflection.",
+            "acceptable_visual_variants": [
+              "A mystical forest with translucent, glowing trees and a path of light",
+              "A silhouette of a person meditating with a lush, starry forest landscape visible within their outline"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the forest of inner vision",
+            "literalization_risk": "Showing a literal dark jungle with wild animals, which obscures the peaceful, introspective, and spiritual nature of inner vision.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner vision",
+              "transferred_attributes": [
+                "depth",
+                "vastness",
+                "mystery",
+                "growth",
+                "density"
+              ],
+              "vehicle_concept": "forest"
+            },
+            "source_span_original": "ಅಂತರ್ದೃಷ್ಟಿಯ ಅರಣ್ಯದಲ್ಲಿ",
+            "source_span_translation": "In the forest of inner vision",
+            "source_term": "ಅಂತರ್ದೃಷ್ಟಿಯ ಅರಣ್ಯದಲ್ಲಿ",
+            "tenor": "inner vision / intuition",
+            "vehicle": "a forest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, luminous forest landscape with glowing trees or pathways of light, suggesting a mental or spiritual realm rather than a physical jungle."
+          },
+          {
+            "abstract_meaning": "Dreams and aspirations actively moving, progressing, or taking flight within one's consciousness.",
+            "acceptable_visual_variants": [
+              "Streaks of golden light darting forward through a forest",
+              "A stylized, translucent figure running forward, leaving a trail of stars or light"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "dream runs",
+            "literalization_risk": "Depicting literal sleeping dreams running on legs, which would look absurd and comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "movement",
+                "speed",
+                "active pursuit",
+                "vitality"
+              ],
+              "vehicle_concept": "running entity"
+            },
+            "source_span_original": "ಕನಸು ಓಡುತ್ತದೆ",
+            "source_span_translation": "dreams take flight",
+            "source_term": "ಕನಸು ಓಡುತ್ತದೆ",
+            "tenor": "dreams / aspirations",
+            "vehicle": "a running or moving entity",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize dynamic, flowing streaks of light or abstract figures moving swiftly forward through the mystical forest landscape."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'Gurukula' (ಗುರುಕುಲದಲ್ಲಿ) as 'school of wisdom' flattens the specific cultural institution of a traditional residential learning system under a guru into a generic educational metaphor.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'ಓಡುತ್ತದೆ' (runs/runs fast) as 'take flight' to match the bird imagery, losing the literal sense of running or racing through the forest.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The expansion of inner wisdom and dreams through learning"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].category",
+      "issue": "The term 'ಗುರುಕುಲದಲ್ಲಿ' (Gurukula) is categorized as 'DEVOTIONAL_CONCEPT', but it represents a traditional educational institution/system, which is more accurately classified under 'SOCIAL_CUSTOM' or 'REGIONAL_SYMBOL' rather than a devotional concept.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಗುರುಕುಲದಲ್ಲಿ ಬೆಳೆದೊಡನೆ,  \nಜ್ಞಾನವೆಂಬ ಹಕ್ಕಿ ಹಾರುತ್ತದೆ,  \nಅಂತರ್ದೃಷ್ಟಿಯ ಅರಣ್ಯದಲ್ಲಿ,  \nನಿನ್ನ ಕನಸು ಓಡುತ್ತದೆ.",
+  "poem_id": "MV++_0998",
+  "poem_title": "Gurukula",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7bf143d5eea93ebfbe1a4e429cda4770163ad38d8013f933628a21d6b24c61a7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0998.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "As I grow in the school of wisdom,  \nThe bird called knowledge soars,  \nIn the forest of inner vision,  \nYour dreams take flight.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:42:51.999512+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b354a239e732bffa9b37206612fc07473636743a9dccb5227399a9c564bf054d",
+        "response_hash": "3a5d52eb3499d9854e3fdc30859d120d46372fde2ec69c2d8d3787a520dfd651"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d8fb210e9727c6296ab3a1e57e4856ef4bd6647ef47bba2057785fc09b677f83",
+        "response_hash": "0e249c33ebbff5c83081409111800787339e9df5344136bf41a03854000774ad",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "87f218952035802e0a65a15aa27ac469d806c70fee3a74d46600ed033195c1c6",
+        "response_hash": "c3c32b83d200541b2e6ccec135be1b3c00d014c560cea5c17d69c1ccc499e313",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49f08967f06421296edb7728ea448ab9e67519a86b7abfdaa24436d54501a966",
+        "response_hash": "6eea9f7e9bbde7ac6d7d6a1318fac344d6b3025e6aeadabdd1b32abc9b736680",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3768ae746f6b9e008790b2c34a6ffb7131805eea34fe29a1b90c3b2bafc96cfb",
+        "response_hash": "e1204a9cb1afab9e9dc6462b8c67e5eb9bac4c08955fc4982b3a5a14308a958c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3421a215907e74125a3525adf396c26c3c62cff628b1778594f151b95fc8158e",
+        "response_hash": "3b13e4fdd6ef30951e66581e67c232e5ba2b9cc106c43226b93347eb6580163a",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9796cf8d6bd484955232dd0d587eef3ac1ee8172d883965233e130510080b5d0",
+    "translation_sha256": "bb1e9a3fc6c78dea4a7e58523f6d47c8e9e6ebdd73df1099a7c69c97b5e8fb54"
+  }
+}

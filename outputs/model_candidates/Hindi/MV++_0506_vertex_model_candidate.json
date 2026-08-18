@@ -1,0 +1,266 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to deep realization",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intense, passionate, and transformative nature of creative thoughts.",
+            "acceptable_visual_variants": [
+              "A glowing warm aura surrounding a writing figure",
+              "A pen tip leaving a trail of soft, luminous golden light on paper"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "fire of thoughts",
+            "literalization_risk": "Depicting literal flames emerging from a head or brain, which looks like a physical injury or a fantasy spell rather than intellectual passion.",
+            "metaphor_mapping": {
+              "tenor_concept": "thoughts",
+              "transferred_attributes": [
+                "heat",
+                "intensity",
+                "transformative power",
+                "illumination"
+              ],
+              "vehicle_concept": "fire"
+            },
+            "source_span_original": "विचारों की आग",
+            "source_span_translation": "fire of thoughts",
+            "source_term": "विचारों की आग",
+            "tenor": "thoughts",
+            "vehicle": "fire",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in deep contemplation with warm, glowing light or subtle ember-like sparks softly radiating around their silhouette."
+          },
+          {
+            "abstract_meaning": "The restless, active movement of words and ideas in the mind before they are written down.",
+            "acceptable_visual_variants": [
+              "Faint Devanagari characters drifting like autumn leaves in a gentle breeze",
+              "A soft ripple on water reflecting written characters"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "the stir / commotion of words",
+            "literalization_risk": "Showing literal letters physically swirling around a person's head like a swarm of insects, which can look chaotic or distracting.",
+            "metaphor_mapping": {
+              "tenor_concept": "linguistic thoughts in the mind",
+              "transferred_attributes": [
+                "restlessness",
+                "activity",
+                "vibration",
+                "awakening"
+              ],
+              "vehicle_concept": "physical movement / crowd commotion"
+            },
+            "source_span_original": "शब्दों की हलचल",
+            "source_span_translation": "stir of words",
+            "source_term": "शब्दों की हलचल",
+            "tenor": "words / thoughts",
+            "vehicle": "physical stir or commotion",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict faint, semi-transparent script or letters gently floating and swirling in a soft, fluid motion around a reflective figure."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'antar' (अन्तर) as 'within' loses the specific philosophical and psychological depth of the Sanskrit-derived term 'antar', which refers to the inner self, heart, or core of consciousness rather than just a generic spatial interior.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'halchal' (हलचल) as 'stir' softens the active, restless, and chaotic movement implied by the Hindi word, which suggests a vibrant commotion or turbulence of words.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The expressive, structured, and beautiful artistic expression of emotional suffering.",
+            "acceptable_visual_variants": [
+              "A solitary figure playing a flute under a dark sky",
+              "A single teardrop falling onto a musical string, creating a ripple"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "the music / melody of pain",
+            "literalization_risk": "Depicting literal musical notes coming out of a crying face or a wound, which looks absurd or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional pain",
+              "transferred_attributes": [
+                "harmony",
+                "expression",
+                "rhythm",
+                "aesthetic beauty"
+              ],
+              "vehicle_concept": "music"
+            },
+            "source_span_original": "वेदना का संगीत",
+            "source_span_translation": "melody of pain",
+            "source_term": "वेदना का संगीत",
+            "tenor": "pain / suffering",
+            "vehicle": "music / melody",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a classical stringed instrument (like a sitar or veena) with a single broken or tense string, or a solitary figure playing an instrument in a melancholic, dimly lit setting."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'dhalta hai' (ढलता है) as 'shapes itself' misses the specific nuance of being cast, molded, or poured (like molten metal into a mold), which conveys a more physical and transformative process of artistic creation.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'vedna' (वेदना) as 'pain' loses the deep, agonizing, and often spiritual or existential suffering associated with this Sanskrit-derived term, which is more intense than generic physical or emotional pain.",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'lekhna' (लेखन) as 'verse' changes the literal meaning of 'writing' or 'act of writing' to a specific poetic form, slightly altering the focus from the process of writing to the product.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The concrete, living embodiment of abstract human emotions through written poetry.",
+            "acceptable_visual_variants": [
+              "A notebook open with ink flowing naturally into the shape of a blooming flower",
+              "A hand holding a pen where the written lines turn into a flying bird"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "the living / animate form of emotions",
+            "literalization_risk": "Depicting abstract emotions as literal monsters or humanoid creatures walking out of a book, which shifts the genre to fantasy or horror.",
+            "metaphor_mapping": {
+              "tenor_concept": "poetry",
+              "transferred_attributes": [
+                "breath",
+                "life",
+                "animation",
+                "vitality"
+              ],
+              "vehicle_concept": "living being"
+            },
+            "source_span_original": "भावनाओं का सजीव रूप",
+            "source_span_translation": "living form of emotions",
+            "source_term": "भावनाओं का सजीव रूप",
+            "tenor": "poetry / emotions",
+            "vehicle": "a living organism / breathing form",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a book or manuscript from which vibrant, organic elements like green leaves, vines, or soft light gently grow and blossom."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'sajeev roop' (सजीव रूप) as 'living form' loses the literal nuance of 'with life' or 'endowed with soul/breath' (sa-jeev), which emphasizes the infusion of life into abstract emotions.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The birth of a poet and the transformative power of poetry in giving life new meaning"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक कवि का जन्म होता है,  \nसपनों की शांति से, विचारों की आग से।  \nअंतर की गहराई में,  \nशब्दों की हलचल से जाग उठता है।\n\nहर भावना का स्पर्श,  \nउसकी रचना में ढलता है।  \nवेदना का संगीत और सुख की मुस्कान,  \nउसके लेखन की पहचान बन जाती हैं।\n\nकविता, उसका अस्तित्व है,  \nभावनाओं का सजीव रूप।  \nहर शब्द में, हर पंक्ति में,  \nजीवन का एक नया अर्थ मिलता है।",
+  "poem_id": "MV++_0506",
+  "poem_title": "Ek Kavi Ka Janm",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "fae651b0cb8c3cdbb79e4b813ca77981665e28c8a5864eba963128a54a836c29",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0506.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A poet is born  \nFrom the peace of dreams, from the fire of thoughts.  \nIn the depths within,  \nHe awakens to the stir of words.\n\nEvery touch of feeling  \nShapes itself in his creation.  \nThe melody of pain, the smile of joy,  \nBecome the hallmarks of his verse.\n\nPoetry is his essence,  \nA living form of emotions.  \nIn each word, in every line,  \nA new meaning of life is found.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:32:19.728506+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "26923a895bada5d93b4eb96f8c7f3384f1ca301890249b85ecb253865951586f",
+        "response_hash": "d0ae5e65476804e9e9504bdfee38a8ec2b9c1d3e57c76c8686c98746d66f914a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "89b3092788ac057fe176c1452c9ab160c4835dc86cc91c454af99ffb6dc582c2",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2a04bf25531441328ffbf0dd1d118f93b4d3923b025b4e745167913d1c19a1bd",
+        "response_hash": "77859d65499092015708d304f68f4e92a73cc67f431e5e7e5ef8744b44953eed",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a17fe7c883e523a54cbe9e4952c9afd7513cfb1d786d6af17497dcd2acf2c08d",
+        "response_hash": "d8ad4540bb1d066866fd574ba22128aff7e626229dc65be60e23d37240b7661d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c5e29a6ddf4d8f6373648dc9452607d1a081a282835186111974b6646a01419b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5b1b86d45d69ee99d6fe057088efdbf4e800cb42a62a686330c93995da1c79e1",
+    "translation_sha256": "645e137fd61565365027d02b7c67078aaeb94bde6ac3862c3879aca8dcf6912d"
+  }
+}

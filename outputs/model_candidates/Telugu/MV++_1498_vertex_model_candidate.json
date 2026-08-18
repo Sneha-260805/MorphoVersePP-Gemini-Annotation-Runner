@@ -1,0 +1,255 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional vocative address meaning 'one with a good mind' or 'O wise one', characteristic of the Sumati Satakam, a famous collection of moral Telugu poems.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumati",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "O noble one",
+        "stanza_index": 4,
+        "term": "సుమతీ",
+        "translation_note": "Translated as 'O noble one', which captures the literal meaning of the vocative address but loses the specific cultural association with the Sumati Satakam collection of moral verses.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "steady assertion of wisdom over physical strength",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific Telugu word 'laavu' (లావు) means physical strength or bulk, which is translated as 'merely large', losing the nuance of physical power versus moral/intellectual power.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'neethiparudu' (నీతిపరుడు) as 'virtuous and strong' collapses 'neethi' (moral conduct, ethics, or policy/wisdom) and 'balavanthundu' (strong man) into a single combined concept, losing the precise distinction between moral wisdom and physical strength.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An elephant as massive as a mountain, representing a physically immense or powerful force that is nevertheless controlled by intellect.",
+            "acceptable_visual_variants": [
+              "A large elephant standing calmly while a mahout sits on its neck holding an ankus (goad)",
+              "A massive elephant walking under the direction of a small human guide walking beside it"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "An elephant that is as large as a mountain",
+            "literalization_risk": "An illustrator might draw a literal mountain with elephant features, which distracts from the moral comparison of physical size versus intellectual/moral strength.",
+            "metaphor_mapping": {
+              "tenor_concept": "immense physical power or brute force",
+              "transferred_attributes": [
+                "massive size",
+                "physical dominance",
+                "susceptibility to being guided by a smaller, intelligent force"
+              ],
+              "vehicle_concept": "mountain-sized elephant"
+            },
+            "source_span_original": "గ్రావంబంత గజంబును",
+            "source_span_translation": "a mighty elephant",
+            "source_term": "గ్రావంబంత గజంబును",
+            "tenor": "A physically massive or powerful entity/force",
+            "vehicle": "An elephant as large as a mountain",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a large, majestic elephant being guided or ridden by a human mahout, emphasizing the contrast in physical size to show control."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The vivid simile comparing the elephant to a mountain ('graavambu', గ్రావము) is completely omitted in the English translation, which only translates 'gajambu' as 'mighty elephant'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "The translation collapses the traditional vocative 'Sumati' (O wise one/noble one) which frames the entire moral structure of this classic Sumati Satakam poem.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Just as a small mahout mounts and controls a massive elephant, a wise/virtuous person rules or navigates the world through intellect rather than brute force.",
+            "acceptable_visual_variants": [
+              "A mahout confidently guiding a massive elephant with a gentle touch, symbolizing control over raw power",
+              "A symbolic representation of a thoughtful, poised person standing calmly before a giant, powerful force"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Just like a mahout mounting/controlling (an elephant)",
+            "literalization_risk": "Showing only a literal mahout riding an elephant loses the abstract moral lesson about wisdom and moral character ruling over brute strength.",
+            "metaphor_mapping": {
+              "tenor_concept": "wisdom/virtue governing physical power and worldly challenges",
+              "transferred_attributes": [
+                "control",
+                "intellectual superiority over physical mass",
+                "guidance",
+                "skill"
+              ],
+              "vehicle_concept": "mahout controlling a giant beast"
+            },
+            "source_span_original": "మావటివాc డెక్కినట్లు",
+            "source_span_translation": "Just as a mahout controls",
+            "source_term": "మావటివాc డెక్కినట్లు",
+            "tenor": "A wise or moral person (neethiparudu) guiding and overcoming immense physical challenges or brute strength in the world",
+            "vehicle": "A mahout mounting and controlling a mountain-sized elephant",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render a split or symbolic scene showing a small, calm human figure guiding a massive elephant, juxtaposed with or styled to suggest the triumph of wisdom over raw power."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The traditional makuta (signature address) 'Sumati' (సుమతీ), meaning 'one with a good mind' or 'wise one', is translated as 'O noble one', which slightly shifts the focus from intellect/wisdom to social nobility. Additionally, the half-nasal 'c' (ardhavisarga/aranusvara) in 'maavativa_c' is a classical orthographic feature lost in translation.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "True strength lies in moral wisdom and intellect rather than mere physical size or power, illustrated by how a small mahout controls a massive elephant."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list detailing what was lost in translation. This is internally inconsistent.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list detailing what was lost in translation. This is internally inconsistent.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list detailing what was lost in translation. This is internally inconsistent.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[3].translation_quality",
+      "issue": "The translation_quality is marked as 'partial', but the loss_note field is populated while the other stanzas with translation_loss have empty loss_note fields. The consistency of loss_note and translation_loss should be aligned across all stanzas.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "లావుగల వానికంటెను\n\nభావింపగ నీతిపరుడు బలవంతుండౌ\n\nగ్రావంబంత గజంబును\n\nమావటివాc డెక్కినట్లు మహిలో సుమతీ",
+  "poem_id": "MV++_1498",
+  "poem_title": "Lavugala",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "04dc0398d3ef895c6f5dd8dad6e8170f5bbcb48e0b45a708df2f2a2052dc3984",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1498.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Compared to one who is merely large,\nA virtuous and strong man holds true worth.\nJust as a mahout controls a mighty elephant,\nSo does wisdom reign in this world, O noble one.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:41:30.869508+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b2498be11f62397ab51d2df3e94603691781370dc29b8c2f2eaab34ceb1d46db",
+        "response_hash": "d73c6546368d9baee8e85fda08616088c622ede2eabf7d657b9b27e135bb5ccc"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4f3c8bb579c1e29525d5f8b3562156a313f6f64f4322e38ee3d69f419acb42b2",
+        "response_hash": "f72c4b83bffece8e651a995a115050e02770ece933bdd87ec869ff977be40b71",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "61db2657727d8fc090b6e8f0849587fca65f6ea9d2e3da24ff3fdc29350941a5",
+        "response_hash": "f778cc95538feb6fc6d84150107cdc6df36b0baeb9f704e4251f858cfdf4a71b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5b6a3ac8c8cb000181caf41e6b9541c3b0bc72c3065103154cdb149adae9978b",
+        "response_hash": "81db20cc3392ab1acad65f0847ab9f5e8ebcffd389fbcfd32424d568b0980b05",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cca9e0134247b00b29ae4cfdb72fb35cfa660479570fa6b40cf8230a47648a4f",
+        "response_hash": "5f6d09a139303d745cf2c0fd7e3731dfd6a3f7939d25bd19debfc5bbd21e1301",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3d7979373d26c699a2b765e0ec9fcdd903a149b3570475f2959cb869c52b2443",
+        "response_hash": "b4c9fcfa57381cb9aedee648a81734c4c597dd52cae11bcf56283ae12b5d92dc",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "16d01f4a17de06c40b56c0de5e834a879e46a167f13dd8b38048466a69564cbd",
+    "translation_sha256": "cdd8c35d9ac3a5df68e3c269d426ac2d313d5e857b8af01363dbc551cfb0cc30"
+  }
+}

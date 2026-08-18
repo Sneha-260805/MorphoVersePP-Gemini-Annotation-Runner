@@ -1,0 +1,226 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contemplative doubt to inner conviction and peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The collective perspective, judgment, or superficial standards of society.",
+            "acceptable_visual_variants": [
+              "A crowd of diverse people looking in one direction with neutral or judging expressions",
+              "A single stylized eye overlaying a busy cityscape"
+            ],
+            "expression_type": "metonymy",
+            "line_ref": "L3",
+            "literal_meaning": "In the eyes of the world",
+            "literalization_risk": "Depicting a giant floating eyeball representing the world, which would look like a surreal horror element rather than a social metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "social judgment and superficial perception",
+              "transferred_attributes": [
+                "observing",
+                "judging based on outward appearances",
+                "lacking deep internal understanding"
+              ],
+              "vehicle_concept": "physical sight of a collective entity"
+            },
+            "source_span_original": "दुनिया की निगाहों में",
+            "source_span_translation": "In the world's gaze",
+            "source_term": "दुनिया की निगाहों में",
+            "tenor": "Society's superficial judgment and collective perspective",
+            "vehicle": "The physical eyes/gaze of the world",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a crowd of silhouetted, faceless figures looking towards a central point, representing the collective, superficial gaze of society."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces a rhyme scheme ('true' / 'anew') and alters 'अलग ही अर्थ है' (has a completely different meaning) to 'skewed anew', which adds a negative connotation of distortion not present in the original Hindi text.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "True understanding and emotional reality are internal, intuitive, and not immediately visible on the surface.",
+            "acceptable_visual_variants": [
+              "A stylized chest silhouette containing a glowing, warm light",
+              "A person in a reflective pose with their hand placed gently over their heart"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "Truth remains hidden inside the heart",
+            "literalization_risk": "Showing a literal human heart organ with a tiny scroll or person labeled 'truth' tucked inside it, which is anatomically grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "internal intuitive knowledge",
+              "transferred_attributes": [
+                "being concealed from plain sight",
+                "being protected and kept safe inside",
+                "requiring deep search to find"
+              ],
+              "vehicle_concept": "hiding in a physical chamber"
+            },
+            "source_span_original": "सच्चाई दिल में छुपी रहती है",
+            "source_span_translation": "truth in the heart does reside",
+            "source_term": "सच्चाई दिल में छुपी रहती है",
+            "tenor": "Intuitive, emotional truth that is felt internally rather than seen externally",
+            "vehicle": "A physical object or person hiding inside a physical heart chamber",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person with a soft, warm light glowing from within their chest, symbolizing the internal presence of truth."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces the metaphor of 'the real light' to rhyme with 'right', replacing the direct Sanskrit-derived philosophical term 'सत्य' (truth/reality).",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Visual perception is easily misled by superficial appearances and illusions.",
+            "acceptable_visual_variants": [
+              "A person looking through a distorted lens or prism",
+              "A stylized depiction of a mirage in a desert or reflections on water"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L9",
+            "literal_meaning": "Eyes eat deceit / Eyes are deceived",
+            "literalization_risk": "Depicting physical eyeballs eating a plate of food or being physically tricked by a cartoon character, which is absurd and literalizes the Hindi idiom 'dhokha khaana'.",
+            "metaphor_mapping": {
+              "tenor_concept": "sensory fallibility",
+              "transferred_attributes": [
+                "being misled",
+                "accepting something false as true",
+                "suffering from an illusion"
+              ],
+              "vehicle_concept": "being tricked or consuming poison/deceit"
+            },
+            "source_span_original": "आंखें धोखा खाती हैं",
+            "source_span_translation": "eyes lead astray",
+            "source_term": "आंखें धोखा खाती हैं",
+            "tenor": "The fallibility of visual perception and superficial observation",
+            "vehicle": "Eyes consuming deceit as food, or being actively tricked",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking at an optical illusion or a mirage, showing how sight can be physically deceived."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation uses 'knows the way' to rhyme with 'astray', which shifts the meaning from the heart knowing the actual matter/truth ('जानता है जो बात है') to a metaphor of pathfinding or direction.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The deceptive nature of sensory perception versus the ultimate truth found in intuitive, heartfelt feeling."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "/",
+      "issue": "The poem is written in Hindi (Devanagari script, e.g., 'आंखों देखा झूठ है'), but the metadata specifies the language as 'Kannada'. This is a fundamental language mismatch between the poem text and the metadata.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आंखों देखा झूठ है,  \nदिल ने जो माना, वो सच है।  \nदुनिया की निगाहों में,  \nहर चीज़ का अलग ही अर्थ है।  \n\nजो मैंने देखा, वो सही है?  \nया जो महसूस किया, वही सत्य है?  \nधोखा है ये आंखों का,  \nसच्चाई दिल में छुपी रहती है।  \n\nकई बार आंखें धोखा खाती हैं,  \nपर दिल जानता है जो बात है।  \nआंखों का देखा हुआ झूठ है,  \nपर दिल का कहा हुआ ही सत्य है।",
+  "poem_id": "MV++_1040",
+  "poem_title": "Aankhon Dekha Jhooth",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a38f4e8a47700fe1fa036e2e1149ed2eff36f45aa6d337fb87c19bbf71afceb8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1040.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What the eyes see is a lie,  \nWhat the heart believes is true.  \nIn the world's gaze,  \nEvery meaning is skewed anew.\n\nIs what I saw right?  \nOr what I felt, the real light?  \nThe eyes deceive,  \nBut truth in the heart does reside.\n\nOften, eyes lead astray,  \nBut the heart knows the way.  \nWhat the eyes witnessed is a lie,  \nWhat the heart speaks, that’s where truth lies.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:50:02.231733+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ac2be202048d930e0bc4626ad48961e582b61fdccbe0f5bd3b64b3e49bb4e2a",
+        "response_hash": "6bd74182cffd64e83a21e995bc6ff0bbe3312b41c7b9c152733d20f0c85d8033",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "04f71d8b0a3b2223464b96be5b43880423e56b0c95f33b6580cd1708fff78355",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e616ce21330cf5ee4c8e70c83242587af5558171a7d3c7891de4b2be3ec17b97",
+        "response_hash": "b9dcd3c71568598df1761be74f9e1539bb766d2a70ca4c3c86dafb63ac1af391",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "02ca40fd88c504aa9d6d4fa0a5c0ca323eea2972ffc25055116e1523257f1d6f",
+        "response_hash": "4c5e79bed25f257462e82e8b8365b82f99e887427dffcc7005380d428e6fd488",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "252742e47200391c752bde0e3e53d3096c5f4cca19a6fa6c0c61bf6671dc8c20",
+        "response_hash": "fe1ec3e6781d6f62143e0fd2b5193c643f23632fea53fa78f7048324dc724070",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b11d2883c454d95968412040d7efc63bb3cd0f6bc93e4509e26146f218cfdff6",
+    "translation_sha256": "e88ae2618eccd4787a89dfaf434ab32763d2ec91a96975f42a20b8b0d1fcf26d"
+  }
+}

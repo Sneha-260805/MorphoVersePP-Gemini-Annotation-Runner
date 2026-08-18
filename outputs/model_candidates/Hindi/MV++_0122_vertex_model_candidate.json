@@ -1,0 +1,212 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A classical North Indian Been (plucked lute) with two large gourd resonators wrapped in stylized, non-destructive flames",
+          "A modern or abstract stringed instrument glowing with internal fire and light"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A compound of 'agni' (fire) and 'beena' (veena, a classical Indian stringed instrument), representing a metaphorical lute of fire that produces life-altering music. It carries strong literary resonance in South Asian poetry (e.g., Kazi Nazrul Islam's 'Agnibeena').",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A standard Western lute or acoustic guitar",
+          "A literal fire burning down a musical instrument without artistic or mystical intent"
+        ],
+        "preserved": true,
+        "romanization": "agnibeena",
+        "source_span_original": "अग्निबीना",
+        "source_span_translation": "fire lute",
+        "stanza_index": 1,
+        "term": "अग्निबीना",
+        "translation_note": "Translated literally as 'fire lute', combining the concept of fire (agni) with the traditional South Asian stringed instrument (veena/beena).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A traditional Indian veena or beena instrument",
+          "Stylized flames or fiery aura emanating from the instrument's body and strings",
+          "Wooden resonators and frets glowing with heat"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "resilience to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation introduces rhyming filler words like 'so astute' and 'the same' to maintain a rhyme scheme, which slightly dilutes the direct, philosophical tone of the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A passionate, intense, or purifying creative force and life-energy that produces the music of existence.",
+            "acceptable_visual_variants": [
+              "A traditional Indian veena surrounded by a warm, golden aura resembling soft flames.",
+              "An abstract instrument shape woven out of light and fire particles."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A musical stringed instrument (veena) made of or burning with fire.",
+            "literalization_risk": "An illustrator might draw a literal wooden lute on fire, which looks like a destructive accident rather than a beautiful, mystical source of life's music.",
+            "metaphor_mapping": {
+              "tenor_concept": "creative life force",
+              "transferred_attributes": [
+                "intensity",
+                "purifying nature",
+                "ability to produce beautiful music/harmony"
+              ],
+              "vehicle_concept": "fire lute"
+            },
+            "source_span_original": "अग्निबीना",
+            "source_span_translation": "fire lute",
+            "source_term": "अग्निबीना",
+            "tenor": "A passionate, intense, or purifying creative force and life-energy.",
+            "vehicle": "A lute (veena) made of or playing fire.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a glowing, ethereal stringed instrument (veena) where the strings themselves are made of warm, non-destructive light or gentle flames, radiating harmonious waves."
+          },
+          {
+            "abstract_meaning": "The process of undergoing intense trials, suffering, or rigorous self-discipline that purifies and strengthens a person.",
+            "acceptable_visual_variants": [
+              "A glowing human figure standing resiliently amidst warm, rising sparks.",
+              "A metallic object being refined in a glowing forge, transitioning into a beautiful shape."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Life that is heated or burning.",
+            "literalization_risk": "Showing a person literally burning in a fire, which conveys physical torture or death rather than spiritual purification and resilience.",
+            "metaphor_mapping": {
+              "tenor_concept": "enduring life's hardships",
+              "transferred_attributes": [
+                "heat",
+                "purification",
+                "strengthening through intense conditions"
+              ],
+              "vehicle_concept": "heating/forging in fire"
+            },
+            "source_span_original": "तपता है जो जीवन",
+            "source_span_translation": "Those who endure life's flame",
+            "source_term": "तपता है जो जीवन",
+            "tenor": "Human life undergoing trials, suffering, or rigorous self-discipline.",
+            "vehicle": "An object being heated, forged, or purified in fire.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a silhouette of a person walking calmly through a warm, golden path of light or gentle embers, looking strengthened rather than harmed."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the word 'astute' to force a rhyme with 'lute', which is not present in the original Hindi text and alters the tone of the line.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces 'A love that the heart binds' to force a rhyme with 'finds', adding a binding metaphor not present in the original Hindi text.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'मनुष्य' (human/man) as 'soul', shifting the focus from human beings to a more spiritual concept.",
+            "where": "L3"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'वो अग्नि से न भटका है' as 'Never lose sight of the same' completely loses the literal meaning of not straying or wandering from the fire (अग्नि).",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of life's trials, symbolized by fire and music, which ultimately lead to love and joy."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अग्निबीना की धुन में,  \nछिपा है जीवन का सार।  \nजग में हर एक मनुष्य,  \nपाता है इससे प्यार।  \nतपता है जो जीवन,  \nवो अग्नि से न भटका है।  \nसंगीत के तरंग में,  \nखुशियों का ये सफर है।",
+  "poem_id": "MV++_0122",
+  "poem_title": "Agnibeena",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b1f516eb0442c7ea768194bbb4b04d44aa2543df14b4ce7cfe9596617d6f6390",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0122.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the tune of the fire lute,  \nLies the essence of life, so astute.  \nIn this world, every soul finds,  \nA love that the heart binds.  \nThose who endure life's flame,  \nNever lose sight of the same.  \nIn the waves of music's flight,  \nIs a journey filled with delight.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:48:49.551077+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2e61d0c1d5e86f0b6d8528c4a52e83dc54305c47afaf3d049a3bfeb48b4eab11",
+        "response_hash": "fc8356cc788ed7b22a60f0fceb555bab253aca8d7a4e4475423d10e486298703"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "532aac5a8b2648969c1258da3b99c098084a11dda37847a9dae23e2048bb79db",
+        "response_hash": "1aca9041826aeac8c15f355a395050ba4f6919aa319086502ab8b4ae11b94e91",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b1f3290b044e19a436a67c1a991aff6819b594d3b149627b3b889910e84f69f9",
+        "response_hash": "d6dd26a0684a093c05cd1ea4d925f2901df8862287dd6f21b584009db6aad289",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d29b6b77e89e1eec1c0c01206794ed187766cd6bc00c017b94b3474c2b2d68e6",
+        "response_hash": "131c104196058186d8403933f30185578cfa78708360ccbcb890fdf1d91a56fc",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "97a26c26ce7550d91fd00c584d21d469e57db5884b7dc496c57d1d9472f5655e",
+        "response_hash": "840466b66c68d44469e981b403e73240e1671c3789bdd283f702f9c610591555",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e70dca8d9393c99b8070e0694f4ab7f1c75e20c86276c33e8b450ee8fb3fd871",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7a1774ec25449285bff1d2a8a301978a579141ee72c3d2d12a404568b6d64e35",
+    "translation_sha256": "dea05c16ace919a05bd5daef0c56b5699a4202a81fe066420a841efb603d0d0f"
+  }
+}

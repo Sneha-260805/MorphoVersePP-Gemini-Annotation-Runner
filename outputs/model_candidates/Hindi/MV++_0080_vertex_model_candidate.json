@@ -1,0 +1,219 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet wonder to peaceful realization",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Eyes communicate deep, unspoken emotions and thoughts through their expressions.",
+            "acceptable_visual_variants": [
+              "A close-up of a person's eyes looking directly at the viewer with a deep, communicative expression.",
+              "Two people looking at each other in a quiet moment, emphasizing their eye contact."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L2",
+            "literal_meaning": "When eyes look, what words do they speak?",
+            "literalization_risk": "Showing literal mouths on eyeballs or speech bubbles coming out of eyes would look bizarre and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "visual expression of eyes",
+              "transferred_attributes": [
+                "communication of meaning",
+                "articulation of thoughts",
+                "expressiveness"
+              ],
+              "vehicle_concept": "human speech"
+            },
+            "source_span_original": "आँखें जब देखती हैं,\nवो क्या कहती हैं।",
+            "source_span_translation": "When eyes gaze,\nWhat do they say?",
+            "source_term": "आँखें जब देखती हैं,\nवो क्या कहती हैं।",
+            "tenor": "Eyes conveying unspoken thoughts and feelings",
+            "vehicle": "A person speaking words",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of expressive eyes with a soft, thoughtful gaze, perhaps reflecting a subtle emotion like longing or curiosity."
+          },
+          {
+            "abstract_meaning": "Eyes convey feelings and truths that cannot be expressed or heard through spoken words.",
+            "acceptable_visual_variants": [
+              "A single eye reflecting a quiet landscape, suggesting an internal monologue.",
+              "A split-screen style showing eyes and a silent, peaceful environment."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3-L4",
+            "literal_meaning": "What is not heard, what do they make you hear?",
+            "literalization_risk": "Depicting sound waves or musical notes coming from eyes would literalize the auditory metaphor and distract from the quiet, emotional reality.",
+            "metaphor_mapping": {
+              "tenor_concept": "non-verbal emotional understanding",
+              "transferred_attributes": [
+                "reception of a message",
+                "understanding of meaning"
+              ],
+              "vehicle_concept": "auditory communication"
+            },
+            "source_span_original": "जो सुनाई नहीं देता,\nवो क्या सुनाती हैं।",
+            "source_span_translation": "What is unheard,\nWhat do they convey?",
+            "source_term": "जो सुनाई नहीं देता,\nवो क्या सुनाती हैं।",
+            "tenor": "The non-verbal transmission of deep emotional states",
+            "vehicle": "A person speaking or playing an inaudible sound that is somehow understood",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the quiet intensity of a gaze, perhaps with a soft, blurred background to emphasize the internal, silent connection."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the subtle wordplay and phonetic symmetry between 'sunai' (heard) and 'sunati' (make heard/convey), which share the same verbal root 'sun-'.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Even in complete silence and isolation, eyes are capable of expressing the entirety of one's inner state.",
+            "acceptable_visual_variants": [
+              "A portrait of a person in a dim environment where a single light source highlights the expressive depth of their eyes.",
+              "A pair of eyes looking out from a shadowy background, conveying a powerful, silent presence."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7-L8",
+            "literal_meaning": "Eyes exist, they say everything.",
+            "literalization_risk": "Depicting eyes with text or words written inside them would be overly literal and ruin the poetic subtlety.",
+            "metaphor_mapping": {
+              "tenor_concept": "total emotional transparency of a gaze",
+              "transferred_attributes": [
+                "completeness of communication",
+                "honesty",
+                "revelation"
+              ],
+              "vehicle_concept": "verbal confession or complete narration"
+            },
+            "source_span_original": "आँखें होती हैं,\nकहती हैं सब कुछ।",
+            "source_span_translation": "Eyes are there,\nSaying it all.",
+            "source_term": "आँखें होती हैं,\nकहती हैं सब कुछ।",
+            "tenor": "The complete and honest expression of human emotion through a gaze",
+            "vehicle": "A speaker who tells the entire story or truth",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a face in a quiet, desolate setting where the eyes are the central focus, shining with a complex mix of emotions."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'ek khamoshi mein' as 'In silence' loses the nuance of the indefinite article 'ek' (a/one), which frames silence as a singular, tangible space or state.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The silent, profound language of the eyes that communicates beyond spoken words."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss list is provided. Under the completeness contract, translation_loss should be empty or translation_quality should reflect the loss. However, minor losses are allowed with 'faithful' if they do not compromise overall fidelity, but the presence of a non-empty loss_note/translation_loss is technically inconsistent with an empty loss_note string.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[0].loss_note",
+      "issue": "The loss_note is empty, but the translation_loss array contains an item. If translation loss exists, loss_note should summarize it rather than being an empty string.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].loss_note",
+      "issue": "The loss_note is empty, but the translation_loss array contains an item. If translation loss exists, loss_note should summarize it rather than being an empty string.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आँखें जब देखती हैं,  \nवो क्या कहती हैं।  \nजो सुनाई नहीं देता,  \nवो क्या सुनाती हैं।  \n\nएक ख़ामोशी में,  \nसुनसान राहों पर,  \nआँखें होती हैं,  \nकहती हैं सब कुछ।",
+  "poem_id": "MV++_0080",
+  "poem_title": "Aankhein",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2445a43dde1409f09a8f5f8fad11327ab7c60061fdc4dd3764497383e0e549bc",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0080.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "When eyes gaze,  \nWhat do they say?  \nWhat is unheard,  \nWhat do they convey?  \n\nIn silence,  \nOn desolate roads,  \nEyes are there,  \nSaying it all.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:44:29.437815+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "26d56ff49ca57a1e1484183da68cfa96c2c560ca55db9cda997fd087fc44f04c",
+        "response_hash": "f926c7367077e3f54b83923a075759f29613acd49bb29ced28e5bb55e36518aa",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "37723dc0f91bdecb24355fdc9023fa00e4a1a6eee318dd23f5f68a455e96a90d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7abfc96c5ef5e2347e3bdf641c48c38a082b38365fed5402ea314101d861e752",
+        "response_hash": "d016c87e82772b4515065afdaef417a6cc60746fd835336055fb2cd64b4ab547",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fd42e4994580f21ce8281ef624993bb4f5c0aab6a17fd36dac1fd4c06a969412",
+        "response_hash": "6ff1f50a74149917ddd39f2218901ca9f548079700bad08265d4d5f5e7389fc3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8917c97c9f2829a8c03b97eb2b5f0281ff39aa5f0bf3bf471143e42ebbaae133",
+        "response_hash": "1a886a35b1ddeee9fb27eb846469c68a27d1fb0fdf729201981059e1fd6a9f57",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c6349a3eb0429837886fd8ec1bb4b3640d9728aeda305fa647965ec4d329b1a6",
+    "translation_sha256": "ad7412336f72619b548d7d863ccf33822d2c038acc76a4b4c7d86065c870900f"
+  }
+}

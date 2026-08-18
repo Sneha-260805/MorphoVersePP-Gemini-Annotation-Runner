@@ -1,0 +1,198 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The divine feminine creative power, cosmic energy, or personified goddess force in Hindu philosophy and devotional traditions. In this poem, it is addressed as a pure, supreme, and internal presence.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Shakti",
+        "source_span_original": "ಶಕ್ತಿ",
+        "source_span_translation": "Power",
+        "stanza_index": 1,
+        "term": "ಶಕ್ತಿ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Derived from 'anubhava' (experiential realization or mystical experience), a core concept in Kannada devotional and Vachana literature referring to direct, intuitive experience of the divine or ultimate reality.",
+        "line_ref": "L3",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "anubhaavisuva",
+        "source_span_original": "ಅನುಭಾವಿಸುವ",
+        "source_span_translation": "The essence of my existence",
+        "stanza_index": 1,
+        "term": "ಅನುಭಾವಿಸುವ",
+        "translation_note": "Translated as 'essence of my existence' in context, which captures the deep experiential reality but shifts the specific philosophical nuance of 'anubhava' (mystical experience/realization).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "reverence and devotion to a supreme inner power, leading to a sense of ultimate hope and liberation",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'ಅನುಭಾವಿಸುವ ಪರಿಪೂರ್ಣತೆ' (Anubhavisuva paripurnate) as 'The essence of my existence' simplifies the deep experiential, spiritual realization of perfection/wholeness implied by 'Anubhavisuva'.",
+        "metaphor_spans": [],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ನೀನೇ ನನ್ನ ನಿನ್ನೊಳಗೆ' (neene nanna ninnolage) as 'You dwell within me' alters the literal Kannada phrasing which emphasizes a mutual or reflexive containment ('you are mine within you' or 'you yourself are mine inside you').",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The term 'ಅನುಭಾವಿಸುವ' (anubhaavisuva) carries deep spiritual and experiential connotations of mystical realization or intuitive experience (anubhava) in Kannada literary traditions, which is flattened to 'essence' in the English translation.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'ನೀನೆ ನನ್ನ ಸ್ವಾತಂತ್ರ್ಯ' (Neene nanna swatantrya) as 'You are my freedom' is faithful, though it loses the rhythmic emphasis of the emphatic suffix '-e' in 'neene' (you alone).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The personified power or entity is the source and embodiment of the speaker's freedom.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person standing on a high peak with arms outstretched",
+              "A flock of birds rising into a vast sky from a single point of light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "You yourself are my freedom",
+            "literalization_risk": "Depicting literal broken chains or national flags might misrepresent this as a political or physical escape rather than an internal spiritual liberation.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner power / Shakti",
+              "transferred_attributes": [
+                "liberation",
+                "absence of constraints",
+                "boundless state"
+              ],
+              "vehicle_concept": "freedom"
+            },
+            "source_span_original": "ನೀನೆ ನನ್ನ ಸ್ವಾತಂತ್ರ್ಯ",
+            "source_span_translation": "You are my freedom",
+            "source_term": "ನೀನೆ ನನ್ನ ಸ್ವಾತಂತ್ರ್ಯ",
+            "tenor": "The divine or inner power (Shakti) that liberates the speaker",
+            "vehicle": "A state of political or physical liberty",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a figure with open arms dissolving into light or birds taking flight to represent spiritual and personal liberation."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'ನಿನ್ನ ಶಕ್ತಿಯ ಶ್ರೇಷ್ಠತೆಗೆ' as 'To the greatness of your strength' loses the direct grammatical connection and flow of the Kannada dative case (-ge) which links the speaker's surrender or dedication directly to that supreme power.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The realization of an inner divine strength (Shakti) as the source of existence, hope, and ultimate freedom."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಶಕ್ತಿ, ಸ್ವಚ್ಛ, ಶ್ರೇಷ್ಟ,  \nನೀನೇ ನನ್ನ ನಿನ್ನೊಳಗೆ,  \nಅನುಭಾವಿಸುವ ಪರಿಪೂರ್ಣತೆ,  \nಬದುಕುವ ಕಾರಣ ನಾನು.  \n\nನಿನ್ನ ಮೇಲೆ ನನಗೆ ಭರವಸೆ,  \nಅಂತಿಮ ಯಶಸ್ಸಿನ ಕೀಲಿ,  \nನಿನ್ನ ಶಕ್ತಿಯ ಶ್ರೇಷ್ಠತೆಗೆ,  \nನೀನೆ ನನ್ನ ಸ್ವಾತಂತ್ರ್ಯ.",
+  "poem_id": "MV++_1125",
+  "poem_title": "Shakti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "248c8928a8143c977088a9d9319473f3d35573a6338b7b22b05cfc53f0fcbd37",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1125.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Power, pure and supreme,  \nYou dwell within me,  \nThe essence of my existence,  \nThe reason I live.  \n\nIn you, I find hope,  \nThe key to ultimate success,  \nTo the greatness of your strength,  \nYou are my freedom.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:00:23.157782+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5870c1fec986f5017dc0c2b892bdbd8e77da78375a2f9b998c163832e4b7771b",
+        "response_hash": "b93b4cf892d38f503a8d874db260fc68f6b5dc9585f0c4b2fbb68bc3e219812e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2cc1ed8de3fcd19c4b6e36c848dc3b2dd93a44ff43054b65bd9154154548ae5d",
+        "response_hash": "affa13f2b7c5bf6fa3e748265a5c8118e6e16217cde0f7f7d19304b11ea31d0e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9762a478aa76b53598fcc41b28e51723001855e5ec222b3987ad2a385d6ed8e4",
+        "response_hash": "4000dce886c8976c5f3067e02815ca1b42008e66e4abfc4ebea7df74cafafac4",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "66544b6439de93852394afad5b44648842bc6a01165ec7c4cf562a75e90f6307",
+        "response_hash": "249ec636dd8894d2ab671d0afbbd18def40b42eb1fa18de328e01879a72cd338",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "071340d1561248e083fb38306aae0ba0eeeb8ffb852c59714cc332aedfda035e",
+        "response_hash": "4d4cec83e2e3595bb8d69cae47326b40503cd849d092709b41196dbeb56ad8e1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b73deeb795ae7d0996c59ead207c1ad8209492b77001f31239bc688071483e20",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ad5b5291b8f473780862dc1fc04bcddd0d9d6b254d036572a41e2fece18209bd",
+    "translation_sha256": "a4809d411d87b30e5b0f721053ce2b70a0c33aacb1be23ca0f195f7a0423e866"
+  }
+}

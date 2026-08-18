@@ -1,0 +1,262 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A continuous celebration of joy, nature, and love, moving from a sense of magical enchantment to peaceful, reflective harmony with the natural world.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of pure spiritual or emotional joy, conceptualized as a physical realm or land.",
+            "acceptable_visual_variants": [
+              "An open, glowing landscape filled with soft light and blooming flora",
+              "A surreal, borderless garden merging into a starry sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "In the world/abode of joy",
+            "literalization_risk": "Depicting a literal map, country, or physical kingdom with borders, which misses the internal emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional state of joy",
+              "transferred_attributes": [
+                "spatial boundaries",
+                "inhabitability",
+                "physical presence"
+              ],
+              "vehicle_concept": "physical territory or world"
+            },
+            "source_span_original": "আনন্দলোকেতে",
+            "source_span_translation": "In the land of joy",
+            "source_term": "আনন্দলোকেতে",
+            "tenor": "An emotional or spiritual state of pure happiness",
+            "vehicle": "A physical land or world (loka)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a luminous, ethereal space filled with soft light and natural abundance, avoiding concrete political or geographical borders."
+          },
+          {
+            "abstract_meaning": "The comforting, intangible presence or emotional impact of love, described as a physical touch.",
+            "acceptable_visual_variants": [
+              "A warm golden glow gently wrapping around a central figure",
+              "A soft breeze carrying petals that lightly brush against a person"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The physical touch of love",
+            "literalization_risk": "Showing literal hands touching or a physical caress, which might overly sexualize or narrow the universal, abstract concept of love.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional warmth of love",
+              "transferred_attributes": [
+                "warmth",
+                "closeness",
+                "comfort",
+                "physical contact"
+              ],
+              "vehicle_concept": "tactile sensation of touch"
+            },
+            "source_span_original": "প্রেমের পরশ",
+            "source_span_translation": "the touch of love",
+            "source_term": "প্রেমের পরশ",
+            "tenor": "The emotional feeling of being loved and comforted",
+            "vehicle": "A physical touch or tactile contact",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Represent the touch metaphorically through warm, enveloping light or a gentle breeze rustling leaves around a figure."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'murchhanate' as 'enchantment' loses the specific musical connotation of 'murchhana', which refers to a musical cadence, modulation, or melodic rise and fall.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The middle or expanse of the clouds, personified as having a chest or bosom.",
+            "acceptable_visual_variants": [
+              "Sunlight or a small figure playing on the soft, billowy top of a large cloud",
+              "A gentle wave of light rippling across a bank of cumulus clouds"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "On the chest of the clouds",
+            "literalization_risk": "Drawing a literal human chest or torso on a cloud, which would look cartoonish or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "the center or surface of a cloud",
+              "transferred_attributes": [
+                "warmth",
+                "holding capacity",
+                "intimacy",
+                "support"
+              ],
+              "vehicle_concept": "human chest/bosom"
+            },
+            "source_span_original": "মেঘের বুকে",
+            "source_span_translation": "on the back of the clouds",
+            "source_term": "মেঘের বুকে",
+            "tenor": "The vast, soft expanse of the clouds",
+            "vehicle": "A human chest or bosom",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict light or a playful element dancing across the soft, undulating upper surface of thick, white clouds."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'buke' as 'back' (in 'megher buke') loses the literal meaning of 'breast' or 'chest', which carries a more intimate, nurturing, and poetic personification of the clouds in Bengali.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The innermost thoughts, feelings, and silent joy of the soul, expressed as a melody.",
+            "acceptable_visual_variants": [
+              "A solitary figure looking out over a calm river under a twilight sky, radiating a soft, peaceful aura",
+              "A person with closed eyes on a riverbank, with gentle wind blowing through their hair and surrounding grass"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "The song of the mind/heart",
+            "literalization_risk": "Depicting literal musical notes floating out of a physical heart or chest cavity.",
+            "metaphor_mapping": {
+              "tenor_concept": "internal emotional state",
+              "transferred_attributes": [
+                "harmony",
+                "rhythm",
+                "expressiveness",
+                "beauty"
+              ],
+              "vehicle_concept": "audible musical melody"
+            },
+            "source_span_original": "মনের গান",
+            "source_span_translation": "the song of the heart",
+            "source_term": "মনের গান",
+            "tenor": "Innermost emotional feelings and thoughts",
+            "vehicle": "A musical song or melody",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person standing peacefully on a riverbank with a serene expression, perhaps with subtle ripples in the water reflecting their inner calm."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'moner gaan' as 'song of the heart' shifts the Bengali concept of 'mon' (which encompasses mind, heart, soul, and internal emotional state) to a purely heart-centric English idiom.",
+            "where": "L10"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ongon phol' is truncated to 'the courtyard is full', omitting the explicit mention of 'fruits' (phol) present in the original Bengali line.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The omnipresence of love and joy in both the natural world and the human heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Bengali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "আনন্দলোকেতে অঙ্গন ফল।\nবুলবুলের গানে গাইছে,\nজাদুর খেলা মূর্ছনাতে,\nসেথা প্রেমের পরশ।\n\nআনন্দলোকেতে অঙ্গন ফল।\nমেঘের বুকে খেলে যায়,\nজলের প্রবাহে ভাসে,\nসেথা প্রেমের পরশ।\n\nসন্ধ্যাবেলা পাখির গান,\nনদীর তীরে মনের গান।\nআনন্দলোকেতে অঙ্গন ফল,\nবুলবুলের গানে গাইছে।",
+  "poem_id": "MV++_0013",
+  "poem_title": "Anondolokey",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "691106ee9b1767d62f085f72e3d93adbd6c27f265e70ec2016f073762fb2c52c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bengali/MV++_0013.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the land of joy, the courtyard is full of fruits.\nThe bulbul sings,\nIn the enchantment of magic,\nThere, the touch of love.\n\nIn the land of joy, the courtyard is full of fruits.\nIt plays on the back of the clouds,\nFloats in the flow of water,\nThere, the touch of love.\n\nIn the evening, the bird sings,\nOn the riverbank, the song of the heart.\nIn the land of joy, the courtyard is full,\nThe bulbul sings.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:37:54.663396+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5b42d70c23403b14a04b7e322b4cdb1d07268e3ff60ff6967d1a134a0506c9f7",
+        "response_hash": "bcea4fb3fa0634dbdbc56a4cbc771eb012ddb5c9cc7902b238dc8dd39a0ca160"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1924be47f49cdc9deef3e0d0a080e338076f4356da8328d959dcf4c927b6d867",
+        "response_hash": "402526fa46627970a2ea4757df286069f825f6312f5de3f3154758f49640f10f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "981f4441ac0c2d5db000145d9ed8de4508966f385a75a3991c6b1f1c0c7a8f4d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "55175833beec36caea5898cdc412e6d764e8c2c239c47e63ab6ca3ae35581322",
+        "response_hash": "88aff607c0c12af08540ab002ea5ad90b3d75fc452299f63d4a9e08e8ee9ed99",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4f27e6193c0cc2425143df4ac5c5296227f26daaec58427cbf044b4f838ba20c",
+        "response_hash": "fe39909d85c994632a702175eff6c8328c5190c9a87d3175416536892bc74cc4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "665e2b9fc67e45981348b6c462e50cdd6d88da052c8999c37a00efa1374c0a81",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "410dd1342f9563a3d9855ab779ab368f4287e602b2c84d0adc26edb1aa337221",
+    "translation_sha256": "8711d90561aa5c73ce18d7a29e1baab866414098043b2bb8a0eec4f1508319a4"
+  }
+}

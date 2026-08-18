@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to hope",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders the literal 'lamp of hope' (आशाओं का दीप) as 'light of hope' and shifts the active 'may life enter our breaths' (सांसों में जीवन आए) to 'may life breathe in our hearts', altering the physical imagery of breath and the specific cultural metaphor of lighting a clay lamp.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The renewal or awakening of hope and optimism in people's hearts.",
+            "acceptable_visual_variants": [
+              "A single traditional clay lamp glowing warmly against a dark, rain-swept background.",
+              "A person shielding a small flame with their hands as rain begins to fall, symbolizing resilient hope."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "May the lamp of hopes be lit",
+            "literalization_risk": "Showing a physical lamp floating in the air or literally made of abstract hopes would look surreal and miss the emotional warmth of the metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "awakening hope in a desperate situation",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "bringing warmth",
+                "providing guidance",
+                "renewal of life"
+              ],
+              "vehicle_concept": "lighting a lamp in darkness"
+            },
+            "source_span_original": "आशाओं का दीप जले",
+            "source_span_translation": "light of hope never fade",
+            "source_term": "आशाओं का दीप जले",
+            "tenor": "hope and optimism",
+            "vehicle": "a lit clay lamp (diya)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing traditional clay lamp (diya) held in cupped hands or placed in a home, casting a soft light on hopeful faces under a rainy sky."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The direct imperative address to the clouds ('paani de' / 'give water') is softened to a descriptive statement ('bring rain') in the translation.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The concrete metaphor of lighting a lamp of hope ('aashao ka deep jale') is translated abstractly as 'the light of hope never fade', losing the specific cultural and visual imagery of lighting a clay lamp (deep/diya).",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The literal reference to breath ('saanso mein' / 'in breaths') is translated as 'in our hearts', shifting the physical sensation of breathing to an emotional seat.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A prayer to the rain clouds to bring life and hope to a parched earth."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "काले मेघ पानी दे,  \nधरती पर छाया रहे।  \nसांसों में जीवन आए,  \nआशाओं का दीप जले।",
+  "poem_id": "MV++_0764",
+  "poem_title": "Kaale Megha Paani De",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b8e78ed2adb26581e26149ca17f09a1dd87bef760c1d6a3ef9d3d9367efd0f8d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0764.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Dark clouds bring rain,  \nLet the earth stay in shade.  \nMay life breathe in our hearts,  \nAnd the light of hope never fade.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:09:05.371689+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "40a6fd1c7e9f0142d17025e888e737ac524de5fa27ea4559381961b2c683f400",
+        "response_hash": "7b731063e1811d15be1b6fc02fd65972fa0e100049cdee46be887026e2cb683b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df62235d67af6a75376396cf659b79d52c733f750669cd6f4c8ccb162f0ee832",
+        "response_hash": "f9cf8c568ae51c310a0ebdaa178efafedb17498d468e73c4fcdfd74a65a8eb42",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "51729b59e919e9a00ace5ed300f975055ae986ab515c9c11a4f484770b0e5cb4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0681eb701b1997c0dbabd72393fbd563c29339b3112a7406d723b9245d90cc7a",
+        "response_hash": "c8e5475b0f1ca7730c8e5fa49423ec9c8ec6da1ab162fde517b831e071cdf2ba",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "74d6df9e1a0018a149dd2cbcb85c060dffb2309fa5d95174bdc06789ef89b1f1",
+        "response_hash": "8f72bdbf527bd3fcb576c262b4bd8da2b9127edf8bde130206db81f1263759d0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b11e8e91b582f51ce8ea3d80ebd079780a7189c9139ba2ae9babce820697a6b3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "42c97082d0d62c30c30a34ad93c5eb3a376c61ab2148253fe3c0ae985474a908",
+    "translation_sha256": "768303d4a0e3aa2755bb8d2ab143f6eecc83e354d9ace3702e158a2084c49e07"
+  }
+}

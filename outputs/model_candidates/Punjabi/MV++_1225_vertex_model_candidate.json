@@ -1,0 +1,273 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A self-referential address to Bulleh Shah, the famous 17th-18th century Punjabi Sufi poet, representing the seeker's voice and the Sufi tradition of self-interrogation.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Bulleya",
+        "source_span_original": "ਬੁੱਲਿਆ",
+        "source_span_translation": "Bulleya",
+        "stanza_index": 1,
+        "term": "ਬੁੱਲਿਆ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "An Islamic term for a true believer or faithful Muslim, used here in the Sufi context of questioning orthodox religious identities.",
+        "line_ref": "L3",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "momin",
+        "source_span_original": "ਮੋਮਿਨ",
+        "source_span_translation": "faithful",
+        "stanza_index": 1,
+        "term": "ਮੋਮਿਨ",
+        "translation_note": "Translated contextually as 'the faithful' in the English version.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A simple traditional mosque structure",
+          "An abstract outline of a prayer hall"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Mosques; Islamic places of worship, representing orthodox religious spaces and externalized rituals.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A modern generic church",
+          "A highly decorated temple structure"
+        ],
+        "preserved": true,
+        "romanization": "masitan",
+        "source_span_original": "ਮਸਿਤਾਂ",
+        "source_span_translation": "mosque",
+        "stanza_index": 1,
+        "term": "ਮਸਿਤਾਂ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Islamic architectural elements",
+          "minarets",
+          "domes"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A simple traditional temple structure",
+          "An abstract outline of a temple sanctum"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A Hindu temple, representing orthodox Hindu religious spaces, contrasted alongside the mosque to reject sectarian divisions.",
+        "line_ref": "L9",
+        "negative_confusions": [
+          "A mosque dome",
+          "A Buddhist pagoda"
+        ],
+        "preserved": true,
+        "romanization": "mandar",
+        "source_span_original": "ਮੰਦਰ",
+        "source_span_translation": "temple",
+        "stanza_index": 2,
+        "term": "ਮੰਦਰ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Traditional temple spire (shikhara)",
+          "sacred threshold"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A meditative journey of self-negation, moving from the rejection of religious and social identities to a deeper, peaceful state of existential freedom and spiritual wonder.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the rhythmic, hypnotic cadence of the original Gurmukhi refrain and the specific cultural weight of terms like 'momin' (faithful) and 'masitan' (mosques).",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ਕੀ ਜਾਣਾ ਮੈਂ ਕੌਣ' as 'what do I know of myself' shifts the direct, existential question 'who do I know myself to be?' or 'who am I?' into a more passive inquiry about self-knowledge. Additionally, the specific wordplay and rhythmic cadence of Bulleh Shah's signature self-address ('ਬੁੱਲਿਆ') is flattened into a standard English vocative.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'rituals of pious traders' for 'ਵੇਚ ਵੇਚਾਂ ਵਿਚ ਗੱਡਾਂ' simplifies a complex vernacular phrase that carries connotations of transactional religious practices or worldly trade, losing the specific cultural idiom of 'gaddan' (carts/customs) and 'vech' (selling).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'bheetan' as 'walls of existence' is an interpretive choice that abstracts the simpler literal Punjabi word for 'walls' or 'structures'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The physical boundaries of worldly existence, material form, or bodily confinement.",
+            "acceptable_visual_variants": [
+              "A silhouette merging with an open, boundless sky",
+              "Fading architectural lines surrounding a central formless light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "walls",
+            "literalization_risk": "An illustrator might draw literal brick or stone walls, missing the spiritual concept of transcending physical form.",
+            "metaphor_mapping": {
+              "tenor_concept": "physical existence",
+              "transferred_attributes": [
+                "confinement",
+                "separation",
+                "structural boundaries"
+              ],
+              "vehicle_concept": "walls"
+            },
+            "source_span_original": "ਭੀਤਾਂ",
+            "source_span_translation": "walls of existence",
+            "source_term": "ਭੀਤਾਂ",
+            "tenor": "physical existence or bodily confinement",
+            "vehicle": "walls",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a faint, semi-transparent outline of a human figure stepping beyond or dissolving through structural, geometric boundaries."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'walls of existence' for 'ਭੀਤਾਂ ਵਿੱਚ ਰਹਿੰਦਾ' introduces an abstract philosophical concept ('existence') not explicitly present in the literal Punjabi 'bhitaan' (walls/secrets/divisions), which refers more concretely to physical walls or sectarian boundaries.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation of 'fardan' as 'deeds' and 'hawan' as 'spirit' simplifies complex Sufi philosophical concepts regarding cosmic records and primordial elements.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'caught in deeds' for 'ਫਰਦਾਂ ਵਿੱਚ ਪਾਇਆ' loses the specific administrative and religious metaphor of 'fard' (the official register or scroll of deeds/accounts used in Sufi and Islamic theology to record human actions).",
+            "where": "L12"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'spirit' for 'ਹਾਵਾਂ' (Eve/Hawa) completely misses the gendered and mythological allusion to Adam ('ਆਦਮੀ') and Eve ('ਹਾਵਾਂ'), rendering the primordial human pair as a generic contrast between 'man' and 'spirit'.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transcendence of religious, social, and physical identities to discover the true, formless self."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Punjabi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ਬੁੱਲਿਆ ਕੀ ਜਾਣਾ ਮੈਂ ਕੌਣ  \nਬੁੱਲਿਆ ਕੀ ਜਾਣਾ ਮੈਂ ਕੌਣ,  \nਨਾ ਮੈਂ ਮੋਮਿਨ ਵਿਚ ਮਸਿਤਾਂ,  \nਨਾ ਮੈਂ ਵੇਚ ਵੇਚਾਂ ਵਿਚ ਗੱਡਾਂ,  \nਨਾ ਮੈਂ ਪੱਕਾ ਵਿੱਚ ਪਲਿਤਾਂ,  \nਬੁੱਲਿਆ ਕੀ ਜਾਣਾ ਮੈਂ ਕੌਣ।\n\nਨਾ ਮੈਂ ਭੀਤਾਂ ਵਿੱਚ ਰਹਿੰਦਾ,  \nਨਾ ਮੈਂ ਪਿੰਡਾਂ ਵਿੱਚ ਆਵਾਂ,  \nਨਾ ਮੈਂ ਮਸਜਿਦ ਨਾ ਮੈਂ ਮੰਦਰ,  \nਬੁੱਲਿਆ ਕੀ ਜਾਣਾ ਮੈਂ ਕੌਣ।\n\nਨਾ ਮੈਂ ਨਰਕਾਂ ਵਿੱਚ ਜਾਵਾਂ,  \nਨਾ ਮੈਂ ਫਰਦਾਂ ਵਿੱਚ ਪਾਇਆ,  \nਨਾ ਮੈਂ ਆਦਮੀ, ਨਾ ਮੈਂ ਹਾਵਾਂ,  \nਬੁੱਲਿਆ ਕੀ ਜਾਣਾ ਮੈਂ ਕੌਣ।",
+  "poem_id": "MV++_1225",
+  "poem_title": "Bulleya Ki Jaana Main Kaun",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a66735b5da4b39487653ae8f6c8ced718b67076ee6482b812e02e33222784689",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Punjabi/MV++_1225.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Bulleya, What Do I Know of Myself?  \nBulleya, what do I know of myself?  \nNeither I am in the mosque with the faithful,  \nNor I am in the rituals of pious traders,  \nNor I am pure among the impure,  \nBulleya, what do I know of myself?\n\nNeither I dwell in the walls of existence,  \nNor I roam in villages,  \nNeither in the mosque nor in the temple,  \nBulleya, what do I know of myself?\n\nNeither I go to hell,  \nNor am I caught in deeds,  \nNeither I am man, nor am I spirit,  \nBulleya, what do I know of myself?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:10:41.427968+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ee595af5f53f1bf57e180d2ea02285f1b872f3826eb69347ac32ee3832390ee7",
+        "response_hash": "9a4c45268cc2dba8ac98a4a969d2e7a06cdebf88f7acc61553ef789cd5c7f800"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6a2b3336ea4bc945fb7c51b1c2aaa73edd946a5cbc725aa8ab12e1e9b81b598f",
+        "response_hash": "838b28807bbcc4016f5c0d2f57ac776535167bfe5d26a32aa8c42b88485a6480",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1592ddb6ae9c50925b121bb4a50a29e596d1f2d64d96fdfb8c618a44965e6352",
+        "response_hash": "82df89f1c2acff05686444b59a4fe003b8ccf8cbd9a4cd36bdb221f52cdc2177",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "033a8e454e0082c925a1edb71d0ec1c87e8366fd9c47e1c56d332f90d47b793d",
+        "response_hash": "9883626c7fe1da4f29d2b655b5c7ee3e2278cadea5cbca51c2d3647013b6735f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f22c20692e21b2c44607267b21713670254c4761324161daa5f958336f4fed96",
+        "response_hash": "da261fc97daa850f18493f82829bf354581eea37d2960ccbe07ffa9b74efa4d5",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c9df8030c5c5a63e06b8bb9a6f44845ca5e52def2a733c7da124474d6db992e1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "27ff2bd3baf9f93511a6578cfee6bc7ecc77bb3ce32363a712a0737f0fb4fa53",
+    "translation_sha256": "bb820038ebff0d9e4701f890b453123447afe2f607ec6a438bc896c864694c20"
+  }
+}

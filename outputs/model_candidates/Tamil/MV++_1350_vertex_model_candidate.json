@@ -1,0 +1,174 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to joyful celebration",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The expressive, shifting, and overwhelming emotions or movements of the eyes when looking at someone.",
+            "acceptable_visual_variants": [
+              "A close-up of a person's eyes with soft, wavy light reflections in the pupils",
+              "A stylized, romantic portrait where the gaze of one person is illustrated with flowing, wave-like blue and gold light lines reaching toward another person"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Waves of the eye",
+            "literalization_risk": "An illustrator might literally draw water waves or ocean tides physically flowing out of a giant eyeball, which would look grotesque or surreal rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "expressive gaze",
+              "transferred_attributes": [
+                "fluidity",
+                "movement",
+                "ability to sweep someone away",
+                "depth"
+              ],
+              "vehicle_concept": "ocean waves"
+            },
+            "source_span_original": "விழியின் அலைகள்",
+            "source_span_translation": "Waves of the eyes",
+            "source_term": "விழியின் அலைகள்",
+            "tenor": "the expressive movement and emotional depth of a gaze",
+            "vehicle": "ocean waves",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of expressive, sparkling eyes with subtle, stylized fluid patterns or soft light ripples reflecting in the pupils to suggest the motion of waves without literal water."
+          },
+          {
+            "abstract_meaning": "Love is felt intensely and joyfully, as if it were a person celebrating a festive occasion.",
+            "acceptable_visual_variants": [
+              "A warm, golden glow and sparkling light bursting from a person's chest area",
+              "A stylized heart symbol surrounded by blooming, colorful flowers and festive light particles"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Love celebrates / holds a festival",
+            "literalization_risk": "An illustrator might try to draw a literal personified figure named 'Love' throwing a party or wearing a party hat, which detracts from the internal, emotional nature of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "the emotion of love",
+              "transferred_attributes": [
+                "joy",
+                "festivity",
+                "active expression of happiness"
+              ],
+              "vehicle_concept": "a person celebrating a festival"
+            },
+            "source_span_original": "காதல் கொண்டாடுகிறது",
+            "source_span_translation": "Love celebrates",
+            "source_term": "காதல் கொண்டாடுகிறது",
+            "tenor": "the joyful and active feeling of love within the heart",
+            "vehicle": "a person celebrating or hosting a festival",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize the internal joy through warm, glowing light, blooming flowers, or festive sparks emanating from the chest/heart area of a person to represent the internal celebration of love."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The genitive case suffix '-in' in 'vizhiyin' (விழியின்) and 'ithayathin' (இதயத்தின்) is translated as a standard English prepositional phrase ('of the...'), losing the tight, agglutinative flow of the original Tamil noun-noun relationship.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The locative case suffix '-il' in 'paarvaiyil' (பார்வையில்) and 'aalathil' (ஆழத்தில்) is flattened into standard English prepositions ('in your gaze', 'in the depths'), losing the synthetic grammatical structure of the original Tamil.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The awakening of deep love through a beloved's gaze"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "விழியின் அலைகள்,  \nஉன் பார்வையில் தோன்றின,  \nஎன் இதயத்தின் ஆழத்தில்,  \nகாதல் கொண்டாடுகிறது!",
+  "poem_id": "MV++_1350",
+  "poem_title": "Vizhiyin Alaigal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "64a42a108eaa43f9b02ae20faf0e55c2bb43be7b1afee30cb5f425dd6c0e85c2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1350.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Waves of the eyes,  \nEmerged in your gaze,  \nIn the depths of my heart,  \nLove celebrates!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:24:10.884370+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9a2ed175e2d2b17c53cfa740df8cb1b6201e3bf77db295ca43d2253bc0951aa1",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f9a92832b5cf3be2077c93d5d80b6a46e4d6b418c47fcb402e71752a9a94fdca",
+        "response_hash": "c8fc12ace7b7724615f0fc0c2a0b4df970be5bf80b37d7d1718bfa75a896f6c7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "45d46f460da2a978752dfb15cc4c9257125bb40c3e5d8d1ef9bf5c115f4a56c1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "711a6e759f73f86470984b93fe3fc571f92fb6c3345d1ea434e71c288c2118a6",
+        "response_hash": "0c6b9b1981711f319ea06c039e03577b8743abf689c58f79aba9934ec083fad4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b13095e488c1f33365e97f7c3e3ab5e67aa35745346535a3d9072f057b4f2116",
+        "response_hash": "2c6bb92581f5dccb32fd481f55d9804523d4e0fe58f8c0edfc35592bc49956e4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "28b1914cd70e765721542b127815863845688ddbc0809f34e7dc4c2bf7fc1f3a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "cff5b976d175ea9c2e7519241b32df516692be0c7688ef3f5e3b9ac0c73a548a",
+    "translation_sha256": "6d4d334fb95d4a398d31977a438f33c898cb31adba8c6847406a7f6d098c735e"
+  }
+}

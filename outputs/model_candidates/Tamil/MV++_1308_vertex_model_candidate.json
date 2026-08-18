@@ -1,0 +1,208 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A gentle breeze swaying delicate flowers in a quiet landscape",
+          "A soft wind blowing through an open window, rustling light curtains"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A compound of 'poon' (flower-like/gentle) and 'thendral' (the cool, gentle southern wind). In Tamil literary tradition, thendral is a highly romanticized regional symbol of love, comfort, and longing, often personified as a messenger or companion.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A harsh storm or gale",
+          "A generic cold northern wind"
+        ],
+        "preserved": true,
+        "romanization": "poonthendral",
+        "source_span_original": "பூந்தென்றல்",
+        "source_span_translation": "gentle breeze",
+        "stanza_index": 1,
+        "term": "பூந்தென்றல்",
+        "translation_note": "Translated as 'gentle breeze', which captures the literal meaning but loses the specific cultural resonance of 'thendral' (the southern breeze) in Tamil literature.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A soft, invisible wind rustling through flowers or green leaves",
+          "Petals gently drifting in the air"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and tender anticipation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The persistent, evocative, and comforting presence of a loved one's memory in the speaker's mind.",
+            "acceptable_visual_variants": [
+              "A path lined with blooming flowers whose petals gently drift in the wind around the traveler",
+              "A soft, warm light or mist enveloping the traveler on the path"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The physical scent or perfume of your memory",
+            "literalization_risk": "Showing literal scent molecules or perfume bottles floating around a person, which looks like a chemical spray rather than a poetic memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory",
+              "transferred_attributes": [
+                "sweetness",
+                "persistence in the air",
+                "evocative power",
+                "invisible presence"
+              ],
+              "vehicle_concept": "fragrance"
+            },
+            "source_span_original": "உன் நினைவின் வாசனை",
+            "source_span_translation": "The fragrance of your memory",
+            "source_term": "உன் நினைவின் வாசனை",
+            "tenor": "memory of a loved one",
+            "vehicle": "fragrance / scent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person walking down a path with soft, glowing, or floral-patterned air currents swirling around them to represent the sweet, invisible presence of memory."
+          },
+          {
+            "abstract_meaning": "The memory of the beloved actively appears and accompanies the speaker along their life's journey.",
+            "acceptable_visual_variants": [
+              "A single traveler looking back or to the side as if sensing someone next to them",
+              "Two paths merging into one, or a single path with two sets of footprints where only one person is visible"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Comes walking on my path",
+            "literalization_risk": "Depicting a literal ghost or a transparent person walking next to the speaker, which might look like a horror or supernatural scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory",
+              "transferred_attributes": [
+                "movement",
+                "presence on a path",
+                "companionship"
+              ],
+              "vehicle_concept": "walking companion"
+            },
+            "source_span_original": "என் பாதையில் வரும்",
+            "source_span_translation": "Comes walking on my path",
+            "source_term": "என் பாதையில் வரும்",
+            "tenor": "the memory of the beloved",
+            "vehicle": "a walking companion",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a single traveler walking on a path, with their shadow or the surrounding nature (like wind-bent grass or drifting petals) suggesting a dual presence or a companion's movement."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil locative suffix '-ile' in 'aasaiyile' (ஆசையிலே) and 'paathaiyil' (பாதையில்) carries an agglutinative, rhythmic flow and emphasis that is flattened into standard English prepositions ('In desire', 'on my path').",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The compound 'poonthendral' (பூந்தென்றல்) combines 'poo' (flower) and 'thendral' (gentle southern breeze), carrying a specific sensory association of a flower-scented southern wind that is simplified to 'gentle breeze' in English.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The sensory presence of a loved one's memory carried by the gentle breeze"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items, which is inconsistent with a completely faithful translation. The quality should ideally be 'partial' if there is notable translation loss.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ஆசையிலே பூந்தென்றல்,  \nஎன் இதயத்தைக் குலுங்கும்,  \nஉன் நினைவின் வாசனை,  \nஎன் பாதையில் வரும்!",
+  "poem_id": "MV++_1308",
+  "poem_title": "Aasaiyil Poonthendral",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a54020dcfd9b089245ec3e13912b7fb5ea23ee5fe225a728d59f3ab78afc09d3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1308.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In desire, the gentle breeze,  \nShakes my heart with delight,  \nThe fragrance of your memory,  \nComes walking on my path!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:19:55.999166+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f25021c04996ea1f00e25e81a6f51c0cea83c81417d8c395a5b7ee1e3caf8dc",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "69ae9079aa706d2b0ebe0145eae11a27653142c2788908971a0228e3ffb20f43",
+        "response_hash": "e14a1835e989efe1332bebf08e27f30c56d83e6e0f46ac27c84790a36e10f7cc",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8bb7623ede26efa5cfa76c5139a16b719f97a56aec4279dfe59aa2b47213369d",
+        "response_hash": "4dc2c0a499c9caeae913d19e0f0760dbb0ed40a3e2b9c37c02815ed0cacad58b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "04ea1de76dc743e2ece842bb106719c1d7b4f76f21e901a590c8b6aae8c99afe",
+        "response_hash": "f177f9f8a828e8138adca39fc132064def3534ef6fa334b5e9a2fe48f72cae1e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c2fe8e1cb179407b75a15ed0aa1a87245ab7a30d98281ac5a19279e49219492e",
+        "response_hash": "06143fef02459e8803d1ce2ad85944a0e8fa48e0189b7adc95c76efb56deff92",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7325a4aa9e1c1905e518c96e6b7e3c3db64390a187a739e97cdb1ce42b8d9ede",
+        "response_hash": "7c754c08702407b2f9edebe26101aa65681afe1a71313c66175e22f435bc203e",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8c0fa381ed8a57b963d6fa5db43866e1b22e0147f6940d9515837304bb5ef20d",
+    "translation_sha256": "9f02c1a15c421f8e455ffd28c8784ada19c34ae5e89fee799df8068d537870ce"
+  }
+}

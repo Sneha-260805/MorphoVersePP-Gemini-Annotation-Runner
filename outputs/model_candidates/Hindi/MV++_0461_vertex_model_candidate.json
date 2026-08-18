@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady, joyful celebration of the innocence, wonder, and vibrant energy of childhood from beginning to end.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation captures the overall meaning well, though the specific nuance of 'umang' (enthusiasm/exuberance) is slightly softened to 'surprise' in English to maintain the rhyme scheme.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The children's dreams are full of hope, imagination, and vibrant possibilities.",
+            "acceptable_visual_variants": [
+              "A child drawing with colorful crayons on paper, looking up with a bright smile.",
+              "A child looking towards a bright, softly lit sky filled with warm, vibrant sunset hues."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "There is physical color in their dreams",
+            "literalization_risk": "Showing literal paint or physical colored streaks inside a sleeping child's brain or floating around them, which looks like a physical science experiment rather than a state of mind.",
+            "metaphor_mapping": {
+              "tenor_concept": "vibrancy and hope",
+              "transferred_attributes": [
+                "brightness",
+                "variety",
+                "joyfulness"
+              ],
+              "vehicle_concept": "color"
+            },
+            "source_span_original": "सपनों में रंग है",
+            "source_span_translation": "dreams are colored bright",
+            "source_term": "सपनों में रंग है",
+            "tenor": "hope, joy, and imaginative possibilities of children's aspirations",
+            "vehicle": "physical colors (pigments/hues)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a child engaged in creative play or looking up with a joyful expression, surrounded by a soft, warm, imaginative background with a rich but natural color palette."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'उमंग' (umang) as 'surprise' shifts the meaning; 'umang' denotes enthusiasm, zeal, or high spirits rather than unexpected astonishment.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'रंग है' (literally 'has color' or 'there is color') as 'colored bright' adds an explicit adjective ('bright') not present in the original Hindi text, which simply states that there is color in their dreams.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The pure joy, boundless imagination, and vibrant wonder inherent in childhood and children."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बचपन और बच्चे,  \nजिनकी आँखों में चमक है।  \nहर खेल में हँसी है,  \nहर बात में उमंग है।  \nउनके सपनों में रंग है,  \nउनकी दुनिया निराली है।  \nबचपन और बच्चे,  \nजिनकी आँखों में चमक है।",
+  "poem_id": "MV++_0461",
+  "poem_title": "Bachpan Aur Bachche",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1dc2b7b98ee56e5d6f2fab596775c41f61e954bc7b91770e3a5397b9f131571d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0461.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Childhood and children,  \nWith brightness in their eyes.  \nEvery game brings laughter,  \nEvery word holds surprise.  \nTheir dreams are colored bright,  \nTheir world, a unique delight.  \nChildhood and children,  \nWith brightness in their eyes.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:26:46.095252+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f51b304a016542b92f132ba098a1d3f23423a6edc28403a2ccf42ccd7d2c021e",
+        "response_hash": "5b2c39c4b695c1427fe2f9bce21e9a1b144ed64fcd3371da34bf033655c4d30f"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e5a5fb1537eafc1f83fab05a0a10b9e5cf3796416d3b7d30ff6e8d9ff2447407",
+        "response_hash": "945fe3b92d1ffa1e4f8392e86f858664b51979d75512048fceac3b595794901f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "64f24c9bfc00c2e7a7b8d466a6a5799f3d9f2e4dcb5de28302a928f9615f92b6",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea88edfa6042a8860692f2e4d75d80a396c23be843386d4aaa1ed637af9cd3c5",
+        "response_hash": "dc989690ce4fa453a7507e97006bac765d1b1ec8dd2620e799876bc83f6a41ac",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea0b7a998617361f0e003458a0db004dceb500d6b27c61f85d55669e7257e46c",
+        "response_hash": "f924b7b4b6a3402744e1e43579751706ce94b9613ae3b61739dec7b9d5c9736b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c7cead95933299bec187298f8f3260f8a9e0eacb38fda0ee76a8de607a9796d0",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ccbeefa400340ca736f4c95181194e3d869b362632d19a51c65e70021b619f7a",
+    "translation_sha256": "1432ece072d68c1dec60cad0008bcdd80aaf73c04267c628f84260836266a353"
+  }
+}

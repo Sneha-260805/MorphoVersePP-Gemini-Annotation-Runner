@@ -1,0 +1,218 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A landscape showing the first heavy rains of the monsoon season over green fields",
+          "A solitary figure looking up at dark, gathering clouds"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The fourth month of the Hindu calendar, corresponding to June-July, marking the arrival of the monsoon rains and deeply associated in classical Sanskrit and Hindi literature with dark clouds, longing, and romantic melancholy.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A dry, sunny summer landscape",
+          "A generic autumn or winter scene"
+        ],
+        "preserved": true,
+        "romanization": "Ashad",
+        "source_span_original": "आषाढ़",
+        "source_span_translation": "Ashad",
+        "stanza_index": 1,
+        "term": "आषाढ़",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Dark, heavy monsoon clouds gathering in the sky",
+          "Lush green landscape",
+          "A sense of impending rain"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A contrast between external natural abundance and internal isolation, shifting into a quiet, timeless contemplation of unexpressed feelings.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but slightly loses the specific poetic resonance of 'aalam' (state/atmosphere) and 'tanhaai' (solitude/loneliness) which carry a distinct Urdu-influenced register in Hindi poetry.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An overwhelming, pervasive feeling of happiness and joy is present all around.",
+            "acceptable_visual_variants": [
+              "A sparkling stream flowing through green fields under gathering clouds",
+              "A gentle waterfall cascading down a green hill in the rain"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A waterfall/stream of happiness is flowing",
+            "literalization_risk": "An illustrator might draw a literal waterfall made of water or glowing liquid, which distracts from the emotional state of the environment.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional joy",
+              "transferred_attributes": [
+                "abundance",
+                "continuous movement",
+                "refreshing presence"
+              ],
+              "vehicle_concept": "flowing water/stream"
+            },
+            "source_span_original": "सुख का झरना बह रहा है",
+            "source_span_translation": "A stream of joy flows everywhere",
+            "source_term": "सुख का झरना बह रहा है",
+            "tenor": "pervasive joy and happiness",
+            "vehicle": "a flowing stream or waterfall",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vibrant, lush landscape with a sparkling, clear stream flowing through it, emphasizing the bright, joyful atmosphere of the surroundings."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and literary resonance of 'Ashad' (आषाढ़), the Hindu calendar month associated with the onset of the monsoon and classical Sanskrit love-longing (such as Kalidasa's Meghaduta), is flattened to a simple transliterated name.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Urdu-derived register of 'aalam' (आलम - state, condition, world) and 'tanhaai' (तन्हाई - solitude, loneliness) creates a poignant linguistic contrast with the Sanskritized 'dhara' (धरा - earth) and 'Ashad' (आषाढ़) in the original, which is lost in the uniform English translation.",
+            "where": "L3-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'kabhi khatm na hone wala din' as 'a day that seems endless' is faithful, though it slightly shifts the absolute literal sense of 'a day that never ends' to a subjective perception.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The feeling that time has slowed down or paused, creating a moment of deep reflection.",
+            "acceptable_visual_variants": [
+              "A close-up of a single raindrop frozen on the tip of a green leaf",
+              "A solitary figure looking out at a completely still, misty landscape where nothing moves"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "As if time stopped and thought/pondered",
+            "literalization_risk": "Depicting a literal clock or a personified figure of 'Father Time' standing still would look cartoonish and ruin the subtle, melancholic mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "the abstract passage of time",
+              "transferred_attributes": [
+                "pausing",
+                "thinking",
+                "deliberate stillness"
+              ],
+              "vehicle_concept": "a reflective human being"
+            },
+            "source_span_original": "जैसे समय ने रुककर विचार किया हो",
+            "source_span_translation": "As if time itself stopped to ponder",
+            "source_term": "जैसे समय ने रुककर विचार किया हो",
+            "tenor": "the slow, heavy passage of time during a lonely day",
+            "vehicle": "a thinking person who pauses to reflect",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a scene of absolute stillness amidst the rain, such as a single water droplet suspended on a leaf or a completely motionless landscape, to evoke the feeling of paused time."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The subjunctive mood and delicate hypothetical framing of 'jaise... kiya ho... sun liya ho' (जैसे... किया हो... सुन लिया हो) expressing a soft, reflective possibility is rendered as a more definitive past tense 'stopped... listened' in English.",
+            "where": "L6-L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The poignant contrast between nature's vibrant renewal and the speaker's deep, enduring inner solitude."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आषाढ़ का एक दिन  \nआकाश में बादल घेर रहे हैं,  \nधरा पर हरियाली का आलम है।  \nहर कहीं सुख का झरना बह रहा है,  \nदिल में एक गहरी तन्हाई है।\n\nजैसे समय ने रुककर विचार किया हो,  \nऔर हर अनकही बात को सुन लिया हो।  \nआषाढ़ का एक दिन,  \nकभी खत्म न होने वाला दिन।",
+  "poem_id": "MV++_0626",
+  "poem_title": "Ashad Ka Ek Din",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cf352381b39c7a901621f53cc96e5dea97463db0c4a8bf1d40839b02e26a2e46",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0626.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A Day in Ashad  \nClouds gather in the sky,  \nThe earth is full of greenery.  \nA stream of joy flows everywhere,  \nBut in the heart, a deep loneliness persists.\n\nAs if time itself stopped to ponder,  \nAnd listened to every unsaid word.  \nA day in Ashad,  \nA day that seems endless.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:48:03.176925+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1d7addeb480c3425e42e031a9713bf9fc10418ee1663dfd6c2a64b0f18e55aef",
+        "response_hash": "964c45a4c232510a8a7b320eccd0a74c32284c26e21e4927b923ce68d641237e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8ebb995e418079e5fb90e1cdf8cb0559c317335c4cbad91d55a2c315bfabd22",
+        "response_hash": "c1a37889b6ca50f8150bfe2ada7d64d8d588a953d6bf4aa1068b5449ff3042fa",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6debfead92bde5232d38fd02fe80742b21112604031e4926053840edaa9b385a",
+        "response_hash": "7072c1e692a130b5a8bbb7601e384d8f7c7a4eec5c67e3d884149e8847eec2e4",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ee8851e81d26a9a5921aa01c47c154683aafb28cfe334c275b7675959a43e0d5",
+        "response_hash": "bf745720967ee1226d6198b916eab734a8d8663abd68da92202e756a24f5b1cf",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8588a4a8eb96d4605b5ca11b6c8f5589d1bb55a8c178c17863d98d3f735af161",
+        "response_hash": "1648a0f5ba25bcf990daff49e62f9033497132b1b9806efacdc18d2a37ab2f6a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5a5a6d04cbf43f65633cae168fcc91f035c0bccae043eb4ffdbb83c49e77bb9a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "157e0ada2af0020be1a0d674d5d4cdf9e017da41d635d7dd10a2c8dfec712536",
+    "translation_sha256": "6dfb99ff7b8c70befd38bb2995b667a7893df2af747996308d8c1f6157112ac9"
+  }
+}

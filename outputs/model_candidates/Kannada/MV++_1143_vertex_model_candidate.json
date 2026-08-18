@@ -1,0 +1,172 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A transition from the constraints of a fragmented earthly existence to a state of spiritual elevation and joy, soaring on light.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation simplifies complex Kannada compound terms and poetic metaphors, such as 'paraga' (pollen) being rendered loosely as 'space', and collapses the nuanced grammatical structure of the original lines.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mind is light, delicate, and receptive, floating freely like pollen grains in the air.",
+            "acceptable_visual_variants": [
+              "A figure sitting in meditation with tiny, luminous golden specks floating around them like pollen in a sunbeam",
+              "A close-up of a heart or mind space dissolving into soft, floating golden dust"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The mind is pollen",
+            "literalization_risk": "Showing actual yellow flower pollen grains floating out of a human head, which looks like a medical condition or allergy rather than a state of spiritual lightness.",
+            "metaphor_mapping": {
+              "tenor_concept": "mind",
+              "transferred_attributes": [
+                "lightness",
+                "delicacy",
+                "floating in space",
+                "receptivity"
+              ],
+              "vehicle_concept": "pollen"
+            },
+            "source_span_original": "ಮನಸ್ಸು ಪರಾಗವು",
+            "source_span_translation": "My mind rests as if in a space",
+            "source_term": "ಮನಸ್ಸು ಪರಾಗವು",
+            "tenor": "the mind (manassu)",
+            "vehicle": "pollen (paragavu)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, glowing human silhouette with soft, golden, dust-like particles gently radiating from the chest or head area into a vast, calm space."
+          },
+          {
+            "abstract_meaning": "Achieving a state of spiritual elevation, transcendence, or enlightenment by rising above earthly existence.",
+            "acceptable_visual_variants": [
+              "A silhouette ascending along a pathway of pure light",
+              "A figure whose feet are grounded on a brilliant beam of light stretching into the sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "I stand, leaping/flying from a ray of light",
+            "literalization_risk": "Depicting a person literally jumping off a physical laser beam or flashlight beam like an acrobat, which looks like a sci-fi stunt rather than a spiritual state.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual elevation",
+              "transferred_attributes": [
+                "weightlessness",
+                "illumination",
+                "transcendence of gravity"
+              ],
+              "vehicle_concept": "standing on a light beam"
+            },
+            "source_span_original": "ಕಿರಣದಿಂದ ಹಾರಿ ನಿಲ್ಲುತ್ತೆನೆ",
+            "source_span_translation": "soaring on a beam of light",
+            "source_term": "ಕಿರಣದಿಂದ ಹಾರಿ ನಿಲ್ಲುತ್ತೆನೆ",
+            "tenor": "spiritual elevation or transcendence",
+            "vehicle": "leaping or standing on a beam of light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a serene, semi-translucent figure standing gracefully atop or within a broad, descending shaft of warm, golden celestial light."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ಅರೆನಲ್ಲ ಹಚ್ಚೆ' (arenalla hacce) as 'not on the ground' loses the literal sense of 'hacce' (tattoo/green mark/patch) and the specific compound meaning of 'arenalla' (half-ground/half-soil).",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ಮನಸ್ಸು ಪರಾಗವು ಸಾಕೆನು' (manassu paraagavu saakenu) as 'My mind rests as if in a space' completely alters the literal meaning of 'paraagavu' (pollen) and 'saakenu' (is enough / I say is enough), losing the delicate floral/pollen metaphor.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಅದೇ ಬಾಗಲಿ' (ade baagali) as 'rests as if' misses the literal meaning of 'baagali' (let it bend/bow, or door/gate depending on context/orthography).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The liberation of the mind and soul from a fragmented, half-living existence into a state of transcendent joy and light."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಅರೆನಲ್ಲ ಹಚ್ಚೆ, ಆನಂದದಿಂದ ಇಲ್ಲಲ್ಲಿ ಓಡುತ್ತೆನು,\nಅರ್ಧವಾಗಿ ಕೀಳ್ಕಂಡ ಬಾಳಲ್ಲ,\nನಾನು ಗೆಳೆಯನಾದರೆ, ಪ್ರಿಯನಾದೆನಂತೆ\nಅದೇ ಬಾಗಲಿ, ಮನಸ್ಸು ಪರಾಗವು ಸಾಕೆನು,\nಕಿರಣದಿಂದ ಹಾರಿ ನಿಲ್ಲುತ್ತೆನೆ.",
+  "poem_id": "MV++_1143",
+  "poem_title": "Jnanayogi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "bdd1843ae175e2d78bf9356e1fd0139199f9dd3071b22d573a18aded95ea317f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1143.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I run here in joy, not on the ground,\nIn this half-living existence,\nIf I were a friend, a beloved,\nMy mind rests as if in a space,\nI stand, soaring on a beam of light.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:02:58.067693+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b89ea310f8f5fa20e82b91ba118a6ec8e303d9bceeb84501f225c7424e14b51c",
+        "response_hash": "96b17925fb22271837e0359dd7967dab16758b38ca66cc96c2ddca819d01b69e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2ae96c13675715616d84d4e01d00c4341b20a82904e7046106e1d52bb9c7ee53",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "57a0401f4deaacc93794f98f03c68618c530cedbd9f6e38a5e5ab349c26385dc",
+        "response_hash": "4c32d7844f6e159f73a078c0a9054dc9389f13c7764b636ca3d545559b0c384e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "982cbe4ff373f1c426821ddf82e0712e383cbc1ebff144c8fa4a163061c6cde7",
+        "response_hash": "4a1048d49b9508e44f1a9a1cb0bb45c296dfa7be0997cc1cb3b2a5de0527aa8c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0c742ad2dfd81521edc4afab7abf36411260e3c94a173b8a73db1f5a64c5cc58",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1767630776484a6600f636509d0047c405c4fb590582c878f586146d63c97ce7",
+    "translation_sha256": "fb3fc7fef1204961f2a314fb21f3c33ff6408b23999182e6d427bef68a67c6c0"
+  }
+}

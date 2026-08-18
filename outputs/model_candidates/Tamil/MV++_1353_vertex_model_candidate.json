@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to deep affection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The shifting, soft, and layered patterns of clouds in the sky, or the emotional movements reflected in the beloved's eyes.",
+            "acceptable_visual_variants": [
+              "Soft wispy clouds shaped like gentle ocean swells reflected on the surface of a person's eyes",
+              "A stylized blend of blue sky, clouds, and soft ripples overlaying a close-up of eyes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Waves made of clouds",
+            "literalization_risk": "Depicting literal ocean waves made of water floating inside a giant eyeball, which looks surreal or grotesque rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "clouds",
+              "transferred_attributes": [
+                "undulating motion",
+                "layering",
+                "fluidity"
+              ],
+              "vehicle_concept": "ocean waves"
+            },
+            "source_span_original": "முகிலின் அலைகள்",
+            "source_span_translation": "Waves of the clouds",
+            "source_term": "முகிலின் அலைகள்",
+            "tenor": "clouds / cloud formations",
+            "vehicle": "ocean waves / water waves",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render soft, undulating, wave-like cloud formations drifting across a sky-like reflection in a pair of expressive eyes."
+          },
+          {
+            "abstract_meaning": "Deep within the speaker's emotional self or inner consciousness.",
+            "acceptable_visual_variants": [
+              "An abstract warm glow rising from within a silhouetted figure",
+              "A peaceful, introspective portrait of the speaker looking deeply moved"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the physical deep bottom of the heart organ",
+            "literalization_risk": "Showing a literal anatomical heart with a deep cavern or ocean inside it, which is medically bizarre and ruins the romantic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional capacity",
+              "transferred_attributes": [
+                "depth",
+                "hidden nature",
+                "capacity to hold feelings"
+              ],
+              "vehicle_concept": "deep physical space"
+            },
+            "source_span_original": "இதயத்தின் ஆழத்தில்",
+            "source_span_translation": "depths of my heart",
+            "source_term": "இதயத்தின் ஆழத்தில்",
+            "tenor": "the innermost emotional core of a person",
+            "vehicle": "a deep physical space or ocean depth",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the emotional expression of the speaker or use abstract light emanating from the chest area to suggest deep internal feeling."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The genitive case marker '-in' in 'mugilin' (of the cloud) and the locative case markers '-il' in 'kankalil' (in eyes) and 'aalaththil' (in depth) are fused directly onto the nouns in Tamil's agglutinative structure, which is flattened into separate English prepositions ('of', 'in').",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The adverbial suffix '-aaga' in 'azhagaaga' (beautifully) is fused directly to the noun 'azhagu' (beauty), a morphological feature of Tamil adverbial construction that is lost in the English translation.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The beautiful rise of love inspired by the beloved's eyes"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "முகிலின் அலைகள்,  \nஉன் கண்களில் மிதக்கும்,  \nஎன் இதயத்தின் ஆழத்தில்,  \nகாதல் அழகாக எழுகிறது!",
+  "poem_id": "MV++_1353",
+  "poem_title": "Mugilin Alaigal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b41d9b735c9cdb78eeffb236e1b120787dab47d5eb4742585501ed1c5679ad44",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1353.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Waves of the clouds,  \nFloating in your eyes,  \nIn the depths of my heart,  \nLove rises beautifully!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:24:50.134763+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "448284b7c00d4d663598e5138234277e7b559cf5d429456ff8731e825edb50de",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b25b80bdf57b20efbcf2a2a1d40a1f554015b703e6642f7c344ec9341a1488c",
+        "response_hash": "73d42aecd183a87227e49f0178ffc8d5e582dc119e586c6a2aed4e164ec660aa",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a5cd7f90e3a429104993e493490e7a33948482dd0c68d1a3bcc7a622d2733c1d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d8cb2dd45cd933550012beb38803656266761b07392a4180120becbebd9f476d",
+        "response_hash": "cae80d5a18c254bbd530f82b36aaedf55a02ea160f74cfbf73b4bd36736e4b90",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ef6a0c745b4fbc24af187b5e3095b1175ad335e6491cca27cd503339cd9a4695",
+        "response_hash": "06852bd467913753bd3bc518f623ad7909c8794aec07cffd1987ed29988bc9f3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2adcccbad2e247ebdae332339c4c4a413740dd20ca8de9abae6e246a8ed5433a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bafd22ca77a159107db29c00d7d411a468cf7844ee5f220c04ffaf7a4a6a5445",
+    "translation_sha256": "c03b04bf3655c3121dbd5643013beba8edcce2553ec466aff9a44aadb7bf4e4f"
+  }
+}

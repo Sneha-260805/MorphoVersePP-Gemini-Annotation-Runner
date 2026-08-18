@@ -1,0 +1,199 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "determination in the face of adversity",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A vast, difficult, and challenging life situation or obstacle that must be overcome.",
+            "acceptable_visual_variants": [
+              "A person looking out at a stormy, endless sea from a rocky shore",
+              "A small boat on a massive, deep blue ocean under a heavy sky"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A deep sea or ocean",
+            "literalization_risk": "An illustrator might draw a literal marine scene with fish and coral, missing the psychological weight of facing a life crisis.",
+            "metaphor_mapping": {
+              "tenor_concept": "formidable life challenges",
+              "transferred_attributes": [
+                "depth",
+                "vastness",
+                "difficulty of crossing"
+              ],
+              "vehicle_concept": "deep ocean"
+            },
+            "source_span_original": "गहरा समंदर",
+            "source_span_translation": "The ocean is deep",
+            "source_term": "गहरा समंदर",
+            "tenor": "Life's immense challenges and obstacles",
+            "vehicle": "A deep, vast ocean",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lone figure standing before a vast, dark, and imposing body of water, emphasizing scale and the daunting task of crossing."
+          },
+          {
+            "abstract_meaning": "The chaotic, threatening, and overwhelming noises or distractions of life's crises.",
+            "acceptable_visual_variants": [
+              "Towering waves crashing violently against rocks",
+              "A turbulent sea with high, white-capped swells surrounding a path"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "The roaring or thundering of waves",
+            "literalization_risk": "Depicting waves with literal human mouths roaring could look cartoonish or comical rather than threatening.",
+            "metaphor_mapping": {
+              "tenor_concept": "intimidating obstacles",
+              "transferred_attributes": [
+                "loudness",
+                "aggression",
+                "chaos"
+              ],
+              "vehicle_concept": "roaring waves"
+            },
+            "source_span_original": "लहरों की गर्जना",
+            "source_span_translation": "roaring waves",
+            "source_term": "लहरों की गर्जना",
+            "tenor": "The intimidating and chaotic nature of external challenges",
+            "vehicle": "Roaring, vocal waves",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show massive, crashing waves with dramatic spray and dynamic motion lines to convey the sensory power and 'roar' of the water."
+          },
+          {
+            "abstract_meaning": "One's personal goal, destination, or state of peace and resolution.",
+            "acceptable_visual_variants": [
+              "A solid, calm sandy bank visible in the distance beyond rough waters",
+              "A beacon of light on a distant coast guiding the way"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "The shore or edge of the water",
+            "literalization_risk": "Showing a generic tropical beach might look like a vacation scene rather than a hard-won personal sanctuary.",
+            "metaphor_mapping": {
+              "tenor_concept": "safe destination",
+              "transferred_attributes": [
+                "stability",
+                "safety",
+                "end of a journey"
+              ],
+              "vehicle_concept": "shore"
+            },
+            "source_span_original": "किनारे",
+            "source_span_translation": "shore",
+            "source_term": "किनारे",
+            "tenor": "A personal destination, goal, or safe haven in life",
+            "vehicle": "A safe shore or coast",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a distant, stable shoreline illuminated by a soft, welcoming light, representing hope and a final destination."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the subtle shift in the Hindi pronouns and postpositions from 'mujhko' (to me / by me) in L2 to 'mujhe' (to me / I) in L4, which both map to 'I' in English but carry slightly different rhythmic and grammatical weights in the original Devanagari text.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Overcoming obstacles to reach one's destination"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].metaphor_spans[0].source_span_translation",
+      "issue": "The source_span_translation 'The ocean is deep' does not match the exact translation of the source_span_original 'गहरा समंदर' which is 'deep ocean' or 'ocean is deep' (the translation text has 'The ocean is deep' for the whole line L1, but the source_span_original is only 'गहरा समंदर').",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list and loss_note is empty instead of summarizing the loss.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "गहरा समंदर है,  \nपर मुझको पार करना है।  \nलहरों की गर्जना में,  \nमुझे अपने किनारे तक जाना है।",
+  "poem_id": "MV++_0779",
+  "poem_title": "Gehra Samandar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7f72a3026218bf7875e38827a5c6f01ffaf2dfd02741cbd6fa5193b172d431d8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0779.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The ocean is deep,  \nBut I must cross it.  \nAmid the roaring waves,  \nI have to reach my shore.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:11:00.520189+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "91d36f144adcd79e83ba799715ac73be0b64d437852ce223e775e5643f8652cd",
+        "response_hash": "fc74f1d374668c5dda548668590335e1b1df60edcdef9f0fbde326415b87f107",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e1900d593bc4c0f69960cb26a7a84cbc969908a79b9a8ddb687d3836676498cf",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5b0117ae28f55e978ec520c19f8a5f39fefca3e67f7f295cb69d42565fee8547",
+        "response_hash": "8d35ed130bf0ee62e3aa6f76aec756cb5c39f27c0824611abe8822fd9af2b9a6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da83c103b147b4f6bb13bc31a6e2faf5fc547e278596f9316d3c31dc7f1ee88d",
+        "response_hash": "3cc82808eabbf8d6db5a77a79429567fe85f166b7becd6b27f8a3875e0ec73a3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "50ff41daf8c222778e5f3cbae8e7b7883f9de13a56f9fb45f9b29a0518e19344",
+        "response_hash": "55784ac187c4cdaa5ddb0401ec71796c75c40ce16cc2026df2e56d5975293f0d",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b4970300421ba4ad2e3e2bc30942658b1deb081a243a6c0c5e6734e568fd025c",
+    "translation_sha256": "8a9b061ad899d0e66df6f16032dac65602474349a64d2648a88714d7c7f9095c"
+  }
+}

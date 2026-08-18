@@ -1,0 +1,284 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "Dry, cracked earth resembling the texture of deeply fissured heels",
+          "A close-up of parched, cracked soil with soft moisture or green shoots emerging from the cracks"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Deep, painful cracks on the heels or soles of the feet, commonly associated with barefoot rural labor, walking on rough terrain, and exposure to harsh weather. Here, it is metaphorically mapped onto the cracked, dry earth.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "Perfectly smooth, manicured feet",
+          "Symmetrical, clean-cut geometric stone cracks"
+        ],
+        "preserved": false,
+        "romanization": "bivaiyon",
+        "source_span_original": "बिवाइयों",
+        "source_span_translation": "crevices",
+        "stanza_index": 2,
+        "term": "बिवाइयों",
+        "translation_note": "The translation generalizes 'bivaiyon' (painful cracks on heels/soles, typically associated with rural labor and barefoot walking) to 'crevices' of the earth, losing the specific humanizing, labor-associated cultural metaphor.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "Deep, dry, jagged fissures or cracks in a surface resembling parched soil or weathered, hardworking human skin."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "resilience to quiet wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The surface of the earth, personified as a human chest that bears the elements and receives rain.",
+            "acceptable_visual_variants": [
+              "A wide-angle view of dry, cracked earth with rain drops falling on it",
+              "A soft, undulating landscape of soil that subtly mimics a human form without explicit body parts"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The chest of the earth",
+            "literalization_risk": "Depicting a literal human chest emerging from the soil, which would look surreal or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "earth's surface",
+              "transferred_attributes": [
+                "vulnerability",
+                "capacity to feel",
+                "bearing weight"
+              ],
+              "vehicle_concept": "human chest"
+            },
+            "source_span_original": "पृथ्वी की छाती",
+            "source_span_translation": "earth’s chest",
+            "source_term": "पृथ्वी की छाती",
+            "tenor": "The surface of the land",
+            "vehicle": "A human chest",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, cracked or dry landscape of soil stretching out, perhaps with a gentle rise resembling a chest, receiving falling drops of rain."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses two different words ('earth' and 'land') to translate 'पृथ्वी' (Prithvi) and 'धरती' (dharti), which are closely related synonyms in Hindi. This slightly alters the poetic resonance of the original juxtaposition of these two terms in the same line.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The continuous aspect of the past tense verb 'टपकती रही' (kept dripping/dripping continuously) is rendered as a simple present tense 'it drips', losing the sense of ongoing, historical endurance.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'फटी बिवाइयों' as 'cracked crevices' loses the specific humanizing metaphor of 'bivaiyan' (painful cracks on the heels of feet, typically from hard labor or exposure), which deeply grounds the earth's suffering in human physical labor.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deep cracks in dry, parched soil, compared to cracked heels or skin worn down by hard labor.",
+            "acceptable_visual_variants": [
+              "Deep fissures in dry clay soil",
+              "A close-up of parched earth with a hint of moisture reflecting light inside the cracks"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "In cracked heels (from cold or hard labor)",
+            "literalization_risk": "Showing literal human feet or heels emerging from the ground, which distracts from the landscape.",
+            "metaphor_mapping": {
+              "tenor_concept": "cracked dry earth",
+              "transferred_attributes": [
+                "dryness",
+                "pain",
+                "endurance of harsh conditions"
+              ],
+              "vehicle_concept": "cracked heels from labor"
+            },
+            "source_span_original": "फटी बिवाइयों में",
+            "source_span_translation": "cracked crevices",
+            "source_term": "फटी बिवाइयों में",
+            "tenor": "Deep cracks in dry soil",
+            "vehicle": "Cracked heels/skin of a working person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on deep, dry fissures in the earth's surface, perhaps with tiny green shoots or moisture deep within them."
+          },
+          {
+            "abstract_meaning": "The lingering hope, potential for life, and deep-seated resilience held within the dry earth.",
+            "acceptable_visual_variants": [
+              "Glistening moisture reflecting light inside dark soil crevices",
+              "A tiny green sprout emerging from a damp crack in dry earth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The moisture of dreams",
+            "literalization_risk": "Trying to draw literal dreams (like thought bubbles) floating over wet mud, which ruins the poetic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and life potential",
+              "transferred_attributes": [
+                "nourishment",
+                "vitality",
+                "quiet preservation"
+              ],
+              "vehicle_concept": "physical moisture"
+            },
+            "source_span_original": "सपनों की नमी",
+            "source_span_translation": "moisture of dreams",
+            "source_term": "सपनों की नमी",
+            "tenor": "Hope and potential for future life/growth",
+            "vehicle": "Moisture/dew",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a subtle, glistening dew or dampness deep inside the dry cracks of the earth, reflecting a soft light."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The word 'बिवाइयाँ' (bivaiyan) specifically refers to painful, cracked heels (typically caused by cold, dry weather or hard labor), which carries a strong personified, physical, and rural connotation of suffering. Translating it as 'cracked crevices' abstracts this humanized physical pain into a generic geological feature.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The continuous aspect of the verb 'संजोती रही' (has been carefully nurturing/preserving over time) is flattened into the present perfect 'has stored', losing the active, ongoing effort of nurturing.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The natural, silent rhythm of life, seasons, and existence within the earth.",
+            "acceptable_visual_variants": [
+              "A landscape split between the golden light of sunrise and the cool silver of moonlight",
+              "A serene field under a starry sky with a gentle wind blowing through the grass"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L9-L10",
+            "literal_meaning": "A song plays inside her soul",
+            "literalization_risk": "Depicting a literal ghost-like soul or musical instruments floating inside the dirt.",
+            "metaphor_mapping": {
+              "tenor_concept": "earth's internal life force and natural rhythm",
+              "transferred_attributes": [
+                "harmony",
+                "continuous existence",
+                "internal beauty"
+              ],
+              "vehicle_concept": "soul playing a song"
+            },
+            "source_span_original": "उसकी आत्मा में\nएक गीत बजता है",
+            "source_span_translation": "Within its soul,\nA song plays",
+            "source_term": "उसकी आत्मा में\nएक गीत बजता है",
+            "tenor": "The inner vitality and natural cycles of the earth",
+            "vehicle": "A soul playing music",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent the passage of time and natural harmony by showing the transition of light from dawn to moonlight over a peaceful landscape."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The specific term 'चांदनी' (chandni - moonlight) is translated as 'glow of moonlight', which slightly alters the direct poetic simplicity of the original noun.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring resilience of the earth, which silently bears seasonal extremes and nurtures hope within its deep cracks, carrying an eternal song of life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बूंद-बूंद टपकती रही  \nपृथ्वी की छाती पर यह धरती,  \nकभी गरमी की तपिश में,  \nतो कभी सर्दी की ठिठुरन में।\n\nबरसों से  \nअपनी फटी बिवाइयों में  \nसपनों की नमी संजोती रही,  \nयही धरती, यही धरती।\n\nउसकी आत्मा में  \nएक गीत बजता है,  \nसूरज की पहली किरण से  \nचांद की अंतिम चांदनी तक।",
+  "poem_id": "MV++_0344",
+  "poem_title": "Bhoomi Geet",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2ed50d57d7e54806ca3beef975d40ddad84ad9c8bdb57cad03f106a2b286b301",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0344.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Song of the Earth  \nDrop by drop it drips,  \nUpon the earth’s chest, this land,  \nSometimes in the heat of summer,  \nSometimes in the chill of winter.\n\nFor years,  \nIn its cracked crevices,  \nIt has stored the moisture of dreams,  \nThis earth, this very earth.\n\nWithin its soul,  \nA song plays,  \nFrom the first ray of the sun  \nTo the last glow of moonlight.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:14:54.128971+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b159a7a88004df6c50e1949b24538893ab0e89f5b60ed8448512d8f03a21617",
+        "response_hash": "1139c0edfe9708623f7fb36e2aef16664385d3ed013ca400e7e1cb1babd5371c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1fc9840ee29f13d9fc6c7af7b090a3cca7d088a91b1c7d8b8903a8c0f5edb20b",
+        "response_hash": "d9100265a4b9b4c9e0d78ea6e641e29e6b802ace9d2174710d230b94ffdbf6f3",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0def5a4da686bf588ad4687aff27e6987bccbc3e9367edc11714c1ffd62e8304",
+        "response_hash": "2ee910e9f2788bc3db1e6ab54a718eb1effc35e24b75ee302ac2e7975dd85c38",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d3001a74d16618e995a93ad26241107bed230a5719e38037af01ccb5a2a15234",
+        "response_hash": "9f759c1ca4f632d9ac6157748155cddf11dad2a2669daf4f1900bea5a6999b1e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d1daccb94d1766998c31f6cf90c4e341700ba84626bee9f02ed45e99a52355cd",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6ffdf78f3e5ba4ba8f3f48312ce249f604cbef2cb5927085163d1307ae557b04",
+    "translation_sha256": "61f69d2e390eb4e879690a070fae397d6d7e0e3e552dafb8074d81cb08ebeb96"
+  }
+}

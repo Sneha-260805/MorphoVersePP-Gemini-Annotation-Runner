@@ -1,0 +1,219 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "gentle introduction of a poet's letter, moving to nostalgic urban dreams, and concluding with a resilient acceptance of love's cyclical pain",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces a rhyming filler 'as he wrote it' to match 'poet', slightly altering the simple, direct declarative structure of the original Urdu couplet.",
+        "metaphor_spans": [],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation introduces a redundant phrasing ('as he wrote it') to force a rhyme with 'poet', losing the simple, direct structure of the original Urdu.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'raatein' (nights) as 'moments' flattens the specific poetic imagery of 'nights of life' (zindagi ki kuch raatein hain) into a generic concept.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation adds the word 'pretty' to rhyme with 'city', which introduces a slightly more juvenile or simplistic tone than the original Urdu 'galiyan' (alleys/lanes) where dreams are woven.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The process of creating, nurturing, or formulating hopes and aspirations within a specific environment.",
+            "acceptable_visual_variants": [
+              "Glowing golden threads floating between old city walls",
+              "A person looking up at a starry sky where constellations form patterns resembling woven fabric"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "dreams are physically woven like threads on a loom",
+            "literalization_risk": "Showing a person literally weaving a cloud-like dream on a physical wooden loom, which might look comical or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "creating dreams",
+              "transferred_attributes": [
+                "intertwining threads",
+                "deliberate creation",
+                "crafting a beautiful pattern"
+              ],
+              "vehicle_concept": "weaving fabric"
+            },
+            "source_span_original": "خواب بُنے جاتے ہیں",
+            "source_span_translation": "dreams are woven",
+            "source_term": "خواب بُنے جاتے ہیں",
+            "tenor": "the creation and nurturing of hopes and aspirations",
+            "vehicle": "weaving threads on a loom to create fabric",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, atmospheric scene of city alleys with faint, glowing threads or patterns of light floating and intertwining in the air, suggesting the creation of dreams without a literal loom."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'pretty' to rhyme with 'city', which is not present in the original Urdu text and alters the tone of the line.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'dil mein rehte' (live/remain in the heart) as 'live on in someone's memory', shifting the emotional locus from the heart (dil) to memory.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation renders 'aaina' (mirror) as 'fragile glass' and 'dil' (heart) living in memory as 'fate of love's domain', which generalizes the specific Urdu poetic imagery of a mirror shattering and mending.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The human heart is extremely fragile, sensitive, and easily broken or hurt by emotional pain and love.",
+            "acceptable_visual_variants": [
+              "A delicate hand-mirror with a cracked glass surface reflecting a soft light",
+              "A stylized heart silhouette made of reflective glass shards slowly drifting apart"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L9",
+            "literal_meaning": "the heart is a physical mirror",
+            "literalization_risk": "Depicting a literal anatomical heart made of glass or a physical mirror inside a chest cavity, which can look grotesque or medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "human heart",
+              "transferred_attributes": [
+                "fragility",
+                "susceptibility to shattering",
+                "reflectiveness"
+              ],
+              "vehicle_concept": "mirror"
+            },
+            "source_span_original": "دل ہے ایک آئینہ سا",
+            "source_span_translation": "The heart is like a fragile glass",
+            "source_term": "دل ہے ایک آئینہ سا",
+            "tenor": "the human heart/emotional state",
+            "vehicle": "a mirror",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a stylized, glowing heart shape with a reflective, mirror-like surface that has fine cracks running through it, or a hand holding a small, cracked hand-mirror reflecting a sad expression."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'aaina' (mirror) as 'fragile glass', losing the specific cultural and poetic resonance of the mirror in Urdu poetry as a symbol of reflection, clarity, and vulnerability.",
+            "where": "L9"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'bikharta' (scatters/shatters into pieces) is simplified to 'break again', losing the visual and physical sense of scattering.",
+            "where": "L11"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'vahi hota hai' (that is what happens) is elevated to 'the fate of love's domain', which introduces a grander, more dramatic tone than the simple, resigned statement in the original Urdu.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The fragile, cyclical nature of love and dreams as captured in a poet's writing"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Urdu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "یہ خط ہے ایک شاعر کا  \nجو لکھا ہے اس نے پیار کا  \nمحبت کی کچھ باتیں ہیں  \nزندگی کی کچھ راتیں ہیں  \n\nیہ شہر کی وہ گلیاں ہیں  \nجہاں خواب بُنے جاتے ہیں  \nوہ خواب جو کسی نے دیکھے  \nاور کسی کے دل میں رہتے  \n\nیہ دل ہے ایک آئینہ سا  \nجو چپکے سے ٹوٹ جاتا  \nپھر جڑتا، پھر بکھرتا ہے  \nمحبت میں وہی ہوتا ہے",
+  "poem_id": "MV++_1558",
+  "poem_title": "Ek Shayar Ka Khat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6c3e404b0bf5605b4929f7ee15b5d20c7dfc2829e4638317548b2db4c93bf354",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Urdu/MV++_1558.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This is a letter from a poet,  \nWritten with love as he wrote it.  \nSome tales of love fill each line,  \nAnd moments of life intertwined.  \n\nThese are the alleys of the city,  \nWhere dreams are woven so pretty.  \nDreams that someone dared to see,  \nAnd live on in someone’s memory.  \n\nThe heart is like a fragile glass,  \nBreaking in silence as moments pass.  \nThen it mends, only to break again,  \nFor this is the fate of love's domain.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:48:03.059724+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ceb5c0b13ad89093244b7c7e55e1a30ffc23c70c3f4cdc2371d5f0a8d8ded607",
+        "response_hash": "6b182b1c38fa3ca0a56b79013dd0faf94256057cdf987119eaced9f51b8c0ed4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8e07977a444c3715a1cc8da7e8becd5f71322d28e961c7cd8fc17196a11b8a73",
+        "response_hash": "58d5a97b92622ae80feb95b7f5236a0b3ac481532aaf313383ff8dfe9168b7b8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cc9413b03416a699a14b7304e4b4e70c48f6a21f190ce877cd21bb21882b0ea5",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8e5b362093e51f274d5efd13f6d1ed5519a5611065a401a064f0060856b49a18",
+        "response_hash": "710bcc5d9b98d7f4eac8baf8cd440d85a140c7ac930596d9f883a583314258f9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aedf4c1665726f79c6e51b4bb482a9c153e2d5b6f3a551c66ebec08b1e43c5dc",
+        "response_hash": "046676067b98de8dd8bd81e1949b78951417ca0d6a2fb59828b61322eda40f9d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "46fcbe3a8e95294cc9f257213947dc9e862970e49de4ea4ef8ede85ef0c3ffc4",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d4b314c44d34cfa70fe68e659f88bed538cc9df5400bc4e0d859769ad6b9a26c",
+    "translation_sha256": "35d047145048e765b0d3791696b2039878d5162cfaae9306c3cd6865e4961abe"
+  }
+}

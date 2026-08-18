@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady, quiet state of melancholy and shared silence across the city and its people.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'udaasi ki baat' (matter/feeling of sadness) as 'speaks of blue' to preserve the rhyme, which introduces a Western color-based idiom ('blue' for sadness) not literally present in the Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The city is quiet and still, as if it is lost in thought or sad.",
+            "acceptable_visual_variants": [
+              "An empty street corner under a single streetlamp",
+              "A wide shot of a dark city skyline under a quiet night sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "This city is like a quiet, lost-in-thought person",
+            "literalization_risk": "Depicting a literal human face or body merged with city buildings might look like a surreal monster rather than conveying a quiet, empty urban landscape.",
+            "metaphor_mapping": {
+              "tenor_concept": "a quiet city",
+              "transferred_attributes": [
+                "silence",
+                "stillness",
+                "moodiness"
+              ],
+              "vehicle_concept": "a silent, brooding person"
+            },
+            "source_span_original": "गुमसुम सा ये शहर है",
+            "source_span_translation": "This city is silent",
+            "source_term": "गुमसुम सा ये शहर है",
+            "tenor": "the quiet and still city",
+            "vehicle": "a quiet, brooding, or silent person",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show an empty, dimly lit city street at night with no people, capturing the mood of quietness and isolation."
+          },
+          {
+            "abstract_meaning": "The night is quiet, still, and carries a somber, silent mood.",
+            "acceptable_visual_variants": [
+              "A dark sky filled with quiet stars over a silent horizon",
+              "A window looking out into a deep, dark, empty night"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "This night is like a quiet, lost-in-thought person",
+            "literalization_risk": "Depicting the night sky with a literal human face looking sad or silent could look cartoonish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "the night",
+              "transferred_attributes": [
+                "silence",
+                "stillness",
+                "somber mood"
+              ],
+              "vehicle_concept": "a silent, brooding person"
+            },
+            "source_span_original": "गुमसुम सी ये रात है",
+            "source_span_translation": "This night is silent too",
+            "source_term": "गुमसुम सी ये रात है",
+            "tenor": "the quiet night",
+            "vehicle": "a quiet, brooding, or silent person",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a dark, deep night sky over a quiet landscape, using cool tones to evoke a silent, contemplative mood."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'gumsum' as 'silent' loses the specific nuance of being lost in quiet thought, sullenness, or a brooding, melancholic state of being tight-lipped, which is more emotionally evocative than simple silence. Additionally, the rhythmic repetition of 'gumsum sa' and 'gumsum si' is flattened.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'udaasi ki baat hai' (literally 'there is a matter of sadness' or 'sadness resides') as 'speaks of blue' introduces a Western color metaphor ('blue' for sadness) that is not present in the original Hindi text, altering the cultural register of the emotional expression.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The pervasive, quiet melancholy that blankets both the physical city and the hearts of its inhabitants."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].emotion",
+      "issue": "The stanza emotion is set to 'longing', which is inconsistent with the poem's emotional_arc ('melancholy and shared silence'), theme ('pervasive, quiet melancholy'), and the text's focus on sadness ('udaasi') and silence ('khamoshi'). The emotion 'grief' or a more somber category would be more consistent with the annotated text.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "गुमसुम सा ये शहर है,  \nगुमसुम सी ये रात है।  \nहर चेहरे पर खामोशी,  \nहर दिल में उदासी की बात है।",
+  "poem_id": "MV++_0404",
+  "poem_title": "Gumsum Sa Yeh Shahar Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "54421cbacbee69708d22cc245e6edb9285115d0be38af320e096fcc19d3f2ba4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0404.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This city is silent,  \nThis night is silent too.  \nOn every face, there's quiet,  \nEvery heart speaks of blue.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:21:13.441345+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "70a93494224d6343b7234418f091bf538b1b52a6da4352708b1347943a38b002",
+        "response_hash": "65eb5bcdbfbe17046f9ad4d84d8b9bc9ff175df2cc33e55289af7ceb6ff0ebea"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1d1ed1b6eec8bb85ddc38b1b4234298346785bcadbdb9ed909baecbaf847948d",
+        "response_hash": "21e8ba0d7426552b6f03a8e068528027c7219e339ff930eedbb321a1f208ddd4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a2129b61edff4aa8b4d5924b14d4dd79fecdf1ad54daee194e678478344106c2",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a13b313f71e2a73937aebdad0f59a53d81a2b39f3651b2f72e22488960dbd844",
+        "response_hash": "accfae3d4e23c854c0616f5bc307bf546a238aac50933c64e19982b73f405327",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "459a40bb902f737d1fc9a93c7e9cdc0bd4f8e92616e552ac046f9ba64d5bafe8",
+        "response_hash": "c694b30060503647cc290a9c8048138e798ea502707b7f2d6163ced5ec549941",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f63288f2867047df953f066534aef33f338a2d76bf1f55854d80d3f43dfa4527",
+        "response_hash": "30db67db9617f21a39c5a7f2a4bff29ed6c56e54512b9a7e0667b99b51e93d97",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7d37f7a3faa000b4ab80149a094ca762b9d8011f0fb84e40074f44628004887b",
+    "translation_sha256": "71b71f58cafa58c5ab4deaa2814fb5c5365cfc8e843b68a063e99e6c6a40daa6"
+  }
+}

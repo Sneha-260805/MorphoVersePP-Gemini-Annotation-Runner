@@ -1,0 +1,328 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional teacher in simple robes",
+          "A modern mentor figure in a respectful educational setting"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A spiritual teacher, guide, or preceptor in Indian traditions whose words carry deep authority and wisdom.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A generic western schoolteacher with a blackboard",
+          "An ascetic hermit completely isolated from society"
+        ],
+        "preserved": true,
+        "romanization": "guru",
+        "source_span_original": "గురు",
+        "source_span_translation": "guru",
+        "stanza_index": 2,
+        "term": "గురు",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An elder figure in traditional Indian attire speaking to a student",
+          "A serene, respectful setting"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A motherly figure surrounded by glowing letters and books",
+          "A classical representation of the goddess of learning in simple, elegant traditional attire"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The personification of education as a mother goddess in Telugu culture, closely associated with Goddess Saraswati.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A standard western schoolmarm",
+          "A fierce warrior goddess"
+        ],
+        "preserved": true,
+        "romanization": "Chaduvulamma",
+        "source_span_original": "చదువులమ్మ",
+        "source_span_translation": "mother's embrace of education",
+        "stanza_index": 4,
+        "term": "చదువులమ్మ",
+        "translation_note": "Translated as 'mother... of education', which captures the maternal personification but loses the specific regional folk-deity name 'Chaduvulamma' (Goddess of Learning, often identified with Saraswati).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A maternal figure embodying knowledge and learning",
+          "Warm, protective posture cradling a child or books"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "resilience to celebration",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The letter or word (aksharam) acts as a powerful, sharp tool for social change and revolution.",
+            "acceptable_visual_variants": [
+              "A stylized Telugu letter 'Aksharam' with one of its curves ending in a sharp, metallic, blade-like gleam.",
+              "A hand holding a quill or pen that casts a shadow resembling a sharp sword."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A sharpened weapon",
+            "literalization_risk": "Showing a literal sword or blade might make the scene look like physical violence rather than intellectual or social activism.",
+            "metaphor_mapping": {
+              "tenor_concept": "written language",
+              "transferred_attributes": [
+                "sharpness",
+                "ability to strike or cut through obstacles",
+                "power to fight"
+              ],
+              "vehicle_concept": "weaponry"
+            },
+            "source_span_original": "పదునెక్కిన ఆయుధం",
+            "source_span_translation": "A sharp weapon",
+            "source_term": "పదునెక్కిన ఆయుధం",
+            "tenor": "The written word / letter (aksharam) as an instrument of revolution",
+            "vehicle": "A sharp weapon",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a pen or a written character whose shadow or silhouette morphs into a sharp, gleaming edge, or a pen being held aloft like a torch or standard."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Knowledge or words dispelling ignorance and guiding people.",
+            "acceptable_visual_variants": [
+              "Glowing text on a page emitting a bright beam of light that cuts through a dark background.",
+              "A single ray of golden light containing faint, floating alphabetic characters piercing a dark sky."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A ray of light that tears through darkness",
+            "literalization_risk": "A literal beam of light in a dark room might look like a simple flashlight or physical phenomenon, losing the connection to spoken or written words.",
+            "metaphor_mapping": {
+              "tenor_concept": "knowledge and ignorance",
+              "transferred_attributes": [
+                "illumination",
+                "dispelling of obscurity",
+                "direction"
+              ],
+              "vehicle_concept": "light and darkness"
+            },
+            "source_span_original": "చీకటిని చీల్చే వెలుగు రేఖ",
+            "source_span_translation": "A ray of light piercing through the darkness",
+            "source_term": "చీకటిని చీల్చే వెలుగు రేఖ",
+            "tenor": "The guiding and illuminating power of words/knowledge",
+            "vehicle": "A ray of light",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show glowing Telugu letters or words radiating beams of light that physically push back heavy, dark shadows or clouds."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of the second stanza is structurally merged and rearranged with the subsequent stanzas in the English version, losing the distinct line-by-line mapping of the original Telugu text.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific Telugu word 'geetha' (line/writing/destiny) is translated generally as 'beautiful writing of the poet', losing the double meaning of 'geetha' which refers to both a written line and a line of destiny.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The written word supports and preserves the historical record and human progress.",
+            "acceptable_visual_variants": [
+              "A monumental structure representing 'History' supported by pillars made of glowing letters and manuscripts.",
+              "A hand writing letters that weave together to form a solid foundation under historical scenes."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Giving support or a prop to the foundations of history",
+            "literalization_risk": "Showing literal construction pillars or jacks under a building foundation would look like civil engineering rather than historical preservation.",
+            "metaphor_mapping": {
+              "tenor_concept": "historical preservation",
+              "transferred_attributes": [
+                "stability",
+                "structural support",
+                "preventing collapse"
+              ],
+              "vehicle_concept": "architectural foundation support"
+            },
+            "source_span_original": "చరిత్ర పునాదులకి ఊతమిచ్చే",
+            "source_span_translation": "uplift the foundations of history",
+            "source_term": "చరిత్ర పునాదులకి ఊతమిచ్చే",
+            "tenor": "The role of letters/writing in preserving and sustaining historical memory",
+            "vehicle": "A structural prop or support for a foundation",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict ancient stone tablets, manuscripts, or books stacked structurally to form the literal foundation pillars of a grand historical monument."
+          },
+          {
+            "abstract_meaning": "Education is personified as a nurturing mother from whose lap the letters emerge.",
+            "acceptable_visual_variants": [
+              "A maternal figure made of soft light and open books, with glowing Telugu letters gently rising from her lap.",
+              "A stylized, non-religious maternal silhouette cradling a glowing book from which letters emerge."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "From the lap of Mother Education (Saraswati/Chaduvulamma)",
+            "literalization_risk": "Depicting a literal goddess or woman might over-religiousize the concept of education, which is treated here as a universal nurturing force.",
+            "metaphor_mapping": {
+              "tenor_concept": "the process of acquiring education",
+              "transferred_attributes": [
+                "nurturing",
+                "origin",
+                "safety",
+                "growth"
+              ],
+              "vehicle_concept": "maternal care and lap"
+            },
+            "source_span_original": "చదువులమ్మ వొడినుంచి",
+            "source_span_translation": "from the mother's embrace of education",
+            "source_term": "చదువులమ్మ వొడినుంచి",
+            "tenor": "The nurturing origin of learning and literacy",
+            "vehicle": "A mother's lap/embrace",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a gentle, maternal silhouette composed of flowing light or open book pages, with letters floating out from her lap like birds taking flight."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The personification of education as 'Chaduvulamma' (Mother of Education/Learning) is translated as 'mother's embrace of education', which dilutes the cultural personification of learning as a maternal deity figure.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic alliterative pairing of 'dasha... disha' (ten directions and path/direction) is simplified to 'defining the direction', losing the poetic resonance and the expansive spatial meaning of 'dasha' (ten directions).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transformative power of the written word (Aksharam) as a tool for revolution, enlightenment, and historical progress."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].source_span_original",
+      "issue": "The source_span_original 'గురు' does not match the exact substring in the original poem line L2, which contains 'గురువిచ్చే' (guru-vicche). 'గురు' is only a partial root word.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the translation_note states that the translation loses the specific regional folk-deity name. These values are inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "పదునెక్కిన ఆయుధం ఉధ్యమకారుని\n\nచీకటిని చీల్చే వెలుగు రేఖ గురువిచ్చే మాటలో..\n\nఅందమైన రాత రచయిత గీత లో..\n\nచరిత్ర పునాదులకి ఊతమిచ్చే అక్షరం చదువులమ్మ వొడినుంచి విస్తరిస్తూ... విహరిస్తూ కాలపు గమనాన్ని దశ....దిశ ని నిర్దేశిస్తూ ముందుకు సాగుతుంది",
+  "poem_id": "MV++_1474",
+  "poem_title": "Aksharam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "317d5d8e334f175513bfdfce8b198b6e8691599b153c16e6ea95ada20e12ac07",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1474.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A sharp weapon for the revolutionary,\nA ray of light piercing through the darkness,\nWords given by the guru,\n\nIn the beautiful writing of the poet,\nLetters that uplift the foundations of history,\nExpanding from the mother's embrace of education,\nWandering and marking the course of time,\nDefining the direction, it moves forward.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:38:44.668095+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0c9d026c20e3d8ff46189044d146726f86192ff48a8eac902383305576803fe1",
+        "response_hash": "976fae958ba2b6e79464e4d64ef2c7e6f5d63b4bdcb077ce4c0b23f89976fc3d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "955d8a8a57cea8d93ad35eb34ee50533f79f03f3a8224d36eeedc91edccff4b6",
+        "response_hash": "53a96fcf5a37567c4787e6f0d9936aeafbfb6fb1de22d6690b2ef4973f352de0",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f8a0f7335068d51ad7c8b928c4835f4bd0c3d3bddd61d8a4ebe6bdc8157916cd",
+        "response_hash": "2c3678f43e9d0006dc833c5b395e251bb66c0431063eb829ebee790c2011ba64",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9a92ab6d352a66812e9d62641609dbc69f494c0aca94a72e94a777fd8f90ddda",
+        "response_hash": "bcbac0176ecc7b83db14e8d2ee5518ffb49843446dfa11ac281148d0fbb99e9c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f7cc6d1e59bc45269997c0045c6bead6db091f76773212b437fbf928a1d507e5",
+        "response_hash": "315274aaaaa1df44c654cf792d8ac35371fb2fdd33499e672285130822f7d6f6",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2b5145e673b684ce977ce6b64c9b79a8ea6849ad88ce7ddb2ad362a183d31507",
+    "translation_sha256": "f5cc22a40e0e3e0abead84f0be75529ff2f9367140e0eeb2edf27ef3fc904724"
+  }
+}

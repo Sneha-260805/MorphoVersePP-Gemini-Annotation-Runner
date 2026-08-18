@@ -1,0 +1,274 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The philosophical and spiritual concept of Maya, representing cosmic illusion, delusion, or the enchanting but deceptive nature of the material world that binds the soul.",
+        "line_ref": "L6",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "maaye",
+        "source_span_original": "ಮಾಯೆ",
+        "source_span_translation": "charm",
+        "stanza_index": 1,
+        "term": "ಮಾಯೆ",
+        "translation_note": "Translated as 'charm', which captures the enchanting aspect but loses the philosophical weight of cosmic illusion or spiritual delusion.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "wonder to quiet longing",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'shreshti' as 'creation' misses the nuance of excellence or merchant-lord associations, and 'maaye' is simplified to 'charm' rather than its deep philosophical meaning of cosmic illusion.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A beautiful, precious, and structured sequence of life events or spiritual achievements.",
+            "acceptable_visual_variants": [
+              "A delicate, luminous necklace of pearls resting on a dark, reflective surface.",
+              "A pathway made of soft, glowing circular orbs resembling pearls stretching into a starry night sky."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A physical necklace made of pearls strung together.",
+            "literalization_risk": "An illustrator might draw a literal jewelry necklace, missing the deeper existential or spiritual beauty of the life being described.",
+            "metaphor_mapping": {
+              "tenor_concept": "precious life experiences",
+              "transferred_attributes": [
+                "beauty",
+                "preciousness",
+                "sequential structure",
+                "fragility"
+              ],
+              "vehicle_concept": "string of pearls"
+            },
+            "source_span_original": "ಮುತ್ತಿನ ಹಾರ",
+            "source_span_translation": "The string of pearls",
+            "source_term": "ಮುತ್ತಿನ ಹಾರ",
+            "tenor": "The precious, beautiful, and structured experiences or achievements of life",
+            "vehicle": "A string of pearls",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, ethereal string of pearls floating gently in a soft, dreamlike space, perhaps subtly blending into a pathway or a stream of light."
+          },
+          {
+            "abstract_meaning": "The vibrant, wondrous, and dazzling moments of a person's life.",
+            "acceptable_visual_variants": [
+              "A warm, golden aura radiating outward.",
+              "Delicate, floating points of light resembling fireflies or soft stardust."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "The physical shining, glowing, and sparkling of a life.",
+            "literalization_risk": "An illustrator might draw literal sparks or fire, which would look hazardous rather than representing the beauty of life's wonders.",
+            "metaphor_mapping": {
+              "tenor_concept": "vitality and wonder of life",
+              "transferred_attributes": [
+                "brightness",
+                "attractiveness",
+                "radiance"
+              ],
+              "vehicle_concept": "glowing light and sparkles"
+            },
+            "source_span_original": "ಬಾಳಿನ ಬೆರಗು \nಮೆರಗುಗಳು",
+            "source_span_translation": "The glow of your life\nSparkles",
+            "source_term": "ಬಾಳಿನ ಬೆರಗು\nಮೆರಗುಗಳು",
+            "tenor": "The wonder, excitement, and achievements of life",
+            "vehicle": "Glow and sparkles",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use soft, warm, radiating golden light or gentle sparkles surrounding a silhouette or a path to represent vitality and wonder."
+          },
+          {
+            "abstract_meaning": "The beautiful aspects of life or the string of pearls acting as a spiritual or physical obstacle or distraction.",
+            "acceptable_visual_variants": [
+              "A soft, semi-transparent veil draped over a glowing path.",
+              "Delicate, thorny vines gently wrapping around a luminous string of pearls."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L5",
+            "literal_meaning": "In the manner of a physical barrier or obstacle blocking a path.",
+            "literalization_risk": "Drawing a literal wall, fence, or roadblock would look too industrial or mundane, ruining the poetic, dreamlike atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual distraction",
+              "transferred_attributes": [
+                "blocking progress",
+                "requiring effort to overcome",
+                "stopping movement"
+              ],
+              "vehicle_concept": "physical barrier"
+            },
+            "source_span_original": "ಒಬ್ಬ ಅಡಚಣೆಯಂತೆ",
+            "source_span_translation": "Like a hindrance",
+            "source_term": "ಒಬ್ಬ ಅಡಚಣೆಯಂತೆ",
+            "tenor": "The beautiful distractions of life that delay spiritual progress",
+            "vehicle": "A physical hindrance or obstacle",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict the glowing path of pearls or light being gently veiled, tangled, or crossed by soft, shadowy branches or a translucent mist."
+          },
+          {
+            "abstract_meaning": "An enchanting, illusory charm or spiritual delusion that captivates the inner self.",
+            "acceptable_visual_variants": [
+              "A swirling vortex of deep, iridescent colors.",
+              "A faint, shifting reflection of a beautiful scene that appears slightly out of focus or dreamlike."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "An illusion or magical spell residing physically inside the soul.",
+            "literalization_risk": "Drawing a literal magician's trick or a physical heart with a spell on it would look cartoonish and fail to capture the deep philosophical concept of Maya.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual delusion",
+              "transferred_attributes": [
+                "captivating",
+                "deceptive",
+                "intangible",
+                "mysterious"
+              ],
+              "vehicle_concept": "magical illusion"
+            },
+            "source_span_original": "ಆತ್ಮದಲ್ಲಿ ಮಾಯೆ",
+            "source_span_translation": "A charm in the soul",
+            "source_term": "ಆತ್ಮದಲ್ಲಿ ಮಾಯೆ",
+            "tenor": "The captivating, deceptive nature of worldly beauty affecting the inner self",
+            "vehicle": "An illusion or magical charm",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent this as a swirling, iridescent mist or a shifting, colorful mirage within a deep blue or violet background representing the soul."
+          },
+          {
+            "abstract_meaning": "A path of life or spiritual journey guided by precious, dreamlike ideals.",
+            "acceptable_visual_variants": [
+              "A winding path of soft, starlit points of light.",
+              "A gentle stream of water reflecting circular, pearlescent moonlight ripples."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "A physical road or pathway constructed out of pearls.",
+            "literalization_risk": "Drawing a literal cobblestone road made of giant pearl spheres could look awkward, heavy, and physically unstable.",
+            "metaphor_mapping": {
+              "tenor_concept": "idealized life journey",
+              "transferred_attributes": [
+                "direction",
+                "preciousness",
+                "luminescence",
+                "guidance"
+              ],
+              "vehicle_concept": "pathway of pearls"
+            },
+            "source_span_original": "ಮುತ್ತು ಹಾರ ದಾರಿ",
+            "source_span_translation": "The path of pearls",
+            "source_term": "ಮುತ್ತು ಹಾರ ದಾರಿ",
+            "tenor": "A life journey or dream-path guided by precious, pure ideals",
+            "vehicle": "A path made of pearls",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a winding trail of soft, glowing white light-points resembling a distant galaxy or a scattered line of pearls leading toward a soft horizon."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ಶ್ರೇಷ್ಟಿ' (shreshti) as 'creation' loses the specific cultural and historical nuance of a merchant guild leader, banker, or person of high social/financial standing, which contrasts with the natural imagery of the moon.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ಮಾಯೆ' (maaye) as 'charm' flattens the deep philosophical and spiritual concept of Maya (cosmic illusion, delusion, or the deceptive nature of the material world) into a simple aesthetic or magical quality.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಬೆರಗು' (beragu) and 'ಮೆರಗುಗಳು' (meragugalu) as 'glow' and 'sparkles' loses the internal rhyme, rhythmic resonance, and the distinct meanings of 'wonder/astonishment' (beragu) and 'luster/splendor' (meragu).",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The tension between worldly beauty, spiritual illusion, and the dreamlike path of the soul"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಮುತ್ತಿನ ಹಾರ,\nಚಂದ್ರನ ಶ್ರೇಷ್ಟಿ, \nನಿನ್ನ ಬಾಳಿನ ಬೆರಗು \nಮೆರಗುಗಳು, \nಒಬ್ಬ ಅಡಚಣೆಯಂತೆ,\nಆತ್ಮದಲ್ಲಿ ಮಾಯೆ. \nಅವನಿಗೆ, \nಕನಸುಗಳಲ್ಲಿಯೇ \nಮುತ್ತು ಹಾರ ದಾರಿ.",
+  "poem_id": "MV++_1140",
+  "poem_title": "Mutthina Haara",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f787a4a2fc54704c0aabac1daf4959587df9b90b5070586eff7f50369d6ba4b6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1140.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The string of pearls,\nThe moon's creation,\nThe glow of your life\nSparkles,\nLike a hindrance,\nA charm in the soul.\nTo him,\nIn the dreams\nThe path of pearls.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:02:26.853445+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6fe9aca7fee5ee72b223c27fa9d3c35dc18c008c933f3029c0f7862d99c68f9c",
+        "response_hash": "10524607bdc4ade59ff37d11662464db4f4d86d6023890f59aa5cee334b1dca4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6845b3d78aebf151a86a8695ce38027624f501871adaa2bcbbe3986a716a247e",
+        "response_hash": "90ecef39c1c22927c39731fba238b061cb718570a920acec0cc8e36cf16eb41a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "25b502b7e6925ff2fde83b7ca5c523c06947f61b920cd9927d212304c3d59902",
+        "response_hash": "fb9fee925f17e4185bd4992b3d8697f7fc9bb248d8cb9433af9b7399820dfdf5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "085afd4ab46e82b89930949b775c70f07189e015fafbbfd3ca5a6d4594c31437",
+        "response_hash": "7b08e370acb5726db8d1e49df891452b67246eb15de4e090443a132d9a89f344",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dd1ff14d5957ae16f6752a7246177c7bf3dc0400ef0075403ed0fb023e2a0cfb",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5af75ab7b7c273fa9edbf095323c802528893d2494b42c8a3ddf0e6604187241",
+    "translation_sha256": "170d28693d23b3c339dc9d81dab8a6f2d4c73bda077b8b95ecf1ca1c01affada"
+  }
+}

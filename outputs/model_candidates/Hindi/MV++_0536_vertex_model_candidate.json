@@ -1,0 +1,231 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and wonder to hopeful questioning",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The lingering psychological presence or memory of a person who is physically absent.",
+            "acceptable_visual_variants": [
+              "A faint, double-exposure style figure standing behind the speaker",
+              "A soft, dark silhouette cast on a wall that does not match the speaker's own posture"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "his physical shadow cast by light",
+            "literalization_risk": "An illustrator might draw a literal dark silhouette on the ground, which misses the emotional sense of a haunting memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "lingering memory",
+              "transferred_attributes": [
+                "following closely",
+                "intangible",
+                "dark shape",
+                "constant companion"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "उसकी परछाई",
+            "source_span_translation": "his shadow",
+            "source_term": "उसकी परछाई",
+            "tenor": "the persistent memory or psychological presence of the stranger",
+            "vehicle": "a physical shadow cast by a person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a faint, translucent silhouette or a soft, glowing outline of a figure standing near the speaker in an otherwise empty room."
+          },
+          {
+            "abstract_meaning": "The emotional impact or lingering impression left by a past moment.",
+            "acceptable_visual_variants": [
+              "A faint, glowing footprint on a dusty floor",
+              "A soft, faded impression of a hand on a surface"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "a physical mark, scar, or footprint",
+            "literalization_risk": "Drawing a physical scar or a literal footprint on the floor would look like a crime scene or physical injury rather than a nostalgic memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional impression",
+              "transferred_attributes": [
+                "lasting",
+                "visible evidence of a past event",
+                "difficult to erase"
+              ],
+              "vehicle_concept": "physical mark"
+            },
+            "source_span_original": "निशान",
+            "source_span_translation": "The mark",
+            "source_term": "निशान",
+            "tenor": "the emotional impression of a past moment",
+            "vehicle": "a physical mark or footprint",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Represent this abstractly through a faded, glowing footprint or a faint handprint on a windowpane or mirror."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation collapses the distinct emotional nuances of 'yaad' (memory) and 'ahsaas' (feeling/perception) into generic English terms, losing the specific internal sensory texture of the Hindi words.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'beeta pal' (past moment) as 'that moment' loses the explicit sense of time having passed or elapsed carried by the participle 'beeta'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The overwhelming, heavy, and continuous emotional impact of the stranger's silence.",
+            "acceptable_visual_variants": [
+              "A stylized, abstract scene where dark, rain-like streaks fall across a glowing heart silhouette",
+              "A person standing under a localized dark cloud of rain indoors, symbolizing isolation"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "his lack of speech physically rains down like water onto a physical heart organ",
+            "literalization_risk": "A literal depiction of water raining onto an anatomical heart would look grotesque or surreal in a medical sense.",
+            "metaphor_mapping": {
+              "tenor_concept": "overwhelming silence",
+              "transferred_attributes": [
+                "continuous",
+                "heavy",
+                "saturating",
+                "evoking sadness"
+              ],
+              "vehicle_concept": "rain falling"
+            },
+            "source_span_original": "उसकी खामोशी अब भी दिल पर बरसती है",
+            "source_span_translation": "His silence still rains upon my heart",
+            "source_term": "उसकी खामोशी अब भी दिल पर बरसती है",
+            "tenor": "the heavy emotional impact of silence on the speaker's feelings",
+            "vehicle": "rain falling heavily on a surface",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person sitting indoors looking out at a heavy downpour, with the rain reflecting on the windowpane casting tear-like shadows across their chest."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'aahat' as 'footsteps' narrows a highly evocative Hindi sensory term that refers to any soft, subtle sound of someone's approach (like the rustle of clothes or a soft breath) to just the sound of feet.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'aks' (reflection/shadow/image) as 'image' loses the Urdu-derived poetic resonance of a mirrored reflection or ghostly double, flattening it to a visual sight.",
+            "where": "L10"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'poochunga main' (I will ask) loses the explicit masculine grammatical gender marking of the speaker ('poochunga' vs feminine 'poochungi') in the English translation.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The lingering presence of a dreamlike stranger and the persistent mystery of their connection."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "वह अजनबी जो कल रात सपनों में आया था,  \nहैरान हूँ, उसकी परछाई मेरे साथ क्यों है।  \nकोई याद, कोई अहसास, कोई छूटा हुआ  \nबीता पल – उसी का निशान आज भी साथ क्यों है।\n\nकितनी रातें गुज़र गईं, उसकी आहट नहीं आई,  \nफिर भी दिल को क्यों लगता है कि वह पास है।  \nवह अजनबी जो कल रात सपनों में आया था,  \nउसकी खामोशी अब भी दिल पर बरसती है।\n\nशायद किसी रोज़ इस राह से गुज़रे वह,  \nशायद उसका अक्स मुझे फिर दिखाई दे।  \nफिर से पूछूँगा मैं उससे यह सवाल,  \nकि वह अजनबी अब भी अजनबी क्यों है।",
+  "poem_id": "MV++_0536",
+  "poem_title": "Vah Ajnabee",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "15c765c1290ef901164ce3630abd6f55291d2cc7320b7628a6459fd56a82eae8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0536.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "That stranger who visited my dreams last night,  \nWhy does his shadow still linger with me?  \nSome memory, some feeling, something left behind –  \nThe mark of that moment, why does it stay with me still?\n\nSo many nights have passed without his footsteps,  \nYet my heart feels he is still close.  \nThat stranger who visited my dreams last night,  \nHis silence still rains upon my heart.\n\nPerhaps someday he will pass this way,  \nPerhaps I’ll see his image once again.  \nAnd I’ll ask him the question once more,  \nWhy does that stranger remain a stranger?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:36:07.803354+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c144d098b99d3ba6fe9c1bdb86ce40acb27e0849c0bf7fa980d1cbaed7f10349",
+        "response_hash": "11c6f7b1f3e20cbb042f15bf15598f02bb1bb0b39bee0c829f569f4271f73b05",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "916f12d6f62f86078a94277bd0218c94a15e4dfaf18e0c994e35c20364810c77",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "17929633eba3bef309f9879114e8034a0eae45a379e682a0c921f8d95f087f04",
+        "response_hash": "a6c742a6e0ce82b7b07d5986363af894b6e36336deb6616baf955d068ab70e8c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5f1ddf1a39d11e9cfd75e489f1e52b7af6435f37b113282b324907ddbe327d1c",
+        "response_hash": "dfeb92eaacc8c4dc66aa0c70c52d6636e69c170de91d8408f1d95d38ef6f5685",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d1de26cccd575afad2843285393459abaac36ce617fc9082d514b2e1e7570e76",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "060c9e6cd93e44f2caead6d6232676c6ca0c977155d60e1e77e0c1fcca5c9f65",
+    "translation_sha256": "cd74a9524aafd5f35c07751649548dc17935fa4894ae712d1924f8d8d2a0ee42"
+  }
+}

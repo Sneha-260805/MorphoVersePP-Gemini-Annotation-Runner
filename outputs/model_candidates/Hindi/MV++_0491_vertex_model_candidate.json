@@ -1,0 +1,285 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and sorrow to quiet peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A pervasive feeling of melancholy or sadness that fills the autumn evening.",
+            "acceptable_visual_variants": [
+              "A quiet, empty park bench under a bare tree at dusk",
+              "A misty path covered in fallen leaves with soft, dim lighting"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A musical melody composed of sadness",
+            "literalization_risk": "Showing literal musical notes floating in the air, which would look whimsical rather than melancholic.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotion/sadness",
+              "transferred_attributes": [
+                "audible presence",
+                "lingering quality",
+                "evocative power"
+              ],
+              "vehicle_concept": "music/melody"
+            },
+            "source_span_original": "उदासी की धुन",
+            "source_span_translation": "melody of sorrow",
+            "source_term": "उदासी की धुन",
+            "tenor": "A pervasive feeling of melancholy",
+            "vehicle": "A musical melody or tune",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a desolate autumn landscape with falling leaves and a solitary, quiet atmosphere that evokes a somber mood visually."
+          },
+          {
+            "abstract_meaning": "The quiet, lingering sadness of the evening feels like a distant, forgotten memory or voice.",
+            "acceptable_visual_variants": [
+              "A vast, empty field under a twilight sky",
+              "A single leaf suspended mid-air in a quiet forest"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Like a voice that has been lost",
+            "literalization_risk": "Depicting a literal disembodied mouth or sound waves, which would look surreal or ghostly.",
+            "metaphor_mapping": {
+              "tenor_concept": "fading memory/sadness",
+              "transferred_attributes": [
+                "faintness",
+                "elusiveness",
+                "sense of absence"
+              ],
+              "vehicle_concept": "lost voice"
+            },
+            "source_span_original": "जैसे खोई हुई कोई आवाज़",
+            "source_span_translation": "Like a lost voice",
+            "source_term": "जैसे खोई हुई कोई आवाज़",
+            "tenor": "The quiet, lingering sadness of the autumn evening",
+            "vehicle": "A lost or forgotten voice",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the visual representation of silence and emptiness, such as a vast, empty landscape fading into twilight."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'सूखे पत्तों' (dry leaves) as 'fallen leaves', losing the specific sensory texture of dryness which emphasizes the crackling silence.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Hindi verb 'बसी है' carries a sense of being settled, inhabited, or deeply infused, which is slightly flattened by the English 'lingers'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The slow, gentle descent of each leaf evokes a sense of carrying and preserving a long-held sorrow.",
+            "acceptable_visual_variants": [
+              "A close-up of a single brown leaf drifting slowly against a soft-focus background",
+              "A leaf resting gently on still, dark water"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "As if it is carefully holding or managing an old grief",
+            "literalization_risk": "Depicting a leaf with human hands holding a physical object labeled 'grief' or looking cartoonishly sad.",
+            "metaphor_mapping": {
+              "tenor_concept": "falling leaf",
+              "transferred_attributes": [
+                "slow movement",
+                "delicacy",
+                "heaviness of spirit"
+              ],
+              "vehicle_concept": "grief-stricken person"
+            },
+            "source_span_original": "जैसे कोई पुराना ग़म संभाल रहा हो",
+            "source_span_translation": "As if holding an old sorrow",
+            "source_term": "जैसे कोई पुराना ग़म संभाल रहा हो",
+            "tenor": "The slow, gentle falling motion of an autumn leaf",
+            "vehicle": "A person carefully carrying or holding onto a long-held grief",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Capture the slow, drifting motion of a single leaf falling through the air in close-up, emphasizing its fragile and solitary descent."
+          },
+          {
+            "abstract_meaning": "The cool evening air carries a strong, haunting sense of nostalgia and past memories.",
+            "acceptable_visual_variants": [
+              "Long, dramatic shadows of bare branches stretching across the ground at sunset",
+              "A misty, dim forest path where light barely filters through"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L8",
+            "literal_meaning": "As if the shadow of past time is dwelling there",
+            "literalization_risk": "Showing literal ghostly figures or clock faces in the shadows, which would look too supernatural.",
+            "metaphor_mapping": {
+              "tenor_concept": "nostalgic atmosphere",
+              "transferred_attributes": [
+                "intangibility",
+                "lingering presence",
+                "dimness"
+              ],
+              "vehicle_concept": "shadow of the past"
+            },
+            "source_span_original": "जैसे बीते वक्त की परछाई बसी हो",
+            "source_span_translation": "Dwells the shadow of time gone by",
+            "source_term": "जैसे बीते वक्त की परछाई बसी हो",
+            "tenor": "The nostalgic and haunting atmosphere of the cool evening air",
+            "vehicle": "A shadow cast by the past",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use long, deep shadows cast by bare trees in the late afternoon sun to visually suggest the 'shadow of time'."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Urdu-derived word 'ग़म' (grief/sorrow) carries a deep, poetic weight of existential or romantic melancholy in Hindustani poetry that is rendered as a simpler 'sorrow' in English.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender agreement in 'बसी हो' (feminine, agreeing with 'परछाई' / shadow) is lost in the gender-neutral English verb 'dwells'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The evening becomes completely quiet and still, as if wrapped in a protective, calming blanket.",
+            "acceptable_visual_variants": [
+              "A soft blue twilight mist settling over a quiet valley",
+              "A dark, peaceful sky blanketed with the first faint stars of evening"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "Wearing a sheet or blanket of peace",
+            "literalization_risk": "Showing a literal blanket or piece of fabric draped over the landscape or sky, which would look absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "stillness/peace",
+              "transferred_attributes": [
+                "enveloping",
+                "covering",
+                "comforting",
+                "softness"
+              ],
+              "vehicle_concept": "blanket/cloak"
+            },
+            "source_span_original": "शांति की चादर ओढ़े",
+            "source_span_translation": "draped in a cloak of peace",
+            "source_term": "शांति की चादर ओढ़े",
+            "tenor": "The quiet, enveloping stillness of the deepening evening",
+            "vehicle": "A sheet, blanket, or cloak",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, uniform layer of twilight mist or the deep blue dusk settling evenly over the landscape to represent the enveloping peace."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'चादर' (sheet/shroud) as 'cloak', which changes the domestic and comforting metaphor of a covering sheet or blanket to a more formal garment.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The quiet, reflective melancholy of an autumn evening that transitions into a peaceful, deep silence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पतझड़ में पड़ने वाली शाम,  \nसूखे पत्तों की खामोशी में,  \nबसी है एक उदासी की धुन,  \nजैसे खोई हुई कोई आवाज़।\n\nहर पत्ता गिरता है आहिस्ता,  \nजैसे कोई पुराना ग़म संभाल रहा हो।  \nउस शाम की ठंडी हवा में,  \nजैसे बीते वक्त की परछाई बसी हो।\n\nसूरज की आखिरी किरणें,  \nपेड़ों के पीछे छिप जाती हैं,  \nऔर शांति की चादर ओढ़े,  \nवह शाम गहरी हो जाती है।",
+  "poem_id": "MV++_0491",
+  "poem_title": "Patjhad Mein Padne Wali Shaam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "815bb721373b86e6937e3e3bd13495c9683c02424a5baa1714c47e77811b52d7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0491.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "An evening in autumn,  \nIn the silence of fallen leaves,  \nLingers a melody of sorrow,  \nLike a lost voice.\n\nEach leaf falls slowly,  \nAs if holding an old sorrow.  \nIn the cool air of that evening,  \nDwells the shadow of time gone by.\n\nThe last rays of the sun,  \nHide behind the trees,  \nAnd draped in a cloak of peace,  \nThat evening deepens.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:30:42.515735+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f9bcecedb7ad21cd4355b572e4a68fb9cc7ed3b9c397a096feded0dfe325a73b",
+        "response_hash": "381b24be4e7a255f128f125149cc0123f91363444709c044f9eec52d8e2ca046",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "04c00cb06554a22c7f41ebf0d8236712c516ca7738aed1c89c0e9e32490cf174",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "66631f22d3a3bbff782b3586c8538177c9a0cabe5a6444113c6d628f009d3627",
+        "response_hash": "80d6635a29e037cef86e1c2210a8b5da976e9835ea6778b2c611cf8b471c1862",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1f22feaf9d9638b9d5ce594ff4cd83f031ba8841472181f44d35dc7e34250817",
+        "response_hash": "5b917d6262003cb36c99d074ae2098fbd27b1d5afd61d1e0ff3eeecb1f889bf9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "91d57602c3dbc358dfec7f4545e9b8b74bddf1a3dbe43e93452f84006fe4d035",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "24471ab73ec2fd070d2f33ac022c77be421058b40c25292eccdcf99434652e5c",
+    "translation_sha256": "8ec9c47f5f5fdd504fa3d69121f02c1a8ce8e89baeb7e00870f92528ab99723f"
+  }
+}

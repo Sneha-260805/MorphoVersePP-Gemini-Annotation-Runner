@@ -1,0 +1,141 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "reflective remembrance of bravery and truth",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic flow and the specific emphasis of the Hindi particle 'to' (yahi to) which highlights 'this very truth' is slightly flattened in the English rendering.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The contrasting pieces of a board game, such as chess, representing opposing forces or dualities in life.",
+            "acceptable_visual_variants": [
+              "A minimalist chess board with a white knight and a black pawn",
+              "Two stylized, contrasting figures in white and black silhouette resembling game pieces"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A white horse and a black soldier",
+            "literalization_risk": "An illustrator might draw a literal battlefield with a real horse and soldier, missing the symbolic board-game or abstract duality context.",
+            "metaphor_mapping": {
+              "tenor_concept": "game pieces or dualities",
+              "transferred_attributes": [
+                "color contrast",
+                "bravery",
+                "conflict"
+              ],
+              "vehicle_concept": "horse and soldier"
+            },
+            "source_span_original": "सफेद घोड़ा काला सिपाही",
+            "source_span_translation": "The white horse, the black soldier",
+            "source_term": "सफेद घोड़ा काला सिपाही",
+            "tenor": "Opposing game pieces or dual forces of life",
+            "vehicle": "A white horse and a black soldier",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized chess board or game board where a white knight (horse) and a black pawn/knight (soldier) stand facing each other."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'यही तो सच है सब' as 'for this is the truth' flattens the emphatic particle 'तो' (to) and the final word 'सब' (sab, meaning 'all' or 'everything'), which adds a colloquial, rhythmic emphasis that 'this is all the truth' or 'this indeed is the entire truth' would carry.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The preservation of historical or legendary truth through the act of remembering stories of bravery"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सफेद घोड़ा काला सिपाही, दोनों वीर हैं बहुत,\nकहानी हमको याद रहे, यही तो सच है सब।",
+  "poem_id": "MV++_0707",
+  "poem_title": "Safed Ghoda Kala Sipahi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c7a9bd1ca1223a1c5c23abb2442a2652a039bde7333468df59235975ad7239e7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0707.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The white horse, the black soldier, both are very brave,\nLet the story be remembered, for this is the truth.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:58:39.577973+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a170cb78d8be20f77fdaff4e37f0c686e1bb54a26530eadff5d9f9e81dbc5e24",
+        "response_hash": "aed765f41c0be64b0361ce34bdb897a3d82fa2143ef1552f67db67ff86ee0e15"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1af3bd29ec1aa7c3d8c7fd7635fd1da44557b577c0dd881b6e0f46b78b5b29f8",
+        "response_hash": "d39ce74124050a334965f826900074573e847996f359197be9601e37f0dc4f0a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8489a2ee4f8a3d0e020a76558ca6187a29db50c9e8644304ef77cbf60175cc4a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c6c51cee9effedf9378a9cc077887cc5b520a3a6c7b32d5d74b04ba3255cb597",
+        "response_hash": "43fae6e7bfa10327019136b51c51dc9b649f93e558d7d56cb3d07bd68927589c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c08214bf6f7360b0fa8ba4553cfbca99d657f9f1ab5e0d8f208c2b27be5b5357",
+        "response_hash": "214b9da6474c2290a0f5516cb921f38bdf8223fa2cd0248a6ed7ffb1efff4c62",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dbbf2d4e9c405ef38ffe4dcfaa67316c9a7d14ab5dc9f96ff20312706dd3a562",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "23c0ccf5a96eefcf4f37a479b655ec4c44556ef51775337dd4c544d92c6a4be6",
+    "translation_sha256": "cf73298a71f80ad5704182122bdfe60720a4de92a3f5cc7036730ca54cac1f65"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A peaceful mountain valley with traditional Kashmiri wooden architecture and shrines",
+          "A simple garden setting with a meditative sage or rishi sitting under a tree"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Literally 'Garden of Rishis' or 'Abode of Sages', a traditional cultural and spiritual epithet for the Kashmir Valley, referencing its history of syncretic Sufi-Rishi saints.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A generic Middle Eastern desert oasis",
+          "An ornate, modern urban mosque",
+          "A highly ritualized Hindu temple scene disconnected from the syncretic Rishi tradition"
+        ],
+        "preserved": false,
+        "romanization": "Reshi Waaryah",
+        "source_span_original": "ریشی واریہ",
+        "source_span_translation": "vale of saints",
+        "stanza_index": 1,
+        "term": "ریشی واریہ",
+        "translation_note": "The translation renders this culturally specific term as 'vale of saints', losing the specific historical and spiritual reference to the Kashmiri Rishi order of Sufism.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A serene valley landscape",
+          "Sufi shrines or simple stone hermitages",
+          "Lush greenery and blooming flowers"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A joyful celebration of spring, nature, and spiritual abundance in the valley.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation simplifies the rich Kashmiri cultural and botanical metaphors (such as 'posh maal' meaning flower garland/maidens, and 'reshi vaar' meaning the garden of rishis/saints) into more generic English poetic imagery.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Beautiful young women or maidens compared to garlands of flowers.",
+            "acceptable_visual_variants": [
+              "Joyful young women in traditional Kashmiri attire walking through a blooming garden",
+              "A close-up of a maiden wearing delicate floral ornaments or a flower garland"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "garland of flowers",
+            "literalization_risk": "An illustrator might literally draw strings of flowers hanging in the air instead of depicting joyful young women.",
+            "metaphor_mapping": {
+              "tenor_concept": "beautiful young women",
+              "transferred_attributes": [
+                "beauty",
+                "delicacy",
+                "freshness",
+                "vibrancy"
+              ],
+              "vehicle_concept": "garland of flowers"
+            },
+            "source_span_original": "پوشھ مال",
+            "source_span_translation": "fair maidens",
+            "source_term": "پوشھ مال",
+            "tenor": "beautiful young women / maidens",
+            "vehicle": "garland of flowers (posh maal)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict elegant young women adorned with or surrounded by fresh spring blossoms to visually bridge the literal and figurative meanings."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation generalizes the specific name 'Posh Maal' (a traditional Kashmiri female name and literary figure meaning 'garland of flowers') into 'fair maidens' and 'garden blooms', losing the personal, lyrical address to a specific beloved or character.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'Reshi Waar' (the garden of Rishis/saints, a deeply historical and cultural epithet for the Kashmir Valley) is translated as 'vale of saints', which captures the literal meaning but loses the specific cultural resonance of the indigenous Rishi order of Kashmiri mysticism.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The internal rhyme, rhythmic cadence, and repetitive musical structure of the Kashmiri lyric (such as the play on 'rinda', 'ginda', and 'posh maal') are completely lost in the flat prose-like English translation.",
+            "where": "L1-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The arrival of spring and spiritual blooming in the land of saints."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kashmiri",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "رِندہ پوشھ مال، گِندہ پوشھ مال  \nریشی واریہ نیاؤ، سہز پوشھ مال  \nہری ساری نوَ باغ، برکھہ دیار نۄندہ چھوک گول  \nہندہ کوسہ پاں لاری، ما زرۄ گندہ پوشھ مال  \nرِندہ پوشھھ مال، گِندہ پوشھھ مال۔",
+  "poem_id": "MV++_1152",
+  "poem_title": "Rinda Posh Maal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c0cc018a39a31be7125dc6aefeb16b5003126247f6af8c7f0de1442e7210b021",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kashmiri/MV++_1152.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The fair maidens blossom, the garden blooms,  \nIn the vale of saints, spring has arrived.  \nEvery garden is green, flowers shower,  \nFragrance spreads from every path, oh dear,  \nThe fair maidens blossom, the garden blooms.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:03:39.333912+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d7166ce670811b1d3bd9e41a78ef44f18ed860f1e5e34e410626a89f27247b57",
+        "response_hash": "e604d979b7d90e0032f21398b91c7907c96dfdae8966a8211a0d2d8806af4920",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "932da91aee314bc3a582ab865ca92e94b9d7783615d35cf27c0f3efa2bbc190a",
+        "response_hash": "05c21cbf90bd03d83121a7134ccf65f1f732e97aa41dd29b8c0a81ff7ddc6b58",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cf5de8fc1f544395dfcfbb5691ee900099d9b7be6df8418d16e3ed2be0b7854c",
+        "response_hash": "2b6e1a1fdb3afbe3055a8f2280f9803b052b07b5caaf5943c89c7d1cf86a25f4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "587ccec454d8afc08b21cfcbc1c588beefd0ad9f894fd3f65c0f709afd1fed6e",
+        "response_hash": "b3a9a02ec5c92bbb6864d50fc6c6c9e0179288a27f945da1bfddb15db51b7ced",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "10cc75e773b42278b548972e2f0f4fbb58222e8b530bb2e22f02baff18670032",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7ba020db0ac5f1e86c28283e6fae3b1013188b9c3f531559b2709def21f472ec",
+    "translation_sha256": "60d9ca19617d0d8f8c7664bc5dececa9b187e7c58117e945c12cb6f2ec040c51"
+  }
+}

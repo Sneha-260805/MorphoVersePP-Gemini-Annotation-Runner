@@ -1,0 +1,297 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience to acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life is full of hardships, struggles, and challenges that one must face.",
+            "acceptable_visual_variants": [
+              "A traveler walking on a cracked, dry path under a blazing sun",
+              "A silhouette of a person walking against a bright, blinding light on an empty road"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "There will be hot sunshine on the physical journey",
+            "literalization_risk": "Showing a literal sunny road might look pleasant and warm rather than representing harsh, exhausting struggles.",
+            "metaphor_mapping": {
+              "tenor_concept": "Living life through inevitable hardships",
+              "transferred_attributes": [
+                "heat",
+                "exhaustion",
+                "inevitability",
+                "exposure"
+              ],
+              "vehicle_concept": "A difficult journey under a hot sun"
+            },
+            "source_span_original": "सफ़र में धूप तो होगी",
+            "source_span_translation": "There will be sunshine on the journey",
+            "source_term": "सफ़र में धूप तो होगी",
+            "tenor": "The struggles and hardships of life",
+            "vehicle": "A hot, sunny journey",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lone traveler walking on a dusty, dry road under a harsh, glaring sun, emphasizing exhaustion and heat."
+          },
+          {
+            "abstract_meaning": "The competitive, chaotic, and conformist society of people.",
+            "acceptable_visual_variants": [
+              "A sea of blurred, identical figures moving together",
+              "A dense crowd of people on a city street, shot from a high angle to emphasize loss of individuality"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A physical crowd of people",
+            "literalization_risk": "A literal crowd might look like a festive gathering rather than a symbol of societal pressure and conformity.",
+            "metaphor_mapping": {
+              "tenor_concept": "The mass of humanity conforming to societal pressures",
+              "transferred_attributes": [
+                "density",
+                "lack of individuality",
+                "chaotic movement"
+              ],
+              "vehicle_concept": "A dense crowd of people moving together"
+            },
+            "source_span_original": "भीड़",
+            "source_span_translation": "crowd",
+            "source_term": "भीड़",
+            "tenor": "Society and its competitive conformity",
+            "vehicle": "A physical crowd",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dense, faceless crowd of people moving in one direction, with one figure attempting to step out or move differently."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'dhoop' as 'sunshine' loses the negative, harsh connotation of scorching heat/hardship that 'dhoop' carries in this context, making it sound pleasant rather than challenging.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'nikal sko' as 'move on' loses the specific nuance of emerging, breaking out, or extricating oneself from a dense crowd ('bheed').",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Opportunities, assistance, or a clear path to success in life.",
+            "acceptable_visual_variants": [
+              "A narrow alleyway blocked by indifferent figures",
+              "A maze where others block the exits and pathways"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A physical path or road",
+            "literalization_risk": "Showing a literal road block might look like a traffic scene rather than social selfishness.",
+            "metaphor_mapping": {
+              "tenor_concept": "People helping or hindering one's progress in society",
+              "transferred_attributes": [
+                "direction",
+                "accessibility",
+                "obstruction"
+              ],
+              "vehicle_concept": "A physical path being blocked or cleared by others"
+            },
+            "source_span_original": "रास्ता",
+            "source_span_translation": "way",
+            "source_term": "रास्ता",
+            "tenor": "Opportunities and assistance in life",
+            "vehicle": "A physical path or road",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a narrow path where figures stand shoulder-to-shoulder, blocking passage for anyone else."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'stand up after I fall' misses the active, causal nuance of 'mujhe gira ke' (by knocking me down / pushing me down) and the specific meaning of 'sambhal sako' (steadying yourself / recovering balance).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The course of life, destiny, or external circumstances.",
+            "acceptable_visual_variants": [
+              "A straight, unyielding highway cutting through a harsh landscape",
+              "A stone-paved road that remains fixed and unchanging"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Physical roads or pathways",
+            "literalization_risk": "Showing literal roads shifting or bending might look like a fantasy scene rather than a metaphor for the rigidity of life.",
+            "metaphor_mapping": {
+              "tenor_concept": "The world adapting to an individual's desires",
+              "transferred_attributes": [
+                "rigidity",
+                "fixed direction",
+                "indifference to the traveler"
+              ],
+              "vehicle_concept": "A road changing its direction for a traveler"
+            },
+            "source_span_original": "राहें",
+            "source_span_translation": "Paths",
+            "source_term": "राहें",
+            "tenor": "The course of life and external circumstances",
+            "vehicle": "Physical roads",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a rigid, unbending stone path stretching into the distance, indifferent to the traveler standing on it."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhetorical force of 'kahan badalti hain' (where do they ever change?) is flattened into a simple negative statement 'do not change'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The fleeting, superficial hopes, dreams, and illusions that keep humans occupied and comforted in life.",
+            "acceptable_visual_variants": [
+              "An adult cradling fragile, glowing origami shapes or simple wooden playthings",
+              "Delicate, glowing bubbles shaped like toys floating around a pensive figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Playthings or toys meant for children",
+            "literalization_risk": "Showing literal children's toys might make the scene look childish or literal, missing the existential weight of life's illusions.",
+            "metaphor_mapping": {
+              "tenor_concept": "Illusions and hopes that keep adults going in a difficult world",
+              "transferred_attributes": [
+                "fragility",
+                "temporary comfort",
+                "distraction",
+                "childishness"
+              ],
+              "vehicle_concept": "Toys used to distract and amuse a child"
+            },
+            "source_span_original": "खिलौनों",
+            "source_span_translation": "toys",
+            "source_term": "खिलौनों",
+            "tenor": "Fleeting dreams and hopes that distract humans from the harsh reality of life",
+            "vehicle": "Toys",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show an adult figure holding fragile, glowing, abstract shapes (representing dreams/hopes) like delicate glass toys in a dark, vast space."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'bahal sako' as 'find comfort' slightly softens the nuance of 'behlana', which implies amusing, distracting, or pacifying oneself (as a child with toys).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The harsh, competitive reality of life's journey and the necessity of self-reliance and finding contentment in small hopes."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सफ़र में धूप तो होगी, जो चल सको तो चलो,\nसभी हैं भीड़ में, तुम भी निकल सको तो चलो।\n\nयहाँ किसी को कोई रास्ता नहीं देता,\nमुझे गिरा के अगर तुम सँभल सको तो चलो।\n\nकिसी के वास्ते राहें कहाँ बदलती हैं,\nतुम अपने आप को खुद ही बदल सको तो चलो।\n\nयही है ज़िन्दगी, कुछ ख़्वाब, चंद उम्मीदें,\nइन्हीं खिलौनों से तुम भी बहल सको तो चलो।",
+  "poem_id": "MV++_0596",
+  "poem_title": "Safar Mein Dhoop To Hogi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b47ac0fae52a552b2e1d51798fbaf7f211a45dc42224a5460d686db2f61f0075",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0596.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "There will be sunshine on the journey, walk if you can,\nEveryone is in the crowd, if you can move on, walk along.\n\nNo one here offers a way to anyone else,\nIf you can stand up after I fall, walk along.\n\nPaths do not change for anyone here,\nIf you can change yourself, walk along.\n\nThis is life: a few dreams, a handful of hopes,\nIf you can find comfort in these toys, walk along.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:44:00.572528+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "111fa09a62ab4519fb7b04153deb8eca262b4b4228728453c69c2831ed657f69",
+        "response_hash": "82f118bcc1720b4c49fbd008f5e76040105080de62d63de290d7de46af6c4128",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b3504bc5ede6f397022f98f23e6e0619cb84f520baad8af3bdcf667654b77836",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e60889e0f5b488e18ad515e1f5f569b207c30b74fed1b902cbe93babfa17839e",
+        "response_hash": "2e38d31be224e3af2983bdf462d1e55fbbfa13042c8a8b0f626f0dbdc23a2399",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba4210ad1ad2622f86f6bd95ac058ef1b68e4d504a97d3f728d3b829e14dd7de",
+        "response_hash": "8c602ad71a53319d53dd7e2cb9ff24080f94645e5cde0aa140934e38c7201041",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca22cdf0e78cca4ca50e3e3d01a216392272423b1eb2915234c0a0f3f26b5b3b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8eafe09561d4ea356b45ae8107c8b073707e2b5d3bc1a4edf3b6905f5875ee07",
+    "translation_sha256": "7739455a66f6c396e6216c560ab80afe64ce5dfb3b7cf45edd74064478c3a4bc"
+  }
+}

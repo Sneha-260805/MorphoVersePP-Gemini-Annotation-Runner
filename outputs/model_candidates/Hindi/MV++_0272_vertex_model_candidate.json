@@ -1,0 +1,220 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and hesitation to tender declaration",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but loses the rhythmic flow and internal rhyme of the Hindi phrasing (e.g., 'kaise kahu' and 'baatein to lakhon hain').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's inner emotional state, feelings, and unspoken thoughts.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking out a window with a soft light over their chest",
+              "A close-up of hands gently resting over the chest in a pensive gesture"
+            ],
+            "expression_type": "metonymy",
+            "line_ref": "L2",
+            "literal_meaning": "of the physical heart organ",
+            "literalization_risk": "Depicting a literal anatomical heart with words or thoughts inside it would look clinical or grotesque rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional center and feelings",
+              "transferred_attributes": [
+                "containing secrets",
+                "throbbing with unspoken words"
+              ],
+              "vehicle_concept": "physical heart"
+            },
+            "source_span_original": "दिल की",
+            "source_span_translation": "heart feels",
+            "source_term": "दिल की",
+            "tenor": "the speaker's inner emotions and feelings",
+            "vehicle": "the physical heart",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a reflective, longing posture with a soft, warm glow emanating from their chest area to symbolize deep inner feelings."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the subtle shift in intimacy and grammatical register of the pronoun 'tumhe' / 'tumse' (familiar/respectful second-person pronoun) which is flattened into the standard English 'you'.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'baatein to laakhon hain' (literally 'there are lakhs of words/matters') as 'countless words', losing the culturally specific numerical hyperbole of 'lakh' (one hundred thousand) commonly used in South Asia to denote an immense quantity.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation of 'mahakta hai' as 'blossoms' captures the essence, though the literal Hindi term refers to fragrance/scent ('perfumes' or 'becomes fragrant'), which carries a sensory nuance lost in the English translation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker experiences intense emotional longing and pain due to the absence of the beloved.",
+            "acceptable_visual_variants": [
+              "A person sitting alone in a dimly lit room looking sorrowful",
+              "A hand clutching a fabric near the chest to show emotional ache"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "the physical heart writhes or gasps in pain",
+            "literalization_risk": "Showing a literal heart organ physically writhing, shaking, or gasping would look like a medical emergency or horror scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional suffering from separation",
+              "transferred_attributes": [
+                "pain",
+                "restlessness",
+                "agony"
+              ],
+              "vehicle_concept": "physical writhing/struggling"
+            },
+            "source_span_original": "दिल तड़पता है",
+            "source_span_translation": "heart aches",
+            "source_term": "दिल तड़पता है",
+            "tenor": "intense emotional longing and distress",
+            "vehicle": "a physical heart writhing or struggling in pain",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the human expression of longing, such as a person looking lonely or clutching their chest in a subtle, emotional gesture of yearning."
+          },
+          {
+            "abstract_meaning": "The speaker's entire perception of life and their surroundings becomes beautiful, joyful, and vibrant when the beloved is near.",
+            "acceptable_visual_variants": [
+              "A landscape transitioning from monochrome to vibrant colors as two people meet",
+              "Flowers blooming instantly along a path where the beloved walks"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "the entire universe emits a sweet fragrance",
+            "literalization_risk": "Showing the entire planet Earth covered in perfume bottles or literal clouds of scent could look absurd or like air pollution.",
+            "metaphor_mapping": {
+              "tenor_concept": "pervasive joy and beauty in one's life",
+              "transferred_attributes": [
+                "pleasantness",
+                "sweetness",
+                "uplifting atmosphere"
+              ],
+              "vehicle_concept": "fragrance filling the air"
+            },
+            "source_span_original": "सारा जहां महकता है",
+            "source_span_translation": "The whole world blossoms",
+            "source_term": "सारा जहां महकता है",
+            "tenor": "a profound sense of joy, beauty, and completeness in life",
+            "vehicle": "a sweet fragrance spreading across the entire world",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a sudden transition to vibrant colors, blooming flowers, or warm sunlight spreading across a landscape around two people."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the pronoun from 'tum' (familiar) in Stanza 1 to 'tere' / 'tu' (highly intimate/informal) in Stanza 2, which intensifies the emotional closeness in the original Hindi but is completely lost in the uniform English 'you'.",
+            "where": "L5-L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'mahakta hai' (literally 'fragrant' or 'scents/perfumes') as 'blossoms', shifting the sensory experience from olfactory (fragrance filling the world) to visual/growth-oriented.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The struggle to articulate the depth of one's love and longing to the beloved"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कैसे कहूँ तुम्हें,  \nक्या बात है मेरे दिल की,  \nबातें तो लाखों हैं,  \nपर तुमसे कहूँ कैसे?  \n\nतेरे बिना ये दिल तड़पता है,  \nतू जो पास हो,  \nतो सारा जहां महकता है।  \nकैसे कहूँ तुम्हें,  \nये दिल की हर एक धड़कन?",
+  "poem_id": "MV++_0272",
+  "poem_title": "Kaise Kahan Tumhe",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a52b24e79ca6c533141a7d2141d483164fb4da67e35aac3c85e3c0459afd69c2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0272.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "How to Tell You  \nHow do I tell you,  \nWhat my heart feels,  \nThere are countless words,  \nBut how do I express them to you?  \n\nWithout you, this heart aches,  \nWhen you are near,  \nThe whole world blossoms.  \nHow do I tell you,  \nEvery heartbeat of this heart?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:06:55.160877+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4c999f58da61084573d44afca9fca4b2bc7ec4e25f98fd204765e7c1352e393",
+        "response_hash": "084c0dfe357887671d2db3f8585e12b554360b62d55f9febc54e23e7df240784"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "17fe3d54da5962a06a4f2b6d65a44f8e5f4c5bc3502c7ef0b7775bd56bf37ff7",
+        "response_hash": "92a1a901541ccafb8d9b27b18bba387e7436b5112324e0a7b1fe513c67d04d5c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e216a64ec422fb71763ba157611becc0695a7247d4f9774005adb9d8b0f438f7",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2466ddbe4bf98b3909b808a36959ba36ba8f5724ad249658b2b28cea6a9d1bfe",
+        "response_hash": "db4cce259ad5100712aa45f54405b89d3db1f312c6dca6147d238a752a11adf5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6549dcacd482df0e453bcf869c5ed8e7fc63ec0ca67dcf7251685b6592869cdf",
+        "response_hash": "7025b2a6d862d161a67ce6f3a97a209b1c674e6970dce1efedabbe1550192fb9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "200b8877c8028cecb2d54b455464da9f40ba47de39931c2afbc03a101046ef55",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "05ea164c823d039354fb2ead04b3478670bf1677acd9d4fa999ae2f50885da41",
+    "translation_sha256": "a7f030915aee99986f14bf818e8f34802024e1cb8f74810df500443706a0889c"
+  }
+}

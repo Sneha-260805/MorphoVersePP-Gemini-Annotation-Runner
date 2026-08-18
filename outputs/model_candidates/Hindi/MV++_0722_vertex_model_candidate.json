@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A gentle transition from unhurried movement to mindful contemplation.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic, soothing repetition of 'dheere dheere' (slowly, slowly) and the specific aspectual nuance of 'ruka karo' (habitually stop/pause) are slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The journey of life or the progression through a life path.",
+            "acceptable_visual_variants": [
+              "A person pausing on a misty mountain trail looking ahead",
+              "A stylized path made of light with a figure standing thoughtfully at a junction"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "on the physical road or path",
+            "literalization_risk": "An illustrator might draw a literal asphalt road or dirt path, which misses the philosophical, reflective nature of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey",
+              "transferred_attributes": [
+                "progression",
+                "stopping points",
+                "deliberation"
+              ],
+              "vehicle_concept": "physical path"
+            },
+            "source_span_original": "रास्ते में",
+            "source_span_translation": "on the way",
+            "source_term": "रास्ते में",
+            "tenor": "the journey of life and decision-making",
+            "vehicle": "a physical road or path being traveled",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a winding path fading into a soft, thoughtful background, with a figure pausing at a fork or scenic overlook in a contemplative posture."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic quality of the reduplicated adverb 'dheere dheere' is flattened into the English repetition 'slowly, slowly', which lacks the soft, flowing cadence of the original Hindi phrasing.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The subtle aspectual nuance of the habitual/imperative verb construction 'ruka karo' (implying a gentle, ongoing advice or habitual action of stopping) is simplified to a standard imperative 'stop' in the English translation.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Embracing a slow, deliberate pace in life's journey and making thoughtful choices at every pause."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "धीरे धीरे चलो, हमें नहीं जल्दी है,\nरास्ते में जहाँ भी रुका करो, सोच कर रुको।",
+  "poem_id": "MV++_0722",
+  "poem_title": "Dheere Dheere",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "bcf30a2495a287efd9f76c01dca56302f80de7e2e6fb5c843ccae18504f07ba9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0722.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Slowly, slowly walk, there is no hurry for us,\nWherever you stop on the way, stop thoughtfully.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:59:57.928474+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2c367d3b544c42ec5238132bc9a7070b3f595b019c0ca579e5679e33df8d01bf",
+        "response_hash": "1bc7cdd02fff40668fe9ae9234b0aeae28557f0d43c8a0ff9a59590b91c5ca74"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "42abb4331a1ed8c61229261c409e692073f64894a500cee7895755ecb96c6d87",
+        "response_hash": "1e7e65c98c40c0ae4052f424c9d2a78a7bc58cf797e7fe2d7b364a08a88b9fce",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c6b6c85802b674666085bcbaef2653b79e201fbe41f38b44df5f378fef8dd83d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0fe119aa5deb842efff400018b2d4962da512388c4e3b5a8549e1ae084f4b201",
+        "response_hash": "e3a34495a3dead33ee4b36df32d5ea05c6b7bcaf898afc14ff1e84d0d6f32cc0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1f75902b0e72423c8a922e5946417b1c7410476ac7a561e6d31573ab2b1e7621",
+        "response_hash": "da23a36c6af7b2724945ffb57c5241b4488c4ab83649dfd8a0019ec37a395aa1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df691cb858892f1cd9832c1307718b5a66038a35b10475bbeded6f4e615873be",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7c9da4cb93f8c973cd66166c0e9c9fd90bdc7d79fe681509599cb91869ca8406",
+    "translation_sha256": "d778fe3489fb58c91947e569fe6b87313fa3deba667f681b7b37e95c15505886"
+  }
+}

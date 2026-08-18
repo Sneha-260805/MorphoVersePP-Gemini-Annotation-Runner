@@ -1,0 +1,175 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and quiet reflection on past friendship",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'ಮಜಲು' (majalu) as 'distant shore' captures the spatial metaphor but loses the nuance of a stage, halt, or destination on a journey. Additionally, the compound-like structure of 'ಸ್ನೇಹದ ಸುರಿವ ತುದಿ' (snehada suriva tudi) is slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The journey, progression, and experiences of living a human life.",
+            "acceptable_visual_variants": [
+              "A winding path through a misty landscape",
+              "A symbolic road stretching toward a distant horizon"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "On the path of living",
+            "literalization_risk": "An illustrator might draw a literal dirt road or highway, which misses the existential and temporal nature of living.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "direction",
+                "progression",
+                "obstacles",
+                "journeying"
+              ],
+              "vehicle_concept": "physical path"
+            },
+            "source_span_original": "ಬಾಳದ ಹಾದಿಯಲಿ",
+            "source_span_translation": "On the path of life",
+            "source_term": "ಬಾಳದ ಹಾದಿಯಲಿ",
+            "tenor": "the course of human life",
+            "vehicle": "a physical path or road",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding path fading into a soft, atmospheric background, perhaps with symbolic markers of time or memory along the edges."
+          },
+          {
+            "abstract_meaning": "The final, lingering moments or the ultimate culmination of an abundant, pouring friendship.",
+            "acceptable_visual_variants": [
+              "Soft rain droplets glistening in late afternoon light",
+              "A fading rain shower clearing up to reveal a soft sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The pouring tip/end of friendship",
+            "literalization_risk": "A literal rendering of friendship pouring down like water from a spout or nozzle would look bizarre and mechanical.",
+            "metaphor_mapping": {
+              "tenor_concept": "abundant friendship",
+              "transferred_attributes": [
+                "abundance",
+                "refreshment",
+                "pouring down",
+                "coming to an end"
+              ],
+              "vehicle_concept": "pouring rain shower"
+            },
+            "source_span_original": "ಸ್ನೇಹದ ಸುರಿವ ತುದಿ",
+            "source_span_translation": "The end of a shower of friendship",
+            "source_term": "ಸ್ನೇಹದ ಸುರಿವ ತುದಿ",
+            "tenor": "the abundant expression and eventual fading of friendship",
+            "vehicle": "a pouring rain shower or downpour",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict gentle, fading rain droplets catching the light, symbolizing the final, beautiful remnants of a passing shower."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada word 'ಮಜಲು' (majalu) literally means a stage, phase, or halting place on a journey, which is translated as 'distant shore'. This alters the journey/stage metaphor into a spatial destination.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The word 'ಸುರಿವ' (suriva) evokes a continuous pouring or raining down, which is rendered as 'shower', losing the active, ongoing verbal participle quality of the pouring of friendship.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring, distant nature of old memories and past friendships along life's journey."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಹಳೆಯ ನೆನಪು,  \nಬಾಳದ ಹಾದಿಯಲಿ,  \nಸಾಗರದ ಮಜಲು,  \nಸ್ನೇಹದ ಸುರಿವ ತುದಿ.",
+  "poem_id": "MV++_1007",
+  "poem_title": "Hale Nenapu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6b228ac9fe0ea33bd951ea55964ce3ad1cb9dd0ff78bdcf2e21260c90fe7be3c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1007.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": ",An old memory,  \nOn the path of life,  \nA distant shore of the ocean,  \nThe end of a shower of friendship.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:44:22.928541+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "465c20c24ce881894821a8dbd1e19fa22e9b05dd9a0e392c19f59e8dd0985833",
+        "response_hash": "1f552df67e73b04495ae653a167d1ed899e0b0bdc2f264f78e1b18ce7323980b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b6527d60bfee6a67e97ebd148d6c12cfb8b787edb394e557520e9203b5b637b7",
+        "response_hash": "242a97fab7280b3c8ea9a35bf0f04ef9393818f8b860e0fdb053bfd7e161c29f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6961b53fc4a78cc2a24071b566f4a67e19a86f3e612cf4ef0502eba2494b9b7f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "194fa096056ab6094051b4ff61d9e72d3cc8ce376e84693130be3c6d5e7a29ff",
+        "response_hash": "bed75211d47cbc632115fea0df01b16fc54f6e9628823b4539a00ca42e974bad",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "142946c2f5af3763306c13190f16b8a85b04f600411cd96474877e62ab5fc8da",
+        "response_hash": "9128e5e9affe458dd76027d6c05a29c97e8ee8463befac34d13e34cc6cabeb48",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "05afa36db505dc9879d0d23994b622f157b68d4ffb8ccfeb0e1f488a17e46bda",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9e0a99e04bd9161a1763386a46554033d73c349a90f688b6c28220c8e809859b",
+    "translation_sha256": "0bcaa0cd9925fb7e873081e6c93115ec733641a8762ba714f57ea8d435423830"
+  }
+}

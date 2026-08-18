@@ -1,0 +1,203 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady, warm reflection on the enduring value of familial bonds and affection.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation splits the single continuous Telugu stanza into multiple stanzas in English, and collapses distinct Telugu terms for familial affection (prema, anuragam, apyayata, vatsalyam, mamata, abhimanam) into more generic English equivalents.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mother's love is abundant, continuous, and enveloping, showering down upon her children.",
+            "acceptable_visual_variants": [
+              "A mother holding a child close under a warm, glowing aura.",
+              "A mother gently placing her hands over a child's head in a gesture of blessing, with soft light beams."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "raining love / showering love",
+            "literalization_risk": "Showing actual rain clouds or water droplets falling on a child, which literalizes the physical action of raining instead of the emotional warmth of love.",
+            "metaphor_mapping": {
+              "tenor_concept": "maternal love",
+              "transferred_attributes": [
+                "abundance",
+                "continuous flow",
+                "nourishment from above"
+              ],
+              "vehicle_concept": "rain"
+            },
+            "source_span_original": "కురిపించే ప్రేమ",
+            "source_span_translation": "nurturing love",
+            "source_term": "కురిపించే ప్రేమ",
+            "tenor": "mother's love",
+            "vehicle": "rain / shower",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a mother gently embracing or looking down at her child with warm, soft light radiating from her, suggesting a protective and abundant shower of affection without literal water."
+          },
+          {
+            "abstract_meaning": "The mother's love is pure, life-giving, and of the highest possible sweetness and value.",
+            "acceptable_visual_variants": [
+              "A mother feeding her child with a gentle, loving expression.",
+              "A warm, golden-hued scene of a mother comforting her child."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "equal to amrita (the divine nectar of immortality)",
+            "literalization_risk": "Depicting a literal pot of mythological nectar or a golden liquid being poured, which distracts from the emotional quality of maternal care.",
+            "metaphor_mapping": {
+              "tenor_concept": "maternal love",
+              "transferred_attributes": [
+                "sweetness",
+                "life-giving purity",
+                "divine value"
+              ],
+              "vehicle_concept": "amrita"
+            },
+            "source_span_original": "అమృతతుల్యమైనది",
+            "source_span_translation": "as sweet as nectar",
+            "source_term": "అమృతతుల్యమైనది",
+            "tenor": "mother's love",
+            "vehicle": "amrita (divine nectar)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the sweet, nurturing interaction between mother and child, perhaps with a subtle, elegant traditional vessel nearby or soft golden tones in the background to hint at the divine sweetness."
+          },
+          {
+            "abstract_meaning": "The sister's pride and affection act as a complete, protective, and ever-present spiritual shield or blessing.",
+            "acceptable_visual_variants": [
+              "A sister performing a traditional gesture of blessing or protection.",
+              "A sister walking alongside her sibling, looking at them with pride and supportive warmth."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "full/overflowing blessings",
+            "literalization_risk": "Depicting physical objects overflowing or literal words floating in the air, which misses the emotional and protective nature of a sister's blessing.",
+            "metaphor_mapping": {
+              "tenor_concept": "blessings",
+              "transferred_attributes": [
+                "completeness",
+                "abundance",
+                "protective presence"
+              ],
+              "vehicle_concept": "overflowing fullness"
+            },
+            "source_span_original": "నిండు దీవెనలు",
+            "source_span_translation": "constant blessing",
+            "source_term": "నిండు దీవెనలు",
+            "tenor": "sister's pride and affection",
+            "vehicle": "an overflowing vessel or complete protective shield",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show an older sister placing a protective, loving hand on her sibling's shoulder or head, with a warm, subtle glow representing the protective 'full blessing' accompanying them."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation splits the single continuous Telugu stanza into multiple English stanzas, altering the structural flow and rhythm of the original text.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific nuances of different Telugu words for familial affection (prema, anuragam, apyayata, vatsalyam, mamata, abhimanam) are flattened into generic English terms like love, affection, warmth, compassion, and pride.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The cultural resonance of 'amrutatulyamainadi' (comparable to Amrita/nectar of immortality) is simplified to 'as sweet as nectar'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific sibling relationships (anna: elder brother, tammudu: younger brother, chelli: younger sister, akka: elder sister) are partially generalized or lost in the English translation's structural choices.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The invaluable and enduring nature of familial love and blessings across different relationships."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "అమ్మ కురిపించే ప్రేమ అనంతమైనది మరియు అమృతతుల్యమైనది నాన్న చూపించే అనురాగం అమూల్యమైనది వెల కట్టలేనిది అన్న పంచే ఆప్యాయత మధురమైనది మాటలకందనిది తమ్ముడు పంచే వాత్సల్యం వివరించలేనిది వూహకు అందనిది చెల్లి పంచే మమత మరుపు రానిది మాసిపోనిది అక్క పంచే అభిమానం ఎప్పుడు నీ వెంట వుండే నిండు దీవెనలు",
+  "poem_id": "MV++_1465",
+  "poem_title": "Kutumba Bandallu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cdbe582f5f09efa0b35e577fe717f00032fe813710d0217aef3e072f61f45ab7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1465.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A mother’s nurturing love is infinite,\nAnd as sweet as nectar;\nA father’s affectionate gaze is invaluable,\nBeyond measure.\n\nThe warmth shared by siblings is delightful,\nUnmatched by any words;\nThe compassion of a brother is beyond description,\nA feeling that cannot be fathomed.\n\nThe affection of a sister is unforgettable,\nEverlasting and never fading;\nThe pride a sister shows is a constant blessing,\nForever by your side.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:37:30.195545+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e12660dec64e7dd5b0126f23fe5b94d72b72a746c6a9d6eb058e7d2b81e5d4ae",
+        "response_hash": "6c4b9a5adf3080630f00da7d20eab5686ec7ed8f803cf9efa567b19beb37c539",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6433fc220ba9d41e6f02dbd0a9b42ff05a9a0328ac86527da86586f6c0d8f0c1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "50c5644d10bdd491cac3add0c40a6caa1010312b31f44e08b4d11be9667bed66",
+        "response_hash": "cf880a544375831aebe080e6082181f49eca10c660dbc7ee79fab1fc4b7aa269",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3fbbf7ff113a85a304845e5f308f3a3d86a6d6c3368ed5fb72916ae972aba503",
+        "response_hash": "c888be7bc904ed8a1ab00339802b5825dac28315bc6f1a88a7ec3f82fd81750b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "802c0445060df4167a3768fbde2fcb0c0925d47053c49a643387a5c7e7f8512a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d18ec6ccc1b8b18efb5c8a40fd66ff9660d756475da8a2a60a7f60a9f51ff764",
+    "translation_sha256": "a39cb440fb1811b93891feea7b1526d64b3956a6ee3d2bde8296a4c5902fa732"
+  }
+}

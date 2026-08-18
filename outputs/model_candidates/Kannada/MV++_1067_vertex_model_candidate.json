@@ -1,0 +1,192 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resignation to peaceful acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "What has happened in the past is over and should be forgotten or let go.",
+            "acceptable_visual_variants": [
+              "An hourglass with the sand at the bottom turning into dust and blowing away.",
+              "A hand opening to let dry leaves or dust blow away in the wind."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "That which has passed, that matter has gone",
+            "literalization_risk": "Showing a physical object or person walking away, which misses the psychological acceptance of letting go of past regrets.",
+            "metaphor_mapping": {
+              "tenor_concept": "the passage of time and events",
+              "transferred_attributes": [
+                "irreversibility",
+                "disappearance from immediate view"
+              ],
+              "vehicle_concept": "physical movement past a point"
+            },
+            "source_span_original": "जो बीत गई सो बात गई",
+            "source_span_translation": "What is gone is gone",
+            "source_term": "जो बीत गई सो बात गई",
+            "tenor": "Past events, mistakes, or sorrows that cannot be changed and should not be dwelled upon",
+            "vehicle": "A physical path or object that has moved past a certain point and disappeared",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split scene showing a person looking back at a fading, blurry path behind them, while stepping forward into a brightly lit, clear path ahead."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The idiomatic, rhythmic, and rhyming quality of the Hindi phrase 'जो बीत गई सो बात गई' (Jo beet gayi so baat gayi) is lost in the literal English translation 'What is gone is gone'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The subtle future-oriented promise and conversational intimacy of 'कभी तो तुमसे भी कहेंगे' is flattened into a somewhat detached 'One day even you will hear this'.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The past events or lost relationships were fleeting, insubstantial, and no longer hold any reality in the present.",
+            "acceptable_visual_variants": [
+              "A watercolor painting of a past scene being gently washed away by water.",
+              "A reflection in a rippling pool of water that distorts and dissolves when touched."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "That was a dream, a fantasy",
+            "literalization_risk": "Depicting a person sleeping and dreaming, which literalizes the state of sleep rather than the abstract quality of past memories being unreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "past memories and experiences",
+              "transferred_attributes": [
+                "insubstantiality",
+                "fleeting nature",
+                "lack of physical reality in the present"
+              ],
+              "vehicle_concept": "dreams and fantasies"
+            },
+            "source_span_original": "वो एक सपना, एक कल्पना था",
+            "source_span_translation": "It was but a dream, a fantasy",
+            "source_term": "वो एक सपना, एक कल्पना था",
+            "tenor": "The past experiences, relationships, or losses",
+            "vehicle": "A dream or a mental fantasy",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a silhouette of a past memory or figure dissolving into mist or smoke as a person reaches out to touch it."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific nuance of 'दंभ' (dambh), which carries connotations of vanity, deceitful pride, or hypocrisy, is simplified to the general term 'pride' in the translation.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Accepting the impermanence of the past and letting go of lost things without sorrow or pride."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "/",
+      "issue": "The poem is written in Hindi (Devanagari script) and contains Hindi vocabulary (e.g., 'जो बीत गई सो बात गई', 'दंभ', 'सपना', 'कल्पना'), but the metadata lists the language as Kannada. This is a fundamental language mismatch.",
+      "severity": "high"
+    },
+    {
+      "field_path": "stanzas[0].translation_loss[0].what_was_lost",
+      "issue": "The translation loss note explicitly references 'the Hindi phrase' and 'Hindi' linguistic features, which directly contradicts the metadata labeling the poem's language as Kannada.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जो बीत गई सो बात गई,  \nकभी तो तुमसे भी कहेंगे।  \nप्यार में, जीवन में,  \nजो खो गया, वह फिर न मिलेगा।  \n\nन दुःख की कोई बात है,  \nन किसी का किया हुआ दंभ।  \nजो बीत गया, वह चला गया,  \nवो एक सपना, एक कल्पना था।",
+  "poem_id": "MV++_1067",
+  "poem_title": "Jo Beet Gayi So Baat Gayi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5b6ff8eadb318c1366cadc46aba7bc5348f54ee587e7f76343cee619e1fe1b75",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1067.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What is gone is gone,  \nOne day even you will hear this.  \nIn love, in life,  \nWhat’s lost will never return.  \n\nThere is no sorrow,  \nNor any pride in the past.  \nWhat has passed, has gone,  \nIt was but a dream, a fantasy.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:53:42.886408+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9ea1213566162267f566a31a45977a66a2801d1ae0a14b96b7e924c8f0cd5e51",
+        "response_hash": "efe3dde81c8bad2781d16053c4bdbab374d7b567d047c635fc20d5b31497821c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e9267d18041c24e59b2f7aee57ba64fb1e77cb35ff32e7bf1b82ab3d5bb574cb",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8ede8cfb73f1e01ba1f226ec57a5af3bdaaf3ed473455f41bc50134d04786a90",
+        "response_hash": "133d306182ad7e674614aa57537e0a900779ab8b92c7cf4098fb2e56846d456b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4a30f3eca5728d6e54680511a78d522d39240eb4f614e144c31cd0e5102b18c8",
+        "response_hash": "ca0d3ec1e073ea553f19baa674b5380571888ec3d29d3d8ef43513d5387dbeb8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "33a9ca29cf53057ba0d08c82fb1aa7afa85158dbf9ef6f78263123627f668fb7",
+        "response_hash": "d9ce23d6cd35c907b003ab2b8551cc58293e3aace0315d8ba4c83db84aa4e7f5",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ece40483fe4318370de5f3f87720b2abb5d98cf2cd6beecc0a30d7022004bc49",
+    "translation_sha256": "4f4875c5fd6cbcada61e6a41e33eca32004aa35be8dab237eac129f14b8b7d15"
+  }
+}

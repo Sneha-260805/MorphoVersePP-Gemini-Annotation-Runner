@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and tender remembrance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The abstract feeling of love and its lingering memory are described as a physical voice that sings and stands physically beside the speaker's soul.",
+            "acceptable_visual_variants": [
+              "A soft, warm light enveloping a reflective person sitting alone, symbolizing the comforting presence of a memory.",
+              "An abstract, flowing musical stave or golden thread connecting two distant silhouettes."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L4",
+            "literal_meaning": "The voice of love sings inside a physical heart and stands physically next to a soul as a memory.",
+            "literalization_risk": "Showing a literal human figure or a floating mouth singing next to a physical heart or a ghostly soul would look comical and miss the emotional depth of memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "The persistent memory of love",
+              "transferred_attributes": [
+                "singing",
+                "standing nearby",
+                "having a physical voice"
+              ],
+              "vehicle_concept": "A physical singer standing nearby"
+            },
+            "source_span_original": "காதலின் குரல்,\nஉன் இதயத்தில் பாட,\nஎன் உள்ளத்தின் பக்கத்தில்,\nநினைவாக நிற்கிறது!",
+            "source_span_translation": "The voice of love,\nSings in your heart,\nStanding beside my soul,\nIt remains as a memory!",
+            "source_term": "காதலின் குரல்,\nஉன் இதயத்தில் பாட,\nஎன் உள்ளத்தின் பக்கத்தில்,\nநினைவாக நிற்கிறது!",
+            "tenor": "The lingering, comforting memory of love felt deeply within the heart and soul",
+            "vehicle": "A singing person who stands physically next to someone",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a warm, soft glow or a gentle, abstract wave of light emanating from one person's chest area toward another, suggesting a deep emotional resonance and lingering presence without drawing a literal singing figure."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'paada' (பாட) as 'sings' (present tense), but in the original Tamil, it is an infinitive form ('to sing' or 'as it sings'), which subtly alters the syntactic flow and connection between the voice of love and the heart.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil word 'ullam' (உள்ளம்) in 'ullathin' is translated as 'soul', which is a common equivalent, but 'ullam' specifically denotes the inner mind, heart, or consciousness, carrying a slightly different psychological nuance than the English spiritual concept of 'soul'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring presence of love as an internal song and memory within the soul."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries detailing syntactic and semantic shifts. When translation loss is present, translation_quality should typically be 'partial' to maintain internal consistency.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "காதலின் குரல்,  \nஉன் இதயத்தில் பாட,  \nஎன் உள்ளத்தின் பக்கத்தில்,  \nநினைவாக நிற்கிறது!",
+  "poem_id": "MV++_1371",
+  "poem_title": "Kadhalin Kural",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1b38a4f79a2dbd676c52389400235bcfee1e94a824ef9bacffdad95fd17e53ee",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1371.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The voice of love,  \nSings in your heart,  \nStanding beside my soul,  \nIt remains as a memory!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:26:45.050730+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d3e49f91a37d83c91b68a39c29e3ddb15089ce0d3a232f8d5ee8dd380a68f58c",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "62e6d519ed779d07fe0777d80494067c34cdf2d07f60f464a5814edc9a45a48d",
+        "response_hash": "5bc7ac975675f544b50b122488d735477fbc6af93e3f2776cf035e7b47fc12a8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f6b1cf6916a3ccb7a1ffb61563d782c83766aaea7becb5b552c80f480a009a49",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2314e69fc5908a118fce59856d3b985285d10372f78b88707aa4cead9854369b",
+        "response_hash": "5e396a3d2a3dfe4ab02e2f5945afec8825d8758cad2ad937924f53f9712a64f4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7341b584a1f2608614ded6acf6139867a44617c9086006b5fe33bc9b767d66a3",
+        "response_hash": "ce209826611aa1b236423c53a582834dd070376f133a103c4810975ffd02be3b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "223d54ff529de9e1ea647bd88c6d002ccaac40570225705f0ab06fa27694eb8e",
+        "response_hash": "047e4210f5a41808d67f1b6e74b8f97e7746c61cdc74a9013d308da7823c9f3a",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ff7749cdb1e699a5cbf241229523fd05fa0149b7f863341570b92755ed74d9b0",
+    "translation_sha256": "92aad592511e7be87be9e79a76a9b75a78bab4ce848db7547fae477d199fc67b"
+  }
+}

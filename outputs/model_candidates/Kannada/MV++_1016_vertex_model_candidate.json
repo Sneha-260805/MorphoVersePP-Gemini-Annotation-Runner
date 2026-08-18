@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "grief and intense inner realization during song",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the specific resonance of 'ojassu' (vital energy/splendor/power) is simplified to 'power' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker experiences intense emotional pain, vulnerability, or overwhelming feeling while singing.",
+            "acceptable_visual_variants": [
+              "A stylized heart symbol with a clean crack down the center",
+              "A person singing with their hand over their chest as if holding themselves together"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L2",
+            "literal_meaning": "The physical heart organ cracking or shattering into pieces.",
+            "literalization_risk": "Depicting a literal anatomical heart cracking open like stone or glass, which looks like a medical horror or physical injury rather than emotional vulnerability.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional pain",
+              "transferred_attributes": [
+                "fragmentation",
+                "irreversibility",
+                "sudden impact"
+              ],
+              "vehicle_concept": "shattering object"
+            },
+            "source_span_original": "ಹೃದಯವು ಮುರಿಯುವುದು",
+            "source_span_translation": "The heart breaks",
+            "source_term": "ಹೃದಯವು ಮುರಿಯುವುದು",
+            "tenor": "Intense emotional pain or vulnerability",
+            "vehicle": "A physical object breaking or shattering",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a human figure singing with a subtle, glowing fracture line across their chest, or a stylized, symbolic heart shape that is gently cracked with light leaking through."
+          },
+          {
+            "abstract_meaning": "The vast, expansive boundary of human consciousness, thoughts, and feelings.",
+            "acceptable_visual_variants": [
+              "An expansive, misty landscape with a distant, glowing horizon line",
+              "A silhouette of a head merging into a vast sky and horizon"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "At the physical horizon line where the sky meets the earth, belonging to the mind.",
+            "literalization_risk": "Showing a literal brain or head with a landscape and horizon line inside it, which can look surrealist or bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental expanse",
+              "transferred_attributes": [
+                "vastness",
+                "limitlessness",
+                "distant boundary"
+              ],
+              "vehicle_concept": "physical horizon"
+            },
+            "source_span_original": "ಮನದ ದಿಗಂತದಲ್ಲಿ",
+            "source_span_translation": "In the horizon of the mind",
+            "source_term": "ಮನದ ದಿಗಂತದಲ್ಲಿ",
+            "tenor": "The vast expanse of human consciousness",
+            "vehicle": "The physical horizon line",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, open landscape at twilight or dawn where the horizon is soft and infinite, suggesting a mental space or internal landscape."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the rhythmic alliteration of the 'ha' sound (haadu haaduvaaga, hridayavu, huchchu) which creates a breathless, musical quality in the original Kannada text.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Sanskrit-derived term 'ojassu' (splendor, vital energy, spiritual power) is translated as 'power', which flattens its deeper connotations of radiant, life-force energy.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The painful yet powerful emotional release of singing, which breaks the heart but illuminates the mind's horizon."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಹಾಡು ಹಾಡುವಾಗ,  \nಹೃದಯವು ಮುರಿಯುವುದು,  \nಹುಚ್ಚು ನಗೆಯ ಓಜಸ್ಸು,  \nಮನದ ದಿಗಂತದಲ್ಲಿ.",
+  "poem_id": "MV++_1016",
+  "poem_title": "Haadu Haduvaaga",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "17739c3f2600e4251e1e3e9ef043b2cc368dac1340b39b6bc1b5b4937a7871f4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1016.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "When I sing,  \nThe heart breaks,  \nThe power of a wild smile,  \nIn the horizon of the mind.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:46:08.897271+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6416a6e0c2d0fd217e5c174107a7dcba5cc535655152c95a9eb6d7d89429d78",
+        "response_hash": "21017deee4bce8beb9ec9359f5becc41cfbe7f24430d1c3050d7643a040d7046"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "14f42d907aa650c7b266153731a381102d92a62de2eca58f8d209afe70982547",
+        "response_hash": "c6e1462212fcb06297c209a405daa6e0f9147e0fcaf628f179eec53376ae955b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "20de82727a0ac8669ef70e93304c76bc2f48c19f9e4d862564b3e2a9e4f19441",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "810f4840737980a3b6ad193e504d013ecd2104ded0b81bcc50a9a8d827992a52",
+        "response_hash": "8214b0277b52814846fb448c9adc4347106f1e208799b647c668349dca6e7ffe",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da9b323308dc2b9fe11c96cba2210ff02945130d2b23e120efffdc57356f9c13",
+        "response_hash": "567c2c98a0c1a5d80d1a38fc22f765578e2bda27e997720a1ddf85ff67e15c87",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5a9d2aec3a139a8dbe6dff0e673d1d3f16cec9ee612a5b5a3e6f08675ad485ec",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1a3bef77c3ab2414a13ad009b9e54e1d171dd30617f6b441fcfc7947ae9e69c7",
+    "translation_sha256": "0be1db55b0814f0afccaafc39b27453e17f82e1b3f60d22b4e2640463a1706fc"
+  }
+}

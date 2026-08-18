@@ -1,0 +1,200 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and wonder over the passage of time and memory",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation simplifies the compound verb 'haridu haarida' (which carries a sense of tearing/breaking apart and then flying/fleeing away) to merely 'flew away', losing the physical nuance of tearing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The bright, cheerful, and welcoming nature of the daytime.",
+            "acceptable_visual_variants": [
+              "A sunlit meadow bathed in warm, golden morning light",
+              "A clear blue sky with gentle sunlight filtering through green leaves"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The day that smiles",
+            "literalization_risk": "Showing a literal face with a mouth drawn on a sun or sky, which looks like a children's cartoon rather than a poetic landscape.",
+            "metaphor_mapping": {
+              "tenor_concept": "bright daytime",
+              "transferred_attributes": [
+                "warmth",
+                "cheerfulness",
+                "brightness"
+              ],
+              "vehicle_concept": "smiling human"
+            },
+            "source_span_original": "ನಗುವ ಹಗಲು",
+            "source_span_translation": "The smiling day",
+            "source_term": "ನಗುವ ಹಗಲು",
+            "tenor": "The bright and pleasant daytime",
+            "vehicle": "A smiling human face",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a bright, warm, sunlit landscape that naturally evokes a cheerful, welcoming mood without drawing literal facial features on the sky."
+          },
+          {
+            "abstract_meaning": "The rapid movement, fading, or breaking away of the moon across the night sky.",
+            "acceptable_visual_variants": [
+              "A moon drifting behind fast-moving night clouds",
+              "A faint moon low on the horizon, appearing to slip away into the dawn"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The moon that tore and flew away",
+            "literalization_risk": "Depicting a literal moon with wings flying like a bird, or physically ripping in half, which ruins the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "the moon moving across the sky",
+              "transferred_attributes": [
+                "swift movement",
+                "disappearance",
+                "detachment"
+              ],
+              "vehicle_concept": "a flying bird or drifting torn object"
+            },
+            "source_span_original": "ಹರಿದು ಹಾರಿದ ಚಂದಿರ",
+            "source_span_translation": "The moon that flew away",
+            "source_term": "ಹರಿದು ಹಾರಿದ ಚಂದಿರ",
+            "tenor": "The moon moving swiftly or disappearing from view",
+            "vehicle": "A bird or a piece of paper tearing and flying away",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a crescent or full moon partially obscured by fast-moving, wispy clouds, giving the visual impression of swift flight or drifting away."
+          },
+          {
+            "abstract_meaning": "The fleeting, transient nature of life's journey, compared to the sun's daily passage across the sky which leaves only memories behind.",
+            "acceptable_visual_variants": [
+              "A sunset over a vast horizon with the sun half-dipped below the edge",
+              "A twilight sky with the last orange rays of the sun fading into deep blue"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Like the memory of that sun's flight/journey",
+            "literalization_risk": "Depicting a literal sun flying through the air like an airplane or a bird, which looks comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "the passage of human life and memory",
+              "transferred_attributes": [
+                "transience",
+                "inevitable movement",
+                "leaving only memories behind"
+              ],
+              "vehicle_concept": "the sun's daily transit across the sky"
+            },
+            "source_span_original": "ಆ ಸೂರ್ಯನ ಓದು ಹಾರಿದ ನೆನೆಪಿನಂತೆ",
+            "source_span_translation": "Like the memory of that sun's journey",
+            "source_term": "ಆ ಸೂರ್ಯನ ಓದು ಹಾರಿದ ನೆನೆಪಿನಂತೆ",
+            "tenor": "The fleeting nature of life and time",
+            "vehicle": "The memory of the sun's swift daily passage or flight",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dramatic sunset with long shadows, capturing the transition from day to night to symbolize a journey that has passed and left only a memory."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada verb 'haridu' (ಹರಿದು) in L2 carries a double meaning of 'flowing/tearing' and 'flying/running' (from 'hari'), which is flattened to just 'flew away' in the English translation, losing the fluid, tearing, or flowing quality of the moon's movement.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The word 'odu' (ಓದು) in L4 literally means 'reading' or 'study' in Kannada, but is translated as 'journey' in English to make sense of the solar metaphor, losing the literal connection to learning, reading, or reciting.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The fleeting nature of time, celestial cycles, and memory"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ನಗುವ ಹಗಲು,  \nಹರಿದು ಹಾರಿದ ಚಂದಿರ,  \nಅವನೊಡು ಬಾಳಿಗೆ ಗೀತ ಹಾಡಿದ,  \nಆ ಸೂರ್ಯನ ಓದು ಹಾರಿದ ನೆನೆಪಿನಂತೆ.",
+  "poem_id": "MV++_1106",
+  "poem_title": "Bhaarati",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2b97a5d16212c27eaf52452d63b65ee7a1521421afa68da82e962b10fead0c34",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1106.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The smiling day,  \nThe moon that flew away,  \nSinging a song to life with him,  \nLike the memory of that sun's journey.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:58:21.626267+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b2f0e58af1e412dcca994478caa8d1dbb5e5baf29a4c194f9f597127ce696ae2",
+        "response_hash": "6e067d43ec8b12050d97ae0c315f6a01a2ba85d468c84aeb17c1b49f27580095"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ba4a9680d33738c4135e745809515c36acc9705619f333207ef717a60400b97f",
+        "response_hash": "f3a26a5dc31b7667c644f0e59c0d93251cfab38d5b1b7fcf41154762986d0e74",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8024273b866692f5e5bc9d72795886068b7f5ab178f5f1d4c2969046ecd2b1a5",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fd92d8082842422d22e30ffcdb0080ed4a40847145593212670ef9db2a6d7135",
+        "response_hash": "ccc83577d32c8630dbb77aec372387b978aaf584ea06701e2b095b38aba7c9fb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d091c9c280fdb4bd9435e6a57df997a0fdbb78353d003c36dfce620faaaa8b5",
+        "response_hash": "d9b6a9784e961fd34e138f9ce3d7ee1fef4de577333026123440d7a69fed25a6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0f68bc0badf5a9a286459710bef99700d92290543595d178a3a074f582dcf4c3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3d85b9dc9934d15f9ed56eb9c0464e72ecc5865b36ae95b375e732b811213ae0",
+    "translation_sha256": "fd96a64db2813db6a3bb91c710176e55d876853d2269a7657dc13d817643c249"
+  }
+}

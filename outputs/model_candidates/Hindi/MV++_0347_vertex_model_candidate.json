@@ -1,0 +1,284 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "grief and sadness to quiet resilience and longing",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Silence is absolute and dominates the entire landscape.",
+            "acceptable_visual_variants": [
+              "A desolate forest clearing with fallen yellow leaves and no wind",
+              "Bare branches stretching into a gray, empty sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Silence has a loud voice or is speaking loudly",
+            "literalization_risk": "Depicting a physical figure shouting or ruling on a throne would completely contradict the concept of silence.",
+            "metaphor_mapping": {
+              "tenor_concept": "Absolute silence",
+              "transferred_attributes": [
+                "dominance",
+                "pervasiveness",
+                "authority"
+              ],
+              "vehicle_concept": "A dominant ruler or loud voice"
+            },
+            "source_span_original": "सन्नाटे का बोलबाला है",
+            "source_span_translation": "Silence reigns supreme",
+            "source_term": "सन्नाटे का बोलबाला है",
+            "tenor": "The absolute quietness of the forest",
+            "vehicle": "A loud, dominant speaker or ruler",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, completely still forest with bare branches and no signs of movement or life to evoke absolute quiet."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial idiom 'bolbala' (dominance, prevailing influence) is translated as 'reigns supreme', which captures the meaning but loses the specific cultural register of the Hindustani idiom.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The flowers have withered in a way that resembles lost, unfulfilled, or dried-up hopes and dreams.",
+            "acceptable_visual_variants": [
+              "Shriveled, brown flower petals scattered on dry soil",
+              "A single drooping, dried flower head clinging to a stem"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L5",
+            "literal_meaning": "In the manner of dried-up or desiccated dreams",
+            "literalization_risk": "Trying to draw literal 'dreams' drying up like physical leaves or fruit would look surreal and confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "Withered flowers",
+              "transferred_attributes": [
+                "loss of vitality",
+                "dryness",
+                "decay",
+                "unfulfillment"
+              ],
+              "vehicle_concept": "Dried-up dreams"
+            },
+            "source_span_original": "सूखे हुए सपनों की तरह",
+            "source_span_translation": "Like dried-up dreams",
+            "source_term": "सूखे हुए सपनों की तरह",
+            "tenor": "Withered flowers",
+            "vehicle": "Dried-up, desiccated dreams",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the physical tenor (shriveled, dry, colorless flowers on the ground) while using dim, melancholic lighting to suggest the abstract mood of lost hope."
+          },
+          {
+            "abstract_meaning": "The vibrant, lively, and colorful phase of nature (spring/summer) has come to an end.",
+            "acceptable_visual_variants": [
+              "A landscape transitioning from muted, pale yellow to gray",
+              "Faded, washed-out leaves on the ground losing their brightness"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "A game or play of colors",
+            "literalization_risk": "Showing children playing with physical paints or colors (like Holi) would completely misrepresent the autumn forest setting.",
+            "metaphor_mapping": {
+              "tenor_concept": "Vibrant seasonal colors of nature",
+              "transferred_attributes": [
+                "liveliness",
+                "variety",
+                "joy",
+                "temporary nature"
+              ],
+              "vehicle_concept": "A playful game or performance"
+            },
+            "source_span_original": "रंगों का खेल",
+            "source_span_translation": "The play of colors",
+            "source_term": "रंगों का खेल",
+            "tenor": "The vibrant, colorful season of blooming flowers and green leaves",
+            "vehicle": "A playful game or performance of colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a stark contrast between a dull, monochrome autumn landscape and a tiny hint of fading color to represent the end of the vibrant season."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The phrase 'jo chhoota' implies a sudden cessation, leaving behind, or slipping away of the play of colors, which is flattened into 'has ended' in the English translation.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The rustling sound of the dry leaves represents the ongoing presence of life and vitality despite decay.",
+            "acceptable_visual_variants": [
+              "A gust of wind lifting yellow leaves in a spiral",
+              "Leaves rustling and vibrating on branches in a strong breeze"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L10",
+            "literal_meaning": "Sings the song of life",
+            "literalization_risk": "Depicting leaves with human mouths singing notes would look cartoonish and ruin the melancholic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "Rustling sound of leaves",
+              "transferred_attributes": [
+                "musicality",
+                "expression of vitality",
+                "communication"
+              ],
+              "vehicle_concept": "Singing a song"
+            },
+            "source_span_original": "जीवन का गीत गाती है",
+            "source_span_translation": "Sings a song of life",
+            "source_term": "जीवन का गीत गाती है",
+            "tenor": "The rustling sound of dry leaves in the wind",
+            "vehicle": "A singer performing a song",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict dry leaves being swept up in a dynamic swirl of wind, conveying movement, energy, and sound visually."
+          },
+          {
+            "abstract_meaning": "The yellow, fading state of the forest harbors a quiet, unfulfilled emotional depth or longing.",
+            "acceptable_visual_variants": [
+              "Soft sunlight illuminating a single golden leaf hanging on a bare branch",
+              "A quiet path covered in yellow leaves under a hazy, warm sunset sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "An incomplete love is hidden",
+            "literalization_risk": "Depicting literal hearts or lovers hiding behind leaves would be overly literal and cheesy.",
+            "metaphor_mapping": {
+              "tenor_concept": "The yellow hue of autumn leaves",
+              "transferred_attributes": [
+                "melancholy",
+                "quietness",
+                "unfulfillment",
+                "hidden depth"
+              ],
+              "vehicle_concept": "A hidden, unfulfilled love"
+            },
+            "source_span_original": "अधूरा सा प्रेम छुपा है",
+            "source_span_translation": "An incomplete love is hidden",
+            "source_term": "अधूरा सा प्रेम छुपा है",
+            "tenor": "The quiet, melancholic beauty of the yellowing autumn forest",
+            "vehicle": "A hidden, unfinished romantic or emotional bond",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Use warm but soft, fading golden-hour light filtering through the yellow leaves to evoke a sense of tender, quiet longing and nostalgia."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The suffix '-sa' in 'adhoora sa' adds a layer of soft approximation, meaning 'somewhat incomplete' or 'seemingly incomplete', which is simplified to a direct 'incomplete' in the translation.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Finding enduring life and hidden love within the quiet decay of autumn"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पीले पत्तों का बन,  \nहवा के संग चलता है।  \nपेड़ की शाखाओं पर,  \nसन्नाटे का बोलबाला है।  \n\nसूखे हुए सपनों की तरह,  \nफूल भी मुरझाए हैं।  \nरंगों का खेल जो छूटा,  \nहर ओर उदासी छाई है।  \n\nफिर भी इन पत्तों की खड़खड़ाहट,  \nजीवन का गीत गाती है।  \nइनकी पीली रंगत में,  \nअधूरा सा प्रेम छुपा है।",
+  "poem_id": "MV++_0347",
+  "poem_title": "Peele Patton Ka Ban",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d2224588345476f3b5cc95acdcc8e4a9e5f06b208618fa2278f4bdff49f3f304",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0347.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A forest of yellow leaves,  \nMoving along with the wind.  \nOn the tree branches,  \nSilence reigns supreme.  \n\nLike dried-up dreams,  \nThe flowers have withered too.  \nThe play of colors has ended,  \nSadness spreads everywhere.  \n\nYet the rustling of these leaves,  \nSings a song of life.  \nIn their yellow hue,  \nAn incomplete love is hidden.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:15:14.549675+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e0b2331549ffb7901c4aaaec5a731ce56445d007d398539aea22ad8492ac4037",
+        "response_hash": "0fda4f9477b908bb7643aee97a9678d515e6f1eca620ca454ce73c7733c0b0dd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "34535d5a25071e15846c0a3a911519c829a7450ff9800ee68945fdfc0bf18cc2",
+        "response_hash": "0e30a34edd3db46c0d04fcaaeb6fff364ad819a6acc2bdd2e83d0f9177f05c96",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "42d0abfbf6aca0896edc45b572e03775c02549c9371a44a018b3f3394a54afb5",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be7dff62a202786c7bf7f1ed452a55c7cba6554bdf0d5a620e56c34e13eeb70f",
+        "response_hash": "195d7633eba9c38b92adcd79beb88a4d2dfa5f8d3a0cf6042eb234e138c2f766",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "185423ae8dac38ed66d92ec6f360580a0b88e00fc6d8b667e57a2c439a27253c",
+        "response_hash": "8d2a5c5f8ff41185dd56f481dc862f6934edbb0f10a8bfe911a22900e47a2d71",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "550569cab0efbad7c79e0a7c795bbb0370409a0a8e66c3e0dd87fc74d9bf6d50",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4448d2512050aaf0d73c0be0edeeefbfe8ae1da008acc5d7332dd1bd4a6e9c7b",
+    "translation_sha256": "72c65625d512f88718352e973bc4193805d58dd98fd5a15a6a49bc480e0ce112"
+  }
+}

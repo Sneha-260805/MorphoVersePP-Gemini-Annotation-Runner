@@ -1,0 +1,195 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A serene coastal lagoon reflecting moonlight",
+          "A quiet waterway with gentle ripples"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A backwater or lagoon, characteristic of the coastal network of waterways in Kerala.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A rushing mountain river",
+          "An open ocean with large waves"
+        ],
+        "preserved": true,
+        "romanization": "kayalil",
+        "source_span_original": "കായലിൽ,",
+        "source_span_translation": "backwaters",
+        "stanza_index": 1,
+        "term": "കായലിൽ",
+        "translation_note": "The locative form of 'kayal' (backwater), which is a defining geographical and cultural feature of the Kerala landscape. The translation renders it as 'backwaters'.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A calm, wide brackish water body",
+          "Fringed by distant shorelines"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A stylized representation of a ritual dancer in the shadows",
+          "A dramatic, shadow-like silhouette of a Theyyam performer by the water"
+        ],
+        "category": "FESTIVAL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional ritual dance festival performed in temples and sacred groves of North Malabar, Kerala, associated with Theyyam.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A generic modern theatrical dance",
+          "A classical Kathakali performance with full green makeup"
+        ],
+        "preserved": false,
+        "romanization": "kaliyattam",
+        "source_span_original": "കാളിയാട്ടം.",
+        "source_span_translation": "The dance of shadows",
+        "stanza_index": 1,
+        "term": "കാളിയാട്ടം",
+        "translation_note": "The translation renders 'kaliyattam' as 'The dance of shadows' (conflating it with the shadow play theme), losing the specific cultural reference to the traditional ritual dance festival of North Malabar (a precursor or variant of Theyyam).",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "Vibrant ritualistic dance movements",
+          "Intricate traditional attire or symbolic gestures of Theyyam performers"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing and quiet reflection on fading memories",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation rearranges the lines and translates 'Kaaliyattam' (a ritualistic/frenzied dance or play) simply as 'dance of shadows', losing its intense, cultural, and rhythmic connotations.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's fading, stumbling memories are conceptualized as a dark, intense dance of shadows or a ritualistic performance that covers the landscape of the mind.",
+            "acceptable_visual_variants": [
+              "Distorted human silhouettes dancing on the edge of a moonlit backwater, their forms dissolving into mist",
+              "Abstract dark shapes resembling dancing figures rippling across water under a flickering moon"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4-L6",
+            "literal_meaning": "A Kali dance (or fierce dance) covered by stumbling memories",
+            "literalization_risk": "Showing a literal ritual dancer of Kali physically covered by floating brain-shaped memories, which ruins the atmospheric, psychological mood of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "fading memories",
+              "transferred_attributes": [
+                "intensity",
+                "unpredictable movement",
+                "obscuring clarity",
+                "stumbling rhythm"
+              ],
+              "vehicle_concept": "Kaliyaattam (fierce ritual dance)"
+            },
+            "source_span_original": "ഇടറുന്ന ഓർമകൾ\nമൂടിയ\nകാളിയാട്ടം",
+            "source_span_translation": "The dance of shadows\nCovered by\nFading memories",
+            "source_term": "ഇടറുന്ന ഓർമകൾ മൂടിയ കാളിയാട്ടം",
+            "tenor": "The chaotic, fading, and overlapping nature of human memories as they slip away",
+            "vehicle": "A fierce, ritualistic dance (Kaliyaattam) obscured or covered by stumbling steps",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a dark, shimmering water surface at night with distorted, dancing shadows cast by moonlight, where the shapes of the shadows blur and dissolve into the ripples to suggest fading thoughts."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'കാളിയാട്ടം' (Kaliyaattam) as 'The dance of shadows', which completely loses the specific cultural reference to the ritualistic dance form of northern Kerala (Theyyam/Kaliyaattam) and its intense, sacred, and dramatic connotations.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation rearranges the syntax and translates 'ഇടറുന്ന' (stumbling/faltering) as 'Fading', which softens the physical sense of faltering or trembling inherent in the Malayalam word.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The fleeting, shadow-like nature of memories cast over a quiet landscape."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Malayalam",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "നിഴലാട്ടം  \nചിമ്മുന്ന നിലാവിൻ  \nകായലിൽ,  \nഇടറുന്ന ഓർമകൾ  \nമൂടിയ  \nകാളിയാട്ടം.",
+  "poem_id": "MV++_1180",
+  "poem_title": "Nizhalattam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c7047a0e55522e3ca6dedd42f60c2349b4ccb368b36977b558f80e2a1cd970bd",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Malayalam/MV++_1180.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Shadow play,  \nIn the shimmering moonlight  \nOver the backwaters,  \nThe dance of shadows  \nCovered by  \nFading memories.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:06:06.879276+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1e73ad8760452b0aa1b76e1088be53e69bfbf3ef6ef75b2b9e10c5b29351f5ac",
+        "response_hash": "41c3750f3c9986eb447ccf30ac76f7f8a4daa8675c2eb1a0e57096c74605f70a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "901659c7b2873dd51ee9740fddd998b9db01e8913beaa2ebabe88b51ed93588a",
+        "response_hash": "a2e3554e31f88eed06595e564cfd08c7b24a603d11e2508ea7d89cb51b515ab9",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7e998729b307962a468ba8de558e69118d6868bf86387dff6c470fd0d1bd80c",
+        "response_hash": "ad70a45064bfdd5538cfc8ef4f55276019df2a5a51f18b7202c314a730654398",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c3cc1d78022c04ef46e9c9b6bdf153a4a1e1aaa360effc3c6ca481f6503793b1",
+        "response_hash": "90915cfb30671f883ce49a0c15e4bff514afcacd745afa2fc13f97926c63fdc9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "71e4bc15aa679094633fa38caeb5600341c7e66423ee531cdbf314c413a981e2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "54e906641057e2846653e2e93c63cec5309f5bc4570b2c30eee42503e6fbbbfd",
+    "translation_sha256": "b7d091a35136d6fd7f8dd7690df62cc59668df452e7a301267901815fe6b8bfc"
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A warrior-like female figure in classical Indian attire holding a sword or bow",
+          "A modern woman in simple attire holding a symbolic weapon of self-defense"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A central female protagonist of the Hindu epic Mahabharata, known for her resilience and the public humiliation she faced in the assembly hall of Hastinapur. Here, she is invoked as a symbol of self-reliance and resistance.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Depicting her solely as a weeping, helpless victim wrapped in endless cloth, which contradicts the poem's call to take up arms."
+        ],
+        "preserved": true,
+        "romanization": "Draupadi",
+        "source_span_original": "द्रौपदी",
+        "source_span_translation": "Draupadi",
+        "stanza_index": 1,
+        "term": "द्रौपदी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A classical Indian woman of royal stature, depicted with determination, holding or reaching for a weapon (shastra) rather than appearing as a helpless victim."
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A faint, distant, or fading silhouette of Krishna in the background",
+          "No physical depiction of the deity, focusing entirely on Draupadi's realization of his absence"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "An epithet of Lord Krishna, who in the Mahabharata epic miraculously protected Draupadi's honor during her public disrobing (cheerharan) by extending her sari infinitely. The poem notes that he will not come this time, urging self-reliance.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "Depicting Krishna actively intervening or rescuing her, which directly contradicts the line 'Govind will not come today'."
+        ],
+        "preserved": true,
+        "romanization": "Govind",
+        "source_span_original": "गोविंद",
+        "source_span_translation": "Govind",
+        "stanza_index": 1,
+        "term": "गोविंद",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A divine figure associated with Krishna, often depicted with blue skin, traditional crown, or peacock feather, though here his absence is emphasized."
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "An ancient stone palace facade with royal banners",
+          "A dark, looming architectural silhouette representing oppressive authority"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The ancient capital city of the Kuru kingdom in the Mahabharata, representing the oppressive royal court and the establishment that challenged and failed to protect Draupadi.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A generic modern city skyline or a peaceful, welcoming temple complex."
+        ],
+        "preserved": true,
+        "romanization": "Hastinapur",
+        "source_span_original": "हस्तिनापुर",
+        "source_span_translation": "Hastinapur",
+        "stanza_index": 1,
+        "term": "हस्तिनापुर",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An imposing, ancient Indian palace assembly hall or fortress gates representing a hostile royal court."
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A symbolic stage with long drapes of cloth being pulled or burning",
+          "An abstract representation of a court assembly with hostile onlookers and a central focus on dignity under threat"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The mythological event of the attempted public disrobing of Draupadi by Dushasana in the royal court of Hastinapur, a pivotal moment of dishonor and divine intervention in the Mahabharata.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A literal, graphic depiction of sexual violence or a modern theatrical stage play unrelated to the epic context."
+        ],
+        "preserved": false,
+        "romanization": "cheerharan",
+        "source_span_original": "चीरहरण",
+        "source_span_translation": "disgrace and shame",
+        "stanza_index": 2,
+        "term": "चीरहरण",
+        "translation_note": "Translated abstractly as 'disgrace and shame', losing the specific mythological reference to the forced disrobing of Draupadi in the assembly hall.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "A stage or assembly hall setting reminiscent of a court of dishonor, with discarded or pulled fabrics symbolizing the threat of disrobing."
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "From urgent warning and disillusionment to fierce self-reliance and defiance.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation adds 'today' to line 2 ('now' or 'anymore' is closer to 'ab') and translates 'bhujbal' (strength of arms/shoulders) as 'own strength', slightly softening the physical, martial imagery of the original.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The oppressive power structure or the hostile assembly of the kingdom will challenge and threaten her.",
+            "acceptable_visual_variants": [
+              "A dark, towering silhouette of an ancient Indian palace fortress",
+              "An imposing, empty throne room with hostile banners representing the state power"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "The city of Hastinapur will shout a challenge",
+            "literalization_risk": "Showing a literal city or buildings shouting or speaking, which looks cartoonish and misses the human oppression.",
+            "metaphor_mapping": {
+              "tenor_concept": "The oppressive political and social authorities of that kingdom",
+              "transferred_attributes": [
+                "voice",
+                "agency",
+                "hostility",
+                "ability to challenge"
+              ],
+              "vehicle_concept": "A physical city or kingdom"
+            },
+            "source_span_original": "हस्तिनापुर ललकारेगा",
+            "source_span_translation": "Hastinapur will challenge your way",
+            "source_term": "हस्तिनापुर ललकारेगा",
+            "tenor": "The hostile rulers and assembly of the kingdom",
+            "vehicle": "The physical city/kingdom of Hastinapur acting as a human challenger",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a looming, dark, or imposing ancient palace gate or assembly hall facade casting a long shadow over a single figure, representing the hostile state."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'today' ('will not come today') which is not present in the original Hindi text ('अब गोविंद न आएंगे' - 'now Govind will not come'). This slightly alters the temporal scope of the warning, making it sound like a temporary absence rather than a permanent shift in responsibility.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'भुजबल' (bhujbal) as 'strength' loses the specific physical imagery of 'strength of one's own arms' (bhuj = arm, bal = strength), which emphasizes physical self-defense and taking up weapons.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "anger",
+        "index": 2,
+        "loss_note": "The translation renders 'cheerharan' (the specific mythological act of stripping/disrobing Draupadi) as 'disgrace and shame', which loses the direct, visceral connection to the epic event. 'Sabha' is translated as 'court', which is functional but loses the specific assembly/council connotation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A place or public arena where a person is systematically humiliated and stripped of their dignity.",
+            "acceptable_visual_variants": [
+              "A raised stone dais in a dark, pillared hall",
+              "An empty, elevated platform surrounded by shadows of onlookers"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A theatrical stage built for the disrobing/stripping of a woman",
+            "literalization_risk": "Depicting an actual wooden theatrical stage with actors, which distracts from the solemnity of the assembly hall.",
+            "metaphor_mapping": {
+              "tenor_concept": "A public space of state-sanctioned humiliation",
+              "transferred_attributes": [
+                "public visibility",
+                "deliberate performance",
+                "spectatorship"
+              ],
+              "vehicle_concept": "A theatrical stage"
+            },
+            "source_span_original": "चीरहरण का मंच",
+            "source_span_translation": "stage of disgrace and shame",
+            "source_term": "चीरहरण का मंच",
+            "tenor": "The royal assembly hall where public humiliation is permitted",
+            "vehicle": "A theatrical stage or platform built for a specific performance",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a raised, cold stone platform within an ancient assembly hall, empty of actors but lit dramatically to suggest a site of public trial."
+          },
+          {
+            "abstract_meaning": "Self-respect and dignity will be completely destroyed and consumed by the hostile environment.",
+            "acceptable_visual_variants": [
+              "A single, small flame consuming a delicate piece of fabric on a cold floor",
+              "A shadow of a proud figure appearing to dissolve into embers"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Self-respect will catch fire and burn to ashes",
+            "literalization_risk": "Showing a literal person or heart on fire, which looks like physical violence rather than emotional/moral destruction.",
+            "metaphor_mapping": {
+              "tenor_concept": "Destruction of an abstract quality (dignity)",
+              "transferred_attributes": [
+                "heat",
+                "destruction",
+                "turning to ash",
+                "pain"
+              ],
+              "vehicle_concept": "Fire/burning"
+            },
+            "source_span_original": "स्वाभिमान जलेगा",
+            "source_span_translation": "dignity alone will burn",
+            "source_term": "स्वाभिमान जलेगा",
+            "tenor": "The destruction of personal dignity and honor",
+            "vehicle": "Fire consuming a physical object",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a symbolic, flickering flame consuming a delicate, non-physical object like a royal veil or a crown of light, or use warm, destructive light casting over a proud silhouette."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'चीरहरण' (cheerharan) as 'disgrace and shame'. This completely loses the highly specific cultural and mythological reference to the disrobing of Draupadi in the Mahabharata assembly, flattening a powerful, culturally-loaded noun into generic abstract terms.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'स्वाभिमान' (swabhimaan) as 'dignity' is a reasonable approximation, but it loses the specific nuance of 'self-respect' or 'self-pride' which is central to Draupadi's character arc and her refusal to submit.",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'साहाय' (saahay - helper/ally) as 'none will step in your name' changes the grammatical structure and slightly alters the meaning from a lack of active helpers/allies to a lack of advocates speaking up.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation of 'cheer kar' (tearing through/cutting through) as 'through' loses the active, physical force of tearing through the flame of sorrow.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Overcoming and pushing through intense emotional suffering and adversity.",
+            "acceptable_visual_variants": [
+              "A figure walking resolutely through a dark corridor illuminated by intense, fiery light on both sides",
+              "A silhouette stepping forward out of a background of smoke and embers"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "Tearing or cutting through a physical wall of fire made of grief",
+            "literalization_risk": "Showing a woman literally tearing a flame with her hands, which looks like a magical superpower rather than emotional resilience.",
+            "metaphor_mapping": {
+              "tenor_concept": "Intense emotional suffering",
+              "transferred_attributes": [
+                "intense heat",
+                "barrier",
+                "danger",
+                "necessity of passing through"
+              ],
+              "vehicle_concept": "A wall of fire"
+            },
+            "source_span_original": "दुख की इस ज्वाला को चीर कर",
+            "source_span_translation": "Through this fire of sorrow",
+            "source_term": "दुख की इस ज्वाला को चीर कर",
+            "tenor": "The process of enduring and overcoming intense emotional pain",
+            "vehicle": "A physical barrier of fire that must be parted or walked through",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a determined female figure walking forward through a path flanked by rising, stylized flames or embers, parting them with her posture."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'दुख की इस ज्वाला को चीर कर' as 'Through this fire of sorrow' loses the active verb 'चीर कर' (tearing through / ripping apart), which mirrors the physical action of tearing through cloth (evoking the cheerharan) or cutting through obstacles, replacing it with the passive preposition 'Through'.",
+            "where": "L11"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'you must remember' to create a rhyme with 'defender', which is not present in the original Hindi text ('अब अपना अधिकार लो' - 'now take your rights'). This introduces an external obligation of memory rather than the direct, active command to seize one's rights.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The necessity of self-defense and reclaiming agency in the face of systemic injustice, using the mythological figure of Draupadi to urge women to rely on their own strength rather than waiting for divine or societal rescue."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सुनो द्रौपदी, शस्त्र उठाओ,  \nअब गोविंद न आएंगे,  \nअपने भुजबल पर विश्वास करो,  \nअब हस्तिनापुर ललकारेगा।  \n\nयह सभा नहीं जो न्याय करे,  \nयह चीरहरण का मंच है,  \nयहां केवल स्वाभिमान जलेगा,  \nयहां कोई न साहाय बनेगा।  \n\nसुनो द्रौपदी, शस्त्र उठाओ,  \nअब अपने रक्षक स्वयं बनो,  \nदुख की इस ज्वाला को चीर कर,  \nअब अपना अधिकार लो।",
+  "poem_id": "MV++_0464",
+  "poem_title": "Suno Draupadi Shastra Uthao",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "8a53551cd30475bf5a8dbad3a6dcb0f9fde8e22bc5deb7f03841b4e686c3bf4f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0464.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Listen, Draupadi, take up arms,  \nFor Govind will not come today,  \nTrust now in your own strength,  \nFor Hastinapur will challenge your way.\n\nThis is no court to serve justice,  \nIt is a stage of disgrace and shame,  \nHere, dignity alone will burn,  \nHere, none will step in your name.\n\nListen, Draupadi, take up arms,  \nBecome now your own defender,  \nThrough this fire of sorrow,  \nClaim the rights you must remember.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:27:18.096209+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a9fd9f3fa4cb872e054bed05ed5367185b19aeeeac5bf6cec1a6366ad7e7c42e",
+        "response_hash": "1de0b17a43420bd79d24a89ea6cfb075e80c7d57ad2fbdd7a183a1175ded61d2"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "985956602b1986620b935d2bca75691a3dada77233ba38e7f8d91ecdddc626e0",
+        "response_hash": "312d4e8961d897e4206f4efbfd50be661432c46079d96650c78da9685f32f199",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "439815c05256e267d0bb9d5c21b95110bafc1329e8221044f83038c19f189500",
+        "response_hash": "61b95ed972d77ed67d67ffd6f59f68f71a0ee5a4e726221d131822a10c88889f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "03c30738bfe3e887d63c362192b86a435a446c8d5784da0eb58d6fce6e11638e",
+        "response_hash": "80b00e20ee5982b321a520510ded2b4f786d246275bd87b14650a1e040515c20",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4a373c8ccd2ea035432a3dbb9437750edd30ddd24bc1ef5b29984807b9a394a2",
+        "response_hash": "7cd24df74faa12c1a6d2f2ad8e5180b6cd5b5b60be203b14764c385083b11a69",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db65b930a21cd5ba7f68145e1ceb3b298e19fba2e33ca990afc1980ec17a1500",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "24790853050af2bc1c192ef868153add23a71851e7aa9991b2d7f31d15131c30",
+    "translation_sha256": "509e0e7d5a155c9aa7ed1645cae63c1ed5462a0450f3f9d09519efa9369f455c"
+  }
+}

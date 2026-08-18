@@ -1,0 +1,255 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing for freedom, questioning stagnation, and rising to defiant resilience",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A human soul or individual seeking freedom and self-realization.",
+            "acceptable_visual_variants": [
+              "A bird soaring high above colorful clouds",
+              "A human figure standing on a cliff with arms outstretched like wings looking at a vast sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A bird",
+            "literalization_risk": "An illustrator might draw a literal sparrow or pigeon, missing the deeper human quest for freedom and self-determination.",
+            "metaphor_mapping": {
+              "tenor_concept": "human soul seeking liberation",
+              "transferred_attributes": [
+                "freedom",
+                "unbound movement",
+                "choosing one's own path"
+              ],
+              "vehicle_concept": "bird flying freely"
+            },
+            "source_span_original": "पंछी",
+            "source_span_translation": "bird",
+            "source_term": "पंछी",
+            "tenor": "A human being seeking personal freedom and breaking free from constraints",
+            "vehicle": "A bird flying in the open sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, majestic bird soaring high into vast, colorful clouds, or a human silhouette transitioning into a bird-like form of light."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The colloquial, intimate, and urgent tone of the Hindi particle 're' (रे) in 're panchi' is lost, as the English 'O bird' sounds more formal and archaic than the original.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "fear",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A person who is comfortable with their self-imposed limitations and fears stepping out of their comfort zone.",
+            "acceptable_visual_variants": [
+              "A small bird huddled on a single branch looking down",
+              "A bird inside an open cage but choosing not to fly out"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L9-L11",
+            "literal_meaning": "Like a bird that is accustomed to shrinking or confining itself within its narrow boundaries on a single branch.",
+            "literalization_risk": "An illustrator might draw a simple bird on a branch, which looks like a peaceful nature scene rather than a symbol of stagnation and confinement.",
+            "metaphor_mapping": {
+              "tenor_concept": "person restricted by comfort zones or societal limits",
+              "transferred_attributes": [
+                "confinement",
+                "habitual limitation",
+                "fear of flying high"
+              ],
+              "vehicle_concept": "confined bird on a branch"
+            },
+            "source_span_original": "चिड़िया की तरह,\nजिसे अपनी सीमा में\nसिमटने की आदत है।",
+            "source_span_translation": "Like that little bird,\nSitting on a branch,\nUsed to the limits\nOf its own little world",
+            "source_term": "चिड़िया की तरह, जिसे अपनी सीमा में सिमटने की आदत है",
+            "tenor": "A person living a restricted life, bound by societal or self-imposed limits",
+            "vehicle": "A small bird huddled on a single branch, confined to its small territory",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a small, huddled bird sitting on a single, bare branch surrounded by a faint, cage-like boundary or shadow, contrasting with the vast sky."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'seematne ki aadat' (habit of shrinking/coiling/withdrawing into one's limits) as 'limits of its own little world' changes the active verb of self-restriction ('simatna') into a passive noun phrase ('little world').",
+            "where": "L10-L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To achieve greatness, brilliance, or one's highest aspirations born out of dreams.",
+            "acceptable_visual_variants": [
+              "A figure made of starlight soaring among constellations",
+              "A single brilliant star shining exceptionally bright in a cosmic sky of dreams"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L14-L15",
+            "literal_meaning": "To become a physical star formed from the constellations of dreams.",
+            "literalization_risk": "A literal rendering might look like a cartoon star or a literal astronomical body, losing the poetic connection to human dreams.",
+            "metaphor_mapping": {
+              "tenor_concept": "realized human potential and aspiration",
+              "transferred_attributes": [
+                "brilliance",
+                "high elevation",
+                "cosmic beauty"
+              ],
+              "vehicle_concept": "star in a constellation"
+            },
+            "source_span_original": "स्वप्नों के नक्षत्रों से\nबन तारा",
+            "source_span_translation": "Become a star\nFrom the dreams of the heavens",
+            "source_term": "स्वप्नों के नक्षत्रों से बन तारा",
+            "tenor": "Achieving one's highest potential and shining brightly in life",
+            "vehicle": "A shining star born from a constellation of dreams",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a human silhouette or a bird figure dissolving into or composed of glowing, starlit constellations in a deep night sky."
+          },
+          {
+            "abstract_meaning": "To embrace intense energy, passion, and the thrilling, sometimes risky moments of life rather than staying safe.",
+            "acceptable_visual_variants": [
+              "A soaring figure outlined in bright, electric light energy",
+              "A bird flying fearlessly through a storm illuminated by lightning flashes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L16-L17",
+            "literal_meaning": "To physically wrap or embrace oneself with a flash of lightning.",
+            "literalization_risk": "A literal depiction could look like a dangerous electrocution or a superhero comic scene, missing the poetic sense of embracing raw energy and passion.",
+            "metaphor_mapping": {
+              "tenor_concept": "embracing intense, risky, and powerful experiences",
+              "transferred_attributes": [
+                "energy",
+                "brilliance",
+                "fearlessness",
+                "intensity"
+              ],
+              "vehicle_concept": "wrapping oneself in lightning"
+            },
+            "source_span_original": "बिजली की चमक से\nलिपट जा",
+            "source_span_translation": "Wrap yourself\nIn the sparkle of lightning",
+            "source_term": "बिजली की चमक से लिपट जा",
+            "tenor": "Embracing intense passion, power, and dynamic energy despite the risks",
+            "vehicle": "Embracing or wrapping oneself in a flash of lightning",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a soaring bird or human figure surrounded by and harmonizing with brilliant, glowing streaks of golden or blue lightning in a dramatic sky."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'nakshatron' (lunar mansions/constellations) as 'heavens' flattens the specific astronomical and astrological imagery of 'nakshatra' into a generic sky/heaven concept.",
+            "where": "L14"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The pursuit of absolute freedom and self-realization over comfortable confinement"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चल उड़ जा रे पंछी  \nचल उड़ जा रे पंछी,  \nखुले आसमान में।  \nअपनी राह चुन ले,  \nउन्मुक्त, स्वच्छंद,  \nरंग-बिरंगे बादलों के संग।  \n\nक्या तू थक गया?  \nकिसी एक डाल पर,  \nउसी चिड़िया की तरह,  \nजिसे अपनी सीमा में  \nसिमटने की आदत है।  \n\nनहीं, उड़ जा,  \nनयी राह चुन ले।  \nस्वप्नों के नक्षत्रों से  \nबन तारा,  \nबिजली की चमक से  \nलिपट जा।",
+  "poem_id": "MV++_0296",
+  "poem_title": "Chal Udd Ja Re Panchi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6a0e6a60173bc93dfc34c85ba5088e27397c582664be5644bbeb3bad838b7400",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0296.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Fly Away, O Bird  \nFly away, O bird,  \nInto the open sky.  \nChoose your own path,  \nFree and unbound,  \nWith colorful clouds.  \n\nAre you tired?  \nLike that little bird,  \nSitting on a branch,  \nUsed to the limits  \nOf its own little world.  \n\nNo, fly away,  \nChoose a new path.  \nBecome a star  \nFrom the dreams of the heavens,  \nWrap yourself  \nIn the sparkle of lightning.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:09:37.582056+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "704ba7a58978cb924f95e30172d295b6c648020e2c47e208d3ab9176e5add3a2",
+        "response_hash": "863aa4231f14eb61b36261d2b4811724203f43f3a18efa07c81640c1c464441e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d15fc453819975b9ad7f4fe1eb35323352832c487bd9367bd6996fd28bfbe931",
+        "response_hash": "0f33e8c0f98e27a54724ffbc1e2fe14bdd13231a48670b5e532759f609a300f3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "61a1ce0128f2faf65bfba9f968645cbfa0374b6468777daf02f8c972a272ddec",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "acb7a06b19a6e04f1a0aa89b17714decb0c17ee06bee884e28af9efdcc3ae266",
+        "response_hash": "a550a87ab1009ebe36b4057e0b06e94d9e7ee5a035a4b8166251f2e3a143ddea",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4682ea1fb7d6a471ee385bdbdac9f62569453515d0a4360e6912745f9e6d1736",
+        "response_hash": "a6f06ff959766b59e8793509843b9d638c492000b34ae381bfccd1bc533695f8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "adbee3e0d95b344d2c445eeca7917f24a8afda2af2443181b7fc99a8852442b1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f19a9ac7c816a785e427724d0bf1ce6cb34e13b35639c40162046a9af8f658b2",
+    "translation_sha256": "80b608e1e728607ee9d6114baee9ecf6b1d9a5499ad23c340a32970a1b735880"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "grief to resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The silent suffering, grief, or plea of marginalized, broken, or oppressed individuals who have been crushed or separated from their source.",
+            "acceptable_visual_variants": [
+              "Scattered, torn flower petals on dark earth under a windy sky",
+              "A single broken stem of a flower with its petals drifting away in a strong breeze"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The vocal cry or call of plucked or broken blossoms",
+            "literalization_risk": "Showing literal flowers with human mouths screaming or crying, which looks cartoonish and misses the emotional weight of human suffering.",
+            "metaphor_mapping": {
+              "tenor_concept": "suffering people expressing grief",
+              "transferred_attributes": [
+                "brokenness",
+                "vulnerability",
+                "helplessness",
+                "vocalizing pain"
+              ],
+              "vehicle_concept": "broken flowers crying"
+            },
+            "source_span_original": "टूटे हुए फूलों की पुकार",
+            "source_span_translation": "The cry of the broken flowers",
+            "source_term": "टूटे हुए फूलों की पुकार",
+            "tenor": "oppressed or broken people expressing their grief and pain",
+            "vehicle": "broken flowers crying out",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict delicate, scattered petals on the ground being swept by a gust of wind, with a somber, atmospheric lighting that evokes a sense of quiet lamentation."
+          },
+          {
+            "abstract_meaning": "The enduring essence, spirit, or virtue of a person cannot be defeated or destroyed even if they are physically broken or denied their rights.",
+            "acceptable_visual_variants": [
+              "Crushed petals on the ground with soft, luminous light rising from them",
+              "A gentle wind carrying invisible, shimmering warmth away from fallen blossoms"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "The scent of the flowers is not defeated",
+            "literalization_risk": "Depicting a literal battle or game where a cloud of perfume stands victorious over an opponent, which is nonsensical.",
+            "metaphor_mapping": {
+              "tenor_concept": "unconquerable spirit or dignity of a broken person",
+              "transferred_attributes": [
+                "persistence",
+                "intangibility",
+                "survival beyond physical destruction"
+              ],
+              "vehicle_concept": "undefeated fragrance of a broken flower"
+            },
+            "source_span_original": "खुशबू की हार नहीं",
+            "source_span_translation": "fragrance does not cease",
+            "source_term": "खुशबू की हार नहीं",
+            "tenor": "the inner spirit, dignity, or legacy of the oppressed remaining unbroken",
+            "vehicle": "fragrance (scent) remaining undefeated",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize a subtle, glowing mist or shimmering particles rising gracefully from crushed petals on the ground, symbolizing an invisible but persistent essence."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The end-rhyme scheme (pukaar/bayaar and adhikaar/haar) is lost in the English translation, which does not maintain a consistent rhyme.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal meaning of 'haar' (defeat/loss) is translated abstractly as 'does not cease', losing the specific poetic metaphor of fragrance refusing to accept defeat.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring essence of the broken and marginalized, whose inner beauty and spirit persist despite being denied the chance to flourish."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing significant losses (rhyme scheme and literal metaphor shift), which is inconsistent with a completely faithful translation status. The quality should be 'partial' if there are notable losses, or the loss_note/translation_loss should be empty if it is fully faithful.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "टूटे हुए फूलों की पुकार,  \nबहा ले गई बयार।  \nखिलने का अधिकार नहीं,  \nपर खुशबू की हार नहीं।",
+  "poem_id": "MV++_0761",
+  "poem_title": "Toote Hue Phoolon Ki Pukar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "dba5b35502d44267e8fb1507a54447ddd80413e0c2d9bbc949d995ce2ea7c82b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0761.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The cry of the broken flowers,  \nCarried away by the breeze.  \nDenied the right to bloom,  \nBut fragrance does not cease.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:08:22.621906+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2b7818e0b2b11b5c30d5be66d07a537c43fd73dfe85db711eefef8a14b87452f",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e447cfc87aacb398cf3920edd979773f7d6655e251e971b7ca7330a69a16567",
+        "response_hash": "613c357481a3fdbf8bf70b5b879e32411cfc422d8f1462896cab5a812346ca4f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0188ac0371ac3d9314cf819e92e8e61106b6c052645dcc447273b3be94a88279",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa46eca60ce69ff6af3188f057823c1385a681bff5ae58cb06f97637cc1c0dae",
+        "response_hash": "86e475cdda124eb9f062930029d3d4f566c7cc43def051b1e6cc59626995a255",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "689f8b2289243844005f62778bbc9be3f2edd5b27d8c012e7d71ef210f4c84cb",
+        "response_hash": "737e58dea0b68c282b2902d882c642ea72a03a67ab2c4b1c944a35892c40fe9c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3da1cc02e7157319c530db865a1a9e8b57894c1a62386b4db701d1ecc8774aa8",
+        "response_hash": "9c880f366a8ba04bc4687cb3217eae925b8044f0a62b10b89442bb500a27bdf5",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b14e5d5ab61c774c2e3f3a5a4d34e4b74301acee186bccc8984df71eee0be423",
+    "translation_sha256": "65a682c1011a920cdf374868bec4d128b0d69d5fb3e477add9e84966c91d71fc"
+  }
+}

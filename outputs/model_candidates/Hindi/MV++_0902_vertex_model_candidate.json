@@ -1,0 +1,216 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet observation of a strange phenomenon to a collective, transfixed stillness",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'mitti' (soil/earth) as 'dust' in the first line, which slightly shifts the tactile and elemental quality of the rain from earth/mud to dry dust.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A heavy dust storm or dust fall that descends from the sky like rain, covering everything in a layer of earth.",
+            "acceptable_visual_variants": [
+              "A dry dust storm with a thick brown haze settling over a quiet street",
+              "A fine layer of dry earth covering outdoor objects under a dark, dust-filled sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Rain made of soil/mud",
+            "literalization_risk": "An illustrator might literally depict liquid mud or wet soil falling like raindrops from clouds, rather than a dry, heavy dust storm settling over the landscape.",
+            "metaphor_mapping": {
+              "tenor_concept": "dust storm",
+              "transferred_attributes": [
+                "falling from the sky",
+                "covering everything completely",
+                "descending in large quantities"
+              ],
+              "vehicle_concept": "rain"
+            },
+            "source_span_original": "मिट्टी की बारिश",
+            "source_span_translation": "Rain of dust",
+            "source_term": "मिट्टी की बारिश",
+            "tenor": "A heavy dust storm or falling dust",
+            "vehicle": "Rain (water falling from the sky)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a thick, dry haze of fine dust particles settling over a landscape, coating buildings and ground in a uniform, fine brown layer, with a dim sun filtered through the dust."
+          },
+          {
+            "abstract_meaning": "The overwhelming presence of suspended dust in the air resembles thick storm clouds.",
+            "acceptable_visual_variants": [
+              "A dense, low-hanging brown haze resembling storm clouds",
+              "A massive wall of dust rolling across the horizon"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "As if clouds of dust have spread over",
+            "literalization_risk": "An illustrator might draw literal fluffy white or grey water clouds made of solid dirt, rather than a diffuse, sweeping haze of dust in the air.",
+            "metaphor_mapping": {
+              "tenor_concept": "suspended dust",
+              "transferred_attributes": [
+                "blocking the sky",
+                "covering the horizon",
+                "creating darkness"
+              ],
+              "vehicle_concept": "clouds"
+            },
+            "source_span_original": "जैसे धूल के बादल छा गए हों",
+            "source_span_translation": "As if clouds of dust have taken over",
+            "source_term": "जैसे धूल के बादल छा गए हों",
+            "tenor": "Suspended dust in the atmosphere",
+            "vehicle": "Storm clouds",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a vast, sweeping blanket of brown and grey dust filling the upper atmosphere, obscuring the sky like heavy storm clouds."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'mitti' (soil/earth/clay) as 'dust' in L1, which collapses the distinction between 'mitti' (earth/soil) in L1 and 'dhool' (dust) in L2, losing the specific tactile and elemental contrast between wet/heavy earth and dry airborne dust.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial contraction 'ik' (one/a) in L3 is flattened into the standard English article 'a', losing the rhythmic and slightly informal poetic register of the original Hindi line.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The subtle particle 'si' in 'thami si hain' (seemingly paused / as if paused) is translated directly as 'are paused', losing the slight sense of comparison or soft approximation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of tense anticipation, awe, or stillness among the people watching the dust storm.",
+            "acceptable_visual_variants": [
+              "A close-up of a person's face with a parted mouth and wide eyes, frozen in quiet observation",
+              "A group of people standing motionless on a street, looking upward"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L7",
+            "literal_meaning": "Breaths are as if stopped",
+            "literalization_risk": "An illustrator might depict people choking, suffocating, or medically unable to breathe, which misrepresents the emotional stillness and awe of the moment.",
+            "metaphor_mapping": {
+              "tenor_concept": "intense suspense or stillness",
+              "transferred_attributes": [
+                "immobility",
+                "silence",
+                "holding one's breath in anticipation"
+              ],
+              "vehicle_concept": "cessation of breath"
+            },
+            "source_span_original": "सांसें थमी सी हैं",
+            "source_span_translation": "Breaths are paused",
+            "source_term": "सांसें थमी सी हैं",
+            "tenor": "Tense anticipation and quiet awe",
+            "vehicle": "Stopped breathing",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict people standing completely still, with wide, focused eyes, looking up at the sky in quiet fascination without moving."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The soft, comparative particle 'si' in 'thami si hain' (literally 'paused-like' or 'as if paused') is translated as a flat statement 'are paused', losing the delicate, hesitant nuance of the original Hindi phrasing.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet, mesmerizing, and unifying impact of an unusual natural phenomenon that halts daily life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मिट्टी की बारिश हो रही है\nजैसे धूल के बादल छा गए हों,\nहर चीज़ पर इक परत चढ़ गई है,\nज़मीन से आसमान तक।\n\nहर कोई चुपचाप देखता है,\nइस अजीब बारिश को,\nसांसें थमी सी हैं,\nपर कोई छुपता नहीं, बस देखता है।",
+  "poem_id": "MV++_0902",
+  "poem_title": "Mitti Ki Baarish",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "96039ac8e814124557a9817dbd15fed2ce3237ae379f7d4f9b70107af84fb3b0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0902.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Rain of dust is falling,\nAs if clouds of dust have taken over,\nEverything has a layer upon it,\nFrom the earth to the sky.\n\nEveryone watches silently,\nThis strange rain,\nBreaths are paused,\nBut no one hides, they just watch.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:27:57.568629+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "91affcf123742436f1eca143c0d641d4d6d0acb76b4e99a1fab049bfc274379d",
+        "response_hash": "d9f836312073aa79636094a244c4153f1fb5a6bb08b258019724bf0e1d1c0be2"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8c4890e04e21c3c9b64be95f4941546e5abb6f6ad25a63b1a4e50e7574cc763a",
+        "response_hash": "8cc756db20ce8b1ba578537da8cf4e71fb650c987691cc3ef50ac7208e4cb2ee",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cc72740879aead0d4c73cf8c4de15ee92c31b625cdb2d845b234d55b81e35bd3",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7fff4856b41d27dc86a513814e8a45a07ffc1f8b0631861c1d4b81e9d13647d1",
+        "response_hash": "2dad4cd40e85c8c28a86491183b4072eed03e481a0e325ff36c3e2ae85672286",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c939f01ed21bf1344e3c269469994355045108e71f655b2e152c3461271474d1",
+        "response_hash": "ebb2c0e7469ca56ed5976c14cbdbda2395f3f24e05e5a126d46241c2469b89a4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "667c6ba91497199f8f5880a6dcdf45773212dbf74279e2909b5297b52fced4e2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e0d9bcd7635947c11214c55da22149019b6627debc584ab75ceb6c1ff28021d7",
+    "translation_sha256": "c7a6c214f92b0775ee23dbf2cb1701e0f5ed1f4f0c58ba55d19bf7df406c36d3"
+  }
+}

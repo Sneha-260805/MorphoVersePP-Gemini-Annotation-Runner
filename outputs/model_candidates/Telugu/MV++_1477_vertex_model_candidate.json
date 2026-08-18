@@ -1,0 +1,270 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A realistic depiction of a serene white Indian cow in a simple rural setting.",
+          "A stylized representation emphasizing its gentle and sacred nature."
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A sacred, gentle breed of cow (often associated with the Kapila or Kamadhenu lineage in Telugu folklore), known for yielding pure, high-quality milk. It symbolizes purity, goodness, and spiritual value.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A standard Western dairy cow (like a Holstein-Friesian with black and white spots) which lacks the distinctive hump and cultural significance.",
+          "An aggressive or wild bull."
+        ],
+        "preserved": true,
+        "romanization": "gangigovu",
+        "source_span_original": "గంగిగోవు",
+        "source_span_translation": "holy Ganga cow",
+        "stanza_index": 1,
+        "term": "గంగిగోవు",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A gentle, sacred Indian cow (Bos indicus) with a prominent hump, dewlap, and calm eyes.",
+          "Often depicted with a light or white coat, sometimes adorned with a simple bell or garland in traditional settings."
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Devotion, love, or surrender to the divine; a central concept in Indian spiritual and philosophical traditions emphasizing personal devotion over mere ritualism.",
+        "line_ref": "L3",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "bhakti",
+        "source_span_original": "భక్తి",
+        "source_span_translation": "devotion",
+        "stanza_index": 3,
+        "term": "భక్తి",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The signature refrain (makutam) of the poet Vemana, translating to 'Beloved of the Creator of the Universe, listen oh Vema!' or 'Oh Viswada, beloved of Abhirama, listen oh Vema!' depending on the philosophical interpretation. It serves as a moral and spiritual address.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "viswadaabhiraama vinura vema",
+        "source_span_original": "విశ్వదాభిరామ! వినుర వేమ!",
+        "source_span_translation": "Oh, Viswadabhirama! Listen to what I say!",
+        "stanza_index": 4,
+        "term": "విశ్వదాభిరామ! వినుర వేమ!",
+        "translation_note": "This is the signature line (makutam) characteristic of Vemana's poems. It is translated literally in the text.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "reflective wisdom and devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A tiny amount of something pure, noble, or genuinely good is far superior to a vast quantity of something worthless or bad.",
+            "acceptable_visual_variants": [
+              "A single ladle overflowing with pure white milk next to a large, coarse clay pot of greyish milk",
+              "A simple, elegant ladle of milk highlighted in warm light"
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "Even a ladleful of milk from a sacred/noble cow is sufficient",
+            "literalization_risk": "An illustrator might draw a literal cow and a ladle, missing the abstract moral lesson about quality over quantity.",
+            "metaphor_mapping": {
+              "tenor_concept": "virtue or genuine quality in small measure",
+              "transferred_attributes": [
+                "sufficiency",
+                "purity",
+                "high value despite small volume"
+              ],
+              "vehicle_concept": "noble cow's milk in small quantity"
+            },
+            "source_span_original": "గంగిగోవుపాలు గరిటెడైనను చాలు",
+            "source_span_translation": "Even a ladle of milk from the holy Ganga cow is enough",
+            "source_term": "గంగిగోవుపాలు గరిటెడైనను చాలు",
+            "tenor": "A small amount of high-quality, virtuous, or genuine substance",
+            "vehicle": "A single ladle of pure milk from a noble cow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a small, glowing, pure ladle of milk contrasted with a large, dark, murky pot of milk to visually represent quality versus quantity."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural resonance of 'Gangigovu' (a sacred, gentle breed of cow) is translated as 'holy Ganga cow', which may mislead readers into thinking of the river Ganga rather than the specific breed of cow.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A large quantity of something worthless, base, or bad is of no use or value.",
+            "acceptable_visual_variants": [
+              "A large, rough clay pot filled to the brim with thin, greyish milk",
+              "A heavy, dark jar of milk cast in shadow to represent its lack of value"
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L2",
+            "literal_meaning": "What is the use of a potful of donkey's milk?",
+            "literalization_risk": "An illustrator might literally draw a donkey being milked, which distracts from the philosophical contrast of value.",
+            "metaphor_mapping": {
+              "tenor_concept": "worthlessness or bad quality in large measure",
+              "transferred_attributes": [
+                "uselessness",
+                "lack of value despite large volume"
+              ],
+              "vehicle_concept": "donkey's milk in large quantity"
+            },
+            "source_span_original": "కడివెడైన నేమి ఖరము పాలు",
+            "source_span_translation": "What use is an entire pot of harsh milk?",
+            "source_term": "కడివెడైన నేమి ఖరము పాలు",
+            "tenor": "An abundant quantity of something useless, low-quality, or bad",
+            "vehicle": "A large pot filled with donkey's milk",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a large, coarse, overflowing clay pot of dull, unappealing liquid in the background, contrasted with the small ladle of pure milk."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The word 'kharamu' literally means a donkey, so 'kharamu paalu' refers to donkey's milk. The translation generalizes this as 'harsh milk', losing the specific, stark contrast between a sacred cow's milk and a donkey's milk.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'koodu' specifically means cooked rice or food, which is translated generally as 'offering'. This loses the humble, everyday domestic context of sharing a handful of simple food.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The signature line (makutam) 'Viswadabhirama Vinura Vema' is a direct address to the author's patron or beloved (Abhirama) and a call to the listener (Vema). The translation 'Listen to what I say' flattens the specific vocative 'Vinura Vema' (Listen, O Vema!).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Quality and devotion are far superior to mere quantity or harsh abundance."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "గంగిగోవుపాలు గరిటెడైనను చాలు\n\nకడివెడైన నేమి ఖరము పాలు\n\nభక్తిగలుగు కూడు పట్టెడైనను చాలు\n\nవిశ్వదాభిరామ! వినుర వేమ!",
+  "poem_id": "MV++_1477",
+  "poem_title": "Gangigovupallu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "63d7eed32167bad375ac2fe44e6b953aaa2c54c2377dcaa12247f58fa9afc906",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1477.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Even a ladle of milk from the holy Ganga cow is enough,\nWhat use is an entire pot of harsh milk?\nA small offering filled with devotion is sufficient,\nOh, Viswadabhirama! Listen to what I say!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:39:05.317402+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "11fc89c16d76fa21e99982afd78ebe7746c6a84c68851150a231587c7ebb4814",
+        "response_hash": "900423878e6ea9940449dc3fdbfe6b1b65b6dd6aafc6cb0469f70d525760ca48",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e49c6fc3193b4663f9cfd2bcd5429607a3c9793650b7365d8f537fb4b5dcbc1",
+        "response_hash": "6a4a1aaaf3969daa277395d644ff8d976f93b56fa21cf82c1106037e0812656f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "21c5dd81453a1c2afda2af3f13a26a1736499bca0c0bc276ea1efe84abd1fec1",
+        "response_hash": "a1b1bfc5994607d93533c30c1eb48e31a24f172fe8da093935c909f72649812a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "667b3fd48e7e4e9df11eb2c06f99390e31cb305b2c06f6167ae768d723bd5263",
+        "response_hash": "dbc7419fe8291b9ecb9c62ee035ac695a0e3c31cb7287492e39b8f86013a290a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3cf547146d220bca3467bbe9f7e454660b63c0b8086aaf06c50c8b9cd571762b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9e29302690209c525a709e06e7ca4c026aac94adcf9374770dcbf75ecd6a4118",
+    "translation_sha256": "fca53d596efced4ed32c02055f98905d5d78ca42cd06887b7cd7d63608e1c0af"
+  }
+}

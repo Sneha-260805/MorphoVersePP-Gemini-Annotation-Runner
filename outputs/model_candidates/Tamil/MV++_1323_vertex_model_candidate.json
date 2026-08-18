@@ -1,0 +1,174 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady progression of devotion and wonder, celebrating the beloved's dreams as a life-defining treasure.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A fresh start, a new horizon of hope, or a vast open space of possibilities in life.",
+            "acceptable_visual_variants": [
+              "A person looking out at a vast, clear morning horizon",
+              "A bright dawn sky breaking through parting clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A newly formed or fresh sky",
+            "literalization_risk": "An illustrator might draw a literal second sky or a sci-fi planet with two skies, which misses the emotional sense of a fresh start.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and future possibilities",
+              "transferred_attributes": [
+                "vastness",
+                "freshness",
+                "limitless potential"
+              ],
+              "vehicle_concept": "sky"
+            },
+            "source_span_original": "புதிய வானம்",
+            "source_span_translation": "The new sky",
+            "source_term": "புதிய வானம்",
+            "tenor": "A fresh beginning or a vast horizon of hope and possibilities",
+            "vehicle": "A new sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a bright, clear dawn sky with soft, fresh morning colors breaking over a horizon to symbolize a new beginning."
+          },
+          {
+            "abstract_meaning": "The most precious, cherished, and valuable aspect of the speaker's life (referring to the beloved's dreams).",
+            "acceptable_visual_variants": [
+              "A glowing, warm light held gently in cupped hands",
+              "A symbolic golden key or a delicate, glowing star representing a treasured dream"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Material wealth or riches of life",
+            "literalization_risk": "Drawing a literal chest of gold coins or jewels would look like a pirate scene, completely losing the romantic and emotional value of the dreams.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional value of dreams",
+              "transferred_attributes": [
+                "preciousness",
+                "high value",
+                "something to be guarded and cherished"
+              ],
+              "vehicle_concept": "treasure"
+            },
+            "source_span_original": "வாழ்வின் செல்வம்",
+            "source_span_translation": "The treasure of my life",
+            "source_term": "வாழ்வின் செல்வம்",
+            "tenor": "The beloved's dreams and presence which hold supreme emotional value",
+            "vehicle": "Treasure / wealth",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, ethereal light or a symbolic precious spark held gently in hands, representing cherished dreams."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the specific agglutinative genitive case marker '-in' (இன்) and possessive structure in 'இதயத்தின்' (of the heart) and 'வாழ்வின்' (of life), flattening them into standard English prepositional phrases.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transformative power of love and shared dreams, elevating the beloved's aspirations to a sacred, life-sustaining treasure."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list detailing grammatical loss in lines L3-L4. When translation_loss is present, translation_quality should typically reflect this or the loss_note should not be empty.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "புதிய வானம்,  \nஉன் கனவுகள் எனக்கு,  \nஎன் இதயத்தின் மேலே,  \nஎன் வாழ்வின் செல்வம்!",
+  "poem_id": "MV++_1323",
+  "poem_title": "Puthu Vaanam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "59dd856936c85ee640115374c0274833d02daf12a8b30aaa067d021eb8f38bac",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1323.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The new sky,  \nYour dreams to me,  \nAbove my heart,  \nThe treasure of my life!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:21:23.720319+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e012a340e5dc5fe9af756aac2fdd6d72a29c1837bf52ebf430a543b697103b50",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c0f9c948d327f7adc4b1b1cc1586008d06b420b6ab46b5a6c56048830b16a4d",
+        "response_hash": "3ac3a81f849a90a0f48ceeac1b758c2500364ebde3461e3bdd261bfc68001fe1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "196e9d5d2e83c1c9b33ef2c55715b318b39b99e76288a185f15a9f60fad6fdfe",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e0cd45b0d4f95e092ea50536dc3dfcae712b9ba7280bf3bb3c2d49eeba2d9ac",
+        "response_hash": "132f46569702c070c75654554c425e5d4625a3d081e6872075930a1cc8a5af8a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "24e6347d63e989cc4c2ab7a567104ea114f46f13d44af486e925f61289e09fce",
+        "response_hash": "c4d66a8cdaca463c8d02b8c25874748b2919a02a97c4176a7be23758fe649316",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa2ae504072a044410816d8e6a0954ef05ef813a10e0e7598fccd3283659621d",
+        "response_hash": "be87455b5dee756b9b28cd63b9d732fadd38e92fa5e7212c6e2fe325e4e0db40",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0cd00bd14d26e82ca29bbb2580368111126083abbfdbfe63c3258fa2f1a6bc7a",
+    "translation_sha256": "62663b02f8b5970e2d74dd5f4055e9ff1f562011fdd80a397649e80dd2d7ee8f"
+  }
+}

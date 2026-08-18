@@ -1,0 +1,202 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the core imagery, though the agglutinative compound 'அசைவேலை' (movement-border/tide) is simplified to 'movements' and 'உள்ளத்தின்' (of the heart/mind) is translated as 'soul'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vast, deep, and fluid realm of the speaker's subconscious thoughts and dreams.",
+            "acceptable_visual_variants": [
+              "A deep blue ocean reflecting stars and nebulas",
+              "A surreal sea where waves are made of soft, glowing light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The ocean of dreams",
+            "literalization_risk": "An illustrator might draw a literal ocean with sleeping faces floating in it, which looks surreal rather than emotional.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "fluidity",
+                "unpredictability"
+              ],
+              "vehicle_concept": "ocean"
+            },
+            "source_span_original": "கனவின் கடல்",
+            "source_span_translation": "The sea of dreams",
+            "source_term": "கனவின் கடல்",
+            "tenor": "the subconscious realm of dreams",
+            "vehicle": "an ocean or sea",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, shimmering body of water under a starry, dreamlike night sky, blending the boundaries of water and air."
+          },
+          {
+            "abstract_meaning": "The profound sense of emptiness, loneliness, or longing within the speaker's inner self.",
+            "acceptable_visual_variants": [
+              "A dark, quiet room with a single beam of light",
+              "An expansive, empty landscape under a twilight sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the empty space of the heart/mind",
+            "literalization_risk": "A literal rendering might show a physical hole in a person's chest, which looks grotesque or medical.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional longing",
+              "transferred_attributes": [
+                "hollowness",
+                "capacity to be filled",
+                "darkness"
+              ],
+              "vehicle_concept": "empty physical space"
+            },
+            "source_span_original": "உள்ளத்தின் வெற்றிடத்தில்",
+            "source_span_translation": "In the void of my soul",
+            "source_term": "உள்ளத்தின் வெற்றிடத்தில்",
+            "tenor": "the speaker's inner emotional emptiness or longing",
+            "vehicle": "an empty physical space or void",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Represent the void abstractly as a dark, quiet, cavernous space surrounding a central figure, waiting to be filled with light or water."
+          },
+          {
+            "abstract_meaning": "Love arriving in powerful, rhythmic, and overwhelming surges that fill the speaker's inner emptiness.",
+            "acceptable_visual_variants": [
+              "Glowing ripples of light spreading across a dark surface",
+              "Soft, luminous waves of water filling a quiet shoreline"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Love will come like waves",
+            "literalization_risk": "Showing literal water waves crashing into a human heart can look like a natural disaster rather than a romantic feeling.",
+            "metaphor_mapping": {
+              "tenor_concept": "surging love",
+              "transferred_attributes": [
+                "rhythm",
+                "power",
+                "ability to fill empty spaces",
+                "movement"
+              ],
+              "vehicle_concept": "ocean waves"
+            },
+            "source_span_original": "காதல் அலைகளாய் வரும்",
+            "source_span_translation": "Love comes as waves",
+            "source_term": "காதல் அலைகளாய் வரும்",
+            "tenor": "the emotional arrival and surge of love",
+            "vehicle": "ocean waves crashing or rolling in",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict gentle, glowing waves of light or water flowing into and illuminating a dark, empty space."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil verb 'mithikkum' literally means 'trampling' or 'stepping on', which carries a much heavier, more physical, and potentially disruptive weight than the gentle English translation 'rippling'.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative genitive case marker '-in' in 'kanavin' (of dream) and 'ullathin' (of heart/soul) is flattened into simple English prepositions, losing the tight syntactic fusion of the original Tamil.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The vastness of love filling the empty spaces of the soul like waves from a sea of dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கனவின் கடல்,  \nஉன் அசைவேலை மிதிக்கும்,  \nஎன் உள்ளத்தின் வெற்றிடத்தில்,  \nகாதல் அலைகளாய் வரும்!",
+  "poem_id": "MV++_1383",
+  "poem_title": "Kanavil Kadal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d2dae4655a139116433a8e13214702d25668b07ea6fffce3303d7743598289d6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1383.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The sea of dreams,  \nRippling with your movements,  \nIn the void of my soul,  \nLove comes as waves!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:27:58.721975+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "08bde19c5b66de47922c10e08f49333001e492449b0ed0ca4fe776da8f7676c9",
+        "response_hash": "4cea4d2e8297f637a38a2c6b175e350b22609c0d78423608c06b36a56939880b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e69203757f31f6d8fefee469731cbd182cbd1d7203a53941442b31b1b4030602",
+        "response_hash": "42e5897bc8bec5cb472b26f0f34201b001a78e58f18006949f7816ce70f5e52f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "846a0ccd091aaf27ab057bdf0cce17c5e1c8b3dc3ce6b97e1e5e6d6cf1c419e1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b5b8177fa161369f40efab6109e487a5f4c4d8b35d15160eab5c8cb21d39200d",
+        "response_hash": "7a396fefa8cc64e53b7c604e67979d570d9498af59be16c638bbcdfdc33f74d1",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "97872784dd5e9093e08e832804dc70f3adcffb9d910a528eb5abe7a7ce11e3ea",
+        "response_hash": "03dfd74c841df15ecda7a9bc6fc10dc4259d3416831d617600517c8ba3e38bc6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6f77d4052f882f3c688eda0ebaedd8e02bd3520e59d0a77874aa65ca3ea690cf",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "08554e6c83b8d218cc6bc3d23fbc42eccd9c60fb57de63ea296efedc66c4fbdd",
+    "translation_sha256": "586c1e0beb3c149737439b7aeb5ef46e603254d6079d8659681944cca6c2545f"
+  }
+}

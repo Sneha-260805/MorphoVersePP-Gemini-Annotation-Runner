@@ -1,0 +1,236 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A melodic framework in Indian classical music, having a specific sequence of notes and associated with particular emotions, seasons, or times of day.",
+        "line_ref": "L12",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "raag",
+        "source_span_original": "राग",
+        "source_span_translation": "tune",
+        "stanza_index": 3,
+        "term": "राग",
+        "translation_note": "Translated as 'tune', which loses the specific classical melodic framework of a raga.",
+        "translation_status": "ALTERED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "contemplative wonder to peaceful devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life without the soul's infinite journey is empty, cold, and devoid of vitality or beauty.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking up at a dark, crescent moon that has no glow",
+              "A dry, cracked earth landscape reflecting a dull, unlit moon in a dark sky"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3-L4",
+            "literal_meaning": "Life is like a dry, parched moon",
+            "literalization_risk": "An illustrator might draw a literal cracked, dusty moon in space, which misses the emotional feeling of human existential emptiness.",
+            "metaphor_mapping": {
+              "tenor_concept": "lifeless existence",
+              "transferred_attributes": [
+                "dryness",
+                "lack of light",
+                "barrenness",
+                "coldness"
+              ],
+              "vehicle_concept": "dry moon"
+            },
+            "source_span_original": "जीवन,\nजैसे सूखा चाँद है",
+            "source_span_translation": "life,\nIs like a dry moon",
+            "source_term": "जीवन,\nजैसे सूखा चाँद है",
+            "tenor": "life without the soul's infinity",
+            "vehicle": "a dry moon",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a human figure standing under a dim, pale, textureless moon in a barren, cracked desert landscape to evoke dryness and isolation."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'अनन्त' (anant) as 'infinity' in L1 and 'endless' in L2, losing the poetic repetition of the exact same word 'अनन्त' which links the soul's nature directly to the journey's nature.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The soul is an internal source of warmth, passion, and spiritual energy.",
+            "acceptable_visual_variants": [
+              "A gentle, warm light emanating from within a person's hands held close to their chest",
+              "A small, steady candle-like flame superimposed softly over a human heart silhouette"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5-L6",
+            "literal_meaning": "It is a flame that burns inside",
+            "literalization_risk": "Showing a literal fire burning inside a transparent human chest can look like a medical anomaly or a physical injury rather than a spiritual metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual life force",
+              "transferred_attributes": [
+                "warmth",
+                "light",
+                "burning",
+                "internal presence"
+              ],
+              "vehicle_concept": "flame"
+            },
+            "source_span_original": "वो ज्वाला है,\nजो जलती है भीतर",
+            "source_span_translation": "It is the flame,\nThat burns within",
+            "source_term": "वो ज्वाला है,\nजो जलती है भीतर",
+            "tenor": "the soul's inner energy",
+            "vehicle": "a burning flame",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm, golden glow radiating from the chest area of a peaceful human silhouette."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The soul's infinity is a harmonious, beautiful, and comforting presence.",
+            "acceptable_visual_variants": [
+              "A person sitting in meditation with soft, concentric ripples expanding outward in water",
+              "A classical stringed instrument like a sitar or veena resting in soft light with glowing, vibrating strings"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "It is the melody of music",
+            "literalization_risk": "Drawing literal musical notes floating in the air can look cartoonish and detract from the deep spiritual tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual harmony",
+              "transferred_attributes": [
+                "harmony",
+                "beauty",
+                "soothing quality",
+                "invisible flow"
+              ],
+              "vehicle_concept": "melody"
+            },
+            "source_span_original": "संगीत की धुन है",
+            "source_span_translation": "Is the melody of music",
+            "source_term": "संगीत की धुन है",
+            "tenor": "the soul's infinite nature",
+            "vehicle": "a musical melody",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize abstract, flowing waves of light or wind gently wrapping around a peaceful figure to suggest the invisible, harmonious flow of music."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'राग' (raag) as 'tune' in L12 and 'धुन' (dhun) as 'melody' in L10. In Indian classical music, 'raag' is a specific melodic framework with deep emotional and cultural associations, which is much more structurally and culturally complex than a simple 'tune'.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The infinite nature of the soul as the source of life, creation, and universal love"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आत्मा का अनन्त,  \nवो यात्रा अनन्त है।  \nजिसके बिना जीवन,  \nजैसे सूखा चाँद है।  \n\nवो ज्वाला है,  \nजो जलती है भीतर।  \nवो सृष्टि है,  \nजिससे हर वस्तु है पवित्र।  \n\nआत्मा का अनन्त,  \nसंगीत की धुन है।  \nजिसे सुनते हैं सभी,  \nवो प्रेम का राग है।",
+  "poem_id": "MV++_0131",
+  "poem_title": "Atma Ka Anant",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5febf656bee5f9e63feb50767da8a7fa9b6a223defde8e676cf1b7da5ec2c541",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0131.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The soul’s infinity,  \nThat journey is endless.  \nWithout it, life,  \nIs like a dry moon.  \n\nIt is the flame,  \nThat burns within.  \nIt is the creation,  \nThat sanctifies every thing.  \n\nThe soul’s infinity,  \nIs the melody of music.  \nAll listen to it,  \nIt is the tune of love.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:49:47.456232+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1de2c28e9ab4f7a71aacbf205c3bcc7def27c3e1af94f1a1c02ef608c5a6720e",
+        "response_hash": "4cd3c0bb38d8db863f36e2aa396539a69b3b1be19f82499c89ea5ecd43d6be06",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a8fec51e18db2a5be8db1122516cd37d7255307f471f7452782dce2769487fe4",
+        "response_hash": "7925bf5764c86183bb764be745b8a4828d56cb6e98894bdf53c33951abdd8bf5",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2fc3a02c0d8cc903ff2f196b34d0d6ff9bbc2d0eed7300f1ee3b9f623c51e98e",
+        "response_hash": "7852a1443f5a6319f7c5dabd2b3bad065fe0cf9b5adf852558f3674acf16cd52",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b53c20c873dd70089cdda0bd1d4c5bde8fc1a7275b1c1f7b2fcb9951b5ca0dd5",
+        "response_hash": "a1a5029bc21696f32f4b905d514c5240b5b60de150fda44c606c931575395701",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7a99b5efe325438dfa893bca0c99a1a9ce3943f93489fd1b809bbb2935c39fd3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c013370bd623d65d713ac0dd100c8c50ed64adf5b71895e1533bb471c9b3a8df",
+    "translation_sha256": "cc4aa9edcfa57e086a31d019efd48008b04e900f0ad008ce5e36b0d61ac216e2"
+  }
+}

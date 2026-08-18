@@ -1,0 +1,184 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and quiet strength",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The positive, rewarding outcome or joy resulting from effort and perseverance.",
+            "acceptable_visual_variants": [
+              "A person looking up with a serene smile as warm light falls on them",
+              "A plant bearing a glowing, beautiful blossom or ripe fruit in a symbolic, non-literal style"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The grown fruit of a smile",
+            "literalization_risk": "An illustrator might literally draw a piece of fruit with a smiling face on it, which looks cartoonish and misses the poetic sense of achievement.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful outcome",
+              "transferred_attributes": [
+                "ripeness",
+                "sweetness",
+                "reward of growth"
+              ],
+              "vehicle_concept": "fruit"
+            },
+            "source_span_original": "ಬೆಳೆದ ನಗುವ ಹಣ್ಣು",
+            "source_span_translation": "The fruit of a growing smile",
+            "source_term": "ಬೆಳೆದ ನಗುವ ಹಣ್ಣು",
+            "tenor": "The joy or positive outcome of an achievement",
+            "vehicle": "A ripe, grown fruit",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, warm light or a blossoming flower-like form emerging from a person's expression of relief and accomplishment."
+          },
+          {
+            "abstract_meaning": "The emotional pain and burdens do not penetrate or overwhelm the inner self/spirit.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person with a calm, glowing center while dark, turbulent lines swirl only on the outside",
+              "A hand holding heavy stones while the chest area remains clear and luminous"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Has not flowed in the heart",
+            "literalization_risk": "A literal rendering of liquid flowing into an anatomical heart would look medical or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional penetration",
+              "transferred_attributes": [
+                "movement",
+                "permeation",
+                "filling a vessel"
+              ],
+              "vehicle_concept": "flowing water"
+            },
+            "source_span_original": "ಹೃದಯದಲ್ಲಿ ಹರಿದಿಲ್ಲ",
+            "source_span_translation": "Flow not in the heart",
+            "source_term": "ಹೃದಯದಲ್ಲಿ ಹರಿದಿಲ್ಲ",
+            "tenor": "The movement and penetration of emotional pain into one's inner being",
+            "vehicle": "A flowing liquid or stream",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a barrier of light or a calm, untouched inner space within a person's chest, while external dark waves or shadows remain outside."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Kannada locative case marker '-allu' in 'sādhaneyallū' combined with the emphatic clitic '-ū' creates a rhythmic and semantic emphasis ('even in every achievement/effort') that is flattened to a simple prepositional phrase 'In every effort' in English.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The metaphorical compound 'naguva haṇṇu' (literally 'the fruit of a smile' or 'the smiling fruit') carries a natural, organic connotation of ripening and sweetness in Kannada which is rendered somewhat mechanically as 'The fruit of a growing smile' in English.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The contrast between the physical holding in the hand ('kaige hiḍida') and the internal flowing in the heart ('hṛdayadalli haridilla') loses its sharp tactile and spatial juxtaposition due to the literalized translation of 'sankaṭagaḷu' as 'burdens' instead of 'griefs/distresses'.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The inner resilience that keeps external burdens and struggles from penetrating and overwhelming the heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list with three distinct entries detailing semantic and grammatical losses. When translation_quality is 'faithful', translation_loss should typically be empty, or the quality should be adjusted to 'partial' to reflect these losses.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಪ್ರತಿ ಸಾಧನೆಯಲ್ಲೂ,  \nಬೆಳೆದ ನಗುವ ಹಣ್ಣು,  \nಕೈಗೆ ಹಿಡಿದ ಸಂಕಟಗಳು,  \nಹೃದಯದಲ್ಲಿ ಹರಿದಿಲ್ಲ!",
+  "poem_id": "MV++_1001",
+  "poem_title": "Prathi Sadhana",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6f72d74eac9ea05850d88c2a0ba2475b5e648b2ac8f7e47af72a9a90a40703b3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1001.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In every effort,  \nThe fruit of a growing smile,  \nThe burdens held in hand,  \nFlow not in the heart!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:43:09.900181+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f28119e25ebdab7c88f1764ffd97b4c0d8240ecee2f2a41d8dfc52cb739a337d",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c45ed92c142755f7ea7b8549dad02e6ccd527b64788a8ff38207bd58632304f",
+        "response_hash": "8c57f32b6ec71238eb4a0579b483199fb6fa5a8af94b56f58a34ce708ee9f4a5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db641b9456bcde05c598736e682c6a8185f6a7a5474986c3be25fa0ba7d75e79",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "97b37393a97b3e897d8f89e0c2c31d5f5fbb97263dc50e4dcb360fdced0bc9fb",
+        "response_hash": "1eaaa4c0bd5b2154adb1fccd419d74a3a543949ad34acd90bb62067519db8fb6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e492e1aea54a4a7a76b861c07eb7ea5a4ed3e1877dab58122ae70b7cf2a5ea0a",
+        "response_hash": "475c44699829633aebc60ce561e154c7d2c9d4f3d7610b3a7df1f51161c37dfe",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "adbed925121ec0cace1bd9deeb021c422cb66ef563eda43cc6ee8294df887026",
+        "response_hash": "7fdf352cb74215d06560aa587a50af74a433477d0ed6e4fff085696cac9518fe",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d2fdf5542d7fec58d3952c9185e09ff9e1e96374438e18e613f2d0b4b1d082a4",
+    "translation_sha256": "4aa1709128f1a4f837eca6d5f25947559f4f1aa0383f38283bc169927837bedb"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A common Indian name or suffix, historically derived from Sanskrit meaning 'given' or 'dedicated', often associated with devotion or a dedicated soul in poetic contexts. Here it functions as a proper name or direct address to the protagonist.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Dutt",
+        "source_span_original": "दत्त",
+        "source_span_translation": "Dutt",
+        "stanza_index": 1,
+        "term": "दत्त",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "urgent resilience and detachment",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the rhythmic urgency of the repeated imperative 'bhaag' (run) and the wordplay on 'bhaag' (which can mean run/flee, but also destiny/share in Hindi, though here primarily used as run) is slightly flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To escape limitations, rise above mundane struggles, or act with swiftness and freedom.",
+            "acceptable_visual_variants": [
+              "A running man with a stylized, wing-like trail of dust or wind behind him",
+              "A silhouette of a runner transitioning into the shape of a soaring bird in the background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "flying with physical wings",
+            "literalization_risk": "Showing the human character Dutt with literal bird wings growing out of his back, which turns a poem about running/striving into a fantasy/mythological scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "human liberation and swift action",
+              "transferred_attributes": [
+                "elevation",
+                "speed",
+                "freedom from ground constraints"
+              ],
+              "vehicle_concept": "avian flight"
+            },
+            "source_span_original": "पंखों से उड़ा",
+            "source_span_translation": "fly with your wings",
+            "source_term": "पंखों से उड़ा",
+            "tenor": "freedom, speed, and rising above earthly struggles",
+            "vehicle": "wings and flight",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a running figure in a dynamic, forward-leaning pose that suggests extreme speed or wind, perhaps with a shadow or abstract light trails shaped like wings behind him."
+          },
+          {
+            "abstract_meaning": "To run away from trivial, mundane, or dirty struggles of life, or to avoid wasting time on fruitless activities.",
+            "acceptable_visual_variants": [
+              "A figure running from a dark, dusty path toward a clear, luminous horizon",
+              "A runner whose feet are leaving a dusty road as they leap forward into clear air"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "running away from kicking up physical dust on the ground",
+            "literalization_risk": "Depicting a person literally running away from a cloud of dirt, which looks like a simple construction site or desert scene rather than an existential escape.",
+            "metaphor_mapping": {
+              "tenor_concept": "engaging in trivial or unproductive earthly struggles",
+              "transferred_attributes": [
+                "dirtiness",
+                "low elevation",
+                "obscured vision"
+              ],
+              "vehicle_concept": "kicking up dust on a dirt path"
+            },
+            "source_span_original": "धूल उड़ाने से भाग",
+            "source_span_translation": "Run, away from the dust",
+            "source_term": "धूल उड़ाने से भाग",
+            "tenor": "mundane, low-value, or dirty struggles of life",
+            "vehicle": "dust on the ground",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a runner leaving a dark, dusty, or hazy ground level behind as they ascend or move toward a clearer, brighter path."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The wordplay on 'bhaag' (which can mean both 'run' as an imperative verb and 'destiny/fate' as a noun in Hindi) is lost in translation, as the English translation only uses 'run'. This double meaning directly affects the interpretation of 'bhaag tera yeh jeevan' (either 'run, this is your life' or 'destiny is this life of yours').",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic and urgent tone created by the repetition of the word 'bhaag' alongside the colloquial imperative 'tu chal' (literally 'you move' or 'come on') is flattened into a simpler English command 'You run'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The contrast between the passive state of others ('khoye hain', 'doobe hain') and the active command to Dutt is preserved, though the rhythmic drive of the original Hindi meter is lost.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "People are detached from reality, living in illusions or passive comfort.",
+            "acceptable_visual_variants": [
+              "Background figures sitting passively with closed eyes or vacant stares in a hazy environment",
+              "Figures enveloped in soft, colorful mist while the runner breaks through in sharp focus"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "everyone is physically lost inside a dream world",
+            "literalization_risk": "Showing people sleeping in beds or wandering through a surreal dreamscape, which distracts from the contrast between their passivity and Dutt's active running.",
+            "metaphor_mapping": {
+              "tenor_concept": "being consumed by internal illusions or passive fantasies",
+              "transferred_attributes": [
+                "disorientation",
+                "lack of awareness of actual surroundings"
+              ],
+              "vehicle_concept": "getting lost in a physical maze or forest"
+            },
+            "source_span_original": "सपनों में खोये हैं सब",
+            "source_span_translation": "Everyone is lost in dreams",
+            "source_term": "सपनों में खोये हैं सब",
+            "tenor": "being mentally detached or living in illusions",
+            "vehicle": "being physically lost in a location",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict background figures with soft, blurred, or unfocused expressions, perhaps surrounded by hazy, cloud-like halos, contrasting with the sharp, dynamic focus of the running protagonist."
+          },
+          {
+            "abstract_meaning": "People are completely consumed by, or passively content with, temporary pleasures and joys.",
+            "acceptable_visual_variants": [
+              "Figures sitting in a warm, golden pool of light, looking content and oblivious",
+              "Figures draped in soft, heavy festive fabrics or garlands that keep them stationary"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "everyone is physically submerged or drowned in a liquid of joy",
+            "literalization_risk": "Showing people literally drowning in water or a liquid, which looks like a disaster scene rather than a state of passive pleasure.",
+            "metaphor_mapping": {
+              "tenor_concept": "complete absorption in emotional states",
+              "transferred_attributes": [
+                "envelopment",
+                "loss of external awareness",
+                "submersion"
+              ],
+              "vehicle_concept": "submersion in a deep liquid"
+            },
+            "source_span_original": "खुशियों में डूबे हैं सब",
+            "source_span_translation": "Everyone is drowned in joys",
+            "source_term": "खुशियों में डूबे हैं सब",
+            "tenor": "being completely absorbed or overwhelmed by emotional pleasures",
+            "vehicle": "drowning or submersion in water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show background figures surrounded or covered by warm, golden, or festive light/liquids in a state of passive bliss, contrasting with the active, striving runner."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The double meaning of 'bhaag' (destiny vs. run) is lost again in the refrain, missing the philosophical contrast with others being lost in dreams and joys while the subject's destiny/running is their entire life.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "An urgent call to run, rise above the mundane dust, and escape the passive dreams of others to claim one's own life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तू चल, भाग दत्त, भाग  \nभाग तेरा यह जीवन,  \nभाग जरा पंखों से उड़ा,  \nधूल उड़ाने से भाग।\n\nसपनों में खोये हैं सब,  \nखुशियों में डूबे हैं सब,  \nतू चल, भाग दत्त, भाग  \nभाग तेरा यह जीवन।",
+  "poem_id": "MV++_0149",
+  "poem_title": "Bhaag Dutt",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d3cdb490010c61dcb93f771b99cc4ed583a72e2c1d1a2c399c90109bad1464a0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0149.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "You run, Dutt, run  \nRun, your life is this,  \nRun, fly with your wings,  \nRun, away from the dust.\n\nEveryone is lost in dreams,  \nEveryone is drowned in joys,  \nYou run, Dutt, run  \nRun, your life is this.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:52:10.427933+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7867418f2589ddd5d0bc3fa6969ae39a857b9aab79d510dd25697346235bb49",
+        "response_hash": "aa1495a054b56d60692f8346ce2006de4ebc966e7bded045ebd19430b5b00210"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db7c649060893af9d397bf963414a4d1ced9dc72b2b4048f05fd5552932cb5c7",
+        "response_hash": "679bebc277ba3fe619885127ddf08c62b055b98cbbc66843c0f026bdd4a80eb9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "044f4b5adf4b972135ef91d0441053f09ba5248a1cda92a5db7e06dcf0cb0020",
+        "response_hash": "ed27338f2a2f3c1f03ea772263bbcc7070168387179793169f2e0a37eb048983",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5dac250ff78893cf2cc756ade7be757e681d37b2125288d8b682b3bd08ab5cff",
+        "response_hash": "491848eea630920fc1f108d34f699d4a682dd13ffc619aaeef0628baabf6f5da",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2b775ed80a0dd9e05c55d500e7c07c4df2853c6c4f491ff8e63d46f8564b2a8f",
+        "response_hash": "aed9108d9f0c416d308ada36e83965995b96fa82e10b1440a855b5e9177dc5cb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "686e9240d03ddca4c22bab09704ce5bfa834a0878cca97ac32264d9bf8770236",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e6f6dea83d11915d70c4ad614c049b228f14340206defbe59975a41d398b297f",
+    "translation_sha256": "51643af00d9006ebc6d51c3a1bdc7a390e6be5631f588e5b31f7ad0332ad26d7"
+  }
+}

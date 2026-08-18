@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "restlessness to quiet acceptance of emotional depth",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The continuous, flowing, and sometimes rapid thoughts and feelings of the mind.",
+            "acceptable_visual_variants": [
+              "A silhouette of a head with a gentle stream of water flowing within it",
+              "A person sitting by a real mountain stream in deep thought"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A waterfall or spring of the mind",
+            "literalization_risk": "Showing a physical waterfall pouring out of a human head or brain, which looks surreal or comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "mind",
+              "transferred_attributes": [
+                "continuous flow",
+                "restlessness",
+                "natural movement"
+              ],
+              "vehicle_concept": "waterfall"
+            },
+            "source_span_original": "ମନର ଝରଣା",
+            "source_span_translation": "A cascade of the mind",
+            "source_term": "ମନର ଝରଣା",
+            "tenor": "The mind's thoughts and emotions",
+            "vehicle": "A cascade / waterfall / spring",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, flowing stream of light or water-like energy emanating from a contemplative figure's silhouette."
+          },
+          {
+            "abstract_meaning": "The deep, continuous, and vast flow of human feelings and sensitivity.",
+            "acceptable_visual_variants": [
+              "A winding river under a twilight sky",
+              "A stream of glowing light flowing through a dark forest"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A river of sensitivity / emotions",
+            "literalization_risk": "Depicting a literal river made of tears or abstract emotional symbols, which can look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotions",
+              "transferred_attributes": [
+                "depth",
+                "continuous flow",
+                "carrying stories/debris",
+                "movement"
+              ],
+              "vehicle_concept": "river"
+            },
+            "source_span_original": "ସଂବେଦନାର ନଦୀ",
+            "source_span_translation": "river of emotions",
+            "source_term": "ସଂବେଦନାର ନଦୀ",
+            "tenor": "Emotions / sensitivity",
+            "vehicle": "A river",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a winding river flowing through a landscape, with its currents reflecting changing colors or light to suggest moods."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific colloquial or regional nuance of the phrase 'କନ୍ତ ବଡା' (Kanta Bada) is simplified to 'The Fickle Heart' in the translation, losing the precise cultural and linguistic flavor of the opening idiom.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ମନେ ଯାତ୍ରା' (mane jatra) as 'remembers the voyage' flattens the dual resonance of 'mane' (in the mind / remembers) and 'jatra' (journey / traditional folk theatre), which carries deep cultural associations in Odia.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The fluid, ever-changing nature of human emotion and memory, likened to flowing water."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing medium-severity losses on lines L1 and L6. This is internally inconsistent; translation_quality should be 'partial' if there are significant losses.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Odia",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "କନ୍ତ ବଡା  \nଏକ ଅସ୍ଥିର ହୃଦୟ,  \nମନର ଝରଣା,  \nବଦଳିବାରେ ସମର୍ଥ।  \nଯେତେବେଳେ ଏହା ନୂତନ ଦିଗକୁ ଯାଇଥାଏ,  \nତେବେ ମନେ ଯାତ୍ରା,  \nହୃଦୟର କଥା।  \nଏହା ସଂବେଦନାର ନଦୀ,  \nଏହା ନେଇ ଅନେକ କଥା।",
+  "poem_id": "MV++_1207",
+  "poem_title": "Kanta Bada",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b092276e90b34859cf63481cbaa97d035bd1cdf17a20fae2763e7e9953bca458",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Odia/MV++_1207.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Fickle Heart  \nA restless heart,  \nA cascade of the mind,  \nCapable of change.  \nWhenever it journeys to a new direction,  \nIt remembers the voyage,  \nThe tales of the heart.  \nIt is a river of emotions,  \nIt carries many stories.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:08:46.277651+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "44b4905bbc4999d698e62ca8a2a3d125e457171af1bc745de3990bfe61ab2237",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9ace3a02179e692ab675b279bdfd29627ce8f4043188b028e39a49d0a14282bb",
+        "response_hash": "88c1be0e97552313f6cf5d4c40fc2646009a10d814c377f8425a0ba66f0ded4d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b65273a6710eb9e6d0a701e019ec347d71938568391c70b79356395f0f97e35",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "50c31d132cfecd962765898d3a1c0d27fd2bc135067e9490e1e823b2069d01e1",
+        "response_hash": "5d1b01f25f79d63656c5d01507eee09a724b10c6c5370891c17b636144ed3fea",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8f7044c828583260c3d65ad130498c22affb6d22a0d85f7ea9a6a7a653277b8",
+        "response_hash": "55256bafc47eb8fb226cd8469089c8ab4d0d4db32015dd1353af4f269de15435",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fc620bda4aaf265aee48b7e39051503adce6f69a9e2aba4f421ab495ad69951d",
+        "response_hash": "ac5e7428eee31b770996d97996c9c328681ef6570521ba5484e3f8fb87f9d833",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "149d8dba199bef206b7155169c4e87aea5c51ea006e789c930c08083f4bac9bc",
+    "translation_sha256": "e3ac007b70123d9b43e45e550cc184efba41be9c4fa925904dbbf7196796d2c8"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple paved or earthen courtyard with sunlight",
+          "A courtyard with a small tulsi planter or traditional seating"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional central open-to-sky courtyard in South Asian homes, serving as a social, domestic, and cultural hub for family life.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A modern Western-style backyard with grass lawns and patio furniture",
+          "An enclosed indoor living room"
+        ],
+        "preserved": true,
+        "romanization": "angan",
+        "source_span_original": "आंगन",
+        "source_span_translation": "courtyard",
+        "stanza_index": 1,
+        "term": "आंगन",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An open-air central courtyard surrounded by rooms or low walls",
+          "Sunlight streaming down into the center",
+          "Perhaps a small potted plant or simple domestic elements typical of a traditional Indian home"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and nostalgia to acceptance and moving on",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation adds 'forever scarred' to rhyme with 'courtyard', introducing a harshness/pain not present in the original Hindi text, which simply states that the old home and courtyard have now just remained as memories.",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces the word 'scarred' ('forever scarred') to force a rhyme with 'courtyard', which adds a negative, traumatic connotation of damage or injury that is entirely absent from the original Hindi text ('बस रह गया है', meaning simply 'has just remained').",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'a new view' to force a rhyme with 'anew', which is not present in the original Hindi text ('एक नये जीवन की तलाश में', meaning simply 'in search of a new life').",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender and active motion of the masculine singular speaker ('चला हूँ', indicating 'I have set out/started walking') is flattened into the simple present 'I leave' in English, losing the sense of active, ongoing physical departure.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation adds rhyming words like 'of old' and 'bold' to fit the rhyme scheme, slightly altering the simple, direct tone of the original Hindi lines.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The old house felt alive, comforting, and filled with familiar, gentle sounds of domestic life.",
+            "acceptable_visual_variants": [
+              "A cozy room corner with old-fashioned plaster walls bathed in warm afternoon sunlight",
+              "An empty but inviting room where soft shadows and light create a sense of quiet, comforting presence"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "The walls were humming or singing a little bit.",
+            "literalization_risk": "An illustrator might draw literal mouths on brick walls or musical notes physically floating out of plaster, which looks cartoonish and misses the emotional warmth of memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "lively domestic atmosphere",
+              "transferred_attributes": [
+                "making gentle vocal sounds",
+                "expressing warmth and life"
+              ],
+              "vehicle_concept": "singing walls"
+            },
+            "source_span_original": "दीवारें थीं कुछ गुनगुनाती",
+            "source_span_translation": "walls once hummed songs of old",
+            "source_term": "दीवारें थीं कुछ गुनगुनाती",
+            "tenor": "The comforting, familiar ambient sounds and lively atmosphere of the old home",
+            "vehicle": "Humming or singing walls",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, sunlit interior of an old room with soft, glowing light reflecting off textured walls, perhaps with dust motes dancing in the light to suggest a gentle, living atmosphere."
+          },
+          {
+            "abstract_meaning": "The home was a place where hopes, aspirations, and future plans were nurtured and felt achievable.",
+            "acceptable_visual_variants": [
+              "A small plant sprouting from a patch of earth in a traditional courtyard",
+              "A hand gently tending to a young green shoot in the soil"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Dreams used to grow or sprout out of the soil.",
+            "literalization_risk": "Showing literal sleeping figures or thought bubbles with dream sequences physically growing out of dirt patches on the floor would look bizarre and surreal rather than nostalgic.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams developing in a nurturing home",
+              "transferred_attributes": [
+                "growth",
+                "germination",
+                "dependence on fertile ground"
+              ],
+              "vehicle_concept": "seeds sprouting from fertile soil"
+            },
+            "source_span_original": "मिटी में ख्वाब उगते थे",
+            "source_span_translation": "Dreams once blossomed in the soil",
+            "source_term": "मिटी में ख्वाब उगते थे",
+            "tenor": "Nurturing and developing hopes and dreams in a supportive environment",
+            "vehicle": "Sprouting or growing plants/crops",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict small, delicate green shoots or glowing sprouts gently emerging from rich, dark earth in a courtyard, symbolizing potential and hope."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds the word 'bold' to force a rhyme with 'old', which is not present in the original Hindi text ('वहां की मिट्टी में ख्वाब उगते थे', meaning 'dreams used to grow in the soil there').",
+            "where": "L6"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'अब पराया हो गया है' (has now become foreign/alien/belonging to another) as 'now feels long gone', which loses the poignant cultural and emotional contrast between 'मेरा' (mine) and 'पराया' (alien/other's).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The bittersweet transition of leaving one's ancestral home and memories behind to seek a new life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "घर छोड़ बसेरा करने चला हूँ,  \nएक नये जीवन की तलाश में।  \nवो पुराना घर, वो पुराना आंगन,  \nअब यादें बन कर बस रह गया है।\n\nवहाँ की दीवारें थीं कुछ गुनगुनाती,  \nवहां की मिटी में ख्वाब उगते थे।  \nपर अब मुझे जाना है, छोड़ आना है,  \nवह घर जो कभी मेरा था, अब पराया हो गया है।",
+  "poem_id": "MV++_0605",
+  "poem_title": "Ghar Chor Basera",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d12e664490347ec2056771eaea2a6e72bfb6a9f64d18a586a902b421278dadf2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0605.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I leave home to settle anew,  \nIn search of a new life, a new view.  \nThe old home, the old courtyard,  \nNow only memories, forever scarred.\n\nThe walls once hummed songs of old,  \nDreams once blossomed in the soil, bold.  \nBut now I must leave, I must move on,  \nThe home that was mine, now feels long gone.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:44:58.496831+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d3b7f11c646796d552d9902c3d7c23e1396ce9ea081a5b420ba920a830e7c731",
+        "response_hash": "83aeaa0e63b9fd5b01b08a2db8a23e6988f5bec9bf3961771003d35fce87903d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "32b905a0876f398c85cf64362fcf7b65b0b36154f72c3e7e81fcd3fec6c743f5",
+        "response_hash": "de01b688aed552197f7a68d44954979a80ef138e7ac7ee53d77b52e1216b3dcf",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b74cb70fd4272500af901e9012f9be4eb9ec33263152ddd1d697cdc143394be4",
+        "response_hash": "c268828dbbba4c1ae4c2f8312f3481257d440355f0fa153a76213dbb8b24dd0c",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "800c9237752725b6a35d48e3fd2ae97495bb76d1b1b3cd442be2954f04df0272",
+        "response_hash": "18bd3e15bc483e8f4c5e311bce5be267ceeb3bf1946c8638cf36fe3739c95ab4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "17a2b8c04a8e4885215b4c352baa5cbc515672c57f677d3e87d8d76bb8ab49e1",
+        "response_hash": "07b05fd5495e023826b2a393f04c29604b09767615cae9796ac8f40558e6f10f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "51b4bf650a1175c3ece0453d73a6e596205e7a73a03f14d7efcf0c58176d7fb1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7f598b1a4a55ca8007d18f3c8bc274c7275f71cd0ae332f5f6fd91643ec0a41e",
+    "translation_sha256": "2161dbb7b9ec9672d1f47afd33d99bb2f8e3de0506806721e6437039fbc0ea8c"
+  }
+}

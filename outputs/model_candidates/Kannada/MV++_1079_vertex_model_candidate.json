@@ -1,0 +1,280 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "grief and longing to deep philosophical peace and empathy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The universe or nature itself feels empathy and responds with deep sorrow to human suffering.",
+            "acceptable_visual_variants": [
+              "A vast, dark sky filled with heavy, low-hanging clouds that seem to envelop a weeping figure.",
+              "A twilight sky with soft, drooping mist or fog settling gently around a person in distress."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The physical sky bends down physically in response to someone's pain.",
+            "literalization_risk": "An illustrator might draw a literal blue sky physically curving or drooping down like a piece of fabric, which looks cartoonish and misses the emotional depth of cosmic empathy.",
+            "metaphor_mapping": {
+              "tenor_concept": "cosmic empathy for human pain",
+              "transferred_attributes": [
+                "bending down",
+                "feeling sorrow",
+                "lowering itself to comfort"
+              ],
+              "vehicle_concept": "sky bending in sorrow"
+            },
+            "source_span_original": "आकाश भी उसकी पीड़ा में झुकता है",
+            "source_span_translation": "the sky also bends in their sorrow",
+            "source_term": "आकाश भी उसकी पीड़ा में झुकता है",
+            "tenor": "The profound, cosmic scale of empathy and shared grief for human suffering",
+            "vehicle": "The sky bending down in sorrow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, dark, or rain-heavy sky hanging low over a solitary weeping figure, with soft light breaking through or rain falling like tears to suggest a shared emotional weight."
+          },
+          {
+            "abstract_meaning": "Within suffering, pain, and emotional wounds lies the potential for beautiful growth, healing, and wisdom.",
+            "acceptable_visual_variants": [
+              "Delicate, glowing flower buds emerging from a cracked, dry earth-like texture.",
+              "A stylized silhouette of a person with soft, colorful wildflowers blooming gently from within their chest area."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Actual botanical flowers are physically tucked inside open physical cuts or injuries.",
+            "literalization_risk": "Showing literal flowers growing out of bloody, open flesh wounds can look grotesque, medical, or like a body-horror image rather than a poetic metaphor of healing.",
+            "metaphor_mapping": {
+              "tenor_concept": "growth and beauty emerging from emotional pain",
+              "transferred_attributes": [
+                "hidden beauty",
+                "potential to bloom",
+                "growth from trauma"
+              ],
+              "vehicle_concept": "flowers blooming from wounds"
+            },
+            "source_span_original": "घावों के भीतर छुपे हैं अनगिनत फूल",
+            "source_span_translation": "countless flowers lie hidden in wounds",
+            "source_term": "घावों के भीतर छुपे हैं अनगिनत फूल",
+            "tenor": "The potential for beauty, healing, and growth that emerges from suffering",
+            "vehicle": "Flowers hidden inside wounds",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Use a stylized, symbolic representation where soft, glowing floral silhouettes or delicate sprouts gently overlay or emerge from a cracked, dry, or shadowed surface representing a broken heart or spirit."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The gender-neutral pronoun 'उसने' (Usne) is translated as 'She', which resolves the original Hindi's deliberate gender ambiguity to a specific female subject.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic flow and internal rhyme of 'samjho' (understand) and 'jhukta hai' (bends) are lost in the English prose structure.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Love is not just a simple spoken word, but an entire vast realm of existence filled with truth and compassion.",
+            "acceptable_visual_variants": [
+              "A warm, glowing landscape of soft light and gentle paths where figures interact with kindness.",
+              "An abstract, expansive space of warm colors and light that suggests a safe, welcoming universe."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7-L8",
+            "literal_meaning": "Love is a physical planet or geographical world where people can walk.",
+            "literalization_risk": "Drawing a literal globe or planet labeled 'Love' can look childish, literal, and overly simplistic.",
+            "metaphor_mapping": {
+              "tenor_concept": "the vast emotional and ethical space of love",
+              "transferred_attributes": [
+                "spaciousness",
+                "inhabitable",
+                "containing life and values"
+              ],
+              "vehicle_concept": "a physical world or planet"
+            },
+            "source_span_original": "प्रेम सिर्फ़ एक शब्द नहीं,\nयह एक दुनिया है",
+            "source_span_translation": "love is not just a word,\nit’s a world",
+            "source_term": "प्रेम सिर्फ़ एक शब्द नहीं, यह एक दुनिया है",
+            "tenor": "The vast, all-encompassing nature of love filled with truth and compassion",
+            "vehicle": "A world or realm",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, luminous, and harmonious landscape filled with soft light, representing a peaceful sanctuary or realm of compassion."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The gender-neutral pronoun 'उसने' (Usne) is again translated as 'She', maintaining the gendered resolution not present in the original text.",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The specific cultural and philosophical resonance of 'karuna' (compassion/empathy) is simplified to the standard English 'compassion', losing its deep Indian philosophical undertones.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A person's inner self, feelings, and spirit are highly sensitive and easily damaged by harshness.",
+            "acceptable_visual_variants": [
+              "A fragile, glowing paper lantern flickering gently in a dark space.",
+              "A delicate, translucent butterfly resting on a hand, symbolizing vulnerability."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "The human soul is a physical, fragile object that can break like glass or porcelain.",
+            "literalization_risk": "Depicting a literal glowing ghost-like figure cracking like glass can look like a fantasy movie special effect rather than an emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "the vulnerable human psyche and spirit",
+              "transferred_attributes": [
+                "delicacy",
+                "susceptibility to breaking",
+                "need for gentle handling"
+              ],
+              "vehicle_concept": "a fragile glass or porcelain object"
+            },
+            "source_span_original": "आत्मा कितनी नाज़ुक होती है",
+            "source_span_translation": "how delicate a person’s soul can be",
+            "source_term": "आत्मा कितनी नाज़ुक होती है",
+            "tenor": "The extreme emotional sensitivity and vulnerability of a person's inner spirit",
+            "vehicle": "A delicate, fragile object",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize a delicate, glowing thread, a fragile paper lantern, or a soft butterfly wing being gently shielded from a harsh wind."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The gender-neutral pronoun 'उसने' (Usne) is translated as 'She', continuing the gendered resolution.",
+            "where": "L9"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Urdu-derived word 'वजूद' (wajood), which carries deep existential weight meaning 'essence', 'existence', or 'identity', is translated as 'being', which slightly flattens its philosophical depth.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound interconnectedness of human suffering, love, and the delicate nature of the soul"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "metadata.language",
+      "issue": "The poem is written in Hindi (using Devanagari script and Hindi/Urdu vocabulary like 'उसने कहा था', 'दर्द', 'आकाश', 'वजूद'), but the metadata and language addendum context label it as Kannada. This is a fundamental language mismatch between the poem text and the assigned language profile.",
+      "severity": "high"
+    },
+    {
+      "field_path": "stanzas[1].metaphor_spans[0].source_span_original",
+      "issue": "The source_span_original contains a newline character ('\\n') which is not present in the original poem's single-line text for L7-L8, or does not match the exact spacing of the source line.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "उसने कहा था कि दर्द को समझो,  \nकि जब कोई रोता है तो आकाश भी उसकी पीड़ा में झुकता है।  \nउसने कहा था कि घावों के भीतर छुपे हैं अनगिनत फूल,  \nजो खिलने का इंतज़ार कर रहे हैं।  \n\nउसने कहा था कि कभी किसी के आंसूओं को हल्के में मत लेना,  \nक्योंकि हर आंसू की एक कहानी होती है।  \nउसने कहा था कि प्रेम सिर्फ़ एक शब्द नहीं,  \nयह एक दुनिया है, जिसमें बसी है सच्चाई और करुणा।  \n\nउसने कहा था कि कभी मत भूलना  \nकि एक इंसान की आत्मा कितनी नाज़ुक होती है,  \nऔर जब हम उस पर चोट करते हैं,  \nतो हम खुद अपने वजूद को भी चोट पहुँचाते हैं।",
+  "poem_id": "MV++_1079",
+  "poem_title": "Usne Kaha Tha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4f71db0e5901ce18fee89e9e007f348c9c121e726fc1b26091d156f329df56d3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1079.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "She had said to understand the pain,  \nthat when someone cries, the sky also bends in their sorrow.  \nShe had said that countless flowers lie hidden in wounds,  \nwaiting to bloom.  \n\nShe had said to never take someone’s tears lightly,  \nfor each tear has a story.  \nShe had said that love is not just a word,  \nit’s a world where truth and compassion reside.  \n\nShe had said to never forget  \nhow delicate a person’s soul can be,  \nand when we hurt them,  \nwe wound our own being as well.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:55:26.898033+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b0f6c23e14f6536eb27fd4e3079c78a2ccbb4423c6b17402f532fb50cfa2189b",
+        "response_hash": "69e430a8ad0af3049ce9525d4c1e152d71e2001fe6166aba0773a5ee7abfe5ab"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9048dacc46398dfec6ddf24250511cbdbc39d519995f3bf2b767e356a6efa2f7",
+        "response_hash": "06d62c8247e2096665f7b9494762d06ab2d1aad149b017246410f2386326f0d3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f99977e5ba25618abae4117636ea1026cb82e5d3e6d1fad874ba10c28305f406",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0bdfa248672d99982beff7e34f73eceba5c08d3a5e94752338e23242e82e9f28",
+        "response_hash": "da8119d4a771e71fdfde50853e8e6a3e2635218d82195345db093836c0fa622d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a39f312ce0289cf79d2fcc78476df1a5b15fe0afc335cbf37ee9070d4a702978",
+        "response_hash": "fb3bdb93dbb7802682ed3d247ee3d152bb9f0dd525f380e990d8f604f48fac01",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4957f868c2eff65d49fcc30083068ecd61084b4810738caef27b6cb0b4d1a23b",
+        "response_hash": "9bf20243f6e7f5d817773d871039d74e083130bf32aad9fdba1c178849e65a11",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bfc8db80d508d364aaaa254475f600a2a3fef855a3365b31db5d8d2eb99627db",
+    "translation_sha256": "7d2d4d7f2014dbfd53fb2ad90d7256584b5a07cfcf43386da395f7522eececb8"
+  }
+}

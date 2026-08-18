@@ -1,0 +1,171 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "nostalgic longing to quiet resignation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic, melodic repetition of the adverbial participle suffix '-te hi' (nikalte hi, chalte hi) which creates a musical, immediate sense of action in Hindi, is flattened into standard English temporal clauses ('As soon as', 'after walking').",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The subtle temporal nuance of 'pahle bhi' (even earlier / in the past as well) is omitted, losing the explicit contrast between the past habit and the present state.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The house is locked, abandoned, and no longer inhabited by the beloved, symbolizing the end of their connection and her absence.",
+            "acceptable_visual_variants": [
+              "A dusty, locked wooden door with cobwebs and dry leaves at the base",
+              "A shuttered window of an old house with peeling paint, looking dark inside"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L3",
+            "literal_meaning": "this (the house) is lying closed/locked",
+            "literalization_risk": "An illustrator might draw a generic modern padlock on a door, missing the emotional weight of abandonment and lost love.",
+            "metaphor_mapping": {
+              "tenor_concept": "abandoned relationship and absent beloved",
+              "transferred_attributes": [
+                "emptiness",
+                "silence",
+                "inaccessibility",
+                "passage of time"
+              ],
+              "vehicle_concept": "locked house"
+            },
+            "source_span_original": "बंद पड़ी है ये",
+            "source_span_translation": "it has remained shut",
+            "source_term": "बंद पड़ी है ये",
+            "tenor": "The absence of the beloved and the death of their past relationship",
+            "vehicle": "A locked, closed-up house",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a weathered, dusty door of an old house with a rusted lock, perhaps with dry leaves gathered at the threshold to visually convey long-term abandonment."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The shift from the Sanskrit-derived/common Hindi word 'ghar' (house/home) in Stanza 1 to the Urdu-derived register word 'makaa' (house/building/residence) in Stanza 2 is lost, which subtly alters the tone from intimate to a more detached, formal, or poetic lament.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The feminine grammatical agreement in 'band padi hai ye' (referring to the house/makaa as a feminine entity or implying 'makaan' as a building/structure in a colloquial feminine-associated phrasing, or referring back to the feminine 'jagah' / place) is lost in the gender-neutral English 'it'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The passage of time and the fading of past connections, marked by a once-familiar home that is now abandoned and estranged."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items. Under the schema rules, translation_loss should be empty when translation_quality is faithful, or the quality should be marked as 'partial' to reflect the documented losses.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items. Under the schema rules, translation_loss should be empty when translation_quality is faithful, or the quality should be marked as 'partial' to reflect the documented losses.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "घर से निकलते ही कुछ दूर चलते ही  \nरस्ते में उसका घर पहले भी आता था।  \n\nदो-चार सालों से बंद पड़ी है ये,  \nअब क्या कहें, ये किसका मकां था।",
+  "poem_id": "MV++_0107",
+  "poem_title": "Ghar Se Nikalte Hi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "974647e0694efea5db87bb38e899cc6cea3c4f3bfe987c73fdde4d09eaea4132",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0107.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "As soon as I step out, after walking a short while,  \nHer house would always come along the way.  \n\nFor the past few years, it has remained shut,  \nNow what should I say, whose home was it?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:47:13.758729+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ee04b813a937096e1982ffb0e343d31b9821e65e052965cdf3eecedded820147",
+        "response_hash": "aea3407124aa6ce5580dc76dce092ec5cbb4f22e0795c8c2292f5b4470b890e6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0ab6ec02473430e0c030190c648ec6b44e31c02e7106677b2d07ffa7087e7317",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5f546cca0827b52f7ec1f50eb17574f9920de6c871cb8f4ac6ab893e930253bc",
+        "response_hash": "269b541b94fad3dd59d30c31a67382aa80f55d2121a6151d36036379f62a3558",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fdae3ac121753e984e6110b0a08ca8e0fa3fe44d9d1d120e6635e37cda3c79fd",
+        "response_hash": "a2e68752843f6630534d1ca4ef61032db95ce3a8a1d3c977043022219f5d77a8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6bf76b972d8cbebc5851df68dd124abdfd02c63950ab3305b9c192199e61cd83",
+        "response_hash": "6c6a4c0a228ff1220a0fc4f7e6ccc2bf3bec648b2a2abbfb9561c058ff6d49df",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "dbeb2ef63448e0b14a8b66c061a423c233c4e568d7675f0997b4e7cea507681b",
+    "translation_sha256": "5e273df38144ae55e88c35f72d0ff73644e45a40ee6bc1295218ab70ce60b0d0"
+  }
+}

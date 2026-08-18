@@ -1,0 +1,206 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A natural river landscape with flowing water and green banks",
+          "A stylized representation of a river goddess or flowing water stream"
+        ],
+        "category": "SACRED_RIVER",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Kaveri (Cauvery) River, a major sacred river flowing through Karnataka and Tamil Nadu, deeply revered as a goddess and a cultural lifeline in the region.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic dry riverbed",
+          "A generic northern Indian river landscape like the Ganges with Himalayan backdrops"
+        ],
+        "preserved": true,
+        "romanization": "Kaveri",
+        "source_span_original": "ಕಾವೇರಿ",
+        "source_span_translation": "Kaveri",
+        "stanza_index": 1,
+        "term": "ಕಾವೇರಿ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A wide, flowing river winding through a lush landscape",
+          "Water reflecting soft light"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing to quiet reflection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the rhythmic, flowing quality of the Kannada phrasing, particularly the compound-like structure of 'haridu hoguva' (flowing away/drifting) which mirrors the movement of water.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The river Kaveri is addressed as a conscious entity possessing dreams and a personal narrative of her flow.",
+            "acceptable_visual_variants": [
+              "A wide shot of the winding Kaveri river at twilight with soft mist rising like dreamscapes",
+              "Close-up of water currents forming swirling, artistic patterns that evoke thoughts or memories"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1-L2",
+            "literal_meaning": "Kaveri, river of water, your dream, the story of your flowing",
+            "literalization_risk": "Depicting a literal human woman sleeping and dreaming inside the water, which distracts from the natural beauty of the flowing river.",
+            "metaphor_mapping": {
+              "tenor_concept": "river flow",
+              "transferred_attributes": [
+                "having dreams",
+                "having a personal history or tale",
+                "possessing memory"
+              ],
+              "vehicle_concept": "human consciousness"
+            },
+            "source_span_original": "ಕಾವೇರಿ, ನೀರಿನ ಕಾವೇರಿ,\nನಿನ್ನ ಕನಸು, ನಿನ್ನ ಹರಿವಿನ ಸಂಗತಿ",
+            "source_span_translation": "Kaveri, the river of water,\nYour dreams, the tale of your flow",
+            "source_term": "ಕಾವೇರಿ, ನೀರಿನ ಕಾವೇರಿ,\nನಿನ್ನ ಕನಸು, ನಿನ್ನ ಹರಿವಿನ ಸಂಗತಿ",
+            "tenor": "The natural flow and movement of the Kaveri river",
+            "vehicle": "A conscious human being who dreams and has stories to tell",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the flowing river Kaveri with subtle, dreamlike patterns or soft light reflecting on the water's surface to suggest a contemplative, conscious quality without drawing a literal human figure."
+          },
+          {
+            "abstract_meaning": "Human life or the passage of time is conceptualized as a bird that drifts or flies away along the river's course.",
+            "acceptable_visual_variants": [
+              "A silhouette of a bird flying parallel to the river current against a sunset sky",
+              "A bird floating peacefully on the moving water, carried gently downstream"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The flowing-away bird of life",
+            "literalization_risk": "Showing a literal bird physically swept away or drowning in water, which misrepresents the peaceful, transient poetic sentiment.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "transience",
+                "constant movement",
+                "drifting away with the current"
+              ],
+              "vehicle_concept": "a drifting bird"
+            },
+            "source_span_original": "ಜೀವನದ ಹರಿದು ಹೋಗುವ ಹಕ್ಕಿ",
+            "source_span_translation": "A bird that drifts through life",
+            "source_term": "ಜೀವನದ ಹರಿದು ಹೋಗುವ ಹಕ್ಕಿ",
+            "tenor": "The transient, fleeting nature of human life and existence",
+            "vehicle": "A bird drifting or flying along a flowing current",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary bird gliding gracefully low over the river's surface, moving along with the direction of the water's flow."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'ನೀರಿನ ಕಾವೇರಿ' (niirina Kaveri) as 'the river of water' loses the poetic, rhythmic repetition of the 'ka' sound and the literal simplicity of 'Kaveri of water' which emphasizes her elemental nature.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada word 'ಸಂಗತಿ' (sangati) carries connotations of companionship, association, or an ongoing relationship, which is flattened to 'tale' in the English translation.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'ಹರಿದು ಹೋಗುವ' (haridu hoguva) literally means 'flowing away' or 'flowing along', which directly mirrors the river's movement. The translation 'drifts' loses this explicit water/flow-based verb connection to the river's flow established in the previous lines.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The parallel between the continuous flow of the Kaveri river and the transient journey of human life"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಕಾವೇರಿ, ನೀರಿನ ಕಾವೇರಿ,  \nನಿನ್ನ ಕನಸು, ನಿನ್ನ ಹರಿವಿನ ಸಂಗತಿ,  \nನಿನ್ನ ನೆನೆಪಿನಲ್ಲಿ ಸಾಗುವ,  \nಜೀವನದ ಹರಿದು ಹೋಗುವ ಹಕ್ಕಿ.",
+  "poem_id": "MV++_0974",
+  "poem_title": "Kaveri",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "19997c9d1a7fa7753f3402db13f87249e8896b52029a63e8ddd5f07906972e15",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0974.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Kaveri, the river of water,  \nYour dreams, the tale of your flow,  \nMoving in your memory,  \nA bird that drifts through life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:38:45.151440+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eb45be4f3836b26bd40552f81843cba3b4891da3b44b388a94b95f669f580c9e",
+        "response_hash": "f7ac838784470859322afae8a35275bdd9b555b1a673c189a703375a877ebc85"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a37c153755dc77f8d18d12a4c119aa9e97284242e9aef8b19e360e50ea9a7508",
+        "response_hash": "923f2c7eab7022224269d6ea5f7f44e31c82cefeb72c4451fccf2b769597f4f3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "606e582042bc64f6805f1a12fe32d110a2597a0fd39bc19956f165b1f816aefa",
+        "response_hash": "0f3d1622142dedd3c56e0e83643912fbb0cd0ba13163d7595374ff65f19531fe",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e2261e538410a60217d74c587be699671e0f68f17b9990691dbeb3fd8c84c8e",
+        "response_hash": "b823d222dd80c84db4746e07069af5ec0ea195ecf7a446cccbaea5460bc4102c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4bd0078c25ccb3429facc19aa5ae47d31424e3978d4d7aa9680868e3b3c6caa7",
+        "response_hash": "5ccb9a935fcf56b439c01d3f1b475610391351e291f052b98989718cbb7e0a59",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "22c0f74b5cb52ba2eb3ac3375e4573b9cdd19ee75025010dc4971ad75d4ba6fd",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "063c11894c376001828f2bbdde6c1b420c641a64137af09837d715c490812bb5",
+    "translation_sha256": "8ee814cf032f0a70ad3f6935ec47e0321cbb8360b578a46eddc85f41136e0f96"
+  }
+}

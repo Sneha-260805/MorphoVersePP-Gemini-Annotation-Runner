@@ -1,0 +1,238 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A Sanskrit-derived term for a blessing, benediction, or divine grace bestowed by elders, gurus, or deities. In this context, the speaker rejects traditional spiritual or social blessings in favor of lost personal desires.",
+        "line_ref": "L6",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "aashirvaad",
+        "source_span_original": "आशीर्वाद",
+        "source_span_translation": "blessings",
+        "stanza_index": 3,
+        "term": "आशीर्वाद",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "An Arabic/Persian-derived term widely used in Hindustani/Urdu registers for a prayer, supplication, or wish for well-being. Its juxtaposition with the Sanskrit-derived 'aashirvaad' highlights a comprehensive rejection of both formal religious and cultural modes of spiritual support.",
+        "line_ref": "L7",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "dua",
+        "source_span_original": "दुआ",
+        "source_span_translation": "prayers",
+        "stanza_index": 3,
+        "term": "दुआ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "longing for lost and unreached things, shifting from quiet rejection of conventional blessings to a final, resolute declaration of lack",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The lost moments, opportunities, or relationships that the speaker wishes to reclaim.",
+            "acceptable_visual_variants": [
+              "A person looking at a dusty, empty shelf where precious items once sat",
+              "Faint, translucent silhouettes of people or objects slipping away from open hands"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "presents or physical gifts",
+            "literalization_risk": "An illustrator might draw wrapped gift boxes, which completely misses the abstract sense of lost life experiences or past relationships.",
+            "metaphor_mapping": {
+              "tenor_concept": "lost life experiences",
+              "transferred_attributes": [
+                "desirability",
+                "being received or possessed",
+                "bringing joy"
+              ],
+              "vehicle_concept": "gifts"
+            },
+            "source_span_original": "तोहफे",
+            "source_span_translation": "gifts",
+            "source_term": "तोहफे",
+            "tenor": "lost life experiences, relationships, or opportunities",
+            "vehicle": "gifts / presents",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person looking wistfully at empty spaces or reaching out toward faint, glowing outlines of past memories or abstract shapes representing lost moments."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts 'सिर्फ वो जो हमें मिले नहीं' (literally 'only those which we did not receive') to 'Not those that we already have', which alters the passive sense of not receiving into an active possession of other things. Additionally, the distinct nuance of 'बिछड़े थे' (parted/separated from us, often used for animate beings or deeply personalized objects) is flattened into 'lost' in English.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'जो हमारी नहीं रही' (which did not remain ours) as 'what we once had and lost', adding an explicit past ownership ('had') not fully dictated by the Hindi phrasing, which focuses on the state of no longer belonging.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's inability to retain or hold onto people, relationships, or moments in their life or presence.",
+            "acceptable_visual_variants": [
+              "A person standing in soft light with a long, empty shadow stretching out across a barren ground",
+              "A figure with open hands as sand or light slips through their fingers, cast against a shadow that remains empty"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "Nothing stopped or stayed within our physical shadow or shade.",
+            "literalization_risk": "An illustrator might draw a literal dark shadow on the ground with nothing standing on it, which fails to convey the emotional weight of transience and loss.",
+            "metaphor_mapping": {
+              "tenor_concept": "personal presence/life",
+              "transferred_attributes": [
+                "providing shelter",
+                "holding or keeping things close",
+                "offering a place to rest"
+              ],
+              "vehicle_concept": "shadow/shade"
+            },
+            "source_span_original": "हमारी छाँव में कुछ भी ठहरा नहीं।",
+            "source_span_translation": "Nothing stays in our shadow anymore.",
+            "source_term": "हमारी छाँव में कुछ भी ठहरा नहीं।",
+            "tenor": "the speaker's personal presence, life, or influence failing to retain loved ones or precious moments",
+            "vehicle": "a physical shadow or shade that fails to provide shelter or keep anything resting within it",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure standing under a tree or in the open, with wind blowing away leaves or dust from their shadow, symbolizing the inability to hold onto anything."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'हमारी छाँव में कुछ भी ठहरा नहीं' as 'Nothing stays in our shadow anymore' loses the comforting, protective, or sheltering connotation of 'छाँव' (shade/shadow) in Hindi, which implies a space of refuge that failed to retain anything.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The deep yearning for lost, unfinished, and unattainable things over conventional blessings or present realities"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अब कुछ और तोहफे\n\nअब कुछ और तोहफे चाहिए हमें,  \nसिर्फ वो जो हमें मिले नहीं,  \nवो जो कभी हमसे बिछड़े थे,  \nवो जो कभी हमसे खो गए थे।  \n\nहमें ना आशीर्वाद चाहिए,  \nना ही कोई दुआ की जरूरत,  \nसिर्फ वो चीज़ चाहिए जो हमारी नहीं रही।  \nसिर्फ वो जो अब तक अधूरी हैं।  \n\nअब कुछ और तोहफे चाहिए हमें,  \nजो हमसे कभी नहीं मिल सके।  \nहमारी छाँव में कुछ भी ठहरा नहीं।  \nसिर्फ यही चाहिए अब हमें।",
+  "poem_id": "MV++_0650",
+  "poem_title": "Ab Kuchh Aur Tohfay",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ea8c212b2456a02566b9fd512401d8a78026ec48a26448f540cddba0cc083ee3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0650.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Gifts of Now\n\nNow we need some other gifts,  \nNot those that we already have,  \nBut those we once lost,  \nThose that once slipped from our grasp.  \n\nWe do not need blessings,  \nNor any prayers for our good,  \nWe only desire what we once had and lost.  \nOnly those things that remain unfinished.  \n\nNow we need some other gifts,  \nThe ones that never reached us.  \nNothing stays in our shadow anymore.  \nThis is all we seek now.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:51:07.018350+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f18b04ec7f37559db50aa6a9e8610513dd18ad5af881c9d1784676a86f20ab83",
+        "response_hash": "5eb2e12d3a5e6079d2c9d8cb289f026614f62c1656b487221e4014b38ac29448",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b353c18805a4493aef4876f26a3f833239ab3e94020fa83ff29b819450a228f8",
+        "response_hash": "3029ab536ce63afa38103897fc5cb6269c33a93ccd4c652fa350161e497b698b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b0ca2b0cde97795dea919b915a96f61ad04cf65e71236f8d2c1319afad9b599f",
+        "response_hash": "ef1b9bf82d014fe7297d5df26b1d1a17521927660101c2b891a988581f7b66a2",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4de246ac9db20523c3987ddbf4f5312d3274d9e79e3a02bcfd3b583144983e26",
+        "response_hash": "f441346ba6fe609bc77f517aff13b365adc82920d32d2f3cfc95e9cd9ede16a7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "769b4f75e25889a993265376989350c2425a2c71d3cfef55c25b599bcd0de933",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0ae13e6efe15fe5781b90a68249684f9230c6f833ec1e7da1772fd69e4b725c7",
+    "translation_sha256": "94c25097a8de9d95ecc9bb71216f4db0609798ae1a434fd36e0b7341bc163e5c"
+  }
+}

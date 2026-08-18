@@ -1,0 +1,230 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The signature makuta (refrain) of the famous Telugu poet Vemana, traditionally interpreted as addressing the beloved of the creator/universe, or a personal friend Abhirama, followed by an exhortation to Vema (himself) to listen.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Viswadabhirama! Vinura Vema!",
+        "source_span_original": "విశ్వదాభిరామ! వినుర వేమ!",
+        "source_span_translation": "Oh, Viswadabhirama! Listen to what I say!",
+        "stanza_index": 4,
+        "term": "విశ్వదాభిరామ! వినుర వేమ!",
+        "translation_note": "The translation preserves the signature phrase 'Viswadabhirama' but translates the second half as 'Listen to what I say!' instead of keeping the poet's signature name 'Vema'.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "reflective observation of corruption and moral decay",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation completely alters the meaning of the original line. The original states that a root-worm enters and destroys a tree, whereas the translation incorrectly states that a tree bears fruit from its roots and remains a tree despite pests.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A hidden, destructive element or bad companion slowly ruins a noble person from within, just as a root-worm destroys a tree.",
+            "acceptable_visual_variants": [
+              "A close-up of a tree's roots being eaten by a small worm while its leaves turn yellow",
+              "A symbolic representation of a dark shadow creeping into a bright, healthy tree trunk"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A root-worm entering destroys a tree",
+            "literalization_risk": "An illustrator might draw a literal worm eating tree roots, which misses the moral lesson about human character and corruption.",
+            "metaphor_mapping": {
+              "tenor_concept": "wickedness corrupting a virtuous person",
+              "transferred_attributes": [
+                "hidden destruction",
+                "gradual ruin of something strong"
+              ],
+              "vehicle_concept": "root-worm destroying a tree"
+            },
+            "source_span_original": "వేరుపురుగుచేరి వృక్షంబుజెఱచుఁను",
+            "source_span_translation": null,
+            "source_term": "వేరుపురుగుచేరి వృక్షంబుజెఱచుఁను",
+            "tenor": "A wicked person or insidious vice corrupting a virtuous person's character",
+            "vehicle": "A root-worm (verupurugu) eating away at a tree's roots",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split scene: on one side, a majestic tree withering from unseen roots; on the other, a virtuous person being subtly influenced or ruined by a deceitful companion."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the meaning of the original line. The original Telugu states that a root-worm (verupurugu) enters and destroys (jerachunu) a tree (vrukshambu), whereas the translation states 'A tree bears fruit that comes from its roots; Even if pests gather on it, it remains a tree.'",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "This line, which describes a pest entering and destroying a tree, is completely omitted from the translation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "External pests or bad influences ruin a person's life and standing, just as crop pests destroy a tree.",
+            "acceptable_visual_variants": [
+              "A tree with withered leaves covered in small blight insects",
+              "A stylized graphic of a healthy green leaf being consumed by dark spots"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A pest/blight insect entering destroys a tree",
+            "literalization_risk": "Showing only agricultural pests on leaves fails to convey the ethical warning about toxic associations.",
+            "metaphor_mapping": {
+              "tenor_concept": "bad influence ruining a person",
+              "transferred_attributes": [
+                "external attack",
+                "gradual decay of health/virtue"
+              ],
+              "vehicle_concept": "pest destroying a tree"
+            },
+            "source_span_original": "చీడ పురుగు జేరి చెట్టుఁజెఱచుఁ",
+            "source_span_translation": null,
+            "source_term": "చీడ పురుగు జేరి చెట్టుఁజెఱచుఁ",
+            "tenor": "An external bad influence or malicious person ruining a good person",
+            "vehicle": "A pest or blight insect (chida purugu) attacking a tree",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a tree covered in blight or swarming pests, losing its vitality, paired with a visual metaphor of a person surrounded by negative, whispering figures."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely omits the second line of the poem, which describes a pest/blight (cheeda purugu) entering and destroying a tree (chettu).",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "This line, which draws the moral parallel that a wicked person corrupts a virtuous one, is completely omitted and replaced with an unrelated statement about a lowly character's growth.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the meaning of the third line. The original states that a wicked/vile person (kutsitundu) enters and ruins/corrupts a virtuous person (gunavantu), whereas the translation states 'Yet, it is said that a lowly character can never grow'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "The signature crown line (makutam) addressing Viswadabhirama is translated generically without preserving the traditional structure of Vemana's moral verses.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation alters the signature line (makutam) of Vemana. 'Viswadabhirama! Vinura Vema!' is translated as 'Oh, Viswadabhirama! Listen to what I say!', completely omitting the name of the poet 'Vema' (Vemana) and the direct address 'vinura' (listen!).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Just as hidden pests destroy trees from within, a wicked person corrupts a virtuous one."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' details that the poet's name 'Vema' was omitted. These fields are internally inconsistent. 'preserved' should be false if the term was only partially preserved with significant omissions.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "వేరుపురుగుచేరి వృక్షంబుజెఱచుఁను\n\nచీడ పురుగు జేరి చెట్టుఁజెఱచుఁ\n\nకుత్సితుండు చేరి గుణవంతుఁజెఱచురా\n\nవిశ్వదాభిరామ! వినుర వేమ!",
+  "poem_id": "MV++_1492",
+  "poem_title": "Verupurugu cheri",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "927d50e41e23455e401ee9392c237bf9c4757fea351d09414a8a4c9dd33310a7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1492.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A tree bears fruit that comes from its roots;\nEven if pests gather on it, it remains a tree.\nYet, it is said that a lowly character can never grow;\nOh, Viswadabhirama! Listen to what I say!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:40:49.758263+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1bff2ff905bc1798529c7e3bfcfa6db61516f29b8e1cf3f48b450152749cc857",
+        "response_hash": "495ff034e260ded85131a719e29bfcbc78cd8c5a657be4655fff8e4abb4676c0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fcc485b0f8e3ee70a45552b22a9f28f15983bc5646b6aadb83ea0124d083e6aa",
+        "response_hash": "944bc1744e3b77ef307b329a77208bc74a3f4380ec4964470a03ea7b4e3e97c2",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f968f906fba43306ddeb47810f21d76a55e4243adfda21d6e0fa73d94578d709",
+        "response_hash": "ab69823c7d182a320e226dc7f914d73c5171d5e5a60133d3c8a73135bf1b8709",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8a74cc8c2488674c0a6f20ec807510f647fea9ef05638be2fb26fc90c43e47ab",
+        "response_hash": "53135f4e4fc93b2f91f988f28b23e9968c7788d9516619316ee8a6c28fb43e87",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1c8d8b82c102484c543fee5218dbd57d5b3674b9644abcc8d89e0861eb1becbd",
+        "response_hash": "0b9ff22d372c61bf821b39a4a60b76b8b13d8da48ec96dfa37b05f11bdabe6e6",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "df09096a179f954bfb55f9f5d66d4f77df9260212b3401fadcd07c8bc7a10eb7",
+    "translation_sha256": "4f7081103f929fad91cf53bb41de1803caaf93b75b335e36739b167f2f75a760"
+  }
+}

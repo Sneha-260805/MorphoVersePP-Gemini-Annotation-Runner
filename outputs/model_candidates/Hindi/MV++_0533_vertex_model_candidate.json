@@ -1,0 +1,362 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience to celebration",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vital force, joy, or positive phase of human existence that brings clarity and warmth.",
+            "acceptable_visual_variants": [
+              "A bright sun breaking through heavy, dark storm clouds over a vast field.",
+              "A warm sunrise over a quiet mountain range, casting long golden rays."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The sun belonging to life",
+            "literalization_risk": "An illustrator might draw a literal sun with a human face or a sun physically labeled 'life', which looks cartoonish and misses the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "dispelling darkness",
+                "vitality"
+              ],
+              "vehicle_concept": "sun"
+            },
+            "source_span_original": "जीवन का सूरज",
+            "source_span_translation": "sun of life",
+            "source_term": "जीवन का सूरज",
+            "tenor": "Life itself, or a positive, hopeful phase of life",
+            "vehicle": "The sun (shining, rising, bringing light)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a brilliant, warm sun rising over a landscape, casting golden light that dispels deep shadows, emphasizing the emotional transition from dark to light."
+          },
+          {
+            "abstract_meaning": "The heavy, enveloping layer of ignorance, sorrow, or difficulties that obscures hope.",
+            "acceptable_visual_variants": [
+              "Thick, dark fog being sliced or scattered by sharp beams of golden sunlight.",
+              "A dark, semi-transparent shadow layer over a landscape dissolving or splitting open."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A sheet or blanket made of darkness",
+            "literalization_risk": "Depicting a literal piece of fabric or bedsheet made of black color being physically ripped by hands looks comical and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "darkness/sorrow",
+              "transferred_attributes": [
+                "enveloping",
+                "blocking light",
+                "covering everything",
+                "being torn apart"
+              ],
+              "vehicle_concept": "sheet/veil"
+            },
+            "source_span_original": "तम की चादर",
+            "source_span_translation": "veil of darkness",
+            "source_term": "तम की चादर",
+            "tenor": "Darkness, ignorance, or sorrow (tam)",
+            "vehicle": "A sheet, veil, or blanket (chaadar)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show dark, heavy, shroud-like mist or thick clouds parting or tearing open as bright light pierces through them."
+          },
+          {
+            "abstract_meaning": "The initial signs or feelings of hope that begin to influence and comfort a person.",
+            "acceptable_visual_variants": [
+              "Golden beams of light piercing through a forest canopy to touch the forest floor.",
+              "Bright rays of dawn light striking a cold, dark hillside."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "New rays belonging to hopes",
+            "literalization_risk": "Drawing literal words or symbols of 'hope' traveling along light beams looks artificial and ruins the natural metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope",
+              "transferred_attributes": [
+                "reaching out",
+                "touching the cold earth",
+                "bringing warmth",
+                "illuminating"
+              ],
+              "vehicle_concept": "rays of light"
+            },
+            "source_span_original": "उम्मीदों की नई किरणें",
+            "source_span_translation": "rays of hope",
+            "source_term": "उम्मीदों की नई किरणें",
+            "tenor": "Hope and positive expectations (ummeedon)",
+            "vehicle": "Sunbeams or rays of light (kirnein)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Render bright, distinct shafts of light (crepuscular rays) streaming down from the sky and illuminating a patch of dark earth."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'तम की चादर' (tam ki chadar) as 'veil of darkness'. While poetic, this loses the specific tactile and domestic imagery of 'chadar' (a sheet, shawl, or shroud-like cloth covering), which is violently torn ('फाड़कर' / phadkar) to let the light through.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The joyful awakening and flourishing of living beings or nature as hope returns.",
+            "acceptable_visual_variants": [
+              "A close-up of a vibrant rosebud or wildflower opening its petals to the sun.",
+              "A field of various wildflowers gently swaying and opening under a clear sky."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "Every flower bud will bloom and smile",
+            "literalization_risk": "Drawing literal human mouths or cartoon faces on flower buds looks childish and ruins the poetic elegance.",
+            "metaphor_mapping": {
+              "tenor_concept": "flower bud blooming",
+              "transferred_attributes": [
+                "joyfulness",
+                "opening up",
+                "bringing happiness to onlookers"
+              ],
+              "vehicle_concept": "human smiling"
+            },
+            "source_span_original": "हर कली खिलकर मुस्काएगी",
+            "source_span_translation": "Every bud will bloom and smile",
+            "source_term": "हर कली खिलकर मुस्काएगी",
+            "tenor": "A flower bud opening up and blooming",
+            "vehicle": "A human smiling with joy",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict fresh, dew-kissed flower buds in the process of opening beautifully in warm morning light, capturing the natural aesthetic of blooming."
+          },
+          {
+            "abstract_meaning": "The harmonious, joyful, and vibrant expressions of living, represented as music.",
+            "acceptable_visual_variants": [
+              "Sparkling raindrops falling through sunlight onto fresh green leaves.",
+              "A soft, golden summer shower over a blooming garden."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Songs belonging to life",
+            "literalization_risk": "Drawing literal musical notes falling out of clouds like raindrops looks cliché and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "vitality/joy of life",
+              "transferred_attributes": [
+                "flowing down",
+                "refreshing",
+                "bringing joy",
+                "filling the atmosphere"
+              ],
+              "vehicle_concept": "songs/rain"
+            },
+            "source_span_original": "जीवन के गीत",
+            "source_span_translation": "Songs of life",
+            "source_term": "जीवन के गीत",
+            "tenor": "The joy, vitality, and sounds of active life returning",
+            "vehicle": "Songs or music raining down from clouds",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a refreshing, gentle rain falling from sunlit clouds onto a green landscape, suggesting a revival of life and nature's music."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'झरेंगे' (jharenye) as 'rain down'. The Hindi verb 'झरना' (jharna) evokes a gentle trickling, dripping, or cascading (like a spring or waterfall) rather than a heavy rain, softening the visual and auditory imagery of the songs falling from the clouds.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vital force, joy, or positive phase of human existence that brings clarity and warmth.",
+            "acceptable_visual_variants": [
+              "A bright sun breaking through heavy, dark storm clouds over a vast field.",
+              "A warm sunrise over a quiet mountain range, casting long golden rays."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "The sun belonging to life",
+            "literalization_risk": "An illustrator might draw a literal sun with a human face or a sun physically labeled 'life', which looks cartoonish and misses the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "dispelling darkness",
+                "vitality"
+              ],
+              "vehicle_concept": "sun"
+            },
+            "source_span_original": "जीवन का सूरज",
+            "source_span_translation": "sun of life",
+            "source_term": "जीवन का सूरज",
+            "tenor": "Life itself, or a positive, hopeful phase of life",
+            "vehicle": "The sun (shining, rising, bringing light)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a brilliant, warm sun rising over a landscape, casting golden light that dispels deep shadows, emphasizing the emotional transition from dark to light."
+          },
+          {
+            "abstract_meaning": "The triumph of hope, light, and life over despair, sorrow, and darkness.",
+            "acceptable_visual_variants": [
+              "A dramatic sunrise where the line of light rapidly advances, shrinking the dark shadows on the ground.",
+              "A beam of light piercing a dark room and scattering the darkness."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L10",
+            "literal_meaning": "Will defeat/conquer the darkness (as in a battle)",
+            "literalization_risk": "Depicting a literal warrior fighting a dark monster or shadow figure looks like a fantasy action scene rather than a poetic metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "light dispelling darkness",
+              "transferred_attributes": [
+                "overcoming",
+                "banishing",
+                "triumphing",
+                "clearing the field"
+              ],
+              "vehicle_concept": "warrior defeating an enemy"
+            },
+            "source_span_original": "तम को पराजित कर जाएगा",
+            "source_span_translation": "Conquering the darkness",
+            "source_term": "तम को पराजित कर जाएगा",
+            "tenor": "Light dispelling darkness",
+            "vehicle": "A warrior defeating an enemy in battle",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a powerful wave of bright golden light actively pushing back and dissolving deep, heavy shadows across a landscape."
+          },
+          {
+            "abstract_meaning": "Periods of deep sorrow, depression, or difficult times in human life.",
+            "acceptable_visual_variants": [
+              "A misty, dark forest path under a starless night sky.",
+              "A quiet, dark valley shrouded in deep blue and black shadows before the sun rises."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L11",
+            "literal_meaning": "These nights of darkness",
+            "literalization_risk": "Depicting a literal calendar or clock showing night-time misses the emotional weight of despair and sorrow.",
+            "metaphor_mapping": {
+              "tenor_concept": "difficult times/sorrow",
+              "transferred_attributes": [
+                "coldness",
+                "lack of vision",
+                "fear",
+                "temporary nature before dawn"
+              ],
+              "vehicle_concept": "dark night"
+            },
+            "source_span_original": "अंधेरे की ये रातें",
+            "source_span_translation": "These nights of gloom",
+            "source_term": "अंधेरे की ये रातें",
+            "tenor": "Difficult times, sorrow, or despair",
+            "vehicle": "Dark nights",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a dark, cold, and shadowy landscape just before dawn, conveying a sense of quiet waiting and solemnity."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'तम' (tam) as 'darkness' in L10 and 'अंधेरे' (andhere) as 'gloom' in L11. This collapses the stylistic variation between the formal, Sanskrit-derived 'tam' (associated with cosmic or deep spiritual darkness) and the more common, everyday Hindi word 'andhera' (darkness).",
+            "where": "L10-L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The inevitable triumph of hope and life over darkness and despair"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जीवन का सूरज चमकेगा,  \nहर तम की चादर को फाड़कर।  \nउम्मीदों की नई किरणें,  \nफिर छू लेंगी धरती को।\n\nहर कली खिलकर मुस्काएगी,  \nबागों में बहार लाएगी,  \nआसमान के बादलों से,  \nफिर झरेंगे जीवन के गीत।\n\nजीवन का सूरज आएगा,  \nतम को पराजित कर जाएगा,  \nअंधेरे की ये रातें,  \nफिर से सुनहरी सुबह बन जाएंगी।",
+  "poem_id": "MV++_0533",
+  "poem_title": "Jeevan Ka Suraj",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "77a49bab644c3127895630ecd99a1ad2176b2593bb38ea767ab838ddbac5eb53",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0533.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The sun of life will shine,  \nTearing through every veil of darkness.  \nNew rays of hope,  \nWill once again touch the earth.\n\nEvery bud will bloom and smile,  \nBringing spring to the gardens,  \nFrom the clouds of the sky,  \nSongs of life will rain down.\n\nThe sun of life will rise,  \nConquering the darkness,  \nThese nights of gloom,  \nWill turn into golden mornings once more.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:35:38.626180+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6735d1f27d011b2fe7edb07f79294737046777bec5c672ed3a6a5d00c072a902",
+        "response_hash": "e8fbeccee264727214ebb35aa776dd7bc23dd98221621baea5957954ada98727",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e09e7b45a2e291ae890bd5e6cf0e2d7188763dd9295d61e6ff4bc47bf35b475e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ae2f597c2e72e96ea5e6a554bdc88e760a91096918bab6a2a820eea82445274f",
+        "response_hash": "c34f3245925b7581fbc283c37ceceba2a780c274032265cc6eb776afd0bb3abf",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a2662c557f19e957d1b2bdf90c65e9befe0367674eb6a7337d4842af4c3f0fad",
+        "response_hash": "3e025d77d0b581adf46b9927cbeedda0a487f275ec89e4d46d4f1e36263e957d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ed1ecb411a0ab6aa3ce4bc0ccf12e95d82e38bab0da4bc45862b026b73b9c0c3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5e9ae1c57f9b0a4de76da4a2114be23f8a8578a5686168d8c49fe9b7393dc5f4",
+    "translation_sha256": "8d0bb109f04d2b16cc50b75f7e77248c7b476491560568422e134185fdffa97c"
+  }
+}

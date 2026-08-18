@@ -1,0 +1,203 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A bustling street festival scene with traditional lamps",
+          "A joyful gathering with colorful banners and decorations"
+        ],
+        "category": "FESTIVAL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional Tamil community or temple festival, characterized by vibrant public gatherings, music, and decorations. Here used metaphorically to describe the joyous movement of dreams in love.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A modern Western carnival or fairground",
+          "A solemn religious ritual without celebratory elements"
+        ],
+        "preserved": true,
+        "romanization": "thiruvizhavil",
+        "source_span_original": "திருவிழாவில்",
+        "source_span_translation": "festival",
+        "stanza_index": 1,
+        "term": "திருவிழாவில்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Vibrant crowd gathering",
+          "Traditional decorations like mango leaves or marigold garlands",
+          "Bright festive lighting"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "wonder and longing to celebratory joy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The Tamil verb 'odum' literally means 'runs' or 'flows', which is translated as 'flow' in English, slightly softening the active, running movement of dreams in the original Tamil phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's inner desires, hopes, and romantic aspirations.",
+            "acceptable_visual_variants": [
+              "A person looking reflective with soft, warm light surrounding them",
+              "A stylized, non-anatomical heart shape blending into a starry night sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The dreams belonging to the physical heart organ",
+            "literalization_risk": "Depicting a literal anatomical heart sleeping or dreaming would look bizarre and medical rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional and romantic aspirations",
+              "transferred_attributes": [
+                "interiority",
+                "vulnerability",
+                "deep personal longing"
+              ],
+              "vehicle_concept": "dreams of a physical organ"
+            },
+            "source_span_original": "இதயத்தின் கனவுகள்",
+            "source_span_translation": "dreams of my heart",
+            "source_term": "இதயத்தின் கனவுகள்",
+            "tenor": "romantic hopes and desires",
+            "vehicle": "dreams of a heart",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking thoughtful or gazing into the distance, with soft, ethereal imagery representing their hopes or desires floating around them."
+          },
+          {
+            "abstract_meaning": "The speaker's feelings and hopes flow freely and joyfully in the celebratory experience of love.",
+            "acceptable_visual_variants": [
+              "A background filled with warm, glowing festival lights and soft colors",
+              "An abstract flow of vibrant colors and light surrounding the character"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Running or flowing in a festival of love",
+            "literalization_risk": "Showing a literal street festival with people running might look like a chaotic public event rather than an intimate emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "the internal emotional state of love",
+              "transferred_attributes": [
+                "joy",
+                "abundance",
+                "movement",
+                "celebration"
+              ],
+              "vehicle_concept": "a bustling, joyful public festival"
+            },
+            "source_span_original": "அன்பின் திருவிழாவில் ஓடும்",
+            "source_span_translation": "Flow in the festival of affection",
+            "source_term": "அன்பின் திருவிழாவில் ஓடும்",
+            "tenor": "the joyful, overwhelming experience of loving someone",
+            "vehicle": "a festival or celebration where things run/flow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, festive atmosphere with soft lights, lanterns, or celebratory colors surrounding the subject to evoke the feeling of a festival without literalizing a crowded street."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'ஓடும்' (odum) as 'Flow', which literally means 'will run' or 'runs'. This shifts the dynamic, active movement of running/rushing in a festival to a gentler flowing motion.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The emphatic suffix '-e' in 'இதுவே' (ithuve) which intensifies 'this very thing' or 'this indeed' is flattened to a simple 'this' in the translation.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of love that turns inner dreams into a festive flow of affection when reflected in the beloved's eyes."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "இதுவே என்ன காதல்,  \nஉன் கண்ணில் தேடியால்,  \nஎன் இதயத்தின் கனவுகள்,  \nஅன்பின் திருவிழாவில் ஓடும்!",
+  "poem_id": "MV++_1407",
+  "poem_title": "Ithu Enna Kaadhal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "fd3c77065e341a2164f3c1b413da42162deff194a94b65a0141ceccf4ca41c0f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1407.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What is this love,  \nIf searched in your eyes,  \nThe dreams of my heart,  \nFlow in the festival of affection!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:30:22.045813+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "706045374442c0a252e76c79b92480ede320749ea90a2e7abf35af7da84864b7",
+        "response_hash": "1a1dbec557c5caff78c4b6e30a44aba2a3d23f90dba169dc44d31da846f2a2ed"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b8883b56f8c63f9f6581592ce349b4a0fcf2af773075aa06586845d33f762faa",
+        "response_hash": "2c7cddff23d3f1993b273fee77f1670fa5157e9f14a85daf2135789c6440d04e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c263718f783f1fb1868aeb9d966c7ba62343dc50bd0497f51131f3ebb154937e",
+        "response_hash": "899c62d94bc5587376d5ae84417bb9915c7031a755d124ec1e5087b19a5a0888",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "71a7360947b6ee64dad299d2339ff1548741f439f0afcf32f8d07fcab216e25e",
+        "response_hash": "f4ad04e9c01e1b4d283830b03805d20b561280a2606a2abf4517da6a9d816d2a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b85ead4c11a73f1efa5d132fe5b45b26b376c47e1be6c120fcb318622166bf8",
+        "response_hash": "11977d5b5851a5f09a6249358e8c46d1157d8f653dc13fbdb6a346abcb3e2340",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e75b696575d48a5436ea9af2dc8ed9b29efd129798abd02613804af10bad30d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bca6e4a81a3371ce11df6c24c5344aa58e41dcb71f65299457129fde31ceb431",
+    "translation_sha256": "a60e35718bb2ea18c5fdef8d91f4f9f7be33bd265e66d5f7bdc4fe6c8a02b188"
+  }
+}

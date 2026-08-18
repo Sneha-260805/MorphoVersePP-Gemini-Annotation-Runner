@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "Disillusionment and grief over a compromised dawn",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation captures the core meaning, but loses the specific poetic resonance of 'shab-gazeeda' (bitten/stung by night) and the rhythmic weight of the Urdu phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A flawed, compromised, or disappointing freedom or political dawn that is scarred by violence or division.",
+            "acceptable_visual_variants": [
+              "A cracked or dirty window pane fracturing the morning light",
+              "A sunrise partially choked by dark, patchy smoke or smog"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "This stained, spotted, or scarred light",
+            "literalization_risk": "An illustrator might draw literal dirt spots or ink stains floating in beams of sunlight, which looks comical rather than tragic.",
+            "metaphor_mapping": {
+              "tenor_concept": "compromised freedom",
+              "transferred_attributes": [
+                "flawed",
+                "spotted",
+                "disappointing",
+                "not fully bright"
+              ],
+              "vehicle_concept": "stained light"
+            },
+            "source_span_original": "یہ داگ داگ اجالا",
+            "source_span_translation": "This stained light",
+            "source_term": "یہ داگ داگ اجالا",
+            "tenor": "A disappointing, compromised, or flawed political independence or social awakening",
+            "vehicle": "Light or dawn that is physically stained, spotted, or scarred",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a landscape at dawn where the rising sun is heavily obscured by dark, patchy, soot-like clouds or shadows, casting an uneven, fractured light."
+          },
+          {
+            "abstract_meaning": "A new era or dawn of independence that is still deeply infected, bitten, or damaged by the darkness of the past era.",
+            "acceptable_visual_variants": [
+              "A morning sky where the horizon is split, with heavy, oppressive dark shadows bleeding directly into the morning colors like ink in water"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A dawn bitten or stung by the night",
+            "literalization_risk": "An illustrator might draw a literal mouth or fangs of a dark cloud biting a sun, which looks like a cartoon monster.",
+            "metaphor_mapping": {
+              "tenor_concept": "oppression-scarred independence",
+              "transferred_attributes": [
+                "damaged",
+                "poisoned",
+                "carrying the scars of darkness"
+              ],
+              "vehicle_concept": "night-bitten dawn"
+            },
+            "source_span_original": "شب گزیدہ سحر",
+            "source_span_translation": "dawn steeped in night",
+            "source_term": "شب گزیدہ سحر",
+            "tenor": "A newly achieved freedom or era that remains deeply damaged by the oppression of the past",
+            "vehicle": "A morning that has been bitten, poisoned, or scarred by the personified night",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a dawn sky where the blue and gold of morning are being actively strangled or seeped into by ink-like, venomous black tendrils of the retreating night."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The compound adjective 'shab-gazeeda' (night-bitten/night-stung) is translated as 'steeped in night', which loses the active, painful imagery of being bitten or stung by the darkness.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The repetition of the word 'sahar' (dawn/morning) in both lines is lost in translation, which uses 'dawn' in the first line and 'morning' in the second line, weakening the direct poetic echo.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The disappointment of a flawed and stained liberation that does not match the long-awaited ideal"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Urdu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "یہ داگ داگ اجالا، یہ شب گزیدہ سحر  \nوہ انتظار تھا جس کا، یہ وہ سحر تو نہیں",
+  "poem_id": "MV++_1561",
+  "poem_title": "Yeh Daag Daag Ujala",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "97538dcbdaa74035c164125a31082fd8c2250903917caa57cb82720a4620f39c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Urdu/MV++_1561.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This stained light, this dawn steeped in night  \nIs not the morning we had waited for.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:48:21.891687+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5611f609f24d6fdce468907fb239cb49fe2710fe73303cf2ac29c556f8f3e6c9",
+        "response_hash": "005015fcaf831306e1c0616c38f4669ae4d434d61d4866a343263bfd88665726"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fbd4b56495864c9d19f54388bb9bbd13070dbfe2fde0e7f3f165c56682aceafa",
+        "response_hash": "b3d1a902784980e8d604a592dad56b2fcecc1d62009165cb2bbca22ff7c7662a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "52756c907b8115e6a470562a6c04106b2bb26767e00ed42f1e3619c0462dfa7f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8887984023a440cf43a41794cc75d0d02c6141637a17ab26934660b22d727c68",
+        "response_hash": "e10a7bae21390e557c34f5a449abc5d02ed38fa36bfee42d187af550d7ab52f3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4083dd3a1d488b4ced697e991351a72a8ec9cb286e46564e7655ccbaa83f60a8",
+        "response_hash": "8e16071d781b141e5503dc5b5e9be8379f495cc4cd9cb3007c7c7f82e336cdfb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0232b19c4c54b4343a2ec07afad86a4af53d0191fc25f654ddaa6705f9f70b0b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e92f4db5700ba256e72457b8b581d8145617586136e44e9946ceb0b2afe009f0",
+    "translation_sha256": "326e993fcdab6bcde7f0b7b2d129785200a0360b0bec9cad9d74bc70f4426768"
+  }
+}

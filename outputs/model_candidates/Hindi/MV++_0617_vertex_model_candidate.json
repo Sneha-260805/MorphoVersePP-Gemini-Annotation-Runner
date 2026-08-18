@@ -1,0 +1,247 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A natural white conch shell resting on wet sand",
+          "A sacred conch adorned with simple ritual markings like vermilion or sandalwood paste"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Plural form of Shankha, the sacred conch shell used in Hindu rituals, daily worship, and classical symbolism to represent cosmic sound, purity, and the bridge between the material and spiritual realms.",
+        "line_ref": "L8",
+        "negative_confusions": [
+          "A generic, colorful tropical seashell or a cartoonish spiral shell that lacks the distinct heavy, white, sacred form of the Indian Shankha"
+        ],
+        "preserved": true,
+        "romanization": "shankhon",
+        "source_span_original": "शंखों",
+        "source_span_translation": "conch’s",
+        "stanza_index": 2,
+        "term": "शंखों",
+        "translation_note": "Translated as 'conch's call' which captures the auditory and symbolic essence of the instrument in South Asian contexts.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A large, white, spiraled marine gastropod shell (Turbinella pyrum)",
+          "Often depicted with a smooth, polished surface and a naturally carved opening used for blowing"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "quiet contemplation of nature and silence to a deeper sense of connection and wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation shifts the grammatical agreement slightly; 'seepiyan' is plural feminine, but the verb 'sunta' in line 5 is masculine singular, creating a subtle tension in voice and identity that is flattened in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker identifies themselves with sea shells, representing a state of quiet existence, vulnerability, and containing hidden depth or untold stories.",
+            "acceptable_visual_variants": [
+              "A close-up of sea shells on golden sand with a soft, human-like shadow falling over them",
+              "A person looking out at the ocean with a shell held gently in their hand"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "I am sea shells",
+            "literalization_risk": "An illustrator might literally draw a human body turning into or made of physical sea shells, which looks surreal or monstrous rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "a quiet, reflective human soul containing hidden memories",
+              "transferred_attributes": [
+                "stillness",
+                "containing hidden things",
+                "being shaped by the ocean"
+              ],
+              "vehicle_concept": "sea shells resting in the ocean depths"
+            },
+            "source_span_original": "मैं हूँ सीपियाँ",
+            "source_span_translation": "I am the shells",
+            "source_term": "मैं हूँ सीपियाँ",
+            "tenor": "the speaker's identity and inner state",
+            "vehicle": "sea shells",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a reflective person sitting quietly by the shore or underwater, with sea shells subtly integrated into the foreground or as a soft background motif."
+          },
+          {
+            "abstract_meaning": "The subtle, rhythmic presence or life within absolute silence.",
+            "acceptable_visual_variants": [
+              "Soft ripples spreading across perfectly still water under a twilight sky",
+              "A single shell resting on vast, empty sand under a starry sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "the heartbeat of silence",
+            "literalization_risk": "Drawing a literal anatomical heart floating in a dark, empty space, which is jarring and overly medical.",
+            "metaphor_mapping": {
+              "tenor_concept": "the deep, alive quality of absolute silence",
+              "transferred_attributes": [
+                "rhythm",
+                "vitality",
+                "internal presence"
+              ],
+              "vehicle_concept": "a beating heart"
+            },
+            "source_span_original": "सन्नाटे की धड़कन",
+            "source_span_translation": "heartbeat of silence",
+            "source_term": "सन्नाटे की धड़कन",
+            "tenor": "the quiet, rhythmic essence of silence",
+            "vehicle": "a heartbeat",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent silence visually through vast, calm, empty spaces (like a deep blue ocean or a quiet beach at dusk) with soft, rhythmic ripples in the water to suggest a pulse."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender and number mismatch between the singular pronoun 'मैं' (I) and the plural noun 'सीपियाँ' (shells) is flattened into a standard English plural 'I am the shells', losing the poetic tension of a singular self identifying as plural entities.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The masculine singular verb agreement in 'बसा' (nestled/dwelling) and 'सुनता' (listening) establishes a masculine grammatical gender for the speaker, which is completely lost in the gender-neutral English translation.",
+            "where": "L2-L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation rearranges the final lines, rendering 'jo shankhon ki tarah, aawaz aur maun ko jodta hai' as 'Connecting voice and silence, Like a conch's call', which slightly alters the direct flow of the simile where the conch itself is the connector.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Connecting expression (voice) and quietude (silence) in a harmonious way, just as a conch shell holds the sound of the ocean within its quiet structure.",
+            "acceptable_visual_variants": [
+              "A hand holding a conch shell up to the ear against a quiet ocean backdrop",
+              "A conch shell on the shore with gentle waves receding, leaving a peaceful silence"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L8-L9",
+            "literal_meaning": "connecting voice and silence like conch shells do",
+            "literalization_risk": "Showing physical lines or ropes literally tying a voice wave to a blank space through a conch shell.",
+            "metaphor_mapping": {
+              "tenor_concept": "the transition and connection between speaking and remaining silent",
+              "transferred_attributes": [
+                "holding sound within silence",
+                "bridging expression and quietude"
+              ],
+              "vehicle_concept": "a conch shell which produces sound when blown but holds silence/ocean resonance when held to the ear"
+            },
+            "source_span_original": "शंखों की तरह,\nआवाज़ और मौन को जोड़ता है",
+            "source_span_translation": "Connecting voice and silence,\nLike a conch’s call",
+            "source_term": "शंखों की तरह,\nआवाज़ और मौन को जोड़ता है",
+            "tenor": "the connection between sound and silence",
+            "vehicle": "a conch shell",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful conch shell resting on the sand, with soft, glowing light or wind-like swirls emanating from its opening to symbolize sound emerging from silence."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation alters the structural flow of the relative clause 'जो शंखों की तरह... जोड़ता है' (which, like conches, connects...) by shifting the simile 'Like a conch's call' to the very end of the stanza, which changes the immediate syntactic connection between the connecting act and the conch.",
+            "where": "L8-L9"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The masculine singular verb agreement in 'पाता हूँ' (I find) reinforces the speaker's masculine identity, which is lost in the gender-neutral English 'I find'.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet, hidden depth of existence and the bridge between sound and silence as experienced through the metaphor of sea shells."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं हूँ सीपियाँ,  \nसमुद्र की गहराइयों में बसा,  \nसुनहरी रेत पर पड़े,  \nअनकही कहानियाँ छिपाए,  \nसन्नाटे की धड़कन सुनता।\n\nहर लहर की आवाज़ में,  \nएक नया रंग पाता हूँ,  \nजो शंखों की तरह,  \nआवाज़ और मौन को जोड़ता है।",
+  "poem_id": "MV++_0617",
+  "poem_title": "Main Hu Seepiyan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "22845cd32155af2383072e8217aa9619e760ad4cf700e064d8e52d2de4bc6a26",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0617.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I am the shells,  \nNestled in the ocean's depths,  \nLying on golden sands,  \nHiding untold tales,  \nListening to the heartbeat of silence.\n\nIn the sound of each wave,  \nI find a new hue,  \nConnecting voice and silence,  \nLike a conch’s call.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:46:43.811554+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "547d251975814e8a88253d03a3ef2aa4ae3725d752ed415ee459a7796226ead4",
+        "response_hash": "60548403ad0fc2061097b2f622df5476ef98c9920ed51dbc3eba4e170d132664"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "57c18a66e84366385924bd4cc166caa5651c5725fa6f96cca6cc1d531ebdcd4b",
+        "response_hash": "309c8edea689cbf21a88c05f292d4c948e817e0ae6cb7c03ca6c28a5da7e0876",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "940931693021f3940725f9e2b0877591a612f8ebe35b712b079f25da856603d3",
+        "response_hash": "0c9d4e2257f72d5b2716e7872c90cfaabd493ddfac4b1612fea148d78d7d0e6e",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "74248c8daba7a8a4b23be45195ff49a53f77db88801bcda0d877916ecfc5f65c",
+        "response_hash": "4c6e0a10ad6b62a5b97df4f9961e251bd9cf1dd1f4ae5ceadc2107dae860b166",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c69a3bbec957b6ddd62d3e4bedffcd567ac70da6a06324e3c8b3cc4ac328f1c1",
+        "response_hash": "5bab639cf25c9c861af1f6d40f4f5a8567ba79ca4d74b7c29b15fe3e86d373a0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "00c6aaa1a5878a4313203049c0a91bafaa533360dd9adba583e86f4d91378ed8",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "abe544108e2bc9591c773a98c1fbc593918cce02dfb895a32277c09a122a89f4",
+    "translation_sha256": "26459273c34bd9869d92a8f4fde0e261cad498277a6b037fe1ca7ee610fbf281"
+  }
+}

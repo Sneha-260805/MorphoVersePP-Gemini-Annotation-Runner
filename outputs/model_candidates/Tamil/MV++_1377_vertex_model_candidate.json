@@ -1,0 +1,145 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to tender devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The Tamil word 'padathil' literally means 'in the picture/painting', which the translation renders as 'canvas' to fit the artistic metaphor, slightly altering the literal image of a completed picture to a blank canvas.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's inner emotional space where memories and feelings are stored and visualized.",
+            "acceptable_visual_variants": [
+              "An open journal or canvas with a heart-shaped watercolor wash and elegant Tamil script emerging from it",
+              "A silhouette of a person with a soft, glowing canvas texture visible in their chest area, showing faint artistic strokes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the picture/canvas of my heart",
+            "literalization_risk": "Depicting a literal anatomical heart with a painting or canvas physically inside it would look grotesque and miss the emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "heart/mind",
+              "transferred_attributes": [
+                "receptacle for artistic creation",
+                "surface where memories are painted or written"
+              ],
+              "vehicle_concept": "canvas/picture"
+            },
+            "source_span_original": "என் இதயத்தின் படத்தில்",
+            "source_span_translation": "In the canvas of my heart",
+            "source_term": "என் இதயத்தின் படத்தில்",
+            "tenor": "the speaker's heart or emotional consciousness",
+            "vehicle": "a picture or canvas",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, abstract heart shape blending into a soft, artistic canvas background with faint poetic script or memories being painted onto it."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'புது கவிதை' (Puthu Kavithai) literally translates to 'New Poetry' or 'Modern Poetry', which is a specific, historically significant movement in 20th-century Tamil literature that broke away from classical metrical structures. The English translation 'New poem' renders this literally, losing the literary-historical resonance of the genre name.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil instrumental suffix '-al' in 'அன்பால்' (anbaal, meaning 'by/with love') and the adjectival/participial ending in 'கலந்திருக்கும்' (kalandhirukkum, meaning 'that which is mixed/blended') carry a sense of ongoing state and instrumental connection that is simplified into the English past participle phrase 'Blended with love'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The creation of poetry as an expression of love and memory within the heart"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "புது கவிதை,  \nஉன் நினைவில் எழுதும்,  \nஎன் இதயத்தின் படத்தில்,  \nஅன்பால் கலந்திருக்கும்!",
+  "poem_id": "MV++_1377",
+  "poem_title": "Puthu Kavithai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "757f14b345a99118ee51318517a808a3ce3589d9d52e5cd0fdf0c8638bf5aa61",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1377.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "New poem,  \nWritten in your memory,  \nIn the canvas of my heart,  \nBlended with love!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:27:18.421204+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "814dc9b640a3b13b1f329898f5d1974b15778db705fe4b15852329b2904187f6",
+        "response_hash": "9590098b852586ff57071262af316de80a18b9d8da52f7bc335619379327f5ae"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "65c9bbf1fdbba5830048ac1752b4fecf208589bf02c4d8484e1b4a6e5fe663d9",
+        "response_hash": "06f694c47515e772e5bf87e1be26b3e6b0f31feec47e415d0a1bfda2ff7ba066",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "91108667ffed7397c270e9246eedfc09b8f612c1264e5e96efede7deac90ae32",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2d21b089518da68eb0deae1370de83beae991fff241c1c85d15faca601a65e4d",
+        "response_hash": "a1bd5ed39b859df3d865c7a7dff392f4d075e3ae45797bc59a804061adf8ed04",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9f9b0cd7f021823a319e19dfde7cc64559b0efa44e86af757e294f3b5b01e3eb",
+        "response_hash": "4f5458cce4409165553605bf45487f1c056286852c21fbafe3385712b825b7cd",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5c5709c4ba749c01e781d4cfbcea219c50dc86c1485be6286dbc05942994a514",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f34d8f84acc6bcf3ddfbdea4dbef63edcc7d596cc9bda986ad8107eb5e2ff4cb",
+    "translation_sha256": "65645ee6d5e84862dd5b34955be3dd18b3f4968234bc11dedf9e05891d663b6a"
+  }
+}

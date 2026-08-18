@@ -1,0 +1,228 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A personified female figure representing the moon deity or mother moon, draped in a glowing white or silver saree, radiating soft light.",
+          "A natural, luminous full moon casting a bright, comforting path of light on the ground below."
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A maternal personification of the moon (Chandra), addressed affectionately as a mother figure who brings light and comfort.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A harsh, blazing sun or a generic, non-personified astronomical moon without any warm, maternal, or comforting quality.",
+          "A generic Western-style fairy or crescent moon character that lacks the traditional Indian maternal reverence."
+        ],
+        "preserved": true,
+        "romanization": "chandada thaayi",
+        "source_span_original": "ಚಂದದ ತಾಯಿ",
+        "source_span_translation": "mother moon",
+        "stanza_index": 1,
+        "term": "ಚಂದದ ತಾಯಿ",
+        "translation_note": "The translation renders this as 'mother moon', capturing the maternal personification of the moon (Chandra) common in Kannada and broader Indian cultural contexts.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A glowing, gentle full moon with soft, maternal facial features smiling down.",
+          "Warm, silver moonlight illuminating a dark path."
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing to gentle hope",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'chandada thayi' as 'mother moon' which captures the meaning, but loses the rhythmic, repetitive endearment of 'baare baare' (come, come) and the specific warmth of 'chandada' (beautiful/lovely) combined with 'thayi' (mother).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Addressing the moon as a beautiful mother, personifying the celestial body with maternal warmth and beauty.",
+            "acceptable_visual_variants": [
+              "A glowing full moon with a faint, serene female face smiling down.",
+              "A motherly figure composed of soft moonlight cradling the landscape below."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "beautiful mother",
+            "literalization_risk": "Depicting a literal human mother in the sky instead of the moon, which loses the celestial context.",
+            "metaphor_mapping": {
+              "tenor_concept": "moon",
+              "transferred_attributes": [
+                "nurturing presence",
+                "beauty",
+                "gentle light"
+              ],
+              "vehicle_concept": "mother"
+            },
+            "source_span_original": "ಚಂದದ ತಾಯಿ",
+            "source_span_translation": "mother moon",
+            "source_term": "ಚಂದದ ತಾಯಿ",
+            "tenor": "the moon",
+            "vehicle": "a beautiful mother",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, gentle full moon with soft, subtle maternal facial features or a warm, nurturing aura radiating from it."
+          },
+          {
+            "abstract_meaning": "The bright, gentle moonlight is described as the moon's warm, radiant smile.",
+            "acceptable_visual_variants": [
+              "Soft, golden-white moonlight illuminating a quiet landscape.",
+              "A crescent or full moon casting a warm, curved glow that resembles a smile."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "filling light in your smile",
+            "literalization_risk": "Showing a literal disembodied mouth smiling with light beams, which can look bizarre or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "moonlight",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "joy"
+              ],
+              "vehicle_concept": "smile"
+            },
+            "source_span_original": "ನಿನ್ನ ನಗುವಿನಲ್ಲಿ ಬೆಳಕು ತುಂಬಿ",
+            "source_span_translation": "Fill the light in your smile",
+            "source_term": "ನಿನ್ನ ನಗುವಿನಲ್ಲಿ ಬೆಳಕು ತುಂಬಿ",
+            "tenor": "moonlight",
+            "vehicle": "a radiant smile",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize soft, warm beams of moonlight spreading across a dark landscape, evoking the feeling of a gentle smile."
+          },
+          {
+            "abstract_meaning": "Creating a path or guiding way of love and affection in the speaker's longing heart.",
+            "acceptable_visual_variants": [
+              "A path of soft, warm light winding through a quiet forest or field under the moon.",
+              "A gentle trail of stardust or moonlight guiding the way forward."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "lay a path of love",
+            "literalization_risk": "Drawing a literal road made of hearts or love symbols, which looks cliché and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "direction",
+                "guidance",
+                "journey"
+              ],
+              "vehicle_concept": "pathway"
+            },
+            "source_span_original": "ಪ್ರೀತಿಯ ಹಾದಿ ಹಾಕು",
+            "source_span_translation": "Lay the path of love",
+            "source_term": "ಪ್ರೀತಿಯ ಹಾದಿ ಹಾಕು",
+            "tenor": "the emotional guidance and connection of love",
+            "vehicle": "a physical path or road",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing pathway of light leading through a dark or misty landscape, symbolizing guidance and emotional hope."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'ಚಂದದ ತಾಯಿ' (chandada thaayi) as 'mother moon', which conflates 'ಚಂದದ' (beautiful/lovely) with 'ಚಂದಮಾಮ' (moon/chandamama). While 'chanda' can colloquially evoke the moon in children's songs, its literal meaning here is 'beautiful' or 'lovely' mother, a nuance lost by translating it directly as 'moon'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The repetition of 'ಬಾರೆ ಬಾರೆ' (baare baare) is a warm, rhythmic, and colloquial Kannada imperative ('come, come') used affectionately. The translation collapses this into a single 'Come', losing the rhythmic urgency and tender repetition of the original.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A tender invocation to the mother moon to illuminate the heart's longing with love and light."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಬಾರೆ ಬಾರೆ ಚಂದದ ತಾಯಿ,  \nನಿನ್ನ ನಗುವಿನಲ್ಲಿ ಬೆಳಕು ತುಂಬಿ,  \nನನ್ನ ಮನದ ಹಂಬಲದಲ್ಲಿ,  \nಪ್ರೀತಿಯ ಹಾದಿ ಹಾಕು.",
+  "poem_id": "MV++_0959",
+  "poem_title": "Baare Baare Chandada Thayi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a1b00b08e6f07bdcd20f52791cad3863acc540cfb59ba9966a4610839090be42",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0959.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Come, mother moon,  \nFill the light in your smile,  \nIn the longing of my heart,  \nLay the path of love.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:36:48.639274+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "edbef0859ed45bafd68e9d49d9d721bc504f959017dc2ac9ac1010f222714c05",
+        "response_hash": "905791873ad627ae67d426b431a48cf4e857d310df7df4004bac78dd9467ec7e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f74c7c0c6f7ff692a8cffb232117069b3fcf9c2ff660bdb755330b042c7a6671",
+        "response_hash": "358e7c8fb46e3b40418e1b60f1372f6ff9c6c8baa16d7de002b843f9b15fc4d5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a913e2f9fecccdac355f294e36992d51df0191122bb5931954da13d33c3c68d5",
+        "response_hash": "e23c0a2e8e186f11d501865508e911d5be42b0e9288282feeab3b079dd428b66",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "43ba2e4c1de4b77550ca964e6dd1a162fed4367041e62aa9f22089589d3c64dc",
+        "response_hash": "2cb17dd38b624415f5bf67fd63940c03d7e1bf9fb5ad6f3af31db03d4f6aefcd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0ffdd094198750e28be53bd6f95eb42074b6eecb52ef09f9d4860a99b2f72682",
+        "response_hash": "19ba84a4acc877715807375c9d11d044b4eb11f0e9733900148c512f4ecf9586",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "42513485aff5250f8158b80e068d5077653e13451d021be294dedaf4bf2b231e",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6fc556bc6969bbdf4f8cfdea1c31e4414f0d8556d24969c40f2117e550996f0b",
+    "translation_sha256": "78c0a51557963cfe982445e802b874e5e2469ecf637a8ea08cd394e99512cc84"
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet longing to introspective acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The hidden, private, or subconscious parts of a person's mind where unresolved thoughts and feelings reside.",
+            "acceptable_visual_variants": [
+              "A dark, atmospheric room with soft light illuminating only the center, leaving the corners in deep shadow.",
+              "An abstract landscape of overlapping shadows and soft geometric lines suggesting a mental interior."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The physical corners of a physical mind or brain.",
+            "literalization_risk": "An illustrator might literally draw a physical brain with sharp, geometric corners or a literal room inside a skull, which looks cartoonish or anatomically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "human mind",
+              "transferred_attributes": [
+                "having physical corners",
+                "having hidden spaces",
+                "ability to store objects out of sight"
+              ],
+              "vehicle_concept": "physical room"
+            },
+            "source_span_original": "मन के कोने",
+            "source_span_translation": "corners of the mind",
+            "source_term": "मन के कोने",
+            "tenor": "The human mind and its subconscious or hidden areas.",
+            "vehicle": "A physical room or container with corners.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, abstract, or shadowy room-like space with dim corners, where faint, glowing, or semi-transparent shapes representing thoughts or memories are tucked away."
+          },
+          {
+            "abstract_meaning": "Unfulfilled hopes, ruined plans, or shattered aspirations.",
+            "acceptable_visual_variants": [
+              "Glowing, semi-transparent shards resembling broken glass scattered on a dark floor.",
+              "A faint, cracked outline of a symbolic object (like a star or a key) fading into darkness."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Dreams that have physically shattered into pieces like glass or ceramic.",
+            "literalization_risk": "Depicting literal sleeping dreams or clouds physically cracking like glass, which can look overly literal or surreal in a distracting way.",
+            "metaphor_mapping": {
+              "tenor_concept": "failed aspirations",
+              "transferred_attributes": [
+                "being broken into pieces",
+                "loss of original form and utility",
+                "sharpness or pain caused by fragments"
+              ],
+              "vehicle_concept": "shattered fragile object"
+            },
+            "source_span_original": "टूटे हुए सपने",
+            "source_span_translation": "broken dreams",
+            "source_term": "टूटे हुए सपने",
+            "tenor": "Aspirations or hopes that failed to materialize.",
+            "vehicle": "A fragile physical object that has shattered or broken.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show abstract, glowing fragments or shards of light scattered on a dark surface, suggesting shattered hopes without being too literal."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'मन' (mann) as 'mind', which loses the deep emotional, spiritual, and heart-centered connotations of the Hindi word 'mann' that bridges both heart and mind.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical feminine plural agreement in 'छिपी हुई हैं' (chhipi hui hain) and 'इच्छाएं' (ichhaen) is lost in the gender-neutral English translation.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The profound, heavy, or evocative quality of absolute silence.",
+            "acceptable_visual_variants": [
+              "A single beam of light cutting through a dark, still room, highlighting suspended dust motes.",
+              "An empty, vast landscape under a still, starless sky to evoke absolute quiet."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Musical notes or melodies produced by silence.",
+            "literalization_risk": "Drawing literal musical notes floating in a silent room, which contradicts the concept of silence and looks childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "absolute silence",
+              "transferred_attributes": [
+                "having tone or resonance",
+                "evoking emotion",
+                "being heard or felt deeply"
+              ],
+              "vehicle_concept": "music or melody"
+            },
+            "source_span_original": "सन्नाटे के सुर",
+            "source_span_translation": "notes of silence",
+            "source_term": "सन्नाटे के सुर",
+            "tenor": "The deep, heavy, and expressive quality of silence.",
+            "vehicle": "Musical notes or melodies.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the visual representation of stillness, such as dust motes suspended in a single beam of light in an empty, quiet room."
+          },
+          {
+            "abstract_meaning": "Memories or lingering impressions of past events and experiences.",
+            "acceptable_visual_variants": [
+              "Faint, warm-toned silhouettes of past moments projected softly on a wall.",
+              "Overlapping, soft-edged shadows on the floor that do not match the current posture of the subject."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Physical shadows cast by a physical entity called 'past time'.",
+            "literalization_risk": "Drawing literal dark silhouettes of people or clocks chasing a person, which can look like a horror scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "memories of past events",
+              "transferred_attributes": [
+                "being dark or faint",
+                "following the observer",
+                "lacking physical substance",
+                "representing a past presence"
+              ],
+              "vehicle_concept": "shadows"
+            },
+            "source_span_original": "बीते समय की परछाइयां",
+            "source_span_translation": "shadows of the past",
+            "source_term": "बीते समय की परछाइयां",
+            "tenor": "Memories or lingering impressions of past events.",
+            "vehicle": "Shadows cast by an object.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict faint, blurry, or semi-transparent silhouettes cast on a wall behind a figure, suggesting memories without being menacing."
+          },
+          {
+            "abstract_meaning": "The unclear, uncertain, or distorted perception of one's current life circumstances.",
+            "acceptable_visual_variants": [
+              "An elegant, free-standing mirror with a surface covered in a soft, swirling mist, reflecting only vague shapes.",
+              "A hand wiping a small clear patch on a condensation-covered glass surface to reveal a faint reflection."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A physical mirror representing the present moment that is covered in fog or condensation.",
+            "literalization_risk": "Showing a literal bathroom mirror covered in steam, which is too mundane and misses the existential tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "current state of life",
+              "transferred_attributes": [
+                "obscuring a clear reflection",
+                "requiring wiping to see clearly",
+                "distorting details"
+              ],
+              "vehicle_concept": "foggy mirror"
+            },
+            "source_span_original": "वर्तमान के धुंधले आईने में",
+            "source_span_translation": "foggy mirror of the present",
+            "source_term": "वर्तमान के धुंधले आईने में",
+            "tenor": "The uncertain, distorted, or unclear perception of one's current life.",
+            "vehicle": "A foggy or misty mirror.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, antique, or abstract mirror frame reflecting a hazy, soft-focus, or mist-covered scene instead of a sharp reflection."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'the notes of silence resound' for 'सन्नाटे के सुर' (sannate ke sur) changes the literal meaning 'melodies/notes of silence are found/met' ('मिलते हैं') to 'resound', altering the quiet, passive discovery implied by 'milte hain'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The quiet, lingering presence of unfulfilled desires and past memories within the deep recesses of the mind."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मन के कोने में छिपी हुई हैं,  \nकुछ अधूरी इच्छाएं,  \nकुछ टूटे हुए सपने,  \nऔर अनकहे शब्दों की गूंज।  \n\nवहां मिलते हैं सन्नाटे के सुर,  \nऔर बीते समय की परछाइयां,  \nजो कभी-कभी झाँकती हैं,  \nवर्तमान के धुंधले आईने में।",
+  "poem_id": "MV++_0794",
+  "poem_title": "Mann Ke Kona",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "12d5cce3b9ef29bcfa18769c202083477f0770d0361ec02322eb2f3a13e53964",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0794.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Hidden in the corners of the mind,  \nAre some unfulfilled desires,  \nSome broken dreams,  \nAnd echoes of unspoken words.  \n\nThere, the notes of silence resound,  \nAnd shadows of the past linger,  \nPeeking, now and then,  \nInto the foggy mirror of the present.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:13:11.853175+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "48c8af88316332dd1abf3e3f3c7a1d3c28c85aef71ecd7c6d1846b11331d3c4e",
+        "response_hash": "dbcf8ac22de700a9d62e0d8345d9287f9ac461af6573dcfa7669dec0f76e8dc7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "987ed036f64a1dbf118452f0cf354cc70c3226519515646a04d2f81570f10ac6",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1f52062f968e1287be2fcf3433993470488bef032f2a124357e4d170c779c6c2",
+        "response_hash": "b8fb8b7ae4a9c9aeb73992b4f36862833b6f713f46b83f07ab788891f9548286",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c4faf3529aefbcaeba626f9d16bf6e9981e5720ca51ea520ff0a99d6df913119",
+        "response_hash": "1347d4be1e38f7734217ad4eae5be00aa889881c9069ab251178fcc50e69f3eb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "96e01d1d93dae6c6953b470e0cdd5e9ad5694aa530ddb2a99bf42eb24aa870cb",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c6c8f117de8120534df12d542479f4139299a633e8e39004d779fd9a2eab10e3",
+    "translation_sha256": "4a6b1eef1215167b0a04f84d35f2877505e1289aec0d574556f4a5e424100430"
+  }
+}

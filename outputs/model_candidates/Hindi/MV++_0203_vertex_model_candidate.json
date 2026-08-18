@@ -1,0 +1,190 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and appreciation of a child's innocent joy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A beautiful, radiant, and serene face of a young girl.",
+            "acceptable_visual_variants": [
+              "A close-up of a smiling young girl with soft, luminous lighting on her face",
+              "A girl looking up at a bright full moon, reflecting its soft light on her face"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "A face that is like the moon",
+            "literalization_risk": "An illustrator might literally draw a moon with human facial features, which would look surreal or cartoonish rather than beautiful.",
+            "metaphor_mapping": {
+              "tenor_concept": "human face",
+              "transferred_attributes": [
+                "brightness",
+                "beauty",
+                "roundness",
+                "serenity"
+              ],
+              "vehicle_concept": "moon"
+            },
+            "source_span_original": "चाँद के जैसा मुखड़ा",
+            "source_span_translation": "a face like the moon",
+            "source_term": "चाँद के जैसा मुखड़ा",
+            "tenor": "the young girl's face",
+            "vehicle": "the moon",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a young girl with a bright, glowing, and beautiful face, perhaps with soft lighting that evokes moonlight."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific regional or dialectal nuance of the phrase 'बाल कोन्या' (Baal Konya) is simplified to 'The young girl', losing its distinct colloquial texture.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The joyful, vibrant, and beautiful unfolding of a child's laughter and life.",
+            "acceptable_visual_variants": [
+              "A joyful girl running through a field of blooming wildflowers",
+              "A close-up of a laughing girl with a background of soft-focus blooming petals"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L7",
+            "literal_meaning": "Blooming in the manner of flowers",
+            "literalization_risk": "An illustrator might literally draw flowers growing out of the girl's mouth or body, which would look bizarre or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "joy and life unfolding",
+              "transferred_attributes": [
+                "beauty",
+                "freshness",
+                "gradual opening",
+                "vibrancy"
+              ],
+              "vehicle_concept": "flowers blooming"
+            },
+            "source_span_original": "फूलों की तरह खिलती",
+            "source_span_translation": "Blooming like flowers",
+            "source_term": "फूलों की तरह खिलती",
+            "tenor": "the girl's playful joy and life story",
+            "vehicle": "blooming flowers",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict the girl laughing joyfully in a vibrant garden or surrounded by softly blurred, blooming flowers to visually echo the feeling of growth and joy."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'किलकारी' (kilkari) as 'playful joy' loses the specific auditory imagery of a child's high-pitched, joyful shriek or squeal of laughter.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The pure, vibrant essence of life captured in the innocent joy and laughter of a young girl"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss array detailing a medium-severity loss for 'Baal Konya' on line L1. This is internally inconsistent. If there is a meaningful translation loss, translation_quality should be 'partial' or the loss_note should explain the discrepancy.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss array detailing a medium-severity loss for 'kilkari' on line L6. This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बाल कोन्या,  \nचाँद के जैसा मुखड़ा,  \nचमकती आँखें,  \nनटखट हँसी।  \n\nकभी देखी तुमने,  \nउसकी किलकारी,  \nफूलों की तरह खिलती,  \nजीवन की कहानी।",
+  "poem_id": "MV++_0203",
+  "poem_title": "Baal Konya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "56e9a34957ec95cdadcfe2302e156dffe08580153fc3b65f43cfcad3ab43fdb2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0203.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The young girl,  \nWith a face like the moon,  \nShining eyes,  \nMischievous laughter.\n\nHave you ever seen  \nHer playful joy,  \nBlooming like flowers,  \nThe story of life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:59:06.820219+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "60cb85f980a91505fb07ae7925f019a8bd7477086d08562955c684065dcc4d0a",
+        "response_hash": "c2bfae260554fd4bde2fd6abf9df37adc0d1f100320f3b7f0f236123aa2b8c3b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a40c30b4a9979c8e5618fffa3b1f6de9355d5fc20e6c12069231933d06eba223",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d9b7c819adcdf7ce98f51bf87b6e22dcd7e9cca952a4639f164a4257c4ea6d5",
+        "response_hash": "a6322b325bd57e3756931aee72fe3a41546e13016ccec49ca39219e855dc41b9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "770bbf220ff6cef841ec446ba468ec6733ef54678fbe41d01ba611729f37ec32",
+        "response_hash": "adf06db8aa4fd76176d534515d4e67561d9e0641ddbd36437852e20e9bb23298",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6bef297689876f663008a7b272041e438406f90f44899988ea77065733fc5d6",
+        "response_hash": "e525ad268d3ebbf35a48f8f28e7d56ba19781abaa49fecea3ba07365b7a6b896",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9e6353807bf374909a8359fd92ba09e554a056d283997bb3d146337f5417df16",
+    "translation_sha256": "7689395298734389437c7b18347c579174fb3ff14d9f242fb2ffbc0cb1301871"
+  }
+}

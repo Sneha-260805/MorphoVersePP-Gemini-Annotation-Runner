@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A vast collection of aspirations, hopes, and imaginative desires that feel like an entire realm of their own.",
+            "acceptable_visual_variants": [
+              "A floating island of soft light and clouds",
+              "A gentle swirl of glowing stars and dreamlike shapes drifting upward"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A physical world or planet made entirely of dreams",
+            "literalization_risk": "Depicting a literal globe or planet floating in the sky with sleeping faces or literal dream bubbles on it, which misses the abstract sense of vast human aspiration.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "vastness",
+                "containing life",
+                "being a complete environment"
+              ],
+              "vehicle_concept": "world"
+            },
+            "source_span_original": "स्वप्नों का एक संसार",
+            "source_span_translation": "A world of dreams",
+            "source_term": "स्वप्नों का एक संसार",
+            "tenor": "A collection of dreams and aspirations (स्वप्न)",
+            "vehicle": "A physical world or planet (संसार)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, ethereal, or glowing landscape or city-like structure floating gently in the air, blending into clouds to represent a realm of imagination."
+          },
+          {
+            "abstract_meaning": "A sudden, joyful abundance of hope that rejuvenates the spirit, much like spring rejuvenates nature.",
+            "acceptable_visual_variants": [
+              "A burst of fresh green leaves and colorful blossoms spreading gently",
+              "A warm, radiant light illuminating a previously dark or cold space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The physical season of spring made of hopes",
+            "literalization_risk": "Depicting literal flowers blooming out of a brain or heart, which can look surreal or medical rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope",
+              "transferred_attributes": [
+                "blooming",
+                "rejuvenation",
+                "joy",
+                "abundance"
+              ],
+              "vehicle_concept": "spring season"
+            },
+            "source_span_original": "उम्मीदों की बहार",
+            "source_span_translation": "A spring of hopes",
+            "source_term": "उम्मीदों की बहार",
+            "tenor": "An abundance of hope (उम्मीद)",
+            "vehicle": "The season of spring (बहार)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a warm, golden light or a gentle blossoming of colorful flora spreading across a scene to visually evoke the feeling of spring and renewal."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic, lyrical flow and internal rhyme of the Hindi phrasing (such as 'sansaar' and 'bahaar') are lost in the literal English translation.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The cultural resonance of 'bahaar' (springtime), which carries deep connotations of renewal, blossoming, and joy in South Asian poetry, is flattened to a simple seasonal 'spring'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The hopeful, soaring nature of human dreams and aspirations dwelling in every heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing medium and low severity losses. This is internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "हवा में उड़ता जाए,  \nस्वप्नों का एक संसार।  \nहर मन में बसी हो,  \nउम्मीदों की बहार।",
+  "poem_id": "MV++_0356",
+  "poem_title": "Hawa Mein Udta Jaye",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "bc8ef1aa2e682e62abb2bfa33f0f68219cf71d5462b4f78260d9903a4d731e92",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0356.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Flying in the air,  \nA world of dreams.  \nMay it dwell in every heart,  \nA spring of hopes.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:16:12.431008+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2db01a9c55beca3e3f995c156206529fc0c7a8bdb47924082f9be72c2434481c",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "761233cfcb3eedfb175d3fb50467484a7685cc0ac497485c3796986e165949d0",
+        "response_hash": "08e72a2226853af6502769442efd6112994d49438fbb86ff172887a4a03629e6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "270e912dff54b0220601daaf587f270b980bbc306c48233fa9040be4c07d581b",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ab531d15ba35f2580c6a9edbd945e351b9f1d58a533398c142e290a5035b9388",
+        "response_hash": "a7f8e314e9fcbc003ee7c560fc2447ce0fb6fd3b168742c22277c957306d0ce4",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ed85942da62fdb1a122f59eec33414587e18b7578be7146b7f10fbc6482464b1",
+        "response_hash": "568cd2870e8daa971f2b6c3eed95d51aa923c54a029c07e64e05765c58413331",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b53f9b68fa22126a3f555c078166bd075b09c293797d27aee16e810149c7c989",
+        "response_hash": "fcf10a438b939dcfe60bb27b289382676b3083ec87cb4fb801bf14ecba85edc8",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b0ad852ea9f121e7d8bbe9ac19421fede85db79ca4eebd98797a4eeda35db778",
+    "translation_sha256": "5b12aca257f3ced653f82f1d0e7176699e342c77e7524266a4400d448fe57754"
+  }
+}

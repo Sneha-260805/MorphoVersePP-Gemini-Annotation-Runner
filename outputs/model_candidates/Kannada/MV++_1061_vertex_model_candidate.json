@@ -1,0 +1,225 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The innate, silent yearning of a living being or a pure soul to bring beauty and joy to the world.",
+            "acceptable_visual_variants": [
+              "A single dew-kissed blossom opening at dawn",
+              "A delicate wildflower swaying gently in a soft breeze"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "A botanical flower possessing conscious desires and wishes.",
+            "literalization_risk": "Depicting a literal flower with a human face or cartoonish thought bubbles would look childish and miss the deep, reflective tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "human soul",
+              "transferred_attributes": [
+                "desire to bloom",
+                "spreading fragrance as spreading love",
+                "bringing joy to others"
+              ],
+              "vehicle_concept": "flower"
+            },
+            "source_span_original": "एक फूल की चाह है",
+            "source_span_translation": "The desire of a flower",
+            "source_term": "एक फूल की चाह है",
+            "tenor": "A pure human soul or a beautiful life seeking to spread goodness",
+            "vehicle": "A flower with human-like desires and intentions",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful, vibrant flower in soft focus, gently opening its petals in warm, natural light to suggest a quiet, soulful awakening."
+          },
+          {
+            "abstract_meaning": "Spreading love and kindness throughout the journey of life.",
+            "acceptable_visual_variants": [
+              "A winding forest path dappled with warm sunlight and fallen petals",
+              "A soft trail of light illuminating a dark pathway"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Physically throwing or scattering love like seeds or petals onto a dirt road.",
+            "literalization_risk": "Showing a person literally throwing glowing hearts or abstract 'love' symbols onto a dirt road can look overly literal and cliché.",
+            "metaphor_mapping": {
+              "tenor_concept": "sharing love during life's journey",
+              "transferred_attributes": [
+                "distribution",
+                "beautifying the path",
+                "affecting those who walk there"
+              ],
+              "vehicle_concept": "scattering seeds or petals on a path"
+            },
+            "source_span_original": "जीवन की राह में प्रेम बिखेरे",
+            "source_span_translation": "To scatter love along life's path",
+            "source_term": "जीवन की राह में प्रेम बिखेरे",
+            "tenor": "Spreading love and kindness throughout the journey of life",
+            "vehicle": "Scattering physical objects along a walking path",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a path lined with soft, glowing petals or gentle light that seems to emanate from a traveler's footsteps, symbolizing the positive impact left behind."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The universal human longing for beauty, purity, and love to manifest in every heart.",
+            "acceptable_visual_variants": [
+              "A person holding their hands over their chest with a gentle light shining through their fingers",
+              "A silhouette of a person meditating with a soft floral pattern glowing within"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "A flower residing inside human minds/hearts and harboring desires.",
+            "literalization_risk": "An anatomical heart with a flower growing out of it could look surreal, medical, or unsettling rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "innate human desire for goodness",
+              "transferred_attributes": [
+                "purity",
+                "potential to bloom",
+                "fragrance"
+              ],
+              "vehicle_concept": "flower inside a heart"
+            },
+            "source_span_original": "एक फूल की चाह है, हर मन में",
+            "source_span_translation": "The desire of a flower, in every heart",
+            "source_term": "एक फूल की चाह है, हर मन में",
+            "tenor": "The universal human longing for beauty, purity, and love to manifest",
+            "vehicle": "A flower living inside a human heart/mind with its own desires",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a soft, warm glow emanating from a person's chest, with the faint, elegant silhouette of a blooming flower superimposed or integrated into the light."
+          },
+          {
+            "abstract_meaning": "To deeply move someone emotionally or inspire feelings of love and joy.",
+            "acceptable_visual_variants": [
+              "A warm, golden light connecting two distant figures",
+              "A close-up of hands gently clasped together in comfort"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L7",
+            "literal_meaning": "Physically reaching out and touching a biological heart muscle.",
+            "literalization_risk": "Showing hands physically touching a heart organ is graphic and completely misrepresents the emotional tenderness of the line.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional impact",
+              "transferred_attributes": [
+                "closeness",
+                "warmth",
+                "direct connection"
+              ],
+              "vehicle_concept": "physical touch"
+            },
+            "source_span_original": "दिलों को छू जाए",
+            "source_span_translation": "touches hearts",
+            "source_term": "दिलों को छू जाए",
+            "tenor": "Deeply moving someone emotionally",
+            "vehicle": "Physical touch of a hand on a heart",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize two people in a moment of quiet, emotional connection, such as a gentle gaze or a comforting gesture, surrounded by a warm, soft atmosphere."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The universal desire for love, joy, and eternal beauty as symbolized by the blooming of a flower."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "/",
+      "issue": "The poem's language is declared as Kannada in the metadata, but the actual text of the original poem ('एक फूल की चाह है...') is written in Hindi (Devanagari script). This is a fundamental language mismatch between the metadata and the source text.",
+      "severity": "critical"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक फूल की चाह है, हर समय  \nकि वह खिल सके, अपनी महक फैलाए,  \nजीवन की राह में प्रेम बिखेरे  \nऔर सबकी खुशियाँ संजो सके।  \n\nएक फूल की चाह है, हर मन में  \nकि वह बस साकार हो, महकता हो,  \nवो ख़ुशबू हो जो दिलों को छू जाए  \nऔर कभी न मुरझाए, बस खिलता रहे।",
+  "poem_id": "MV++_1061",
+  "poem_title": "Ek Phool Ki Chah",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ed43bc9b05812795b40907347c9b5e24b3fe870358e565e77768ea5d425200b0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1061.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The desire of a flower, at all times,  \nIs to bloom, spreading its fragrance,  \nTo scatter love along life's path,  \nAnd gather everyone's joys.\n\nThe desire of a flower, in every heart,  \nIs to take form, to scent the air,  \nTo be the fragrance that touches hearts,  \nAnd never wither, but always bloom.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:53:16.975778+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e4a387b9aab18d6c6db33e248a253181eede759c33c9dac86b2e4032db7d49f9",
+        "response_hash": "393e9546987b409a45e24ebe969ddf37b7d7a7e67872714741142b58b41a4e2c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "91c5132e8e9896def47156f77b635b92f5aa78fb4c70d79f2277755d41c357db",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "490ff5b020f4b5f2dd5485601934d84a05fced3f229ea4aa352884dde3f9a1a5",
+        "response_hash": "32f9e7e29fa86b5dcbbc540a0fc5444050a750b2d87e6e79727e7fb2acbf9267",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "313f64e1b049ff4928a15b24c739e3f6d3fcdfbea0bf6da43827e8b766f255c0",
+        "response_hash": "7985bdff5a8a7a7a5e148d4fb7590f25af3ae4a63850057118932ecbbe670483",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b553a462fc76397db6f9a91f2dcf828a86bedc3e8404cacdd3b2fd27315e572",
+        "response_hash": "c48cc30170425f28a99bf607a1d46098e63604b5fa7d16cb66cd6cefcf82018d",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e942843b27c02ecf980115033e95f7ff4e96dfdf020c3fb5d35063d9d57a282c",
+    "translation_sha256": "8662c7cd2591f9e00fb1e8748af86d167ac444c7080b2d866c4302f93fc222c7"
+  }
+}

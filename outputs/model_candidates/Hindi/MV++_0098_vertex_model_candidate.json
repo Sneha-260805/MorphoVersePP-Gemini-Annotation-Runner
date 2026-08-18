@@ -1,0 +1,195 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "hopeful anticipation to resilient determination",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beginning of a new, positive phase filled with optimism and possibilities.",
+            "acceptable_visual_variants": [
+              "A bright sun rising over a horizon with soft golden light spreading across a path",
+              "A silhouette of a person looking towards a glowing morning sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The morning/dawn of hopes",
+            "literalization_risk": "Depicting a literal sunrise without conveying the emotional transition from despair to optimism might look like a generic landscape photo.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope",
+              "transferred_attributes": [
+                "brightness",
+                "new beginning",
+                "dispelling darkness"
+              ],
+              "vehicle_concept": "dawn"
+            },
+            "source_span_original": "उम्मीदों का सवेरा",
+            "source_span_translation": "dawn of hope",
+            "source_term": "उम्मीदों का सवेरा",
+            "tenor": "hope (ummeed)",
+            "vehicle": "dawn (samera)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a warm, golden sunrise breaking through dark clouds, casting light on a path forward to symbolize a fresh start."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The phonetic spelling 'चलेin' (chalein) contains a mix of Devanagari and Latin characters, which is a typographical quirk or transliteration artifact in the source text that is lost in the standard English translation 'Let's go'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The inner strength, courage, and determination of the travelers accompany them actively on their journey.",
+            "acceptable_visual_variants": [
+              "Two people walking side-by-side with determined expressions and strong strides",
+              "A traveler walking with a strong, elongated shadow that looks like a supportive figure"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L10-L11",
+            "literal_meaning": "Courage walks along with us",
+            "literalization_risk": "Showing a literal extra person walking next to the travelers might confuse viewers into thinking there is an additional physical character in the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "courage",
+              "transferred_attributes": [
+                "presence",
+                "support",
+                "active participation"
+              ],
+              "vehicle_concept": "companion"
+            },
+            "source_span_original": "हौंसले\nसंग चलते हैं",
+            "source_span_translation": "Courage\nWalks alongside",
+            "source_term": "हौंसले\nसंग चलते हैं",
+            "tenor": "courage/determination",
+            "vehicle": "a walking companion",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict travelers walking with confident, upright postures, perhaps with their shadows or glowing outlines stylized to look strong and supportive."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The phonetic spelling 'चलेin' (chalein) containing mixed scripts is lost in the standard English translation.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "An invitation to journey together toward a brighter, hopeful future guided by courage and shared dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a translation_loss entry is present. When translation_quality is 'faithful', translation_loss should ideally be empty, or translation_quality should be 'partial' to reflect the loss of the mixed-script typographical quirk.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a translation_loss entry is present. When translation_quality is 'faithful', translation_loss should ideally be empty, or translation_quality should be 'partial' to reflect the loss of the mixed-script typographical quirk.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आओ चलेin  \nसपनों की ओर,  \nखुशियों की ओर,  \nजहां हर पल  \nचमकता है  \nउम्मीदों का सवेरा।  \n\nआओ चलेin  \nएक नई दिशा में,  \nजहां हमारे  \nहौंसले  \nसंग चलते हैं।",
+  "poem_id": "MV++_0098",
+  "poem_title": "Aao Chalein",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e64589757f2746edf775b0080844d1e59e74f124e82f1beba04d81e81ed61830",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0098.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Let's go  \nTowards dreams,  \nTowards happiness,  \nWhere every moment  \nShines  \nWith the dawn of hope.  \n\nLet's go  \nIn a new direction,  \nWhere our  \nCourage  \nWalks alongside.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:46:26.468761+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49c12ed9f8b352af898d90eba486bd65680e81c01e0bdeb0c853e966ec0e77b1",
+        "response_hash": "7ca4af05a6f0b29a266994b4a5c69e19bd5ade123f95d8448444d293dc769e2d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "941d4e6ddb77e0db4adb3fb2a79034b3e620cf7ca407b0d21d4fa59ee2476394",
+        "response_hash": "c021e6345dbe47e6942c8c0b52736d56e125a738919bc5911366d034b632a22c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "242e9c0ed60b10757d4ab48650d3434bd14766eb794dfecd02b362b1780ffdd4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "92c5b368cb0122846aea39f6b3f4802e4b6e1bf9387c525706dc04abd6423836",
+        "response_hash": "b8b65c7e21a1ee4dddfc4bf0ee8e65adf0a09e1f2bb36b4a5b525879c722d2c8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7f927193e6230befcc72066b63836cc7256c6f569386da94fa34d135f4efef0d",
+        "response_hash": "baab0dc353807945407f1a390b3f82788d4a6f8bdd242500f6eaebd8479cb869",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c4e69a75ebc3a4bb9c1d36b9d6a4b308a1ca43e4e0d4c777560ac10511599d3a",
+        "response_hash": "f6dc6df88d70d904ffcc188f0ce6011b82733b57fa50a3db2b7a92778dfb11c8",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "39a26b06154558de451e59f53f6ac1a4153c6241bdedaaf06c1fbd30f99137e4",
+    "translation_sha256": "22bc8b2ef4ef4a18198bcba815a229445df2f74f60ea51a804f217aef8821980"
+  }
+}

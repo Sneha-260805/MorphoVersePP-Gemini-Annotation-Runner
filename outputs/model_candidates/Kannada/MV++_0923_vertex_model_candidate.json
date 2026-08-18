@@ -1,0 +1,227 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A distant view of towering snow-covered Himalayan peaks under a clear sky",
+          "A close-up of a rugged, snow-dusted mountain ridge representing Himagiri"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Refers to the Himalayas (Himagiri), the sacred and culturally significant snowy mountain range of India, representing majesty, spiritual elevation, and natural beauty.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic green European alpine hill without the distinct scale and character of the Himalayas",
+          "A tropical mountain landscape"
+        ],
+        "preserved": true,
+        "romanization": "Himagiriya",
+        "source_span_original": "ಹಿಮಗಿರಿಯ",
+        "source_span_translation": "snowy mountain",
+        "stanza_index": 1,
+        "term": "ಹಿಮಗಿರಿಯ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Snow-capped mountain peaks",
+          "Majestic high-altitude ridges",
+          "Serene and pristine alpine environment"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "wonder and joy to deep longing and immersion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಕವಿಯ' (kaviya) as 'the poet lives' misses the genitive case ending (-ya) which links the poet to the heart or the mountain range, and flattens the potential wordplay or grammatical connection between the lines.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಶ್ರವಣಕ್ಕೆ' (shravanakke) as 'melody' misses the literal meaning of 'hearing' or 'listening' (from the Sanskrit root shru), shifting the focus from the act of listening to the musical object itself.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The Kannada phrase 'ಕಣ್ತುಂಬುವೆ' (kantumbuve) literally means 'to fill the eyes' (to gaze upon fully or be filled with the sight of), which is translated as 'immerse myself', losing the specific visual and sensory metaphor of the eyes filling with memory.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A deep, serene, or melancholic romantic feeling associated with the vastness of the sky or mountains.",
+            "acceptable_visual_variants": [
+              "A couple walking through a misty blue mountain landscape at dusk",
+              "A quiet town street under a deep blue twilight sky with two distant figures"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L6",
+            "literal_meaning": "blue romance / blue love",
+            "literalization_risk": "An illustrator might paint a couple literally colored blue, which would look like a mythological depiction (e.g., Krishna) rather than a modern emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional state of love",
+              "transferred_attributes": [
+                "depth",
+                "serenity",
+                "melancholy",
+                "vastness"
+              ],
+              "vehicle_concept": "the color blue"
+            },
+            "source_span_original": "ನೀಲಿ ಪ್ರಣಯ",
+            "source_span_translation": "blue love",
+            "source_term": "ನೀಲಿ ಪ್ರಣಯ",
+            "tenor": "a specific mood of love (serene, deep, or melancholic)",
+            "vehicle": "the color blue",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a romantic scene bathed in a soft blue twilight or misty blue mountain atmosphere to evoke the mood without coloring the people blue."
+          },
+          {
+            "abstract_meaning": "To experience something fully, to immerse oneself in memories, or to be deeply satisfied by a sight.",
+            "acceptable_visual_variants": [
+              "A close-up of a person's face with a serene, reflective expression and slightly tearful or bright eyes",
+              "A person standing on a high ridge looking out over the vast mountain range in quiet contemplation"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L8",
+            "literal_meaning": "to fill the eyes",
+            "literalization_risk": "A literal drawing of eyes being physically filled with objects or liquid would look grotesque or surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "absorbing a memory or sight fully",
+              "transferred_attributes": [
+                "fullness",
+                "completeness",
+                "emotional saturation"
+              ],
+              "vehicle_concept": "filling a physical container (eyes)"
+            },
+            "source_span_original": "ಕಣ್ತುಂಬುವೆ",
+            "source_span_translation": "immerse myself",
+            "source_term": "ಕಣ್ತುಂಬುವೆ",
+            "tenor": "experiencing or remembering something completely and with deep emotion",
+            "vehicle": "filling the eyes to capacity",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person with a deeply reflective, peaceful expression, perhaps with eyes closed or looking out over a vast landscape, capturing the emotional state of being filled with memory."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ಉಸಿರೊಯ್ಯುವ' (usiroyyuva) as 'whispering' loses the literal Kannada compound meaning of 'carrying/taking away breath' (usiru + oyyu), which carries a much stronger physical and emotional weight than 'whispering'.",
+            "where": "L5"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ಕಣ್ತುಂಬುವೆ' (kantumbuve) as 'immerse myself' loses the vivid physical idiom of 'filling the eyes' (kannu + tumbu), which conveys beholding something so beautiful that it completely fills one's vision.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound connection between the majestic natural landscape of the snowy mountains and the internal world of poetic inspiration, memory, and love."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains two translation_loss entries and a non-empty loss_note is expected if there is significant loss, or translation_quality should be 'partial' to align with the documented losses.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[0].loss_note",
+      "issue": "The loss_note is empty, but the stanza contains two translation_loss entries detailing medium-severity losses.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಹಿಮಗಿರಿಯ ಸುಂದರ ಶ್ರೇಣಿಯ,  \nನಮ್ಮ ಹೃದಯದಲ್ಲಿ ಕವಿಯ,  \nನಾವು ತೋರುತ್ತೇವೆ,  \nನಿನ್ನ ಉಲ್ಲಾಸದ ಶ್ರವಣಕ್ಕೆ!  \n\nಉಸಿರೊಯ್ಯುವ ಶ್ರೇಣಿಯ,  \nಊರಿನಲ್ಲಿ ನೀಲಿ ಪ್ರಣಯ,  \nನಿನ್ನ ನೆನೆಪಿನಲ್ಲಿ,  \nನಾನು ಕಣ್ತುಂಬುವೆ!",
+  "poem_id": "MV++_0923",
+  "poem_title": "Himagiri",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "370f0d3e8f8686deeb70ada0f423c8e4d27f5f95d161198b915594f3d18d2f49",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0923.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the beautiful range of the snowy mountain,  \nIn our hearts, the poet lives,  \nWe reveal ourselves,  \nTo the melody of your joy!\n\nIn the whispering range,  \nIn the town, blue love,  \nIn your memories,  \nI shall immerse myself!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:32:01.209567+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "73f920cf091aa55b77ba4911dc9d594668f7ffca35e55fc284ead91e66f9cd6b",
+        "response_hash": "6a475c4c09b1471acb4362b2a44bbdb5898abac5aef59a92daaaea71994b0b29",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9bc55caa1ecc6d1e7a892b2395b6e14b081dcbf27a91de203586c41194cf8f62",
+        "response_hash": "961ac590e00c40bb67df6dc7ff54ffe1d6a30d491a943b93f0ec5a90776c804f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e69bf7fe6efdf7f00010ff0f704eecb1947bd99670bb1c0f5e420adffe407cae",
+        "response_hash": "c92831822d9dcd4cd4b0e06a7df45f9a4eecbb25452705bcd44d392da26120eb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6d4a064fe5857dced693fb532dd1fe7e8ce7fc77710830b35cdf59db5d703835",
+        "response_hash": "f709ff8ad76ce10c355b790747a182a7a6f1668f110591714389cbe3856227a7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c09cf9daebd99043b00e6ff85a3c5c3f86e65fe2810e10e2ea56636a82865c81",
+        "response_hash": "94b9b0646d80ba49343fe4d39ddedb640bf0e7ada6b548c23971825762863dee",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7b16038b58b33b3a6459ab181a0d0411aed479269d8fe34a175cc8a4000487b8",
+    "translation_sha256": "517fda2cf5bbf53205aafaaecff839aa5ab09ddcf598c779035f23871c136279"
+  }
+}

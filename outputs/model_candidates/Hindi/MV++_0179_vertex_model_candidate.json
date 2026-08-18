@@ -1,0 +1,277 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A dusty path showing footprints of many travelers",
+          "A close-up of bare feet walking on a simple dirt path"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Literally 'feet' or 'footsteps', carrying deep cultural and devotional significance in South Asian traditions as a symbol of humility, reverence, and seeking refuge at the feet of the divine or humanity.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A literal staircase or architectural step",
+          "An ornate royal footstool"
+        ],
+        "preserved": true,
+        "romanization": "charan",
+        "source_span_original": "चरण",
+        "source_span_translation": "step",
+        "stanza_index": 2,
+        "term": "चरण",
+        "translation_note": "The translation renders 'charan' (feet/footsteps) abstractly as 'a step', which loses the specific cultural and devotional weight of 'charan' as a site of humility, service, and refuge.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A humble path or ground where feet tread",
+          "A posture of bowing or placing oneself at the level of feet"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A transition from a quiet desire for natural solitude and humility to a deep, selfless prayer to serve as a path for others.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation introduces a rhyme scheme ('aspire' / 'inspire') that slightly shifts the literal meaning of 'neechai' (lowness/depths) to 'grounds to inspire'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "High social status, pride, or arrogance.",
+            "acceptable_visual_variants": [
+              "A high, barren mountain peak shrouded in clouds",
+              "A tall, isolated stone pedestal or platform"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Physical height or elevation.",
+            "literalization_risk": "An illustrator might draw a literal mountain peak or tall building, missing the speaker's desire to avoid social arrogance and pride.",
+            "metaphor_mapping": {
+              "tenor_concept": "social status and pride",
+              "transferred_attributes": [
+                "elevation",
+                "exclusivity",
+                "distance from the ground"
+              ],
+              "vehicle_concept": "physical height"
+            },
+            "source_span_original": "ऊँचाई",
+            "source_span_translation": "heights",
+            "source_term": "ऊँचाई",
+            "tenor": "High social status, pride, or arrogance",
+            "vehicle": "Physical height/elevation",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a towering, steep, and isolated peak or high platform that looks cold and uninviting, contrasting with a warm, accessible ground level."
+          },
+          {
+            "abstract_meaning": "Humility, lowliness, or being grounded and close to common people.",
+            "acceptable_visual_variants": [
+              "A gentle, grassy valley floor",
+              "A simple, flat dirt path at the base of a hill"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Physical depth, low ground, or low elevation.",
+            "literalization_risk": "An illustrator might draw a deep, dark pit or depression in the earth, which carries negative connotations of despair rather than the positive humility intended.",
+            "metaphor_mapping": {
+              "tenor_concept": "humility and accessibility",
+              "transferred_attributes": [
+                "closeness to the earth",
+                "accessibility to everyone",
+                "lack of pretension"
+              ],
+              "vehicle_concept": "low physical ground"
+            },
+            "source_span_original": "नीचाई",
+            "source_span_translation": "grounds",
+            "source_term": "नीचाई",
+            "tenor": "Humility, lowliness, and accessibility",
+            "vehicle": "Physical low ground",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a flat, fertile, and welcoming patch of earth or a gentle valley floor where grass grows and people can easily walk."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces a rhyme-driven conceptual shift by translating 'नीचाई' (lowliness/depths) as 'grounds to inspire' and 'ऊँचाई' (heights) as 'heights to aspire' to rhyme with each other, which alters the literal simplicity of the original contrast between physical/metaphorical heights and depths.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation of 'charan' (feet/steps) as 'a step for all' loses the deep cultural and physical humility of being the dust or ground beneath everyone's feet.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A humble resting place or a step that serves others; being of service to humanity.",
+            "acceptable_visual_variants": [
+              "A simple stone step worn smooth by many feet",
+              "A dusty path showing footprints of various travelers"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Feet or a footstep.",
+            "literalization_risk": "Drawing literal human feet might look bizarre or suggest physical trampling/abuse rather than the voluntary, loving humility of serving as a path for others.",
+            "metaphor_mapping": {
+              "tenor_concept": "humble service and support",
+              "transferred_attributes": [
+                "being walked upon",
+                "supporting the weight of others",
+                "closeness to the dust"
+              ],
+              "vehicle_concept": "feet or a step"
+            },
+            "source_span_original": "चरण",
+            "source_span_translation": "step",
+            "source_term": "चरण",
+            "tenor": "Humble service and support for others",
+            "vehicle": "Feet or a step on the ground",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a worn, gentle stone step or a soft path of earth that naturally supports the feet of travelers."
+          },
+          {
+            "abstract_meaning": "The speaker's desire to be scattered like flower petals on a humble path to serve and beautify the journey of others.",
+            "acceptable_visual_variants": [
+              "Bright flower petals scattered on a simple dirt road",
+              "A trail of soft leaves and petals lining a village path"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "To physically scatter the speaker's body or parts along a road.",
+            "literalization_risk": "A literal rendering of a human body being scattered or broken on a road would look violent and horrific, completely reversing the peaceful, poetic tone of self-sacrifice.",
+            "metaphor_mapping": {
+              "tenor_concept": "selfless devotion and offering",
+              "transferred_attributes": [
+                "being spread out",
+                "softening the path for others",
+                "giving up individual form for a collective purpose"
+              ],
+              "vehicle_concept": "scattered flower petals"
+            },
+            "source_span_original": "मुझे उस पथ पर बिखराना",
+            "source_span_translation": "Scatter me along that way",
+            "source_term": "मुझे उस पथ पर बिखराना",
+            "tenor": "Selfless devotion and offering of oneself to common people",
+            "vehicle": "Scattered flower petals on a path",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict delicate flower petals gently scattered along a dusty, humble dirt path where people walk."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'चरण' (feet/footsteps) as 'A step for all, a path open' loses the specific, culturally resonant humility of being the dust or the feet/footsteps ('चरण') that others walk upon, shifting it to a more generic 'step' or 'path'.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'मुझको उस राह पे देना' (give me on that path / place me on that path) as 'In that humble path let me stay' adds the adjective 'humble' which is not explicitly in the source text, and changes the active verb of giving/placing ('देना') to a passive state of staying ('let me stay').",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The beauty of humility and self-sacrifice, choosing the lowest ground to serve as a refuge and path for humanity."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The field 'preserved' is set to true, which contradicts 'translation_status' being set to 'PARTIALLY_PRESERVED' and the 'translation_note' stating that the translation loses the specific cultural weight of the term. It should be false or null to remain consistent with partial preservation.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मुझको देना वन का कोना,  \nनदियों का किनारा देना।  \nमुझे ऊँचाई मत देना,  \nमुझको नीचाई देना।  \n\nजहाँ मिल सके सबको शरण,  \nजो सभी का हो सके चरण।  \nमुझे उस पथ पर बिखराना,  \nमुझको उस राह पे देना।",
+  "poem_id": "MV++_0179",
+  "poem_title": "Ek Phool Ki Chah",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2b9530de9617004abb54bc189a3984ed809fbfb7161a1cf9068e485a661ba759",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0179.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Give me a corner of the forest,  \nThe banks where rivers rest.  \nDon’t give me heights to aspire,  \nGive me grounds to inspire.  \n\nWhere all can find a haven,  \nA step for all, a path open.  \nScatter me along that way,  \nIn that humble path let me stay.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:55:56.546554+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "52a6ec77bee77241dbcb119993f925cb3cda345e5c362365eb1917b80fa00a26",
+        "response_hash": "b819b932f71f294e2e86f8b1a99fe4ec36e343f15099bef2b804ae587a7aa009"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "29550a15a4ba234acf1fb87334124678fc2b10bfb01f62521e173f80ff137ba4",
+        "response_hash": "fd0cfc677e9627a428e67eb1bf14775aedb2c091b82e0a627e072453bbefcd34",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7318c96f508b011047ef5f8a1fe1b3c75664c53c96a0e284ac1c1d365c5bf4be",
+        "response_hash": "e0146cbfb50d1818371f2959119dac6d0b3e517655f1da503aeca2e46480673f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "642f7fb2af2ea7d3f5fe748f0129d7eecde0be9759961af380fad7e932840c2d",
+        "response_hash": "adc0ee70b9288784298a35e9769f7911a03c3c5eec5379b93a4c1b5509a17632",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da6e567cc890ab1f968513fd307922a1b12d4f0d0d82bb2e282b0dbb66559312",
+        "response_hash": "3f7f035e90a21bd66c97d0449a3c0fee95164987c3f77ab39281ba31ba88c03f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a8e978bd70142327416c7693e2d6d228851e85ddb051c3b553566854f9e681dc",
+        "response_hash": "e2f1cc48dfe6fd7742c5206ced11cfcdb02cd4478c994f029bddceebd4db4288",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3a5829cb74064d71d03a34f1b59936fa5643bffa4612ed5eca1146f2c9bf02c3",
+    "translation_sha256": "04fee9df503d82dfb3ce70940b1db0230358073d69f8eefe9ebb6fbc46d31a36"
+  }
+}

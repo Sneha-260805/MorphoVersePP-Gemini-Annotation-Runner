@@ -1,0 +1,209 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple unglazed terracotta clay diya",
+          "A slightly decorated or painted clay diya typical of North Indian households"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional small clay oil lamp, typically fueled by ghee or vegetable oil with a cotton wick, widely used in South Asia for both everyday lighting and ritual/festive purposes. In this poetic context, it serves as a symbol of fragile existence and identity.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "An ornate metal or brass temple lamp",
+          "A modern wax candle",
+          "A decorative lantern or electric lamp"
+        ],
+        "preserved": true,
+        "romanization": "diya",
+        "source_span_original": "दीया",
+        "source_span_translation": "lamp",
+        "stanza_index": 1,
+        "term": "दीया",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A small, simple, handmade clay lamp (earthenware)",
+          "A single cotton wick resting in the oil/ghee",
+          "A small, flickering warm flame, sometimes glowing and sometimes extinguished"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "A quiet reflection on insignificance and struggle, moving from a sense of non-existence to a quiet acceptance of companionship with darkness.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation adds 'unknown' to 'darkness' and 'woven with' to 'silence' to maintain meter, slightly altering the stark simplicity of the original Hindi phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker feels insignificant, fragile, and lacking a distinct identity or purpose in life.",
+            "acceptable_visual_variants": [
+              "A single earthen diya flickering in a dark, empty room",
+              "A faint human silhouette whose chest or heart area glows with the weak, warm light of a small lamp"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "I am that clay lamp which has no existence or identity",
+            "literalization_risk": "Depicting a literal talking clay lamp might look like a fantasy cartoon character rather than conveying the speaker's deep existential loneliness.",
+            "metaphor_mapping": {
+              "tenor_concept": "an insignificant human life lacking identity",
+              "transferred_attributes": [
+                "fragility",
+                "dimness",
+                "lack of lasting impact",
+                "burning in isolation"
+              ],
+              "vehicle_concept": "a small clay lamp burning in obscurity"
+            },
+            "source_span_original": "मैं वह दीया हूँ जिसकी कोई हस्ती नहीं",
+            "source_span_translation": "I am that lamp with no identity",
+            "source_term": "मैं वह दीया हूँ जिसकी कोई हस्ती नहीं",
+            "tenor": "The speaker's fragile, insignificant, and unrecognized existence",
+            "vehicle": "A small, fragile clay lamp (diya) that burns without recognition or lasting presence",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary, small clay lamp burning with a weak flame in a vast, dark space, with the faint silhouette of a person merged or sitting beside it."
+          },
+          {
+            "abstract_meaning": "The speaker has learned to live with, accept, or find comfort in loneliness, despair, or difficult times.",
+            "acceptable_visual_variants": [
+              "A figure sitting in a dark room, looking out at a faint light but surrounded comfortably by shadows",
+              "A person leaning back into the darkness as if resting against a friend"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Kept making friendship with the darknesses",
+            "literalization_risk": "Showing a person shaking hands with a literal shadow monster or dark figure could look like a horror movie or fantasy illustration.",
+            "metaphor_mapping": {
+              "tenor_concept": "becoming accustomed to and finding peace in loneliness or despair",
+              "transferred_attributes": [
+                "companionship",
+                "comfort in presence",
+                "lack of fear toward something usually feared"
+              ],
+              "vehicle_concept": "making friends with a personified darkness"
+            },
+            "source_span_original": "अंधेरों से करता रहा दोस्ती",
+            "source_span_translation": "Forging a bond with the darkness unknown",
+            "source_term": "अंधेरों से करता रहा दोस्ती",
+            "tenor": "The speaker's acceptance of and familiarity with loneliness, sorrow, or obscurity",
+            "vehicle": "Darkness as a companion or friend with whom one forms a bond",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person sitting peacefully and comfortably enveloped by deep shadows, rather than cowering from them, suggesting a harmonious relationship with the dark."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'woven' ('woven with silence alone') which is not present in the original Hindi text ('मेरी कहानी में सिर्फ़ ख़ामोशी है', literally 'In my story there is only silence'). This introduces a textile/weaving metaphor not in the source.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'unknown' ('darkness unknown') to complete the rhyme scheme, which is not present in the original Hindi text ('अंधेरों', which simply means 'darknesses' or 'the dark').",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the continuous aspect of the Hindi verbs 'जलता रहा' (kept burning) and 'करता रहा' (kept making/doing), rendering them as simple states or actions ('aglow', 'forging') and thus softening the sense of ongoing, persistent struggle over time.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet resilience of an insignificant life finding peace in its own struggle and solitude."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं वह दीया हूँ जिसकी कोई हस्ती नहीं,  \nमेरी कहानी में सिर्फ़ ख़ामोशी है,  \nकभी बुझा, कभी जलता रहा,  \nअंधेरों से करता रहा दोस्ती।",
+  "poem_id": "MV++_0725",
+  "poem_title": "Aatmakatha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5205243266bc90a66314100bf4c0d39116ae20d1539a210b403c8a3ee18fda9b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0725.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I am that lamp with no identity,  \nMy story is woven with silence alone,  \nSometimes extinguished, sometimes aglow,  \nForging a bond with the darkness unknown.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:01:35.579376+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea5ceb76d04ac7e177fbb5199b0cf04b173519b2c8834bf520bfe69232c2d322",
+        "response_hash": "2bc76012ea930aedd6bb165035f862ef300902170710ffdf0617f63c308042cf"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "345cfc221cc42ea8743dd5104c0206ba8da2980e1ca91940f3046e64dbbe31d7",
+        "response_hash": "bc9346697674851046c1e480731ab1b7a5d08f19b8d23c2739761b2bbc6340ca",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "26db14108250d98779de84d9923f5ca85798f9530b523343fc8786ac7015f88a",
+        "response_hash": "975dadbe2f25e7a9c1a95f44d7bfe980aac05f01c1aeb2b1e8c2a3051441a590",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "53b1e148c87e22036dab40dea9f21aab354f0f593db351d42581763edf8b2fcd",
+        "response_hash": "1a4c3eb36d24a5888b6f1423e8fa2649bc9e665aaf1bfe926fea9cf1722d434b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c5a2f5603f145fd960c027f6e205d88547e7e7a611eb27369054917206ab7a61",
+        "response_hash": "c368c90c179640dd10b24fac9b7243e9e12161b40e5b3846b482670dacd45a9a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "164457aaaf403eb6ec2a38092800505ae2feb8e53281aac55f191e0ab092a627",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c4aa036f00466146ddfc790fef364ef43586471f6fca7bf6d499a5692d08d4e7",
+    "translation_sha256": "f749e5806c6fbd438de09f3caeb93f229d26cdee8de0939d9f94cbb5309bf274"
+  }
+}

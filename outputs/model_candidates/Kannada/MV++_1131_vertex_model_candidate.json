@@ -1,0 +1,346 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An ancient-style outdoor learning space under a banyan or sacred fig tree",
+          "A simple traditional clay-and-thatch school structure in a serene natural setting"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Refers to the 'Gurukula', a traditional ancient Indian residential educational system where students lived near or with their guru (teacher) to acquire knowledge.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern Western-style brick classroom with desks and blackboards",
+          "A generic medieval European monastery school"
+        ],
+        "preserved": true,
+        "romanization": "gurukulavemba",
+        "source_span_original": "ಗುರುಕುಲವೆಂಬಾ",
+        "source_span_translation": "the School",
+        "stanza_index": 1,
+        "term": "ಗುರುಕುಲವೆಂಬಾ",
+        "translation_note": "The translation renders the concept of 'Gurukula' (traditional residential school under a guru) as 'the School', losing the specific cultural resonance of the ancient Indian educational system.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A traditional open-air or simple shelter learning environment under a large spreading tree",
+          "A teacher figure sitting with students gathered around in a respectful circle"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "An ascetic or sage-like figure in simple robes",
+          "A respected elder mentor in traditional Indian attire"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A spiritual guide, mentor, or revered teacher who dispels darkness and imparts both secular and sacred knowledge.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A modern academic professor in a suit or graduation gown",
+          "A generic priest or monk holding a holy book"
+        ],
+        "preserved": true,
+        "romanization": "guru",
+        "source_span_original": "ಗುರು",
+        "source_span_translation": "teacher",
+        "stanza_index": 1,
+        "term": "ಗುರು",
+        "translation_note": "Translated as 'teacher' (or 'eternal teacher'), which captures the basic role but loses the deep spiritual, guiding, and revered status of a 'guru' in Indian tradition.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A revered teacher figure in simple traditional attire, radiating wisdom and calm",
+          "An elder figure guiding younger seekers under a tree"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A group of diverse young learners sitting cross-legged on mats",
+          "A single dedicated seeker listening intently to a guide"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Like disciples or dedicated students in a traditional guru-shishya relationship.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "Modern school children in uniforms with backpacks",
+          "University students sitting in lecture hall chairs"
+        ],
+        "preserved": true,
+        "romanization": "shishyarante",
+        "source_span_original": "ಶಿಷ್ಯರಂತೆ",
+        "source_span_translation": "students",
+        "stanza_index": 2,
+        "term": "ಶಿಷ್ಯರಂತೆ",
+        "translation_note": "Translated as 'students', which loses the specific cultural connotation of a 'shishya'—a dedicated disciple who commits to a lifelong bond of learning and service to their guru.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Young seekers or disciples sitting attentively on the ground",
+          "Disciples dressed in simple traditional attire, looking up respectfully at their teacher"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Refers to caste (jaati) and creed/sectarian religion (mata), the traditional social and religious divisions in Indian society which the poem explicitly rejects in the pursuit of knowledge.",
+        "line_ref": "L7",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "jaati, mata",
+        "source_span_original": "ಜಾತಿ, ಮತ",
+        "source_span_translation": "caste or creed",
+        "stanza_index": 2,
+        "term": "ಜಾತಿ, ಮತ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "reverence to egalitarian unity",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'gurukula' as 'School' loses the specific cultural resonance of a traditional residential learning system under a guru.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The traditional school (Gurukula) is conceptualized as a sheltering, nurturing tree under which students gather.",
+            "acceptable_visual_variants": [
+              "A traditional Indian banyan tree with students sitting beneath its shade",
+              "A stylized tree canopy blending into the architectural lines of a traditional school veranda"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The tree that is the Gurukula (traditional school)",
+            "literalization_risk": "An illustrator might draw a literal tree with classrooms or books hanging from its branches, which misses the symbolic sense of shelter and community.",
+            "metaphor_mapping": {
+              "tenor_concept": "school",
+              "transferred_attributes": [
+                "shelter",
+                "growth",
+                "nurturing environment",
+                "gathering place"
+              ],
+              "vehicle_concept": "tree"
+            },
+            "source_span_original": "ಗುರುಕುಲವೆಂಬಾ ಮರದ",
+            "source_span_translation": "the tree called the School",
+            "source_term": "ಗುರುಕುಲವೆಂಬಾ ಮರದ",
+            "tenor": "The school (Gurukula) as a place of learning and shelter",
+            "vehicle": "A sheltering tree",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a group of students gathered respectfully in an open-air learning environment under the wide, protective canopy of a large, ancient tree."
+          },
+          {
+            "abstract_meaning": "Knowledge is conceptualized as light that dispels darkness and guides people.",
+            "acceptable_visual_variants": [
+              "A traditional clay oil lamp (deepa) casting a warm glow on students",
+              "A soft, radiant aura surrounding the teacher figure as they speak"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The light of knowledge",
+            "literalization_risk": "Depicting literal light bulbs or laser beams coming from a teacher's hands would look cartoonish and fail to convey spiritual/intellectual illumination.",
+            "metaphor_mapping": {
+              "tenor_concept": "knowledge",
+              "transferred_attributes": [
+                "illumination",
+                "dispelling darkness",
+                "guidance",
+                "clarity"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "ಜ್ಞಾನದ ಬೆಳಕನ್ನು",
+            "source_span_translation": "the light of knowledge",
+            "source_term": "ಜ್ಞಾನದ ಬೆಳಕನ್ನು",
+            "tenor": "Knowledge and wisdom",
+            "vehicle": "Light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use warm, soft, ambient golden light emanating from a central source (like a traditional oil lamp or surrounding the teacher figure) to illuminate the faces of the students."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'Gurukula' (ಗುರುಕುಲ) as 'School' flattens the rich cultural and historical context of a traditional Indian residential academy where students lived near or with their guru.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'eternal' to 'teacher' (ಗುರು), which is not explicitly present in the original Kannada text ('ನಮಗೆ ಗುರು' simply means 'is our teacher/guru').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'maulikadatta' as 'toward the fundamental' slightly flattens the Kannada connotation of moving toward core values or essential truths.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speakers compare themselves to disciples or students on a shared spiritual or educational journey.",
+            "acceptable_visual_variants": [
+              "A group of diverse seekers sitting on the ground in a circle",
+              "A line of people walking together along a path with expressions of focus"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L6",
+            "literal_meaning": "like disciples / like students",
+            "literalization_risk": "None major, but depicting them only as modern school children might lose the deeper, lifelong seeker aspect implied by 'shishya'.",
+            "metaphor_mapping": {
+              "tenor_concept": "seekers of values",
+              "transferred_attributes": [
+                "humility",
+                "eagerness to learn",
+                "following a guide"
+              ],
+              "vehicle_concept": "disciples"
+            },
+            "source_span_original": "ಶಿಷ್ಯರಂತೆ",
+            "source_span_translation": "like students",
+            "source_term": "ಶಿಷ್ಯರಂತೆ",
+            "tenor": "The speakers (human beings seeking truth/values)",
+            "vehicle": "Disciples/students",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a diverse group of people of various ages looking forward with expressions of humility, respect, and eagerness to learn."
+          },
+          {
+            "abstract_meaning": "Education or learning is conceptualized as a path or road that one travels along.",
+            "acceptable_visual_variants": [
+              "A simple dirt path winding through a peaceful landscape toward the sunrise",
+              "A glowing trail of light leading upward through a serene forest"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "The path of learning / road of education",
+            "literalization_risk": "Showing a literal paved road with books on it would look overly literal and miss the spiritual/intellectual journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "education",
+              "transferred_attributes": [
+                "direction",
+                "progression",
+                "journey",
+                "destination"
+              ],
+              "vehicle_concept": "path"
+            },
+            "source_span_original": "ವಿದ್ಯೆಯ ಮಾರ್ಗ",
+            "source_span_translation": "path of learning",
+            "source_term": "ವಿದ್ಯೆಯ ಮಾರ್ಗ",
+            "tenor": "The process of acquiring education and wisdom",
+            "vehicle": "A path or road",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a clear, winding pathway leading toward a bright horizon or a source of light, with figures walking along it."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಮೌಲಿಕದತ್ತ' (maulikadatta) as 'toward the fundamental' loses the nuance of moving toward 'values' or 'ethical principles' (maulika), which is central to the educational philosophy being described.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The pursuit of knowledge as a sacred, universal path that transcends social divisions under the guidance of a divine teacher."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಗುರುಕುಲವೆಂಬಾ ಮರದ ಕೆಳಗೆ  \nಇಂದು ನಾವು ನಿಂತಿರೋಣ,  \nಜ್ಞಾನದ ಬೆಳಕನ್ನು ಹಂಚುವುದಾದ  \nಆ ದೇವರು ನಮಗೆ ಗುರು.  \n\nಮೌಲಿಕದತ್ತ ಹೆಜ್ಜೆ ಹಾಕುವ  \nನಾವೆಲ್ಲರೂ ಶಿಷ್ಯರಂತೆ,  \nನಮಗಿಲ್ಲ ಜಾತಿ, ಮತ  \nಏಕವಿರುವುದು ವಿದ್ಯೆಯ ಮಾರ್ಗ.",
+  "poem_id": "MV++_1131",
+  "poem_title": "Gurukula",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5de7285d54f6c4f14404f9480db22531e81b018125bb57446d97ad3c0caf58af",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1131.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Under the tree called the School,  \nHere we stand today,  \nThe god who shares the light of knowledge  \nIs our eternal teacher.  \n\nTaking steps toward the fundamental,  \nWe are all like students,  \nThere is no caste or creed for us,  \nOnly the singular path of learning.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:01:24.872277+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "def943fa15cc1897213e5ec666aa9c1a5daba5ae96c7f428b41ac19626cf0900",
+        "response_hash": "ac117b478125ff9c1e3df916e9b2ee8394dfd0897c196c724c58d364dd721b2b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5781b666763c1195565361109110d8adc5f754ece6f675dc3ac3cb26e7d61f75",
+        "response_hash": "13cd90202dc1a2e7d3dfa8e3c13fb1cd5e81bdfa370c92811e5679a1c484aa3d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0536740727612fed20f2140b76bbc01d906b8ab4100570a9ee63584db2137e74",
+        "response_hash": "038f6401897a835777cb8bd11101123a61d66d43e747f3908fc91e1e3c5e533b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c1aa54e28c435ace43c827756865bcc263a945eb76b0bc4d81454906487dbfac",
+        "response_hash": "ce46eb4c47144fc5f404072155214646652f4eef962d15ce3d0fd7dddfbb24ad",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7ebf87cd30d4b00edc67d564673f6c204c8f9ece62e269eb2146052996966619",
+        "response_hash": "1358080b7c46c4ff503cca24b69ac069175b0a183f7632204436f5930e3f15a0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5aa7df0ec49a2ad5edaa13850e7772f8f0fa1f06c7093a8f4e435bdc4ec65e22",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "abe3cc45852e6bbfc0de5962a9f096aa8410ab401e6e35e86174599b9c59a2f4",
+    "translation_sha256": "9da27dcfba23b6e324a96f55f935cad7d0335de64a44bb1342e8d6e5ef2e165c"
+  }
+}

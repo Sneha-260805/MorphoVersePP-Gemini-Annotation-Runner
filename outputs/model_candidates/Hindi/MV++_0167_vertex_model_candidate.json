@@ -1,0 +1,278 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple rural clay-plastered courtyard",
+          "A paved stone courtyard of a traditional town house"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The traditional central open-to-sky courtyard of a South Asian home, serving as the social, domestic, and emotional core of family life.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern suburban grassy backyard",
+          "A closed European-style patio with outdoor dining furniture"
+        ],
+        "preserved": true,
+        "romanization": "angan",
+        "source_span_original": "अंगन",
+        "source_span_translation": "courtyard's",
+        "stanza_index": 1,
+        "term": "अंगन",
+        "translation_note": "Translated as 'courtyard', which captures the literal meaning but loses the deep domestic and cultural resonance of the traditional South Asian household center.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "An open-air central courtyard of a traditional Indian home",
+          "Sunlight filtering down onto a clean stone or clay floor",
+          "Surrounding domestic doorways or verandas"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing and devotion to deep appreciation and celebration",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces rhyming fillers ('blue', 'hive') that are not in the original text, and translates 'bichona' (bedding/bed) loosely as 'hive' to force a rhyme.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved person who brings joy, warmth, and life to the household.",
+            "acceptable_visual_variants": [
+              "A warm golden glow surrounding a person standing in a traditional courtyard",
+              "A courtyard illuminated by soft, ambient light as a figure enters"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The light of the courtyard",
+            "literalization_risk": "An illustrator might draw a literal lamp or sun shining in a courtyard, missing the human presence that actually embodies this light.",
+            "metaphor_mapping": {
+              "tenor_concept": "a beloved person bringing joy to a household",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "making things visible and alive"
+              ],
+              "vehicle_concept": "light illuminating a physical space"
+            },
+            "source_span_original": "अंगन का उजाला",
+            "source_span_translation": "The courtyard's light",
+            "source_term": "अंगन का उजाला",
+            "tenor": "The beloved person who brings joy and life to the home",
+            "vehicle": "A physical light source illuminating a courtyard",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing light emanating from a central figure or their presence within a domestic courtyard setting."
+          },
+          {
+            "abstract_meaning": "To become lively, joyful, or animated.",
+            "acceptable_visual_variants": [
+              "A courtyard shifting from shadow to warm, vibrant light",
+              "Subtle, artistic floral patterns lightly overlaying the courtyard walls as if blooming from the atmosphere"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "blooms like a flower",
+            "literalization_risk": "An illustrator might draw literal flowers growing out of the courtyard floor, which is too literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "a space or atmosphere becoming cheerful and lively",
+              "transferred_attributes": [
+                "opening up",
+                "vibrancy",
+                "beauty",
+                "freshness"
+              ],
+              "vehicle_concept": "a flower opening up and blooming"
+            },
+            "source_span_original": "खिल उठता है",
+            "source_span_translation": "comes alive",
+            "source_term": "खिल उठता है",
+            "tenor": "The courtyard or home becoming lively and joyful",
+            "vehicle": "A flower blooming",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the courtyard transitioning from dullness to vibrant life, perhaps with subtle floral motifs or a sudden burst of warm color."
+          },
+          {
+            "abstract_meaning": "An empty, lifeless, and lonely space or state of existence.",
+            "acceptable_visual_variants": [
+              "A simple, bare mat or cot sitting lonely in a shadowed corner of the courtyard",
+              "A cold, empty space in the center of the home"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "an empty bed or bedding",
+            "literalization_risk": "Showing a literal empty bed might look like a simple bedroom scene, losing the broader emotional sense of a desolate home.",
+            "metaphor_mapping": {
+              "tenor_concept": "a lonely and cold living space",
+              "transferred_attributes": [
+                "emptiness",
+                "lack of warmth",
+                "abandonment"
+              ],
+              "vehicle_concept": "an empty bed"
+            },
+            "source_span_original": "खाली बिछौना",
+            "source_span_translation": "empty hive",
+            "source_term": "खाली बिछौना",
+            "tenor": "A lonely, desolate home or life without the beloved",
+            "vehicle": "An unmade, unoccupied bed",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a lonely, unoccupied corner of a courtyard with bare, cold-toned seating or bedding, contrasting with the warm light of presence."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the rhyme-forced phrase 'empty and blue' which is absent in the original Hindi text. The original 'soona' means lonely, desolate, or empty, without the specific English idiomatic color association of feeling 'blue'.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation replaces 'khali bichona' (an empty bed/bedding) with 'empty hive' to force a rhyme with 'alive'. This completely alters the domestic, intimate imagery of a bare bed/mat to a natural/apicultural metaphor.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation adds 'every sound' to force a rhyme with 'around', which is not present in the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life is full of joy, variety, and emotional richness.",
+            "acceptable_visual_variants": [
+              "A sudden transition from grayscale to rich, warm hues in the environment",
+              "A subtle, colorful aura or warm light surrounding the characters"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "there is color in life",
+            "literalization_risk": "An illustrator might paint literal splashes of paint or rainbows across the scene, which can look childish or disconnected.",
+            "metaphor_mapping": {
+              "tenor_concept": "happiness and emotional variety",
+              "transferred_attributes": [
+                "vibrancy",
+                "beauty",
+                "emotional warmth"
+              ],
+              "vehicle_concept": "vibrant colors"
+            },
+            "source_span_original": "जीवन में रंग है",
+            "source_span_translation": "life has colors to display",
+            "source_term": "जीवन में रंग है",
+            "tenor": "Joy, happiness, and emotional richness in life",
+            "vehicle": "Physical colors and pigments",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use a rich, warm, and saturated color palette for the scene when the beloved is present, contrasting with monochrome or dull tones for absence."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'every sound' to force a rhyme with 'around', which is not present in the original Hindi text. The original focuses purely on the visual brightening of every corner ('har kona jagmagata hai') due to the sound of footsteps.",
+            "where": "L5-L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'sajta hai' (is adorned/decorated) as 'makes the world this way', which flattens the aesthetic and active sense of beautification and preparation implied by 'sajna'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The beloved as the source of light, color, and life in the speaker's domestic and universal world"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अंगन का उजाला तुमसे है,  \nतुम्हारे बिना ये सूना है।  \nतुम हो तो खिल उठता है,  \nवरना ये खाली बिछौना है।  \n\nतुम्हारे कदमों की आहट से,  \nहर कोना जगमगाता है।  \nतुम हो तो जीवन में रंग है,  \nतुमसे ही ये संसार सजता है।",
+  "poem_id": "MV++_0167",
+  "poem_title": "Aangan Ka Ujala",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ab10874e9f42ce81697ece7ecb02384a982ca3542bf28afbdbcd5e601ee93f4c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0167.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The courtyard's light is all from you,  \nWithout you, it feels empty and blue.  \nWhen you are here, it comes alive,  \nOtherwise, it's an empty hive.\n\nThe echo of your footsteps brightens all around,  \nEvery corner shines, every sound.  \nWith you, life has colors to display,  \nIt's you who makes the world this way.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:54:24.719954+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "91999bc487f281df4a7fc055d7fe8bfcd7e3e87a2776efe87cab37f61c9d4eb5",
+        "response_hash": "6b4f37d86984cf0ef7ae0230727f7219a109cf92abc648230d117e76dd3a8fb6"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ac03400d0f0fb5cb2581f160bd4f2dd8154a23af5475f4708e4601689827ffe6",
+        "response_hash": "c74de06652aa06af890993e99e788cfd9fa8151e6ff575185d7e9519f48170a5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d9b27b8759e20dfc6046c087da5da3d190b7605338e54f3fa72cc563a8832700",
+        "response_hash": "b4b1971175983d61e4a281ae5db3af67c95559d70e2d78885b64d693ffa1c779",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9b89042f9759b1fa838a6911246dbd1c99f8380d824b0e7ce615d95dc0f971d1",
+        "response_hash": "5ceb3f55bd8c1acb54793781241146a75b991f52576e585c7be2bfd257363d24",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2971add8ed8fa89e48612a3962a72f9ab7fdb7e2d410026ef392ce0ca1feef5e",
+        "response_hash": "2ec204c03bc0ec3bc9bbd30166737284472d50d276565c212b752bd64957b733",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ef997970960513de18bfabc6e4995ea52d3d2bc891f9a5ed724e4255507a6409",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "cc26a2dd79ffdca8d1f237e05ceb6eb8da0adb1b1c38d13f2795e4077f409b58",
+    "translation_sha256": "148cb07a70b986dcad3ce2036031ff11fe952d6a4b343fc5902a64204c4722c6"
+  }
+}

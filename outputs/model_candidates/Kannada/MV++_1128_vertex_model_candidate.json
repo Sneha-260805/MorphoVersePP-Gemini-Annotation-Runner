@@ -1,0 +1,255 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional iconographic representation of the Hindu Divine Mother (Durga/Devi) standing majestically",
+          "A stylized, cosmic maternal figure encompassing the earth and stars"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "An epithet of the Divine Mother (Goddess) in Hindu tradition, literally meaning 'Mother of the Universe'.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic mortal mother figure",
+          "A Western personification of Mother Nature (Gaia) lacking Hindu iconographic elements"
+        ],
+        "preserved": true,
+        "romanization": "Jagadambe",
+        "source_span_original": "ಜಗದಂಬೆ",
+        "source_span_translation": "Earth Mother",
+        "stanza_index": 1,
+        "term": "ಜಗದಂಬೆ",
+        "translation_note": "Translated as 'Earth Mother', which captures the literal meaning of 'Mother of the Universe' but shifts the specific Hindu theological resonance of the divine feminine epithet Jagadamba.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A maternal divine figure",
+          "often depicted with multiple arms or in a powerful, cosmic stance",
+          "associated with cosmic order and battle against chaos"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "reverence and awe to spiritual elevation and joy",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'ಕಾಲುಚುಟುಕೆ' (kaaluchutuke) as 'footstep' simplifies the specific physical and rhythmic nuance of the original Kannada compound.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The cosmic order, rhythm, and unfolding of human existence governed by the divine mother.",
+            "acceptable_visual_variants": [
+              "A series of glowing, rhythmic ripples spreading out from a divine footstep",
+              "A soft, undulating wave of light weaving through a landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "rhythm/tempo of life",
+            "literalization_risk": "Depicting a literal musical sheet or metronome next to a person, which misses the cosmic, existential scale of the rhythm.",
+            "metaphor_mapping": {
+              "tenor_concept": "human existence",
+              "transferred_attributes": [
+                "order",
+                "tempo",
+                "structured movement"
+              ],
+              "vehicle_concept": "music/dance rhythm"
+            },
+            "source_span_original": "ಬಾಳಿಗೆ ಲಯ",
+            "source_span_translation": "rhythm of life",
+            "source_term": "ಬಾಳಿಗೆ ಲಯ",
+            "tenor": "the progression and order of human existence",
+            "vehicle": "musical rhythm or tempo (laya)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a subtle, flowing wave of light or a rhythmic pattern of footsteps echoing across a landscape to suggest cosmic order."
+          },
+          {
+            "abstract_meaning": "An immense, overwhelming depth of conflict or struggle, comparable to a vast ocean.",
+            "acceptable_visual_variants": [
+              "A vast, swirling sea of dust and shadows rising from a battlefield",
+              "A wide, sweeping view of a conflict that blends into the horizon like a turbulent ocean"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "an ocean within the battle",
+            "literalization_risk": "Depicting a literal body of water in the middle of soldiers fighting, which looks like a geographical anomaly rather than a metaphor for scale.",
+            "metaphor_mapping": {
+              "tenor_concept": "battle/conflict",
+              "transferred_attributes": [
+                "vastness",
+                "overwhelming depth",
+                "turbulent waves"
+              ],
+              "vehicle_concept": "ocean"
+            },
+            "source_span_original": "ಸಮರದೊಳಗೊಂದು ಸಾಗರ",
+            "source_span_translation": "A sea within the battle",
+            "source_term": "ಸಮರದೊಳಗೊಂದು ಸಾಗರ",
+            "tenor": "the immense scale and depth of conflict/battle (samara)",
+            "vehicle": "a vast ocean (sagara)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a battlefield where the sheer mass of dust, movement, or shields resembles the undulating, vast waves of a dark sea."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಜಗದಂಬೆ' (Jagadambe) as 'Earth Mother' simplifies the cosmic and maternal divinity associated with the Sanskrit-derived title for the Mother of the Universe.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific term 'ಕಾಲುಚುಟುಕೆ' (kaaluchutuke), which suggests a light tap, pinch, or quick movement of the foot, is generalized to 'footstep' in English, losing its precise physical nuance.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Kannada word 'ಲಯ' (laya) carries deep musical and cosmic connotations of rhythm, tempo, and dissolution/absorption, which is only partially captured by the English 'rhythm'.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The compound 'ಜೀವ-ಕಾಯ್ಕೆಯನ್ನು' (jeeva-kaaykeyannu) carries a deep sense of life's dedicated labor or duty, which is simplified to 'life's toil' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The physical labor, struggles, and daily efforts of living.",
+            "acceptable_visual_variants": [
+              "A figure walking up a steep hill carrying a symbolic burden",
+              "A person looking upward as a heavy weight is lifted from their shoulders by light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "life-toil / life-labor",
+            "literalization_risk": "Depicting literal heavy tools or chains, which might overly narrow the existential scope of life's general struggles.",
+            "metaphor_mapping": {
+              "tenor_concept": "human existence",
+              "transferred_attributes": [
+                "effort",
+                "burden",
+                "weariness"
+              ],
+              "vehicle_concept": "manual labor"
+            },
+            "source_span_original": "ಜೀವ-ಕಾಯ್ಕೆಯನ್ನು",
+            "source_span_translation": "life’s toil",
+            "source_term": "ಜೀವ-ಕಾಯ್ಕೆಯನ್ನು",
+            "tenor": "the struggles and efforts of human existence",
+            "vehicle": "physical labor or manual work",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure carrying a heavy, glowing burden or walking up a steep path, being gently uplifted by a divine presence."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The compound 'ಜೀವ-ಕಾಯ್ಕೆಯನ್ನು' (jeeva-kaaykeyannu) combines life with toil/labor/body-exertion, which is flattened to 'life's toil' in English, losing the physical resonance of 'kaayaka' (body/work).",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The second-person singular pronoun 'ನೀನು' (neenu) and the corresponding verb form 'ನಿಲ್ಲಿಸುತ್ತೀಯೆ' (nillisuttiye) carry an intimate, direct address that is lost in the grammatically neutral English 'you'.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The cosmic power and uplifting grace of the Earth Mother"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಜಗದಂಬೆ, ನಿನ್ನ ಕಾಲುಚುಟುಕೆ,  \nಏನೆಂಬ ಬಾಳಿಗೆ ಲಯ,  \nನಿನ್ನ ಹೆಜ್ಜೆಗೆ ತುಂಡಾದನು,  \nಸಮರದೊಳಗೊಂದು ಸಾಗರ.  \n\nನೀನು ಉನ್ನತ ನಗುಚಿವ,  \nನಿನ್ನ ಶಕ್ತಿಯ ಉಲ್ಲಾಸ,  \nನೀನು ಜೀವ-ಕಾಯ್ಕೆಯನ್ನು,  \nಮೇಲೆ ನಿಲ್ಲಿಸುತ್ತೀಯೆ.",
+  "poem_id": "MV++_1128",
+  "poem_title": "Jagadamba",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "35485a22ae4212c5d691d1c286a676b25d39ebc6e58678f565f17c876981842e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1128.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Earth Mother, at your footstep,  \nWhat rhythm of life unfolds,  \nIn your step, a fragment,  \nA sea within the battle.  \n\nYou are the highest delight,  \nThe joy of your power,  \nYou uplift life’s toil,  \nYou stand above it all.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:00:43.156494+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0dc67e4f42b57005fc4175a166515cb4f1f724b06b3b73ffe9b46c79043a1e78",
+        "response_hash": "ef4a0a8050e29466d5f10c08d2ff9f5bc9e919aaf03c4959ca9861e5cd9b8ca2"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "39ac84f091628c19f6b9e0d172a68798c0345bbcdbdf210fd5a4c63910a937b7",
+        "response_hash": "e53709504d96f97afe4b22f0885082b4809bbe46a2b5de892ad983c71c34f9e7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "602554598a8bd970845ac226cde79d709b342366d9bdc10dfd1b5409b42180ae",
+        "response_hash": "fca36bef955cc3f94be2aaf961a7e507485e096841b1951fbdba62208d1407f9",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4903b1bb29aba6756e4f25d549c63276e9bc2e7fae4b8e2750b89bf3dddbab11",
+        "response_hash": "ee7427f9a6bae54d47c7a5d011ecf90eb9070bc80dfbe3eed0d00d6079cb2106",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "976ba3cd5394771071bc398f785df63c9cab28836404478e82e1534b413970e4",
+        "response_hash": "f7be098078dbe8842abadf3880aa241b850f1aa313d80588448c054d84c24244",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fc6a034c8bc2a6febc603bdc604d8e417925d781c3c326f7d62f74b47b73875d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "705a5ffe6e64856305a4c4b33d4f3ae8017817fb704fbf23b421f6f6ddf9953e",
+    "translation_sha256": "5bee42a4da77295144f5026413a0b3c9cbc7a0bab240f577406c3268f487ea16"
+  }
+}

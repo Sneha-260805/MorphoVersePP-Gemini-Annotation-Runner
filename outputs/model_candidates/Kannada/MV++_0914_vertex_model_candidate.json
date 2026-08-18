@@ -1,0 +1,299 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "tender longing to nostalgic remembrance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, though the sensory richness of Kannada compounds like 'preetiya gandha' (scent of love) and 'belakina chilume' (spring/fountain of light) is slightly flattened into standard English phrases.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The comforting, pleasant, and lingering quality of the beloved's words.",
+            "acceptable_visual_variants": [
+              "A person speaking with a warm, gentle expression, surrounded by soft, warm-colored ambient light.",
+              "A stylized scene where spoken words are represented by delicate, floating flower petals."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "There was a fragrance of love",
+            "literalization_risk": "Depicting physical perfume bottles or visible scent clouds coming out of a mouth would look comical and miss the emotional warmth.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional warmth",
+              "transferred_attributes": [
+                "pleasantness",
+                "lingering presence",
+                "invisible beauty"
+              ],
+              "vehicle_concept": "fragrance"
+            },
+            "source_span_original": "ಪ್ರೀತಿಯ ಗಂಧವಿತ್ತು",
+            "source_span_translation": "The scent of love was",
+            "source_term": "ಪ್ರೀತಿಯ ಗಂಧವಿತ್ತು",
+            "tenor": "the comforting quality of the beloved's words",
+            "vehicle": "fragrance / scent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, soft-focus scene of two people talking, with gentle, warm-toned light or subtle floral motifs in the background to suggest a pleasant atmosphere."
+          },
+          {
+            "abstract_meaning": "The radiant, joyful, and life-giving quality of the beloved's smile.",
+            "acceptable_visual_variants": [
+              "A close-up of a smiling face with sparkling, bright eyes and warm light reflecting on their features.",
+              "A stylized illustration of a person smiling, with soft rays of light gently emanating from their silhouette."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "There was a spring/fountain of light",
+            "literalization_risk": "Showing a literal water fountain shooting beams of light out of a person's mouth would look bizarre and unnatural.",
+            "metaphor_mapping": {
+              "tenor_concept": "radiant smile",
+              "transferred_attributes": [
+                "brightness",
+                "abundance",
+                "joyfulness",
+                "vitality"
+              ],
+              "vehicle_concept": "fountain of light"
+            },
+            "source_span_original": "ಬೆಳಕಿನ ಚಿಲುಮೆಯಿತ್ತು",
+            "source_span_translation": "A sparkle of light",
+            "source_term": "ಬೆಳಕಿನ ಚಿಲುಮೆಯಿತ್ತು",
+            "tenor": "the beloved's joyful smile",
+            "vehicle": "a spring or fountain of light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the person's face with a bright, genuine smile, enhanced by a subtle, natural lens flare or soft, radiant backlighting."
+          },
+          {
+            "abstract_meaning": "Living under the protective, comforting, and nurturing care of the beloved's love.",
+            "acceptable_visual_variants": [
+              "A person sitting comfortably under a leafy canopy, looking relaxed and safe.",
+              "Two figures walking together under a shared umbrella or canopy in a gentle, warm environment."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "in the shade of love",
+            "literalization_risk": "Showing a dark, literal shadow cast over a person might look ominous or gloomy, which contradicts the comforting meaning of love's shade.",
+            "metaphor_mapping": {
+              "tenor_concept": "protective love",
+              "transferred_attributes": [
+                "comfort",
+                "protection from harsh elements",
+                "peace"
+              ],
+              "vehicle_concept": "shade of a tree"
+            },
+            "source_span_original": "ಪ್ರೀತಿಯ ನೆರಳಲ್ಲಿ",
+            "source_span_translation": "under the shade of your love",
+            "source_term": "ಪ್ರೀತಿಯ ನೆರಳಲ್ಲಿ",
+            "tenor": "protective and comforting love",
+            "vehicle": "shade / shadow",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a person resting peacefully under the canopy of a large, leafy tree, with soft sunlight filtering through the leaves to convey comfort and protection."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada word 'chilume' literally means a natural spring or fountain, which carries a sense of bubbling, continuous, and active flow. The translation 'sparkle' flattens this dynamic water-source metaphor into a static visual quality of light.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'kale' in Kannada carries connotations of luster, glow, grace, or artistic beauty. Translating it simply as 'color' misses the radiant, aesthetic, and vital glow implied by the original term.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The Kannada locative endings (-alli) and past continuous verb forms ('hudukuttidde', 'badukuttidde') create a rhythmic, rhyming flow of nostalgic reflection that is rendered as standard past tense in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved is seen as a distant, beautiful, guiding, and highly cherished presence.",
+            "acceptable_visual_variants": [
+              "A night landscape with one exceptionally bright star shining down on a solitary figure.",
+              "A double exposure style image blending a portrait of the beloved with a starry night sky."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "star of the sky",
+            "literalization_risk": "Drawing a literal star shape with a human face or replacing the person entirely with a star would lose the human romantic connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "cherished beloved",
+              "transferred_attributes": [
+                "beauty",
+                "distance",
+                "brightness",
+                "guidance"
+              ],
+              "vehicle_concept": "celestial star"
+            },
+            "source_span_original": "ಆಕಾಶದ ನಕ್ಷತ್ರ",
+            "source_span_translation": "a star in the sky",
+            "source_term": "ಆಕಾಶದ ನಕ್ಷತ್ರ",
+            "tenor": "the beloved's precious and guiding presence",
+            "vehicle": "a star in the night sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person looking up at a bright, beautiful star in a clear night sky, reflecting a sense of longing and admiration."
+          },
+          {
+            "abstract_meaning": "Being on the verge of realizing or entering the beloved's dreams and shared future.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person standing at a threshold, looking toward a bright, warm, and inviting horizon.",
+              "A stylized doorway opening into a starry sky or a beautiful garden, symbolizing entry into dreams."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "at the threshold/doorstep of dreams",
+            "literalization_risk": "A literal door floating in the clouds or a physical doorstep with 'dreams' written on it would look overly surreal and disjointed.",
+            "metaphor_mapping": {
+              "tenor_concept": "transition into dreams",
+              "transferred_attributes": [
+                "anticipation",
+                "entry",
+                "beginning of a new space"
+              ],
+              "vehicle_concept": "doorstep of a house"
+            },
+            "source_span_original": "ಕನಸುಗಳ ಹೊಸ್ತಿಲಲ್ಲಿ",
+            "source_span_translation": "At the doorstep of your dreams",
+            "source_term": "ಕನಸುಗಳ ಹೊಸ್ತಿಲಲ್ಲಿ",
+            "tenor": "the entry point or transition into a shared world of hopes and dreams",
+            "vehicle": "a doorstep or threshold",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure standing at an open doorway that looks out onto a beautiful, dreamlike, soft-focus landscape."
+          },
+          {
+            "abstract_meaning": "Seeking the joy, happiness, and beautiful experiences of life.",
+            "acceptable_visual_variants": [
+              "A person with a joyful expression, surrounded by warm sunlight and natural beauty.",
+              "A warm, cozy scene of a person reflecting happily, conveying inner peace and satisfaction."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "the sweetness of life",
+            "literalization_risk": "Depicting literal sweets, sugar, or honey would completely miss the abstract concept of life's happiness and look like a culinary scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful life experiences",
+              "transferred_attributes": [
+                "pleasantness",
+                "delight",
+                "satisfaction"
+              ],
+              "vehicle_concept": "sweet taste"
+            },
+            "source_span_original": "ಬಾಳ ಸವಿಯನ್ನು",
+            "source_span_translation": "the sweetness of life",
+            "source_term": "ಬಾಳ ಸವಿಯನ್ನು",
+            "tenor": "happiness and fulfillment in life",
+            "vehicle": "sweetness (taste)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a person engaged in a simple, joyful life moment, such as laughing, walking in nature, or enjoying a peaceful moment, capturing the feeling of happiness."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'To me, you were a star' uses the past tense ('were'), whereas the Kannada original 'neenendenage' (neenu + endu + enage) implies a timeless or ongoing state ('you are always to me' or 'you are forever to me'), shifting the temporal framing of the relationship.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring warmth and comfort found in the memory of a beloved's past presence"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಪ್ರೀತಿಯ ಗಂಧವಿತ್ತು ನಿನ್ನ ಮಾತುಗಳಲ್ಲಿ,  \nಬೆಳಕಿನ ಚಿಲುಮೆಯಿತ್ತು ನಿನ್ನ ನಗುವಿನಲ್ಲಿ,  \nಬಾನಿನ ಕಳೆ ಇತ್ತು ನಿನ್ನ ಕನಸುಗಳಲ್ಲಿ,  \nನಿನ್ನ ಪ್ರೀತಿಯ ನೆರಳಲ್ಲಿ ನಾನು ಬಾಳುತಿದ್ದೆ.  \n\nನೀನೆಂದೆನಗೆ ಆಕಾಶದ ನಕ್ಷತ್ರ,  \nನಿನ್ನ ಕನಸುಗಳ ಹೊಸ್ತಿಲಲ್ಲಿ,  \nಬಾಳ ಸವಿಯನ್ನು ಹುಡುಕುತ್ತಿದ್ದೆ,  \nನಿನ್ನ ನೆನಪುಗಳಲಿ ಬದುಕುತ್ತಿದ್ದೆ.",
+  "poem_id": "MV++_0914",
+  "poem_title": "Preetiya Gandha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3a80245dd02f5e44fd428faedb77714c37e5d2baacf56e6442d0b8c4102d2df9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0914.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The scent of love was in your words,  \nA sparkle of light in your smile,  \nThe color of the sky in your dreams,  \nI lived under the shade of your love.\n\nTo me, you were a star in the sky,  \nAt the doorstep of your dreams,  \nI sought the sweetness of life,  \nLiving within your memories.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:31:04.602823+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "440b6594874b231094048cc59696853fc510a68118065f8fde569edbc4c6a612",
+        "response_hash": "9203de78e67b7dd759581b67beba0b7f9fd97e8eb01712e6ec1b979f886c3cbc"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "86564bde6120bf4803943cfde36f67d1f8b3c8a2097fb9106de92712ace92486",
+        "response_hash": "f9e64d99debacad2af11f98bb28887808f28ae92907c33a8d0e58178485f3942",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "184cb2328bc964d7694d2beb866e2bef281013fcf0579a53753e2af24b250f9f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b6940aa9bc217bbdd6b0afee74d0af290b0bf9885c944022a219012675f513d",
+        "response_hash": "b3685966f616a2c88ff92170631414513cc01badf3c29f4bfbb0b63bda09c418",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "35c382ac68d1ac8abd073b985b6b86227c5621ef91c73ad63ffac4511197cb0f",
+        "response_hash": "e78ef955c1ba34241fdea087aa24876fbb9ae02e316cac6e179c3e7567967538",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4e22eb588a48f9a2c1306430cc822f1b1959336565b5198f9795e8ce48278a9a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "67a3cedd408dde2bacc222e1e3e50c706fb8a63f60f85d7f4edfc1f8e7b1d128",
+    "translation_sha256": "bdc7525364d9e70043c6629697c686d1e302092ec2480d8a8af5cbb07600eff7"
+  }
+}

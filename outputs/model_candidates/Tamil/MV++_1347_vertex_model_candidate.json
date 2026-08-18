@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet joy and warmth",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation flattens the agglutinative warmth of the Tamil verb endings and the specific nuance of 'sutta' (which carries a sense of burning or branding, here used for intense shining) into the simpler English 'shone'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's smile radiates a warm, bright, and illuminating energy like a glowing light.",
+            "acceptable_visual_variants": [
+              "A warm golden light casting a soft glow on a nearby wall as a person smiles",
+              "A gentle, warm aura of light surrounding a smiling face"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "burned/shone in your smile",
+            "literalization_risk": "Depicting a literal fire or physical burning on a person's face would look painful or destructive rather than warm and loving.",
+            "metaphor_mapping": {
+              "tenor_concept": "smile",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "radiance"
+              ],
+              "vehicle_concept": "light/fire"
+            },
+            "source_span_original": "உன் சிரிப்பில் சுட்ட",
+            "source_span_translation": "Shone in your smile",
+            "source_term": "உன் சிரிப்பில் சுட்ட",
+            "tenor": "the beloved's smile",
+            "vehicle": "a burning or shining light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person smiling with a soft, warm golden glow radiating from their face, illuminating the surrounding space."
+          },
+          {
+            "abstract_meaning": "The speaker's inner emotional self or heart is conceptualized as a physical room with walls where feelings are projected.",
+            "acceptable_visual_variants": [
+              "A stylized, abstract heart silhouette acting as a canvas for warm light",
+              "A cozy, dimly lit room where a warm golden light reflects on the wall"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "on the wall of my heart",
+            "literalization_risk": "Showing a literal anatomical heart with brick or plaster walls would look grotesque and medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional heart",
+              "transferred_attributes": [
+                "enclosure",
+                "surface for projection",
+                "interiority"
+              ],
+              "vehicle_concept": "architectural walls"
+            },
+            "source_span_original": "என் இதயத்தின் சுவரில்",
+            "source_span_translation": "On the walls of my heart",
+            "source_term": "என் இதயத்தின் சுவரில்",
+            "tenor": "the speaker's inner emotional capacity/heart",
+            "vehicle": "the walls of a room",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a warm, soft interior space or a stylized, glowing heart shape whose surface catches the warm golden light of the smile."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'sutta' (சுட்ட) as 'shone', which loses the literal, intense meaning of 'burnt' or 'scorched', softening the fiery, passionate impact of the original Tamil verb.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative locative case marker '-il' in 'siriyappil' (சிரிப்பில்) and 'suvaril' (சுவரில்) is flattened into simple English prepositions ('in', 'on'), losing the tight grammatical fusion of the original Tamil.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The illuminating and warming power of a loved one's smile on the speaker's heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "மஞ்சள் ஒளி,  \nஉன் சிரிப்பில் சுட்ட,  \nஎன் இதயத்தின் சுவரில்,  \nஅன்பாக மினுக்கிறது!",
+  "poem_id": "MV++_1347",
+  "poem_title": "Manjal Oli",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2964bd059e96a77e94f8a317aa7dc25558adf6d54f9ec5e0fd075ef6cc6d0fed",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1347.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Yellow light,  \nShone in your smile,  \nOn the walls of my heart,  \nIt glows with love!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:23:52.126888+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f51accc001214375311739b4177a731254b454b12ed4fb13d1051bf7eec022d1",
+        "response_hash": "c90698f36404a1707ce18aeff9af7072b906cee2ba039e6515920ea52c6fc0af"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b6df65aa890eb163350236054921f90feea1c6eef8a0c10bfc1e98e676b94633",
+        "response_hash": "bca8263b4e9546927bdae3652278cc5f446ea54387ac487b8cf391196158b7d6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c1028a261d63fd1ec13c7a2e084d1c73b427379bda43d67c23d87b1c7d818894",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a753eb9d0fd2052b4b8e4beb3357237ba6ec0c5c8a9471b84e7ee73d3ac6a7f3",
+        "response_hash": "0c14ca7a36174145c6f8056b3887f76290ff96f8951e4e41fd69eb7b810f5aaa",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ff027537274664b957c9e8f20a3a47f45811a6743cca1b93ffaa174333e122eb",
+        "response_hash": "a54c445e74a3869da8e83a28960f22be231404ae4e96959864a59472aa41ac6a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7fff74877cd3954dac775eb8a9dd181e55e09130a5c71458f07efc9f67681be2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c69b8804279ed922aa252c90a0f9f7452adc3f357655d5c0f74f3db052411b70",
+    "translation_sha256": "63a9ec3377079db7e448cf6a3884f2edd12858326e8dacc5332c0cfd10879f82"
+  }
+}

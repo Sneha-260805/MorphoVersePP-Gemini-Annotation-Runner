@@ -1,0 +1,199 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "peace and quiet devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sound of the river's flowing water is perceived as a speaking voice carrying a message.",
+            "acceptable_visual_variants": [
+              "A close-up of water swirling around river stones, suggesting movement and sound.",
+              "A wide shot of a winding river flowing through a peaceful landscape under a soft sky."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "your message/voice flows",
+            "literalization_risk": "Showing a literal human mouth speaking from the water, which would look like a fantasy monster rather than a poetic appreciation of nature.",
+            "metaphor_mapping": {
+              "tenor_concept": "river sounds",
+              "transferred_attributes": [
+                "carrying meaning",
+                "communicating",
+                "flowing continuously"
+              ],
+              "vehicle_concept": "human speech"
+            },
+            "source_span_original": "তুঁতৰ বাণী বহে",
+            "source_span_translation": "your voice flows",
+            "source_term": "তুঁতৰ বাণী বহে",
+            "tenor": "the sound of flowing river water",
+            "vehicle": "a human voice or spoken message",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene river with gentle ripples and waves, perhaps with soft light reflecting off the water to suggest a communicative or musical quality."
+          },
+          {
+            "abstract_meaning": "The river's physical course is conceptualized as a path that brings or embodies peace.",
+            "acceptable_visual_variants": [
+              "A river flowing smoothly through a quiet forest.",
+              "A calm river reflecting a clear, peaceful sky at dawn."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "path of peace",
+            "literalization_risk": "Drawing a literal road sign or a paved highway labeled 'Peace' next to the river, which ruins the natural poetic metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "a state of peace and tranquility",
+              "transferred_attributes": [
+                "direction",
+                "smoothness",
+                "leading to a destination"
+              ],
+              "vehicle_concept": "a physical road or path"
+            },
+            "source_span_original": "শান্তিৰ বাটে",
+            "source_span_translation": "path of peace",
+            "source_term": "শান্তিৰ বাটে",
+            "tenor": "the peaceful course of the river",
+            "vehicle": "a physical path or road",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Render a smooth, unobstructed river channel flowing through a calm, undisturbed natural landscape."
+          },
+          {
+            "abstract_meaning": "The river's sound resonates deeply within the speaker's heart and soul, leaving a permanent emotional and spiritual impression over time.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person meditating by a calm river at sunset.",
+              "A close-up of a person's peaceful face as they listen to the sound of flowing water."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4-L5",
+            "literal_meaning": "your melody builds/decorates in my chest age after age",
+            "literalization_risk": "Showing a literal musical instrument or musical notes physically inside a human chest cavity, which would look bizarre and anatomically disturbing.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional and spiritual resonance in the human soul",
+              "transferred_attributes": [
+                "harmony",
+                "permanence",
+                "deep internal resonance"
+              ],
+              "vehicle_concept": "a musical melody playing inside a chamber"
+            },
+            "source_span_original": "মোৰ বুকুত তোমাৰ সুৰ\nসাজে যুগে যুগে",
+            "source_span_translation": "In my heart, your melody\nPlays through the ages",
+            "source_term": "মোৰ বুকুত তোমাৰ সুৰ / সাজে যুগে যুগে",
+            "tenor": "the deep, lasting emotional resonance of the river's sound in the speaker's soul",
+            "vehicle": "a melody being built or played inside a physical chest",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person standing by the riverbank in a contemplative pose with their hand over their heart, looking at the water, with subtle visual cues like soft light connecting the river to the person."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'সাজে' (saje) as 'Plays' loses the literal sense of 'saje' which means to dress, decorate, or arrange, which adds a physical, creative dimension to how the melody settles in the heart.",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and emphatic quality of the reduplicated phrase 'যুগে যুগে' (yuge yuge) is flattened to the standard English temporal phrase 'through the ages'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The eternal, soothing connection between the human heart and the peaceful flow of nature's river."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].metaphor_spans[0].source_span_original",
+      "issue": "The source_span_original contains a typo 'তুঁতৰ' (with a candrabindu and ta) which does not match the original poem text 'তুমাৰ' (your) or 'তোমাৰ' (your) as represented in the poem's actual line L2 'নদী, তুঁতৰ বাণী বহে' (where the original text has 'তুঁতৰ' but the translation interprets it as 'your' / 'তোমাৰ'). However, more critically, the source_span_original contains 'তুঁতৰ' which is a typo in the source text itself for 'তোমাৰ' (tomar), but it is consistent with the provided untrusted source text. No action needed if the source text is treated as canonical.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Assamese",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "নদী\nনদী, তুঁতৰ বাণী বহে\nপ্ৰবাহিত শান্তিৰ বাটে,\nমোৰ বুকুত তোমাৰ সুৰ\nসাজে যুগে যুগে।",
+  "poem_id": "MV++_0003",
+  "poem_title": "Nadi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "da72b0348277019ee68bf072333223795ccf7b3da76722041194c9462e9d7466",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Assamese/MV++_0003.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The River\nO River, your voice flows\nAlong the path of peace,\nIn my heart, your melody\nPlays through the ages.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:26:36.821228+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "743d78f443a20ae05fdba649910b3384257f06f2e9dcf8387ef7a19c848af8ed",
+        "response_hash": "a33b2c1730065d476abc0d7035aa6375dd32f3f9632753d6e898c17bf8013e41",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "57307aa9b4a74046f543efb7734ba43e5d47b86fada28585735773424953e9c1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8762092725183d1ae236052087564ba47beb8c4fb43bb0222fd1e0c3b847f636",
+        "response_hash": "ef5e7dceb422c44f24031842b35d24f6f71851730eb8681e3d7785a1f9c573db",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "78e2046617ac53c75d91d479342568fc56fd3cc77591711762c505b346caddbd",
+        "response_hash": "02a237cf1a4ec0e5ff74ae6750ba0a2b10cbad2335325f94e8588636bf43cf81",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc757848f7b421584e8d8d6f884c02425b5515bfbab60277a51c1c4774ea1716",
+        "response_hash": "91437abadecec62bdcb4efd618b3c29bb58e16ac062f1537d3c229cf2cd72d57",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ed2fd2f458a5ddf59e263b2e74164ab20c1dbe00e2de0ba0228b03a0ebeb0088",
+    "translation_sha256": "1ff87c19fbb7a95b2d322b7b31860269081976699b245dcef3145651a61811c7"
+  }
+}

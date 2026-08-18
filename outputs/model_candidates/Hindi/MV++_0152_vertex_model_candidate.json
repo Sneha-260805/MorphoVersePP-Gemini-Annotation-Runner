@@ -1,0 +1,275 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "admiration and gratitude for a resilient, comforting presence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation uses 'fragrance' as a verb ('You fragrance like a flower'), which is grammatically awkward in English compared to the natural Hindi verb 'mahakti ho' (you spread fragrance/smell sweet).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The addressee has a pleasant, comforting, and beautiful presence that spreads joy to those around them.",
+            "acceptable_visual_variants": [
+              "A woman standing in a garden with blooming flowers around her",
+              "A close-up of a smiling face with soft-focus petals drifting in the foreground"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "You emit a sweet fragrance exactly like a flower does.",
+            "literalization_risk": "Showing a person literally emitting visible clouds of perfume or pollen like a plant, which looks comical or biological rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved person's presence",
+              "transferred_attributes": [
+                "sweetness",
+                "spreading joy",
+                "gentle beauty"
+              ],
+              "vehicle_concept": "fragrant flower"
+            },
+            "source_span_original": "फूल की तरह महकती हो तुम",
+            "source_span_translation": "You fragrance like a flower",
+            "source_term": "फूल की तरह महकती हो तुम",
+            "tenor": "the addressee's beautiful and comforting presence",
+            "vehicle": "a fragrant flower spreading its scent",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a graceful person surrounded by soft, floating flower petals or a gentle, warm breeze carrying subtle floral elements."
+          },
+          {
+            "abstract_meaning": "The addressee brings hope, warmth, and a fresh beginning to the speaker's life.",
+            "acceptable_visual_variants": [
+              "A soft golden sunrise background casting a warm silhouette",
+              "A gentle beam of morning sun lighting up a dark room"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "Just like the very first ray of light at dawn.",
+            "literalization_risk": "Showing a literal laser beam of light shooting from the sky directly onto a person's head.",
+            "metaphor_mapping": {
+              "tenor_concept": "hopeful presence of the beloved",
+              "transferred_attributes": [
+                "warmth",
+                "dispelling darkness",
+                "fresh beginning"
+              ],
+              "vehicle_concept": "first morning ray"
+            },
+            "source_span_original": "सुबह की पहली किरण जैसी",
+            "source_span_translation": "Like the first ray of morning light",
+            "source_term": "सुबह की पहली किरण जैसी",
+            "tenor": "the addressee's hopeful and bright nature",
+            "vehicle": "the first ray of morning sunlight",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use warm, golden morning light filtering through a window or trees, illuminating the subject with a soft glow."
+          },
+          {
+            "abstract_meaning": "The addressee has created a beautiful, joyful environment and life for the speaker.",
+            "acceptable_visual_variants": [
+              "A cozy room filled with warm lights, books, and plants",
+              "A beautifully decorated outdoor canopy under a starry sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "You have physically decorated a world made out of happiness.",
+            "literalization_risk": "Showing a person hanging physical ornaments or decorations onto a globe or abstract sphere labeled 'happiness'.",
+            "metaphor_mapping": {
+              "tenor_concept": "cultivating happiness in life",
+              "transferred_attributes": [
+                "deliberate arrangement",
+                "beauty",
+                "completeness"
+              ],
+              "vehicle_concept": "decorating a physical space"
+            },
+            "source_span_original": "खुशियों का जहां तुमने सजाया है",
+            "source_span_translation": "You've adorned a world of delight",
+            "source_term": "खुशियों का जहां तुमने सजाया है",
+            "tenor": "creating a happy and harmonious life together",
+            "vehicle": "decorating or arranging a physical world/room",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a warm, beautifully arranged domestic space or a vibrant, cozy garden setting that feels safe and joyful."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses 'fragrance' as a verb ('You fragrance like a flower'), which is grammatically awkward in English compared to the natural Hindi verb 'महकती' (mahakti, meaning 'to spread fragrance' or 'to smell sweet').",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Hindi word 'जहां' (jahan, meaning 'world' or 'universe') is translated as 'delight' to force a rhyme with 'light', which alters the literal meaning of creating/decorating an entire world of happiness ('खुशियों का जहां').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'har ehsaas' (every feeling/perception) as 'every feeling to life' slightly shifts the abstract sense of making someone feel or experience every emotion deeply.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "All the joy, happiness, and pleasant experiences of life.",
+            "acceptable_visual_variants": [
+              "A joyful expression of laughter shared between people",
+              "A serene, content smile in a peaceful setting"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Every sugary taste of life.",
+            "literalization_risk": "Depicting literal sugar, honey, or candy, which misses the emotional depth of life's pleasant moments.",
+            "metaphor_mapping": {
+              "tenor_concept": "happiness and joy",
+              "transferred_attributes": [
+                "pleasantness",
+                "delight",
+                "satisfaction"
+              ],
+              "vehicle_concept": "sweet taste"
+            },
+            "source_span_original": "जीवन की हर मिठास",
+            "source_span_translation": "The sweetness of every life",
+            "source_term": "जीवन की हर मिठास",
+            "tenor": "joy and pleasantness of life",
+            "vehicle": "sweetness (taste)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the warm, genuine smile of the person, perhaps surrounded by soft, warm lighting that evokes a sweet, comforting mood."
+          },
+          {
+            "abstract_meaning": "Using the vibrant, imaginative, and hopeful qualities of dreams to enrich reality.",
+            "acceptable_visual_variants": [
+              "A soft, watercolor-like wash of warm colors in the background",
+              "A starry night sky blending into warm dawn colors"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Using the physical colors belonging to dreams.",
+            "literalization_risk": "Showing literal paint cans or paintbrushes painting abstract dream bubbles.",
+            "metaphor_mapping": {
+              "tenor_concept": "vividness of dreams and hopes",
+              "transferred_attributes": [
+                "vibrancy",
+                "variety",
+                "beauty"
+              ],
+              "vehicle_concept": "colorful paint or light"
+            },
+            "source_span_original": "ख्वाबों की रंगीनियों से",
+            "source_span_translation": "With the colors of dreams",
+            "source_term": "ख्वाबों की रंगीनियों से",
+            "tenor": "imaginative and hopeful qualities of dreams",
+            "vehicle": "vibrant colors/paints",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Incorporate a surreal, vibrant color palette (like pastel pinks, purples, and golds) blending softly into the background of the scene."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'जीवन की हर मिठास' as 'The sweetness of every life', which shifts the meaning; 'जीवन की' refers to 'life's' or 'of life' in a general sense, meaning 'all the sweetness of life', rather than the sweetness of 'every individual life'.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The poetic phrase 'तुमने किया है हर एहसास' (literally 'you have made/awakened every feeling/perception') is translated as 'You've brought every feeling to life' to rhyme with 'life', which introduces a slightly different metaphor of resurrection or animation not explicitly present in 'एहसास' (ehsaas).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet strength and beauty of a beloved person who brings joy and color to life despite carrying their own hidden pain."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "फूल की तरह महकती हो तुम,  \nसुबह की पहली किरण जैसी।  \nहर दर्द को छुपाए हुए,  \nखुशियों का जहां तुमने सजाया है।  \n\nतुम्हारी मुस्कान में बसी है,  \nजीवन की हर मिठास।  \nख्वाबों की रंगीनियों से,  \nतुमने किया है हर एहसास।",
+  "poem_id": "MV++_0152",
+  "poem_title": "Phool Ki Tarah",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "abcfca886300ca937dc262724726063ab1c6055f29e57aa94c9c8b38c5ab55a2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0152.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "You fragrance like a flower,  \nLike the first ray of morning light.  \nHiding every pain within,  \nYou've adorned a world of delight.\n\nIn your smile resides,  \nThe sweetness of every life.  \nWith the colors of dreams,  \nYou've brought every feeling to life.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:52:35.788271+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "556d750c0e88ec8b40a45f84f29b86be9f16921b9affa736f93eb08b8ecf15f6",
+        "response_hash": "a31c710243d7dc2b5bf0698867b64f05e8c5c26557ce476bae08d70ef154c1ba"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8dfd020c6f48c856aa0f0aec3bc7111bd150f507c27e229062b74cd5c0274d46",
+        "response_hash": "2b0708cea15c784e0dd88a5ef859f3a63c0c88f986a1addf1c42866e30f5b6f2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e00a6e834c683a99704f2038e1a7ba591f299d2f72113a251ddf46211579483",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "86c61c992d872d463bb95188797501becf4fbb9d6e9a29b2584465e73f148d4f",
+        "response_hash": "e3d36e7a9eb682b9313edb8f15c0d861d7de35a6f1862ec60142fdb92beb8dc6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "43651e3a927fe5537058f3e08cc41d787848f3369e03566d66f4a29bb492b7e2",
+        "response_hash": "d7013afd158097ab5ea956db62124f07c00f57fdea4f8d20ab4286b8e62cc0c9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d6e46e517448ccd9eff112458b6e780a712746e9d6a12068070f44a91aece3a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "538900ec383e20e893cc5f02fb2d0a5b9f8fa7027793aca8f1d254abf0dcfdb2",
+    "translation_sha256": "8187781ba9f838182ff8628dceb84c7e7b954a6bb82d40725d141af090bf0fcc"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and hope in companionship",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation of 'ਖੇੜਾ' (khera) as 'challenge' in the final line shifts the tone; 'khera' literally means joy, bloom, or happiness, suggesting a joyful engagement or blooming with the world rather than merely confronting a challenge.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The protective, comforting, and stabilizing effect of having courage and determination during difficult times.",
+            "acceptable_visual_variants": [
+              "A traveler resting under a symbolic, glowing canopy of light in a desert",
+              "A person standing resiliently in a storm with a calm, protective space immediately surrounding them"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The shade or shadow cast by courage",
+            "literalization_risk": "An illustrator might literally draw a physical shadow cast by a personified figure of 'courage', which would look bizarre and miss the emotional sense of inner strength.",
+            "metaphor_mapping": {
+              "tenor_concept": "courage",
+              "transferred_attributes": [
+                "protection from harsh elements",
+                "comfort",
+                "safety"
+              ],
+              "vehicle_concept": "shade"
+            },
+            "source_span_original": "ਹੌਂਸਲਿਆਂ ਦੀ ਛਾਂਹ",
+            "source_span_translation": "shade of courage",
+            "source_term": "ਹੌਂਸਲਿਆਂ ਦੀ ਛਾਂਹ",
+            "tenor": "courage (which protects from life's hardships)",
+            "vehicle": "shade/shadow (which protects from the harsh heat of the sun)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person walking through a harsh, sun-drenched or difficult landscape, but enveloped in a cool, protective, glowing aura or a soft shadow that keeps them safe and calm."
+          },
+          {
+            "abstract_meaning": "Finding comfort, companionship, and a sense of shared existence in nature (specifically trees) rather than feeling isolated.",
+            "acceptable_visual_variants": [
+              "A person resting their hand gently on a large tree trunk as if greeting a friend",
+              "A path lined with majestic trees that arch over a traveler like a welcoming escort"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Trees acting as personal companions or friends",
+            "literalization_risk": "Drawing trees with literal human faces, hands, or cartoonish expressions, which would ruin the poetic, serene tone of the verse.",
+            "metaphor_mapping": {
+              "tenor_concept": "trees",
+              "transferred_attributes": [
+                "presence",
+                "comfort",
+                "companionship",
+                "silent support"
+              ],
+              "vehicle_concept": "human companions"
+            },
+            "source_span_original": "ਰੁੱਖਾਂ ਦੇ ਸਾਥੀ",
+            "source_span_translation": "trees as companions",
+            "source_term": "ਰੁੱਖਾਂ ਦੇ ਸਾਥੀ",
+            "tenor": "trees/nature",
+            "vehicle": "human companions/friends",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a person walking or sitting closely alongside tall, sturdy trees that seem to lean in slightly or frame the person protectively, suggesting a silent, peaceful relationship."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ਖੇੜਾ' (khera) as 'challenge' in L4 alters the original meaning. 'Khera' literally means joy, blooming, or happiness, so 'ਦੁਨੀਆ ਨਾਲ ਖੇੜਾ ਹੈ' conveys a joyful blooming or harmonious relationship with the world, which is lost in the translation's choice of 'confronting the world's challenge'.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The poetic rhythm and internal rhyme of 'ਛਾਂਹ' (shanh) in L2 and 'ਛਾਂਹੀਂ' (shanhin) in L3, which create a sonic echo of shade/shelter, are flattened in the English translation.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding strength and hope through companionship and nature to face life's challenges"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Punjabi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ਜੀਵਨ ਦੀ ਆਸ਼ਾ ਹੈ ਹਮਰਾਹੀ ਨਾਲ,\nਹੌਂਸਲਿਆਂ ਦੀ ਛਾਂਹ ਵਿੱਚ ਬਚ ਕੇ ਰਿਹਾ।\nਰੁੱਖਾਂ ਦੇ ਸਾਥੀ ਤੇ ਚੰਨ ਨਾਲ ਛਾਂਹੀਂ,\nਚੜ੍ਹਦੇ ਕਦਮਾਂ ਨਾਲ ਦੁਨੀਆ ਨਾਲ ਖੇੜਾ ਹੈ।",
+  "poem_id": "MV++_1210",
+  "poem_title": "Jeevan Ki Aasha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7089d99d5ba5b6addaefbc1206f542fa7174ebc77ae3d6306a3fa395b908ca99",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Punjabi/MV++_1210.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Hope of life lies with companionship,  \nProtected beneath the shade of courage.  \nWith trees as companions and moon’s shelter,  \nOur steps rise, confronting the world’s challenge.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:09:02.486188+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bb30c335f7b9f178d6becaf69b0a4b7cd38f9042fae20051445bfdb6b77339a9",
+        "response_hash": "dfc6a54373e97e6b8b1c53c8647afc096034e5fe07faaec554a4c8a6c8cdfa5c"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1599584fd72ddbd18c390d0e32f880a0e2fda8b99c8d335b7e2f82d2575c84a8",
+        "response_hash": "9aab3d9745e9f25e6cf610438ff9deae31c23c395330af0410b7101c42267955",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c6b0212266177fa467d7a8b29eb9f814639f86bc0c025784d70377115e0f821a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1b2a3941ab26835d004bb3fe47f1646d792f7d58ae382d16567f7f57d7443bcb",
+        "response_hash": "97d2ea58868a1020ab4a82e6d57e7d5c4d53dd58f549f698a32aa07ad4e03fcb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "921168a346a23d5bf6c671b55a9a7925be11d540ea74c8614aa26f02369c4002",
+        "response_hash": "bfbda984cca1e7c464db90ab84e80e5f5e8484e08b747fa5b469a71d351de452",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c71595e8ae622e6fb4e582c3f02b2f5743089a1ddf8418409fb6a2673b98cade",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1ff7d387ff0632e4a389d22df7be95ebb8daae75a0722bf24245c9f031835d8b",
+    "translation_sha256": "88ae53941eee620f2b4eee196769fcea3ec8cea1c15771195256a5430853adff"
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A classical anthropomorphic depiction of Mother India with national symbols",
+          "A symbolic maternal silhouette overlaid with the map of India"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Mother India, the personification of India as a mother goddess.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic Hindu goddess like Lakshmi or Durga without national symbols",
+          "A modern political figure"
+        ],
+        "preserved": true,
+        "romanization": "Bharata Maata",
+        "source_span_original": "భరత మాత",
+        "source_span_translation": "Bharata Mata",
+        "stanza_index": 1,
+        "term": "భరత మాత",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A maternal figure representing India, often depicted wearing a sari, holding the national flag, and accompanied by a lion."
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A portrait or statue of Mahatma Gandhi",
+          "A symbolic representation of his spinning wheel (charkha) and spectacles"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Mahatma Gandhi, the father of the Indian nation, referred to with the respectful suffix '-ji'.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic elderly Indian man in traditional dress",
+          "A different historical leader"
+        ],
+        "preserved": true,
+        "romanization": "Gandhiji",
+        "source_span_original": "గాంధీజీ",
+        "source_span_translation": null,
+        "stanza_index": 1,
+        "term": "గాంధీజీ",
+        "translation_note": "The translation omits the explicit mention of Gandhiji (Gandhi), translating only the general context of the struggle and Nehruji's values.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "An elderly Indian man with round spectacles, wearing a simple handspun cotton dhoti and shawl, holding a walking stick."
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A portrait of Jawaharlal Nehru in his signature attire",
+          "A symbolic representation of a rose on a Nehru jacket"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Jawaharlal Nehru, the first Prime Minister of independent India, referred to with the respectful suffix '-ji'.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic politician in western suit",
+          "A different Indian freedom fighter"
+        ],
+        "preserved": true,
+        "romanization": "Nehruji",
+        "source_span_original": "నెహ్రూజీ",
+        "source_span_translation": "Nehruji",
+        "stanza_index": 1,
+        "term": "నెహ్రూజీ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "An Indian statesman wearing a Nehru jacket with a red rose pinned to the lapel, and a Gandhi cap."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "reverence for historical sacrifice moving to active patriotic celebration and national pride",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation condenses several phrases, omitting the specific mention of Gandhiji's dreams ('గాంధీజీ కలలు కన్న సమాజం కోసం') and flattening the idiomatic Telugu expression for a visual feast ('కన్నుల పండుగగా') into 'festival of bright eyes'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The hard-won outcome or result of the sacrifices made by freedom fighters.",
+            "acceptable_visual_variants": [
+              "A flourishing green sapling growing from soil, symbolizing the growth of a free nation.",
+              "A symbolic scale balancing sacrifice and a bright, free future."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The fruit of sacrificial heroes",
+            "literalization_risk": "Showing actual edible fruit hanging from or offered by soldiers, which completely misses the historical and political concept of national independence.",
+            "metaphor_mapping": {
+              "tenor_concept": "result of human effort and sacrifice",
+              "transferred_attributes": [
+                "desirable outcome",
+                "result of long growth and cultivation"
+              ],
+              "vehicle_concept": "fruit of a plant"
+            },
+            "source_span_original": "త్యాగ వీరుల ఫలం",
+            "source_span_translation": "fruit of many sacrificial heroes",
+            "source_term": "త్యాగ వీరుల ఫలం",
+            "tenor": "the positive outcome of historical sacrifices (independence)",
+            "vehicle": "fruit (agricultural yield)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a symbolic representation of freedom, such as a rising sun or a flourishing green plant, alongside historical figures in a respectful, non-literal manner."
+          },
+          {
+            "abstract_meaning": "The personification of the Indian nation as a mother figure.",
+            "acceptable_visual_variants": [
+              "A classical artistic depiction of Mother India holding a flag, with broken chains at her feet.",
+              "An abstract silhouette of the Indian map transforming into a maternal figure."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "Mother India",
+            "literalization_risk": "Depicting a literal giant woman physically bound by metal chains, which can look cartoonish or overly literalized if not handled with artistic subtlety.",
+            "metaphor_mapping": {
+              "tenor_concept": "homeland",
+              "transferred_attributes": [
+                "nurturing",
+                "deserving of protection and respect",
+                "maternal bond"
+              ],
+              "vehicle_concept": "mother"
+            },
+            "source_span_original": "భరత మాత",
+            "source_span_translation": "Bharata Mata",
+            "source_term": "భరత మాత",
+            "tenor": "The nation of India",
+            "vehicle": "A mother figure",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a graceful, symbolic female figure representing the nation, breaking free from abstract shadows or broken chains."
+          },
+          {
+            "abstract_meaning": "The oppressive restrictions and lack of freedom under colonial rule.",
+            "acceptable_visual_variants": [
+              "Broken metal chain links falling through the air.",
+              "A shadow of chains dissolving into bright sunlight."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "chains of slavery/servitude",
+            "literalization_risk": "Depicting literal heavy iron chains binding people, which might look like a physical prison scene rather than a political metaphor for colonial rule.",
+            "metaphor_mapping": {
+              "tenor_concept": "political subjugation",
+              "transferred_attributes": [
+                "confinement",
+                "inability to move freely",
+                "painful restriction"
+              ],
+              "vehicle_concept": "physical chains"
+            },
+            "source_span_original": "దాస్య శృంకలాలకు",
+            "source_span_translation": "bonds of servitude",
+            "source_term": "దాస్య శృంకలాలకు",
+            "tenor": "colonial subjugation and political oppression",
+            "vehicle": "iron chains or shackles",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show broken metallic links or chains falling away into light, symbolizing liberation from political bondage."
+          },
+          {
+            "abstract_meaning": "A visually spectacular, delightful, and joyous celebration that is a feast for the eyes.",
+            "acceptable_visual_variants": [
+              "A crowd of people waving flags under colorful confetti.",
+              "A brightly lit public square decorated for a national festival."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L1",
+            "literal_meaning": "A festival for the eyes",
+            "literalization_risk": "Depicting literal eyes celebrating or eyes decorated as if they are participating in a festival, which would look surreal and bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "a beautiful visual experience",
+              "transferred_attributes": [
+                "joy",
+                "abundance of sights",
+                "delight"
+              ],
+              "vehicle_concept": "a religious or cultural festival"
+            },
+            "source_span_original": "కన్నుల పండుగగా",
+            "source_span_translation": "festival of bright eyes",
+            "source_term": "కన్నుల పండుగగా",
+            "tenor": "an extremely beautiful and pleasing sight",
+            "vehicle": "a festive celebration dedicated to the eyes",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a vibrant, colorful public celebration of Independence Day with flags, decorations, and joyful crowds to represent a visually delightful event."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely omits the explicit mention of Mahatma Gandhi ('గాంధీజీ కలలు కన్న సమాజం కోసం కృషి చేద్దాం' - Let's strive for the society Gandhiji dreamed of) and the phrase 'అవిశ్రాంతి పోరాటం' (tireless struggle).",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'కన్నుల పండుగగా' as 'festival of bright eyes' misses the idiomatic Telugu meaning of the phrase, which means 'a feast for the eyes' or 'a visually magnificent celebration'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Honoring the sacrifices of freedom fighters and leaders by actively building a progressive, values-driven nation on Independence Day."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The 'preserved' boolean is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED', 'source_span_translation' is null, and the 'translation_note' explicitly states that the translation omits the mention of Gandhiji. These values are internally inconsistent. 'preserved' should be false.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ఈ స్వాతంత్య్రపు దినం ఎందరో త్యాగ వీరుల ఫలం భరత మాత దాస్య శృంకలాలకు విమోచనం కలిగిన దినం అన్ని పండుగల కెల్లా స్వాతంత్య్రపు పండగ మనకెంతో ప్రియం అమర వీరుల త్యాగ ఫలితాన్ని అనుభవిస్తూ వారి ఆత్మ శాంతికి అర్పించే నివాళి ఈ దినం గాంధీజీ కలలు కన్న సమాజం కోసం కృషి చేద్దాం అవిశ్రాంతి పోరాటం నెహ్రూజీ నేర్పిన మానవతా విలువలను పాటిద్దాం మనం నిరంతరం..... దేశ ఔన్నత్యాన్ని దేశ ప్రగతిని పెంచే మంచి పనులు చేసి అర్పిద్దాం అమరవీరుల ఆత్మలకు అసలైన నివాళి.... అన్ని దేశాలకెల్ల భారత దేశం మిన్న అని చాటి చెప్పే దిశగా అడుగులేస్తూ జరుపుకుందాం ఈ స్వాతంత్ర్య పండుగను మెండుగా కన్నుల పండుగగా......",
+  "poem_id": "MV++_1444",
+  "poem_title": "Swatantradinostavam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "84b225c6cafa79bdb2a5577c6257d1c436bc059ef40a93c948c76353c4579813",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1444.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This Independence Day is the fruit of many sacrificial heroes. It is the day when Bharata Mata is freed from the bonds of servitude. Like all other festivals, Independence Day is a tribute to the sacrifices of our dear immortal heroes.Let's follow the humanitarian values ​​taught by Nehruji in the struggle... Let's do good deeds that increase the progress of the country and pay tribute to the souls of the martyrs... Let's celebrate this independence festival as a festival of bright eyes by telling all the countries that India is a great country. ...",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:34:25.774714+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7968ef50808f8cda745be13a1083432ed0fe6d11e352a9951fc86a486c20613c",
+        "response_hash": "a2e91f225dc4e87c6042ae322a055625d78583503ce05e6eb0ac862721405e65"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1deb1e2dacc76e7baa00db684cf3e7b3f502f347afe453955a98e38c52e1206e",
+        "response_hash": "fd6f557e8db302f1aea07c107e3ac6b942f07ec4d0120507a813e2a0f4b72943",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "94844dd87f9c6bcceef6c45ded34044d707286bc69723e2a039aa6ef6537f42c",
+        "response_hash": "a45070e51be6bd1a68f0cf556967f1fb050ab1a4da70ce796f9ea1aed81ea34d",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "02c390f6f281c0b650986a1d1aa0baedc92be9f85c8c3e961b0c04a1c99b757a",
+        "response_hash": "3c6a80bfab7a248426c20c2a7c79fd2b351bbee97bab21e0d1171d9f361f8a5a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "262e8637dd601e1a7d04c3dabd5fb8f3515c9c76d50b1f250bb6bc3ef3dceaa6",
+        "response_hash": "048d566e641a83d4f9eb48a9660a4e514865194ec7a61e685ad2cc627a078e07",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ca0657d146a22590f9586ad48ebb8ce23e4a65c52a391c5a980fe32c8a8b5bc",
+        "response_hash": "75bd822d0f04237ad4e3a7465045562f378c591b9637b62a51eec7cb1642cb56",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "264b8851a5d6b21bc3df564c79f03f9d331698a0257511772360e9a1f54eecb5",
+    "translation_sha256": "aaf3d9bf391216f3890ab9bf5fd85c200b875f7a607a1922a464453d05ea4933"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "acceptance of mortality as a constant companion, moving from quiet recognition to comforting intimacy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation adds the word 'firm' to rhyme with 'turn', which is not present in the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker has lived with the constant awareness, presence, or threat of death for a very long time, viewing it as a familiar companion rather than a terrifying stranger.",
+            "acceptable_visual_variants": [
+              "A person walking down a winding path with a soft, warm shadow cast beside them that mimics a companion's form.",
+              "A person sitting peacefully looking at a gentle, stylized figure made of mist or light."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "I have a long-standing, literal friendship with the biological state of death.",
+            "literalization_risk": "Depicting a literal human friend or a cartoonish Grim Reaper shaking hands with the speaker, which misses the psychological depth of accepting mortality.",
+            "metaphor_mapping": {
+              "tenor_concept": "acceptance of mortality",
+              "transferred_attributes": [
+                "familiarity",
+                "long duration",
+                "constant presence",
+                "lack of fear"
+              ],
+              "vehicle_concept": "friendship"
+            },
+            "source_span_original": "मौत से मेरी दोस्ती पुरानी है",
+            "source_span_translation": "My friendship with death is old",
+            "source_term": "मौत से मेरी दोस्ती पुरानी है",
+            "tenor": "The speaker's long-term awareness, acceptance, and close relationship with mortality.",
+            "vehicle": "An old, familiar friend who accompanies someone throughout their life.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a reflective human figure walking along a path, accompanied by a soft, gentle, non-threatening shadow or a subtle, stylized human silhouette walking peacefully beside them."
+          },
+          {
+            "abstract_meaning": "At every critical transition, change, or difficult moment in life.",
+            "acceptable_visual_variants": [
+              "A winding dirt path through a forest or hills.",
+              "A stylized pathway with distinct, angular turns representing life stages."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "At every physical bend or curve in a road.",
+            "literalization_risk": "Showing a literal sharp turn on a paved highway, which loses the existential journey aspect of life.",
+            "metaphor_mapping": {
+              "tenor_concept": "life transitions",
+              "transferred_attributes": [
+                "change of direction",
+                "uncertainty",
+                "milestones"
+              ],
+              "vehicle_concept": "bends in a road"
+            },
+            "source_span_original": "हर मोड़ पर",
+            "source_span_translation": "at every turn",
+            "source_term": "हर मोड़ पर",
+            "tenor": "A transition point, crisis, or change in a person's life journey.",
+            "vehicle": "A physical bend or turn in a road or path.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding, organic path or trail through a landscape, showing distinct bends or curves that symbolize life's changes."
+          },
+          {
+            "abstract_meaning": "At every major stage, phase, or milestone of human life.",
+            "acceptable_visual_variants": [
+              "A path transitioning through different seasons.",
+              "A series of milestones or stone markers along a walking trail."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "At every physical campsite, halting place, or stopover on a physical journey.",
+            "literalization_risk": "Showing literal tents or campsites, which distracts from the abstract concept of aging and life phases.",
+            "metaphor_mapping": {
+              "tenor_concept": "stages of life",
+              "transferred_attributes": [
+                "temporary nature",
+                "milestones",
+                "rest points before moving on"
+              ],
+              "vehicle_concept": "resting stops on a journey"
+            },
+            "source_span_original": "जिंदगी के हर पड़ाव पर",
+            "source_span_translation": "At every stage of life",
+            "source_term": "जिंदगी के हर पड़ाव पर",
+            "tenor": "A developmental stage or phase of a person's life.",
+            "vehicle": "A physical campsite or resting stop on a long journey.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a path with symbolic markers or changing scenery (e.g., transitioning from spring to autumn foliage) to represent different phases of life."
+          },
+          {
+            "abstract_meaning": "The constant, subtle, and lingering awareness of mortality that follows the speaker everywhere.",
+            "acceptable_visual_variants": [
+              "A soft, translucent shadow cast on a path.",
+              "A gentle silhouette cast on a wall behind a resting person."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "Feeling the physical shadow cast by a person blocking a light source.",
+            "literalization_risk": "Showing a dark, scary, monstrous shadow that evokes horror, which contradicts the peaceful 'friendship' tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "looming presence of mortality",
+              "transferred_attributes": [
+                "constant accompaniment",
+                "silent presence",
+                "following closely behind"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "उसकी परछाई का एहसास है",
+            "source_span_translation": "Her shadow is felt, firm",
+            "source_term": "उसकी परछाई का एहसास है",
+            "tenor": "The constant, looming, yet quiet presence of death in the background of life.",
+            "vehicle": "A physical shadow cast by a companion.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render a soft, gentle, elongated shadow on the ground next to the traveler, blending naturally with the environment."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'firm' to rhyme with 'turn', which is not present in the original Hindi text ('ehsaas hai' simply means 'is felt' or 'is sensed').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation renders 'जो मुझसे मिलने आई है' (who has come to meet me) as 'Who comes to understand' to force a rhyme with 'hand', altering the literal meaning of the final line.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Whenever the speaker has faced failure, illness, despair, or moments of weakness.",
+            "acceptable_visual_variants": [
+              "A person sitting on the ground with head in hands.",
+              "A figure kneeling on a path looking tired."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Whenever I have physically tripped and fallen to the ground.",
+            "literalization_risk": "Showing a person literally slipping on a surface, which looks comical or trivial rather than emotionally resonant.",
+            "metaphor_mapping": {
+              "tenor_concept": "experiencing life crises",
+              "transferred_attributes": [
+                "vulnerability",
+                "helplessness",
+                "need for assistance"
+              ],
+              "vehicle_concept": "falling physically"
+            },
+            "source_span_original": "जब भी मैं गिरा हूँ",
+            "source_span_translation": "Whenever I have fallen",
+            "source_term": "जब भी मैं गिरा हूँ",
+            "tenor": "Experiencing life crises, failures, emotional lows, or physical weakness.",
+            "vehicle": "Physically falling down or tripping.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a figure in a slumped, kneeling, or weary posture on a path, suggesting exhaustion or emotional defeat."
+          },
+          {
+            "abstract_meaning": "Death acts as a comforting, supportive presence that offers solace, stability, or rescue during the speaker's lowest moments.",
+            "acceptable_visual_variants": [
+              "A soft, glowing hand reaching out to a resting person.",
+              "A gentle shadow hand overlapping with the human figure's hand in a supportive gesture."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "A physical person reaching out to grasp and hold the hand of someone who has fallen.",
+            "literalization_risk": "Showing a skeletal hand or a scary figure grabbing a person, which conveys terror instead of the intended comfort and friendship.",
+            "metaphor_mapping": {
+              "tenor_concept": "comfort and reassurance of death",
+              "transferred_attributes": [
+                "support",
+                "comfort",
+                "reassurance",
+                "lifting up"
+              ],
+              "vehicle_concept": "holding hands to help someone up"
+            },
+            "source_span_original": "वो हाथ पकड़ने आई है",
+            "source_span_translation": "She has come to hold my hand",
+            "source_term": "वो हाथ पकड़ने आई है",
+            "tenor": "The comforting, reassuring, and stabilizing presence of mortality during times of deep suffering.",
+            "vehicle": "A friend reaching out to help someone stand up after a fall.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a gentle, warm, stylized hand made of light or soft shadow reaching down to touch or support the hand of the weary figure."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'milne aayi hai' (has come to meet me) as 'comes to understand' to force a rhyme with 'hand', completely altering the literal meaning of the final line.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The personification of death not as a terrifying end, but as a lifelong, supportive companion and friend."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मौत से मेरी दोस्ती पुरानी है,  \nवो हर मोड़ पर मेरे साथ है,  \nजिंदगी के हर पड़ाव पर,  \nउसकी परछाई का एहसास है।  \n\nजब भी मैं गिरा हूँ,  \nवो हाथ पकड़ने आई है,  \nमौत मेरी दोस्त है,  \nजो मुझसे मिलने आई है।",
+  "poem_id": "MV++_0200",
+  "poem_title": "Maut Se Dosti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a80dbf76868eae252d48494133f28493a47ae8328953c20b446a2751fd2886e4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0200.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My friendship with death is old,  \nShe accompanies me at every turn,  \nAt every stage of life,  \nHer shadow is felt, firm.\n\nWhenever I have fallen,  \nShe has come to hold my hand,  \nDeath is my friend,  \nWho comes to understand.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:58:51.262183+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4518145c6b29fb51f1c5c2aa865bb95830d32320826550b37a50c2ae70ef27b8",
+        "response_hash": "9a376da7b48a6af8707046a8722b5b81841ee9518d67b60e638b6dc7ca139479"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7a096466fcf6519e9f2c11222474ad999bcc904491fd88d38659e9c219281aac",
+        "response_hash": "691235a28517af3a24eb62a64c4b1ece4221e1641c92d92aab13cab6fbfbffc7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0c82d5658fa6e2497958d2941d796d4d4308c2d6f1bd4bf764f66adba509d953",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8de4973f41ace6a05ac4d6823179f96300db96cd56e36a35aae32ee8b53c4db0",
+        "response_hash": "94352dcd688acc760d7798abe4be47fb9a2e6e30799fd85f722bcea4f7fb4dec",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bbffd1db65b676aa306b4b5cbfe262d00de291c45fcc4cff3a0274d98f4747b6",
+        "response_hash": "fce201449ef13f2664294a09a245844b629d720615b46d47ed7c04c7400d43de",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fa18afd2a0837237fbb7edf6dfffeee515b5301091b52aceb777635de71344de",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "80325c8d614f38c03697ca9612c8c3de23112b7e4b1cb09c4e9b645875bfd41d",
+    "translation_sha256": "286dca8494ebf3032723cff91a2a31922c98cfa431acb00b4c584aec8e826cc9"
+  }
+}

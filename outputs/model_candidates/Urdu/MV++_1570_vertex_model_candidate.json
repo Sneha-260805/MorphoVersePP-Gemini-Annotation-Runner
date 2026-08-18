@@ -1,0 +1,270 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A highly refined code of conduct, politeness, and respectful social etiquette central to Urdu-speaking culture and courtly traditions.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "adaab",
+        "source_span_original": "آداب",
+        "source_span_translation": "quiet way",
+        "stanza_index": 2,
+        "term": "آداب",
+        "translation_note": "The translation renders 'adaab' (respectful etiquette/manners) loosely as 'quiet way' to fit the rhyme scheme, losing the specific cultural weight of formal Urdu etiquette.",
+        "translation_status": "ALTERED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "From quiet dreaming and internal tension, through the pain of temporal imprisonment, to a reflective acceptance of life's complex, colorful contradictions.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation replaces the literal 'delkash jawaab mere' (my captivating answers/replies) with 'a captivating theme' to force an English rhyme with 'gleam'.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'dilkash jawab' as 'captivating theme' and 'khamosh aadab' as 'quiet way' alters the specific Urdu poetic nuances of 'beautiful answer' and 'silent etiquettes/manners'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intense, overwhelming internal thoughts and unexpressed feelings that exist within silence.",
+            "acceptable_visual_variants": [
+              "A person sitting in a dark room with a single beam of light, surrounded by abstract, chaotic brushstrokes that represent internal noise.",
+              "A close-up of a face with closed lips, where the background is filled with a dense, chaotic texture of overlapping, silent shadows."
+            ],
+            "expression_type": "other",
+            "line_ref": "L3",
+            "literal_meaning": "The noise of silences",
+            "literalization_risk": "Depicting actual sound waves or loud chaotic physical noise would completely contradict the theme of quietness and internal reflection.",
+            "metaphor_mapping": {
+              "tenor_concept": "internal silence",
+              "transferred_attributes": [
+                "intensity",
+                "overwhelming nature",
+                "disorder"
+              ],
+              "vehicle_concept": "auditory noise"
+            },
+            "source_span_original": "خاموشیوں کا شور",
+            "source_span_translation": "A tumult of silence",
+            "source_term": "خاموشیوں کا شور",
+            "tenor": "silence / unexpressed thoughts",
+            "vehicle": "noise / tumult",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a solitary figure sitting in absolute stillness, surrounded by swirling, abstract visual patterns or faint, unreadable script floating in the air to represent the 'noise' of thoughts."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'khamosh aadaab mere' (my silent manners/etiquettes/respectful greetings) loosely as 'in my quiet way' to fit the rhyme scheme, losing the specific cultural and behavioral nuance of 'aadaab'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "grief",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The feeling of being trapped, restricted, and helpless under the relentless passage of time.",
+            "acceptable_visual_variants": [
+              "A figure standing inside a transparent, cage-like clock face where the hands of the clock act as bars.",
+              "A person casting a shadow that takes the shape of prison bars, cast by the light of a giant, looming sundial."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "In the prison of time",
+            "literalization_risk": "Showing a literal medieval stone dungeon with iron bars might make the scene look like a historical or fantasy adventure rather than a philosophical reflection on mortality and time.",
+            "metaphor_mapping": {
+              "tenor_concept": "temporal existence",
+              "transferred_attributes": [
+                "confinement",
+                "lack of freedom",
+                "helplessness"
+              ],
+              "vehicle_concept": "physical confinement"
+            },
+            "source_span_original": "وقت کے قید خانے میں",
+            "source_span_translation": "in the dungeon of time",
+            "source_term": "وقت کے قید خانے میں",
+            "tenor": "time",
+            "vehicle": "prison / dungeon",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person trapped inside a giant, surreal hourglass or surrounded by melting, cage-like clock gears that form bars around them."
+          },
+          {
+            "abstract_meaning": "The painful, agonizing experience of living through each passing moment of suffering.",
+            "acceptable_visual_variants": [
+              "A stylized, abstract figure whose silhouette has glowing, painful cracks or fissures running through it, representing internal wounds.",
+              "An hourglass where the falling sand is deep red, resembling drops of blood marking the passage of painful moments."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L6",
+            "literal_meaning": "Every moment is like a wound",
+            "literalization_risk": "Depicting graphic, bloody physical gashes on a body would shift the genre to horror and distract from the emotional, existential pain of the passage of time.",
+            "metaphor_mapping": {
+              "tenor_concept": "temporal experience",
+              "transferred_attributes": [
+                "pain",
+                "bleeding",
+                "slow healing",
+                "trauma"
+              ],
+              "vehicle_concept": "physical injury"
+            },
+            "source_span_original": "ہر لمحہ جیسے ایک زخم",
+            "source_span_translation": "Each moment, like a wound",
+            "source_term": "ہر لمحہ جیسے ایک زخم",
+            "tenor": "a moment of time",
+            "vehicle": "a physical wound",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a clock or calendar pages slowly tearing, fraying, or dripping red ink/paint, symbolizing the painful bleeding away of moments."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the plural pronoun 'hum' (we/us, often used as a poetic royal or collective 'we' in Urdu) to the singular 'I stay', and translates 'be-hisaab mere' (my countless/unfathomable [wounds]) loosely as 'unfathomable sway' to force a rhyme with 'stay'.",
+            "where": "L5-L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'sukoot ka rang' (the color of silence/stillness) as 'calm', losing the visual metaphor of silence having a 'color' (rang). It also translates 'ajeeb-o-ghareeb khwaab mere' (my strange and wonderful/peculiar dreams) as 'strange dreams that charm' to force a rhyme with 'calm'.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The bittersweet nature of human existence, where dreams, silence, pain, and fleeting moments of joy coexist within the prison of time."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list detailing a medium-severity loss of meaning ('delkash jawaab mere' replaced with 'captivating theme'). This is internally inconsistent.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[3].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list detailing a medium-severity loss of meaning ('sukoot ka rang' and 'ajeeb-o-ghareeb khwaab mere' altered for rhyme). This is internally inconsistent.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' boolean is set to true, but the 'translation_status' is set to 'ALTERED' and the 'translation_note' states that the term was rendered loosely, losing its specific cultural weight. These fields are mutually inconsistent.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Urdu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "تاروں کی روشنی میں چمکتے ہیں خواب میرے\nہر سانس میں اک خواب، دلکش جواب میرے\n\nخاموشیوں کا شور، کچھ کہنے کو تیار ہے\nلب بستہ کہانی ہے، خاموش آداب میرے\n\nوقت کے قید خانے میں قید ہو گئے ہیں ہم\nہر لمحہ جیسے ایک زخم، بے حساب میرے\n\nکبھی ہنسی، کبھی آنسو، کبھی سکوت کا رنگ\nرنگ برنگی دنیا کے عجیب و غریب خواب میرے",
+  "poem_id": "MV++_1570",
+  "poem_title": "Kaifiyaat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7e1fa3c527446049fbfd9229c56afa7d7fcfca99c8ba8502845182128eea69ed",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Urdu/MV++_1570.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the light of the stars, my dreams gleam,\nIn every breath, a dream, a captivating theme.\n\nA tumult of silence, eager to say,\nLips sealed, yet a story, in my quiet way.\n\nImprisoned in the dungeon of time, I stay,\nEach moment, like a wound, unfathomable sway.\n\nSometimes laughter, sometimes tears, sometimes calm,\nA world of colors, strange dreams that charm.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:49:20.669887+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "25ab88366103b901a2fea3debc5053a10123d2289034d3b6fd9bfc15ee918592",
+        "response_hash": "a63fa3ffa5ead0b259d62e648a15df7afee486c79ee3e08a174916d6264fa607",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "20aaeff74e3ca9deacaca50c27cb6b07cba2ce28744369ac0ab5b3ac70b3f90d",
+        "response_hash": "632a6fea4504189b698be347ab4ca71578f851cd225c2dfab29c3b138c163644",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1700faf1c517a10fb0869b0c0d17c40497c3c5b05094d9e5043103f8c840f4c0",
+        "response_hash": "05071d4112b4f29fa222f64bb2f71fb251138aa620ca6711fb847e2e334277e3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "02cc87a607bd1d1f523c389289368ad55a1a07252e4cc93088a5f92adead6f0e",
+        "response_hash": "4c9da4b24a00fc6bc74fdecd661a5d04e2fd6d70f456a61762a19a19b4f23521",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca8df2a5909e575d0b7c19dadfa5b36fcfdf6e5032fc9b9ff0898a8a610294a2",
+        "response_hash": "2c10e55d7bfd81a48fb21357b2f599d775bd3e3ab39db20883b8e4a5617b94ce",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "76fe8c99a906164e50880675cdd7d97366ceb1c06bfac5ff28cf5d9e4958fb69",
+    "translation_sha256": "ad5e6edd02d7bfc923a46d75ac0eb409c9381530300fde0bd03ff48324728037"
+  }
+}

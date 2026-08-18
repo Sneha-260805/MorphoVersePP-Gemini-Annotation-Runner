@@ -1,0 +1,222 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A dense green forest with sunlight filtering through leaves, showing active wildlife or blooming flowers to represent 'mangal' (auspicious life/joy).",
+          "A festive gathering or small celebration taking place harmoniously within a wild forest setting."
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A well-known Hindi idiom/proverb meaning to bring life, celebration, or prosperity to a wild, desolate, or uninhabited place (literally 'auspiciousness/celebration in the wilderness').",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A literal chaotic party or urban festival artificially copy-pasted into a forest.",
+          "A dark, scary, or threatening jungle scene that contradicts the 'mangal' (auspicious/joyful) atmosphere."
+        ],
+        "preserved": false,
+        "romanization": "jungle mein mangal",
+        "source_span_original": "जंगल में मंंगल",
+        "source_span_translation": "joy in the jungle",
+        "stanza_index": 1,
+        "term": "जंगल में मंंगल",
+        "translation_note": "The translation renders this as 'joy in the jungle', losing the specific idiomatic and cultural resonance of the Hindi proverb 'jungle mein mangal' which refers to creating celebration, prosperity, or life in a desolate, wild place.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A lush, vibrant forest or wilderness bursting with life, light, or celebratory energy.",
+          "Contrast between wild nature and a sense of harmonious celebration or auspiciousness."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A steady state of joy and celebration of life in nature, moving from a general declaration of joy to a shared song of the natural elements.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation loses the specific idiomatic resonance of the Hindi proverb/phrase 'jungle mein mangal' (which connotes bringing life, joy, or a festive atmosphere to a desolate or wild place) by rendering it literally as 'joy in the jungle'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Finding joy, celebration, or prosperity in a desolate, wild, or difficult place.",
+            "acceptable_visual_variants": [
+              "A sunlit clearing in a forest with colorful wild flowers blooming",
+              "A peaceful forest scene with animals peacefully coexisting near a stream"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L1",
+            "literal_meaning": "A celebration or auspicious event in a forest/wilderness",
+            "literalization_risk": "An illustrator might literally draw a party or festival with balloons and banners inside a dense forest, missing the abstract sense of finding inner peace or natural joy.",
+            "metaphor_mapping": {
+              "tenor_concept": "joy in adversity or isolation",
+              "transferred_attributes": [
+                "unexpectedness",
+                "vibrancy",
+                "transformation of space"
+              ],
+              "vehicle_concept": "festivity in a wilderness"
+            },
+            "source_span_original": "जंगल में मंंगल",
+            "source_span_translation": "joy in the jungle",
+            "source_term": "जंगल में मंंगल",
+            "tenor": "Experiencing happiness, life, and thriving conditions in an otherwise harsh or isolated environment",
+            "vehicle": "A festive celebration (mangal) happening in a wild forest (jungle)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lush, vibrant forest scene where sunlight breaks through the canopy, highlighting blooming flowers or active wildlife to suggest natural celebration without human party props."
+          },
+          {
+            "abstract_meaning": "The continuous, flowing, and unstoppable progression of life.",
+            "acceptable_visual_variants": [
+              "A winding stream reflecting sunlight through trees",
+              "A gentle river flowing through a green landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The stream or current of life",
+            "literalization_risk": "Showing a literal river with faces or biological cells floating in it, which looks surreal and misses the poetic sense of vitality.",
+            "metaphor_mapping": {
+              "tenor_concept": "continuous life force",
+              "transferred_attributes": [
+                "movement",
+                "continuity",
+                "nourishment",
+                "direction"
+              ],
+              "vehicle_concept": "flowing water current"
+            },
+            "source_span_original": "जीवन की धारा",
+            "source_span_translation": "flow of life",
+            "source_term": "जीवन की धारा",
+            "tenor": "The continuous passage and vitality of life",
+            "vehicle": "A flowing stream or current of water",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Visualize a clear, sparkling stream flowing smoothly through the forest floor, surrounded by green plants to symbolize life."
+          },
+          {
+            "abstract_meaning": "The rustling of leaves and the whistling of the wind sound like a harmonious song, suggesting nature is alive and celebrating.",
+            "acceptable_visual_variants": [
+              "Wind blowing through a canopy of trees with leaves fluttering dynamically",
+              "A close-up of green leaves swaying in a gentle breeze with soft light rays"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3-L4",
+            "literal_meaning": "Everyone in the leaves and the wind is singing a literal song",
+            "literalization_risk": "Drawing leaves and wind currents with literal human mouths singing or musical notes floating out of them in a cartoonish way.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural sounds of wind and leaves",
+              "transferred_attributes": [
+                "harmony",
+                "musicality",
+                "expression of joy"
+              ],
+              "vehicle_concept": "vocal singing of a melody"
+            },
+            "source_span_original": "पत्तों में, हवा में,  \nगान हर कोई गा रहा है।",
+            "source_span_translation": "In the leaves, in the wind,  \nEveryone is singing a song.",
+            "source_term": "पत्तों में, हवा में, / गान हर कोई गा रहा है।",
+            "tenor": "The natural sounds of rustling leaves and blowing wind",
+            "vehicle": "Singing a song",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict leaves swirling gently in a visible breeze, perhaps with soft light patterns suggesting movement and harmony, capturing the feeling of music without literalizing it."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the specific cultural idiom 'jungle mein mangal' (literally 'auspiciousness/celebration in the wilderness'), which refers to bringing life, joy, or prosperity to a desolate place. Translating it simply as 'joy in the jungle' flattens the idiomatic and cultural resonance of 'mangal' (auspiciousness/well-being).",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The internal rhyme and rhythmic play between 'jungle' and 'mangal' is lost in the English translation.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The joyful and harmonious flow of life within nature, where everything in the environment participates in a collective song."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जंगल में मंंगल है,  \nजीवन की धारा बह रही है।  \nपत्तों में, हवा में,  \nगान हर कोई गा रहा है।",
+  "poem_id": "MV++_0734",
+  "poem_title": "Jungle Mein Mangal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c8aa3256d17173013f2e1fd0de08103abce3cadeaeeba13be710d93f67c173c3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0734.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "There is joy in the jungle,  \nThe flow of life continues.  \nIn the leaves, in the wind,  \nEveryone is singing a song.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:02:57.603969+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "53eb7eabd810eb0cb2384ef0c2bac68bcc554ceb03607e9928299efb47c12dda",
+        "response_hash": "8e4f60a7e8390d5c7aa0d276b3f4323b337b59018f39d15dae3ec11780280bae",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ab65f589738fca0db7a956b7fc3006dec19bc456fbfd14ba0016663a4f56432b",
+        "response_hash": "8f1f92a45bc2b9ccb33a190f8ab5294fbe61b41ee3c5324cc58761228c18333a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be7ea6400336f64cd2b3b1e53d24dc8f7b4c2c64164b020201ec58556264378f",
+        "response_hash": "8ce5ddf960b79bd7c7ceef071c1dc826e7e065b8d9efd72d2a515800ee50aa45",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "672319f06ac356549f0b398e21e9e53c39f40296d7d61f6eff0c84dd30de679f",
+        "response_hash": "087df47909721499441898b7fe2ec6b32188ea04ec439c566e387158356ec0aa",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0e227ff0ca26b18847085e35473646972c1966a85d7a8fd2fcfe1a9320a38509",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6befdfa5a8c3f8aa2857e302aa7307cbb30e3a2b2ea7829bb9a9a2b02b6421e5",
+    "translation_sha256": "1795417dc8b7fb6b62a0e2fd6c3903a4b2837f07803c3cf1928905f49fb7faee"
+  }
+}

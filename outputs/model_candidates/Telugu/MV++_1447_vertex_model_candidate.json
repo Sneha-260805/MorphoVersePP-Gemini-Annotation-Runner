@@ -1,0 +1,279 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "Anxiety and regret over rushing through life, shifting to a defensive, self-critical realization of lost time and missed meaning.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Life is conceptualized as a book, where experiences and phases are pages to be read or turned.",
+            "acceptable_visual_variants": [
+              "A person holding an open book where the pages transition into landscapes or abstract paths of light",
+              "A silhouette of a person with a book-like structure integrated into their form, showing turning pages"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "In the book of life",
+            "literalization_risk": "An illustrator might draw a literal giant book floating in the sky with a person walking on it, which loses the existential reflection on living life too quickly.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "having pages to turn",
+                "having a beginning and an end",
+                "containing content to be read and understood"
+              ],
+              "vehicle_concept": "book"
+            },
+            "source_span_original": "బతుకు పుస్తకంలో",
+            "source_span_translation": "book of life",
+            "source_term": "బతుకు పుస్తకంలో",
+            "tenor": "Human life and its sequential experiences",
+            "vehicle": "A book with pages to turn",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking at a book whose pages blend into scenes of life, or a stylized book where the pages show abstract representations of life stages."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'తప్పా' (is it wrong?) as 'There is nothing wrong with', turning a rhetorical question into a declarative statement.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "fear",
+        "index": 2,
+        "loss_note": "The translation merges the visual of the blank page and children from the next stanza into this stanza's translation block, disrupting the original stanza-by-stanza progression.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Failing to deeply understand, absorb, or appreciate the experiences of life before rushing to the next phase.",
+            "acceptable_visual_variants": [
+              "A person hurriedly flipping pages of a book while ignoring the glowing text on them",
+              "A figure rushing through a vibrant landscape with their eyes closed or focused only on the horizon"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Without digesting the essence/gist",
+            "literalization_risk": "Showing a literal stomach or digestive tract, which would be grotesque and completely miss the intellectual/existential meaning.",
+            "metaphor_mapping": {
+              "tenor_concept": "comprehension and appreciation",
+              "transferred_attributes": [
+                "absorbing nutrients/meaning",
+                "taking time to process",
+                "internalizing"
+              ],
+              "vehicle_concept": "digestion"
+            },
+            "source_span_original": "సారాన్ని జీర్ణించుకోకుండానే",
+            "source_span_translation": "without digesting the gist",
+            "source_term": "సారాన్ని జీర్ణించుకోకుండానే",
+            "tenor": "Intellectually and emotionally absorbing life experiences",
+            "vehicle": "Digesting food to absorb nutrients",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent this abstractly through a person looking at a page with glowing symbols that they fail to absorb, or rushing past beautiful details without looking."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of Stanza 2 merges the translation of Stanza 3 ('A blank page taunts me...') into its own block, disrupting the stanzaic structure.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "grief",
+        "index": 3,
+        "loss_note": "The translation for this stanza is completely misplaced, rendering only the word 'Started...' which belongs to the next stanza's Telugu text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The realization that rushing through life to reach the end results in emptiness and disappointment, personified as a mocking blank page.",
+            "acceptable_visual_variants": [
+              "A person holding an open book where the final page is stark white and empty, casting a cold light on their face",
+              "A close-up of hands holding a book open to a blank page, with the surrounding background fading into dark void"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "A blank page mocking/taunting me",
+            "literalization_risk": "Drawing a cartoon book page with a literal face laughing or sticking its tongue out, which would look childish and ruin the serious, melancholic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "an empty page representing wasted time",
+              "transferred_attributes": [
+                "taunting",
+                "causing feelings of regret and foolishness"
+              ],
+              "vehicle_concept": "a mocking person"
+            },
+            "source_span_original": "నన్ను వెక్కిరిస్తూ ఖాళీ పేజీ",
+            "source_span_translation": "A blank page taunts me",
+            "source_term": "నన్ను వెక్కిరిస్తూ ఖాళీ పేజీ",
+            "tenor": "An empty, unwritten page at the end of a rushed life",
+            "vehicle": "A mocking or taunting person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person staring down in shock or disappointment at a completely blank, stark white page in an open book, with shadows emphasizing their isolation."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The actual text of Stanza 3 (L4) is translated as part of Stanza 2, while Stanza 3's translation block contains only the word 'Started...', which actually belongs to Stanza 4 (L5).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "grief",
+        "index": 4,
+        "loss_note": "The translation maps the Telugu word 'Aarambhincharu' (started) to 'I don't have the patience...', completely misaligning the text.",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The single-word stanza 'ఆరంభించారు.......' (They started) is translated as 'I don't have the patience to wait...', which is actually the translation of Stanza 5 (L6).",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "grief",
+        "index": 5,
+        "loss_note": "The translation maps the Telugu text about lacking patience to a translation of the subsequent stanzas, causing severe misalignment.",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation block for Stanza 5 contains the translation of Stanza 6 and Stanza 7, completely misaligning the original stanza structure.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "longing",
+        "index": 6,
+        "loss_note": "The Telugu text of this stanza is not translated in its corresponding position; its translation was partially merged into earlier blocks.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation for this stanza is misplaced and grouped into the translation block of Stanza 5, leaving this stanza with no direct translation in the map.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "lost"
+      },
+      {
+        "emotion": "grief",
+        "index": 7,
+        "loss_note": "The final stanza's Telugu text about self-doubt and inability to grasp life's essence is completely missing from the translation block.",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation for this stanza is misplaced and grouped into the translation block of Stanza 5, leaving this stanza with no direct translation in the map. Additionally, the incomplete word '......లిస్తే' (possibly 'పరిశీలిస్తే' or similar) and its nuanced self-deprecation are lost.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "The tragedy of rushing through life's stages due to societal pressure, only to find emptiness at the end while the next generation takes over."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "బతుకు పుస్తకంలో పేజీలు ఆత్రంగా తిప్పడం తప్పా సాధించింది ఏమీలేదు\n\nప్రతి పేజీ సారాన్ని జీర్ణించుకోకుండానే చివరి పేజీ చూడాలనే ఆత్రం... \n ప్రక్కన వాళ్ళు వేగంగా పేజీలు తిప్పేస్తుంటే...... నేను నెమ్మదిగా చదువుతూ కూర్చుంటే హేళన చేస్తారని భయం........\n\nఆత్రంగా చివరి పేజీ తిప్పేసరికి నన్ను వెక్కిరిస్తూ ఖాళీ పేజీ....... వెనక పేజీలు చూద్దామంటే నా భుజాల మీదుగా పిల్లలు పుస్తకం చదవడం\n\nఆరంభించారు.......\n\nవాళ్లు చదవడం పూర్తి చేసేదాకా ఆగే ఓపిక నాకు లేదు..\n\nపుస్తకం పూర్తి చేసి సంతోషంగా, గంభీరంగా చివరి పేజీలో సారాంశం ఉన్నట్లు నటిస్తున్నారా\n\nఆత్రంగా చదివిన పుస్తకం నుండి సారాన్ని గ్రహించలేని ......లిస్తే చెప్పండి నాది తెలివి హీనత........",
+  "poem_id": "MV++_1447",
+  "poem_title": "Brathuku",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f689dffbc068db1a67f1ed35460f137af1d77566dfbc67cab2e759c1315afecf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1447.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "There is nothing wrong with eagerly turning pages in the book of life\n\nEager to see the last page without digesting the gist of each page... \n If they are turning the pages fast...... I am afraid that they will make fun of me if I sit and read slowly......A blank page taunts me as I eagerly turn the last page....... Looking at the back pages are children reading a book over my shoulders.\n\nStarted...\n\nI don't have the patience to wait till they finish reading..\n\nDo you finish the book and happily and solemnly pretend to have the summary on the last page?\nIf I can't grasp the gist of a book eagerly read...",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:34:48.288874+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a3c5460c42eeb974fa262a8c87579fb055249132e915f3b6019874cf99981a40",
+        "response_hash": "7a1a714b54e3c1a0f85e7a093588358d810391804ba38efd7f1e26f593412044",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5723a0eb1278b51eef57a1df6b4364bf98ab54fb8af44b25fc06a100d30c16b1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "07597090c133d2afade3b269b9c764388edde033ab8f41747dbcce3c5f11ad16",
+        "response_hash": "8192450f5609b5a166ea87d5cda94c6b4f9b0f1b744a649f5121cb664e92f931",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e43b27b4db2dba5f56d146be141de6899bb175f4b43945ee025aed3c0faf0093",
+        "response_hash": "af5a777f0211ae477a116d1211dbf74383720dae91d3fdd5a07958f5f57885ff",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "304418906f60fed4d6f33f25e34fd585ce3ef93ec12cb9eb18663f55d73c3689",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0fd27ca337c188c973549e80b6f547e11618619a5fcc6cbb9bf5446594d52398",
+    "translation_sha256": "894fd3594f2cc5ebf76956fa4e90223066b4d4c62ca5e0ea7006a6ebc10eb169"
+  }
+}

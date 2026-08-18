@@ -1,0 +1,221 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and appreciation of contrasting beauty to a peaceful sense of harmonious unity",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'maya' as 'morning air' to rhyme, losing the philosophical nuance of 'maya' (illusion, magic, or creative power) in Hindi.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Love that provides hope, warmth, and guidance in dark times.",
+            "acceptable_visual_variants": [
+              "A simple glowing clay diya held in cupped hands",
+              "A single warm lamp burning in a dark room"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A lamp of love",
+            "literalization_risk": "An illustrator might draw a literal heart-shaped lamp or a physical lamp with 'love' written on it, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "providing warmth",
+                "guiding light"
+              ],
+              "vehicle_concept": "lamp"
+            },
+            "source_span_original": "प्रेम का दीप",
+            "source_span_translation": "love's lamp",
+            "source_term": "प्रेम का दीप",
+            "tenor": "love (prem)",
+            "vehicle": "a burning lamp (deep)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a traditional clay lamp (diya) glowing softly in a dark, night-time setting, casting a warm and gentle light."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'उजली माया' (ujali maya) as 'bright as morning air' loses the specific philosophical and poetic resonance of 'maya' (illusion, magic, or creative power) in Hindi, flattening it to a generic description of air.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'सीप' (seep - shell/mother-of-pearl) as 'pearl' alters the literal image from the protective shell to the gem itself, losing the delicate physical texture of the shell implied by 'हल्की सीप' (light shell).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'sang sang roop mein' as 'in a single embrace' adds a physical romantic connotation not explicitly present in the more abstract Hindi phrasing of 'together in form'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A soothing, comforting, and gentle presence that brings peace, similar to a cool breeze in a dream.",
+            "acceptable_visual_variants": [
+              "A soft breeze swaying light curtains in a dimly lit room",
+              "Leaves gently rustling in a quiet, cool evening breeze"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L7",
+            "literal_meaning": "Like a cool breeze of dreams",
+            "literalization_risk": "Depicting literal sleeping faces with wind blowing out of their heads would look bizarre and surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "comforting presence",
+              "transferred_attributes": [
+                "gentleness",
+                "refreshment",
+                "soothing quality"
+              ],
+              "vehicle_concept": "cool breeze"
+            },
+            "source_span_original": "जैसे सपनों की ठंडी हवा",
+            "source_span_translation": "Like cool dreams in evening’s drift",
+            "source_term": "जैसे सपनों की ठंडी हवा",
+            "tenor": "the soothing presence of the beloved or the harmonious blend of dark and fair",
+            "vehicle": "a cool breeze in a dream",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a gentle breeze rustling soft curtains or leaves under a twilight sky, evoking a peaceful, dreamlike atmosphere."
+          },
+          {
+            "abstract_meaning": "A seamless, beautiful blending of opposites (darkness and light, shadow and sun) into a single harmonious form.",
+            "acceptable_visual_variants": [
+              "Dappled sunlight on a forest floor where light and shadow blend softly",
+              "A soft gradient transition between a shaded area and a sunlit area on a wall"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L8",
+            "literal_meaning": "Like a shadow melted in the sunlight",
+            "literalization_risk": "A literal rendering might look like a dark puddle of liquid on the ground, which fails to capture the poetic beauty of blending light and shade.",
+            "metaphor_mapping": {
+              "tenor_concept": "harmonious union of opposites",
+              "transferred_attributes": [
+                "blending",
+                "dissolving boundaries",
+                "integration"
+              ],
+              "vehicle_concept": "melting shadow"
+            },
+            "source_span_original": "जैसे धूप में पिघली छाया",
+            "source_span_translation": "Like melted shadows in sunlight's gift",
+            "source_term": "जैसे धूप में पिघली छाया",
+            "tenor": "the perfect union and coexistence of the dark and fair aspects",
+            "vehicle": "a shadow melting under bright sunlight",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict soft, dappled sunlight filtering through leaves, where the edges of the shadows are soft, blurry, and seamlessly merge with the bright patches of light."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'संग संग रूप में' (together in form/appearance) as 'in a single embrace' introduces an active physical action (embrace) not explicitly present in the original Hindi text, which focuses on shared form and coexistence.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'सपनों की ठंडी हवा' (cool wind of dreams) as 'cool dreams in evening's drift' introduces 'evening' (which is not in the source text) and shifts 'wind' to 'drift', altering the direct sensory metaphor of the wind.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The harmonious coexistence and blending of contrasting elements, represented by dark and fair, shadow and light"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "काली केशों की गहरी छाया,  \nगोरी चेहरा, उजली माया।  \nकाली रात में प्रेम का दीप,  \nगोरी सुबह की हल्की सीप।  \n\nकभी छांव में, कभी धूप में,  \nकाली-गोरी, संग संग रूप में।  \nजैसे सपनों की ठंडी हवा,  \nजैसे धूप में पिघली छाया।",
+  "poem_id": "MV++_0623",
+  "poem_title": "Kali Aur Gori",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "016649195b098950610c8092f2dce2b39ece584ff3af36e00b1e238fae227a97",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0623.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Dark shadows of deep black hair,  \nFair face, bright as morning air.  \nIn the dark night, love's lamp lights,  \nIn fair dawn, soft pearl delights.\n\nIn shade or sun, a blending grace,  \nDark and fair in a single embrace.  \nLike cool dreams in evening’s drift,  \nLike melted shadows in sunlight's gift.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:47:25.484804+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "95f017296d09b43327ae9957db7008fbffb7c377b33a60ec1ccab2dc3628e0db",
+        "response_hash": "6b7f83443ff4e1f60e9de6518b9091adcf42a88ed8edf8bfc0444a9e7c5f0c46"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f250db84cf7f24bac1c37399753db9e4794e210e84c974300f3c77e6c34f04ec",
+        "response_hash": "aacac1898b37d59a19eb5d8f0abbb532bc9bfc6d523c6624dc93a1b3ab917c15",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f332b7d59ccd9f0e6f887b1b03a3af08ee428a39cc3ed31b3107e06c28ae9ec4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8373eded1d1a8bba40688fa033ce0b7359e4e048b55b954c49214a36c27b8106",
+        "response_hash": "062955896110cae79610c0656cc74cb533f9cba8fc130ad20ba984b5670653fb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "147847b66692630e406f8e18a28191c7f4e4e4d424108702fc90f723d37d91bc",
+        "response_hash": "ff34073f96276b9d455b185358c75d5ae325d34985ace0fdec21e4f9ff323488",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "370fa928ed2cd1ff3b20d0ec49e33e36e45ae06cb4c3a4ca4e93e4e0ebae0c77",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "deab4cb688eaa706e1441654786c274f7e5c51a38c2a77d987adee91f8a10a4a",
+    "translation_sha256": "3611c81718e8a92afe55cbd94aeddbc2b25e6a972344e439a8679697bccee05e"
+  }
+}

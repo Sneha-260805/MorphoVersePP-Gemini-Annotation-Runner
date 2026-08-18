@@ -1,0 +1,216 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and incompleteness to a realization of the beloved's omnipresence despite physical absence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the specific phonetic texture and typographical error in the source text where 'तुम्हारे' is written as 'तुमhare' (a mix of Devanagari and Latin script) in lines 1 and 3.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's presence is felt in every visual beauty and aspect of life.",
+            "acceptable_visual_variants": [
+              "A painter's palette with swirling colors that form a soft silhouette",
+              "A colorful garden scene where the light and hues suggest a human form"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "You physically exist inside every color.",
+            "literalization_risk": "Showing a person literally trapped inside paint or color pigments would look bizarre and miss the emotional sentiment.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's presence",
+              "transferred_attributes": [
+                "vibrancy",
+                "pervasiveness",
+                "beauty"
+              ],
+              "vehicle_concept": "color"
+            },
+            "source_span_original": "हर एक रंग में तुम हो",
+            "source_span_translation": "In every color, you are there",
+            "source_term": "हर एक रंग में तुम हो",
+            "tenor": "the beloved's pervasive presence in the speaker's perception",
+            "vehicle": "colors of the world",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vibrant, colorful landscape or abstract wash of colors where a subtle silhouette or face of the beloved is softly integrated into the hues."
+          },
+          {
+            "abstract_meaning": "The beloved is the essence or inspiration behind every beautiful sound and song.",
+            "acceptable_visual_variants": [
+              "Floating musical sheets where the lyrics or notes form a portrait outline",
+              "A person listening to music with a warm, glowing aura representing the beloved's memory"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "You physically reside inside every musical composition.",
+            "literalization_risk": "Depicting a tiny person living inside musical notes or a speaker would be comical and literalistic.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's memory",
+              "transferred_attributes": [
+                "harmony",
+                "emotional resonance",
+                "omnipresence"
+              ],
+              "vehicle_concept": "song"
+            },
+            "source_span_original": "हर एक गीत में तुम हो",
+            "source_span_translation": "In every song, you are there",
+            "source_term": "हर एक गीत में तुम हो",
+            "tenor": "the beloved's pervasive presence in the speaker's thoughts and auditory experiences",
+            "vehicle": "songs and music",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize musical notes or soundwaves flowing through the air, transforming into a gentle, comforting shape or surrounding a reflective character."
+          },
+          {
+            "abstract_meaning": "The beloved dominates the speaker's subconscious mind and dreams.",
+            "acceptable_visual_variants": [
+              "A starry night sky forming the face of the beloved over a sleeping person",
+              "A surreal path leading towards a glowing figure in a dreamscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "You physically inhabit every dream state.",
+            "literalization_risk": "Showing a literal dream bubble with a person inside is a bit cliché, though less risky than the others.",
+            "metaphor_mapping": {
+              "tenor_concept": "subconscious thoughts",
+              "transferred_attributes": [
+                "omnipresence",
+                "desire",
+                "unreality"
+              ],
+              "vehicle_concept": "dream"
+            },
+            "source_span_original": "हर एक ख्वाब में तुम हो",
+            "source_span_translation": "In every dream, you are there",
+            "source_term": "हर एक ख्वाब में तुम हो",
+            "tenor": "the beloved as the constant subject of the speaker's subconscious longing",
+            "vehicle": "dreams",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a sleeping figure with a surreal, dreamlike landscape floating above them, where the beloved's face or form is woven into the clouds or stars."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation does not capture the grammatical gender mismatch in the original Hindi text where 'सब कुछ' (masculine/neuter) is paired with the feminine adjective 'अधूरी' (adhuri) instead of the grammatically expected masculine 'अधूरा' (adhura).",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound sense of incompleteness in life without the beloved, contrasted with finding their essence in every aspect of existence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list detailing a typographical/phonetic loss in lines 1 and 3. This is internally inconsistent.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हारे बिना, तुमhare बिना,  \nतुम्हारे बिना, मेरी जिन्दगी अधूरी है।  \nतुम्हारे बिना, तुमhare बिना,  \nतुम्हारे बिना, मेरी हर खुशी अधूरी है।  \n\nहर एक रंग में तुम हो,  \nहर एक गीत में तुम हो,  \nहर एक ख्वाब में तुम हो,  \nतुम्हारे बिना, मेरा सब कुछ अधूरी है।",
+  "poem_id": "MV++_0818",
+  "poem_title": "Tumhare Bina",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "03cfa3a4130768ff88d771d509ee415974ad452d8e9197463c3c2d343e7b4f90",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0818.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Without you, without you,  \nWithout you, my life is incomplete.  \nWithout you, without you,  \nWithout you, my every joy is incomplete.  \n\nIn every color, you are there,  \nIn every song, you are there,  \nIn every dream, you are there,  \nWithout you, everything I have is incomplete.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:16:18.243875+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1be69b5c8379048e74bc8cfae22df5bcba4e21e3d8041ad7240fa9f702337e2f",
+        "response_hash": "7ca4af05a6f0b29a266994b4a5c69e19bd5ade123f95d8448444d293dc769e2d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f888b95c8f0b1646c847beddea62fad2c2012069b2898343f85535387b1cf095",
+        "response_hash": "36b935e0f55dcfabaf51172f97b3dc100cf5cfbd8919b706f263fd5dd264d860",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d7dd35d090631747a60695e29e247ec9a7aac40428052735c00deac295b2d92c",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0194525db2122cf97f548c15633a8ad24d000d0034f54a38191a8103e56a10ed",
+        "response_hash": "ab025fa37a08ac02dfe5a0b31103c5dd307b8baa149ae2e81fc31855f568ce5e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ad9f9ab488d1e900e6a57d47330f3ea2411638cd163f40aa835eda67fad13fc1",
+        "response_hash": "b4065786e7317afc64cda6845e8e563d404f20b124039a1785ff9ef72824508b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b6931afd61266c7ccb1e38cda359c93654e6e8a9664e83e6b16220368483b41",
+        "response_hash": "7faf1a04dee0f5ba3d630e1c83c5823ad9e94c0cb94dffd10a0b9b7d22d2240a",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c162c28c755d10e909b3a733a0b8791c5e140525c41039c21aecb49be256db57",
+    "translation_sha256": "c193decf5028daab2d324a8c35310294867f1621ed003e763c298354b8484bb6"
+  }
+}

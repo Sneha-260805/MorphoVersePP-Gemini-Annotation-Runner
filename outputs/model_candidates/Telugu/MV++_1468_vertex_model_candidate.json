@@ -1,0 +1,321 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An iconographic depiction of the goddess Lakshmi in traditional attire",
+          "A symbolic representation of auspiciousness and light in a traditional Telugu household"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Hindu goddess of wealth, fortune, and prosperity, used here metaphorically to describe the birth of a beloved daughter bringing auspiciousness to the home.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "Depicting a generic western angel or unrelated deity",
+          "Depicting a purely secular modern scene without any traditional Indian elements of auspiciousness"
+        ],
+        "preserved": true,
+        "romanization": "Sri Mahalakshmi",
+        "source_span_original": "శ్రీమహాలక్ష్మి",
+        "source_span_translation": "Sri Mahalakshmi",
+        "stanza_index": 6,
+        "term": "శ్రీమహాలక్ష్మి",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A traditional representation of Goddess Lakshmi, often depicted sitting or standing on a lotus flower, holding lotuses, and showering gold coins, symbolizing prosperity and grace."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A steady progression of joy, gratitude, and deep familial affection celebrating a daughter's birthday.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A highly pleasant, delightful, and joyful day.",
+            "acceptable_visual_variants": [
+              "A family smiling together around a child",
+              "Warm golden light illuminating a happy domestic scene"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "This sweet-tasting day",
+            "literalization_risk": "Depicting a literal sweet food item or sugar-coated calendar day would completely miss the emotional joy of the birthday celebration.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional pleasure",
+              "transferred_attributes": [
+                "desirability",
+                "delightfulness",
+                "positive sensory experience"
+              ],
+              "vehicle_concept": "sweet taste"
+            },
+            "source_span_original": "మధురమైన ఈ రోజు",
+            "source_span_translation": "This sweet day",
+            "source_term": "మధురమైన ఈ రోజు",
+            "tenor": "pleasantness/joy of a special day",
+            "vehicle": "sweetness (taste)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a warm, joyful family celebration with bright, warm lighting to visually convey the 'sweetness' of the occasion."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'A day that brings joy' simplifies the Telugu word 'maimarapinchina', which literally means 'causing one to forget oneself' or 'entrancing/spellbinding', losing the nuance of ecstatic self-forgetfulness.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 5,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The day when new hopes and aspirations began to grow or emerge.",
+            "acceptable_visual_variants": [
+              "A tiny green shoot emerging from rich soil in soft morning light",
+              "A young plant budding with fresh green leaves"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The day hopes sprouted/put forth tender leaves",
+            "literalization_risk": "Showing literal green leaves or sprouts growing out of a human body or heart would look bizarre and surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "birth of new hopes",
+              "transferred_attributes": [
+                "new growth",
+                "fresh beginnings",
+                "vitality"
+              ],
+              "vehicle_concept": "plant sprouting new leaves"
+            },
+            "source_span_original": "ఆశలు చిగురించిన రోజు",
+            "source_span_translation": "hopes blossom within us",
+            "source_term": "ఆశలు చిగురించిన రోజు",
+            "tenor": "emergence and growth of hope",
+            "vehicle": "sprouting/budding of a plant",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a small, delicate green sprout growing from fertile soil in the background, or use a subtle visual motif of budding plants alongside a happy family."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation 'blossom' for 'chigurinchina' loses the specific botanical imagery of sprouting or putting forth tender new green shoots/leaves, which is a distinct metaphor from flowering/blossoming.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 6,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The day our precious daughter was born, bringing prosperity and divine joy to our home.",
+            "acceptable_visual_variants": [
+              "A newborn baby girl wrapped in a soft cloth being held lovingly by her parents",
+              "A warm home entrance decorated with traditional festive garlands"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The day Goddess Sri Mahalakshmi manifested/descended in our home",
+            "literalization_risk": "Drawing a literal multi-armed deity descending from the heavens into a house would misrepresent a human daughter's birth as a literal mythological event.",
+            "metaphor_mapping": {
+              "tenor_concept": "birth of a daughter",
+              "transferred_attributes": [
+                "auspiciousness",
+                "divine blessing",
+                "immense value",
+                "joy"
+              ],
+              "vehicle_concept": "divine descent of the goddess of prosperity"
+            },
+            "source_span_original": "శ్రీమహాలక్ష్మి మా ఇంటవెలసిన రోజు",
+            "source_span_translation": "The day Sri Mahalakshmi graced our home",
+            "source_term": "శ్రీమహాలక్ష్మి మా ఇంటవెలసిన రోజు",
+            "tenor": "the birth of a beloved daughter bringing joy and auspiciousness",
+            "vehicle": "Goddess Lakshmi entering a home",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a newborn baby girl being welcomed into a warm, traditional home with auspicious decorations like mango leaves or a simple threshold design (muggu/rangoli)."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'graced our home' for 'ma intavelasina' loses the specific cultural-religious nuance of 'velayu', which refers to a deity manifesting, appearing, or enshrining themselves in a place.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 7,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A day that made everyone feel completely full of happiness.",
+            "acceptable_visual_variants": [
+              "Family members laughing and embracing each other",
+              "Bright, radiant expressions of joy on the faces of the parents"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The day that filled happiness (as a liquid/substance) into all of us",
+            "literalization_risk": "Showing people being literally filled with a glowing liquid or substance would look like a sci-fi or fantasy effect.",
+            "metaphor_mapping": {
+              "tenor_concept": "experiencing complete happiness",
+              "transferred_attributes": [
+                "fullness",
+                "abundance",
+                "completeness"
+              ],
+              "vehicle_concept": "filling a vessel to the brim"
+            },
+            "source_span_original": "ఆనందం నింపిన రోజు",
+            "source_span_translation": "Filling us all with happiness",
+            "source_term": "ఆనందం నింపిన రోజు",
+            "tenor": "making everyone feel intense happiness",
+            "vehicle": "filling a container with a substance",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Convey the concept of 'fullness of joy' through expressive body language, wide smiles, and open, embracing gestures of the family members."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 8,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound joy, hope, and sense of divine blessing brought to a family by the birth of a beloved daughter."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "పుట్టిన రోజు\n\nమధురమైన ఈ రోజు\n\nమరపురానిది ఈ రోజు\n\nమైమరపించిన ఈ రోజు\n\nమాలో ఆశలు చిగురించిన రోజు\n\nశ్రీమహాలక్ష్మి మా ఇంటవెలసిన రోజు\n\nమా అందరిలో ఆనందం నింపిన రోజు\n\nమా ముద్దుల అమ్మాయి పుట్టిన రోజు",
+  "poem_id": "MV++_1468",
+  "poem_title": "Puttinaroju",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7c29d5fcc1cac1b8105167660690f6dddb079f1b59fa97f3c37402f754d69da6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1468.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Birthday,\nThis sweet day,\nAn unforgettable day,\nA day that brings joy,\nA day when hopes blossom within us,\nThe day Sri Mahalakshmi graced our home,\nFilling us all with happiness,\nThe birthday of our beloved daughter.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:37:51.580003+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1a85bf62361d6619bb5ef0573355646678bcc3c7a886bbf674a98751f70de5c1",
+        "response_hash": "4590aff0fb96fa148a1fd20e669f9d82b03fe7d0dcd8cf24e67009fd2c665524",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9eb68700678aef7e07e547aaca201736b8d655023f9a5409be56df913f453b7a",
+        "response_hash": "e7ae69721fe3de7884ff331b101df2c158cbba9b57c1f3f6e7b3e6c9e06c25d3",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "25c119facd2cdd05c0a35545d15be51dc3c24c57e87ab8bc031d644793a5cdcd",
+        "response_hash": "98f8cf3b1bb7cb8c93b71054e337da9f39b84bc1b9b8419e504b60c48a832479",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2827cc228164d904485bc3d4c126d01eebd6addabbbc10008b03406c4699b60b",
+        "response_hash": "d7d13b4b7fa79023b1202c4bd48c9c395b939910626ce7257978fb359b001785",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cdceeb2b268d295d7ed4cfee5210acc9b09cc96364634763dbab1dbd4b9ea2a4",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3db2b6be6f2c0c8b3a06aa2590575c35f09c8da01c0d3a57cad160d8d1a2fd57",
+    "translation_sha256": "ee537de793caaa1dfea7635813f75feac2ce1286c508d944567451e2f80f787c"
+  }
+}

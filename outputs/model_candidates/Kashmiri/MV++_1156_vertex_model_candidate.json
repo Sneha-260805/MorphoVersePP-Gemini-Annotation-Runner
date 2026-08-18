@@ -1,0 +1,258 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A vast valley surrounded by snow-capped mountains under a dim sky",
+          "A quiet, snow-dusted village street with traditional wooden houses"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A mountainous region in the northern part of the Indian subcontinent, historically and culturally distinct, serving here as both the physical setting and the addressee of the poem.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Generic tropical Indian landscapes",
+          "Arid desert scenes",
+          "Highly modernized urban cityscapes"
+        ],
+        "preserved": true,
+        "romanization": "Kashmir",
+        "source_span_original": "کشمیر",
+        "source_span_translation": "Kashmir",
+        "stanza_index": 1,
+        "term": "کشمیر",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Mountainous valley landscape",
+          "Distinctive regional architecture",
+          "Muted, cold atmosphere"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing and isolation to deep grief and quiet despair",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces 'history of snow' which is a highly interpretive rendering of the original Kashmiri text's literal phrasing regarding seasons and waiting.",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces 'history of snow' and 'names of seasons' which are loose thematic adaptations rather than literal translations of the Kashmiri text in lines 3-4.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's life, homeland, or personal reality is broken, shattered, and no longer whole due to trauma or conflict.",
+            "acceptable_visual_variants": [
+              "A cracked window pane looking out onto a misty valley",
+              "A broken hand-mirror lying on the ground reflecting a gray sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "My world is in broken pieces / fragments",
+            "literalization_risk": "Showing a literal globe or map cracked into physical puzzle pieces, which looks like a fantasy graphic rather than a poignant emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "fractured life and homeland",
+              "transferred_attributes": [
+                "brokenness",
+                "loss of integrity",
+                "sharp edges",
+                "scattered state"
+              ],
+              "vehicle_concept": "shattered physical object"
+            },
+            "source_span_original": "میہٕ ژٔند ہٕندٕ ٹُھریٚ",
+            "source_span_translation": "My world is in fragments",
+            "source_term": "میہٕ ژٔند ہٕندٕ ٹُھریٚ",
+            "tenor": "The speaker's fractured life, state of mind, or homeland",
+            "vehicle": "Shattered fragments or broken shards of an object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a cracked mirror or a shattered glass pane reflecting a fractured, muted landscape of the valley, capturing the emotional sense of brokenness."
+          },
+          {
+            "abstract_meaning": "Families are violently separated, displaced, or destroyed by destructive forces (symbolized by the wind).",
+            "acceptable_visual_variants": [
+              "An abandoned courtyard with a gust of wind blowing autumn leaves and a discarded family photo across the stones",
+              "A tattered curtain blowing violently out of a broken window of an empty house"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Families torn apart or scattered by the wind",
+            "literalization_risk": "Depicting literal stick figures or people being physically blown into the air by a cartoonish wind gust, which trivializes the human tragedy.",
+            "metaphor_mapping": {
+              "tenor_concept": "displacement and separation of human families",
+              "transferred_attributes": [
+                "violence",
+                "uncontrollable force",
+                "separation",
+                "helplessness"
+              ],
+              "vehicle_concept": "wind tearing and scattering leaves or paper"
+            },
+            "source_span_original": "ہند گھرانی چھٕں ٹُرٕن دیٔندٕ",
+            "source_span_translation": "Of families torn by the wind",
+            "source_term": "ہند گھرانی چھٕں ٹُرٕن دیٔندٕ",
+            "tenor": "The forced separation and displacement of families due to conflict",
+            "vehicle": "A violent wind tearing objects apart or scattering them",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show an empty, damaged home with open doors and windows, with papers, photographs, or domestic items being swept away by a cold wind."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ہر پتھر' (every stone/rock) as 'Each shard' and 'گھرانی' (households/families) being 'torn by the wind' shifts the specific physical imagery of stones and broken structures to a more abstract metaphor of fragments and wind.",
+            "where": "L5-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The silence in the streets is heavy, active, and pervasive, suggesting fear, abandonment, or mourning.",
+            "acceptable_visual_variants": [
+              "An empty alleyway in a village with closed doors and windows under a dim sky",
+              "A deserted street corner with a single flickering streetlamp casting long shadows"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L10",
+            "literal_meaning": "Where silence walks/moves through the streets",
+            "literalization_risk": "Depicting a literal ghostly figure labeled 'Silence' walking down a street, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "pervasive silence in empty streets",
+              "transferred_attributes": [
+                "movement",
+                "presence",
+                "quietness",
+                "haunting quality"
+              ],
+              "vehicle_concept": "a quiet traveler or ghost walking"
+            },
+            "source_span_original": "جہاں خاموشی راستۂ سٕرۂِ",
+            "source_span_translation": "Where silence moves through the streets",
+            "source_term": "جہاں خاموشی راستۂ سٕرۂِ",
+            "tenor": "The absolute, oppressive quietness and lack of life in the public spaces",
+            "vehicle": "A living entity walking or moving through the pathways",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render an empty, desolate street at twilight with long shadows, completely devoid of people, conveying the heavy presence of silence through visual emptiness."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'جہاں سورج سُنٛن نہ کرن' (where the sun has no golden rays / does not shine gold) as 'Where the sun sets without a sound' alters the visual imagery of light and gold to an auditory metaphor of silence.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound sense of isolation, loss, and quiet devastation in a fractured homeland."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing significant shifts in imagery (e.g., 'ہر پتھر' translated as 'Each shard' and 'گھرانی' being 'torn by the wind'). This is inconsistent with a fully faithful translation.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kashmiri",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "کشمیر، کی چھٕ پوٚست آفِس  \nراتی گٕلٕوٚن گٕچھٕ؟  \nچھٕس یٲتٕھ ہند کھیسِت پٲٹھ  \nاور موسمٕ آوٚن چھٕنٕ۔\n\nمیہٕ ژٔند ہٕندٕ ٹُھریٚ  \nہر پتھر چھٕ یِک زٲندَک  \nہند گھرانی چھٕں ٹُرٕن دیٔندٕ  \nبچٕو چھٕں ہنوز وٛچھیٚن۔\n\nمٕنٕس کی زٲند زِندٕرٕ  \nجہاں خاموشی راستۂ سٕرۂِ  \nجہاں سورج سُنٛن نہ کرن  \nاور سایے بےخبر پھلٕن۔",
+  "poem_id": "MV++_1156",
+  "poem_title": "Kashmir",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c204a5eaca52cb5e403dd49d6063dd0fe4c74a0c6261209299d3fec7c6f9a79b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kashmiri/MV++_1156.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Kashmir, is there a post office,  \nFor letters arriving at dusk?  \nWe are waiting to be told the history of snow  \nAnd learn the names of seasons.\n\nMy world is in fragments,  \nEach shard reflects a life,  \nOf families torn by the wind,  \nOf children who still wait to be found.\n\nLet me speak to you of the valley,  \nWhere silence moves through the streets,  \nWhere the sun sets without a sound,  \nAnd shadows fall unnoticed.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:03:57.178822+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c951ec096005b4cf747eef5a5748d2bdfad6217917f9d547e6b116d81fbc4686",
+        "response_hash": "4b5f6db2190fe77ad4a2897fc46962a2613acd8a910e92c6759af6b2e4fabc22",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "871b49ef852fc9c74accb70c545c0e79dc42ecabb7e1a885975bbd970a1fbce7",
+        "response_hash": "45667f5430c6f393723a41e4c520db93cc8c45ac2dba3e4730e7af5a5d2473fd",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "35f31949b93395984cf616ebb347fdefbde3eef9df5ab1e7edd0c27b88eef3ce",
+        "response_hash": "8d9d2552546e04dcb21561cfe8360c9ab581e78b1486f5717f872f1880f01231",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "454a7d44a197ebdddc772dcb2b823ee0b74782c4d350d43015a5653a2c07ef78",
+        "response_hash": "13b6a426f2a2d4aa0abc356e0f557a8c9870efc019983bed4e1dbfc57ba30ff6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fb79819e7dfc4e155e0831fd2bc60a6533d6a26bbcb21d5cd24b09bae2d7a6a0",
+        "response_hash": "0d27d5e34a2912ba844230af738b6d394030fd2e8d18dadb8417bbbdefa4d024",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c5f6fb6df75110a0279cf5bdbdb80dc9c91d5e89a92fec28d0394a2e444675e0",
+    "translation_sha256": "1d8c09239d889be96d0d63caa3007508a121015ce6cff2d0787a962d08096c0e"
+  }
+}

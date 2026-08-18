@@ -1,0 +1,313 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "unwavering resilience and determination from beginning to end",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation adds the word 'wrath' to rhyme with 'path', which is not present in the original Hindi text ('lagan' means dedication/resolve).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker will continuously struggle against and overcome life's obstacles and hardships.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person standing firm against stylized, swirling blue and grey wave patterns.",
+              "A person walking forward through a symbolic storm of wind and water."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "I will keep physically fighting or battling water waves.",
+            "literalization_risk": "An illustrator might literally depict a person physically wrestling with water waves in an ocean, which misses the abstract context of personal resilience.",
+            "metaphor_mapping": {
+              "tenor_concept": "life obstacles",
+              "transferred_attributes": [
+                "relentless force",
+                "unpredictability",
+                "necessity of active struggle to survive"
+              ],
+              "vehicle_concept": "ocean waves"
+            },
+            "source_span_original": "लहरों से लड़ता रहूँगा",
+            "source_span_translation": "I’ll keep fighting the waves",
+            "source_term": "लहरों से लड़ता रहूँगा",
+            "tenor": "struggling against life's difficulties and challenges",
+            "vehicle": "fighting ocean or water waves",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized figure standing strong against surging, abstract wave-like forces or turbulent patterns."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the word 'wrath' to force a rhyme with 'path', which is absent in the original Hindi text. The original 'lagan' means dedication, devotion, or relentless resolve, carrying no connotation of anger or wrath.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of line 8 ('And every challenge defies') slightly alters the active grammatical subject of the original Hindi, where the inner lamp/light ('deep') is what will clash with or confront every difficulty.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The current situation or phase of life is extremely difficult, bleak, or full of despair.",
+            "acceptable_visual_variants": [
+              "A figure surrounded by dense, swirling dark mist or shadows.",
+              "A dark landscape with a tiny, distant point of light."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L5",
+            "literal_meaning": "The physical environment is pitch black or lacks light.",
+            "literalization_risk": "Depicting a simple unlit room or night scene without any emotional weight or symbolic contrast.",
+            "metaphor_mapping": {
+              "tenor_concept": "adversity and hopelessness",
+              "transferred_attributes": [
+                "obscurity",
+                "fear",
+                "lack of direction"
+              ],
+              "vehicle_concept": "physical darkness"
+            },
+            "source_span_original": "अंधेरा है घना",
+            "source_span_translation": "the darkness is deep",
+            "source_term": "अंधेरा है घना",
+            "tenor": "difficult times or despair",
+            "vehicle": "dense darkness",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use deep, heavy shadows encroaching on a figure to represent the oppressive nature of the challenges."
+          },
+          {
+            "abstract_meaning": "Better times, relief, and success will eventually arrive after the period of hardship.",
+            "acceptable_visual_variants": [
+              "A golden horizon line cutting through dark clouds.",
+              "Warm light illuminating the face of a determined figure."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L6",
+            "literal_meaning": "The sun will rise in the morning.",
+            "literalization_risk": "A literal sunrise might look like a generic landscape postcard rather than a symbol of hope overcoming struggle.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and resolution",
+              "transferred_attributes": [
+                "brightness",
+                "new beginning",
+                "inevitability after night"
+              ],
+              "vehicle_concept": "dawn"
+            },
+            "source_span_original": "सुबह आएगी",
+            "source_span_translation": "Dawn will rise",
+            "source_term": "सुबह आएगी",
+            "tenor": "hope, relief, and better times",
+            "vehicle": "morning/dawn",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a warm, golden light breaking through the heavy dark shadows surrounding the figure."
+          },
+          {
+            "abstract_meaning": "The speaker's inner strength, hope, and soul will remain resilient and active.",
+            "acceptable_visual_variants": [
+              "A soft golden glow emanating from within a person's silhouette.",
+              "A person holding their hands over their heart, with light spilling through their fingers."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "An actual oil lamp or candle will burn inside my physical body.",
+            "literalization_risk": "An illustrator might literally draw a physical clay lamp inside a transparent chest cavity, which looks bizarre or anatomically surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner strength and hope",
+              "transferred_attributes": [
+                "warmth",
+                "light-giving",
+                "resistance to external darkness"
+              ],
+              "vehicle_concept": "burning lamp"
+            },
+            "source_span_original": "मेरे भीतर का दीप जलेगा",
+            "source_span_translation": "The light within me will burn",
+            "source_term": "मेरे भीतर का दीप जलेगा",
+            "tenor": "inner hope, soul, and resilience",
+            "vehicle": "a burning lamp inside",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing light radiating softly from the chest or heart area of a silhouette."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'har mushkil se takraegi' as 'And every challenge defies' alters the grammatical subject and agency. In the original, the inner light ('deep') is the active force that will clash with or confront every difficulty, whereas the translation makes 'challenge' the active subject that defies.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker is intensely focused on and motivated by the vision of achieving victory.",
+            "acceptable_visual_variants": [
+              "A close-up of a person's eyes looking upward with determination, reflecting a golden glow.",
+              "A profile of a person looking toward a bright, distant peak."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "Having a literal dream about winning physically located inside one's eyeballs.",
+            "literalization_risk": "Drawing literal scenes of trophies or victory flags inside giant eyeballs, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental focus and hope",
+              "transferred_attributes": [
+                "visibility",
+                "guiding vision"
+              ],
+              "vehicle_concept": "physical object in the eyes"
+            },
+            "source_span_original": "जीत का सपना आँखों में",
+            "source_span_translation": "With victory’s dream in my eyes",
+            "source_term": "जीत का सपना आँखों में",
+            "tenor": "intense focus and aspiration for success",
+            "vehicle": "a dream residing inside the eyes",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of determined eyes reflecting a warm, bright light or a distant golden horizon."
+          },
+          {
+            "abstract_meaning": "The speaker will completely crush, defeat, and overcome every obstacle.",
+            "acceptable_visual_variants": [
+              "A foot stepping firmly on a cracked stone path, breaking the obstacles beneath.",
+              "A hand breaking a symbolic chain or barrier."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "Physically grinding or crushing abstract difficulties with one's hands or feet.",
+            "literalization_risk": "Showing a giant foot stepping on words or literal blocks labeled 'difficulties', which is overly literal and text-heavy.",
+            "metaphor_mapping": {
+              "tenor_concept": "overcoming obstacles",
+              "transferred_attributes": [
+                "destruction of the barrier",
+                "physical dominance",
+                "effortless resolution"
+              ],
+              "vehicle_concept": "crushing a physical object"
+            },
+            "source_span_original": "हर मुश्किल को मसलूँगा",
+            "source_span_translation": "Crushing each hurdle today",
+            "source_term": "हर मुश्किल को मसलूँगा",
+            "tenor": "overcoming and defeating abstract difficulties",
+            "vehicle": "crushing or grinding a physical object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a figure stepping firmly onto rough, cracked, or rocky ground, symbolizing stepping over and breaking through barriers."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the temporal word 'today' to create a rhyme with 'way', which is not present in the original Hindi text. The original focuses on the continuous, future-oriented determination ('chalunga', 'maslunga') without limiting the action to 'today'.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The indomitable human spirit overcoming adversity through inner strength and relentless resolve."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing that the word 'today' was added to force a rhyme, which is a contradiction. The quality should be 'partial' if there is a documented loss, or the loss list should be empty.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ना हार मानूँगा,  \nचाहे राहें हों कठिन।  \nलहरों से लड़ता रहूँगा,  \nमुझमें है अनथक लगन।\n\nअगर अंधेरा है घना,  \nतो क्या हुआ, सुबह आएगी।  \nमेरे भीतर का दीप जलेगा,  \nहर मुश्किल से टकराएगी।\n\nजीत का सपना आँखों में,  \nमैं अपने पथ पर चलूँगा।  \nना हार मानूँगा,  \nहर मुश्किल को मसलूँगा।",
+  "poem_id": "MV++_0578",
+  "poem_title": "Na Haar Maanu Ga",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "dcc8ab21ef8a17b9dc01dbe1dfcbfa51dc255883343011324e1431adf1ad4f98",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0578.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I will not give up,  \nNo matter how hard the path.  \nI’ll keep fighting the waves,  \nWith relentless resolve, my wrath.\n\nIf the darkness is deep,  \nSo what? Dawn will rise.  \nThe light within me will burn,  \nAnd every challenge defies.\n\nWith victory’s dream in my eyes,  \nI’ll walk on my way.  \nI will not give up,  \nCrushing each hurdle today.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:40:45.346181+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "82513b8a07e26380cd7231b2095bbe2005c1cdf975ea76d32f091a7cc1487d8f",
+        "response_hash": "d123d3d603cf09afd0b8b0df051861ac90acaa36a29520bd239154926901fc23"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "56c0eda94042c2889d8e834e52093d5ffb5138a0be5a0bd01d3655ef33d510ef",
+        "response_hash": "916815e8c9de7e31072836e511fd7e4f6005985d5894688b7d16b2e0b175377c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4e06f3cc34c6f2c776ad2edac1ce90bcbb60b1fbdece47ef0c17c926520c4ef6",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c19eed7d6c864ad8725acb911d1f240eaaebaf4ff1b97a99b9be8cb313a9fa91",
+        "response_hash": "b62137dca4dd12f9249fd0994b335956e84358fce41070371551da3e7f9c92fa",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a27dc5d2ed8642b1dfebd146cf58e243c7b540506ce0fadbd12db1e6a3d8d352",
+        "response_hash": "522ba47898ff3d68999d8f59811ee364fa06d461f6074f1e043aebda1f3cca68",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d295b4fa1d0a3cd1f17edd9d85c86872b38e679b730a6614a911cc753d3fdb21",
+        "response_hash": "f5ac1990d1e8c17dacdd487cbdac6b6874f1e98310a60429c394a6ea95996e67",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6f5c1585b3327d1908f0268ea846ad5609e7b2208cd594ebda3a57def886f908",
+    "translation_sha256": "5b64505a6b7b101ac67ee2a7486ed453dd63deb0f060dfd03bf41eb9dc148080"
+  }
+}

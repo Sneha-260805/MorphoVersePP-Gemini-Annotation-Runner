@@ -1,0 +1,161 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'saaya' (shadow/presence) as 'inspired' in L4 alters the visual and metaphorical nuance of a protective or lingering shadow, shifting it to an internal psychological state.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker felt a deep emotional desire or longing, attributed to the heart as an active agent.",
+            "acceptable_visual_variants": [
+              "A person looking out a window with a hand over their chest",
+              "A silhouette of a person in a warm, soft light reflecting on their inner feelings"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The physical heart desired/willed",
+            "literalization_risk": "Depicting a literal, anatomical heart with a face or hands expressing desire would look cartoonish and lose the emotional depth of the longing.",
+            "metaphor_mapping": {
+              "tenor_concept": "the speaker's emotional state",
+              "transferred_attributes": [
+                "will",
+                "desire",
+                "agency"
+              ],
+              "vehicle_concept": "an independent agent with desires"
+            },
+            "source_span_original": "दिल ने चाहा",
+            "source_span_translation": "the heart desired",
+            "source_term": "दिल ने चाहा",
+            "tenor": "The speaker's emotional longing and inner feelings",
+            "vehicle": "An active, desiring agent with its own will",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a reflective, longing posture, perhaps with a hand placed gently over their chest to symbolize the internal emotional pull."
+          },
+          {
+            "abstract_meaning": "The constant, comforting presence or influence of the beloved accompanying the speaker.",
+            "acceptable_visual_variants": [
+              "A soft, translucent figure standing beside the speaker in a warm light",
+              "A gentle, protective silhouette overlapping with the speaker's own shadow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "your shadow",
+            "literalization_risk": "Showing a literal dark shadow cast on the ground might look ominous or ghostly, which contradicts the warm, joyful context of the line.",
+            "metaphor_mapping": {
+              "tenor_concept": "the persistent memory or presence of a loved one",
+              "transferred_attributes": [
+                "closeness",
+                "constant accompaniment",
+                "inseparability"
+              ],
+              "vehicle_concept": "a shadow that constantly follows a person"
+            },
+            "source_span_original": "तेरा साया",
+            "source_span_translation": "you inspired",
+            "source_term": "तेरा साया",
+            "tenor": "The beloved's constant presence or memory",
+            "vehicle": "A shadow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm silhouette or a gentle, glowing outline of a person standing close to the main figure, suggesting a comforting presence rather than a dark shadow."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'saaya' (shadow/presence) as 'inspired' changes the literal meaning and loses the intimate, protective, or haunting imagery of a shadow accompanying someone in every joy.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The complex interplay of love, compulsion, and the enduring desire for a beloved's presence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कुछ इश्क़ था कुछ मजबूरी,  \nफिर भी दिल ने चाहा।  \nहर एक लम्हा तेरे साथ,  \nहर ख़ुशी में तेरा साया।",
+  "poem_id": "MV++_0416",
+  "poem_title": "Kuchh Ishq Tha Kuchh Majboori",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0237f68f7b4dff06d9b167071bbcd5bc6ef6208000bee6ac37976b1c1d592d83",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0416.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Some love, some compulsion,  \nYet the heart desired.  \nEvery moment with you,  \nIn every joy, you inspired.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:22:23.332203+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7400043019a97ec89a6900dbeb98aa7ce9bb5fa6fcd4b5f1f156e81a7b537784",
+        "response_hash": "9bf462ac22ebe2e5af387b15a804b64782c6c16182ac60aed65d2db0b6df6875",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b83a2b676b7c919d1bb50bce2bc8ff7b204edb75577a6f20f3259686f133fe6b",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6b915a886f3b891142b1f2d589ad41d8c974bd37ea9e962e0db608ddf9feea16",
+        "response_hash": "7a2209e845124aa0ec552521b7c814ac1a8b25306e817030354c3cc346ed17c6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ef710c958b47199fbb175f6208ba947a4d6648d95c0663cb88632b1e3b4a5526",
+        "response_hash": "e3a8bfb679749301c7c091bb34dc76e5e688dbfb63f20c688afdee0e5cf29275",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f0aaba65fc701a91ee91f691e876a01e173a2d0d423e96f28f93ca9afd5ec84",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "720d4bc53a7ce3b55cb512c65bde1a708c6b8dedf92e89fa377fda54c15a127c",
+    "translation_sha256": "26e0a2b728a1490fa8b663c74dac3289624fa4a5fcef9a0fbb72c6645d2fa235"
+  }
+}

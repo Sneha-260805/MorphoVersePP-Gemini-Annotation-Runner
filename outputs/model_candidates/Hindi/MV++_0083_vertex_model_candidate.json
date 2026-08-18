@@ -1,0 +1,212 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and struggle to quiet resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'ek khwaab' (a dream) as 'a dream' loses the feminine grammatical agreement of 'basi thi' (was nestled/settled) which personifies the dream as a feminine presence in the heart.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A cherished dream or hope was deeply held within the speaker's inner self.",
+            "acceptable_visual_variants": [
+              "A person looking reflective with a warm, glowing light emanating from their chest",
+              "A silhouette of a person with a faint, beautiful landscape visible inside their chest area"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A dream was residing/dwelling in the physical heart",
+            "literalization_risk": "Showing a literal miniature dream-bubble or sleeping figure physically sitting inside a biological heart organ, which looks grotesque or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "holding an aspiration in one's mind/heart",
+              "transferred_attributes": [
+                "residing",
+                "settling",
+                "occupying a safe space"
+              ],
+              "vehicle_concept": "dwelling in a physical house"
+            },
+            "source_span_original": "दिल में बसी थी एक ख्वाब",
+            "source_span_translation": "A dream nestled in the heart",
+            "source_term": "दिल में बसी थी एक ख्वाब",
+            "tenor": "A hope or aspiration held deeply in the mind or emotional self",
+            "vehicle": "A resident or dweller settling into a home",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing light or a faint, symbolic image of a desired goal (like a distant horizon or a peaceful home) superimposed over a person's chest area."
+          },
+          {
+            "abstract_meaning": "Every moment of life was filled with intense struggle, effort, and difficulty.",
+            "acceptable_visual_variants": [
+              "A person walking against a strong, dark wind with a determined expression",
+              "A series of overlapping clocks or hourglasses surrounded by stormy, turbulent waves"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Every single moment of time was a literal military battle or war",
+            "literalization_risk": "Depicting literal soldiers, swords, or modern warfare weaponry for every second of a clock, which misrepresents a personal, emotional struggle as a physical war.",
+            "metaphor_mapping": {
+              "tenor_concept": "daily life struggles",
+              "transferred_attributes": [
+                "conflict",
+                "exhaustion",
+                "constant alertness",
+                "difficulty"
+              ],
+              "vehicle_concept": "warfare/battle"
+            },
+            "source_span_original": "हर लम्हा एक जंग थी",
+            "source_span_translation": "Every moment a battle",
+            "source_term": "हर लम्हा एक जंग थी",
+            "tenor": "The continuous daily struggles and hardships of life",
+            "vehicle": "A military battle or war",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person facing a series of steep, challenging everyday obstacles (like climbing a steep hill in harsh weather or navigating a chaotic, overwhelming path) to represent the constant struggle."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender mismatch in the original Hindi text where 'khwaab' (masculine) is paired with the feminine verb form 'basi thi' is lost in the English translation, which uses the gender-neutral 'nestled'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'kashish' as 'strong' (determination was strong) loses the specific Urdu-derived nuance of 'kashish' which means attraction, pull, or magnetic charm, suggesting an inner magnetic pull toward one's goals rather than just raw strength.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's ultimate life goals or aspirations were very difficult to reach and far from being achieved.",
+            "acceptable_visual_variants": [
+              "A winding path leading towards a distant, glowing horizon under a vast sky",
+              "A person standing at the edge of a cliff looking at a far-off light across the sea"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The physical destinations or end-points of a journey were located at a great physical distance",
+            "literalization_risk": "Depicting literal road signs or milestone markers with high distance numbers, which reduces life aspirations to a simple highway trip.",
+            "metaphor_mapping": {
+              "tenor_concept": "life goals and aspirations",
+              "transferred_attributes": [
+                "distance",
+                "effort required to reach",
+                "visibility but lack of immediate access"
+              ],
+              "vehicle_concept": "physical travel destination"
+            },
+            "source_span_original": "मंजिलें दूर थीं",
+            "source_span_translation": "Destinations far away",
+            "source_term": "मंजिलें दूर थीं",
+            "tenor": "Life goals, success, or personal aspirations that are difficult to achieve",
+            "vehicle": "A distant physical destination or mountain peak on a journey",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a tiny figure looking towards a majestic, glowing peak or city skyline shrouded in distant mist across a vast valley."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'kashish' (which carries connotations of attraction, pull, allure, or magnetic charm) as 'strong' flattens the poetic nuance of a magnetic pull or allure in one's intentions/determination into a generic attribute of strength.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The delicate balance between love, work, and inner determination amidst life's constant struggles."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कुछ इश्क था कुछ काम,  \nजिंदगी की तलाश में,  \nदिल में बसी थी एक ख्वाब,  \nहर लम्हा एक जंग थी।  \n\nआँखों में आँसू थे,  \nहोंठों पे हंसी थी,  \nमंजिलें दूर थीं,  \nपर इरादों में कशिश थी।",
+  "poem_id": "MV++_0083",
+  "poem_title": "Kuchh Ishq Tha Kuchh Kaam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ade5a57a3cd7e2d5c9ef95a4cf50a500cf85e1a3a11960b51485de39bca07969",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0083.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Some love, some work,  \nIn the quest for life,  \nA dream nestled in the heart,  \nEvery moment a battle.  \n\nTears in the eyes,  \nA smile on the lips,  \nDestinations far away,  \nYet determination was strong.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:44:47.959045+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5db9475b2e630f4c110f070666c889b9976cfcf2980f4ad3cb93d4b2b85546b5",
+        "response_hash": "9dff90f583847923e543adf4c514e7c04c94989b3ed6856eef2edb53e532dbc0"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "de1352abebf7ab217762090e74b0682dc4b73d848a6468d5b29d5942246df0a1",
+        "response_hash": "83ad64de2da4f02a608d1106688ebfdc5d39ba8f7ab9af8171e297e017ac1408",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "58abc8ad912058f94034f478903838588823bb2a8bb98d5ff473104be521fe32",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c32f7467c57921e7d6d11febee2d27ced62382e2f0ab073b1fb44715ea89fb07",
+        "response_hash": "8d398827a085a9e15981d30b51e059bc737ac343897618d5bc5a26fe8382042b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6f106be3297c80b1bb21d65603e8c4175086c0d570e7e2585c263acd9b8c9353",
+        "response_hash": "23f102a04f192a1d9d10ab6f6dea530e04113abaa80640af252a2723380d8b31",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "77d849f569a6d215b1c0f8c1e56c31b1f2aa543ca221f9fdbe281ee458933b09",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a5f37522b68a76b0279a297331e3033dca6dbbe5b2875d96ab4732c746e08ca5",
+    "translation_sha256": "d75a271c730919b1f488236233991409a89e0c6df753e1af54f09677b2df02c9"
+  }
+}

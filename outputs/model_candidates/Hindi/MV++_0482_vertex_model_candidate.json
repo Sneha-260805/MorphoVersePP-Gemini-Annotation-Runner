@@ -1,0 +1,257 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A highly specific, culturally resonant Hindi term describing the pleasant, earthy aroma of dry soil when first struck by rain (petrichor), carrying deep nostalgic and seasonal associations in South Asia.",
+        "line_ref": "L3",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "sondhi",
+        "source_span_original": "सौंधी",
+        "source_span_translation": "earthy",
+        "stanza_index": 1,
+        "term": "सौंधी",
+        "translation_note": "Translated as 'earthy fragrance', which captures the literal sense but loses the specific cultural association with the scent of dry earth meeting the first monsoon rains.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'sondhi' as 'earthy' captures the literal sense but loses the specific cultural and sensory association of the pleasant smell of dry soil wet by rain in India.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The lingering fragrance of a flower from a past season evokes the persistent emotional presence of past memories.",
+            "acceptable_visual_variants": [
+              "A close-up of a single blooming flower in a traditional stone courtyard with soft sunlight filtering through.",
+              "A wider shot of a quiet courtyard corner where a single flower stands out amidst newer green shoots."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Like memories of a past moment",
+            "literalization_risk": "An illustrator might try to draw literal thought bubbles or ghostly figures representing memories floating in the air next to the flower, which would clutter the scene and look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "lingering fragrance",
+              "transferred_attributes": [
+                "persistence",
+                "evocative power",
+                "association with the past"
+              ],
+              "vehicle_concept": "lingering memories"
+            },
+            "source_span_original": "जैसे यादें किसी बीते पल की",
+            "source_span_translation": "Like memories of a moment gone by",
+            "source_term": "जैसे यादें किसी बीते पल की",
+            "tenor": "the lingering earthy fragrance of the flower from the past season",
+            "vehicle": "memories of a past moment lingering in the mind",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a single, slightly weathered but still beautiful flower blooming in a quiet courtyard, with soft, warm lighting to suggest a nostalgic atmosphere. Avoid literalizing the memories."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific sensory nuance of 'sondhi' (the pleasant, distinct smell of dry earth when first rain falls) is simplified to 'earthy' in English, losing its deep cultural and seasonal resonance.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The flower's physical endurance through changing weather symbolizes its role as a silent observer of time passing.",
+            "acceptable_visual_variants": [
+              "A flower captured in a split-screen or time-lapse style showing subtle color shifts under different light (morning sun vs. evening shadow).",
+              "A single flower standing resiliently against a gentle breeze in an empty courtyard."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7-L8",
+            "literal_meaning": "As if it is giving testimony to time, becoming a witness to every past moment.",
+            "literalization_risk": "An illustrator might draw a flower with human eyes, a face, or holding a witness scroll/book, which would ruin the poetic, naturalistic tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "an enduring flower",
+              "transferred_attributes": [
+                "presence over time",
+                "silent observation",
+                "preservation of history"
+              ],
+              "vehicle_concept": "a witness testifying"
+            },
+            "source_span_original": "मानो समय की साक्षी दे रहा हो,\nहर बीते लम्हे का गवाह बन रहा हो।",
+            "source_span_translation": "As if bearing witness to time,\nStanding as a testament to each passing moment.",
+            "source_term": "मानो समय की साक्षी दे रहा हो, हर बीते लम्हे का गवाह बन रहा हो।",
+            "tenor": "the flower enduring and changing color through the seasons",
+            "vehicle": "a legal or formal witness testifying to events",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the flower swaying in the wind with sunlight casting a long shadow, suggesting the passage of time (like a sundial) without adding human features to the plant."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic parallel and subtle distinction between 'sakshi' (bearing witness/testimony, often with a sacred or formal connotation) and 'gawah' (witness, of Persian/Urdu origin) is flattened into similar English terms ('bearing witness' and 'testament').",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The permanent, unfading nature of the flower's color and scent represents the indestructible nature of cherished memories in a corner of the mind.",
+            "acceptable_visual_variants": [
+              "A warm, golden-lit corner of a stone courtyard where the single flower blooms brightly.",
+              "A close-up of the flower with soft-focus background elements suggesting a peaceful, timeless space."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L13-L14",
+            "literal_meaning": "Like a corner of old memories that will always remain alive.",
+            "literalization_risk": "An illustrator might draw a literal brain or a dusty room corner filled with old photographs, which disrupts the natural courtyard setting of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "the enduring scent and color of a flower",
+              "transferred_attributes": [
+                "permanence",
+                "emotional warmth",
+                "preservation from decay"
+              ],
+              "vehicle_concept": "a preserved corner of memories"
+            },
+            "source_span_original": "जैसे पुरानी यादों का एक कोना\nहमेशा जीवित रहेगा।",
+            "source_span_translation": "Like a corner of old memories\nThat will forever stay alive.",
+            "source_term": "जैसे पुरानी यादों का एक कोना हमेशा जीवित रहेगा।",
+            "tenor": "the unfading color and scent of the old flower",
+            "vehicle": "a physical corner of a room or mind where old memories stay alive",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the physical flower's vibrant color contrasting with a slightly weathered, rustic courtyard corner, emphasizing its quiet endurance."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender mismatch where 'rang' (color, masculine) and 'mahak' (scent, feminine) are paired with the singular feminine verb 'khoyegi' (will not be lost) is simplified in English to 'will never fade', losing the specific Hindi grammatical agreement choice.",
+            "where": "L11-L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring nature of memories symbolized by a persistent flower from a past season"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'partial' but the loss_note is empty (the loss is only detailed in the translation_loss array). Usually, a non-faithful translation quality should have a brief summary in loss_note.",
+      "severity": "low"
+    },
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the translation_note/gloss explain that the specific cultural nuance is lost. This is slightly inconsistent; 'preserved' should ideally be false or null if the core cultural nuance is lost.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पिछले मौसम का फूल  \nअब भी खिला है मेरे आँगन में,  \nसौंधी महक फैलाए  \nजैसे यादें किसी बीते पल की।  \n\nहवा के साथ झूमता है,  \nधूप में रंग बदलता है,  \nमानो समय की साक्षी दे रहा हो,  \nहर बीते लम्हे का गवाह बन रहा हो।  \n\nबीत गई ऋतुएं,  \nनए फूल आएंगे  \nपर इसका रंग और महक  \nकभी नहीं खोएगी,  \nजैसे पुरानी यादों का एक कोना  \nहमेशा जीवित रहेगा।",
+  "poem_id": "MV++_0482",
+  "poem_title": "Pichle Mausam Ka Phool",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9e7de5bd3060eac3d98bc73aa9bf52309de4c87f805e4827becbdfff8c6418df",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0482.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The flower of the past season  \nStill blooms in my courtyard,  \nSpreading an earthy fragrance,  \nLike memories of a moment gone by.\n\nIt sways with the breeze,  \nChanges color in the sunlight,  \nAs if bearing witness to time,  \nStanding as a testament to each passing moment.\n\nSeasons will pass,  \nNew flowers will come,  \nBut its color and scent  \nWill never fade,  \nLike a corner of old memories  \nThat will forever stay alive.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:29:44.692248+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "caae517916ef7a0a359671bf13bc5cbc85cf6353a755d024f8f4b13602e10acf",
+        "response_hash": "c226f7533448007722ec83f3ef990c3fc3d84ed059f90077fe7bf6727bf35aa4"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b127226d466365d57d14166172b07165781531cef5550a3a4e17fcc5f8a4c19a",
+        "response_hash": "8aa9198b41cc6ce9fb5f992ff89d2701585373471e86f3cd9bc0f8bb2357b2b1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "10ab6a82385f279a071b22a0643fc306d3183ac6133b6cc641e5c6ef5d2d2e67",
+        "response_hash": "bbab8863da0c5d155f562e036b83289077c846cd60b571438cc2aca46cc070d3",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dd3c37cef0ff997ac0001f6d8a6caecf80f8af4674c412dc3b4fd50f2a336ffa",
+        "response_hash": "cb0ce78dd442093fc9ff99591b147ed67c4bcd02a12a0f6a78377c93d4744fa9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6747a4fb9e900b9d22ccfba37370fc16f3846a180486c0672be932b39ddf3bcc",
+        "response_hash": "47c5257a2a1a4a9f6464a22b97084f7d6a0763fc4a716b9cf093a460d4ff78f0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7ccd89fbc22c557e16cbc3d1d4e25b4f2ddfaacc00c3e69843e65ad8652d6608",
+        "response_hash": "4ee1d7902e5416d63d7f299393fcbb1c765c73d33fb0bd622dc42c75a04eb4dc",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "8f5890f58e4140c05a71e437d4495e6427499aaf44c5ccc2affa59eeab67c536",
+    "translation_sha256": "3e71d60d434a28f4ed7a62b51da0e071012f4546018a8782cac1cb92cac15ab1"
+  }
+}

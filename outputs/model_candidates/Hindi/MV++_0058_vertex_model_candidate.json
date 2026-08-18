@@ -1,0 +1,178 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "grief and quiet resignation",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation flattens the colloquial emphasis of the particle 'to' in 'tumne to kaha tha' (which adds a layer of gentle accusation or contrast) and the specific nuance of 'yun hi' (just like this / effortlessly).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The emotional pain of heartbreak, grief, or disappointment in love.",
+            "acceptable_visual_variants": [
+              "A person sitting alone in a dimly lit room looking downcast",
+              "A stylized silhouette with a faint, glowing crack in the center of the chest"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L2",
+            "literal_meaning": "The physical heart shattered into pieces.",
+            "literalization_risk": "Showing a literal anatomical heart cracking or breaking like glass, which looks like a medical emergency or a horror scene rather than emotional grief.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional heartbreak",
+              "transferred_attributes": [
+                "brokenness",
+                "irreversibility",
+                "pain"
+              ],
+              "vehicle_concept": "shattering object"
+            },
+            "source_span_original": "दिल टूट गया",
+            "source_span_translation": "heart broke",
+            "source_term": "दिल टूट गया",
+            "tenor": "The emotional state of grief and heartbreak.",
+            "vehicle": "A physical object breaking or shattering.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking downcast with a subtle, symbolic crack or shadow over their chest area, or focus on their sorrowful expression and posture."
+          },
+          {
+            "abstract_meaning": "An immense, overwhelming volume of tears and grief.",
+            "acceptable_visual_variants": [
+              "A person standing on a dark, vast shoreline looking out at a turbulent sea",
+              "A stylized illustration where tears flowing from a face merge into wavy, ocean-like blue lines"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "A literal ocean made entirely of tears.",
+            "literalization_risk": "Depicting a literal person drowning in a massive body of blue water, which looks like a natural disaster or flood rather than a metaphor for crying.",
+            "metaphor_mapping": {
+              "tenor_concept": "tears and grief",
+              "transferred_attributes": [
+                "vastness",
+                "depth",
+                "overwhelming nature"
+              ],
+              "vehicle_concept": "ocean"
+            },
+            "source_span_original": "आंसुओं का यह समंदर",
+            "source_span_translation": "This sea of tears",
+            "source_term": "आंसुओं का यह समंदर",
+            "tenor": "An immense amount of crying and deep sorrow.",
+            "vehicle": "A vast sea or ocean.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person crying with tears that artistically blend into a vast, dark, wavy background pattern resembling water, or a solitary figure standing before a vast, dark ocean under a stormy sky."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'जो' (jo) as 'When' in 'When the heart broke' shifts the conditional/concessive nuance of 'जो दिल टूट गया' (even if/so what if the heart broke) to a purely temporal or situational one.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The emphatic particle 'तो' (to) in 'तुमने तो कहा था' (you, at least, had said / but you had said) is flattened in the translation, losing the subtle contrastive emphasis on the addressee's past assertion.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The colloquial idiomatic nuance of 'यूं ही' (yun hi - just like this, effortlessly, without change) is simplified to 'go on' in 'Life would go on', losing the specific flavor of continuity without effort or disruption.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The painful contrast between a lover's past promises of continuity and the overwhelming reality of heartbreak."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "क्या हुआ  \nजो दिल टूट गया  \nतुमने तो कहा था  \nज़िन्दगी यूं ही चलेगी  \nआंसुओं का यह समंदर  \nकभी थम न सकेगा  \nक्या हुआ  \nजो दिल टूट गया",
+  "poem_id": "MV++_0058",
+  "poem_title": "Kya Hua",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ed4817e7c7d03ceb19c4599668232930f759eb68a192b075213cf1bc1d28cea8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0058.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What happened  \nWhen the heart broke  \nYou had said  \nLife would go on  \nThis sea of tears  \nWould never stop  \nWhat happened  \nWhen the heart broke",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:42:13.635543+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "193328c134a428ae5ac5be12d4e59d8c757b13a266ba516c0328ded8c099c985",
+        "response_hash": "be118d7ebc395cfaccb39f52c226154e49af1f9ae7367f9cc1f8d3d921d4a771"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7f5152f213158ce828a60cb0dc6c7de3d06d4bc578e4718f8a31f0cf5b41eaf9",
+        "response_hash": "f4a99f2066833b8a98dc681bd2ffa9bea370472a1ca3f02f61090e01bfd1b92f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "792b2b395c01c1d369e371fc97e8993e7b5622419d7c28c2356e82827fb8fd74",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ab2be3d4678f1e9812a477a9cadd532a0858322f917d5571977b60b7dc89809e",
+        "response_hash": "a53aefb72051dd728959056f8829318584a3541ca84240354432bf42f77b65b5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "168ae999636459d3e52ff17e89e57994c67ae33623018ca69c00b20b33390de8",
+        "response_hash": "c5f834eac4cf81fba712f7e8aa3bc5caa8d3514f6744887e4a1834f137a8e142",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "99b6478f270c5b92e091d1efceea9c1c2855e87561bb00646935163f392c5163",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d30ccbf59e0dcf5130dbb0758bc7a0a56b480e2cd2562ece973637682030211d",
+    "translation_sha256": "96becfe7de14eb8ec73393dc503de589ef366cbe2a58b290469602602bbc611d"
+  }
+}

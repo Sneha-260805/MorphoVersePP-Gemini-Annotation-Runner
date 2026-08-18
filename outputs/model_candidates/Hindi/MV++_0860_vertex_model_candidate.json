@@ -1,0 +1,240 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple stone-paved river landing with wide steps",
+          "A bustling public ghat with steps and platforms",
+          "A quiet, rustic riverbank with stone steps partially submerged in water"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A flight of steps leading down to a riverbank, serving as a vital space for bathing, washing, social gathering, and religious rituals in South Asian culture.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A generic muddy or grassy riverbank without any steps or stone structures",
+          "A modern concrete industrial dock or pier"
+        ],
+        "preserved": true,
+        "romanization": "ghat",
+        "source_span_original": "घाट",
+        "source_span_translation": "bank",
+        "stanza_index": 2,
+        "term": "घाट",
+        "translation_note": "Translated as 'bank', which conveys the physical edge but loses the specific cultural, social, and ritual associations of a South Asian ghat (steps leading down to a body of water).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Stone steps leading down into a river",
+          "People gathering, washing, or sitting on the steps",
+          "A transition zone between land and water"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "resilience to celebration",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The river is addressed directly as an active, conscious entity capable of choosing to keep moving forward.",
+            "acceptable_visual_variants": [
+              "A river cutting through mountains under a vast sky",
+              "A river flowing through a lush green valley during sunrise"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "River, keep moving/flowing",
+            "literalization_risk": "Depicting a human figure walking on water or a literal human face on the river would look cartoonish and miss the naturalistic poetic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "flowing river",
+              "transferred_attributes": [
+                "agency",
+                "willpower",
+                "ability to walk or move forward"
+              ],
+              "vehicle_concept": "human traveler"
+            },
+            "source_span_original": "नदी चले चलो",
+            "source_span_translation": "River, keep flowing",
+            "source_term": "नदी चले चलो",
+            "tenor": "The natural flow of the river",
+            "vehicle": "A person being told to keep walking or moving forward",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a wide, dynamic shot of a winding river flowing continuously through a landscape, emphasizing its forward motion."
+          },
+          {
+            "abstract_meaning": "Creating, imagining, or nurturing hopes and aspirations while moving forward.",
+            "acceptable_visual_variants": [
+              "Shimmering ripples reflecting a starry night sky",
+              "Sunlight creating sparkling, golden patterns on the water's surface"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "weaving dreams",
+            "literalization_risk": "Showing literal dreams or sleeping faces being woven into a physical textile or net would look bizarre and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "creating dreams",
+              "transferred_attributes": [
+                "intertwining",
+                "creation",
+                "patience",
+                "crafting something beautiful"
+              ],
+              "vehicle_concept": "weaving fabric"
+            },
+            "source_span_original": "सपने बुनते हुए",
+            "source_span_translation": "Weaving dreams along the way",
+            "source_term": "सपने बुनते हुए",
+            "tenor": "The mental or spiritual process of creating hopes, aspirations, or beautiful thoughts",
+            "vehicle": "The physical act of weaving threads on a loom to create a fabric",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the river's surface reflecting shimmering, soft, dreamlike patterns of light, stars, or clouds, suggesting the creation of beauty."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The river making new, harmonious sounds as it flows past different landscapes and obstacles.",
+            "acceptable_visual_variants": [
+              "Water bubbling over smooth river stones",
+              "A small, gentle waterfall splashing into a pool, creating ripples"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "sing new songs",
+            "literalization_risk": "Showing a river with a literal mouth singing or musical notes floating out of the water would look childish and ruin the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "river sounds",
+              "transferred_attributes": [
+                "melody",
+                "expression of joy",
+                "creation of sound"
+              ],
+              "vehicle_concept": "singing songs"
+            },
+            "source_span_original": "नए गीत गाओ",
+            "source_span_translation": "Sing new songs",
+            "source_term": "नए गीत गाओ",
+            "tenor": "The natural, changing sounds of rushing water over rocks and bends",
+            "vehicle": "A singer performing new musical compositions",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict water splashing dynamically over rocks at a bend, creating a visual sense of rhythm, movement, and natural music."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'घाट' (ghat) as 'bank' loses the specific cultural and architectural resonance of a ghat, which refers to a series of steps leading down to a body of water, often used for bathing, washing, or religious ceremonies, rather than just a natural riverbank.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The continuous, creative journey of life symbolized by a river's flow"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing the loss of the cultural term 'ghat' (घाट) translated as 'bank'. This is inconsistent; a stanza with structured translation loss should typically be marked as 'partial'.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that the translation as 'bank' loses the specific cultural associations of a ghat. This is internally inconsistent; 'preserved' should be false if the cultural specificity was lost/altered.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "नदी चले चलो,  \nसपने बुनते हुए।  \nकभी न थमना,  \nकभी न रुकना।  \n\nहर मोड़ पर,  \nहर घाट पर,  \nनए रंग में,  \nनए गीत गाओ।",
+  "poem_id": "MV++_0860",
+  "poem_title": "Nadiya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "af45af5d1789d2e34ca0a471cce0d410ff9e5544b5141ca1186cfa520a1f516e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0860.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "River, keep flowing,  \nWeaving dreams along the way.  \nNever stop,  \nNever halt.  \n\nAt every bend,  \nAt every bank,  \nIn new colors,  \nSing new songs.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:22:09.328147+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0f5395bc5c92ab9f894fa74901cde501d0d51ad3e82f0e4968c8db6fef495d14",
+        "response_hash": "314c17a23572c9ca818a9fa249f0dbe1160f76c2051196c9e41e742d7f4fe14e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d5bb72d505f2e3253e071a2cfdd0ffce20cca422cbc0273049bc3f340bd05c64",
+        "response_hash": "2fe1a76d057bd236779836a0c3c9fb350e60fe3d4c1db046169e318cf943fe85",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4635fc2561ddc585f98e3c66d3251cc275d23c790939a453fd52e7531aab0795",
+        "response_hash": "55a6764ebd835670bee6892921e0d423d73058ac38a7c05b668ae8d142926648",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7cd3fb9d68a328454732c140942a542955d210a274f6391a163b43299b51fe8b",
+        "response_hash": "db8194d5ccaa04b0424786f51d88ac46b18c111a3128e82f4aae67ada8a0a6f7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9612172d23736b230648df9c6cdf10b3754e31f280ab1c306964fe1cc349be3b",
+        "response_hash": "154bab0b1e4834ac9c8677e3a3cc484e498df9422d2a743ad87ff11ebd155b36",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a17b279afdad0d43e7ec1f6861db4f07c8dc8cdab847e59071dafb8ca00aa4e3",
+    "translation_sha256": "b267a3f4337dfa2f27ba6e3309ee483fcde9d998306f552a5b417a8fd13c653e"
+  }
+}

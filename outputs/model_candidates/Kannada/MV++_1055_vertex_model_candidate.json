@@ -1,0 +1,171 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to existential wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of ignorance, uncertainty, or existential confusion where direction is lost.",
+            "acceptable_visual_variants": [
+              "A person standing at the edge of a deep, dark void looking out into nothingness",
+              "A silhouette of a person surrounded by swirling dark mist with a faint glow in the distance"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "In the physical absence of light",
+            "literalization_risk": "An illustrator might depict a simple night scene or a power outage, missing the deep existential and psychological weight of the speaker's state.",
+            "metaphor_mapping": {
+              "tenor_concept": "existential uncertainty",
+              "transferred_attributes": [
+                "lack of visibility",
+                "feeling lost",
+                "difficulty finding a path"
+              ],
+              "vehicle_concept": "darkness"
+            },
+            "source_span_original": "अंधेरे में",
+            "source_span_translation": "In the dark",
+            "source_term": "अंधेरे में",
+            "tenor": "Existential uncertainty, ignorance, or confusion",
+            "vehicle": "Physical darkness / absence of light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure standing in a vast, deep, abstract dark space that feels psychological rather than just a night-time setting, perhaps with faint, soft light or paths barely visible in the distance."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Intimately connected to or essential for our very life, identity, and survival.",
+            "acceptable_visual_variants": [
+              "Glowing golden threads connecting a human silhouette to a distant star-like light",
+              "Roots growing from a person's feet anchoring them to a luminous ground"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L16",
+            "literal_meaning": "Physically tied or bound with a rope or cord to our physical body or presence",
+            "literalization_risk": "Depicting literal ropes or chains binding a person to an abstract concept like 'hope' would look awkward, surreal, or overly restrictive.",
+            "metaphor_mapping": {
+              "tenor_concept": "essential existential connection",
+              "transferred_attributes": [
+                "inseparability",
+                "holding things together",
+                "dependence of one on the other"
+              ],
+              "vehicle_concept": "physical binding"
+            },
+            "source_span_original": "अस्तित्व से जुड़ी हुई है",
+            "source_span_translation": "Tied to our existence",
+            "source_term": "अस्तित्व से जुड़ी हुई है",
+            "tenor": "An essential, intrinsic connection to human life and survival",
+            "vehicle": "A physical tie, knot, or binding cord",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize this connection abstractly, perhaps through glowing threads or roots extending from a human figure's chest or heart into a soft, distant light representing hope."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The search for hope and a deeper vision hidden within the darkness of existence"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "/",
+      "issue": "The poem is written in Hindi (Devanagari script), but the metadata and language addendum specify Kannada. The original poem text and translation are entirely in Hindi, creating a fundamental language mismatch with the Kannada profile.",
+      "severity": "high"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अंधेरे में,  \nदूर तक कुछ भी नहीं दिखाई देता।  \nमगर फिर भी लगता है,  \nजैसे कोई आवाज़ कहीं से आती हो।  \nइसे खोजने की इच्छा होती है,  \nकिसी राह में चलते हुए,  \nकिसी तरह की तलाश होती है,  \nजो अंधकार में छुपी हुई है।  \n\nदूसरे संसार की,  \nदूसरी दृष्टि की,  \nएक नई उम्मीद की,  \nकोई कुछ बोलता हुआ,  \nकहीं गहरे और भीतर से।  \nक्या वह उम्मीद,  \nजो अंधेरे में ही ढूंढनी थी,  \nहमारे अस्तित्व से जुड़ी हुई है?",
+  "poem_id": "MV++_1055",
+  "poem_title": "Andhere Mein",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "301dfb14bbaa900c07fcfad9d96d8f46ea793f33efebea071ff1f6ee6d0b2ef2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1055.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the dark,  \nNothing is visible for miles.  \nYet, there is a feeling,  \nAs if a voice is coming from somewhere.  \nThe desire to find it,  \nWhile walking on some path,  \nThere is a search,  \nHidden in the darkness.\n\nOf another world,  \nOf another vision,  \nOf a new hope,  \nSomeone is speaking,  \nFrom deep within.  \nIs that hope,  \nWhich was meant to be found in the dark,  \nTied to our existence?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:52:18.658553+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b6f9165d7ba72f5691d3715c58169590676c0089e5539220dfa124b6d3eba2ed",
+        "response_hash": "af16f94c7db6bd9b3009b85d9241d83d27158fae723ab1e8616c6257738b8427",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fa397e7b5740ff98e1648a8ccc4f5fa99dd613db27f33f3c19e5235deef7758b",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0654bfa079f05afe6aa6466539a690e80824e291d0d1a6dacee8fee2bb1ca495",
+        "response_hash": "88d37b98659177ead371d345ebeace088f88366f9f1d1691b4cc7f0c6cf5e19e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "138a3ea459d6356b9a68e780933a0d2c140bdc134cdddd5d6213b9d6a604035b",
+        "response_hash": "7985bdff5a8a7a7a5e148d4fb7590f25af3ae4a63850057118932ecbbe670483",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "261a81b8b62a81dd65d66ec45e5e1884546ec92e2ca25e0c547debd82d3e08d6",
+        "response_hash": "d75d15b5f2e8bff7dc1f68b4b68fdd004c3cef8c61b4441cff9a067ebedcb84e",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1506bbef6bb0c86a02d3d5c57b45d93ebb1393e5a781b31d7fa41755da6a556f",
+    "translation_sha256": "808c410627e0b59e03a320fe3fd83edf983294258acd4fbad77d59bc9f231788"
+  }
+}

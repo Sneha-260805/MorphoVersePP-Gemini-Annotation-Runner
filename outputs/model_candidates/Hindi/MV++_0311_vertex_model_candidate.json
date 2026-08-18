@@ -1,0 +1,167 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "gratitude and appreciation of presence, contrasting with a brief reflection on absence, returning to contentment",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'raunak' as 'charm' captures the general sense but slightly softens the vibrant, bustling, and lively connotation of the original Urdu-derived Hindi term.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Hope, optimism, and a fresh start brought by the beloved's presence.",
+            "acceptable_visual_variants": [
+              "A soft golden sunrise casting long, gentle shadows in a cozy room",
+              "A single bright ray of sunlight breaking through morning mist over a serene landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A physical ray of light from the sun.",
+            "literalization_risk": "Depicting a literal beam of sunlight hitting a person, which misses the emotional warmth and psychological renewal meant by the metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope / joy of life",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "dispelling darkness",
+                "marking a fresh beginning"
+              ],
+              "vehicle_concept": "sunlight / morning ray"
+            },
+            "source_span_original": "किरण",
+            "source_span_translation": "ray",
+            "source_term": "किरण",
+            "tenor": "Hope and positive energy brought by the beloved",
+            "vehicle": "A ray of morning light",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a warm, golden morning light gently illuminating a peaceful domestic or natural scene, symbolizing hope and a fresh start."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'raunak' as 'charm' loses the specific Urdu-derived nuance of vibrant bustle, brightness, and lively beauty that the word carries in Hindustani poetic contexts.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'najara' as 'sight to behold' generalizes a term that specifically denotes a scenic view, spectacle, or panoramic outlook.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The particle 'sa' in 'adhura sa' adds a subtle layer of approximation ('feels somewhat incomplete' or 'as if incomplete') which is flattened to a direct 'feels incomplete' in the English translation.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'adhura sa' as 'incomplete' loses the softening, approximating quality of the clitic 'sa' (meaning 'somewhat' or 'as if' incomplete).",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'suhana' as 'delightful' loses the specific sensory nuance of being pleasant, charming, and soothing, often associated with beautiful weather or landscapes in Hindi poetry.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of a beloved's presence on one's perception of life and time"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हारे कारण  \nतुम्हारे कारण,  \nजिंदगी में रौनक है।  \nहर सुबह नई किरण,  \nहर शाम का नजारा है।  \n\nतुम्हारे बिना,  \nसब अधूरा सा लगता है।  \nतुम हो तो,  \nहर पल सुहाना है।",
+  "poem_id": "MV++_0311",
+  "poem_title": "Tumhare Karan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "664678782fbadd1f97198725c1475a5ea31274833806d632b4ba7590f38f4a8a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0311.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Because of You  \nBecause of you,  \nThere’s a charm in life.  \nEvery morning brings a new ray,  \nEvery evening is a sight to behold.  \n\nWithout you,  \nEverything feels incomplete.  \nWhen you are here,  \nEvery moment is delightful.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:11:25.579254+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79e576806a66feb846dbc5826d3aa7888f97cee06101baba24f1df96430e6801",
+        "response_hash": "989327c66938e68bc7d7f2b1a48376b33ad166ca4eec90d6e6ccd40ee05f0871"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "312f3023ba0a987a81034fa2296612287df39ff301e8adad11f1dbce891ca847",
+        "response_hash": "74ed3f17d62bb5b2c23b7b1ff3960df0ad77ff2368647f23bee980415d636326",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea64534e47fefd89e01330b19b128963b589096640035610cdbf70b7acbfea14",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "17b8368f0ef857bb1cedeb76a1ab06fdc7e08f5232ab6eae209dcfa6005e8f5c",
+        "response_hash": "e33cfaf0ea081edbbd804b98f045c545e5a60bccae14d84b4bb6eec11ade6e94",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e1e063182cfc90cef0de834f4ad9b6d14d0cc0c38983a42f469c469f9bfec10b",
+        "response_hash": "8dc690397badc395dfede473b80afbee8186b6799e54c492ed3150cfb0697759",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b9a2da1e3a93380cf63fffbd3cc9ac8076d6d5fbd4bc0ec0451ce563a799e27a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "db354c14906b83691412d0f600647a22cf1db2e04553010a04d9e75098d427ff",
+    "translation_sha256": "b0b70255aa247b884e0b6daaaf8b918b947bc044f9b02b4d1786b8901ca766fc"
+  }
+}

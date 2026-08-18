@@ -1,0 +1,141 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to quiet hope",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'basa jaayega' as 'will once again stay' slightly flattens the Hindi nuance of 'basna', which carries a deeper sense of settling down, inhabiting, or making a home in one's inner world.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The departed person will live on or settle in the speaker's thoughts and recollections, becoming a permanent presence in their mind.",
+            "acceptable_visual_variants": [
+              "A warm glow or soft figure appearing within a starry night sky or dreamscape",
+              "A reflective silhouette of a person superimposed on a quiet room or open window"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "will settle down / will inhabit a physical home",
+            "literalization_risk": "Showing a person physically building or moving into a house inside a literal brain or dream bubble, which looks comical and misses the emotional sense of memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental recollection",
+              "transferred_attributes": [
+                "permanence",
+                "belonging",
+                "dwelling"
+              ],
+              "vehicle_concept": "physical habitation"
+            },
+            "source_span_original": "बसा जाएगा",
+            "source_span_translation": "stay",
+            "source_term": "बसा जाएगा",
+            "tenor": "occupying a permanent place in someone's memories and dreams",
+            "vehicle": "settling down or inhabiting a physical house",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, translucent silhouette of a person integrated into a peaceful, dreamlike landscape or a reflective background representing memory."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'बसा जाएगा' (basa jaayega) as 'will once again stay' loses the rich, active nuance of 'basna' which implies settling down, making a home, or becoming deeply embedded/inhabited in one's dreams and memories.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring presence of a departed loved one in memory and dreams, and the quiet hope of their return."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक दिन लौटेगा,\nवो जो चला गया।\nसपनों में, यादों में,\nवो फिर से बसा जाएगा।",
+  "poem_id": "MV++_0740",
+  "poem_title": "Ek Din Lautega",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7f4728d3a49a15c219094e685f1e45d5435026e9f1289f831fa01b8e65b011a8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0740.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "One day he will return,  \nHe who has gone away.  \nIn dreams, in memories,  \nHe will once again stay.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:04:19.219802+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "38835c639a24fdf7e9d135d5ff26a2b91bd32f3635b4fc144775b8162e29bb9b",
+        "response_hash": "4c49067057b40a284631f12982d7ef8e179b5983d78f6b1b1a737dd45f119b21"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fb90c769adaf10cb5a4a3e52fdd06e03220f39ea8d925a58b3903bb832827a4d",
+        "response_hash": "938f6d90a13b68414c011c677152ff0a26102966f45faebd7c13892999a8c5e9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "96da95b437f2120ffd18a46bd5dc5273be82232a9bd8d124b589b99b2107a693",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8f6e843b949155b2494bee852d9d78fbbb8eae196f06212e134ef9383904c30c",
+        "response_hash": "8a72617c301bc37c22779b1902f7188fdea753317841e62a55abf4e9bd59ef5e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "614431cd11dde3cbc2c0b0c36b76e88f121cb0c4f1bb6dd700dae2d8ed77a92d",
+        "response_hash": "41bf5be9b09275eb95ba14643dc29f07e1911d9dc1b17021df58bd161bb7de4a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "674f5d75cb176ca252711e2a42c6ccae531ac5b4ac2155bd82f5a27cb64d8049",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "38835bd81931d2d6b650716ba4dbaee187a04caae9e98533935f2c101327b1ff",
+    "translation_sha256": "50abf9ba9defa310d1cb055869510f0b0d6d8c5a4beb587b2dd4b37c99b3d712"
+  }
+}

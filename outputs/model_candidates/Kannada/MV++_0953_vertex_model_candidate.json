@@ -1,0 +1,207 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional green cotton saree with simple borders.",
+          "A vibrant green silk saree representing lush vegetation."
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional South Asian garment draped over the body, representing regional attire and cultural identity in Karnataka.",
+        "line_ref": "L1-L3",
+        "negative_confusions": [
+          "A modern stitched dress or western gown.",
+          "A generic veil that does not capture the specific drape and cultural identity of a saree."
+        ],
+        "preserved": true,
+        "romanization": "seere",
+        "source_span_original": "ಸೀರೆ",
+        "source_span_translation": "saree",
+        "stanza_index": 1,
+        "term": "ಸೀರೆ",
+        "translation_note": "Translated as 'saree' in line 3, but rendered as 'veil' in line 1.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A long, unstitched piece of fabric draped elegantly around a female figure representing nature.",
+          "Rich green color as specified in line 3.",
+          "Folds and pleats characteristic of traditional South Indian draping styles."
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "wonder and peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'moodala seere' (eastern saree/veil) as 'misty veil', losing the specific directional and cultural imagery of the eastern horizon as a garment.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The eastern sky or landscape is covered in a misty, veil-like morning fog or cloud cover.",
+            "acceptable_visual_variants": [
+              "A soft white fog rolling over green hills at sunrise",
+              "A light, semi-translucent morning mist hanging over a valley"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Wearing the saree of the east",
+            "literalization_risk": "An illustrator might literally draw a giant floating saree draped over a compass direction or a map, which would look absurd and miss the natural landscape imagery.",
+            "metaphor_mapping": {
+              "tenor_concept": "mist / fog",
+              "transferred_attributes": [
+                "wrapping",
+                "covering",
+                "soft texture"
+              ],
+              "vehicle_concept": "saree / veil"
+            },
+            "source_span_original": "ಮೂಡಲ ಸೀರೆ ಹೊದ್ದು",
+            "source_span_translation": "Wrapped in a misty veil",
+            "source_term": "ಮೂಡಲ ಸೀರೆ ಹೊದ್ದು",
+            "tenor": "The morning mist or fog covering the eastern landscape",
+            "vehicle": "A saree (traditional draped garment) of the east",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a scenic landscape at dawn with soft, low-lying morning mist or fog gently wrapping around hills or trees in the background."
+          },
+          {
+            "abstract_meaning": "The vibrant green vegetation and blooming flowers of nature look like a joyful smile on someone wearing a green saree.",
+            "acceptable_visual_variants": [
+              "A dense green meadow dotted with bright wildflowers under sunlight",
+              "A lush green hillside with sparkling dew drops on fresh leaves"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Smiling in a green saree",
+            "literalization_risk": "An illustrator might draw a literal woman in a green saree smiling, which obscures the fact that the poem is describing the natural landscape itself.",
+            "metaphor_mapping": {
+              "tenor_concept": "vibrant green nature and blooming flowers",
+              "transferred_attributes": [
+                "beauty",
+                "joy",
+                "vibrancy",
+                "green color"
+              ],
+              "vehicle_concept": "smiling woman in a green saree"
+            },
+            "source_span_original": "ಹಸಿರ ಸೀರೆಯಲ್ಲಿ ನಗು",
+            "source_span_translation": "A smile in the green saree",
+            "source_term": "ಹಸಿರ ಸೀರೆಯಲ್ಲಿ ನಗು",
+            "tenor": "The lush green landscape and blooming flora of nature",
+            "vehicle": "A person smiling while dressed in a green saree",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a lush, vibrant green landscape filled with blooming, colorful flowers that evoke a sense of joy and natural beauty."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'Moodala seere' (eastern saree/horizon) as 'misty veil', losing the specific cultural and geographical imagery of the eastern horizon personified as a saree.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'hole' (shining/gleam) as 'flows on' changes the visual focus from the sparkling light of the river to its movement.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet beauty of nature personified as a woman draped in the landscape"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].line_ref",
+      "issue": "The line_ref is specified as 'L1-L3', but the source_span_original 'ಸೀರೆ' is a single word that appears in L1 and L3 separately, not as a continuous span across L1-L3. Additionally, the source_span_original 'ಸೀರೆ' does not match the exact text of L1 ('ಮೂಡಲ ಸೀರೆ ಹೊದ್ದು') or L3 ('ಹಸಿರ ಸೀರೆಯಲ್ಲಿ ನಗು') as a single continuous block.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[0].source_span_original",
+      "issue": "The source_span_original 'ಸೀರೆ' is not a verbatim substring of the original poem at the specified line_ref 'L1-L3' as a single continuous span. It appears as part of compound words or inflected forms ('ಸೀರೆ' in L1, 'ಸೀರೆಯಲ್ಲಿ' in L3).",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಮೂಡಲ ಸೀರೆ ಹೊದ್ದು,  \nಪ್ರಕೃತಿಯ ಬೆರಗು,  \nಹಸಿರ ಸೀರೆಯಲ್ಲಿ ನಗು,  \nಹರಿವ ನದಿಯ ಹೊಳೆ.",
+  "poem_id": "MV++_0953",
+  "poem_title": "Moodala Seere",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0b827285361f37df18e8b020feac58c9828c7c4af7d7a23bc30e39183817a787",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0953.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Wrapped in a misty veil,  \nNature’s wonder,  \nA smile in the green saree,  \nThe river flows on.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:36:01.111906+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b50106a55e1b5a8d081e11112af7046f7c4be52cde15a5e50bfb6ca353f0c3e0",
+        "response_hash": "2447d220ff27a911db2dd263c2f5b5cdfd8f2c84cf376c85a29380c422dd328e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e0f53b83d08ae4706a719d531884aab40bc41b3b2f5039711904412ddc098fd1",
+        "response_hash": "5b45d49bdcbbb7bae0c6982ac4c9cd432b6f49ac5f5f41790d705045df97fe27",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8c9faf6614fea3f5aeb827561289e12113077702758d92ea529715578aac6e46",
+        "response_hash": "13e90aad50f655637369c696fac7ee60f2baac2f380e535b28d8be3a89e94d71",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "48bf5c22e90bd4b63e9179dda5f16f020ad443d2d57c06b02803b927596dbb8e",
+        "response_hash": "c578101a9deadef4de34db1080de4ee08133c7e2260b22048eededbe4078bfdf",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3870023f641213e8f374d5d86b6ad7f068770d8658c3feb698ab386f114e402c",
+        "response_hash": "368bdb8abf80bc747a7e6c123c396664b003ae27d58c048f595b31e9978375d6",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "22aba183a7f447478f7dde4351e8dfb4d98bbd1fdf9a9e4a5caf1116fe4d67ad",
+    "translation_sha256": "589dc9435cadd4fa285d0c9ba2e3e9671918a65d48183c5718eb128533152bd2"
+  }
+}

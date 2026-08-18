@@ -1,0 +1,183 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "philosophical longing to peaceful acceptance of the present",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation adds the word 'alas' to rhyme with 'past' and 'arrives', which introduces a slightly more dramatic tone of regret than the original Hindi text's objective philosophical statement.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The lingering influence or memory of past events that obscures the present moment.",
+            "acceptable_visual_variants": [
+              "A clock face with a dark shadow stretching across its numbers",
+              "A person walking forward while their shadow stretches backward, filled with faint, blurry scenes of past events"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The physical shadow cast by the past",
+            "literalization_risk": "Depicting a literal dark silhouette cast on the ground by an abstract concept like 'the past' might confuse viewers into looking for a physical figure.",
+            "metaphor_mapping": {
+              "tenor_concept": "past",
+              "transferred_attributes": [
+                "obscuring",
+                "following",
+                "lacking physical substance"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "अतीत की परछाई",
+            "source_span_translation": "shadow of the past",
+            "source_term": "अतीत की परछाई",
+            "tenor": "the past (अतीत)",
+            "vehicle": "shadow (परछाई)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a clock or a human figure partially obscured by a soft, dark, trailing silhouette that represents the weight of gone moments."
+          },
+          {
+            "abstract_meaning": "The process of thoughts or plans fading away and disappearing into the reality of the present.",
+            "acceptable_visual_variants": [
+              "Faint, translucent clouds of text or symbols evaporating into a clear sky",
+              "A sketch of a futuristic city fading into a simple, concrete street scene"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "To dissolve or melt physically into a liquid",
+            "literalization_risk": "Showing physical objects melting into liquid might look like a science experiment rather than a mental state.",
+            "metaphor_mapping": {
+              "tenor_concept": "fading of thoughts",
+              "transferred_attributes": [
+                "losing form",
+                "merging into a larger medium",
+                "disappearing"
+              ],
+              "vehicle_concept": "dissolving"
+            },
+            "source_span_original": "विलीन हो जाती हैं",
+            "source_span_translation": "dissolve",
+            "source_term": "विलीन हो जाती हैं",
+            "tenor": "imaginations of tomorrow (कल की कल्पनाएँ)",
+            "vehicle": "dissolving/melting",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show abstract, glowing thought bubbles or dream-like clouds slowly fading and blending into a solid, realistic background representing 'today'."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds the word 'alas' at the end of the line to force a rhyme with 'past', which is not present in the original Hindi text and introduces a tone of explicit lamentation not found in the neutral, philosophical statement of the original.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation adds 'in sight' to force a rhyme with 'right', slightly altering the stark philosophical finality of the original Hindi statement.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the phrase 'in sight' to force a rhyme with 'right', which is absent in the original Hindi text and slightly alters the philosophical focus from the abstract existence of the present to a visual metaphor.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The illusion of past and future, and the ultimate reality of the present moment."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "समय का भविष्य नहीं होता,  \nहर क्षण अतीत की परछाई में खो जाता है।  \nकल की कल्पनाएँ आज में विलीन हो जाती हैं,  \nआनेवाला समय कभी नहीं आता है।\n\nहम जो देखते हैं, वही नहीं होता,  \nहम जो सोचते हैं, वह सही नहीं होता।  \nसमय का न कोई अतीत होता है,  \nन कोई भविष्य, केवल वर्तमान होता है।",
+  "poem_id": "MV++_0569",
+  "poem_title": "Samay Ka Bhavishya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "fc510f69b666be938f4f36ab216846a008dde904a47e28d5db1acf85d49036b2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0569.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The future of time does not exist,  \nEach moment is lost in the shadow of the past.  \nImaginations of tomorrow dissolve in today,  \nThe coming time never arrives, alas.\n\nWhat we see, is never the truth,  \nWhat we think, is never right.  \nTime has no past,  \nNor a future, only the present in sight.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:39:42.667652+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a1b17b8750587b2cc2ec1e0f78faafee42bb265d1055d14eff69ee6cef093210",
+        "response_hash": "1a4990bb097b717909148e223949a801eb5e2dc7117c15ca8307e9a7b79a2288"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "10f97773aff8aa2cce5286368864f441dcfe0a4f33d3e7166066451bcfd2c4d2",
+        "response_hash": "cfd66d997837d6cdc28357d379ed5ed5afb7d0c2e407021a643f7662f8a9aa3e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f3ef31e863c5f2993aac546c33ad777090c536ae858203836d451c3478007d8",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fd6ad528d8cc7da29866bff2b001947c47ddb208d91b38ee82346d9536489713",
+        "response_hash": "16918a762b2e564299bd4ee838826efc745b7da23db5a22a8b50fe3576cb5dde",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dbb94fb27a85ed074694d84fc2e9034aa66fec5e6cb444cc0b7d6a3462269c6b",
+        "response_hash": "12b154ac0afedef9531e25145972f46b8a9e0d039d350017684dde982544075f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d15788a7497d005b7c0a08c526397fd1a61c93c217071fce953bdc4b43f2cc83",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f0b212a3602bc09e1080733fc49958f2746903db7f624e3176e4912e012ec3be",
+    "translation_sha256": "be11318f5b89e60390f310f2b0bd1399aae8c6610110759d44fe216913677cff"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A colloquial Hindustani term of endearment meaning 'friend', 'companion', or 'beloved', used to establish an intimate, conversational tone with the listener or reader.",
+        "line_ref": "L8",
+        "negative_confusions": [],
+        "preserved": false,
+        "romanization": "yaara",
+        "source_span_original": "यारा",
+        "source_span_translation": null,
+        "stanza_index": 2,
+        "term": "यारा",
+        "translation_note": "The colloquial, culturally-rooted term of endearment 'yaara' (friend/beloved) is omitted in the English translation, which instead uses 'in this place' to complete the rhyme scheme. This results in a loss of the intimate, conversational address to a companion.",
+        "translation_status": "LOST",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "nostalgic longing to quiet resignation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'padi thi' as 'scattered' captures the physical sense but slightly loses the passive, abandoned quality of the story just 'lying' there.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A past connection, relationship, or shared journey that once existed between two cold, unyielding, or distant entities.",
+            "acceptable_visual_variants": [
+              "Two rough, weathered stones separated by a dry, cracked gap where a path once was.",
+              "Two stone pillars casting long shadows with a faint, ghostly outline of a connecting bridge between them."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1-L2",
+            "literal_meaning": "A physical path or passage running between two solid rocks or stones.",
+            "literalization_risk": "An illustrator might draw a literal dirt path winding between two large boulders, missing the emotional distance and lost human connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotionally distant people and their past relationship",
+              "transferred_attributes": [
+                "physical separation",
+                "existence of a connecting route in the past"
+              ],
+              "vehicle_concept": "stones and a path"
+            },
+            "source_span_original": "पत्थर और पत्थर के बीच,  \nएक रास्ता था कभी",
+            "source_span_translation": "Between stone and stone,  \nThere was once a path",
+            "source_term": "पत्थर और पत्थर के बीच,  \nएक रास्ता था कभी",
+            "tenor": "A past emotional connection or relationship between two cold or unyielding individuals.",
+            "vehicle": "A physical path running between two stones.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two cold, textured stone blocks standing apart, with a faint, fading, or overgrown trace of a path or bridge of light connecting them to suggest a lost link."
+          },
+          {
+            "abstract_meaning": "Traces, memories, or fragments of a past life or relationship left scattered and waiting to be understood or remembered.",
+            "acceptable_visual_variants": [
+              "Faint, glowing runic carvings or patterns on scattered pebbles.",
+              "Abstract shapes of light and shadow falling on the stones like fragments of a puzzle."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "A physical storybook or written narrative lying scattered in pieces on the ground.",
+            "literalization_risk": "An illustrator might draw literal pages of a book or written scrolls scattered on a rocky ground, which is too literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "fragmented memories of a past relationship",
+              "transferred_attributes": [
+                "being scattered in pieces",
+                "holding narrative meaning for someone who finds them"
+              ],
+              "vehicle_concept": "scattered physical objects or pages of a story"
+            },
+            "source_span_original": "जगह-जगह पर पड़ी थी,  \nकिसी के लिए एक कहानी।",
+            "source_span_translation": "Scattered everywhere,  \nA story for someone to grasp.",
+            "source_term": "जगह-जगह पर पड़ी थी,  \nकिसी के लिए एक कहानी।",
+            "tenor": "The lingering memories, remnants, or emotional traces of a past relationship.",
+            "vehicle": "A physical object or narrative scattered across different places.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict faint, glowing symbols, inscriptions, or abstract patterns etched onto the scattered stones, suggesting a narrative waiting to be read."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the verb 'to grasp' to rhyme with 'path', which is not present in the original Hindi text ('kisi ke liye ek kahani' literally means 'a story for someone').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "The translation of 'yaara' (friend/beloved) is completely omitted in the English rendering, which changes the intimate, conversational address to a generic description of a place. Additionally, 'sahara' (support) is translated as 'comforting embrace', which introduces a physical touch metaphor not explicitly in the original 'sahara' (support/refuge).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Mutual support, companionship, or the comforting presence that two people once provided to each other despite their cold or tough exteriors.",
+            "acceptable_visual_variants": [
+              "Two upright stones leaning slightly toward each other, their shadows intertwining.",
+              "One larger stone casting a protective, soft shadow over a smaller stone."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5-L6",
+            "literal_meaning": "One stone casting its physical shadow over another stone, acting as a physical support.",
+            "literalization_risk": "An illustrator might draw two rocks leaning against each other casting a literal shadow, which lacks the emotional warmth of 'sahara' (support/embrace).",
+            "metaphor_mapping": {
+              "tenor_concept": "mutual emotional support and companionship",
+              "transferred_attributes": [
+                "closeness",
+                "shading/protecting one another",
+                "providing stability"
+              ],
+              "vehicle_concept": "overlapping shadows and physical support of stones"
+            },
+            "source_span_original": "पत्थर पर पत्थर का साया,  \nकभी हुआ करते थे सहारा",
+            "source_span_translation": "The shadow of stone on stone,  \nOnce offered a comforting embrace",
+            "source_term": "पत्थर पर पत्थर का साया,  \nकभी हुआ करते थे सहारा",
+            "tenor": "The comforting presence, protection, and mutual support once shared between two individuals.",
+            "vehicle": "One stone's shadow falling upon and supporting another stone.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show two stones positioned close together so that their shadows merge into a single, warm, protective shape on the ground."
+          },
+          {
+            "abstract_meaning": "The complete breakdown of communication and the cold, silent distance that has taken over the relationship.",
+            "acceptable_visual_variants": [
+              "A cold, blue-toned mist enveloping the stones, obscuring the background to emphasize isolation.",
+              "A barren, stark landscape under a dark, quiet sky with no signs of life or movement."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7-L8",
+            "literal_meaning": "Silence physically holding, capturing, or swallowing objects, leaving behind a physical entity called 'hush'.",
+            "literalization_risk": "An illustrator might try to draw a personified figure of 'Silence' holding the stones, which would look cartoonish or overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "the emotional state of non-communication",
+              "transferred_attributes": [
+                "emptiness",
+                "stillness",
+                "enveloping presence"
+              ],
+              "vehicle_concept": "a physical void or capturing force of silence"
+            },
+            "source_span_original": "अब खामोशी में खो गए हैं,  \nसिर्फ चुप्पी रह गई है यारा।",
+            "source_span_translation": "Now lost in silence's hold,  \nOnly the hush remains in this place.",
+            "source_term": "अब खामोशी में खो गए हैं,  \nसिर्फ चुप्पी रह गई है यारा।",
+            "tenor": "The absolute lack of communication, emotional coldness, and emptiness left in the relationship.",
+            "vehicle": "An active, physical force ('silence' or 'hush') that captures things and occupies a physical space.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a vast, desolate, misty landscape where the stones are shrouded in a heavy, cold fog, emphasizing isolation and stillness."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'sahara' (support/succor) as 'comforting embrace', which introduces a physical, tactile metaphor not explicitly present in the original Hindi word.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation completely omits the colloquial, intimate address 'yaara' (friend/beloved/companion) at the end of the line, replacing it with the generic spatial phrase 'in this place' to satisfy the rhyme scheme.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The passage of time and the fading of shared human connections into silent, stony ruins"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "पत्थर और पत्थर के बीच,  \nएक रास्ता था कभी,  \nजगह-जगह पर पड़ी थी,  \nकिसी के लिए एक कहानी।  \n\nपत्थर पर पत्थर का साया,  \nकभी हुआ करते थे सहारा,  \nअब खामोशी में खो गए हैं,  \nसिर्फ चुप्पी रह गई है यारा।",
+  "poem_id": "MV++_0185",
+  "poem_title": "Patthar Aur Paathar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "fdab11343c5aaf96d9f7e66fad54a49d652e4de815e3d0560a3bd5449eb0b257",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0185.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Between stone and stone,  \nThere was once a path,  \nScattered everywhere,  \nA story for someone to grasp.  \n\nThe shadow of stone on stone,  \nOnce offered a comforting embrace,  \nNow lost in silence's hold,  \nOnly the hush remains in this place.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:56:51.926688+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6e85557b869ae9928dd6d63c931475156ea7b2a7c45914169e3933e2191db5d5",
+        "response_hash": "328ef8ff1547677fc759a8d8662e762f6b178c08886f559b0ca775b6ef10c035"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "48b45082499ecf4e9a610063824efc93f48762b4f0ed80e9e1a82b81af6c7342",
+        "response_hash": "2d64dfcb104a02f163d4ec443eaa27eb275696a23b29a6d240ced09d7258ad50",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "669bc0c9017162516babb33949b84c2b05dabdaf91ce5af59ef5791634646873",
+        "response_hash": "7605e5708c716f0041cfcba050cc852349b4a229bf5495fb9293def98514a75d",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e28a9f249af31b1dc982d6df7e0bd8dc11e9b905306beaf0e410f769ceba1fec",
+        "response_hash": "df85c5c99f579310214f2ecf9fcc4c5e0eb025099d8bc78eb75ce860722d4c91",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc4e8c5c69e5be0f88d2f47360c08a1361281511968008222245769b12cb04c4",
+        "response_hash": "3bdb7ccde3d2f272cf10161c62b085ac94eef744ebd324d12898f976db7edb2d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e3ac7599fa377e32a85c88f9f1796f027d8f20956b5abf95cd5d444fbaccd058",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "985b829e5713cde78290dd230a4f1de24a1271de039322a30523649db44cd742",
+    "translation_sha256": "076206154f9688cd17cbb3c5dc6e7900da1c974a96d3c86b2dc764a4f3fdd14e"
+  }
+}

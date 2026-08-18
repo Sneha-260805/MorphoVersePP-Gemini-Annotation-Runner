@@ -1,0 +1,227 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A potter shaping a simple clay vessel on a stone or wooden wheel.",
+          "A potter sitting on the ground next to mounds of raw clay."
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional potter, a central figure in Indian village life and classical Bhakti/Sufi poetry (such as Kabir's verses) symbolizing the creator, teacher, or shaper of human life.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "An industrial ceramic factory worker using modern machinery.",
+          "A Western-style studio potter with an electric wheel and modern aprons."
+        ],
+        "preserved": true,
+        "romanization": "kumhaar",
+        "source_span_original": "कुम्हार",
+        "source_span_translation": "potter",
+        "stanza_index": 1,
+        "term": "कुम्हार",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A traditional Indian potter working with wet clay on a manual spinning wheel (chak)."
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "confrontation to self-reflection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the rhythmic cadence and the traditional poetic resonance of the clay-potter dialogue common in Kabir-style philosophical couplets.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The clay speaking to the potter represents the voice of the creation or the material world questioning its creator or shaper, highlighting a reversal of roles where the inanimate/subservient challenges the master.",
+            "acceptable_visual_variants": [
+              "A potter looking thoughtfully at a lump of clay on a wheel under a single light source",
+              "Hands shaping clay on a spinning wheel with a dramatic contrast of light and shadow"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The soil/clay speaks to the potter",
+            "literalization_risk": "Showing literal talking dirt with a mouth might look comical or like a children's cartoon rather than a philosophical dialogue.",
+            "metaphor_mapping": {
+              "tenor_concept": "creation questioning creator",
+              "transferred_attributes": [
+                "voice",
+                "agency",
+                "confrontation"
+              ],
+              "vehicle_concept": "clay speaking to potter"
+            },
+            "source_span_original": "मिट्टी कहे कुम्हार से",
+            "source_span_translation": "The clay tells the potter",
+            "source_term": "मिट्टी कहे कुम्हार से",
+            "tenor": "The creation or material questioning its creator/shaper",
+            "vehicle": "Clay speaking to a potter",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a potter working at a wheel with clay, using a subtle visual glow or stylistic aura around the clay to suggest its active, questioning presence or voice."
+          },
+          {
+            "abstract_meaning": "Enlightenment, wisdom, or external hope that one attempts to bring to others.",
+            "acceptable_visual_variants": [
+              "A warm golden glow surrounding the potter's hands",
+              "A small oil lamp casting a soft light on the scene"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "Physical light or illumination",
+            "literalization_risk": "Depicting a literal lamp or lightbulb misses the philosophical depth of inner wisdom or spiritual guidance.",
+            "metaphor_mapping": {
+              "tenor_concept": "enlightenment",
+              "transferred_attributes": [
+                "illumination",
+                "dispelling darkness",
+                "clarity"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "रौशनी",
+            "source_span_translation": "light",
+            "source_term": "रौशनी",
+            "tenor": "Wisdom, enlightenment, or positive change",
+            "vehicle": "Light",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use a soft, warm, radiating glow emanating from a source or surrounding the figure to symbolize spiritual or intellectual illumination."
+          },
+          {
+            "abstract_meaning": "The internal ignorance, moral flaws, or spiritual darkness within a person.",
+            "acceptable_visual_variants": [
+              "The potter's face partially obscured by deep shadow while working",
+              "A dark silhouette of the potter against a dimly lit background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The darkness inside oneself",
+            "literalization_risk": "Depicting a literal black void inside a physical body could look like a medical diagram or a horror graphic.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner ignorance or moral flaws",
+              "transferred_attributes": [
+                "obscurity",
+                "lack of sight",
+                "hidden nature"
+              ],
+              "vehicle_concept": "physical darkness inside a closed space"
+            },
+            "source_span_original": "अपने भीतर के अंधेरे को",
+            "source_span_translation": "darkness within",
+            "source_term": "अपने भीतर के अंधेरे को",
+            "tenor": "Ignorance, unresolved flaws, or spiritual blindness within the self",
+            "vehicle": "Physical darkness inside a vessel or body",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use deep, heavy shadows cast over the potter's face or chest, contrasting with the external light, to suggest internal struggle or unaddressed ignorance."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the specific cultural resonance of the traditional Kabir-style bhajan motif where clay (mitti) speaks to the potter (kumhar), which carries deep philosophical undertones about mortality, creation, and pride.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'रौशनी लाएगा' (will you bring light) and 'उजागर करेगा' (will you illuminate/reveal) loses the subtle wordplay on the potter's craft of making clay lamps (diyas) that are meant to bring light to others while the potter's own inner self remains in darkness.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The clay challenging the potter's ability to bring light when their own inner self remains in darkness."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मिट्टी कहे कुम्हार से, तू क्या रौशनी लाएगा।\nअपने भीतर के अंधेरे को, तू क्या उजागर करेगा।",
+  "poem_id": "MV++_0737",
+  "poem_title": "Mitti Kahe Kumhar Se",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "da568b5076e811bee0b055545e081229d0f51ecb696374e0f83c2cad0c31b4cc",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0737.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The clay tells the potter, what light will you bring?\nWhat darkness within will you make bright?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:03:18.232826+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "69d0fba34cb61a2aae86c1685e7ce3546009f0e2fbfd02544f9749b4fcd47506",
+        "response_hash": "e36eb6394bdb41678b713948edca0897e8b538a924dd1c436d32a99e4bad0cb8"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7d24700a062fb83b3ba9fe0dd902d8d2af698797522ab471529626a937e6f3af",
+        "response_hash": "ee9462dd3a9edd8871313b16661c1bc23f2e1943152300226d705050d7f9b9fa",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "73007e7fd436e7e23d6dee470aa5e7e2edad062a7f8145dd5c9392522fd72804",
+        "response_hash": "34c475929c2c24207c5e35fa96fb5671e3a9a291867b189b90187e7588c46988",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f5bd870392b8b510b63e0e354d6a21aef6bfce7d9ceffccde005cc2e6eb0e754",
+        "response_hash": "b5affbf10dce63b506a2766d7ec2f340b8797c8bdca13d1e965362ea5d9f67b0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "890ec4a415930a6a5faf987ba749efbbe42b1630eca599ea02fd926594f5a6d6",
+        "response_hash": "269845920b32eb8444b9a8175c95635124b1adc68ba3a92ce37cc74c4b38db8c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b9bc2841f63003a41bc9017926361e225b672056a1780323afe7367ccddd3916",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4e24b8e294f9b53716cf43175a8ce10b6be8251f7910a1162424a72a343f9374",
+    "translation_sha256": "d9690f14186891c3ef50c2d98bda71b788013ded7cba200ac81424126e14d0fb"
+  }
+}

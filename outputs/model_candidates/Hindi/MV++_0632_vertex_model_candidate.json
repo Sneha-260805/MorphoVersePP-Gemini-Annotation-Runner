@@ -1,0 +1,295 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple, rustic wooden palanquin covered in dust",
+          "A traditional covered bridal doli depicted metaphorically with earthy tones"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional South Asian palanquin or litter, historically used to carry brides, royalty, or revered figures, often carrying deep emotional associations of departure, transition, and life journeys.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern wheeled carriage",
+          "An ornate royal chariot",
+          "A Western-style open sedan chair"
+        ],
+        "preserved": true,
+        "romanization": "doli",
+        "source_span_original": "डोली",
+        "source_span_translation": "palanquin",
+        "stanza_index": 1,
+        "term": "डोली",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A traditional wooden palanquin or litter",
+          "Carried by poles on shoulders",
+          "Often decorated with curtains or simple drapes"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A distant silhouette of travelers on a long path",
+          "A group of weary travelers walking alongside a dusty road"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A caravan or group of travelers journeying together, historically associated with trade, migration, and long desert or regional journeys across South and Central Asia.",
+        "line_ref": "L13",
+        "negative_confusions": [
+          "A modern motorized convoy",
+          "A military march of soldiers in uniform"
+        ],
+        "preserved": true,
+        "romanization": "karwan",
+        "source_span_original": "कारवां",
+        "source_span_translation": "caravans",
+        "stanza_index": 2,
+        "term": "कारवां",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A line of travelers or merchants",
+          "Pack animals or simple carts moving in a sequence",
+          "Dusty path or trail"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "grief and longing to deep existential reflection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "The translation renders 'mamtā' (maternal love/affection) as 'the love', which slightly flattens the specific maternal nuance of the original Hindi term.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The fragile, transient, and mortal nature of human life or the physical body, which ultimately returns to dust.",
+            "acceptable_visual_variants": [
+              "A traditional palanquin silhouette dissolving into a trail of dust under a vast sky",
+              "A traveler walking alongside a hazy, dust-like carriage outline"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A bridal palanquin made of dust or carrying dust",
+            "literalization_risk": "An illustrator might draw a literal wooden palanquin crumbling into physical dirt, which misses the poetic sense of a human's mortal journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "mortal human life",
+              "transferred_attributes": [
+                "transience",
+                "carrying a passenger to a final destination",
+                "fragility"
+              ],
+              "vehicle_concept": "palanquin of dust"
+            },
+            "source_span_original": "धूल की डोली",
+            "source_span_translation": "palanquin of dust",
+            "source_term": "धूल की डोली",
+            "tenor": "The mortal human body or transient life journey",
+            "vehicle": "A palanquin (doli) made of or carrying dust",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a faint, ethereal, or semi-translucent palanquin shape blending into a dusty, windy path, suggesting a journey of transience."
+          },
+          {
+            "abstract_meaning": "The slow, persistent accumulation of sorrows over time, clinging to human existence like moss or algae.",
+            "acceptable_visual_variants": [
+              "Dark, moss-like green and grey textures creeping up the wheels or base of a traveling carriage",
+              "A figure shrouded in heavy, clinging dark layers resembling overgrown vegetation"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The moss/algae of sorrows",
+            "literalization_risk": "Showing literal green moss growing on a person might look like a fantasy monster or physical decay rather than emotional sorrow.",
+            "metaphor_mapping": {
+              "tenor_concept": "accumulated sorrows",
+              "transferred_attributes": [
+                "clinging nature",
+                "slow growth over time",
+                "covering or suffocating a surface"
+              ],
+              "vehicle_concept": "moss/algae"
+            },
+            "source_span_original": "दुखों की काई",
+            "source_span_translation": "every sorrow of mankind",
+            "source_term": "दुखों की काई",
+            "tenor": "The persistent, clinging accumulation of human grief and suffering",
+            "vehicle": "Moss or algae (kai) that accumulates in damp, neglected places",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent this abstractly through dark, clinging textures or shadows wrapping around a traveling figure."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'duniya ki sawari' as 'traveler of the world', which loses the literal sense of 'sawari' as a passenger, ride, or procession, which directly links to the palanquin (doli) imagery. Additionally, 'kai' (moss/scum) is translated abstractly as 'sorrow' rather than preserving the physical metaphor of accumulated moss of sorrows. Finally, 'mamta' (specifically maternal love/affection) is translated as generic 'love'.",
+            "where": "L2-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation renders 'dhyān' (meditation/contemplation) as 'heart' and 'palkon kī duā' (prayer of the eyelashes/eyes) as 'a mother's prayer', shifting the specific poetic imagery of silent, meditative devotion to more generalized emotional concepts.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The world as a vast repository or storehouse of human suffering and grief.",
+            "acceptable_visual_variants": [
+              "A vast, still lake reflecting a dark sky, symbolizing a reservoir of tears",
+              "A quiet, ancient stone vessel overflowing with clear water in a desolate landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "A storehouse filled with tears",
+            "literalization_risk": "Drawing a literal warehouse filled with water or giant teardrops would look surreal and comical rather than melancholic.",
+            "metaphor_mapping": {
+              "tenor_concept": "the world's collective grief",
+              "transferred_attributes": [
+                "immense capacity",
+                "containment of valuable or heavy contents"
+              ],
+              "vehicle_concept": "storehouse/treasury"
+            },
+            "source_span_original": "आंसुओं का भरा भंडार",
+            "source_span_translation": "A treasure full of tears",
+            "source_term": "आंसुओं का भरा भंडार",
+            "tenor": "The collective grief and tears of the world",
+            "vehicle": "A storehouse or treasury (bhandar)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, reflective landscape resembling a quiet, tear-like body of water under a somber sky."
+          },
+          {
+            "abstract_meaning": "The fragile, transient, and mortal nature of human life or the physical body, which ultimately returns to dust.",
+            "acceptable_visual_variants": [
+              "A traditional palanquin silhouette dissolving into a trail of dust under a vast sky",
+              "A traveler walking alongside a hazy, dust-like carriage outline"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L14",
+            "literal_meaning": "A bridal palanquin made of dust or carrying dust",
+            "literalization_risk": "An illustrator might draw a literal wooden palanquin crumbling into physical dirt, which misses the poetic sense of a human's mortal journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "mortal human life",
+              "transferred_attributes": [
+                "transience",
+                "carrying a passenger to a final destination",
+                "fragility"
+              ],
+              "vehicle_concept": "palanquin of dust"
+            },
+            "source_span_original": "धूल की डोली",
+            "source_span_translation": "palanquin of dust",
+            "source_term": "धूल की डोली",
+            "tenor": "The mortal human body or transient life journey",
+            "vehicle": "A palanquin (doli) made of or carrying dust",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a faint, ethereal, or semi-translucent palanquin shape blending into a dusty, windy path, suggesting a journey of transience."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'dhyan' (meditation/contemplation/focus) as 'heart', losing the spiritual and meditative nuance of the original. It also translates 'palkon ki dua' (prayer of the eyelashes/eyelids) as 'a mother's prayer', introducing a specific maternal figure not explicitly named in this line, while losing the physical imagery of eyelashes/blinking associated with tears and prayer.",
+            "where": "L9-L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transient nature of human existence and the heavy burden of worldly sorrows carried through life like a palanquin of dust."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "धूल की डोली लिए, \nदुनिया की सवारी आई। \nकितनी दूर से आती है \nमनुष्य की हर दुखों की काई।  \nजीवन के भीतर छिपी \nदर्द की आवाज़ आ रही है,  \nदुनिया की रंगीनियत में  \nवो ममता खोती जा रही है।  \n\nकभी ध्यान में बसी ये दुनिया,  \nआंसुओं का भरा भंडार,  \nमानव की बोझ उठाती \nपलकों की दुआ का आधार।  \nकितने कारवां देखे होंगे  \nये धूल की डोली के पास,  \nदुनिया जो चल पड़ी है,  \nअपना क्या है, क्या है पास।",
+  "poem_id": "MV++_0632",
+  "poem_title": "Dhool Ki Doli",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cf20daf2d932983f06ab81518efc64dcbb5035ec3e39effbc9395e7b2d694c60",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0632.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Palanquin of Dust  \nCarrying the palanquin of dust,  \nThe traveler of the world has arrived,  \nHow far she comes,  \nWith every sorrow of mankind.  \nInside life is hidden  \nThe voice of pain,  \nIn the colors of the world,  \nThe love is fading away.  \n\nOnce, this world resided in the heart,  \nA treasure full of tears,  \nCarrying the weight of humanity,  \nThe foundation of a mother's prayer.  \nHow many caravans have passed,  \nNext to this palanquin of dust,  \nAs the world moves ahead,  \nWhat do we have, what do we possess?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:48:44.359800+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1a1e7aecc0b6f47bb0d907280182e5bd991ca4e9dbcce397055ddf47f194a740",
+        "response_hash": "e6dc0872a860821c139b6d73154d4a5f0dc3c7cbe0e2abd6a0da1d330b67a0f0"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f2cada6f4b524c94136b033581d2d0b1b43fbbea8da4554b69bca7f6daa71f89",
+        "response_hash": "6a78fe2bc702147121f360f5519e0a54052e051251537b6b257cabe95455d897",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7f242d8aa1b50916e502c79d142247e220a33494d3f3ba9f7e5c575dd23a01f9",
+        "response_hash": "d40e7ed96f6655776973ea0f3209adbaa9936c836f7663a9eb1d3de045938e81",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cb409bc7a43857b4bcc42245e1da94227e8d1d381a2a284416cdc1575b768720",
+        "response_hash": "38d5d7199fd81261828420e8e86b610da415050120259990cb1d359d392b2857",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "caef68c5f4c0b9c6ad8b325dd88aea962d868c346ad06d351347ec1bef1f7fba",
+        "response_hash": "b33073f2e8167adff3c94eeb20e6567d6dbc9c5971ab60f434d96385462851ff",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9f9ee11d01ab93a81d64b13c6a7f582c5bd874619e553be7d7a18f896130e9a2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "eb7193db67650f85bd99a081764ca4821289fd0975d57e77d55edfd93ff3d52a",
+    "translation_sha256": "849ab27adc32b7109fe5db079d2a6fc420c8428a394d3e247bfe277004444667"
+  }
+}

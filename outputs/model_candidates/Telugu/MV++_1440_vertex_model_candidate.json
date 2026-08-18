@@ -1,0 +1,292 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A gentle awakening of wonder and longing, shifting from a cold breeze to a sweet realization, and ending in a reflective address to the elusive blue moon.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker feels a sudden, profound intuitive realization or message brought by the cold breeze.",
+            "acceptable_visual_variants": [
+              "A close-up of a face with closed eyes, surrounded by swirling leaves and wind lines to suggest a sensory message.",
+              "A wide shot of a solitary figure on a hill at dusk as a strong breeze sweeps across the landscape."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The cold blowing wind touched me and spoke all at once",
+            "literalization_risk": "Showing a literal human-like face or mouth emerging from the wind to speak to a person would look like a fantasy/horror trope rather than a poetic feeling.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural wind",
+              "transferred_attributes": [
+                "speaking",
+                "delivering a message",
+                "intentional touch"
+              ],
+              "vehicle_concept": "human messenger"
+            },
+            "source_span_original": "చల్లగా వీచే గాలి, ఒక్కసారిగా నన్ను తాకి చెప్పింది",
+            "source_span_translation": "A cold wind suddenly hit me",
+            "source_term": "చల్లగా వీచే గాలి, ఒక్కసారిగా నన్ను తాకి చెప్పింది",
+            "tenor": "The sudden sensory and emotional impact of a cold breeze",
+            "vehicle": "A person speaking and delivering a message upon touching someone",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing with hair and clothes swept back by a sudden, visible gust of wind, looking thoughtful as if they just heard a whisper."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation omits the final verb 'cheppindi' (said/told), which frames the wind's action as a communicative act of speaking to the narrator.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation misses the reported speech marker 'yani' (saying that...) which links the wind's dialogue directly to the action in the previous line.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation maps the Telugu text of Stanza 3 and Stanza 4 in a combined, slightly misaligned manner, losing the precise poetic rhythm of the transition.",
+        "metaphor_spans": [],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of this stanza is merged with the translation of Stanza 4 in the provided English text, disrupting the stanza-by-stanza structural alignment.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 4,
+        "loss_note": "The translation for this stanza is misaligned, displaying the translation of Stanza 5 instead of Stanza 4's literal meaning about eyelids speaking of the lightning.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The silent, subtle movement of the eyelids expressing deep, unspoken feelings.",
+            "acceptable_visual_variants": [
+              "A split-screen showing closed eyes and a starry night sky.",
+              "A soft-focus portrait of a face with eyes gently closed in contemplation."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "If words were to come to the eyelids",
+            "literalization_risk": "Drawing literal mouths or text bubbles coming out of human eyelids would look bizarre and grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "eyelid movement",
+              "transferred_attributes": [
+                "speaking words",
+                "expressing thoughts directly"
+              ],
+              "vehicle_concept": "vocal speech"
+            },
+            "source_span_original": "కను రెప్పలకే మాటలు వస్తే",
+            "source_span_translation": "If the words come to my eyelids",
+            "source_term": "కను రెప్పలకే మాటలు వస్తే",
+            "tenor": "The expressive, silent communication of the eyes and eyelids",
+            "vehicle": "Eyelids possessing the human ability to speak words",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on a close-up of expressive, fluttering eyes or downcast eyelids that convey deep emotion without showing literal speech."
+          },
+          {
+            "abstract_meaning": "The beloved or the moon is described as a sudden, dazzling, and beautiful presence that captivates the speaker's vision.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking up at a brilliant flash of light in a dark blue sky.",
+              "A gentle, luminous aura surrounding a distant figure, casting a bright reflection on the observer."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "That you are the lightning that covered/shone over my eyes",
+            "literalization_risk": "Depicting actual lightning striking a person's eyes would look violent, painful, or like a medical injury rather than a beautiful poetic moment.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved person or moon",
+              "transferred_attributes": [
+                "brightness",
+                "suddenness",
+                "captivating power",
+                "dazzling the eyes"
+              ],
+              "vehicle_concept": "lightning flash"
+            },
+            "source_span_original": "నా కళ్ళను కమ్మిన మెరుపు నువ్వే అని",
+            "source_span_translation": "you are the lightning that has bitten my eyes",
+            "source_term": "నా కళ్ళను కమ్మిన మెరుపు నువ్వే అని",
+            "tenor": "The dazzling, sudden, and beautiful presence of the beloved or the moon",
+            "vehicle": "A flash of lightning covering the eyes",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, brilliant glow reflecting in the wide, amazed eyes of a person looking upward."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of Stanza 4 is completely misplaced, appearing under Stanza 3 in the English text, while the translation text listed under Stanza 4 actually belongs to Stanza 5. Additionally, the Telugu word 'kammina' (covering/shrouding) is mistranslated as 'bitten' ('bitten my eyes' instead of 'covered/enveloped my eyes').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 5,
+        "loss_note": "The translation for this stanza displays the translation of Stanza 6 instead of Stanza 5's literal meaning about shaking the mind and disappearing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The gentle awakening of deep emotions and consciousness by a soothing presence.",
+            "acceptable_visual_variants": [
+              "A ripple spreading across a calm, dark pool of water under moonlight, symbolizing the stirred mind.",
+              "A hand gently releasing a glowing spark into the air."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "Gently stirring the mind, tapping and waking it up",
+            "literalization_risk": "Showing a physical hand reaching inside a chest or head to tap a brain or heart would look highly clinical or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "stirring the inner mind",
+              "transferred_attributes": [
+                "gentle touch",
+                "transition from sleep to awareness",
+                "arousing attention"
+              ],
+              "vehicle_concept": "waking a sleeper by tapping"
+            },
+            "source_span_original": "మనసుని చల్లగా కదిలి౦చి, తట్టి మరీ లేపి",
+            "source_span_translation": "You shook the mind coldly, knocked and woke up",
+            "source_term": "మనసుని చల్లగా కదిలి౦చి, తట్టి మరీ లేపి",
+            "tenor": "The emotional awakening and stirring of the inner mind/heart",
+            "vehicle": "A person gently tapping and waking up a sleeping person",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person transitioning from a state of deep, somber contemplation to sudden awareness, perhaps looking up with a spark of life in their eyes."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of Stanza 5 is misplaced, appearing under Stanza 4 in the English text, while the translation text listed under Stanza 5 actually belongs to Stanza 6.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 6,
+        "loss_note": "The translation block has no corresponding translated lines for Stanza 6, leaving the final address to the blue moon untranslated in the stanza map.",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "There is no translation text provided under Stanza 6, as its translation ('O blue moon... this is your Maye Suma..!!') was shifted up to Stanza 5. Furthermore, the emphatic particle 'suma' (indeed/lo!) is left untranslated and merely transliterated.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "The fleeting, magical presence of a beloved or a cosmic force, likened to a cold wind and a blue moon, that stirs the soul and vanishes."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "చల్లగా వీచే గాలి, ఒక్కసారిగా నన్ను తాకి చెప్పింది\n\nనేనెందుకు వచ్చానో తెలుసా, ఐతే నా దారి వైపు గా చూడు యని\n\nతిరిగి చూసిన ఆ క్షణం, ఏ జీవితానికి అదే మధుర క్షణం\n\nకను రెప్పలకే మాటలు వస్తే , ఛెబుతాయేమో నా కళ్ళను కమ్మిన మెరుపు నువ్వే అని\n\nమనసుని చల్లగా కదిలి౦చి, తట్టి మరీ లేపి.. అ౦తలోనే మాయమై పోయావు\n\nఓ నీలి చ౦ద్రమా … ఇది నీ మాయే సుమా..!!",
+  "poem_id": "MV++_1440",
+  "poem_title": "Oh neeli Chandamama",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b971ab54c3bb1fe2d179f711fd1aedfda640b984937169aa56d129498d1fc270",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1440.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A cold wind suddenly hit me\n\nYou know why I came, but look my way\n\nThat moment in retrospect is the sweetest moment of any life.                                                                                                                                                If the words come to my eyelids, I will say that you are the lightning that has bitten my eyes.\n\nYou shook the mind coldly, knocked and woke up... you disappeared in the end\n\nO blue moon... this is your Maye Suma..!!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:34:02.101055+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "23afd4ef080d5531f1dc0f96aaf33f20a0d59cb41cf3ce07b3e26e53412bcbe1",
+        "response_hash": "8472a0bd72960e826487d3d0f9b51f6b340446fee5c5331ec0dd1b9c1e5a1a8b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7c3c4935a9f8afeedf41fa4df0f8fa6f92471879b565424a0c14aefbafddbe95",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cdff6aa49034d754a9df73ce1ece578c5cc1c4bdd22134c39601183f262ccc9c",
+        "response_hash": "2aebb6d54c49b5045fb375de52ae0b6b0ae8fa011692c80ca4dfede10c2d128b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4354658807d03663c7b7fbcd6deba3972dcda8eb1a9217a5cdab2dd9826f6932",
+        "response_hash": "d80c29581d5f2cbc62ec2d187a47a5578e140788c89ad6299245a1ab2c51b42b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f6fc7f6eb3cbe2fb601d0fbbfc631d619820479471edac9908f54f63f9fc40d9",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f29cd292deee943f08f783003d3e3dbdf65044be3d974bd8c1b6b784d0d1cff6",
+    "translation_sha256": "f8af2b8b84e32b158b559b233b122b80c649788386ce14cec60b5f48dae75865"
+  }
+}

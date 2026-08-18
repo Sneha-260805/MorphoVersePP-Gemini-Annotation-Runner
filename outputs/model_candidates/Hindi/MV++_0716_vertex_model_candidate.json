@@ -1,0 +1,141 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady progression of admiration, recognizing depth, peace, and ultimate uniqueness in the addressee.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the Sanskrit-derived term 'ananya' (literally 'no other', peerless, or uniquely devoted) carries a slightly deeper philosophical resonance of absolute singularity than the English 'the unique one'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The profound, complex, and stable inner character or emotional capacity of the person being addressed.",
+            "acceptable_visual_variants": [
+              "A person in a quiet, expansive space with deep, soft blue and indigo tones in the background suggesting vastness and quietude.",
+              "A person looking down into a clear, deep, still pool of water that reflects their calm expression."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "physical depth, such as that of a deep body of water or abyss",
+            "literalization_risk": "Depicting a literal deep hole, pit, or underwater abyss next to a person would look like a physical hazard rather than a compliment about their character.",
+            "metaphor_mapping": {
+              "tenor_concept": "character complexity",
+              "transferred_attributes": [
+                "vastness",
+                "unfathomability",
+                "stability"
+              ],
+              "vehicle_concept": "physical depth"
+            },
+            "source_span_original": "गहराई",
+            "source_span_translation": "depth",
+            "source_term": "गहराई",
+            "tenor": "the profound nature, emotional capacity, or inner complexity of a person's character",
+            "vehicle": "physical depth (as of an ocean or deep water)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing calmly beside a vast, deep, and perfectly still body of water reflecting a clear sky, visually linking their calm presence to the quiet depth of the water."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'अनन्य' (ananya) as 'the unique one' loses the deeper philosophical and etymological resonance of the Sanskrit-derived Hindi term, which literally means 'having no other' or 'peerless, single-minded, incomparable', reducing a profound state of singular devotion or matchless existence to a simpler English adjective.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The recognition and celebration of an individual's profound, peaceful, and incomparable nature."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अद्भुत हो तुम, तुम में गहराई है, शांति है\nतुम्हारी अलग पहचान है, तुम अनन्य हो",
+  "poem_id": "MV++_0716",
+  "poem_title": "Ananya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "72cab60f170cfb6dade884b3485585e533ab4e482c562d225b230603893d609a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0716.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "You are wonderful, you hold depth, calmness,\nYou have a unique identity, you are the unique one.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:59:20.860064+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a7a9acd01219e5a3bba68b03bac866b9258ddd93f7e40d4fba32ae7de62d858e",
+        "response_hash": "9dfdca3b255604d35912991897302b711ae1e722f0fa5d4eb1b0144cb819fdfd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1f65c909a2bea5b434d0eb4dbbb67d4a948880f4f0e8ea4c5ca9d7e87f25d4b4",
+        "response_hash": "47d6ca356ceb57f0c828f88d1bb2d9a43b2aa7ccd47e0ba2aaf02ab2d5e8eb75",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e28be73ef6db69efd3abed39d64cc03ef9696eeeebdd0ea43d7230c99dbd199e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "534d2a860d64e6607132c8b849e72bf00f36fc57072b8d37e71f2252128432ee",
+        "response_hash": "6ced73f89041898e8153c66a36ee16c9f6c9fb210d6df0d518c3c2dbcfe4d693",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2f26bc0b71f60874b5c2cdfd6b311c68ab8bf30ccc5b0268c8db1066b4aa89d8",
+        "response_hash": "9e69c96f61bb84365f04fc1a745abdf1c6b92634fbf5aadb42e08afa0cdf829c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c1f3f535d396eb1a60dac119015fbb6d1bc9ca4141c37521b4a40a4b0da9451d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6ef84de1ec6708e94817d48b3ab180a6ee8b815de907d0134d01cab5cd3e7b8c",
+    "translation_sha256": "95d6225fca2c4d25ece3747bd6b94e619c93fa58d0f33022f36a7314f3da7621"
+  }
+}

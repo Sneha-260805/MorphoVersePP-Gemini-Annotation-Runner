@@ -1,0 +1,232 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and searching to quiet devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An idealized, deeply desired romantic partner who exists in the speaker's imagination or hopes.",
+            "acceptable_visual_variants": [
+              "A soft, glowing silhouette of a woman in a starry night sky",
+              "A stylized, elegant female figure fading into a misty, dreamlike background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A female monarch ruling over dreams",
+            "literalization_risk": "Depicting a literal queen with a crown sitting on a throne made of clouds or sleeping figures, which would look like a fantasy illustration rather than a romantic longing.",
+            "metaphor_mapping": {
+              "tenor_concept": "idealized romantic partner",
+              "transferred_attributes": [
+                "sovereignty",
+                "idealization",
+                "belonging to the realm of imagination"
+              ],
+              "vehicle_concept": "monarch of a dream realm"
+            },
+            "source_span_original": "सपनों की रानी",
+            "source_span_translation": "Queen of my dreams",
+            "source_term": "सपनों की रानी",
+            "tenor": "An idealized romantic partner",
+            "vehicle": "A queen ruling a dream kingdom",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, ethereal silhouette of a woman surrounded by a hazy, dreamlike glow, blending into a starry or twilight background."
+          },
+          {
+            "abstract_meaning": "To be deeply loved, constantly thought of, and emotionally cherished by the speaker.",
+            "acceptable_visual_variants": [
+              "A warm, golden light emanating from a person's chest",
+              "A stylized heart symbol containing a soft, glowing silhouette"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L4",
+            "literal_meaning": "To physically live or reside inside a heart",
+            "literalization_risk": "Showing a tiny person physically living inside a biological heart chamber, which would look grotesque or medically absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "occupying a central place in someone's emotional life",
+              "transferred_attributes": [
+                "permanence",
+                "intimacy",
+                "belonging"
+              ],
+              "vehicle_concept": "residing in a physical dwelling"
+            },
+            "source_span_original": "दिल में बसती हो",
+            "source_span_translation": "resides in my heart",
+            "source_term": "दिल में बसती हो",
+            "tenor": "Being deeply loved and cherished in someone's emotional core",
+            "vehicle": "A resident living inside a physical house or chamber",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, glowing light radiating from the chest area of a person looking longingly into the distance, symbolizing emotional warmth and presence."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender agreement in 'basti ho' (feminine singular verb form) explicitly marks the beloved/addressee as female, which is lost in the gender-neutral English translation 'Who resides'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Under the gentle, cool light of the stars at night, creating a peaceful and romantic atmosphere.",
+            "acceptable_visual_variants": [
+              "A quiet landscape bathed in the soft, cool blue light of a starry night sky",
+              "A person standing under a vast canopy of twinkling stars in a dark blue sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "In the physical shadow cast by stars",
+            "literalization_risk": "Depicting sharp, dark shadows cast on the ground by tiny star shapes, which is physically impossible and visually confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "the gentle, soothing light of stars at night",
+              "transferred_attributes": [
+                "coolness",
+                "comfort",
+                "protection",
+                "gentleness"
+              ],
+              "vehicle_concept": "cool shade under a protective canopy"
+            },
+            "source_span_original": "तारों की छांव में",
+            "source_span_translation": "In the shade of stars",
+            "source_term": "तारों की छांव में",
+            "tenor": "The cool, gentle, and romantic atmosphere of a starry night",
+            "vehicle": "The shade or shadow cast by a canopy (like a tree) protecting someone from heat",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a serene night scene with a clear sky full of twinkling stars casting a soft, cool blue and silver glow over a quiet landscape."
+          },
+          {
+            "abstract_meaning": "An idealized, deeply desired romantic partner who exists in the speaker's imagination or hopes.",
+            "acceptable_visual_variants": [
+              "A soft, glowing silhouette of a woman in a starry night sky",
+              "A stylized, elegant female figure fading into a misty, dreamlike background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A female monarch ruling over dreams",
+            "literalization_risk": "Depicting a literal queen with a crown sitting on a throne made of clouds or sleeping figures, which would look like a fantasy illustration rather than a romantic longing.",
+            "metaphor_mapping": {
+              "tenor_concept": "idealized romantic partner",
+              "transferred_attributes": [
+                "sovereignty",
+                "idealization",
+                "belonging to the realm of imagination"
+              ],
+              "vehicle_concept": "monarch of a dream realm"
+            },
+            "source_span_original": "सपनों की रानी",
+            "source_span_translation": "Queen of my dreams",
+            "source_term": "सपनों की रानी",
+            "tenor": "An idealized romantic partner",
+            "vehicle": "A queen ruling a dream kingdom",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, ethereal silhouette of a woman surrounded by a hazy, dreamlike glow, blending into a starry or twilight background."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The poetic juxtaposition and rhythmic flow of 'chand ki chandni' (moon's moonlight) is simplified to 'the moonlight', losing the alliterative and repetitive quality of the Hindi phrasing.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The persistent yearning and search for an idealized beloved who exists in dreams and the natural world."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मेरे सपनों की रानी,  \nकहाँ हो तुम?  \nकहाँ हो तुम,  \nजो मेरे दिल में बसती हो?  \n\nचाँद की चाँदनी में,  \nतारों की छांव में,  \nतुम्हारा ही इंतज़ार है,  \nमेरे सपनों की रानी।",
+  "poem_id": "MV++_0386",
+  "poem_title": "Mere Sapno Ki Rani",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a2f12258c9a886ad1379c8ec4f4ed8f457add69cbd99c7ed9d120e87ceeeb863",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0386.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Queen of my dreams,  \nWhere are you?  \nWhere are you,  \nWho resides in my heart?  \n\nIn the moonlight,  \nIn the shade of stars,  \nIt is only you I wait for,  \nQueen of my dreams.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:19:22.152109+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f899acd4729b2120196c829bbf6cda9c4f80f92526b8c80988bab2b178f9f38e",
+        "response_hash": "1211f46790d6c62c952df6fc6cd102999a721e3f589a49442af4f4c352f33dcb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "351ccb0b2781d403c048e063d3200c683f605d3a088e926fdd1c7bc779e44cea",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b4819fe93370f4ca48a82f007abd8e5430b0b1bd2f28b97e19c92d4749adec32",
+        "response_hash": "909a3ad4b067ae7eaab7264677f78bab5aae751ed68534b2d25b95d692e15a94",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d1157aa05b7a21e5625d93783a9c85ced01b70638bc6b415d283ce7b4ca7fe15",
+        "response_hash": "a34e6643a5849b12d690764462fe5bc18915aa1ade51e425b2367555c42b425a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "27491ef4b27851154c872e1fd6f63e7056c02c1bc9430640266f9933bb692c1b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c15f445f85a70b8795de3627c8df25c0ac6ba2dfba539e33e2632ca28c338ae6",
+    "translation_sha256": "50a504b8e2d71faedc813eca90abba2876a2befaf7b3f0a974f4aed88a7ece1f"
+  }
+}

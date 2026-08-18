@@ -1,0 +1,153 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "From desire and immersion in love to a state of being mesmerized by beauty.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The man became deeply involved and overwhelmed by the emotional experience of love.",
+            "acceptable_visual_variants": [
+              "A figure gently leaning back into a sea of soft, glowing light or abstract floral patterns representing love",
+              "A close-up of a person looking deeply captivated, with soft-focus warm light enveloping them"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "He submerged or drowned in the game of love",
+            "literalization_risk": "Showing a person physically drowning or sinking underwater in a literal playground or game board, which would look like a physical accident rather than an emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "becoming deeply absorbed in love",
+              "transferred_attributes": [
+                "depth",
+                "immersion",
+                "loss of control",
+                "playfulness"
+              ],
+              "vehicle_concept": "drowning or sinking in a physical medium or game"
+            },
+            "source_span_original": "அன்பின் விளையாட்டில் மூழ்கினான்",
+            "source_span_translation": "He sank in the play of love",
+            "source_term": "அன்பின் விளையாட்டில் மூழ்கினான்",
+            "tenor": "becoming deeply absorbed in the emotional experience of love",
+            "vehicle": "submerging or drowning in a game/play",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, abstract scene where a figure is surrounded by soft, swirling warm colors or symbolic waves of light, conveying deep immersion and emotional absorption without literal water."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative suffix '-ilaana' (ஆசையிலான) fuses the noun 'desire' with a qualifying state of being, which is flattened into the English prepositional phrase 'in desire'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The temporal suffix '-pothu' (போது) in 'kaanum pothu' is translated as 'When I saw', which introduces a past tense not explicitly marked in the same way by the non-past adjectival participle 'kaanum' (seeing/when seeing).",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The captivating and mesmerizing power of love and beauty."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a blank loss_note. When translation_loss is present, translation_quality should typically reflect partial loss or the loss_note should summarize these losses.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ஆசையிலான மனிதன்,  \nஅன்பின் விளையாட்டில் மூழ்கினான்,  \nகண்ணின் அழகை காணும் போது,  \nநான் மயங்கினேன்!",
+  "poem_id": "MV++_1299",
+  "poem_title": "Aasaiyil Maanidhan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0c2aeaf58336fcad4d9d6a15203f4892fe2e812363dd8f0dbece6799907ab9d4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1299.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A man in desire,  \nHe sank in the play of love.  \nWhen I saw the beauty in the eyes,  \nI was mesmerized!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:19:01.169069+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9de0b0bf8556f22b374051cd53680f5e136adb39cc04df5acfac7cce20853579",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eb2039af9d24706722a24626847581253d39c27de6dbd71eabbfeded304f788d",
+        "response_hash": "f75f5e8f4dd9d7c8e2c12471a1963233afb1632acff595882c83f65882bb5228",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ed09bc437ebd75b1002d9e75200f1b88d3abb48fb95ea45b8d0af4fec5c75aad",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "080c881315044d3e34b9c29a4c01f7ddc98678d35b94e293bab8239ed1aca92c",
+        "response_hash": "a3b9a79550b60a061cf1c206182f62605d94e0ed51d77be4f50d3d5b8ae0992c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9127a693074aefe388d0850c960430fd4c335504faffa2385e9b490e90f71a9e",
+        "response_hash": "aa1773f05789584d9aaf2c95553a479e109238cdd0cf1a70df1727879b01904c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f54c674a50fc35a1a8b0ff89ed864406545ee9c45e8daa12281d33edc2f0e91f",
+        "response_hash": "01fbc411b4c7b396c972cb1283f674399570c28841a4fe0c662c89e4f9860d67",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d04341a241575183ef3dfc41032b00235abdd7e2bdfa0e6d198a91ee1ba26f4a",
+    "translation_sha256": "c3eb058bdc2e686a333b2eb3d2dd7aa45f9f2083a0e7d179bac8f8090c7e4fd1"
+  }
+}

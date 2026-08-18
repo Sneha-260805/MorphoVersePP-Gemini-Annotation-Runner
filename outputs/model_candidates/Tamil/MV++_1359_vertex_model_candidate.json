@@ -1,0 +1,175 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady rise of joy and devotion, moving from quiet appreciation of love's beauty to a celebratory crescendo where love ascends as a song.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but slightly flattens the agglutinative rhythm of the Tamil case endings (e.g., 'anbin' and 'idhanyathin') which create a natural, flowing internal rhyme.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The joyful, vibrant, and emotionally rich quality that a loved one's smile brings to the speaker's life.",
+            "acceptable_visual_variants": [
+              "A close-up of a smiling face with soft, warm light highlighting the expression",
+              "An artistic rendering where the background shifts into warm, vibrant colors around the smiling figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Color in your play of laughter/smile",
+            "literalization_risk": "Showing literal paint, dye, or colored dust physically smeared on a person's face or teeth while they smile, which would look bizarre or messy.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional joy and beauty of a smile",
+              "transferred_attributes": [
+                "vibrancy",
+                "variety",
+                "warmth",
+                "aesthetic pleasure"
+              ],
+              "vehicle_concept": "visual color and brightness"
+            },
+            "source_span_original": "உன் நகையாட்டில் வண்ணம்",
+            "source_span_translation": "Colors in your smile",
+            "source_term": "உன் நகையாட்டில் வண்ணம்",
+            "tenor": "the joy and beauty of a loved one's smile",
+            "vehicle": "vibrant colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, radiant smile with subtle, glowing light or soft, warm-toned artistic hues emanating from the expression to suggest joy and color without literal paint."
+          },
+          {
+            "abstract_meaning": "The inner emotional harmony, feelings, and rhythm of the speaker's heart.",
+            "acceptable_visual_variants": [
+              "A person with a peaceful, reflective expression, surrounded by flowing, abstract lines representing melody",
+              "A silhouette of a person with a glowing chest area from which soft, wave-like patterns emerge"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the music of my heart",
+            "literalization_risk": "Depicting a literal anatomical heart with musical notes, strings, or instruments physically attached to it, which would look clinical or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "internal emotional state",
+              "transferred_attributes": [
+                "harmony",
+                "rhythm",
+                "expressiveness",
+                "beauty"
+              ],
+              "vehicle_concept": "musical melody and harmony"
+            },
+            "source_span_original": "என் இதயத்தின் இசையில்",
+            "source_span_translation": "In the music of my heart",
+            "source_term": "என் இதயத்தின் இசையில்",
+            "tenor": "the speaker's inner emotions and feelings",
+            "vehicle": "music/melody",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the emotional expression of the speaker, perhaps with abstract, flowing lines or waves in the background suggesting sound waves or musical rhythm."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil word 'நகையாட்டு' (nagaiyaattu) carries a playful, teasing, or game-like nuance of smiling/laughter, which is simplified to a standard 'smile' in the English translation.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative genitive case marker '-in' in 'அன்பின்' (anbin) and 'இதயத்தின்' (ithayathin) and the locative '-il' in 'இசையில்' (isaiyil) are flattened into standard English prepositions ('of', 'in'), losing the rhythmic flow and structural compactness of the original Tamil noun inflections.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of love, which colors the beloved's smile and harmonizes with the music of the heart to become an ascending song."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "அன்பின் அழகு,  \nஉன் நகையாட்டில் வண்ணம்,  \nஎன் இதயத்தின் இசையில்,  \nபாடல் என ஏறுகிறது!",
+  "poem_id": "MV++_1359",
+  "poem_title": "Anbin Azhagi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e2c36936613137592e86d491beb5a68413ff07025027d0137e453a4dadee23ce",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1359.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The beauty of love,  \nColors in your smile,  \nIn the music of my heart,  \nIt ascends as a song!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:25:27.941257+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a02e753e7237fdbd424747dbe0cb77da0ff6e647fee41e6731acca01cc225fde",
+        "response_hash": "c38957c60fceb27aeb439d08c2dcba45df4b1edd6475753f2849e94ed577a91a"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5958743493b7f6261eb9be6d585ab627bcf7f26e0df2182ede3400e4e3ce9a60",
+        "response_hash": "908fd21a6d2beeb3a4ac30072c7ecfa03bc6dff667a59c0d45ccbdf39b6d7583",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f192728c703e1fc0ce7cc7e3de08baedc496d4260691ca5b9c3ec67ad724c98c",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9059ccdeff80557353d7b1618123bf3ce4ded4656e3caa20a500d619b36c9ca2",
+        "response_hash": "5cc3f5e037adde679ffab321915f3e89354ffe2f9a9b7f007998df5d0586b6a1",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "167cf43592df99e2513e012f7099df1801586dff1a031a703c1ba60c11c3955a",
+        "response_hash": "138b9f7cd74ed4855c6b8d7ad78255a99e9f2b501aefaf821555385e1f3d6805",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b6d53da73b2484fcadba2fec322f789605fa47dc6099d3226926e9335d85c59",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "cc8d59d9b0b82540f30c5c7ca43a4766934508d69794fda1b9b96945a6377954",
+    "translation_sha256": "fe9106d186e5ccacc4761bc84cd705fec419d40123e8e6344c29c7c922306480"
+  }
+}

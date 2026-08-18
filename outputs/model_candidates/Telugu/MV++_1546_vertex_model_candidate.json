@@ -1,0 +1,168 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A vocative address meaning 'O wise one' or 'one with good intellect', characteristic of the Sumati Satakam moral poems in Telugu literature.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "The translation preserves the vocative address 'Sumathi' directly, which is a classic signature of the Sumati Satakam poems.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "didactic reflection on non-existent things",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation completely alters the literal meaning of the Telugu poem. The original poem lists four non-existent things (a son-in-law's goodness, a shepherd's literary knowledge, a woman's absolute truthfulness, and white crows) and pounding empty husks to get rice, whereas the translation interprets these as 'the goodness of the humble' and 'do not underestimate the worth of those who seem insignificant.'",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Things that are completely non-existent or impossible in the natural world.",
+            "acceptable_visual_variants": [
+              "A stylized, ghostly white crow silhouette contrasted against normal black crows",
+              "A conceptual illustration of impossible things"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L4",
+            "literal_meaning": "White crows do not exist",
+            "literalization_risk": "An illustrator might draw literal white crows, which misses the idiomatic point that they represent things that do not exist.",
+            "metaphor_mapping": {
+              "tenor_concept": "impossible phenomena",
+              "transferred_attributes": [
+                "non-existence",
+                "unnaturalness"
+              ],
+              "vehicle_concept": "white crows"
+            },
+            "source_span_original": "దెల్లని కాకులును లేవు",
+            "source_span_translation": null,
+            "source_term": "దెల్లని కాకులును లేవు",
+            "tenor": "impossible or non-existent phenomena",
+            "vehicle": "white crows",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a surreal, impossible scene or a silhouette of a crow with a question mark, or focus on the other impossible tasks mentioned in the poem."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely alters the literal meaning of the original Telugu poem. The original poem lists five non-existent things (a son-in-law's goodness, a cowherd's literary knowledge, a woman's absolute truthfulness, getting rice by pounding empty husks, and white crows) to make a satirical point. The translation misinterprets these as positive attributes of the humble and insignificant.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The specific cultural and social archetypes of the son-in-law ('alluni'), the cowherd ('gollani'), and the woman ('komali') are completely lost and replaced with generic concepts like 'the humble' and 'pure and gentle'.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The literal imagery of pounding empty hus ('bolluna danchi') to get rice ('biyyamu') and the proverbial impossibility of 'white crows' ('thellani kaakulu') are entirely omitted.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "lost"
+      }
+    ],
+    "theme": "A moral verse listing things that do not exist in the world, concluding with a direct address to Sumathi."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].category",
+      "issue": "The term 'సుమతీ' (Sumathi) is categorized as 'DEVOTIONAL_CONCEPT', but its gloss describes it as a vocative address meaning 'O wise one' or 'one with good intellect' from a secular moral/didactic poetry collection (Sumati Satakam), which does not fit a devotional concept. A category like 'SOCIAL_CUSTOM' or a more general classification would be more consistent, or the gloss should clarify any devotional connection if one exists.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "అల్లుని మంచితనంబును,  \nగొల్లని సాహిత్యవిద్య, కోమలి నిజమున్,  \nబొల్లున దంచి బియ్యము,  \nదెల్లని కాకులును లేవు తెలియుము సుమతీ.",
+  "poem_id": "MV++_1546",
+  "poem_title": "Alluni manchithanambu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "24dfcbeae4ec1c8134cc40d2469df7f50681434608290e5d69139ce265afd1bf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1546.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The goodness of the humble,  \nThe knowledge of literature that is pure and gentle,  \nCrushing grains underfoot,  \nDo not underestimate the worth of those who seem insignificant, Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:46:48.442610+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8f97cf31b748a986e23be8f71f6ae9b092267bb9b39f3904926732c94be8108f",
+        "response_hash": "846eb945fd53032918abae77e9fd036a10ad93ebb953f1427f9035c97476a7a4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49b4f4ab17636c10172ff52d07ce5c3e963da20a2022fa1530835b1a8f14af13",
+        "response_hash": "4204ceabed7ae7ad3be6af1571f324bdedbf8cd4fd24c862c9c4e013493a9d8a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bbe848354663fc3e7b83ffad4eec71124e8fb12e7c656e45aa558c85f7333f43",
+        "response_hash": "03ec2525ab0aa7edbbe6266fbb8ccf6e611ec5247aa37431ed4420b2c2dce169",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5e0b797bef107058ad84f2d798403f65682a0229df664740e39fd8054322e670",
+        "response_hash": "7016fc3fe77bef2e74810c8318b70615cb5abe9cb806d3687c12ea199cf3eb5e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5c7422b2628d165dd322abb9564adea7185858e717aacdb46c6469fb239ff06f",
+        "response_hash": "d0474a96ba20de286dd76359e7cb1f5d778d9f684e82ec3a4ab74c843a044ec7",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "59fe1f19c1951efe3509348b4960aad12f96dbc2a1596e7f09255d3f2105f5e0",
+    "translation_sha256": "d0bf346d091d2ad2683ffe63e06f4284e94e3cf570e9438fd341bacc0cc64084"
+  }
+}

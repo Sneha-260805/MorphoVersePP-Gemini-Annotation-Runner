@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and longing to deep devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The morning rays of light appearing or shining on the mountain peaks.",
+            "acceptable_visual_variants": [
+              "Sunlight filtering through clouds onto a snowy peak",
+              "A bright dawn sky over a silver-white mountain range"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The rays of light that wake up / open their eyes",
+            "literalization_risk": "Depicting literal human eyes opening inside beams of light, which would look surreal or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "morning light",
+              "transferred_attributes": [
+                "opening eyes",
+                "becoming active",
+                "bringing consciousness"
+              ],
+              "vehicle_concept": "awakening person"
+            },
+            "source_span_original": "விழித்திடும் ஒளிக்கதிர்கள்",
+            "source_span_translation": "The rays of light awaken",
+            "source_term": "விழித்திடும் ஒளிக்கதிர்கள்",
+            "tenor": "The morning rays of light shining",
+            "vehicle": "An awakening person opening their eyes",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict soft, golden morning sunbeams breaking over a snowy mountain peak, capturing the gentle transition of dawn."
+          },
+          {
+            "abstract_meaning": "The beautiful, expressive, and captivating nature of the beloved's eyes.",
+            "acceptable_visual_variants": [
+              "A stylized, artistic rendering of a person's eyes with deep, expressive pupils",
+              "A soft-focus portrait highlighting the eyes of the beloved"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the painting of your eyes",
+            "literalization_risk": "Depicting a literal canvas painting of eyes, which loses the romantic, direct gaze of the beloved.",
+            "metaphor_mapping": {
+              "tenor_concept": "eyes",
+              "transferred_attributes": [
+                "beauty",
+                "artistry",
+                "expressiveness",
+                "depth"
+              ],
+              "vehicle_concept": "painting"
+            },
+            "source_span_original": "உன் கண்களின் ஓவியத்தில்",
+            "source_span_translation": "In the painting of your eyes",
+            "source_term": "உன் கண்களின் ஓவியத்தில்",
+            "tenor": "The beloved's eyes",
+            "vehicle": "A painting / artwork",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of expressive, beautiful eyes reflecting a soft, dreamy landscape or light."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'cherish' to translate 'காணும்' (kaanum, meaning 'seeing' or 'I see'), which alters the simple, direct statement of seeing dreams into a more emotionally embellished English phrase.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative locative suffix '-in meedhu' (on/upon) in 'panimalaiyin meedhu' and genitive '-in' in 'kankalin' (of the eyes) are flattened into standard English prepositions ('on', 'of'), losing the rhythmic flow and morphological structure of the Tamil noun inflections.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The beloved's eyes as a canvas of dreams, mirroring the sublime beauty of dawn on a snowy peak"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing semantic additions and grammatical flattening. A quality rating of 'partial' would be more consistent with these documented losses.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "வெள்ளி பனிமலையின் மீது  \nவிழித்திடும் ஒளிக்கதிர்கள்,  \nஉன் கண்களின் ஓவியத்தில்  \nநான் காணும் கனவுகள்!",
+  "poem_id": "MV++_1266",
+  "poem_title": "Velli Panimalaiyin Meedhu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e8bd0270ea65a8aac730ae83a1dcc0b7c24cb312b3cf0cd215be1f14bbfb1f92",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1266.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "On the silver snowy mountain,  \nThe rays of light awaken,  \nIn the painting of your eyes,  \nI see the dreams I cherish!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:15:12.794477+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ecbcdb9dacf33068c0aae9f9028680c8ec8027dae0b08cd4888b9ef766a59544",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cdd895790e7dc1d5dc9b13a4df571a003ea5d0da79519ff79e1a80ec4b389d7e",
+        "response_hash": "60e093527c9c4fbaf0f61a0605a598f0ccd34c73a7d682cd68fe91f59dff60b2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f2c77d4adf0944143d160fa144195b97583d6c561b874c522a2936a53bab6080",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "469f7ba2955b238fad5cf4ae4e217fec86013f04d85a47f9022c452911dab5e0",
+        "response_hash": "784855e2a935299e3eacc874c49b078ea9bfce0fd76bb010f9224a035c5f944b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "09c59031b6467ed1555a475569bc2fbdbe51167463dff988ce0dde4cdc95bc43",
+        "response_hash": "669538fba1e1daed4ad6ccc691bd1bea26845f6f5070466990c19556d694e294",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dad79c5b5e8bd2c8242989797d0f4aaae8fc01ae7a0604425602661eba5d4a20",
+        "response_hash": "d8848ed44bc7386ffcf58488940c44ae5342eb417844aee36dc629f997f5ab88",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "21d86244cd0c4e3a477b0493582b0019e5be30e4ede0c60a1e906224bf45217e",
+    "translation_sha256": "807a4105534df5506d5168a631d363bad55e53a67189bbdb10b47f7e2a29bcf4"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "gentle joy and quiet celebration of existence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation uses 'fragrance' as a verb ('We fragrance like flowers') which is grammatically unusual in English, whereas the original 'महकते हैं' (mahakte hain) is a standard, natural verb form meaning 'to spread fragrance' or 'to smell sweet'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The human speakers spread joy, beauty, and positive presence in their lives, much like flowers spread their scent.",
+            "acceptable_visual_variants": [
+              "A group of happy people walking through a sunlit field of wildflowers",
+              "People laughing together with subtle, artistic floral patterns overlaid on the scene"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "To emit a sweet fragrance like flowers do",
+            "literalization_risk": "An illustrator might literally draw people with flower petals or physical scent clouds rising from their skin, which looks comical or monstrous rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "joyful human presence",
+              "transferred_attributes": [
+                "sweetness",
+                "spreading joy effortlessly",
+                "bringing beauty to surroundings"
+              ],
+              "vehicle_concept": "fragrant flowers"
+            },
+            "source_span_original": "फूलों की तरह महकते हैं",
+            "source_span_translation": "We fragrance like flowers",
+            "source_term": "फूलों की तरह महकते हैं",
+            "tenor": "humans spreading joy and positive presence",
+            "vehicle": "flowers emitting fragrance",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict people smiling and interacting warmly in a bright, open space, with soft, stylized floral motifs or petals gently floating in the background to suggest the comparison."
+          },
+          {
+            "abstract_meaning": "The speakers grow, thrive, and find their own moments of happiness and fulfillment in life.",
+            "acceptable_visual_variants": [
+              "A person opening their arms to the sky in a beautiful landscape",
+              "A child laughing and looking up as sunlight hits their face"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "We also bloom or open up like flowers somewhere.",
+            "literalization_risk": "Showing humans physically sprouting roots or turning into plants with blossoms growing out of their heads.",
+            "metaphor_mapping": {
+              "tenor_concept": "human thriving and emotional opening",
+              "transferred_attributes": [
+                "opening up",
+                "reaching full potential",
+                "displaying inner beauty"
+              ],
+              "vehicle_concept": "blooming flower"
+            },
+            "source_span_original": "हम भी कहीं खिलते हैं।",
+            "source_span_translation": "We too bloom somewhere.",
+            "source_term": "हम भी कहीं खिलते हैं।",
+            "tenor": "humans thriving and finding happiness",
+            "vehicle": "flowers blooming",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person transitioning from a closed, contemplative posture to an open, joyful, and expressive posture in a vibrant setting."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses 'fragrance' as a verb ('We fragrance like flowers'), which is grammatically awkward in English compared to the natural Hindi verb 'महकते हैं' (to spread fragrance / smell sweet).",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The phonetic wordplay and sound connection between 'खिलते' (khilte - bloom) in L2 and 'खिलखिलाते' (khilkhilate - laugh heartily/giggle) in L4 is lost in English ('bloom' vs 'burst into laughter').",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'बगिया' (bagiya) as 'garden' loses the affectionate, diminutive, and tender quality of the Hindi word, which suggests a small, cherished garden.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A life, environment, or state of mind filled with happiness, joy, and pleasant experiences.",
+            "acceptable_visual_variants": [
+              "A sun-drenched backyard garden with family members laughing together",
+              "A vibrant public park filled with green trees, blooming flowers, and cheerful people"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "In the garden made of joys",
+            "literalization_risk": "Depicting literal physical gardens where the flowers are shaped like smiley faces or literal abstract 'joys' growing on stems, which looks childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "an environment of abundant happiness",
+              "transferred_attributes": [
+                "abundance",
+                "variety of pleasant things",
+                "growth",
+                "safety and beauty"
+              ],
+              "vehicle_concept": "a lush, well-tended garden"
+            },
+            "source_span_original": "खुशियों की बगिया में",
+            "source_span_translation": "In the garden of joys",
+            "source_term": "खुशियों की बगिया में",
+            "tenor": "a life or state of mind filled with happiness",
+            "vehicle": "a garden",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Render a beautiful, lush garden filled with light, where people are relaxing, playing, or sharing happy moments, blending the physical beauty of the garden with genuine human joy."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses 'fragrance' as a verb ('We fragrance like flowers') to translate 'महकते हैं', which is grammatically non-standard in English.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding a sense of belonging and shared joy in the delicate beauty of nature"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "फूलों की तरह महकते हैं,  \nहम भी कहीं खिलते हैं।  \nफूलों की नाजुकता में,  \nहम भी कभी खिलखिलाते हैं।  \n\nहवा में बसी खुशबू में,  \nहम भी हैं, हम भी रहते हैं।  \nखुशियों की बगिया में,  \nफूलों की तरह महकते हैं।",
+  "poem_id": "MV++_0824",
+  "poem_title": "Phoolon Ki Tarah",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "8b3c3171ca3027766bfa42dcaade7a92684837d6cc2aa54c65a5464482b01f32",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0824.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "We fragrance like flowers,  \nWe too bloom somewhere.  \nIn the delicacy of flowers,  \nWe too sometimes burst into laughter.  \n\nIn the fragrance that fills the air,  \nWe too exist, we too stay.  \nIn the garden of joys,  \nWe fragrance like flowers.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:17:17.180579+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "929b9536ee6d18745e2b22430a0246c3f38b5fd8ff38feafbd149b2d2689a6fa",
+        "response_hash": "3b09ad8f4d7e8f22ccf468166f2949b26e5898196b1bff4802149c7b1606bfc1"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "45e55db10345835df93bab8ebd68526e327de50ec1594106eeed8e1f17851def",
+        "response_hash": "957f26aa938f681110440b9bd1cf4d9a3d9994adef9a45c447623bc3d1caf18d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a496656100edd7d98ba5c0320a19318d569e137d4822313f0bb47cdbd8dbe445",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2ff71eaa2a8d32f138fe1c2a31492bb3a4acdf6da0586bd5083945a522c65840",
+        "response_hash": "a7961f17613868ed215eacf0d64e28cf8202aaa3168ade87530c6684bb8a4012",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2f901cb8a708688db9239f9c12dc8da8be5aa6a8e9ea4881ad4e241bef14b2df",
+        "response_hash": "3c6c989c63ce80c2dddfab264b8c799ae52b95cf51fc1c3672967864519bb02f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b1c08895e7e09a52246c7afafafab70339117120ffeb7d43bcd95a7fcfaa0538",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c13864e277a098d681c19367b22577ef61d06cc9499343d85cc4f09ed6f9cc53",
+    "translation_sha256": "52f90474fb957cfad488936eadb72714e5e0d3ec6e04d15a99681eca93abc73b"
+  }
+}

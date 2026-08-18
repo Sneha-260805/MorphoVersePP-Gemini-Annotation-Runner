@@ -1,0 +1,278 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Indian musical solfege system, representing the notes Sa, Re, Ga, Ma, Pa, Dha, Ni. It is used here metaphorically to denote a harmonious melody of joy.",
+        "line_ref": "L6",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "sargam",
+        "source_span_original": "सरगम",
+        "source_span_translation": "melody",
+        "stanza_index": 1,
+        "term": "सरगम",
+        "translation_note": "Translated as 'melody', which captures the general musical sense but loses the specific cultural reference to the Indian solfege system.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "wonder and longing to hopeful invitation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'sargam' (solfege/musical scale) as 'melody', which loses the specific musical structure implied by the Hindi term.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The pleasant, inviting, and pervasive feeling of hope and aspiration in this ideal world.",
+            "acceptable_visual_variants": [
+              "A street bathed in a warm, ethereal pastel haze",
+              "Soft, swirling light patterns drifting through an open lane"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The physical scent or aroma emitted by dreams.",
+            "literalization_risk": "Showing physical vapor or perfume bottles floating around sleeping people, which misses the abstract sense of pervasive hope.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental aspirations",
+              "transferred_attributes": [
+                "pleasantness",
+                "pervasiveness",
+                "ability to linger in the air"
+              ],
+              "vehicle_concept": "olfactory scent"
+            },
+            "source_span_original": "सपनों की खुशबू",
+            "source_span_translation": "fragrance of dreams",
+            "source_term": "सपनों की खुशबू",
+            "tenor": "dreams / aspirations",
+            "vehicle": "fragrance / scent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing, mist-like atmosphere gently weaving through a street, suggesting a sensory but non-physical presence."
+          },
+          {
+            "abstract_meaning": "The harmonious, joyful, and beautiful nature of the sounds in this world.",
+            "acceptable_visual_variants": [
+              "Abstract flowing golden lines vibrating in the air",
+              "People laughing and moving in a synchronized, dance-like harmony"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A musical scale or solfege made physically out of happiness.",
+            "literalization_risk": "Drawing literal musical notes floating out of people's mouths or objects, which can look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional state of joy",
+              "transferred_attributes": [
+                "harmony",
+                "rhythm",
+                "uplifting quality"
+              ],
+              "vehicle_concept": "musical scale"
+            },
+            "source_span_original": "खुशियों की सरगम",
+            "source_span_translation": "melody of joy",
+            "source_term": "खुशियों की सरगम",
+            "tenor": "happiness / joy",
+            "vehicle": "musical scale / melody",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict people or nature in a state of harmonious, rhythmic motion, or use abstract flowing lines that suggest sound waves and resonance."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses 'dreams' for both 'khwabon' (Persian-derived) and 'sapnon' (Sanskrit-derived), losing the subtle linguistic texture and register shift between the two synonyms in the original Hindi text.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific musical term 'sargam' (the solfege scale/notes Sa-Re-Ga-Ma) is generalized to 'melody', losing the precise cultural association with Indian classical music notation.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The vibrant, multi-faceted, and beautiful manifestation of love in every aspect of life.",
+            "acceptable_visual_variants": [
+              "A spectrum of colorful light refracting through mist over a street",
+              "Vibrant, multi-colored light illuminating a scene of companionship"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "A meteorological rainbow made of love.",
+            "literalization_risk": "A literal rainbow in the sky with the word 'love' written on it, or hearts floating along a rainbow, which is overly cliché.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "multi-colored beauty",
+                "vibrancy",
+                "spanning across the sky after rain"
+              ],
+              "vehicle_concept": "rainbow"
+            },
+            "source_span_original": "प्रेम का इंद्रधनुष",
+            "source_span_translation": "rainbow of love",
+            "source_term": "प्रेम का इंद्रधनुष",
+            "tenor": "love",
+            "vehicle": "rainbow",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use a rich, vibrant spectrum of colors reflecting off surfaces, streets, and people to show a colorful, warm atmosphere."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 3,
+        "loss_note": "The translation renders 'mahakti' (fragrant/scented) as 'bloom', shifting the sensory metaphor from smell to sight.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Our hopes flourish, bring joy, and make the environment beautiful and alive every day.",
+            "acceptable_visual_variants": [
+              "Sunlight hitting fresh green sprouts opening up in the morning",
+              "A garden of simple, elegant white flowers opening up simultaneously"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L13-L14",
+            "literal_meaning": "Our hopes physically emit a sweet fragrance every day.",
+            "literalization_risk": "Showing literal human brains or hearts growing flower petals and emitting scent clouds.",
+            "metaphor_mapping": {
+              "tenor_concept": "human hopes",
+              "transferred_attributes": [
+                "freshness",
+                "growth",
+                "spreading pleasantness"
+              ],
+              "vehicle_concept": "blooming fragrant flowers"
+            },
+            "source_span_original": "हमारी उम्मीदें,\nहर दिन महकती हैं",
+            "source_span_translation": "our hopes,\nBloom every day",
+            "source_term": "हमारी उम्मीदें, हर दिन महकती हैं",
+            "tenor": "hopes / expectations",
+            "vehicle": "fragrant blooming flowers",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show symbolic opening of buds or fresh green shoots growing rapidly in a warm morning light, representing renewal and hope."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The verb 'mahakti' (to spread fragrance/scent) is translated as 'bloom' (which would typically be 'khilti' in Hindi), shifting the sensory metaphor from olfactory (smell) to visual/botanical (flowering).",
+            "where": "L14"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The beauty and promise of a world built on dreams, love, and realized hopes."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that the specific cultural reference is lost by being translated as 'melody'. These values are internally inconsistent; 'preserved' should be false if the specific cultural term was replaced by a generic word.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ख्वाबों का जहाँ  \nख्वाबों का जहाँ,  \nजहाँ हर गली में,  \nसपनों की खुशबू है।  \nजहाँ हर आवाज़,  \nखुशियों की सरगम है।  \n\nयहाँ हर रंग में,  \nप्रेम का इंद्रधनुष है,  \nऔर हर पल में,  \nजीने की खुशी है।  \n\nआओ, चलें इस जहाँ में,  \nजहाँ ख्वाब हकीकत बनते हैं,  \nजहाँ हमारी उम्मीदें,  \nहर दिन महकती हैं।",
+  "poem_id": "MV++_0308",
+  "poem_title": "Khwabon Ka Jahan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ce1671bf3d81194e9fe9ae9023d02db7a465aae9c0a383d45b3eb7dce81a0982",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0308.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "World of Dreams  \nThe world of dreams,  \nWhere in every lane,  \nThere is the fragrance of dreams.  \nWhere every sound,  \nIs a melody of joy.  \n\nHere, in every color,  \nThere is a rainbow of love,  \nAnd in every moment,  \nThere is the joy of living.  \n\nCome, let us walk in this world,  \nWhere dreams turn into reality,  \nWhere our hopes,  \nBloom every day.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:10:51.790399+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c24c3f7514f896b75a0b707d9772f42318308e945abafca3e2add506e8a80adb",
+        "response_hash": "ae53f2b27f11861e5a8ec4a4b4642366fe767e533cac475182d76c7eaa984c45"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "761e0f451a6980052d5b774d17e29a4b9760eb5318b1b6792973a3da6cd53247",
+        "response_hash": "50b57e3bc9dbf51dadcb088f124f31d966c1bf8e170295932d9b8bf80759794d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "956a098219a0246e6ed9dd2865aa9efdd14c3c9b3a63f16b1ea4f374a1753346",
+        "response_hash": "f97056a7ffa6f38a85ac8fe4e8d511ad4e03629cc3af625b1afdba348fe6dc5a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4999efc4ef065a991486c5254e27fa1a3a398b224d4de0e40b2a3456e7bd81d6",
+        "response_hash": "1322547265117d6c7c51113e34a88b9fbffe5a3943e403dfe36e01ad2906e4cb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "490743ef637b2275c2118996e69bcf8fdf6d4f61df4f3230f4a0e47489a898ab",
+        "response_hash": "a428bdb0c37255d0f5fda905ae8c5e3b09387b99042559926500e16d3032c9e6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8c32c90142349cf4b8b5cfcb065ebd996e8f175ebb07d43f6b36b99c5d203eb8",
+        "response_hash": "1b2dec531fe3c6be209fd6a328df8d5cff2783cacb3555eea6ae492f886cd8ec",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b502042c2a5e66c730a72c04ceb226912dcdc201cc1e721ef27e6a98d42e7035",
+    "translation_sha256": "555569d29ab154f793d07096e963d8e94c71b4557ad80c61d2eaadb464751926"
+  }
+}

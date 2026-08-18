@@ -1,0 +1,247 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "grief and isolation to quiet resilience and wonder",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Being overwhelmed by intense, deep-seated sorrow or depression.",
+            "acceptable_visual_variants": [
+              "A person looking down with water-like shadows cast across their face",
+              "A figure surrounded by deep blue, semi-transparent layers resembling water depths"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Submerged or drowning in deep physical water",
+            "literalization_risk": "An illustrator might draw a person literally drowning in a lake or ocean, which misses the emotional state of deep grief.",
+            "metaphor_mapping": {
+              "tenor_concept": "overwhelming sorrow",
+              "transferred_attributes": [
+                "depth",
+                "suffocation",
+                "difficulty of escaping",
+                "darkness"
+              ],
+              "vehicle_concept": "deep water"
+            },
+            "source_span_original": "गहरे पानी में डूबा",
+            "source_span_translation": "Submerged in deep water",
+            "source_term": "गहरे पानी में डूबा",
+            "tenor": "overwhelming sorrow or depression",
+            "vehicle": "deep water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure sitting or standing in a dark, blue-tinted space with water-like ripples or light refractions overlaying them, suggesting an emotional state of being submerged rather than literal drowning."
+          },
+          {
+            "abstract_meaning": "A persistent state of sadness, hopelessness, or the unknown within deep grief.",
+            "acceptable_visual_variants": [
+              "A dark void or heavy shadow pooling at the bottom of the scene",
+              "A gradient fading into absolute blackness at the center of the image"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "A physical darkness resides or lives in a place",
+            "literalization_risk": "Depicting a literal shadow monster or personified black figure living inside water might look like a fantasy creature rather than an emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "darkness occupying a space",
+              "transferred_attributes": [
+                "habitation",
+                "persistence",
+                "presence"
+              ],
+              "vehicle_concept": "a resident dwelling in a house"
+            },
+            "source_span_original": "रहता है एक अंधेरा",
+            "source_span_translation": "Dwells a darkness",
+            "source_term": "रहता है एक अंधेरा",
+            "tenor": "darkness/hopelessness",
+            "vehicle": "a living resident/dweller",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use deep, heavy shadows that seem to actively occupy the lower portion of the visual frame, contrasting with any faint light above."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The repetition of the adjective 'gehra' (deep) across lines 1, 2, and 3 creates a rhythmic and thematic echo in Hindi that is slightly diluted in English, although 'deep' is used, the structural parallelism of 'gehre pani', 'gehra gham', and 'gehre pani' is less pronounced in the English phrasing.",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The internal, unexpressed turmoil or loud thoughts that exist within a quiet, sorrowful state.",
+            "acceptable_visual_variants": [
+              "Swirling white currents underwater against a dark, still background",
+              "Vigorous bubbles rising in a perfectly calm, dark body of water"
+            ],
+            "expression_type": "other",
+            "line_ref": "L8",
+            "literal_meaning": "The silent noise or quiet roar of physical water",
+            "literalization_risk": "Trying to draw 'silent noise' literally is impossible and might lead to confusing audio symbols (like a muted speaker) which ruin the poetic mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "internal emotional turmoil",
+              "transferred_attributes": [
+                "turbulent but unheard",
+                "overwhelming yet quiet to others"
+              ],
+              "vehicle_concept": "silent roar of water"
+            },
+            "source_span_original": "पानी का खामोश शोर",
+            "source_span_translation": "The silent roar of water",
+            "source_term": "पानी का खामोश शोर",
+            "tenor": "internal emotional turmoil",
+            "vehicle": "silent roar/noise",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict turbulent, swirling underwater currents or bubbles that suggest violent motion and noise, but keep the surrounding environment completely still and static."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'khamosh shor' as 'silent roar' captures the oxymoron but loses the specific sonic texture of the Urdu-derived word 'khamosh' paired with the Hindi/Sanskrit-derived 'shor', which creates a distinct stylistic register contrast in Hindustani.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The fragile hopes, desires, or life plans that one tries to navigate through difficult times.",
+            "acceptable_visual_variants": [
+              "A small paper boat floating on dark water",
+              "A delicate, glowing toy-like sailboat navigating dark waves"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "A physical boat constructed out of dreams",
+            "literalization_risk": "Drawing a literal boat made of sleeping faces or clouds might look cartoonish or overly surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams and hopes",
+              "transferred_attributes": [
+                "vessel for a journey",
+                "fragility",
+                "susceptibility to waves and sinking"
+              ],
+              "vehicle_concept": "boat"
+            },
+            "source_span_original": "सपनों की नाव",
+            "source_span_translation": "boat of dreams",
+            "source_term": "सपनों की नाव",
+            "tenor": "dreams and hopes",
+            "vehicle": "boat",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a small, fragile paper boat or a delicate wooden boat floating on dark, undulating water, perhaps glowing faintly to represent hope."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The feminine grammatical gender of 'naav' (boat) and 'lahar' (wave) governs the verb agreements ('chalaee', 'dagmagatee rahee') and possessive markers, which adds a soft, gendered poetic resonance in Hindi that is completely flattened into gender-neutral constructions in English.",
+            "where": "L9-L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The internal landscape of deep sorrow, where silence, dreams, and hidden stories coexist within the depths of the mind."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "गहरे पानी में डूबा  \nआँखों में भी गहरा ग़म है।  \nइस गहरे पानी के भीतर,  \nरहता है एक अंधेरा।  \n\nदूर तक फैली है ये ख़ामोशी,  \nजैसे कोई बात न हो।  \nफिर भी, सुनाई देता है,  \nपानी का खामोश शोर।  \n\nसपनों की नाव चलाई मैंने,  \nपर वो डगमगाती रही।  \nहर लहर में छिपा है एक राज़,  \nहर लहर में है एक कहानी।",
+  "poem_id": "MV++_0287",
+  "poem_title": "Gehre Pani",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "859dbd458204e7edd158aeaaa0ffa101b5513a0e093ab290d30387266ec43982",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0287.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Deep Water  \nSubmerged in deep water,  \nThere is a deep sorrow in the eyes.  \nWithin this deep water,  \nDwells a darkness.  \n\nThis silence stretches far,  \nAs if there is nothing to say.  \nYet, it can still be heard,  \nThe silent roar of water.  \n\nI sailed a boat of dreams,  \nBut it kept wavering.  \nIn every wave hides a secret,  \nIn every wave is a story.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:08:32.556326+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c81a9e3efd57663ba8167b6d6365121b4aa6c53b29800e152ebf95319024ad8b",
+        "response_hash": "4aa14523b796bf48ff9e288277a27434970cf80ce08203af8cbe588c55eda3eb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1a0cc2141bc8ea6dd3f226881c9995fd79ee56f1999f827d6e6db26c8a0e4e5a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a9fb860a89693ae2ab936b81a19590848fe66df02709ed10a780508845dc4d13",
+        "response_hash": "0f27de8ff9657fbfd9b32ff8aa5b5e289049308ef8b32d62beaef770e252ab18",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "130674aa6c7ebb7fc813ccdf66b3f7f7fed7a4d5be0ee2f643b5508b21dfe2b0",
+        "response_hash": "76f32a7e0558ad76e521c15eabcc411dcef686e466d7ab070c89f09e2dc8997a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5b2c5094408dd1d48afaeffbaf3865c95f6933752ed5e7df568ec3d2c09e375c",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "233b70e5b869fe33618e38e708c88a051b46bfe7c2890b456ed168c8753d2b04",
+    "translation_sha256": "beb79d97ef330ff9dcf7c137e52fb974c9c05d34a5a0ad0e0faa88a13365f8a6"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A monkey dividing a piece of bread or food unevenly while holding scales",
+          "A symbolic representation of an unfair division overseen by a monkey figure"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A reference to the traditional Indian fable of the monkey's division (Bandar Bant), where an insincere arbitrator exploits a dispute between two parties to take everything for himself.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic monkey playing in a forest without scales or food to divide",
+          "A literal depiction of monkeys being physically divided or separated by a barrier"
+        ],
+        "preserved": true,
+        "romanization": "bandar bant",
+        "source_span_original": "बंदर बंट",
+        "source_span_translation": "The Division of the Monkey",
+        "stanza_index": 1,
+        "term": "बंदर बंट",
+        "translation_note": "The translation renders this as 'The Division of the Monkey', which captures the literal meaning but loses the immediate cultural association with the Panchatantra/Jataka fable of the monkey who arbitrates a dispute between two cats only to eat all the bread himself.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A monkey holding a pair of scales, looking sly or deceitful",
+          "Two disputing animals (traditionally cats, though the poem later introduces mice) looking on helplessly"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "pride and coexistence to restriction and loss of freedom",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A situation where a third party exploits a dispute between two others to take everything for themselves, referencing the classic fable of the monkey dividing bread between two cats.",
+            "acceptable_visual_variants": [
+              "A monkey sitting on a branch dividing a piece of bread while two cats watch",
+              "A monkey drawing a line on a map of a forest while other animals look on"
+            ],
+            "expression_type": "allusion",
+            "line_ref": "L1",
+            "literal_meaning": "The division of bread or resources by a monkey",
+            "literalization_risk": "An illustrator might literally draw a monkey dividing food, which misses the political/territorial division of the forest.",
+            "metaphor_mapping": {
+              "tenor_concept": "exploitative political or territorial division",
+              "transferred_attributes": [
+                "unfair division",
+                "exploitation of dispute",
+                "loss of resources to the mediator"
+              ],
+              "vehicle_concept": "monkey dividing bread"
+            },
+            "source_span_original": "बंदर बंट",
+            "source_span_translation": "The Division of the Monkey",
+            "source_term": "बंदर बंट",
+            "tenor": "Exploitative mediation or division of territory/power by an opportunistic third party",
+            "vehicle": "A monkey dividing resources between disputing parties",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a monkey holding scales or dividing a map/forest while other animals look on helplessly."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The title 'Bandar Bant' refers to a well-known folk tale of a monkey dividing bread between two cats and eating it all himself. The English translation 'The Division of the Monkey' loses this cultural allusion to deceptive mediation and division.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A shared, wild, or natural territory where communities live together without artificial borders.",
+            "acceptable_visual_variants": [
+              "A lush green forest with diverse animals",
+              "An open natural landscape with no visible fences or borders"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L2",
+            "literal_meaning": "A wild forest or jungle",
+            "literalization_risk": "Depicting a literal dense green jungle might obscure the political allegory of a shared homeland or nation.",
+            "metaphor_mapping": {
+              "tenor_concept": "undivided homeland",
+              "transferred_attributes": [
+                "naturalness",
+                "lack of artificial borders",
+                "shared living space"
+              ],
+              "vehicle_concept": "forest"
+            },
+            "source_span_original": "जंगल",
+            "source_span_translation": "forest",
+            "source_term": "जंगल",
+            "tenor": "A shared homeland or undivided territory",
+            "vehicle": "A wild forest",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a vast, open natural landscape with diverse animals living together without fences."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The English loanword 'leader' (written in Devanagari as लीडर) is used in the original text, which carries a modern, slightly colloquial or political tone. The translation 'greatest leaders' uses standard English, losing the specific stylistic code-switching of the original.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Seemingly insignificant, weak, or subordinate groups who nevertheless manage to impose boundaries on others.",
+            "acceptable_visual_variants": [
+              "Small rodents drawing a line in the dirt with sticks",
+              "A group of small animals standing in a line forming a boundary"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Small rodents (mice)",
+            "literalization_risk": "Drawing literal mice might look like a children's cartoon rather than a political allegory about territorial restriction.",
+            "metaphor_mapping": {
+              "tenor_concept": "weaker or subordinate groups",
+              "transferred_attributes": [
+                "small size",
+                "unexpected power in numbers",
+                "ability to restrict larger animals"
+              ],
+              "vehicle_concept": "mice"
+            },
+            "source_span_original": "छोटे चूहे",
+            "source_span_translation": "smaller mice",
+            "source_term": "छोटे चूहे",
+            "tenor": "Subordinate, weaker, or external groups who assert control",
+            "vehicle": "Mice",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict small, organized rodents working together to construct a barrier or line that stops larger animals."
+          },
+          {
+            "abstract_meaning": "The imposition of artificial borders, limits, or social/political boundaries that restrict freedom of movement.",
+            "acceptable_visual_variants": [
+              "A deep trench or line carved into the forest floor",
+              "A glowing or brightly colored line dividing the landscape"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L8",
+            "literal_meaning": "To draw a physical line on the ground",
+            "literalization_risk": "A simple line in the dirt might look accidental rather than an enforced, impassable border.",
+            "metaphor_mapping": {
+              "tenor_concept": "political border or restriction",
+              "transferred_attributes": [
+                "impassability",
+                "artificial division",
+                "restriction of movement"
+              ],
+              "vehicle_concept": "line on the ground"
+            },
+            "source_span_original": "खींची एक लकीर",
+            "source_span_translation": "drew a line",
+            "source_term": "खींची एक लकीर",
+            "tenor": "An artificial border or restriction of freedom",
+            "vehicle": "A drawn line on the earth",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a sharp, glowing, or deeply carved line in the earth that physically separates different groups of animals."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'lakeer kheenchna' (drawing a line) is a common idiom in South Asian languages representing the drawing of an uncrossable boundary or limit. The translation 'drew a line' is literal but loses the idiomatic weight of establishing an absolute, unyielding boundary.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The loss of freedom and division of shared spaces imposed by smaller, collective forces"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The field 'preserved' is set to true, which is inconsistent with 'translation_status' being set to 'PARTIALLY_PRESERVED' and the 'translation_note' stating that the translation loses the immediate cultural association. It should be false or null if the cultural cue is not fully preserved.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बंदर बंट\n\nहम सब मिलकर एक जंगल में रहते थे।\nवो भी हमारी तरह ही बनते थे।\nकभी एक, कभी दो, कभी तीन होते थे,\nबेशक हम जंगल के सबसे बड़े लीडर थे।\n \nलेकिन किसी दिन हमने देखा जंगल के पास में,\nबहुत से अन्य छोटे चूहे आ गए थे,\nजो सबने मिलकर हमारे लिए खींची एक लकीर,\nऔर उस लकीर के उस पार हम नहीं जाते थे।",
+  "poem_id": "MV++_1082",
+  "poem_title": "Bandar Bant",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2c6e0f5578878cf714d20f3bb3dbf6de92fa1e5dca0bf774c5697bf6789f9abf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1082.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Division of the Monkey\n\nWe all lived together in the forest.  \nThey, too, were like us.  \nSometimes one, sometimes two, sometimes three,  \nWe were undoubtedly the greatest leaders of the forest.  \n\nBut one day we saw near the jungle,  \nA lot of smaller mice came,  \nWho together drew a line for us,  \nAnd beyond that line, we were not allowed to go.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:55:45.845377+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fad5ecf66e98f2b4e1f1cc36440969abc8f488fd1d5099b1836684e1caffd4bb",
+        "response_hash": "f4d3246c033f7133f1cf2d3bbe2b92c22f962476faef199ce8215ebd4c24baec",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "48b75ad27e35ed29801410b835e17916678612496570c169bb489a8c173804a4",
+        "response_hash": "68a9d596a94c9a43fb38c3b60659490903341ae0e1bf8751865b15f0abdcf7ba",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "622748b133898d9d94c75f4dd594fb7e784b35fc922499c9130459be94302c3b",
+        "response_hash": "2534c89fd32d7dccb065a52cf00e9520de6db33bc4d7ce97c97b4fc427819a8b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eaaa06090e45117a50d3c55d3c9c6c629e06f2863e1468b8aa052d8d756f81f8",
+        "response_hash": "4aa4cb1d06b6bed238dd9ba0d9f3bc3f06c122ecc8b1a99b174a6e94d37f8465",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8fb24cb02f2cd499a0e066f70f2423ab1ed2517078e570adcb3c65c58aa374fd",
+        "response_hash": "648bd8cd77743e3f70d39993f438cc376b9a9c54dedaab2193f9128b3e981462",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "32a7ab0ecf524c5a8b9ff2cfea032e2af0f691efd7101e9d46b7f9b83556c4e9",
+    "translation_sha256": "b4459b9de154c6d751976087932430b7c9052c5423478447587e3fe16c395117"
+  }
+}

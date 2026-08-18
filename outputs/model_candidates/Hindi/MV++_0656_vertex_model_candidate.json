@@ -1,0 +1,247 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and quiet observation of nature's light",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation map shifts the stanza boundaries significantly, rendering the first stanza of the original as the title and first lines of the translation, which disrupts the structural flow.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sun is shining brightly and permanently in the sky, as if it lives there.",
+            "acceptable_visual_variants": [
+              "A brilliant sun shining in a clear blue sky",
+              "A sun nestled among soft clouds, radiating light"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The sun has a home/dwelling place.",
+            "literalization_risk": "Showing a literal house or cottage with the sun sitting inside it like a human resident.",
+            "metaphor_mapping": {
+              "tenor_concept": "sun's position in the sky",
+              "transferred_attributes": [
+                "permanence",
+                "belonging",
+                "shelter"
+              ],
+              "vehicle_concept": "dwelling/home"
+            },
+            "source_span_original": "सूरज का बसेरा है",
+            "source_span_translation": "The sun has its dwelling",
+            "source_term": "सूरज का बसेरा है",
+            "tenor": "The sun's presence or position in the sky",
+            "vehicle": "A home or dwelling place (basera)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a bright, radiant sun positioned high in the sky, perhaps framed by clouds or natural elements to suggest a permanent place of belonging."
+          },
+          {
+            "abstract_meaning": "The sky surrounds and protects the earth or the sun, acting like a guard.",
+            "acceptable_visual_variants": [
+              "A wide, clear blue sky stretching over a landscape",
+              "A starry or twilight sky enveloping the earth"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The sky is keeping watch/guarding.",
+            "literalization_risk": "Depicting a literal human guard standing in the sky with weapons or a uniform.",
+            "metaphor_mapping": {
+              "tenor_concept": "sky",
+              "transferred_attributes": [
+                "protection",
+                "watchfulness",
+                "encirclement"
+              ],
+              "vehicle_concept": "guard/sentry"
+            },
+            "source_span_original": "आसमां का पहरा है",
+            "source_span_translation": "Guarded by the sky above",
+            "source_term": "आसमां का पहरा है",
+            "tenor": "The vast, protective expanse of the sky",
+            "vehicle": "A guard keeping watch (pahra)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the vast dome of the sky stretching protectively over the landscape, perhaps with soft light or clouds framing the scene like protective arms."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation map shifts the stanza boundaries, rendering the first stanza's content as part of the subsequent English stanzas and leaving the title 'Dwelling of the Sun' as the primary representation of the opening lines.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation map associates these lines with the translation of the first stanza, causing a misalignment in the stanza-by-stanza mapping.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sun's rays are extremely bright and sharp, causing discomfort to the eyes.",
+            "acceptable_visual_variants": [
+              "A close-up of a face squinting in bright light",
+              "A hand raised to block a powerful, radiant sunbeam"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The rays prick or pierce the eyes like needles.",
+            "literalization_risk": "Showing literal needles or sharp objects physically stabbing into a person's eyes.",
+            "metaphor_mapping": {
+              "tenor_concept": "bright sunbeams",
+              "transferred_attributes": [
+                "sharpness",
+                "pain/discomfort",
+                "penetration"
+              ],
+              "vehicle_concept": "sharp pricking objects"
+            },
+            "source_span_original": "आंखों में चुभते किरनें",
+            "source_span_translation": "Its rays pierce the eyes",
+            "source_term": "आंखों में चुभते किरनें",
+            "tenor": "The intense brightness of the sun's rays",
+            "vehicle": "Sharp needles or pricking objects",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person squinting or shielding their eyes with a hand against intense, sharp beams of sunlight filtering through trees or clouds."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the grammatical structure and meaning of the original lines, mapping them to different English stanzas and altering the direct relationship between the piercing rays and the greenery.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation map associates these lines with the translation of the second stanza, causing a structural misalignment.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sunlight filters through and settles beautifully among the leaves of the trees.",
+            "acceptable_visual_variants": [
+              "Golden sunbeams illuminating green leaves from behind",
+              "Dappled sunlight dancing on a forest floor through tree branches"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "Sunlight has made its home.",
+            "literalization_risk": "Showing sunlight depicted as a physical character building a house inside a tree.",
+            "metaphor_mapping": {
+              "tenor_concept": "sunlight filtering and staying",
+              "transferred_attributes": [
+                "settling",
+                "dwelling",
+                "peaceful presence"
+              ],
+              "vehicle_concept": "making a home"
+            },
+            "source_span_original": "धूप ने अपना बसेरा है",
+            "source_span_translation": "Sunlight makes its abode",
+            "source_term": "धूप ने अपना बसेरा है",
+            "tenor": "Sunlight settling and lingering on the leaves",
+            "vehicle": "A resident making a home",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict golden sunlight filtering beautifully through green leaves, creating dappled light patterns on the branches and ground."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical structure of the original Hindi verb phrase 'बसेरा है' (has its abode/dwelling) is simplified, and the structural alignment of the final lines is altered in the English rendering.",
+            "where": "L5-L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The omnipresence and gentle resting places of sunlight in the natural world"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सूरज का बसेरा है,\nआसमां का पहरा है।\n\nआंखों में चुभते किरनें,\nहरियाली का सहारा है।\n\nपेड़ों की पत्तियों में,\nधूप ने अपना बसेरा है।",
+  "poem_id": "MV++_0656",
+  "poem_title": "Suraj Ka Basera",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "27c28a9069ca1d52a5d250c94d199efa236b3b32370f698af259cedbd6a7208f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0656.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Dwelling of the Sun\n\nThe sun has its dwelling,  \nGuarded by the sky above.\n\nIts rays pierce the eyes,  \nA refuge of greenery it loves.\n\nIn the leaves of the trees,  \nSunlight makes its abode.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:51:55.805250+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8fb00e177c826c18b21a676975dc2009244fb15546cde67d3d93fa04d229b831",
+        "response_hash": "7452fe3ae19af42a9113c2f450a45c3f51761225ec30f76267ea9feebc1a18b9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3c3128b8e3d1175b5545aeb19a7324aa24c0117c3f12a81da7a7102e205f32b5",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d4aa7401ab89dcd403053584898ec8f50d2190f02fe0dd4cd2b2cd5296b6970b",
+        "response_hash": "999e0f16af0ff94d9c207e2412ccdaf3ca174378e3ecb4873a89375a16916a2d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d29b8244a41cc068cc409835e2795881ce6b77d8115a8a7f080f8383ea4fff94",
+        "response_hash": "bb22be8e2975630d496f9f9abe95d1f18361be96ba9451ec81817512761171fe",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b620630ebe86b3715e56855b411c35200f69d5114f7d5fab942536362002303e",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c6ab21958647af4bea663fafb8550803c9de6858a59c5b27c583b90c9bd9293d",
+    "translation_sha256": "de3f143a803d49efb62271a8c21067c39a64ad91d9848a3912a85e8cea3fc286"
+  }
+}

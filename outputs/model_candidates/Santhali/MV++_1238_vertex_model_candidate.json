@@ -1,0 +1,244 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A group of Santal people standing together in solidarity",
+          "A symbolic representation of the community's collective identity"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Santal (or Santhal) people, an Austroasiatic-speaking indigenous ethnic group of India, historically associated with the 1855 rebellion against British colonial rule and the zamindari system.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "Generic North Indian rural peasants",
+          "Stereotypical depictions of unrelated tribal groups"
+        ],
+        "preserved": true,
+        "romanization": "Santal",
+        "source_span_original": "संताल",
+        "source_span_translation": "Santhals",
+        "stanza_index": 1,
+        "term": "संताल",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Santhal community members",
+          "traditional attire or symbolic representation of the community"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A historical depiction of the 1855 rebellion with traditional weapons",
+          "A symbolic modern depiction of resistance and collective uprising"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Santhal Rebellion (Hul), a historic 1855 uprising by the Santal people against both the British East India Company and the corrupt zamindari system.",
+        "line_ref": "L19",
+        "negative_confusions": [
+          "A modern military battle with firearms",
+          "A generic riot scene disconnected from the historical 1855 context"
+        ],
+        "preserved": true,
+        "romanization": "Santal Vidroh",
+        "source_span_original": "संताल विद्रोह",
+        "source_span_translation": "Santhal rebellion",
+        "stanza_index": 5,
+        "term": "संताल विद्रोह",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Historical rebellion imagery",
+          "Santhal warriors with traditional bows and arrows",
+          "A collective uprising scene"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "From weary endurance and rising anger to defiant resilience and a declaration of rebellion.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "anger",
+        "index": 2,
+        "loss_note": "The translation 'Let us now be free' for 'अब छूने दो हमें' alters the literal sense of 'now let us touch [our land/freedom]' or 'now let them try to touch us', losing the physical immediacy of the original phrasing.",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The literal meaning of 'अब छूने दो हमें' (now let us touch / reach) is translated abstractly as 'Let us now be free', losing the physical, tactile sense of reclaiming or touching their own land/destiny.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "The translation introduces 'raise the coil' to force a rhyme with 'soil', which does not accurately reflect the original meaning of 'संग्राम छेड़ेगी' (will wage/unleash war/struggle).",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces a forced rhyme 'raise the coil' to rhyme with 'soil', which alters the literal meaning of 'संग्राम छेड़ेगी' (will wage/unleash war/battle) into an obscure English idiom.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The process and journey of engaging in a difficult struggle or rebellion.",
+            "acceptable_visual_variants": [
+              "A group of determined people standing together looking toward a bright horizon",
+              "A symbolic upward climb or march"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L14",
+            "literal_meaning": "On the physical road or path of conflict",
+            "literalization_risk": "An illustrator might literally draw a physical dirt road or highway with people walking on it, which misses the abstract concept of political and social struggle.",
+            "metaphor_mapping": {
+              "tenor_concept": "process of struggle",
+              "transferred_attributes": [
+                "direction",
+                "difficulty",
+                "movement forward"
+              ],
+              "vehicle_concept": "physical path"
+            },
+            "source_span_original": "संघर्ष की राह पर",
+            "source_span_translation": "On the path of strife",
+            "source_term": "संघर्ष की राह पर",
+            "tenor": "the process of struggle and rebellion",
+            "vehicle": "a physical path or road",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a determined group of people marching forward together against a dramatic background, symbolizing progress and unity in their struggle without needing a literal road."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 5,
+        "loss_note": "The translation 'Shall never be in vain' alters the literal meaning of 'किसी से नहीं होगा माफ़' (will not be forgiven by anyone / no one will be forgiven), softening a stern warning into a passive hope.",
+        "metaphor_spans": [],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation 'Shall never be in vain' alters the literal meaning of 'किसी से नहीं होगा माफ़' (will not be forgiven by anyone / cannot be pardoned), shifting the focus from unforgivable injustice/retribution to a statement about the rebellion's utility.",
+            "where": "L20"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The collective uprising of the Santhal people to reclaim their land, rights, and freedom against oppressors."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[1].category",
+      "issue": "The category is set to 'MYTHOLOGICAL_EVENT', but the gloss and historical context correctly identify the Santhal Rebellion (Santal Vidroh) as a real, documented historical uprising (1855), which does not fit the mythological classification. However, since the controlled vocabulary for category only includes DEITY, SACRED_RIVER, FESTIVAL, MUSICAL_TRADITION, DEVOTIONAL_CONCEPT, REGIONAL_SYMBOL, SOCIAL_CUSTOM, and MYTHOLOGICAL_EVENT, this historical event was forced into an incorrect category. It would be more consistent to classify it under REGIONAL_SYMBOL or flag it as a schema limitation.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Santhali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कब तक सहें हम,  \nधैर्य की सीमा है,  \nहम संताल हैं,  \nहमारा जज्बा देखो।\n\nहमारी ज़मीन पर,  \nकब्जा करने वालों,  \nहम उठ खड़े हुए हैं,  \nअब छूने दो हमें।\n\nरक्त का रंग है,  \nज़मीन की मिट्टी से,  \nहमारे हक की लड़ाई,  \nसंग्राम छेड़ेगी।\n\nधड़कता है दिल,  \nसंघर्ष की राह पर,  \nसंताल की आवाज़,  \nगूंजेगी सदा।\n\nआज़ादी का सपना,  \nहम सबका है अधिकार,  \nसंताल विद्रोह का ये,  \nकिसी से नहीं होगा माफ़।",
+  "poem_id": "MV++_1238",
+  "poem_title": "Santhal Rebellion",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "75037e45640470af7e326f214aec09471af376c3226f7cf9e3c8067425dc1c72",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Santhali/MV++_1238.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "How long shall we endure,  \nPatience has its limits,  \nWe are Santhals,  \nWitness our spirit.\n\nOn our land,  \nThose who seize,  \nWe have risen,  \nLet us now be free.\n\nThe color of blood,  \nIs from the soil,  \nOur fight for rights,  \nWill raise the coil.\n\nA heartbeat strong,  \nOn the path of strife,  \nThe Santhal voice,  \nWill echo for life.\n\nThe dream of freedom,  \nIs our rightful claim,  \nThis Santhal rebellion,  \nShall never be in vain.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:12:13.913482+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "85789931d9fcf5224eef0db1c971946c40972b8df9ea91213f34316f6d6d1e8d",
+        "response_hash": "52cbd615482b87b4d8da7a0278d9683a376fdcc54b1fcd9fb8ecc989962470f2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aaf56c2ec649a61c0241039aa7a6feeb14cae5218f2b978f691a412162eba7a1",
+        "response_hash": "ce1d4c440076bf11cd87793d2efa0ebe3e7829cc44c52737fd1d293efbd28f22",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da1714a2226c6047d42c7e6c635a1e2361ea7e596960fc6d73593d35b243625b",
+        "response_hash": "20f07becad29272d255dfe0c1db6bf234a421137de011b8c0d77be289eb7b88d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ceba49e299f412c12053cd8308b59d180c9a91cfa626419ac2216cebcadd0862",
+        "response_hash": "0f93ca9dcf3622a97c37d10cac68a6c598de59c3ca5a2426df1d977060bfbdb1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "406f9706d3e3777db93de4755a014e1d556c004a522fcbd4ed209ee27c5a6a91",
+        "response_hash": "53382ea9b43c71c376af866bd26702c30e37d8fea392f1420b222dc75cf47a4f",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b4d52bfce5d1f4d4051d27c4e5f7127e3a3b1101bab594bf17bde4e6f4040d80",
+    "translation_sha256": "3b251f370dcec88687a360027b739ce5d3b5e22f068408cbab54f08d9db7cd50"
+  }
+}

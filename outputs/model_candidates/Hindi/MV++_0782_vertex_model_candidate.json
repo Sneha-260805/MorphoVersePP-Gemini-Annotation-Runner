@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A mature mango tree with hanging green or yellow mangoes",
+          "A broad-canopied mango tree without visible fruit, focusing on the dense shade"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The mango tree (Mangifera indica), which holds deep cultural, agricultural, and literary significance in South Asia as a symbol of shade, summer, and communal or romantic gathering.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "An oak or maple tree",
+          "A generic tropical palm tree"
+        ],
+        "preserved": true,
+        "romanization": "aam ke ped",
+        "source_span_original": "आम के पेड़",
+        "source_span_translation": "mango tree",
+        "stanza_index": 1,
+        "term": "आम के पेड़",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A large, spreading mango tree with dense green foliage",
+          "Two figures sitting in its shade"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "peaceful contemplation of nature and companionship",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The natural rustling sound of the leaves is perceived as a gentle, musical humming, creating a peaceful and romantic atmosphere.",
+            "acceptable_visual_variants": [
+              "Swaying mango leaves with soft wind ripples around them",
+              "Two people sitting under a mango tree with the leaves above them rendered in a soft, breezy motion style"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3-L4",
+            "literal_meaning": "The rustling sound of leaves is like someone humming a song.",
+            "literalization_risk": "Showing a literal person or face in the tree actually singing or humming would ruin the naturalistic, atmospheric quality of the scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "rustling of leaves",
+              "transferred_attributes": [
+                "musicality",
+                "gentleness",
+                "soothing sound"
+              ],
+              "vehicle_concept": "humming a song"
+            },
+            "source_span_original": "पत्तियों की सरसराहट,\nजैसे कोई गीत गुनगुना रहा हो।",
+            "source_span_translation": "The rustle of leaves,\nAs if humming a song.",
+            "source_term": "पत्तियों की सरसराहट,\nजैसे कोई गीत गुनगुना रहा हो।",
+            "tenor": "the rustling sound of leaves",
+            "vehicle": "someone humming a song",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up or atmospheric view of green mango leaves gently swaying in the wind, perhaps with subtle wind lines or musical notes softly integrated into the air to suggest the sound."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The onomatopoeic quality of the Hindi word 'sarsarahat' (सरसराहट), which phonetically mimics the soft, whispering sound of rustling leaves, is lost in the standard English translation 'rustle'.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The subtle grammatical gender and agentive nuance of 'koi' (कोई) acting as a personified entity humming ('gunguna raha ho', masculine/neutral singular continuous) is flattened into a more passive or impersonal English construction 'As if humming a song'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The quiet, shared peace of sitting together in the shade of a mango tree, where the sounds of nature feel like a gentle melody."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries and a detailed loss_note would normally be expected or the quality should be 'partial' to reflect the loss of onomatopoeia and grammatical nuance. However, since loss_note is empty while translation_loss is populated, this represents an internal inconsistency in how translation quality and loss are reported.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आम के पेड़ के नीचे,  \nछांव में बैठे हम दोनों,  \nपत्तियों की सरसराहट,  \nजैसे कोई गीत गुनगुना रहा हो।",
+  "poem_id": "MV++_0782",
+  "poem_title": "Aam Ke Ped Ke Neeche",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "00ad79e86e8c53c1eea72c2ac40c8c3a8cbd985862461b3ae94a415e3037771a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0782.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Under the mango tree,  \nBoth of us sitting in the shade,  \nThe rustle of leaves,  \nAs if humming a song.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:11:19.451583+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0878b28a39adf06eb55633e0c830781fcce80b016154e687b4670dc51c6559a9",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "29260248ecbfac7ecc43b03597adc34cb80c838d80c42ef3b7a66322d30d45b2",
+        "response_hash": "aa9992fff2bc8fd686d34d9d845ae70dc297478021932bae54f796e485e01025",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "705c4c4ff0ad0baef2f9126df04d041a22982ce0f6aedeccc1d1cc9b816eee92",
+        "response_hash": "6767126229772a01b9a30b85e8590806684973e116b83a6953265fd26eb69920",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "81648ccb0e85ad096879b59ccf3e23b9772ff8ef28d7f3acf2c09fa52c992400",
+        "response_hash": "d9163e1ff37676f4a61ca3ebdbf0b9ad4a8b401347c69abb4a27b65b0d0993ab",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e2d76c0544f9e70971e93d03f1b6092508c3e54094fcaa29957bad600667bddc",
+        "response_hash": "1b2a7177aa49f53ad66e78280cb369d57ed8d4742f3058e95f4e34a81963e63e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6020929edc7e884ce05cef8664b78f4e9d5f28f236df5f96900c10af6ab0a734",
+        "response_hash": "2139205bc7b5cf5f5d45f765f26f59e7e49a6ca533535f29d20cfa48cd79e7b3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "00356d8e70c27ac8e2d2f58587c3472c9b2ade77f08ff4d439d14aeb690ca462",
+    "translation_sha256": "6cfbe038ac83d06f9b9c4e49351f80cf9d705c4cef13637ffd4c5325e27b747e"
+  }
+}

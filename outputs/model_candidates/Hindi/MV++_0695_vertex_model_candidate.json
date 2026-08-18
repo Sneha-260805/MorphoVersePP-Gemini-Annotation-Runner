@@ -1,0 +1,257 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An ascetic sitting in meditation",
+          "A simple, wise elder in traditional Indian attire"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A holy person, ascetic, or sage in Indian spiritual traditions, expected to possess discernment and purity.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A wealthy priest in ornate temple garments",
+          "A generic Western monk"
+        ],
+        "preserved": true,
+        "romanization": "sadhu",
+        "source_span_original": "साधु",
+        "source_span_translation": "sage",
+        "stanza_index": 1,
+        "term": "साधु",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A person in simple, traditional ascetic attire",
+          "often associated with saffron or light-colored robes",
+          "calm and serene expression"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A hand-woven bamboo winnowing tray being held by hands",
+          "A traditional basket with grains being tossed in the air"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional Indian hand-held winnowing basket or fan, typically made of woven bamboo, used to separate grain from chaff.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern mechanical fan",
+          "A Western-style round sieve or metal colander"
+        ],
+        "preserved": true,
+        "romanization": "sup",
+        "source_span_original": "सूप",
+        "source_span_translation": "winnowing fan",
+        "stanza_index": 1,
+        "term": "सूप",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A flat, scoop-like basket made of woven bamboo strips",
+          "wider at one end and open at the other"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "steadfast wisdom and resilience",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A true sage should possess a discerning nature, retaining only what is valuable and discarding the useless, just as a winnowing basket separates grain from chaff.",
+            "acceptable_visual_variants": [
+              "A split-screen style showing a sage meditating on one side and a hand winnowing grain on the other.",
+              "A symbolic representation of grain falling into a basket while light chaff blows away in the wind next to a sage."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "A sage should be like this, like the nature of a winnowing basket.",
+            "literalization_risk": "An illustrator might literally draw a holy man holding or turning into a physical kitchen winnowing basket, which looks bizarre and misses the spiritual quality of discernment.",
+            "metaphor_mapping": {
+              "tenor_concept": "wise person discerning truth from falsehood",
+              "transferred_attributes": [
+                "retaining the valuable",
+                "discarding the useless"
+              ],
+              "vehicle_concept": "winnowing basket separating grain from chaff"
+            },
+            "source_span_original": "साधु ऐसा चाहिए, जैसा सूप सुभाय।",
+            "source_span_translation": "A true sage is like a winnowing fan,",
+            "source_term": "साधु ऐसा चाहिए, जैसा सूप सुभाय।",
+            "tenor": "a wise person (sadhu) discerning truth from falsehood",
+            "vehicle": "a winnowing basket (soop) separating grain from chaff",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene sage in a reflective posture, with a subtle, stylized background element of a traditional winnowing basket (soop) separating grain from chaff to visually echo the comparison."
+          },
+          {
+            "abstract_meaning": "To absorb and retain only the essential truth or wisdom while letting go of worthless, superficial, or negative thoughts.",
+            "acceptable_visual_variants": [
+              "A hand holding solid golden seeds while empty shells drift away in the wind.",
+              "A stylized stream of light separating into solid beams and fading dust."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "To hold onto the essence of the essence, and let the hollow chaff fly away.",
+            "literalization_risk": "Showing literal grains of wheat and flying husks without any human or spiritual context, making it look like an agricultural manual.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual truth and superficiality",
+              "transferred_attributes": [
+                "weight/value of grain vs weightlessness/uselessness of chaff"
+              ],
+              "vehicle_concept": "grain and chaff separation"
+            },
+            "source_span_original": "सार-सार को गहि रहे, थोथा देई उड़ाय।",
+            "source_span_translation": "Retains the substance, lets the chaff go free.",
+            "source_term": "सार-सार को गहि रहे, थोथा देई उड़ाय।",
+            "tenor": "essential truth/wisdom and worthless/superficial thoughts",
+            "vehicle": "grain (substance) and chaff (hollow husks)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize glowing particles or golden grains being gathered into a vessel of light, while dark, empty husks are blown away by a gentle breeze."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The internal rhyme and rhythmic structure of the doha form, particularly the repetition of 'sar-sar' (essence of essence) and the specific cultural resonance of 'soop' (a traditional bamboo winnowing basket) as a symbol of discernment, are flattened into a standard English simile.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation simplifies the complex regional metaphors of steel (faulaad) and testing/refining (parang) into a more generic description of gold refined by fire.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A true sage should be pure, resilient, and refined by life's trials, maintaining their true nature just as gold retains its color and purity when heated.",
+            "acceptable_visual_variants": [
+              "A sage sitting peacefully near a glowing, refined fire.",
+              "A symbolic golden glow emanating from a meditating figure."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "A sage should be like this, like the color/nature of gold.",
+            "literalization_risk": "Depicting a sage made of solid gold or painted metallic yellow, which looks cartoonish and misses the internal quality of spiritual refinement.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual purity and resilience of a sage",
+              "transferred_attributes": [
+                "purity",
+                "resilience to heat/trials",
+                "unchanging value"
+              ],
+              "vehicle_concept": "gold refined in fire"
+            },
+            "source_span_original": "साधु ऐसा चाहिए, जैसा सोना रंग।",
+            "source_span_translation": "A true sage is like gold refined,",
+            "source_term": "साधु ऐसा चाहिए, जैसा सोना रंग।",
+            "tenor": "a pure and resilient sage (sadhu)",
+            "vehicle": "refined gold (sona)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a sage surrounded by a warm, golden, radiant aura that suggests inner purity and refinement, perhaps with a subtle background motif of a goldsmith's crucible."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation significantly alters the meaning of the second line. The original Hindi text uses 'faulaad' (steel) and 'parang' (possibly referring to a touchstone, color, or temper/quality of metal) to describe how the sage interacts with desire ('chahat') and heat/suffering ('tapat'). The English translation replaces this complex metallurgical metaphor with a generic description of refining gold ('Strengthens with fire, shining brightly defined').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The essential qualities of a true sage, who filters out the superficial and remains strong and pure under pressure."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "साधु ऐसा चाहिए, जैसा सूप सुभाय।  \nसार-सार को गहि रहे, थोथा देई उड़ाय।  \n\nसाधु ऐसा चाहिए, जैसा सोना रंग।  \nचाहत को फौलाद दे, तपत को परंग।",
+  "poem_id": "MV++_0695",
+  "poem_title": "Sooktiyan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f878053cebef7dd42da1849dbdff23e7882161a651413d288013b6bd482331e3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0695.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A true sage is like a winnowing fan,  \nRetains the substance, lets the chaff go free.  \n\nA true sage is like gold refined,  \nStrengthens with fire, shining brightly defined.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:57:36.016067+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3976ba3ee04ed6c5f60d57795ee0e7c1ad4f1bd6ad71950729661e2086f032f3",
+        "response_hash": "d80225178e2ebe86f6c72c3b1f32247bedf843fb6e4c40fa1a0ac108a63ed4be",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fbf620589fd9483919625baf262cbac98c918a9d645ee72fc171cb3ec66d6d52",
+        "response_hash": "549191ca6f006ad6ac8740444df2c4bcd93840443707bc25750f8fbbeadd333a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f64a187198332bf0f2b65d9fcbd001ac5f8ba3e095e4bbd1c9fd4190c577263c",
+        "response_hash": "3f19e047e3e66dfe5c51cd203212f3cf0094c12065f0d854f27e18dfc13c6aa6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4a0517b6356bdbce4452f6b5e74d32be3d496af9596ba5728b16b2dbdf6493aa",
+        "response_hash": "bc2f6775defc29cfc0b95e6a5317e17c82c2eec6bf74fc1d3f97a79605fb2954",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "63f9d32ca7eaafa0db3b574d197d50ad424c9289b1bea75bf2e398d93c71c806",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "badd718ea55c7729a63e7449ee67b2101a325e2854e3985e34664bed429b8526",
+    "translation_sha256": "a13a9b6b71c34f72d7cac3eb97c4fa3832fad14308eab06dae8662c4667e9a28"
+  }
+}

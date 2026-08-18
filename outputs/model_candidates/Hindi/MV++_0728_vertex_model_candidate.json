@@ -1,0 +1,151 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "overwhelming pain to defiant release",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation renders 'man' (mind/heart/inner self) as 'soul', which shifts the psychological focus to a spiritual one, and 'bahar bah nikli ho' (flowed/spilled out) loses the fluid-fire paradox of fire flowing like water.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's internal emotional pain, anger, or distress has become too intense to contain and is now visibly overflowing or being expressed outwardly.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person with a glowing, fiery core that bleeds or ripples outward into a dark background.",
+              "A close-up of a distressed face with subtle heat-haze or warm light reflecting on their features and escaping into the atmosphere."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3-L4",
+            "literal_meaning": "As if the fire of my mind/heart has flowed out to the exterior.",
+            "literalization_risk": "Showing literal flames physically pouring out of a person's chest or mouth, which could look like a fantasy/supernatural action scene rather than a psychological state of distress.",
+            "metaphor_mapping": {
+              "tenor_concept": "uncontainable emotional distress",
+              "transferred_attributes": [
+                "intensity",
+                "inability to be contained",
+                "destructive outward movement"
+              ],
+              "vehicle_concept": "overflowing fire/liquid heat"
+            },
+            "source_span_original": "जैसे मेरे मन की आग\nबाहर बह निकली हो।",
+            "source_span_translation": "as if the fire in my soul\nhas spilled outside.",
+            "source_term": "जैसे मेरे मन की आग\nबाहर बह निकली हो।",
+            "tenor": "The speaker's intense, uncontainable internal emotional suffering or anger.",
+            "vehicle": "A physical fire or burning liquid that was contained inside but has now breached its boundaries and spilled/flowed outward.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in deep distress with a warm, intense orange or red glow emanating softly from within them, or surrounded by abstract, fluid heat-haze patterns that suggest an internal heat spilling into the cool surrounding air."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'मन' (man) as 'soul', which shifts the focus from the psychological, emotional, and cognitive seat of feelings (the mind/heart) to a more spiritual or metaphysical concept.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The passive, impersonal construction of 'सहा नहीं जाता' (saha nahi jata - 'it cannot be borne') is translated as a direct personal statement ('I can't bear this'), losing the grammatical nuance of helplessness and inability to act that the Hindi passive voice conveys.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The verb 'बह निकली' (bah nikli) literally means 'flowed out' or 'gushed out', which creates a vivid, liquid-like paradox when paired with 'आग' (fire). The translation 'spilled' partially captures this but loses the continuous, flowing motion implied by 'बहना'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The breaking point of bearing internal suffering and the outward spill of emotional fire."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अब और नहीं,  \nअब ये सहा नहीं जाता,  \nजैसे मेरे मन की आग  \nबाहर बह निकली हो।",
+  "poem_id": "MV++_0728",
+  "poem_title": "Ab Aur Nahin",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "46a8d2283a6c770b436df72e3ce086165999a330dfe43555d0bda4b9290c75aa",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0728.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Not anymore,  \nI can’t bear this now,  \nas if the fire in my soul  \nhas spilled outside.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:02:02.442835+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4dff9dbb5078b667a96a3a5fd6db411d61c6f299b6f3a28dfad08622c637714",
+        "response_hash": "09271d889a717cfb65645fd867fcb6fa151994628588f474b9d75712d29f3809"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b3932cad17945090f1b74836c1ac0205450b3ba856387be0eb0c54c2a26a9c1",
+        "response_hash": "8f68307647420de1bae5ec4b5bf2f9647618ddd93d17775556e6454b9aa2dfe9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ee0b2376694ac3db69625c5f783a570cbcc06664ec7722b7ffc4456201c0f291",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a3ec5a7a58f3a1f2fd1aece88244ab58f3520bd8ccd3cdab700813698b5aa777",
+        "response_hash": "7f3d2dc4c777584e76ba9a3ee90b7383faf0ec8f46a63f68ea72323aaf15d8eb",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "35eb965461d4cce4a2d29f62e5e988265ab00e9339f7672cd1cb5c78c61e42ed",
+        "response_hash": "a314a70d9b0e7ca3926505a36b92b2c4add2f07e6dcdb64adc219a4e92f24784",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1cd315dbaeb91ef6ee380ad1f2f7a84e6ccbf8fdcd80ab42e008daa9d8e753af",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "39cdeec0ae7742689427e604e78b8fcfb332f786f548fa86b8a30611e6791343",
+    "translation_sha256": "977a786be2b3eff25354a8fa4b3e94ca421b0143c3d427c20c638a0d4691ce55"
+  }
+}

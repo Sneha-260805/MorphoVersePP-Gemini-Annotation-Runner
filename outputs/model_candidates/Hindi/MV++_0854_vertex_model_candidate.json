@@ -1,0 +1,243 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'bhatakti' as 'flowing' misses the nuance of wandering, drifting, or searching, which carries a stronger sense of restlessness than simple flow.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker addresses a wandering river as a conscious entity, urging it to flow freely and escape constraints, symbolizing a human soul or life journey seeking liberation.",
+            "acceptable_visual_variants": [
+              "A wide, rushing river carving its path through mountains under an open sky",
+              "A gentle stream winding through a dense forest, breaking past fallen logs"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "Walk/flow, wandering river",
+            "literalization_risk": "An illustrator might depict a literal river with a human face or cartoonish walking legs, which ruins the poetic, naturalistic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life journey",
+              "transferred_attributes": [
+                "movement",
+                "seeking",
+                "susceptibility to being bound or constrained"
+              ],
+              "vehicle_concept": "wandering river"
+            },
+            "source_span_original": "चल भटकती नदी",
+            "source_span_translation": "Flowing river",
+            "source_term": "चल भटकती नदी",
+            "tenor": "A human life, spirit, or individual seeking freedom and movement",
+            "vehicle": "A wandering, conscious river being spoken to directly",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a wild, winding river flowing freely through a vast, open landscape without any artificial dams or barriers."
+          },
+          {
+            "abstract_meaning": "The memories, experiences, or secrets carried within the flow of time or life.",
+            "acceptable_visual_variants": [
+              "Swirling patterns in deep blue water that hint at human silhouettes or faces",
+              "Sparkling crests of waves catching the sunlight, suggesting fleeting moments"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Stories hidden in the waves",
+            "literalization_risk": "Depicting literal books, scrolls, or text floating inside water waves would look overly literal and surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "repressed or carried memories in a life",
+              "transferred_attributes": [
+                "being submerged",
+                "being carried along",
+                "being difficult to see from the surface"
+              ],
+              "vehicle_concept": "hidden objects in water waves"
+            },
+            "source_span_original": "लहरों में छिपी कहानियाँ",
+            "source_span_translation": "The stories hidden in the waves",
+            "source_term": "लहरों में छिपी कहानियाँ",
+            "tenor": "Memories, past events, or emotional experiences carried by the passage of time",
+            "vehicle": "Stories physically concealed inside water waves",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show light reflecting off turbulent waves in a way that suggests shifting, fleeting shapes or shadows beneath the surface."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'भटकती' (bhatakti) as 'flowing', which loses the specific meaning of wandering, straying, or being lost, shifting the tone from a restless, wandering river to a simple flowing one.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'बाँधने में क्यों हो चूर' as 'Why be bound in them?' loses the idiomatic nuance of 'चूर होना' (choor hona), which implies being completely absorbed, shattered, or exhausted by the act of binding or trying to contain the stories.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The phrase 'so de' (literally to let sleep/rest) is translated as 'immerse yourself', which captures the figurative meaning but loses the gentle, restful literal imagery of sleeping in new colors.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Breaking free from societal limitations, boundaries, or personal constraints.",
+            "acceptable_visual_variants": [
+              "A river widening into a vast delta where the restrictive banks disappear",
+              "Water flowing over a low natural rocky ledge into a larger basin"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Cross the riverbanks",
+            "literalization_risk": "Showing a destructive flood destroying farmland would convey a negative, harmful tone instead of positive liberation.",
+            "metaphor_mapping": {
+              "tenor_concept": "societal or personal boundaries",
+              "transferred_attributes": [
+                "confinement",
+                "defining limits",
+                "holding back flow"
+              ],
+              "vehicle_concept": "riverbanks"
+            },
+            "source_span_original": "पार कर तटों को",
+            "source_span_translation": "Cross the banks",
+            "source_term": "पार कर तटों को",
+            "tenor": "An individual transcending boundaries, rules, or limitations",
+            "vehicle": "A river overflowing or breaking past its physical banks",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict water gracefully spilling over natural stone boundaries into a wider, lush green meadow."
+          },
+          {
+            "abstract_meaning": "To fully immerse oneself in new experiences, cultures, or emotional states.",
+            "acceptable_visual_variants": [
+              "A river flowing through a landscape rich with autumn foliage, reflecting the red and gold leaves",
+              "Water passing through a prism of light, splitting into a soft rainbow spectrum"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Sleep/immerse yourself in new colors",
+            "literalization_risk": "Depicting a person or river literally covered in thick, messy paint could look like a festival accident rather than a spiritual transformation.",
+            "metaphor_mapping": {
+              "tenor_concept": "diverse life experiences and emotions",
+              "transferred_attributes": [
+                "vibrancy",
+                "transformation of appearance",
+                "immersion"
+              ],
+              "vehicle_concept": "colored dyes or pigments"
+            },
+            "source_span_original": "नए रंगों में खुद को सो दे",
+            "source_span_translation": "Immerse yourself in new colors",
+            "source_term": "नए रंगों में खुद को सो दे",
+            "tenor": "Experiencing and adapting to new phases of life and diverse environments",
+            "vehicle": "Dyeing oneself or sleeping in physical colors/pigments",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the river reflecting a vibrant sunset sky filled with deep purples, oranges, and pinks, showing the water changing color naturally."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'Immerse yourself' for 'खुद को सो दे' (khud ko so de) simplifies the unusual poetic phrasing 'सो दे' (literally 'let sleep' or 'give to sleep'), which carries a deeper sense of resting, surrendering, or dissolving oneself into the new colors.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The liberating journey of self-discovery and letting go of past narratives, symbolized by a wandering river."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चल भटकती नदी,  \nतू जा कहीं दूर,  \nलहरों में छिपी कहानियाँ,  \nबाँधने में क्यों हो चूर।  \n\nपार कर तटों को,  \nखुद को खो दे,  \nहर मोड़ पर नई दुनिया,  \nनए रंगों में खुद को सो दे।",
+  "poem_id": "MV++_0854",
+  "poem_title": "Chal Bhatakti Nadi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "645aea96e0e18d22a17622025a3f4af667744626e7a295780c21f873c3e964aa",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0854.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Flowing river,  \nGo far away,  \nThe stories hidden in the waves,  \nWhy be bound in them?  \n\nCross the banks,  \nLose yourself,  \nAt every turn a new world,  \nImmerse yourself in new colors.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:21:35.259634+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "86c25877c0f51a300bb4a8c81c7c944dd43a4a64aa08050cf41d92bce40ecdd8",
+        "response_hash": "38ddd77802f419027beaad59d234532c78098f865ced2af8c3b0b0358a6c1fab"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be5a1556e16ab8cf0979175d7e04ffab930ead3a11648ab868fe8a2ae271d078",
+        "response_hash": "204b5952f93a61e4bfa4e4fe849d26692f622c715c00098dab813d6e04da50bd",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ab0103c727e0e025f6e968a090aea380d333d750393083a7987095535ea21e4",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "004e8ecc6568977b74f59504c062bf32b5bd5d87a552c1dba6501971870c800d",
+        "response_hash": "ce90ec2a908af86f81d65769fe07343e0fe17851463bbc6efbdbebcb0fccd3f2",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4db99810abdcbb3697736b701a4e962b8ed0a23551815ec4beaeaff0941df803",
+        "response_hash": "2fef53b91e9127ba0087275dc2629c845397053f1d82af57cd10f7aeee603e0d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1e8a2bb85de96fa03ceae940b66bb6bf2fb0576e479a6d320be6a8cc81fcce5e",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "56e5b1dd573e3b270cca5a5fd62d0093be38b36a1e6eef3ba0f951913f8e1ece",
+    "translation_sha256": "b6b826a887a85c9baafc4c14cf6943fdf1acd91395bf6305516e1f67c4cb95d0"
+  }
+}

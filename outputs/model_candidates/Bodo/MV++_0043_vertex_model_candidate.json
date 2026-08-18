@@ -1,0 +1,170 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Bodo people, an ethnolinguistic community primarily residing in the Brahmaputra Valley of Assam in Northeast India, whose distinct heritage and culture are celebrated in the poem.",
+        "line_ref": "L1",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Bodo",
+        "source_span_original": "बोडो",
+        "source_span_translation": "Bodo",
+        "stanza_index": 1,
+        "term": "बोडो",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "pride and celebration of cultural heritage",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation captures the core meaning, though the specific linguistic resonance of the Bodo-Assamese linguistic blend in terms like 'तुमार संस्कृति' (your culture) and 'धरोहर' (heritage) is simplified into standard English terms.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The cultural heritage is deeply integrated and inseparable from daily life and existence.",
+            "acceptable_visual_variants": [
+              "A loom where the emerging fabric shows scenes of traditional life",
+              "Intertwined colorful threads forming the background of a person engaged in cultural practices"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Knotting or weaving into life",
+            "literalization_risk": "Showing literal threads or ropes physically tying a person or a heart could look like physical restraint or medical suturing rather than cultural integration.",
+            "metaphor_mapping": {
+              "tenor_concept": "integrating culture into human life",
+              "transferred_attributes": [
+                "intertwined",
+                "inseparable",
+                "structural strength"
+              ],
+              "vehicle_concept": "weaving threads into a fabric"
+            },
+            "source_span_original": "जीवनले गुथा",
+            "source_span_translation": "Woven into life",
+            "source_term": "जीवनले गुथा",
+            "tenor": "the integration of cultural heritage into daily human existence",
+            "vehicle": "weaving/knotting threads together",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized tapestry or fabric where the patterns represent cultural motifs blending seamlessly into scenes of daily life."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural resonance of 'ज्व्राई' (Jwrai), which carries connotations of ancestral heritage, lineage, or traditional roots, is simplified to the generic English word 'Heritage'.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Assamese/Bengali loan influence in words like 'तुमार' (tumar - your), 'धरोहर' (dharohar - legacy/heritage), and 'मोर' (mor - my) reflects a multilingual regional contact zone that is completely flattened into standard English pronouns and nouns.",
+            "where": "L2-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The specific Bodo compound 'बरजारी' (barzari), which evokes a long, continuous, or living historical flow, is translated as the simpler adjective-noun phrase 'history alive'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring pride, legacy, and living history of Bodo culture and heritage."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Bodo",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बोडो ज्व्राई\nबोडो ज्व्राई, तुमार संस्कृति\nधरोहर, मोर गर्व,\nजीवनले गुथा,\nइतिहास बरजारी।",
+  "poem_id": "MV++_0043",
+  "poem_title": "Bodo Jwrai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b0bd4b62ee408e74a3842374c73da799402aac288a2004a950931b9e03a6df7d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bodo/MV++_0043.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Bodo Heritage\nBodo heritage, your culture\nLegacy, my pride,\nWoven into life,\nA history alive.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:40:53.560540+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e628c9bc775afdd2290b914a28b441feabe971025642e806fb60006d767b873b",
+        "response_hash": "c40133ee9498b5b7d0ffaf737dc386797751da50492e57f9f7c52661983b83fa"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b5596a03c75a80d82e1775e291c9981a013c74e8936f95fb08519f7d8dc8373c",
+        "response_hash": "67b23471ac23cd70be6c4540852ad43556a80bd3ea2c8dbef085681a27ca0490",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "434ff9a7dc188ef455c12f1ac0943f0cd3a5ca25a8768ea747470c8fe97da15e",
+        "response_hash": "c871eacf8f97580fb3f2a5dae1b836ada93d64594874d5c1fd026bc9c0f4ff1f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c346edc44115ff194b595b3dd8bdf0f414a2a65674f278cf1d4ff27e3255e4dc",
+        "response_hash": "bd3d54c2e0fe0d8510400319cb2612120ae277da420f3108f353b753e9ee029c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5c15efe429508c1190bdb30eb7c1204af6045f04be423d98ada947ef061ceb97",
+        "response_hash": "e96e25b46c2463275f5c0fbb9bd34e7365cf69f13971116fb2810fd0c38b5274",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0a5abf1d9233a0b5197058c5cf6f4215531b0f2e29391359c06b061c7922afc8",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ebb7c8bd71bccdb8e183f51f8e552359a0e94a4c92c2eedfd2183826cacc3bf7",
+    "translation_sha256": "7e9183d70d88e10f4c3fddc5d7c0a7d5a8f3fc34261d83e6ebedd767a657a2d0"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "confinement to liberation and joy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but the subtle wordplay and rhythm of the Kannada verbs (haridu, haarida, haaritu) which create a sonic link between tearing/fading and flying/soaring are partially lost in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The path or direction of life disappearing or becoming uncertain as one moves forward.",
+            "acceptable_visual_variants": [
+              "A dirt path dissolving into swirling mist",
+              "A stone path crumbling into dust behind a traveler's heel"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The torn/broken path",
+            "literalization_risk": "Showing a physically ripped piece of paper or fabric with a road drawn on it, which misses the existential feeling of a path fading away.",
+            "metaphor_mapping": {
+              "tenor_concept": "uncertain life journey",
+              "transferred_attributes": [
+                "brokenness",
+                "loss of continuity",
+                "disappearance"
+              ],
+              "vehicle_concept": "torn path"
+            },
+            "source_span_original": "ಹರಿದು ಹೋದ ದಾರಿ",
+            "source_span_translation": "The path fades",
+            "source_term": "ಹರಿದು ಹೋದ ದಾರಿ",
+            "tenor": "The uncertain direction of life",
+            "vehicle": "A torn or broken path",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a walking path that gradually dissolves into mist or blends into the natural landscape with each step."
+          },
+          {
+            "abstract_meaning": "Joy or a smile spreading across a vast, silent landscape.",
+            "acceptable_visual_variants": [
+              "Golden sunlight breaking over mountain peaks",
+              "A soft, glowing wind carrying flower petals over hills"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "A smile flew over the hills",
+            "literalization_risk": "Drawing a literal disembodied mouth with wings flying over mountains, which looks cartoonish and bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "spreading emotion",
+              "transferred_attributes": [
+                "flight",
+                "elevation",
+                "covering distance"
+              ],
+              "vehicle_concept": "flying object"
+            },
+            "source_span_original": "ಸ್ಮಿತ ಹಾರಿದ ಬೆಟ್ಟಗಳ ಮೇಲೆ",
+            "source_span_translation": "A smile flies over the hills",
+            "source_term": "ಸ್ಮಿತ ಹಾರಿದ ಬೆಟ್ಟಗಳ ಮೇಲೆ",
+            "tenor": "Joy spreading over a landscape",
+            "vehicle": "A flying smile",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a warm, golden light or a gentle breeze sweeping over mountain peaks, suggesting a cheerful transformation of the landscape."
+          },
+          {
+            "abstract_meaning": "A heart finding joy and freedom after breaking free from emotional or societal constraints.",
+            "acceptable_visual_variants": [
+              "A glowing silhouette of a person breaking through a thorny hedge into open light",
+              "A stylized heart symbol surrounded by shattered, dark chain links"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A smiling heart that broke a fence and carried it",
+            "literalization_risk": "Depicting a literal anatomical heart muscle physically snapping a wooden fence or metal chains, which is grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "overcoming emotional constraints",
+              "transferred_attributes": [
+                "shattering",
+                "liberation",
+                "joy"
+              ],
+              "vehicle_concept": "breaking a physical barrier"
+            },
+            "source_span_original": "ಬೇಲಿ ಕಡಿದು ಹೊತ್ತ ನಗುವ ಹೃದಯ",
+            "source_span_translation": "A heart smiles after breaking its chains",
+            "source_term": "ಬೇಲಿ ಕಡಿದು ಹೊತ್ತ ನಗುವ ಹೃದಯ",
+            "tenor": "An individual finding emotional liberation and joy",
+            "vehicle": "A heart breaking a fence/chains",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, heart-shaped light bursting through a dark, tangled thicket of thorns or broken wire."
+          },
+          {
+            "abstract_meaning": "The ultimate release of joy, merging with the natural flow of life.",
+            "acceptable_visual_variants": [
+              "Sparkling ripples spreading across a river's surface from a point of light",
+              "A glowing bird-like shape of light dissolving into a flowing stream"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The heart's smile flew to the river",
+            "literalization_risk": "Showing a disembodied smile diving headfirst into a river, which looks absurd.",
+            "metaphor_mapping": {
+              "tenor_concept": "merging of personal joy with nature",
+              "transferred_attributes": [
+                "movement",
+                "merging",
+                "fluidity"
+              ],
+              "vehicle_concept": "flight into water"
+            },
+            "source_span_original": "ಹೃದಯದ ನಗು ಹಾರಿತು ನದಿಗೆ",
+            "source_span_translation": "the heart’s smile soars to the river",
+            "source_term": "ಹೃದಯದ ನಗು ಹಾರಿತು ನದಿಗೆ",
+            "tenor": "Joy merging with the flow of life",
+            "vehicle": "A smile flying into a river",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a stream of warm, sparkling light flowing from a person's chest and merging into a rushing river."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The Kannada verb 'haridu' (ಹರಿದು) in L1 carries a double meaning of 'flowing' (like water) and 'tearing/ripping apart' (like a path or fabric). The English translation 'fades' completely loses this rich, dual-layered imagery of a path that is both torn apart and flowing away underfoot.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada phrase 'beli kadidu' (ಬೇಲಿ ಕಡಿದು) literally means 'cutting the fence/hedge', which evokes a rural, agricultural landscape of breaking through physical boundaries. The English translation 'breaking its chains' substitutes this with a more industrial/carceral metaphor ('chains'), altering the rustic, natural imagery of the original.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The natural, effortless liberation of the heart as it breaks free from constraints and merges with nature."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಹರಿದು ಹೋದ ದಾರಿ ಹೆಜ್ಜೆಗೆ,  \nಸ್ಮಿತ ಹಾರಿದ ಬೆಟ್ಟಗಳ ಮೇಲೆ,  \nಬೇಲಿ ಕಡಿದು ಹೊತ್ತ ನಗುವ ಹೃದಯ,  \nಆಗ ಹೃದಯದ ನಗು ಹಾರಿತು ನದಿಗೆ.",
+  "poem_id": "MV++_1103",
+  "poem_title": "Sahaja",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "0d5db627cfc342fd6fd3cb5a672570122be62f978e7e6faab70e72a2752d44d7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1103.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The path fades with every step,  \nA smile flies over the hills,  \nA heart smiles after breaking its chains,  \nThen the heart’s smile soars to the river.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:58:05.516550+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7bead9f1ffc9265f1db64d02942a7cf4ee7e3031253ddcca5795bb763ed32686",
+        "response_hash": "48f39e031f37ba63376bb584bbb8066d84e2324d6528ccef4e4f2fb8f42b9ee3"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "68825af188755a8469adfdb4edcb2dba7bcdea98ca43e0b9d7d8c9b09ff8ca65",
+        "response_hash": "c5d44d8e351b630dccb1212e8f08734f0b5c83820c47b12551cb2d8d9538a0c6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca505b8bc1a4880412eef365a332b490e26220d383c794d5121eac0bc293777d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e06b3d2ee95dffa0f20d12dbee9804a51b92eb1795a92c05da63822863e8fa96",
+        "response_hash": "8f36fde6a1c9b59c8951815a1e02352fb462aa1182cd445a7e00ae2946ee1dad",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4240b1f886dd6d5e8f26ecf09c57e3dd49b622af17d70d831d49987344a1eff4",
+        "response_hash": "7295d1ca0797925e78c584acc28a753a2544b7735a040f41768462aff1b3d110",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4f8ce2e84011dba5d93a9016e8c59891c4b621e0c818e4a40c33a30dbfa52605",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d85a6193e67f080265127034152fb37c16a0b1911332acd2f5c5dbad92836946",
+    "translation_sha256": "28b8c4cf3e0a436a959b007ddb1c02c43ff50ee388bd4c84d9085c4e22607a3b"
+  }
+}

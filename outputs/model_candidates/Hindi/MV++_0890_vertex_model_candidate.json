@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet, philosophical observation of nature shifts into a somber realization of personal limits and the dissolution of dreams.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The human desires and hopes that carry a person through life, which can ultimately fail or sink.",
+            "acceptable_visual_variants": [
+              "A simple wooden rowboat half-submerged in water near the shore of a green island",
+              "A paper boat dissolving in the river currents"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A boat made of desires",
+            "literalization_risk": "Showing a literal boat constructed out of abstract thoughts or words, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "human desires navigating life",
+              "transferred_attributes": [
+                "vulnerability to sinking",
+                "carrying cargo/hopes",
+                "navigational purpose"
+              ],
+              "vehicle_concept": "boat navigating water"
+            },
+            "source_span_original": "इच्छाओं की कश्ती",
+            "source_span_translation": "boat of your desires",
+            "source_term": "इच्छाओं की कश्ती",
+            "tenor": "human desires and aspirations",
+            "vehicle": "a boat (kashti) navigating water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a small, fragile wooden boat sinking into the water near the river islands, symbolizing lost hopes."
+          },
+          {
+            "abstract_meaning": "The limit or boundary of one's dreams and future possibilities.",
+            "acceptable_visual_variants": [
+              "A distant, misty line where the river meets a pale sky behind the islands",
+              "A sunset horizon fading into deep blue twilight over the water"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The physical horizon belonging to dreams",
+            "literalization_risk": "Depicting literal dream bubbles or sleeping figures floating on a physical horizon line.",
+            "metaphor_mapping": {
+              "tenor_concept": "the limits of human imagination and aspiration",
+              "transferred_attributes": [
+                "distance",
+                "boundary",
+                "fading out of sight"
+              ],
+              "vehicle_concept": "the physical horizon"
+            },
+            "source_span_original": "सपनों का क्षितिज",
+            "source_span_translation": "horizon of your dreams",
+            "source_term": "सपनों का क्षितिज",
+            "tenor": "the scope and limits of human dreams",
+            "vehicle": "the horizon where sky meets land/water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, hazy horizon line over the river where the sky and water merge into a soft, fading mist."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'रेत-से' (ret-se) as 'sands' loses the comparative postposition '-से' (-se, meaning 'like' or 'resembling'), which grammatically frames the dry river's sand as a simile rather than a simple locative description.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'उसकी गहराई' (uski gehraai, literally 'its depth') as 'the depths of your vision' introduces the word 'vision' which is not present in the original Hindi text, altering the abstract focus from the island's/river's own physical or metaphorical depth to a human sensory capacity.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The inevitable boundaries of human desire and the fading of dreams against the stark, enduring landscape of reality."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains two translation_loss entries detailing significant grammatical and semantic shifts in L1 and L8. This is internally inconsistent. The translation_quality should be 'partial' if there are notable losses, or the loss_note/translation_loss should be empty if it is fully faithful.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सुनो, वह सूखी नदी के रेत-से\nधाराओं के बीच में खड़े\nगाढ़े हरे और गहरे नीले रंग से पुते हुए\nनदी के वे दो या तीन छोटे-छोटे द्वीप\nविचारो! वही हो\nतुम्हारी इच्छाओं की कश्ती के डूबने की जगह\nतुम्हारे सपनों का क्षितिज वहाँ से विलीन होता है\nवहाँ से उसकी गहराई की सीमा खत्म होती है।",
+  "poem_id": "MV++_0890",
+  "poem_title": "Nadi Ke Dweep",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "154304ae77296b8f57a6c583d6e5c50b25c320cd63962e42cb2fafa2ad48c23f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0890.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Listen, there in the dry river’s sands,\nstanding between currents,\npainted in thick green and deep blue shades—\nthose two or three small islands in the river—\nconsider them! They are\nthe place where the boat of your desires sinks,\nthe place where the horizon of your dreams fades away,\nthe place where the depths of your vision end.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:26:49.493471+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "54fef4ccb5fcb066b19ce344a0260851e91555da2ef68544603b2e4312bd88dc",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "47dc98878566586f9b1ea081a00d71ef1972f29300bb379e1def057ffd8ef8b6",
+        "response_hash": "460d0a493507b3030340a474bb2b0c73b738e5589a25d1f0e0e056a5191a3592",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "20eaef5401a30c4682457a7c21bfc23307ed8140f5c4d54d15ec9e1fbaecaa7e",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c5cee3ffd03074de012b4736897a806dc40371bdb399b77137fe037c35a86619",
+        "response_hash": "b7563bbca809ec784593c873af70d51b907b31dab5d39c4f2338b35a44ce787f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "30bf263dcd26c4b8244b6eed087be2e43bddf7fbf8baff957a8a86ed48c94f55",
+        "response_hash": "ceb382c81e92ecb017c133510d739e6e5489bbaf8c8d83adc35c10264875c363",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "475a7e4a2161d9c52ee0914f67fc6a0c6a2a29ce52910470602dec711ea4788e",
+        "response_hash": "2710975cd1f7f7f5adb9e81e27e2b12fb51937af5719582d63ceda93f1295578",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9e9bbb09c7866934c82758b4f2873600f6734fbbf51ccd5660ea59be6f968227",
+    "translation_sha256": "a30024c4441bcedc690d8835eaa66edbc7aef7f0e1ed2823a7a81d6fc6dc5ef3"
+  }
+}

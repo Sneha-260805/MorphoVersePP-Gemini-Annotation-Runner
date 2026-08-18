@@ -1,0 +1,168 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet longing to peaceful surrender",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The grammatical feminine gender of the verb 'chali' (indicating a feminine speaker or personified drop) is lost in the gender-neutral English translation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker identifies themselves as a tiny, singular entity or individual soul seeking union with a vast, infinite whole.",
+            "acceptable_visual_variants": [
+              "A close-up of a single dewdrop on a leaf reflecting a vast sky",
+              "A single droplet falling towards a calm, expansive ocean surface"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "I am a single droplet of water",
+            "literalization_risk": "Showing a literal talking water droplet would look like a cartoon character, losing the deep philosophical sense of individual existence.",
+            "metaphor_mapping": {
+              "tenor_concept": "individual human soul",
+              "transferred_attributes": [
+                "smallness",
+                "singularity",
+                "destined to merge into a larger body of water"
+              ],
+              "vehicle_concept": "water droplet"
+            },
+            "source_span_original": "मैं एक बूंद हूँ",
+            "source_span_translation": "I am one drop",
+            "source_term": "मैं एक बूंद हूँ",
+            "tenor": "An individual person or soul",
+            "vehicle": "A single drop of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a single, luminous droplet suspended in the air or falling gently, reflecting light, positioned just above a vast body of water."
+          },
+          {
+            "abstract_meaning": "The process of an individual merging their identity into a larger collective, the divine, or the infinite universe.",
+            "acceptable_visual_variants": [
+              "A droplet dissolving into a vast body of water with soft ripples spreading outward",
+              "A stream of light or water flowing seamlessly into a grand, misty sea under a soft sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Traveling to merge or dissolve into the ocean",
+            "literalization_risk": "A literal depiction of a droplet traveling on a path might look like a physical journey of a cartoon character rather than a spiritual transition.",
+            "metaphor_mapping": {
+              "tenor_concept": "soul uniting with the infinite or divine",
+              "transferred_attributes": [
+                "loss of individual boundaries",
+                "becoming one with a vast whole",
+                "completion of a journey"
+              ],
+              "vehicle_concept": "droplet merging into the ocean"
+            },
+            "source_span_original": "समुंदर में मिलने चली",
+            "source_span_translation": "Heading to merge with the sea",
+            "source_term": "समुंदर में मिलने चली",
+            "tenor": "The spiritual or existential journey of returning to a supreme source or collective consciousness",
+            "vehicle": "A droplet traveling to and dissolving into the vast ocean",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show the moment of contact where a single droplet touches the surface of a vast, calm ocean, creating gentle concentric ripples as it dissolves."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the explicit feminine gender marking of the speaker in the verb 'chali' (चली), which indicates that the drop ('boond', a grammatically feminine noun in Hindi) is personified as a female entity. The English translation 'Heading to merge' collapses this gendered nuance into a neutral participle.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The journey of the individual soul or self to merge with the vast, infinite whole."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं एक बूंद हूँ  \nसमुंदर में मिलने चली।",
+  "poem_id": "MV++_0878",
+  "poem_title": "Ek Boond",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e33fbaa8475ff2dfe52a5acf9eef0d02bbfa0cc05033ae5cb65feded9b1f70f1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0878.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I am one drop,  \nHeading to merge with the sea.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:25:18.224442+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cd00fb82ad42c66e1ad2e9164491a4393d6a109fc81e6ace61509506435b648a",
+        "response_hash": "92f30891992f7081a0da684d2f4448686b422062d5759dc95cdc90d94b988768"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f6efa197c61afb72f92a014b26be7d95f0dc02b013c9a6b99909e93447ab7c4b",
+        "response_hash": "7eeca58b45d81086a23b4b905442717e7d762e6447b0343d4d780720c942b66d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "80f9268be98ebae887ec7759fb278d7675595496077f2d53eb9a71351ad5e44d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "019a92a26c5c7278b98d0bd3161fb5c6dc72d560e4007440b97d6937488278f8",
+        "response_hash": "aca522bc57760a36097de75c670e3bab6171da570c25955091c6fd9c28b3b563",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0ae585d06816bd18553ce7884c08f9c8f2a9212623600ee31642f0f740232754",
+        "response_hash": "bf048b7093ffa7ae23359f542e280e9516cfcf361cad1e842a581971682f5658",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "44be44d5aa4dfaff138e654a4ab34076f6f6e0bae165c2086eb6342c9100db00",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "697dd54ed5c2b8763d026748f1645f763efeaee99c1e98cab8fd98d3c1cb7bf1",
+    "translation_sha256": "72f8502f2860848dcc028bdbe3ed2da6bc1fc3a055fa7e477f2f137f2b3ab389"
+  }
+}

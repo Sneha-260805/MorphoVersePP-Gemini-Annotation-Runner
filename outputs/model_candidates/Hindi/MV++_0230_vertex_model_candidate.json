@@ -1,0 +1,319 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional Indian artistic depiction of a golden sparrow or bird perched on a branch",
+          "A symbolic glowing golden bird silhouette hovering over a map or landscape of India"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A historical and cultural metaphor for India, literally meaning 'the golden bird', representing its ancient wealth, prosperity, and cultural richness before colonization.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A literal yellow canary or common pet bird in a cage",
+          "An ornate European-style mechanical golden toy bird"
+        ],
+        "preserved": true,
+        "romanization": "sone ki chidiya",
+        "source_span_original": "सोने की चिड़िया",
+        "source_span_translation": "The golden bird",
+        "stanza_index": 2,
+        "term": "सोने की चिड़िया",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A stylized golden bird",
+          "A bird shimmering with golden light or made of gold filigree"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Raindrops falling on cracked clay soil",
+          "A close-up of hands holding damp, dark, freshly rained-on earth"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The unique, pleasant, nostalgic aroma of dry earth when it is first splashed by rain (petrichor), which holds deep emotional and cultural resonance in Indian agricultural and poetic traditions.",
+        "line_ref": "L14",
+        "negative_confusions": [
+          "Muddy puddles from a heavy storm",
+          "Wet potting soil in an indoor garden pot"
+        ],
+        "preserved": true,
+        "romanization": "sondhi",
+        "source_span_original": "सौंधी",
+        "source_span_translation": "earthy",
+        "stanza_index": 4,
+        "term": "सौंधी",
+        "translation_note": "Translated as 'earthy', which captures the physical aspect but loses the specific cultural and sensory association with the unique, pleasant smell of dry soil when first hit by monsoon rain.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Dry parched earth receiving the first drops of rain",
+          "Light steam or mist rising from warm soil as water droplets hit it"
+        ],
+        "visual_priority": "optional"
+      }
+    ],
+    "emotional_arc": "A transition from celebratory pride in the land's natural beauty to a deep, reflective devotion to its shared cultural heartbeat and soil.",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A prosperous, culturally rich, and precious land or nation.",
+            "acceptable_visual_variants": [
+              "A glowing golden bird flying over a map or landscape of India",
+              "A bird silhouette filled with scenes of agricultural abundance"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A bird made of gold",
+            "literalization_risk": "Depicting a literal bird made of solid gold might look like a statue or a fantasy creature, missing the patriotic and historical sentiment of India's prosperity.",
+            "metaphor_mapping": {
+              "tenor_concept": "prosperous nation",
+              "transferred_attributes": [
+                "preciousness",
+                "beauty",
+                "wealth",
+                "vulnerability"
+              ],
+              "vehicle_concept": "golden bird"
+            },
+            "source_span_original": "सोने की चिड़िया",
+            "source_span_translation": "The golden bird",
+            "source_term": "सोने की चिड़िया",
+            "tenor": "The country's soil and its inherent prosperity",
+            "vehicle": "A bird crafted from gold",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, glowing bird silhouette soaring over lush green fields and golden harvests, blending the bird shape with the landscape."
+          },
+          {
+            "abstract_meaning": "The soil or land exhibits joy, vitality, and blooming life in the gardens.",
+            "acceptable_visual_variants": [
+              "Sunlight filtering through dew-covered blooming flowers",
+              "Children playing amidst colorful, swaying garden blossoms"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Laughs in the gardens",
+            "literalization_risk": "Drawing a literal face on the ground or on flowers laughing would look cartoonish and bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "blooming flowers and plants",
+              "transferred_attributes": [
+                "joy",
+                "vibrancy",
+                "sound of happiness",
+                "liveliness"
+              ],
+              "vehicle_concept": "human laughter"
+            },
+            "source_span_original": "बागों में हँसती है",
+            "source_span_translation": "Laughs in the gardens",
+            "source_term": "बागों में हँसती है",
+            "tenor": "The blooming and thriving of nature in the gardens",
+            "vehicle": "A human laughing",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show vibrant, fully bloomed flowers swaying gently in a sunlit garden, evoking a sense of natural joy and celebration."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The cultural resonance of 'सोने की चिड़िया' (Sone ki chidiya), which is a historical and patriotic metaphor for India as a land of wealth and prosperity, is flattened to a literal 'golden bird' without its deep-seated nationalistic and historical context.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The country's soil is deeply integrated into the life, identity, and emotions of its people.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person looking over a vast landscape with a glowing chest area",
+              "A mother holding a child close to her chest with a warm, comforting light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "Resides inside every heartbeat",
+            "literalization_risk": "Showing a literal heart organ with soil or a landscape inside it would look anatomically grotesque and confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "profound emotional and patriotic connection",
+              "transferred_attributes": [
+                "vitality",
+                "closeness",
+                "essential for life"
+              ],
+              "vehicle_concept": "living inside a physical heart"
+            },
+            "source_span_original": "हर धड़कन में बसती है",
+            "source_span_translation": "It resides in every heartbeat",
+            "source_term": "हर धड़कन में बसती है",
+            "tenor": "Deep-seated patriotism and emotional connection felt by the citizens",
+            "vehicle": "A physical resident living inside a beating heart",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a diverse group of people with hands placed over their chests in a gesture of love or pride, with a warm glow emanating from their hearts."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The active, reflexive sense of 'सजती है' (adorns/beautifies herself) is translated as 'decorates', which loses the personified agency of the land dressing up or adorning herself in every color.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "The translation of 'sajish' as 'conspiracy' misses the poetic, non-malicious nuance of a shared, intimate plot or heartbeat's design in Hindi poetic register.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The collective, deep-seated pulse and shared destiny of the people.",
+            "acceptable_visual_variants": [
+              "A network of glowing lines connecting different people across a landscape",
+              "A group of people looking towards the horizon in silent, shared understanding"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L18",
+            "literal_meaning": "In the conspiracy of every heartbeat",
+            "literalization_risk": "Depicting people whispering in dark corners plotting a crime would completely misrepresent the positive, patriotic sentiment of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "instinctual, shared patriotic bond",
+              "transferred_attributes": [
+                "secrecy",
+                "unspoken agreement",
+                "collective movement"
+              ],
+              "vehicle_concept": "conspiracy or secret plot"
+            },
+            "source_span_original": "हर धड़कन की साजिश में",
+            "source_span_translation": "In every heartbeat's conspiracy",
+            "source_term": "हर धड़कन की साजिश में",
+            "tenor": "The silent, shared, and instinctual bond of love for the homeland among the people",
+            "vehicle": "A conspiracy or secret plot",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize a rhythmic, synchronized pattern of warm lights pulsing together across a community or landscape, symbolizing a shared heartbeat."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The specific sensory quality of 'सौंधी' (sondhi), which refers to the distinct, pleasant, earthy aroma of dry soil when first wet by rain (petrichor), is translated as a generic 'earthy', losing its unique cultural and sensory specificity.",
+            "where": "L14"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A patriotic celebration of the homeland's soil, nature, and shared human spirit."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' explicitly states that the translation loses the specific cultural and sensory association of the term. These values are internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मेरे देश की धरती\n\nमेरे देश की धरती,\nसोने की चिड़िया,\nबागों में हँसती है,\nखेतों में उगती है,\nफूलों की महक से,\nखुशबू फैलाती है।\n\nमेरे देश की धरती,\nहर रंग में सजती है,\nबच्चों की खिलखिलाहट में,\nबूढ़ों की कहानी में,\nहर धड़कन में बसती है,\nमेरे देश की धरती।\n\nमाटी की सौंधी खुशबू,\nदिल में बसी रहती है,\nमेरे देश की धरती,\nबने जो हम सबकी,\nहर धड़कन की साजिश में,\nमेरे देश की धरती।",
+  "poem_id": "MV++_0230",
+  "poem_title": "Mere Desh Ki Dharti",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5a2351b518a853f46256199e110306ba714d7ffef3314ecd11c91918029f1195",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0230.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Soil of My Country\n\nThe soil of my country,\nThe golden bird,\nLaughs in the gardens,\nGrows in the fields,\nSpreading fragrance,\nWith the scent of flowers.\n\nThe soil of my country,\nDecorates in every color,\nIn the laughter of children,\nIn the stories of the old,\nIt resides in every heartbeat,\nThe soil of my country.\n\nThe earthy aroma,\nRemains in the heart,\nThe soil of my country,\nBecomes part of us all,\nIn every heartbeat's conspiracy,\nThe soil of my country.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:02:21.935930+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d5bd03c02398155152f565fa3693c71c70e2c37592f52387254e573b15aea7f",
+        "response_hash": "a8550942bdc4a41a9e5fa1c7967c2f9f81fbb47676ac2223e0dca01760cf7428",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "badc73a6b8e8fa3ee4876891c35262b0f4d9c86527bddc13f5e218ec0c82396d",
+        "response_hash": "061f0cc0fed107090c02070d836c43e0416fd650cb92cb3346b94cfbbd755750",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "edb25afe4b590e006f1445fe4186224a3559f1cdbb432bf4fcdca0c8fdf4cd8a",
+        "response_hash": "ec3ac6bbb3d6319de95031bc3bbd31a7808c30012d6d5351820129beb1dc150d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6b933fdc62e39513ac5e412bd3ab3749d6d7750e3e696464dbbc3053639e5137",
+        "response_hash": "906d46da0b5b9c9e28e7ab4a008598569a9a688d146c82c65cc9c64ff556764e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa965f39b6c5509e7f8744f21ff97b96fc9eed43c7bf6f1b9f149750241cff53",
+        "response_hash": "2e5a706fcd28ebdae26666d40de5979a06dd592c007c0d26a1c867032c0b97ce",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0a077c33bcb84f4d205f4390bc6d81b59ce94991cf03a195adb23d2a86afa847",
+    "translation_sha256": "6f029a6e96631587deb2927e2d309db8049e100a8d540aa834eb25fe5e8e46db"
+  }
+}

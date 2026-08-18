@@ -1,0 +1,166 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and tender remembrance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'virisal' (crack/fissure) as 'flutter', which softens the intense, painful physical metaphor of a heart cracking under the weight of love and memory.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The tangible, physical manifestation or structure of one's dreams and desires.",
+            "acceptable_visual_variants": [
+              "A glowing human silhouette made of soft light",
+              "An abstract human form emerging from soft clouds or mist"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The physical body of dreams",
+            "literalization_risk": "Depicting a literal human body made of dream-bubbles or sleeping figures, which would look surreal or monstrous rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "abstract dreams",
+              "transferred_attributes": [
+                "tangibility",
+                "physical form",
+                "structure"
+              ],
+              "vehicle_concept": "physical body"
+            },
+            "source_span_original": "கனவுகளின் தேகம்",
+            "source_span_translation": "body of your dreams",
+            "source_term": "கனவுகளின் தேகம்",
+            "tenor": "the abstract structure or manifestation of dreams (கனவுகள்)",
+            "vehicle": "a physical body (தேகம்)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing, ethereal human silhouette or form composed of light, blending into a starry or dreamy background."
+          },
+          {
+            "abstract_meaning": "A sudden emotional stir, flutter, or vulnerability caused by love.",
+            "acceptable_visual_variants": [
+              "A stylized heart shape with warm light breaking through its center",
+              "A person clutching their chest with a soft, warm glow emanating from behind their hand"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A crack in the heart",
+            "literalization_risk": "Showing a literal anatomical heart with a physical crack or fracture, which looks like a medical emergency or severe trauma rather than romantic emotion.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional vulnerability or excitement in the heart",
+              "transferred_attributes": [
+                "breaking open",
+                "vulnerability",
+                "sudden change in state"
+              ],
+              "vehicle_concept": "fracture in a solid vessel"
+            },
+            "source_span_original": "இதயத்தில் விரிசல்",
+            "source_span_translation": "A flutter in my heart",
+            "source_term": "இதயத்தில் விரிசல்",
+            "tenor": "emotional vulnerability, excitement, or a sudden stir of feelings in the heart (இதயம்)",
+            "vehicle": "a physical crack or fracture (விரிசல்) in a solid object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized heart symbol or a chest area with soft, warm light radiating outward from a central point, suggesting an opening or fluttering sensation."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'விரிசல்' (virisal), which literally means a crack, fracture, or split, as 'a flutter'. This significantly softens the imagery from a painful, physical breaking or cracking of the heart to a gentle, nervous, or excited movement.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation uses 'affection' for 'காதல்' (kaadhal) in L4, which carries a much stronger, romantic, and passionate connotation of love in Tamil than the milder English term 'affection'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The lingering presence of a beloved's memory and the emotional impact of their love."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "அன்பு விழிகள்,  \nஉன் கனவுகளின் தேகம்,  \nஎன் இதயத்தில் விரிசல்,  \nகாதலின் நினைவுகள்!",
+  "poem_id": "MV++_1419",
+  "poem_title": "Anbu Vizhigal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "66082e589e471243609b5d9282b5598a6664f9463f8a2cf3f6dc150e6684d7bf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1419.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Eyes of love,  \nThe body of your dreams,  \nA flutter in my heart,  \nMemories of affection!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:31:37.126207+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "78094f43388d0c72687b44a1a1fd28c9671800ddd1d2c9ccf853de2f3d9bed72",
+        "response_hash": "23954c24b046789a4e6f461d3990ed09820e80c6bb36867aa8bccc5d2bdc6022",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "607432ae4dbb909eb17133bd5d3371143537d50a4af9e11e91575ec740d677f0",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b80a9c9c9d8303cc456b5197d94352563382d9be9c3cebe63daf48992484eb0c",
+        "response_hash": "2cc4675fd6a03649d47e47b3fc00c3a1d86be7214c0c0b151b0d2deadabb0829",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b1d122b746000c6ce4b13ee4fb2c3ce6c84977ab4b67bc1cec8122c7a8193055",
+        "response_hash": "65efcacc3c489a374107484589f4f18f9042e523c50e21ac58d78626d37a5875",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "76f3beed11d1ddf4bbb19cb99a622dcad3559737854500fc397ccbe3260c3a7a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "68eb01fa69d2d345bbb1ec8a901ea7340e3a8f56982909bca83451ee534436e8",
+    "translation_sha256": "d414ecf7d7741bc83ea66444fd03910724f5dd1a8d11db24cb48ad7f10ebd2eb"
+  }
+}

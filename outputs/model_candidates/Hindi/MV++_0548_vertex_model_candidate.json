@@ -1,0 +1,273 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An unadorned, rustic terracotta clay lamp",
+          "A simple brass or metal oil lamp with a single wick"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional clay oil lamp (diya or deepak) commonly used in South Asian households for light, warmth, and ritual/devotional purposes. In this context, it represents a source of light and resilience burning against the cold wind.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "An ornate, multi-tiered temple lamp stand",
+          "A modern glass lantern or candle",
+          "A decorative Diwali-style colorful painted lamp"
+        ],
+        "preserved": true,
+        "romanization": "deepak",
+        "source_span_original": "दीपक",
+        "source_span_translation": "lamps",
+        "stanza_index": 1,
+        "term": "दीपक",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A small, shallow, handmade clay lamp (diya)",
+          "A glowing cotton wick soaked in oil or ghee",
+          "A warm, flickering golden flame"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and quiet introspection to deep emotional connection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deepening of emotional intimacy, isolation, or the quietude of night that brings people closer.",
+            "acceptable_visual_variants": [
+              "A room transitioning from dusk to deep twilight with soft shadows",
+              "Two figures sitting close together as the background landscape fades into night"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "The physical night or darkness is increasing in intensity.",
+            "literalization_risk": "Depicting a scary, ominous pitch-black void might mislead the viewer into thinking this is a horror scene rather than a quiet, intimate moment.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional intimacy and isolation",
+              "transferred_attributes": [
+                "obscuring external distractions",
+                "bringing focus to what is close"
+              ],
+              "vehicle_concept": "physical darkness"
+            },
+            "source_span_original": "अंधेरा बढ़ता है",
+            "source_span_translation": "darkness grows",
+            "source_term": "अंधेरा बढ़ता है",
+            "tenor": "The deepening of emotional intimacy, quietude, or isolation",
+            "vehicle": "The physical onset of night and darkness",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm twilight or a room gently fading into deep blue shadows, keeping the focus on the warmth of the characters."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'aur paate hain' as 'find ourselves further' loses the primary meaning of 'aur' as 'more' (finding ourselves more deeply/fully), which parallels 'aur pehchante hain' (recognize each other more) in line 2. 'Further' introduces an unintended sense of physical or emotional distance.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Every spoken word carries an unexpressed, deeper, or hidden meaning and subtext.",
+            "acceptable_visual_variants": [
+              "A speaker whose shadow on the wall appears more slumped or reflective than their physical posture",
+              "A soft-focus scene where the space between two speakers is filled with deep, quiet shadows"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Every spoken word casts a physical silhouette or shadow.",
+            "literalization_risk": "Showing literal words floating in the air with physical shadows cast on a wall behind them would look cartoonish and miss the emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "hidden subtext or unexpressed emotion",
+              "transferred_attributes": [
+                "being attached to the source",
+                "being dark or less visible",
+                "following the source everywhere"
+              ],
+              "vehicle_concept": "shadow"
+            },
+            "source_span_original": "हर बात में एक छाया होती है",
+            "source_span_translation": "Every word has a shadow",
+            "source_term": "हर बात में एक छाया होती है",
+            "tenor": "The hidden subtext, unsaid feelings, or lingering sadness behind spoken words",
+            "vehicle": "A physical shadow cast by an object",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person speaking with a soft, elongated shadow behind them that suggests a contemplative or melancholic posture, representing the unsaid."
+          },
+          {
+            "abstract_meaning": "The loss of hope, clarity, or external focus as sadness or intimacy deepens.",
+            "acceptable_visual_variants": [
+              "A close-up of eyes reflecting a very soft, dying ember or candle flame",
+              "Eyes gently closing or looking down into shadow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "The physical light reflecting or emitting from the eyes is decreasing.",
+            "literalization_risk": "Showing eyes literally glowing like lightbulbs that are being dimmed would look unnatural and bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "fading external focus or rising sadness",
+              "transferred_attributes": [
+                "loss of brightness",
+                "transition to quietness or obscurity"
+              ],
+              "vehicle_concept": "dimming light"
+            },
+            "source_span_original": "आँखों में उजाला कम",
+            "source_span_translation": "The light in our eyes wanes",
+            "source_term": "आँखों में उजाला कम",
+            "tenor": "Fading hope, sadness, or turning away from the external world toward internal feelings",
+            "vehicle": "A fading light source or dimming lamp",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the characters' eyes looking downcast, soft, or partially in shadow, reflecting a quiet, introspective mood."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'baat' as 'word' loses the broader conversational and situational nuance of the Hindi word, which means 'matter', 'thing said', 'conversation', or 'utterance', rather than just a single lexical word (which is 'shabd').",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'kam' as 'wanes' changes the grammatical structure from a simple, stark nominal/adjectival ending ('ujala kam' - light is less/diminished) to a dynamic verb, losing the quiet, abrupt rhythm of the original line.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Becoming deeply absorbed in one's inner feelings, heartbeat, and the raw sense of being alive.",
+            "acceptable_visual_variants": [
+              "A figure sitting in absolute stillness with a soft ripple effect emanating from their chest",
+              "A close-up of a hand resting over a heart in a dimly lit room"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L9",
+            "literal_meaning": "To physically wander and get lost inside the chambers of a beating heart.",
+            "literalization_risk": "Showing tiny people wandering inside a giant anatomical heart would be highly distracting and medically literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "being consumed by internal emotional rhythms",
+              "transferred_attributes": [
+                "inability to find a way out",
+                "complete absorption in the immediate surroundings"
+              ],
+              "vehicle_concept": "getting lost in a physical space"
+            },
+            "source_span_original": "धड़कनों में खो जाते हैं",
+            "source_span_translation": "lose ourselves in our heartbeats",
+            "source_term": "धड़कनों में खो जाते हैं",
+            "tenor": "Becoming intensely self-aware, introspective, or overwhelmed by internal emotions",
+            "vehicle": "Getting lost in a physical maze or forest",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on a character with their hand placed gently over their chest, eyes closed in deep concentration or peace, ignoring the surrounding world."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The deepening of human connection and self-awareness as external light fades and darkness grows."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जैसे जैसे अंधेरा बढ़ता है,\nहम एक-दूसरे को और पहचानते हैं।\nसर्द हवा में जलते हैं दीपक,\nहम अपने आप को और पाते हैं।\n\nहर बात में एक छाया होती है,\nऔर हर खामोशी में एक ग़म।\nजैसे जैसे अंधेरा बढ़ता है,\nहमारी आँखों में उजाला कम।\n\nहम अपनी धड़कनों में खो जाते हैं,\nऔर सब कुछ छिपा होता है शब्दों में।\nजैसे जैसे अंधेरा बढ़ता है,\nहम एक-दूसरे को महसूस करते हैं।",
+  "poem_id": "MV++_0548",
+  "poem_title": "Jaise Jaise Andhera Badhta",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d68be31ed418b50bd18af6862442570b1e61b00e49cfd1130e60560506b69561",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0548.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "As darkness grows,  \nWe recognize each other more.  \nIn the cold breeze, lamps burn,  \nAnd we find ourselves further.\n\nEvery word has a shadow,  \nAnd every silence holds a sorrow.  \nAs darkness grows,  \nThe light in our eyes wanes.\n\nWe lose ourselves in our heartbeats,  \nAnd everything hides in words.  \nAs darkness grows,  \nWe feel each other more.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:37:30.841051+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7507f03c4e661d30a6f08214b146903cf3326eb5e01bbdf977a1aa5c61a00580",
+        "response_hash": "4668aa6122d6baaf36d94fe4b2a8a69965d89b0d94e03cd81e2f3f6c590fae89",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "071faea4427b75398fda37cce6e45b6aae6f5de4e249ad9b99b46dd90f8a3981",
+        "response_hash": "9af94e57adbc9d723f66533553a204e04214f20cd35a2dccaa5f22173347b71c",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e954914975b4ae6698b90975a67adce3898a1774b4fce088d075331c975b289b",
+        "response_hash": "83749e8ff4073918c4558d07edbf1637841155943859262616e67903cced6d3b",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c59275aba69e47ff506a4a0c40970ade3ae3805587d7ca08d2d1535bcf4e30dd",
+        "response_hash": "4e3c6b02ffc5622229b55120c7b1aaaa759396b6d34cb32f52e49e90a5bd7f8d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6b8771a86617bde2fce1d85bc62e2ef816b8717076417f719f3e11548bf61ed0",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3ab3028c130725435bf8215c916b98065464bc73ac147bb122696917e73927ef",
+    "translation_sha256": "8520744fd8a2c6a54cf821745a14e3451d86a882183f64a6d915b6a76962675d"
+  }
+}

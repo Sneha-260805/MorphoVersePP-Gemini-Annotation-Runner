@@ -1,0 +1,228 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A stylized depiction of regional soil or landscape",
+          "An abstract representation of a community rooted in their native land"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Refers to the homeland or regional territory (naadu), which carries strong cultural, linguistic, and historical identity connotations in Kannada literature and regional pride.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic national flag or political map",
+          "A generic urban cityscape disconnected from regional soil"
+        ],
+        "preserved": true,
+        "romanization": "naadinalliye",
+        "source_span_original": "ನಾಡಿನಲ್ಲಿಯೇ",
+        "source_span_translation": "in the land",
+        "stanza_index": 1,
+        "term": "ನಾಡಿನಲ್ಲಿಯೇ",
+        "translation_note": "Translated as 'in the land', which captures the literal meaning but loses the deep regional and cultural resonance of 'naadu' (homeland/province) in Kannada identity.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A landscape representing a regional homeland or native soil",
+          "Warm, grounding tones"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "quiet belonging and resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation flattens the compound resonance of 'bennubalu' (backbone/strength) and the rhythmic flow of the Kannada original.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The journey, progression, or pursuit of one's aspirations and future goals.",
+            "acceptable_visual_variants": [
+              "A simple walking path leading through a vast landscape toward the horizon",
+              "A footprint-marked trail on natural soil under a clear sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A physical road or path made of dreams",
+            "literalization_risk": "Showing a literal road made of sleeping/dreaming faces or floating cloud-like bubbles, which looks surreal and misses the grounded sense of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey of aspirations",
+              "transferred_attributes": [
+                "direction",
+                "movement forward",
+                "destination"
+              ],
+              "vehicle_concept": "physical path"
+            },
+            "source_span_original": "ಕನಸುಗಳ ಹಾದಿ",
+            "source_span_translation": "The path of our dreams",
+            "source_term": "ಕನಸುಗಳ ಹಾದಿ",
+            "tenor": "the pursuit and progression of human aspirations",
+            "vehicle": "a physical path or road",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a winding, dusty path stretching toward a bright horizon, symbolizing a journey of hope and future goals."
+          },
+          {
+            "abstract_meaning": "The core support, strength, or foundation that sustains life and existence.",
+            "acceptable_visual_variants": [
+              "Deep, strong roots of a tree anchoring firmly into the earth",
+              "A sturdy, upright pillar or foundation supporting a structure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The physical spine or backbone of life",
+            "literalization_risk": "Depicting an anatomical human spine or skeletal backbone floating in the air, which would look macabre or clinical.",
+            "metaphor_mapping": {
+              "tenor_concept": "fundamental support system",
+              "transferred_attributes": [
+                "structural support",
+                "strength",
+                "uprightness"
+              ],
+              "vehicle_concept": "backbone"
+            },
+            "source_span_original": "ಜೀವದ ಬೆನ್ನುಬಲು",
+            "source_span_translation": "The backbone of our lives",
+            "source_term": "ಜೀವದ ಬೆನ್ನುಬಲು",
+            "tenor": "the fundamental strength and support system of existence",
+            "vehicle": "a physical backbone (spine)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent structural strength and support through natural or architectural elements, such as deep roots of a tree or a strong pillar, or focus on the human element of standing tall and resilient."
+          },
+          {
+            "abstract_meaning": "Under the protection, shelter, and nurturing care of the homeland or earth.",
+            "acceptable_visual_variants": [
+              "A large, leafy tree casting a wide shadow over fertile soil",
+              "A soft, protective light or gentle shade covering a peaceful landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "In the physical shadow cast by the dirt or soil",
+            "literalization_risk": "Depicting a literal dark shadow cast by a pile of dirt or soil, which fails to convey the warmth, protection, and nurturing quality of a homeland.",
+            "metaphor_mapping": {
+              "tenor_concept": "protection and shelter",
+              "transferred_attributes": [
+                "coolness",
+                "protection from harsh elements",
+                "comfort"
+              ],
+              "vehicle_concept": "shade"
+            },
+            "source_span_original": "ನೆಲದ ನೆರಳಲ್ಲಿ",
+            "source_span_translation": "In the shade of this soil",
+            "source_term": "ನೆಲದ ನೆರಳಲ್ಲಿ",
+            "tenor": "the protective and nurturing shelter provided by one's native land",
+            "vehicle": "the shade or shadow cast by an object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a vast, welcoming landscape with a canopy (like a large tree growing from the soil) casting a gentle, protective shade over the ground where people gather."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The emphatic suffix '-iye' in 'naadinalliye' (meaning 'in this very land' or 'only in this land') is lost, flattening the emphasis to a simple 'in the land'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The spelling 'bennubalu' is a colloquial or slightly altered form of 'bennubala' (backbone/support), which carries a regional, spoken texture that is rendered as a standard English noun.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The deep, grounding connection between a people, their dreams, and their native soil."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ನಾಡಿನಲ್ಲಿಯೇ ನಾವು,  \nನಮ್ಮ ಕನಸುಗಳ ಹಾದಿ,  \nನಮ್ಮ ಜೀವದ ಬೆನ್ನುಬಲು,  \nಈ ನೆಲದ ನೆರಳಲ್ಲಿ.",
+  "poem_id": "MV++_1034",
+  "poem_title": "Naadinalli Naavella",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1bdc3875e0ec0be0c07002bec14c73fc6cb22bbe205a33268d014827ab1c3cd6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1034.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "We are all in the land,  \nThe path of our dreams,  \nThe backbone of our lives,  \nIn the shade of this soil.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:49:29.389681+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49cb808ba868055abcfe379c139d45d9d3cd016bb27bc4e6a97c8cd36d8e5ef6",
+        "response_hash": "6c4fac46ceec0bd51f3af1536a52a54f503d0b107260b61033b32f1cb8fae638"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "784c02f429f2adabb1330bd3530162de652cd323664bbfae1cd294870fb58601",
+        "response_hash": "831409f614542d25f19cf03071fe0b03ddd04e94ae6bdad9075e5910d8b03efa",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1007efa83bd2b716edd8ecb2a4adc613cd2cf21c25cea03dea1a0cb1f0144b25",
+        "response_hash": "a2afa84ad4cb3bc010701bdb22e9f03acaa0b13ff5179271a338e348f3d3369e",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db041c5e648464d57f6fd7e0b3cee456adcbea0bcbca11acb7daabe5f35ee9d0",
+        "response_hash": "6ac92e8e20e1019bb60938014fa8ea8df96ccdfb4e00e6f0954751d42dd7a1ff",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fd08c34ebcdc0730689e16db0b363aa1cc48ab4872ce6ec23c74074bd8b7e4b5",
+        "response_hash": "05ff391e2342fcb16fd231515565daa370cb4518cf99961f0bbede1b2ee45a89",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "49cbee67285b178b620d15b976ac281cb5f35891ef505baf14aaf23f3ab5dbae",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "febffc7b744de819dd6135bca91729982c6bb686cbd00b6219c7c454a56389b8",
+    "translation_sha256": "ecd461f25b862efa5b373cf00ad4373518bebc91268d6d772149a0e296b47842"
+  }
+}

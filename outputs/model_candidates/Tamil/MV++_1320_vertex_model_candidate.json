@@ -1,0 +1,186 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet realization of love and connection through the gaze of the eyes.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The bright, illuminating, and expressive quality of a person's eyes or gaze.",
+            "acceptable_visual_variants": [
+              "A soft golden glow radiating from a person's eyes",
+              "A reflection of a tiny flame or warm light source in the iris of the eyes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "The lamp of the eyes",
+            "literalization_risk": "Drawing a literal oil lamp or flame physically inside or on top of a pair of human eyes, which would look bizarre or like a medical injury.",
+            "metaphor_mapping": {
+              "tenor_concept": "eyes / gaze",
+              "transferred_attributes": [
+                "brightness",
+                "illumination",
+                "warmth",
+                "guidance"
+              ],
+              "vehicle_concept": "lamp / light"
+            },
+            "source_span_original": "கங்கல்களின் தீபம்",
+            "source_span_translation": "The light of the eyes",
+            "source_term": "கங்கல்களின் தீபம்",
+            "tenor": "the eyes / gaze (கண்கள்)",
+            "vehicle": "a lamp / light (தீபம்)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of expressive, warm eyes with a soft, glowing light reflecting in the pupils, suggesting an inner warmth or lamp-like glow without drawing a physical lamp."
+          },
+          {
+            "abstract_meaning": "The loving gaze or connection between two people is actively playing, moving, or manifesting in the space between them.",
+            "acceptable_visual_variants": [
+              "A subtle, shimmering path of light connecting the eyes of two figures facing each other",
+              "Two figures in profile with soft, warm light filling the physical gap between their faces"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3-L4",
+            "literal_meaning": "The gaze of love acts/plays in the middle",
+            "literalization_risk": "Depicting a literal theatrical actor or a tiny person physically dancing or performing on a stage in the air between two people's faces.",
+            "metaphor_mapping": {
+              "tenor_concept": "loving gaze / visual connection",
+              "transferred_attributes": [
+                "activity",
+                "playfulness",
+                "movement",
+                "visible presence"
+              ],
+              "vehicle_concept": "playful actor / performer"
+            },
+            "source_span_original": "அன்பின் பார்வை,  \nஇடையிலே நடிக்கிறது!",
+            "source_span_translation": "The gaze of my love,  \nPlays in between!",
+            "source_term": "அன்பின் பார்வை,  \nஇடையிலே நடிக்கிறது!",
+            "tenor": "the loving gaze or visual connection between two lovers",
+            "vehicle": "an actor or playful entity performing/playing",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two people looking at each other with soft, visible beams of warm light or shimmering particles connecting their eyes across the empty space between them."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'கங்கல்களின்' (kangalgalin) as 'of the eyes' loses the specific poetic spelling/wordplay or potential dialectal variation of 'கண்கள்' (eyes) combined with 'கங்குல்' (darkness/night), which creates a rich double meaning of 'lamp of the dark night' and 'lamp of the eyes'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil verb 'நடிக்கிறது' (nadikkirathu) literally means 'acts' or 'performs' (as in a play/drama), which is translated as 'plays'. This loses the theatrical nuance of a performance or playful acting in the gaze.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The silent, illuminating connection between lovers through their gaze."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation quality is marked as 'faithful', but the stanza contains a 'translation_loss' array with two entries, including one of 'high' severity. A 'faithful' rating is inconsistent with high-severity translation loss. The rating should be 'partial' if significant poetic wordplay or double meanings are lost.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[0].metaphor_spans[1].source_span_original",
+      "issue": "The source_span_original contains a literal newline character ('\\n') and extra spaces, which does not match the exact verbatim substring of the original poem block. It should be 'அன்பின் பார்வை,  \\nஇடையிலே நடிக்கிறது!' or match the exact spacing of the original lines L3-L4.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கங்கல்களின் தீபம்,  \nஉன் உள்ளத்தில் விளக்கும்,  \nஎன் அன்பின் பார்வை,  \nஇடையிலே நடிக்கிறது!",
+  "poem_id": "MV++_1320",
+  "poem_title": "Kangal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "fb01f0641c473726daa11e4307e50356ebfe9c75d1322bdc448e724e00eccf84",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1320.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The light of the eyes,  \nShines within you,  \nThe gaze of my love,  \nPlays in between!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:21:07.529804+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c46a7a932af496993ae3f0ae75a1ee55c292c3abbe644850e3f68bde0ff7ce1a",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "07282b351596d76189bc1d8e14c67d405a7099c05c81c4d19fb18061c3141c87",
+        "response_hash": "9b09843c0f7303f108fdb890c33cb9b0b0986cc57b1e7f053a2e4a8d38f1936e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ebce9f6e5d258e06b61735b76687e5b23ff692981f8e186fce646e07d4313a5a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "959e9a3397c84c892c859a15d178e7b70d80ffd3a420e17b2e86d99444dcd7c2",
+        "response_hash": "c99f6cdedad666dbed7de35d9df2e84b9d2bc707a6c9e44b701b6f056eb288b0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "116acd1028c84fd98cf5c4183d68eca77f86d0ca26a38f5544b5b1693571ca3f",
+        "response_hash": "b3ce189153fc42b535b5d9d11be9344e38f7dfda738697bad6472fc68c1638c1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ebaa816d2e1928d817676d3b6b6e8746281c447b1f3c110786753527607883e7",
+        "response_hash": "c36149082cb16f75ff32c37ab188ad7818824413a13596a69630d1dbda153721",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f314873d7ca03f8c50ea33d8c3a351657f24520e4c1e85c8077ad247366bdda6",
+    "translation_sha256": "4f0bd45703757143396a81ca51a31da3c2793f3a441a76bf4edae73434e80f93"
+  }
+}

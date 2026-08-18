@@ -1,0 +1,202 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A modern Tamil youth in contemporary clothing",
+          "A youth in classical Tamil attire"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Literally 'Tamil son' or 'Tamil youth/prince', a culturally resonant term of endearment and identity celebrating Tamil heritage and linguistic pride.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "An generic North Indian royal prince with a heavy crown and Mughal-style sherwani",
+          "A generic Western prince"
+        ],
+        "preserved": true,
+        "romanization": "Tamil magan",
+        "source_span_original": "தமிழ் மகன்",
+        "source_span_translation": "Tamil prince",
+        "stanza_index": 1,
+        "term": "தமிழ் மகன்",
+        "translation_note": "Translated as 'Tamil prince', which captures the literal meaning of 'magan' (son/prince) in this cultural context of addressing a beloved youth.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A young man of South Indian/Tamil heritage",
+          "traditional attire such as a veshti (dhoti)"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A declaration of love and admiration that moves from praising the beloved's speech to expressing the speaker's inner emotional response.",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'magan' as 'prince' captures the elevated status but loses the literal meaning of 'son' or 'young man' which carries a specific cultural warmth in Tamil. Additionally, the agglutinative suffix in 'peechil' (in speech) and 'idhayathin' (of the heart) are flattened into standard English prepositions.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's speech is sweet, pleasing, and carries a beautiful, lingering quality.",
+            "acceptable_visual_variants": [
+              "A close-up of a speaker with delicate jasmine petals drifting gently around them to symbolize the sweet fragrance of their words",
+              "A warm, soft glow emanating from the speaker's lips to represent the beauty and warmth of their speech"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "There is a physical scent or fragrance in your speech",
+            "literalization_risk": "Depicting physical scent clouds or perfume bottles coming out of a person's mouth while speaking would look comical and miss the emotional sweetness of the words.",
+            "metaphor_mapping": {
+              "tenor_concept": "auditory and emotional sweetness of speech",
+              "transferred_attributes": [
+                "sweetness",
+                "pleasantness",
+                "lingering quality",
+                "delightfulness"
+              ],
+              "vehicle_concept": "olfactory fragrance"
+            },
+            "source_span_original": "உன் பேச்சில் மணம்",
+            "source_span_translation": "Fragrance in your words",
+            "source_term": "உன் பேச்சில் மணம்",
+            "tenor": "the beauty and sweetness of the beloved's spoken words",
+            "vehicle": "fragrance / sweet scent",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person speaking with subtle, elegant visual cues of beauty, such as soft, floating flower petals or gentle light surrounding the speaker to suggest the pleasing, lingering nature of their words."
+          },
+          {
+            "abstract_meaning": "The speaker's deepest, most sincere inner feelings and emotions.",
+            "acceptable_visual_variants": [
+              "A person with a hand placed over their chest, looking tenderly toward the beloved to show sincere emotional expression",
+              "A soft, glowing light centered in the chest area of a person to represent the inner voice of the heart"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the physical voice of my anatomical heart",
+            "literalization_risk": "Showing a literal heart with a mouth or vocal cords speaking would be grotesque and medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "innermost emotional feelings",
+              "transferred_attributes": [
+                "expression",
+                "sincerity",
+                "direct communication of truth"
+              ],
+              "vehicle_concept": "vocal speech"
+            },
+            "source_span_original": "என் இதயத்தின் குரலில்",
+            "source_span_translation": "In the voice of my heart",
+            "source_term": "என் இதயத்தின் குரலில்",
+            "tenor": "the speaker's inner emotional truth and deep feelings of love",
+            "vehicle": "a speaking voice",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the expressive, emotional posture of the speaker, perhaps showing a hand placed gently over the chest/heart to visually ground the source of the emotion."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'மகன்' (magan) literally means 'son' or 'boy/man', but is translated here as 'prince' (which would more specifically be 'இளவரசன்' or 'mannan magan'). This elevates the register and introduces a royal connotation not explicitly present in the original Tamil word.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The locative case suffix '-இல்' in 'பேச்சில்' (peechil - in speech) and 'குரலில்' (kuralil - in voice) is translated as simple prepositions, losing the tight agglutinative fusion of the Tamil noun and its spatial/locational marker.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sensory and emotional awakening of love inspired by the speech and presence of a beloved."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "அழகிய தமிழ் மகன்,  \nஉன் பேச்சில் மணம்,  \nஎன் இதயத்தின் குரலில்,  \nகாதல் என வரும்!",
+  "poem_id": "MV++_1362",
+  "poem_title": "Azhagiya Tamil Magan",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "148968ba21d545f740e35202bbe2d2c8366e6dd309916158aa657adbcddbaed8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1362.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Beautiful Tamil prince,  \nFragrance in your words,  \nIn the voice of my heart,  \nLove comes forth!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:25:48.779985+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "80dfb14ca8e326cb1c7c54cc9c12f64415e37c6922a2414ad50088b3effa723e",
+        "response_hash": "8b9dfbcbf879fc8bf8120ca1988c36bc3701b73d85de862a8559e4b3d417dbd9"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "777b01ba403dcda3c34cdab07c25b718e1212687efaf38a8df83e586a192f8f8",
+        "response_hash": "b3c5aff8605deb7b7d3f4d6b064ff8f77d643a1e0878b4bb911b827ceefec0ca",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7f48fcdeed69e9331bae52123d346b6110b65a00f6ff4446cc60b4c531a4f6bc",
+        "response_hash": "9a4d5b093240a3110a51d24a510d8afd2e9cc3bc4fb4a5e7bdce865e700bd5d0",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "821402bb34e6e30f7fa10cdf45b49d85f1048db1e7121fc60487327e14886fe6",
+        "response_hash": "9f151983f41091158d292f23fc0c65262a8cec3b68f0f8c7c80f59aba606a3ed",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "76662438b7276d1340cb91be2dda9a7d1c7c60ba178d66d47cbd4d199b1f0783",
+        "response_hash": "29f5809a4bd01bccb9c22a61d22ea12301c9191b2de37c3e7a0ba84d8d448fcb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1d0faa629f06341f8896b884f25e966910ffadbb3d7b176b841033cd68bb9069",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "08d84d7f2e89c7cb0813b85e94783653f71dc6aeb2f3bc02159533b236ad2d74",
+    "translation_sha256": "ef7d37913d0d1f61b5762866f24f9b94ac81d369dcbe65fdf5ee1cb0703072e3"
+  }
+}

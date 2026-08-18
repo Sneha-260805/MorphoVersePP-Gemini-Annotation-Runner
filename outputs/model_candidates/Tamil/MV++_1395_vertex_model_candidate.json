@@ -1,0 +1,141 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to tenderness",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning, but the specific Tamil term 'mazhalai' carries a deep, culturally resonant connotation of a child's innocent, sweet, lisping speech and grace which is simplified to 'child's grace' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's deep, emotional, and sincere love",
+            "acceptable_visual_variants": [
+              "A person looking tenderly towards a child's play area",
+              "A soft, warm glow surrounding a reflective figure"
+            ],
+            "expression_type": "metonymy",
+            "line_ref": "L3",
+            "literal_meaning": "The love belonging to the physical organ of the heart",
+            "literalization_risk": "Depicting a literal anatomical heart with love radiating from it would look clinical or cartoonish rather than romantic and emotional.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional center of love",
+              "transferred_attributes": [
+                "depth",
+                "sincerity",
+                "vitality"
+              ],
+              "vehicle_concept": "heart as a physical container"
+            },
+            "source_span_original": "இதயத்தின் காதல்",
+            "source_span_translation": "love of my heart",
+            "source_term": "இதயத்தின் காதல்",
+            "tenor": "The speaker's emotional capacity and deep affection",
+            "vehicle": "The physical heart as the container or generator of emotion",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on a warm, soft-focus scene of a person in deep contemplation or looking towards a child, conveying affection through expression and lighting rather than anatomical symbols."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil word 'மழலை' (mazhalai) specifically denotes the sweet, lisping, or innocent babble of an infant or young child, which carries deep cultural and emotional resonance in Tamil poetry. The English translation 'child's grace' flattens this specific sensory and linguistic nuance into a generic concept of childhood beauty.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding the enduring beauty of a past love reflected in the innocence of a child"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "காதலின் கன்னி,  \nஉன் நினைவில் வாழ்ந்தேன்,  \nஎன் இதயத்தின் காதல்,  \nமழலையின் அழகில் தேடுகின்றேன்!",
+  "poem_id": "MV++_1395",
+  "poem_title": "Kaadhalin Kanni",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "744cf5978fa3ab9a390620197203afef4cbea1b323e25d0b2f6f313ccf24b440",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1395.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The maiden of love,  \nI lived in your memory,  \nThe love of my heart,  \nSeeks beauty in the child's grace!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:29:11.272585+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9d35afd916b9d20f7b34f077710c65b1314546eb1ab5bb50fcc348499ca482f4",
+        "response_hash": "a4e55f9295e01b48ee687e8293fd398f44f79e138f20ad2ab4fdf656e06614a5"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3acfdd946e9d10a6f6a1b2f584735f24486e6824ab3a62e86d422b3f438c4bb9",
+        "response_hash": "993b1f14312522b17418b667f5dae2ddc19fbccbf496fe2851f9b066bfe624a6",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "46bf2922b9a10475ce6e7dd6790fd2b846dfc2cdad60355b7da910d1e91546ea",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b1dc7720a64c7275c8ceec359d762f8b4597de3bb7946667b72f0bc4eeb72ba",
+        "response_hash": "a2509fcf261c71186a50d3b4a1859646604321b09e931fe1117b399abb50ab21",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1bb4f0049d8d3df6eda6f0498fc82ac77778b669af2dc23b0a161780e63b9f61",
+        "response_hash": "98b76b9b600995de31d5d908095c611223f5ad941a9faf85814626aad18bbaff",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4bf28a337e7b5f80e248528babab898f62154e2a2498c9502106297cf2e25e36",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c958fd6c18e8194df217b522834fe38d6fef50bbd94f6e2c49e6d8329ba743bd",
+    "translation_sha256": "bc8debbef4644a03aad7f223b9712b3f3dbc0df54e8af024832484a0bab5d120"
+  }
+}

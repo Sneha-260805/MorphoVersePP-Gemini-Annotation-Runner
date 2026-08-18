@@ -1,0 +1,227 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional threshold of a home decorated with kolam/rangoli representing Krishna's entrance",
+          "A subtle divine silhouette or symbolic representation of Krishna near a doorway"
+        ],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Referring to Kannan, a popular Tamil name and form of the Hindu deity Krishna.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic modern doorway without any traditional Indian or devotional markers",
+          "An incorrect deity representation such as Shiva or Ganesha"
+        ],
+        "preserved": true,
+        "romanization": "Kannanin",
+        "source_span_original": "கண்ணனின்",
+        "source_span_translation": "Krishna",
+        "stanza_index": 1,
+        "term": "கண்ணனின்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Depicted as a divine figure, often associated with a flute, peacock feather, or blue skin tone, though here specifically referenced in the context of his threshold or entrance."
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Freshly harvested sheaves of golden rice paddy",
+          "A small heap of unhusked red/golden rice grains on a traditional metal or clay plate"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Red rice or high-quality golden paddy, a traditional agricultural symbol of fertility, prosperity, and auspiciousness in Tamil culture.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "Processed white rice grains",
+          "Wheat or other non-rice cereal crops"
+        ],
+        "preserved": true,
+        "romanization": "sennel",
+        "source_span_original": "செந்நெல்",
+        "source_span_translation": "golden paddy",
+        "stanza_index": 1,
+        "term": "செந்நெல்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Stalks of ripe, golden-hued paddy or red-husked rice grains, symbolizing agricultural abundance."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "devotional wonder and love",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders 'செந்நெல்' (red/rich paddy) as 'golden paddy' to match the context of 'பொன் நிறம்' (gold color), slightly shifting the specific agricultural imagery of red paddy.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The golden hue in the speaker's eyes is compared to the rich, golden color of harvested red paddy, symbolizing warmth, abundance, and beauty.",
+            "acceptable_visual_variants": [
+              "A close-up of eyes reflecting a warm golden sunset over a field of ripe paddy",
+              "A split composition showing golden rice stalks on one side and a warm, glowing gaze on the other"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "Like your red/golden paddy",
+            "literalization_risk": "An illustrator might draw actual stalks of rice growing out of or placed directly over a person's eyes, which would look bizarre and medical rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "golden hue in eyes",
+              "transferred_attributes": [
+                "golden color",
+                "warmth",
+                "preciousness"
+              ],
+              "vehicle_concept": "golden paddy"
+            },
+            "source_span_original": "உன் செந்நெல் போல",
+            "source_span_translation": "Like your golden paddy",
+            "source_term": "உன் செந்நெல் போல",
+            "tenor": "the golden hue in the speaker's eyes (பொன் நிறம்)",
+            "vehicle": "golden paddy (செந்நெல்)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, golden light reflecting in a person's eyes, with a soft, semi-transparent overlay or background of a golden paddy field swaying in the sun."
+          },
+          {
+            "abstract_meaning": "The growing feeling of love matures and ripens into a sweet, fulfilling state, much like a flower or bud turning into a ripe fruit.",
+            "acceptable_visual_variants": [
+              "A hand holding a ripe, glowing golden fruit representing fulfillment",
+              "A branch bearing both a fresh blossom and a ripe, sweet fruit under a warm light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Becomes the fruit of love",
+            "literalization_risk": "Drawing a literal piece of fruit with the word 'love' written on it, or a heart-shaped fruit hanging from a tree, which can look childish or cliché.",
+            "metaphor_mapping": {
+              "tenor_concept": "matured love",
+              "transferred_attributes": [
+                "sweetness",
+                "ripeness",
+                "fulfillment",
+                "growth"
+              ],
+              "vehicle_concept": "ripe fruit"
+            },
+            "source_span_original": "காதலின் கனி ஆகின்றது",
+            "source_span_translation": "Becomes the fruit of love",
+            "source_term": "காதலின் கனி ஆகின்றது",
+            "tenor": "love (காதல்)",
+            "vehicle": "fruit (கனி)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a blossoming flower transitioning into a glowing, ripe fruit on a branch, or use warm, rich colors that evoke the sweetness and maturity of a harvest."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and agricultural nuance of 'செந்நெல்' (red/rich paddy) is translated as 'golden paddy', losing the literal color distinction and its traditional association with fertility and prosperity in Tamil landscapes.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The wordplay and phonetic resonance between 'கண்ணனின்' (Kannanin / Krishna's) in L1 and 'கண்ணில்' (kannil / in the eye) in L3 is lost in English translation ('Krishna' vs 'eyes').",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative vision of the divine presence, where the golden hue of paddy and the threshold of Krishna ripen into the fruit of love."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கண்ணனின் வாசல்,  \nஉன் செந்நெல் போல,  \nஎன் கண்ணில் பொன் நிறம்,  \nகாதலின் கனி ஆகின்றது!",
+  "poem_id": "MV++_1425",
+  "poem_title": "Kannanin Vaasal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cdbaa7fcb5efb96691178bb13c4c532702ade011216acc35d99e8fda352f6c2a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1425.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The entrance of Krishna,  \nLike your golden paddy,  \nIn my eyes, the hue of gold,  \nBecomes the fruit of love!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:32:18.166785+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1c62b58cc11901d3ef25c15791bba58dc5bc66c77e31f68d886e8fc407217277",
+        "response_hash": "6ade6d37bd63dd890e95209cf2d0e587801430e430bd7b4ffc6a2e6b0f7025ae"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cd401856ee6c3f5d55f23c35c937268a6453ae93ff306ae1af3ca7588da69e12",
+        "response_hash": "f865126cb3d2e03268b0ea2f67140e06377e5ccc04a477e18acbfbbc8700d587",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df7b95e7699360def15ecac9417d3fc406a1199b241b52dd6e80ffebe2e6aa33",
+        "response_hash": "29ebce497953194ef6d479a6875bf94a839bb4e24d2f4bfd11560fbc084611eb",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4234ac33009f0bf556200401bc4eef8bb63eb4c034502574455193393e93fc29",
+        "response_hash": "751004627efd883c94c652a8fc729e083d20da90b351dbafe1113196c42629c7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7dcb5296b31cd6ab14705fc2ce950fb9585ac31be144ff6d355cca3238a77406",
+        "response_hash": "ac210e8b7e12fc908b8c459627c373b32d97b04e34f80d7f846b8c962eb005cf",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3fe5a2da6f2d3ccb20f758d8b84ee399f0afdea69ceb016fb9d66bf35d3aa24a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4144bb5f37efbddb31d23802c6e6a19a2bce750d089c14bfaf97563af38339c8",
+    "translation_sha256": "4e09d35ef0d67e032d1a2d2cfcd5ccec6e4a976e102533d0d9a0b7e0938bb4f3"
+  }
+}

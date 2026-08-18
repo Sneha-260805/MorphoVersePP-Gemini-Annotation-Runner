@@ -1,0 +1,216 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple ceramic cup of milk tea on a table.",
+          "A traditional small glass tumbler of street-style cutting chai."
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Chai (spiced milk tea), which in South Asian culture represents a deeply ingrained daily social ritual of sharing quiet moments, conversation, and hospitality, especially in the evening.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "A formal British high-tea set with a porcelain teapot and lemon slices.",
+          "A cup of clear green tea or black tea without milk."
+        ],
+        "preserved": true,
+        "romanization": "chai",
+        "source_span_original": "चाय",
+        "source_span_translation": "tea",
+        "stanza_index": 2,
+        "term": "चाय",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A steaming cup of milk tea (chai) in a traditional clay cup (kulhad) or a simple glass tumbler.",
+          "Warm steam rising from the cup in an evening setting."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A poignant movement of grief and longing, reflecting on a lost companion and the emptiness left behind.",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The joy, vitality, and emotional richness of the speaker's life.",
+            "acceptable_visual_variants": [
+              "A warm, brightly lit room filled with personal mementos and soft, cheerful lighting",
+              "A vibrant, sunlit outdoor path where two people are walking together"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Every physical color of my life",
+            "literalization_risk": "An illustrator might literally paint physical rainbow colors or paint splatters on a person, which misses the emotional depth of shared joy.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional vitality",
+              "transferred_attributes": [
+                "vibrancy",
+                "variety",
+                "beauty"
+              ],
+              "vehicle_concept": "colors"
+            },
+            "source_span_original": "मेरे जीवन का हर रंग",
+            "source_span_translation": "Every color of my life",
+            "source_term": "मेरे जीवन का हर रंग",
+            "tenor": "joy, vitality, and emotional richness",
+            "vehicle": "colors (vibrant hues)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, vibrant scene of shared laughter or a bright, lively atmosphere contrasting with a duller background to symbolize emotional color."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the habitual aspect and gendered nuance of 'चला करता था' (chala karta tha), which explicitly marks the speaker as male in Hindi, whereas the English 'used to walk' is gender-neutral.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved person made the speaker's life beautiful, complete, and meaningful.",
+            "acceptable_visual_variants": [
+              "A cozy room with two tea cups and warm light, suggesting a beautifully shared life",
+              "A gentle, harmonious landscape that feels complete and peaceful"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "By whom my physical world was decorated/adorned",
+            "literalization_risk": "An illustrator might draw physical ornaments, garlands, or decorations hanging in the air, which literalizes 'adorned' in a tacky or festive way.",
+            "metaphor_mapping": {
+              "tenor_concept": "enriching life emotionally",
+              "transferred_attributes": [
+                "beauty",
+                "completeness",
+                "care"
+              ],
+              "vehicle_concept": "decorating/adorning"
+            },
+            "source_span_original": "जिससे सजी थी मेरी दुनिया",
+            "source_span_translation": "With whom my world was adorned",
+            "source_term": "जिससे सजी थी मेरी दुनिया",
+            "tenor": "making life beautiful and emotionally complete",
+            "vehicle": "decorating or adorning a physical space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a cozy, beautifully arranged living space that feels warm and lived-in, symbolizing a life made beautiful by a shared presence."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'हर शाम की चाय' (har shaam ki chaay) as 'Evening tea' omits the word 'हर' (every), which emphasizes the daily, repetitive nature of their shared routine.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound sense of loss and emptiness experienced after the departure of a beloved companion who gave color and meaning to daily life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a translation_loss item is present for this stanza. When translation_loss is populated, translation_quality should typically reflect this or the loss_note should not be empty.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a translation_loss item is present for this stanza. When translation_loss is populated, translation_quality should typically reflect this or the loss_note should not be empty.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कहाँ गई वो,  \nजिसके साथ मैं चला करता था।  \nउसकी हंसी में छुपा था,  \nमेरे जीवन का हर रंग।  \n\nहर शाम की चाय,  \nउसकी बातें, उसके सपने।  \nकहाँ गई वो,  \nजिससे सजी थी मेरी दुनिया।",
+  "poem_id": "MV++_0869",
+  "poem_title": "Kahan Gayi Woh",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "dfeb0a7d6037384e4e213d1d78f28cb781f1297d6384d0bffe20bc919e763557",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0869.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Where did she go,  \nWith whom I used to walk.  \nIn her laughter was hidden,  \nEvery color of my life.  \n\nEvening tea,  \nHer talks, her dreams.  \nWhere did she go,  \nWith whom my world was adorned.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:22:59.532096+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "faec74953c06b2581958684732e2a64df119afd1c9b59c2c82717068dcdc4277",
+        "response_hash": "a8048ec8d0198e5a90f6b58cf6a7ed79f216e662a86d81a608cbb6d40c468788",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a1098648e352942ea1632d6fc3e3bfa147c4a282d5b6ad47bed49c5f04ae64c8",
+        "response_hash": "7d38560758084860a1ef886cbf643f31f9d89c66f8319f9c67e55056c8e611b1",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ea1fb30754c4393dea3cc98ecc55c635b41216c527b2621627b7c54b1b09f086",
+        "response_hash": "d5cc23d6e0c352d0fc05d85f0bfb2448f588915469d7b4e88601c2c4c5974281",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4287dbbf005a27e2d2c53383cb043e6db2ec3c86a45f110f8e88a873259dfbc3",
+        "response_hash": "06a385298ca23a3ef57b1d500a16bce46603669d3b27082cf0866789998bf6b8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ed24320d2a81781128420925b062dc23a9d58678c0a8bd1d19aba2435aa4298c",
+        "response_hash": "0d41764b62519ec5db409c999a5627d8834b9f6bcab5facc010b736b9ded6de7",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1f7984ff8609cae3f97b718afa1f67a5cb0a1e196daf738927b0ef6493d4cf8e",
+    "translation_sha256": "1deb3d98c9ce509c9af27b4b3ba9e013cb4f93987cfd0071672e03211d433eb0"
+  }
+}

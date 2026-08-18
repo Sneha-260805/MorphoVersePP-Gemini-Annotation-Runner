@@ -1,0 +1,344 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A majestic river flowing down from high mountains into plains",
+          "A close-up of clear, shimmering river waves reflecting sunlight"
+        ],
+        "category": "SACRED_RIVER",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Ganges (Ganga), a major river of the Indian subcontinent, deeply revered as a sacred, living goddess in Hindu tradition, symbolizing purity, cleansing, and spiritual liberation. Here, the speaker personifies themselves as its wave.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic ocean wave or tropical beach scene",
+          "A highly commercialized modern canal or concrete-banked river"
+        ],
+        "preserved": true,
+        "romanization": "Ganga",
+        "source_span_original": "गंगा",
+        "source_span_translation": "Ganga",
+        "stanza_index": 1,
+        "term": "गंगा",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A wide, flowing river",
+          "Gentle waves or ripples on the water surface",
+          "Surrounding landscape of mountains or plains"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "peaceful self-realization and connection to the world",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'rang' as 'color' misses the deeper Hindi nuance of 'mood', 'state of mind', or 'spiritual absorption' in 'apne hi rang mein'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker identifies themselves with the free-flowing, pure, and dynamic nature of a river wave, representing a state of natural flow and spiritual freedom.",
+            "acceptable_visual_variants": [
+              "A wide shot of the sparkling Ganges river with a single prominent wave cresting gracefully",
+              "A stylized, flowing blue and silver wave pattern that mirrors the form of a peaceful human figure"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "I am a wave of the river Ganges",
+            "literalization_risk": "Showing a literal human body transforming into water or a literal wave with a human face, which looks cartoonish or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "human soul or self",
+              "transferred_attributes": [
+                "flowing freely",
+                "purity",
+                "constant movement",
+                "independence"
+              ],
+              "vehicle_concept": "river wave"
+            },
+            "source_span_original": "मैं गंगा की मौज हूँ",
+            "source_span_translation": "I am the wave of the Ganga",
+            "source_term": "मैं गंगा की मौज हूँ",
+            "tenor": "The speaker's inner self or soul",
+            "vehicle": "A wave of the sacred river Ganga",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, flowing river with prominent, graceful waves reflecting light, subtly blending into a silhouette or presence of a contemplative figure."
+          },
+          {
+            "abstract_meaning": "The boundary or limit of one's imagination, desires, or passive dreams that one must leave behind to flow into reality.",
+            "acceptable_visual_variants": [
+              "A soft, glowing, semi-transparent riverbank that looks like it is woven from starlight or mist",
+              "A shoreline dissolving into soft ripples as the main current sweeps forward"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The riverbank made of dreams",
+            "literalization_risk": "Drawing a literal sandy beach with sleeping faces or literal clouds of dreams, which can look overly literal and childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "boundaries of dreams",
+              "transferred_attributes": [
+                "containment",
+                "starting point",
+                "static nature"
+              ],
+              "vehicle_concept": "riverbank"
+            },
+            "source_span_original": "सपनों का तट",
+            "source_span_translation": "the shore of dreams",
+            "source_term": "सपनों का तट",
+            "tenor": "The realm of passive dreams or illusions",
+            "vehicle": "A riverbank or shore",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a misty, ethereal shoreline that gradually fades away as the water flows past it towards a vast horizon."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'rang' (रंग) carries a double meaning of 'color' and 'mood/style/ecstasy' in Hindi, which is flattened to just 'color' in the English translation.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The feminine grammatical gender of the speaker, established by the verb endings 'bahati' (बहती) and 'milti' (मिलती), is lost in the gender-neutral English translation.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation of 'nirmal' as 'pure' is accurate, but loses the specific connotation of being free from dirt, blemish, or malice (mal).",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deep, harmonious, and soothing feeling of inner peace.",
+            "acceptable_visual_variants": [
+              "Gentle, rhythmic ripples spreading across a calm water surface under soft light",
+              "A soft, golden haze or aura vibrating gently around a central point of calm"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "The musical composition of peace",
+            "literalization_risk": "Drawing literal musical notes floating in the air, which is a cliché and detracts from the spiritual tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "peace",
+              "transferred_attributes": [
+                "harmony",
+                "soothing quality",
+                "rhythm",
+                "pervasiveness"
+              ],
+              "vehicle_concept": "music"
+            },
+            "source_span_original": "शांति का संगीत",
+            "source_span_translation": "the music of peace",
+            "source_term": "शांति का संगीत",
+            "tenor": "Peace or tranquility",
+            "vehicle": "Music",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use visual elements that suggest harmony and gentle vibration, such as soft concentric ripples on water or light filtering through leaves."
+          },
+          {
+            "abstract_meaning": "An intuitive inner guidance or truth that becomes clear only when external noise is silenced.",
+            "acceptable_visual_variants": [
+              "A single glowing drop falling into a dark, perfectly still pool of water, creating a single clean ripple",
+              "A soft, warm light emanating from a deep, dark space, suggesting a quiet presence"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A spoken voice residing inside physical silence",
+            "literalization_risk": "Depicting a literal mouth opening in a dark, empty space, which looks surreal or frightening.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner truth",
+              "transferred_attributes": [
+                "communicative power",
+                "clarity",
+                "presence"
+              ],
+              "vehicle_concept": "voice"
+            },
+            "source_span_original": "मौन में बसी एक आवाज़",
+            "source_span_translation": "A voice embedded in silence",
+            "source_term": "मौन में बसी एक आवाज़",
+            "tenor": "Inner intuition, conscience, or spiritual truth",
+            "vehicle": "A spoken voice",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent this visually through a single, clear point of light or a subtle ripple originating from a deep, dark, quiet background."
+          },
+          {
+            "abstract_meaning": "The speaker identifies their core essence as pure, unshakeable faith and trust.",
+            "acceptable_visual_variants": [
+              "A perfectly clear, transparent drop of water catching a beam of pure white light",
+              "A steady, clean flame of a small lamp burning calmly in a windless space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "I am a spotless, clean belief",
+            "literalization_risk": "Attempting to draw 'faith' as a literal object, which is abstract and cannot be directly drawn without resorting to heavy religious symbols.",
+            "metaphor_mapping": {
+              "tenor_concept": "faith",
+              "transferred_attributes": [
+                "clarity",
+                "unblemished nature",
+                "steadfastness"
+              ],
+              "vehicle_concept": "purity/spotlessness"
+            },
+            "source_span_original": "मैं एक निर्मल विश्वास",
+            "source_span_translation": "I am a pure faith",
+            "source_term": "मैं एक निर्मल विश्वास",
+            "tenor": "The speaker's state of absolute faith",
+            "vehicle": "A pure, spotless object or light",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a crystal-clear, unblemished stream of water or a steady, clear flame burning brightly without smoke."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The feminine grammatical gender of the speaker, established by the verb ending 'samai' (समाई), is lost in the gender-neutral English translation.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The river (and the speaker's spirit) acts as a unifying force that connects different landscapes, people, and regions.",
+            "acceptable_visual_variants": [
+              "A continuous, glowing thread of water weaving through diverse terrains, connecting them in one fluid line",
+              "A soft, embracing curve of water that cradles different elements of the landscape on either side"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "A physical chain link that joins things together",
+            "literalization_risk": "Drawing literal metal chains binding people or landscapes together, which looks restrictive or industrial.",
+            "metaphor_mapping": {
+              "tenor_concept": "unifying force",
+              "transferred_attributes": [
+                "binding",
+                "connecting distant parts",
+                "strength"
+              ],
+              "vehicle_concept": "connecting link"
+            },
+            "source_span_original": "सभी को जोड़ने वाली कड़ी",
+            "source_span_translation": "A link that unites all",
+            "source_term": "सभी को जोड़ने वाली कड़ी",
+            "tenor": "The unifying, connecting nature of the river",
+            "vehicle": "A chain link or bond",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize the river as a luminous, winding ribbon of water that gracefully curves to touch both high mountains and flat plains, weaving them together."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The feminine grammatical gender of the speaker, established by the verb endings 'aai' (आई) and 'jaati' (जाती), is lost in the gender-neutral English translation.",
+            "where": "L9-L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The journey of the soul, symbolized by the wave of the Ganga, flowing with inner peace and uniting all of existence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं गंगा की मौज हूँ,  \nअपने ही रंग में बहती,  \nसपनों का तट छोड़ती,  \nदूर क्षितिज से मिलती।\n\nमुझमें है शांति का संगीत,  \nमौन में बसी एक आवाज़,  \nहृदय के हर कोने में समाई,  \nमैं एक निर्मल विश्वास।\n\nपर्वतों से उतर कर आई,  \nमैदानों को सींचती जाती,  \nसभी को जोड़ने वाली कड़ी,  \nमैं गंगा की मौज हूँ।",
+  "poem_id": "MV++_0527",
+  "poem_title": "Main Ganga Ki Mauj Hoon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "588a56290343cb1204c53c7999be6dbe138c839f08ca06211cff5a68800f98c4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0527.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I am the wave of the Ganga,  \nFlowing in my own color,  \nLeaving the shore of dreams,  \nMeeting the distant horizon.\n\nWithin me is the music of peace,  \nA voice embedded in silence,  \nResiding in every corner of the heart,  \nI am a pure faith.\n\nDescending from the mountains,  \nWatering the plains as I go,  \nA link that unites all,  \nI am the wave of the Ganga.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:34:50.430447+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2646418ade77c640cedc1339c045e5eb3a27163aec257e01d4b7468c62cc38ed",
+        "response_hash": "db912860bbc7d0ef5d402c34bcdef4be5211249bd2f3c7b98b38269c32837b56"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5a2b1ec7ed5ff6619696e34528c479f0bd440b56d92a14a2b6048439dd445299",
+        "response_hash": "d8ec7672978780ad0f22b96474164c653cfe60a12e6043d7bdf00886de2b4447",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1a016adbadcb7b3b6ecf100059fc5326ff715a7be2f04ecfa6fdc95e67805ffe",
+        "response_hash": "7c4e8ae34ea55c5d551cb61b5ff494a2a2b85f6fc6c8dff16afa8907e4335e6f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "03e57856f2d78ca22765d6290dec1772ee1e1c77f2fa37d63d3c86e0a9fc80c6",
+        "response_hash": "e1881ef121273ba0ed83250f764de4b751256add8b9a39e691e1691524bc5e8d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d60cfec6ceb9dcb041d0a9a4d6eb4820b938bfd4ae7d4eb78a8966045a8eb92a",
+        "response_hash": "fddee9a2c4b796a2a51a4017b9cf35f151ef4f47303e40d206d795e4319d7161",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3010b372bdb5f2c241bb99ac7406443562cc5351e43d5b95cb35e58a1f4c660a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c2a695b58051f762ea3b9a36438991d4000c37b6c283af424f44e604c2f501c2",
+    "translation_sha256": "b387d43720ed05fb9b7e743b29e41d734ec8138bf6148df38b4a037cddbd71d2"
+  }
+}

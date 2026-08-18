@@ -1,0 +1,311 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "From existential questioning and fear to resilience and courage",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "fear",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The earth is depicted as an active, vocal entity calling out to humanity, emphasizing our deep connection to nature and the soil.",
+            "acceptable_visual_variants": [
+              "A wide shot of rich brown soil with green sprouts under a vast sky, with soft golden light suggesting a calling presence.",
+              "A person kneeling and touching the earth, sensing its silent message through the soil."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The earth speaks by calling out",
+            "literalization_risk": "Showing a literal human face or mouth emerging from the soil of the globe to speak, which looks cartoonish or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural environment's presence",
+              "transferred_attributes": [
+                "voice",
+                "agency",
+                "calling out"
+              ],
+              "vehicle_concept": "human speech"
+            },
+            "source_span_original": "धरती कहे पुकार के",
+            "source_span_translation": "The earth calls out",
+            "source_term": "धरती कहे पुकार के",
+            "tenor": "The natural world or earth as an active presence communicating with humans",
+            "vehicle": "A speaking person calling out",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, beautiful landscape of soil and earth with subtle wind currents or light patterns suggesting a voice or presence, without drawing literal human facial features on the ground."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'to return to it too' to complete the rhyme, which is not explicitly present in the original Hindi text 'माटी में क्यों डरता है' (why do you fear in the soil/dust).",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The intimate, direct address of the pronoun 'तू' (tu) and the colloquial, spiritually-toned term 'बंदे' (bande - O human/servant of God) are flattened into the more generic 'O being, what do you do?'.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation adds the metaphor 'Wrapped in fear's shroud' which is not present in the original Hindi text; the original simply asks why one wastes this precious journey.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Nature (trees, plants, flowers) is personified as laughing and speaking to remind humans to enjoy the journey of life.",
+            "acceptable_visual_variants": [
+              "A close-up of dew-covered flower buds opening in morning sunlight, conveying a natural 'smile'.",
+              "A sunny garden scene with trees swaying in a light wind, suggesting cheerful movement."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5-L6",
+            "literal_meaning": "These trees, plants, flowers, and buds all speak while laughing repeatedly",
+            "literalization_risk": "Drawing literal cartoon faces with wide open laughing mouths on tree trunks and flower petals.",
+            "metaphor_mapping": {
+              "tenor_concept": "vibrancy of blooming flora",
+              "transferred_attributes": [
+                "joyfulness",
+                "expressiveness",
+                "laughter"
+              ],
+              "vehicle_concept": "human laughter and speech"
+            },
+            "source_span_original": "यह पेड़-पौधे, फूल-कलियाँ,\nसब कहते हैं हँस-हँस के",
+            "source_span_translation": "These trees, plants, and blooms,\nAll laugh and say aloud",
+            "source_term": "यह पेड़-पौधे, फूल-कलियाँ, सब कहते हैं हँस-हँस के",
+            "tenor": "The vibrant, joyful, and lively appearance of blooming nature",
+            "vehicle": "Laughing and talking people",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict lush, vibrant green trees and colorful flowers swaying gently in the breeze under bright sunlight, capturing a natural sense of joy and movement."
+          },
+          {
+            "abstract_meaning": "Life is conceptualized as a precious journey or travel route to be experienced rather than wasted.",
+            "acceptable_visual_variants": [
+              "A path winding through a forest with alternating patches of sunlight and shadow.",
+              "A lone traveler walking along a scenic ridge at dawn."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "This priceless journey of life",
+            "literalization_risk": "Depicting a literal traveler with suitcases or a passport, which misses the existential nature of life's journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "living through time",
+              "transferred_attributes": [
+                "movement forward",
+                "experiences along the way",
+                "preciousness"
+              ],
+              "vehicle_concept": "traveling a path"
+            },
+            "source_span_original": "जीवन के इस अनमोल सफर को",
+            "source_span_translation": "this precious journey of life",
+            "source_term": "जीवन के इस अनमोल सफर को",
+            "tenor": "The course of human life over time",
+            "vehicle": "A journey or travel route",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a winding path leading through a beautiful, changing landscape towards a bright horizon, symbolizing the passage of time and experiences."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces the metaphor 'Wrapped in fear’s shroud' to create a rhyme with 'aloud', which has no textual basis in the original Hindi line 'तू क्यों व्यर्थ गंवाता है' (why do you waste it in vain).",
+            "where": "L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The reduplicative, rhythmic quality of 'हँस-हँस के' (laughing repeatedly/joyfully) is simplified to 'say aloud'.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The earth is personified again as calling out to guide the human traveler.",
+            "acceptable_visual_variants": [
+              "A wide shot of rich brown soil with green sprouts under a vast sky, with soft golden light suggesting a calling presence.",
+              "A person kneeling and touching the earth, sensing its silent message through the soil."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L9",
+            "literal_meaning": "The earth speaks by calling out",
+            "literalization_risk": "Showing a literal human face or mouth emerging from the soil of the globe to speak, which looks cartoonish or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural environment's presence",
+              "transferred_attributes": [
+                "voice",
+                "agency",
+                "calling out"
+              ],
+              "vehicle_concept": "human speech"
+            },
+            "source_span_original": "धरती कहे पुकार के",
+            "source_span_translation": "The earth calls out",
+            "source_term": "धरती कहे पुकार के",
+            "tenor": "The natural world or earth as an active presence communicating with humans",
+            "vehicle": "A speaking person calling out",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, beautiful landscape of soil and earth with subtle wind currents or light patterns suggesting a voice or presence, without drawing literal human facial features on the ground."
+          },
+          {
+            "abstract_meaning": "Joy and sorrow are conceptualized as shadows or alternating patches of light and shade that one walks through.",
+            "acceptable_visual_variants": [
+              "A traveler walking on a path that goes through both bright sunny clearings and shaded forest canopy.",
+              "A landscape at dusk where long shadows stretch across sunlit fields."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "In this shadow of happiness and sadness",
+            "literalization_risk": "Drawing literal dark silhouettes or monsters labeled 'sadness' chasing a person.",
+            "metaphor_mapping": {
+              "tenor_concept": "alternating joy and sorrow",
+              "transferred_attributes": [
+                "transience",
+                "covering",
+                "alternation"
+              ],
+              "vehicle_concept": "alternating light and shadow"
+            },
+            "source_span_original": "सुख-दुख की इस छाया में",
+            "source_span_translation": "In the shadows of joy and sorrow",
+            "source_term": "सुख-दुख की इस छाया में",
+            "tenor": "The alternating, transient phases of happiness and sadness in life",
+            "vehicle": "Shadows or shade",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a path with dappled light, where bright sunny patches alternate with cool, dark shadows cast by overhead trees."
+          },
+          {
+            "abstract_meaning": "Courage is conceptualized as an ornament or something beautiful to be adorned, cultivated, or displayed.",
+            "acceptable_visual_variants": [
+              "A person adjusting their posture to stand strong against a gust of wind, with a determined expression.",
+              "A glowing lantern held high by a traveler, illuminating the path ahead in the shadows."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "Keep decorating/adorning courage",
+            "literalization_risk": "Showing a person literally hanging decorations or ornaments on a abstract concept or a glowing heart, which looks confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "strengthening inner courage",
+              "transferred_attributes": [
+                "beautification",
+                "preparation",
+                "adornment"
+              ],
+              "vehicle_concept": "decorating or adorning"
+            },
+            "source_span_original": "साहस को तू सजाता जा",
+            "source_span_translation": "Let courage light your day",
+            "source_term": "साहस को तू सजाता जा",
+            "tenor": "Cultivating, strengthening, and displaying inner bravery",
+            "vehicle": "An ornament or decoration",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person standing tall and resolute on a path, with a warm, steady inner light radiating from their chest, symbolizing adorned courage."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'साहस को तू सजाता जा' (keep adorning/decorating courage) as 'Let courage light your day', changing the active, creative metaphor of 'decorating' or 'beautifying' one's life with courage into a more passive illumination metaphor.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The earth and nature urge humanity to overcome the fear of mortality and march forward with courage through life's joys and sorrows."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "धरती कहे पुकार के,  \nबंदे तू क्या करता है,  \nमाटी से तू पैदा हुआ,  \nमाटी में क्यों डरता है।  \n\nयह पेड़-पौधे, फूल-कलियाँ,  \nसब कहते हैं हँस-हँस के,  \nजीवन के इस अनमोल सफर को,  \nतू क्यों व्यर्थ गंवाता है।  \n\nधरती कहे पुकार के,  \nअपने पथ पर बढ़ता जा,  \nसुख-दुख की इस छाया में,  \nसाहस को तू सजाता जा।",
+  "poem_id": "MV++_0467",
+  "poem_title": "Dharti Kahe Pukaar Ke",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7d5266d796092b26211c7623fd7c1c78ff897e135c8ce6e7c1324dd4854e57d1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0467.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The earth calls out,  \n“O being, what do you do?  \nBorn from this soil,  \nWhy do you fear to return to it too?”\n\nThese trees, plants, and blooms,  \nAll laugh and say aloud,  \nWhy waste this precious journey of life,  \nWrapped in fear’s shroud?\n\nThe earth calls out,  \nMarch forward on your way,  \nIn the shadows of joy and sorrow,  \nLet courage light your day.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:27:40.475255+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "615f4a8cef88df406ab1566beee17f2a83e1012cb3e40c806626a31498f6b079",
+        "response_hash": "84a60bdad17308fc0698b3c6622ad94383f2e97e1e1b1a3605fd6ba93f2eed49",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6c5466caa4ac0c58e4f652a72fc77d866637ed9ecc7e0703371e5912da76995",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "56975162e65a3c728e58a88655915a7ed9a199f37091de6e05e131865ad07bda",
+        "response_hash": "e5a6048ad7470f9e0e32ff12cc072fb4233419c98467a54d381671535509e54e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d051ad98b09cdb8be0a391402d405be6f95e0d57de25f3a178b7f4bf73f45488",
+        "response_hash": "afa920d0a1d235435f35944ac315cfd6af8ecc8ee0f9e44446abbb8b2282764b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8e194e91fae7f1a53310a2c1a7f09bca4934f362936770978363ffeaaaee1092",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "15e7e610daf9378246e991d59a544893a7177b0e470653696096274626bba07e",
+    "translation_sha256": "940f3a1eeab07952880c507775a0106c862374ca289c32fea9546a7b2ff53ec6"
+  }
+}

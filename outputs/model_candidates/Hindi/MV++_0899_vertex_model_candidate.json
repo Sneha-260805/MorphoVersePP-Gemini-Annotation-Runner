@@ -1,0 +1,254 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "resilience and acceptance to forward-looking hope",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation block mapping is misaligned with the original stanzas, causing the English translation of Stanza 1 to be represented only by the title 'What’s Gone Is Gone' in the provided stanza map.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "What has happened in the past is over and should be forgotten.",
+            "acceptable_visual_variants": [
+              "A hand letting go of a dry leaf that is carried away by the wind.",
+              "A person stepping across a threshold from a dark room into a sunlit garden."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1",
+            "literal_meaning": "That which has passed, that matter has gone",
+            "literalization_risk": "Showing a physical object or person walking away, which misses the abstract concept of letting go of past regrets.",
+            "metaphor_mapping": {
+              "tenor_concept": "passage of time and events",
+              "transferred_attributes": [
+                "irreversibility",
+                "absence"
+              ],
+              "vehicle_concept": "physical departure"
+            },
+            "source_span_original": "जो बीत गई सो बात गई",
+            "source_span_translation": "What’s gone is gone",
+            "source_term": "जो बीत गई सो बात गई",
+            "tenor": "Past events and regrets that are no longer relevant",
+            "vehicle": "A matter or event that has physically departed or passed by",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking forward toward a bright horizon, leaving a shadowy, indistinct path behind them."
+          },
+          {
+            "abstract_meaning": "A new direction, choice, or opportunity in life.",
+            "acceptable_visual_variants": [
+              "A path winding through a fresh green meadow.",
+              "A symbolic doorway opening onto a bright landscape."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A new physical road or path",
+            "literalization_risk": "Depicting a literal paved road or dirt track, which misses the abstract concept of life choices.",
+            "metaphor_mapping": {
+              "tenor_concept": "life choices and opportunities",
+              "transferred_attributes": [
+                "direction",
+                "destination",
+                "journey"
+              ],
+              "vehicle_concept": "physical path"
+            },
+            "source_span_original": "नई राह",
+            "source_span_translation": "new path",
+            "source_term": "नई राह",
+            "tenor": "A new course of action or opportunity in life",
+            "vehicle": "A physical road or pathway",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a fork in a scenic path with soft, inviting light illuminating one of the new directions."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation map shows a structural misalignment where the title 'What’s Gone Is Gone' is grouped with Stanza 1, causing the actual translation of Stanza 1 to shift down into Stanza 2's translation block. This disrupts the direct line-by-line correspondence.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The idiomatic and rhythmic quality of the famous Hindi phrase 'जो बीत गई सो बात गई' (jo beet gayi so baat gayi), which carries a cultural resonance of letting go of the past, is simplified to 'What’s gone is gone'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation block mapping is misaligned; the English text provided for Stanza 2 actually translates Stanza 1 of the original poem.",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "Due to a structural shift in the translation mapping, the English text provided for Stanza 2 actually translates Stanza 1 ('What’s gone is gone, Life has a new beginning...'). The actual translation for Stanza 2 ('What’s lost is lost, Why dwell on it...') is shifted into the Stanza 3 block.",
+            "where": "L5-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation block mapping is misaligned; the English text provided for Stanza 3 actually translates Stanza 2 of the original poem, leaving the final stanza untranslated in the map.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Every change or transition in life brings new opportunities and perspectives.",
+            "acceptable_visual_variants": [
+              "A traveler reaching the crest of a hill to see a new sunrise.",
+              "A path curving around a grove of trees to reveal a peaceful lake."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "At every bend in the road, there is a new landscape or view",
+            "literalization_risk": "Depicting a literal sharp turn on a highway, which looks like a traffic scene rather than a life transition.",
+            "metaphor_mapping": {
+              "tenor_concept": "life transitions and opportunities",
+              "transferred_attributes": [
+                "surprise",
+                "change of perspective",
+                "discovery"
+              ],
+              "vehicle_concept": "road bend and landscape"
+            },
+            "source_span_original": "हर मोड़ पर एक नया दृश्य है",
+            "source_span_translation": "At every turn, there’s a new view",
+            "source_term": "हर मोड़ पर एक नया दृश्य है",
+            "tenor": "Transitions or changes in life revealing new possibilities",
+            "vehicle": "A bend in a physical road revealing a new landscape",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a winding mountain path where a traveler rounds a bend to see a beautiful, unexpected valley opening up."
+          },
+          {
+            "abstract_meaning": "What has happened in the past is over and should be forgotten.",
+            "acceptable_visual_variants": [
+              "A hand letting go of a dry leaf that is carried away by the wind.",
+              "A person stepping across a threshold from a dark room into a sunlit garden."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L11",
+            "literal_meaning": "That which has passed, that matter has gone",
+            "literalization_risk": "Showing a physical object or person walking away, which misses the abstract concept of letting go of past regrets.",
+            "metaphor_mapping": {
+              "tenor_concept": "passage of time and events",
+              "transferred_attributes": [
+                "irreversibility",
+                "absence"
+              ],
+              "vehicle_concept": "physical departure"
+            },
+            "source_span_original": "जो बीत गया सो बात गई",
+            "source_span_translation": "What’s gone is gone",
+            "source_term": "जो बीत गया सो बात गई",
+            "tenor": "Past events and regrets that are no longer relevant",
+            "vehicle": "A matter or event that has physically departed or passed by",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking forward toward a bright horizon, leaving a shadowy, indistinct path behind them."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "Due to a structural shift in the translation mapping, the English text provided for Stanza 3 actually translates Stanza 2 ('What’s lost is lost, Why dwell on it...'). The actual translation for Stanza 3 ('At every turn, there’s a new view...') is left unmapped to its corresponding stanza.",
+            "where": "L9-L12"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Urdu-derived register of 'अफ़सोस' (afsoos - regret/sorrow) and the specific phrasing of 'कोई ख़ुशी नहीं हार' (no joy is lost/defeated) are flattened into generic English equivalents.",
+            "where": "L10-L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Letting go of past regrets and embracing new beginnings with hope and resilience."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जो बीत गई सो बात गई,\nजीवन में एक नई शुरुआत है।\nउसे न दुहराए, न दोहराए,\nहर पल एक नई राह दिखाए।\n\nजो खो गया सो खो गया,\nक्या ज़रूरत उसका सोचने की?\nआज में जीओ, आने वाले कल की,\nकभी न उम्मीदें छोड़ने की।\n\nहर मोड़ पर एक नया दृश्य है,\nबीते वक्त का अफ़सोस न कर।\nजो बीत गया सो बात गई,\nआगे बढ़ो, जीवन में कोई ख़ुशी नहीं हार।",
+  "poem_id": "MV++_0899",
+  "poem_title": "Jo Beet Gayi So Baat Gayi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c119d7ae215eb71eb978a8a6b465d1ca869272cfd82a781bad39417d806f9442",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0899.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What’s Gone Is Gone\n\nWhat’s gone is gone,\nLife has a new beginning.\nDon’t repeat it, don’t repeat,\nEvery moment shows a new path.\n\nWhat’s lost is lost,\nWhy dwell on it?\nLive in the present, don't worry about tomorrow,\nNever let go of hope.\n\nAt every turn, there’s a new view,\nDon’t regret the past.\nWhat’s gone is gone,\nMove forward, life will never lose its joy.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:27:39.964064+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4c8716e94b5416fe233b175a77061fc1039f45a56027f94bacf201e350beefbc",
+        "response_hash": "3aeff51dd91cf5925a45d70fae6cf059b5e76056d01853cf877b232be95310fc",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "166fd4672cea48b6887066bf62d59e60877f5c2fadc3b93f2a28cc7f8400d319",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "48f0c36046ffd5b7b05fbaff0fa51b3becf3345a0858e0f90747214495e6f7f0",
+        "response_hash": "dfd5bb76062284694529cb7ec89e3943ee19ca06c2bcaf3d02faf530a510d0ca",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c0d6f503af3dff5a88ecb0d3fc88fd71465917858166aa11106932f2f83316c6",
+        "response_hash": "78c04fe8749f0686daa0af877f0ed72578e210fb8a267d7317173f70693d0be7",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8dc80f800ed9bbc7bb88a1064258bc589953a2997d39b96e2c68c2117ee55028",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c331b8a383ddfaede2b83095e855b63ff5bc6fc38096d528a0209afcd8492d0d",
+    "translation_sha256": "9d579bec6395da43b47c1ee7f09d5c4dc90e65d5c41b3dc5e9645b302d535a97"
+  }
+}

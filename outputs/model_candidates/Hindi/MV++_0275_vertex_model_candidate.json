@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet anticipation to warm nostalgia",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The hopeful and imaginative way people perceive their surroundings during a journey, where every gaze is filled with dreams.",
+            "acceptable_visual_variants": [
+              "A close-up of warm, smiling eyes reflecting a vibrant street scene",
+              "A soft-focus view of a person looking out a window with tiny, sparkling light reflections in their pupils"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Every glance/eye is decorated",
+            "literalization_risk": "Showing physical ornaments, makeup, or jewelry literally hanging over or inside a human eye, which would look surreal or medical rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "hopeful perception in a glance",
+              "transferred_attributes": [
+                "beauty",
+                "deliberate arrangement",
+                "brightness"
+              ],
+              "vehicle_concept": "adornment/decoration"
+            },
+            "source_span_original": "सजा हर एक नजर",
+            "source_span_translation": "Decorated in every glance",
+            "source_term": "सजा हर एक नजर",
+            "tenor": "The hopeful, dream-filled perception of people's eyes/gazes",
+            "vehicle": "A decorated or adorned physical space or object",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person's eyes reflecting soft, warm, colorful lights or miniature glowing dream-like shapes (like tiny stars or bubbles) to show the 'decoration' is internal and imaginative."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and emphatic quality of the reduplicated adjective 'छोटे-छोटे' (chhhote-chhhote) is flattened into a single English adjective 'small'.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical gender agreement and poetic rhythm of 'सजा' (saja, decorated/adorned) and 'नजर' (nazar, glance/sight, which is feminine in Hindi) is simplified in the English passive construction 'Decorated in every glance'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The process of gradually creating, collecting, and integrating precious, beautiful memories over time during a journey.",
+            "acceptable_visual_variants": [
+              "A trail of warm golden light connecting a series of faint, nostalgic background scenes",
+              "Hands gently holding a glowing golden thread that softly blends into a warm, hazy background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Weaving golden memories",
+            "literalization_risk": "Showing a person literally operating a wooden loom with metallic gold threads, which over-emphasizes the industrial/craft process instead of the emotional journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "creating precious memories over time",
+              "transferred_attributes": [
+                "intertwining",
+                "creation of a cohesive whole",
+                "preciousness of gold",
+                "craftsmanship"
+              ],
+              "vehicle_concept": "weaving golden threads"
+            },
+            "source_span_original": "सुनहरी यादें बुनती",
+            "source_span_translation": "Weaving golden memories",
+            "source_term": "सुनहरी यादें बुनती",
+            "tenor": "The mental and emotional process of forming precious memories",
+            "vehicle": "Weaving threads on a loom to create a golden fabric",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, semi-transparent tapestry or thread of golden light gently winding through scenes of the journey, connecting different moments or places."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The active, feminine singular participle 'बुनती' (bunati, weaving) agrees with 'यादें' (yaadein, memories) or the implicit journey, which is rendered as a generic participle 'Weaving' in English, losing the specific grammatical gender agreement.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The gentle journey of life and memory between familiar spaces"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing specific grammatical and rhythmic losses. This is slightly inconsistent with a completely unnuanced 'faithful' rating, though acceptable if the overall translation remains faithful despite minor losses.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing grammatical gender agreement loss.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "घर से घर तक,  \nचला एक सफर,  \nछोटे-छोटे ख्वाबों का,  \nसजा हर एक नजर।  \n\nरंग-बिरंगी तस्वीरें,  \nहर गली हर मोड़ पर,  \nसुनहरी यादें बुनती,  \nसंग मेरे इस सफर पर।",
+  "poem_id": "MV++_0275",
+  "poem_title": "Ghar Se Ghar Tak",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "672326607e9b204053e869ae5fe8fa3f64b2e3bf9975b5908f15cefda97faec7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0275.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "From Home to Home  \nFrom home to home,  \nA journey unfolds,  \nOf small dreams,  \nDecorated in every glance.  \n\nColorful pictures,  \nAt every street and turn,  \nWeaving golden memories,  \nAccompanying me on this journey.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:07:12.426085+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ae8dda35c96a6ce2ccf0643ef9878c310cfe2ba9061b6d78d1824e50eed6b0f3",
+        "response_hash": "7ca4af05a6f0b29a266994b4a5c69e19bd5ade123f95d8448444d293dc769e2d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "563f008e3cd7b86140756a34661a1e3d4d10f2afc28c718b82212b6fd6d5053c",
+        "response_hash": "49ddb68d227a77c784b34f2aab1c9dd32bf538dee52156a204d65ff669ad1522",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f1df186fb4c3c2d49c1595d93904acc6f48b91f32a98ae0d90a945269972cd46",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8f99613042e1c363b80425df8dd6f0fe126a97983a257265d3fb4ba27590b4ad",
+        "response_hash": "c2516cca207a6b2d4cfb280708473eeedaadd381759670a85a6ca517229a02b6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8db941a96c507ae5a24859ff98d2a66eef85d323d6456242db05ebe94076b512",
+        "response_hash": "9178608ab41927d1b38eafc6302635ea2411c508ef2b76883f071c0a049c6f0d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6d1fbfbe43c6bfdb2ee31e0b354e90374fda616f38590044d024181083fc88be",
+        "response_hash": "71e26bcbf7288e9fd569755936fd5cff178604ae7c30196274d130ea327ea6bc",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "441ce270dbf643af5a55c44d4578ff60eaccc4f728a27210af559bb2bd405e9d",
+    "translation_sha256": "927c020179c85ae8b01ae30c4ba295f3ac7cc94ac3450e4f3b1eebb9c7c8a4ef"
+  }
+}

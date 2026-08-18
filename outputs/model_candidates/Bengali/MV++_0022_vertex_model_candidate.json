@@ -1,0 +1,200 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to grief",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'elomelo' as 'tangled' captures the disorder but slightly misses the specific Bengali nuance of scattered, disheveled, or chaotic state. Additionally, the spelling 'nirjharer' in the title is slightly misspelled in the original Bengali text as 'নিরঝরের' instead of 'নির্ঝরের'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The disruption of a peaceful, static state of existence or illusion as the waterfall begins to flow and crash.",
+            "acceptable_visual_variants": [
+              "A split-screen or dual-state image showing a quiet, misty stream suddenly crashing violently over sharp stones.",
+              "A close-up of water droplets scattering like shattered glass as they hit a stone surface."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The breaking of the waterfall's dream",
+            "literalization_risk": "Showing a literal human-like figure sleeping inside a waterfall having a dream bubble pop, which looks cartoonish and misses the naturalistic transition of water.",
+            "metaphor_mapping": {
+              "tenor_concept": "disrupted static state of water",
+              "transferred_attributes": [
+                "sudden awakening",
+                "loss of peaceful illusion",
+                "transition to movement"
+              ],
+              "vehicle_concept": "shattered dream"
+            },
+            "source_span_original": "নিরঝরের স্বপ্নভঙ্গ",
+            "source_span_translation": "The Dream of the Waterfall",
+            "source_term": "নিরঝরের স্বপ্নভঙ্গ",
+            "tenor": "The transition of a quiet, frozen, or static waterfall into active, rushing movement",
+            "vehicle": "A sleeping entity whose dream is broken or shattered",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a waterfall transitioning from a frozen or completely still, glassy state into a rushing, turbulent flow down rocks, capturing the 'awakening' through motion."
+          },
+          {
+            "abstract_meaning": "The physical surface or side of the stone or rock.",
+            "acceptable_visual_variants": [
+              "A close-up of water sliding over mossy, rough-textured granite.",
+              "A wide shot of a stream hugging the steep, curved flank of a mountain cliff."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "The body/skin of the stone",
+            "literalization_risk": "Drawing a rock with literal human skin texture or limbs, which would look grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "rock surface",
+              "transferred_attributes": [
+                "texture",
+                "surface layer",
+                "physical contact"
+              ],
+              "vehicle_concept": "human body or skin"
+            },
+            "source_span_original": "পাথরের গা",
+            "source_span_translation": "stone's surface",
+            "source_term": "পাথরের গা",
+            "tenor": "The hard, weathered surface of a rock",
+            "vehicle": "A living body with skin or a physical flank",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Render the rock with highly detailed, textured, and weathered surfaces, showing the water clinging closely to its contours as it flows."
+          },
+          {
+            "abstract_meaning": "The melancholic, deep sound of thunder or rain-bearing clouds, reflecting a somber mood.",
+            "acceptable_visual_variants": [
+              "Dark, overcast skies with visible sheets of distant rain falling.",
+              "Mist rising from the waterfall merging into heavy, dark grey clouds above."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "The sorrowful/mournful sound of clouds",
+            "literalization_risk": "Depicting clouds with sad human faces crying tears, which ruins the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "rumbling of storm clouds",
+              "transferred_attributes": [
+                "melancholy",
+                "deep resonance",
+                "evocation of sadness"
+              ],
+              "vehicle_concept": "human sorrow and weeping"
+            },
+            "source_span_original": "মেঘের করুণ ধ্বনি",
+            "source_span_translation": "The sorrowful sound of clouds",
+            "source_term": "মেঘের করুণ ধ্বনি",
+            "tenor": "The low, rumbling sound of thunder or heavy rain from dark clouds",
+            "vehicle": "A grieving person weeping or sighing",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict dark, heavy, low-hanging storm clouds casting deep shadows over the waterfall, suggesting a somber, heavy atmosphere visually."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Bengali word 'Nirjharer' (নিরঝরের) is misspelled in the source text as 'নিরঝর' (nirjhar) instead of 'নির্ঝর' (nirjhor), which is a common orthographic variation or typo that is flattened in the standard English translation 'waterfall'.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Bengali word 'elomelo' (এলোমেলো) carries a sense of being scattered, messy, or disorganized, which is translated as 'tangled', slightly altering the physical metaphor of the dream's disruption.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The shattering of a dream as a natural flow meets the hard reality of stone, mirrored in the sorrowful sounds of nature."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Bengali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "নিরঝরের স্বপ্নভঙ্গ\nনিরঝর থেকে পাথরের গা বেয়ে\nযখন স্রোত নেমে আসে\nএকটি স্বপ্ন এলোমেলো হয়ে যায়,\nমেঘের করুণ ধ্বনি।",
+  "poem_id": "MV++_0022",
+  "poem_title": "Nirjharer Swapnobhango",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4b897b1b810e4d4afa78bb64f14a96475b28a7e41babe4e916a6e6b198e10557",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bengali/MV++_0022.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Dream of the Waterfall\nFrom the waterfall, as the stream descends\nDown the stone's surface,\nA dream gets tangled,\nThe sorrowful sound of clouds.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:38:50.669556+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bdd5e1287209db460f0463702981ceb4dce7931b0188fac673f2caf32ed4065d",
+        "response_hash": "ed3151dce9eb74203fe0c8700133c34ac212347efcd0682b310d3028c13d5c4e"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c698a50a109b26297d6332ff51df775041436b386ba567007e3078b4a97849a6",
+        "response_hash": "af22488f958613163093973973b78e37632f8d1e4c0f065f016fb953b41e9e5a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "73d508d7ec76140cbadcc9433e1c6af432e2ab179fc37a76a07307f1ef847d3f",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca56ed58f947f9f22df3c93fa3968a73a5be3c68cc69a62d81dff1e916ff1d98",
+        "response_hash": "54e0ea9d593952272fe199ddf42a1f906e0d757132d72f3f7b07900d104fcad5",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "53ca9d05468c5d1596933ef114102344530b887ad64116ab7b5ffcde9d95762d",
+        "response_hash": "2eb0e5abd70bd890a6682dcce8502cea3d396192dce89591a4e1c8448571cfb2",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2b056a22746791235e6c49effda63ee709c01f580d81b3619d7f19e4b8dda96d",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e357f91ee073e0fa805dccf1856ace8db97484db4203777f5c4ab40a8233dc26",
+    "translation_sha256": "caa15c16325358b9e4c555cf96fff3e551c688288909ca9787dcf7052a34cc98"
+  }
+}

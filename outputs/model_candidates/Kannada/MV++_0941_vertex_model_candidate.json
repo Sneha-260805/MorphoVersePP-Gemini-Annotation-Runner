@@ -1,0 +1,172 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A term derived from Sanskrit 'ojas', referring to vital energy, spiritual vigor, or the essential radiant force of life and health.",
+        "line_ref": "L2",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "ojassu",
+        "source_span_original": "ಓಜಸ್ಸು",
+        "source_span_translation": "energy",
+        "stanza_index": 1,
+        "term": "ಓಜಸ್ಸು",
+        "translation_note": "Translated as 'energy', which captures the physical aspect but loses the deeper spiritual, vital, and radiant connotations of the Sanskrit-derived term ojas in Indian philosophy.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "quiet reflection to comforting warmth",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The comforting, guiding, and life-giving presence of hope or clarity in life.",
+            "acceptable_visual_variants": [
+              "A person standing in a warm, soft beam of sunlight that wraps around them like a blanket.",
+              "A gentle glow radiating from within, casting a soft, protective halo of light around a figure."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "arms of light",
+            "literalization_risk": "Depicting literal human arms made of glowing light or a physical body of light hugging a person, which can look like a sci-fi or supernatural entity rather than a poetic feeling of comfort.",
+            "metaphor_mapping": {
+              "tenor_concept": "comforting hope",
+              "transferred_attributes": [
+                "warmth",
+                "embrace",
+                "guidance",
+                "protection"
+              ],
+              "vehicle_concept": "arms of light"
+            },
+            "source_span_original": "ಬೆಳಕಿನ ಬಾಹು",
+            "source_span_translation": "light-filled embrace",
+            "source_term": "ಬೆಳಕಿನ ಬಾಹು",
+            "tenor": "comforting and guiding hope in life",
+            "vehicle": "arms / embrace made of light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, soft golden light gently enveloping a reflective figure, suggesting a comforting embrace without drawing literal physical arms."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Sanskrit-derived literary term 'ojas' (ಓಜಸ್ಸು), which carries deep connotations of vital energy, spiritual vigor, and radiant strength, is simplified to the generic English word 'energy'.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The alliterative and rhythmic flow of the Kannada words 'baalalu belakina baahu' (ಬಾಳಲು ಬೆಳಕಿನ ಬಾಹು), which uses a repeating 'ba' sound to create a lyrical cadence, is lost in the English translation 'Life's light-filled embrace'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The sustaining power of memory and dreams in illuminating human life"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing significant semantic and phonetic losses. When translation_loss is present, translation_quality should typically be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ನೆನಪಿನಲಿ ನಗುವ,  \nಹೃದಯದ ಓಜಸ್ಸು,  \nಕನಸುಗಳ ಹೃದಯಕೆ,  \nಬಾಳಲು ಬೆಳಕಿನ ಬಾಹು.",
+  "poem_id": "MV++_0941",
+  "poem_title": "Nenapu",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2a92c83650f52813c583ed8b7e4c9812f5c98e33569fc1ef286b2edb9e7b3a35",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0941.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the memory, a smile,  \nThe energy of the heart,  \nFor dreams of the heart,  \nLife's light-filled embrace.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:34:02.865699+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a6829fbc5734d3eaef9a7ff9b98cbb49a370792c48a961e3aa3658e0f2f48481",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "894b943b027bf90e4ead1966c3ce975f332e22ae5082565c719262875a090020",
+        "response_hash": "fb089eda43d30f2cdd020c7ffa4b16c4aeed9b020ca8718dbc264f2d5c99a45e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a3aa39189fad2690418c13936c328a0834cbee5f92c974df5543333a0d11f3ed",
+        "response_hash": "10332476d6c9868dc74c918c7ce520eb2cb366f3f31447c523303551ec92b4ca",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2b7e564fc351b615e9814e22f679c76a610dfd69c26393ea546639715213a7c9",
+        "response_hash": "a79835254c14b2b7979965fc99193c2498196e869ed5546043e96e62729409e0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3013cfefee871b2e4b4b33929b5641a297b754c6dea08eb07feaf80ca864c205",
+        "response_hash": "829940d9592ae65bbd7942562c50e247c428c7cf6793a95fdb19d771f9782ebc",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "133c5a78ba890d0cb564f8fc13093d3f58b3d491c824e407c2d67092f618c471",
+        "response_hash": "c4f23c0558562bdca86070b8d8de6b72608b278b46076dbc2887b1a0a1a6e161",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "06eb3672ac305b576a92ac80fc8f00e3cf39836483c18c027af5d42333f56ef7",
+    "translation_sha256": "befd44666ed22d7a555867175b9f81fe6c6ec3c6425f22cc116ef7cf6f26e16e"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and isolation to quiet, fearful observation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces 'at some cost' to complete a rhyme, which is not present in the original Hindi text where time simply stands still in anticipation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The walls of the house are described as silent, attributing human quietness to inanimate structures to emphasize the absolute lack of life or activity inside.",
+            "acceptable_visual_variants": [
+              "A long, empty hallway with plain, shadow-draped walls",
+              "A close-up of a corner of a room where dust settles on bare walls"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "walls that do not speak or make sound",
+            "literalization_risk": "Depicting walls with literal human mouths taped shut or fingers over lips would look cartoonish and miss the atmospheric, eerie quietness of the house.",
+            "metaphor_mapping": {
+              "tenor_concept": "lifelessness of an empty room",
+              "transferred_attributes": [
+                "quietness",
+                "lack of communication"
+              ],
+              "vehicle_concept": "human silence"
+            },
+            "source_span_original": "खामोश दीवारें",
+            "source_span_translation": "silent walls",
+            "source_term": "खामोश दीवारें",
+            "tenor": "inanimate walls of an empty house",
+            "vehicle": "silent human beings",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict bare, cold, unadorned walls of a dimly lit room with no signs of human presence or movement."
+          },
+          {
+            "abstract_meaning": "The feeling that time has completely stopped moving because of the agonizing wait or the absolute stillness of the environment.",
+            "acceptable_visual_variants": [
+              "An old wall clock with its hands frozen between numbers",
+              "A hourglass with the sand stuck mid-flow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "time has physically stopped moving forward",
+            "literalization_risk": "Showing a broken clock or a frozen pocket watch might make it look like a mechanical failure rather than a psychological state of waiting.",
+            "metaphor_mapping": {
+              "tenor_concept": "the perception of time during isolation",
+              "transferred_attributes": [
+                "immobility",
+                "lack of progress"
+              ],
+              "vehicle_concept": "a halted traveler or mechanism"
+            },
+            "source_span_original": "समय थम गया है",
+            "source_span_translation": "time has halted",
+            "source_term": "समय थम गया है",
+            "tenor": "the psychological experience of stagnation and endless waiting",
+            "vehicle": "a moving object or traveler coming to a complete standstill",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a clock on the wall covered in dust or cobwebs, or show a single shaft of light frozen in place across an empty floor."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation introduces the phrase 'at some cost' to force a rhyme with 'lost', which is absent in the original Hindi text. The original text simply states that time has stopped in anticipation/waiting of someone ('या किसी के इंतजार में समय थम गया है').",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'halls' to rhyme with 'walls', which changes the domestic imagery of 'घर के अंदर' (inside the house) to a larger, more formal space.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "fear",
+        "index": 2,
+        "loss_note": "The translation introduces the word 'fear' explicitly ('swallowed by fear') and changes the direction of the window's gaze from 'outside' (बाहर की ओर) to 'at the sky' to satisfy the rhyme scheme.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The windows of the house are compared to the eyes of a stranger, suggesting they watch the outside world with detachment, suspicion, or cold curiosity.",
+            "acceptable_visual_variants": [
+              "A dusty window pane with a slight reflection of the outside world, looking hollow",
+              "An open window with a curtain blowing slightly, but revealing only darkness inside"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L7-L8",
+            "literal_meaning": "every window is a physical eye belonging to an unknown person, looking outside",
+            "literalization_risk": "Drawing literal human eyeballs inside the window panes would look like a horror movie or surrealist monster art, rather than a poetic expression of isolation.",
+            "metaphor_mapping": {
+              "tenor_concept": "a window frame looking out from a dark house",
+              "transferred_attributes": [
+                "watchfulness",
+                "detachment",
+                "coldness"
+              ],
+              "vehicle_concept": "an unfamiliar person's watchful eye"
+            },
+            "source_span_original": "हर खिड़की एक अजनबी आँख की तरह,\nचुपचाप बाहर की ओर देखती है।",
+            "source_span_translation": "Each window, like a stranger’s eye,\nSilently gazes at the sky.",
+            "source_term": "हर खिड़की एक अजनबी आँख की तरह,\nचुपचाप बाहर की ओर देखती है।",
+            "tenor": "a window looking out onto the street",
+            "vehicle": "a stranger's eye staring silently",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a dark, empty window frame from the outside, reflecting a cold sky, with the interior behind it completely pitch black and uninviting."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces the concept of 'fear' ('swallowed by fear') to rhyme with 'here', which is not present in the original Hindi. The original 'दब कर रह जाती है' simply means the sound gets suppressed, muffled, or buried.",
+            "where": "L6"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation changes the direction of the window's gaze to 'the sky' to rhyme with 'eye'. The original Hindi 'बाहर की ओर' means 'towards the outside' or 'outward', which is a more grounded, horizontal gaze into the world rather than looking upward at the sky.",
+            "where": "L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'हर आहट' (every soft sound of footsteps or rustling) as 'Every sound', losing the specific, delicate nuance of 'आहट' which specifically denotes a subtle sign of someone's presence or approach.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The heavy, frozen atmosphere of isolation and waiting within a silent, closed home."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बंद दरवाज़े हैं, खामोश दीवारें,  \nघर के अंदर गहरी चुप्पी पसरी है।  \nजैसे हर शोर की गूंज, कहीं खो गई है,  \nया किसी के इंतजार में समय थम गया है।\n\nयहाँ दरवाज़ों पर दस्तक नहीं होती,  \nहर आहट कहीं दब कर रह जाती है।  \nहर खिड़की एक अजनबी आँख की तरह,  \nचुपचाप बाहर की ओर देखती है।",
+  "poem_id": "MV++_0563",
+  "poem_title": "Band Darwaze",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2ce942bdf603641167437a4772dffef874d24b01272c84db309f508f429947ea",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0563.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Closed doors, silent walls,  \nDeep silence fills the home’s halls.  \nAs if every echo has been lost,  \nOr time has halted at some cost.\n\nNo knocks are heard on doors here,  \nEvery sound fades, swallowed by fear.  \nEach window, like a stranger’s eye,  \nSilently gazes at the sky.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:39:10.359917+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4e387a045b2b70682a3fea2f665af93f966eace5cdd7c6a75fce4d06cb6c6bec",
+        "response_hash": "f8ae3697bbadbb1160076a74fb12c6a6555a35ab95a6becd828caf702c0ee2dc"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dbe7866031051a783d7cdd8f24e5478cc9a671d15653201a0ea74a70e77706b4",
+        "response_hash": "1e2cf23b284321925f89257719b4f3730fa4760fa7f7c9ffb443f978ab6b35d8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa0e683ef732f6e78317bc78633d0f4f7b2589dc4f80bcd0bbce02a039bf39db",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "65ac32a5439a669254a5ea8da82cecb862cb05d0a5871d15fc8232aa64049b95",
+        "response_hash": "37e3519d89e75853dbe9e4fa48c2a2fbf2ca4e14b9fe5df712c51a8705c2ff38",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4621833f053cbba79c9d9baa99d9f9f37d7e09acd85fdfa03a2672c76235f421",
+        "response_hash": "58d4b642b910a3b2735389edf6126b829368c7c54f31d48d47e5f699bf396ce4",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ddc8233ae3c64e10b594570ffe9a9dd1a17798a076af8dba146d3502b1d5673a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "27955e6a1de4fc44bb3b4d77f972590dc52b6344f60602af03acac6074a1dd15",
+    "translation_sha256": "c820c16c52dde1f985ccd8422fada14dabc42b6273ddf0f528605b53a9952e89"
+  }
+}

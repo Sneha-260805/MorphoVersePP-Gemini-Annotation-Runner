@@ -1,0 +1,329 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A dense, modern street market with colorful canopies and diverse crowds",
+          "A traditional rural or semi-urban mela with temporary stalls and lights"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional Indian fair, gathering, or festival market, used here metaphorically to describe a dense, bustling crowd of faces.",
+        "line_ref": "L5",
+        "negative_confusions": [
+          "A formal Western carnival with rollercoasters and ferris wheels",
+          "An empty, sterile modern shopping mall"
+        ],
+        "preserved": true,
+        "romanization": "mele",
+        "source_span_original": "मेले",
+        "source_span_translation": "fair",
+        "stanza_index": 2,
+        "term": "मेले",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A bustling, colorful traditional Indian market or fairground",
+          "Crowds of people moving through stalls",
+          "Vibrant, festive atmosphere contrasting with a solitary, quiet figure"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A steady, quiet exploration of urban alienation and existential loneliness that remains unresolved from beginning to end.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The paths of life or the physical streets feel completely empty and devoid of meaningful human connection.",
+            "acceptable_visual_variants": [
+              "A single long, empty road under a twilight sky with long shadows.",
+              "A quiet alleyway with closed doors and windows, devoid of any activity."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "Silence is residing or living in the paths.",
+            "literalization_risk": "Showing a literal human-like figure named 'Silence' sitting on a road, which would look like a fantasy character rather than a feeling of isolation.",
+            "metaphor_mapping": {
+              "tenor_concept": "silence filling a physical space",
+              "transferred_attributes": [
+                "occupying space",
+                "dwelling",
+                "being permanently present"
+              ],
+              "vehicle_concept": "an inhabitant residing in a house"
+            },
+            "source_span_original": "रास्तों में सन्नाटा बसा हुआ",
+            "source_span_translation": "Silence pervades the paths",
+            "source_term": "रास्तों में सन्नाटा बसा हुआ",
+            "tenor": "The pervasive, heavy silence on the paths",
+            "vehicle": "A resident or inhabitant living in a place",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict an empty, dimly lit street stretching into the distance with no people, emphasizing vast, quiet space."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The internal rhyme and rhythmic flow of the Hindi couplet (aadmī / yahī) is lost in the English translation.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The passive, settled quality of 'basa hua' (literally 'settled' or 'dwelling' silence) is flattened into the more active English verb 'pervades'.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A large, overwhelming crowd of unfamiliar people.",
+            "acceptable_visual_variants": [
+              "A busy city crosswalk with many overlapping figures moving past a stationary man.",
+              "A crowded market street where the individual people blend into a colorful, busy background."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "A carnival or fair made up of human faces.",
+            "literalization_risk": "Depicting literal disembodied faces hanging on stalls or booths like carnival attractions, which would look surreal or horrific.",
+            "metaphor_mapping": {
+              "tenor_concept": "a sea of unfamiliar human faces in public",
+              "transferred_attributes": [
+                "density",
+                "variety",
+                "overwhelming sensory input",
+                "impersonality"
+              ],
+              "vehicle_concept": "a festive, crowded fairground"
+            },
+            "source_span_original": "चेहरों के मेले",
+            "source_span_translation": "fair of faces",
+            "source_term": "चेहरों के मेले",
+            "tenor": "A dense crowd of strangers",
+            "vehicle": "A bustling fair or carnival",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a dense, bustling crowd of people in motion, with their faces slightly blurred or indistinct to emphasize the protagonist's feeling of detachment."
+          },
+          {
+            "abstract_meaning": "Being deeply lost in complex, confusing, or unresolved thoughts.",
+            "acceptable_visual_variants": [
+              "A close-up of a man's face with his eyes closed and hand on his forehead in deep thought.",
+              "A man looking down at his own hands in a crowded space, completely ignoring his surroundings."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Tangled up physically in one's thoughts.",
+            "literalization_risk": "Showing literal ropes, threads, or spiderwebs wrapping around a man's head, which looks like a physical trap rather than a psychological state.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental preoccupation and confusion",
+              "transferred_attributes": [
+                "difficulty of escaping",
+                "intricacy",
+                "confinement"
+              ],
+              "vehicle_concept": "physical entanglement in threads or a web"
+            },
+            "source_span_original": "ख्यालों में उलझा हुआ",
+            "source_span_translation": "Lost in a web of his own thoughts",
+            "source_term": "ख्यालों में उलझा हुआ",
+            "tenor": "Confused and preoccupied mental state",
+            "vehicle": "A tangled knot or web",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the man sitting or standing with a pensive, downcast expression, perhaps with a soft, swirling abstract pattern or mist around his head to suggest deep contemplation."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'mela' as 'fair' loses the cultural resonance of a massive, bustling, festive Indian gathering, which contrasts sharply with the man's silence ('gumsum').",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The wordplay and structural parallel of 'apne aap mein' (busy in themselves) and 'apne khyaalon mein' (tangled in his own thoughts) is less pronounced in the English rendering.",
+            "where": "L6-L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The oppressive, exhausting, and overwhelming pressure of being surrounded by a dense crowd.",
+            "acceptable_visual_variants": [
+              "A high-angle shot of a man compressed tightly between moving shoulders in a crowded street, looking overwhelmed.",
+              "Using warm, saturated, slightly distorted color tones for the crowd surrounding a pale, isolated protagonist."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "The physical heat or scorching warmth radiated by a crowd.",
+            "literalization_risk": "Showing literal flames or red heat waves rising from people's bodies, which makes it look like a supernatural or physical fire hazard.",
+            "metaphor_mapping": {
+              "tenor_concept": "the oppressive atmosphere of a dense crowd",
+              "transferred_attributes": [
+                "discomfort",
+                "exhaustion",
+                "causing thirst or depletion"
+              ],
+              "vehicle_concept": "intense physical heat or sun"
+            },
+            "source_span_original": "भीड़ की ये तपिश",
+            "source_span_translation": "The heat of the crowd",
+            "source_term": "भीड़ की ये तपिश",
+            "tenor": "The overwhelming and suffocating psychological pressure of a crowd",
+            "vehicle": "Scorching heat or thermal warmth",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the protagonist looking visibly exhausted, wiping sweat from his brow or loosening his collar while surrounded closely by a dense, blurry crowd."
+          },
+          {
+            "abstract_meaning": "A deep emotional longing for companionship, understanding, or connection.",
+            "acceptable_visual_variants": [
+              "A man standing alone under a streetlamp, looking wistfully at a couple walking away hand-in-hand.",
+              "A solitary figure looking out of a window at a busy street, capturing a sense of yearning."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L10",
+            "literal_meaning": "The physical sensation of needing water to drink.",
+            "literalization_risk": "Showing a man desperately searching for a glass of water or clutching an empty canteen, which misleads the viewer into thinking he is physically dehydrated in a desert.",
+            "metaphor_mapping": {
+              "tenor_concept": "loneliness and the urgent need for emotional connection",
+              "transferred_attributes": [
+                "pain of deprivation",
+                "urgent desire for relief",
+                "growing stronger over time"
+              ],
+              "vehicle_concept": "dehydration and the urgent need for water"
+            },
+            "source_span_original": "प्यास को",
+            "source_span_translation": "thirst",
+            "source_term": "प्यास",
+            "tenor": "Emotional longing for human connection",
+            "vehicle": "Physical thirst",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the man looking longingly at a distant group of friends talking and laughing, highlighting his emotional isolation."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The physical intensity of 'tapish' (scorching heat/burning sensation) is translated as the more generic 'heat', reducing the visceral discomfort of the crowd's presence.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The exact repetition of the opening refrain loses its original poetic meter and rhyme scheme in the English translation.",
+            "where": "L13-L14"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound sense of isolation and thirst for genuine connection experienced by an individual lost within a crowded, indifferent society."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "भीड़ में एक अकेला आदमी,\nअपने आप से पूछता है यही।\nरास्तों में सन्नाटा बसा हुआ,\nसफ़र में सहयात्री नहीं कहीं।\n\nचेहरों के मेले में गुमसुम खड़ा,\nअपने ख्यालों में उलझा हुआ।\nहर कोई व्यस्त अपने आप में,\nशायद वो भी है, मगर अकेला बहुत।\n\nभीड़ की ये तपिश कुछ नहीं देती,\nबस और बढ़ा देती है प्यास को।\nक्या है तलाश इस आदमी की?\nक्या वो पाएगा कोई अपने जैसा?\n\nभीड़ में एक अकेला आदमी,\nअपने आप से पूछता है यही।",
+  "poem_id": "MV++_0599",
+  "poem_title": "Bheed Mein Akela Aadmi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e0aa38dfdb33607bcc2bc7b08e5971b0cf6c979b8c5ca615c7dee4822ff6f1b0",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0599.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The lonely man in the crowd,\nAsks himself the same question.\nSilence pervades the paths,\nWith no companion on his journey.\n\nStanding muted amidst a fair of faces,\nLost in a web of his own thoughts.\nEveryone is busy with themselves,\nPerhaps he is too, yet so alone.\n\nThe heat of the crowd gives him nothing,\nOnly heightens his thirst.\nWhat is this man searching for?\nWill he find someone like himself?\n\nThe lonely man in the crowd,\nAsks himself the same question.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:44:23.378977+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "57ac97a80aae232e3dc2219f03ce5a5a66762e2dcc5817d2f5a58fa8e9d2fa5b",
+        "response_hash": "bff84c48e7f20bfa4ade6eb494f3fcc93de43b3a5cd7c196ff38cd6e5743814c",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9ed9aabf969090368e7e7c470971642f654d001089adca3d623d52f9be144120",
+        "response_hash": "742beb554aa822f0ab720d54e4d1a0963e3d70a5e4b28475cea483abeadeecac",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "af5d1078139c57ed7fdba4616a975d44af125980a1fe629ff153fe0c071a8b02",
+        "response_hash": "31f11399cdc3845e92ecd1fe49e6304d132ba8cd13374cb7d632bec5a795ae4f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "46252fc99b26d1d284c7a05eba790cd64d52c2ab2121b5828917a1f07fd35c6c",
+        "response_hash": "4efc75d1a758be2fc5e28ce589dde00882b7ba406bbcb15140a385e563e29550",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9ada2d0bc7327e03725d43b2d69b42b67f2d73342e1c50abcdc7bf589d56e8e5",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d2102c913d3bccce9021c4cf0972f0929e8c937af9e717cf8022a62afce3b060",
+    "translation_sha256": "b594448e48d704fd1a5ec9d85d6cd688fb0bb0b96602ff20fe181a402597d5cb"
+  }
+}

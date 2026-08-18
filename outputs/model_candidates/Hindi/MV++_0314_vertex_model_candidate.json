@@ -1,0 +1,240 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contentment and peace to deep belonging",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The house, though physically small, feels incredibly spacious, welcoming, and emotionally boundless because of the love and warmth it contains.",
+            "acceptable_visual_variants": [
+              "A small house with open doors and windows radiating warm light that gently forms a heart shape in the night sky",
+              "A cozy interior of a small room filled with warm light and comfortable, welcoming details that evoke a sense of infinite comfort"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "As physically vast as a heart",
+            "literalization_risk": "Drawing a literal giant anatomical heart next to a house would look bizarre and medical rather than warm and poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional capacity of a home",
+              "transferred_attributes": [
+                "boundlessness",
+                "warmth",
+                "capacity to hold love"
+              ],
+              "vehicle_concept": "vastness of a heart"
+            },
+            "source_span_original": "दिल के जितना विशाल",
+            "source_span_translation": "as vast as my heart inside",
+            "source_term": "दिल के जितना विशाल",
+            "tenor": "The emotional capacity and welcoming warmth of the small house",
+            "vehicle": "The vastness of a heart (metaphorically representing boundless capacity for love and emotion)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a cozy, small house glowing with warm, golden light from within, expanding outward into a soft, heart-shaped aura or silhouette in the background."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The experiences of joy and sorrow are deeply intertwined and permanently connected to the physical space of the home.",
+            "acceptable_visual_variants": [
+              "A warm interior scene showing a shelf with framed photos representing both happy and reflective, somber family moments side-by-side",
+              "Two different colored ribbons gently intertwined around a central pillar of the house"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Moments of happiness and sadness are physically tied or bound together",
+            "literalization_risk": "Showing literal ropes or chains binding abstract concepts or people could look like captivity or restraint rather than emotional connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional connection and inseparability of memories",
+              "transferred_attributes": [
+                "closeness",
+                "permanence",
+                "intertwined nature"
+              ],
+              "vehicle_concept": "physical binding/tying"
+            },
+            "source_span_original": "सुख-दुख के पल बंधे हैं",
+            "source_span_translation": "moments of joy and sorrow bind",
+            "source_term": "सुख-दुख के पल बंधे हैं",
+            "tenor": "The emotional memories of joy and sorrow being inseparable and anchored to the home",
+            "vehicle": "Objects tied or bound together with a cord or knot",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a collage of warm memories (laughter, comforting someone in tears) softly overlapping or woven together like threads in a tapestry inside the home."
+          },
+          {
+            "abstract_meaning": "The home is a place where happiness has settled down and permanently resides.",
+            "acceptable_visual_variants": [
+              "A cozy corner of the house with sunlight streaming in, illuminating simple, joyful everyday objects like a steaming cup or a book",
+              "Soft, glowing golden particles or light settling comfortably over the living space"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A camp or temporary settlement of happiness",
+            "literalization_risk": "Showing a literal campsite or military-style camp inside a house would confuse the domestic setting of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "abundant presence of an emotion",
+              "transferred_attributes": [
+                "dwelling",
+                "presence",
+                "gathering place"
+              ],
+              "vehicle_concept": "settlement/camp"
+            },
+            "source_span_original": "खुशियों का डेरा",
+            "source_span_translation": "A haven of happiness",
+            "source_term": "खुशियों का डेरा",
+            "tenor": "The constant presence of joy and happiness in the household",
+            "vehicle": "A camp, tent, or settlement (dera)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a lively, warm domestic scene filled with symbols of joy, such as warm light, blooming indoor plants, or soft, cheerful colors."
+          },
+          {
+            "abstract_meaning": "The home is a sanctuary where hopes and aspirations dwell and find shelter.",
+            "acceptable_visual_variants": [
+              "A window sill with a small, thriving green sprout reaching toward the morning sun",
+              "A warm, protective hand-like shadow of the roof sheltering soft, glowing lights inside the house"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "A nesting place or shelter of hopes",
+            "literalization_risk": "Showing literal birds or nests inside the living room might look like an animal infestation rather than a poetic sanctuary.",
+            "metaphor_mapping": {
+              "tenor_concept": "nurturing environment for thoughts",
+              "transferred_attributes": [
+                "safety",
+                "dwelling",
+                "nurturing"
+              ],
+              "vehicle_concept": "nest/shelter"
+            },
+            "source_span_original": "उम्मीदों का बसेरा",
+            "source_span_translation": "a shelter of hope I find",
+            "source_term": "उम्मीदों का बसेरा",
+            "tenor": "The nurturing environment of the home that fosters hope and future dreams",
+            "vehicle": "A bird's nest or animal's shelter (basera)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict soft, warm light cradling small, glowing star-like sparks (representing hopes) inside a cozy room, or a gentle window view showing a bright dawn breaking outside."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'डेरा' (dera) and 'बसेरा' (basera) as 'haven' and 'shelter' loses the specific cultural nuance of temporary camps, settlements, or nesting sites, which contrasts beautifully with the permanent 'ghar' (home).",
+            "where": "L6-L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'my ultimate care' to rhyme with 'anywhere', which is not present in the original Hindi text 'क्योंकि यही है मेरा असली ठिकाना' (because this is my true/real abode).",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The simple, modest home as the ultimate sanctuary of emotional warmth, memories, and belonging."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मेरा छोटा सा घर,  \nजिसमें बसता है मेरा संसार।  \nन ज्यादा बड़ा, न बहुत छोटा,  \nपर दिल के जितना विशाल।  \n\nजहां सुख-दुख के पल बंधे हैं,  \nखुशियों का डेरा,  \nऔर उम्मीदों का बसेरा।  \n\nमेरा छोटा सा घर,  \nजिसे छोड़कर कहीं न जाऊं,  \nक्योंकि यही है मेरा असली ठिकाना।",
+  "poem_id": "MV++_0314",
+  "poem_title": "Mera Chhota Sa Ghar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cc1f58b952f36019c43d2cf80260b5366523a0985c84ec997706dade4e4edc3e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0314.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "My little house,  \nWhere my world resides.  \nNot too big, not too small,  \nBut as vast as my heart inside.  \n\nWhere moments of joy and sorrow bind,  \nA haven of happiness,  \nAnd a shelter of hope I find.  \n\nMy little house,  \nI wouldn't leave it for anywhere,  \nFor this is my true abode, my ultimate care.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:11:43.266882+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d569f4c6ac1e94b9522a346a322b6f285bb07a5ee82d3f431c7d61887d41eab4",
+        "response_hash": "236f47408e181f14d9ad322cde767db6ba3a1a4744e36861727c9d898df0470e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9dd7f98eae087c25d99e36a72eb6432be6e08ec48f2ab47d5f2248c45722b6f3",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3edb4977d1ddd6f669f3b0bfda89b6f85314a8d85e66f0e52be1188ae720e17e",
+        "response_hash": "25efdae91b6237c0fa5fe3babb35abf8db7369de3bede6648ab630c017e85fb0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "294f0ae5214bebce34cfa3a86e0e089a4f15bfa35a81145dee7b08b617af1a60",
+        "response_hash": "61a86ead2795a80005d07196faeebcc62ee9a1c0b45d441f9e694647aa5693ed",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "56a5a6ab7cf2dcececd0934b4cb1dbd5d295222bd19c6022179d80104d18d44f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3ec040237c2ddc427b854e12ea65a76e93eef23d6f5c5d0bf8d2b07b5cef8d7a",
+    "translation_sha256": "3681920c4746a5ca9c8732c362deb3f75b811505b9753d63fedd6b7c2f0aaf79"
+  }
+}

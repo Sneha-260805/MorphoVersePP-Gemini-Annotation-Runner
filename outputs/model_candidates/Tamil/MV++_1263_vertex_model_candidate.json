@@ -1,0 +1,209 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A young Tamil girl being lovingly addressed by a parent or guardian",
+          "A symbolic representation of a beloved feminine presence or divine child"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A deeply intimate, culturally specific Tamil term of endearment popularized by the poet Subramania Bharati, representing a beloved child, lover, or the divine feminine/Krishna in a highly personalized, affectionate form.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic romantic partner without the specific maternal/paternal or devotional tenderness implied by Bharati's Kannamma",
+          "A standard deity figure in formal temple iconography"
+        ],
+        "preserved": true,
+        "romanization": "Kannamma",
+        "source_span_original": "கண்ணம்மா",
+        "source_span_translation": "Kannamma",
+        "stanza_index": 1,
+        "term": "கண்ணம்மா",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A beloved child or feminine figure being addressed with deep affection",
+          "Often associated with a young girl or a divine child in Tamil cultural contexts"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and anxiety to deep devotion",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the deep cultural resonance of 'Kannamma' (a multi-faceted representation of the divine/beloved in Bharati's poetry) and the rhythmic, musical lilt of the Tamil original.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An affectionate address to a beloved child or dear one, expressing their innocence, smallness, and precious nature.",
+            "acceptable_visual_variants": [
+              "A parent gently holding a small child's hand in a warm, domestic setting",
+              "A close-up of a child laughing with a soft, warm light surrounding them"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Tiny little parrot",
+            "literalization_risk": "An illustrator might literally draw a green parrot instead of depicting a human child or beloved person, which would obscure the human relationship and affection.",
+            "metaphor_mapping": {
+              "tenor_concept": "a beloved, innocent child or dear person",
+              "transferred_attributes": [
+                "smallness",
+                "innocence",
+                "preciousness",
+                "bringing joy"
+              ],
+              "vehicle_concept": "a small, precious, and beautiful bird"
+            },
+            "source_span_original": "சின்னஞ்சிறு கிளியே",
+            "source_span_translation": "little parrot",
+            "source_term": "சின்னஞ்சிறு கிளியே",
+            "tenor": "A beloved child or dear one (Kannamma)",
+            "vehicle": "A tiny, delicate parrot",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a loving guardian or parent looking affectionately at a small, joyful child, perhaps with a subtle, soft-focused artistic overlay or motif of a small bird in the background to bridge the metaphor."
+          },
+          {
+            "abstract_meaning": "An affectionate term of endearment comparing the beloved to a sweet, cherished little sparrow.",
+            "acceptable_visual_variants": [
+              "A child playfully hopping or dancing, embodying the lively spirit of a sparrow",
+              "A tender embrace between a caregiver and a small child"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Darling sparrow",
+            "literalization_risk": "An illustrator might draw a literal sparrow, losing the deep human emotional connection and parental/romantic tenderness of the address.",
+            "metaphor_mapping": {
+              "tenor_concept": "a beloved, cherished child or dear person",
+              "transferred_attributes": [
+                "cuteness",
+                "smallness",
+                "liveliness",
+                "dearness"
+              ],
+              "vehicle_concept": "a small, active, and endearing bird"
+            },
+            "source_span_original": "செல்லக் குருவிக்கே",
+            "source_span_translation": "sweet sparrow",
+            "source_term": "செல்லக் குருவிக்கே",
+            "tenor": "A beloved child or dear one (Kannamma)",
+            "vehicle": "A darling, small sparrow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a child playing happily or being embraced, maintaining the focus on the human subject while using warm, gentle colors that evoke the cozy, lively nature of a small bird."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic, musical, and deeply affectionate quality of the reduplicative adjective 'chinnanchiru' (meaning tiny/little) and the rhythmic repetition of the name 'Kannamma' across lines 1-3 are flattened in the English translation. Additionally, the specific cultural and emotional resonance of 'Kannamma' (a term of endearment combining 'Kannan' / Krishna with 'amma' / mother, used here for a beloved child) is lost as it is treated as a simple proper name.",
+            "where": "L1-L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The dative suffix '-ukke' in 'kuruvikke' (to the sparrow) is simplified to a possessive/direct address 'My sweet sparrow' in English, losing the specific grammatical nuance of the Tamil phrasing.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The intense, anxious love and devotion of a seeker or lover addressed to Kannamma, represented through endearing terms of nature."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].line_ref",
+      "issue": "The cultural entity 'கண்ணம்மா' (Kannamma) occurs in lines L1, L2, and L3 of the original poem, but the line_ref only lists 'L1'. It should list all occurrences or the full range 'L1-L3' to be consistent with the text and the translation loss notes.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "சின்னஞ்சிறு கிளியே கண்ணம்மா,  \nசெல்லக் குருவிக்கே கண்ணம்மா,  \nஎன்னச் செய்கின்றாய் கண்ணம்மா  \nஎன் சிந்தை கலங்கிடுமே!",
+  "poem_id": "MV++_1263",
+  "poem_title": "Chinnanchiru Kiliye",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "462f19213910a6fb75c4b5df1dba40c6d2f105bfed45ba42da2bc1c70c744f05",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1263.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "O little parrot, my dear Kannamma,  \nMy sweet sparrow, dear Kannamma,  \nWhat are you doing, dear Kannamma?  \nMy mind is all shaken!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:14:54.537802+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7d4fc75b23f79026c6e4d9a3d8d0681b9f1335f48f5477cb5bb62dc3401fad6c",
+        "response_hash": "2158ad13b3bf958c40529a1974335ef3776fe8f3e7208997d321b53f541dcf53"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7e9cd8fb1473a114756bc6949320f777449703f76cbd612786634dcf9983771a",
+        "response_hash": "4994df1099b9c6c28eff25186f7ff173b8a002d691863379893fc43f88b46907",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fce93169fbfe9b2e3a999b7ecbeae140d50a0f138afa97e1663955a235640731",
+        "response_hash": "fbea0ade0a59516dd3fd63bdd52c3bf4517bd753bd466a2a9ac99be364c315d4",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e567127f7cd956f6789d816ab2cc6a4baf46edd5dc8e596414e951d0adaf0841",
+        "response_hash": "8a8cba17c53c2109b6b11c6d04e0668b6d138d2e73150e35599ffbfd06b29c92",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7bf86b1806a01b00deff8054dc0706ef21cddc83fc3c6b15b60746419b687249",
+        "response_hash": "5a1d82dd05bf05d0b22fd9728e84aba3f24ce53aef293b7dc0e0a22b189dbf74",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b26f476f9b251ab894e7785cd71c952fb915227fd66a9d2049c6c62d70ff9e0e",
+        "response_hash": "cd3cd5950e321b4c0784b21c4ba75adc56cce97d168edd64b2527a708bb784f8",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "89dc7114476be6d96a679a6c2f158fd7177a6a34f9ae5f32faba1336b86de3ec",
+    "translation_sha256": "b461af100ed8749bbcfe0449dc280f946865eed192977ec519557e64caa85a03"
+  }
+}

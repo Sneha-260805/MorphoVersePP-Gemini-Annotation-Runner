@@ -1,0 +1,232 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traveler wearing a saffron turban arriving at a home",
+          "A welcoming figure offering traditional hospitality"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional Rajasthani welcoming phrase and cultural archetype, literally meaning 'saffron beloved', deeply associated with hospitality and folk music.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic modern couple in Western clothing",
+          "A purely religious ascetic in saffron robes unconnected to hospitality"
+        ],
+        "preserved": true,
+        "romanization": "Kesariya Balam",
+        "source_span_original": "केसरिया बालम",
+        "source_span_translation": "Beloved in saffron",
+        "stanza_index": 1,
+        "term": "केसरिया बालम",
+        "translation_note": "Translated as 'Beloved in saffron', capturing the literal meaning of the iconic Rajasthani welcoming phrase.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A beloved figure or guest welcomed warmly",
+          "Saffron-colored attire or turban"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "Sweeping golden sand dunes under a bright sky",
+          "A vast desert horizon with sparse vegetation"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The traditional name for the desert region of Rajasthan, literally meaning 'land of the desert'.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "Lush green tropical forests",
+          "Generic rocky mountains without sand"
+        ],
+        "preserved": true,
+        "romanization": "Marudhara",
+        "source_span_original": "मरुधरा",
+        "source_span_translation": "Marudhara",
+        "stanza_index": 1,
+        "term": "मरुधरा",
+        "translation_note": "Preserved as 'Marudhara's soil' in the translation, maintaining the regional name.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Arid desert landscape",
+          "Golden sand dunes"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A decorative red and gold thread tied around a wrist",
+          "Traditional Rajasthani bangles (chooda) on a woman's wrist"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The auspicious state of marital bliss and the symbols associated with a married woman whose husband is alive.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A modern metallic watch or generic western bracelet",
+          "A plain black thread used for protection from evil eye"
+        ],
+        "preserved": false,
+        "romanization": "suhaag",
+        "source_span_original": "सुहाग",
+        "source_span_translation": null,
+        "stanza_index": 1,
+        "term": "सुहाग",
+        "translation_note": "Translated loosely as 'A bracelet of love' or 'forever we hold', losing the specific cultural concept of marital status and auspiciousness.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "Traditional bridal bangles or thread tied on the wrist"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing to sacred devotion",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation generalizes 'suhaag ree rego' (the mark/line of marital auspiciousness) to 'bracelet of love', losing the specific cultural and marital weight of 'suhaag' in Rajasthani tradition.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The enduring bond of marriage and love, represented as a sacred thread or line on the wrist.",
+            "acceptable_visual_variants": [
+              "A traditional red and yellow ceremonial thread tied around the wrist",
+              "An elegant traditional Rajasthani bangle or bracelet symbolizing marital status"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The line of marital bliss / auspiciousness",
+            "literalization_risk": "An illustrator might draw a literal physical line or scar on the skin rather than a symbolic sacred thread or bracelet.",
+            "metaphor_mapping": {
+              "tenor_concept": "marital commitment and love",
+              "transferred_attributes": [
+                "binding",
+                "protective",
+                "auspicious",
+                "visible marker of connection"
+              ],
+              "vehicle_concept": "auspicious thread/line on the wrist"
+            },
+            "source_span_original": "सुहाग री रेगो",
+            "source_span_translation": "A bracelet of love",
+            "source_term": "सुहाग री रेगो",
+            "tenor": "The emotional and spiritual bond of love and marriage",
+            "vehicle": "A line or thread of marital auspiciousness tied on the wrist",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a delicate, auspicious red or saffron thread (kalawa/moly) tied around a wrist, symbolizing marital commitment."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The cultural resonance of 'Kesariya' (saffron-colored, symbolizing chivalry, sacrifice, and welcome) is simplified to 'in saffron', losing its deep connection to Rajasthani hospitality and Rajput heritage.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The specific cultural concept of 'phero' (circumambulation/sacred wedding rounds) is translated generally as 'makes its stand', erasing the marital and sacred ritual imagery of love's binding circle.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'suhaag ri rego' (the mark/line of marital auspiciousness) as 'a bracelet of love' completely replaces the specific Hindu marital concept of 'suhaag' with a generic romantic ornament.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A welcoming invitation to a beloved, framing their union and the desert land as sacred and eternal."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[1].source_span_translation",
+      "issue": "The source_span_translation is set to 'Marudhara', but the translation text actually reads 'Marudhara's soil' in that context. The translation_note also refers to 'Marudhara's soil'.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Rajasthani",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "केसरिया बालम, पधारो म्हारे देश,  \nमरुधरा री धरती पर, प्रेम रा फेरो।  \nप्यार री पावन बण, रेती री माटी,  \nबांध्यो म्हारी कलाई पर सुहाग री रेगो।",
+  "poem_id": "MV++_1234",
+  "poem_title": "Kesariya Balam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e83d07be1d2acd05b1590f78481e5c34b19efc96da830ed0f71d4b9800aed25b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Rajasthani/MV++_1234.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Beloved in saffron, come to my land,  \nTo Marudhara's soil, where love makes its stand.  \nA holy bond in sands of gold,  \nA bracelet of love, forever we hold.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:11:54.632938+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ebbc75868fbbc66ac6028b016c87d0e08749a8c147eb36a12fe97f0e95e3e10d",
+        "response_hash": "0581d464c18f842fe0a2e1f9870719de79b997b5e7f217a45ebda2b9aefa860e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "41aad972a7499bcdafa3808a2a7e28d78f728d247d3dcf2125f634bb9d1e0f1a",
+        "response_hash": "15bb7f77611465c973fecdf9f96ccb0202c1c3f57e527c770383200ebd999817",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6b8347e70b6639dcd744436fddffaec8bd34b25b57c43c8ce265a247f3ef56b0",
+        "response_hash": "b06e02e656bed42b58b67779a831234bde1f1f3b0e71fbb82506e2443d8b96b0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "667e64f5697aba7326a63dc5aa90268646f23f8dfdfbd3db19b6f8ca364307f6",
+        "response_hash": "89f5c7bd2d5d34a8e9dd7813b8d788052f0e87b08e47c12e6cced02de66dc404",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1e7c8fd757ecdad4d7fe20c436c75221fdec03562fd37f58f319f10c4126405f",
+        "response_hash": "af28a17193be63ef588e403408a6405dddcd5b53fb06dd9eb52e7ce9e552974e",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6e18654c45c162d9b9ca8c69de79954c5555c1fdcd55b6d6f49ec470770c5d8d",
+    "translation_sha256": "e74998fb95876f2e4b7f63a992582ff7aaa829c8785661d52893a81c31f81d22"
+  }
+}

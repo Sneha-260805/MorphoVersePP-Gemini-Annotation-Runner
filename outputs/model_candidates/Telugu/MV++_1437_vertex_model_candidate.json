@@ -1,0 +1,187 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple rustic outdoor canopy decorated with traditional leaves and flowers",
+          "A more elaborate decorated wedding stage under a woven leaf roof"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional wedding canopy or marquee erected for Hindu marriage ceremonies, typically decorated with mango leaves, flowers, and banana stalks.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A modern Western-style fabric wedding tent or gazebo",
+          "A generic indoor stage with synthetic drapes and LED lights"
+        ],
+        "preserved": true,
+        "romanization": "pelli pandiri",
+        "source_span_original": "పెళ్లి పందిరి",
+        "source_span_translation": "wedding canopy",
+        "stanza_index": 1,
+        "term": "పెళ్లి పందిరి",
+        "translation_note": "Translated as 'wedding canopy', which captures the physical structure but loses the specific cultural resonance of a traditional Telugu pandiri constructed with coconut leaves and marigold garlands.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A temporary canopy structure supported by wooden or bamboo pillars",
+          "Decorated with fresh green mango leaves and yellow-orange marigold flower garlands",
+          "May feature banana plants tied to the entrance pillars"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "joyful recollection of a wedding and the beginning of a new life",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The traditional wedding canopy transformed into a performance stage, symbolizing how the speaker's marriage became a public platform or a dramatic setting for their life's journey.",
+            "acceptable_visual_variants": [
+              "A traditional decorated wedding canopy with subtle theatrical lighting or an elevated platform structure.",
+              "A split scene showing a wedding canopy on one side and a performance stage on the other, linked by the same central figure."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The wedding canopy became a stage",
+            "literalization_risk": "An illustrator might literally draw a theatrical stage with curtains replacing a traditional wedding canopy, which would lose the cultural context of the Telugu wedding pandiri.",
+            "metaphor_mapping": {
+              "tenor_concept": "wedding canopy and marital life",
+              "transferred_attributes": [
+                "public visibility",
+                "drama",
+                "performance",
+                "transformation of space"
+              ],
+              "vehicle_concept": "performance stage"
+            },
+            "source_span_original": "పెళ్లి పందిరి వేదికగా మారింది",
+            "source_span_translation": "The wedding canopy became a stage",
+            "source_term": "పెళ్లి పందిరి వేదికగా మారింది",
+            "tenor": "the wedding canopy (pelli pandiri) and the life/events unfolding under it",
+            "vehicle": "a performance stage (vedika)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a traditional Telugu wedding canopy (pandiri) decorated with flowers and mango leaves, subtly blending into or taking on the elevated, spotlighted appearance of a performance stage."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural nuance of 'pandiri' (a traditional temporary canopy made of palm leaves or bamboo, erected for auspicious ceremonies like weddings) is translated as 'canopy', which loses its distinct South Indian/Telugu cultural texture and visual specificity.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Telugu word 'abhiruchulu' (tastes, interests, or inclinations) is translated as 'desires', which shifts the meaning from personal inclinations/passions to a more generic emotional state.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The joyful celebration of marriage and the hopeful beginning of a new life journey"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries and a detailed loss_note should accompany any translation loss. When translation_loss is populated, translation_quality should typically be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' boolean is set to true, but the 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that it loses specific cultural resonance, which is slightly contradictory. Usually, 'preserved' should align with whether the cultural cue was fully preserved or not.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "నా పెళ్లి ఎంత సంతోషంగా జరిగిందో, ఊహించగలవా?\nనన్ను అంగడికి తీసుకెళ్లి, కొత్త బట్టలు కొనిపించారు.\nపెళ్లి పందిరి వేదికగా మారింది,\nఅక్కడ నవ్వులు, సంతోషం, పాటలు...\nనా మనసులో బలమైన అభిరుచులు,\nవీటితోనే నా జీవితం మొదలైంది.",
+  "poem_id": "MV++_1437",
+  "poem_title": "Naa Pelli",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f1d04ff064b36c7dbc532c5fc93bd73df52ce3e8ce266ef47e4b29a0da4b47bf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1437.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Can you imagine how joyful my marriage was?\nThey took me to the market, bought new clothes.\nThe wedding canopy became a stage,\nWith laughter, joy, and songs...\nIn my heart, strong desires grew,\nThis is how my life began.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:33:39.867486+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bc5fc355ef4389a4c7c7579516956c262ae7a58f98972ba0a8c39f74a1a6b674",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d832f909f3291bea2aeefa9132a1f514d515a2401aee201bdc2ac4643e1fab59",
+        "response_hash": "9f8b34d5524337bb4237c6df4a13437ab73528152e19e3f8bc7f1eb0f1190ff1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d4323d2341be4ed6f010c117e1da1e9d362b3ba22488fa9c85bf5927642ec149",
+        "response_hash": "e1598aefad43e9f384326635ecfcf86a28deec56f80df6c41263732a271720b5",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cdfbf8c96fabf26ec0d07324f19aac228516e502b11355d11a41b46fbf4b5b6e",
+        "response_hash": "21b2473187c435bd226e54da972346eac4d7178a13f33803e538810522ee4e78",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0943135c5ec53c8fc07ec488cf8c170869cd4f4458ba84ea37beed8d642a5933",
+        "response_hash": "7a1bd72befae55501906742eaf9e57363a3982eb29761889fa0ceb58a16860de",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5a9bddf1e3d23f3d428a0b16264b204f6189f12f909dd63bd2ee3582de35c53b",
+        "response_hash": "4139eb4125e0632b28c726fa69fb9cb71f1ece56c3b17cb94b008a0d3f921a26",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d75386f110b92624a525a0b1e450ba32249780fe5d091f39f48db5dda781ab0d",
+    "translation_sha256": "1417bd51bbca6379418435a3e8552e2981888d413f64a5dc7d2be5e04c67826e"
+  }
+}

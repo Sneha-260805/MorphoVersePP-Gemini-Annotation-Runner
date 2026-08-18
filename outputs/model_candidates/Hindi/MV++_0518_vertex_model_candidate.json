@@ -1,0 +1,241 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A vast, dark, intimidating sea under a heavy sky",
+          "An isolated rocky shore with waves crashing, evoking exile and confinement"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Historically refers to the colonial-era penal settlement in the Andaman Islands (Cellular Jail) where political prisoners were exiled across the ocean, symbolizing ultimate isolation, punishment, and colonial oppression.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A glass of dirty or black-colored drinking water",
+          "A generic modern swimming pool or urban harbor"
+        ],
+        "preserved": true,
+        "romanization": "kaala paani",
+        "source_span_original": "काला पानी",
+        "source_span_translation": "black waters",
+        "stanza_index": 1,
+        "term": "काला पानी",
+        "translation_note": "Translated literally as 'black waters' or 'black water'. While literally meaning dark water, in South Asian history it specifically refers to the Cellular Jail in the Andaman Islands and the sentence of exile across the ocean, carrying deep connotations of colonial imprisonment, isolation, and struggle.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Dark, deep ocean waters",
+          "A remote, isolated shoreline",
+          "Vague suggestions of confinement or shackles in the background"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "fear and confinement to resilience and endurance",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but loses the historical and cultural weight of the term 'Kaala Paani' (historically referring to the colonial penal settlement in the Andaman Islands, symbolizing exile and inescapable confinement) which is flattened to 'black waters'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of severe punishment, isolation, or seemingly insurmountable life struggles, historically associated with the colonial penal colony but used here as a broader symbol of deep adversity.",
+            "acceptable_visual_variants": [
+              "A vast, dark, turbulent ocean under a heavy sky",
+              "A solitary figure standing before a deep, dark, endless body of water"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "black water / dark ocean water",
+            "literalization_risk": "An illustrator might depict literal black ink or dark liquid in a glass, missing the historical and emotional weight of vast, punishing, isolating waters.",
+            "metaphor_mapping": {
+              "tenor_concept": "severe adversity, isolation, or life's punishing trials",
+              "transferred_attributes": [
+                "darkness",
+                "inescapability",
+                "punishing nature",
+                "vastness"
+              ],
+              "vehicle_concept": "dark, deep, inescapable ocean waters"
+            },
+            "source_span_original": "काला पानी",
+            "source_span_translation": "black waters",
+            "source_term": "काला पानी",
+            "tenor": "severe adversity, isolation, or life's punishing trials",
+            "vehicle": "dark, deep, inescapable ocean waters",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, dark, turbulent ocean under a heavy sky to evoke a sense of isolation and overwhelming scale."
+          },
+          {
+            "abstract_meaning": "The unvoiced, suppressed suffering and quiet endurance of deprivation or hunger.",
+            "acceptable_visual_variants": [
+              "A person sitting in a quiet, empty space with a hollow expression",
+              "A simple, empty bowl sitting in a dimly lit, quiet room"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "the silence of hunger",
+            "literalization_risk": "A literal depiction might show a person with their mouth taped shut next to food, which looks like a physical kidnapping rather than the internal, systemic quiet of starvation.",
+            "metaphor_mapping": {
+              "tenor_concept": "the unvoiced suffering of deprivation",
+              "transferred_attributes": [
+                "quietness",
+                "lack of expression",
+                "internalized pain"
+              ],
+              "vehicle_concept": "silence / quietness"
+            },
+            "source_span_original": "भूख की चुप्पी",
+            "source_span_translation": "the silence of hunger",
+            "source_term": "भूख की चुप्पी",
+            "tenor": "the unvoiced suffering of deprivation",
+            "vehicle": "silence / quietness",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person sitting in a quiet, empty space with a hollow expression, emphasizing isolation and lack of sustenance."
+          },
+          {
+            "abstract_meaning": "Evading the constant, oppressive surveillance and control of captors or restrictive circumstances.",
+            "acceptable_visual_variants": [
+              "A figure slipping quietly through long, sharp shadows cast by bars or heavy chains",
+              "A person moving stealthily past heavy, looming iron locks and chains in the dark"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "stealing the eyes of the shackles / grip",
+            "literalization_risk": "Drawing literal eyes on metal handcuffs or shackles can look cartoonish or like a fantasy monster, detracting from the serious tone of escaping oppression.",
+            "metaphor_mapping": {
+              "tenor_concept": "oppressive surveillance and control",
+              "transferred_attributes": [
+                "watchfulness",
+                "restrictiveness",
+                "unforgiving gaze"
+              ],
+              "vehicle_concept": "shackles with eyes that watch"
+            },
+            "source_span_original": "शिकंजे की आँखों को चुराकर",
+            "source_span_translation": "sneaking past the eyes of the shackles",
+            "source_term": "शिकंजे की आँखों को चुराकर",
+            "tenor": "oppressive surveillance and control",
+            "vehicle": "shackles with eyes that watch",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a figure slipping quietly through long, sharp shadows cast by bars or heavy chains, avoiding the light."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The historical and cultural resonance of 'Kaala Paani' (काला पानी), which refers specifically to the colonial-era penal settlement in the Andaman Islands (literally 'black water' or 'dark water' representing exile and inescapable punishment), is flattened into the literal translation 'black waters'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'अपनी यात्रा' (apni yaatra) as 'our journey' shifts the possessive pronoun 'apni' (which is reflexive and typically means 'one's own' or 'my own' depending on context) to a collective 'our', altering the individualistic tone of the personal struggle.",
+            "where": "L7"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'समझ के साथ' (with understanding) as 'Understanding' in the phrase 'Understanding the silence of hunger' changes the grammatical structure from a prepositional phrase of accompaniment/manner to a participle modifying the action, which slightly alters the relationship between 'understanding' and 'the silence of hunger'.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Overcoming the psychological and physical confinement of 'Kaala Paani' through inner resolve, endurance, and calm determination."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'loss_note' and 'translation_loss' describe the cultural weight of the term as lost or flattened. These values are internally inconsistent. If the cultural weight is lost/flattened, 'preserved' should be false.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "काला पानी, काला पानी, ये काला पानी है,\nकहाँ तक भागोगे तुम, कहां तक डरोगे तुम?\nहै विश्वास, तो यही संकल्प हो सका,\nतब, एक दिन, काला पानी मिटा सकते हो तुम।\nकिसी के बिना, किसी के साथ, समंदर के किनारे\nसमझ के साथ, भूख की चुप्पी, शिकंजे की आँखों को चुराकर।\nसमझ लो, यह काला पानी अपनी यात्रा है,\nजितना शीतल होगा, उतना दूर चल पाओगे तुम।",
+  "poem_id": "MV++_0518",
+  "poem_title": "Kaala Paani",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3914fca563ab7ed00557721a4e51707eb3cc0bf6a0252703ae1ad7d863e60c32",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0518.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The black waters, the black waters, these black waters,\nHow long will you run, how long will you fear?\nIf there is belief, then this resolution can be made,\nOne day, you can erase these black waters.\nAlone or with someone, by the shore of the ocean\nUnderstanding the silence of hunger, sneaking past the eyes of the shackles.\nUnderstand this, the black water is our journey,\nThe cooler it is, the farther you will go.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:33:51.575203+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "198ef26c9e84ccc89308dc795a0abc36fd66ec1dcdcd2af0485af40d059da485",
+        "response_hash": "3b322bf8fd5131e8ae9788813c3af606b0ad10c16bf1d73caa3a87883a8657d1"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a17b35488b432a078c95ad0028d3a3444314dd42a0fbf3f234e7cfe8bf12c4ae",
+        "response_hash": "3d05dde23eb768ca706eeeffc46fb5976d2b22d262f97c7583c6aa1b233b9dda",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9ad425e3e30ab481abd8d44ac1ef318b0585daa6b3c3c22c19714dc6fe05bd95",
+        "response_hash": "216b4a6c53ab0261f7a19bd7cb371302b4170f604567755ca637a460378e309a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bcfa57a0b8f6ae83c51eca30b3cc5179de85a7f2222b7291893bbf2b86f8f413",
+        "response_hash": "780008ff256b64331a92453530df2ef02a75bef85c86409177c17f8344cdcba8",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dc7913b590041ba2b2c312f5c5f730f92c769e4cc61e4f18343437ec52c3f3fc",
+        "response_hash": "d45f41714df18eccbef715f61ae6025f67938d84b47abf1c750bf4183d24d17d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f1c6ebe7cca154ef4078b7c3d29eef01468a0f5a373d48e68c1859db6758244a",
+        "response_hash": "bb2ae0dd3540661bd508bedaa4cbb6a91018678167aea3fd7c51bf1098bc5d65",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7dc9d6a81dfeded6911501b90951fa66b3079db47f42200ff5982b3ca5966dbe",
+    "translation_sha256": "292bdabd9113077f2c44da410fea369ddfc8db8c3ac5c88751e66f82c4f7faaa"
+  }
+}

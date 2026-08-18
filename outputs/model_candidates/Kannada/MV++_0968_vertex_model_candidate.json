@@ -1,0 +1,209 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "The word written elegantly in traditional Kannada calligraphy",
+          "A symbolic representation of the Kannada flag (yellow and red)"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The Kannada language and its associated regional, literary, and cultural identity of Karnataka.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "Confusing Kannada script with other Dravidian scripts like Telugu or Tamil",
+          "Using generic Devanagari script to represent Kannada"
+        ],
+        "preserved": true,
+        "romanization": "Kannada",
+        "source_span_original": "ಕನ್ನಡ",
+        "source_span_translation": "Kannada",
+        "stanza_index": 1,
+        "term": "ಕನ್ನಡ",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "The distinctive rounded characters of the Kannada script",
+          "A map outline of Karnataka state"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "reverence and love for the language and its music",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker feels a deep, resonant emotional connection to the language and its music, experiencing it as an internal melody.",
+            "acceptable_visual_variants": [
+              "A person listening with closed eyes, surrounded by soft, flowing golden lines representing music emanating from within",
+              "A stylized heart shape made of flowing musical staves and Kannada script characters"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "A sound/melody inside my physical heart",
+            "literalization_risk": "Showing a literal human heart with musical notes or instruments inside it, which looks like a medical anomaly or surreal horror rather than a poetic feeling.",
+            "metaphor_mapping": {
+              "tenor_concept": "deep emotional resonance of love and language in the soul",
+              "transferred_attributes": [
+                "resonance",
+                "sweetness",
+                "continuous presence",
+                "internalized beauty"
+              ],
+              "vehicle_concept": "music playing inside a chamber"
+            },
+            "source_span_original": "ನನ್ನ ಹೃದಯದಲ್ಲಿ ನಾದ",
+            "source_span_translation": "A melody in my heart",
+            "source_term": "ನನ್ನ ಹೃದಯದಲ್ಲಿ ನಾದ",
+            "tenor": "The speaker's deep emotional resonance and love for Kannada music",
+            "vehicle": "A musical sound or melody (naada) playing inside a physical space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a reflective, joyful posture with subtle, glowing abstract waves or musical patterns radiating from their chest area, blending into the surrounding atmosphere."
+          },
+          {
+            "abstract_meaning": "Love manifests itself and is expressed through the medium of music.",
+            "acceptable_visual_variants": [
+              "Warm light blending into elegant musical waves",
+              "Two hands holding a glowing musical note that radiates warmth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Love taking the physical shape or form of music",
+            "literalization_risk": "Attempting to draw 'love' as a physical entity morphing into musical instruments or notes, which can look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "an abstract emotion (love)",
+              "transferred_attributes": [
+                "expressiveness",
+                "beauty",
+                "harmony",
+                "audible presence"
+              ],
+              "vehicle_concept": "a tangible or audible form (music)"
+            },
+            "source_span_original": "ಪ್ರೀತಿಯನು ಸಂಗೀತದ ರೂಪದಲ್ಲಿ",
+            "source_span_translation": "Love takes the form of music",
+            "source_term": "ಪ್ರೀತಿಯನು ಸಂಗೀತದ ರೂಪದಲ್ಲಿ",
+            "tenor": "The abstract emotion of love",
+            "vehicle": "Music as a physical form or shape",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use abstract visual metaphors where warm, glowing light (representing love) seamlessly transforms into flowing musical waves or script."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'ಪ್ರೀತಿಯನು' (preetiyanu) as 'Love' loses the specific accusative case marker (-anu) which grammatically links 'love' as the direct object being expressed or shaped into the form of music, making the English phrasing feel slightly more passive or static than the Kannada original.",
+            "where": "L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific resonance of the word 'ನಾದ' (naada), which carries deep classical, spiritual, and philosophical connotations of sacred sound or primordial vibration in Indian musicology, is simplified to the more generic 'melody' in English.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The sacred and emotional connection to the Kannada language, its script, and its musicality as an expression of love."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a detailed loss_note should ideally accompany translation loss. Under the schema rules, translation_loss should be empty when translation_quality is fully faithful, or the quality should be marked as 'partial' to reflect the documented losses.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಕನ್ನಡ ಸಂಗೀತ,  \nನಿನಗೆ ಬರಹದಲ್ಲಿ ಸಿದ್ಧ,  \nನನ್ನ ಹೃದಯದಲ್ಲಿ ನಾದ,  \nಪ್ರೀತಿಯನು ಸಂಗೀತದ ರೂಪದಲ್ಲಿ.",
+  "poem_id": "MV++_0968",
+  "poem_title": "Kannada Sangeetha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c46fb2007b5cc00039239666e4ca54af0cb3ed3ed47060210a8d15627013c0f3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0968.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The music of Kannada,  \nCrafted in your script,  \nA melody in my heart,  \nLove takes the form of music.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:37:41.476109+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c2ebfdbc76cf5040ae2f7327c2e962ae71c66463ef957bef58a3bb1c18a8e42",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "814e388693fb889424149e9da10e8e4f4b3f66dd53f5caaf323a618ba6966c89",
+        "response_hash": "bb2025e6c67e73a2989c3cd066165addbf88dde5689630efebe151b0649aa847",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8b618c40b1e0ff309298e52f1f0bf3e6d0c1b9c7c37b94c595b48125b9ffd371",
+        "response_hash": "b79c5a9ba7667bcaf7a696a4d2bb62d9fd3076f2892ccb7eeb794395a814f918",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2344357f6a25dda66e11e0b613ef14e231c3aa4b1c8532653af15a4836f9896b",
+        "response_hash": "fd64cfa23e5f4fe721bf2d1d8b43210b00e89da0fe392d9082b432a6e78c1dab",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f8f32803fe5e32efdddd9d79d2884accb18e9d8af48bec401a853152fc5e8bb5",
+        "response_hash": "6338d9f3e0f67f2fe848bb608e5036deb30a2ab4b402b11b345805632f785999",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "14fac99237f94223803f590c5664b78b132e1fcee1da6c1ee8cdfc99dd430618",
+        "response_hash": "c3aa6ed844b31915348713d4ed15d5f435f947f8c902549af72432a500b4cac7",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bff6b456667c03cd24350894fd342b412bdd736a6f86f94ab10238a7e69c2d35",
+    "translation_sha256": "80af5730da6b270e557f9a34252a1d0e9e6b12a72f9c6c2fa664733070c73f03"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "Anxious self-questioning and fear transitioning into an internal call for self-expression and courage.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "fear",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker is feeling disconnected from their true self, lost in thought, or lacking self-awareness.",
+            "acceptable_visual_variants": [
+              "A person sitting quietly in a dim room looking at an empty chair opposite them",
+              "A close-up of a person looking into a mirror where the reflection is slightly blurred or looking away"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Where have you physically gotten lost?",
+            "literalization_risk": "An illustrator might depict a person wandering in a literal forest, maze, or crowded street, which misses the purely internal, psychological nature of the self-reflection.",
+            "metaphor_mapping": {
+              "tenor_concept": "psychological dissociation or lack of self-awareness",
+              "transferred_attributes": [
+                "absence",
+                "inability to be reached",
+                "disorientation"
+              ],
+              "vehicle_concept": "physical displacement or being lost"
+            },
+            "source_span_original": "कहाँ खो गए हो तुम?",
+            "source_span_translation": "Where have you gone?",
+            "source_term": "कहाँ खो गए हो तुम?",
+            "tenor": "The speaker's state of being mentally disconnected, distracted, or estranged from their own inner self",
+            "vehicle": "A person physically lost or missing in an unknown location",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a single reflective figure looking at their own faint, semi-transparent reflection or shadow, suggesting an internal search or division of the self."
+          },
+          {
+            "abstract_meaning": "The speaker's conscience, intuition, or deep inner thoughts are urging them to speak up and express themselves.",
+            "acceptable_visual_variants": [
+              "A person with closed eyes, surrounded by soft ripples or waves of light originating from within them",
+              "A silhouette of a person with a bright, glowing spark or flame positioned where the heart is"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7",
+            "literal_meaning": "An actual physical voice speaking from inside a person's body",
+            "literalization_risk": "A literal rendering might show a tiny person inside a chest or throat speaking, which would look comical or like a medical illustration rather than a poetic representation of intuition.",
+            "metaphor_mapping": {
+              "tenor_concept": "internal intuition or conscience",
+              "transferred_attributes": [
+                "verbal communication",
+                "guidance",
+                "urging action"
+              ],
+              "vehicle_concept": "an external speaker or guide"
+            },
+            "source_span_original": "तुम्हारे अंदर की आवाज़ कहती है",
+            "source_span_translation": "The voice within you says",
+            "source_term": "तुम्हारे अंदर की आवाज़ कहती है",
+            "tenor": "The speaker's internal conscience, intuition, or repressed thoughts",
+            "vehicle": "An independent person speaking or giving advice",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a contemplative pose with a soft, glowing light emanating from their chest or heart area, symbolizing the internal source of truth and guidance."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of the reduplicated adjective 'चुप-चुप' (chup-chup) as 'silent, silent' in English loses the natural colloquial rhythm and the specific nuance of ongoing, habitual, or quiet state of silence implied by Hindi reduplication.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The internal struggle to overcome self-doubt, fear of one's own thoughts, and the necessity of finding one's inner voice."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "language",
+      "issue": "The poem metadata lists the language as 'Kannada', but the original poem text ('खुद से एक बात करनी है...') and translation loss notes explicitly identify the language as Hindi. This is a critical language mismatch.",
+      "severity": "high"
+    },
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but there is a non-empty translation_loss list containing an entry for line L2. Under the completeness contract, a faithful translation should have an empty translation_loss list, or the quality should be adjusted to reflect the loss.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "खुद से एक बात करनी है,  \nतुम क्यों रहते हो चुप-चुप?  \nतुम क्या चाहते हो?  \nकहाँ खो गए हो तुम?  \nक्या तुम भी डरते हो,  \nअपने ही सवालों से?  \nतुम्हारे अंदर की आवाज़ कहती है,  \n\"बोलो, सब कुछ बोलो।\"",
+  "poem_id": "MV++_1088",
+  "poem_title": "Khud Se Ek Baat",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b66c91a403afcfdafa200cf0d7ec0ee65046d17f468274928cf4c6345deb5c66",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1088.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I have to have a word with myself,  \nWhy do you remain silent, silent?  \nWhat do you want?  \nWhere have you gone?  \nDo you also fear,  \nYour own questions?  \nThe voice within you says,  \n\"Speak, speak everything.\"",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:56:17.843131+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "39d55273adff711e1aa1fc94a7e0a2efd3ba5ac3ec30936ed0f74660faecc3ea",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5818fec855a3c872964e29677878ccb0167a42bc9b5d68d0bdc1524dd2e9c8ad",
+        "response_hash": "eec856fecfd8c534a110827218cc70528f08b4bed83228a5b95499103f8d4920",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9769b3fe30aec145c2f09af665fd38aa2ae60e3ac1a068f4b654a8407b2df584",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ca2db2d958ebefca24edf8827c3f3606bfbc8637cd19336105192e7aa4e6c92b",
+        "response_hash": "fd0d413cb47f85c31f5286705de5ec9fe987512d9aa337e8e97b38b4af939136",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1fd74c1a33fd6968fd7fa941cdfac9cb5399079177a3571609d5069721432772",
+        "response_hash": "71521104505f206a79aa6a2641c5ce528309dc61e04dc6977a6e040046384780",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "622195b94f8c8128d0a89b412521debf48f0d204edafbee02792bcd826d44cda",
+        "response_hash": "c4d27bd94b44170cbbe3563f6683dccb90c442f4386dad2640bd4e8d8c3a3798",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ac92942555272a7a972eebfc1bdd0db7d9e6368c6003ea53aa8a8644670b9352",
+    "translation_sha256": "a532a469246ae24c453e09cd2d9992cbcbb770b8328a1b4aba0666c46882f587"
+  }
+}

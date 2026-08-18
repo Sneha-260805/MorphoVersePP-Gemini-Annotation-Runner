@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "steady determination and hope",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker is actively pursuing their life goals and aspirations.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person walking towards a bright, rising sun.",
+              "A path winding through diverse symbolic landscapes representing different phases of life."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1-L2",
+            "literal_meaning": "Physically walking on a road to find a specific geographical destination.",
+            "literalization_risk": "An illustrator might depict a literal hiker walking down a dirt road with a backpack, missing the abstract sense of life's ambition and purpose.",
+            "metaphor_mapping": {
+              "tenor_concept": "pursuit of life goals",
+              "transferred_attributes": [
+                "movement forward",
+                "effort",
+                "having a target destination"
+              ],
+              "vehicle_concept": "physical journey on foot"
+            },
+            "source_span_original": "मंजिल की तलाश में,  \nचलते हैं हम।",
+            "source_span_translation": "In search of a destination,  \nWe walk.",
+            "source_term": "मंजिल की तलाश में,  \nचलते हैं हम।",
+            "tenor": "The pursuit of life goals, purpose, and personal achievements.",
+            "vehicle": "A physical journey on foot toward a physical destination.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person walking forward along a path that transitions from a simple road into a glowing horizon or symbolic representations of achievements."
+          },
+          {
+            "abstract_meaning": "Every small action or decision in life brings new experiences, and every change in direction brings new aspirations.",
+            "acceptable_visual_variants": [
+              "A winding path where each curve transitions into a different color palette or season.",
+              "A person walking on a path where their shadow or the background morphs to show different aspirations."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "Every physical step taken on a road starts an entirely new trip, and every physical bend in the road contains a literal dream.",
+            "literalization_risk": "Showing a road with literal sharp turns and a person taking literal steps might look like a simple traffic scene rather than a journey of personal growth.",
+            "metaphor_mapping": {
+              "tenor_concept": "daily actions and life transitions",
+              "transferred_attributes": [
+                "novelty",
+                "change of perspective",
+                "continuous discovery"
+              ],
+              "vehicle_concept": "steps and turns on a road"
+            },
+            "source_span_original": "हर कदम पर नया सफर,  \nहर मोड़ पर नया ख्वाब।",
+            "source_span_translation": "A new journey at every step,  \nA new dream at every turn.",
+            "source_term": "हर कदम पर नया सफर,  \nहर मोड़ पर नया ख्वाब।",
+            "tenor": "Small daily actions and major life transitions or decisions.",
+            "vehicle": "Steps and turns on a physical road.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a winding path where each bend reveals a different symbolic landscape or a different soft-focused dreamlike scene in the background."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation shifts from the collective first-person plural 'हम' (we) in line 2 to the singular possessive 'मेरा' (my) in line 6, which is a common stylistic shift in Hindustani poetry but loses the grammatical tension between collective journeying and individual purpose in English.",
+            "where": "L2-L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic parallelism and internal rhyme of Urdu-derived vocabulary ('मंजिल', 'सफर', 'ख्वाब', 'मकसद') which gives the Hindi text a distinct Ghazal-like lyrical quality is flattened into standard English prose.",
+            "where": "L1-L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The journey of life as a continuous pursuit of dreams and purpose"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing low and medium severity losses. Usually, 'faithful' implies minimal to no significant loss, or if losses are documented, the quality might be considered 'partial' depending on the severity. However, since the losses are stylistic/grammatical nuances, this is a minor consistency tension.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मंजिल की तलाश में,  \nचलते हैं हम।  \nहर कदम पर नया सफर,  \nहर मोड़ पर नया ख्वाब।  \nआगे बढ़ते रहना,  \nयही है मेरा मकसद।",
+  "poem_id": "MV++_0362",
+  "poem_title": "Manzil",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "326e7e136cd494545c1785216772e91af454b4ab6216bfbdfd872483a5211390",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0362.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In search of a destination,  \nWe walk.  \nA new journey at every step,  \nA new dream at every turn.  \nTo keep moving forward,  \nThat is my purpose.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:16:51.300875+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f09d961c75a044e1c1d85bcc8eded940835d66bf6ba9dce02c7cadedaef942e6",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f54647fc76323d9175aadb91429259d3d0fd68c694ed253acf74d1726d152302",
+        "response_hash": "2f5f95f2c9a49ab291c3f0cf41db293f56eac3712deae672d901c036775e9c0a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "22a44ee837451ada72b6b6bd179b16709f44d337f1237b218e9868f788ca7a90",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "abd9aad5743f87d63cf005172101298e998f1ca13bd17ef5b78088b890320356",
+        "response_hash": "25be8f0080abde41b0936264237c570c58ad986e0ca4fe29117deb5d4c00becd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2dac57b1b6ffbb1235bf4e37eb0560fc7e3c99aef158409ad6c467b30bce1efa",
+        "response_hash": "93751ee3edb0fe5e0a36b24efdd697f2b89dc5aa006660d0d4aea3bd26fec57c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9a3774534b3b435588b11df02a5a18d7b1946d4d3953966b64c23844b4640a21",
+        "response_hash": "f74e98c1424287e8b545add956af251785fa3f8e6f38b92ea421c27a5cfc8bd1",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "745d220f6b5845bb471a2de66d371c76045ec2c5605201d7fb2a6102672df1f0",
+    "translation_sha256": "85aa0fdea497f07d55b02bc1a6991d805a390808b9b9f775dca024cc9f269d81"
+  }
+}

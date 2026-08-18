@@ -1,0 +1,152 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet search for identity in sleep shifts into a gentle sense of loss as a dream slips away.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The state of confusion, uncertainty, or lack of clarity in one's thoughts, aspirations, or subconscious mind.",
+            "acceptable_visual_variants": [
+              "A person standing before a soft-focus, watercolor-like background where boundaries of objects are blurred.",
+              "A silhouette looking into a swirling, gentle mist where faint shapes of doors or paths are barely visible."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the mistiness/haze of dreams",
+            "literalization_risk": "Showing a literal thick fog or smoke machine in a bedroom, which might look like a fire hazard rather than a psychological state.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental confusion/elusiveness of self",
+              "transferred_attributes": [
+                "obscuring vision",
+                "making things hard to find",
+                "lack of sharp boundaries"
+              ],
+              "vehicle_concept": "physical mist/haze"
+            },
+            "source_span_original": "सपनों के धुंधले में",
+            "source_span_translation": "In the haze of dreams",
+            "source_term": "सपनों के धुंधले में",
+            "tenor": "A state of mental confusion, uncertainty, or the elusive nature of memory and self-identity",
+            "vehicle": "A physical mist or haze that obscures vision within a dream state",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a human figure looking at a soft, out-of-focus, semi-transparent landscape where shapes dissolve into one another, suggesting a dreamlike state."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'अपना आप' (apna aap) as 'ourselves' shifts the focus from a singular, deeply personal search for one's own essential self or identity to a plural collective search.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The noun 'धुंधले' (dhundhle) carries a specific sense of blurriness, dimness, or twilight-like obscurity, which is slightly flattened into the more atmospheric 'haze' in English.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The elusive search for self-identity within the quiet, hazy realm of sleep and dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing significant shifts in meaning (e.g., 'apna aap' to 'ourselves'). When translation loss is present, translation_quality should typically be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "नींद की खामोशी में,  \nहम ढूंढ रहे हैं अपना आप।  \nसपनों के धुंधले में,  \nएक सपना खो रहा है।",
+  "poem_id": "MV++_0770",
+  "poem_title": "Neend Ki Khaamoshi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5f2dac67c528454702b495bd5cb9e7a5cf9fc1324929c94881a8e713bfd1080a",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0770.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the silence of sleep,  \nWe are searching for ourselves.  \nIn the haze of dreams,  \nA dream is slipping away.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:09:38.779959+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "500da9b0a5820a75fc07a4b34d684861cfd48fde57126c15f5fd7e577bd247ec",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "855451a921bb4d16225190df78d935da494c446427af3f0870b3cc09073e1e75",
+        "response_hash": "26bfd48829700c70c11489f0e226370866a3585af3b27a2b892f46500808db68",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9032d0cda91f8050a75de54c9285083dc49f3f35362cbdd5a6ec1fa71d73aa71",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ec036a8c1b8eba63820a12c1cdadc58da31ee6df6e11e53343810728a46217a",
+        "response_hash": "9622cd4efb2880f871da910c01a950326b4a96dcaf007599f7a255010d468067",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "003681b805229b5c78bcacb69ea676db3b044faac2d42bf30259102fb79c84dc",
+        "response_hash": "97fabfa17f5ef035fd80c7a9033b7ed239d78e9ac1ffaa307d56be82215f5d73",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2f0efba7ff0c688ec6df7d496ecaf416f5929932f1802f0207987eaf3b52037a",
+        "response_hash": "af71d8f02b6bceb942da9dafd7b4480ec531bf62005c725bbec069652047be24",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ea55892eb61e6d3be4cf222d9b452871d0178e831cf27b20158832ae970ae260",
+    "translation_sha256": "a263c211216b9ab1af27f89c392d3abc284d9f01ad2bfb44730a7fea965e6e19"
+  }
+}

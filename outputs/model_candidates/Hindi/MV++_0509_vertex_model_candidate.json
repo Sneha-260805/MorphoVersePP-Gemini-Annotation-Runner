@@ -1,0 +1,254 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet introspection to hopeful celebration",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The constant presence of one's past, inner thoughts, or companion-like aspects of oneself that accompany them through life.",
+            "acceptable_visual_variants": [
+              "A person walking on a sunny path with a long, soft shadow stretching beside them",
+              "A silhouette of a person overlapping with a soft, stylized shadow on a wall"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "Every shadow walks along with you",
+            "literalization_risk": "An illustrator might draw a literal dark silhouette walking hand-in-hand with a person, which looks like a ghost or a separate entity rather than a natural shadow.",
+            "metaphor_mapping": {
+              "tenor_concept": "inseparable presence of inner self",
+              "transferred_attributes": [
+                "walking alongside",
+                "constant companionship"
+              ],
+              "vehicle_concept": "shadow walking as a companion"
+            },
+            "source_span_original": "हर साया संग चलता है",
+            "source_span_translation": "Every shadow walks alongside",
+            "source_term": "हर साया संग चलता है",
+            "tenor": "The constant, inseparable presence of one's inner self or past",
+            "vehicle": "A shadow walking as a companion",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a person walking in bright sunlight with their natural shadow cast clearly on the ground beside them, mimicking their posture."
+          },
+          {
+            "abstract_meaning": "The deep, hidden, or subconscious levels of human consciousness and thoughts.",
+            "acceptable_visual_variants": [
+              "Overlapping translucent waves of soft blue and golden light",
+              "A stylized silhouette of a head filled with deep, layered shades of color"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Every deep layer of the mind",
+            "literalization_risk": "Drawing a physical brain with literal geological or fabric layers inside it would look bizarre and overly anatomical.",
+            "metaphor_mapping": {
+              "tenor_concept": "subconscious mind",
+              "transferred_attributes": [
+                "depth",
+                "stratification",
+                "hidden layers"
+              ],
+              "vehicle_concept": "physical layers"
+            },
+            "source_span_original": "मन की हर गहरी परत",
+            "source_span_translation": "Each deep layer of the mind",
+            "source_term": "मन की हर गहरी परत",
+            "tenor": "The subconscious or deep levels of human thoughts and emotions",
+            "vehicle": "Physical layers or strata (like soil or fabric)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use abstract visual metaphors like overlapping translucent sheets of light or water depths to represent layers of consciousness."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation collapses the grammatical gender agreement of 'bharta hai' (masculine singular verb form) which agrees with the masculine noun 'man' (mind), rendering it as a passive/stative 'Feels filled' which loses the active, gender-marked aspect of the Hindi verb.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "New hopes and positive expectations beginning to grow, develop, and flourish in a person's life.",
+            "acceptable_visual_variants": [
+              "A close-up of fresh green shoots and small buds opening under morning sunlight",
+              "A person opening a window to let in bright sunlight, with potted plants blooming on the sill"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "New hopes bloom like flowers",
+            "literalization_risk": "Depicting literal flowers with the word 'hope' written on them, or human figures growing out of flower buds, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "hopes arising",
+              "transferred_attributes": [
+                "opening up",
+                "freshness",
+                "growth",
+                "beauty"
+              ],
+              "vehicle_concept": "flowers blooming"
+            },
+            "source_span_original": "उम्मीदें नई खिलती हैं",
+            "source_span_translation": "New hopes bloom",
+            "source_term": "उम्मीदें नई खिलती हैं",
+            "tenor": "Hopes arising and flourishing",
+            "vehicle": "Flowers blooming",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a person looking up at the morning sun with a bright, hopeful expression, surrounded by naturally opening flower buds in a garden."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'khilti hain' (plural verb) as 'bloom' and 'panapta hai' (singular verb) as 'flourishes', but loses the subtle rhythmic and phonetic resonance of the parallel structures 'khilti hain' and 'panapta hai' in the Hindi original.",
+            "where": "L6-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The feeling of complete fulfillment and realization of one's deepest desires and aspirations.",
+            "acceptable_visual_variants": [
+              "A person standing on a hilltop looking out over a vast, beautiful valley illuminated by a golden sunrise",
+              "A warm, glowing scene of a person looking at their hands or surroundings with a sense of wonder and peace"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L11",
+            "literal_meaning": "As if all dreams take physical form",
+            "literalization_risk": "Showing literal dream bubbles containing random objects (like cars or houses) solidifying into reality, which misses the emotional and poetic sense of inner peace.",
+            "metaphor_mapping": {
+              "tenor_concept": "profound sense of fulfillment",
+              "transferred_attributes": [
+                "becoming real",
+                "taking shape",
+                "visibility"
+              ],
+              "vehicle_concept": "dreams taking physical form"
+            },
+            "source_span_original": "जैसे सारे सपने साकार हों",
+            "source_span_translation": "As if all dreams come true",
+            "source_term": "जैसे सारे सपने साकार हों",
+            "tenor": "A profound sense of joy, clarity, and fulfillment in the present moment",
+            "vehicle": "Dreams taking physical shape or form",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, beautiful landscape bathed in golden light, evoking a dreamlike yet real and peaceful atmosphere."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'sakar hon' as 'come true' loses the literal Sanskrit-derived meaning of 'sakar' (taking concrete form / shape), flattening a visual metaphor of physical manifestation into a generic English idiom.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transformative power of light and hope in renewing the inner mind and outer world"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "उजालों की धूप में,  \nहर साया संग चलता है।  \nमन की हर गहरी परत,  \nजैसे रोशनी से भरता है।\n\nसूरज की हर किरण में,  \nउम्मीदें नई खिलती हैं।  \nआसमान की हर छांव में,  \nएक नया जीवन पनपता है।\n\nउजालों की इस धूप में,  \nहर रंग नया सा लगता है।  \nजैसे सारे सपने साकार हों,  \nइस अनोखी छवि के संग।",
+  "poem_id": "MV++_0509",
+  "poem_title": "Ujalo Ki Dhoop",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "dca889316d679301e7f0974b49d99013c3aab22d1e06d3320dec506781760deb",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0509.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the sunshine of brightness,  \nEvery shadow walks alongside.  \nEach deep layer of the mind,  \nFeels filled with light.\n\nIn every ray of the sun,  \nNew hopes bloom.  \nIn every shade of the sky,  \nA new life flourishes.\n\nIn this sunshine of brightness,  \nEvery color seems renewed.  \nAs if all dreams come true,  \nIn this unique scene.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:32:38.892540+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b10fa893028caf6874fbe43856c55cfc66438b80824f67ad63bb1210b2e1447c",
+        "response_hash": "0fda4f9477b908bb7643aee97a9678d515e6f1eca620ca454ce73c7733c0b0dd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "86e56883f59143ea157bc2dc4c5b13c73ca35a922f1d18d8f3a0a81b16b5de79",
+        "response_hash": "c2ee79c26daa2f879c8a0ada394c677598d01b09253c79497f4587b4970ad746",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ceea79870fff26f39b51393751162baa361caf220153faf8392b7435f534cd25",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3273a38979694ee8b36b210f5b13d13b7c0853ab1a609f578113fed5a9d2b641",
+        "response_hash": "de81bfe6f02be29a61b7ca0c4da1a77a6af88fbb06bb1e4265f7c55e27bf08b1",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ccf23e39c3dc578ab036116c4d87ba7933a25b523db6c90a26ca0930eb45baf",
+        "response_hash": "c46bc6aad7ee3192592dcfbb9cc114f3af0c2ac4daf4e6d24ab064f288cf47f1",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3e97c341d5e31da145fd3d17d3421c5472b2202c7877bf28eb30b795dbaa63d3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3110b3275a3c18690126565e049827c5acaed0e73cc77e9de6c8ec67d5057566",
+    "translation_sha256": "7e25c5af566d74319a28b50ab3e983c7b4ca1c85b72f5823d1940797ed098290"
+  }
+}

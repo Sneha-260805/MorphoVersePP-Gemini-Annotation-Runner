@@ -1,0 +1,224 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "From feeling trapped and surrounded by darkness to finding internal hope and resilience.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the subtle emphasis of the Hindi particle 'to' in 'हमेशा तो नहीं' (not forever, at least) is slightly flattened into 'won't last forever'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker feels completely trapped, facing insurmountable obstacles or a total lack of options in life.",
+            "acceptable_visual_variants": [
+              "A figure standing at a dead end facing a massive, blank wall.",
+              "An abstract representation of a person surrounded by intersecting lines that lead nowhere."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "All physical roads or pathways are blocked or closed.",
+            "literalization_risk": "An illustrator might draw a literal barricaded street or a closed highway, which misses the internal, psychological feeling of being trapped.",
+            "metaphor_mapping": {
+              "tenor_concept": "existential or situational hopelessness",
+              "transferred_attributes": [
+                "impassability",
+                "lack of options",
+                "feeling trapped"
+              ],
+              "vehicle_concept": "blocked physical pathways"
+            },
+            "source_span_original": "रास्ते बंद हैं सब",
+            "source_span_translation": "All roads are closed",
+            "source_term": "रास्ते बंद हैं सब",
+            "tenor": "A state of feeling trapped, hopeless, or lacking options in life",
+            "vehicle": "Blocked physical roads or pathways",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, abstract maze or a figure standing before towering, solid walls that block any forward movement, emphasizing the psychological scale of the barrier."
+          },
+          {
+            "abstract_meaning": "The speaker needs to find a solution, a way forward, or a sense of purpose amidst difficulties.",
+            "acceptable_visual_variants": [
+              "A figure stepping forward as a faint, luminous trail begins to form under their feet.",
+              "A single beam of light cutting through a dark space to reveal a narrow passage."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "To search for and locate a physical road or trail.",
+            "literalization_risk": "Showing a person looking at a map or searching in the dirt for a trail would make the search look physical rather than mental and emotional.",
+            "metaphor_mapping": {
+              "tenor_concept": "discovering a solution or hope",
+              "transferred_attributes": [
+                "direction",
+                "progress",
+                "escape from confinement"
+              ],
+              "vehicle_concept": "finding a physical path"
+            },
+            "source_span_original": "रास्ता\nखोजना है",
+            "source_span_translation": "find a path",
+            "source_term": "रास्ता\nखोजना है",
+            "tenor": "Finding a solution, hope, or a way forward in life",
+            "vehicle": "Searching for a physical path or trail",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a faint, glowing line or a subtle clearing appearing before a figure, symbolizing a newly discovered direction."
+          },
+          {
+            "abstract_meaning": "A period of despair, sadness, or difficult times.",
+            "acceptable_visual_variants": [
+              "A figure enveloped in dark, swirling mist that is starting to break apart.",
+              "A dark landscape where the very edge of the horizon shows a faint glimmer of dawn."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L6",
+            "literal_meaning": "The physical absence of light.",
+            "literalization_risk": "Simply drawing a night scene or a dark room might fail to convey the emotional weight of despair and hope.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional or situational despair",
+              "transferred_attributes": [
+                "obscurity",
+                "fear",
+                "coldness",
+                "temporary nature"
+              ],
+              "vehicle_concept": "physical darkness"
+            },
+            "source_span_original": "अंधेरा",
+            "source_span_translation": "Darkness",
+            "source_term": "अंधेरा",
+            "tenor": "Despair, sadness, or difficult life circumstances",
+            "vehicle": "Physical darkness",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use deep, heavy shadows surrounding a central figure, but show the shadows beginning to recede or thin out at the edges."
+          },
+          {
+            "abstract_meaning": "Inner hope, clarity, wisdom, or positive energy that comes from within oneself.",
+            "acceptable_visual_variants": [
+              "A figure whose silhouette is outlined in a warm, golden light that emanates from within them.",
+              "A small, glowing spark held gently in the open palms of a figure, reflecting light onto their face."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Physical illumination or light.",
+            "literalization_risk": "Drawing a person holding a literal flashlight or candle would look comical and miss the spiritual/emotional concept of inner strength.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner hope and resilience",
+              "transferred_attributes": [
+                "brightness",
+                "warmth",
+                "guidance",
+                "dispelling darkness"
+              ],
+              "vehicle_concept": "physical light"
+            },
+            "source_span_original": "रौशनी",
+            "source_span_translation": "light from within myself",
+            "source_term": "रौशनी",
+            "tenor": "Inner hope, resilience, clarity, or positive energy",
+            "vehicle": "Physical light or illumination",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm glow radiating directly from the chest or heart area of a figure, casting light on the immediate surroundings."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation collapses the reflexive pronoun 'ख़ुद को' (to oneself / for oneself) in L3 and 'ख़ुद से' (from oneself) in L8 into a more generic English phrasing, losing the precise grammatical nuance of the self acting as both the agent and the recipient of the search and the light.",
+            "where": "L3-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding inner light and a path forward when all external ways are closed."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रास्ते बंद हैं सब  \nफिर भी मन में  \nख़ुद को एक रास्ता  \nखोजना है।  \nहमेशा तो नहीं  \nहोगा अंधेरा,  \nइसी आशा में  \nख़ुद से रौशनी  \nचाहिए।",
+  "poem_id": "MV++_0521",
+  "poem_title": "Raaste Band Hain Sab",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d3d58b2695004bb31439b8eb3810b38c92bd474f7e719c549a5ded3acc67e316",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0521.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "All roads are closed  \nYet, within my mind,  \nI must find a path.  \nDarkness won’t last forever,  \nIn this hope,  \nI need light from within myself.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:34:08.951762+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b1809974d3bf11abaa45c551a33a3c40b77d409da0f572514d0c41e861966f06",
+        "response_hash": "f06932beb1a9ff2465569b5bbcfaef4710945e9ac45f1c363ef23ff91319e1ae"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3688a452150c39c501460dfc2d109d0273b86a90fcf2a6e4e309684635f9bf34",
+        "response_hash": "a2ddd5df0e765746ce95394ceea67c189cd61732703038f9257834f8b5bf82c4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7c872951f818b787d0851681efeb137538e76fb30430889e3ad9cca11047f892",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "93cc2763336323b3c60327e93f6edaf672b6155873e13b1a6ed4fb6fce6c717d",
+        "response_hash": "f06e65a5cb7170ffdb2c54e862fd7629f62dad3930fcd29a022de8f891b85de0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e487385ebd31135166d8d9026d77d9423b59fe654b72229882362ca48a67e4ac",
+        "response_hash": "aaa34341ae1cadcb38d1c6e6619f996b50d7620b2a2739809a11f3c680bd2cf5",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "47c45d385e2007764aa011d8552cc0349a150b34d3f9b964eaab829874094099",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "403e6d507e56cc012174e469be1efd54cfc9b401c78c6f648eb1d7b4ddc8f736",
+    "translation_sha256": "ad75db780bb7cf0075ba2b6709ceb8b0644b440b138f2f11987f12eb8fc8eb2d"
+  }
+}

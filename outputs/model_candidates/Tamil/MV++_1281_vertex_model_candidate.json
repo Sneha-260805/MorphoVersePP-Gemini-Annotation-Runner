@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet realization of shared identity and connection, moving from natural imagery to personal recognition.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning, but the agglutinative nature of Tamil suffixes (such as the dative and locative nuances in the original phrasing) is simplified into standard English prepositions.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The youth's pure, generous, or nurturing nature is compared to milk that brings gifts or nourishment.",
+            "acceptable_visual_variants": [
+              "An overflowing traditional clay pot of fresh white milk",
+              "A gentle, artistic stream of white milk blending into a soft, bright background"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "Like milk that gives a gift",
+            "literalization_risk": "An illustrator might literally draw a glass of milk holding a wrapped gift box, which looks comical and misses the poetic sense of pure, natural abundance.",
+            "metaphor_mapping": {
+              "tenor_concept": "a youth's generous and pure nature",
+              "transferred_attributes": [
+                "purity",
+                "nourishment",
+                "generosity"
+              ],
+              "vehicle_concept": "nourishing milk giving gifts"
+            },
+            "source_span_original": "பரிசை தரும் பாலைப் போல",
+            "source_span_translation": "Like the milk that gives gifts",
+            "source_term": "பரிசை தரும் பாலைப் போல",
+            "tenor": "the youth's generous or nurturing presence",
+            "vehicle": "milk that gives gifts",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a flowing stream of pure white milk or a vessel overflowing with milk in a warm, generous light, symbolizing natural abundance and purity."
+          },
+          {
+            "abstract_meaning": "The youth perceives the speaker as an exact reflection or mirror image of themselves, indicating deep spiritual or emotional alignment.",
+            "acceptable_visual_variants": [
+              "Two figures looking at each other with matching, symmetrical gestures",
+              "A figure looking into still water and seeing the other's face as the reflection"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "You think of me as a likeness/reflection",
+            "literalization_risk": "Drawing a literal physical mirror between two people might look too modern or clinical, losing the poetic sense of spiritual affinity.",
+            "metaphor_mapping": {
+              "tenor_concept": "deep emotional or spiritual alignment",
+              "transferred_attributes": [
+                "similarity",
+                "identity",
+                "perfect alignment"
+              ],
+              "vehicle_concept": "a mirror reflection"
+            },
+            "source_span_original": "என்னைப் போலி நினைக்கிறாய்",
+            "source_span_translation": "Of me as a reflection of yourself",
+            "source_term": "என்னைப் போலி நினைக்கிறாய்",
+            "tenor": "the deep mutual understanding or perceived identity between the youth and the speaker",
+            "vehicle": "a reflection or mirror image",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two figures facing each other with identical, serene postures or overlapping silhouettes, suggesting one is the spiritual reflection of the other."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The wordplay and phonetic resonance between 'paalai' (milk) in L2 and 'paalakane' (youth/child) in L3 is lost in translation.",
+            "where": "L2-L3"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The word 'neer' in L3 can mean 'water' or 'you' (respectful/formal), creating a poetic double meaning with 'paalai' (milk) and 'vellai' (white) that is flattened to 'you' in the translation.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The recognition of self in another, mirrored through the purity of nature and nurturing gifts."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "புது வெள்ளை மலை  \nபரிசை தரும் பாலைப் போல  \nபாலகனே, நீயும் நீர்  \nஎன்னைப் போலி நினைக்கிறாய்",
+  "poem_id": "MV++_1281",
+  "poem_title": "Puthu Vellai Malai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "77dd62c62fd43a78bac01f456617cf026903c06c7de3d8cab2aefe24678b7225",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1281.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The new white mountain,  \nLike the milk that gives gifts,  \nO youth, you too think  \nOf me as a reflection of yourself!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:17:05.021021+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ebb4a5ce5cd52089675cbb6ee1b3ef37956d3a563c568474dafe24b0b81a00fa",
+        "response_hash": "5c6d750b6467470cc8a66136c6b520eefe11b38036fbeb56f8130640e8c4f51a"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b79a7f811795c9bc1c446e6fbe0707de626e230a5e096ac8c6ab822ec32c130b",
+        "response_hash": "7f03519097c6750a176fbddbe6ff4c8ab5b2a9c628e3bed0c50537ddc86f24dc",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f75ca4e096720926768d8ddee11f96d7db325a4bf924d7db374bfeec9427ebb1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "429a5bf1d2b5d5afe5a71b3ef5ae5946eb457c2465a696a1c961579f97f98c1a",
+        "response_hash": "1ce718a333d7ad392df12399ca3f9fc62c1219a28e37ade0cda2b3e7c5aa0dc0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5a9c5fe32861154e0338f887f7e64219eb4626e4bb457365c20c2a653e8cd334",
+        "response_hash": "06162bf7d64c0626457317f780fd8fd18f9d72c1cc7acfb6e122fb64e4f5bebc",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a3ab8c0a8c0b988a5559c3881e9dc45f2efb9874657f4a9cd2af7ade32e8e590",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "e64abb7b5305dd4ea81eb92229e5b6bd34bd5a58d540effb877fbb9ab279e3ae",
+    "translation_sha256": "35a30fcf9aebf85136a1d5d4a322ce8ee6c54843e9fab72e968e0d9f4a4e4e0c"
+  }
+}

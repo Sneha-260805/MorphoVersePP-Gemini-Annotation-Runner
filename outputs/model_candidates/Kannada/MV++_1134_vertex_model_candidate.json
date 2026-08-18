@@ -1,0 +1,223 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple traditional head-wrap worn by an elderly woman",
+          "A heavy cotton cloth draped over the head and shoulders to ward off the cold"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional head-wrap, turban, or heavy shoulder cloth worn in Karnataka and broader South India, often associated with elders or formal attire.",
+        "line_ref": "L2",
+        "negative_confusions": [
+          "A modern western winter scarf",
+          "A formal royal Mysore Peta turban"
+        ],
+        "preserved": true,
+        "romanization": "rumaalu",
+        "source_span_original": "ರುಮಾಳು",
+        "source_span_translation": "scarf",
+        "stanza_index": 1,
+        "term": "ರುಮಾಳು",
+        "translation_note": "Translated as 'scarf', which loses the specific regional connotation of a traditional head-wrap or heavy cloth drape.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A traditional folded head-wrap or heavy cotton/silk cloth draped over the head or shoulders",
+          "Often textured or with simple borders"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "playful familiarity to warm, reflective acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but the rhythmic, colloquial repetition of 'ba ba' and the specific regional texture of 'rumalu' (headscarf/turban) are simplified.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The playful, mischievous expression visible in her eyes.",
+            "acceptable_visual_variants": [
+              "A close-up of expressive, smiling eyes with laugh lines",
+              "A slightly wider view of an old woman with a subtle, knowing smirk and bright eyes"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Mischief is in the eye of the eye",
+            "literalization_risk": "Showing literal tiny figures of mischief or play inside a physical eyeball, which would look bizarre and creepy.",
+            "metaphor_mapping": {
+              "tenor_concept": "expressive gaze",
+              "transferred_attributes": [
+                "liveliness",
+                "playfulness",
+                "expressiveness"
+              ],
+              "vehicle_concept": "physical containment of mischief"
+            },
+            "source_span_original": "ಕಣ್ಣ ಕಣ್ಣ ತುಂಟತನದಲ್ಲಿದೆ",
+            "source_span_translation": "Her eyes full of mischief",
+            "source_term": "ಕಣ್ಣ ಕಣ್ಣ ತುಂಟತನದಲ್ಲಿದೆ",
+            "tenor": "A playful and lively gaze",
+            "vehicle": "Mischief residing physically inside the eyes",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of an elderly woman's eyes with crinkled corners, a warm sparkle, and a knowing, playful expression."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'ರುಮಾಳು' (rumaalu) specifically refers to a traditional turban or headgear, which carries distinct cultural and regional connotations in Karnataka, but is translated as a generic 'scarf'.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic repetition and colloquial warmth of 'ಬಾ ಬಾ' (baa baa) is flattened into the literal 'come, come'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The contrast between 'bisilu' (sunshine/warmth) and 'chali' (cold) is rendered literally, but the intimate, conversational rhythm of the Kannada phrasing is partially lost.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The dual, unpredictable nature of the old woman's actions or presence, offering both comfort and coldness.",
+            "acceptable_visual_variants": [
+              "The woman standing at a threshold where warm light falls on one side of her body and cool shadow on the other",
+              "The woman holding a warm steaming cup in one hand while the other hand is exposed to the frosty air"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Sunlight on one side, cold on the other",
+            "literalization_risk": "Depicting a literal split-screen weather effect with half the scene in bright sun and half in snow, which misses the human emotional duality.",
+            "metaphor_mapping": {
+              "tenor_concept": "dual human temperament",
+              "transferred_attributes": [
+                "unpredictability",
+                "contrast",
+                "simultaneous warmth and distance"
+              ],
+              "vehicle_concept": "split weather (sun and cold)"
+            },
+            "source_span_original": "ಒಂದೆಡೆ ಬಿಸಿಲು, ಮತ್ತೊಂದು ಚಳಿ",
+            "source_span_translation": "One side warmth, the other cold",
+            "source_term": "ಒಂದೆಡೆ ಬಿಸಿಲು, ಮತ್ತೊಂದು ಚಳಿ",
+            "tenor": "The unpredictable, dual temperament or actions of the woman",
+            "vehicle": "Simultaneous contrasting weather conditions (sunlight and cold)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict the old woman holding her hands out, where one hand is bathed in warm, golden sunlight and the other is cast in cool, blue winter shadow."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The word 'ಬಿಸಿಲು' (bisilu) literally means sunlight or sunshine, which carries a sensory association of natural warmth, but is translated abstractly as 'warmth'.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A warm, lighthearted encounter with an old woman whose presence brings a mixture of winter cold and comforting warmth."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' boolean is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that the translation as 'scarf' loses the specific regional connotation. These values are internally inconsistent; 'preserved' should be false if the cultural specificity was lost or altered.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಹಳೆ ಬನ್ನಿ ಬಾ ಬಾ,  \nಬಂದಳು ಹಳೆಯ ರುಮಾಳು ಹೊದ್ದು,  \nಕಣ್ಣ ಕಣ್ಣ ತುಂಟತನದಲ್ಲಿದೆ,  \nಛದುರಾವುದೆಂದು ಹೊಳೆಯುತ್ತಿರುವೆ.\n\nಹಳೆ ಬನ್ನಿ, ಬಾ ಬಾ,  \nಈ ಚಳಿಗಾಲದಲ್ಲಿ ನಿನ್ನ ಕೈಯಿಂದ,  \nಒಂದೆಡೆ ಬಿಸಿಲು, ಮತ್ತೊಂದು ಚಳಿ,  \nನಿನ್ನ ದಾರಿ, ನಿನ್ನ ನಡೆ, ನನ್ನ ಹಾಸ್ಯ.",
+  "poem_id": "MV++_1134",
+  "poem_title": "Hale Banni",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "add33fec6f06f441f64ecb646581a27578a23d1ec7780e5e6286c80b4aca8cf4",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1134.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Come old woman, come, come,  \nShe comes with an old scarf wrapped,  \nHer eyes full of mischief,  \nGleaming with cunning charm.\n\nCome old woman, come, come,  \nIn this winter, from your hands,  \nOne side warmth, the other cold,  \nYour path, your walk, my laughter.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:01:43.257224+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa87d107d66b13c015fd459ec7f2ca166f976a600ba4e135fceadac6a46a615c",
+        "response_hash": "fed856f82c3c4216396d99e3035aa041c52a886b812602365cd8c648c7d3a446"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "63cdf4d3860db01d19c68aca217952f71f2c516bb99e6f41bc4ff77080c259b0",
+        "response_hash": "e4dd2826b70ef637e4f9f2b47262544f92d653c5b9888e49156a43fc5be5f2c8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3979eab053a9ac523edcac566e699e1607abee20a80c6aa7eba790ed554f10ea",
+        "response_hash": "e8d2b6f44db1c4a719e3f025d622aac76614b71d7bfe046c657420b77ad24e0a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1dfb68013b847df918e160562b808c8c36bafecad5c00bb1955f06d4f73bbe12",
+        "response_hash": "284bbb42b9a9a84d62d72dd4941a822e94a0b5fc9755b7c31304f8e51db806aa",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "36800a82f32cec0d73e2ca5c2ebf2e6a1cc386f69c0629e1fc17674d74219e1c",
+        "response_hash": "4c2408efadeac07fabd1f413828f8fb74c6af49cb676a5a6a699f5e8b40e4cb6",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3540538e2d8ff688804ebde18849ba87a16397ab2ed65d592ee150c74fa0ebaa",
+        "response_hash": "4359e6a0a846bc37e59e9d4187ea5e4b9c43663f8ffd8579ac15ca812d89a022",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "6081dfa2f52fce3b28b89342ca03e4673e9db150af7af8e09705208d7dbdbae1",
+    "translation_sha256": "b8e4f48fd7e4724cd84eb370977eb7455c62687e50cc577098b7420fa70592a7"
+  }
+}

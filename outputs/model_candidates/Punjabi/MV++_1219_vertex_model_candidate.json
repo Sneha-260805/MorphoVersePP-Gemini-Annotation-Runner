@@ -1,0 +1,213 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A term for a beloved, friend, or partner, frequently carrying deep spiritual, mystical, or devotional connotations in Punjabi Sufi and Bhakti literary traditions.",
+        "line_ref": "L3",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "sajjana",
+        "source_span_original": "ਸੱਜਣਾ",
+        "source_span_translation": "Beloved",
+        "stanza_index": 1,
+        "term": "ਸੱਜਣਾ",
+        "translation_note": "Translated as 'the Beloved', capturing the devotional and romantic weight of the term in Punjabi literary traditions.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "contemplative realization to deep devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders 'gall' (literally 'matter' or 'thing') as 'truth' to capture the philosophical weight, which slightly shifts the colloquial simplicity of the original Punjabi phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An idealized, wealthy, or perfect romantic partner of high status.",
+            "acceptable_visual_variants": [
+              "A faint, stylized crown hovering over an empty, elegant chair.",
+              "A soft silhouette of a figure standing against a backdrop of grand, abstract geometric patterns."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "a prince of grand waves/pomp",
+            "literalization_risk": "Depicting a literal royal prince in historical attire would mislead the viewer into thinking the poem is about actual royalty or a specific historical narrative.",
+            "metaphor_mapping": {
+              "tenor_concept": "idealized romantic partner",
+              "transferred_attributes": [
+                "wealth",
+                "perfection",
+                "high status"
+              ],
+              "vehicle_concept": "royalty and grandeur"
+            },
+            "source_span_original": "ਠਾਠਾਂ ਵਾਲਾ ਸ਼ਹਿਜਾਦਾ",
+            "source_span_translation": "a prince with grandeur",
+            "source_term": "ਠਾਠਾਂ ਵਾਲਾ ਸ਼ਹਿਜਾਦਾ",
+            "tenor": "an idealized, wealthy, or perfect romantic partner",
+            "vehicle": "a prince with grandeur and pomp",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a silhouette or a soft, glowing figure of a person surrounded by faint, grand architectural outlines or a crown-like aura, keeping it abstract."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'ਗੱਲ' (gall, meaning word, matter, or thing) abstractly as 'truth' ('The Greatest Truth'), which shifts the colloquial, grounded tone of the original Punjabi phrasing to a more philosophical register.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'ਸੱਜਣਾ' (sajjna, meaning beloved, friend, or companion) is translated as 'the Beloved' with a capital 'B', which imposes a highly formalized, potentially mystical/divine reading that is more ambiguous and intimate in the original colloquial Punjabi.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The phrase 'ਠਾਠਾਂ ਵਾਲਾ ਸ਼ਹਿਜਾਦਾ' (thathan wala shahjada) carries a specific cultural imagery of a prince surrounded by pomp, luxury, or waves of grandeur, which is simplified to 'a prince with grandeur'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The Punjabi word 'fika' (faded/tasteless/bland) carries a sensory quality of lacking flavor or color that is only partially captured by 'fades' in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The loss of beauty, joy, and meaning in the world when love is absent.",
+            "acceptable_visual_variants": [
+              "A split canvas where one side is richly colored and the other side is completely desaturated and gray.",
+              "A single flower losing its vibrant color, turning to shades of gray from the edges inward."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "every color and every form becomes tasteless/faded",
+            "literalization_risk": "A literal depiction of objects physically losing paint or dissolving might look like a chemical reaction or a fantasy spell rather than an emotional state.",
+            "metaphor_mapping": {
+              "tenor_concept": "loss of joy and meaning in life",
+              "transferred_attributes": [
+                "dullness",
+                "lack of vitality",
+                "emptiness"
+              ],
+              "vehicle_concept": "fading colors and forms"
+            },
+            "source_span_original": "ਹਰ ਰੰਗ ਤੇ ਹਰ ਰੂਪ ਫਿਕਾ",
+            "source_span_translation": "Every color and form fades",
+            "source_term": "ਹਰ ਰੰਗ ਤੇ ਹਰ ਰੂਪ ਫਿਕਾ",
+            "tenor": "the world losing its joy, beauty, and meaning without love",
+            "vehicle": "colors and physical forms losing their brightness or taste",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a vibrant, colorful landscape transitioning into a desaturated, monochrome, or grayscale scene to represent the emotional fading."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ਗੱਲ' as 'truth' and 'ਸੱਜਣਾ' as 'the Beloved' continues to shift the colloquial, intimate tone of the original Punjabi into a formalized philosophical register.",
+            "where": "L8-L9"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The supreme truth of existence is love for the beloved, which transcends all external beauty, grandeur, and material form."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Punjabi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ਸਬ ਤੋਂ ਵੱਡੀ ਗੱਲ  \nਸਬ ਤੋਂ ਵੱਡੀ ਗੱਲ ਕੀ ਹੈ?  \nਸੱਜਣਾ ਨਾਲ ਪਿਆਰ,  \nਨਾ ਕੋਈ ਰੰਗੀਲਾ, ਨਾ ਕੋਈ ਸੋਹਣਾ,  \nਨਾ ਕੋਈ ਠਾਠਾਂ ਵਾਲਾ ਸ਼ਹਿਜਾਦਾ।  \n\nਹਰ ਰੰਗ ਤੇ ਹਰ ਰੂਪ ਫਿਕਾ,  \nਜਦੋਂ ਦਿਲ 'ਚ ਪਿਆਰ ਨਾਹ ਹੋਵੇ,  \nਸਬ ਤੋਂ ਵੱਡੀ ਗੱਲ ਕੀ ਹੈ?  \nਸੱਜਣਾ ਨਾਲ ਪਿਆਰ।",
+  "poem_id": "MV++_1219",
+  "poem_title": "Sab Ton Waddi Gaal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "30520c10189266c09d9233dc1f4a1516cf59b95d7f999aa2627242c0c491158e",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Punjabi/MV++_1219.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Greatest Truth  \nWhat is the greatest truth?  \nTo love the Beloved,  \nNeither colorful, nor handsome,  \nNor a prince with grandeur.  \n\nEvery color and form fades,  \nWhen love is absent in the heart,  \nWhat is the greatest truth?  \nTo love the Beloved.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:10:03.805343+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1cdce0a4620d7ba44f672857940388c8a94945cfa23ee62f5d6ffd48e58e1e50",
+        "response_hash": "1b1031fe60eb3656e82ec0f4e4b38b94768795f98fee6e48471d6f3acc1e0ada"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9d9c28d7ea67c1ab40bbb69ecf87fe682e04112f153ccfcfa3d0e1bad01ff4e9",
+        "response_hash": "f88444aa1caff63f801a24368e54441d7abace71c97f79f572768c1a6754c3a4",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e4dbb96f8b190ae3261ec1f6c0e71916bc890e04cc1543d59458a3545f54e6f6",
+        "response_hash": "5b750ecc9a225ac9e3744b6769e115768aefe96fa9ddcb8e2313b39d5467ae98",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e4786e6128f9f2c6daa2b14e1c1f0bef96488a6e583206dfd5cb301f9454488",
+        "response_hash": "4c71f883cd0bb1d0fa6d726b0bf5baabf094f9634ad12e2b57431ace756732e9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e9feb05953623449dba0fc1d3bb71d73cc05ff72bc751e763fa551782516955d",
+        "response_hash": "a17d8bda66d6c9270265e84f87234b12e9784e64e5974996d162a5740392b517",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7dc6cd89d804decd99ca47423bc95f497ba44690c982621512dbe3d63061f74c",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "37c7b50db4318a66321a3df7151e33229b97efd7278b621cddb6b25e902aea69",
+    "translation_sha256": "1cf52e7c12a87e49630a5197d2ab58b93906d5c20f42a6fc8000cea8384a4d34"
+  }
+}

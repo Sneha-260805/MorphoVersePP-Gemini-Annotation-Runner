@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "curiosity and longing for an unknown beloved",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation loses the explicit female gender of the speaker indicated by the verb 'jaanti' (know) in Hindi, rendering it with the gender-neutral 'I do not know'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker constantly thinks about and visualizes the face of an unknown beloved in their dreams, making those dreams beautiful.",
+            "acceptable_visual_variants": [
+              "A person sleeping peacefully with soft, warm light illuminating their face, while abstract, beautiful facial features gently blend into a starry night sky background.",
+              "A dream bubble showing a collage of soft, artistic, and fleeting glimpses of a face arranged like beautiful, glowing portraits."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Glimpses of your face are physically decorated/adorned inside my dreams.",
+            "literalization_risk": "Showing literal ornaments, jewelry, or physical decorations hanging inside a sleeping person's brain or dream bubble, which would look bizarre and miss the emotional focus on the face.",
+            "metaphor_mapping": {
+              "tenor_concept": "fleeting memories or mental images beautifying a dream",
+              "transferred_attributes": [
+                "beauty",
+                "deliberate arrangement",
+                "aesthetic enhancement"
+              ],
+              "vehicle_concept": "physical ornaments decorating a room or space"
+            },
+            "source_span_original": "तेरे चेहरे की झलकियाँ सजे हैं मेरे ख्वाबों में।",
+            "source_span_translation": "Glimpses of your face are adorned in my dreams.",
+            "source_term": "तेरे चेहरे की झलकियाँ सजे हैं मेरे ख्वाबों में",
+            "tenor": "The mental presence of the beloved's face beautifying the speaker's dreams.",
+            "vehicle": "Physical decorations or ornaments (saje hain) adorning a physical space.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a sleeping figure with a soft, ethereal dreamscape floating above them, where faint, semi-transparent, glowing outlines of a face are woven into the fabric of the dream scene like delicate patterns."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender of the speaker is explicitly marked as feminine in Hindi by the verb form 'jaanti' (जानती), which is lost in the gender-neutral English translation 'I do not know'.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The intimate, highly informal second-person pronoun 'tu' (तू) and its corresponding possessive 'tere' (तेरे) are translated as the standard English 'you' and 'your', losing the specific level of closeness, intensity, or informal address.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The mysterious presence of an unknown beloved who exists only in dreams."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं नहीं जानती, तू कौन है, कहाँ से आया है।\nतेरे चेहरे की झलकियाँ सजे हैं मेरे ख्वाबों में।",
+  "poem_id": "MV++_0710",
+  "poem_title": "Anamika",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "86636dbf45ae3e96ef181280a96dcab823388cac1c2ca6573bb927216a990fa8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0710.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I do not know, who you are, where you come from.\nGlimpses of your face are adorned in my dreams.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:58:54.094441+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6d5b4832db4be5869b8afc81d68124f730fae7ba3bb60f19189d94f459216cd8",
+        "response_hash": "1b13694c278b7cc941f1524b520791a40c533bfbcaccff2a2ab25743fb88197a"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c4e5cdd261b51184d423ab6067a759010c49a3706ddc20ce73be113696cf5a0f",
+        "response_hash": "5d003e8475021c5e8cc2e7587fa9ac34e7e6ecdd0a0a15669394f4271bee6ea3",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7ec1586cbe371086418696eaa4752f30edcb44ec28d4a6d86f7d4d4de8900482",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "18e9def3e981d82784c19cc0c31a207b046bd694a07176202a5e2a8ee0c8b74b",
+        "response_hash": "b762dbacfb5d5f6066ed40b61aca31e48ff7ef171d07f071ef34d44c6112b19e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5918033c9314fd7d9b151450b71a9b26388b5079d388ccd337eb4162d240f63b",
+        "response_hash": "b0425507ed6297494426b154ec70e99ba3871a56575ec636b0a39b9144fb9ec8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5fce121d559a9a6aa6a2c2eee79e0e7c50774fbf83273a4faa6e5173766770fb",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c34617d776a32308d4c757bd039b66e275493937a50ba4c74b6b027f6bebf912",
+    "translation_sha256": "9860d1c0f1d05d39ae574d56d39609ba3fb2388d9d42e94b2cf0a40a7ddcad4e"
+  }
+}

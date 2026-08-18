@@ -1,0 +1,204 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A scenic Himalayan valley backdrop with a blooming flower bud in the foreground",
+          "A stylized representation of a Kashmiri landscape with water and blossoms"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A northern region of the Indian subcontinent, historically and culturally celebrated in South Asian literature for its scenic beauty, lakes, and flowers. In popular culture, 'Kashmir ki Kali' (Bud of Kashmir) is also a famous trope representing pristine beauty.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A generic tropical Indian village",
+          "A desert landscape of Rajasthan"
+        ],
+        "preserved": true,
+        "romanization": "Kashmir",
+        "source_span_original": "कश्मीर",
+        "source_span_translation": "Kashmir",
+        "stanza_index": 1,
+        "term": "कश्मीर",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "Lush mountainous landscape",
+          "Serene lake with shikara boats",
+          "Blooming flowers or buds"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "wonder and appreciation of beauty",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation adds 'bright' and 'so light' to complete the rhyme scheme, which are not present in the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A beautiful, delicate young woman from Kashmir, full of youth and grace.",
+            "acceptable_visual_variants": [
+              "A young woman in traditional Kashmiri attire standing near a blooming garden",
+              "A close-up portrait of a young woman with soft, floral motifs in the background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A flower bud of Kashmir",
+            "literalization_risk": "Depicting a literal botanical flower bud instead of a young woman would completely lose the human subject of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "young woman",
+              "transferred_attributes": [
+                "delicacy",
+                "beauty",
+                "youth",
+                "freshness"
+              ],
+              "vehicle_concept": "flower bud"
+            },
+            "source_span_original": "कश्मीर की कली",
+            "source_span_translation": "The bud of Kashmir",
+            "source_term": "कश्मीर की कली",
+            "tenor": "A young, beautiful woman",
+            "vehicle": "A fresh, unopened flower bud from Kashmir",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a graceful young woman in a scenic Kashmiri setting, perhaps subtly surrounded by or holding fresh flower buds to bridge the literal and figurative meanings."
+          },
+          {
+            "abstract_meaning": "Her eyes or gaze are deep, serene, and filled with endless dreams, resembling a tranquil lake.",
+            "acceptable_visual_variants": [
+              "A close-up of her eyes reflecting a serene lake under a starry or soft sky",
+              "A dreamy, soft-focus landscape where her face gently blends with a calm, misty lake"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Like a lake of dreams",
+            "literalization_risk": "Drawing a literal lake with floating dream bubbles inside a person's eye socket would look surreal or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "eyes/gaze",
+              "transferred_attributes": [
+                "depth",
+                "tranquility",
+                "reflectiveness",
+                "vastness"
+              ],
+              "vehicle_concept": "lake"
+            },
+            "source_span_original": "सपनों की झील सी",
+            "source_span_translation": "A lake of dreams, so light",
+            "source_term": "सपनों की झील सी",
+            "tenor": "The depth and dreaminess of her gaze/eyes",
+            "vehicle": "A serene, deep lake filled with dreams",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict the young woman with deep, reflective, expressive eyes, perhaps with a soft, dreamy reflection of a calm Kashmiri lake (like Dal Lake) visible in her eyes or in the background."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'bright' to rhyme with 'light', which is not present in the original Hindi text ('bhari' simply means filled).",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the word 'light' to rhyme with 'bright', which is not present in the original Hindi text ('si' simply means like/similar to).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The serene and dreamlike beauty of a beloved person compared to the natural essence of Kashmir"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "कश्मीर की कली,  \nखुशबू से भरी।  \nउसकी नज़र में  \nसपनों की झील सी।",
+  "poem_id": "MV++_0413",
+  "poem_title": "Kashmir Ki Kali",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5b5d0ed44dd0b4345f584115ddab64c8dd63a13120024b7a314043df1b366013",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0413.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The bud of Kashmir,  \nFilled with fragrance bright.  \nIn her gaze lies  \nA lake of dreams, so light.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:22:07.903208+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "795a8326dd82ba53db4f8d3829da7e2bfd5c6e2b6ea2c82ca57df75db1518727",
+        "response_hash": "57e8fdcb3357baae1d74cf0e725fd8e8c5b6d14da4cd19a8f351b83212833e02"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "69715e1cc8b10561a5dc31e8e104450c1ab1b3ac1e29e42a5a23d0fd038a6671",
+        "response_hash": "b654128168c75eb2379b62c47db2bd14b67724364bbc978bd06e101e7e5b1429",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "572c05a26d6f251db030d6bdd0640bb424d951958292cf4c9df6d18361fb6b2a",
+        "response_hash": "2ac73c1f936450875bac229c27d07efc56f3b12d6534f5cb3bffe9a5abd11b96",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b7c4b1a915f0993b611929a6b6544645a7982692d84fa13c341ab2afc9abb9de",
+        "response_hash": "679b1637acf96536fde25548759a96c7d0b9b97da383dd6f43cbc14109ab2ca3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "81ccf12210f4c7ba49f85b4c2e0ff4ec78589864d987f27e2051de4e46d0d5cb",
+        "response_hash": "9bef8c33c556c509b0cd5ac775b73cb500f3c1863c04a326fdc3c05caa1c7480",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a04760f4f73972acb66f884dde1bbe98a9559cadbb63cdde73f36332b5f727a1",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "bb124ccd4bab9718651a400994b25aca15059d99abf3b751f59a07bb04ebd257",
+    "translation_sha256": "f7ad779ecec4de45f0ffa31561c9bb646440f600bd71a61d6d740bf90e8c59d6"
+  }
+}

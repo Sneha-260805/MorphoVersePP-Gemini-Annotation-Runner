@@ -1,0 +1,329 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A landscape of rolling green hills under heavy grey rain clouds",
+          "Rain falling on a traditional courtyard with wet clay tiles"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The fifth month of the Hindu calendar (July-August), associated with the peak of the monsoon season, romantic longing, and specific regional festivals.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A generic tropical storm or hurricane scene",
+          "A dry desert landscape with sudden flash floods"
+        ],
+        "preserved": true,
+        "romanization": "Sawan",
+        "source_span_original": "सावन",
+        "source_span_translation": "monsoon",
+        "stanza_index": 1,
+        "term": "सावन",
+        "translation_note": "The translation renders 'Sawan' as 'monsoon', which captures the meteorological season but loses the specific cultural, literary, and emotional associations of the Hindu calendar month of Shravana.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Dark rain clouds",
+          "Lush green landscapes",
+          "Raindrops falling on parched earth"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "wonder and celebration of nature transitioning to deep reflection on the dualities of life",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation of 'rang chadha' as 'paints its vibrant strain' captures the essence but loses the specific Hindi idiom of color climbing or taking hold of something, which implies a deep, natural saturation.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The raindrops are given human agency to speak, emphasizing their active role in the monsoon landscape.",
+            "acceptable_visual_variants": [
+              "Raindrops hitting leaves with soft splashes",
+              "A close-up of water droplets on a window pane with soft light"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "The raindrops of rain said",
+            "literalization_risk": "Showing raindrops with literal human mouths or speech bubbles would look cartoonish and ruin the poetic atmosphere.",
+            "metaphor_mapping": {
+              "tenor_concept": "sound of falling rain",
+              "transferred_attributes": [
+                "communicative intent",
+                "expressiveness"
+              ],
+              "vehicle_concept": "human speech"
+            },
+            "source_span_original": "वर्षा की बूँदों ने कहा",
+            "source_span_translation": "The raindrops whispered low",
+            "source_term": "वर्षा की बूँदों ने कहा",
+            "tenor": "The sound and presence of falling raindrops",
+            "vehicle": "A speaking human being",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict raindrops falling onto the earth with soft ripples, suggesting a gentle, whispering movement."
+          },
+          {
+            "abstract_meaning": "Nature is described as applying color, representing the sudden blooming and greening of the landscape during the monsoon.",
+            "acceptable_visual_variants": [
+              "A forest canopy turning deep green under rain",
+              "A garden blooming with colorful flowers during a shower"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Nature applied its own color",
+            "literalization_risk": "Showing a literal giant hand painting trees with a brush would look childish and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "seasonal blooming and greening",
+              "transferred_attributes": [
+                "vibrancy",
+                "deliberate transformation"
+              ],
+              "vehicle_concept": "applying dye or paint"
+            },
+            "source_span_original": "प्रकृति ने अपना रंग चढ़ा",
+            "source_span_translation": "Nature paints its vibrant strain",
+            "source_term": "प्रकृति ने अपना रंग चढ़ा",
+            "tenor": "The natural transformation and greening of the landscape",
+            "vehicle": "An artist painting or applying dye",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a landscape transitioning from dry, dusty brown to lush, vibrant green under falling rain."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and seasonal resonance of 'Sawan' (सावन), the holy fifth month of the Hindu calendar associated with rains, devotion, and romance, is generalized to 'monsoon's reign'.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The active, self-directed agency of nature applying its own color ('apna rang chadhā') is flattened into a passive artistic metaphor ('paints its vibrant strain').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "The Urdu-derived word 'noor' (divine light/glow) is translated simply as 'light', losing its specific spiritual and aesthetic resonance in Hindustani poetry.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's inner emotional state is deeply touched and refreshed by the rain, not just their physical body.",
+            "acceptable_visual_variants": [
+              "A person looking up at the sky with open arms in the rain",
+              "A silhouette of a person reflecting quietly by a rain-streaked window"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The mind/heart got wet",
+            "literalization_risk": "Showing a literal anatomical heart or brain dripping with water would be grotesque and medically literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional saturation with joy or feeling",
+              "transferred_attributes": [
+                "absorption",
+                "refreshment",
+                "depth of experience"
+              ],
+              "vehicle_concept": "physical saturation with water"
+            },
+            "source_span_original": "मन भीगा",
+            "source_span_translation": "The heart is drenched",
+            "source_term": "मन भीगा",
+            "tenor": "An emotional state of being deeply moved or refreshed",
+            "vehicle": "A physical object absorbing water",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person standing in the rain with closed eyes and a peaceful, joyful expression, capturing the internal feeling of refreshment."
+          },
+          {
+            "abstract_meaning": "Life itself feels newly alive and animated, comparing the revitalizing effect of rain to the spark of life.",
+            "acceptable_visual_variants": [
+              "Fresh green shoots emerging from wet soil",
+              "Frogs and birds rejoicing in puddles"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L8",
+            "literal_meaning": "Life is like something alive/animate",
+            "literalization_risk": "Showing abstract 'life' as a literal creature waking up would be confusing and abstract.",
+            "metaphor_mapping": {
+              "tenor_concept": "the overall environment and life force",
+              "transferred_attributes": [
+                "vitality",
+                "movement",
+                "energy"
+              ],
+              "vehicle_concept": "an active, breathing living being"
+            },
+            "source_span_original": "जीवन सजीव सा है",
+            "source_span_translation": "life feels anew",
+            "source_term": "जीवन सजीव सा है",
+            "tenor": "The revitalized state of existence during the monsoon",
+            "vehicle": "An animate, living being",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show sprouting seeds, opening buds, and active birds in the rain to represent the sudden burst of life."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Urdu-derived term 'noor' (नूर), which carries a specific connotation of divine, radiant, or spiritual light, is translated as a generic 'light'.",
+            "where": "L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The literal meaning of 'sajeev sa' (vibrant, living, or as if alive) is simplified to 'feels anew', losing the direct personification of life itself becoming animate in the drops.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation of 'parv' (festival/celebration) as 'joy they borrow' is altered to fit the rhyme scheme, losing the cultural metaphor of rain being a festive occasion for some.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The course of human existence and its varied emotional experiences are conceptualized as a narrative story.",
+            "acceptable_visual_variants": [
+              "A split scene showing a cozy indoor window view and a wet street outside",
+              "An elderly person and a child reacting differently to the rain"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "The story of life",
+            "literalization_risk": "Showing a literal book floating in the rain would be too literal and miss the emotional depth of the line.",
+            "metaphor_mapping": {
+              "tenor_concept": "the passage of human life",
+              "transferred_attributes": [
+                "having chapters",
+                "having ups and downs",
+                "containing secrets"
+              ],
+              "vehicle_concept": "a structured narrative book or tale"
+            },
+            "source_span_original": "जीवन की कहानी",
+            "source_span_translation": "Life’s story",
+            "source_term": "जीवन की कहानी",
+            "tenor": "The complex experiences and events of human existence",
+            "vehicle": "A written or spoken narrative",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict contrasting scenes of human life side-by-side, such as someone looking sad and someone else smiling in the rain."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The term 'parv' (पर्व), which specifically denotes a festival, holy day, or ritual celebration, is translated as 'borrow' to force a rhyme with 'sorrow', completely losing the cultural concept of rain as a festive celebration.",
+            "where": "L10"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The adjective 'gahan' (गहन), meaning deep, profound, or intense, is translated as 'secrets keep' to fit the rhyme scheme, altering the descriptive quality of the story of life to an action of keeping secrets.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The rain as a mirror to the diverse emotional landscapes of human life, bringing both joy and sorrow"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The 'preserved' field is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that the translation loses specific cultural associations by translating 'Sawan' as 'monsoon'. These values are internally inconsistent.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "वर्षा की बूँदों ने कहा,  \nधरती से मिलकर हम बहा,  \nसावन के इस मौसम में,  \nप्रकृति ने अपना रंग चढ़ा।\n\nबादल घिर आए हैं दूर,  \nधरती पर छाया है नूर।  \nमन भीगा, तन भीगा है,  \nबूंदों में जीवन सजीव सा है।\n\nकिसी के मन की व्यथा है,  \nकिसी के लिए हर्ष का पर्व है।  \nवर्षा की बूँदों में छिपी,  \nजीवन की कहानी गहन है।",
+  "poem_id": "MV++_0116",
+  "poem_title": "Baarish",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "b0eea46e7dce683ccf28aea7498f5339af61fcd10c75db7eaeb22af840319f03",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0116.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The raindrops whispered low,  \nMerging with earth, they flow.  \nIn this season of monsoon’s reign,  \nNature paints its vibrant strain.\n\nClouds have gathered far and wide,  \nOn earth, light has applied.  \nThe heart is drenched, the body too,  \nIn the drops, life feels anew.\n\nFor some, it’s a tale of sorrow,  \nFor others, joy they borrow.  \nIn the raindrops, hidden deep,  \nLife’s story, secrets keep.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:48:14.824322+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a3c8f3d0934fe3d00e37f51b08fc3d4c64f82a887d8c312be77229b2ba4ce34f",
+        "response_hash": "a1b705500c07bca057a6551a29f4957caa32cc22c15a4605ba72ac9f9bd2a80b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e7c520c6fe7e3e9ebf3c0094f6414344a9c94e7f255737731455493597311226",
+        "response_hash": "578448193bbd15655ba1b74e2e925b8be08b5ecf4ad4f7d502364a9e96aaa896",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df7719e39455e6596345c9d6f7667fcb86c3d609dfdb5c5b7ca1d3e3f24ca921",
+        "response_hash": "e649e66e95e0943bcc3250b239f726345a9fe9f4b70730441be545f7242d37f0",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2c21b479d0bc0f54c1108b149cce837a2eb78ffedc26d8c13f5e21cab44891be",
+        "response_hash": "bd37681a06542bf6ee97b02a9a09071ad596ffe82c1fa65d5aa9d9e0300fba66",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "365fc861164ac1d53452802eb60e60d1f0f4bb65d6c1c7dd25a74c5d9e7e5ab5",
+        "response_hash": "8debfa52b7c705a35be807c76eb6ca44c372213107e2aad978d095ab69f738c8",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d95514108f4ba4f57b5a61627775fc34a47391ea34be014cf35159ef2ca994ad",
+        "response_hash": "51ee8a1f02d0ca44af16797b4821a92c09951cd42f2ad12291265c7fbf90b99d",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1421b8ce9e56bfd566516b68e29f56dde455671f61ab7145f627b5e66237b801",
+    "translation_sha256": "47afa8836707ed88359d8ff675837bb9ad00c65b99bf08941edcb6a9fdceb4b9"
+  }
+}

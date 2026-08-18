@@ -1,0 +1,199 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "gentle longing triggered by nature to a deeper emotional resonance in human connection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'तुम्हारी याद आती है' (tumhari yaad aati hai) as 'I remember you' shifts the grammatical structure from an active, incoming experience (literally, 'your memory comes [to me]') to a subject-driven action ('I remember').",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'जब चाँदनी रातों में' as 'When the moonlit nights' leaves the prepositional/locative meaning of 'में' (in) unexpressed, turning a temporal-locative setting ('in moonlit nights') into a grammatical subject that 'brings' the fragrance.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's laughter is experienced as a beautiful, melodic, and comforting song.",
+            "acceptable_visual_variants": [
+              "A stylized, glowing trail of musical notes floating in the air near a soft silhouette of a face",
+              "A warm, abstract wash of light and color that suggests a harmonious melody spreading through space"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L5-L6",
+            "literal_meaning": "The echo of your laughter is like someone singing a song.",
+            "literalization_risk": "Showing a literal singer performing on a stage or with an instrument, which distracts from the intimate, remembered sound of laughter.",
+            "metaphor_mapping": {
+              "tenor_concept": "laughter",
+              "transferred_attributes": [
+                "melodiousness",
+                "joyfulness",
+                "evocative beauty"
+              ],
+              "vehicle_concept": "melodic song"
+            },
+            "source_span_original": "तुम्हारी हंसी की गूंज है,\nजैसे कोई गीत गाता है",
+            "source_span_translation": "The echo of your laughter,\nLike a song being sung",
+            "source_term": "तुम्हारी हंसी की गूंज है,\nजैसे कोई गीत गाता है",
+            "tenor": "the echo of the beloved's laughter",
+            "vehicle": "a song being sung",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, abstract visualization of sound waves or musical notes gently swirling around a smiling silhouette or blending into a warm background."
+          },
+          {
+            "abstract_meaning": "To fall in love, connect deeply, or form an emotional bond with someone.",
+            "acceptable_visual_variants": [
+              "Two stylized, glowing heart outlines overlapping in a soft, warm light",
+              "Two human silhouettes standing close together with a warm, connecting glow between them"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L8",
+            "literal_meaning": "the heart physically meets someone",
+            "literalization_risk": "Showing two anatomical hearts physically shaking hands or colliding, which would look bizarre or comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional connection",
+              "transferred_attributes": [
+                "closeness",
+                "union",
+                "interaction"
+              ],
+              "vehicle_concept": "physical meeting of objects"
+            },
+            "source_span_original": "दिल किसी से मिलता है",
+            "source_span_translation": "the heart meets someone",
+            "source_term": "दिल किसी से मिलता है",
+            "tenor": "forming a deep emotional connection or falling in love",
+            "vehicle": "two physical hearts meeting or coming together",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two stylized, glowing heart shapes or silhouettes of two people overlapping or connecting through a warm beam of light."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'तुम्हारी याद आती है' as 'I remember you' shifts the grammatical structure from an active, incoming experience (literally, 'your memory comes [to me]') to a subject-driven action ('I remember').",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The persistent, sensory-triggered memory of a beloved that surfaces in moments of natural beauty and human connection."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but translation_loss contains two entries detailing medium-severity grammatical and semantic shifts. When translation_loss is populated with non-trivial losses, translation_quality should typically be 'partial' rather than 'faithful', or the loss_note should explain the discrepancy.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but translation_loss contains a medium-severity entry detailing a grammatical shift. When translation_loss is populated with non-trivial losses, translation_quality should typically be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तुम्हारी याद आती है,  \nजब चाँदनी रातों में,  \nगुलाब की खुशबू आती है,  \nजब सर्द हवाएँ चलती हैं।  \n\nतुम्हारी हंसी की गूंज है,  \nजैसे कोई गीत गाता है,  \nतुम्हारी याद आती है,  \nजब दिल किसी से मिलता है।",
+  "poem_id": "MV++_0887",
+  "poem_title": "Tumhari Yaad Aati Hai",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "fa4b0ad4eaeb83b6268601d09232876d3ce81089f6191d94c56e9af94f325342",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0887.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "I remember you,  \nWhen the moonlit nights,  \nBring the fragrance of roses,  \nWhen the cold winds blow.\n\nThe echo of your laughter,  \nLike a song being sung,  \nI remember you,  \nWhen the heart meets someone.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:26:33.047983+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7828f0f58e16cb00700c5c6ef43a6c97cbded2f08660026adda4cad0dde6c3b4",
+        "response_hash": "7ca4af05a6f0b29a266994b4a5c69e19bd5ade123f95d8448444d293dc769e2d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f50984273b95551376171c6b301ead4e9976ac0a346b445a5589828e3f0bd446",
+        "response_hash": "0e4d5bc13ff01c0f116e45f134cfb5dde3db026effcf772ad557941d1180b4c2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3b254009fe32a019e91ff5071b5ef2f2efbcbe99930500d4058fd9c9283e0b83",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8177099cc9ed5c49815f77961413d910ec9d79e5b93614b0cf2ceed79ddb50b",
+        "response_hash": "c0a517e352aac71430564c99fb3b894aabe13cee531f51037699c5c2662aa43d",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b744ff6e61af6d3888a95e4880c8d6157ef4e12740458811df0241c3e999d5c3",
+        "response_hash": "7551caec59bceba1148b63389874de632b3b57e2dfcb5da074bcbfbcecda6648",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "81add0f82584aeb3e512edb534e48a785277e0d0e34f708d0e1b65269e0b98c4",
+        "response_hash": "d014292f973cdcc30a2862efd289f69e63dae4977819f176ba66ef48309a42ec",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "45c407d48736428db7b8e379468e3247dda1cb7643baf4afd896516303642099",
+    "translation_sha256": "368b09699ca3d1bf0e2fb05895f9259bb2ac130267c5bb02e6b924fac05c3ae2"
+  }
+}

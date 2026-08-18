@@ -1,0 +1,337 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A single warm lamp or flame casting light on a dark path",
+          "A celestial beam of soft light descending through dark clouds"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A famous Kannada devotional invocation meaning 'Come, O Compassionate Light', representing a plea for divine guidance through spiritual darkness.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A harsh, modern electric spotlight",
+          "A destructive, blazing fire or wildfire"
+        ],
+        "preserved": true,
+        "romanization": "Karunaalu Baa Belake",
+        "source_span_original": "ಕರುನಾಳು ಬಾ ಬೆಳಕೇ",
+        "source_span_translation": "Come, O Light of Compassion",
+        "stanza_index": 1,
+        "term": "ಕರುನಾಳು ಬಾ ಬೆಳಕೇ",
+        "translation_note": "The translation renders this as 'Come, O Light of Compassion', capturing the devotional invocation of divine light. This is a famous Kannada adaptation of John Henry Newman's hymn 'Lead, Kindly Light' by B. M. Srikantaiah (B. M. Sri), which has acquired a deep, culturally contextual devotional status in modern Kannada literature.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A soft, warm, radiant light piercing through deep, heavy darkness",
+          "A gentle, guiding glow that illuminates a path without being blinding"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "fear and longing to devotion and prayer",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the rhythmic, chanting quality of the Kannada phrasing, particularly the compound structures like 'karunaalu baa belake'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A plea for divine guidance, wisdom, or hope to enter the speaker's life during a period of despair.",
+            "acceptable_visual_variants": [
+              "A single warm candle flame casting a long path of light through a dark room",
+              "A soft dawn light breaking through thick, dark storm clouds"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Come, compassionate light",
+            "literalization_risk": "Depicting a literal glowing bulb or physical beam of light with a face, which misses the deep spiritual and emotional plea for guidance.",
+            "metaphor_mapping": {
+              "tenor_concept": "divine guidance",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "providing direction",
+                "warmth",
+                "comfort"
+              ],
+              "vehicle_concept": "light"
+            },
+            "source_span_original": "ಕರುನಾಳು ಬಾ ಬೆಳಕೇ",
+            "source_span_translation": "Come, O Light of Compassion",
+            "source_term": "ಕರುನಾಳು ಬಾ ಬೆಳಕೇ",
+            "tenor": "Divine guidance, spiritual wisdom, or hope",
+            "vehicle": "A warm, guiding light that possesses the human quality of compassion",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm, ambient golden glow breaking through heavy, dark surroundings, illuminating a path without showing a literal physical light source."
+          },
+          {
+            "abstract_meaning": "Deep, persistent, and painful emotional or spiritual suffering.",
+            "acceptable_visual_variants": [
+              "Thick, heavy black fog enveloping the surroundings",
+              "A dark, barren landscape under a starless, pitch-black sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "burning, eternal darkness",
+            "literalization_risk": "Depicting literal black flames, which might look like a fantasy magic effect rather than representing internal despair.",
+            "metaphor_mapping": {
+              "tenor_concept": "spiritual suffering",
+              "transferred_attributes": [
+                "pain",
+                "obscurity",
+                "suffocation",
+                "persistence"
+              ],
+              "vehicle_concept": "burning darkness"
+            },
+            "source_span_original": "ಚಿರತರ ಉರಿ ಕತ್ತಲು",
+            "source_span_translation": "eternal darkness",
+            "source_term": "ಚಿರತರ ಉರಿ ಕತ್ತಲು",
+            "tenor": "Intense spiritual ignorance, despair, or suffering",
+            "vehicle": "A burning, painful darkness",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use deep, heavy, oppressive shadows that seem to press in on the scene, with a subtle smoky or turbulent texture to suggest the 'burning' or painful quality."
+          },
+          {
+            "abstract_meaning": "Overcoming or removing the paralyzing grip of fear and anxiety.",
+            "acceptable_visual_variants": [
+              "A heavy mist clearing away from a person's face",
+              "A dark cloth-like shadow being swept aside by a gentle breeze of light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Opening/parting fear",
+            "literalization_risk": "Showing a literal hand opening a physical curtain labeled 'fear', which is overly literal and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "fear",
+              "transferred_attributes": [
+                "blocking vision",
+                "enclosing",
+                "being parted to reveal light"
+              ],
+              "vehicle_concept": "curtain or veil"
+            },
+            "source_span_original": "ದಿಗಿಲು ತೆರೆದು",
+            "source_span_translation": "Lift the veil",
+            "source_term": "ದಿಗಿಲು ತೆರೆದು",
+            "tenor": "The state of being paralyzed or blinded by fear",
+            "vehicle": "A veil or curtain of fear that can be opened or parted",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a dark, misty shroud or veil-like shadow parting or dissolving as a warm light begins to shine through."
+          },
+          {
+            "abstract_meaning": "A state of confusion, ignorance, or a difficult and uncertain life path.",
+            "acceptable_visual_variants": [
+              "A narrow forest trail shrouded in thick night shadows",
+              "A rocky path fading into pitch darkness"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "black path / dark way",
+            "literalization_risk": "Showing a literal road painted black, which misses the metaphorical sense of a troubled life journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "difficult life journey",
+              "transferred_attributes": [
+                "lack of direction",
+                "danger of falling",
+                "obscurity"
+              ],
+              "vehicle_concept": "dark path"
+            },
+            "source_span_original": "ಕಪ್ಪು ಬಗೆ",
+            "source_span_translation": "black path",
+            "source_term": "ಕಪ್ಪು ಬಗೆ",
+            "tenor": "An uncertain, difficult, or ignorant state of mind and life",
+            "vehicle": "A dark, unlit path where one cannot see where to step",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a winding, rugged path obscured by deep shadows and night, where the destination is completely invisible."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Kannada compound 'karunaalu' combines compassion (karune) and possessor (aalu), which carries a deeply personal, tender, and protective tone that is simplified to 'O Light of Compassion' in English.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The word 'bage' literally means mind, thought, or intent, but is translated as 'path' in the English translation, shifting the internal mental illumination to an external physical journey.",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'nayamagane' (gentle/polite son or child) carries a specific familial and respectful intimacy in Kannada that is flattened to 'gentle child' in English.",
+            "where": "L7"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The subtle shift from 'nishe hattide' (night has risen/climbed) in stanza 1 to 'nishe bittide' (night is sown) in stanza 2 is partially captured but loses its poetic resonance in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of confusion, ignorance, or a difficult and uncertain life path.",
+            "acceptable_visual_variants": [
+              "A narrow forest trail shrouded in thick night shadows",
+              "A rocky path fading into pitch darkness"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "black path / dark way",
+            "literalization_risk": "Showing a literal road painted black, which misses the metaphorical sense of a troubled life journey.",
+            "metaphor_mapping": {
+              "tenor_concept": "difficult life journey",
+              "transferred_attributes": [
+                "lack of direction",
+                "danger of falling",
+                "obscurity"
+              ],
+              "vehicle_concept": "dark path"
+            },
+            "source_span_original": "ಕಪ್ಪು ಬಗೆ",
+            "source_span_translation": "black path",
+            "source_term": "ಕಪ್ಪು ಬಗೆ",
+            "tenor": "An uncertain, difficult, or ignorant state of mind and life",
+            "vehicle": "A dark, unlit path where one cannot see where to step",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a winding, rugged path obscured by deep shadows and night, where the destination is completely invisible."
+          },
+          {
+            "abstract_meaning": "The pervasive and active spreading of despair, ignorance, or darkness over one's life.",
+            "acceptable_visual_variants": [
+              "Creeping shadows stretching across a landscape like growing roots",
+              "Darkness falling in patches that gradually merge to cover the earth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "night is sown / planted",
+            "literalization_risk": "Showing a literal figure throwing black seeds onto soil that sprout into darkness, which looks too fantastical.",
+            "metaphor_mapping": {
+              "tenor_concept": "onset of despair",
+              "transferred_attributes": [
+                "active spreading",
+                "growth",
+                "inevitable coverage"
+              ],
+              "vehicle_concept": "sowing seeds"
+            },
+            "source_span_original": "ನಿಶೆ ಬಿತ್ತಿದೆ",
+            "source_span_translation": "night is sown",
+            "source_term": "ನಿಶೆ ಬಿತ್ತಿದೆ",
+            "tenor": "The gradual, inevitable onset of deep despair or ignorance",
+            "vehicle": "Seeds of night being sown in a field to grow",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict dark, shadow-like patterns spreading across the ground like creeping vines or roots, overtaking the last light of day."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The word 'bage' (mind/thought) is again translated as 'path' in the English translation, losing the internal psychological dimension of the illumination.",
+            "where": "L9"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The verb 'bittide' (has been sown) creates a powerful agricultural metaphor of night being planted like seeds, which is rendered literally but loses its cultural resonance of karma or inevitable growth in English.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A desperate plea for divine light and guidance amidst overwhelming spiritual and existential darkness."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಕರುನಾಳು ಬಾ ಬೆಳಕೇ,\nಚಿರತರ ಉರಿ ಕತ್ತಲು ನೀಗೀ\nಕರೆಯುವೆ ನಿನ್ನನು ಮೊದಲು,\nದಿಗಿಲು ತೆರೆದು ಬಾ ತಲೆಗೆ!\nಬೆಳಕಿಸು ಕಪ್ಪು ಬಗೆ\nದಿನವು ಮುಗಿದು ನಿಶೆ ಹತ್ತಿದೆ\nದಾರಿ ತಿಳಿಸಿ ನಯಮಗನೆ\nಮುಗಿಯದು ಕತ್ತಲೆಯು! ಬಾ!\n\nಬೆಳಕಿಸು ಕಪ್ಪು ಬಗೆ\nಸುದಿನ ಮುಗಿದು ನಿಶೆ ಬಿತ್ತಿದೆ\nದಾರಿ ತೋರಿ ಹೃದಯದೆಡೆಗೆ\nಮುಗಿಯದು ಕತ್ತಲೆಯು! ಬಾ!",
+  "poem_id": "MV++_1115",
+  "poem_title": "Karunaalu Baa Belake",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c74f514e83e4a9d46a04a072ff53f200edb28e30e9e3be9a9d770fab8377926d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1115.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Come, O Light of Compassion,\nBanish the eternal darkness.\nI call upon you first,\nLift the veil and come to my aid!\nIlluminate the black path,\nThe day has ended, and night has risen.\nGuide the gentle child,\nThe darkness will not cease! Come!\n\nIlluminate the black path,\nThe good day has ended, and night is sown.\nShow the way to the heart,\nThe darkness will not cease! Come!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:59:22.500750+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e5adc8598967cc9bf29f352537ade2d55e70a16056c675d78ff380ea3f8d678f",
+        "response_hash": "c8047d81b40965dbaebdac941e0980da31e4d1ea90a5e7b5f6bbf40733e92f7b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "395d850b4494fa7bc4bf82d5a396fa24f54c378b356172ecaadbb3165f71fac6",
+        "response_hash": "ef503c90b24fd5e93145bd5e718f45f701b91e9c901fb6992ba8cea600c21d1a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f034d602ee24b1a5e307644c79166d40718ffdd12f9819db098334e6a837d039",
+        "response_hash": "d2f824c21544b4ca0195fbc9fbd454a0ca76ea6f950e6dfc621850ffd3bfc86b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ee71f169c2684d4dbee9a28f18cda1f672251143f4e50c5cdd5acf3b0297d940",
+        "response_hash": "3ebab0aea6b053000924133ad30bb1da64fbbaeb8f0e4c417226a4bc3a8a31f3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "13120f778ba17154e811bce6fa73b1ef32e2921fdf6d671afd78e020377afc40",
+        "response_hash": "b427edd3576a16ba7b5a625d79644e9ac4c733d587eb14bf5b5e16008bc7a08b",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cb92ff1b29534dd1cd01f6e6a9d82f75e5b7684670a8ebb8dd28d98cb7a1b092",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a12cee8f89ae23cd880133a5a5cdd2da892ea5e03a43caed0f58194507e6227d",
+    "translation_sha256": "9c08ec2efe0e053c2a37e9b50372e40b701fd23270f6a9383aa02ad52d911e1d"
+  }
+}

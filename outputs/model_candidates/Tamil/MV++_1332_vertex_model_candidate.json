@@ -1,0 +1,175 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "quiet wonder to joyful realization",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders 'துளி' (thuli) as 'dew', which captures the delicate nature of the drop, but loses the literal simplicity of 'drop/droplet'. The emphatic repetition and grammatical play in 'பூவே பூக்குது' (poove pookkuthu - the flower itself blossoms) is simplified to 'The flower is blossoming'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A tiny, precious, and pure element of love that exists within the speaker's affection.",
+            "acceptable_visual_variants": [
+              "A single glistening dewdrop on a green leaf",
+              "A tiny drop of water reflecting a soft light on a flower petal"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A drop/dew in my love",
+            "literalization_risk": "An illustrator might draw a literal water droplet floating inside a heart or on a personified love concept, which looks cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "nascent love",
+              "transferred_attributes": [
+                "purity",
+                "delicacy",
+                "smallness",
+                "preciousness"
+              ],
+              "vehicle_concept": "dewdrop"
+            },
+            "source_span_original": "துளி என் காதலில்",
+            "source_span_translation": "Dew in my love",
+            "source_term": "துளி என் காதலில்",
+            "tenor": "A small, pure, and delicate feeling of love",
+            "vehicle": "A drop of dew or water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a delicate, glistening dewdrop on a soft leaf or petal, catching the morning light, to evoke the purity and freshness of early love."
+          },
+          {
+            "abstract_meaning": "The feeling of love growing, opening up, and flourishing beautifully inside the speaker's heart.",
+            "acceptable_visual_variants": [
+              "A beautiful flower opening its petals in soft, warm lighting",
+              "A stylized silhouette of a person with a glowing, blooming floral pattern near the chest"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Blooming in my heart",
+            "literalization_risk": "An illustrator might draw a literal anatomical heart with a flower growing out of it, which can look surreal or medically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional opening and growth of love",
+              "transferred_attributes": [
+                "beauty",
+                "growth",
+                "opening up",
+                "vibrancy"
+              ],
+              "vehicle_concept": "blooming flower"
+            },
+            "source_span_original": "என் இதயத்தில் பூக்கும்",
+            "source_span_translation": "Blooming in my heart",
+            "source_term": "என் இதயத்தில் பூக்கும்",
+            "tenor": "The emotional growth and blossoming of love within the speaker's inner self",
+            "vehicle": "A flower bud opening up and blooming",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, warm light or a beautiful flower opening up in a gentle, abstract space that represents the inner self, avoiding anatomical heart drawings."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'துளி' (thuli) as 'Dew' misses the primary, broader meaning of 'drop' or 'droplet' (such as a raindrop or tear), which carries a different poetic resonance in Tamil than the specific word for dew.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The emphatic and repetitive wordplay of 'பூவே பூக்குது' (poove pookkuthu), which literally means 'the flower itself blooms' or 'the very flower is blooming' using the emphatic suffix '-e', is flattened into the simpler English phrase 'The flower is blossoming!'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The transformative power of love, where a tiny drop of emotion blossoms into full, radiant life."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "துளி என் காதலில்,  \nஉன் கண்களில் ஒளிக்கிறது,  \nஎன் இதயத்தில் பூக்கும்,  \nபூவே பூக்குது!",
+  "poem_id": "MV++_1332",
+  "poem_title": "Thuli",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7f87bc479254940db7e01e7a5413276dc165868ae74fee4997a927ff99c42eac",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1332.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Dew in my love,  \nShines in your eyes,  \nBlooming in my heart,  \nThe flower is blossoming!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:22:18.545585+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b59e8767a38e869a209ee635ec2a5ba85a733b0e9c8de277f54d4bca577faf44",
+        "response_hash": "95293b49db3f75f1e41d5b4b2289d60f72325689483be894b6bf6b1614e86b78"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "949b96772a6a9f2ed5b491f21164a824cebc9e7ed9b297f565b66fb334cad367",
+        "response_hash": "ff6c88f2d5327c3ba72358a5503f76adaf0fa922cf3438fc4c4b4394026b789b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "06644ce4c15ce0e0f225011a5d0bfaf6283c0493a2af488844ff0a5c88834c59",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "82fff0bd5264517a79f3c92f3584b5c65234879b6dc5ac9bad426976df6dc880",
+        "response_hash": "1060a89525f76a22af1e668ac5ee3c6a3a5ebadc6fe060a866fcae0f291e2bc7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b7892054aa5e17455bde65f1433a37c705ed6f5af08d356537a89f15c7f732c7",
+        "response_hash": "e5a18a4c479c70819c8eac8b5a0797c62a7bfd81da0fbdd7d59c87b4288813fd",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "531ccd9ebaa507e7ddee025e69bd829f42e3f0863286adee4bc657646cba19f4",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9c5704bf2b5c7d351414eb49c4dadb51ccb25a2ae462b9505bdfa1650895643c",
+    "translation_sha256": "3d529e761551546972e92c3af47fe90ac768d090f11ca07c9c0029e7c592a5db"
+  }
+}

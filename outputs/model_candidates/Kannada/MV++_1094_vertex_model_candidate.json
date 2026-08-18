@@ -1,0 +1,269 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A person in quiet contemplation during twilight",
+          "A landscape showing the transition of light at dusk"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The ritual worship or contemplation performed at the three junctions of the day: dawn, noon, and dusk.",
+        "line_ref": "L8",
+        "negative_confusions": [
+          "A generic sunset scene without any sense of ritual or transitional significance"
+        ],
+        "preserved": true,
+        "romanization": "trikaal sandhya",
+        "source_span_original": "त्रिकाल संध्या",
+        "source_span_translation": "twilight of three times",
+        "stanza_index": 2,
+        "term": "त्रिकाल संध्या",
+        "translation_note": "Translated as 'twilight of three times' which captures the literal meaning but loses the specific ritualistic association of the three daily junctions (dawn, noon, dusk) in Hindu practice.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A soft, transitional light representing the junction of day and night",
+          "A meditative or quiet atmosphere"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "quiet observation of twilight transitioning into peaceful acceptance of the day's end",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The atmosphere becomes completely quiet and still as night falls.",
+            "acceptable_visual_variants": [
+              "A quiet twilight landscape with a single bird resting on a branch in still air",
+              "A soft-focus view of twilight mist settling over a quiet field"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Silence physically dissolves like a soluble substance into the air.",
+            "literalization_risk": "Showing physical particles of silence melting into air currents, which looks like chemical pollution or mist.",
+            "metaphor_mapping": {
+              "tenor_concept": "spreading silence",
+              "transferred_attributes": [
+                "becoming thoroughly mixed",
+                "permeating the medium",
+                "becoming imperceptible as a separate entity"
+              ],
+              "vehicle_concept": "dissolving substance"
+            },
+            "source_span_original": "हवा में घुल जाती है एक खामोशी",
+            "source_span_translation": "silence dissolves into the air",
+            "source_term": "हवा में घुल जाती है एक खामोशी",
+            "tenor": "Silence spreading through and filling the atmosphere",
+            "vehicle": "A soluble substance dissolving into a liquid",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, empty landscape with soft, still air currents or gently swaying leaves to suggest quietness and peace."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural and ritualistic resonance of 'तीनों समय का संध्या बेला' (the three junctions of the day: dawn, noon, and dusk) is simplified to 'Twilight of the three times', which loses the traditional Hindu concept of Trikala Sandhya (daily prayers performed at these three junctions).",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sun is setting, marking the end of the day.",
+            "acceptable_visual_variants": [
+              "A deep red sun dipping below a mountain ridge",
+              "A golden sun sinking into the ocean horizon"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "The sun speaks words of farewell.",
+            "literalization_risk": "Drawing a cartoon sun with a face, mouth, and speech bubble saying goodbye, which ruins the poetic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "sunset",
+              "transferred_attributes": [
+                "leaving",
+                "finality of the day",
+                "intentional action"
+              ],
+              "vehicle_concept": "human departure and farewell"
+            },
+            "source_span_original": "सूरज कहता है अलविदा",
+            "source_span_translation": "The sun bids goodbye",
+            "source_term": "सूरज कहता है अलविदा",
+            "tenor": "The sun setting below the horizon",
+            "vehicle": "A person saying goodbye before departing",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a realistic setting sun half-submerged below the horizon, casting long, departing rays."
+          },
+          {
+            "abstract_meaning": "The ground is covered by darkness or evening shadows as night falls.",
+            "acceptable_visual_variants": [
+              "A landscape transitioning from golden hour to deep blue twilight shadows",
+              "A soft layer of evening mist settling over rolling hills"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "The earth physically spreads out a fabric bedsheet or blanket.",
+            "literalization_risk": "Depicting a giant hand or personified earth laying a literal textile sheet over hills and valleys.",
+            "metaphor_mapping": {
+              "tenor_concept": "falling darkness",
+              "transferred_attributes": [
+                "covering",
+                "providing comfort or rest",
+                "spreading across a flat surface"
+              ],
+              "vehicle_concept": "spreading a blanket"
+            },
+            "source_span_original": "धरती बिछा देती है अपनी चादर",
+            "source_span_translation": "The earth spreads out its blanket",
+            "source_term": "धरती बिछा देती है अपनी चादर",
+            "tenor": "The spreading of darkness or twilight shadows over the landscape",
+            "vehicle": "A person spreading a blanket or sheet over a bed",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a dark shadow or twilight mist gradually creeping over a landscape, covering the ground like a soft layer."
+          },
+          {
+            "abstract_meaning": "The sky reflects the passage of time and the events of the day through its changing colors.",
+            "acceptable_visual_variants": [
+              "A twilight sky with wispy clouds catching the last multi-colored rays of the sun",
+              "A deep gradient sky transitioning from orange at the horizon to starry dark blue above"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7",
+            "literal_meaning": "The sky collects and stores a written or spoken narrative of the day's events.",
+            "literalization_risk": "Showing a sky with hands holding a book or scrolls containing written stories.",
+            "metaphor_mapping": {
+              "tenor_concept": "retaining the final light and colors of the day",
+              "transferred_attributes": [
+                "collecting",
+                "holding memories",
+                "preserving a record"
+              ],
+              "vehicle_concept": "gathering and preserving stories"
+            },
+            "source_span_original": "और आसमान सहेजता है दिनभर की कहानी",
+            "source_span_translation": "And the sky gathers the day's tale",
+            "source_term": "आसमान सहेजता है दिनभर की कहानी",
+            "tenor": "The sky holding the final colors and memories of the day at dusk",
+            "vehicle": "A storyteller or archivist collecting and preserving stories",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a sky filled with a rich tapestry of twilight colors (orange, purple, deep blue) that represent the culmination of the day."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The term 'त्रिकाल संध्या' (Trikala Sandhya) is translated literally as 'twilight of three times', which strips away its deep-rooted spiritual, ritualistic, and philosophical connotations in Indian traditions.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The transition of twilight as a sacred, quiet space where nature gathers its memories and rests"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "metadata.language",
+      "issue": "The poem's metadata specifies the language as Kannada, but the original poem text ('तीनों समय का संध्या बेला...') is written in Hindi (Devanagari script). This is a fundamental language mismatch.",
+      "severity": "high"
+    },
+    {
+      "field_path": "stanzas[1].metaphor_spans[2].source_span_original",
+      "issue": "The source_span_original 'और आसमान सहेजता है दिनभर की कहानी' contains the leading conjunction 'और' which is not present in the corresponding source_term 'आसमान सहेजता है दिनभर की कहानी'.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "तीनों समय का संध्या बेला,  \nजब सूरज ढलता है धीरे-धीरे,  \nहर एक रंग में घुल जाती है एक छाया,  \nऔर हवा में घुल जाती है एक खामोशी।\n\nसूरज कहता है अलविदा,  \nधरती बिछा देती है अपनी चादर,  \nऔर आसमान सहेजता है दिनभर की कहानी,  \nइस त्रिकाल संध्या के आलोक में।",
+  "poem_id": "MV++_1094",
+  "poem_title": "Trikaal Sandhya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "388b0e2f004a0c7459ceccf2d375431565e5f64093485b8c6d463f7be3309cfd",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1094.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Twilight of the three times,  \nAs the sun sets slowly,  \nEvery hue merges with a shadow,  \nAnd silence dissolves into the air.\n\nThe sun bids goodbye,  \nThe earth spreads out its blanket,  \nAnd the sky gathers the day's tale,  \nIn the glow of this twilight of three times.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:56:55.327781+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "247d3d7a792d114221035b6c3a490b2b37f80126d3e055c6817a6c922d15a2bd",
+        "response_hash": "5bcb80c2cdc5e3a049e8e82d635c392c1aaa066c5da4df49b41d6312e51a3873",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "14eca6f920357b511b14e3957e928c025e17b05de879e5e3a3de70399f51dec6",
+        "response_hash": "5ec964b664634843a19541a54cbd189681d5497a75077b8a14927dd6bb4137d5",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "10ff0a521c0c07366cd950413b8d34d31c8a69b960da0289f5b19484ca3c5dfc",
+        "response_hash": "58d77943a4ada4fbaa0d42c9393e0d1f03b28d2586110518a1e2ec18a7002eb9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "56324e0b78e69751d77b6b39bd449c0d6fd84b34310919aaed3710e3085a3812",
+        "response_hash": "0f0d854aee79203e6b4d2f6ab4f18eac333eb717b8e923e734b8883b30a59610",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "dafe7a8123812ac0cd54a08ed99bd6c7618b182931a0c10a1855b785951e6ad9",
+        "response_hash": "ce5ad7b455f17d405f8baaa57f223215b71e63f0e3568cb7ee0fe58b829c5820",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0e6c57d61999d8545a0d6f53ce411f11bd2a0f48972ea9a9d242c71ccd75a80b",
+    "translation_sha256": "c44a9995e2993776ed849723303d93d11612e34a5a4896597ee0ca3faeaa637a"
+  }
+}

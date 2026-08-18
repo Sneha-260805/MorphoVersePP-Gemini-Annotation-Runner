@@ -1,0 +1,229 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and dependence to quiet realization of connection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'Samvadiyah' as 'The Consonant' (linguistic/phonetic sense), but 'Samvadiya' in Hindi/Bhojpuri traditionally refers to a messenger or courier who carries personal, emotional messages. This rich cultural and emotional double meaning of a messenger filling one's silence is flattened into a purely grammatical metaphor.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The consonant (or messenger) is compared to a sound that resonates within the speaker's quiet state, showing how it brings life or structure to silence.",
+            "acceptable_visual_variants": [
+              "A single drop falling into still water creating gentle ripples",
+              "A soft glow expanding outward in a dark room"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "Like a sound / acoustic vibration",
+            "literalization_risk": "Depicting literal sound waves or concentric circles coming out of a mouth might look like a scientific diagram rather than a poetic resonance.",
+            "metaphor_mapping": {
+              "tenor_concept": "the presence of a consonant or messenger breaking silence",
+              "transferred_attributes": [
+                "resonance",
+                "breaking of silence",
+                "filling of empty space"
+              ],
+              "vehicle_concept": "sound waves echoing in a quiet space"
+            },
+            "source_span_original": "एक ध्वनि की तरह",
+            "source_span_translation": "Like a sound",
+            "source_term": "एक ध्वनि की तरह",
+            "tenor": "the consonant / messenger (samyadiyah)",
+            "vehicle": "a sound / acoustic vibration",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a subtle, shimmering ripple or wave pattern emanating from a central point in a quiet, dark, or minimalist space to represent resonance in silence."
+          },
+          {
+            "abstract_meaning": "The presence of the consonant or messenger fills the speaker's quietness, making their internal thoughts or unexpressed words resonate.",
+            "acceptable_visual_variants": [
+              "A silhouette surrounded by soft, repeating concentric outlines",
+              "A quiet room with light reflecting in repeating patterns"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4-L5",
+            "literal_meaning": "You echo in my silence.",
+            "literalization_risk": "Showing a person shouting into a canyon to get a literal echo would completely lose the intimate, linguistic, and quiet nature of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "the mental or linguistic presence of the consonant in silence",
+              "transferred_attributes": [
+                "filling of empty space",
+                "persistence of presence"
+              ],
+              "vehicle_concept": "an echo in an empty room"
+            },
+            "source_span_original": "तुम मेरी चुप्पी में\nगूंजते हो।",
+            "source_span_translation": "You echo in my silence.",
+            "source_term": "तुम मेरी चुप्पी में\nगूंजते हो।",
+            "tenor": "the influence of the consonant/messenger on the speaker's quiet state",
+            "vehicle": "an echo in a silent chamber",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize a solitary figure sitting in a quiet, vast space with soft, repeating visual patterns or shadows that suggest a lingering presence or echo."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'संवदियाह' (Samvadiyah) as 'The Consonant' loses the rich cultural and literary resonance of a traditional messenger or courier (Samvadiya) who carries oral messages, emotions, and news between separated people, reducing a deeply human, empathetic figure to a purely linguistic/phonetic concept.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The structural links, syllables, or grammatical connections of the consonant (or the messenger's path) that hold the speaker's words together.",
+            "acceptable_visual_variants": [
+              "Interlocking rings made of light or glowing thread",
+              "Elegant, connected loops of script or letters"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "In your links / chains",
+            "literalization_risk": "Drawing heavy iron chains or shackles would evoke imprisonment, captivity, or slavery, which completely contradicts the poetic theme of linguistic structure and expression.",
+            "metaphor_mapping": {
+              "tenor_concept": "the linguistic structure or syllables that connect words",
+              "transferred_attributes": [
+                "interlocking nature",
+                "holding things together",
+                "structural strength"
+              ],
+              "vehicle_concept": "interlocking metal links of a chain"
+            },
+            "source_span_original": "तुम्हारी कड़ियों में",
+            "source_span_translation": "In your chains",
+            "source_term": "तुम्हारी कड़ियों में",
+            "tenor": "the structural connections or syllables of the consonant",
+            "vehicle": "links of a chain",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict delicate, interlocking geometric patterns, elegant calligraphic loops, or light-filled links that connect together gracefully."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'कड़ियों' (kadiyon) as 'chains' loses the poetic double meaning of 'kadi' in Hindi, which refers to both links of a chain and the verses/stanzas of a song or poem, flattening the literary connection between the messenger's verses and the speaker's hidden words.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'जज़्बात' (jazbaat) as 'emotions' loses the specific Urdu-derived register of intense, passionate, and deeply felt personal feelings, which contrasts beautifully with the simpler Hindi vocabulary used elsewhere in the poem.",
+            "where": "L13"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The essential, structuring role of a consonant (or messenger) in giving form, voice, and expression to silent emotions and incomplete words."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation quality is marked as 'faithful' but the stanza contains a non-empty translation_loss list detailing the loss of the poetic double meaning of 'kadiyon' as 'chains' versus 'verses/stanzas'. This is inconsistent with a 'faithful' rating.",
+      "severity": "medium"
+    },
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation quality is marked as 'faithful' but the stanza contains a non-empty translation_loss list detailing the loss of the specific Urdu-derived register of 'jazbaat' as 'emotions'. This is inconsistent with a 'faithful' rating.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "संवदियाह  \nसंवदियाह,  \nएक ध्वनि की तरह,  \nतुम मेरी चुप्पी में  \nगूंजते हो।  \n\nतुम्हारी कड़ियों में,  \nछिपे हैं मेरे शब्द।  \nतुम्हारे बिना,  \nमेरे स्वर हैं अधूरे।  \n\nतुमसे ही शुरू होती है,  \nहर बातचीत।  \nतुम्हारी सादगी में,  \nमेरा जज़्बात छिपा है।",
+  "poem_id": "MV++_0305",
+  "poem_title": "Samvadiyah",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "572eee7e92a72fb57a16fa8473466a42cb5c37de4e569f84aec7a2e25949a7f7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0305.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Consonant  \nConsonant,  \nLike a sound,  \nYou echo in my silence.  \n\nIn your chains,  \nMy words are hidden.  \nWithout you,  \nMy tones are incomplete.  \n\nEvery conversation starts with you.  \nIn your simplicity,  \nMy emotions are concealed.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:10:32.314990+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e482e4cd398f98801cee8e46ac838e242bd0cc484a168e4cab50596e273636aa",
+        "response_hash": "f9869cb9574f4aa0b2c626ef8fc16b2ee329760d213e5b408aecd8da6748dd3d",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4ee596619ad2baae06516c1d3ae6b79dd2bd80b59960b747cedf438cad401a30",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "699a90201d7a0ab86e1da91ff1a8fbea7c7701b0de8024d433c4c6adfbb5816e",
+        "response_hash": "617e68e1134594f67693f0747f79c7ec92c7f3ac91712670d5440f79fa98d98f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "341ea4a30159f47853671841ae4292e45da0dbe37683ab15a4ef24a20b29b809",
+        "response_hash": "ba06acb5ed1e383835f6aec784d916e207ffee650a23d727e191d234e4a60ae5",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6061ddb8b91d52296bf47a54809076c0cc3d35d84854f60d2b4e4af2b3519248",
+        "response_hash": "78aaf6ab197a85452fe9a85033a84adb872d4391083ee3d572a943563d71f05d",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5b50dbc46e34ffc8e5a18b3d795d1050ec3d2221c4b0ca9f32fc4174133a0d1d",
+    "translation_sha256": "2484c972d1ee467f6ea0fd42e0ebd7a2394db76734ea5bbf08e167ac36795acc"
+  }
+}

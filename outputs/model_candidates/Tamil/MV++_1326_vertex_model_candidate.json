@@ -1,0 +1,178 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and quiet joy",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A beautiful, comforting presence or thought that arises in the darkness of night or solitude, bringing sweet dreams.",
+            "acceptable_visual_variants": [
+              "A glowing white blossom opening under a starry night sky",
+              "A soft, luminous floral silhouette overlaying a peaceful human profile in deep thought"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A flower that belongs to or blooms during the night",
+            "literalization_risk": "An illustrator might draw a literal botanical flower growing out of a physical human heart, which looks grotesque rather than poetic.",
+            "metaphor_mapping": {
+              "tenor_concept": "comforting internal thought or presence",
+              "transferred_attributes": [
+                "blooming in darkness",
+                "bringing beauty and sweet dreams"
+              ],
+              "vehicle_concept": "night-blooming flower"
+            },
+            "source_span_original": "இரவின் பூ",
+            "source_span_translation": "Night flower",
+            "source_term": "இரவின் பூ",
+            "tenor": "A comforting thought, feeling, or beloved presence arising in the dark",
+            "vehicle": "A night-blooming flower",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing flower-like light or a delicate, ethereal blossom gently unfolding in a dark, starry night setting, reflecting onto a peaceful sleeping figure."
+          },
+          {
+            "abstract_meaning": "Flourishing or coming alive through the richness, grace, or love of another person.",
+            "acceptable_visual_variants": [
+              "A flower bathed in a warm, golden aura of light",
+              "A blossom opening as gentle, sparkling dew falls upon it"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Bloomed or opened up within your material wealth or riches",
+            "literalization_risk": "An illustrator might draw a flower growing out of a pile of gold coins or cash, which completely misrepresents the emotional and spiritual nature of 'wealth' here.",
+            "metaphor_mapping": {
+              "tenor_concept": "flourishing under someone's love or grace",
+              "transferred_attributes": [
+                "growth",
+                "nourishment",
+                "vibrancy"
+              ],
+              "vehicle_concept": "blooming in rich soil/abundance"
+            },
+            "source_span_original": "உன் செல்வத்தில் மலர்ந்தது",
+            "source_span_translation": "Bloomed in your wealth",
+            "source_term": "உன் செல்வத்தில் மலர்ந்தது",
+            "tenor": "A feeling or dream flourishing due to someone's love, grace, or spiritual richness",
+            "vehicle": "A flower blooming in rich, fertile soil or abundance",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the flower being nourished by a gentle, warm stream of golden light or dew representing the beloved's grace."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The genitive case marker '-in' in 'iravin' (night's) is translated as a noun adjunct 'Night flower', losing the explicit possessive relationship.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The postposition 'ullae' (inside/within) combined with the locative case marker '-il' in 'ithayathil' creates a double locative emphasis ('within the inside of my heart') which is flattened to a simple 'Within my heart' in English.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The blooming of a night flower within the heart, bringing beautiful dreams from a beloved's wealth."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a non-empty translation_loss list, which is inconsistent with a completely faithful translation rating.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "இரவின் பூ,  \nஉன் செல்வத்தில் மலர்ந்தது,  \nஎன் இதயத்தில் உள்ளே,  \nஅழகான கனவுகளை தருகிறது!",
+  "poem_id": "MV++_1326",
+  "poem_title": "Iravu Poo",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "23c187acda3c495362daaf430915d8e635e2772a1db83eb480eb0d8e4d03850b",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1326.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Night flower,  \nBloomed in your wealth,  \nWithin my heart,  \nIt gives beautiful dreams!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:21:42.439865+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5f347861ccbed1cc62e41a8478cb39616a1af8effa2cef47c5299826dce265b8",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "953273672be05405235ec7313f353a2c8da8495f1a539649a6b774e9dddccee3",
+        "response_hash": "863adc9fed09b9f1edaff13db0518384067c7e5c230bf7549a0ecf59e172bfdb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8abda6ac8bd0ea357cb05212f4ee5a90cc75c8986ad13b9c99ffe10e98c412aa",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d80653d295da9a48d624ad0cd92fe8c8042b89654bf59c15da3c77049293bea8",
+        "response_hash": "3e2cf679a62870ebaf11831762e33d1c057119489a66d5d14b543f1d09c03251",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3260053fb39352dcad01122fd2f60736747a9947d2203b399f23c74c6036facd",
+        "response_hash": "6b949aefe84afdf7472da777392eb9cb9a30a107d3154c02baa20a54714c5535",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8482459517ab92d77c35f75767b2dcbb5391edd9c925de6ac75122b5b21f61a0",
+        "response_hash": "48dfa33e48a230e7683d2f2f5013d23aacfdea998df95965b771e251372e254e",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "fb3781b377a2af49f2d797a12c1cb12e9e0539a4e55599e10cd8ea8915592b93",
+    "translation_sha256": "26926d5d8d1a480f227e973a70b3f5750e9d2718b09c72a7f6a399609c8454c3"
+  }
+}

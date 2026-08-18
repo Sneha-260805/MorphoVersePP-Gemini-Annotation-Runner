@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A feeling of love, joy, or beauty blooming inside the heart.",
+            "acceptable_visual_variants": [
+              "A stylized, glowing flower shape over the chest area of a silhouette",
+              "A person smiling warmly with a blooming flower in the background to suggest the internal feeling"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical flower inside the chest or heart",
+            "literalization_risk": "Showing a literal flower physically growing inside a human chest cavity, which looks like a medical anomaly or surreal body horror.",
+            "metaphor_mapping": {
+              "tenor_concept": "love growing in the heart",
+              "transferred_attributes": [
+                "beauty",
+                "delicacy",
+                "growth",
+                "freshness"
+              ],
+              "vehicle_concept": "flower blooming"
+            },
+            "source_span_original": "நெஞ்சுக்குள் பூ",
+            "source_span_translation": "A flower in the heart",
+            "source_term": "நெஞ்சுக்குள் பூ",
+            "tenor": "the feeling of love or joy",
+            "vehicle": "a blooming flower",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing floral silhouette or a delicate flower shape overlaid on a person's chest, or a person holding their hand over their heart with a joyful expression."
+          },
+          {
+            "abstract_meaning": "The pleasant, lingering, and delightful effect of a loved one's smile.",
+            "acceptable_visual_variants": [
+              "A smiling face surrounded by soft, warm light rays",
+              "A smiling face with delicate flower petals drifting gently around it"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The physical scent or odor emitted by a smile",
+            "literalization_risk": "Depicting visible scent lines or vapor coming out of a person's open mouth, which looks like bad breath or gas.",
+            "metaphor_mapping": {
+              "tenor_concept": "the sensory joy of a smile",
+              "transferred_attributes": [
+                "pleasantness",
+                "lingering presence",
+                "invisible charm"
+              ],
+              "vehicle_concept": "fragrance"
+            },
+            "source_span_original": "உன் சிரிப்பின் மணம்",
+            "source_span_translation": "The fragrance of your smile",
+            "source_term": "உன் சிரிப்பின் மணம்",
+            "tenor": "the delightful and lingering presence of a smile",
+            "vehicle": "fragrance/scent",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person smiling with subtle, beautiful elements like floating petals or soft light around them to symbolize the spreading pleasantness."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The agglutinative locative case suffix '-kul' (inside/within) in 'Nenjukkul' is translated as a generic English preposition 'in', losing the physical depth of 'inside the heart'.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The Tamil word 'uyir' specifically refers to the physical life-force or breath of life, which carries a different philosophical and physical weight than the English translation 'soul' (which often maps to 'aatma').",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The essential, life-sustaining nature of love and the beloved's presence"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items, which is inconsistent with a completely faithful translation. The quality should be 'partial' if there is notable translation loss.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "நெஞ்சுக்குள் பூ,  \nஉன் சிரிப்பின் மணம்,  \nகாதலின் சுகம்,  \nஎன் உயிரின் தேவை!",
+  "poem_id": "MV++_1338",
+  "poem_title": "Nenjukkul Poo",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f718ca9f7bbbda99c371247f50090ad907de6f9bc650c06e77eebacb04154021",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1338.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A flower in the heart,  \nThe fragrance of your smile,  \nThe sweetness of love,  \nIs the need of my soul!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:22:55.073122+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "cf068fa3140a2d47ff52b4017a26e8a81a5bf2f54b0bdf2016d982d978d6c5c3",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c5e4ecdedf0f7826f416698dde8e69f1b59361cf159d7fbe9b9d3b7aedfea130",
+        "response_hash": "8fe06574c39c5d0110ac96a101104f007c561ef3cb3326d1946d2708aa8cadc1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4b3f8c540c0cb7a7283fcd9b8c8fb7681e4931a6da032986ecb3e7f6116e8004",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2bf602fc8ddf85f7ef537c149da8497070388156ef43c0738221f5c821d5d792",
+        "response_hash": "41664a68960fbe96db4c53ed6839e7ef618f661ceea7ef2805e0d7a0ecab5e04",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "68edb1858459b8efb86c53de41aa45ef6c57ede63d8db3f5e870a2dadb0413ec",
+        "response_hash": "523ab17332fed0797510764aa28c98306f7a98902022ee446baed32d97a7cee3",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "57d762ba249c60f05855d87279f3bdf0b747eaa205afea0a21a42a68a3d324d7",
+        "response_hash": "5a6381c9f9d949ffdeedae9252779e079312fe43d675b9f7e131e3b48d95cea9",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "833513464c66dbd38ff531ff0a4cb3052ef95939d3fba6b1e90733a68c4debae",
+    "translation_sha256": "9223db4c9418434a814a448cae9fe0310ccbd1a059ee943c75b5cbe5066fe6ae"
+  }
+}

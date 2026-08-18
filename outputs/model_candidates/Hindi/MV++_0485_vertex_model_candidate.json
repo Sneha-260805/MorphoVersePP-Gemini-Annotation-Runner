@@ -1,0 +1,244 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to peaceful acceptance of an endless journey",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The surface of the earth or the ground from which water vapor rises to form clouds, conceptualized as a mother's protective lap.",
+            "acceptable_visual_variants": [
+              "Soft mist rising from green hills into the sky",
+              "Vapor ascending from a river valley at dawn"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "The lap of the Earth",
+            "literalization_risk": "An illustrator might draw a literal giant woman made of soil holding clouds in her lap, which would look cartoonish and miss the poetic sense of natural origin.",
+            "metaphor_mapping": {
+              "tenor_concept": "earth's surface",
+              "transferred_attributes": [
+                "nurturing origin",
+                "place of safety and birth"
+              ],
+              "vehicle_concept": "mother's lap"
+            },
+            "source_span_original": "धरती की गोदी",
+            "source_span_translation": "earth's embrace",
+            "source_term": "धरती की गोदी",
+            "tenor": "The surface of the earth",
+            "vehicle": "A mother's lap (godi)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict mist or vapor gently rising from a lush, warm landscape or valley floor towards the sky, suggesting a natural birth or rising from the ground."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'godi' as 'embrace' loses the specific cultural and physical imagery of a mother's lap, which is central to the Hindi concept of 'godi'.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and continuous aspect of the reduplicated participle 'udte-udte' (flying and flying / while flying) is simplified to a single English participle 'as they flew'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The clouds appearing bright, pleasant, or parting to let sunlight through, conceptualized as smiling.",
+            "acceptable_visual_variants": [
+              "Sunlight breaking through soft white clouds",
+              "Brightly lit cloud edges against a blue sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L5",
+            "literal_meaning": "sometimes smiling",
+            "literalization_risk": "Drawing literal cartoon faces with smiles on the clouds, which ruins the naturalistic poetic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "bright, pleasant clouds",
+              "transferred_attributes": [
+                "warmth",
+                "happiness",
+                "pleasant appearance"
+              ],
+              "vehicle_concept": "human smiling"
+            },
+            "source_span_original": "कभी मुस्काते",
+            "source_span_translation": "sometimes they smiled",
+            "source_term": "कभी मुस्काते",
+            "tenor": "Clouds parting or looking bright and pleasant",
+            "vehicle": "A human smiling",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict clouds with soft, bright edges illuminated by golden sunlight breaking through, conveying a cheerful and warm atmosphere."
+          },
+          {
+            "abstract_meaning": "The clouds raining (crying) and being bright or thundering joyfully (laughing) as they move, representing the changing states of nature or human emotions.",
+            "acceptable_visual_variants": [
+              "A landscape with rain falling in the distance while the foreground is sunlit",
+              "A single cloud casting rain on one side and catching bright sunlight on the other"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "sometimes crying, sometimes laughing",
+            "literalization_risk": "Depicting clouds with literal weeping eyes and laughing mouths, which looks childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "weather patterns of rain and sunshine",
+              "transferred_attributes": [
+                "alternating states of sadness and joy",
+                "outpouring of water/light"
+              ],
+              "vehicle_concept": "human emotional expressions"
+            },
+            "source_span_original": "कभी रोते, कभी हँसते थे।",
+            "source_span_translation": "At times crying, at times laughing.",
+            "source_term": "कभी रोते, कभी हँसते थे।",
+            "tenor": "Clouds raining and being bright/clear",
+            "vehicle": "Human crying and laughing",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a split or transitioning sky where one side has gentle rain falling (crying) and the other side has bright, sunlit clouds (laughing)."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Every change in the wind or direction of the clouds brings a new shape, weather pattern, or phase of their journey.",
+            "acceptable_visual_variants": [
+              "Clouds morphing in shape as they drift across different landscapes",
+              "A sequence of panels showing a cloud changing form over time"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "A new story at every turn",
+            "literalization_risk": "Depicting literal books or written words floating in the sky at physical road bends.",
+            "metaphor_mapping": {
+              "tenor_concept": "atmospheric changes and shifting cloud formations",
+              "transferred_attributes": [
+                "novelty",
+                "unfolding phases",
+                "variety"
+              ],
+              "vehicle_concept": "a traveler's journey with stories"
+            },
+            "source_span_original": "हर मोड़ पे एक नई कहानी",
+            "source_span_translation": "At every turn, a new story",
+            "source_term": "हर मोड़ पे एक नई कहानी",
+            "tenor": "The changing shapes and experiences of clouds as they drift",
+            "vehicle": "A journey with narrative twists and stories",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show clouds changing shape dramatically as they pass over different terrains (e.g., shifting from wispy over mountains to dense over plains)."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The feminine noun 'anjaani' (an unknown female person or entity) is translated as a generic abstract noun 'unknown', losing the personified feminine quality of the original Hindi word.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The eternal, cyclical journey of clouds as a metaphor for life's changing emotions and endless movement"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "बादलों का सफर था शुरू,  \nआसमान के रंग बदल रहे थे,  \nधरती की गोदी से निकले थे,  \nउड़ते-उड़ते बादल बन रहे थे।\n\nकभी गरजते थे, कभी मुस्काते,  \nपानी की बूँदें गिराते थे,  \nवो सफर कितना लंबा था,  \nकभी रोते, कभी हँसते थे।\n\nहर मोड़ पे एक नई कहानी,  \nहर दिशा में एक नई अंजानी,  \nसभी बादल अब दूर जा रहे हैं,  \nपर उनका सफर कभी खत्म नहीं होता।",
+  "poem_id": "MV++_0485",
+  "poem_title": "Badalon Ka Safar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1749d8dbda932802dbae455f6da3b0454d24c46203f9b8e5643423bea22d7714",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0485.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The journey of the clouds had begun,  \nThe colors of the sky were changing,  \nFrom the earth's embrace they had risen,  \nTurning into clouds as they flew.\n\nSometimes they thundered, sometimes they smiled,  \nDropping drops of rain,  \nHow long their journey was,  \nAt times crying, at times laughing.\n\nAt every turn, a new story,  \nIn every direction, a new unknown,  \nAll the clouds are now moving far away,  \nBut their journey never ends.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:30:04.800896+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "31eb295bac40c238de76b70d9fb20134213f45020fa4c7f93ae0cf3370cb2f83",
+        "response_hash": "4ef73b71f7b56c225ffd44e3a6a101429ed8dee6df7a14aaa09c3523908869ed",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "417c09e5b60dfa49a284e094d4a116ba14ad565ee5fea117f457e09d5bb8c6fe",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "db196c565ba6a5ae03f03d8648ba83f665153b08a880eb76ca3e5ac0b82189d2",
+        "response_hash": "626b21ca11fd957300a8067e1c30376c78a51d031b3aeb16b7e6f36416c323b9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c419469d1bb7ec662ea6e7a3a780b09191060eeae1bb4ac865b8cd44deeaa5b0",
+        "response_hash": "78e7b0bdf5b2bcc1fd42776153d7d0f608584f247d3c4e35f10f5a0805972649",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5a00420cba52b42ace5637f77ad67c3f27b549422a895c3a695589ef19dcd427",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b412b0f1cad131c4e21ef5a59d1996a52a70d85af59f14f121a5adc420eb2f67",
+    "translation_sha256": "4532ba905b263391e936182d6d8eedee92b428c09b3adbeb72e9f318ada1038f"
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A beautiful, radiant, and serene face.",
+            "acceptable_visual_variants": [
+              "A close-up of a beautiful woman's face with soft, luminous lighting.",
+              "A portrait of a woman with a subtle, glowing crescent or full moon shape softly integrated into the background behind her head."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "A face that is like the physical moon.",
+            "literalization_risk": "An illustrator might draw a literal moon with human facial features, which looks cartoonish or surreal rather than beautiful.",
+            "metaphor_mapping": {
+              "tenor_concept": "face",
+              "transferred_attributes": [
+                "brightness",
+                "beauty",
+                "roundness",
+                "serenity"
+              ],
+              "vehicle_concept": "moon"
+            },
+            "source_span_original": "चाँद से मुखड़े",
+            "source_span_translation": "face like the moon",
+            "source_term": "चाँद से मुखड़े",
+            "tenor": "The beloved's face",
+            "vehicle": "The moon",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a beautiful human face illuminated by soft, glowing light reminiscent of moonlight, or subtly frame the face with a soft circular glow."
+          },
+          {
+            "abstract_meaning": "An impossible, paradoxical comfort or protective warmth; finding soothing shade or relief within intense brightness.",
+            "acceptable_visual_variants": [
+              "Golden sunlight filtering through leaves, casting soft dappled shadows on a face.",
+              "A warm, glowing aura surrounding a figure, blending bright light with soft, protective shadows."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The shade or shadow cast by the sun's own rays of light.",
+            "literalization_risk": "A literal depiction of sunbeams casting a dark shadow is physically impossible and visually confusing.",
+            "metaphor_mapping": {
+              "tenor_concept": "comforting beauty",
+              "transferred_attributes": [
+                "warmth",
+                "protection",
+                "paradoxical relief"
+              ],
+              "vehicle_concept": "shade from light"
+            },
+            "source_span_original": "सूरज की किरणों की छाँव",
+            "source_span_translation": "shade of the sun's rays",
+            "source_term": "सूरज की किरणों की छाँव",
+            "tenor": "The comforting yet brilliant presence of the beloved",
+            "vehicle": "Shade produced by sunbeams",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict golden sunbeams filtering through a soft, hazy atmosphere, creating a warm, dappled light-and-shadow effect on the subject."
+          },
+          {
+            "abstract_meaning": "The beloved's smile brings the same peace, beauty, and colorful warmth as a beautiful sunset.",
+            "acceptable_visual_variants": [
+              "A close-up of a gentle smile illuminated by the warm, golden-hour light of a setting sun.",
+              "A split or double-exposure style image blending a soft smile with a serene evening sky."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "A literal sunset landscape is physically contained inside a person's smile.",
+            "literalization_risk": "Showing a miniature sunset landscape inside a wide-open mouth or on lips would look bizarre and grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "smile",
+              "transferred_attributes": [
+                "warmth",
+                "peacefulness",
+                "vibrant colors",
+                "serenity"
+              ],
+              "vehicle_concept": "evening sunset"
+            },
+            "source_span_original": "तुम्हारी मुस्कान में,  \nहर शाम का नज़ारा है।",
+            "source_span_translation": "In your smile,  \nThere is the view of every evening.",
+            "source_term": "तुम्हारी मुस्कान में, \nहर शाम का नज़ारा है।",
+            "tenor": "The beauty and emotional warmth of the beloved's smile",
+            "vehicle": "The scenic view of an evening sunset",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a smiling person with the warm, golden-orange hues of a sunset reflecting beautifully across their face and background."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic flow of the Hindi phrase 'chaand se mukhde pe' is lost in the literal English translation 'On the face like the moon'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Occupying every part of the speaker's thoughts, emotions, and inner life.",
+            "acceptable_visual_variants": [
+              "A person holding their hand over their chest with a warm, internal glow radiating from within.",
+              "A stylized, non-anatomical heart symbol filled with warm light."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L6",
+            "literal_meaning": "Inside the physical corners of a muscular organ.",
+            "literalization_risk": "Depicting an anatomical heart with literal rooms or corners looks like a medical diagram or a surreal house, losing the romantic sentiment.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional heart",
+              "transferred_attributes": [
+                "spatial containment",
+                "completeness",
+                "intimacy"
+              ],
+              "vehicle_concept": "room with corners"
+            },
+            "source_span_original": "दिल के हर कोने में",
+            "source_span_translation": "In every corner of my heart",
+            "source_term": "दिल के हर कोने में",
+            "tenor": "The depth and entirety of the speaker's emotional capacity and love",
+            "vehicle": "A physical room or container with corners",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on expressing deep emotion through the character's posture, or use a symbolic, glowing heart shape that radiates warmth throughout the chest area."
+          },
+          {
+            "abstract_meaning": "A constant, comforting, yet ethereal and dreamlike presence.",
+            "acceptable_visual_variants": [
+              "A soft, ethereal silhouette of a woman blended into a starry, dreamlike night sky background.",
+              "A person sleeping peacefully with a gentle, luminous figure watching over them like a protective spirit."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "A physical shadow cast by abstract dreams.",
+            "literalization_risk": "A literal dark shadow cast by sleeping figures or floating dream bubbles might look spooky, ghostly, or ominous.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's presence",
+              "transferred_attributes": [
+                "etherealness",
+                "closeness",
+                "intangibility",
+                "comfort"
+              ],
+              "vehicle_concept": "shadow of a dream"
+            },
+            "source_span_original": "सपनों का साया",
+            "source_span_translation": "shadow of dreams",
+            "source_term": "सपनों का साया",
+            "tenor": "The ethereal, omnipresent, and idealized nature of the beloved",
+            "vehicle": "A shadow cast by dreams",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Use a soft, semi-transparent, glowing silhouette or a dreamlike, misty overlay of the beloved's figure behind the speaker."
+          },
+          {
+            "abstract_meaning": "The person who rules over the speaker's emotions; the most cherished and dominant love in their life.",
+            "acceptable_visual_variants": [
+              "A graceful woman depicted with a soft, regal posture, framed by elegant, decorative motifs.",
+              "A stylized illustration of a heart symbol adorned with a small, elegant golden crown."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L8",
+            "literal_meaning": "A female monarch who rules over a physical heart organ.",
+            "literalization_risk": "Drawing a tiny queen with a crown sitting on top of a physical heart looks comical and literalistic.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved dominating one's love",
+              "transferred_attributes": [
+                "sovereignty",
+                "devotion",
+                "supreme status",
+                "cherished value"
+              ],
+              "vehicle_concept": "queen ruling a kingdom"
+            },
+            "source_span_original": "हृदय की रानी",
+            "source_span_translation": "queen of my heart",
+            "source_term": "हृदय की रानी",
+            "tenor": "The beloved who holds supreme importance in the speaker's love life",
+            "vehicle": "A royal queen ruling a kingdom",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict the beloved in a graceful, dignified pose with a subtle, elegant aura of light or a delicate, stylized crown-like headpiece, conveying her revered status."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation uses 'heart' for both 'dil' (L6) and 'hriday' (L8), flattening the stylistic variation between the Urdu-derived 'dil' and the Sanskrit-derived 'hriday' in the original Hindi text.",
+            "where": "L6-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The serene beauty and deep emotional presence of the beloved"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "चाँद से मुखड़े पे,  \nसूरज की किरणों की छाँव।  \nतुम्हारी मुस्कान में,  \nहर शाम का नज़ारा है।\n\nनज़रों में बसती हो तुम,  \nदिल के हर कोने में।  \nसपनों का साया हो तुम,  \nमेरे हृदय की रानी हो तुम।",
+  "poem_id": "MV++_0191",
+  "poem_title": "Chand Se Mukhde Pe",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a80b32a0b13517f7bb9b0f83d6fa7df3d73ac4c9c27d7f369a35368090f305c3",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0191.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "On the face like the moon,  \nIn the shade of the sun's rays.  \nIn your smile,  \nThere is the view of every evening.\n\nYou reside in my eyes,  \nIn every corner of my heart.  \nYou are the shadow of dreams,  \nYou are the queen of my heart.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:57:35.269865+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "404715ec891376a5ff0d081783c82c4b210e661a59d25577c01509d65b55ea8b",
+        "response_hash": "b6528b5159d8e687bd262dcfdd6c47ef48948d3a8a7684713ac875b7f31d0b0f",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a60d9f879aa99c6f6d450d83dbc2595c0007b08ac2e268954ee3621b56d97d6b",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f4cc90f6d44f8802ae0124d05a3f4f55ff5bf1cbdf8c18be1d4a2ecbcd0b458f",
+        "response_hash": "fc82e1affeeee5883fa5acabd45e904b26fc3ec5ed6931dbac80b49460726e4f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ceb3b6eac7d334e60fbf48db0ed1af58b409300913832d3c7838a2fa9daadceb",
+        "response_hash": "b5605b2f5e96c75da615830efbde5af7c9679419c4d1bbf50f996bf69338b411",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fe3e5ec8f9d99dc473227f3260838224584d9db5ed837b041281dc7f8876e320",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f15d5e49bd79a4b19cfe317489118a56fb9ae587ed07283624e930cabcc069db",
+    "translation_sha256": "7f76280539f9973be0502d2a161095d4ed924760f225b045d93821ac02c1943d"
+  }
+}

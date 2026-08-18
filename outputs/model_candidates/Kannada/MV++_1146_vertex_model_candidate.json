@@ -1,0 +1,116 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "existential longing and absence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation alters the final lines: 'ನಾನು ಇಲ್ಲ' (naanu illa) literally means 'I am not' or 'I am not here', but the translation renders it as 'I am here', reversing the literal meaning of negation to assertion.",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'ನಾನು ಇಲ್ಲ' (naanu illa) as 'I am here' inverts the literal meaning of 'illa' (not/no/is not), which literally means 'I am not' or 'I do not exist', losing the profound existential negation of the self in the Kannada original.",
+            "where": "L5-L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic, repetitive wordplay and existential ambiguity of 'ಎಲ್ಲಿಲ್ಲ ಯಾರು ಯಾರಿಲ್ಲ' (ellilla yaaru yaarilla), which blends 'where is not' (elli illa) and 'who is not' (yaaru illa), is flattened into a simpler question in English.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'ಎಲ್ಲರದು ಇಲ್ಲ' (ellaradu illa) as 'No one is here' loses the literal sense of 'belonging to everyone' or 'everyone's' (ellaradu) being absent or non-existent.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound sense of emptiness, non-existence, and the search for connection in a void."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಎಲ್ಲಿಲ್ಲ ಯಾರು ಯಾರಿಲ್ಲ\nಎಲ್ಲರದು ಇಲ್ಲ, ಎಲ್ಲರದು ಇಲ್ಲ,\nಬದುಕಿದಂಥರೇನು ಇಲ್ಲ,\nಬದುಕಿದಂಥರೇನು ಇಲ್ಲ.\nನೀನೆಲ್ಲಿ, ನಾನು ಇಲ್ಲ\nನೀನೆಲ್ಲಿ, ನಾನು ಇಲ್ಲ.",
+  "poem_id": "MV++_1146",
+  "poem_title": "Ellilla Yaaru Yaarilla",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "bc904474cdb69c764528dd8c9ebbff4e96b81b3ae43530e01e793682377c7a44",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1146.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Where is everyone, where is no one?\nNo one is here, no one is here,\nNothing that is lived,\nNothing that is lived.\nWhere are you, I am here,\nWhere are you, I am here.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:03:09.913771+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "868f54b71fc9b837914f2727531cc1d02b135f0dbaf3bacc073af5d6661e4c56",
+        "response_hash": "097b73d4b0547f6f1f82a82da02ba4310224b7dfa0f685b7e8e9d540a8079796",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0c42102607f2aa7822b5d4d15c547970dfed64293a1b7b701e58b648eca4c8b2",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eb2de82a0a1ef7042bb6545702bbe6f1df0c7cd1bbac04d339c349d598c9afa2",
+        "response_hash": "dda2d2c9c20e80ca5b746a9b8aad7b30802b43fbf42600dc353097f2809d42bd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f32d16745e47effc28271dfc805eb47a59adfc56e52071b4b7da6d78e2a98c36",
+        "response_hash": "07240b79340afb8a49cf3b75049aece415ceaaec851085c84accd85413950907",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ab83ce59770537e9d3e2ec20fcfe48f17751011f7933eea76995be86f1697db2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a03087852d62b2bb26a26a14830c28002cb7d2088081bec9deccf69b3461bd07",
+    "translation_sha256": "4e62675c2e14d9b0d470854e7a796ed947663a908cbe2f168ecdbb84211a622e"
+  }
+}

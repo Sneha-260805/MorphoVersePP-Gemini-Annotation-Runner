@@ -1,0 +1,304 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A subtle four-sided geometric pattern or mandala framing the scene",
+          "An abstract representation of four-directional balance or cosmic order"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "Literally 'four-armed' or a quadrilateral; in Hindu iconography, it is a common epithet for deities (especially Vishnu) representing divine power, cosmic order, and completeness. In this poetic context, it suggests a sacred, complete, or divinely structured form of life's colors.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A literal four-armed human monster or alien",
+          "A generic Western square with no sacred or geometric symmetry"
+        ],
+        "preserved": false,
+        "romanization": "chaturbhuj",
+        "source_span_original": "चतुर्भुज",
+        "source_span_translation": "paradigm",
+        "stanza_index": 1,
+        "term": "चतुर्भुज",
+        "translation_note": "The translation completely alters the term 'चतुर्भुज' (literally 'four-armed', a traditional epithet of Vishnu or a sacred geometric form) into 'paradigm' to fit a secularized reading of the line. This loses the specific Hindu theological and geometric resonance of the original word.",
+        "translation_status": "ALTERED",
+        "visual_features": [
+          "Four-armed divine figure or a sacred four-sided geometric mandala structure representing cosmic balance."
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A delicate, translucent veil or mist surrounding the figure",
+          "A swirling galaxy or cosmic dust pattern representing creation and illusion"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A key philosophical concept in Indian religions referring to the powerful force that creates the cosmic illusion of the phenomenal world, or the creative energy/magic of the divine.",
+        "line_ref": "L8",
+        "negative_confusions": [
+          "A literal stage magician performing tricks",
+          "A dark, sinister sorcery or evil witchcraft scene"
+        ],
+        "preserved": true,
+        "romanization": "maya",
+        "source_span_original": "माया",
+        "source_span_translation": "magic of existence",
+        "stanza_index": 2,
+        "term": "माया",
+        "translation_note": "Translated as 'magic of existence', which captures the mystical and illusory aspect of Maya but loses the specific philosophical weight of the term in Hindu thought.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A shimmering, veil-like overlay or cosmic mist representing the illusory nature of reality.",
+          "Swirling cosmic patterns or stars emerging from a central source."
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "reverence and celebration of womanhood as a divine, creative force",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'चतुर्भुज' (Chaturbhuj, literally four-armed or a quadrilateral, often associated with Vishnu) as 'paradigm' completely alters the cultural and geometric imagery of the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The woman is the ultimate source of joy, beauty, and peace on earth, elevating human existence.",
+            "acceptable_visual_variants": [
+              "A lush, vibrant garden surrounding a woman",
+              "A warm, glowing home environment filled with light and harmony"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "You are the heaven of the earth",
+            "literalization_risk": "Depicting a literal mythological heaven or clouds floating above the ground, which distracts from the human subject.",
+            "metaphor_mapping": {
+              "tenor_concept": "woman's presence on earth",
+              "transferred_attributes": [
+                "supreme beauty",
+                "peace",
+                "divine joy"
+              ],
+              "vehicle_concept": "heavenly paradise"
+            },
+            "source_span_original": "धरा का स्वर्ग है तुम",
+            "source_span_translation": "You are the heaven of the earth",
+            "source_term": "धरा का स्वर्ग है तुम",
+            "tenor": "woman / beloved",
+            "vehicle": "heaven / paradise (swarg)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, beautiful earthly landscape blooming with life around a central female figure, suggesting a paradise on earth."
+          },
+          {
+            "abstract_meaning": "Woman is of immense, irreplaceable value and beauty.",
+            "acceptable_visual_variants": [
+              "A woman surrounded by a subtle, sparkling aura",
+              "A stylized portrait where light reflects off her features like a polished gem"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Woman, you are a priceless gem",
+            "literalization_risk": "Drawing a literal diamond or ruby instead of representing the woman's intrinsic human value.",
+            "metaphor_mapping": {
+              "tenor_concept": "woman's worth",
+              "transferred_attributes": [
+                "immense value",
+                "rarity",
+                "brilliance",
+                "beauty"
+              ],
+              "vehicle_concept": "precious gemstone"
+            },
+            "source_span_original": "नारी तुम अनमोल रत्न",
+            "source_span_translation": "O woman, you are a priceless gem",
+            "source_term": "नारी तुम अनमोल रत्न",
+            "tenor": "woman",
+            "vehicle": "priceless gem (anmol ratna)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a woman radiating a soft, warm light, or framed by elegant, subtle geometric patterns that suggest the structure of a crystal without drawing a literal stone."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation renders 'चतुर्भुज' (Chaturbhuj, literally meaning four-armed, a common epithet for Lord Vishnu or a quadrilateral shape) abstractly as 'paradigm', completely losing the specific geometric, structural, and divine cultural connotations of the original Hindi term.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical mismatch in 'है तुम' (instead of the standard plural/respectful 'हो तुम') is flattened in the English translation to a standard 'You are', losing the specific colloquial or non-standard grammatical register of the opening line.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation simplifies 'माया' (Maya) to 'magic of existence', which loses its deeper philosophical connotations of cosmic illusion and play.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The woman is the perfect embodiment or personification of grace and kindness.",
+            "acceptable_visual_variants": [
+              "A woman gently comforting someone or offering help",
+              "A serene portrait of a woman with a soft, compassionate expression"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "You are the statue/idol of grace",
+            "literalization_risk": "Depicting a literal stone or clay statue, which would make the woman look cold, lifeless, or rigid.",
+            "metaphor_mapping": {
+              "tenor_concept": "abstract grace and kindness",
+              "transferred_attributes": [
+                "perfect physical manifestation",
+                "solidity",
+                "veneration"
+              ],
+              "vehicle_concept": "sculpted idol or physical form"
+            },
+            "source_span_original": "कृपा की मूरत हो तुम",
+            "source_span_translation": "You are the embodiment of grace",
+            "source_term": "कृपा की मूरत हो तुम",
+            "tenor": "woman",
+            "vehicle": "statue / idol (murat)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a woman in a gentle, welcoming posture with open hands, radiating warmth and kindness to represent the living embodiment of grace."
+          },
+          {
+            "abstract_meaning": "The comforting, protective, and pervasive presence of love.",
+            "acceptable_visual_variants": [
+              "A soft, protective glow surrounding a family or couple",
+              "A large, sheltering tree casting a cool, inviting shadow"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "shadow of love",
+            "literalization_risk": "Drawing a dark, literal silhouette or shadow, which might look ominous or spooky rather than comforting.",
+            "metaphor_mapping": {
+              "tenor_concept": "comforting presence of love",
+              "transferred_attributes": [
+                "protection from heat/hardship",
+                "comfort",
+                "soothing presence"
+              ],
+              "vehicle_concept": "cool shade of a tree"
+            },
+            "source_span_original": "प्रेम की छाया",
+            "source_span_translation": "the shadow of love",
+            "source_term": "प्रेम की छाया",
+            "tenor": "love",
+            "vehicle": "shadow / shade (chhaya)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, protective canopy of light or leafy branches casting a gentle, cool shade over a resting figure."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'माया' (Maya) as 'magic' simplifies a deeply philosophical and cultural concept that encompasses illusion, cosmic play, and creative power in Indian philosophy into a generic Western concept of magic.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sacred, creative, and transformative power of womanhood in the universe"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[1].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that it 'loses the specific philosophical weight of the term', which is inconsistent with full preservation. It should be false if it was only partially preserved or altered.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "धरा का स्वर्ग है तुम,  \nनारी तुम अनमोल रत्न।  \nसंग तुम्हारे जीवन में,  \nहर रंग है नया सा चतुर्भुज।  \n\nकृपा की मूरत हो तुम,  \nसर्वत्र प्रेम की छाया।  \nतुमसे है सृष्टि की रचना,  \nतुमसे है सृष्टि की माया।",
+  "poem_id": "MV++_0125",
+  "poem_title": "Dharti ka Swarg",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5a5e0288766e557d88155677c31720513396e6855bf22a10f03e8dca67776af2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0125.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "You are the heaven of the earth,  \nO woman, you are a priceless gem.  \nIn life with you,  \nEvery color is a new paradigm.  \n\nYou are the embodiment of grace,  \nEverywhere, the shadow of love.  \nFrom you springs the creation of the universe,  \nFrom you arises the magic of existence.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:49:12.294035+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "accacb331bc658227fe66d287fd1d7874d6a943ad5a51a083499070ba05f8dbd",
+        "response_hash": "a3319be3ef727159578b5ac7d29bba1c80fc42394be96d31f38b5f9fd9171dc9"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "330da3af419c2f7be49337fa45d715c66d9658c77e4aa74b2e1cf455d99f9123",
+        "response_hash": "875e37f8d7a670f3e93b3959dd462e242e899aaff6f2e5c0fd4ef580926a0216",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "08485976a36ea8274462bb788c95cabd3c5eeb196d6fbac064e20006be9881d2",
+        "response_hash": "5eba90099e0ff4db9695a401c077d999d3fe10bdb68b5ab240de16cedcd06dcd",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "41d8f4c418e2d09d970e52215d02e335adc1b103645377d7f15d3045ff78fab2",
+        "response_hash": "55e0b339aec19fb931fa6a184dc3d97800f0acc960b57c75ecf7d5ae42c67541",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "154bae02fff2cc8759363e23cc31aa30a8673d26a455982f9493b63b96f16bba",
+        "response_hash": "a8195a98534415910bf36c431ec74bcb44e5770d322e7e07cc84f22cb94243ce",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b8a20cd3781d753a86983885cbd5984ee426e4c2cfdd2226ed732786e00082d0",
+        "response_hash": "8a879cb323a2c1b5abacf133e51ecc6cd12427038b594d547eafe1ec74eb81b5",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "439330cb866b1aa2845f047f3fa3863e30cd066414540b32b9573b5933270ab5",
+    "translation_sha256": "1865c436ff41c7f756a8197910e15f6fc7cd5659ba0f0897377ea2dba47167c5"
+  }
+}

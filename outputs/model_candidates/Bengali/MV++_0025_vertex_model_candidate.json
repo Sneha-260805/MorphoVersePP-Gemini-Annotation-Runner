@@ -1,0 +1,206 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A steady descent into despair and emptiness, starting with a questioning of life's purpose and ending in the stark realization of pain.",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The feeling of optimism and positive expectations for the future.",
+            "acceptable_visual_variants": [
+              "A path fading into darkness where glowing musical notes are dissolving into dust",
+              "A silent, stringless instrument resting in a dark, empty room"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "songs sung by hope / musical compositions of hope",
+            "literalization_risk": "Depicting literal musical notes or sheet music floating away, which misses the internal emotional loss of optimism.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional state of hope",
+              "transferred_attributes": [
+                "harmonious quality",
+                "uplifting nature",
+                "ability to be heard or felt clearly"
+              ],
+              "vehicle_concept": "music/song"
+            },
+            "source_span_original": "আশার গান",
+            "source_span_translation": "songs of hope",
+            "source_term": "আশার গান",
+            "tenor": "hope (optimism)",
+            "vehicle": "songs (music)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a fading, translucent silhouette of a singer or musical instrument dissolving into a dark background to represent the departure of joy."
+          },
+          {
+            "abstract_meaning": "The complete loss of hope and optimism in the speaker's life.",
+            "acceptable_visual_variants": [
+              "A solitary figure looking out at a dark, empty landscape where the last rays of light are disappearing",
+              "An empty birdcage with its door open, looking out into a gray sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "All songs of hope have physically walked or traveled far away.",
+            "literalization_risk": "Showing literal figures carrying musical notes walking down a road, which looks comical rather than melancholic.",
+            "metaphor_mapping": {
+              "tenor_concept": "loss of an emotional state",
+              "transferred_attributes": [
+                "movement away from the speaker",
+                "increasing distance",
+                "unreachability"
+              ],
+              "vehicle_concept": "physical departure of people/objects"
+            },
+            "source_span_original": "দূরে চলে গেছে সব আশার গান",
+            "source_span_translation": "All songs of hope have gone far away",
+            "source_term": "দূরে চলে গেছে সব আশার গান",
+            "tenor": "the disappearance of hope",
+            "vehicle": "travelers walking away",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a vast, empty horizon with faint, dissolving traces of light or warmth moving away from a lonely figure."
+          },
+          {
+            "abstract_meaning": "A deep sense of emotional desolation, loneliness, and lack of purpose.",
+            "acceptable_visual_variants": [
+              "A chest area rendered as a soft, dark shadow blending into a dark background without physical wounds",
+              "A single withered leaf resting inside a transparent, empty glass vessel"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "A physical void or empty space inside the mind/heart.",
+            "literalization_risk": "Showing a literal hollow opening or physical hole inside a human chest cavity, which looks like a medical illustration or horror image.",
+            "metaphor_mapping": {
+              "tenor_concept": "mind/heart lacking emotion or joy",
+              "transferred_attributes": [
+                "lack of content",
+                "hollowness",
+                "darkness"
+              ],
+              "vehicle_concept": "empty container/void"
+            },
+            "source_span_original": "মনেতে শূন্যতা",
+            "source_span_translation": "emptiness in my heart",
+            "source_term": "মনেতে শূন্যতা",
+            "tenor": "emotional desolation and grief",
+            "vehicle": "an empty physical space or container",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure sitting in a vast, dark, unfurnished room with bare walls, symbolizing the internal state of emptiness."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the grammatical person of the verb 'pabi' (second-person familiar/intimate 'will you get/gain') to the first-person 'shall I gain' in English, altering the self-addressing or conversational tone of the original Bengali.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'monete' (literally 'in the mind/soul') as 'heart' shifts the psychological locus from the cognitive/spiritual 'mon' to the emotional 'heart' in English.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The profound emptiness and pain of life when hope has departed."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing significant grammatical and semantic shifts. When translation loss is present, translation_quality should be evaluated as 'partial' rather than fully 'faithful'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Bengali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "জীবনে কি পাবি\nজীবনে কি পাবি, কে জানে?\nদূরে চলে গেছে সব আশার গান,\nআমার মনেতে শূন্যতা।\nকি পাবি? যন্ত্রণা, কি পাবি?",
+  "poem_id": "MV++_0025",
+  "poem_title": "Jibone Ki Pabi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "296bc3689d12c55d7f87d73b2af572d8e5c4106e772003da62c2566c8bbbe103",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bengali/MV++_0025.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "What Shall I Gain in Life?\nWhat shall I gain in life, who knows?\nAll songs of hope have gone far away,\nThere is emptiness in my heart.\nWhat shall I gain? Pain, what shall I gain?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:39:07.878508+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "72cfbfe071b681b8799e6d18bd745d6ced54546df5b3f5c0d1dcec399ebf4557",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a5835ce95fc452117a51852bf7ea5a23e5622e49c47ec718e337956ce97af988",
+        "response_hash": "bbbbf2bbb3a83d224c089af6e3156f6e142cb2ed89e8ee4dc9ecc144f36e54da",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4205e4bc8a93f9d7b13fc78d8c4d4844bd1e3b209b94e28dec1119c16747e11b",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0228f8ab52e4bb81e8021abefa869186669fc90396757801161012c9a9e22ced",
+        "response_hash": "377386e9ef5798ab2054a50c707ebffc4c21bff215c2e7576c6b97c7980c7932",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c2523c8a1b770b3481f30bb49550222b15f30b3f5d7e344ccbab76ec4be32437",
+        "response_hash": "fa113ae4aac8b1fcf09b55e9c717529205b4121b660e4d6980e7c410e4547051",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e8fe4471c6dbd2c85d4f711100b5cc32180cb67ea859c2372519c337e3361b5",
+        "response_hash": "31f9ac570f8b2709f75c76b174c46582f03d9d24c2bde81d0f9fa376a58f4c49",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "f8c866ecf8ec440c4a9917a04e0671c6a0db56d6f66b93713ddae0f9644cb591",
+    "translation_sha256": "7b194b8cd350042bf7e3bf93416e63850ad559e0ec93d58042e2290c8b8c8338"
+  }
+}

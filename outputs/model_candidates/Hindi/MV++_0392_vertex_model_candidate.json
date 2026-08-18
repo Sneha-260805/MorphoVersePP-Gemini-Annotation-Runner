@@ -1,0 +1,237 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "reflective observation of human arrogance and self-deception",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation introduces rhyming words ('ground', 'found', 'around') that are not present in the original Hindi text, which relies on parallel grammatical structures ('rishta tod liya', 'nata tod liya', 'jhooth bol diya') rather than end-rhymes.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Claiming absolute ownership over lofty, unattainable, or infinite realms, representing extreme pride or detachment from reality.",
+            "acceptable_visual_variants": [
+              "A person standing on a high peak reaching for the clouds while ignoring the path below",
+              "A stylized figure trying to cage or fence in a portion of the sky"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "The physical sky belongs to me",
+            "literalization_risk": "An illustrator might draw a person physically holding or grabbing a piece of the blue sky, which misses the psychological and philosophical critique of arrogance.",
+            "metaphor_mapping": {
+              "tenor_concept": "lofty ambition or absolute power",
+              "transferred_attributes": [
+                "infinite",
+                "unpossessable",
+                "high above"
+              ],
+              "vehicle_concept": "sky"
+            },
+            "source_span_original": "आसमान मेरा है",
+            "source_span_translation": "The sky is mine",
+            "source_term": "आसमान मेरा है",
+            "tenor": "Lofty ambitions, absolute power, or spiritual detachment",
+            "vehicle": "The sky (as an infinite, unpossessable space)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure looking up at a vast, ungraspable sky with open arms in a posture of false ownership, contrasted with a distant, neglected ground."
+          },
+          {
+            "abstract_meaning": "Losing touch with reality, humility, and one's foundational roots or community.",
+            "acceptable_visual_variants": [
+              "A figure standing on a cloud, looking down at a cracked, distant earth with indifference",
+              "A person walking on a glass platform that separates them from the natural soil below"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L2",
+            "literal_meaning": "Severing physical contact or connection with the earth",
+            "literalization_risk": "Showing a person physically floating or snapping a rope tied to the dirt, which looks like a fantasy scene rather than a loss of humility.",
+            "metaphor_mapping": {
+              "tenor_concept": "humility and reality",
+              "transferred_attributes": [
+                "solid",
+                "foundational",
+                "supporting life"
+              ],
+              "vehicle_concept": "ground"
+            },
+            "source_span_original": "ज़मीन से रिश्ता तोड़ लिया",
+            "source_span_translation": "Broke all ties with the ground",
+            "source_term": "ज़मीन से रिश्ता तोड़ लिया",
+            "tenor": "Reality, humility, and foundational human connections",
+            "vehicle": "The ground/earth",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person floating slightly above the ground, looking away from the soil and roots, leaving their footprints behind."
+          },
+          {
+            "abstract_meaning": "Claiming exclusive ownership over warmth, success, or positive life experiences.",
+            "acceptable_visual_variants": [
+              "A person basking in intense sunlight while casting a dark shadow over others",
+              "A stylized figure trying to capture sunbeams in a net"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L3",
+            "literal_meaning": "The sunlight belongs to me",
+            "literalization_risk": "An illustrator might draw a person holding a miniature sun or a jar of light, which literalizes the impossible claim.",
+            "metaphor_mapping": {
+              "tenor_concept": "success and joy",
+              "transferred_attributes": [
+                "warm",
+                "bright",
+                "desirable"
+              ],
+              "vehicle_concept": "sunlight"
+            },
+            "source_span_original": "धूप मेरी है",
+            "source_span_translation": "The sun is mine",
+            "source_term": "धूप मेरी है",
+            "tenor": "Success, joy, warmth, or positive circumstances",
+            "vehicle": "Sunlight/sunshine",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a figure standing in a bright spotlight of sun, blocking others from entering the light."
+          },
+          {
+            "abstract_meaning": "Rejecting comfort, protection, humility, or the quiet, cooling aspects of life that offer relief.",
+            "acceptable_visual_variants": [
+              "A person cutting down a tree that provides them shade",
+              "A figure turning their back on a cool, shaded shelter to stand in scorching heat"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "Severing a connection with shade or shadow",
+            "literalization_risk": "Showing a person physically running away from a tree's shadow, which misses the metaphorical rejection of protective boundaries and humility.",
+            "metaphor_mapping": {
+              "tenor_concept": "protection and relief",
+              "transferred_attributes": [
+                "cool",
+                "protective",
+                "humble"
+              ],
+              "vehicle_concept": "shade"
+            },
+            "source_span_original": "छांव से नाता तोड़ लिया",
+            "source_span_translation": "Abandoned the shade he found",
+            "source_term": "छांव से नाता तोड़ लिया",
+            "tenor": "Comfort, protection, humility, or relief from hardship",
+            "vehicle": "Shade/shadow of a tree",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a figure stepping out of the cool, protective shadow of a large tree into harsh, blinding light."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The gender-neutral relative pronoun 'jisne' (he/she who) is translated as the gender-specific 'He who', which restricts the universal philosophical subject of the poem to a male figure.",
+            "where": "L1-L6"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'dhoop' (sunlight/sunshine) as 'the sun' shifts the focus from the immediate, felt experience of warm light to a distant celestial body.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the phrase 'he found' to line 4 to create a rhyme with 'ground', which is not present in the original Hindi text ('usne chhaon se naata tod liya').",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'around' to line 6 to complete the rhyme scheme, which is not in the original Hindi text ('usne sabse jhooth bol diya').",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The illusion of absolute ownership and self-righteousness leads to isolation and falsehood."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जिसने कहा, आसमान मेरा है,  \nउसने ज़मीन से रिश्ता तोड़ लिया।  \nजिसने कहा, धूप मेरी है,  \nउसने छांव से नाता तोड़ लिया।  \nजिसने कहा, मैं ही सच हूँ,  \nउसने सबसे झूठ बोल दिया।",
+  "poem_id": "MV++_0392",
+  "poem_title": "Jisne Kaha",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9a2826fdd88173635369eb51ae6ba8533f80f434e87490960f5adeeabaa17820",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0392.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "He who said, \"The sky is mine,\"  \nBroke all ties with the ground.  \nHe who said, \"The sun is mine,\"  \nAbandoned the shade he found.  \nHe who said, \"I am the truth,\"  \nLied to all around.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:20:04.834080+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "faeee90626e19d41ff430264fbcee3afaedfdf5083bc49ef467a846760d4c871",
+        "response_hash": "db2829d3986fcd08f330e4da4663c5b70751d2d1bc3f7cd228142de067da48f8"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e903999b1fcccc243499043dbe8b6ca7b6060fa55d694a335e0f85e3662753e6",
+        "response_hash": "fa5b798037ef56db531ecd31bec2a077d83a716d5968642a8494f47b023ff7fc",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "06259bde3b08b7fd07f4fa59d76c627d6d4b1a74ff4545acd93b708581a5b437",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b90212f4db1c5cb637b6c0440930517053bcd6a21e3d4e4b1cda0a4d3e177dbb",
+        "response_hash": "ede58c479f6a2374fe5f5d99e50206ab3c660ecaf4fd62d857c7476499075bbd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c2f3ea492f344fb942abb9f1eeb22e30519651431dfa7f86e8a2fcae3aee1fee",
+        "response_hash": "497e2b5737084ce4dfdbcca1bfaddaa53272726e894c1f3ee61d3d935b0dab11",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e34cc423620e371ce5c3c5bfae47abd084151fb64e00a7ce2014434cd5023976",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2afc50e626d9a5e3e12fe4be6c04308ebea4acb567b1b1b55238b9f435c6f068",
+    "translation_sha256": "4c247164b3486d6a56d125707b912faad2fb507a855fba8ea7e16cb9570adfe7"
+  }
+}

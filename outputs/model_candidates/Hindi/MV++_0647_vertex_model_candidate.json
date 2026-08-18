@@ -1,0 +1,232 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "uncertainty and observation to self-realization and resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The idiomatic Hindi phrase 'Aankho Dekha Haal' (literally 'state seen by the eyes') carries a strong cultural association with live reporting, eyewitness testimony, or a direct, unmediated account of events, which is slightly flattened into the more passive 'Witnessed by the Eyes'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'vaqi' (remaining/left over) as 'remains real' introduces an abstract concept of reality not explicitly present in the original Hindi word, which simply denotes what is left or remaining.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical shift from the active plural/respectful verb form 'jaate hain' (they go/walk away) to the singular 'walks away' loses the plural or respectful nuance of the Hindi verb agreement.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The changing trends, flow, or progression of time and life's circumstances.",
+            "acceptable_visual_variants": [
+              "A person standing on a high vantage point looking out at a landscape where one side is in shadow and the other is in light, representing shifting times.",
+              "A stream flowing and changing course around obstacles."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "The physical direction or face of time",
+            "literalization_risk": "Depicting a literal clock face physically turning or a compass pointing to a word labeled 'Time' would look cartoonish and miss the abstract sense of experiencing life's changing eras.",
+            "metaphor_mapping": {
+              "tenor_concept": "temporal progression and change",
+              "transferred_attributes": [
+                "having a specific direction",
+                "shifting or turning over time",
+                "being observable by an observer"
+              ],
+              "vehicle_concept": "physical direction or wind"
+            },
+            "source_span_original": "वक्त का रुख़",
+            "source_span_translation": "direction of time",
+            "source_term": "वक्त का रुख़",
+            "tenor": "The progression and changing nature of time and life's circumstances",
+            "vehicle": "A physical direction, wind, or current that turns or flows",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a symbolic representation of passage, such as shifting winds blowing autumn leaves across a changing landscape, or a road winding through contrasting light and shadow."
+          },
+          {
+            "abstract_meaning": "Difficulties or challenges blocking progress in life.",
+            "acceptable_visual_variants": [
+              "A rugged, steep mountain path blocked by a sudden rockfall.",
+              "A dark, dense forest wall blocking a traveler's path."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7",
+            "literal_meaning": "Obstacles are physically standing on two legs in front of someone",
+            "literalization_risk": "Drawing literal monsters or human figures labeled 'Obstacles' standing in a line can look overly literal or childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "abstract life difficulties",
+              "transferred_attributes": [
+                "blocking forward movement",
+                "confronting the traveler directly",
+                "requiring effort to bypass"
+              ],
+              "vehicle_concept": "sentient guards or physical barriers standing in a path"
+            },
+            "source_span_original": "सामने खड़ी हैं बाधाएँ",
+            "source_span_translation": "Obstacles stand ahead",
+            "source_term": "सामने खड़ी हैं बाधाएँ",
+            "tenor": "Abstract difficulties and challenges that impede progress",
+            "vehicle": "Sentient beings or physical entities standing upright to block a path",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a path blocked by natural, imposing barriers like steep, jagged rocks or a dense, thorny thicket under a heavy sky."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'sisakte hue' as 'sighing' softens the intensity of the Hindi word, which specifically denotes sobbing, whimpering, or gasping while crying, rather than a simple sigh.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The colloquial particle 'se' in 'ajnabi se haalaat' (stranger-like or somewhat unfamiliar circumstances) adds a layer of soft comparison or approximation that is omitted in the direct translation 'unfamiliar circumstances'.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The necessity of facing life's unpredictable and challenging circumstances to truly understand oneself."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but a non-empty translation_loss array is provided. Under the schema rules, translation_loss should be empty or translation_quality should reflect the loss. However, since the loss is minor, the quality can remain faithful but the inconsistency between 'faithful' and having structured loss is noted.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful' despite having multiple translation_loss items.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[2].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful' despite having a translation_loss item.",
+      "severity": "low"
+    },
+    {
+      "field_path": "stanzas[3].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful' despite having a translation_loss item.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आंखों देखा हाल\n\nकुछ तो है जो वाक़ी है,  \nकुछ नज़र नहीं आता,  \nकिसे देखे किसे जाने,  \nकिसे चुपके से जाते हैं।  \n\nहमने देखा है वक्त का रुख़,  \nसामने खड़ी हैं बाधाएँ,  \nहमने अपने साथियों को देखा है,  \nकभी सिसकते हुए, कभी मुस्कराते।  \n\nकभी हम, कभी वे,  \nहमेशा एक अजनबी से हालात में।  \nलेकिन उस हालात के बिना,  \nक्या हम कभी अपने आप को जान पाते?",
+  "poem_id": "MV++_0647",
+  "poem_title": "Aankho Dekha Haal",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3b1f7615cf0abb4c7e2f8c9234c595b5004b3ccd80ce6213abf255e16e839267",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0647.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Witnessed by the Eyes\n\nThere is something that remains real,  \nYet, something remains unseen,  \nWho is to be seen, who is to be known,  \nWho quietly walks away.\n\nWe have witnessed the direction of time,  \nObstacles stand ahead,  \nWe have seen our companions,  \nSometimes sighing, sometimes smiling.\n\nSometimes us, sometimes them,  \nAlways in unfamiliar circumstances.  \nBut without these circumstances,  \nWould we ever have known ourselves?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:50:48.105728+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "64abfd8d1250cd857756945841c2bb2645fb750af4cf96201acbcf3fc35fb240",
+        "response_hash": "09ccca22872e0dcf815e65409b4468badcee4a2c13ad9bb69373032f16796601",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3792d7d48660f595a65485ad95dc7d6e95cce4777c4137f764853e85110a7375",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c974d5852abe284bcff8636aa3925b54fdcfa39e5df6c408f9174aa8de0b4fc1",
+        "response_hash": "4aa64ce36d25f5d343b5ad27d43bdb2f68faadf2d30a4668be0005baa84ebc86",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c6e2485796ea608ddcb4e1fb962afc05eac10088c319beb53b80294cd4ef32c2",
+        "response_hash": "1ba1ad9c132997d0bdf9a4a11a0d375742539d83fe9fa67691bc69c1f1c8b01a",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da01689ded98d7f50e93c87995b3bcec84f37d0a7cc27e06efea1a289bd33f5e",
+        "response_hash": "26d32eb36f8f6d9ca0faf792dadaaa4a14f8aa860dbac1737c2406127e9df629",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "270a709b0a6691b0c5370e110b9466044f92be6734bcc2ef6816e1f31dbd1c41",
+    "translation_sha256": "fd4df976bda14556cb1c835e5e336078d1852e346ccb2a7ea8f5d41863a54cf1"
+  }
+}

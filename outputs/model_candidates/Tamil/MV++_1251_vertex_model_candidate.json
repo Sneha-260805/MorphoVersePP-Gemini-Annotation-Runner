@@ -1,0 +1,195 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "reflective awareness to active resilience and vigor",
+    "recitation_style": "declarative",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but the rhythmic flow and the specific resonance of 'mathiyidai' (within the mind/intellect) are slightly simplified in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A period of time characterized by widespread compassion, empathy, and emotional connection among people.",
+            "acceptable_visual_variants": [
+              "Warm golden light radiating from individuals and overlapping to cover a community",
+              "Interconnected glowing threads weaving between diverse people across a landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A time when love is physically unfolded or spread out like a sheet or fabric",
+            "literalization_risk": "Depicting a giant, literal sheet or blanket labeled 'love' being physically draped over a globe, which looks cartoonish and misses the emotional depth of human connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "the expansion and pervasive presence of an emotion (love) across a population",
+              "transferred_attributes": [
+                "covering a wide area",
+                "becoming visible and accessible to all",
+                "enveloping everything beneath it"
+              ],
+              "vehicle_concept": "unfolding or spreading a physical fabric or net"
+            },
+            "source_span_original": "அன்பு விரிக்கின்ற நேரம்",
+            "source_span_translation": "A time when love spreads",
+            "source_term": "அன்பு விரிக்கின்ற நேரம்",
+            "tenor": "The widespread presence and sharing of love and compassion among humanity",
+            "vehicle": "A physical sheet, cloth, or net being unfolded and spread out over an area",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict warm, soft light or gentle, radiating ripples of color emanating from people and connecting them across a landscape, symbolizing the pervasive spread of love."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation loses the poetic rhythm and internal rhyme (monai and edhugai) characteristic of Tamil verse, particularly the repetition of 'virikintra neram' (spreading time) across lines 2 and 3.",
+            "where": "L2-L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The term 'mati' (மதியிடை) carries a double meaning of both 'mind/intellect' and 'moon', which is flattened to just 'mind' in the English translation.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The energetic Tamil adverb 'viruviruppudan' (with speed/vigor/excitement) is translated as 'with all your vigor', which captures the meaning but loses the onomatopoeic, rhythmic drive of the original Tamil word.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Actively pursue life's opportunities with urgency, enthusiasm, and determination rather than being passive.",
+            "acceptable_visual_variants": [
+              "A person taking a strong, energetic step forward on a path toward a rising sun",
+              "A stylized figure in motion surrounded by dynamic, swirling lines of energy pointing forward"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "Physically run or sprint away",
+            "literalization_risk": "Showing a person literally sprinting down a track or road, which misrepresents the philosophical call to live life with vigor and purpose as a mere athletic exercise.",
+            "metaphor_mapping": {
+              "tenor_concept": "purposeful, energetic, and urgent action toward life goals",
+              "transferred_attributes": [
+                "speed",
+                "forward momentum",
+                "expenditure of energy",
+                "focus on a destination"
+              ],
+              "vehicle_concept": "physical running or sprinting"
+            },
+            "source_span_original": "ஓடி விடு",
+            "source_span_translation": "Run ahead",
+            "source_term": "ஓடி விடு",
+            "tenor": "Taking swift, energetic, and purposeful action in life",
+            "vehicle": "The physical act of running or sprinting forward",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a dynamic, forward-leaning posture with a determined expression, stepping forward into a bright, open horizon filled with symbolic paths or opportunities."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The wordplay on 'mati' (மதியில்லாத) in line 5, which links back to 'mati' in line 4 but here means 'intellect/reason' (or literally 'moonless'), is simplified to 'without reason' in English, losing the lexical connection.",
+            "where": "L5"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The urgent, rhythmic pace of the Tamil imperative 'viri-viripputan oti vitu' (run with vigor/speed) is flattened into a standard English command.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Seizing the rare opportunity of life and love with active purpose and mental clarity rather than wasting time in idle rest."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "அரிய தருணம் இதுகண்டு கொள், மனிதா!\nஅகிலமெல்லாம் அன்பு விரிக்கின்ற நேரம்\nவிரிகின்ற நேரம் இதுவெனில், வாழவே\nமதியிடை புகுந்து நினைய, மனிதா!\n\nமதியில்லாத நாள் இல்லை, நல்லதே\nமனிதா, அறிகின்ற தருணம் இதுதானே\nவிளையாடு நினைத்து இளைப்பாறல் வேண்டாம்\nவிறுவிறுப்புடன் ஓடி விடு, மனிதா!",
+  "poem_id": "MV++_1251",
+  "poem_title": "Ariya Tharunam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ae394acd96479ef98a436a73a0b54c35f0e4a1fcc3a3b56cbe5fffad29848390",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1251.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "This is a rare opportunity, recognize it, O human!\nA time when love spreads across the world,\nAs this time spreads, embrace life fully,\nAnd let your mind reflect on it, O human!\n\nThere’s never a day without reason, it’s good,\nO human, this is the time to recognize it,\nDon’t waste time playing idly or resting,\nRun ahead with all your vigor, O human!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:13:38.064604+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a0f5c018a7cb8850fed94f71ece961157ab740412263b5b3484868b6abb3060b",
+        "response_hash": "914d315a8bdddfe074724c808af6a60139970e67b0fa9d5ca32ec9fa49c3c3b8"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "835547766cefcc120c54bf38939ffb0d273201458174cabe05d0742fcc7c6476",
+        "response_hash": "b80ca36fd7ee81229aa300ff6f662df4cb291bfe55a34b0c4bac2e03a89f4996",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d8120789bebd8b69a4efb99c53343a78b37f561863c2573c1b8a6a2c0385e873",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "82f0c43674dfbec2d740d563711790f57fb81b8bb58cd432ff7c4aae29ec59f0",
+        "response_hash": "dfb2eed51e09279a60afbae960144d39e0a9d35974747b779f701759338901ed",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9bf78e08d184c1b5fe209eac3ee984cca6097a3aa157f8c44e1cd40141453730",
+        "response_hash": "2b681c27e8a5784def99aa52d7f40b5ca9a9ebc458614bc6bf211704d04bc302",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ee941f55af2bb3742e13c5c70d35846aef1079995438de42d804ba08793235b0",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "47feccfb3f34d7d49df01fa1d8adce255833830105b6fbe01296396d1615a348",
+    "translation_sha256": "3a253f70ce8d6655b720fd551ca87da4797a8fee399a2d06692759baa03c683f"
+  }
+}

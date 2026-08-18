@@ -1,0 +1,266 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A distant view of the stone fort perched on a steep mountain ridge under moonlight",
+          "A close-up of the ancient stone gateway of the fort"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A historic hill fortress located in Pune, Maharashtra, India, historically significant for its military defense and associated with Maratha valor.",
+        "line_ref": "L9",
+        "negative_confusions": [
+          "A generic medieval European castle",
+          "A modern concrete military outpost"
+        ],
+        "preserved": true,
+        "romanization": "Sinhgarh",
+        "source_span_original": "सिंहगढ़",
+        "source_span_translation": "Singhgarh",
+        "stanza_index": 2,
+        "term": "सिंहगढ़",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A rugged hill fortress with stone ramparts",
+          "Steep cliffs and bastions typical of Western Ghats military architecture"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "grief and longing for fallen heroes to a reflective, collective remembrance",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "grief",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To weep or shed tears in remembrance and grief.",
+            "acceptable_visual_variants": [
+              "A close-up of eyes welling up with tears",
+              "A person looking down with a tear on their cheek in a somber setting"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L2",
+            "literal_meaning": "To fill water into one's eyes",
+            "literalization_risk": "An illustrator might depict someone literally pouring water from a cup or vessel into their open eyes, which would look bizarre and medically painful.",
+            "metaphor_mapping": {
+              "tenor_concept": "tears of grief",
+              "transferred_attributes": [
+                "liquid accumulation",
+                "emotional release"
+              ],
+              "vehicle_concept": "water in eyes"
+            },
+            "source_span_original": "आँख में भर लो पानी",
+            "source_span_translation": "Fill your eyes with tears",
+            "source_term": "आँख में भर लो पानी",
+            "tenor": "weeping or crying out of sorrow and respect",
+            "vehicle": "filling water in the eyes",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a close-up of a person's eyes glistening with tears, or a single tear rolling down a cheek, capturing a solemn, reflective expression."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'जरा आँख में भर लो पानी' as 'Fill your eyes with tears' loses the literal poetic phrasing of 'filling water in the eyes' (आँख में भर लो पानी), which is a common Hindi idiom for weeping or showing deep emotion without explicitly using the word for tears (आँसू).",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation of 'बहीरे-चाँदनी' (bahir-e-chandni) as 'moonlight' loses the specific poetic compound structure and its classical Urdu/Persian register nuance in Hindi patriotic verse.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The radiant, flowing, and pure manifestation of courage and heroism.",
+            "acceptable_visual_variants": [
+              "A historic stone fort on a hill bathed in bright, flowing silver moonlight",
+              "A glowing silver aura emanating from a fortress under a starry night sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "The flowing stream of moonlight of bravery",
+            "literalization_risk": "An illustrator might draw literal moonbeams flowing like a liquid river out of a fort, which loses the abstract sense of spreading courage and historical glory.",
+            "metaphor_mapping": {
+              "tenor_concept": "heroic valor",
+              "transferred_attributes": [
+                "radiance",
+                "purity",
+                "spreading light over a landscape"
+              ],
+              "vehicle_concept": "flowing moonlight"
+            },
+            "source_span_original": "वीरता की बहीरे-चाँदनी",
+            "source_span_translation": "The moonlight of valor",
+            "source_term": "वीरता की बहीरे-चाँदनी",
+            "tenor": "glorious and pure courage",
+            "vehicle": "flowing moonlight",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a historic fort (Singhgarh) illuminated by a brilliant, ethereal silver moonlight that seems to flow down its slopes, symbolizing the spreading spirit of bravery."
+          },
+          {
+            "abstract_meaning": "To weep or shed tears in remembrance and grief.",
+            "acceptable_visual_variants": [
+              "A close-up of eyes welling up with tears",
+              "A person looking down with a tear on their cheek in a somber setting"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L16",
+            "literal_meaning": "To fill water into one's eyes",
+            "literalization_risk": "An illustrator might depict someone literally pouring water from a cup or vessel into their open eyes, which would look bizarre and medically painful.",
+            "metaphor_mapping": {
+              "tenor_concept": "tears of grief",
+              "transferred_attributes": [
+                "liquid accumulation",
+                "emotional release"
+              ],
+              "vehicle_concept": "water in eyes"
+            },
+            "source_span_original": "आँख में भर लो पानी",
+            "source_span_translation": "Fill your eyes with tears",
+            "source_term": "आँख में भर लो पानी",
+            "tenor": "weeping or crying out of sorrow and respect",
+            "vehicle": "filling water in the eyes",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a close-up of a person's eyes glistening with tears, or a single tear rolling down a cheek, capturing a solemn, reflective expression."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'बहीरे-चाँदनी' as 'moonlight' loses the specific compound structure and poetic nuance of 'bahir-e-chandni' (flowing stream/expanse of moonlight), flattening it to a simpler visual image.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To weep or shed tears in remembrance and grief.",
+            "acceptable_visual_variants": [
+              "A close-up of eyes welling up with tears",
+              "A person looking down with a tear on their cheek in a somber setting"
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L24",
+            "literal_meaning": "To fill water into one's eyes",
+            "literalization_risk": "An illustrator might depict someone literally pouring water from a cup or vessel into their open eyes, which would look bizarre and medically painful.",
+            "metaphor_mapping": {
+              "tenor_concept": "tears of grief",
+              "transferred_attributes": [
+                "liquid accumulation",
+                "emotional release"
+              ],
+              "vehicle_concept": "water in eyes"
+            },
+            "source_span_original": "आँख में भर लो पानी",
+            "source_span_translation": "Fill your eyes with tears",
+            "source_term": "आँख में भर लो पानी",
+            "tenor": "weeping or crying out of sorrow and respect",
+            "vehicle": "filling water in the eyes",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a close-up of a person's eyes glistening with tears, or a single tear rolling down a cheek, capturing a solemn, reflective expression."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "A patriotic lament calling on citizens to weep for and remember the sacrifices of soldiers who died defending the nation."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ऐ मेरे वतन के लोगों  \nजरा आँख में भर लो पानी  \nऐ मेरे वतन के लोगों  \nजरा आँख में भर लो पानी  \nजब याद आए वतन तुम्हारी  \nजब याद आए वतन तुम्हारी  \nऐ मेरे वतन के लोगों  \nजरा आँख में भर लो पानी।  \n\nसिंहगढ़ से निकल पड़ी थी  \nवीरता की बहीरे-चाँदनी  \nसिंहगढ़ से निकल पड़ी थी  \nवीरता की बहीरे-चाँदनी  \nजिसने झाँका अपनी धरा में  \nजिसने झाँका अपनी धरा में  \nऐ मेरे वतन के लोगों  \nजरा आँख में भर लो पानी।  \n\nजब भी गूँज उठी यहाँ  \nतब फिर याद आई तुम्हारी  \nजब भी गूँज उठी यहाँ  \nतब फिर याद आई तुम्हारी  \nतुम थे हमसे दूर मगर  \nतुम थे हमसे दूर मगर  \nऐ मेरे वतन के लोगों  \nजरा आँख में भर लो पानी।",
+  "poem_id": "MV++_0248",
+  "poem_title": "Aye Mere Watan Ke Logon",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "de5ca0fa5753662d82cab60427e9d86242d414f789583da199039a16b4b5d0d1",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0248.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Oh people of my country,  \nFill your eyes with tears,  \nOh people of my country,  \nFill your eyes with tears,  \nWhen you remember your homeland,  \nWhen you remember your homeland,  \nOh people of my country,  \nFill your eyes with tears.  \n\nFrom Singhgarh, it emerged,  \nThe moonlight of valor,  \nFrom Singhgarh, it emerged,  \nThe moonlight of valor,  \nWho glanced at their land,  \nWho glanced at their land,  \nOh people of my country,  \nFill your eyes with tears.  \n\nWhenever a call rang here,  \nThen your memory came again,  \nWhenever a call rang here,  \nThen your memory came again,  \nYou were far from us,  \nYou were far from us,  \nOh people of my country,  \nFill your eyes with tears.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:04:10.277226+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b22cf0a722809b48edea5f25996b0d07a59b191392160d1563bcbfbb45f6c3d3",
+        "response_hash": "a7c901717d153566012a62abc5924fc4bc6c99788dbf6e48e32cf01e4c307f73",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "98d75001c7b102172241c486a05b1533fd37b7b8387d76d8cb4deff59b19a345",
+        "response_hash": "9a9f930c3472a65b91568c40728fb286e4ea9e1b7e7f06a6f44dfd4aa6692f28",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "624d6b44dfaafa1eb801c05f9a1234f9a4d1390bd65825e9a2c1754e3cc9270a",
+        "response_hash": "4152218a7140a6f266efdfec79e3f330392b0bd1861ee720128ed2e29b231c0e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "574c43febb8d66ac359ef37ed73e435ff65f1077cde03d6b946484703a47f1a4",
+        "response_hash": "7af3b1cf18d818a158065b51b905f4286b238e14ee8994390a2825073b23f721",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4fa5a130cd7229fb4cdcd01063edb2c3642693966c1b0153422a35aed2ded531",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ad94bb92cf8a49472f213bf82b913324baa61ed48d2b2fa7fefa78b04b49a267",
+    "translation_sha256": "e3ee7155cc8be660091d0fba5db09e701e74c2540d8915b4822b0240b9cce44f"
+  }
+}

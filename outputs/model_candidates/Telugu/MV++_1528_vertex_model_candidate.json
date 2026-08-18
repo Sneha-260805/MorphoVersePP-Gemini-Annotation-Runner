@@ -1,0 +1,174 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A traditional vocative address meaning 'O wise one' or 'one with a good mind', serving as the signature (makutam) of the famous Telugu Sumati Satakam moral verses.",
+        "line_ref": "L4",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Sumathi",
+        "source_span_original": "సుమతీ",
+        "source_span_translation": "Sumathi",
+        "stanza_index": 1,
+        "term": "సుమతీ",
+        "translation_note": "The translation preserves the vocative 'Sumathi' literally, though its function as a traditional moral-verse signature (makutam) is not explicitly contextualized.",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "steady moral instruction and wisdom",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation completely misses the central metaphor of the coconut water (narikela salilamu) in L2, translating it instead as 'water that nourishes the earth'. It also mistranslates 'meladi' (good deed/benefit) as 'victory' in L1, and 'sumathi' (O wise one / person of good intellect, a classic Telugu makutam) as a city name.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The good deed done to wise/brave people is like the sweet, nourishing water inside a coconut, which accumulates naturally and brings great, lasting benefit later on.",
+            "acceptable_visual_variants": [
+              "A detailed close-up of a fresh green coconut with sweet water pooling inside it.",
+              "A stylized illustration of a wise person receiving a gift, with a coconut tree in the background symbolizing hidden sweetness."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1-L2",
+            "literal_meaning": "The good deed done to the brave/steadfast is like the essence of coconut water.",
+            "literalization_risk": "An illustrator might literally depict a coconut being cracked open or water being poured onto the ground, missing the abstract moral lesson about the delayed, sweet rewards of doing good to noble people.",
+            "metaphor_mapping": {
+              "tenor_concept": "good deeds done to the wise",
+              "transferred_attributes": [
+                "hidden accumulation",
+                "sweetness",
+                "nourishing and beneficial outcome"
+              ],
+              "vehicle_concept": "coconut water"
+            },
+            "source_span_original": "ధీరులకుc జేయు మేలది\nసారంబగు నారికేళ సలిలము భంగిన్",
+            "source_span_translation": "Victory belongs to the brave,\nLike the water that nourishes the earth,",
+            "source_term": "ధీరులకుc జేయు మేలది\nసారంబగు నారికేళ సలిలము భంగిన్",
+            "tenor": "The lasting, sweet, and beneficial consequences of doing a good deed for wise or steadfast people.",
+            "vehicle": "The sweet, refreshing water that naturally accumulates inside a coconut, hidden but highly beneficial.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a ripe coconut hanging on a tree, perhaps split open to reveal the clear, sweet water inside, alongside a symbolic representation of a noble person receiving a respectful gesture or deed."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation completely misses the central simile of the poem comparing a good deed done to wise/steadfast people (dhirulaku) to the sweet, nourishing water inside a coconut (narikela salilamu bhangin). Instead, it mistranslates the coconut water reference as 'water that nourishes the earth'.",
+            "where": "L2"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation misinterprets 'meladi' (the good deed done to them) as 'victory' in L1, altering the core moral lesson of the Sumati Shatakam poem.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation misinterprets 'bhurisukhavahamu' (bringing great happiness/comfort in the future) as 'may the city bring abundant joy', likely mistranslating 'puri' or confusing the Sanskrit-derived compound.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring, sweet, and beneficial nature of good deeds done for the wise and brave, compared to the sweet water of a coconut."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].loss_note",
+      "issue": "The loss_note states that the translation mistranslates 'sumathi' as a city name ('may the city bring abundant joy, Sumathi'), but the translation actually preserves 'Sumathi' as a proper noun at the end of the line while translating 'bhuri' or another element as 'the city'. This is slightly inconsistent with the translation text which has both 'the city' and 'Sumathi'.",
+      "severity": "low"
+    },
+    {
+      "field_path": "cultural_entities[0].translation_status",
+      "issue": "The translation_status is marked as PRESERVED and 'preserved' is true, but the loss_note in the stanza claims the translation mistranslates 'sumathi' as a city name. This represents an internal contradiction in how the translation of 'Sumathi' is evaluated.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Telugu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ధీరులకుc జేయు మేలది  \nసారంబగు నారికేళ సలిలము భంగిన్  \nగౌరవమును మఱి మీcదట  \nభూరిసుఖావహము నగును భువిలో సుమతీ",
+  "poem_id": "MV++_1528",
+  "poem_title": "Dhirulaku",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7e8d2c52ec019f81900e57496b3cda2610314545928e6c3f47faf67a39c34e80",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Telugu/MV++_1528.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Victory belongs to the brave,  \nLike the water that nourishes the earth,  \nHonor does not diminish with time,  \nIn this world, may the city bring abundant joy, Sumathi.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:44:53.739790+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b3330c1db66c980e20eb8717f00a9ed2b5a4f61b4fb8c793c2f95709e083e4f7",
+        "response_hash": "c9612e17d1d11efd4d25eef18dd210f017d78fb39764a690f3382ed3a6fd7010",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "71792884cc6a50f0ef5709155f5b3e8e115bf7c0f5bb9fd16a8d6e8b113b5c3f",
+        "response_hash": "278de100d281e61c2a461ba3dbb74bfd9f98718f928500efc7e05d75a77a150e",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ed280130cc3a221b7f41d20023dbc5823f8d4fde3a8079d7cd758cb1cc62b48d",
+        "response_hash": "942dedcfc572d5bfb385af3b5af044d4372e5761c1c9ab3cba09c8b9b45341e3",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f2678c303126d25ba9050f7009e290b7de438f01432bf59588a03346df896d0",
+        "response_hash": "1bd0abd6bbeca05b5bb0229dda30f500590dba8b1c5c92993ca385e8cbc4d5fc",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "43c6432a269ec8d60662056158e0e36f5319145d46ca0f7ef9c178dfd34ffa6d",
+        "response_hash": "325e944ae9edab39c25cde5a07b2247b35e538e54379bae594ffddebe43185fe",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b65970fede4310303c2c3e1bce4a6f07300390eb02ff64496147b3e6f8f6594a",
+    "translation_sha256": "fc9b27ac49e4d3a09f12a2b7a4a185fa9b10c2e741a33db51f40535b54ce91b9"
+  }
+}

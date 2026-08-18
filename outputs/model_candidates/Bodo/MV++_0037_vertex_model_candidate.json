@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "peace and gentle longing",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation captures the core imagery, though the multilingual texture (Bodo mixed with Assamese/Bengali loanwords like 'tumar', 'hridoy', 'bhori', 'mor', 'sapna') is flattened into standard English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's dreams are filled with musical, melodic qualities, turning abstract aspirations or thoughts into a song.",
+            "acceptable_visual_variants": [
+              "A person sleeping with faint, glowing musical staves and notes drifting from their mind",
+              "An abstract blend of soft colors and musical symbols surrounding a silhouette in contemplation"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "dream guitar",
+            "literalization_risk": "An illustrator might draw a literal guitar floating inside a sleeping person's head, which misses the abstract poetic sense of harmonious dreams.",
+            "metaphor_mapping": {
+              "tenor_concept": "human dreams",
+              "transferred_attributes": [
+                "melodic",
+                "harmonious",
+                "expressive"
+              ],
+              "vehicle_concept": "musical instrument"
+            },
+            "source_span_original": "सपना गितार",
+            "source_span_translation": "dreams,\nMelodies",
+            "source_term": "सपना गितार",
+            "tenor": "dreams / inner thoughts",
+            "vehicle": "guitar / music",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a peaceful, reflective state with soft, flowing musical notes or abstract waves of light swirling around them to represent the melody of dreams."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'Gwsing' as 'Song' in 'Flower Song', which simplifies the original Bodo term 'ग्वसिंग' (gwsing) that carries a deeper connotation of inner spirit, mind, or consciousness rather than just a literal song.",
+            "where": "L1-L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation uses Assamese/Bengali loanwords present in the original Bodo text ('तुमार' / tumar, 'हृदय' / hridoy, 'भरि' / bhori, 'सपना' / sopna, 'गितार' / gitar) as standard English vocabulary, losing the linguistic code-mixing and regional contact-language texture of the original poem.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sweet, lingering presence of a song and its fragrance weaving through dreams and the heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Bodo",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "फुल ग्वसिंग\nफुल ग्वसिंग, तुमार सुगंध\nमोन गुथा, हृदय भरि,\nमोर सपना गितार\nसंगीत गुनगुन।",
+  "poem_id": "MV++_0037",
+  "poem_title": "Phul Gwsing",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "a970372fb4db9dfe55fc17d6772f4012d823953f4c2911e7432fd779f8b6b1f7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Bodo/MV++_0037.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Flower Song\nFlower song, your fragrance\nWeaves in my heart,\nIn my dreams,\nMelodies hum.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:40:19.737455+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "292e880d98532f1dd4dac4b000e75acadd7725e7acab9a1b43a1ce99f505c831",
+        "response_hash": "840a22ed34ac9a3dda71e28f8bf566bea9df68530123b8d0fe19f81172d53d94"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0776bea59ccff982de0579fe5bcc01b5b742d79fff1880bca8eea390a28b5945",
+        "response_hash": "5b901f424c52bcfb006385a1279ab32cc1b16c0803fb1e4196784fc486a73337",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "46eed6be634b19e86b189c19aabe536b315785567347e580db5b87bb87cb65ab",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "70e6dd5727d52559e33d929be2ae21b77c778ac51abe2b58e7f40fe3bfbee4b5",
+        "response_hash": "6be5a818a331d3273a9ef466abc655121120afadb0414e2633c0f63086e759c1",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c0520c877b6910804991983836b6c85fe620f8d5b49153e9e2f8b511e934b781",
+        "response_hash": "653bb0466a9ea6e7e586ccdc06a9ca3e83c08fc758655cf829d762b8de48a749",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7e196f0a01602675c30d93270726853603d0d0536a7a1e8ac34afaa7ceb4a221",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "396270fdfba411310412fab1cccb9ea95a87b75e63f893181703ad233529a4e4",
+    "translation_sha256": "a5df3f87107a84bc665776c468358d65157af246db318485117fabef7f714da8"
+  }
+}

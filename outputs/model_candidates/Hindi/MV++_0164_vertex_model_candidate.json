@@ -1,0 +1,321 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A surreal, abstract landscape where a path of burning coals or a river of molten lava cuts through a dark, desolate world"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A classic poetic trope in Urdu and Hindi poetry (famously from Jigar Moradabadi: 'Yeh ishq nahi aasaan, bas itna samajh lijiye / Ek aag ka dariya hai aur doob ke jaana hai') representing the intense, self-consuming, and perilous path of passionate love (Ishq).",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A standard water river with a campfire on the bank",
+          "A literal volcanic eruption or natural disaster scene disconnected from a human journey"
+        ],
+        "preserved": true,
+        "romanization": "aag ka dariya",
+        "source_span_original": "आग का दरिया",
+        "source_span_translation": "river of fire",
+        "stanza_index": 1,
+        "term": "आग का दरिया",
+        "translation_note": "The translation renders this as 'river of fire', preserving the literal imagery but losing the direct literary resonance with the famous Urdu/Hindi poetic trope of love's trial, famously associated with Jigar Moradabadi's couplet.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A wide, flowing river composed entirely of liquid fire and glowing embers",
+          "A dark, shadowy figure standing at the edge or wading into the flames"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "An intense, passionate, and all-consuming love, often carrying spiritual, mystical, or transcendental dimensions in Hindustani, Urdu, and Persian poetic traditions.",
+        "line_ref": "L2",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "ishq",
+        "source_span_original": "इश्क़",
+        "source_span_translation": "love",
+        "stanza_index": 1,
+        "term": "इश्क़",
+        "translation_note": "Translated as 'love', which conveys the general meaning but loses the specific cultural and literary weight of 'Ishq' as an all-consuming, passionate, and often spiritually elevating love in Sufi-influenced Hindustani poetry.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "Anxious longing and isolation transitioning to a bittersweet acceptance of love's irreversible journey.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'doob ke jaana' as 'dive in', which slightly softens the literal Urdu/Hindi poetic nuance of 'drowning' or 'sinking' to cross the river of fire.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The intense, painful, and dangerous trials of love that one must endure.",
+            "acceptable_visual_variants": [
+              "A path of glowing embers that a person must walk through",
+              "A wide river glowing with deep red and orange light resembling liquid fire"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A river made of fire",
+            "literalization_risk": "An illustrator might draw a literal river of flames, which looks like a fantasy landscape or hell rather than a psychological state of love.",
+            "metaphor_mapping": {
+              "tenor_concept": "painful trials of love",
+              "transferred_attributes": [
+                "dangerous",
+                "consuming",
+                "requiring immersion to cross"
+              ],
+              "vehicle_concept": "river of fire"
+            },
+            "source_span_original": "आग का दरिया",
+            "source_span_translation": "river of fire",
+            "source_term": "आग का दरिया",
+            "tenor": "The painful and dangerous path of love",
+            "vehicle": "A river of fire",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person standing at the edge of a glowing, fiery river or a path of embers, looking across with determination, symbolizing the emotional trial."
+          },
+          {
+            "abstract_meaning": "The journey, choices, and experiences of being in love.",
+            "acceptable_visual_variants": [
+              "A winding dirt path through a quiet landscape",
+              "A misty, atmospheric road with no clear end"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The physical roads of love",
+            "literalization_risk": "Depicting literal street signs or paved roads labeled 'love' would look cartoonish and overly literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional journey",
+              "transferred_attributes": [
+                "directionality",
+                "obstacles",
+                "turns",
+                "destinations"
+              ],
+              "vehicle_concept": "roads/paths"
+            },
+            "source_span_original": "इश्क़ की राहों",
+            "source_span_translation": "paths of love",
+            "source_term": "इश्क़ की राहों",
+            "tenor": "The emotional journey of love",
+            "vehicle": "Physical roads or paths",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a winding, misty path stretching into the distance, symbolizing an uncertain journey."
+          },
+          {
+            "abstract_meaning": "The inner emotional realm, thoughts, and feelings of a person.",
+            "acceptable_visual_variants": [
+              "A quiet, dimly lit room representing internal solitude",
+              "A vast, empty landscape under a twilight sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "The physical world or planet of the heart",
+            "literalization_risk": "Drawing a literal heart shape as a planet or country would look surreal and distract from the emotional tone of ancient pain.",
+            "metaphor_mapping": {
+              "tenor_concept": "inner emotional life",
+              "transferred_attributes": [
+                "vastness",
+                "containing history/pain",
+                "private space"
+              ],
+              "vehicle_concept": "a world or territory"
+            },
+            "source_span_original": "दिल की दुनिया",
+            "source_span_translation": "heart’s realm",
+            "source_term": "दिल की दुनिया",
+            "tenor": "The inner emotional state and memories",
+            "vehicle": "A world or realm",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on an intimate, quiet interior space or a vast, moody landscape representing the speaker's internal state."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'doob ke jaana hai' as 'one must dive in' loses the literal sense of drowning or sinking ('doob') while crossing, which is a classic Urdu/Hindi poetic trope of self-annihilation in love. Additionally, the famous literary resonance of the phrase 'aag ka dariya' (originally from Jigar Moradabadi and popularized by Qurratulain Hyder) is lost in the literal English translation.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The internal rhyme and rhythmic flow of 'begaana' and 'puraana' are lost in the English translation, which uses 'foreign' and 'pain' as end rhymes.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation of 'fasana' as 'tale' is accurate, but loses the specific Urdu literary flavor of a romantic legend or saga associated with 'ishq ki galiyan'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The journey of life or the process of living through time.",
+            "acceptable_visual_variants": [
+              "A lone traveler walking on a dusty path at dusk",
+              "A figure walking through a misty forest path"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A physical trip or travel from one place to another",
+            "literalization_risk": "Showing suitcases, trains, or modern travel gear would ruin the poetic, timeless atmosphere of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "life",
+              "transferred_attributes": [
+                "movement forward",
+                "encountering strangers",
+                "uncertainty"
+              ],
+              "vehicle_concept": "travel/journey"
+            },
+            "source_span_original": "सफर",
+            "source_span_translation": "journey",
+            "source_term": "सफर",
+            "tenor": "The passage of life and time",
+            "vehicle": "A physical journey or travel",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a solitary figure walking along an open, endless road or path under a vast sky."
+          },
+          {
+            "abstract_meaning": "The social and emotional spaces where love is experienced and shared.",
+            "acceptable_visual_variants": [
+              "Narrow, winding stone alleys in an old town at twilight",
+              "A quiet, tree-lined path with soft, warm lighting"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "The physical streets or alleys of love",
+            "literalization_risk": "Drawing literal street signs or urban boulevards might look too modern or geographically specific.",
+            "metaphor_mapping": {
+              "tenor_concept": "the sphere of love",
+              "transferred_attributes": [
+                "narrowness",
+                "enclosure",
+                "containing stories/tales"
+              ],
+              "vehicle_concept": "streets/alleys"
+            },
+            "source_span_original": "इश्क़ की गलियों",
+            "source_span_translation": "love’s boulevards",
+            "source_term": "इश्क़ की गलियों",
+            "tenor": "The emotional and social sphere of lovers",
+            "vehicle": "Alleys or streets",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict narrow, atmospheric, old-world alleys or pathways, perhaps softly lit by lanterns, to evoke a romantic and melancholic mood."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'galiyon' (narrow streets/lanes) as 'boulevards' alters the spatial imagery from intimate, winding, traditional South Asian alleyways to grand, wide, European-style avenues, which changes the cultural and emotional landscape of the poem.",
+            "where": "L8"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'fasana' (romance, tale, or myth) as 'tale' loses the specific Urdu poetic register of a legendary or tragic love story.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The perilous, isolating, yet inescapable nature of love, where connection with the beloved is the only anchor in an unfamiliar world."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आग का दरिया है और डूब के जाना है,  \nइस इश्क़ की राहों में सारा जहां बेगाना है।  \nहर मोड़ पे खोने का डर, पाने की उम्मीद,  \nइस दिल की दुनिया में एक दर्द पुराना है।  \n\nतुम से मिले तो लगता है कुछ पास है अपने,  \nवरना इस सफर में हर एक चेहरा अनजाना है।  \nलौट के आने की राह कहीं नहीं जाती,  \nइश्क़ की गलियों में बस यही फ़साना है।",
+  "poem_id": "MV++_0164",
+  "poem_title": "Aag Ka Dariya",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e1454ca64e62f79ae8c786c3b7b93f65956b2e8d66135a240545d7424aa9d9ad",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0164.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "It’s a river of fire, and one must dive in,  \nIn the paths of love, the whole world feels foreign.  \nEvery turn holds the fear of loss, the hope to gain,  \nIn the heart’s realm, there’s an ancient pain.\n\nWhen I see you, it feels like I have something close,  \nOtherwise, every face on this journey is one I don’t know.  \nThere’s no path leading back to the start,  \nThis is the tale in love’s boulevards.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:54:00.858316+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "133ce2d138b515a4f3b238b3ef2605f546404bdc92de438c7552bc870c1e1935",
+        "response_hash": "9acbfe216ae541af7a96c31756ebf712be230dcd78f04b168c4eb3583aabe11d"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "de23c76b17680e95bda598553627c228fc4b7422eb8cde308a299b6b332909b2",
+        "response_hash": "147936ba6b49cd205645af2f6f1c01fc5e88103b5c017d0a2e8ed0634cf5d9f1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9fafd9c86cd9fae70d463e30a62ce7019d3ebd7c8f724af0aaa8e66b642a62b0",
+        "response_hash": "702d9269c5f531c58ea2f97a17cdd7cd9807a1f91da9cd5023758b1b5ec35e28",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "84439ee9185cd6671f9333d40f2e661dbaf28a53a6706b6c1950494d7cbc5c85",
+        "response_hash": "2c6ff797c0c73df1eabed775712056962a72c4b31f92e92d13cb1eed8372509a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "74f86f24ff11251798008b69897fc95491b583a00956a0f5abf7f8f037299f7e",
+        "response_hash": "ffc371c4010bd1e51a2ffb6a121c9e64f46c561770d6480e1205aa28933ec6d9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5b1efa96073aac3e49a2254f142f3f84b48de1032bcef721abf9fdfe39e38e43",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "7a06423344a43687ada08ac56ff2b24a68e3a3a3306b8d8e3e93b9387c259f14",
+    "translation_sha256": "14e97f47574542aad9510358840a1c6cb2da907dac380655e179e053f0762c90"
+  }
+}

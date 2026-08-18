@@ -1,0 +1,321 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and self-realization to quiet acceptance of loss",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The unique personal mental space, potential, or destiny that belongs to each individual.",
+            "acceptable_visual_variants": [
+              "A person looking up at a sky that transitions into a canvas of their own thoughts",
+              "A miniature sky or galaxy floating just above an individual's head like a personal canopy"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Our own respective physical skies",
+            "literalization_risk": "Depicting literal physical skies above different people without conveying that it represents their inner minds or personal potential.",
+            "metaphor_mapping": {
+              "tenor_concept": "personal mental space",
+              "transferred_attributes": [
+                "vastness",
+                "openness",
+                "belonging to an individual"
+              ],
+              "vehicle_concept": "sky"
+            },
+            "source_span_original": "अपने अपने आकाश",
+            "source_span_translation": "Our Own Skies",
+            "source_term": "अपने अपने आकाश",
+            "tenor": "An individual's personal mental space, life potential, or inner world",
+            "vehicle": "The vast, open physical sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a silhouette of a person with a vast, starry sky or colorful cosmos contained within the outline of their head or body."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The repetition of 'apne apne' (literally 'our own respective' or 'each their own') is simplified to 'Our Own', losing the distributive emphasis of the Hindi reduplication.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The unique personal mental space or life potential belonging to each individual.",
+            "acceptable_visual_variants": [
+              "Distinct colored sky bubbles surrounding different people",
+              "People holding small, glowing globes of sky in their hands"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Our own respective physical skies",
+            "literalization_risk": "Depicting literal physical skies above different people without conveying that it represents their inner minds.",
+            "metaphor_mapping": {
+              "tenor_concept": "personal mental space",
+              "transferred_attributes": [
+                "vastness",
+                "openness",
+                "personal domain"
+              ],
+              "vehicle_concept": "sky"
+            },
+            "source_span_original": "अपने-अपने आकाश",
+            "source_span_translation": "our own skies",
+            "source_term": "अपने-अपने आकाश",
+            "tenor": "An individual's personal mental space or inner world",
+            "vehicle": "The physical sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show multiple distinct individuals, each surrounded by or looking up at a uniquely colored or styled sky bubble that reflects their individuality."
+          },
+          {
+            "abstract_meaning": "Dreams existing or drifting freely within one's personal mental space.",
+            "acceptable_visual_variants": [
+              "Glowing clouds shaped like various aspirations drifting across a personal sky",
+              "Softly lit bubbles containing miniature scenes of achievements floating in the air"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "Dreams physically floating or swimming in a liquid or air",
+            "literalization_risk": "Showing literal sleeping dreams or literal objects swimming in water, which misses the abstract sense of aspirations drifting in one's mind.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams in the mind",
+              "transferred_attributes": [
+                "buoyancy",
+                "gentle movement",
+                "freedom of motion"
+              ],
+              "vehicle_concept": "floating objects"
+            },
+            "source_span_original": "सपने तैरते हैं",
+            "source_span_translation": "dreams float",
+            "source_term": "सपने तैरते हैं",
+            "tenor": "Thoughts and aspirations existing freely in the mind",
+            "vehicle": "Objects floating in water or clouds drifting in the air",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict abstract, glowing symbols of hope (like stars, paper boats, or light bubbles) drifting gently through a dark, sky-like background."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The distributive reduplication 'apne-apne' in 'apne-apne aakash' is translated as 'our own skies', which slightly flattens the individualizing sense of each person having their own distinct sky.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The emphatic particle 'hi' in 'hamara hi hai' (it is indeed ours / ours alone) is rendered as 'truly ours', which captures the meaning but loses the specific grammatical emphasis of the Hindi particle.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Actively shaping, influencing, or personalizing one's own life experiences and mental space.",
+            "acceptable_visual_variants": [
+              "An artist-like figure whose thoughts emanate as colorful swirls into their personal atmosphere",
+              "A person walking and leaving a trail of colorful light that brightens their surroundings"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Painting a physical surface with colored pigments",
+            "literalization_risk": "Showing a person literally holding a paintbrush and bucket of paint painting the blue sky, which looks like a cartoon gag rather than a poetic act of self-determination.",
+            "metaphor_mapping": {
+              "tenor_concept": "shaping one's life",
+              "transferred_attributes": [
+                "creativity",
+                "adding color",
+                "personal agency"
+              ],
+              "vehicle_concept": "painting a canvas"
+            },
+            "source_span_original": "अपने रंगों से रंगते हैं",
+            "source_span_translation": "paint it with our own colors",
+            "source_term": "अपने रंगों से रंगते हैं",
+            "tenor": "Personalizing or shaping one's life and mind with individual choices and emotions",
+            "vehicle": "Painting with colors",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a person's hands releasing waves of vibrant, abstract light or color that spread out to fill the space around them."
+          },
+          {
+            "abstract_meaning": "The profound, complex, and deeply felt nature of personal life experiences.",
+            "acceptable_visual_variants": [
+              "A person diving into a calm, deep blue space filled with glowing, suspended memories",
+              "A reflective figure looking at their own deep shadow filled with intricate patterns of their past"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "The physical depth of a deep body of water or canyon",
+            "literalization_risk": "Depicting a person literally drowning in deep water or falling down a deep pit, which conveys danger rather than reflection.",
+            "metaphor_mapping": {
+              "tenor_concept": "complex life experiences",
+              "transferred_attributes": [
+                "profundity",
+                "vastness",
+                "containing hidden things"
+              ],
+              "vehicle_concept": "deep water or canyon"
+            },
+            "source_span_original": "अनुभवों की गहराई",
+            "source_span_translation": "depths of our own experiences",
+            "source_term": "अनुभवों की गहराई",
+            "tenor": "The profound and complex nature of life experiences",
+            "vehicle": "A deep physical space (like an ocean or canyon)",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person standing on a ledge looking down into a deep, glowing canyon filled with floating memories or symbols of past events."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The shift from the Sanskrit-derived 'sapne' (dreams) in Stanza 2 to the Persian-derived 'khwabon' (dreams) in Stanza 3 is lost in translation, as both are rendered as 'dreams', flattening the stylistic register variation.",
+            "where": "L8"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The emphatic particle 'hi' in 'apne hi khwabon' and 'apne hi anubhavon' is flattened into 'our own', losing the reflexive emphasis of 'hi'.",
+            "where": "L8-L11"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Losing one's sense of self, personal freedom, or individual potential within the complexities of life.",
+            "acceptable_visual_variants": [
+              "A person looking up at a sky that is being covered by dark, encroaching shadows or walls",
+              "A figure whose inner colorful sky is slowly turning grey and blending into a monotonous background"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L15",
+            "literal_meaning": "Losing a physical portion or slice of the sky",
+            "literalization_risk": "Showing a puzzle piece of the sky missing or a person dropping a physical piece of blue sky, which looks comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "losing individuality or freedom",
+              "transferred_attributes": [
+                "loss of ownership",
+                "diminishment of space",
+                "confinement"
+              ],
+              "vehicle_concept": "losing a physical share of space"
+            },
+            "source_span_original": "अपने हिस्से का आकाश खो देते हैं",
+            "source_span_translation": "lose our own share of the sky",
+            "source_term": "अपने हिस्से का आकाश खो देते हैं",
+            "tenor": "Losing one's individuality, freedom, or personal mental space",
+            "vehicle": "Losing a physical share of an open space",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a person standing in a grey, crowded, or confined space where their vibrant personal sky bubble is fading or being squeezed out."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The personal sky as a metaphor for individual consciousness, dreams, and the inevitable vulnerability of losing oneself."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अपने अपने आकाश\n\nहम सबके अपने-अपने आकाश हैं,\nजिसमें हर किसी के अपने सपने तैरते हैं।\nकभी रुककर देखो, तो लगता है,\nये आकाश तो किसी और का नहीं,\nहमारा है, हमारा ही है।\n\nहम इसे अपने रंगों से रंगते हैं,\nअपने ही ख्वाबों से इसे सजाते हैं।\nयह आकाश हमें हमारे होने का एहसास दिलाता है,\nयह हमें नयी राह दिखाता है,\nअपने ही अनुभवों की गहराई में।\n\nहमारे अपने आकाश के नीचे,\nहम अपने दुखों और खुशियों को पाते हैं,\nऔर कभी-कभी इन आकाशों में,\nहम अपने हिस्से का आकाश खो देते हैं।",
+  "poem_id": "MV++_0644",
+  "poem_title": "Apne Apne Akash",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3799da1e491532462c86ab7724e02243d85305129a0259d455171b35708f1aaf",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0644.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Our Own Skies\n\nEach of us has our own skies,  \nWhere our dreams float in their own space.  \nIf you stop and look, it seems,  \nThis sky doesn’t belong to anyone else,  \nIt’s ours, truly ours.\n\nWe paint it with our own colors,  \nAdorn it with our own dreams.  \nThis sky reminds us of our existence,  \nIt shows us new paths,  \nIn the depths of our own experiences.\n\nBeneath our own skies,  \nWe find both our sorrows and joys,  \nAnd sometimes, within these skies,  \nWe lose our own share of the sky.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:50:20.713814+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f4be677855fa61ba980ecb3714513ee2920cc1ab63a6f73d97c79c5e17b6f53",
+        "response_hash": "dbb4636b9f8eb1d3be8c013a37f15116267a79addbc33b25799f88e70934dfcf",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d9401aaeb0e332a22ec9598f5c037a6c91de96a395f3dfbc6d38f62c54ca2a14",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "159a875b1ea18f75a7fdcb2e1ed12c942d7cddd77e2e0a30f77f1c1bab7136f2",
+        "response_hash": "6731b88f2203b022c67f54cbf9c123ebf8e5fca7867613e056da0989a35934a0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0b7acd75137a9bdd59d47f2b7bab8b60c531d79f1c91b7a68f5441871aed30a5",
+        "response_hash": "f784d3804519ae8638790bd768d96571dd9914ce5b3bb6fd95ab6356fc16dd67",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a9e7f8dc50ed132a88df1ab362e9de8f13d90840761d7a8ebe278cc80707943a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0d521aa5585fbf38832e55aa4845eabed1ccd1f9a7d264afa06a23ceed8344ad",
+    "translation_sha256": "0c0d0029f8d62b9b4d25bc6a3e5691389c42d41c1cb74d5ca65fb0087b26a240"
+  }
+}

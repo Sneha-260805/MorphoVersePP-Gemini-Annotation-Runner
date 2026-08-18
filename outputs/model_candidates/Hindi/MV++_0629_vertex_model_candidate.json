@@ -1,0 +1,216 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "concern and questioning to a call for deeper self-realization and preservation",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning well, but slightly loses the internal rhyme and rhythmic contrast between 'josh' (passion/zeal) and 'hosh' (wisdom/consciousness) in line 3.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A sudden, widespread surge of nationalistic sentiment across the population.",
+            "acceptable_visual_variants": [
+              "A crowd of people looking in one direction as a vibrant colored wind or light sweeps over them",
+              "A stylized graphic wave pattern overlaying a map of a country"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "A physical wave of water made of nationalism",
+            "literalization_risk": "Depicting a literal tidal wave of water sweeping over a country, which would look like a natural disaster rather than a political movement.",
+            "metaphor_mapping": {
+              "tenor_concept": "political sentiment",
+              "transferred_attributes": [
+                "suddenness",
+                "overwhelming force",
+                "widespread movement"
+              ],
+              "vehicle_concept": "water wave"
+            },
+            "source_span_original": "राष्ट्रवाद की नई लहर",
+            "source_span_translation": "new wave of nationalism",
+            "source_term": "राष्ट्रवाद की नई लहर",
+            "tenor": "A sudden surge of political sentiment",
+            "vehicle": "A physical wave of water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a stylized, flowing surge of light or color sweeping across a crowd of people, representing the movement of sentiment without literal water."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The internal rhyme and phonetic pairing of 'josh' (passion/excitement) and 'hosh' (consciousness/wisdom/sanity) is lost in the English translation 'passion and wisdom'.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'ek hi shabd' (literally 'only one word') as 'The same word', which slightly softens the singular, absolute focus implied by the Hindi phrasing.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "resilience",
+        "index": 2,
+        "loss_note": "The translation of 'asmita' as 'essence' is functional, but misses the deeper cultural and philosophical connotations of 'asmita' which relates to identity, self-respect, and core existence.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Focusing entirely on superficial publicity and self-promotion rather than doing real, substantive work.",
+            "acceptable_visual_variants": [
+              "A person looking at a series of empty, glowing screens or billboards",
+              "A silhouette of a person reaching towards a floating, fragile bubble containing a megaphone or spotlight"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Experiencing a literal dream during sleep about advertisements or publicity",
+            "literalization_risk": "Showing a person sleeping in a bed with a thought bubble containing advertisements, which is too literal and misses the critique of political/social vanity.",
+            "metaphor_mapping": {
+              "tenor_concept": "superficial aspiration",
+              "transferred_attributes": [
+                "unreality",
+                "lack of substance",
+                "passive imagination"
+              ],
+              "vehicle_concept": "dreaming"
+            },
+            "source_span_original": "प्रचार का सपना देखना",
+            "source_span_translation": "dreaming of publicity",
+            "source_term": "प्रचार का सपना देखना",
+            "tenor": "Superficial aspirations and focus on self-promotion",
+            "vehicle": "A dream experienced during sleep",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person looking at a blank or glowing billboard or screen reflecting their own face, symbolizing the empty pursuit of self-promotion."
+          },
+          {
+            "abstract_meaning": "Respecting and preserving the ethical, constitutional, or social boundaries and values of the nation.",
+            "acceptable_visual_variants": [
+              "A community enclosed in a soft, protective ring of light",
+              "Hands gently cupping a stylized map or symbol of a nation without breaching its borders"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "Not physically breaking or tearing down physical fences or border walls",
+            "literalization_risk": "Showing people physically breaking down a concrete wall or border fence, which suggests territorial disputes or physical border crossings rather than ethical/social limits.",
+            "metaphor_mapping": {
+              "tenor_concept": "ethical and social limits",
+              "transferred_attributes": [
+                "protection",
+                "structure",
+                "demarcation of safety"
+              ],
+              "vehicle_concept": "physical boundaries"
+            },
+            "source_span_original": "उसकी हदों को ना तोड़ें",
+            "source_span_translation": "Do not break its boundaries",
+            "source_term": "उसकी हदों को ना तोड़ें",
+            "tenor": "Ethical, constitutional, and social boundaries of a nation",
+            "vehicle": "Physical fences or border walls",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a delicate, glowing geometric outline or grid surrounding a community, representing protective social and ethical boundaries that remain intact."
+          }
+        ],
+        "tone": "defiance",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'asmita' as 'essence' loses the strong socio-political and cultural connotations of 'identity', 'self-respect', or 'dignity' that the Sanskrit-derived term carries in modern Hindi discourse.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "A critical reflection on superficial nationalism, urging a deeper preservation of the nation's true essence and boundaries over mere rhetoric."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अपना देश कैसे बचाएं  \nराष्ट्रवाद की नई लहर के बावजूद  \nजो जोश और होश में फर्क भूल कर  \nहर जगह एक ही शब्द की गूंज हो उठी है,  \n'देश बचाना है'।  \n\nआत्मविश्वास और मेहनत के नाम पर  \nसिर्फ़ प्रचार का सपना देखना  \nक्या यह हमारी असली पहचान है?  \nक्या हमें यह नहीं समझना चाहिए कि  \nदेश तब ही बच सकता है जब हम  \nउसकी हदों को ना तोड़ें,  \nउसकी अस्मिता को बचाएं।",
+  "poem_id": "MV++_0629",
+  "poem_title": "Apna Desh Kaise Bachaayein",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "6066b842968cb9d8f5b2f2c27e6b2ce65fc28235c57111fc8f462c7742497569",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0629.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "How to Save Our Country  \nDespite the new wave of nationalism,  \nWhere the difference between passion and wisdom is forgotten,  \nThe same word echoes everywhere,  \n\"Save the country\".  \n\nIn the name of self-confidence and hard work,  \nOnly dreaming of publicity,  \nIs this our true identity?  \nShould we not realize that  \nThe country can only be saved when we  \nDo not break its boundaries,  \nAnd preserve its essence.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:48:20.377046+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "236e0aed6c7ab13af9616cfa700e8db7972777b4f69e1072f5934a031f4ff3ad",
+        "response_hash": "86f97074497d56f8540ca1a4a768ba8f4305bc19e6a8018f4bef7ba0eefeb992"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8339248f23169577efdae50284ea88c0b1317511e838768e3503ebb8007032d",
+        "response_hash": "d485089e5fe31f9506ae4108d99647358c37cdd8055dee9628814a0716681d55",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aaddbc6e489ff3803c42c87c6db3c1ea832c3c6c42b077d169c00518aab47392",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0593353f1b4329303363b4febf26bda1b2e9c1257c956fef98faa67cce5e88a4",
+        "response_hash": "03b566cd6a17a4c904fbc665ebcf1ed724163ce9ecd8ed273f9cdc5eab63c86e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1b90bef57a3adc09d872cb32cc0568ca765f65f64d542357a5962c15f85a192a",
+        "response_hash": "0a48ddc7f4b84fefb6d62415c63cc783c41e5c13f0891547388f978e38e82a83",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "eb545959751abb6c7995de5a6c729a811e69d04d0537d2263d78a9950efa6044",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5d2eca545c449880806a5346dbd88552b883d421cde7a05ee308827fdd63cb77",
+    "translation_sha256": "8e1ff39c75255745e84926086da3e6f68abec6d4c933722a591323506f4aa1dd"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet contemplation of loneliness and unfulfilled longing, remaining static in its melancholy from beginning to end.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation alters 'एक खामोशी छुपी है' ('a silence is hidden') to 'A silence expands' to maintain the rhyme scheme, changing the passive, hidden nature of the silence in the original Hindi. It also renders 'एक प्यासा का साहिल' (literally, 'a thirsty person's shore' or grammatically slightly non-standard 'a thirsty shore') as 'A thirsty shore'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of deep emotional longing, unfulfilled desire, or isolation despite being adjacent to what is needed.",
+            "acceptable_visual_variants": [
+              "A barren, rocky coast stretching into a misty, silent ocean.",
+              "A dry, sandy beach at twilight with small, quiet waves barely touching the shore."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "A shore that experiences physical thirst",
+            "literalization_risk": "Showing a literal cracked, dry desert-like shore with a cartoon mouth wanting water, which ruins the melancholic, poetic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional longing and isolation",
+              "transferred_attributes": [
+                "thirst",
+                "proximity to what is desired but unable to consume it"
+              ],
+              "vehicle_concept": "a dry shore next to water"
+            },
+            "source_span_original": "एक प्यासा का साहिल",
+            "source_span_translation": "A thirsty shore",
+            "source_term": "एक प्यासा का साहिल",
+            "tenor": "An isolated, longing human heart or soul",
+            "vehicle": "A shore (coastline) that is thirsty for water",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, empty, dry sandy shoreline meeting a quiet sea under a dim, overcast sky to evoke loneliness and unfulfilled longing."
+          },
+          {
+            "abstract_meaning": "An underlying, unspoken sorrow or quiet resignation that accompanies every passing moment or event.",
+            "acceptable_visual_variants": [
+              "A single wave dissolving into flat, glassy water on a dark beach.",
+              "A wide shot of a calm sea where the horizon line is blurred by mist, suggesting quietude."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "A silence is hiding itself",
+            "literalization_risk": "Depicting a literal figure or face made of shadow hiding behind a wave, which turns a subtle emotional state into a fantasy creature.",
+            "metaphor_mapping": {
+              "tenor_concept": "unspoken silence and grief",
+              "transferred_attributes": [
+                "concealment",
+                "quiet presence"
+              ],
+              "vehicle_concept": "something hiding in secret"
+            },
+            "source_span_original": "एक खामोशी छुपी है",
+            "source_span_translation": "A silence expands",
+            "source_term": "एक खामोशी छुपी है",
+            "tenor": "The quiet, unexpressed grief or emptiness within the waves",
+            "vehicle": "A physical entity hiding in secret",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the visual stillness of the water's edge, perhaps showing the soft, flat foam of a wave receding into absolute stillness on the sand."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation shifts the meaning of 'छुपी है' (is hidden) to 'expands' to create a rhyme with 'stands', losing the original imagery of silence being concealed or hidden within each wave.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds the verb 'stands' ('So lonely it stands') which is not present in the original Hindi text ('कितना तन्हा है' - how lonely it is), altering the simple state of being into a physical posture.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The profound isolation of a shore that remains thirsty despite being constantly met by the silent waves of the sea."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक प्यासा का साहिल,  \nकितना तन्हा है।  \nहर लहर के संग,  \nएक खामोशी छुपी है।",
+  "poem_id": "MV++_0401",
+  "poem_title": "Ek Pyaasa Kaa Saahil",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f55404322b7e6c740ffb418d3cd14fbf7ea11f36350cca37a9068499857959c9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0401.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A thirsty shore,  \nSo lonely it stands.  \nWith each wave’s rise,  \nA silence expands.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:20:55.889762+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a6c49c41a46f60b396c1f7099cd203379f0e3cc66ca91faa4294f0658f7f496a",
+        "response_hash": "9e19f88f4acdf31e885232cb41ea06a86b34bd0144bc918569ee4e00b5f30ed1"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8fff71ddb064561b78e8d3efa956b70c33901daca3188a48ca9170d01fcc015",
+        "response_hash": "1b69416c932ff6b546aefd05d9e09cf3b1c6587339af9ec4f5a473ee56b225ac",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8074cf05572cc431711e41276a1661796f1f05c005a12c29e6268438977db377",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6fff2692e63e6129a13de4f92549efc51df55905a26e311941097b6f02f95471",
+        "response_hash": "a23c093fc5d486ac6a4b851289f147ecd5ce6376816f371b77e6cd8e88d26eaa",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0de582175a30a52b1baebb91e514856352baccc33129bae68f5398d5ed460e79",
+        "response_hash": "347f662dfbdacca857879b2419600b1f759515705dae62856afd252af686473f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7e270a66095c2583ba7b6324e8b6821e403d98f930d2ec3a777c33c656a45956",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "accffcd3328665ec11bbe2821801eba4bb91c2dfd4c048afc2e07b35a5a1a6ca",
+    "translation_sha256": "c90d663155b3201424d57c1c11cef9778334b71532d246e1b99143132c3ec955"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and remembrance to tender devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The persistent, lingering memory of the beloved's presence in a quiet, empty space.",
+            "acceptable_visual_variants": [
+              "A single empty chair bathed in soft light with a faint silhouette of a person fading away.",
+              "A person sitting alone looking at an open window as a gentle breeze stirs the curtains."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Your physical scent residing inside the physical silence.",
+            "literalization_risk": "Showing a literal cloud of perfume or mist floating in an empty room, which looks like a chemical spill rather than a poignant memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory lingering in empty space",
+              "transferred_attributes": [
+                "persistence",
+                "subtle presence",
+                "evocative nature"
+              ],
+              "vehicle_concept": "fragrance dwelling in silence"
+            },
+            "source_span_original": "तुम्हारी खुशबू सन्नाटे में",
+            "source_span_translation": "your fragrance\nLingers in the silence",
+            "source_term": "तुम्हारी खुशबू सन्नाटे में",
+            "tenor": "The persistent memory of a loved one felt in their absence.",
+            "vehicle": "A physical fragrance settling and dwelling inside physical silence.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure sitting in a quiet room with a soft, warm light or a faint, translucent trail of flower petals drifting through the air to suggest a lingering presence."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'baci hui hai' as 'lingers' loses the specific domestic and physical nuance of 'settled', 'dwelling', or 'inhabiting' which is central to the Hindi verb 'basna'.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's identity is deeply associated with beautiful sensory experiences like the scent of roses.",
+            "acceptable_visual_variants": [
+              "A close-up of a blooming rose with dew drops reflecting a soft, warm light.",
+              "A person looking at a rose garden with a nostalgic expression."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6-L7",
+            "literal_meaning": "The physical letters of your name are physically written or contained inside the scent of roses.",
+            "literalization_risk": "Showing literal letters of a name floating out of a rose, which looks cartoonish or like a spelling exercise.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory triggered by sensory beauty",
+              "transferred_attributes": [
+                "sweetness",
+                "intimacy",
+                "inescapable association"
+              ],
+              "vehicle_concept": "name written in scent"
+            },
+            "source_span_original": "गुलाबों की खुशबू में\nतुम्हारा नाम है",
+            "source_span_translation": "In the scent of roses,\nYour name resides",
+            "source_term": "गुलाबों की खुशबू में\nतुम्हारा नाम है",
+            "tenor": "The sensory association of a loved one's memory with the scent of roses.",
+            "vehicle": "A written name residing inside a physical fragrance.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person holding a rose to their face with a thoughtful, longing expression, perhaps with a faint, elegant script of a name subtly integrated into the background texture or soft focus."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'hawa ke jhonke' (gust/blast of wind) as 'breeze's whisper', which softens the physical impact of a sudden gust of wind into a gentle, auditory whisper.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 4,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The imaginary mental space of dreams where memories and hopes are cultivated like flowers.",
+            "acceptable_visual_variants": [
+              "A misty, beautiful garden path illuminated by soft, magical lanterns.",
+              "A person sleeping peacefully with a soft, colorful garden scene fading into the background above them."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "A physical garden made of or belonging to literal dreams.",
+            "literalization_risk": "Showing a literal garden with sleeping faces or literal dream bubbles growing on stems, which looks surreal and bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "subconscious mind of dreams",
+              "transferred_attributes": [
+                "beauty",
+                "growth",
+                "variety of thoughts",
+                "internal cultivation"
+              ],
+              "vehicle_concept": "cultivated garden"
+            },
+            "source_span_original": "सपनों के बाग़ में",
+            "source_span_translation": "gardens\nOf dreams",
+            "source_term": "सपनों के बाग़ में",
+            "tenor": "The subconscious mind or imagination where dreams and memories are nurtured.",
+            "vehicle": "A cultivated garden with flowers and paths.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a lush, slightly surreal garden with soft, glowing, or ethereal flora under a starry night sky to convey a dreamlike state."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'saje hain' as 'are adorned' loses the active, plural-marked reflexive sense of decoration and preparation implied by the Hindi verb 'sajna'.",
+            "where": "L10"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "devotion",
+        "index": 5,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's emotional life and love are entirely dedicated to the beloved.",
+            "acceptable_visual_variants": [
+              "A soft, warm glow emanating from a person's chest area.",
+              "A silhouette of a couple with a subtle pulse of light connecting them."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L14-L15",
+            "literal_meaning": "The physical organ of the heart pumps blood solely for the purpose of another person.",
+            "literalization_risk": "Showing a literal anatomical heart beating outside a chest, which is graphic and medical rather than romantic.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional devotion",
+              "transferred_attributes": [
+                "vitality",
+                "rhythm",
+                "exclusivity"
+              ],
+              "vehicle_concept": "heartbeat"
+            },
+            "source_span_original": "ये दिल\nतुम्हारे लिए धड़कता है",
+            "source_span_translation": "this heart\nBeats for you",
+            "source_term": "ये दिल\nतुम्हारे लिए धड़कता है",
+            "tenor": "Deep romantic devotion and emotional attachment.",
+            "vehicle": "The physical beating of a heart.",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a person with their hand placed gently over their chest, looking off-screen with a tender, emotional expression."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'chahat' as 'love' simplifies a more specific Hindi/Urdu-derived term that carries connotations of intense desire, longing, and yearning.",
+            "where": "L17"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The persistent, sensory return of a beloved's memory in everyday life and dreams"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आज फिर\n\nआज फिर से सुनाई दी\nतुम्हारी बातें यादों में,\nआज फिर से बसी हुई हैं\nतुम्हारी खुशबू सन्नाटे में।\n\nगुलाबों की खुशबू में\nतुम्हारा नाम है,\nहर हवा के झोंके में\nतुम्हारी यादें हैं।\n\nआज फिर से सजे हैं\nसपनों के बाग़ में,\nहर रंग में तुम्हारा\nसाया है मेरे साथ।\n\nआज फिर से ये दिल\nतुम्हारे लिए धड़कता है,\nहर धड़कन में बसी है\nतुम्हारी चाहत का अहसास।",
+  "poem_id": "MV++_0227",
+  "poem_title": "Aaj Phir",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "565446df43de1bba306674a0da7c5dd1c3b05816d2fa2956928de17f415a06b2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0227.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Again Today\n\nAgain today, I heard\nYour words in memories,\nAgain today, your fragrance\nLingers in the silence.\n\nIn the scent of roses,\nYour name resides,\nIn every breeze’s whisper,\nYour memories hide.\n\nAgain today, the gardens\nOf dreams are adorned,\nIn every color, your\nShadow is with me.\n\nAgain today, this heart\nBeats for you,\nIn every heartbeat dwells\nThe feeling of your love.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:02:01.429808+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d42b58ed1e1b90d1c2c9df07a01ebb7b06970f8498794df4cf15e5cc7d6d3b86",
+        "response_hash": "61ef1b07436267617116fb9ad82a942be0601efb9d1943e10c90d48a233b8d3e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "450ed27f0d52a67b8b89f9e45d82f8b50f462cbf228d0773f3877583ea5ed216",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d206a33ecd5f8c3a2dd05a4ed3073cbaca265c4d82f664292638fd23329111ed",
+        "response_hash": "0fc476e3ed1d89e2e0e739dca1a4d16f1759ab42b4d109af6545a2191ffd6037",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "96da27c7f633e42a49194cf9dca1eea69149db80b68ce5a4c3b04e0d0b7fa3cc",
+        "response_hash": "35ea4fdaadd5416d4b87d252c8c9cc1842a55be51fdd38af8f0d56cc57c21347",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2992733e75084143e3ea7643f4504656b72a1db1c4d6366a82e7df0abd0ef4c3",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "c5cafcba105f72ff9825c8aa9e8c7ef962cd18a2793bbf65a9fc816340567ccc",
+    "translation_sha256": "145ef337bf29b5c659f4ea3d01e548dcbcfcd383426970bd662115cb19e60b95"
+  }
+}

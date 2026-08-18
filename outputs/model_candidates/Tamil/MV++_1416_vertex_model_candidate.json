@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and deep devotion to love",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The eyes acting as a reflective surface that reveals the inner soul or truth of the beloved.",
+            "acceptable_visual_variants": [
+              "A close-up of a human eye showing a clear reflection of a loved one in the iris",
+              "Two people looking deeply into each other's eyes with soft light highlighting the reflection"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A mirror in the eye",
+            "literalization_risk": "Showing a physical glass mirror literally embedded inside a human eyeball, which would look grotesque or like a medical injury.",
+            "metaphor_mapping": {
+              "tenor_concept": "eyes",
+              "transferred_attributes": [
+                "reflectiveness",
+                "clarity",
+                "revealing truth"
+              ],
+              "vehicle_concept": "mirror"
+            },
+            "source_span_original": "கண்ணில் கண்ணாடி",
+            "source_span_translation": "A mirror in the eyes",
+            "source_term": "கண்ணில் கண்ணாடி",
+            "tenor": "the eyes reflecting the beloved's spirit",
+            "vehicle": "a mirror",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a close-up of a clear, expressive eye with a soft, detailed reflection of another person's face or silhouette visible in the pupil."
+          },
+          {
+            "abstract_meaning": "Experiencing a state of weightless joy, peace, and elevation brought about by love.",
+            "acceptable_visual_variants": [
+              "A couple enveloped in a warm, glowing golden mist or soft light",
+              "An abstract scene of warm light beams gently surrounding a heart silhouette"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Floating in the light of love",
+            "literalization_risk": "Depicting a person physically levitating or swimming through literal beams of light, which looks like a sci-fi or superhero scene.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional state of love",
+              "transferred_attributes": [
+                "weightlessness",
+                "brightness",
+                "peacefulness"
+              ],
+              "vehicle_concept": "buoyancy in a luminous medium"
+            },
+            "source_span_original": "காதலின் ஒளியில் மிதக்கும்",
+            "source_span_translation": "Floating in the light of love",
+            "source_term": "காதலின் ஒளியில் மிதக்கும்",
+            "tenor": "the uplifting and illuminating feeling of being in love",
+            "vehicle": "floating in light",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use warm, ethereal, and diffused golden lighting surrounding the subjects to convey a weightless, dreamlike atmosphere without literal levitation."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The rhythmic alliteration and assonance of the Tamil words (Kannil Kannaadi, idhayathin padhippu) which create a musical, echoing quality in the original poem.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The subtle locative case marker '-il' in 'kannil' (in the eye) and 'oliyil' (in the light) which provides a direct, fused spatial relationship that is flattened into English prepositions.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The reflective and spiritual connection between lovers, where the eyes act as a mirror to the soul and heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss items and a loss_note is expected if there is significant loss. However, the schema allows translation_loss to be empty when faithful, but having translation_loss populated while translation_quality is 'faithful' represents a minor structural inconsistency.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "கண்ணில் கண்ணாடி,  \nஉன் ஆவியின் தெளிவு,  \nஎன் இதயத்தின் பதிப்பு,  \nகாதலின் ஒளியில் மிதக்கும்!",
+  "poem_id": "MV++_1416",
+  "poem_title": "Kannil Kannaadi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "e96c0db7857e9852036e2b3f68cf3899b57e86f929346a80e55b32b1a39a534d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1416.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A mirror in the eyes,  \nThe clarity of your spirit,  \nThe imprint of my heart,  \nFloating in the light of love!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:31:21.136102+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "20f6b949620e0b6f1a5ab43c60e4a34dfb46ca18397e5c9546647a7f7d3d4836",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "63ab1c84139bc5c210ca235442e30ad4eaa42338f9025172be2b9fac4f9ef339",
+        "response_hash": "b934cd73db7f750e34661ec4a385850d4b693e2399ac9f84d5657f132e43af9e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "96511b8c42aab90c5254e86f7cc7dd94f789460d8e19e39076894657bf852f98",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7fa03bab2c144b666d5e226bdeaaf0e7dccd8b64033efeb49ff74fc2dd8d8743",
+        "response_hash": "1fe8f97b83c7d823f9f0be250cb76751f77609291fea32a67f0a0d85f0d10974",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d8e028a3a59463621aaa2c6afd03d416c794386c8cd5090c5bac969e325cdb3c",
+        "response_hash": "5aeb1c92591a49c467963bfe674705cdaa2d1199437a9fd7a5977cabcb8d6485",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "44b69bb5b7d13b6a48c6c8920146b3dbe8cef1ca8ab434dbf4e165dbda919f71",
+        "response_hash": "5de874a0beaa18249f191ae1fd83b1023a21e0a951835dc5e90c3d46535e3333",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "80c1d6b873f0743686861b6d795a35dc6fb8a94b9c913009472ede688f50a304",
+    "translation_sha256": "68d4dd01c861acbac89d1dd97f3169b6def97469bb55088abb4db9c074015643"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet, nostalgic reflection on the sensory and emotional essence of home, moving from physical elements to internal dreams.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation is highly faithful, though the specific rhythmic flow and the deep cultural resonance of 'rachi-basi' (deeply imbued/woven) and 'sajde' (decorating/blossoming) are slightly simplified in English.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The physical structure of the home holds memories, history, and the lived experiences of its inhabitants.",
+            "acceptable_visual_variants": [
+              "A close-up of an old wall with layers of paint or plaster showing the passage of time",
+              "An indoor wall adorned with old family photographs and memorabilia"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Every wall has a story",
+            "literalization_risk": "Showing literal talking walls with mouths would look cartoonish and miss the emotional depth of domestic memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "walls of a home",
+              "transferred_attributes": [
+                "communicating history",
+                "holding memories",
+                "narrating the past"
+              ],
+              "vehicle_concept": "storyteller"
+            },
+            "source_span_original": "हर दीवार ते इक कहानी",
+            "source_span_translation": "Every wall tells a story",
+            "source_term": "हर दीवार ते इक कहानी",
+            "tenor": "The walls of a house holding memories and history",
+            "vehicle": "A person telling a story",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a weathered, textured wall of a home with subtle visual hints of life, such as faint marks, hanging frames, or shadows of people."
+          },
+          {
+            "abstract_meaning": "Hopes, aspirations, and dreams are nurtured, taking shape and flourishing within the safety of the home.",
+            "acceptable_visual_variants": [
+              "A warm interior with soft light filtering through a window, illuminating a cozy corner",
+              "A symbolic representation of soft, glowing light patterns resembling growing plants or flowers inside a room"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Dreams being adorned or arranged",
+            "literalization_risk": "Showing literal sleeping dreams floating in the air like bubbles can look overly surreal or childish.",
+            "metaphor_mapping": {
+              "tenor_concept": "human dreams and aspirations",
+              "transferred_attributes": [
+                "beauty",
+                "growth",
+                "flourishing",
+                "taking beautiful shape"
+              ],
+              "vehicle_concept": "blossoming flowers or beautiful decorations"
+            },
+            "source_span_original": "सपने सजदे",
+            "source_span_translation": "Dreams blossoming",
+            "source_term": "सपने सजदे",
+            "tenor": "Aspirations and hopes growing and flourishing",
+            "vehicle": "Flowers blossoming or decorations being arranged",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a warm, soft-lit domestic space where a person is engaged in a creative or hopeful activity, surrounded by a gentle, glowing atmosphere."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'woven into' simplifies the compound verb 'rachi-basi' (रची-बसी), which carries a deeper cultural nuance of being thoroughly absorbed, integrated, or deeply infused into the very essence of the soil.",
+            "where": "L3"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'blossoming' for 'sajde' (सजदे) shifts the imagery; 'sajde' literally means being decorated, adorned, or arranged beautifully, rather than organic botanical blossoming.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The deep, sensory connection between a person, their home, and the soil, where memories and dreams are nurtured."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Dogri",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "घर\nघर दी खुशबू\nमिट्टी विच रची-बसी,\nहर दीवार ते इक कहानी,\nसपने सजदे, साये विच।",
+  "poem_id": "MV++_0052",
+  "poem_title": "Ghar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "7d5d6ce81df21106ed35c19aebf8f8c141f67b837e6e670b084d56df035a4d1c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Dogri/MV++_0052.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Home\nThe fragrance of home\nWoven into the soil,\nEvery wall tells a story,\nDreams blossoming in its shade.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:41:43.627929+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "fd782527f8c93a621787c359b00db7372ee944b68195914e547e43715185c76b",
+        "response_hash": "c13266e846916fd012b5a3f85d9fd45c9f07c3329b9e5991f7700bab5a8d9709"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ef1d4ab4faf2bf2b283abe8747cd64e1a4ab87b81930e26861336b58cdb4c2cb",
+        "response_hash": "da7b1e034e503f8cf8b36b9b62030983924885692e09b193539d8108b5fb0812",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d062e2e1aea336c217b28e0de69165526382f7da50c9f7fd4400a5d5f1048f30",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5fb8d2f92dbd15e688469dbc8f4649d7a451c158e02615426257747e5ca6bbbf",
+        "response_hash": "0091498aee59cd55db90932d952ecac71aa64388e838c5ac8649a095153d957e",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f3f1b261c2bc109d13949538fa188c33b0864c4621f89d8252f803372e11978",
+        "response_hash": "1229f41e70433139363f2ffff4f0728d76c1f9a793955eb7b9036ab559d57bc0",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "14fc2cdabce172260e8a5d21739f45c2bb94f8bf83ef95fc86ff63808d91a565",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ff530a53b90f2111e3582e97a0a32504f8b1e223f30046616c10c9644f935b70",
+    "translation_sha256": "eabd46c68a834e4b0eba2710a02a44f26e777224b86081ba332e824a58c4c69e"
+  }
+}

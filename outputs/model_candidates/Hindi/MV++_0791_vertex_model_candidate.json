@@ -1,0 +1,385 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A plain bamboo flute with a simple thread tied near the blowing end",
+          "A rustic wooden flute held horizontally"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional side-blown bamboo flute of India, deeply associated with pastoral music, folk traditions, and classical Indian music. In literature, it often evokes a sense of peace, nature, and longing.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A modern Western metal concert flute with keys",
+          "An ornate, heavily jeweled flute associated with specific mythological iconography unless explicitly requested"
+        ],
+        "preserved": true,
+        "romanization": "bansuri",
+        "source_span_original": "बाँसुरी",
+        "source_span_translation": "flute",
+        "stanza_index": 2,
+        "term": "बाँसुरी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A simple, slender bamboo flute with finger holes",
+          "Natural light brown or golden-yellow wood texture",
+          "No keys or metal mechanisms"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing for rest to deep peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The song is deeply infused with the mood, colors, and atmosphere of the evening.",
+            "acceptable_visual_variants": [
+              "A figure singing or playing an instrument silhouetted against a vibrant sunset sky",
+              "A landscape where the evening light casts deep, warm colors over everything, blending the elements together"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Submerged or drowned in the colors of the evening",
+            "literalization_risk": "An illustrator might literally submerge a physical sheet of music or a singing figure in a pool of colored liquid, which would look bizarre and miss the atmospheric mood.",
+            "metaphor_mapping": {
+              "tenor_concept": "experiencing or reflecting an atmospheric mood",
+              "transferred_attributes": [
+                "immersion",
+                "saturation",
+                "coloration"
+              ],
+              "vehicle_concept": "submersion in colored liquid"
+            },
+            "source_span_original": "सांझ के रंगों में डूबा",
+            "source_span_translation": "Drenched in the hues of evening",
+            "source_term": "सांझ के रंगों में डूबा",
+            "tenor": "being deeply affected by or infused with the atmosphere of evening",
+            "vehicle": "submersion in liquid/dye",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene evening landscape with rich sunset colors (oranges, purples, pinks) washing over the entire scene, blending the singer or the environment into these hues."
+          },
+          {
+            "abstract_meaning": "The evening atmosphere or a hidden presence makes a soft, gentle sound resembling a hummed song.",
+            "acceptable_visual_variants": [
+              "Soft, wavy golden lines drifting through the evening air",
+              "A peaceful landscape with wind gently moving through grass, suggesting a soft sound"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2",
+            "literal_meaning": "A song hums/sings to itself",
+            "literalization_risk": "Depicting a literal anthropomorphized musical note or scroll with a mouth humming would look cartoonish and ruin the serene, natural tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "ambient natural sounds",
+              "transferred_attributes": [
+                "softness",
+                "melody",
+                "gentle vocalization"
+              ],
+              "vehicle_concept": "human humming"
+            },
+            "source_span_original": "एक गीत गुनगुनाता है",
+            "source_span_translation": "A song hums softly",
+            "source_term": "एक गीत गुनगुनाता है",
+            "tenor": "the gentle, ambient sounds of the evening",
+            "vehicle": "a human humming a tune",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Represent the sound visually through subtle, flowing abstract lines or gentle ripples in the air, or focus on the peaceful evening landscape that evokes the feeling of a soft melody."
+          },
+          {
+            "abstract_meaning": "The absolute stillness and quietness of the mountain range.",
+            "acceptable_visual_variants": [
+              "Distant, majestic mountain peaks shrouded in soft evening mist",
+              "A wide shot of still, dark mountain silhouettes against a twilight sky"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L3",
+            "literal_meaning": "The silence or muteness of the mountains",
+            "literalization_risk": "Depicting mountains with human faces holding fingers to their lips would be highly literal and cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "natural stillness",
+              "transferred_attributes": [
+                "quietness",
+                "stillness",
+                "calmness"
+              ],
+              "vehicle_concept": "human silence"
+            },
+            "source_span_original": "पर्वतों की चुप्पी",
+            "source_span_translation": "silence of the mountains",
+            "source_term": "पर्वतों की चुप्पी",
+            "tenor": "the natural stillness and lack of noise in a mountain landscape",
+            "vehicle": "a person choosing to remain silent",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show massive, still, and majestic mountain peaks towering under a quiet sky, perhaps with mist or soft light to emphasize their stillness and isolation."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Under the protective, wide, and comforting canopy of the sky.",
+            "acceptable_visual_variants": [
+              "A wide-angle view of a vast, clear evening sky curving over a peaceful landscape",
+              "Soft, sweeping clouds stretching across the horizon like protective folds of cloth"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Beneath the border/hem of the sky's garment (anchal)",
+            "literalization_risk": "Drawing a literal giant piece of fabric or sari border hanging down from the clouds would look surreal and distracting.",
+            "metaphor_mapping": {
+              "tenor_concept": "the sheltering sky",
+              "transferred_attributes": [
+                "protection",
+                "comfort",
+                "covering",
+                "warmth"
+              ],
+              "vehicle_concept": "a mother's protective garment hem"
+            },
+            "source_span_original": "आसमान के आँचल तले",
+            "source_span_translation": "Beneath the sky's vast embrace",
+            "source_term": "आसमान के आँचल तले",
+            "tenor": "the protective, sheltering expanse of the sky",
+            "vehicle": "the protective hem or drape of a mother's sari (anchal)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a vast, wide-stretching sky that curves gently over the landscape like a dome, using soft, warm clouds that mimic the comforting drape of fabric."
+          },
+          {
+            "abstract_meaning": "The sun emits beautiful, radiating rays of light as it sets, resembling the sweet notes of a flute.",
+            "acceptable_visual_variants": [
+              "A setting sun with prominent, straight golden rays piercing through clouds like musical beams",
+              "A golden sun low on the horizon casting long, parallel lines of light across a quiet valley"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "The sun plays its own flute",
+            "literalization_risk": "Showing a cartoon sun with hands and a face blowing into a wooden flute would completely break the poetic, naturalistic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "sunset light rays",
+              "transferred_attributes": [
+                "harmony",
+                "beauty",
+                "radiation of waves/notes",
+                "peacefulness"
+              ],
+              "vehicle_concept": "flute playing"
+            },
+            "source_span_original": "सूरज अपनी बाँसुरी बजाता है",
+            "source_span_translation": "The sun plays its flute",
+            "source_term": "सूरज अपनी बाँसुरी बजाता है",
+            "tenor": "the sun radiating beautiful, harmonious rays of light during sunset",
+            "vehicle": "a musician playing a flute",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Visualize the sun low on the horizon, casting long, distinct, linear rays of golden light across the sky and landscape, resembling the linear form of a flute or the spreading waves of music."
+          },
+          {
+            "abstract_meaning": "The long, shifting shadows of evening evoke mystery, memories, and a sense of narrative.",
+            "acceptable_visual_variants": [
+              "Long, elegant shadows of trees stretching across a golden field",
+              "Silhouetted figures or trees casting deep, intricate shadows that mimic interesting shapes on the ground"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L7",
+            "literal_meaning": "Every shadow tells a story",
+            "literalization_risk": "Depicting shadows with literal speech bubbles or human faces speaking would be overly literal and ruin the atmospheric mystery.",
+            "metaphor_mapping": {
+              "tenor_concept": "evocative shadows",
+              "transferred_attributes": [
+                "narrative quality",
+                "evocation of memory",
+                "mystery"
+              ],
+              "vehicle_concept": "storytelling"
+            },
+            "source_span_original": "हर छाया एक कहानी कहती है",
+            "source_span_translation": "Every shadow tells a tale",
+            "source_term": "हर छाया एक कहानी कहती है",
+            "tenor": "the evocative, mysterious, and narrative-inducing quality of evening shadows",
+            "vehicle": "a storyteller narrating a tale",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show long, dramatic, and beautifully shaped shadows cast by trees, mountains, or figures stretching across the ground in the low evening light, suggesting depth and mystery."
+          },
+          {
+            "abstract_meaning": "Each sound or musical note of the evening reflects the journey of the day that has passed.",
+            "acceptable_visual_variants": [
+              "A winding path or river flowing through the landscape under the evening sky",
+              "Birds flying in a line across the sunset sky, representing a journey home accompanied by soft wind ripples"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "Every musical note sings about a journey",
+            "literalization_risk": "Showing literal musical notes with tiny boots walking down a path would be childish and literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "sounds evoking passage of time",
+              "transferred_attributes": [
+                "narrative of movement",
+                "reflection on path traveled"
+              ],
+              "vehicle_concept": "singing about a journey"
+            },
+            "source_span_original": "हर स्वर एक यात्रा को गाता है",
+            "source_span_translation": "Every note sings of a journey",
+            "source_term": "हर स्वर एक यात्रा को गाता है",
+            "tenor": "the sounds of evening evoking the passage of time and the day's experiences",
+            "vehicle": "a singer narrating a journey",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on elements of travel or passage in the evening, such as a winding path disappearing into the distance under the twilight sky, accompanied by abstract visual representations of sound waves."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'आँचल' (aanchal) as 'embrace'. An 'aanchal' is specifically the decorative loose end of a sari or a protective veil/shawl, which carries deep cultural connotations of maternal protection, shelter, and comfort in Hindi literature that are lost in the more generic 'embrace'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The song of the evening brings a deep sense of calm and peace to everyone.",
+            "acceptable_visual_variants": [
+              "A peaceful landscape bathed in the soft, cool blue and purple light of twilight",
+              "A quiet home with a warm, gentle light glowing from the window under a starry evening sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "Delivers or recites a message of peace",
+            "literalization_risk": "Showing a messenger bird or a person delivering a physical scroll labeled 'Peace' would be too literal.",
+            "metaphor_mapping": {
+              "tenor_concept": "imparting a feeling of tranquility",
+              "transferred_attributes": [
+                "communication",
+                "delivery",
+                "reception of comfort"
+              ],
+              "vehicle_concept": "delivering a message"
+            },
+            "source_span_original": "शांति का संदेश सुनाता है",
+            "source_span_translation": "A message of peace",
+            "source_term": "शांति का संदेश सुनाता है",
+            "tenor": "the evening atmosphere imparting a feeling of tranquility to people",
+            "vehicle": "a messenger delivering a letter or spoken message",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a serene, harmonious scene where nature and humans are in perfect quietude, such as a soft twilight glow settling over a quiet village or landscape, evoking an unspoken message of calm."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'सुनाता है' (sunaata hai, meaning 'recites' or 'makes heard') as 'whispers', which alters the active, audible quality of the song's message to a quiet whisper.",
+            "where": "L12"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The soothing transition of evening bringing quietude and comfort to the weary world."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation quality is marked as 'faithful', but the loss_note is empty while there are translation losses that could be noted, or conversely, stanzas 2 and 3 are marked 'faithful' but contain non-empty translation_loss lists. Under the schema rules, a 'faithful' translation quality is inconsistent with having structured translation loss items unless the quality is marked as 'partial' or the loss is explicitly reconciled.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सांझ के रंगों में डूबा,  \nएक गीत गुनगुनाता है।  \nपर्वतों की चुप्पी के बीच,  \nकोई विराम ढूंढता है।  \n\nआसमान के आँचल तले,  \nसूरज अपनी बाँसुरी बजाता है।  \nहर छाया एक कहानी कहती है,  \nहर स्वर एक यात्रा को गाता है।  \n\nयह गीत सांझ का है,  \nजो दिन के थकान को मिटाता है।  \nयह गीत हर दिल को,  \nशांति का संदेश सुनाता है।",
+  "poem_id": "MV++_0791",
+  "poem_title": "Saanjh Ka Geet",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "51d42b9c5166ef5af64873f9cce868629f94696c361e409d1b141b860351dad9",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0791.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Drenched in the hues of evening,  \nA song hums softly.  \nAmid the silence of the mountains,  \nSomeone seeks a pause.\n\nBeneath the sky's vast embrace,  \nThe sun plays its flute.  \nEvery shadow tells a tale,  \nEvery note sings of a journey.\n\nThis is the song of the evening,  \nThat eases the day's fatigue.  \nThis song whispers to every heart,  \nA message of peace.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:12:40.046787+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "154c76001938439f2e31b7d99440adc6c9245ef5ff48be32f19f0d03748dc2fb",
+        "response_hash": "e2ecf11cbd33103e13d132396ea53ed52dc0c1f0c9d1544826a58f10b5fbad93",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2c465079c8216e6446c0a0912f85025f80d8c1b233ba32b56345f842c3b32229",
+        "response_hash": "5f4b1f8d253fcbb26c57194ae383e8270ab8f363f0f0bce068b1e50ffe4d58dd",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "20bc31e9a72b5e0156d31e2a10afd8229e9be1c1477c77cbc3c04edabc7f2d44",
+        "response_hash": "68be555cb4e6e02fdcb5d4360485660b5a8966dbbaedf49a9db1bf1415897b08",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f63db76415729f987957f09cdc4b309f6da0d3ce79920d3a8b526a2e01616dfc",
+        "response_hash": "00e9ac0c5f659b2c237ef77a4929139a31c3cdc64859387bca6752220ff4440e",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1ef48aa4e53513f4cb2fea635aa1bcd88074665105a0523f290ef06bce075766",
+        "response_hash": "0da76921580563c91bd84fdc44f30fb261bcdef3636b848c94af48207668fec7",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "58b91f30b8eb67084c9472838d3326348acf187d598ca8660e816cef9edaa9e0",
+    "translation_sha256": "f255a8200cefa5cf2958586ca662c5f3c969aee8ac4b3a1b838a610dbeab6b5e"
+  }
+}

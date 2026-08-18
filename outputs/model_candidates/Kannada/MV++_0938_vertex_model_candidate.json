@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A quiet, reflective longing that persists through memory, dreams, and spoken words.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning, but loses the subtle wordplay and phonetic resonance between 'marali' (returning) in L1 and 'maruli' (refrain/repetition/enchantment) in L4.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The emotional impact of a memory settling deeply into one's consciousness or emotional core.",
+            "acceptable_visual_variants": [
+              "A gentle leaf drifting down onto a reflective pool of water representing the mind",
+              "A soft light settling onto a human silhouette's chest area"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "falling physically inside the physical heart organ",
+            "literalization_risk": "An illustration showing a physical object literally dropping inside a biological heart would look like a medical anomaly or a surreal horror image rather than a poetic reflection.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory settling in consciousness",
+              "transferred_attributes": [
+                "downward motion",
+                "settling",
+                "impact"
+              ],
+              "vehicle_concept": "falling object"
+            },
+            "source_span_original": "ಹೃದಯದಲ್ಲಿ ಬೀಳುವ",
+            "source_span_translation": "Falling in the heart",
+            "source_term": "ಹೃದಯದಲ್ಲಿ ಬೀಳುವ",
+            "tenor": "a memory settling into one's emotional consciousness",
+            "vehicle": "a physical object falling into a space",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing speck of light or a leaf gently drifting down and settling onto a stylized, warm silhouette of a person's chest."
+          },
+          {
+            "abstract_meaning": "The dreams are fresh, vibrant, and full of life or hope, like fresh green vegetation.",
+            "acceptable_visual_variants": [
+              "A dream bubble showing fresh green leaves sprouting",
+              "A soft green glow illuminating a peaceful sleeping face"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L3",
+            "literal_meaning": "the color green physically present inside dreams",
+            "literalization_risk": "Depicting a dream scene literally painted in solid green paint might look like a monochromatic error or a toxic environment rather than a symbol of fresh hope.",
+            "metaphor_mapping": {
+              "tenor_concept": "vitality and freshness of dreams",
+              "transferred_attributes": [
+                "freshness",
+                "growth",
+                "vibrancy"
+              ],
+              "vehicle_concept": "green foliage/color"
+            },
+            "source_span_original": "ಕನಸುಗಳಲಿ ಹಸುರು",
+            "source_span_translation": "In dreams, green",
+            "source_term": "ಕನಸುಗಳಲಿ ಹಸುರು",
+            "tenor": "freshness, vitality, and hopefulness of dreams",
+            "vehicle": "the color green (associated with fresh foliage and growth)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a sleeping figure with a dream bubble containing lush, vibrant green sprouts or a fresh spring landscape emerging from their thoughts."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The wordplay and phonetic echo between 'marali' (returning/again) in L1 and 'maruli' (refrain/repetition/enchantment) in L4 is lost in translation, as 'return' and 'refrain' do not share the same linguistic root or phonetic resonance in English.",
+            "where": "L1-L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The grammatical structure of Kannada locative case endings (-alli in hrudayadalli, kanasugalali, maatinali) creates a rhythmic, rhyming cadence that is flattened into standard English prepositional phrases ('in the heart', 'in dreams', 'in words').",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The persistent, cyclical return of memory and hope in the human heart."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಮರಳಿ ಬರುವ ನೆನಪು,  \nಹೃದಯದಲ್ಲಿ ಬೀಳುವ,  \nಕನಸುಗಳಲಿ ಹಸುರು,  \nಮಾತಿನಲಿ ಮರುಳಿ!",
+  "poem_id": "MV++_0938",
+  "poem_title": "Marali",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "f46db80c68f38de4115516ebbf3807282ed4918362a797ad5f97d971331f6438",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0938.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The memory of return,  \nFalling in the heart,  \nIn dreams, green,  \nIn words, a refrain!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:33:16.885259+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e6cf37f1d51663f96f3294b871385416c6bdd741aaf2984c5c52b38987f6a48c",
+        "response_hash": "48b24e91deb7e1dcfbe575d42dba913be5e7aba6c948e8cc6e968f8eca72acb2"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "239b9f4ce49e5a6693d28925c651d9f12731e179bfc7848e60fe25a5c3bf63af",
+        "response_hash": "e4439cc41d288912f0a4aa78f0d980d0d66fae0caf96192a3ec858bae15b91cb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "41c27ef94249bdf9092545508c47980e82fd50f332a35c0ce61eb23668f03d8d",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b2caae12b854f671d5a9a3514ad9422a7b9560a854d77d952d059acaf7479b2a",
+        "response_hash": "b5bae62adbc0875e19589a5f87b92d7636ccf5a30b190150cf380af13404847f",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6534f41c3e7adaf3c1b33b229cc7040538f0ae66a90025e5459b021750f74fe7",
+        "response_hash": "2e91a0a0cfd81dbb8903359cba0d1b94ce1fba756bb927776680cf1c136ae1bf",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6cd7ef45334fd14de85043568f82e514fc144f4d880637eeb29616274c45b25b",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "9af122e64c4cff40d8e5cdd69438b6a3726eaf0565ecc59deb6d01f035b60513",
+    "translation_sha256": "e239bd701bffdf063e7c9eb11b3fcbeb04950bb5b99e53e0acac6422e16f9345"
+  }
+}

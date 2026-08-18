@@ -1,0 +1,146 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and overwhelming emotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces 'heart' for 'என்னை' (me/myself) to capture the emotional impact of scattering, which shifts the literal Tamil 'scattering me' to 'scattering my heart'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "An intense, intimate gaze where two people look deeply into each other's eyes, merging their focus.",
+            "acceptable_visual_variants": [
+              "A close-up of two eyes looking at each other with a soft reflection of the partner in each pupil.",
+              "Two overlapping silhouettes where the eye regions align and blend with light."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Eye within eye",
+            "literalization_risk": "Drawing a literal eye physically placed inside another eyeball, which would look surreal, grotesque, or anatomically bizarre.",
+            "metaphor_mapping": {
+              "tenor_concept": "intense mutual gaze and emotional connection",
+              "transferred_attributes": [
+                "closeness",
+                "interpenetration",
+                "shared focus"
+              ],
+              "vehicle_concept": "physical nesting or merging of eyes"
+            },
+            "source_span_original": "விழியில் விழியும்",
+            "source_span_translation": "Eyes within eyes",
+            "source_term": "விழியில் விழியும்",
+            "tenor": "Deep, intimate, and reciprocal eye contact between lovers",
+            "vehicle": "An eye nested inside or merging with another eye",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict two faces in close profile, looking directly into each other's eyes, with a subtle reflection of one person's face or eye visible in the pupil of the other."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'Scattering my heart away' introduces the word 'heart' which is not explicitly present in the original Tamil text. The original verb 'seigindrana' (செய்கின்றன) is a neuter plural verb agreeing with 'kaatchigal' (காட்சிகள் - visions/scenes), meaning the visions themselves are actively causing the speaker to scatter or shatter ('ennai sitharach seigindrana'), which is simplified in English to a passive-sounding emotional state.",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The rhythmic and phonetic repetition of 'vizhiyil vizhiyum' (விழியில் விழியும்) which creates a poetic, echoing effect of eyes meeting eyes is lost in the literal translation 'Eyes within eyes'.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The overwhelming power of love reflected in the eyes of the beloved"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "விழியில் விழியும்,  \nஉன் கண்களில் நான் காணேன்,  \nஎன் காதலின் காட்சிகள்,  \nஎன்னைச் சிதறச் செய்கின்றன!",
+  "poem_id": "MV++_1335",
+  "poem_title": "Vizhiyil Vizhiyum",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "2c8eb520dc7d6c48480ff266895eb3bcff035b5d63ed11328d6d5532b01f41ec",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1335.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Eyes within eyes,  \nI see in your gaze,  \nVisions of my love,  \nScattering my heart away!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:22:37.460015+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "532d7b88048846402f4b5dbb453a96a963d7b9c2cfe36deded612b5dcb691020",
+        "response_hash": "dffe2133579cc11ea4129781aa45c6bc374af2847f988c491417b065f405cbd5"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "549adfee1c52e21f65d9d956f82a61e6fae017edb93deac2710274f9d57baea4",
+        "response_hash": "0a13bbb668c242ad7127b09a89b71eea73216f207b793d5ca4b10a286470f0fc",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "be02eae1dcf75df79b8dee44c815efc54f7b2b57e08f7fcfa6f25826784e2e88",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "71300f2625864374f014fd2d41d2cb89b0c0128c24d6fbfe869cf240c8066845",
+        "response_hash": "a521cdfc92d0d3df447012c2695fe057ce3abf54e5f1cd09e0d1896960d47dca",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7716fd60660be317aef44d39a23e6547294b2ad1fc2ce0c9dfe5699f0147f8fb",
+        "response_hash": "86b1c61ae83196659f550f3d9e1cb19ff6965b104e3ab6368604edb4f679b799",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8e55f67c31330df29e997fb690dbfcc3bee0836239bf82028725d42e8df7206a",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "079131f0d25b23f6c4bc09247a4ea07ddc7c65537495f3317fd5c41eeaa8676b",
+    "translation_sha256": "cfa36c527d7bc97bea38673cc152adf465df8a77fb9e78b0a58c049cb4226142"
+  }
+}

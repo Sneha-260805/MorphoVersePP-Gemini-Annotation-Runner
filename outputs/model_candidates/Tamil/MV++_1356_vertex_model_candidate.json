@@ -1,0 +1,179 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A brief moment of wonder and romantic longing, connecting the beauty of a rainbow to a loved one's smile.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The beloved's smile is vibrant, joyful, and multi-hued like a rainbow, bringing beauty and light to the speaker's life.",
+            "acceptable_visual_variants": [
+              "A close-up of a smiling face with warm, colorful light reflecting on their skin",
+              "A stylized illustration where a rainbow's path curves gently around a happy couple"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L2",
+            "literal_meaning": "As the color of your smile",
+            "literalization_risk": "Depicting literal colored paint or light beams physically shooting out of a person's mouth while smiling, which would look bizarre or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "beloved's smile",
+              "transferred_attributes": [
+                "vibrancy",
+                "beauty",
+                "bringing joy after rain/gloom"
+              ],
+              "vehicle_concept": "rainbow colors"
+            },
+            "source_span_original": "உன் சிரிப்பின் நிறமாய்",
+            "source_span_translation": "As the color of your smile",
+            "source_term": "உன் சிரிப்பின் நிறமாய்",
+            "tenor": "the joy and beauty of the beloved's smile",
+            "vehicle": "the colors of a rainbow",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a joyful person smiling in the foreground, with a soft, beautiful rainbow arching in the background sky to visually link the two concepts naturally."
+          },
+          {
+            "abstract_meaning": "The inner emotional space or atmosphere of the speaker's heart, where feelings move freely like wind.",
+            "acceptable_visual_variants": [
+              "A silhouette of a person with a glowing chest area where soft, swirling wind patterns are visible",
+              "A peaceful landscape where a gentle breeze rustles leaves, symbolizing the inner peace of the heart"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the wind of my heart",
+            "literalization_risk": "Showing a physical, anatomical heart with gusts of wind blowing through its chambers, which would look clinical or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional state/feelings",
+              "transferred_attributes": [
+                "movement",
+                "invisible presence",
+                "carrying sensations"
+              ],
+              "vehicle_concept": "wind/breeze"
+            },
+            "source_span_original": "என் இதயத்தின் காற்றில்",
+            "source_span_translation": "In the wind of my heart",
+            "source_term": "என் இதயத்தின் காற்றில்",
+            "tenor": "the emotional atmosphere and feelings inside the speaker's heart",
+            "vehicle": "wind/breeze blowing through a space",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Focus on the emotional atmosphere by showing a person with their hand over their chest, with their hair or clothing gently blowing in an unseen breeze to suggest an inner wind."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil adverbial suffix '-aai' (in 'niramai' and 'alagaai') creates a smooth, rhythmic flow and adverbial transition that is flattened into the English prepositions and adverbs ('As the color', 'beautifully').",
+            "where": "L2-L4"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The genitive case markers in 'sirippin' (of smile) and 'ithayathin' (of heart) are highly natural agglutinative fusions in Tamil, whereas the English translation requires multiple separate prepositional phrases ('of your smile', 'of my heart') which alters the concise, lyrical rhythm of the original.",
+            "where": "L2-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The beauty of nature reflecting the joy of love and connection."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains non-empty translation_loss entries and a loss_note is expected or translation_quality should be 'partial' to reflect the described grammatical and rhythmic losses.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "வானவில்,  \nஉன் சிரிப்பின் நிறமாய்,  \nஎன் இதயத்தின் காற்றில்,  \nஅழகாய் தோன்றுகிறது!",
+  "poem_id": "MV++_1356",
+  "poem_title": "Vaanavil",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "9858716b4aff0b25647d0cc5bc42b3e882c4be9398cb8e91d06326a8f74ca9d2",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1356.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Rainbow,  \nAs the color of your smile,  \nIn the wind of my heart,  \nIt appears beautifully!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:25:08.551052+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8229761ea7e40dd703f6f6227251d870a408063290a19c34c4098e56029e7f00",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7a880db49f16a357f2bca5368b77734698d0b46bcc2d81775795ccb80363f154",
+        "response_hash": "12878e80d3f1b208702d50f4e28f2cfabd161f744250368c84fe1447a8218d00",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e46a781af2d0ac59710964168bb6c5d75b1ead4946cbd047583b732a4f451db0",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f7ec44dde4811c2dc19549829abd3846d1f6cc0c42544e997778c3b09346437a",
+        "response_hash": "ecf0287b31ae1b10e827960b2096c6d8a86e4f38d152cc47e4828583d86b5d15",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "35f616b6d201fdf0ec6bde233bf91f07aad43aa869d918362cd5fe19f820b8b9",
+        "response_hash": "bc9fbfd16256ac56b22d5cf17bba237ee5b77a2cbe7cb63368b3f5e58f913b3f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "629d208422d0b2519f269a62e090d451ccf62803f8945cca16b45e849e338a48",
+        "response_hash": "d0e698aff934e7df021891f3439d877f88b95f2ce1f20faea93a6c2013e5ac72",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "aad5028bddb59a987056ab3d57eb8f2d25e439c85cb87952e7007ceb34e94474",
+    "translation_sha256": "ab53b8ecdbcb5d34f741ebfc58f34e87c7dbe7ef501d8703febf91af61666540"
+  }
+}

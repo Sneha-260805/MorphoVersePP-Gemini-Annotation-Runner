@@ -1,0 +1,180 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "contemplation of life's journey leading to peaceful renewal through song",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The progression of human existence conceptualized as a physical journey.",
+            "acceptable_visual_variants": [
+              "A winding path through changing seasons",
+              "A soft silhouette walking towards a sunrise on an open road"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "In the pilgrimage/journey of life",
+            "literalization_risk": "Showing a literal traveler walking on a road with bags, which misses the existential and reflective nature of living.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life",
+              "transferred_attributes": [
+                "movement forward",
+                "obstacles",
+                "destination",
+                "pathways"
+              ],
+              "vehicle_concept": "pilgrimage/journey"
+            },
+            "source_span_original": "ಜೀವನದ ಯಾತ್ರೆಯಲಿ",
+            "source_span_translation": "In the journey of life",
+            "source_term": "ಜೀವನದ ಯಾತ್ರೆಯಲಿ",
+            "tenor": "human life and its progression",
+            "vehicle": "a journey or pilgrimage (yatre)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a winding path fading into a soft, luminous horizon, blending natural landscapes with abstract steps."
+          },
+          {
+            "abstract_meaning": "The lasting impact, memories, or legacy left behind by a person's actions.",
+            "acceptable_visual_variants": [
+              "Faintly glowing footprints on a dusty path",
+              "Footprints on a path that blend into a background of soft, warm light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "memories of footsteps",
+            "literalization_risk": "Depicting literal physical footprints in mud or sand, which lacks the emotional weight of memory and legacy.",
+            "metaphor_mapping": {
+              "tenor_concept": "memories of past deeds",
+              "transferred_attributes": [
+                "leaving a trace",
+                "permanence",
+                "marking a direction for others"
+              ],
+              "vehicle_concept": "footprints on a path"
+            },
+            "source_span_original": "ಹೆಜ್ಜೆಯ ನೆನಪುಗಳು",
+            "source_span_translation": "footprints remain",
+            "source_term": "ಹೆಜ್ಜೆಯ ನೆನಪುಗಳು",
+            "tenor": "memories and legacy of past actions",
+            "vehicle": "footprints left on a path",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict glowing or faintly shimmering footprints on a path that slowly transition into soft light or musical notes."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'ಹೆಜ್ಜೆಯ ನೆನಪುಗಳು' (memories of our steps/footprints) as 'footprints remain', which shifts the focus from the abstract 'memories' of the journey to a more physical presence of footprints.",
+            "where": "L2"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'ಮೂಡಿಬರುವುದು' (will emerge/manifest) as 'arise anew' loses the nuance of gradual unfolding or taking shape that the Kannada verb 'moodu' conveys.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring legacy of human experiences and memories transformed into creative expression along life's journey"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing medium and low severity losses. When translation losses are identified, translation_quality should typically be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಜೀವನದ ಯಾತ್ರೆಯಲಿ,  \nನಮ್ಮ ಹೆಜ್ಜೆಯ ನೆನಪುಗಳು,  \nಹೊಸ ಬಾಳಿನ ಹಾದಿಯಲಿ,  \nಹಾಡುಗಳಲ್ಲಿ ಮೂಡಿಬರುವುದು.",
+  "poem_id": "MV++_1028",
+  "poem_title": "Jeevana Yatre",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "793de0d435dbe98fd89890d73887ff54c43c6ad242c2edead0712d510098be6c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1028.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the journey of life,  \nOur footprints remain,  \nIn the path of new life,  \nSongs arise anew.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:48:56.933625+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ec2e891c9cfec26b3b00d2e46275a05ee332aa71624ae58705f3c110b9471f45",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "878ace62bda37492e62a490cdcc6e6278c22f39d0c23b13732fc329c397518c2",
+        "response_hash": "bbbd5ac287a613faac683ca249b2587bff1f35d466284af822825d071059c2f8",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3f0ecf80b17d3dbc6517a38d8ae8ed93b5ae43bef25e25ab098dd4e3c3db9f16",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "efbf31a4a4e8ca90e1eae710d9e54fe8220187af8552791c9a849ab55390a8d5",
+        "response_hash": "5ccb66930e0d72205f92b86dd24a331104833f39f80f4898f77a83c1cd199d95",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ee327aed879aef1b69edff6b5dddf364cfc2e9096aa3f12f49ee83876cb41ad2",
+        "response_hash": "051702724bf32cf7d9386db2ffc53d6a62ca881f47f68a2c0e9e5e12d42ceafe",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "19193eafbb9c002969029d0c3ddcd20777b3a324dd8649c635f306c817e29073",
+        "response_hash": "5968713298439570c938d8d5fc57a95f18d004bb9b97944f68cc638c1fa9f59a",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "d8f6497241b214fdc3a4b79ea69f30d6042c63bf86cc20e196d167568feaf05f",
+    "translation_sha256": "0f52b7845c88281fa059c1231d178c6c3e5bac966ec3346f42cf1462b2f72eb5"
+  }
+}

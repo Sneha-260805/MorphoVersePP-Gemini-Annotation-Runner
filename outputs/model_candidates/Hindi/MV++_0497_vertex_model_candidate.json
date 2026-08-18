@@ -1,0 +1,230 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A classic diamond-shaped paper kite with a small triangular tail",
+          "A colorful fighter kite soaring high against a clear blue sky"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional Indian paper and bamboo kite, central to regional festivals like Makar Sankranti, symbolizing aspiration, freedom, and the delicate balance of life controlled by a thread.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern western plastic stunt kite",
+          "A large decorative dragon kite"
+        ],
+        "preserved": true,
+        "romanization": "patang",
+        "source_span_original": "पतंग",
+        "source_span_translation": "kite",
+        "stanza_index": 1,
+        "term": "पतंग",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A diamond-shaped paper kite",
+          "Thin bamboo cross-struts",
+          "Vibrant colors",
+          "Attached to a thin flying thread"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "wonder and hope shifting to uncertainty and quiet resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "The translation of 'रज्जू' (rajju) as 'thread' loses the specific Sanskritized weight of the word, which carries a stronger sense of binding or cord than the more common 'धागा' (dhaga) used in the next line. Additionally, 'सुथानी' (suthani) is translated as 'pulls tight', which simplifies the poetic texture of the original Hindi phrasing.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A human soul or life journey navigating the highs and lows of existence, bound by destiny or connections.",
+            "acceptable_visual_variants": [
+              "A colorful paper kite flying high near a bright sun with its string visibly tense.",
+              "A fallen, slightly torn kite resting on the ground at dusk to capture the sense of exhaustion and falling."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "A light frame covered with paper or plastic, flown in the wind at the end of a long string.",
+            "literalization_risk": "An illustrator might draw only a toy kite in the sky, missing the deeper existential weight of human struggle, hope, and vulnerability.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life navigating existence",
+              "transferred_attributes": [
+                "vulnerability to external forces",
+                "dependence on a guiding thread",
+                "inevitable descent or exhaustion"
+              ],
+              "vehicle_concept": "kite flying in the sky"
+            },
+            "source_span_original": "पतंग",
+            "source_span_translation": "kite",
+            "source_term": "पतंग",
+            "tenor": "A human life, soul, or individual ambition navigating the unpredictable ups and downs of existence.",
+            "vehicle": "A flying kite controlled by a string, subject to the wind and eventually falling.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary kite soaring high against a vast, dramatic sky with a prominent, taut string stretching down to an unseen hand, emphasizing its fragile connection to the earth."
+          },
+          {
+            "abstract_meaning": "Every connection, bond, or life path holds its own narrative of struggles and experiences.",
+            "acceptable_visual_variants": [
+              "A single thread splitting into multiple fine fibers, each glowing slightly to represent different paths or narratives.",
+              "A hand holding a tense thread that stretches up into the clouds, symbolizing the connection between human effort and destiny."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "A story is physically tied or bound inside every single rope or cord.",
+            "literalization_risk": "An illustrator might literally draw text or book pages tied to a string, which looks absurd and misses the poetic concept of life's struggles.",
+            "metaphor_mapping": {
+              "tenor_concept": "the narrative of human life experiences bound by destiny",
+              "transferred_attributes": [
+                "connectedness",
+                "tension",
+                "holding a history or sequence of events"
+              ],
+              "vehicle_concept": "a story tied to a physical thread"
+            },
+            "source_span_original": "हर रज्जू में बंधी एक कहानी",
+            "source_span_translation": "Each thread tells a story",
+            "source_term": "हर रज्जू में बंधी एक कहानी",
+            "tenor": "The life experiences, struggles, and narratives that are woven into or connected by the threads of destiny or human relationships.",
+            "vehicle": "A story physically bound or tied to a rope/thread.",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a close-up of a taut, weathered kite string (thread) with subtle, glowing patterns or symbolic knots along its length to suggest chapters or milestones of a journey."
+          },
+          {
+            "abstract_meaning": "The kite (or human soul) losing its energy, giving up, or succumbing to the inevitable end of its struggle.",
+            "acceptable_visual_variants": [
+              "A kite lying still on the grass with its string tangled around it, under a fading twilight sky.",
+              "A limp kite caught in the branches of a bare tree, symbolizing a quiet end to its flight."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L10",
+            "literal_meaning": "An inanimate object (the kite) feeling physical fatigue and collapsing due to exhaustion.",
+            "literalization_risk": "Depicting a cartoon kite with a tired face or human limbs would look childish and ruin the serious, reflective tone of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "a kite losing wind and falling to earth",
+              "transferred_attributes": [
+                "loss of energy",
+                "inability to sustain flight",
+                "surrender to gravity/fate"
+              ],
+              "vehicle_concept": "an exhausted living being falling down"
+            },
+            "source_span_original": "वह थक कर गिर पड़ी",
+            "source_span_translation": "it grew tired and fell",
+            "source_term": "वह थक कर गिर पड़ी",
+            "tenor": "An inanimate kite losing wind/tension and falling to the ground, representing a human being reaching the limit of their strength.",
+            "vehicle": "A tired living being collapsing from exhaustion.",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render the kite in a state of descent, tilting downwards with a slack, loose thread, drifting passively toward the ground."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation uses 'thread' for both 'rajju' (cord/rope) in L5 and 'dhaga' (fine thread) in L6, flattening the distinct physical and metaphorical nuances of these two different Hindi words.",
+            "where": "L5-L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'suthani' (smoothness/neatness/well-arranged state) as 'pulls tight' shifts a noun describing the quality or state of the thread into an active verb phrase, losing the original's focus on the thread's intrinsic quality.",
+            "where": "L6"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The journey of life and aspiration, symbolized by a flying kite, which is not defined as a failure merely because it eventually falls."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "एक पतंग उड़ी,  \nआसमान में उड़ते हुए,  \nचमकते सूरज के साथ।  \nकभी ऊपर, कभी नीचे,  \nहर रज्जू में बंधी एक कहानी।  \nधागे की सुथानी,  \nआकांक्षा और भय के बीच।  \nएक पतंग उड़ी,  \nलेकिन वह कहाँ जाएगी?  \nआखिरकार, वह थक कर गिर पड़ी,  \nक्या इसका मतलब है कि वह हार गई?",
+  "poem_id": "MV++_0497",
+  "poem_title": "Ek Patang Udi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "4d900657c18867cceacacd8eeaede00924579fe4e4e9f4c8e5e7f84e4e6319ef",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0497.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "A kite flew,  \nSoaring in the sky,  \nAlong with the shining sun.  \nSometimes high, sometimes low,  \nEach thread tells a story.  \nThe thread pulls tight,  \nBetween hope and fear.  \nA kite flew,  \nBut where would it go?  \nEventually, it grew tired and fell,  \nDoes that mean it lost?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:31:20.941648+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "43b2985ef79b3fb3f7d28b6b7ecf153c52f3fa617095b4278dc5375914cc1767",
+        "response_hash": "d823f3ef3c16c4e5991651d583c93066ce6c75ccc4e3b8ec28694a78eb0b09d2"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a1ed25555799e4623d14d72df2eec8a6ad732c98211046cf768b096e527888a6",
+        "response_hash": "096c1bf6264c432aadd285722cfb9448fba21ec8b7770c4354600928b48630d5",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8ee2070f41301874e937ebac28d32d6a50b981aff797c15bf7253360ca980ab9",
+        "response_hash": "f8b002be7bc81b981f2ab2e59b1f1b9e5497ad3136590dc83c31fa09cfb3ee53",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "65e9c8dba0a2e157cc09c03ea5288c42682b42acbaac9dffb8b0a3c0457afe66",
+        "response_hash": "f5307fc2bbd6bc982cf6bbf103bd3102b21191a0dcca1653bfda203e31c4bab7",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "307221c77c8122b36886139367ed477280c76dacc269e547ab55edadc8e77fd8",
+        "response_hash": "0abd02fb882da6e369146a9c8694e9d8eb13277ca08faf5475f0cff1afabec5f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7ac1cf33058a45630786111b4a32b3380a979a50b2b41d7fd0108e8849772acb",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "a15e6aebaf8e8a2f4e13fa768c999f3e2da9321493577fc64194b301f35ff3d3",
+    "translation_sha256": "ed2ea7044c294232a08a123e9f5513b204b68dd4e16a11c7e93e149d804c225c"
+  }
+}

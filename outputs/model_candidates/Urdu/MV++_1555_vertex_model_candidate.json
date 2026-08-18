@@ -1,0 +1,174 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing and quiet realization",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'dhoan sa' (like smoke) as 'smoky feeling', shifting a physical, visual metaphor into an abstract emotional state, and translates 'asar' (effect/trace) as 'sign'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A vague, rising feeling of sorrow, grief, or emotional distress.",
+            "acceptable_visual_variants": [
+              "A person sitting in a dimly lit room with soft, hazy shadows surrounding them",
+              "A figure looking out into a misty, overcast landscape that mirrors their internal state"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L1",
+            "literal_meaning": "like smoke / smoke-like",
+            "literalization_risk": "An illustrator might draw literal physical smoke coming out of a person's body, which looks like a fire hazard rather than deep emotional sorrow.",
+            "metaphor_mapping": {
+              "tenor_concept": "grief",
+              "transferred_attributes": [
+                "rising",
+                "obscuring",
+                "resulting from combustion/pain"
+              ],
+              "vehicle_concept": "smoke"
+            },
+            "source_span_original": "دھواں سا",
+            "source_span_translation": "smoky feeling",
+            "source_term": "دھواں سا",
+            "tenor": "rising emotional distress or grief",
+            "vehicle": "smoke rising from a fire",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a solitary figure in a dim, reflective setting with soft, hazy, or misty atmospheric lighting that suggests a somber mood without drawing thick, literal chimney smoke."
+          },
+          {
+            "abstract_meaning": "The intense pain, grief, or passion of a suffering heart.",
+            "acceptable_visual_variants": [
+              "A person with a hand pressed to their chest, looking downcast in a warm, amber-lit room",
+              "A silhouette of a person against a warm, glowing background of fading embers"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "burning of the heart",
+            "literalization_risk": "Drawing a literal anatomical heart on fire looks like a medical anomaly or a horror graphic rather than a poetic expression of grief.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional suffering",
+              "transferred_attributes": [
+                "heat",
+                "destruction",
+                "pain",
+                "producing smoke"
+              ],
+              "vehicle_concept": "fire/combustion"
+            },
+            "source_span_original": "دل کے جلنے",
+            "source_span_translation": "burning heart",
+            "source_term": "دل کے جلنے",
+            "tenor": "intense emotional pain and heartbreak",
+            "vehicle": "a physical object catching fire and burning",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the posture and facial expression of the figure showing deep internal pain, perhaps clutching their chest slightly, using warm, glowing, or embers-like lighting in the background to symbolize the internal heat of grief."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'dhoan sa' (smoke-like / something like smoke) abstractly as 'smoky feeling', which collapses the physical, visual imagery of rising smoke into an internal emotional state prematurely.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'asar' as 'sign' loses the nuance of 'effect', 'influence', or 'consequence', which links the physical smoke in L1 as a direct physical consequence of the heart burning in L2.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The internal, smoldering pain of love and longing manifesting as a quiet, smoky presence."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Urdu",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "یہ دھواں سا کہاں سے اٹھتا ہے؟\nدل کے جلنے کا کچھ اثر ہے کیا؟",
+  "poem_id": "MV++_1555",
+  "poem_title": "Yeh Dhoan Sa",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c95aaf40b90379e74e570766c8a14a3e8fcff54a03df2c584f4d636e6e01bdcc",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Urdu/MV++_1555.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Where does this smoky feeling rise from?\nIs it the sign of a burning heart?",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:47:43.085438+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1fa3069acea1f5101485995309be3721a1d5fdedc1620245586a00600fe12578",
+        "response_hash": "7a3874cde2f857a37e6b6df4a3ef6a86dab20b689c6e22ade94eb232222aa73f"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "667d06f2dde5778cf08c70537b2dc47f6dc9c5093ea5ea766342e931cb2a4478",
+        "response_hash": "6764ce234794a32d80dc023f0e2970d3b160d5e9f70409cb92abbea30e51fa45",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1cbfad087881c2565d9bb5f58a30778327d71833d945ee37e6c61682f2658852",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2506ba84c1284e3f736364b81638a881af9ab87915f75a310bef77dca8e70af2",
+        "response_hash": "7077826d701018fe735d8093aa468a81558d216f5d01022c1424229a2835f166",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7ca71a5da8a7ba86cb8b8abc968ca0775b7f75c66db87a08b65eda55d5196cc9",
+        "response_hash": "861d76867106f03ca2ddbcdf98eef732e2ec0d394e089e265398e988b1a5e153",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3ac86f540d1ee32763bb619fd0b8590852e9825e07316167bab58b3f503774d0",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "b8b73a47132b2f62586792ba9a627727b648e2e56ca94a6d121e3096847bce53",
+    "translation_sha256": "0bb9164ff9cbd610921ea39ac5e39be30a61c58057bae93386e16caed6acfc0a"
+  }
+}

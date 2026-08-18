@@ -1,0 +1,276 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An open notebook with ink pen strokes",
+          "A soft, abstract representation of words floating in a quiet space"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A form of Urdu/Hindi poetry, deeply rooted in South Asian literary and musical gatherings (mushairas), often expressing intense personal emotions, longing, or philosophical reflections. Here, it represents the internal poetic expression of the quiet heart.",
+        "line_ref": "L4",
+        "negative_confusions": [
+          "A formal Western academic classroom setting",
+          "A loud public performance with microphones and stage lights"
+        ],
+        "preserved": true,
+        "romanization": "shayari",
+        "source_span_original": "शायरी",
+        "source_span_translation": "Poetry",
+        "stanza_index": 1,
+        "term": "शायरी",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A handwritten manuscript in Devanagari or Nastaliq script",
+          "A quiet, reflective person writing or thinking in isolation"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "hesitant longing to quiet acceptance",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation adds 'from its own crown' to rhyme with 'down', which is not present in the original Hindi text ('खुद से ही शायरी छिपी' literally means 'poetry is hidden from oneself').",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The inner emotional and sensitive depths of the mind or heart that resonate with feelings.",
+            "acceptable_visual_variants": [
+              "A close-up of hands gently hovering over a stringed instrument like a sitar or veena, with the strings glowing softly to represent internal thoughts.",
+              "A stylized, abstract representation of gentle waves or lines of light radiating from a central heart space."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the strings of the mind/heart",
+            "literalization_risk": "Depicting literal physical strings stretching out of a human heart or brain, which looks grotesque or surreal rather than emotional.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional sensitivity of the mind",
+              "transferred_attributes": [
+                "vibrating with feeling",
+                "producing internal music or poetry",
+                "delicacy"
+              ],
+              "vehicle_concept": "musical instrument strings"
+            },
+            "source_span_original": "मन के तारों में",
+            "source_span_translation": "In the silence of the heartstrings",
+            "source_term": "मन के तारों में",
+            "tenor": "the emotional sensitivity of the mind or heart",
+            "vehicle": "strings of a musical instrument",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, glowing silhouette of a person with faint, delicate, harp-like light rays vibrating within the chest area."
+          },
+          {
+            "abstract_meaning": "Artistic expression, poetry, or deep thoughts are naturally and quietly forming within oneself without conscious effort.",
+            "acceptable_visual_variants": [
+              "A quill or pen resting quietly on blank paper with faint, glowing words rising like mist.",
+              "A person looking at their own reflection in water, where the reflection is composed of soft, flowing script."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L4",
+            "literal_meaning": "Poetry itself is hiding from itself",
+            "literalization_risk": "Showing literal sheets of written poetry or books physically hiding behind objects, which misses the internal, emotional nature of the thought.",
+            "metaphor_mapping": {
+              "tenor_concept": "unexpressed poetic thoughts",
+              "transferred_attributes": [
+                "quietness",
+                "concealment",
+                "internal existence"
+              ],
+              "vehicle_concept": "a person hiding"
+            },
+            "source_span_original": "खुद से ही शायरी छिपी",
+            "source_span_translation": "Poetry hides from its own crown",
+            "source_term": "खुद से ही शायरी छिपी",
+            "tenor": "unexpressed thoughts and artistic feelings dwelling quietly inside",
+            "vehicle": "a person hiding or concealing themselves",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a person in a reflective posture, with faint, elegant calligraphic script or letters swirling softly in the air around them or fading into their shadow."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'from its own crown' to rhyme with 'down', which is not present in the original Hindi text ('खुद से ही' meaning 'from oneself' or 'by itself').",
+            "where": "L4"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The reduplication in 'रुके रुके' (ruke ruke) and 'झुकी झुकी' (jhuki jhuki) which emphasizes the slow, repetitive, or continuous nature of the hesitation and downcast eyes is lost in the singular English adjectives 'hesitant' and 'cast down'.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation of 'नज़ाकत सी ठहरी है' as 'A delicate stillness reveals' slightly alters the stative sense of 'ठहरी है' (has paused/lingers) into an active verb 'reveals'.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The complex, unpredictable, and sometimes delicate nature of human emotions interacting with one another.",
+            "acceptable_visual_variants": [
+              "Two chess pieces on a board made of light and shadow, with soft, emotional colors reflecting off them.",
+              "Intertwined ribbons of warm and cool colors swirling around two hands that are close but not quite touching."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "It is a game of emotions",
+            "literalization_risk": "Showing people playing a literal board game or sports game, which completely trivializes the emotional depth of the line.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional interactions",
+              "transferred_attributes": [
+                "unpredictability",
+                "rules or patterns of interaction",
+                "playfulness or risk"
+              ],
+              "vehicle_concept": "a game"
+            },
+            "source_span_original": "जज़्बातों का खेल है",
+            "source_span_translation": "It's a game of feelings",
+            "source_term": "जज़्बातों का खेल है",
+            "tenor": "the interaction and movement of human emotions",
+            "vehicle": "a game or play",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict two abstract figures or silhouettes facing each other with colorful, shifting patterns of light or mist flowing between them, representing the exchange of feelings."
+          },
+          {
+            "abstract_meaning": "The unfamiliar, uncertain, and unpredictable paths of life or relationships when embarking on a journey with someone new.",
+            "acceptable_visual_variants": [
+              "Two sets of footprints walking side-by-side on a sandy beach or snowy path that stretches into an open, misty horizon.",
+              "A fork in a quiet, cobblestone road under a twilight sky with soft streetlamps lighting only the immediate steps ahead."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L8",
+            "literal_meaning": "Paths of a stranger / paths that are themselves strangers",
+            "literalization_risk": "Showing literal roads or streets with faces on them, or a literal stranger standing on a road, which distracts from the metaphorical journey of a relationship.",
+            "metaphor_mapping": {
+              "tenor_concept": "an unfamiliar life path",
+              "transferred_attributes": [
+                "unfamiliarity",
+                "uncertainty",
+                "mystery"
+              ],
+              "vehicle_concept": "a stranger"
+            },
+            "source_span_original": "राहें अजनबी की",
+            "source_span_translation": "paths that are strangers",
+            "source_term": "राहें अजनबी की",
+            "tenor": "unfamiliar or uncertain life paths and future directions",
+            "vehicle": "a stranger (an unfamiliar person)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a path winding into a soft, misty, beautiful forest or landscape where the destination is obscured by gentle fog, suggesting the unknown."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'नज़ाकत सी ठहरी है' as 'A delicate stillness reveals' alters the meaning of 'ठहरी है' (has paused, stopped, or settled) into an active verb 'reveals', losing the core sense of stillness and lingering grace.",
+            "where": "L9"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'चुप्पियों में बसी बातें' as 'Whispers dwell in silences' changes the literal 'talks/matters settled in silences' into 'whispers', introducing an auditory element not explicitly in the original 'बातें' (words/talks).",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The quiet, delicate vulnerability of unspoken feelings and hesitant steps toward an unfamiliar connection."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रुके रुके से कदम,  \nनजरें झुकी झुकी,  \nगुमसुम से मन के तारों में,  \nखुद से ही शायरी छिपी।  \n\nचुप्पियों में बसी बातें,  \nजज़्बातों का खेल है,  \nकिसी के संग चलने की,  \nराहें अजनबी की,  \nनज़ाकत सी ठहरी है।",
+  "poem_id": "MV++_0836",
+  "poem_title": "Ruke Ruke Se Kadam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "1aa192ee88a1dec50c8b3cca4cf1e70cdbd1f899cfe2bab6a54c43c81d44b182",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0836.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Hesitant steps,  \nEyes cast down,  \nIn the silence of the heartstrings,  \nPoetry hides from its own crown.  \n\nWhispers dwell in silences,  \nIt's a game of feelings,  \nTo walk alongside someone,  \nOn paths that are strangers,  \nA delicate stillness reveals.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:18:35.775807+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "79de86c9da445e1d890ec933447496bdcf890a0c3fb94095317c499418e7923a",
+        "response_hash": "5dda6df1a00336969e740ccec176ccc12bbb731a538b16929af18dbf9fbd3315"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7cb98ce7ea0fe2d3a357785b94d2c0e40942f61d1bf212ab33eb5492c194e0b6",
+        "response_hash": "69bfac9e7118a5dbc137c50cd09870cbb971d82324b7bda257b94f522a34344b",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "01da1bf2331f3ab6557c3066e174860029d2bc172dbe005e37877786cb94db81",
+        "response_hash": "233240f2670a1744ca01531da180f7a89cada9532f6a5d7ae2de9fc89ef5e0fc",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "85b02c50a075102dc718615106f167d79018da5eba03c3dcd531f5add17e65fa",
+        "response_hash": "b8f822ef6ec1891f86306b7e3f3812d84a6112b5c4508616148d05af150a6c1a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6cb689751f0754fafd48e88c329fc493a7b76b8dc3e583d57e6ad40d90267b7f",
+        "response_hash": "1beffca810bf94f928ef0f54c83f4f0b54442561f1846f84387c699b80a98630",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "28d87939855fcb29c030a360bfb99e9834034600a67def787413f76be23dcd09",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3e9a1f666d8d0a3c7c5e287b54de6bb3544d00ec11f082423a31172f2067c467",
+    "translation_sha256": "f87ef6f39d563c87f41616e80c5a7fd6af9281224c2af336d741ae77e8146769"
+  }
+}

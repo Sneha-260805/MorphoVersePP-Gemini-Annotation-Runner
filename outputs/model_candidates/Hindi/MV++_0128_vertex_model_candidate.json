@@ -1,0 +1,267 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder to grief, resolving in resilience and peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deep, inseparable connection between human perception/desire and the dreams they hold.",
+            "acceptable_visual_variants": [
+              "A silhouette of a face looking up at a starry sky, with the stars reflected in the eye and the eye's shape subtly mirrored in the clouds.",
+              "A stylized illustration of a closed eye opening to reveal a glowing, imaginative landscape within the iris."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3-L4",
+            "literal_meaning": "The physical eye lives inside a dream, and the dream physically lives inside the eye.",
+            "literalization_risk": "Showing a literal eyeball floating inside a dreamscape, or a miniature dream scene physically stuffed inside a pupil, which looks surreal or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "reciprocal psychological relationship",
+              "transferred_attributes": [
+                "inseparability",
+                "mutual containment"
+              ],
+              "vehicle_concept": "mutual physical habitation"
+            },
+            "source_span_original": "ख्वाब में बसी है आँख,\nआँख में बसा है ख्वाब।",
+            "source_span_translation": "In the dream resides the eye,\nIn the eye dwells the dream.",
+            "source_term": "ख्वाब में बसी है आँख, \nआँख में बसा है ख्वाब।",
+            "tenor": "The reciprocal relationship between human consciousness and aspiration",
+            "vehicle": "Mutual physical habitation or dwelling inside one another",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, double-exposure style image where a human eye and a starry, dreamlike landscape blend into one another seamlessly."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the subtle gender agreement shift in the verbs 'basi hai' (feminine, agreeing with 'aankh') and 'basa hai' (masculine, agreeing with 'khwab'), which highlights the grammatical and conceptual reciprocity between the eye and the dream.",
+            "where": "L3-L4"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "grief",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The sudden failure, disappointment, or ending of hopes and aspirations.",
+            "acceptable_visual_variants": [
+              "A delicate, glowing bubble bursting in mid-air.",
+              "A faint, glowing star-like shape splitting into soft, fading fragments."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L5",
+            "literal_meaning": "Dreams physically break into pieces like glass or brittle objects.",
+            "literalization_risk": "Depicting literal clouds or abstract thoughts cracking like glass, which might look like a physical accident rather than emotional disappointment.",
+            "metaphor_mapping": {
+              "tenor_concept": "unfulfilled aspirations",
+              "transferred_attributes": [
+                "suddenness",
+                "irreversibility",
+                "painfulness"
+              ],
+              "vehicle_concept": "shattering glass or fragile object"
+            },
+            "source_span_original": "टूटते हैं ख्वाब",
+            "source_span_translation": "dreams shatter",
+            "source_term": "टूटते हैं ख्वाब",
+            "tenor": "The disappointment of unfulfilled aspirations",
+            "vehicle": "A fragile physical object breaking or shattering",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a glowing, ethereal bubble or a delicate glass-like star cracking or bursting into soft light particles."
+          },
+          {
+            "abstract_meaning": "The progression of a person's life over time, filled with experiences and challenges.",
+            "acceptable_visual_variants": [
+              "A winding path through changing seasonal trees.",
+              "A single boat floating down a calm river toward the horizon."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "Life is a physical journey or trip taken on a road or path.",
+            "literalization_risk": "Depicting a literal traveler walking down a dusty road with a suitcase, which over-simplifies the abstract concept of living.",
+            "metaphor_mapping": {
+              "tenor_concept": "living through time",
+              "transferred_attributes": [
+                "movement forward",
+                "obstacles along the way",
+                "destination"
+              ],
+              "vehicle_concept": "physical travel"
+            },
+            "source_span_original": "जीवन के इस सफर में",
+            "source_span_translation": "In this journey of life",
+            "source_term": "जीवन के इस सफर में",
+            "tenor": "The passage of time and experiences in human life",
+            "vehicle": "A physical journey or travel along a path",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a winding path fading into a soft, misty horizon, symbolizing the unknown future of life."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'milti hain mushkilein' as 'difficulties often arise' loses the literal sense of 'encountering' or 'meeting' difficulties along a physical journey, flattening the active journey metaphor.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "resilience",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The hope, guidance, and positive energy that aspirations bring to a person's life.",
+            "acceptable_visual_variants": [
+              "A warm golden aura surrounding a sleeping or contemplative figure.",
+              "A single glowing lantern casting a soft light in a dark forest."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L9",
+            "literal_meaning": "Dreams emit physical, visible light rays.",
+            "literalization_risk": "Showing literal light bulbs or flashlights labeled 'dreams' shining on a face, which looks comical.",
+            "metaphor_mapping": {
+              "tenor_concept": "hope and inspiration",
+              "transferred_attributes": [
+                "dispelling darkness",
+                "providing direction",
+                "warmth"
+              ],
+              "vehicle_concept": "physical illumination"
+            },
+            "source_span_original": "ख्वाबों का उजाला",
+            "source_span_translation": "the light of dreams",
+            "source_term": "ख्वाबों का उजाला",
+            "tenor": "Hope and inspiration provided by aspirations",
+            "vehicle": "Physical light or illumination",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a soft, warm, golden glow emanating from a central point, gently illuminating a dark background."
+          },
+          {
+            "abstract_meaning": "Restoring hope, clarity, and the will to look forward to the future.",
+            "acceptable_visual_variants": [
+              "A close-up of eyes reflecting a warm, starry sky.",
+              "A soft, hopeful expression on a face with a subtle catchlight in the eyes."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "Physically increasing the optical power or light emission of the physical eyes.",
+            "literalization_risk": "Depicting eyes glowing like headlights or lasers, which looks sci-fi or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "optimism and clarity",
+              "transferred_attributes": [
+                "clarity",
+                "vitality",
+                "ability to see forward"
+              ],
+              "vehicle_concept": "optical brightness"
+            },
+            "source_span_original": "आँखों की रोशनी बनता है",
+            "source_span_translation": "Becomes the brightness of the eyes",
+            "source_term": "आँखों की रोशनी बनता है",
+            "tenor": "Renewed hope, optimism, and clarity of purpose",
+            "vehicle": "Physical brightness or visual clarity",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a gentle, warm spark or reflection of light in a pair of calm, open eyes."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The reciprocal relationship between vision and aspiration, where dreams sustain the eyes through life's hardships."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आँख और ख्वाब के बीच  \nएक सच्चाई छुपी है।  \nख्वाब में बसी है आँख,  \nआँख में बसा है ख्वाब।  \n\nकभी टूटते हैं ख्वाब,  \nकभी आँखों में आंसू।  \nजीवन के इस सफर में  \nअक्सर मिलती हैं मुश्किलें।  \n\nलेकिन ख्वाबों का उजाला  \nआँखों की रोशनी बनता है।  \nआँख और ख्वाब के बीच  \nएक सुंदर संबंध है।",
+  "poem_id": "MV++_0128",
+  "poem_title": "Aankh Aur Khwab",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d5748f0b3364f56f435e7f0ebbbc9d31f58f030118e6ea1f579acd8af70bb90f",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0128.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Between the eye and the dream,  \nA truth lies hidden.  \nIn the dream resides the eye,  \nIn the eye dwells the dream.  \n\nSometimes dreams shatter,  \nSometimes tears fill the eyes.  \nIn this journey of life,  \nDifficulties often arise.  \n\nBut the light of dreams  \nBecomes the brightness of the eyes.  \nBetween the eye and the dream,  \nA beautiful connection exists.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:49:29.874337+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e68c49e407a550a90779d4a7bc8f8effdf04b4fc21c31ee47c9b1001e6d807c7",
+        "response_hash": "eb244ea0dc207e89a12086b133364904588f0bf9ba15b0bcd7ffb0af75d0012a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "587600c9fd3614cf2430192f5e518e328b70dce8e75dcbd114567c6a239943c8",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "469b8ed9cc850b0ba9af2f1ef5f4b3050aa75fdd91336adefc4f901b683e746f",
+        "response_hash": "a211a87b6167c528d2b82421993576a4510304094a502127cefc2afd5ca1e6d0",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "da8917fa2824f9a92ca514ca6ea4630dd312f791400061bfb14e8792fa1932f7",
+        "response_hash": "fe985a4382a3c1262f9fe3bdf1a946faeb308f60c34bfb2b543df775536f1248",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7f04fc22ea0e76cd72db8c92a8fe57bdc9001e7071fa3db04a5dc72402cb8806",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "dce400c8e0c8f3c6dd66318e6e6bcf1a98b9028320408e3b39d578410b3eb743",
+    "translation_sha256": "dc2820625e31fe63d8f67596bd52a3ce517a349467c30e9e202d2d0f291a504b"
+  }
+}

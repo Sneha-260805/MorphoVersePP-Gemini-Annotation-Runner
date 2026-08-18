@@ -1,0 +1,412 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A grey, rain-swept sky over a traditional neighborhood",
+          "Raindrops splashing in a muddy street puddle"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The fifth month of the Hindu calendar, corresponding to July-August, characterized by the arrival of the monsoon rains and deeply associated in South Asian culture and literature with romance, longing, childhood play, and swings.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A generic tropical storm or hurricane",
+          "A modern urban swimming pool"
+        ],
+        "preserved": true,
+        "romanization": "sawan",
+        "source_span_original": "सावन",
+        "source_span_translation": "monsoon rains",
+        "stanza_index": 1,
+        "term": "सावन",
+        "translation_note": "Translated as 'monsoon rains', which captures the seasonal aspect but loses the specific cultural, literary, and emotional associations of the month of Sawan in North India.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Heavy monsoon rain falling on green landscapes",
+          "Children playing in puddles"
+        ],
+        "visual_priority": "supporting"
+      },
+      {
+        "acceptable_visual_variants": [
+          "An old woman sitting on a traditional string cot (charpai) on a veranda",
+          "An elderly woman sitting on a woven mat on the floor telling stories"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Maternal grandmother; in South Asian culture, 'Nani' is a beloved figure of affection, comfort, and traditional storytelling, often addressed as such by neighborhood children regardless of actual biological relation.",
+        "line_ref": "L6",
+        "negative_confusions": [
+          "A Western-style grandmother in a rocking chair wearing spectacles and knitting",
+          "A generic cartoonish witch-like old woman"
+        ],
+        "preserved": true,
+        "romanization": "nani",
+        "source_span_original": "नानी",
+        "source_span_translation": "Grandma",
+        "stanza_index": 2,
+        "term": "नानी",
+        "translation_note": "Translated as 'Grandma', which captures the familial role but loses the specific maternal grandmother designation and the cultural archetype of the neighborhood 'Nani' who tells fairy tales to all local children.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "An elderly South Asian woman with white hair and a kind, wrinkled face",
+          "Wearing a simple traditional saree or salwar kameez",
+          "Surrounded by children listening intently"
+        ],
+        "visual_priority": "essential"
+      },
+      {
+        "acceptable_visual_variants": [
+          "A grey, rain-swept sky over a traditional neighborhood",
+          "Raindrops splashing in a muddy street puddle"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "The fifth month of the Hindu calendar, corresponding to July-August, characterized by the arrival of the monsoon rains and deeply associated in South Asian culture and literature with romance, longing, childhood play, and swings.",
+        "line_ref": "L11",
+        "negative_confusions": [
+          "A generic tropical storm or hurricane",
+          "A modern urban swimming pool"
+        ],
+        "preserved": true,
+        "romanization": "sawan",
+        "source_span_original": "सावन",
+        "source_span_translation": "monsoon rains",
+        "stanza_index": 3,
+        "term": "सावन",
+        "translation_note": "Translated as 'monsoon rains', which captures the seasonal aspect but loses the specific cultural, literary, and emotional associations of the month of Sawan in North India.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Heavy monsoon rain falling on green landscapes",
+          "Children playing in puddles"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A deep, nostalgic longing for the simple joys of childhood, willing to trade material wealth, fame, and youth for the return of innocent memories.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation of 'sawan' as 'monsoon rains' captures the literal season but loses the deep cultural and poetic resonance of 'sawan' as a time of joy, play, and emotional release in North Indian tradition.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The carefree, joyful, and refreshing period of childhood, associated with playing in the rain.",
+            "acceptable_visual_variants": [
+              "A paper boat floating in a small puddle under gentle rain",
+              "A child laughing while splashing in a rain puddle"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The monsoon season of childhood",
+            "literalization_risk": "An illustrator might literally depict a child standing in heavy rain, missing the abstract sense of nostalgic longing for youth.",
+            "metaphor_mapping": {
+              "tenor_concept": "childhood",
+              "transferred_attributes": [
+                "joyfulness",
+                "refreshment",
+                "playfulness",
+                "temporary nature"
+              ],
+              "vehicle_concept": "monsoon season"
+            },
+            "source_span_original": "बचपन का सावन",
+            "source_span_translation": "monsoon rains of childhood",
+            "source_term": "बचपन का सावन",
+            "tenor": "The period of childhood",
+            "vehicle": "The monsoon season (Sawan)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a nostalgic, warm-toned scene of a child playing with a paper boat in a puddle, blending the rain element with a sense of memory."
+          },
+          {
+            "abstract_meaning": "A symbol of simple, fragile childhood joys and innocent dreams.",
+            "acceptable_visual_variants": [
+              "A simple white paper boat floating on a small stream of rainwater",
+              "A child's hands gently placing a paper boat into a puddle"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L4",
+            "literal_meaning": "A boat made of paper",
+            "literalization_risk": "Showing just a physical piece of folded paper without conveying the emotional weight of lost time.",
+            "metaphor_mapping": {
+              "tenor_concept": "childhood innocence",
+              "transferred_attributes": [
+                "fragility",
+                "simplicity",
+                "joy",
+                "transience"
+              ],
+              "vehicle_concept": "paper boat"
+            },
+            "source_span_original": "कागज़ की कश्ती",
+            "source_span_translation": "paper boat",
+            "source_term": "कागज़ की कश्ती",
+            "tenor": "Innocent childhood dreams and simple pleasures",
+            "vehicle": "A paper boat",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Focus on a close-up of a handmade paper boat floating on water, perhaps with soft, dreamlike lighting to emphasize memory."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds the phrase 'without shame' to rhyme with 'fame', which is not present in the original Hindi text ('भले छीन लो मुझसे मेरी जवानी').",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The specific cultural resonance of 'सावन' (Sawan/Shravan), the peak month of the monsoon associated with romance, play, and nostalgia, is translated as 'monsoon rains', losing its specific seasonal and cultural associations.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 2,
+        "loss_note": "The translation introduces forced rhymes ('good' to rhyme with 'neighborhood', 'flair' to rhyme with 'bare') which alters the natural, conversational tone of the original Hindi. 'Nani' is translated as 'Grandma', which loses the specific maternal grandmother relationship and the cultural role of the neighborhood 'nani' who tells stories to all children.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The magical, enchanting world created by the grandmother's fairy tales.",
+            "acceptable_visual_variants": [
+              "A grandmother gesturing while telling a story, with warm light illuminating the children's amazed faces",
+              "Soft, dreamlike sparkles surrounding an old woman as she speaks"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The camp/abode of fairies",
+            "literalization_risk": "Depicting literal winged fairies camping in a room, which might look too fantasy-oriented rather than nostalgic.",
+            "metaphor_mapping": {
+              "tenor_concept": "grandmother's stories",
+              "transferred_attributes": [
+                "magic",
+                "wonder",
+                "enchantment",
+                "presence of mythical beings"
+              ],
+              "vehicle_concept": "fairy camp"
+            },
+            "source_span_original": "परियों का डेरा",
+            "source_span_translation": "fairies danced with flair",
+            "source_term": "परियों का डेरा",
+            "tenor": "The imaginative stories told by the grandmother",
+            "vehicle": "A camp or settlement of fairies",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a grandmother speaking warmly to children, with faint, glowing, semi-transparent fairy silhouettes or sparkles swirling gently in the air around them to represent imagination."
+          },
+          {
+            "abstract_meaning": "The immense wisdom, long life experience, and history etched into the old woman's face.",
+            "acceptable_visual_variants": [
+              "A close-up of an old woman's eyes and temple showing deep laugh lines",
+              "A profile of an elderly woman smiling gently, highlighting the texture of her skin"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L8",
+            "literal_meaning": "The revolution/circle of centuries in the wrinkles of the face",
+            "literalization_risk": "An illustrator might try to draw literal clocks or historical scenes inside the lines of a face, which would look bizarre and surreal.",
+            "metaphor_mapping": {
+              "tenor_concept": "facial wrinkles",
+              "transferred_attributes": [
+                "depth",
+                "vast age",
+                "accumulation of time",
+                "wisdom"
+              ],
+              "vehicle_concept": "centuries circling"
+            },
+            "source_span_original": "चेहरे की झुर्रियों में सदीयों का फेरा",
+            "source_span_translation": "In her wrinkles, centuries lay bare",
+            "source_term": "चेहरे की झुर्रियों में सदीयों का फेरा",
+            "tenor": "The deep wrinkles representing long life and wisdom",
+            "vehicle": "The passage of centuries circling",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "A detailed, respectful close-up portrait of an elderly woman's smiling face, emphasizing the deep, expressive lines around her eyes and mouth with warm, soft lighting."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'good' to 'Grandma' to force a rhyme with 'neighborhood', which alters the simple, respectful tone of 'नानी' (maternal grandmother) used by the neighborhood children.",
+            "where": "L6"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'परियों का डेरा' (abode/camp of fairies) is translated as 'fairies danced with flair', changing the static, magical dwelling/presence of fairies in the stories into an active dance to fit the rhyme scheme.",
+            "where": "L7"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The phrase 'सदीयों का फेरा' (the cycle/revolution of centuries) is translated as 'centuries lay bare', losing the cyclical, repeating connotation of 'फेरा'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "longing",
+        "index": 3,
+        "loss_note": "The translation of 'bhulae nahi bhool sakta hai koi' as 'No one can ever forget those days' generalizes 'days' instead of keeping the focus on the specific memories of short nights and long stories.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The joyful, refreshing, and innocent period of childhood.",
+            "acceptable_visual_variants": [
+              "Raindrops creating ripples in a puddle",
+              "A soft-focus view of rain falling outside a window"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L11",
+            "literal_meaning": "The monsoon season of childhood",
+            "literalization_risk": "Depicting a literal storm or rain shower without the emotional context of nostalgia.",
+            "metaphor_mapping": {
+              "tenor_concept": "childhood",
+              "transferred_attributes": [
+                "joyfulness",
+                "refreshment",
+                "playfulness",
+                "temporary nature"
+              ],
+              "vehicle_concept": "monsoon season"
+            },
+            "source_span_original": "बचपन का सावन",
+            "source_span_translation": "monsoon rains of childhood",
+            "source_term": "बचपन का सावन",
+            "tenor": "The period of childhood",
+            "vehicle": "The monsoon season (Sawan)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Render a soft-focus scene of rain falling on green leaves, evoking a sensory memory of childhood monsoons."
+          },
+          {
+            "abstract_meaning": "A symbol of fragile, simple childhood pleasures and memories.",
+            "acceptable_visual_variants": [
+              "A paper boat floating away down a rain-washed street gutter",
+              "A single paper boat resting on wet ground after the rain has stopped"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L12",
+            "literal_meaning": "A boat made of paper",
+            "literalization_risk": "Showing a generic paper boat without the nostalgic, emotional connection to childhood.",
+            "metaphor_mapping": {
+              "tenor_concept": "childhood innocence",
+              "transferred_attributes": [
+                "fragility",
+                "simplicity",
+                "joy",
+                "transience"
+              ],
+              "vehicle_concept": "paper boat"
+            },
+            "source_span_original": "कागज़ की कश्ती",
+            "source_span_translation": "paper boat",
+            "source_term": "कागज़ की कश्ती",
+            "tenor": "Innocent childhood dreams and simple pleasures",
+            "vehicle": "A paper boat",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a paper boat drifting away on a stream of rainwater, symbolizing the passage of time."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'those days' and 'that amaze' to create a rhyme scheme, which is not in the original text ('भुलाए नहीं भूल सकता है कोई' / 'वो छोटी सी रातें, वो लम्बी कहानी').",
+            "where": "L9-L10"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The irreplaceable value of childhood innocence and simple memories over material success and aging."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ये दौलत भी ले लो, ये शौहरत भी ले लो,  \nभले छीन लो मुझसे मेरी जवानी,  \nमगर मुझको लौटा दो बचपन का सावन,  \nवो कागज़ की कश्ती, वो बारिश का पानी।  \n\nमोहल्ले की सबसे निशानी पुरानी,  \nवो बुढ़िया जिसे बच्चे कहते थे नानी,  \nवो नानी की बातों में परियों का डेरा,  \nवो चेहरे की झुर्रियों में सदीयों का फेरा।  \n\nभुलाए नहीं भूल सकता है कोई,  \nवो छोटी सी रातें, वो लम्बी कहानी,  \nमगर मुझको लौटा दो बचपन का सावन,  \nवो कागज़ की कश्ती, वो बारिश का पानी।",
+  "poem_id": "MV++_0254",
+  "poem_title": "Yeh Daulat Bhi Le Lo",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "02315757ec6b18b1ffa4c2732b5e757251a23857d8a76d9321336dd14e7ecafa",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0254.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Take away this wealth, take away this fame,  \nEven take away my youth without shame,  \nBut return to me those monsoon rains of childhood,  \nThat paper boat, and that water in the rain.  \n\nThe oldest mark in the neighborhood,  \nThat old lady whom we called Grandma good,  \nIn her stories, fairies danced with flair,  \nIn her wrinkles, centuries lay bare.  \n\nNo one can ever forget those days,  \nThose short nights and stories that amaze,  \nBut bring me back those monsoon rains of childhood,  \nThat paper boat, and that water in the rain.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:04:58.266087+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1d04ce857b08573c1fb1320178e7a5323b0aa1cd306f5419ec1583b7914aa4d7",
+        "response_hash": "f81b8723ae7ad4bd04dbda7bca7e7d451c92e0b13b3fd19a7437d8f5d7fcf0f5"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "20cffbc2461b55d404197c59acf1772741b9878b5d29bc887a5524895c6cc92d",
+        "response_hash": "cca086da09e1603f0b768c76f05dfeb8e0182d247f7d3958fe4c1dbf4714c380",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1b80bdb5128425933e8246ce0479fe3a2adec788c0702b058f5519574187a944",
+        "response_hash": "ca937949243594ce216dc62524a985f9db49b2404fb9e34f6dd4178b1383697f",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9e673668632908fef3840f4ef44de275c84adba38c9ecbed7137b69f9c630191",
+        "response_hash": "0800e1fa0131c5eaf510d0e5ea97446787f6ae10bbc05005a56d99777d65340c",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "52b744bbfa47f0bb113fe6d7a533555401141929e91192b50301f45dbe0be56f",
+        "response_hash": "afa443bb972e74a4d51a46101f59e737ecd1d16e49e71c403da3a40939cb0d34",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4322c80b47db4b61ebb835c5003b88a85d0cb1a3deeb61c3737d65ff0c425ca2",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "20edf7d8f73cb745b8712a3db74778d2e1d0cbfcc3d8fad8192d61cfad9be4d7",
+    "translation_sha256": "63a60487e356cd05970228988de55245216b30447117354117d89ef93bb3a36a"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "A profound sense of longing and unrequited love, moving from a wistful questioning of others' fortune to a deep, sorrowful resignation about one's own painful fate.",
+    "recitation_style": "lament",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation introduces 'cord' to rhyme with 'reward', which alters the literal image of a worn garland (haar) and loses the specific cultural resonance of a garland of thorns.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Moments of joy, love, or gentle happiness in life.",
+            "acceptable_visual_variants": [
+              "A hand reaching toward soft, unbloomed flower buds on a branch",
+              "A person looking wistfully at a garden of closed buds"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L2",
+            "literal_meaning": "flower buds",
+            "literalization_risk": "An illustrator might draw literal flower buds, missing the emotional context of seeking happiness or love.",
+            "metaphor_mapping": {
+              "tenor_concept": "moments of joy",
+              "transferred_attributes": [
+                "delicacy",
+                "beauty",
+                "promise of happiness"
+              ],
+              "vehicle_concept": "flower buds"
+            },
+            "source_span_original": "कलियाँ",
+            "source_span_translation": "blossoms",
+            "source_term": "कलियाँ",
+            "tenor": "moments of joy, love, or gentle happiness",
+            "vehicle": "flower buds / blossoms",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person reaching out towards delicate, soft flower buds that are just out of reach or fading."
+          },
+          {
+            "abstract_meaning": "A painful burden of sorrow, rejection, or suffering instead of love.",
+            "acceptable_visual_variants": [
+              "A tangled wreath of sharp, dry thorns lying heavily in open hands",
+              "A thorny vine wrapping around a person's path or shoulders"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "a garland of thorns",
+            "literalization_risk": "A literal rendering of a person wearing a crown or necklace of thorns might look overly religious (resembling the Crown of Thorns) or physically violent, rather than emotionally painful.",
+            "metaphor_mapping": {
+              "tenor_concept": "painful burden of rejection",
+              "transferred_attributes": [
+                "sharpness",
+                "pain upon contact",
+                "encircling burden"
+              ],
+              "vehicle_concept": "garland of thorns"
+            },
+            "source_span_original": "काँटों का हार",
+            "source_span_translation": "thorns adorned my cord",
+            "source_term": "काँटों का हार",
+            "tenor": "a painful burden of sorrow, rejection, or suffering",
+            "vehicle": "a garland made entirely of sharp thorns",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Depict a sharp, tangled, thorny vine wrapping around a person's hands or neck, emphasizing the emotional weight and pain rather than literal blood."
+          }
+        ],
+        "tone": "lament",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'प्यार को प्यार मिला' (literally 'love met love' or 'received love in return for love') as 'found love's reward' shifts the focus from reciprocal, mutual love to an externalized reward.",
+            "where": "L1"
+          },
+          {
+            "severity": "high",
+            "what_was_lost": "The translation of 'काँटों का हार' (literally 'a garland of thorns') as 'thorns adorned my cord' loses the specific cultural and physical imagery of a 'haar' (garland), which is traditionally used for welcoming, honoring, or wedding, thereby intensifying the irony of receiving a garland made of thorns instead.",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The painful contrast between those who find reciprocal love and the speaker's own experience of receiving only pain and hardship in return for devotion."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "जाने वो कैसे लोग थे जिनके प्यार को प्यार मिला  \nहमने तो जब कलियाँ माँगीं काँटों का हार मिला",
+  "poem_id": "MV++_0731",
+  "poem_title": "Jaane Woh Kaise Log The",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "44f313b8f1b1a3d40c9b2d7611c59e0f8db35c585e262c7b8dd104778a401fa7",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0731.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Who knows what they were like, those who found love's reward,  \nWhen I sought blossoms, only thorns adorned my cord.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:02:39.445130+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0f44a884557957305cdb130214f1be9ea0dc563026cd82e396a3d49939aae7df",
+        "response_hash": "13dc921b7d512a7a02982d12b212e28b2e6cb3e56eca01c6f9badc7d59a432cd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2ebc176c5693bc66c223e58c5bd068ff81c0d2a4a1e9cc57ecbd32da9e482867",
+        "response_hash": "713194da4fef7a56fe04090452a58b80090b366293067f73b4e56fe5b3493a1a",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c8a56fff9ddbae20d3613ce930a2b7dca9cf90333f0ee22ac1da3c290565a9f8",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0c84519019eb3f8fd91d735583d2903270e3f6e81ca052c95a544070190d5d06",
+        "response_hash": "32e83877682cf08e137ed519efdf092b15e7bdbdf546ae3c2493e9e118e80556",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "2a9fec4ba8ef7c4cbbae1e5db7bd3920f52d5d873ae72a6acbb997d55a85060a",
+        "response_hash": "9e29501447e886b57a86663d22d918b4f968dbd115f55272eeee9b820d947650",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "52dd08556da21cd23c16cda54c911f79feef1393ac33bee3b1a12eb49ae46574",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "3cd9bcdd9ef5acc6b60fd7ab2c9ecd48912408f32e409d3a54fd222642736fc9",
+    "translation_sha256": "6d68d66fc63a461468d49d4788468791e3cb3bbcde0559c8069b9896dba7e9f5"
+  }
+}

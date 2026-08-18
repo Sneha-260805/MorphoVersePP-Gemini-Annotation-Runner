@@ -1,0 +1,223 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A child holding a half-eaten mango with its large seed visible",
+          "A basket of ripe mangoes next to a pile of dried seeds"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "A well-known Hindi proverb meaning double benefit or getting complete value from something, literally referring to enjoying the mangoes and then selling their seeds.",
+        "line_ref": "L1-L2",
+        "negative_confusions": [
+          "Depicting a generic Western orchard instead of an Indian mango grove",
+          "Depicting processed mango products instead of raw, whole fruits and seeds"
+        ],
+        "preserved": true,
+        "romanization": "aam ke aam hain, guthliyon ke bhi daam hain",
+        "source_span_original": "आम के आम हैं,  \nगुठलियों के भी दाम हैं।",
+        "source_span_translation": "Mangoes for all,  \nEven seeds have their worth.",
+        "stanza_index": 1,
+        "term": "आम के आम हैं, \nगुठलियों के भी दाम हैं।",
+        "translation_note": "The translation renders the literal meaning of the proverb ('Mangoes for all, Even seeds have their worth') but loses the specific idiomatic resonance of the Hindi proverb which denotes double value or getting full utility out of something. Note: Although the metadata labels the language as Kannada, the text of the poem is entirely in Hindi.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "Ripe yellow-orange mangoes",
+          "Mango seeds or stones discarded or collected",
+          "A rustic village setting"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "joyful appreciation of nature's abundance and community hope",
+    "recitation_style": "celebratory",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation captures the literal meaning but loses the rhythmic, proverbial quality of the Hindi idiom 'Aam ke aam, guthliyon ke daam' which is used here despite the language metadata labeling the poem as Kannada.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A situation where one gets double benefits or complete value for money, leaving nothing to waste.",
+            "acceptable_visual_variants": [
+              "A person enjoying a ripe mango while using the seed for another productive purpose like planting.",
+              "A balanced scale showing mangoes on one side and seeds on the other, both glowing with value."
+            ],
+            "expression_type": "proverb",
+            "line_ref": "L1-L2",
+            "literal_meaning": "Mangoes themselves are valuable, and even their seeds fetch a price.",
+            "literalization_risk": "An illustrator might draw a literal market transaction of selling mango seeds, missing the abstract concept of double benefit.",
+            "metaphor_mapping": {
+              "tenor_concept": "double benefit",
+              "transferred_attributes": [
+                "utility",
+                "value",
+                "lack of waste"
+              ],
+              "vehicle_concept": "mangoes and seeds"
+            },
+            "source_span_original": "आम के आम हैं,\nगुठलियों के भी दाम हैं।",
+            "source_span_translation": "Mangoes for all,\nEven seeds have their worth.",
+            "source_term": "आम के आम हैं,\nगुठलियों के भी दाम हैं।",
+            "tenor": "A situation of double benefit or absolute utility where nothing goes to waste",
+            "vehicle": "Mangoes and their seeds both having monetary value",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a split scene showing a child happily eating a mango on one side, and the seed being planted to grow a new tree on the other, showing complete utility."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation loses the exact structure of the well-known Hindi proverb 'Aam ke aam, guthliyon ke daam' (double benefit or getting full value), rendering it literally as 'Mangoes for all, Even seeds have their worth' which dilutes the idiomatic flavor.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation is faithful to the literal imagery of village life and sweetness, though it slightly formalizes the simple, colloquial rhythm of the original lines.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The harvest represents the hope, livelihood, and future of the agricultural lands and the farmers.",
+            "acceptable_visual_variants": [
+              "A close-up of green shoots or ripening crops in a field under a bright sky.",
+              "A farmer's hands gently holding soil with green sprouts emerging."
+            ],
+            "expression_type": "metonymy",
+            "line_ref": "L8",
+            "literal_meaning": "The hope of the agricultural fields.",
+            "literalization_risk": "Visualizing literal fields having human-like emotional hope might look like a cartoonish personification rather than a deep cultural connection to farming.",
+            "metaphor_mapping": {
+              "tenor_concept": "farmers' livelihood and hope",
+              "transferred_attributes": [
+                "dependence",
+                "expectation of fruitfulness"
+              ],
+              "vehicle_concept": "fields"
+            },
+            "source_span_original": "खेतों की आस है।",
+            "source_span_translation": "Hope of the lands.",
+            "source_term": "खेतों की आस है।",
+            "tenor": "The farmers and communities whose livelihoods depend on the harvest",
+            "vehicle": "The fields/lands",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a farmer looking out over a lush green field under a warm sun, capturing the feeling of anticipation and hope."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'kheton ki aas' (hope of the fields/farms) as 'Hope of the lands' slightly generalizes the specific agricultural connection of 'khet' (fields/farms) to a broader concept of 'lands'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The simple, complete value of nature's gifts and their connection to rural life"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "/",
+      "issue": "The poem's language metadata is specified as Kannada, but the text of the poem, the translation notes, and the cultural entities identify the language of the text as Hindi. This is a fundamental language mismatch between the metadata and the actual content.",
+      "severity": "high"
+    },
+    {
+      "field_path": "cultural_entities[0].source_span_original",
+      "issue": "The source_span_original contains double spaces before the newline ('आम के आम हैं,  \\nगुठलियों के भी दाम हैं।') which does not match the exact spacing of the original poem block or the term field.",
+      "severity": "low"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "आम के आम हैं,  \nगुठलियों के भी दाम हैं।  \nपेड़ों से लदे हुए हैं,  \nमिट्टी से जुड़े हुए हैं।\n\nगांव की गलियों में,  \nबच्चों के हाथों में।  \nफलों की मिठास है,  \nखेतों की आस है।",
+  "poem_id": "MV++_1091",
+  "poem_title": "Aam Ke Aam",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "bf528278287cf5ef748123e3cb5165d6764236a23da4462f6ed66e159cf268d8",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_1091.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Mangoes for all,  \nEven seeds have their worth.  \nHanging heavy on trees,  \nConnected deep to the earth.\n\nIn village lanes,  \nIn children’s hands.  \nSweetness of fruits,  \nHope of the lands.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:56:37.757915+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3d41cdf2ac3b213c840a8151b467f1ec1799e46b987482a1fb9961171ecff3cb",
+        "response_hash": "069248b9c030eed55a85e4b3ca25c3e4df0d9de5367e640f4ba15c324100421b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3a6a932f429388f5b2f47dec8ff8dd76455a5aa2ecb8f824406f0f7b037ef900",
+        "response_hash": "0d57ff434b1647b8eb1a8f67fc2ae56392d52e63e287f4010bc5418d790ce22e",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5f314154801b7d6856bafb6bd462898c93d7e8e71642eaa6f2b0d4cc456d9867",
+        "response_hash": "4117c4704277fb21c9363422d795c646c64580bccc67dbd309aba138e2f84c10",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f6be995d4056cb4030587f32181481c1ae033bd5ba7b6a8569b099e77ef98a1e",
+        "response_hash": "0a93aefe80f5c29c82a179e4abad560b96a8e3b29845d188c1217dfe7664afcd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1d328a554c746dbd15bde293d08924f41d8a2e5a8a8db90b9cb8ba840ab0f086",
+        "response_hash": "f3435b5fb4f2e87b4b8905624f7ef58fd5c429f0f00e5598a3affe92ad4cb5cb",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e32def8bedfa12e049454bfe3d42b791847a75264f04f93bd05870145651e71f",
+        "response_hash": "d64901d1a594f969ecd3dc44ec998bf7c01d148f395e812d2a053245b5bcec26",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "fc001aae8fd3691580d49d9a215a97f69c0c622cf330e5a564e6b689dd9f5670",
+    "translation_sha256": "e56d71d11c2006c9adbbf744bce6b03da24f85dcb98b3d4699df56ef55883087"
+  }
+}

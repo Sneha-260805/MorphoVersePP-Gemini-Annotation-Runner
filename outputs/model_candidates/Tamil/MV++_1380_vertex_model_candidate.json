@@ -1,0 +1,202 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "An abstract glowing inner sanctuary",
+          "A traditional stone temple threshold with a small oil lamp"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A temple or shrine; in Tamil poetic and devotional traditions, the heart or body is frequently conceptualized as a temple where the divine or love resides.",
+        "line_ref": "L3",
+        "negative_confusions": [
+          "A generic Western church steeple",
+          "An elaborate modern commercial building"
+        ],
+        "preserved": true,
+        "romanization": "kovilil",
+        "source_span_original": "கோவிலில்",
+        "source_span_translation": "temple",
+        "stanza_index": 1,
+        "term": "கோவிலில்",
+        "translation_note": "Translated as 'temple', which captures the literal meaning of 'kovil' (temple/shrine) but is used here metaphorically for the soul/heart.",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A traditional South Indian temple structure or sanctum",
+          "A glowing light within a heart-shaped space representing the inner shrine"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "peace and devotion",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation of 'இதயத்தின் கோவிலில்' as 'temple of my soul' shifts 'heart' (இதயம்) to 'soul', and 'பூங்காற்று' (flower-breeze) is rendered as 'fragrant breeze', losing the direct imagery of a gentle wind carrying the essence of flowers.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's heart or soul is a sacred, revered space where love resides.",
+            "acceptable_visual_variants": [
+              "A stylized human silhouette with a warm, glowing light in the chest area",
+              "A peaceful, quiet sanctuary space with soft lighting and flower petals"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "In the temple of the heart",
+            "literalization_risk": "Depicting a physical stone temple building inside a human chest would look bizarre and anatomically incorrect.",
+            "metaphor_mapping": {
+              "tenor_concept": "heart",
+              "transferred_attributes": [
+                "sacredness",
+                "devotion",
+                "sanctuary"
+              ],
+              "vehicle_concept": "temple"
+            },
+            "source_span_original": "இதயத்தின் கோவிலில்",
+            "source_span_translation": "temple of my soul",
+            "source_term": "இதயத்தின் கோவிலில்",
+            "tenor": "heart / soul",
+            "vehicle": "temple",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a glowing, warm light radiating from a person's chest, or a serene, sacred space with soft, devotional elements like a small oil lamp or flowers to suggest a sanctuary."
+          },
+          {
+            "abstract_meaning": "Love is experienced as a gentle, refreshing, and fragrant breeze that brings comfort and joy.",
+            "acceptable_visual_variants": [
+              "Swirling wind lines carrying delicate flower petals through the air",
+              "A soft, warm light gently swaying curtains or leaves to show a gentle breeze"
+            ],
+            "expression_type": "simile",
+            "line_ref": "L4",
+            "literal_meaning": "Love blows like a flower-breeze",
+            "literalization_risk": "Showing literal wind blowing flowers around might look like a storm or a simple weather event rather than an emotional feeling of love.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "gentleness",
+                "sweetness",
+                "pervasiveness",
+                "refreshing quality"
+              ],
+              "vehicle_concept": "fragrant breeze"
+            },
+            "source_span_original": "காதல் பூங்காற்றாய் வீசும்",
+            "source_span_translation": "Love blows like a fragrant breeze",
+            "source_term": "காதல் பூங்காற்றாய் வீசும்",
+            "tenor": "love",
+            "vehicle": "flower-breeze (fragrant breeze)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict gentle, swirling air currents carrying soft flower petals or pollen drifting through a warm, sunlit space to visually represent a fragrant breeze."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'இதயம்' (ithayam, heart) as 'soul' in 'temple of my soul' (இதயத்தின் கோவிலில்), which shifts the literal meaning of 'heart' to 'soul' and alters the direct anatomical-emotional metaphor of the heart as a temple.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The Tamil compound 'பூங்காற்றாய்' (poongaatraai) combines 'flower' (பூ) and 'wind/breeze' (காற்று) with an adverbial suffix, literally meaning 'as a flower-breeze'. The translation 'fragrant breeze' captures the sensory effect but loses the direct, evocative imagery of a breeze made of or carrying actual flowers.",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The sacred and gentle nature of love and companionship speaking directly to the soul."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "துணையின் மொழி,  \nஉன் உள்ளத்தில் பேசும்,  \nஎன் இதயத்தின் கோவிலில்,  \nகாதல் பூங்காற்றாய் வீசும்!",
+  "poem_id": "MV++_1380",
+  "poem_title": "Thunaiyin Mozhi",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "d96e0b7626f04bc5ed7476a7f2e0708927829406a03d6997ed284840bb13d5fb",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1380.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The language of companionship,  \nSpeaks in your heart,  \nIn the temple of my soul,  \nLove blows like a fragrant breeze!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:27:39.224681+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "df8ecf7c1806ec27fbd8a09f69c254a065053942d8faed692a3b599279729be9",
+        "response_hash": "a738a3208be9b2527aa47ef83d09e5270f92a408eddc66cf2379328a9b777656"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "6e1090fcf9a763546ac78ce79dffc3473efc1b96f7a862b2897870096dc2a406",
+        "response_hash": "4b93db027b8d28df056d9acb9bd6e718eab2ec732b8cd349e0fde278ab4847f7",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7cfbe1d18f744dbf581d7f0bf6a6847f1cea9de8654847e06dca3797e59e363f",
+        "response_hash": "edba7932331bcc2dbc7fa5e06ed6cab3c647fe1c8604ae9bcceaa85f7946a80b",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "955427675ea0099c635d6d49f82ccd232e7d6fb74a99542c4400b495d065bb2e",
+        "response_hash": "07b769b9736b055e1fa3674eaabe3189a29c84ad5ae8618814c398e92cf99455",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7e7c136a946519fa1375e0e1dedfbe1137cc32e1803d6a79ee4bbd7f48b7f1f9",
+        "response_hash": "6ca8f9dc96d777d64168726a83903c741a7ead1125f6afbf7f2f6999cea01112",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4f472be77443612b96c3a9164a562fbbfc6685ee4ce0fdf01d50cfa3e561d091",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "ca31ec9e1b963e905e703500f1e97d08634a0e6c544a69000aeb17776474ace3",
+    "translation_sha256": "2f5c6e1b762b649a2b51ce8da0fdc31d6768e93119c7105c1dc8376e56d91662"
+  }
+}

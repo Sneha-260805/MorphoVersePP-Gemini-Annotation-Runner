@@ -1,0 +1,208 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A group of people sitting on a woven mat (chatai) on the floor in a simple room",
+          "A group of people sitting together on a low wooden cot (charpai) in a courtyard"
+        ],
+        "category": "SOCIAL_CUSTOM",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional South Asian social custom and space where community members, friends, or family gather to sit, converse, and spend time together.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "An official corporate meeting room with chairs and a conference table",
+          "A formal Western-style living room with plush sofas and armchairs"
+        ],
+        "preserved": true,
+        "romanization": "baithak",
+        "source_span_original": "बैठक",
+        "source_span_translation": "Sitting Place",
+        "stanza_index": 1,
+        "term": "बैठक",
+        "translation_note": "Translated as 'sitting place', which captures the physical location but slightly flattens the cultural nuance of an informal, communal gathering space or social sitting session.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A group of people sitting together informally",
+          "A simple indoor or semi-outdoor seating area, often with floor mats, rugs, or low wooden platforms"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "quiet togetherness to peaceful silence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation renders 'baithak' (a traditional informal gathering space or sitting room) as 'sitting place', which conveys the literal meaning but loses the specific cultural connotation of a communal, hospitable gathering space in South Asian households.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The collective, harmonious, and comforting feeling of sitting together in silence, which feels as coordinated and beautiful as a shared song.",
+            "acceptable_visual_variants": [
+              "A group of friends sitting in a cozy room in a circle with warm, ambient light connecting them.",
+              "An abstract representation of figures sitting together with soft, wave-like patterns flowing between them to represent the silent harmony."
+            ],
+            "expression_type": "simile",
+            "line_ref": "L3",
+            "literal_meaning": "As if someone is singing a song",
+            "literalization_risk": "An illustrator might literally depict a person singing with a microphone or open mouth, which would distract from the quiet, shared presence of the group.",
+            "metaphor_mapping": {
+              "tenor_concept": "sitting together in silence",
+              "transferred_attributes": [
+                "harmony",
+                "coordination",
+                "comfort",
+                "beauty"
+              ],
+              "vehicle_concept": "singing a song"
+            },
+            "source_span_original": "जैसे कोई गाना गा रहा हो",
+            "source_span_translation": "As if someone is singing a song",
+            "source_term": "जैसे कोई गाना गा रहा हो",
+            "tenor": "the experience of sitting together in silence",
+            "vehicle": "someone singing a song",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a group of people sitting together in a peaceful, circular arrangement with soft, flowing light or abstract musical notes gently drifting around them to suggest harmony without showing anyone actually singing."
+          },
+          {
+            "abstract_meaning": "The sitting place is completely quiet, filled with a deep, palpable silence rather than physical objects.",
+            "acceptable_visual_variants": [
+              "A room with minimalist decor and soft lighting that emphasizes open, quiet space.",
+              "A peaceful outdoor setting at dusk where the stillness of the environment suggests silence."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "is filled with silence (as if silence were a physical substance filling a container)",
+            "literalization_risk": "An illustrator might try to show a physical substance or fog filling the room, which would look like smoke or pollution rather than peaceful silence.",
+            "metaphor_mapping": {
+              "tenor_concept": "a space characterized by quietness",
+              "transferred_attributes": [
+                "fullness",
+                "presence",
+                "completeness"
+              ],
+              "vehicle_concept": "a container filled with a substance"
+            },
+            "source_span_original": "ख़ामोशी से भरी होती है",
+            "source_span_translation": "is filled with silence",
+            "source_term": "ख़ामोशी से भरी होती है",
+            "tenor": "a room or space that is completely quiet",
+            "vehicle": "a container filled with a physical substance",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use soft, calm colors, clean open spaces, and relaxed postures of the seated people to visually convey a deep, comfortable quietness."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'baithak' as 'sitting place' loses the cultural nuance of a traditional communal sitting area, drawing room, or informal gathering space where people socialize.",
+            "where": "L1"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'baat' as 'words' in 'koi khaas baat nahi hai' simplifies the Hindi phrase, which more broadly means 'nothing special to talk about' or 'no special matter/topic'.",
+            "where": "L5"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The comfort of shared silence and simple presence without the need for words"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].preserved",
+      "issue": "The field 'preserved' is set to true, but 'translation_status' is set to 'PARTIALLY_PRESERVED' and the 'translation_note' states that the translation 'slightly flattens the cultural nuance'. These values are internally inconsistent regarding whether the cultural term was fully preserved.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "अपनी बैठक\nहम सब मिलकर बैठते हैं\nजैसे कोई गाना गा रहा हो,\nहम सब मिलकर बैठते हैं,\nहमारे पास कोई ख़ास बात नहीं है\nहमारी बैठक एक ख़ामोशी से भरी होती है।",
+  "poem_id": "MV++_0689",
+  "poem_title": "Apni Baithak",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "c8b828d20d302706370874f0404dc8c23a9f5a8acb0985accfdab45bca60b9fa",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0689.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Our Sitting Place  \nWe all sit together  \nAs if someone is singing a song,  \nWe all sit together,  \nWe have no special words,  \nOur sitting place is filled with silence.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:55:55.737792+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "1f1cc2f2f163d34e0ebd1646e7cdb3c06ad2f354d97c6ed749c7c90ec91c15c5",
+        "response_hash": "cb7ec20d0071bac14581401741f704e99bd329475d48aeaaa648dec51f045fcd"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b59259f70bd0a68c7a60fa1ac3a8c66fcd14de78ff135bc9209db871b9d2b1a1",
+        "response_hash": "191abfc8ed3314e123e3b4f2f1f80f8051e76640c7c86bd7d70102c10bbbbd31",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3b79b30ba8163586eec6b843655a665f97efaf00f06ad455c33152b8cabd4905",
+        "response_hash": "7b76ff21adb39da1f67d37444dcae9d9ee436fb0f131d09b57c050da59ea19dd",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "8047f0c521a890251e71307c4cff57e612c47157855b8a76f47fa0ad09ab6c5b",
+        "response_hash": "2a69c2ecf15951ce7e54a1889387f6a815158dccde43909e5bd8a816152ea1f6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "bf0c750fa201331ecb8a26a697ec0c13f49a2de5b154f1e7604181eaca2471ab",
+        "response_hash": "1bde5b1e2f195ea108931fde549b6a1d54e2a342d46d9e45db94137145e00795",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "689676aa142b066322801a99f21eb72559d2e6dc387c785981a440a84a36c87c",
+        "response_hash": "2a2d0fc5548ddf45aea36ff5e5167373ba33962e9aed491c2ded678bd1bf6ebd",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "dcfd497e2fe314db5138b231d4dfa72e8d64e4664e8b1cc0ea1535eea405fb6e",
+    "translation_sha256": "5509a8f93bc4e72c95d737dfa7ecd0f2beb307f29f667a2b06c060e5468acc79"
+  }
+}

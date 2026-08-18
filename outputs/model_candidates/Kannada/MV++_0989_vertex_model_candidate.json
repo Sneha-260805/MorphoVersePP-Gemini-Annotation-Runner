@@ -1,0 +1,188 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A traditional hanging brass oil lamp suspended from an unseen high point against a starry night sky",
+          "A glowing sky lantern floating gently in the dark atmosphere"
+        ],
+        "category": "DEVOTIONAL_CONCEPT",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Literally 'the lamp of the sky' or 'sky lamp'. In Kannada and broader Indian tradition, 'Akasha Deepa' refers to a lamp lit and raised high on a pole or hung in the sky during the auspicious month of Kartik, symbolizing a beacon for ancestral souls or a devotional offering. Here, it is used with deep symbolic and spiritual resonance.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A modern electric street lamp or lightbulb",
+          "A generic Western-style candle or lantern in a glass case",
+          "A massive, blazing sun or cosmic fireball instead of a delicate, lit ritual lamp"
+        ],
+        "preserved": true,
+        "romanization": "aakaashada deepavu",
+        "source_span_original": "ಆಕಾಶದ ದೀಪವು",
+        "source_span_translation": "The lamp in the sky",
+        "stanza_index": 1,
+        "term": "ಆಕಾಶದ ದೀಪವು",
+        "translation_note": "Translated literally as 'The lamp in the sky', which captures the physical image but may lose the specific cultural resonance of 'Akasha Deepa' (a sky lantern or lamp raised high during the Hindu month of Kartik).",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A traditional clay or metal oil lamp (deepa) emitting a warm, steady glow",
+          "Suspended high up against a dark, open night sky",
+          "A gentle breeze blowing around it, but the flame remains upright and bright",
+          "No shadow cast beneath or behind the lamp"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "hopeful longing for preservation and purity",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A celestial light, hope, or divine presence shining from above",
+            "acceptable_visual_variants": [
+              "A glowing celestial star or sun-like light in a vast sky",
+              "A traditional sky-lantern (Akasha Deepa) floating gently in the night sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A physical lamp placed in the sky",
+            "literalization_risk": "An illustrator might draw a literal household oil lamp floating physically in the clouds, which misses the grander celestial or spiritual scale.",
+            "metaphor_mapping": {
+              "tenor_concept": "celestial or spiritual light",
+              "transferred_attributes": [
+                "shining",
+                "providing guidance",
+                "vulnerability to being extinguished"
+              ],
+              "vehicle_concept": "lamp in the sky"
+            },
+            "source_span_original": "ಆಕಾಶದ ದೀಪವು",
+            "source_span_translation": "The lamp in the sky",
+            "source_term": "ಆಕಾಶದ ದೀಪವು",
+            "tenor": "A celestial body (like the sun, moon, or stars) or a guiding spiritual light",
+            "vehicle": "A lit lamp hanging or shining in the sky",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a brilliant, warm, star-like light or a traditional hanging lantern high in a deep twilight sky, casting a soft glow without casting harsh shadows."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation of 'ತಂಗಾಳಿ' (tangaali) as 'breeze' loses the specific connotation of a 'cool breeze' (tan + gaali), which carries a gentle, soothing quality in Kannada that contrasts with the potential threat of extinguishing the lamp.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation 'Let the breeze not extinguish it' introduces the active verb 'extinguish' which is not explicitly present in the Kannada text 'ಬೀಳದಿರಲಿ' (beelaadirali, meaning 'let it not fall/blow upon'). This changes the passive/gentle request to a more direct causal action.",
+            "where": "L2"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The word 'ಅದ್ವಿತೀಯವು' (adviteeyavu) carries a philosophical and literary weight of 'peerless', 'unique', or 'without a second' (often with non-dualistic Sanskritic undertones), which is simplified to 'unmatched' in the English translation.",
+            "where": "L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "A prayer for the preservation of a pure, unmatched light against external disruptions."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains three detailed translation_loss entries describing significant semantic and stylistic shifts. When translation loss is documented, translation_quality should typically be 'partial' rather than 'faithful'.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Kannada",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "ಆಕಾಶದ ದೀಪವು ಹೊತ್ತಿಹುದು,  \nಬೀಳದಿರಲಿ ತಂಗಾಳಿ,  \nಅದ್ವಿತೀಯವು ಬೆಳಗಲಿ,  \nಅದಕೆ ನೆರಳಿಲ್ಲದಿರಲಿ.",
+  "poem_id": "MV++_0989",
+  "poem_title": "Aakasha Deepa",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "3d61385d8ea22ade90724d3d17a161d8c4bdcee6ffe47d98cb7dcac8d1a2f4e6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Kannada/MV++_0989.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The lamp in the sky is lit,  \nLet the breeze not extinguish it,  \nMay it shine unmatched,  \nMay it have no shadow.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T12:40:09.041690+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ed0ae8219758a85e82f959426a805f0316dd25459edf8c77d71f8f077897fe49",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "21995a83e8a40e292ad1beb770e3693d95c2ae81eb440667c464d3f8b840e325",
+        "response_hash": "590e47fd7cc8f1c5a04a136cf124a5ca2e67385edfc42aa7c5f0e384027d9588",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "89d97b52c0a031aa992842c6e0d4ebbc5dad8a81a45b47a5662dc5eb432d22c3",
+        "response_hash": "4c2ee89dad6463e978c26b43b9a214474470994a12df7d29d660965b9684c01c",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "452e322cde5518084a1be05f4ffc06671176cdc13b0cd82fc79a1809e511bf99",
+        "response_hash": "ac5987fc9ee5c9d46650720ff8f91e5aecf6d0c22dd39b0618376fafa2340ce2",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c5215521623ab25ccc8a06def0d61a8c002ef4fe167470bfbd89067bed3689a2",
+        "response_hash": "bacf018d51796c1e793371f043f573a0f86906878aac5aad8d9de550b88b5593",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f5285b571f5f5fe90035ef4e49330f069e68d3a5dd41718025cd507c480550a6",
+        "response_hash": "14965067b42aff2c3ecfddf3cf208af5780d0edd99b3d58f32a95b70d7e96d9a",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "36c766f5fb090e69450df0fea71557209d4b05583087626dc54d0daff7a790cf",
+    "translation_sha256": "cc591a81aad25160e2a3d11ee20d18a707b5d99f92145dd08a07205fd92f35e6"
+  }
+}

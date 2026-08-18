@@ -1,0 +1,201 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "existential questioning to peaceful realization of omnipresence",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "peace",
+        "index": 1,
+        "loss_note": "The translation splits the compound-like repetition 'boond-boond' (drop-by-drop) into 'every drop' and slightly shifts the rhythm of the self-discovery verbs 'khoja' and 'dhundha' into a simpler past tense sequence.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The speaker's identity is fragmented and distributed across all small elements of existence.",
+            "acceptable_visual_variants": [
+              "A figure standing in rain where the raindrops glow with the same light as the figure's silhouette",
+              "A stream of water dispersing into tiny droplets that catch the light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "I have been divided into drop by drop",
+            "literalization_risk": "Showing a human body physically sliced or split into liquid droplets, which looks like a horror or fantasy scene rather than a spiritual state.",
+            "metaphor_mapping": {
+              "tenor_concept": "fragmented omnipresent self",
+              "transferred_attributes": [
+                "divided into tiny parts",
+                "present everywhere in small quantities"
+              ],
+              "vehicle_concept": "water drops"
+            },
+            "source_span_original": "मैं बूँद-बूँद में बँट गया हूँ",
+            "source_span_translation": "I am scattered\nin every drop",
+            "source_term": "मैं बूँद-बूँद में बँट गया हूँ",
+            "tenor": "the speaker's omnipresent or fragmented identity",
+            "vehicle": "water divided into individual drops",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a human silhouette dissolving into a mist of glowing water droplets that merge with a larger body of water."
+          },
+          {
+            "abstract_meaning": "The speaker is a continuous, flowing, and life-giving force of nature.",
+            "acceptable_visual_variants": [
+              "A wide river flowing under a vast sky",
+              "A close-up of rushing river water reflecting the sky"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "I am a river",
+            "literalization_risk": "Depicting a literal river with a human face or a human body made of rushing water, which can look cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "continuous flowing self",
+              "transferred_attributes": [
+                "flowing",
+                "vast",
+                "life-giving",
+                "continuous"
+              ],
+              "vehicle_concept": "river"
+            },
+            "source_span_original": "मैं दरिया हूँ",
+            "source_span_translation": "I am the river",
+            "source_term": "मैं दरिया हूँ",
+            "tenor": "the speaker's vast, flowing, and continuous identity",
+            "vehicle": "a flowing river",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a vast, winding river flowing through a landscape, with a subtle human silhouette or shadow cast along its surface to suggest connection."
+          },
+          {
+            "abstract_meaning": "The speaker is identical with the light, colors, and vastness of the sky and atmosphere.",
+            "acceptable_visual_variants": [
+              "A wide-angle view of a bright sunny day with white clouds against a deep blue sky",
+              "Sunbeams filtering through clouds over a natural landscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7-L9",
+            "literal_meaning": "I am sunlight, I am the color of clouds, I am the blue of the sky",
+            "literalization_risk": "Trying to draw a person made of light beams or painted onto clouds, which looks like a superhero or deity illustration rather than a philosophical state.",
+            "metaphor_mapping": {
+              "tenor_concept": "omnipresent luminous identity",
+              "transferred_attributes": [
+                "brightness",
+                "coloration",
+                "vastness",
+                "pervasiveness"
+              ],
+              "vehicle_concept": "atmospheric light and color"
+            },
+            "source_span_original": "मैं धूप हूँ,\nबादलों का रंग हूँ,\nआसमान का नीला हूँ।",
+            "source_span_translation": "I am the sunlight,\nthe color of clouds,\nthe blue of the sky.",
+            "source_term": "मैं धूप हूँ, / बादलों का रंग हूँ, / आसमान का नीला हूँ।",
+            "tenor": "the speaker's omnipresent, luminous, and atmospheric nature",
+            "vehicle": "sunlight, cloud colors, and the blue sky",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "A landscape scene showing bright sunlight breaking through clouds, illuminating a vibrant blue sky, without any literal human figure."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'बँट गया हूँ' (divided/distributed myself) as 'scattered', which shifts the nuance from active self-division/partitioning to a more passive state of being scattered. Additionally, the rhythmic repetition of 'बूँद-बूँद' (drop by drop) is flattened to 'every drop'.",
+            "where": "L3"
+          },
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'आसमान का नीला हूँ' (literally 'I am the blue of the sky', using the masculine noun form 'नीला' for the color blue itself) as 'the blue of the sky', which captures the meaning but loses the poetic grammatical play of using the color adjective directly as a substantive noun.",
+            "where": "L9"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The realization of the self as an omnipresent, interconnected part of the entire universe."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मैं कौन हूँ,  \nमेरा नाम क्या है?  \nमैं बूँद-बूँद में बँट गया हूँ,  \nमैं दरिया हूँ,  \nहर एक पत्थर में हूँ,  \nहर एक पेड़ की छाया में।  \nमैं धूप हूँ,  \nबादलों का रंग हूँ,  \nआसमान का नीला हूँ।  \nमैंने खुद को  \nसंसार में खोजा,  \nखुद को ढूँढा।  \nहर जगह हूँ,  \nहर चीज़ में हूँ।  \nक्योंकि मैं  \nकिसी भी चीज़ का  \nअंश हूँ।",
+  "poem_id": "MV++_0257",
+  "poem_title": "Parichay",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "8d5a9a71958d101685b841c94f7d5bb85fb020359d5065437162fc56bbe351a6",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0257.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Who am I,  \nwhat is my name?  \nI am scattered  \nin every drop,  \nI am the river,  \nI am in every stone,  \nin every tree's shade.  \nI am the sunlight,  \nthe color of clouds,  \nthe blue of the sky.  \nI searched for myself  \nin the world,  \nfound myself.  \nI am everywhere,  \nin everything.  \nBecause I am  \na part of  \neverything.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:05:15.897937+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "7451bcdb81004704e81f0402f86d3af72188cc4addf100dd8b62b05cc3f8fc06",
+        "response_hash": "959ee6ea26916a4f1e9295b77eba10c1b99afe0574d663ab2ce974c8b7b7d747"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "490325ffcb69805cb93e0d48b85118ddb22dcca2932084845c8a79ee5f1a9056",
+        "response_hash": "a3051d1cba4a45b0766d3d23c8a967fcad066aa198324b9b2a1c48ff769d93d0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "628d9c31a24a95a23848794891d3288c2d69807f9b3c895a62e2731200d734bb",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "732cceeb0706c5dbf9dce2dde01fe8edc10f9770be50cbb13da80f62a93b8b20",
+        "response_hash": "da2b39a9549fede8d47c0e3d532721b5eaf943b3a6257a5069eccff0f2e20b31",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "ac08a964f3ad7db1e044468ebf03871ed55dc28a27dff1414ef3a7da4bf7158f",
+        "response_hash": "2c4ddd8f3de76a6e378c67065ff397844c5b9fe4763effd212c68493d54ecd3d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0333e6670a68bb872a37c973192c6abba88c8616ed80e218a03add48e4713cc4",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "5ab63c693fb051afc7f96823df5eebd14e02b0b3a42a783e73071fabb875b890",
+    "translation_sha256": "832355ee6d12bb9cfedb6d05b07abdd16d3cb85ffb25d02b83f86c15aac7f926"
+  }
+}

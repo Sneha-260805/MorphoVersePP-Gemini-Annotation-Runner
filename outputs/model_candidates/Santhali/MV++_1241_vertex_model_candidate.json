@@ -1,0 +1,286 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A simple transverse bamboo flute held horizontally",
+          "A rustic wooden flute played by a pastoral figure"
+        ],
+        "category": "MUSICAL_TRADITION",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "A traditional bamboo flute, highly prominent in South Asian musical, poetic, and devotional traditions, often associated with pastoral melodies and divine love.",
+        "line_ref": "L7",
+        "negative_confusions": [
+          "An ornate, modern Western metal flute",
+          "A highly decorated, jewel-encrusted concert flute"
+        ],
+        "preserved": true,
+        "romanization": "bansi",
+        "source_span_original": "बंसी",
+        "source_span_translation": "flute",
+        "stanza_index": 2,
+        "term": "बंसी",
+        "translation_note": "Translated as 'flute', which captures the general instrument type but loses the specific cultural resonance of the traditional bamboo flute (bansi/bansuri) in South Asian poetic and devotional contexts.",
+        "translation_status": "PARTIALLY_PRESERVED",
+        "visual_features": [
+          "A simple, slender bamboo flute with finger holes",
+          "Natural light-brown or golden wood texture"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "longing and wonder to peaceful connection",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation renders 'भंवर' (whirlpool/vortex) as 'whispers' and 'पलंग' (bed) as 'lay', altering the concrete imagery of a sweet whirlpool and a bed of dreams.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Creating a comfortable, beautiful mental space or state of mind filled with hopes and aspirations.",
+            "acceptable_visual_variants": [
+              "A person resting under a starry sky with soft light surrounding them",
+              "An abstract blend of soft colors and light patterns suggesting a peaceful dreamscape"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "Decorating a bed made of dreams",
+            "literalization_risk": "An illustrator might literally draw a physical bed floating in the air with clouds, which misses the emotional state of peaceful dreaming.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "comfort",
+                "beauty",
+                "restfulness"
+              ],
+              "vehicle_concept": "bed"
+            },
+            "source_span_original": "सपनों के पलंग सजाए",
+            "source_span_translation": "Adorned with dreams, they lay",
+            "source_term": "सपनों के पलंग सजाए",
+            "tenor": "dreams and aspirations (सपने)",
+            "vehicle": "a decorated bed (पलंग)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person resting peacefully in a serene, soft-focus environment with gentle, glowing abstract shapes representing thoughts or dreams."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'भंवर' (whirlpool/vortex) as 'whispers' and adds 'waves sway' to rhyme, altering the original imagery of a sweet whirlpool/vortex.",
+            "where": "L1"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'सपनों के पलंग सजाए' (decorating/preparing the bed of dreams) as 'Adorned with dreams, they lay' loses the specific domestic and intimate imagery of a 'पलंग' (bed).",
+            "where": "L2"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Being deeply influenced, beautified, or characterized by one's hopes and aspirations.",
+            "acceptable_visual_variants": [
+              "A figure surrounded by a soft, colorful aura",
+              "A landscape painted in warm, surreal, and harmonious pastel tones"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "Dressed or decorated in the colors of dreams",
+            "literalization_risk": "An illustrator might paint literal rainbow colors onto a person's clothes, which looks like a costume rather than a state of mind.",
+            "metaphor_mapping": {
+              "tenor_concept": "dreams",
+              "transferred_attributes": [
+                "vibrancy",
+                "beauty",
+                "variety"
+              ],
+              "vehicle_concept": "color/clothing"
+            },
+            "source_span_original": "सपनों के रंग में सजे",
+            "source_span_translation": "Dressed in the colors of dreams",
+            "source_term": "सपनों के रंग में सजे",
+            "tenor": "the qualities and feelings of dreams (सपने)",
+            "vehicle": "colorful clothing or paint (रंग)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use a vibrant, warm, and slightly surreal color palette across the entire scene to evoke a dreamlike atmosphere."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation adds 'it thrills' and 'truths absolute' primarily to maintain a strict English AABB rhyme scheme, which introduces semantic elements not present in the original text.",
+            "where": "L6-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "The translation of 'मधुर भंवर' as 'sweet whispers' is repeated here, losing the original's literal imagery of a sweet whirlpool.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Living a life or making choices that lead to happiness and fulfillment.",
+            "acceptable_visual_variants": [
+              "A winding path through a beautiful, blooming meadow under a clear sky",
+              "Two silhouettes walking towards a bright, warm sunrise"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L10",
+            "literal_meaning": "Walking on a path made of happiness",
+            "literalization_risk": "An illustrator might draw a literal road sign that says 'Happiness', which is overly literal and cheesy.",
+            "metaphor_mapping": {
+              "tenor_concept": "life journey",
+              "transferred_attributes": [
+                "direction",
+                "progress",
+                "destination"
+              ],
+              "vehicle_concept": "path"
+            },
+            "source_span_original": "खुशियों की राह में चलें",
+            "source_span_translation": "Walking the path of happiness in life",
+            "source_term": "खुशियों की राह में चलें",
+            "tenor": "the course of life leading to happiness (खुशियाँ)",
+            "vehicle": "a physical path or road (राह)",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict two figures walking together along a bright, sunlit, and inviting natural trail."
+          },
+          {
+            "abstract_meaning": "Building a shared life, relationship, or future based on mutual hopes and desires.",
+            "acceptable_visual_variants": [
+              "A small, warm cottage surrounded by a beautiful garden under a starry sky",
+              "A couple looking out over a beautiful, peaceful landscape together"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12",
+            "literal_meaning": "Settling or establishing a physical world made of dreams",
+            "literalization_risk": "An illustrator might draw a literal miniature planet or globe with houses on it, which looks like science fiction.",
+            "metaphor_mapping": {
+              "tenor_concept": "shared future",
+              "transferred_attributes": [
+                "creation",
+                "stability",
+                "belonging"
+              ],
+              "vehicle_concept": "world/settlement"
+            },
+            "source_span_original": "सपनों की दुनिया बसाएं",
+            "source_span_translation": "Building a world of dreams to choose",
+            "source_term": "सपनों की दुनिया बसाएं",
+            "tenor": "a shared life and future (सपने)",
+            "vehicle": "a world or settlement (दुनिया)",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a cozy, warm, and inviting home environment or a peaceful shared space that feels safe and harmonious."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'मधुर भंवर' as 'sweet whispers' is repeated here, losing the literal imagery of a sweet whirlpool/vortex.",
+            "where": "L11"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "Finding solace and building a shared world of dreams through love, music, and mutual understanding."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing added semantic elements ('it thrills', 'truths absolute') to maintain rhyme. This is inconsistent with a fully 'faithful' rating and should be marked as 'partial' or the loss note reconciled.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Santhali",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "मधुर भंवर में लहराए,  \nसपनों के पलंग सजाए।  \nफूलों की महक में खो जाए,  \nदिल की बातें सुनाए।\n\nचाँदनी रात में जादू भरे,  \nसपनों के रंग में सजे।  \nमधुर बंसी की धुन सुनाए,  \nदिल की बातों को जगाए।\n\nसुख-दुख की बातें साझा करें,  \nखुशियों की राह में चलें।  \nमधुर भंवर में खो जाएं,  \nसपनों की दुनिया बसाएं।",
+  "poem_id": "MV++_1241",
+  "poem_title": "Madhur Bhanwar",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "ffc6aebd10087334e6da1c166b0b563f12b92f42b61d4716b2c318e4543d5633",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Santhali/MV++_1241.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In sweet whispers, waves sway,  \nAdorned with dreams, they lay.  \nLost in the fragrance of flowers,  \nTelling the heart's secrets, hours.\n\nIn the moonlit night, magic fills,  \nDressed in the colors of dreams, it thrills.  \nPlaying the tune of a sweet flute,  \nAwakening the heart's truths absolute.\n\nSharing tales of joy and strife,  \nWalking the path of happiness in life.  \nIn sweet whispers, let us lose,  \nBuilding a world of dreams to choose.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:12:34.373693+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f6dee65ffc0ce0ef2eb210df35843233b192e5d0f4fd7b0a2eeb15e7cfcf60dd",
+        "response_hash": "9eba90db3cc48da10178d41bdce66a6a9e42ac4c38ddc9e86c6617724347bfdb",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "aa569bc6f94ce9425d61ad524d43e00525c3828de8d66906a5d583280a55db89",
+        "response_hash": "66c50a81fec44502a16f06d178201d5dffd3c3cd53b98906c4d2572017c9330a",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "c8691aeb320f9bfa2bc81e0cff8de5b9fba23d7417b039c18a14e85ad977e924",
+        "response_hash": "e1c0842d93401c1e409d0c99812fd4b54cc424d1306294ead9eb0297a41acf64",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "901477cc0c63c5b2ab4ba38443c8b0bfdc6404ef73619bde9c987a5480703a00",
+        "response_hash": "c2b5b97cd355cd6b7a21236186dae16e558fae2de34a9f83b64c5c5b3c0c8f0d",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c3da673bd97fdb4471d93a9c3e29b835922c354896be31329f5fc71ad93f004",
+        "response_hash": "074cf4ada931b8b0bba6f71a5065065f18a51f561bd44411ac827b507699e11c",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "0636a15c0272c163c8017275084948d502e69818bdc40eb1d34375131b6f60a5",
+    "translation_sha256": "ed16399ca43eabacb1bd940c5dd5492cf41f759f65574ea1ad47b83052d45931"
+  }
+}

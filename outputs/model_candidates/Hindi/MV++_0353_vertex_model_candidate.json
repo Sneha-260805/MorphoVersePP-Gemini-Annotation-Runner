@@ -1,0 +1,202 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A single flying horse radiating solar light",
+          "A horse pulling a celestial chariot through clouds"
+        ],
+        "category": "MYTHOLOGICAL_EVENT",
+        "cultural_specificity_level": "CULTURE_SPECIFIC",
+        "gloss": "The seventh horse of the sun god Surya's chariot in Hindu mythology, symbolizing hope, the future, and the ultimate triumph over darkness or sorrow. It is also a famous literary allusion in modern Hindi literature (referencing Dharamvir Bharati's novel of the same name).",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A standard farm horse",
+          "A dark or ominous horse",
+          "A team of seven identical horses without solar attributes"
+        ],
+        "preserved": true,
+        "romanization": "Suraj Ka Satwan Ghoda",
+        "source_span_original": "सूरज का सातवां घोड़ा",
+        "source_span_translation": "The seventh horse of the sun",
+        "stanza_index": 1,
+        "term": "सूरज का सातवां घोड़ा",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A majestic, radiant horse",
+          "Often depicted as white or golden",
+          "Associated with the sun's chariot or flying through the sky"
+        ],
+        "visual_priority": "essential"
+      }
+    ],
+    "emotional_arc": "longing to resilience",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "resilience",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A symbol of hope, future, and the ultimate triumph of light over darkness, representing the final, enduring force of life.",
+            "acceptable_visual_variants": [
+              "A glowing, ethereal horse soaring through golden clouds",
+              "A stylized, fiery horse pulling an unseen chariot of light across the sky"
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L1",
+            "literal_meaning": "The seventh horse belonging to the sun's chariot",
+            "literalization_risk": "Depicting a literal horse flying in the sky might look like a fantasy creature (like Pegasus) rather than conveying the deep symbolic hope and warmth of the sun.",
+            "metaphor_mapping": {
+              "tenor_concept": "Hope and resilience",
+              "transferred_attributes": [
+                "flying high",
+                "bringing light",
+                "making sorrows look small"
+              ],
+              "vehicle_concept": "The seventh horse of the sun's chariot"
+            },
+            "source_span_original": "सूरज का सातवां घोड़ा",
+            "source_span_translation": "The seventh horse of the sun",
+            "source_term": "सूरज का सातवां घोड़ा",
+            "tenor": "Hope, resilience, and the ultimate triumph of light over darkness",
+            "vehicle": "The seventh horse of the sun's chariot",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a majestic, radiant horse made of or surrounded by sunlight, soaring high above a landscape, casting a warm glow that dispels shadows."
+          },
+          {
+            "abstract_meaning": "Diminishing the intensity or overwhelming nature of grief, making sorrows feel small and manageable.",
+            "acceptable_visual_variants": [
+              "Dark, heavy clouds shrinking into tiny wisps as light breaks through",
+              "A large, looming shadow on the ground contracting into a small, harmless speck under a bright light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L5",
+            "literal_meaning": "Turning grief into a dwarf",
+            "literalization_risk": "Showing a literal tiny personified figure of 'grief' could look comical or cartoonish rather than emotionally resonant.",
+            "metaphor_mapping": {
+              "tenor_concept": "The emotional weight of sorrow",
+              "transferred_attributes": [
+                "reduced size",
+                "loss of power",
+                "becoming insignificant"
+              ],
+              "vehicle_concept": "A physically shrunk or dwarfed object"
+            },
+            "source_span_original": "ग़म को बौना बनाकर",
+            "source_span_translation": "Making every sorrow small",
+            "source_term": "ग़म को बौना बनाकर",
+            "tenor": "The diminished impact and scale of human sorrow",
+            "vehicle": "A dwarf or a physically shrunk entity",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Visualize a vast, dark shadow representing sorrow shrinking rapidly under the brilliant light of the soaring sun-horse."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of 'बौना बनाकर' (bauna banakar) as 'making... small' loses the specific imagery of 'bauna' which literally means a dwarf or making something dwarfed, reducing the vividness of the original metaphor.",
+            "where": "L5"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The cultural and literary resonance of 'सूरज का सातवां घोड़ा' (Suraj Ka Satwan Ghoda), which refers to the seventh horse of the sun's chariot (often associated with hope, future, and a famous Hindi novel by Dharamvir Bharati), is flattened into a literal description in English.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The enduring power of hope and imagination to diminish life's sorrows"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[0].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss list detailing medium-severity losses. This is internally inconsistent. If significant metaphorical and cultural nuances are lost or flattened, translation_quality should be 'partial' or the loss_note/translation_loss should reflect a minor/negligible impact.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "सूरज का सातवां घोड़ा,  \nसूरज का सातवां घोड़ा,  \nदूर तक उड़ता है।  \nसूरज का सातवां घोड़ा,  \nहर ग़म को बौना बनाकर।",
+  "poem_id": "MV++_0353",
+  "poem_title": "Suraj Ka Satwan Ghoda",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "5416322e8b6e0c61f5dc621d975c5bc0eef072b1e1fb7c7ab63d5891e8411739",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0353.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The seventh horse of the sun,  \nThe seventh horse of the sun,  \nFlies far and wide.  \nThe seventh horse of the sun,  \nMaking every sorrow small.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:15:56.869719+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "478b12be0c87999e3ef6e89728266400747a1e78135f01bf44c9a16bb9a2c4bf",
+        "response_hash": "427a39f28825b4e32536928f766a4b94199e82de9b528d95a36fa8d1e64a4125",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f83ad3f339f8ce91d8eceab6994f01427ea38fecf871f81b45c91f2c8d0685c8",
+        "response_hash": "e590107314cd88ae7af93deb4aceade3fade4329e2c087b0fb95760d87c8cf29",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4dbe763be608f9da80047ca02356e67a48c17952fa0f0d180630b1649f7c347e",
+        "response_hash": "fa92c5ba65ce005b021a0f9902a6931db30908ebef87e51e02fb5025c671b48a",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "09e512c23eff23f7b191afa42c818e77de48b5ed579111dec1d7910b89dd1277",
+        "response_hash": "676f59bc80abf7a93b068310fa504d72c9d2e19d3eb585328f743916b7e4c579",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "543b35f8f8f56423bb45ca5fc57138ddf0759c4702fbf050a59944e77dd3a729",
+        "response_hash": "7f2bb1852b807ed45c152c04e289abc05c961b8c7b69570ef8b2c13980050d36",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "1c685dfb0127b9835e78091d3f2f4c02c492b92818062dac1acc94a424b0e265",
+    "translation_sha256": "746699de642dc65e1b8c99cb62870f3e1092ef389f99a92c086d0c7f40a9b466"
+  }
+}

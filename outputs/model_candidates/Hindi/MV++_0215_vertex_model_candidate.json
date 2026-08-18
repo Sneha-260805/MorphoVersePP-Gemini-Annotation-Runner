@@ -1,0 +1,210 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "observation of human emotion to wonder at the possibilities of life",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "celebration",
+        "index": 1,
+        "loss_note": "The translation renders 'रोते हैं' (weep/cry) as 'in rage' to force an English rhyme with 'stage', altering the emotional spectrum of the original Hindi text.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Human beings act out their lives, emotions, and roles in the world as if they are actors performing on a theatrical stage.",
+            "acceptable_visual_variants": [
+              "A theatrical stage with actors wearing expressive masks representing different emotions",
+              "A split scene showing people in everyday life situations framed by theatrical curtains"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "Faces play/perform on a theater stage",
+            "literalization_risk": "An illustrator might literally draw disembodied human faces floating or rolling around on a physical wooden theater stage, which misses the human and existential depth of the metaphor.",
+            "metaphor_mapping": {
+              "tenor_concept": "human life and the world",
+              "transferred_attributes": [
+                "acting out roles",
+                "temporary performances",
+                "displaying emotions to an audience"
+              ],
+              "vehicle_concept": "theater stage"
+            },
+            "source_span_original": "रंग मंच पर खेलते हैं चेहरे",
+            "source_span_translation": "Faces play upon the stage",
+            "source_term": "रंग मंच पर खेलते हैं चेहरे",
+            "tenor": "The world or human life where people live out their experiences",
+            "vehicle": "A theatrical stage where actors perform",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict stylized human figures with expressive faces acting or gesturing on a stage-like platform that subtly blends into a broader landscape or city background."
+          },
+          {
+            "abstract_meaning": "The diverse experiences, emotions, ups, and downs of human existence.",
+            "acceptable_visual_variants": [
+              "A scene transitioning from warm golden light to deep blues to represent different emotional phases",
+              "A character surrounded by a subtle, multi-colored aura or glowing light"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The colors of life",
+            "literalization_risk": "Showing literal paint splatters or rainbow streaks over a person's life, which looks like a physical paint accident rather than emotional richness.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional and experiential variety",
+              "transferred_attributes": [
+                "diversity",
+                "vibrancy",
+                "affecting mood and perception"
+              ],
+              "vehicle_concept": "chromatic colors"
+            },
+            "source_span_original": "जीवन के रंगों",
+            "source_span_translation": "colors of life",
+            "source_term": "जीवन के रंगों",
+            "tenor": "The variety of human emotions and life experiences",
+            "vehicle": "Vibrant, diverse colors",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Use a rich, warm, and varied color palette in the scene's lighting and environment to represent emotional depth without drawing literal paint."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "high",
+            "what_was_lost": "The translation introduces 'rage' and 'strife' to force an AABB rhyme scheme, which alters the literal meaning of the original Hindi text. The original L2 ('कभी हंसते हैं, कभी रोते हैं') literally means 'sometimes laughing, sometimes crying', which is translated as 'Sometimes laughing, sometimes in rage'. Similarly, L4 ('हर भावना को वो दर्शाते हैं') literally means 'they portray every emotion', but is translated as 'Portraying every feeling, every strife'.",
+            "where": "L2-L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "A state of imagination, hope, or illusion detached from harsh reality.",
+            "acceptable_visual_variants": [
+              "A character looking up into a starry, misty sky that blends into theatrical curtains",
+              "A soft, glowing haze surrounding a reflective figure on stage"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L6",
+            "literal_meaning": "A world of dreams",
+            "literalization_risk": "Drawing a literal globe or planet made of sleeping clouds, which looks childish and misses the reflective, theatrical mood of the poem.",
+            "metaphor_mapping": {
+              "tenor_concept": "mental state of dreaming and imagining",
+              "transferred_attributes": [
+                "vastness",
+                "immersion",
+                "containing fantastical elements"
+              ],
+              "vehicle_concept": "geographical world or realm"
+            },
+            "source_span_original": "सपनों की दुनिया",
+            "source_span_translation": "world where dreams flow",
+            "source_term": "सपनों की दुनिया",
+            "tenor": "The internal state of human imagination, aspiration, and fantasy",
+            "vehicle": "A physical world or realm made of dreams",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft, dreamlike, slightly out-of-focus background with surreal elements like floating lights or soft-edged silhouettes."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation of L5 ('छाया है पर्दा') as 'A curtain falls' changes the stative aspect of the original Hindi. 'छाया है' means 'is cast' or 'is spread/shading', indicating the curtain is already draped or hanging, rather than actively falling. Additionally, the feminine grammatical agreement of 'खोई हुई' (lost) in L6 is lost in the English translation, which leaves the subject of who or what is lost in the dream world more ambiguous than the Hindi text.",
+            "where": "L5-L6"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "Life as a theatrical stage where all emotions and dreams are played out"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "stanzas[1].translation_quality",
+      "issue": "The translation_quality is marked as 'faithful', but the stanza contains a non-empty translation_loss array detailing significant semantic shifts (such as 'छाया है पर्दा' being translated as 'A curtain falls' and the loss of feminine grammatical agreement), which is inconsistent with a 'faithful' rating. The rating should be 'partial' to match the documented loss.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "रंग मंच पर खेलते हैं चेहरे,  \nकभी हंसते हैं, कभी रोते हैं,  \nजीवन के रंगों से भरपूर,  \nहर भावना को वो दर्शाते हैं।  \n\nछाया है पर्दा, धुंधली रोशनी,  \nसपनों की दुनिया में खोई हुई,  \nइस रंगमंच पर सब कुछ संभव,  \nहर कहानी है यहाँ अद्भुत।",
+  "poem_id": "MV++_0215",
+  "poem_title": "Rang Manch",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "cecdfd1494bf0f0a30f978842d6195d631e3558fa101404f2d892b13524371bd",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0215.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Faces play upon the stage,  \nSometimes laughing, sometimes in rage,  \nFilled with the colors of life,  \nPortraying every feeling, every strife.\n\nA curtain falls, dim lights glow,  \nLost in a world where dreams flow,  \nOn this stage, all is possible,  \nEvery story here is remarkable.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:00:36.033137+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "04a2ae1dbdb04c1596b7ebed9c90eb8a72d4e8d0de6905dae61791274a80fbf3",
+        "response_hash": "20834c9105f1712be946a85828a90ec461648686ca6d16dc3638cc21889946c9",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e001b6a30ba6ced26329110384b855c9e2666c7098a7fd9845d640a76a8c12b1",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "b9c9c4fefbbd790f0d89154d364eadc3878f8978a04589138543b8444897158e",
+        "response_hash": "f325c4bb956d906b5ce8a19f10ce88d73854c96edfc5470e99bae723b46c6c00",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4f0d82056cd6f442df6659b7ff2e822b55bda0dffd565b7345d4edc22e55ee43",
+        "response_hash": "787bea2768aaf3471c3561ae5d1f65a86904d4bdf9f3fbb24a2b0c60c9449e41",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "9c7f9488ac147dd49061f0a8feb7ca1dcf55060f253f3df824a73e3c28322caa",
+        "response_hash": "f42ce0f6e60c2b8165a3d5b41799bae30a2464dc00284581a4e44070ec502e78",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "92475ac0ed9a39f85a2edcfc10a0ce5dfc6e684bc786ccc242693f67699ed8d6",
+    "translation_sha256": "09d523eb0e43a255308abe04e7ec101922178bc43c2457aa815031ccdb0042e6"
+  }
+}

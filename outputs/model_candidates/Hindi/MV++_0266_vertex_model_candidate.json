@@ -1,0 +1,296 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "wonder and joy transitioning to quiet peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The imaginative allure and nostalgic pull of childhood toys, which seem to beckon the speaker's attention.",
+            "acceptable_visual_variants": [
+              "A child looking longingly at a colorful toy shelf bathed in a warm, soft-focus glow.",
+              "An adult holding an old toy with faint, colorful light trails suggesting memories or dreams."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L2-L3",
+            "literal_meaning": "The colorful dreams of toys silently call out to me.",
+            "literalization_risk": "Showing literal dream bubbles floating out of plastic toys with tiny mouths calling a person might look like a fantasy horror or cartoon rather than a nostalgic, emotional memory.",
+            "metaphor_mapping": {
+              "tenor_concept": "inanimate childhood toys and their nostalgic appeal",
+              "transferred_attributes": [
+                "ability to dream",
+                "ability to call out or beckon silently"
+              ],
+              "vehicle_concept": "sentient beings with dreams and voices"
+            },
+            "source_span_original": "खिलौने के रंग बिरंगे सपने,\nचुपके से बुलाते हैं मुझे।",
+            "source_span_translation": "The colorful dreams of toys,\nSilently beckon me.",
+            "source_term": "खिलौने के रंग बिरंगे सपने,\nचुपके से बुलाते हैं मुझे।",
+            "tenor": "The imaginative appeal and nostalgic memories associated with childhood toys",
+            "vehicle": "Toys having colorful dreams and whispering/calling out to a person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a soft-focus, warm scene of a child or adult looking at a shelf of old toys, with gentle, colorful light or a soft glow emanating from the toys to suggest their magical, dream-like appeal."
+          },
+          {
+            "abstract_meaning": "Each toy represents or holds a unique memory, experience, or narrative of childhood.",
+            "acceptable_visual_variants": [
+              "A toy positioned next to a soft, faded background illustration of a child playing with that same toy.",
+              "A toy casting a shadow that resembles a playful scene of a child."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L4",
+            "literal_meaning": "Every single toy is a story.",
+            "literalization_risk": "Depicting a toy literally made of book pages or turning into a physical book would look bizarre and miss the emotional connection.",
+            "metaphor_mapping": {
+              "tenor_concept": "an inanimate toy",
+              "transferred_attributes": [
+                "containing a narrative",
+                "evoking a sequence of events or emotions"
+              ],
+              "vehicle_concept": "a written or spoken story"
+            },
+            "source_span_original": "हर एक खिलौना एक कहानी",
+            "source_span_translation": "Each toy tells a story",
+            "source_term": "हर एक खिलौना एक कहानी",
+            "tenor": "A toy's associated memories and emotional history",
+            "vehicle": "A story or narrative book",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a toy surrounded by faint, sketched scenes of children playing with it in the background, representing its 'history' or 'story'."
+          }
+        ],
+        "tone": "wonder",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The singular title 'खिलौना' (Khilona) is translated as 'The Toy', but the next line uses the plural possessive 'खिलौने के' (of the toy / of toys). The English translation shifts to plural 'dreams of toys' which slightly alters the singular-plural relationship established in the title.",
+            "where": "L1-L2"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "celebration",
+        "index": 2,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The joyful, bouncing movement of a rolling ball reflects and evokes the laughter of children.",
+            "acceptable_visual_variants": [
+              "A colorful ball rolling on a playground with motion blurs and children smiling in the background.",
+              "A bouncing ball captured in a dynamic, high-energy angle with bright, cheerful colors."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L6",
+            "literal_meaning": "The ball rolls and laughs.",
+            "literalization_risk": "Drawing a literal face with a wide open mouth laughing on a ball can look cartoonish or creepy.",
+            "metaphor_mapping": {
+              "tenor_concept": "a rolling ball",
+              "transferred_attributes": [
+                "joyfulness",
+                "expression of happiness"
+              ],
+              "vehicle_concept": "a human laughing joyfully"
+            },
+            "source_span_original": "गेंद लुड़कती है, हंसती है",
+            "source_span_translation": "The ball rolls, laughing",
+            "source_term": "गेंद लुड़कती है, हंसती है",
+            "tenor": "A rolling, bouncing ball in a playful environment",
+            "vehicle": "A laughing person",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a bright, colorful ball mid-bounce or rolling dynamically, surrounded by motion lines and the smiling faces of children nearby to capture the essence of laughter."
+          },
+          {
+            "abstract_meaning": "The toy car moves extremely fast or is thrown playfully into the air, simulating flight in a child's imagination.",
+            "acceptable_visual_variants": [
+              "A child's hand lifting a toy car high above their head with a joyful expression.",
+              "A toy car captured mid-air as it is playfully tossed onto a soft bed or rug."
+            ],
+            "expression_type": "other",
+            "line_ref": "L8",
+            "literal_meaning": "The car runs and flies in the air.",
+            "literalization_risk": "Showing a toy car with literal wings flying through clouds would make it look like a sci-fi vehicle rather than a child's imaginative play.",
+            "metaphor_mapping": {
+              "tenor_concept": "a toy car in rapid play",
+              "transferred_attributes": [
+                "airborne movement",
+                "extreme speed"
+              ],
+              "vehicle_concept": "a flying vehicle"
+            },
+            "source_span_original": "गाड़ी दौड़ती है, हवा में उड़ती",
+            "source_span_translation": "The car races, flies in the air",
+            "source_term": "गाड़ी दौड़ती है, हवा में उड़ती",
+            "tenor": "A toy car being pushed fast or tossed playfully by a child",
+            "vehicle": "An airplane or flying object",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a child's hand holding a toy car high up in the air against a bedroom background, capturing the moment of imaginative 'flight'."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The grammatical gender of 'गेंद' (ball) and 'गाड़ी' (car) is feminine in Hindi, which governs the feminine verb forms 'लुड़कती है, हंसती है' and 'दौड़ती है, उड़ती'. This personification carries a subtle feminine characterization in the original Hindi that is completely lost in the gender-neutral English translation.",
+            "where": "L6-L8"
+          }
+        ],
+        "translation_quality": "faithful"
+      },
+      {
+        "emotion": "peace",
+        "index": 3,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The toys are left unused and still when night falls and children go to sleep.",
+            "acceptable_visual_variants": [
+              "Toys resting quietly in a toy box under the gentle glow of a nightlight.",
+              "A shelf of toys in a dark room illuminated only by moonlight streaming through a window."
+            ],
+            "expression_type": "personification",
+            "line_ref": "L11",
+            "literal_meaning": "The toys become quiet/silent.",
+            "literalization_risk": "Depicting toys putting their fingers to their lips or covering their mouths would look like a spooky living-toy movie.",
+            "metaphor_mapping": {
+              "tenor_concept": "inanimate objects being still",
+              "transferred_attributes": [
+                "quietness",
+                "stillness",
+                "cessation of activity"
+              ],
+              "vehicle_concept": "sentient beings falling silent"
+            },
+            "source_span_original": "खिलौने चुप हो जाते हैं।",
+            "source_span_translation": "The toys become silent.",
+            "source_term": "खिलौने चुप हो जाते हैं।",
+            "tenor": "Inanimate toys being left still and inactive at night",
+            "vehicle": "People choosing to stop talking or becoming quiet",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Show a quiet, darkened bedroom at night with toys neatly arranged on a shelf or floor, cast in soft blue moonlight, emphasizing stillness."
+          },
+          {
+            "abstract_meaning": "The toys' 'dreams' or purposes are realized and kept alive within the active imaginations and dreams of sleeping children.",
+            "acceptable_visual_variants": [
+              "A close-up of a sleeping child's face with a double-exposure effect showing faint, happy images of toys.",
+              "A sleeping child holding a toy, with a soft-focus dream cloud showing playful adventures with the toy."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L12-L13",
+            "literal_meaning": "They dream, hidden in the eyes of children.",
+            "literalization_risk": "Showing tiny toys physically living inside a child's open eyeballs would be highly disturbing and surreal in a horrific way.",
+            "metaphor_mapping": {
+              "tenor_concept": "the lingering presence of toys in children's subconscious minds",
+              "transferred_attributes": [
+                "existence within a dream state",
+                "closeness to the child's vision"
+              ],
+              "vehicle_concept": "dreamers residing inside eyes"
+            },
+            "source_span_original": "सपने देखते हैं वो,\nबच्चों की आँखों में छिपे।",
+            "source_span_translation": "They dream,\nHidden in the eyes of children.",
+            "source_term": "सपने देखते हैं वो,\nबच्चों की आँखों में छिपे।",
+            "tenor": "The toys' symbolic presence in the thoughts and dreams of sleeping children",
+            "vehicle": "Beings dreaming inside someone else's eyes",
+            "visualization_difficulty": "HIGH",
+            "visualization_strategy": "Show a peaceful, sleeping child with a soft, dream-like bubble above their head depicting them playing happily with their favorite toys."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The Hindi line 'सपने देखते हैं वो' uses the pronoun 'वो' (they) referring to the toys, but the final line 'बच्चों की आँखों में छिपे' (hidden in the eyes of children) uses the masculine plural past participle 'छिपे' (hidden), which grammatically links back to the dreams ('सपने', masculine plural) rather than the toys. The English translation 'They dream, / Hidden in the eyes of children' leaves it ambiguous whether 'Hidden' refers to 'They' (the toys) or the 'dreams', losing the precise grammatical alignment of the Hindi text.",
+            "where": "L12-L13"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The imaginative life of toys and their connection to the inner world of children"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "खिलौना  \nखिलौने के रंग बिरंगे सपने,  \nचुपके से बुलाते हैं मुझे।  \nहर एक खिलौना एक कहानी,  \nकभी खुशी, कभी उदासी की।  \n\nगेंद लुड़कती है, हंसती है,  \nबच्चों की मुस्कान में।  \nगाड़ी दौड़ती है, हवा में उड़ती,  \nखुशियों का हर पल बनाती।  \n\nपर जब रात आती है,  \nखिलौने चुप हो जाते हैं।  \nसपने देखते हैं वो,  \nबच्चों की आँखों में छिपे।",
+  "poem_id": "MV++_0266",
+  "poem_title": "Khilona",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "33272474bbecb6ab56c1c625c2b3d658d18cc30c4e09f13b17246ab8ff2275ca",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0266.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "The Toy  \nThe colorful dreams of toys,  \nSilently beckon me.  \nEach toy tells a story,  \nOf joy, sometimes of sorrow.  \n\nThe ball rolls, laughing,  \nIn the smiles of children.  \nThe car races, flies in the air,  \nCreating moments of happiness.  \n\nBut when night falls,  \nThe toys become silent.  \nThey dream,  \nHidden in the eyes of children.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T11:06:16.074535+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "171d29a9a8e0f3ec994d08f54d54056fadbd0ffaeaa5c46584c61dbd1beeeb13",
+        "response_hash": "cf9d93520873ad6a06e4882523679e109b439ae5ec9dba2a9a2f5b6ad75fecc2",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4d7f4ae100e00ec8a4ca66ee47c9c569c7c3a8c131e131ab6460acbe3230844a",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "647c005e61011d9289f60a4d908883248db74ea3060ae1833f10e64d68e283c5",
+        "response_hash": "3f41fc0c0db3a00407fd3f5effe2612a154405509617f719eb9f4e311d8431cd",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3767118ac9e74859161552a8d3b97b3aec3aeb2b2ff9e937ce9780ea195764cd",
+        "response_hash": "71d1e73b630d2c62e1513352652f9b0808ca5b8bdc0f31a4142674a998623e8c",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "5bed6e6125d2eb4219bd374781fa5c61959e3d74fa0b89a6d976f8bd3e4e434f",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "aef5c56fcdbba6b29f18bc4a467299170ff8b36dc67e35e99ca0da8994273c65",
+    "translation_sha256": "bc4855bf37ad1a0f3fbb1f9026b4f0e46ce1364a863e440cb31b68fe43f49640"
+  }
+}

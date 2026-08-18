@@ -1,0 +1,224 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [
+          "A soft breeze swaying green leaves",
+          "A gentle wind carrying fallen petals"
+        ],
+        "category": "REGIONAL_SYMBOL",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "Refers to 'thendral', the cool, gentle southern breeze highly celebrated in Tamil literature and culture as a symbol of comfort, romance, and poetic beauty.",
+        "line_ref": "L1",
+        "negative_confusions": [
+          "A violent storm or cold northern wind",
+          "A heavy monsoon gale"
+        ],
+        "preserved": true,
+        "romanization": "thendralin",
+        "source_span_original": "தென்றலின்",
+        "source_span_translation": "the breeze",
+        "stanza_index": 1,
+        "term": "தென்றலின்",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [
+          "A gentle, invisible wind rustling leaves or hair softly",
+          "Warm, pleasant outdoor atmosphere"
+        ],
+        "visual_priority": "supporting"
+      }
+    ],
+    "emotional_arc": "A gentle progression from natural wonder to deep emotional devotion and spiritual connection.",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The gentle breeze is imagined as having eyes, suggesting a conscious, witnessing presence of nature.",
+            "acceptable_visual_variants": [
+              "A soft breeze blowing through a window with curtains gently swaying",
+              "Sunlight filtering through leaves as a gentle wind moves them"
+            ],
+            "expression_type": "personification",
+            "line_ref": "L1",
+            "literal_meaning": "In the eyes of the southern breeze",
+            "literalization_risk": "Drawing literal eyes floating in the wind or on a cloud can look cartoonish or monstrous.",
+            "metaphor_mapping": {
+              "tenor_concept": "the gentle breeze",
+              "transferred_attributes": [
+                "sight",
+                "consciousness",
+                "presence"
+              ],
+              "vehicle_concept": "human eyes"
+            },
+            "source_span_original": "தென்றலின் விழிகளில்",
+            "source_span_translation": "In the eyes of the breeze",
+            "source_term": "தென்றலின் விழிகளில்",
+            "tenor": "the gentle breeze",
+            "vehicle": "eyes of a person",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a gentle breeze rustling leaves or grass, with subtle light patterns suggesting a watchful, warm presence."
+          },
+          {
+            "abstract_meaning": "The beloved's smile is compared to rain, suggesting it is refreshing, abundant, and life-giving.",
+            "acceptable_visual_variants": [
+              "A close-up of a smiling face with fresh dew or light rain on nearby flowers",
+              "A person laughing joyfully under a light, sunlit summer shower"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L2",
+            "literal_meaning": "The rain of your smile",
+            "literalization_risk": "Depicting actual rain falling from a mouth or a literal storm of smiles would look bizarre and ruin the romantic tone.",
+            "metaphor_mapping": {
+              "tenor_concept": "a smile",
+              "transferred_attributes": [
+                "refreshing quality",
+                "abundance",
+                "bringing life and joy"
+              ],
+              "vehicle_concept": "rain"
+            },
+            "source_span_original": "உன் சிரிப்பின் மழை",
+            "source_span_translation": "The rain of your smile",
+            "source_term": "உன் சிரிப்பின் மழை",
+            "tenor": "your smile",
+            "vehicle": "rain",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Show a joyful person smiling, with soft, sparkling raindrops falling in the background, catching the light."
+          },
+          {
+            "abstract_meaning": "The speaker's love is compared to blooming flowers, representing beauty, growth, and vulnerability.",
+            "acceptable_visual_variants": [
+              "A garden of vibrant, blooming flowers in soft focus",
+              "Hands gently offering a single, perfect blossom"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L3",
+            "literal_meaning": "The flowers of my love",
+            "literalization_risk": "Depicting literal flowers growing out of a human heart or chest can look like a medical anomaly or body horror.",
+            "metaphor_mapping": {
+              "tenor_concept": "love",
+              "transferred_attributes": [
+                "beauty",
+                "blooming",
+                "delicacy",
+                "growth"
+              ],
+              "vehicle_concept": "flowers"
+            },
+            "source_span_original": "என் காதலின் பூக்கள்",
+            "source_span_translation": "The flowers of my love",
+            "source_term": "என் காதலின் பூக்கள்",
+            "tenor": "my love",
+            "vehicle": "flowers",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict a person holding a beautiful, fresh bouquet of blooming flowers, or flowers opening up in nature to symbolize blossoming affection."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The genitive case marker '-in' (in 'thendralin', 'sirippin', 'kaadhalin') and the locative case marker '-il' (in 'vizhiyil') are fused onto the noun stems in Tamil's agglutinative structure, creating a tight, rhythmic flow that is flattened into English prepositions ('In the', 'of the').",
+            "where": "L1-L3"
+          }
+        ],
+        "translation_quality": "faithful"
+      }
+    ],
+    "theme": "The sacred, transformative power of love as reflected in the natural world and the soul."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Tamil",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "தென்றலின் விழிகளில்,  \nஉன் சிரிப்பின் மழை,  \nஎன் காதலின் பூக்கள்,  \nஆன்மாவின் பரிசு!",
+  "poem_id": "MV++_1422",
+  "poem_title": "Thendralin Vizhiyil",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "39e1e331820f3a7ee09f63f5546bf88629298766477c385c4ba874b63638673c",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Tamil/MV++_1422.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the eyes of the breeze,  \nThe rain of your smile,  \nThe flowers of my love,  \nA gift of the soul!",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T13:31:57.273904+00:00",
+    "language_profile_version": "5N.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a655fe1d6144bee11ebe3bedcfc4a8171abd50d942815fabafaa4bd2b24403a0",
+        "response_hash": "d4f6ccedf08c3cda8f0a261cc8ce7ed0a10eb25361841c11be1d023386c4b99b"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "082bd21430129eba89a4acaf9d0d0df2fb9297cff852689230f1520adfdbffaf",
+        "response_hash": "55695816ce840c69f284ba80571ee71174571c22373e4d4a38adcb8c85c106c1",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "414182bd47711d1af8c268fa9076c6f9995ea2b0cd5ae04499bf37e36f9e6f5a",
+        "response_hash": "076ff431480151e4609277a1040d6f5c57455b1feee60c999c0e639495d0415e",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "3a226f427c173d30fc13c538d0ae8194c5406c1f65214b6140cbbb13d11c6297",
+        "response_hash": "03180d4d892f118c1cb0c2066e5ecf1ede17ab355b596545965b6319cc0155a6",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "d00a298bbc8a61c3bcf394a99b412ea8be2dea941d831dc429122850ac726adf",
+        "response_hash": "79af912bd3031caf7e05931ef3e3758f167f63ccb6c4a64a29565a038876a4a9",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "11c26d30f995effae926697121139bd942d12d5f69a90f9074fce965127fcf50",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "56ebe1d983091df6b3e1ab3378f5adebef84996f65ace059ff6ea977eba8cf14",
+    "translation_sha256": "3a622766695069731f0232115ab18751f53d4518f28b91a21570de224a7385f5"
+  }
+}

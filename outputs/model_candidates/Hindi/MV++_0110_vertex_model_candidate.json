@@ -1,0 +1,234 @@
+{
+  "annotation": {
+    "cultural_entities": [
+      {
+        "acceptable_visual_variants": [],
+        "category": "DEITY",
+        "cultural_specificity_level": "CULTURALLY_CONTEXTUAL",
+        "gloss": "An Arabic-derived vocative address to God, commonly used in Islamic and Hindustani devotional contexts to invoke the Divine.",
+        "line_ref": "L2",
+        "negative_confusions": [],
+        "preserved": true,
+        "romanization": "Ya Allah",
+        "source_span_original": "या अल्लाह",
+        "source_span_translation": "Oh Allah",
+        "stanza_index": 1,
+        "term": "या अल्लाह",
+        "translation_note": "",
+        "translation_status": "PRESERVED",
+        "visual_features": [],
+        "visual_priority": "non_visual"
+      }
+    ],
+    "emotional_arc": "A passionate plea for divine pain and madness shifts to a humble declaration of faith, recognizing God as the ultimate healer.",
+    "recitation_style": "devotional",
+    "stanzas": [
+      {
+        "emotion": "devotion",
+        "index": 1,
+        "loss_note": "The translation renders 'daaman' (the hem of a garment or lap, metaphorically representing one's capacity to receive or hold) as 'heart', which shifts the physical metaphor of catching a gift to an internal emotional state.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "To fill one's life, heart, or being with a specific feeling or state (in this case, pain).",
+            "acceptable_visual_variants": [
+              "A person kneeling in prayer with open hands, looking upward in surrender.",
+              "A close-up of a person's face showing a mixture of deep sorrow and spiritual devotion."
+            ],
+            "expression_type": "idiom",
+            "line_ref": "L1",
+            "literal_meaning": "To fill the hem or skirt of a garment",
+            "literalization_risk": "An illustrator might literally depict a person holding out the hem of their shirt or dress and having physical pain-objects poured into it, which looks bizarre and misses the emotional depth.",
+            "metaphor_mapping": {
+              "tenor_concept": "human heart or life capacity",
+              "transferred_attributes": [
+                "capacity to hold or carry something"
+              ],
+              "vehicle_concept": "garment hem"
+            },
+            "source_span_original": "दामन भर दे",
+            "source_span_translation": "Fill my heart",
+            "source_term": "दामन भर दे",
+            "tenor": "The speaker's heart, life, or capacity to experience emotion being filled with pain",
+            "vehicle": "The hem or skirt of a garment (daman) being filled with physical objects",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person in a posture of deep emotional surrender or prayer, perhaps with hands open, where the focus is on their internal emotional state rather than a literal garment."
+          }
+        ],
+        "tone": "prayer",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation renders 'daman' (the hem of a garment or lap, used metaphorically as a vessel to receive gifts or pain) as 'heart', losing the physical, tactile imagery of holding out one's garment to be filled.",
+            "where": "L1"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "devotion",
+        "index": 2,
+        "loss_note": "The translation of 'tu hi to' as 'You are' loses the emphatic particle 'to' which underscores that God, and absolutely no one else, is the healer.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "Grand, impossible, or worldly desires and luxuries.",
+            "acceptable_visual_variants": [
+              "A starry night sky visible through a window while the speaker sits in quiet contemplation inside.",
+              "The faint silhouette of a person looking away from a bright, beautiful night sky."
+            ],
+            "expression_type": "symbolism",
+            "line_ref": "L5",
+            "literal_meaning": "The moon and stars",
+            "literalization_risk": "Depicting a person literally reaching for or rejecting physical stars and a crescent moon in the sky, which makes the scene look like a fantasy or children's story rather than a spiritual plea.",
+            "metaphor_mapping": {
+              "tenor_concept": "lofty worldly desires",
+              "transferred_attributes": [
+                "remoteness",
+                "brilliance",
+                "desirability"
+              ],
+              "vehicle_concept": "celestial bodies"
+            },
+            "source_span_original": "चाँद सितारे",
+            "source_span_translation": "stars or moon",
+            "source_term": "चाँद सितारे",
+            "tenor": "Materialistic, grand, or superficial wishes and desires",
+            "vehicle": "The celestial bodies in the night sky",
+            "visualization_difficulty": "LOW",
+            "visualization_strategy": "Depict the night sky with the moon and stars shining brightly, but keep them in the background as a distant, unreached element while the subject remains focused on their internal state."
+          },
+          {
+            "abstract_meaning": "The ultimate source of healing, comfort, and relief for emotional or spiritual suffering.",
+            "acceptable_visual_variants": [
+              "A warm, golden light shining down on a person who looks comforted and at peace.",
+              "A gentle hand resting reassuringly on a person's shoulder, symbolizing comfort and healing."
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7-L8",
+            "literal_meaning": "Ointment or salve for physical wounds",
+            "literalization_risk": "An illustrator might depict someone applying physical cream or bandages to bloody cuts, which is overly graphic and misses the spiritual nature of the healing.",
+            "metaphor_mapping": {
+              "tenor_concept": "divine comfort for emotional pain",
+              "transferred_attributes": [
+                "soothing",
+                "healing",
+                "restorative"
+              ],
+              "vehicle_concept": "healing ointment"
+            },
+            "source_span_original": "ज़ख्मों का\nमरहम",
+            "source_span_translation": "healer of wounds",
+            "source_term": "ज़ख्मों का\nमरहम",
+            "tenor": "Divine healing, comfort, and spiritual relief provided by God",
+            "vehicle": "Medicinal ointment applied to physical cuts or injuries",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Use soft, warm light enveloping a person in pain to symbolize comfort and healing without showing physical wounds or medical ointments."
+          }
+        ],
+        "tone": "declaration",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation collapses the emphatic particle 'hi to' (तू ही तो), which strongly emphasizes that Allah and only Allah is the ultimate healer, into a simpler declarative statement.",
+            "where": "L7-L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The ecstatic surrender to divine will, where suffering is embraced as a gift and God is sought as the sole healer rather than worldly desires."
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [
+    {
+      "field_path": "cultural_entities[0].line_ref",
+      "issue": "The cultural entity 'या अल्लाह' (Ya Allah) occurs multiple times in the poem (L2, L4, L8), but the line_ref only points to L2. It should ideally reference all occurrences (L2, L4, L8) or be documented as occurring across both stanzas since stanza_index is set to 1 but it also appears in stanza 2.",
+      "severity": "medium"
+    }
+  ],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "दर्द से मेरा दामन भर दे  \nया अल्लाह  \nफिर चाहे दीवाना कर दे  \nया अल्लाह  \n\nमैंने तुझसे चाँद सितारे  \nकभी न मांगे  \nतू ही तो ज़ख्मों का  \nमरहम है या अल्लाह",
+  "poem_id": "MV++_0110",
+  "poem_title": "Dard Se Mera Dena",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "261ade97e9930c96f16acce893f160db2681e7bbfcbb8b0ab8647ddc0ca6768d",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0110.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "Fill my heart with pain,  \nOh Allah,  \nEven if it drives me insane,  \nOh Allah.  \n\nNever did I ask for stars or moon,  \nYou are the healer of wounds,  \nOh Allah.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:47:32.540295+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "4869da508df3da64ec84ec8e2aa134717785ff8233caaffa155ce46dd075d3e6",
+        "response_hash": "ceddddca2b9ab89cd0e353347ef6927cfd6f58a540c94e86a6f9ad40a8a22347"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "f13d212e20f1d04c8a853a2b4d01e414cf7f0a3a5ff370681a3e0e31c210c9f1",
+        "response_hash": "07773c76fdd3a7fad9026286e16318253e8db2fcb129bc48f9d27f16215de9b0",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e8e1ac11c3d952e5df96a6ce257354e825aede861916839547378aa9548e5a7c",
+        "response_hash": "c71ae23b80a7224e2b870c6d8b2cdecf54624ad62871edaa27e6d4b0705c55c9",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "e34655063dba945128e044bb90e8a43377e4584307e37d904b1f3b4bee8ca3eb",
+        "response_hash": "cb44d49f10ebbb11b58037565a9b437bda20daeb8e5aa6c80feb35ec4178a9cf",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0d9068ede9efc75387443a80282a4f8c52ef04f32954d16cdc94a4359c2cce5a",
+        "response_hash": "2db80c3a8615a1b2632e7f28702a3d52d66428ae8f2707d4900dccc8fd6ebb93",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "98f10f87d55e695d406f563566885f510c614679ba73dbc9e6d5e42422f270fa",
+        "response_hash": "ec86f1009de9839920d48e2ae9c893865debbed0d8eb07f4ac71dd65bc9c3ccf",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "4a96f88b5637f5227c17620f5f422e13c70d457295046cefd69f5c9a86768edf",
+    "translation_sha256": "01ac65615f97e3cec1f29f6d90dfee0fda4da4e44c1a56e6bccca235fec37c1d"
+  }
+}

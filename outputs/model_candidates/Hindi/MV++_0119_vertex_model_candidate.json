@@ -1,0 +1,195 @@
+{
+  "annotation": {
+    "cultural_entities": [],
+    "emotional_arc": "longing to deep remembrance and peace",
+    "recitation_style": "reflective",
+    "stanzas": [
+      {
+        "emotion": "longing",
+        "index": 1,
+        "loss_note": "The translation adds 'with no end' to rhyme, which is not in the Hindi text, and alters the structure of the final line.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The mental space where memories are stored, nurtured, and revisited.",
+            "acceptable_visual_variants": [
+              "A person walking through a misty, beautiful garden where flowers represent different past moments",
+              "A stylized, dreamlike garden with glowing floral elements representing memories"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L1",
+            "literal_meaning": "A garden made of memories",
+            "literalization_risk": "Showing a literal physical garden with memories hanging like fruits or flowers, which might look surreal or cartoonish.",
+            "metaphor_mapping": {
+              "tenor_concept": "memory",
+              "transferred_attributes": [
+                "cultivation",
+                "growth",
+                "beauty",
+                "containment"
+              ],
+              "vehicle_concept": "garden"
+            },
+            "source_span_original": "स्मृतियों की बगिया",
+            "source_span_translation": "garden of memories",
+            "source_term": "स्मृतियों की बगिया",
+            "tenor": "The human mind's memory storage and recollection",
+            "vehicle": "A garden (bahiya) with plants, flowers, or paths",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Depict a person sitting in a lush, peaceful garden setting, with faint, translucent, or glowing scenes of past moments woven into the foliage or paths."
+          }
+        ],
+        "tone": "tenderness",
+        "translation_loss": [
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds the phrase 'with no end' to create a rhyme, which is not present in the original Hindi text. The original simply states 'those days are mine again today' (वो दिन आज फिर से मेरे हैं).",
+            "where": "L4"
+          }
+        ],
+        "translation_quality": "partial"
+      },
+      {
+        "emotion": "peace",
+        "index": 2,
+        "loss_note": "The translation renders 'man' (mind/heart/soul) as 'heart' and adds 'as you are' to complete the rhyme, shifting the internal reflective quality of the original.",
+        "metaphor_spans": [
+          {
+            "abstract_meaning": "The deepest, most sincere, or innermost part of one's emotional and mental self.",
+            "acceptable_visual_variants": [
+              "A person in deep meditation or contemplation with a vast, starry night sky or deep blue background",
+              "A close-up of a person's face showing intense, quiet longing and sincerity"
+            ],
+            "expression_type": "metaphor",
+            "line_ref": "L7",
+            "literal_meaning": "The physical depth or deep bottom of the mind/heart",
+            "literalization_risk": "Depicting a literal deep hole, cavern, or ocean trench inside a physical heart or head, which would look anatomically bizarre or grotesque.",
+            "metaphor_mapping": {
+              "tenor_concept": "emotional intensity",
+              "transferred_attributes": [
+                "profundity",
+                "hiddenness",
+                "vastness"
+              ],
+              "vehicle_concept": "physical depth"
+            },
+            "source_span_original": "मन की गहराई",
+            "source_span_translation": "depths of my heart",
+            "source_term": "मन की गहराई",
+            "tenor": "The innermost, sincere, and profound level of human emotion and consciousness",
+            "vehicle": "A deep physical space, abyss, or ocean floor",
+            "visualization_difficulty": "MEDIUM",
+            "visualization_strategy": "Focus on the emotional expression of the character in deep contemplation, perhaps using soft, deep blue or dark background tones to suggest depth and introspection without drawing a literal cavern."
+          }
+        ],
+        "tone": "whisper",
+        "translation_loss": [
+          {
+            "severity": "low",
+            "what_was_lost": "The translation renders 'मन' (man) as 'heart', which collapses the distinct Sanskrit/Hindi concept of 'man' (mind, heart, psyche, or inner seat of emotion and thought) into the purely emotional English 'heart'.",
+            "where": "L7"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation adds 'as you are' to complete a rhyme, which is absent in the original Hindi text. The original simply says 'I am remembering you again' (तुम्हें फिर से याद कर रहा हूँ).",
+            "where": "L8"
+          },
+          {
+            "severity": "medium",
+            "what_was_lost": "The translation loses the explicit masculine grammatical gender of the speaker indicated by the verb form 'कर रहा हूँ' (kar raha hoon), rendering it as a gender-neutral 'I remember'.",
+            "where": "L8"
+          }
+        ],
+        "translation_quality": "partial"
+      }
+    ],
+    "theme": "The enduring presence of a loved one in the garden of memory and thoughts"
+  },
+  "assignee": "teammate_3",
+  "candidate_complete": true,
+  "candidate_status": "MODEL_CANDIDATE",
+  "consistency_review_findings": [],
+  "human_review_items": [],
+  "language": "Hindi",
+  "native_review_required": true,
+  "not_gold": true,
+  "not_human_approved": true,
+  "not_silver": true,
+  "original_poem": "स्मृतियों की बगिया में,  \nतुम फिर आ बसे हो।  \nबिछड़े थे जो कभी,  \nवो दिन आज फिर से मेरे हैं।\n\nविचारों में तुम हो,  \nखोए-खोए पल में।  \nमन की गहराई से,  \nतुम्हें फिर से याद कर रहा हूँ।",
+  "poem_id": "MV++_0119",
+  "poem_title": "Yaad",
+  "review_status": "REVIEW_PENDING",
+  "schema_version": "1.1",
+  "source_provenance": {
+    "file_sha256": "42427b0474980271238ec3d64a597470d1e2a790613b11cc72d281ec16e26b77",
+    "kind": "source_corpus_export",
+    "path": "data/source_corpus/Hindi/MV++_0119.json"
+  },
+  "stop_gate_passed": true,
+  "translated_poem": "In the garden of memories,  \nYou have settled once again.  \nThose days we parted ways,  \nToday they return to me, with no end.\n\nYou dwell in my thoughts,  \nIn moments lost and far.  \nFrom the depths of my heart,  \nI remember you as you are.",
+  "unresolved_paths": [],
+  "vertex_provenance": {
+    "api_version": "v1",
+    "completeness_contract_version": "5K.2.1",
+    "generated_by": "google_genai_vertex",
+    "generation_timestamp": "2026-08-18T10:48:32.243031+00:00",
+    "language_profile_version": "5K.1.0",
+    "lifecycle_status": "MODEL_CANDIDATE",
+    "location": "global",
+    "model_id": "gemini-3.5-flash",
+    "native_review_required": true,
+    "not_gold": true,
+    "not_human_approved": true,
+    "not_silver": true,
+    "project_id": "morphoverse-pilot",
+    "provider": "Google Vertex AI",
+    "repair_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "abd27afd2d3c5fef6598f3894bbfcf5516984ba5103bf0d43495763c769372fa",
+        "response_hash": "a169ab50b9a84dbaa73c2a2e2686b080165e8c57c9c1fbf4a2d19888064a30a6"
+      }
+    ],
+    "schema_contract_version": "5K.2.0",
+    "section_generation_attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "69fc36f5ada76ea8ebcfc7dc6386f0f2569ebdf0f15b186a857af3fa1e788ce9",
+        "response_hash": "9418f8ff6a6a8f5da6b41b4285ec9d8e572364a08d0ce7fde41218e32c1f9157",
+        "section": "POEM_AND_STANZA_OVERVIEW"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a75c9b40c084139ca976991f8dbe32fac159205a669177f026ca396c23f02ef0",
+        "response_hash": "e389ffd0b8840503ec8b34dfb75b5347204fa86f843e5adff2b027e69dd178be",
+        "section": "CULTURAL_ENTITIES"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "99562f2d26ca908d5fe510260d856173ae734b74f81443be4fbbfde9f874f059",
+        "response_hash": "b1d88284dbff5481c2d66d72f28a6d12238f51146d9804497117c75f3cc43be9",
+        "section": "FIGURATIVE_EXPRESSIONS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "0bf93897185a145d5b5380d60537e5091059da19d75e2a069f67799802697dde",
+        "response_hash": "b4d8baee4cafc850fb5fa35068d43a72cb4b1c9fb51b6d2840d661d72114c08f",
+        "section": "TRANSLATION_LOSS"
+      },
+      {
+        "attempt": 1,
+        "outcome": "success",
+        "prompt_hash": "a211ea0b4a6de897f266952077f16c4f9d068db52a3688e7bb2b0ebd8aea00a0",
+        "response_hash": "85d1088ee622d91740aada31112c17d1de36476505181472e229b764282cfdd3",
+        "section": "CONSISTENCY_REVIEW"
+      }
+    ],
+    "shared_prompt_version": "5K.2.0",
+    "source_poem_sha256": "2974cf096edb7b14959a16b20d552054bce8141f0911b8cb92734b7fca8a4d02",
+    "translation_sha256": "52829a9349e1bca696eda3dca63a0abc994e9482f12c66969706be0ec861314e"
+  }
+}
